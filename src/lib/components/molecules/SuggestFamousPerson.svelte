@@ -330,7 +330,13 @@
 			<div bind:this={verificationContainer}></div>
 			{#if verificationError}
 				<p class="error" role="alert">{verificationError}</p>
-				<Button type="button" size="sm" onclick={resetVerification} disabled={loading}>
+				<Button
+					type="button"
+					variant="secondary"
+					size="sm"
+					onclick={resetVerification}
+					disabled={loading}
+				>
 					Retry verification
 				</Button>
 			{:else if verificationStarted && !verificationToken}
@@ -353,8 +359,7 @@
 
 	{#if remainingSuggestions < MAX_SUGGESTIONS}
 		<p
-			class="suggestions-remaining"
-			class:limit-reached={remainingSuggestions <= 0}
+			class={['suggestions-remaining', { 'limit-reached': remainingSuggestions <= 0 }]}
 			aria-live="polite"
 		>
 			{#if remainingSuggestions > 0}
@@ -369,11 +374,15 @@
 <style lang="scss">
 	.waitlist-section {
 		text-align: center;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		padding: 2rem;
 		border-radius: var(--base-border-radius);
+		font-family: var(--font-talk);
 
 		h2 {
+			font-family: var(--font-talk);
+			font-weight: 600;
+			color: var(--text);
 			margin-top: 0;
 			margin-bottom: 1.5rem;
 		}
@@ -395,19 +404,32 @@
 		label {
 			display: block;
 			margin-bottom: 0.35rem;
-			color: var(--ink-bright);
-			font-size: 0.875rem;
+			color: var(--text-faint);
+			font-size: var(--font-size-xs);
 			font-weight: 600;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
 		}
 
 		input {
 			width: 100%;
+			min-height: 48px;
 			padding: 0.75rem 1rem;
 			border-radius: var(--base-border-radius);
-			border: 1px solid var(--stone-edge);
-			background: var(--night-deep);
-			color: var(--ink-bright);
-			font-size: 1rem;
+			border: 1px solid var(--rule);
+			background: var(--surface-raised);
+			color: var(--text);
+			font-family: var(--font-talk);
+			font-size: var(--font-size-base);
+			transition: border-color 0.2s ease;
+
+			&::placeholder {
+				color: var(--text-faint);
+			}
+
+			&:hover:not(:disabled) {
+				border-color: color-mix(in srgb, var(--highlight) 30%, var(--rule));
+			}
 		}
 
 		input[aria-invalid='true'] {
@@ -415,7 +437,8 @@
 		}
 
 		input:focus {
-			outline: 2px solid var(--lamp-glow);
+			border-color: var(--highlight);
+			outline: 2px solid var(--focus);
 			outline-offset: 2px;
 		}
 	}
@@ -438,14 +461,14 @@
 	}
 
 	.verification-status {
-		font-size: 0.875rem;
-		color: var(--ink-dim);
+		font-size: var(--font-size-sm);
+		color: var(--text-faint);
 	}
 
 	.error,
 	.status {
 		margin-top: 0.5rem;
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 	}
 
 	.error {
@@ -458,8 +481,8 @@
 
 	.suggestions-remaining {
 		margin-top: 0.75rem;
-		font-size: 0.8rem;
-		color: var(--ink-dim);
+		font-size: var(--font-size-xs);
+		color: var(--text-faint);
 
 		&.limit-reached {
 			color: var(--error-text);
@@ -470,7 +493,7 @@
 	input:disabled {
 		opacity: 0.5;
 		cursor: not-allowed;
-		background-color: var(--stone-mid);
+		background-color: var(--surface);
 	}
 
 	@media only screen and (min-width: 768px) {
@@ -498,10 +521,5 @@
 				margin-top: 1.45rem;
 			}
 		}
-	}
-
-	::placeholder {
-		color: var(--lamp-glow);
-		opacity: 0.7;
 	}
 </style>

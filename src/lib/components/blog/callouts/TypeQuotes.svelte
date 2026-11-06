@@ -2,8 +2,12 @@
 <!--
   Displays characteristic quotes/statements from Enneagram types.
   Shell renders through the shared <Callout> base (2026-06-10 consolidation);
-  the title becomes the base's mono kicker label. The 'minimal' variant
+  the title becomes the base's Archivo label. The 'minimal' variant
   (no shell) keeps its bare rendering. Public props unchanged.
+
+  Cold Light (2026-11-06): one tint. Per-type colors no longer paint the
+  badges or bars; every badge is --text-faint on a --rule ring, and the quote
+  itself is the inner voice (Playfair italic, lavender).
 
   Usage:
   <TypeQuotes
@@ -17,7 +21,7 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import Callout from './Callout.svelte';
-	import { getTypeColorSet, ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
 	interface TypeQuote {
 		type: number;
@@ -32,8 +36,8 @@
 		quotes?: TypeQuote[];
 		/**
 		 * Visual style variant
-		 * - 'default': brand amber accent
-		 * - 'subtle': neutral ink accent
+		 * - 'default': indigo --accent bar
+		 * - 'subtle': faint neutral bar
 		 * - 'minimal': no shell, just styled quotes
 		 */
 		variant?: 'default' | 'subtle' | 'minimal';
@@ -49,10 +53,6 @@
 	const typeNames: Record<number, string> = Object.fromEntries(
 		Object.entries(ENNEAGRAM_TYPE_COLORS).map(([k, v]) => [Number(k), v.name])
 	);
-
-	function getTypeColor(type: number) {
-		return getTypeColorSet(type);
-	}
 </script>
 
 {#if variant === 'minimal'}
@@ -62,11 +62,7 @@
 		{/if}
 		<div class="type-quotes__list">
 			{#each quotes as { type, quote, note } (`${type}:${quote}`)}
-				{@const colors = getTypeColor(type)}
-				<div
-					class="type-quote"
-					style="--type-bg: {colors.bg}; --type-text: {colors.text}; --type-border: {colors.border};"
-				>
+				<div class="type-quote">
 					<span class="type-quote__badge" title={typeNames[type]}>Type {type}</span>
 					<span class="type-quote__text">"{quote}"</span>
 					{#if note}
@@ -85,11 +81,7 @@
 	<Callout tone={variant === 'subtle' ? 'neutral' : 'lamp'} label={title}>
 		<div class="type-quotes__list">
 			{#each quotes as { type, quote, note } (`${type}:${quote}`)}
-				{@const colors = getTypeColor(type)}
-				<div
-					class="type-quote"
-					style="--type-bg: {colors.bg}; --type-text: {colors.text}; --type-border: {colors.border};"
-				>
+				<div class="type-quote">
 					<span class="type-quote__badge" title={typeNames[type]}>Type {type}</span>
 					<span class="type-quote__text">"{quote}"</span>
 					{#if note}
@@ -112,13 +104,14 @@
 		padding: 0.5rem 0;
 	}
 
-	.type-quotes__title {
-		font-size: 1rem;
-		font-weight: 700;
-		color: var(--ink-bright);
+	.type-quotes--minimal .type-quotes__title {
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
+		font-weight: 600;
+		color: var(--text);
 		margin: 0 0 1rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--rule);
 	}
 
 	.type-quotes__list {
@@ -133,18 +126,13 @@
 		align-items: baseline;
 		gap: 0.5rem;
 		padding: 0.75rem 1rem;
-		background: rgba(255, 255, 255, 0.03);
-		border-radius: 0.625rem;
-		border-left: 4px solid var(--type-border);
-		transition:
-			transform 0.2s ease,
-			box-shadow 0.2s ease,
-			background 0.2s ease;
+		background: var(--bg);
+		border-radius: 0 0.625rem 0.625rem 0;
+		border-left: 2px solid color-mix(in srgb, var(--accent) 70%, transparent);
+		transition: background 0.2s ease;
 
 		&:hover {
-			transform: translateX(4px);
-			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-			background: var(--type-bg);
+			background: var(--surface-raised);
 		}
 	}
 
@@ -153,27 +141,33 @@
 		align-items: center;
 		justify-content: center;
 		padding: 0.25rem 0.625rem;
-		font-size: 0.75rem;
-		font-weight: 700;
-		color: var(--type-text);
-		background: var(--type-bg);
-		border: 1px solid var(--type-border);
-		border-radius: 0.25rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-faint);
+		background: transparent;
+		border: 1px solid var(--rule);
+		border-radius: 999px;
 		white-space: nowrap;
 		flex-shrink: 0;
 	}
 
+	/* The type's inner voice: Playfair italic in lavender. */
 	.type-quote__text {
-		font-size: 1rem;
-		font-weight: 500;
-		color: var(--ink-bright);
+		font-family: var(--font-voice);
+		font-size: var(--font-size-lg);
+		font-weight: 400;
+		color: var(--highlight);
 		font-style: italic;
-		line-height: 1.5;
+		line-height: 1.45;
 	}
 
 	.type-quote__note {
-		font-size: 0.875rem;
-		color: var(--ink-mid);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
 		font-style: normal;
 		margin-left: 0.25rem;
 	}
@@ -188,11 +182,10 @@
 		}
 
 		.type-quote__text {
-			font-size: 0.9375rem;
+			font-size: var(--font-size-base);
 		}
 
 		.type-quote__note {
-			font-size: 0.8125rem;
 			display: block;
 			width: 100%;
 			margin-left: 0;

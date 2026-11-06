@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import EnneagramDiagram from './EnneagramDiagram.svelte';
+	import Button from '$lib/components/atoms/Button.svelte';
 	import { notifications } from '../molecules/notifications';
 	import { qualifiedVisibility } from '$lib/analytics/qualifiedVisibility';
 	import { prepareEmailSignup, captureEmailSignupStep } from '$lib/analytics/marketingEvents';
@@ -160,9 +161,9 @@
 								class="signup-input"
 							/>
 						</div>
-						<button type="submit" class="signup-button" disabled={loading}>
+						<Button type="submit" variant="primary" size="lg" class="signup-submit" {loading}>
 							{loading ? 'Sending...' : 'Get the next one'}
-						</button>
+						</Button>
 					</div>
 				</form>
 				{#if error}
@@ -179,14 +180,17 @@
 </div>
 
 <style lang="scss">
+	/* Cold Light: a quiet panel in the dark. The email button is the Button atom's
+	   primary (lavender); mint stays reserved for the Chorus answer above. */
 	.blog-purpose {
 		width: 100%;
 		max-width: 58rem;
 		margin: 2rem auto;
-		border-radius: 1rem;
+		border-radius: 16px;
 		overflow: hidden;
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border: 1px solid var(--rule);
+		font-family: var(--font-talk);
 
 		@media (min-width: 768px) {
 			display: grid;
@@ -198,18 +202,18 @@
 		position: relative;
 		background: linear-gradient(
 			135deg,
-			color-mix(in srgb, var(--lamp-glow) 8%, var(--stone-warm)) 0%,
-			var(--stone-warm) 72%
+			color-mix(in srgb, var(--accent) 10%, var(--surface)) 0%,
+			var(--surface) 72%
 		);
 		padding: 1.5rem;
 		overflow: hidden;
-		border-bottom: 1px solid var(--stone-mid);
+		border-bottom: 1px solid var(--rule);
 
 		@media (min-width: 768px) {
 			display: flex;
 			align-items: center;
 			border-bottom: none;
-			border-right: 1px solid var(--stone-mid);
+			border-right: 1px solid var(--rule);
 		}
 	}
 
@@ -219,12 +223,12 @@
 		background-image:
 			radial-gradient(
 				circle at 20% 80%,
-				color-mix(in srgb, var(--lamp-glow) 14%, transparent) 0%,
+				color-mix(in srgb, var(--accent) 16%, transparent) 0%,
 				transparent 55%
 			),
 			radial-gradient(
 				circle at 85% 15%,
-				color-mix(in srgb, var(--lamp-glow) 9%, transparent) 0%,
+				color-mix(in srgb, var(--accent) 10%, transparent) 0%,
 				transparent 45%
 			);
 		pointer-events: none;
@@ -241,55 +245,56 @@
 
 	/* This component mounts INSIDE article bodies whose global h3/p/a rules
 	   can tie single-class scoped selectors and win on source order. Anchoring
-	   on .cta-section adds a class of specificity to outrank them. */
-	/* Three classes deep so it also outranks `.cta-text p` below. */
-	.cta-section .cta-text .cta-kicker {
+	   on .blog-purpose .cta-section adds specificity to outrank them. */
+	.blog-purpose .cta-section .cta-text .cta-kicker {
 		margin: 0 0 0.5rem;
-		color: var(--lamp-glow) !important;
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.75rem;
-		font-weight: 700;
+		color: var(--text-faint);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
 		letter-spacing: 0.08em;
 		line-height: 1.2;
 		text-transform: uppercase;
 	}
 
-	.cta-section .cta-text h3 {
+	.blog-purpose .cta-section .cta-text h3 {
 		margin: 0 0 0.5rem;
 		padding: 0;
-		color: var(--ink-bright);
+		color: var(--text);
+		font-family: var(--font-talk);
 		font-size: 1.5rem;
-		font-weight: 700;
-		letter-spacing: -0.015em;
+		font-weight: 600;
+		letter-spacing: -0.01em;
 		line-height: 1.2;
 	}
 
-	.cta-section .cta-text p {
+	.blog-purpose .cta-section .cta-text p:not(.cta-kicker) {
 		margin: 0;
-		color: var(--ink-bright) !important;
-		font-size: 0.875rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
 	.signup-copy {
 		width: 100%;
 		padding-top: 0.875rem;
-		border-top: 1px solid var(--stone-mid);
+		border-top: 1px solid var(--rule);
 	}
 
-	.cta-section .signup-copy h4 {
+	.blog-purpose .cta-section .signup-copy h4 {
 		margin: 0 0 0.25rem;
 		padding: 0;
-		color: var(--ink-bright);
-		font-size: 1rem;
-		font-weight: 700;
+		color: var(--text);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
+		font-weight: 600;
 		line-height: 1.3;
 	}
 
-	.cta-section .signup-copy p {
+	.blog-purpose .cta-section .signup-copy p {
 		margin: 0;
-		color: var(--ink-mid) !important;
-		font-size: 0.875rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.45;
 	}
 
@@ -327,16 +332,23 @@
 		gap: 0.5rem;
 	}
 
+	/* Keep the email field usable beside the button at phone width. */
+	.signup-row :global(.signup-submit) {
+		padding-inline: 1rem;
+		font-size: var(--font-size-base);
+	}
+
 	.signup-input {
 		box-sizing: border-box;
 		width: 100%;
-		min-height: 2.75rem;
+		min-height: 3rem;
 		padding: 0.65rem 0.75rem;
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-size: 1rem;
+		border: 1px solid var(--rule);
+		border-radius: 10px;
+		background: var(--surface-raised);
+		color: var(--text);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
 		line-height: 1.2;
 		transition:
 			border-color 0.2s ease,
@@ -344,17 +356,17 @@
 			background-color 0.2s ease;
 
 		&::placeholder {
-			color: var(--ink-dim);
+			color: var(--text-faint);
 		}
 
 		&:hover {
-			border-color: color-mix(in srgb, var(--lamp-glow) 40%, var(--stone-edge));
+			border-color: color-mix(in srgb, var(--highlight) 35%, var(--rule));
 		}
 
 		&:focus {
 			outline: none;
-			border-color: var(--lamp-glow);
-			box-shadow: 0 0 0 3px var(--lamp-soft);
+			border-color: var(--highlight);
+			box-shadow: 0 0 0 1px var(--highlight);
 		}
 
 		&[aria-invalid='true'] {
@@ -362,62 +374,20 @@
 		}
 	}
 
-	.signup-button {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		min-height: 2.75rem;
-		padding: 0.65rem 0.875rem;
-		background: var(--lamp-glow);
-		color: var(--text-on-primary);
-		border: 1px solid transparent;
-		border-radius: 0.625rem;
-		font-size: 0.875rem;
-		font-weight: 700;
-		line-height: 1.2;
-		white-space: nowrap;
-		cursor: pointer;
-		transition:
-			transform 0.2s ease,
-			box-shadow 0.2s ease,
-			background-color 0.2s ease;
-
-		&:disabled {
-			cursor: wait;
-			opacity: 0.72;
-		}
-
-		&:not(:disabled):hover {
-			background: var(--lamp-light);
-			transform: translateY(-1px);
-			box-shadow: var(--shadow-sm);
-		}
-
-		&:not(:disabled):active {
-			transform: translateY(0);
-			box-shadow: none;
-		}
-
-		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
-			outline-offset: 2px;
-		}
-	}
-
 	.signup-success,
 	.signup-error {
 		margin: 0;
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.45;
 		width: 100%;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.signup-success {
 		padding: 0.7rem 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
-		border-radius: 0.625rem;
-		background: var(--lamp-soft);
+		border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+		border-radius: 10px;
+		background: color-mix(in srgb, var(--accent) 18%, transparent);
 	}
 
 	.signup-error {
@@ -425,10 +395,10 @@
 		color: var(--error-text);
 	}
 
-	.cta-section .signup-note {
+	.blog-purpose .cta-section .signup-note {
 		margin: -0.35rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.75rem;
+		color: var(--text-faint);
+		font-size: var(--font-size-xs);
 		line-height: 1.35;
 	}
 
@@ -437,7 +407,7 @@
 		place-items: center;
 		min-width: 0;
 		padding: 1.25rem 1.25rem 1rem;
-		background: linear-gradient(145deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+		background: linear-gradient(145deg, var(--surface) 0%, var(--bg) 100%);
 
 		@media (min-width: 768px) {
 			padding: 1.5rem;

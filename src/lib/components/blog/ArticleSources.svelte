@@ -111,29 +111,29 @@
 		max-width: var(--prose-measure);
 		margin: 3rem auto 3.5rem;
 		padding: 1.25rem 0 0;
-		border-top: 1px solid var(--stone-edge);
-		font-family: var(--font-display);
-		color: var(--ink-bright);
+		border-top: 1px solid var(--rule);
+		font-family: var(--font-talk);
+		color: var(--text);
 	}
 
 	.article-sources__eyebrow {
 		margin-bottom: 0.5rem;
-		font-family: var(--font-mono);
-		font-size: 11px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--data-teal);
+		color: var(--text-faint);
 	}
 
 	h2 {
 		margin: 0 0 0.85rem;
-		font-family: var(--font-display);
+		font-family: var(--font-talk);
 		font-size: clamp(20px, 2.2vw, 24px);
 		line-height: 1.2;
-		font-weight: 700;
+		font-weight: 600;
 		letter-spacing: 0;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	/* Tailwind preflight strips list markers, which left the list indented
@@ -148,25 +148,28 @@
 
 	li {
 		padding-left: 0.25rem;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		line-height: 1.45;
 
 		&::marker {
-			font-family: var(--font-mono);
-			font-size: 0.75rem;
-			color: var(--ink-dim);
+			font-family: var(--font-talk);
+			font-size: var(--font-size-xs);
+			font-variant-numeric: tabular-nums;
+			color: var(--text-faint);
 		}
 	}
 
 	a {
-		color: var(--lamp-glow);
-		text-decoration: none;
-		border-bottom: 1px solid transparent;
+		color: var(--highlight);
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.2em;
+		text-decoration-color: color-mix(in srgb, var(--highlight) 45%, transparent);
 		overflow-wrap: anywhere;
 
 		&:hover {
-			color: var(--lamp-light);
-			border-bottom-color: currentColor;
+			color: var(--text);
+			text-decoration-color: currentColor;
 		}
 	}
 
@@ -177,7 +180,7 @@
 	small {
 		display: block;
 		margin-top: 0.2rem;
-		font-size: 0.82rem;
-		color: var(--ink-dim);
+		font-size: var(--font-size-sm);
+		color: var(--text-faint);
 	}
 </style>

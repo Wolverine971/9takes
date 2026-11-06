@@ -4,23 +4,26 @@
   Extracted 2026-06-10 (design audit): five listing pages carried near-identical
   copies of this markup + ~120 lines of CSS each. One source of truth now.
 
-  - `stripe` paints the 3px top edge + eyebrow (e.g. a --type-N-color for
-	    personality-analysis, --lamp-glow for featured cards). Omit for the plain
-	    card (no top stripe, amber eyebrow).
+  Cold Light (2026-11-06): --surface card, --rule border, hover lifts onto
+  --surface-raised, lavender focus ring. Labels (eyebrow, date, recency, stub)
+  are Archivo uppercase letter-spaced in --text-faint; the title is Archivo
+  semibold.
+
+	  - `stripe` paints the 3px top edge only (featured cards default to the
+	    indigo --accent). The eyebrow is always a faint label, never tinted.
 	  - `featured` switches to the large 16/11 variant used in §02 sections.
 	  - `compactMobile` tightens card typography/images for 2-up mobile libraries.
-	  - `.mono` / global type utilities come from src/scss/index.scss.
 -->
 <script lang="ts">
 	type Props = {
 		href: string;
 		title: string;
-		/** Mono eyebrow above the title (topic / TYPE N). */
+		/** Small label above the title (topic / TYPE N). */
 		eyebrow?: string;
 		description?: string;
 		imageSrc?: string | null;
 		imageAlt?: string;
-		/** CSS color for the top stripe + eyebrow. Omit for no stripe. */
+		/** CSS color for the top stripe. Omit for no stripe (featured cards get --accent). */
 		stripe?: string | null;
 		/** Opt-in media treatment; non-personality callers keep the current default. */
 		imageTreatment?: 'default' | 'personality';
@@ -62,10 +65,14 @@
 
 <a
 	{href}
-	class="case-card"
-	class:case-card--featured={featured}
-	class:case-card--compact-mobile={compactMobile}
-	class:has-stripe={Boolean(stripe) || featured}
+	class={[
+		'case-card',
+		{
+			'case-card--featured': featured,
+			'case-card--compact-mobile': compactMobile,
+			'has-stripe': Boolean(stripe) || featured
+		}
+	]}
 	style={stripeStyle}
 	aria-label={ariaLabel || `Read ${title}`}
 >
@@ -83,13 +90,13 @@
 			/>
 		{:else}
 			<div class="case-image-stub" aria-hidden="true">
-				<span class="mono">{stubLabel}</span>
+				<span class="card-label">{stubLabel}</span>
 			</div>
 		{/if}
 	</div>
 	<div class="case-card-body">
 		{#if eyebrow}
-			<span class="mono case-id">{eyebrow}</span>
+			<span class="card-label case-id">{eyebrow}</span>
 		{/if}
 		<h3 class="case-name">{title}</h3>
 		{#if description}
@@ -98,10 +105,10 @@
 		{#if date || recency}
 			<div class="case-meta">
 				{#if date}
-					<span class="mono case-date">{date}</span>
+					<span class="card-label case-date">{date}</span>
 				{/if}
 				{#if recency}
-					<span class="mono case-recency">{recency}</span>
+					<span class="card-label case-recency">{recency}</span>
 				{/if}
 			</div>
 		{/if}
@@ -110,25 +117,23 @@
 
 <style lang="scss">
 	.case-card {
-		--case-stripe: var(--lamp-glow);
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
+		--case-stripe: var(--accent);
+		background: var(--surface);
+		border: 1px solid var(--rule);
+		border-radius: 16px;
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
 		text-decoration: none;
 		transition:
 			background 0.2s ease,
-			border-color 0.2s ease;
+			border-color 0.2s ease,
+			box-shadow 0.2s ease;
 
 		&:hover {
-			background: var(--stone-mid);
-			border-color: var(--ink-dim);
-		}
-
-		&.has-stripe:hover {
-			border-color: var(--case-stripe);
+			background: var(--surface-raised);
+			border-color: color-mix(in srgb, var(--highlight) 32%, transparent);
+			box-shadow: 0 12px 32px color-mix(in srgb, var(--accent) 14%, transparent);
 		}
 	}
 
@@ -137,6 +142,7 @@
 			transition:
 				background 0.2s ease,
 				border-color 0.2s ease,
+				box-shadow 0.2s ease,
 				transform 0.2s ease;
 
 			&:hover {
@@ -146,13 +152,13 @@
 	}
 
 	.case-card:focus-visible {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--highlight);
 		outline-offset: 2px;
 	}
 
 	.case-image-wrap {
 		position: relative;
-		border-bottom: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--rule);
 	}
 
 	.has-stripe .case-image-wrap {
@@ -168,17 +174,9 @@
 		filter: contrast(1.05) brightness(0.96) saturate(0.92);
 	}
 
-	:global(:root.light) .case-image {
-		filter: contrast(1.02) brightness(1) saturate(0.96);
-	}
-
 	.case-image.personality-portrait-image {
 		filter: var(--personality-portrait-filter);
 		mix-blend-mode: normal;
-	}
-
-	:global(:root.light) .case-image.personality-portrait-image {
-		filter: var(--personality-portrait-filter);
 	}
 
 	.case-card--featured .case-image {
@@ -191,22 +189,17 @@
 
 	.case-image-stub {
 		aspect-ratio: 4 / 3;
-		background: var(--stone-mid);
+		background: var(--surface-raised);
 		background-image: repeating-linear-gradient(
 			45deg,
 			transparent 0,
 			transparent 14px,
-			rgba(var(--pool-rgb), 0.04) 14px,
-			rgba(var(--pool-rgb), 0.04) 15px
+			color-mix(in srgb, var(--accent) 6%, transparent) 14px,
+			color-mix(in srgb, var(--accent) 6%, transparent) 15px
 		);
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
-		.mono {
-			color: var(--ink-dim);
-			font-size: 11px;
-		}
 	}
 
 	.case-card-body {
@@ -217,18 +210,24 @@
 		flex: 1;
 	}
 
-	.case-id {
-		color: var(--case-stripe);
-		font-size: 10.5px;
+	/* Labels: Archivo uppercase, letter-spaced, faint. No mono in Cold Light. */
+	.card-label {
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		line-height: 1.3;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-faint);
 	}
 
 	.case-name {
-		font-family: var(--font-display);
-		font-weight: 700;
-		font-size: 19px;
+		font-family: var(--font-talk);
+		font-weight: var(--font-weight-semibold);
+		font-size: var(--font-size-xl);
 		line-height: 1.22;
-		color: var(--ink-bright);
-		letter-spacing: -0.02em;
+		color: var(--text);
+		letter-spacing: -0.01em;
 		display: -webkit-box;
 		-webkit-line-clamp: 3;
 		line-clamp: 3;
@@ -239,15 +238,15 @@
 	}
 
 	.case-card--featured .case-name {
-		font-size: clamp(22px, 2.4vw, 30px);
+		font-size: clamp(1.375rem, 2.4vw, 1.875rem);
 		line-height: 1.14;
 	}
 
 	.case-subtitle {
-		font-family: var(--font-display);
-		font-size: 14px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		display: -webkit-box;
 		-webkit-line-clamp: 2;
 		line-clamp: 2;
@@ -257,7 +256,7 @@
 	}
 
 	.case-card--featured .case-subtitle {
-		font-size: 15px;
+		font-size: var(--font-size-base);
 		-webkit-line-clamp: 3;
 		line-clamp: 3;
 	}
@@ -270,16 +269,6 @@
 		margin-top: 6px;
 	}
 
-	.case-date {
-		color: var(--ink-dim);
-		font-size: 10.5px;
-	}
-
-	.case-recency {
-		color: var(--lamp-glow);
-		font-size: 10.5px;
-	}
-
 	/* Mobile tightening */
 	@media (max-width: 540px) {
 		.case-card-body {
@@ -287,11 +276,11 @@
 		}
 
 		.case-name {
-			font-size: 16px;
+			font-size: var(--font-size-base);
 		}
 
 		.case-subtitle {
-			font-size: 13px;
+			font-size: var(--font-size-sm);
 		}
 
 		.case-card--compact-mobile {
@@ -305,15 +294,13 @@
 				padding: 10px 10px 12px;
 			}
 
-			.case-id,
-			.case-date,
-			.case-recency {
-				font-size: 9.5px;
+			.card-label {
+				font-size: 0.625rem;
 				line-height: 1.25;
 			}
 
 			.case-name {
-				font-size: 14px;
+				font-size: var(--font-size-sm);
 				line-height: 1.18;
 				letter-spacing: 0;
 				-webkit-line-clamp: 2;
@@ -321,7 +308,7 @@
 			}
 
 			.case-subtitle {
-				font-size: 11.5px;
+				font-size: var(--font-size-xs);
 				line-height: 1.35;
 				-webkit-line-clamp: 1;
 				line-clamp: 1;

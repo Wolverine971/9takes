@@ -9,8 +9,10 @@
   component — it's a presentation layer, not a data source.
 
   Shell renders through the shared <Callout> base with tone="data"
-  (2026-06-10 consolidation) — stats are data moments, so the accent is the
-  sanctioned --data-teal (was an off-palette orange). Public props unchanged.
+  (2026-06-10 consolidation). Cold Light (2026-11-06): one tint. The bar and
+  the dot are indigo --accent, the share number is --text, the label is
+  Archivo in --text-faint, links are lavender and underlined. Public props
+  unchanged.
 -->
 <script lang="ts">
 	import Callout from './Callout.svelte';
@@ -121,15 +123,15 @@
 </Callout>
 
 <style lang="scss">
-	/* Custom mono header (dot · eyebrow · n=) — kept local; the base's plain
+	/* Custom label row (dot · eyebrow · n=) — kept local; the base's plain
 	   label doesn't carry the right-aligned sample-size meta. */
 	.corpus-stat__header {
 		display: flex;
 		align-items: center;
 		gap: 0.55rem;
 		margin-bottom: 0.55rem;
-		font-size: 0.7rem;
-		font-family: var(--font-mono);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
 	}
@@ -138,64 +140,65 @@
 		width: 6px;
 		height: 6px;
 		border-radius: 50%;
-		background: var(--data-teal);
-		box-shadow: 0 0 8px color-mix(in srgb, var(--data-teal) 60%, transparent);
+		background: var(--accent);
+		box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 60%, transparent);
 		flex-shrink: 0;
 	}
 
 	.corpus-stat__eyebrow {
-		font-weight: 700;
-		color: var(--data-teal);
+		font-weight: 600;
+		color: var(--text-faint);
 	}
 
 	.corpus-stat__meta {
 		margin-left: auto;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		font-weight: 500;
 	}
 
-	.corpus-stat__claim {
+	:global(.callout) .corpus-stat__claim {
 		margin: 0 0 0.55rem;
 		line-height: 1.55;
-		color: var(--ink-bright);
-		font-size: 1rem;
+		color: var(--text);
+		font-size: var(--font-size-base);
 	}
 
 	.corpus-stat__share {
 		display: inline-block;
-		font-family: var(--font-display, inherit);
+		font-family: var(--font-talk);
 		font-size: 1.45rem;
-		font-weight: 800;
-		color: var(--data-teal);
+		font-weight: 700;
+		color: var(--text);
 		line-height: 1;
 		margin-right: 0.35rem;
 		vertical-align: -0.05em;
 	}
 
 	.corpus-stat__delta {
-		font-family: var(--font-mono);
-		font-size: 0.82rem;
-		color: var(--ink-mid);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
 		margin-right: 0.35rem;
 	}
 
 	.corpus-stat__sentence {
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
-	.corpus-stat__source {
+	:global(.callout) .corpus-stat__source {
 		margin: 0;
-		font-size: 0.82rem;
-		color: var(--ink-mid);
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
 		line-height: 1.5;
 	}
 
-	.corpus-stat__link {
-		color: var(--lamp-glow);
-		text-decoration: none;
+	:global(.callout) .corpus-stat__link {
+		color: var(--highlight);
+		text-decoration: underline;
+		text-underline-offset: 0.18em;
 
 		&:hover {
-			text-decoration: underline;
+			color: var(--text);
 		}
 	}
 
@@ -204,12 +207,8 @@
 			font-size: 1.3rem;
 		}
 
-		.corpus-stat__claim {
-			font-size: 0.95rem;
-		}
-
-		.corpus-stat__source {
-			font-size: 0.78rem;
+		:global(.callout) .corpus-stat__source {
+			font-size: var(--font-size-xs);
 		}
 	}
 </style>

@@ -79,20 +79,16 @@
 
 <div class="interaction-div-display">
 	{#snippet submitIcon()}
-		<RightIcon
-			iconStyle="margin-left: .5rem; padding: 0 0.25rem;"
-			height="1.5rem"
-			fill="var(--lamp-glow)"
-		/>
+		<RightIcon iconStyle="margin-left: .25rem;" height="1.25rem" fill="currentColor" />
 	{/snippet}
 	<Button
 		type="button"
-		style={comment?.length > 1
-			? 'color: var(--lamp-glow); border: 1px solid var(--lamp-glow);'
-			: ''}
+		variant={comment.trim().length > 0 ? 'primary' : 'secondary'}
+		size="lg"
 		title="You only YOLO once"
 		onclick={createComment}
 		disabled={comment?.length < 1 || submitting}
+		loading={submitting}
 		iconRight={comment?.length >= 1 ? submitIcon : undefined}
 	>
 		Submit Comment
@@ -115,30 +111,27 @@
 		width: 100%;
 		min-height: 100px;
 		resize: vertical;
-		background-color: var(--stone-warm);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent) !important;
-		color: var(--ink-bright);
-		caret-color: var(--lamp-glow);
+		background-color: var(--surface-raised);
+		border: 1px solid var(--rule);
+		color: var(--text);
+		font-family: var(--font-talk);
+		caret-color: var(--highlight);
 		transition:
-			background-color 0.2s ease,
 			border-color 0.2s ease,
 			box-shadow 0.2s ease;
 
 		&::placeholder {
-			color: var(--ink-dim);
+			color: var(--text-faint);
 		}
 
 		&:hover {
-			border-color: color-mix(in srgb, var(--lamp-glow) 25%, var(--stone-warm));
+			border-color: color-mix(in srgb, var(--highlight) 30%, var(--rule));
 		}
 
 		&:focus {
-			outline: none !important;
-			background-color: var(--stone-warm);
-			border-color: color-mix(in srgb, var(--lamp-glow) 60%, var(--stone-warm));
-			box-shadow:
-				0 0 0 3px color-mix(in srgb, var(--lamp-glow) 14%, transparent),
-				0 0 18px color-mix(in srgb, var(--lamp-glow) 20%, transparent);
+			outline: none;
+			border-color: var(--highlight);
+			box-shadow: 0 0 0 1px var(--highlight);
 		}
 	}
 </style>

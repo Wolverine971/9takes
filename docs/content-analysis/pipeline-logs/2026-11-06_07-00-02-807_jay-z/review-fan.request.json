@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "jay-z",
+  "mode": "create",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/review-fan.json"
+  },
+  "content_sha256": "4a2356170694ae8b3ac178b28061e2a4275d58c0915c62614d10fcdabd31a45f",
+  "evidence_sha256": "4ee2565cbfb00bca669a6beaf0340ea841bf7678b6b77164bba6526fd99c36da"
+}

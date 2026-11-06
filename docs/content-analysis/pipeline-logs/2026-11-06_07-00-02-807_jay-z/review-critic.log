@@ -1,0 +1,19 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I wrote the critic review for the Jay-Z draft to `review-critic.json`. It passes the review schema check, and every quoted passage matches the draft exactly. I didn't change or publish anything else; the only other files are source copies saved under `/tmp/jayz-critic-src`, outside the repo.
+
+**Verdict:** the draft is honest about its weak spots, but the section that's supposed to decide Type 8 over Type 3 doesn't hold up against its own sources. There are 7 major findings and 1 minor.
+
+1. **Rage left out:** Oprah asked if his father leaving made him "the kind of angry kid" who shot his brother. He said "Yes," then added that he felt he had to protect everybody. The draft says he explained it "as protection rather than as rage," which reverses what he said.
+2. **"Each time" is false:** the draft says his reasons are always about protection, "not how it will look." But his 2019 objection to Travis Scott was billing ("second fiddle," "a stage that had an M on it"), and his Grammys complaint was about awards ("even by your own metrics").
+3. **"Never" is false:** the draft says he never describes hiding his feelings as a way to keep performing. The NPR interview it quotes has him calling rap bravado an act to hide being "scared to death."
+4. **No Type 6 test:** the draft checks 3, 9 and 5 but never a counterphobic Six. Its own evidence fits Six at least as well as Eight: being let down by someone he trusted, "survival mode," toughness covering fear, a loyalty code. Medium confidence in Eight isn't earned until Six is ruled out.
+5. **"Costly choices" that weren't costly:** getting his masters back was a condition he won when he took the Def Jam presidency, not a price he paid. The 2019 NFL deal, where he did accept public criticism to gain power, counts only as Three evidence, even though the draft's own test would partly score it as Eight.
+6. **Dame Dash quoted for the wrong point:** Dash said Jay-Z betrayed him "for money," as a music-business norm. The draft uses him as support for "control of the work," and treats Dash calling him "cold" as backing Jay-Z's word for his younger self.
+7. **The stabbing is softened:** Rolling Stone reports he "admitted to the stabbing" when he pleaded guilty, and the draft leaves that out. It's also excluded from the type argument while the brother shooting is used. And the heading "The record he does not narrate" doesn't fit, since his memoir calls it "a mindless assault."
+8. **Kanye timeline (minor):** in the same 2016 speech, West already complained "You still ain't calling me." So the draft hasn't shown the silence started when West named Beyoncé.
+
+**Passages to keep (5):** the "stage on his terms" framing, the NFL counter-case paragraph, the admission that the quiet-Eight explanation is "convenient," the undecided 2026 halftime reversal, and the closing line about his children.
+
+**How I checked:** I reopened five sources myself (theGrio 2019, the Oprah transcript, Rolling Stone 2001, The Fader 2017, Okayplayer 2022). The NYT T Magazine interview and the *Decoded* memoir still haven't been opened, as the draft already discloses. The similarity check flagged only the shared phrase "the Eight read(ing)" with the Nara Smith page, which is ordinary type vocabulary, so I didn't report it. Both risk flags stay on: sensitive allegations and contested typing.
+
+**Hash check:** I copied the content and evidence hashes from the request as instructed. Plain hashes of the two files on disk don't match them, probably because the pipeline normalizes content before hashing. If that's wrong, the pipeline will treat this review as stale.

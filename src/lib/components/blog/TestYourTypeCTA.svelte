@@ -10,6 +10,8 @@
   Bucket 3 — internal linking and graph bridging.
 -->
 <script lang="ts">
+	import Button from '$lib/components/atoms/Button.svelte';
+
 	interface Props {
 		heading?: string;
 		body?: string;
@@ -29,13 +31,16 @@
 	}: Props = $props();
 </script>
 
-<aside class="test-cta" class:compact aria-labelledby="test-cta-heading">
+<aside class={['test-cta', { compact }]} aria-labelledby="test-cta-heading">
 	<h3 id="test-cta-heading" class="test-cta-heading">{heading}</h3>
 	<p class="test-cta-body">{body}</p>
 	<div class="test-cta-actions">
-		<a class="test-cta-primary" href="/enneagram-test" data-track="blog-test-cta">{ctaLabel}</a>
+		<!-- Not mint: "test your type" is never the give-your-take action. -->
+		<Button href="/enneagram-test" variant="primary" size="lg" data-track="blog-test-cta">
+			{ctaLabel}
+		</Button>
 		{#if secondaryHref && secondaryLabel}
-			<a class="test-cta-secondary" href={secondaryHref}>{secondaryLabel}</a>
+			<Button href={secondaryHref} variant="secondary" size="lg">{secondaryLabel}</Button>
 		{/if}
 	</div>
 </aside>
@@ -46,9 +51,8 @@
 		max-width: 720px;
 		padding: 1.5rem 1.75rem;
 		border-radius: 1rem;
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
-		box-shadow: 0 0 18px color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		background: var(--surface);
+		border: 1px solid var(--rule);
 
 		&.compact {
 			margin: 1.5rem auto;
@@ -58,17 +62,19 @@
 
 	.test-cta-heading {
 		margin: 0 0 0.4rem 0;
-		font-size: 1.1rem;
-		font-weight: 700;
-		color: var(--ink-bright);
+		padding: 0;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xl);
+		font-weight: 600;
+		color: var(--text);
 		letter-spacing: -0.01em;
 	}
 
 	.test-cta-body {
 		margin: 0 0 1rem 0;
-		font-size: 0.95rem;
+		font-size: var(--font-size-base);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.test-cta-actions {
@@ -76,40 +82,5 @@
 		flex-wrap: wrap;
 		gap: 0.6rem;
 		align-items: center;
-	}
-
-	.test-cta-primary {
-		display: inline-block;
-		padding: 0.55rem 1.05rem;
-		border-radius: 0.625rem;
-		font-weight: 600;
-		font-size: 0.92rem;
-		text-decoration: none;
-		color: var(--night-deep);
-		background: var(--lamp-glow);
-		border: 1px solid var(--lamp-glow);
-		transition:
-			transform 0.18s ease,
-			box-shadow 0.18s ease;
-
-		&:hover {
-			transform: translateY(-1px);
-			box-shadow: 0 0 14px color-mix(in srgb, var(--lamp-glow) 50%, transparent);
-		}
-	}
-
-	.test-cta-secondary {
-		display: inline-block;
-		padding: 0.55rem 0.9rem;
-		border-radius: 0.625rem;
-		font-size: 0.9rem;
-		font-weight: 500;
-		color: var(--lamp-glow);
-		text-decoration: none;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 35%, transparent);
-
-		&:hover {
-			background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
-		}
 	}
 </style>

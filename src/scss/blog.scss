@@ -16,30 +16,38 @@
 
 @use 'mixins' as *;
 
-.blog {
-	/* Reading measure + body size (2026-06-09 design audit).
-	   Before: the article filled the layout's 896px column at 16px → ~100ch
-	   lines. Now: 68ch centered column at 18px — publication-grade measure. */
-	max-width: var(--prose-measure);
-	margin-inline: auto;
-	font-size: 1.125rem; /* 18px reading body — design-system.md §6 body-lg */
-	line-height: 1.6;
+/* The steps above as names. Steps that match a global token alias it; the
+   larger editorial steps live here because nothing else uses them. */
+$fs-label: var(--font-size-xs); /* 12px */
+$fs-caption: var(--font-size-sm); /* 14px */
+$fs-body: var(--font-size-base); /* 16px */
+$fs-emph: var(--font-size-lg); /* 18px, also the article reading size */
+$fs-title: var(--font-size-xl); /* 20px */
+$fs-lead: 1.5rem; /* 24px */
+$fs-portrait: 1.75rem; /* 28px */
+$fs-stat-sm: 2rem; /* 32px */
+$fs-stat: 2.5rem; /* 40px */
+/* Relative steps for running text (track the surrounding size). */
+$fs-code: 0.9em;
+$fs-dropcap: 1.6em;
+$fs-card-h2: 1.35rem;
+$fs-card-h3: 1.15rem;
+$fs-card-h4: 1.05rem;
+$fs-glyph: 3rem;
+$fs-glyph-sm: 2.5rem;
+$fs-toggle: 1.4rem;
+$fs-quote: 1.05em;
 
-	/* index.scss sets a global `p { font-size: 1rem }`; inherit the 18px
-	   reading size inside articles instead. */
-	p {
-		font-size: inherit;
-	}
-
-	/* Link styling for blog content — Cold Light: lavender, always underlined */
+/* Post-body links (Cold Light): lavender, always underlined. They must not
+   leak into embedded conversion banners or the Button atom (.btn); those own
+   their complete button treatment. Shared by .blog and the pop-culture shell. */
+@mixin prose-links {
 	--blog-link-color: var(--highlight);
-	--blog-link-hover-color: var(--lamp-light);
+	--blog-link-hover-color: var(--text);
 
-	/* Prose link styles must not leak into embedded conversion banners. Those
-	   components own their complete button treatment and theme contrast. */
-	a:not(.toc-link):not(.session-cta__button):not([class*='text-']):not([class*='bg-']):not(
-			[class*='border-']
-		) {
+	a:not(.toc-link):not(.btn):not(.session-cta__button):not([class*='text-']):not(
+			[class*='bg-']
+		):not([class*='border-']) {
 		color: var(--blog-link-color);
 		text-decoration: underline;
 		text-decoration-thickness: 1px;
@@ -53,9 +61,27 @@
 			text-decoration-color: currentColor;
 			color: var(--blog-link-hover-color);
 		}
-
-		/* No arrow icon - removed for cleaner dark theme */
 	}
+}
+
+.blog {
+	/* Reading measure + body size (2026-06-09 design audit).
+	   Before: the article filled the layout's 896px column at 16px → ~100ch
+	   lines. Now: 68ch centered column at 18px — publication-grade measure. */
+	max-width: var(--prose-measure);
+	margin-inline: auto;
+	font-size: $fs-emph; /* 18px reading body — design-system.md §6 body-lg */
+	line-height: 1.6;
+	/* Cold Light: body copy is --text-muted; headings and strong are --text. */
+	color: var(--text-muted);
+
+	/* index.scss sets a global `p { font-size: 1rem }`; inherit the 18px
+	   reading size inside articles instead. */
+	p {
+		font-size: inherit;
+	}
+
+	@include prose-links;
 
 	/* Header spacing */
 	> h2,
@@ -63,7 +89,7 @@
 	> h4 {
 		margin-top: 1.2rem;
 		padding-top: 1.2rem;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	> h3 {
@@ -77,27 +103,47 @@
 	}
 }
 
-/* Quote styling - Warm Tech theme */
+.pop-culture-article .article-content {
+	@include prose-links;
+}
+
+/* Post-template tap targets: the byline author link is one short word of
+   metadata, so it gets a 44px hit area without moving the line. */
+:is(.blog, .pop-culture-article) .article-meta a {
+	display: inline-block;
+	padding-block: 0.75rem;
+	margin-block: -0.75rem;
+}
+
+/* Strong reads at --text inside post bodies. Zero-specificity host so any
+   callout that colors its own <strong> still wins. */
+:where(.blog, .pop-culture-article .article-content) strong {
+	color: var(--text);
+}
+
+/* Quotes (Cold Light): indigo bar on --surface, the quote itself in --text at
+   the reading size, the same treatment as the person page. */
 blockquote {
 	margin: 1.5em 0;
 	padding: 1em 1.5em;
-	border-left: 4px solid var(--lamp-glow);
-	background-color: var(--stone-warm);
+	border-left: 3px solid var(--accent);
+	background-color: var(--surface);
 	font-style: italic;
-	color: var(--ink-mid);
+	color: var(--text);
 	border-radius: 0 0.625rem 0.625rem 0;
 
 	p {
 		margin: 0;
 		line-height: 1.6;
-		color: var(--ink-mid);
+		color: var(--text);
 	}
 
 	cite {
 		display: block;
 		margin-top: 1em;
-		font-size: 0.9em;
-		color: var(--ink-dim);
+		font-family: var(--font-talk);
+		font-size: $fs-caption;
+		color: var(--text-faint);
 		font-style: normal;
 
 		&::before {
@@ -106,11 +152,15 @@ blockquote {
 	}
 }
 
-/* Decorative first letter */
+/* Decorative first letter: the Playfair italic voice in lavender, kept
+   modest (1.6em of the line, not a multi-line drop). */
 .firstLetter::first-letter {
-	color: var(--lamp-glow);
-	font-size: 1.5rem;
-	font-weight: 700;
+	font-family: var(--font-voice);
+	font-style: italic;
+	font-weight: 600;
+	font-size: $fs-dropcap;
+	line-height: 1;
+	color: var(--highlight);
 }
 
 /* Image styling */
@@ -128,7 +178,7 @@ blockquote {
 	border-radius: 0.625rem;
 	border: 1px solid var(--glass-border);
 	overflow: hidden;
-	background: var(--night-deep);
+	background: var(--bg);
 
 	iframe {
 		position: absolute;
@@ -152,12 +202,11 @@ blockquote {
 /* Blog layout container */
 @include tablet-up {
 	.blog {
-		background-color: var(--night-deep);
+		background-color: var(--bg);
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
-		margin-top: 0 !important;
-		padding: 2rem !important;
-		padding-top: 1rem !important;
+		border: 1px solid var(--rule);
+		margin-top: 0;
+		padding: 1rem 2rem 2rem;
 	}
 }
 
@@ -171,15 +220,14 @@ blockquote {
 @include mobile {
 	.comment-box {
 		margin: 0.25rem 0;
-		padding: 0.5rem;
-		padding-bottom: 0 !important;
+		padding: 0.5rem 0.5rem 0;
 	}
 
 	.blog > h2,
 	.blog > h3,
 	.blog > h4 {
-		margin-top: 0.6rem !important;
-		padding-top: 0.6rem !important;
+		margin-top: 0.6rem;
+		padding-top: 0.6rem;
 	}
 
 	.iframe-container {
@@ -188,18 +236,16 @@ blockquote {
 		border-radius: var(--border-radius-sm);
 	}
 
-	/* Mobile blockquote - tighter, edge-to-edge feel */
+	/* Mobile blockquote - tighter, edge-to-edge feel. Quotes keep the reading
+	   size: the old 0.95rem/0.9rem steps put them below the body text. */
 	blockquote {
 		margin: 1rem -0.25rem;
 		padding: 0.75rem 1rem;
-		border-left-width: 3px;
-		font-size: 0.95rem;
 	}
 
 	.quote-box {
 		margin: 1rem -0.25rem;
 		padding: 0.75rem 1rem;
-		font-size: 0.95rem;
 	}
 }
 
@@ -208,8 +254,8 @@ blockquote {
 	.blog > h2,
 	.blog > h3,
 	.blog > h4 {
-		margin-top: 0.5rem !important;
-		padding-top: 0.5rem !important;
+		margin-top: 0.5rem;
+		padding-top: 0.5rem;
 	}
 
 	.iframe-container {
@@ -220,13 +266,11 @@ blockquote {
 	blockquote {
 		margin: 0.75rem 0;
 		padding: 0.6rem 0.75rem;
-		font-size: 0.9rem;
 	}
 
 	.quote-box {
 		margin: 0.75rem 0;
 		padding: 0.6rem 0.75rem;
-		font-size: 0.9rem;
 	}
 }
 
@@ -237,7 +281,7 @@ blockquote {
 	display: grid;
 	width: min(100%, 50rem);
 	margin: clamp(1.75rem, 4vw, 2.75rem) auto;
-	color: var(--ink-bright);
+	color: var(--text);
 	box-sizing: border-box;
 }
 
@@ -245,9 +289,9 @@ blockquote {
 	grid-template-columns: minmax(0, 1.42fr) minmax(18rem, 0.86fr);
 	height: 42rem;
 	overflow: hidden;
-	border: 1px solid color-mix(in srgb, var(--stone-edge) 70%, transparent);
+	border: 1px solid var(--rule);
 	border-radius: 1rem;
-	background: color-mix(in srgb, var(--stone-warm) 62%, transparent);
+	background: color-mix(in srgb, var(--surface) 62%, transparent);
 }
 
 .blog-evidence--portrait-right {
@@ -269,7 +313,7 @@ blockquote {
 	min-width: 0;
 	min-height: 0;
 	overflow: hidden;
-	background: var(--night-mid);
+	background: var(--surface);
 }
 
 .blog-evidence--portrait .blog-evidence__media::after,
@@ -278,7 +322,11 @@ blockquote {
 	inset: 0;
 	content: '';
 	pointer-events: none;
-	background: linear-gradient(180deg, transparent 72%, rgba(7, 8, 10, 0.34));
+	background: linear-gradient(
+		180deg,
+		transparent 72%,
+		color-mix(in srgb, var(--bg) 34%, transparent)
+	);
 }
 
 .blog-evidence .blog-evidence__media img,
@@ -312,13 +360,13 @@ blockquote {
 
 .blog-evidence .blog-evidence__label {
 	margin: 0 0 0.6rem;
-	font-family: var(--font-mono);
-	font-size: 0.75rem;
+	font-family: var(--font-talk);
+	font-size: $fs-label;
 	font-weight: 650;
 	line-height: 1.35;
-	letter-spacing: 0.06em;
+	letter-spacing: 0.08em;
 	text-transform: uppercase;
-	color: var(--ink-dim);
+	color: var(--text-faint);
 }
 
 .blog-evidence .blog-evidence__quote {
@@ -326,7 +374,7 @@ blockquote {
 	padding: 0;
 	border: 0;
 	background: transparent;
-	font-family: var(--font-display);
+	font-family: var(--font-talk);
 	font-style: normal;
 }
 
@@ -337,17 +385,17 @@ blockquote {
 
 .blog-evidence .blog-evidence__quote p {
 	margin: 0;
-	font-size: 1.5rem;
+	font-size: $fs-lead;
 	font-weight: 580;
 	line-height: 1.38;
 	letter-spacing: -0.012em;
-	color: var(--ink-bright);
+	color: var(--text);
 }
 
 .blog-evidence--portrait .blog-evidence__quote p {
 	/* Host article shells style every descendant paragraph; the quote owns its
 	   editorial type scale and must not collapse to the figcaption size. */
-	font-size: 1.75rem !important;
+	font-size: $fs-portrait !important;
 	font-weight: 610;
 	line-height: 1.34;
 	letter-spacing: -0.018em;
@@ -359,36 +407,36 @@ blockquote {
 	flex-direction: column;
 	gap: 0.12rem;
 	margin: 0.75rem 0 0;
-	font-size: 0.875rem;
+	font-size: $fs-caption;
 	line-height: 1.4;
 }
 
 .blog-evidence__speaker strong {
-	font-size: 0.875rem;
+	font-size: $fs-caption;
 	font-weight: 720;
-	color: var(--ink-bright);
+	color: var(--text);
 }
 
 .blog-evidence__speaker span {
-	font-size: 0.75rem;
-	color: var(--ink-mid);
+	font-size: $fs-label;
+	color: var(--text-muted);
 }
 
 .blog-evidence .blog-evidence__caption {
 	margin: 0;
-	font-family: var(--font-display);
-	font-size: 1.5rem;
+	font-family: var(--font-talk);
+	font-size: $fs-lead;
 	font-weight: 600;
 	line-height: 1.35;
 	letter-spacing: -0.015em;
-	color: var(--ink-bright);
+	color: var(--text);
 }
 
 .blog-evidence .blog-evidence__context {
 	margin: 0.6rem 0 0;
-	font-size: 0.875rem;
+	font-size: $fs-caption;
 	line-height: 1.48;
-	color: var(--ink-dim);
+	color: var(--text-faint);
 }
 
 .blog-evidence__sources {
@@ -398,11 +446,11 @@ blockquote {
 	gap: 0.32rem;
 	margin-top: 0.9rem;
 	padding-top: 0.72rem;
-	border-top: 1px solid color-mix(in srgb, var(--stone-edge) 54%, transparent);
-	font-family: var(--font-mono);
-	font-size: 0.75rem;
+	border-top: 1px solid var(--rule);
+	font-family: var(--font-talk);
+	font-size: $fs-label;
 	line-height: 1.55;
-	color: var(--ink-dim);
+	color: var(--text-faint);
 }
 
 .blog-evidence .blog-evidence__source-line {
@@ -418,18 +466,18 @@ blockquote {
 
 .blog-evidence__source-kind {
 	font-weight: 700;
-	color: var(--ink-mid);
+	color: var(--text-muted);
 }
 
 .blog-evidence .blog-evidence__sources a {
-	color: var(--ink-dim) !important;
+	color: var(--text-faint) !important;
 	text-decoration-color: color-mix(in srgb, currentColor 42%, transparent);
 	text-underline-offset: 0.16em;
 	overflow-wrap: anywhere;
 }
 
 .blog-evidence .blog-evidence__sources a:hover {
-	color: var(--ink-bright) !important;
+	color: var(--text) !important;
 }
 
 .blog-evidence__image-credit {
@@ -453,8 +501,8 @@ blockquote {
 	grid-template-columns: 5.5rem minmax(0, 1fr);
 	align-items: center;
 	padding: 0.9rem 0;
-	border-top: 1px solid color-mix(in srgb, var(--stone-edge) 65%, transparent);
-	border-bottom: 1px solid color-mix(in srgb, var(--stone-edge) 65%, transparent);
+	border-top: 1px solid var(--rule);
+	border-bottom: 1px solid var(--rule);
 }
 
 .blog-evidence--compact .blog-evidence__media {
@@ -468,7 +516,7 @@ blockquote {
 }
 
 .blog-evidence--compact .blog-evidence__quote p {
-	font-size: 1.125rem;
+	font-size: $fs-emph;
 }
 
 .blog-evidence--compact .blog-evidence__context {
@@ -522,23 +570,23 @@ blockquote {
 .quote-box {
 	font-style: italic;
 	padding: 15px 20px;
-	background-color: var(--lamp-soft);
-	border-left: 4px solid var(--lamp-glow);
+	background-color: color-mix(in srgb, var(--accent) 18%, transparent);
+	border-left: 3px solid var(--accent);
 	border-radius: 0 0.625rem 0.625rem 0;
 	margin: 20px 0;
-	font-size: 1.05em;
-	color: var(--ink-mid);
+	font-size: $fs-quote;
+	color: var(--text-muted);
 }
 
 /* Disclaimer/warning box */
 .disclaimer {
 	margin: 1.5rem 0;
 	padding: 1rem 1.25rem;
-	background-color: var(--warning-light);
-	border-left: 4px solid var(--warning);
+	background-color: var(--surface);
+	border-left: 3px solid var(--accent);
 	border-radius: 0 0.625rem 0.625rem 0;
-	font-size: 1rem;
-	color: var(--ink-mid);
+	font-size: $fs-body;
+	color: var(--text-muted);
 
 	p {
 		margin: 0 0 0.5rem 0;
@@ -550,7 +598,7 @@ blockquote {
 	}
 
 	strong {
-		color: var(--warning);
+		color: var(--text);
 	}
 }
 
@@ -567,14 +615,18 @@ blockquote {
 	margin: 2.5rem 0;
 	padding: 1.5rem 2rem;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: $fs-lead;
 	font-weight: 500;
 	font-style: italic;
 	line-height: 1.5;
-	color: var(--ink-bright);
-	border-top: 2px solid var(--lamp-glow);
-	border-bottom: 2px solid var(--lamp-glow);
-	background: linear-gradient(135deg, var(--lamp-soft) 0%, transparent 100%);
+	color: var(--text);
+	border-top: 2px solid var(--accent);
+	border-bottom: 2px solid var(--accent);
+	background: linear-gradient(
+		135deg,
+		color-mix(in srgb, var(--accent) 18%, transparent) 0%,
+		transparent 100%
+	);
 
 	/* The glyph sits inside the frame. It used to straddle the top rule on a
 	   page-colored knock-out box, which showed as a dark tab over the tint. */
@@ -582,20 +634,20 @@ blockquote {
 		content: '\201C';
 		display: block;
 		height: 0.55em;
-		font-size: 3rem;
+		font-size: $fs-glyph;
 		font-style: normal;
 		font-weight: 700;
 		line-height: 1;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	cite {
 		display: block;
 		margin-top: 0.75rem;
-		font-size: 0.875rem;
+		font-size: $fs-caption;
 		font-weight: 400;
 		font-style: normal;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 
 		&::before {
 			content: '— ';
@@ -611,14 +663,14 @@ blockquote {
 	margin: 2rem 0;
 	padding: 1.25rem 1.5rem;
 	border-radius: 10px;
-	background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-	border: 1px solid var(--data-teal-rgba);
+	background: linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%);
+	border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
 
 	/* A bare-sentence stat (no number/label children — ~40 published
 	   profiles) reads as a highlighted claim rather than plain body copy. */
 	font-weight: 600;
 	line-height: 1.55;
-	color: var(--ink-bright);
+	color: var(--text);
 
 	/* Published content uses four markup dialects for the same callout:
 	   BEM (__number/__label), hyphenated (-number/-label/-value), bare
@@ -628,9 +680,9 @@ blockquote {
 	.key-stat-value,
 	.stat-number,
 	> strong:first-child {
-		font-size: 2.5rem;
+		font-size: $fs-stat;
 		font-weight: 800;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 		line-height: 1;
 		white-space: nowrap;
 		flex-shrink: 0;
@@ -640,10 +692,10 @@ blockquote {
 	.key-stat-label,
 	.stat-label,
 	> strong:first-child + span {
-		font-size: 1rem;
+		font-size: $fs-body;
 		font-weight: 400;
 		line-height: 1.5;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	/* Some drafts nest a .key-stat-row inside a single .key-stat; flatten it
@@ -674,10 +726,10 @@ blockquote {
 	margin: 2rem 0;
 	padding: 1.25rem 1.5rem 1.25rem 3.5rem;
 	border-radius: 10px;
-	background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-	border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+	background: linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%);
+	border: 1px solid var(--rule);
 	font-style: italic;
-	color: var(--ink-mid);
+	color: var(--text-muted);
 	line-height: 1.7;
 
 	/* Thought-bubble icon — stroked SVG mask (was a raw 💭 emoji; icons are
@@ -689,7 +741,7 @@ blockquote {
 		top: 1.15rem;
 		width: 1.25rem;
 		height: 1.25rem;
-		background-color: var(--ink-dim);
+		background-color: var(--text-faint);
 		mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M7.9 20A9 9 0 1 0 4 16.1L2 22Z'/></svg>");
 		mask-size: contain;
 		mask-repeat: no-repeat;
@@ -700,7 +752,7 @@ blockquote {
 
 	p {
 		margin: 0;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 
 		& + p {
 			margin-top: 0.75rem;
@@ -710,9 +762,9 @@ blockquote {
 	.attribution {
 		display: block;
 		margin-top: 0.75rem;
-		font-size: 0.875rem;
+		font-size: $fs-caption;
 		font-style: normal;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 }
 
@@ -731,7 +783,11 @@ blockquote {
 		top: 0.5rem;
 		bottom: 0.5rem;
 		width: 2px;
-		background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--lamp-soft) 100%);
+		background: linear-gradient(
+			180deg,
+			var(--accent) 0%,
+			color-mix(in srgb, var(--accent) 18%, transparent) 100%
+		);
 	}
 
 	&__item,
@@ -751,9 +807,9 @@ blockquote {
 			width: 10px;
 			height: 10px;
 			border-radius: 50%;
-			background: var(--lamp-glow);
-			border: 2px solid var(--night-deep);
-			box-shadow: 0 0 0 2px var(--lamp-soft);
+			background: var(--accent);
+			border: 2px solid var(--bg);
+			box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 18%, transparent);
 		}
 
 		/* Highlight a key moment */
@@ -761,38 +817,38 @@ blockquote {
 			width: 12px;
 			height: 12px;
 			left: 1.0625rem;
-			background: var(--lamp-glow);
-			box-shadow: 0 0 8px var(--lamp-glow-rgba);
+			background: var(--highlight);
+			box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 45%, transparent);
 		}
 	}
 
 	/* Flat markdown pattern: <div class="timeline-item"><strong>Year:</strong> event</div> */
 	.timeline-item {
-		font-size: 1rem;
+		font-size: $fs-body;
 		line-height: 1.5;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		display: block;
 
 		strong {
 			font-weight: 700;
-			color: var(--lamp-glow);
+			color: var(--highlight);
 			margin-right: 0.25rem;
 		}
 	}
 
 	&__year {
 		font-weight: 700;
-		font-size: 0.875rem;
-		color: var(--lamp-glow);
+		font-size: $fs-caption;
+		color: var(--highlight);
 		white-space: nowrap;
 		flex-shrink: 0;
 		min-width: 2.5rem;
 	}
 
 	&__event {
-		font-size: 1rem;
+		font-size: $fs-body;
 		line-height: 1.5;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 }
 
@@ -804,7 +860,7 @@ blockquote {
 	margin: 2rem 0;
 	border-radius: 10px;
 	overflow: hidden;
-	border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+	border: 1px solid var(--rule);
 
 	/* Sides ship in three dialects: BEM (__side--left/right), the flat
 	   .contrast-left/.contrast-right pair (29 published profiles), and
@@ -819,15 +875,19 @@ blockquote {
 	> .contrast-left,
 	> .contrast-side:first-child,
 	> .contrast-panel__left {
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-		border-right: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+		background: linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%);
+		border-right: 1px solid var(--rule);
 	}
 
 	&__side--right,
 	> .contrast-right,
 	> .contrast-side:last-child,
 	> .contrast-panel__right {
-		background: linear-gradient(135deg, var(--lamp-soft) 0%, var(--night-deep) 100%);
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--accent) 18%, transparent) 0%,
+			var(--bg) 100%
+		);
 	}
 
 	/* The flat dialects title each side with an <h4>; it plays the label role. */
@@ -836,30 +896,30 @@ blockquote {
 		display: block;
 		margin: 0 0 0.75rem;
 		padding: 0 0 0.5rem;
-		font-size: 0.75rem;
+		font-size: $fs-label;
 		font-weight: 700;
 		line-height: 1.4;
 		text-transform: uppercase;
-		letter-spacing: 0.05em;
+		letter-spacing: 0.08em;
 		border-bottom: 2px solid;
 	}
 
 	> :first-child .contrast-panel__label,
 	> :first-child h4 {
-		color: var(--ink-dim);
-		border-color: color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		color: var(--text-faint);
+		border-color: var(--rule);
 	}
 
 	> :last-child .contrast-panel__label,
 	> :last-child h4 {
-		color: var(--lamp-glow);
-		border-color: var(--lamp-soft);
+		color: var(--highlight);
+		border-color: color-mix(in srgb, var(--accent) 18%, transparent);
 	}
 
 	p {
 		margin: 0 0 0.5rem;
-		font-size: 1rem;
-		color: var(--ink-mid);
+		font-size: $fs-body;
+		color: var(--text-muted);
 
 		&:last-child {
 			margin-bottom: 0;
@@ -877,14 +937,14 @@ blockquote {
 	display: block;
 	margin: 1.75rem 0;
 	padding: 1rem 1.1rem;
-	font-size: 1rem;
+	font-size: $fs-body;
 	line-height: 1.55;
-	color: var(--ink-mid);
-	background: var(--night-mid);
-	border: 1px solid var(--stone-edge);
-	border-left: 3px solid var(--data-teal);
+	color: var(--text-muted);
+	background: var(--surface);
+	border: 1px solid var(--rule);
+	border-left: 3px solid var(--accent);
 	border-radius: 0.625rem;
-	box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+	box-shadow: var(--shadow-md);
 	text-decoration: none;
 
 	&:has(> .source-card__icon) {
@@ -894,7 +954,7 @@ blockquote {
 	}
 
 	> strong:first-child {
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	&__icon {
@@ -904,7 +964,7 @@ blockquote {
 		width: 1.6rem;
 		min-width: 1.6rem;
 		height: 1.6rem;
-		font-size: 1rem;
+		font-size: $fs-body;
 		line-height: 1;
 	}
 
@@ -914,27 +974,27 @@ blockquote {
 
 	&__title {
 		margin: 0 0 0.18rem;
-		font-size: 1rem;
+		font-size: $fs-body;
 		font-weight: 700;
 		line-height: 1.35;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	&__meta {
 		margin: 0 0 0.45rem;
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
-		letter-spacing: 0.06em;
+		font-family: var(--font-talk);
+		font-size: $fs-label;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--data-teal);
+		color: var(--text-faint);
 	}
 
 	&__note {
 		margin: 0;
-		font-size: 1rem;
+		font-size: $fs-body;
 		font-style: italic;
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 }
 
@@ -951,34 +1011,34 @@ blockquote {
 		gap: 0.75rem;
 		padding: 0.625rem 1rem;
 		border-radius: 0.625rem;
-		background: rgba(255, 255, 255, 0.02);
-		border-left: 3px solid var(--stone-warm);
+		background: var(--surface);
+		border-left: 3px solid var(--rule);
 	}
 
 	&__speaker {
-		font-size: 0.75rem;
+		font-size: $fs-label;
 		font-weight: 700;
 		text-transform: uppercase;
-		letter-spacing: 0.03em;
-		color: var(--lamp-glow);
+		letter-spacing: 0.08em;
+		color: var(--text-faint);
 		white-space: nowrap;
 		flex-shrink: 0;
 		min-width: 5rem;
 	}
 
 	&__text {
-		font-size: 1rem;
+		font-size: $fs-body;
 		line-height: 1.6;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	/* No per-row accent alternation: it keyed color to row position, so the
 	   same speaker changed color whenever they spoke twice in a row. */
 
 	&__context {
-		font-size: 0.875rem;
+		font-size: $fs-caption;
 		font-style: italic;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		padding: 0.25rem 1rem;
 		text-align: center;
 	}
@@ -990,11 +1050,11 @@ blockquote {
 	margin: 2rem 0;
 	padding: 1rem 1.25rem 1rem 3.25rem;
 	border-radius: 10px;
-	background: var(--stone-warm);
-	border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
-	font-size: 1rem;
+	background: var(--surface);
+	border: 1px solid var(--rule);
+	font-size: $fs-body;
 	line-height: 1.65;
-	color: var(--ink-mid);
+	color: var(--text-muted);
 
 	/* Info icon — stroked SVG mask (was a raw ℹ️ emoji). */
 	&::before {
@@ -1004,7 +1064,7 @@ blockquote {
 		top: 0.9rem;
 		width: 1.1rem;
 		height: 1.1rem;
-		background-color: var(--lamp-glow);
+		background-color: var(--highlight);
 		mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><path d='M12 16v-4'/><path d='M12 8h.01'/></svg>");
 		mask-size: contain;
 		mask-repeat: no-repeat;
@@ -1015,10 +1075,10 @@ blockquote {
 
 	&__title {
 		font-weight: 700;
-		color: var(--ink-bright);
-		font-size: 0.75rem;
+		color: var(--text);
+		font-size: $fs-label;
 		text-transform: uppercase;
-		letter-spacing: 0.03em;
+		letter-spacing: 0.08em;
 		margin: 0 0 0.5rem;
 	}
 
@@ -1041,24 +1101,24 @@ blockquote {
 	border-radius: 0.625rem;
 	background: linear-gradient(
 		180deg,
-		color-mix(in srgb, var(--lamp-glow) 6%, var(--stone-warm)) 0%,
-		var(--stone-warm) 100%
+		color-mix(in srgb, var(--accent) 8%, var(--surface)) 0%,
+		var(--surface) 100%
 	);
-	border: 1px solid color-mix(in srgb, var(--lamp-glow) 25%, transparent);
+	border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
 	padding: 0;
 	overflow: hidden;
 	transition: border-color 0.2s ease;
 
 	&:hover {
-		border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
+		border-color: color-mix(in srgb, var(--accent) 60%, transparent);
 	}
 
 	/* Override the default .accordion summary chrome */
 	> summary.accordion {
 		padding: 1rem 1.25rem 1rem 3rem;
-		font-size: 1rem;
+		font-size: $fs-body;
 		font-weight: 600;
-		color: var(--ink-bright);
+		color: var(--text);
 		background: transparent;
 		position: relative;
 		list-style: none;
@@ -1075,7 +1135,7 @@ blockquote {
 			top: 0.95rem;
 			width: 1.15rem;
 			height: 1.15rem;
-			background-color: var(--lamp-glow);
+			background-color: var(--highlight);
 			mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><path d='M12 8v8'/><path d='m8 12 4 4 4-4'/></svg>");
 			mask-size: contain;
 			mask-repeat: no-repeat;
@@ -1090,15 +1150,15 @@ blockquote {
 			right: 1.25rem;
 			top: 50%;
 			transform: translateY(-50%);
-			font-size: 1.4rem;
-			color: var(--lamp-glow);
+			font-size: $fs-toggle;
+			color: var(--highlight);
 			transition: transform 0.2s ease;
 			line-height: 1;
 		}
 
 		&:hover {
-			background: color-mix(in srgb, var(--lamp-glow) 8%, transparent);
-			color: var(--lamp-glow);
+			background: color-mix(in srgb, var(--accent) 12%, transparent);
+			color: var(--text);
 		}
 	}
 
@@ -1110,13 +1170,13 @@ blockquote {
 	> .panel > p:first-child em,
 	> .panel > .rabbit-hole__intro {
 		display: block;
-		font-size: 0.875rem;
-		color: var(--ink-dim);
+		font-size: $fs-caption;
+		color: var(--text-faint);
 		font-style: italic;
 		margin: 0 0 1rem;
 		padding: 0.5rem 0.75rem;
-		background: color-mix(in srgb, var(--ink-dim) 8%, transparent);
-		border-left: 2px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
+		background: color-mix(in srgb, var(--text-faint) 8%, transparent);
+		border-left: 2px solid color-mix(in srgb, var(--accent) 50%, transparent);
 		border-radius: 4px;
 	}
 
@@ -1124,16 +1184,16 @@ blockquote {
 	   at the 16px body floor instead of dropping to 15px/14px. */
 	> .panel {
 		padding: 0 1.25rem 1.25rem;
-		font-size: 1rem;
+		font-size: $fs-body;
 		line-height: 1.7;
 
 		h3 {
-			font-size: 1.125rem;
+			font-size: $fs-emph;
 			font-weight: 700;
-			color: var(--ink-bright);
+			color: var(--text);
 			margin: 1.5rem 0 0.5rem;
 			padding-bottom: 0.35rem;
-			border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
+			border-bottom: 1px solid var(--rule);
 
 			&:first-of-type {
 				margin-top: 0.25rem;
@@ -1142,16 +1202,16 @@ blockquote {
 
 		p {
 			margin: 0 0 0.85rem;
-			color: var(--ink-mid);
+			color: var(--text-muted);
 		}
 
 		a {
-			color: var(--lamp-glow);
+			color: var(--highlight);
 			text-decoration: underline;
 			text-underline-offset: 2px;
 
 			&:hover {
-				color: var(--lamp-glow);
+				color: var(--text);
 			}
 		}
 	}
@@ -1166,10 +1226,10 @@ blockquote {
 	.pull-quote {
 		margin: 1.5rem -0.25rem;
 		padding: 1.25rem 1rem;
-		font-size: 1.125rem;
+		font-size: $fs-emph;
 
 		&::before {
-			font-size: 2.5rem;
+			font-size: $fs-stat;
 		}
 	}
 
@@ -1178,11 +1238,11 @@ blockquote {
 		gap: 1rem;
 
 		&__number {
-			font-size: 2rem;
+			font-size: $fs-stat-sm;
 		}
 
 		&__label {
-			font-size: 1rem;
+			font-size: $fs-body;
 		}
 	}
 
@@ -1222,11 +1282,11 @@ blockquote {
 		}
 
 		&__year {
-			font-size: 0.875rem;
+			font-size: $fs-caption;
 		}
 
 		&__event {
-			font-size: 1rem;
+			font-size: $fs-body;
 		}
 	}
 
@@ -1243,7 +1303,7 @@ blockquote {
 		> .contrast-side:first-child,
 		> .contrast-panel__left {
 			border-right: none;
-			border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+			border-bottom: 1px solid var(--rule);
 		}
 	}
 
@@ -1263,18 +1323,18 @@ blockquote {
 
 		&__speaker {
 			min-width: auto;
-			font-size: 0.75rem;
+			font-size: $fs-label;
 		}
 
 		&__text {
-			font-size: 1rem;
+			font-size: $fs-body;
 		}
 	}
 
 	.aside-box {
 		margin: 1.5rem -0.25rem;
 		padding: 0.875rem 1rem 0.875rem 3rem;
-		font-size: 1rem;
+		font-size: $fs-body;
 	}
 
 	.enneagram-rabbit-hole {
@@ -1283,7 +1343,7 @@ blockquote {
 
 		> summary.accordion {
 			padding: 0.875rem 2.5rem 0.875rem 2.75rem;
-			font-size: 1rem;
+			font-size: $fs-body;
 
 			&::before {
 				left: 0.85rem;
@@ -1298,7 +1358,7 @@ blockquote {
 			padding: 0 1rem 1rem;
 
 			h3 {
-				font-size: 1rem;
+				font-size: $fs-body;
 			}
 		}
 	}
@@ -1308,7 +1368,7 @@ blockquote {
 	.pull-quote {
 		margin: 1.25rem 0;
 		padding: 1rem 0.75rem;
-		font-size: 1.125rem;
+		font-size: $fs-emph;
 	}
 
 	.key-stat-row {
@@ -1350,22 +1410,22 @@ blockquote {
 
 	/* Enhanced code blocks */
 	pre {
-		background-color: var(--night-deep);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		background-color: var(--bg);
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
 		padding: 1rem;
 		margin: 1.5rem 0;
 		overflow-x: auto;
-		font-size: 0.9rem;
+		font-size: $fs-caption;
 	}
 
 	/* Inline code styling */
 	code {
-		background-color: var(--stone-warm);
-		color: var(--lamp-glow);
+		background-color: var(--surface);
+		color: var(--highlight);
 		padding: 0.2rem 0.4rem;
 		border-radius: 4px;
-		font-size: 0.9em;
+		font-size: $fs-code;
 	}
 }
 
@@ -1381,31 +1441,31 @@ blockquote {
 		width: 100%;
 		border-collapse: collapse;
 		margin: 2rem 0;
-		font-size: 1rem;
+		font-size: $fs-body;
 		line-height: 1.5;
 
 		th,
 		td {
-			border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+			border: 1px solid var(--rule);
 			padding: 0.75rem;
 			text-align: left;
 			vertical-align: top;
-			color: var(--ink-mid);
+			color: var(--text-muted);
 		}
 
-		/* index.scss paints every td --night-deep, which hid the zebra rows. */
+		/* index.scss paints every td --bg, which hid the zebra rows. */
 		td {
 			background-color: transparent;
 		}
 
 		th {
-			background-color: var(--stone-warm);
+			background-color: var(--surface);
 			font-weight: 600;
-			color: var(--ink-bright);
+			color: var(--text);
 		}
 
 		tr:nth-child(even) {
-			background-color: color-mix(in srgb, var(--stone-mid) 40%, transparent);
+			background-color: color-mix(in srgb, var(--surface-raised) 40%, transparent);
 		}
 	}
 }
@@ -1419,19 +1479,19 @@ blockquote {
 .pop-culture-article .article-content {
 	.section-content {
 		position: relative;
-		margin: 1.75rem 0 !important;
-		padding: 1.25rem !important;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 38%, transparent);
+		margin: 1.75rem 0;
+		padding: 1.25rem;
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--night-mid) 46%, var(--stone-warm));
-		color: var(--ink-bright);
+		background: var(--surface);
+		color: var(--text-muted);
 		overflow: hidden;
 		transition:
 			border-color 0.18s ease,
 			background 0.18s ease;
 
 		&:hover {
-			border-color: color-mix(in srgb, var(--ink-mid) 34%, var(--stone-edge));
+			border-color: color-mix(in srgb, var(--text-muted) 34%, var(--rule));
 		}
 
 		> :first-child {
@@ -1440,7 +1500,7 @@ blockquote {
 		}
 
 		> :last-child {
-			margin-bottom: 0 !important;
+			margin-bottom: 0;
 		}
 
 		> * + * {
@@ -1450,8 +1510,8 @@ blockquote {
 		> h2,
 		> h3,
 		> h4 {
-			color: var(--ink-bright);
-			font-family: var(--font-display);
+			color: var(--text);
+			font-family: var(--font-talk);
 			font-weight: 700;
 			line-height: 1.22;
 			margin-bottom: 0.65rem !important;
@@ -1459,18 +1519,18 @@ blockquote {
 		}
 
 		> h2 {
-			font-size: 1.35rem;
+			font-size: $fs-card-h2;
 			padding-bottom: 0.6rem;
-			border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 34%, transparent);
+			border-bottom: 1px solid var(--rule);
 		}
 
 		> h3 {
-			font-size: 1.15rem;
+			font-size: $fs-card-h3;
 		}
 
 		> h4 {
-			font-size: 1.05rem;
-			color: var(--ink-mid);
+			font-size: $fs-card-h4;
+			color: var(--text-muted);
 		}
 
 		> h2:not(:first-child) {
@@ -1497,14 +1557,14 @@ blockquote {
 		}
 
 		> p {
-			color: var(--ink-bright);
+			color: var(--text-muted);
 			line-height: 1.7;
 		}
 
 		> ul,
 		> ol {
 			padding-left: 1.35rem;
-			color: var(--ink-bright);
+			color: var(--text-muted);
 
 			li {
 				margin-bottom: 0;
@@ -1519,8 +1579,8 @@ blockquote {
 		> blockquote {
 			margin-right: 0;
 			margin-left: 0;
-			background: color-mix(in srgb, var(--night-deep) 34%, var(--stone-warm));
-			border-left-color: color-mix(in srgb, var(--ink-dim) 45%, transparent);
+			background: color-mix(in srgb, var(--bg) 34%, var(--surface));
+			border-left-color: var(--rule);
 		}
 
 		> figure {
@@ -1529,8 +1589,8 @@ blockquote {
 
 			figcaption {
 				margin-top: 0.5rem;
-				color: var(--ink-dim);
-				font-size: 0.875rem;
+				color: var(--text-faint);
+				font-size: $fs-caption;
 				line-height: 1.45;
 			}
 		}
@@ -1551,13 +1611,13 @@ blockquote {
 
 		> details {
 			padding: 0.85rem 1rem;
-			border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
+			border: 1px solid var(--rule);
 			border-radius: 0.625rem;
-			background: color-mix(in srgb, var(--night-deep) 36%, transparent);
+			background: color-mix(in srgb, var(--bg) 36%, transparent);
 
 			summary {
 				cursor: pointer;
-				color: var(--ink-bright);
+				color: var(--text);
 				font-weight: 650;
 			}
 
@@ -1567,19 +1627,24 @@ blockquote {
 		}
 
 		.section-content {
-			margin: 1.25rem 0 !important;
-			background: color-mix(in srgb, var(--night-deep) 34%, var(--stone-warm));
+			margin: 1.25rem 0;
+			background: color-mix(in srgb, var(--bg) 34%, var(--surface));
 		}
 	}
 }
 
 /* Mobile optimizations for blog content */
 @include mobile {
+	/* `article.blog` so the shell spacing outranks index.scss's own
+	   `article.blog` phone rule without !important. */
+	article.blog {
+		/* Minimal horizontal padding to maximize content width */
+		padding: 0.5rem 0.25rem;
+		margin: 0;
+	}
+
 	.blog {
 		line-height: 1.65;
-		/* Minimal horizontal padding to maximize content width */
-		padding: 0.5rem 0.25rem !important;
-		margin: 0 !important;
 
 		/* Body stays at the inherited 18px reading size — the old 0.95rem
 		   (15.2px) override put the platform's primary content below the
@@ -1589,7 +1654,7 @@ blockquote {
 		}
 
 		pre {
-			font-size: 0.8rem;
+			font-size: $fs-label;
 			padding: 0.6rem;
 			margin: 1rem -0.25rem; /* Extend to edges */
 			border-radius: var(--border-radius-sm);
@@ -1622,7 +1687,7 @@ blockquote {
 			width: calc(100% + 0.5rem);
 			margin-left: -0.25rem;
 			overflow-x: auto;
-			font-size: 0.875rem;
+			font-size: $fs-caption;
 			-webkit-overflow-scrolling: touch;
 
 			th,
@@ -1650,7 +1715,7 @@ blockquote {
 			display: block;
 			width: 100%;
 			overflow-x: auto;
-			font-size: 0.875rem;
+			font-size: $fs-caption;
 			-webkit-overflow-scrolling: touch;
 
 			th,
@@ -1672,8 +1737,8 @@ blockquote {
 	.dossier-page .article-body,
 	.pop-culture-article .article-content {
 		.section-content {
-			margin: 1.5rem -0.25rem !important;
-			padding: 1rem !important;
+			margin: 1.5rem -0.25rem;
+			padding: 1rem;
 			border-radius: 0.625rem;
 
 			> * + * {
@@ -1681,15 +1746,15 @@ blockquote {
 			}
 
 			> h2 {
-				font-size: 1.25rem;
+				font-size: $fs-title;
 			}
 
 			> h3 {
-				font-size: 1.1rem;
+				font-size: $fs-card-h3;
 			}
 
 			> h4 {
-				font-size: 1rem;
+				font-size: $fs-body;
 			}
 
 			> h2:not(:first-child),
@@ -1708,10 +1773,12 @@ blockquote {
 
 /* Extra small mobile optimizations */
 @include mobile-sm {
-	.blog {
+	article.blog {
 		/* Zero horizontal padding on very small screens */
-		padding: 0.25rem 0 !important;
+		padding: 0.25rem 0;
+	}
 
+	.blog {
 		p {
 			margin-bottom: 0.8rem;
 		}
@@ -1719,7 +1786,7 @@ blockquote {
 		pre {
 			margin: 0.75rem 0;
 			padding: 0.5rem;
-			font-size: 0.75rem;
+			font-size: $fs-label;
 		}
 
 		img {
@@ -1742,8 +1809,8 @@ blockquote {
 	.dossier-page .article-body,
 	.pop-culture-article .article-content {
 		.section-content {
-			margin: 1.25rem 0 !important;
-			padding: 0.875rem !important;
+			margin: 1.25rem 0;
+			padding: 0.875rem;
 		}
 	}
 }

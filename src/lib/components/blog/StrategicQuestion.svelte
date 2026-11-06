@@ -8,6 +8,13 @@
   reader's take, the mirror, the nine takes, one UTM-stamped link to the real
   question page, and a quiet dismissible email ask.
 
+  Cold Light (2026-11-06): this is the one mint thing in a post. Same flip as
+  NineChorus / the question page's Interact: an empty composer carries the mint
+  outline as the invitation and the button stays quiet (`secondary`); once
+  there's text the outline goes back to lavender focus and "Give your take"
+  becomes `action` (mint). Type colors don't paint anything: the nine takes sit
+  on faint bars and the reader's closest type gets the lavender bar.
+
   The backing question is a real `questions` row; the submitted take becomes a
   real comment there (via /api/nine/mirror), unlocking that page's give-first
   gate. Nothing gated ever renders server-side: the reveal exists only after
@@ -35,7 +42,7 @@
 	} from '$lib/analytics/marketingEvents';
 	import { Button } from '$lib/components/atoms';
 	import VoiceRecorder from '$lib/components/molecules/VoiceRecorder.svelte';
-	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
+	import { formatTypeLabel } from '$lib/constants/enneagramColors';
 	import { storeEnneagramType, type EnneagramType } from '$lib/enneagram/selfReportedType';
 
 	type Take = { type: number; archetype: string; take: string; source: 'ai' | 'human' };
@@ -86,6 +93,8 @@
 	const enneagramTypes = [1, 2, 3, 4, 5, 6, 7, 8, 9] as const;
 
 	const wordCount = $derived(draft.trim() ? draft.trim().split(/\s+/).length : 0);
+	// Mint flip: empty composer = mint outline (invite); any text = mint button.
+	const answerReady = $derived(draft.trim().length > 0);
 
 	const questionSearchParams = $derived.by(() => {
 		const params = new URLSearchParams({
@@ -317,10 +326,6 @@
 		});
 	}
 
-	function typeColor(type: number) {
-		return TYPE_COLOR_MAP[type] ?? 'var(--lamp-glow, #f59e0b)';
-	}
-
 	function rememberDraftSelection() {
 		if (!textareaElement) return;
 		voiceInsertionRange = {
@@ -375,6 +380,7 @@
 			class={[
 				'sq-composer',
 				composerFocused && 'sq-composer--focused',
+				!answerReady && 'sq-composer--invite',
 				submitError && 'sq-composer--invalid'
 			]}
 			onfocusin={() => (composerFocused = true)}
@@ -414,7 +420,13 @@
 					/>
 				</div>
 				{#if !voiceBusy}
-					<Button class="sq-button" variant="primary" size="md" type="submit" loading={submitting}>
+					<Button
+						class="sq-button"
+						variant={answerReady ? 'action' : 'secondary'}
+						size="md"
+						type="submit"
+						loading={submitting}
+					>
 						{submitting ? 'Opening the chorus…' : 'Give your take'}
 					</Button>
 				{/if}
@@ -438,7 +450,7 @@
 				<span class="sq-kicker">How nine minds answered it</span>
 				<ol class="sq-takes">
 					{#each takes as t (t.type)}
-						<li class="sq-take" style={`--accent:${typeColor(t.type)}`}>
+						<li class={['sq-take', mirror?.resonantType === t.type && 'sq-take--closest']}>
 							<span class="sq-take-label">{formatTypeLabel(t.type)}</span>
 							<p class="sq-take-text">{t.take}</p>
 						</li>
@@ -461,7 +473,7 @@
 					{#each enneagramTypes as type (type)}
 						<button
 							type="button"
-							class:selected={selectedType === type}
+							class={{ selected: selectedType === type }}
 							aria-pressed={selectedType === type}
 							disabled={typeSaveState === 'saving' && selectedType === type}
 							onclick={() => void selectType(type)}
@@ -526,9 +538,15 @@
 								aria-invalid={emailError ? 'true' : 'false'}
 								aria-describedby={emailError ? 'sq-email-error' : undefined}
 							/>
-							<button type="submit" class="sq-email-button" disabled={emailSubmitting}>
+							<Button
+								type="submit"
+								class="sq-email-button"
+								variant="secondary"
+								size="md"
+								disabled={emailSubmitting}
+							>
 								{emailSubmitting ? 'Saving…' : 'Notify me'}
-							</button>
+							</Button>
 							<button
 								type="button"
 								class="sq-email-dismiss"
@@ -555,40 +573,51 @@
 	   nine-takes list. */
 	.sq {
 		margin: 2.75rem 0;
+		font-family: var(--font-talk);
 	}
 
 	.sq .sq-question {
 		font-size: 1.35rem;
 		font-weight: 600;
 		line-height: 1.35;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0 0 0.5rem;
 	}
 
 	.sq .sq-deal {
-		font-size: 0.92rem;
-		color: var(--ink-mid);
+		font-size: var(--font-size-base);
+		color: var(--text-muted);
 		margin: 0 0 0.35rem;
 	}
 
 	.sq .sq-trust {
-		font-size: 0.78rem;
-		color: var(--ink-dim);
+		font-size: var(--font-size-sm);
+		color: var(--text-faint);
 		margin: 0 0 1rem;
 	}
 
 	.sq .sq-composer {
 		overflow: hidden;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--stone-warm) 55%, transparent);
+		background: var(--bg);
 		transition:
 			border-color 140ms ease,
 			box-shadow 140ms ease;
 
 		&.sq-composer--focused {
-			border-color: var(--lamp-glow);
-			box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 18%, transparent);
+			border-color: var(--highlight);
+			box-shadow: 0 0 0 1px var(--highlight);
+		}
+
+		/* Empty composer: the mint outline is the invitation. */
+		&.sq-composer--invite {
+			border-color: var(--action);
+		}
+
+		&.sq-composer--invite.sq-composer--focused {
+			border-color: var(--action);
+			box-shadow: 0 0 0 1px var(--action);
 		}
 
 		&.sq-composer--invalid {
@@ -605,14 +634,16 @@
 		border: 0;
 		border-radius: 0;
 		background: transparent;
-		color: var(--ink-bright);
+		color: var(--text);
+		caret-color: var(--highlight);
 		font: inherit;
-		font-size: 1rem;
+		font-size: var(--font-size-base);
 		line-height: 1.5;
 	}
 
 	.sq textarea::placeholder {
-		color: var(--ink-dim);
+		color: var(--text-faint);
+		opacity: 1;
 	}
 
 	.sq textarea:focus {
@@ -625,8 +656,8 @@
 		align-items: center;
 		gap: 0.75rem;
 		padding: 0.65rem 0.75rem;
-		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 72%, transparent);
-		background: color-mix(in srgb, var(--night-deep) 52%, transparent);
+		border-top: 1px solid var(--rule);
+		background: var(--surface);
 	}
 
 	.sq .sq-composer-footer--voice-active {
@@ -663,7 +694,7 @@
 
 	.sq .sq-error {
 		color: var(--error-text);
-		font-size: 0.9rem;
+		font-size: var(--font-size-sm);
 		margin: 0.6rem 0 0;
 	}
 
@@ -676,33 +707,41 @@
 		margin-bottom: 1.75rem;
 	}
 
+	/* Cold Light label: Archivo uppercase, letter-spaced, faint. */
 	.sq .sq-kicker {
 		display: block;
-		font-size: 0.72rem;
-		letter-spacing: 0.14em;
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		font-weight: 700;
-		color: var(--lamp-glow);
+		font-weight: 600;
+		color: var(--text-faint);
 		margin-bottom: 0.5rem;
 	}
 
+	/* The moment your take is in: the one mint bar. */
 	.sq .sq-your-take {
-		font-size: 1.05rem;
+		font-size: var(--font-size-lg);
 		line-height: 1.55;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0 0 0.75rem;
+		padding-left: 1rem;
+		border-left: 3px solid var(--action);
 	}
 
 	.sq .sq-mirror {
+		font-family: var(--font-voice);
+		font-style: italic;
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--highlight);
 		margin: 0 0 0.5rem;
 	}
 
 	.sq .sq-closest {
-		font-size: 0.8rem;
-		font-weight: 700;
-		color: var(--ink-bright);
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: var(--text-faint);
 	}
 
 	.sq .sq-takes {
@@ -714,49 +753,60 @@
 	}
 
 	.sq .sq-take {
-		border-left: 2px solid var(--accent);
+		border-left: 2px solid var(--rule);
 		padding-left: 0.9rem;
 		margin: 0;
 	}
 
+	/* The reader's closest type is the lit one; the rest stay faint. */
+	.sq .sq-take--closest {
+		border-left-color: var(--highlight);
+	}
+
 	.sq .sq-take-label {
 		display: block;
-		font-size: 0.72rem;
-		letter-spacing: 0.05em;
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		font-weight: 700;
-		color: var(--ink-bright);
+		font-weight: 600;
+		color: var(--text-faint);
+	}
+
+	.sq .sq-take--closest .sq-take-label {
+		color: var(--highlight);
 	}
 
 	.sq .sq-take-text {
 		margin: 0.3rem 0 0;
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.sq .sq-door {
 		margin: 0 0 1.5rem;
 	}
 
+	/* Links are lavender and always underlined. */
 	.sq .sq-door a {
-		font-weight: 700;
-		color: var(--lamp-glow);
-		text-decoration: none;
+		font-weight: 600;
+		color: var(--highlight);
+		text-decoration: underline;
+		text-underline-offset: 0.18em;
 	}
 
 	.sq .sq-door a:hover {
-		text-decoration: underline;
+		color: var(--text);
 	}
 
 	.sq .sq-type {
-		border-top: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
 		padding: 1rem 0;
 	}
 
 	.sq .sq-type-line,
 	.sq .sq-type-status {
-		font-size: 0.85rem;
-		color: var(--ink-mid);
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
 		margin: 0 0 0.6rem;
 	}
 
@@ -768,37 +818,51 @@
 
 	.sq .sq-type-options button {
 		appearance: none;
-		min-height: 2.35rem;
-		border: 1px solid var(--stone-edge);
+		min-height: 2.75rem;
+		border: 1px solid var(--rule);
 		border-radius: 999px;
 		background: transparent;
-		color: var(--ink-mid);
+		color: var(--text-faint);
 		font: inherit;
-		font-weight: 700;
+		font-weight: 600;
 		cursor: pointer;
+		transition:
+			border-color 140ms ease,
+			color 140ms ease,
+			background 140ms ease;
 	}
 
-	.sq .sq-type-options button:hover,
+	.sq .sq-type-options button:hover {
+		border-color: color-mix(in srgb, var(--highlight) 50%, var(--rule));
+		color: var(--text);
+	}
+
+	/* Selected = lavender text + ring on the deep indigo fill. */
 	.sq .sq-type-options button.selected {
-		border-color: var(--lamp-glow);
-		background: color-mix(in srgb, var(--lamp-glow) 16%, transparent);
-		color: var(--ink-bright);
+		border-color: var(--highlight);
+		background: var(--accent-deep);
+		color: var(--highlight);
+	}
+
+	.sq .sq-type-options button:focus-visible {
+		outline: 2px solid var(--highlight);
+		outline-offset: 2px;
 	}
 
 	.sq .sq-type-status {
 		margin: 0.6rem 0 0;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
-	/* ---- email ask: quiet, below the nine ---- */
+	/* ---- email ask: quiet, below the nine (never mint) ---- */
 	.sq .sq-email {
-		border-top: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
 		padding-top: 1rem;
 	}
 
 	.sq .sq-email-line {
-		font-size: 0.9rem;
-		color: var(--ink-mid);
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
 		margin: 0 0 0.6rem;
 	}
 
@@ -813,40 +877,27 @@
 		flex: 1 1 14rem;
 		min-height: 2.75rem;
 		padding: 0.55rem 0.75rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--stone-warm) 55%, transparent);
-		color: var(--ink-bright);
+		background: var(--bg);
+		color: var(--text);
 		/* 1rem minimum so iOS Safari does not auto-zoom on focus */
-		font-size: 1rem;
+		font-size: var(--font-size-base);
 	}
 
 	.sq .sq-email-form input[type='email']::placeholder {
-		color: var(--ink-dim);
+		color: var(--text-faint);
+		opacity: 1;
 	}
 
 	.sq .sq-email-form input[type='email']:focus {
 		outline: none;
-		border-color: var(--lamp-glow);
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 25%, transparent);
+		border-color: var(--highlight);
+		box-shadow: 0 0 0 1px var(--highlight);
 	}
 
-	.sq .sq-email-button {
-		appearance: none;
-		border: none;
-		cursor: pointer;
+	.sq :global(.sq-email-button) {
 		min-height: 2.75rem;
-		padding: 0.55rem 1rem;
-		border-radius: 0.625rem;
-		font-weight: 700;
-		font-size: 0.88rem;
-		background: var(--lamp-glow);
-		color: var(--text-on-primary);
-	}
-
-	.sq .sq-email-button:disabled {
-		opacity: 0.6;
-		cursor: wait;
 	}
 
 	.sq .sq-email-dismiss {
@@ -854,20 +905,26 @@
 		border: none;
 		background: none;
 		cursor: pointer;
-		font-size: 0.85rem;
-		color: var(--ink-dim);
+		font: inherit;
+		font-size: var(--font-size-sm);
+		color: var(--text-faint);
 		min-height: 2.75rem;
 		padding: 0.35rem 0.5rem;
 	}
 
 	.sq .sq-email-dismiss:hover {
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		text-decoration: underline;
 	}
 
+	.sq .sq-email-dismiss:focus-visible {
+		outline: 2px solid var(--highlight);
+		outline-offset: 2px;
+	}
+
 	.sq .sq-email-done {
-		font-size: 0.9rem;
-		color: var(--ink-bright);
+		font-size: var(--font-size-sm);
+		color: var(--text);
 		margin: 0;
 	}
 

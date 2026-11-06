@@ -6,8 +6,9 @@
   whole cost is visible. Copy comes from the running experiment
   ($lib/utils/betaCardCopy); /book-session gets fixed details copy.
 
-  The email goes to /api/beta-signup and DJ writes back personally, so the card
-  promises a reply, not an automatic email. Views, opens (first focus on the
+  The email goes to /api/beta-signup, which sends the details email right away
+  from dj@9takes.com (book a call, or reply with what's going on), so the
+  thank-you state says to check your email. Views, opens (first focus on the
   field or first tap on the button), and submits are counted per variant
   (cta_experiment_events and PostHog).
 
@@ -174,8 +175,11 @@
 	data-variant={copy.id}
 >
 	{#if betaCard.stage === 'done'}
-		<p class="etc__title" id={titleId}>You’re in.</p>
-		<p class="etc__sub" role="status">Check your inbox within 24 hours.</p>
+		<p class="etc__title" id={titleId}>You’re in. Check your email.</p>
+		<p class="etc__sub" role="status">
+			The details and a link to book your free call are on the way from dj@9takes.com. Not there in
+			a few minutes? Check spam or Promotions.
+		</p>
 		{#if !onDetailsPage}
 			<a class="etc__link" href={BETA_DETAILS_HREF}>See what happens next</a>
 		{/if}
@@ -224,7 +228,7 @@
 	{/if}
 
 	<p class="etc__fine">
-		<span>Free beta · Coaching, not clinical therapy</span>
+		<span>Free · No commitment · Coaching, not clinical therapy</span>
 		<!-- The thank-you state already links to the details. -->
 		{#if !onDetailsPage && betaCard.stage !== 'done'}
 			<span aria-hidden="true">·</span>
@@ -241,18 +245,18 @@
 		width: 100%;
 		margin: 0;
 		padding: 0.9rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 28%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--rule));
 		/* lint-radius-role: card */
 		border-radius: var(--border-radius-lg);
 		background:
 			radial-gradient(
 				circle at 0% 0%,
-				color-mix(in srgb, var(--lamp-glow) 12%, transparent) 0%,
+				color-mix(in srgb, var(--accent) 14%, transparent) 0%,
 				transparent 60%
 			),
-			color-mix(in srgb, var(--stone-warm) 94%, var(--night-deep));
+			var(--surface);
 		box-shadow: var(--glow-sm);
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		font-family: var(--font-family);
 		font-size: 0.875rem;
 		line-height: 1.45;
@@ -268,8 +272,8 @@
 
 	.etc .etc__kicker {
 		margin: 0;
-		color: var(--lamp-glow);
-		font-family: var(--font-mono);
+		color: var(--text-faint);
+		font-family: var(--font-talk);
 		font-size: 0.68rem;
 		font-weight: 600;
 		line-height: 1.2;
@@ -279,8 +283,8 @@
 
 	.etc .etc__title {
 		margin: 0;
-		color: var(--ink-bright);
-		font-family: var(--font-display);
+		color: var(--text);
+		font-family: var(--font-talk);
 		font-size: 1rem;
 		font-weight: 700;
 		line-height: 1.25;
@@ -293,7 +297,7 @@
 
 	.etc .etc__sub {
 		margin: 0;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		font-size: 0.82rem;
 		font-weight: 400;
 		line-height: 1.45;
@@ -320,23 +324,23 @@
 		min-height: 2.6rem;
 		margin: 0;
 		padding: 0.6rem 0.7rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
+		border: 1px solid var(--rule);
 		/* lint-radius-role: control */
 		border-radius: var(--border-radius);
-		background: color-mix(in srgb, var(--stone-warm) 88%, var(--night-deep));
-		color: var(--ink-bright);
+		background: var(--surface-raised);
+		color: var(--text);
 		font-family: var(--font-family);
 		font-size: 1rem;
 		line-height: 1.2;
 	}
 
 	.etc .etc__input::placeholder {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.etc .etc__input:focus {
 		outline: none;
-		border-color: var(--lamp-glow);
+		border-color: var(--highlight);
 		box-shadow: var(--glow-sm);
 	}
 
@@ -354,8 +358,8 @@
 		border: 1px solid transparent;
 		/* lint-radius-role: control */
 		border-radius: var(--border-radius);
-		background: var(--lamp-glow);
-		color: var(--text-on-primary);
+		background: var(--highlight);
+		color: var(--bg);
 		font-family: var(--font-family);
 		font-size: 0.9rem;
 		font-weight: 700;
@@ -376,7 +380,7 @@
 	.etc .etc__button:focus-visible,
 	.etc .etc__link:focus-visible,
 	.etc .etc__fine-link:focus-visible {
-		outline: 2px solid color-mix(in srgb, var(--lamp-glow) 70%, white);
+		outline: 2px solid var(--highlight);
 		outline-offset: 2px;
 	}
 
@@ -387,7 +391,7 @@
 
 	.etc .etc__link {
 		justify-self: start;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 		font-size: 0.82rem;
 		font-weight: 600;
 		line-height: 1.4;
@@ -404,7 +408,7 @@
 
 	.etc .etc__fine {
 		margin: 0;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		font-size: 0.7rem;
 		line-height: 1.4;
 	}
@@ -416,7 +420,7 @@
 	}
 
 	.etc .etc__fine-link:hover {
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.etc .etc__sr {

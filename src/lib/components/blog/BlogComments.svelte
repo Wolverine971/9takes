@@ -43,9 +43,9 @@
 
 	.comment-info {
 		padding: 0.75rem 1rem;
-		color: var(--ink-mid);
-		font-style: italic;
-		font-size: 0.9rem;
+		color: var(--text-muted);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-sm);
 	}
 
 	.comment-list {

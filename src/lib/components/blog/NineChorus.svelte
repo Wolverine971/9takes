@@ -24,7 +24,8 @@
 	} from '$lib/analytics/commentEvents';
 	import { browser } from '$app/environment';
 	import QRCode from 'qrcode';
-	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
+	import { formatTypeLabel } from '$lib/constants/enneagramColors';
+	import Button from '$lib/components/atoms/Button.svelte';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 
 	type Take = { type: number; archetype: string; take: string; source: 'ai' | 'human' };
@@ -78,6 +79,9 @@
 
 	let root = $state<HTMLElement | undefined>();
 
+	// Mint flip (same as the question page's Interact): an empty box carries the mint
+	// outline as the invitation; once there's text, the Post button takes the mint.
+	const answerReady = $derived(draft.trim().length > 0);
 	const wordCount = $derived(draft.trim() ? draft.trim().split(/\s+/).length : 0);
 	const canSubmit = $derived(wordCount >= 3 && draft.trim().length >= 8 && !submitting);
 	const shareUrl = $derived(questionUrl ? `https://9takes.com/questions/${questionUrl}` : '');
@@ -204,10 +208,6 @@
 			/* user dismissed the share sheet; nothing to do */
 		}
 	}
-
-	function typeColor(type: number) {
-		return TYPE_COLOR_MAP[type] ?? 'var(--lamp-glow, #f59e0b)';
-	}
 </script>
 
 {#if question}
@@ -232,6 +232,7 @@
 					<span class="give-label">Your answer first</span>
 					<textarea
 						id="chorus-take"
+						class={{ invite: !answerReady }}
 						bind:value={draft}
 						oninput={startAnswer}
 						maxlength="2000"
@@ -244,14 +245,19 @@
 				</label>
 
 				<div class="give-foot">
-					<span id="chorus-take-count" class="count" class:ready={wordCount >= 3}>
+					<span id="chorus-take-count" class={['count', { ready: wordCount >= 3 }]}>
 						{wordCount === 0
 							? (starterPrompt?.hint ?? 'A sentence is enough.')
 							: `${wordCount} word${wordCount === 1 ? '' : 's'}`}
 					</span>
-					<button class="reveal-btn" onclick={submit} disabled={!canSubmit}>
+					<Button
+						variant={answerReady ? 'action' : 'secondary'}
+						size="lg"
+						onclick={submit}
+						disabled={!canSubmit}
+					>
 						{submitting ? 'Posting…' : 'Post answer and compare'}
-					</button>
+					</Button>
 				</div>
 				{#if submitError}
 					<p id="chorus-take-error" class="submit-error" role="alert">{submitError}</p>
@@ -270,7 +276,7 @@
 				</div>
 
 				<!-- 2. Your answer + the mirror -->
-				<div class="your-answer block" style={`--accent:${typeColor(mirror?.resonantType ?? 9)}`}>
+				<div class="your-answer block">
 					<span class="block-kicker"
 						>{alreadyAnswered ? 'YOU ALREADY ANSWERED THIS QUESTION' : 'YOUR ANSWER · POSTED'}</span
 					>
@@ -289,7 +295,7 @@
 					</p>
 					<ol class="voices">
 						{#each takes as t, i (t.type)}
-							<li class="voice" style={`--accent:${typeColor(t.type)}; --delay:${i * 50}ms`}>
+							<li class="voice" style={`--delay:${i * 50}ms`}>
 								<span class="voice-name">{formatTypeLabel(t.type)}</span>
 								<p class="voice-take">{t.take}</p>
 								<span class="voice-name"
@@ -313,11 +319,11 @@
 								<img class="qr" src={qrDataUrl} alt="QR code linking to this question" />
 							{/if}
 							<div class="share-actions">
-								<button class="share-btn" onclick={share}>
+								<Button variant="primary" size="lg" class="share-btn" onclick={share}>
 									{shareState === 'copied'
 										? 'Link copied'
 										: 'Share with your friends to see what they would say'}
-								</button>
+								</Button>
 								<a class="door-link" href={resolve('/questions/[slug]', { slug: questionUrl })}
 									>See everyone’s answers on the question page →</a
 								>
@@ -337,34 +343,42 @@
 {/if}
 
 <style lang="scss">
+	/* Cold Light: the card sits in the dark; the empty answer box carries the mint
+	   invitation, and the Post button takes the mint once there is text. */
 	.chorus {
 		margin: 3.5rem auto;
 		max-width: 44rem;
 		padding: 2rem 1.75rem 2.25rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--lamp-glow) 4%, var(--stone-warm));
-		color: var(--ink-bright);
+		border: 1px solid var(--rule);
+		border-radius: 16px;
+		background: color-mix(in srgb, var(--accent) 6%, var(--surface));
+		color: var(--text);
+		font-family: var(--font-talk);
 	}
 
-	.chorus-head .kicker {
-		font-size: 0.7rem;
-		letter-spacing: 0.18em;
-		font-weight: 700;
-		color: var(--lamp-glow);
+	.chorus-head .kicker,
+	.give-label,
+	.block-kicker {
+		display: block;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: var(--text-faint);
 	}
 
 	.lead {
 		margin: 0.75rem 0 0;
 		font-size: 0.95rem;
 		line-height: 1.5;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.question {
 		font-size: clamp(1.3rem, 2.6vw, 1.7rem);
 		line-height: 1.35;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0.5rem 0 1.5rem;
 		font-weight: 600;
 	}
@@ -373,34 +387,35 @@
 		display: block;
 	}
 	.give-label {
-		display: block;
-		font-size: 0.78rem;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		font-weight: 700;
-		color: var(--lamp-glow);
 		margin-bottom: 0.5rem;
 	}
 	textarea {
 		width: 100%;
 		resize: vertical;
 		padding: 0.9rem 1rem;
-		border-radius: 0.625rem;
-		border: 1px solid var(--stone-edge);
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		caret-color: var(--lamp-glow);
+		border-radius: 10px;
+		border: 1px solid var(--rule);
+		background: var(--bg);
+		color: var(--text);
+		caret-color: var(--highlight);
 		font: inherit;
 		line-height: 1.5;
 	}
 	textarea::placeholder {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		opacity: 1;
 	}
 	textarea:focus {
 		outline: none;
-		border-color: var(--lamp-glow);
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 25%, transparent);
+		border-color: var(--highlight);
+		box-shadow: 0 0 0 1px var(--highlight);
+	}
+	textarea.invite {
+		border-color: var(--action);
+	}
+	textarea.invite:focus {
+		border-color: var(--action);
+		box-shadow: 0 0 0 1px var(--action);
 	}
 	textarea[aria-invalid='true'] {
 		border-color: var(--error-text);
@@ -415,65 +430,33 @@
 		flex-wrap: wrap;
 	}
 	.count {
-		font-size: 0.85rem;
-		color: var(--ink-mid);
+		font-size: var(--font-size-sm);
+		color: var(--text-faint);
 	}
 	.count.ready {
-		color: var(--lamp-glow);
+		color: var(--text-muted);
 	}
 
-	.reveal-btn,
-	.share-btn {
-		appearance: none;
-		min-height: 2.75rem;
-		border: 1px solid var(--lamp-glow);
-		cursor: pointer;
-		padding: 0.7rem 1.25rem;
-		border-radius: 0.625rem;
-		font-weight: 700;
-		font-size: 0.95rem;
-		background: var(--lamp-glow);
-		color: var(--text-on-primary);
-		transition:
-			transform 0.1s ease,
-			background-color 0.15s ease,
-			border-color 0.15s ease;
-	}
-	:global(.chorus .reveal-btn:focus-visible),
-	:global(.chorus .share-btn:focus-visible) {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
-	}
-	.reveal-btn:hover:not(:disabled),
-	.share-btn:hover {
-		border-color: color-mix(in srgb, var(--lamp-glow) 75%, var(--lamp-deep));
-		background: color-mix(in srgb, var(--lamp-glow) 75%, var(--lamp-deep));
-	}
-	.reveal-btn:active:not(:disabled),
-	.share-btn:active {
-		transform: translateY(1px);
-	}
-	.reveal-btn:disabled {
-		border-color: var(--stone-edge);
-		background: var(--stone-mid);
-		color: var(--ink-mid);
-		cursor: not-allowed;
+	/* The atom keeps labels on one line; the share label is a full sentence. */
+	.share-actions :global(.share-btn) {
+		white-space: normal;
+		text-align: center;
 	}
 
 	.submit-error {
 		color: var(--error-text);
-		font-size: 0.9rem;
+		font-size: var(--font-size-sm);
 		margin: 0.6rem 0 0;
 	}
-	.promise {
+	.promise,
+	.trust {
 		margin: 1rem 0 0;
 		font-size: 0.82rem;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 	.trust {
-		margin: 0.25rem 0 0;
-		font-size: 0.82rem;
-		color: var(--ink-mid);
+		margin-top: 0.25rem;
+		color: var(--text-faint);
 	}
 
 	/* ---- reveal ---- */
@@ -481,49 +464,45 @@
 		margin-bottom: 2rem;
 	}
 	.block-kicker {
-		display: block;
-		font-size: 0.7rem;
-		letter-spacing: 0.16em;
-		font-weight: 700;
-		color: var(--lamp-glow);
 		margin-bottom: 0.5rem;
 	}
 	.recap-question {
-		font-size: 1.2rem;
+		font-size: var(--font-size-xl);
 		line-height: 1.4;
 		font-weight: 600;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 	}
 
 	.your-answer {
-		border-left: 3px solid var(--accent);
+		border-left: 3px solid var(--action);
 		padding-left: 1.1rem;
-	}
-	.your-answer .block-kicker {
-		color: var(--ink-bright);
 	}
 	.your-text {
 		font-size: 1.1rem;
 		line-height: 1.5;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0 0 0.75rem;
 	}
 	.mirror-text {
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: var(--font-size-lg);
 		line-height: 1.55;
-		color: var(--ink-bright);
+		color: var(--highlight);
 		margin: 0 0 0.5rem;
 	}
 	.closest {
-		font-size: 0.78rem;
-		font-weight: 700;
-		letter-spacing: 0.04em;
-		color: var(--ink-bright);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-faint);
 	}
 
 	.sub {
 		font-size: 0.9rem;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		margin: 0 0 1rem;
 	}
 
@@ -535,11 +514,11 @@
 		gap: 0.75rem;
 	}
 	.voice {
-		border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
-		border-left: 3px solid var(--accent);
-		border-radius: 0.625rem;
+		border: 1px solid var(--rule);
+		border-left: 3px solid color-mix(in srgb, var(--accent) 70%, transparent);
+		border-radius: 10px;
 		padding: 0.85rem 1rem;
-		background: color-mix(in srgb, var(--accent) 7%, var(--night-deep));
+		background: var(--surface-raised);
 		animation: rise 0.45s ease both;
 		animation-delay: var(--delay, 0ms);
 	}
@@ -550,21 +529,24 @@
 		}
 	}
 	.voice-name {
-		font-size: 0.72rem;
-		letter-spacing: 0.04em;
+		font-size: var(--font-size-xs);
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		font-weight: 700;
-		color: var(--ink-bright);
+		font-weight: 600;
+		color: var(--text-faint);
+	}
+	.voice-name:first-child {
+		color: var(--highlight);
 	}
 	.voice-take {
 		margin: 0.35rem 0 0;
 		line-height: 1.5;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	/* ---- share ---- */
 	.share-block {
-		border-top: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
 		padding-top: 1.5rem;
 	}
 	.share-row {
@@ -576,8 +558,9 @@
 	.qr {
 		width: 120px;
 		height: 120px;
-		border-radius: 0.625rem;
-		background: #fff;
+		border-radius: 10px;
+		/* QR codes need a light quiet zone to scan. */
+		background: white;
 		padding: 6px;
 		flex: none;
 	}
@@ -587,6 +570,7 @@
 		gap: 0.7rem;
 		flex: 1 1 16rem;
 		align-items: flex-start;
+		min-width: 0;
 	}
 
 	.doorway {
@@ -594,26 +578,29 @@
 		text-align: center;
 	}
 	.door-link {
-		font-weight: 700;
-		color: var(--lamp-glow);
-		text-decoration: none;
+		font-weight: 600;
+		color: var(--highlight);
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		text-decoration-thickness: 1px;
 	}
 	.door-link:hover {
-		text-decoration: underline;
+		color: var(--text);
+	}
+	.door-link:focus-visible {
+		outline: 2px solid var(--highlight);
+		outline-offset: 2px;
+		border-radius: 4px;
 	}
 	.door-link.subtle {
 		font-weight: 500;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		font-size: 0.9rem;
 	}
 
 	@media (prefers-reduced-motion: reduce) {
 		.voice {
 			animation: none;
-		}
-		.reveal-btn,
-		.share-btn {
-			transition: none;
 		}
 	}
 </style>

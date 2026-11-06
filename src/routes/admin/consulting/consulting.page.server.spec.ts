@@ -19,6 +19,8 @@ function eventFor(admin: boolean | null) {
 			gte: () => builder,
 			lte: () => builder,
 			in: () => builder,
+			is: () => builder,
+			not: () => builder,
 			order: () => builder,
 			limit: async () => ({ data: [] }),
 			single: async () => ({ data: { id: 'user-1', admin }, error: null })

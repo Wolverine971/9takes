@@ -1,0 +1,25 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-1:Claims C11, C55, C82 and C100 list S21 (Decoded) as a supporting source, but S21 was never opened (it is a publisher catalog page) and the verifier could not open the book either. The prose already attributes these quotations to the Village Voice relay (S11, opened and verbatim), so the inventory claims more than the research did, and every cited source must be opened for release.",
+    "unverified_source:S21",
+    "overall_below_8.5:8.4"
+  ],
+  "quality": {
+    "evidence": 8.6,
+    "enneagram": 8,
+    "originality": 8.8,
+    "writing": 8.2,
+    "durability": 8.5,
+    "hook": 8.4,
+    "discoverability": 8,
+    "overall": 8.4,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-11-06",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "1fb025952d5542f14c66a1da7e152f3053ad24286fc634d9839c254c5fc053c5"
+  }
+}

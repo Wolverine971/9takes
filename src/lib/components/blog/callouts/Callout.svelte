@@ -3,11 +3,13 @@
   Callout — the single base shell for blog callout boxes.
   Created 2026-06-10 (design audit): eight callout components carried eight
   hand-rolled shells with drifting radii/borders/labels. This is the one
-  treatment: 10px radius, 1px tone-tinted border, 4px left accent, mono
-  kicker label (the §NN system voice), shared prose styles in the content.
+  treatment: --surface card, 10px radius, 1px --rule border, 4px left bar,
+  Archivo uppercase label in --text-faint, shared prose styles in the content.
 
-  Tones map to the V5 palette: lamp (default brand), success, warning,
-  error, data (teal — stat/data moments), neutral (ink).
+  Cold Light (2026-11-06): one tint. lamp, success and data all draw the
+  --accent bar (no green, no yellow, no teal); warning draws the --highlight
+  bar so it still reads as "pay attention"; error keeps --error; neutral is
+  --text-faint. Tone names are kept so markdown props don't change.
 
   Consumers (QuickAnswer, InsightBox, Checklist, TypeQuotes, VisualMetaphor,
   CorpusStatCallout) keep their public props/slots and render through this.
@@ -49,31 +51,17 @@
 		info: 'M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10ZM12 16v-4M12 8h.01'
 	};
 
+	const RULE = 'var(--rule)';
 	const TONES: Record<Tone, { accent: string; border: string }> = {
-		lamp: {
-			accent: 'var(--lamp-glow)',
-			border: 'color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge))'
-		},
-		success: {
-			accent: 'var(--success)',
-			border: 'color-mix(in srgb, var(--success) 25%, transparent)'
-		},
-		warning: {
-			accent: 'var(--warning)',
-			border: 'color-mix(in srgb, var(--warning) 25%, transparent)'
-		},
+		lamp: { accent: 'var(--accent)', border: RULE },
+		success: { accent: 'var(--accent)', border: RULE },
+		data: { accent: 'var(--accent)', border: RULE },
+		warning: { accent: 'var(--highlight)', border: RULE },
 		error: {
 			accent: 'var(--error)',
-			border: 'color-mix(in srgb, var(--error) 25%, transparent)'
+			border: 'color-mix(in srgb, var(--error) 30%, var(--rule))'
 		},
-		data: {
-			accent: 'var(--data-teal)',
-			border: 'color-mix(in srgb, var(--data-teal) 25%, var(--stone-edge))'
-		},
-		neutral: {
-			accent: 'var(--ink-dim)',
-			border: 'color-mix(in srgb, var(--ink-dim) 20%, transparent)'
-		}
+		neutral: { accent: 'var(--text-faint)', border: RULE }
 	};
 
 	let toneVars = $derived(
@@ -122,12 +110,7 @@
 		margin: 1.5rem 0;
 		padding: 1.25rem 1.5rem;
 		border-radius: 0.625rem;
-		background: linear-gradient(
-			135deg,
-			var(--stone-warm) 0%,
-			var(--night-deep) 50%,
-			var(--night-deep) 100%
-		);
+		background: var(--surface);
 		border: 1px solid var(--callout-border);
 	}
 
@@ -150,9 +133,9 @@
 
 	.callout__icon {
 		display: inline-flex;
-		width: 20px;
-		height: 20px;
-		color: var(--callout-accent);
+		width: 18px;
+		height: 18px;
+		color: var(--text-faint);
 		flex-shrink: 0;
 
 		:global(svg) {
@@ -161,20 +144,23 @@
 		}
 	}
 
-	/* The system label voice — mono kicker, accent-colored. */
+	/* Cold Light label voice: Archivo uppercase, letter-spaced, faint. No mono. */
 	.callout__label {
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
-		color: var(--callout-accent);
+		line-height: 1.3;
+		color: var(--text-faint);
 	}
 
-	.callout__title {
-		font-size: 0.95rem;
-		font-weight: 700;
-		color: var(--callout-accent);
+	/* Anchored to .callout so article-level heading rules can't restyle it. */
+	.callout .callout__title {
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
+		font-weight: 600;
+		color: var(--text);
 		margin: 0 0 0.5rem;
 		line-height: 1.4;
 		padding: 0;
@@ -182,34 +168,42 @@
 
 	/* Shared prose styles for slotted content. */
 	.callout__content {
-		font-size: 0.95rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
 		line-height: 1.65;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 
 		:global(strong),
 		:global(b) {
-			color: var(--ink-bright);
+			color: var(--text);
 			font-weight: 600;
 		}
 
 		:global(p) {
 			margin: 0;
-			color: var(--ink-mid);
+			color: var(--text-muted);
 		}
 
 		:global(p + p) {
 			margin-top: 0.75rem;
 		}
 
+		/* Links are lavender and always underlined. */
 		:global(a) {
-			color: var(--lamp-glow);
+			color: var(--highlight);
+			text-decoration: underline;
+			text-underline-offset: 0.18em;
+		}
+
+		:global(a:hover) {
+			color: var(--text);
 		}
 
 		:global(ul),
 		:global(ol) {
 			margin: 0.5rem 0;
 			padding-left: 1.25rem;
-			color: var(--ink-mid);
+			color: var(--text-muted);
 		}
 
 		:global(li) {
@@ -230,10 +224,6 @@
 		.callout {
 			padding: 1rem 1.25rem;
 			margin: 1rem 0;
-		}
-
-		.callout__content {
-			font-size: 0.9rem;
 		}
 	}
 </style>

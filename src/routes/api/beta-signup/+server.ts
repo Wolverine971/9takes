@@ -6,8 +6,8 @@
 //
 // Bot filtering mirrors Talk to DJ: honeypot, minimum fill time, user agent,
 // per-visitor rate limit. Obvious bots get a fake success so they learn
-// nothing. Nothing is emailed to the address; DJ is alerted and writes back by
-// hand ($lib/server/betaSignups).
+// nothing. Real signups get the details email right away, with more guards on
+// that send, and DJ is alerted ($lib/server/betaSignups).
 import { json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';

@@ -126,9 +126,10 @@
 		margin-bottom: 2rem;
 	}
 
+	/* Cold Light: no yellow. The disclaimer is a quiet indigo-barred note. */
 	.disclaimer-box {
-		background-color: var(--night-deep);
-		border-left: 4px solid var(--warning);
+		background-color: var(--surface);
+		border-left: 3px solid var(--accent);
 		padding: 1rem;
 		margin: 1.5rem auto;
 		max-width: 800px;
@@ -136,12 +137,12 @@
 
 		p {
 			margin: 0;
-			color: var(--ink-bright);
+			color: var(--text-muted);
 			line-height: 1.6;
 		}
 
 		strong {
-			color: var(--warning-text);
+			color: var(--text);
 		}
 	}
 
@@ -154,7 +155,7 @@
 	.section-divider {
 		margin: 5rem 0;
 		border: 0;
-		border-top: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
 	}
 
 	.resources-section {
@@ -164,7 +165,7 @@
 			text-align: center;
 			margin-bottom: 2rem;
 			font-size: 2rem;
-			color: var(--ink-bright);
+			color: var(--text);
 		}
 
 		.resources-grid {
@@ -175,7 +176,8 @@
 			margin: 0 auto;
 
 			.resource-card {
-				background: var(--night-deep);
+				background: var(--surface);
+				border: 1px solid var(--rule);
 				padding: 1.5rem;
 				border-radius: 1rem;
 				text-align: center;
@@ -185,28 +187,34 @@
 
 				&:hover {
 					transform: translateY(-4px);
-					box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+					box-shadow: var(--shadow-md);
 				}
 
 				h3 {
 					margin-bottom: 0.5rem;
-					color: var(--ink-bright);
-					font-size: 1.25rem;
+					color: var(--text);
+					font-size: var(--font-size-xl);
 				}
 
 				p {
 					margin-bottom: 1rem;
-					color: var(--ink-mid);
+					color: var(--text-muted);
 					line-height: 1.5;
 				}
 
+				/* Links are lavender and always underlined; the padding gives the
+				   phone a 44px tap target. */
 				a {
-					color: var(--lamp-glow);
-					text-decoration: none;
+					display: inline-block;
+					padding-block: 0.6rem;
+					color: var(--highlight);
+					text-decoration: underline;
+					text-decoration-thickness: 1px;
+					text-underline-offset: 3px;
 					font-weight: 500;
 
 					&:hover {
-						text-decoration: underline;
+						color: var(--text);
 					}
 				}
 			}
@@ -221,11 +229,11 @@
 		.crisis-notice {
 			margin: 0.75rem 1rem;
 			padding: 0.75rem;
-			font-size: 0.875rem;
+			font-size: var(--font-size-sm);
 		}
 
-		.resources-grid {
-			grid-template-columns: 1fr !important;
+		.resources-section .resources-grid {
+			grid-template-columns: 1fr;
 		}
 	}
 </style>

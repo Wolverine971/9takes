@@ -1,0 +1,22 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I finished the unfamiliar-reader review of the Jay-Z draft and wrote it to `review-unfamiliar.json` in the run directory. It passes the pipeline's review schema, and every quoted passage matches the draft exactly. I didn't touch any other file and nothing was published.
+
+**Verdict:** the draft is gripping for a reader who knows only the name. It asks a clear question (is he protecting an image, or something he counts as his?) and has a strong through-line from his father leaving to the "wall" he describes. The case for Type 3 is argued fairly. The review has 8 findings: 2 major and 6 minor.
+
+**Major:**
+- **No Kaepernick context.** The draft never says who Colin Kaepernick is or what the kneeling protest was. The article calls the 2019 NFL deal the strongest evidence against Type 8, but without that context a newcomer can't see why the deal was costly or criticized.
+- **The opening counts ambiguous evidence for Type 8.** The 2019 halftime refusal leads the case. His own words for it ("second fiddle," one of four artists in an "interview process") read just as easily as concern for status, which points toward Type 3. The draft admits the 2026 acceptance can't settle the question but never says the same about the 2019 refusal.
+
+**Minor:**
+- The section heading "The record he does not narrate" is contradicted by its own content: it quotes him describing the stabbing in his memoir and his statement on the dismissed lawsuit. The section also breaks up the type argument.
+- Too little orientation: no album or sense of his catalog, and the body never says outright that Beyoncé is his wife.
+- The opening "I'm not the commissioner yet" joke never pays off.
+- A 115-word paragraph about the sources sits before the type answer and slows the opening. The body is about 3,800 words, above the 2,000–3,500 target.
+- "Song Cry" needs its 2001 date, which helps the argument. Lance Rivera is named before the stabbing is explained.
+- The page description says he "turned down the Super Bowl." That will read as wrong after he headlines it on February 14, 2027. "Fits him better" is also firmer than the body's medium confidence.
+
+**Passages to keep:** five, including the reunion with his father ("I got him an apartment, I was buying furniture"), "The Three reading explains the product. It is weaker on the costs." and the closing line about his children.
+
+The similarity check flagged only the phrase "the Eight read," shared with the Nara Smith page. That's ordinary type vocabulary and the arguments differ, so I didn't count it as reuse. I kept both risk flags from research: sensitive allegations (the stabbing case and the dismissed lawsuit) and contested typing (Type 8 vs Type 3).
+
+The request's checksums for the draft and evidence differ from what I computed on the files directly. As the stage instructions say, I copied the request's values into the review. If the runner hashes the raw files, it may reject the review on that mismatch.

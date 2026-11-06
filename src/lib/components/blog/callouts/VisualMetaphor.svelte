@@ -53,8 +53,8 @@
 		right: 16px;
 		width: 28px;
 		height: 28px;
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, var(--stone-edge));
+		background: var(--surface-raised);
+		border: 1px solid var(--rule);
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
@@ -63,7 +63,7 @@
 		svg {
 			width: 16px;
 			height: 16px;
-			color: var(--lamp-glow);
+			color: var(--highlight);
 		}
 	}
 

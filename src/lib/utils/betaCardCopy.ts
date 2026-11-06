@@ -65,7 +65,7 @@ export const DETAILS_COPY: BetaCardCopy = {
 	id: 'details',
 	kicker: '1-on-1 · Real person replies',
 	headline: 'Start with a free 30-minute call.',
-	sub: 'Leave your email. The details land in your inbox within a day.',
+	sub: 'Leave your email. The details and booking link land in your inbox right away.',
 	button: 'Send details'
 };
 

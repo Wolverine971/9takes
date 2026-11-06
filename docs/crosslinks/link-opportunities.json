@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-11-05",
+	"generatedAt": "2026-11-06",
 	"gsc": {
 		"runDate": "2026-10-19",
 		"window": {
@@ -13,10 +13,10 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 305,
+		"candidates": 307,
 		"gateDebt": 0,
 		"topBlog": 40,
-		"peopleBridge": 16,
+		"peopleBridge": 17,
 		"peopleToPeople": 0,
 		"skipped": 282
 	},
@@ -1508,6 +1508,33 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "**Public-figure interpretations:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), [Mark Zuckerberg](/personality-analysis/mark-zuckerberg)"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/scott-galloway",
+			"score": 1.41,
+			"target": {
+				"url": "/personality-analysis/scott-galloway",
+				"title": "Scott Galloway",
+				"kind": "person",
+				"section": "people",
+				"impressions": 0,
+				"clicks": 0,
+				"position": null,
+				"inbound": 0
+			},
+			"source": {
+				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+				"file": "src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md",
+				"section": "pop-culture",
+				"impressions": 224,
+				"outCount": 9
+			},
+			"line": 417,
+			"anchor": "Scott Galloway",
+			"phrase": "Scott Galloway",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "… such as abandoning their original no-guests rule. One split played out live on Scott Galloway's podcast: Jordi called integrating gambling into Meta indefensible, and John immediately opened a distinction between wantin…"
 		},
 		{
 			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/andrew-schulz",

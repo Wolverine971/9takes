@@ -17,7 +17,11 @@ type ClientIdentity = Pick<
 >;
 type StatusRow = Pick<Database['public']['Tables']['consulting_clients']['Row'], 'status'>;
 type TypeRow = Pick<Database['public']['Tables']['consulting_clients']['Row'], 'enneagram_type'>;
-type WaitlistRow = Database['public']['Tables']['coaching_waitlist']['Row'];
+// details_sent_at (migration 20261106120000) isn't in the generated types yet.
+type WaitlistRow = Database['public']['Tables']['coaching_waitlist']['Row'] & {
+	details_sent_at: string | null;
+};
+type QuarantinedSignup = Pick<WaitlistRow, 'id' | 'email' | 'created_at' | 'flagged_reason'>;
 type WaitlistMetadataRow = Database['public']['Tables']['coaching_waitlist_metadata']['Row'];
 type WaitlistWithMetadata = WaitlistRow & { metadata: WaitlistMetadataRow[] | null };
 type ProfileRow = Database['public']['Tables']['profiles']['Row'];
@@ -191,44 +195,58 @@ export const load: PageServerLoad = async ({ locals }) => {
 	const now = new Date();
 	const nextWeek = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
 
-	const [summary, { data: upcomingSessions }, { data: recentWaitlist }, betaCardResults] =
-		await Promise.all([
-			loadConsultingDashboardSummary(supabase),
-			// Upcoming sessions (next 7 days)
-			supabase
-				.from('consulting_sessions')
-				.select(
-					`
+	const [
+		summary,
+		{ data: upcomingSessions },
+		{ data: recentWaitlist, count: realWaitlistCount },
+		{ data: quarantinedRows, count: quarantinedCount },
+		betaCardResults
+	] = await Promise.all([
+		loadConsultingDashboardSummary(supabase),
+		// Upcoming sessions (next 7 days)
+		supabase
+			.from('consulting_sessions')
+			.select(
+				`
 				id,
 				scheduled_at,
 				session_type,
 				status,
 				client:consulting_clients(id, name, email, enneagram_type, trust_layer)
 			`
-				)
-				.gte('scheduled_at', now.toISOString())
-				.lte('scheduled_at', nextWeek.toISOString())
-				.in('status', ['scheduled', 'confirmed'])
-				.order('scheduled_at', { ascending: true })
-				.limit(5),
-			// Recent waitlist entries
-			supabase
-				.from('coaching_waitlist')
-				.select(
-					'id, name, email, session_goal, enneagram_type, created_at, flagged_reason, metadata:coaching_waitlist_metadata(source, utm_medium, utm_campaign, utm_content, ip_address, user_agent)'
-				)
-				.order('created_at', { ascending: false })
-				.limit(10),
-			// Beta card copy experiment: which headline gets people to sign up.
-			loadCtaExperimentResults(
-				supabase,
-				BETA_CARD_EXPERIMENT,
-				BETA_CARD_VARIANTS.map((variant) => ({
-					id: variant.id,
-					headline: renderBetaHeadline(variant, 'Taylor Swift')
-				}))
 			)
-		]);
+			.gte('scheduled_at', now.toISOString())
+			.lte('scheduled_at', nextWeek.toISOString())
+			.in('status', ['scheduled', 'confirmed'])
+			.order('scheduled_at', { ascending: true })
+			.limit(5),
+		// Real waitlist entries. Bot-flagged rows load separately so they stay out of the way.
+		(supabase as any)
+			.from('coaching_waitlist')
+			.select(
+				'id, name, email, session_goal, enneagram_type, created_at, flagged_reason, details_sent_at, metadata:coaching_waitlist_metadata(source, utm_medium, utm_campaign, utm_content, ip_address, user_agent)',
+				{ count: 'exact' }
+			)
+			.is('flagged_reason', null)
+			.order('created_at', { ascending: false })
+			.limit(100),
+		// Quarantined bot signups (the Nov 2025 wave used strangers' emails).
+		supabase
+			.from('coaching_waitlist')
+			.select('id, email, created_at, flagged_reason', { count: 'exact' })
+			.not('flagged_reason', 'is', null)
+			.order('created_at', { ascending: false })
+			.limit(100),
+		// Beta card copy experiment: which headline gets people to sign up.
+		loadCtaExperimentResults(
+			supabase,
+			BETA_CARD_EXPERIMENT,
+			BETA_CARD_VARIANTS.map((variant) => ({
+				id: variant.id,
+				headline: renderBetaHeadline(variant, 'Taylor Swift')
+			}))
+		)
+	]);
 
 	const waitlistEntries = (recentWaitlist || []) as WaitlistWithMetadata[];
 	const waitlistRawEmails = [
@@ -409,7 +427,13 @@ export const load: PageServerLoad = async ({ locals }) => {
 	});
 
 	return {
-		stats: summary.stats,
+		// The summary RPC counts bot rows too; the badge should count real people.
+		stats: {
+			...summary.stats,
+			waitlistCount: realWaitlistCount ?? enrichedWaitlist.length
+		},
+		quarantinedSignups: (quarantinedRows || []) as QuarantinedSignup[],
+		quarantinedCount: quarantinedCount ?? (quarantinedRows || []).length,
 		upcomingSessions: upcomingSessions || [],
 		recentWaitlist: enrichedWaitlist,
 		// Prefills the "Send details" Gmail draft for beta-card signups.
@@ -421,6 +445,35 @@ export const load: PageServerLoad = async ({ locals }) => {
 };
 
 export const actions: Actions = guardAdminActions({
+	// Track whether DJ has sent the beta details email to this person (sent by hand in Gmail).
+	setDetailsSent: async ({ request, locals }) => {
+		const formData = await request.formData();
+		const waitlistId = formData.get('waitlistId')?.toString();
+		const sent = formData.get('sent')?.toString() === 'true';
+
+		if (!waitlistId) {
+			return fail(400, { error: 'Waitlist ID required' });
+		}
+
+		const { data, error } = await (locals.supabase as any)
+			.from('coaching_waitlist')
+			.update({ details_sent_at: sent ? new Date().toISOString() : null })
+			.eq('id', waitlistId)
+			.is('flagged_reason', null)
+			.select('id, details_sent_at')
+			.maybeSingle();
+
+		if (error) {
+			console.error('Error updating details_sent_at:', error);
+			return fail(500, { error: 'Couldn’t save that. Try again.' });
+		}
+		if (!data) {
+			return fail(404, { error: 'Waitlist entry not found (or it’s a flagged bot)' });
+		}
+
+		return { success: true, detailsSentAt: data.details_sent_at as string | null };
+	},
+
 	// Promote waitlist entry to client
 	promoteToClient: async ({ request, locals }) => {
 		const formData = await request.formData();

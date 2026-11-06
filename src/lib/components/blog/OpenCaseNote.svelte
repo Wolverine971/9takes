@@ -6,7 +6,7 @@
   before the author bio and links to it from the case-file header marker
   (href="#open-case").
 
-  Shell is the shared <Callout> (lamp tone) so it reads as one of the article's
+  Shell is the shared <Callout> (default brand tone) so it reads as one of the article's
   own callouts, not a warning banner.
 -->
 <script lang="ts">
@@ -50,23 +50,24 @@
 	.open-case-note__title {
 		margin: 0 0 0.6rem;
 		padding: 0;
-		font-family: var(--font-display);
+		font-family: var(--font-talk);
 		font-size: clamp(1.125rem, 2vw, 1.3rem);
-		font-weight: 700;
+		font-weight: 600;
 		line-height: 1.25;
 		letter-spacing: 0;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.open-case-note__ask {
 		a {
+			color: var(--highlight);
 			font-weight: 600;
 			text-decoration: underline;
 			text-decoration-thickness: 1px;
 			text-underline-offset: 3px;
 
 			&:hover {
-				color: var(--lamp-light);
+				color: var(--text);
 			}
 		}
 	}

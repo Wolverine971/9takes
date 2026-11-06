@@ -120,9 +120,11 @@
 	.suggestions-title {
 		text-align: center;
 		margin: 0 0 1.5rem;
+		font-family: var(--font-talk);
 		font-size: clamp(1.5rem, 3vw, 2rem);
+		font-weight: 600;
 		line-height: 1.1;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.suggestions-grid {
@@ -141,13 +143,13 @@
 
 	.section-title {
 		margin: 0 0 0.75rem;
-		font-family: var(--font-mono);
-		font-size: 12px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		line-height: 1.4;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.people-grid {
@@ -162,17 +164,17 @@
 	.grid-item {
 		position: relative;
 		overflow: hidden;
-		border-radius: 1rem;
-		border: 1px solid var(--stone-edge);
-		background: var(--stone-warm);
+		border-radius: 16px;
+		border: 1px solid var(--rule);
+		background: var(--surface);
 		padding: 0.45rem;
 		transition:
 			border-color 0.2s ease,
 			background-color 0.2s ease;
 
 		&:hover {
-			border-color: color-mix(in srgb, var(--lamp-glow) 48%, var(--stone-edge));
-			background: var(--stone-mid);
+			border-color: color-mix(in srgb, var(--accent) 60%, var(--rule));
+			background: var(--surface-raised);
 
 			.grid-img {
 				transform: scale(1.025);
@@ -184,7 +186,12 @@
 		text-decoration: none;
 		color: inherit;
 		display: block;
-		border-radius: 0.625rem;
+		border-radius: 10px;
+
+		/* The card clips overflow, so pull the focus ring inside it. */
+		&:focus-visible {
+			outline-offset: -2px;
+		}
 	}
 
 	.image-container {
@@ -192,7 +199,7 @@
 		width: 100%;
 		aspect-ratio: 1;
 		overflow: hidden;
-		border-radius: 0.625rem;
+		border-radius: 10px;
 	}
 
 	.grid-img {
@@ -213,17 +220,18 @@
 		right: 0;
 		background: linear-gradient(
 			to top,
-			rgba(10, 8, 7, 0.94) 0%,
-			rgba(10, 8, 7, 0.64) 58%,
+			color-mix(in srgb, var(--bg) 94%, transparent) 0%,
+			color-mix(in srgb, var(--bg) 64%, transparent) 58%,
 			transparent 100%
 		);
-		color: var(--text-on-dark);
+		color: var(--text);
 		padding: 2.5rem 0.65rem 0.65rem;
 		pointer-events: none;
 	}
 
 	.person-name {
-		font-size: 0.82rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-sm);
 		font-weight: 600;
 		line-height: 1.25;
 		display: block;
@@ -235,7 +243,7 @@
 
 	@media (max-width: 420px) {
 		.person-name {
-			font-size: 0.75rem;
+			font-size: var(--font-size-xs);
 		}
 	}
 

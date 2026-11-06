@@ -13,8 +13,8 @@
   article attachment, and placeholder components re-mounted by an effect that
   follows the article HTML.
 
-  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
-  --type-N-color) ship globally in src/scss/index.scss.
+  Cold Light (2026-11-06): page styles use the Cold Light tokens in
+  src/scss/index.scss. No per-type color paints the page; one tint, like the statues.
 -->
 <script lang="ts">
 	import { onMount, tick, untrack } from 'svelte';
@@ -447,10 +447,7 @@
 	{/if}
 {/snippet}
 
-<article
-	class="dossier-page"
-	style="--type-accent: {typeNum ? `var(--type-${typeNum}-color)` : 'var(--lamp-glow)'};"
->
+<article class="dossier-page">
 	<!-- =====================================================================
 	  §01 CASE FILE — V5 dossier header (the brand moment)
 	  ===================================================================== -->
@@ -737,10 +734,9 @@
 
 <style lang="scss">
 	/* =========================================================
-	  /personality-analysis/[slug] — Streetlamp Symposium dossier.
-	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
-	  --pool-rgb, --pool-deep-rgb, --type-N-color) ship globally in
-	  src/scss/index.scss. Local-only overrides scoped to .dossier-page.
+	  /personality-analysis/[slug] — Cold Light dossier (2026-11-06).
+	  Anton name, Playfair italic hook, Archivo for everything read.
+	  Tokens ship globally in src/scss/index.scss.
 
 	  Layout contract (2026-09-23 style audit): everything below the case-file
 	  header — TOC, prose, dossier, sources, FAQ, Chorus, bio, discussion,
@@ -800,13 +796,6 @@
 	$prose: ':where(#{$prose-nots})';
 
 	.dossier-page {
-		--type-accent: var(--lamp-glow);
-		--type-stripe: color-mix(in srgb, var(--type-accent) 58%, var(--stone-edge));
-		--pool-alpha-strong: 0.22;
-		--pool-alpha-mid: 0.14;
-		--pool-alpha-soft: 0.06;
-		--statue-blend: screen;
-
 		position: relative;
 		contain: layout;
 		margin: 0 auto;
@@ -817,16 +806,9 @@
 		border-radius: 0;
 		max-width: 100%;
 		overflow-x: hidden;
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-family: var(--font-display);
-
-		:global(:root.light) & {
-			--pool-alpha-strong: 0.12;
-			--pool-alpha-mid: 0.06;
-			--pool-alpha-soft: 0.03;
-			--statue-blend: normal;
-		}
+		background: var(--bg);
+		color: var(--text);
+		font-family: var(--font-talk);
 	}
 
 	@supports (overflow-x: clip) {
@@ -836,20 +818,18 @@
 	}
 
 	/* ---------- shared utilities ----------
-	   Scoped to the page's own mono surfaces (case-file header, discussion,
-	   related) — NOT the whole .dossier-page. The injected EnneagramTypeDossier
-	   styles its own .mono elements (bright specimen lettering, amber ids, dim
-	   labels); a page-wide .mono color was overriding those and washing the
-	   image lettering out to --ink-dim (2026-06-16). */
+	   `.mono` is the legacy class name for small labels. Cold Light has no mono
+	   face: they're Archivo, uppercase and letter-spaced. Scoped to the page's
+	   own surfaces so the injected EnneagramTypeDossier keeps its own labels. */
 	.case-file :global(.mono),
 	.discussion :global(.mono),
 	.related :global(.mono) {
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
-		letter-spacing: 0.08em;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	/* =========================================================
@@ -858,9 +838,9 @@
 	.case-file {
 		position: relative;
 		padding: 96px $gutter 48px;
-		background: var(--night-deep);
+		background: var(--bg);
 		overflow: hidden;
-		border-top: 3px solid var(--type-stripe);
+		border-top: 1px solid var(--rule);
 
 		@media (max-width: 768px) {
 			padding: 56px $gutter-sm 48px;
@@ -874,13 +854,13 @@
 		background:
 			radial-gradient(
 				ellipse 60% 55% at 18% 8%,
-				rgba(var(--pool-rgb), var(--pool-alpha-strong)) 0%,
-				rgba(var(--pool-rgb), var(--pool-alpha-soft)) 30%,
+				color-mix(in srgb, var(--accent) 22%, transparent) 0%,
+				color-mix(in srgb, var(--accent) 6%, transparent) 30%,
 				transparent 60%
 			),
 			radial-gradient(
 				ellipse 90% 70% at 22% 12%,
-				rgba(var(--pool-deep-rgb), var(--pool-alpha-mid)) 0%,
+				color-mix(in srgb, var(--accent-deep) 14%, transparent) 0%,
 				transparent 55%
 			);
 		z-index: 0;
@@ -924,25 +904,25 @@
 		gap: 8px 12px;
 	}
 
-	/* "Open case" marker — a case-file status stamp in the kicker's mono voice,
-	   not a warning: dashed amber outline, hollow ring for "still open". */
+	/* "Open case" marker — a case-file status stamp in the kicker's label voice,
+	   not a warning: dashed lavender outline, hollow ring for "still open". */
 	.case-file-status {
 		display: inline-flex;
 		align-items: center;
 		gap: 7px;
 		min-height: 26px;
 		padding: 3px 9px 3px 8px;
-		font-family: var(--font-mono);
-		font-size: 11px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		line-height: 1;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		white-space: nowrap;
 		text-decoration: none;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 		background: transparent;
-		border: 1px dashed color-mix(in srgb, var(--lamp-glow) 60%, transparent);
+		border: 1px dashed color-mix(in srgb, var(--highlight) 60%, transparent);
 		border-radius: 4px;
 		transition:
 			background-color 0.18s ease,
@@ -950,9 +930,9 @@
 
 		/* Focus ring comes from the global `a:focus-visible` rule. */
 		&:hover {
-			background: var(--lamp-soft);
+			background: color-mix(in srgb, var(--accent) 18%, transparent);
 			border-style: solid;
-			border-color: var(--lamp-glow);
+			border-color: var(--highlight);
 		}
 	}
 
@@ -965,42 +945,38 @@
 	}
 
 	.case-file-status-arrow {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		font-weight: 500;
 		letter-spacing: 0;
 	}
 
+	/* The loud line: the name in Anton. The quiet line under it is the
+	   Playfair italic hook ("Why he reads as Type 7, not 3."). */
 	.case-file-name {
-		font-family: var(--font-display);
-		font-weight: 800;
-		font-size: 3.5rem;
-		line-height: 1.08;
-		letter-spacing: 0;
-		color: var(--ink-bright);
+		font-family: var(--font-shout);
+		font-weight: 400;
+		font-size: clamp(3rem, 6vw, 5.5rem);
+		line-height: 0.98;
+		letter-spacing: 0.01em;
+		text-transform: uppercase;
+		color: var(--text);
 		margin: 0;
 		text-wrap: balance;
 		overflow-wrap: anywhere;
-
-		@media (max-width: 1024px) {
-			font-size: 2.75rem;
-		}
-
-		@media (max-width: 640px) {
-			font-size: 2.1rem;
-		}
 	}
 
 	.case-file-subhead {
-		font-family: var(--font-display);
-		font-size: 18px;
-		line-height: 1.6;
-		color: var(--ink-mid);
+		font-family: var(--font-voice);
+		font-style: italic;
+		font-size: 1.375rem;
+		line-height: 1.45;
+		color: var(--highlight);
 		font-weight: 400;
 		max-width: 640px;
 		margin: 0;
 
 		@media (max-width: 540px) {
-			font-size: 16px;
+			font-size: var(--font-size-lg);
 		}
 	}
 
@@ -1009,8 +985,8 @@
 		flex-wrap: wrap;
 		align-items: center;
 		gap: 8px;
-		color: var(--ink-dim);
-		font-size: 12px;
+		color: var(--text-faint);
+		font-size: var(--font-size-xs);
 
 		.case-file-coord-sep {
 			opacity: 0.65;
@@ -1022,37 +998,37 @@
 	.legacy-article-meta {
 		margin-top: 12px;
 		padding-top: 14px;
-		border-top: 1px dashed var(--stone-edge);
+		border-top: 1px dashed var(--rule);
 		display: flex;
 		flex-direction: column;
 		gap: 6px;
 
 		:global(.article-meta) {
 			margin: 0;
-			color: var(--ink-dim);
+			color: var(--text-faint);
 			font-size: 13px;
 		}
 
 		:global(.article-meta a) {
-			color: var(--lamp-glow);
+			color: var(--highlight);
+			text-decoration: underline;
+			text-decoration-color: color-mix(in srgb, var(--highlight) 45%, transparent);
+			text-underline-offset: 0.2em;
 		}
 
 		:global(.article-meta a:hover) {
-			color: var(--lamp-light);
-			text-decoration: underline;
+			color: var(--text);
+			text-decoration-color: currentColor;
 		}
 
 		:global(.article-meta .separator) {
-			color: var(--ink-dim);
+			color: var(--text-faint);
 			opacity: 0.5;
 		}
 
-		:global(.article-meta .date) {
-			color: var(--ink-dim);
-		}
-
+		:global(.article-meta .date),
 		:global(.article-meta .date.updated) {
-			color: var(--data-teal);
+			color: var(--text-faint);
 		}
 
 		/* On phones the row wraps, stranding a "|" at the end of a line.
@@ -1093,7 +1069,7 @@
 		overflow: hidden;
 		border-radius: 10px;
 		background: var(--personality-portrait-well);
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 	}
 
 	.portrait-image {
@@ -1124,13 +1100,13 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: var(--stone-mid);
+		background: var(--surface-raised);
 		background-image: repeating-linear-gradient(
 			45deg,
 			transparent 0,
 			transparent 14px,
-			rgba(var(--pool-rgb), 0.04) 14px,
-			rgba(var(--pool-rgb), 0.04) 15px
+			color-mix(in srgb, var(--accent) 4%, transparent) 14px,
+			color-mix(in srgb, var(--accent) 4%, transparent) 15px
 		);
 	}
 
@@ -1139,21 +1115,15 @@
 		inset: 0;
 		pointer-events: none;
 		background:
-			linear-gradient(135deg, transparent 40%, rgba(10, 8, 7, 0.55) 100%),
-			linear-gradient(180deg, transparent 65%, rgba(10, 8, 7, 0.75) 100%);
-	}
-
-	:global(:root.light) .dossier-page .portrait-vignette {
-		background:
-			linear-gradient(135deg, transparent 60%, rgba(10, 8, 7, 0.04) 100%),
-			linear-gradient(180deg, transparent 58%, rgba(10, 8, 7, 0.68) 100%);
+			linear-gradient(135deg, transparent 40%, color-mix(in srgb, var(--bg) 55%, transparent) 100%),
+			linear-gradient(180deg, transparent 65%, color-mix(in srgb, var(--bg) 75%, transparent) 100%);
 	}
 
 	.portrait-corner {
 		position: absolute;
 		width: 14px;
 		height: 14px;
-		border-color: var(--ink-dim);
+		border-color: var(--text-faint);
 		border-style: solid;
 		border-width: 0;
 		z-index: 2;
@@ -1194,22 +1164,22 @@
 		align-items: center;
 		min-height: 34px;
 		padding: 7px 10px;
-		background: linear-gradient(90deg, rgba(10, 8, 7, 0.92), rgba(10, 8, 7, 0.82));
-		border: 1px solid var(--stone-edge);
-		color: #faf8f4;
+		background: linear-gradient(
+			90deg,
+			color-mix(in srgb, var(--bg) 92%, transparent),
+			color-mix(in srgb, var(--bg) 82%, transparent)
+		);
+		border: 1px solid var(--rule);
+		border-radius: 4px;
+		color: var(--text);
 
 		.mono {
-			color: #faf8f4;
-			font-size: 10.5px;
+			color: var(--text);
+			font-size: 0.6875rem;
 			line-height: 1.35;
 			overflow-wrap: anywhere;
-			text-shadow: 0 1px 2px rgba(10, 8, 7, 0.72);
+			text-shadow: 0 1px 2px color-mix(in srgb, var(--bg) 72%, transparent);
 		}
-	}
-
-	:global(:root.light) .dossier-page .portrait-mono {
-		background: linear-gradient(90deg, rgba(10, 8, 7, 0.9), rgba(10, 8, 7, 0.72));
-		border-color: var(--stone-edge);
 	}
 
 	/* ---------- disclosures ----------
@@ -1221,9 +1191,9 @@
 	@mixin disclosure-card {
 		margin: 0;
 		padding: 0;
-		border: 1px solid color-mix(in srgb, var(--stone-edge) 72%, transparent);
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
-		background: var(--stone-warm);
+		background: var(--surface);
 		box-shadow: none;
 		overflow: hidden;
 	}
@@ -1239,7 +1209,7 @@
 		font-size: 1rem;
 		font-weight: 600;
 		line-height: 1.4;
-		color: var(--ink-bright);
+		color: var(--text);
 		background: transparent;
 		cursor: pointer;
 
@@ -1260,12 +1230,12 @@
 			font-size: 1.4rem;
 			font-weight: 400;
 			line-height: 1;
-			color: var(--lamp-glow);
+			color: var(--highlight);
 		}
 
 		&:hover {
-			color: var(--lamp-glow);
-			background: color-mix(in srgb, var(--lamp-glow) 6%, transparent);
+			color: var(--text);
+			background: color-mix(in srgb, var(--accent) 10%, transparent);
 		}
 	}
 
@@ -1274,7 +1244,7 @@
 	   dedicated band, then use an inset hairline to mark where the read begins. */
 	.article-navigation {
 		padding: 24px $gutter;
-		background: var(--night-deep);
+		background: var(--bg);
 
 		/* Quiet navigation: the route's effects budget belongs to NineChorus. */
 		:global(.toc-accordion) {
@@ -1287,7 +1257,7 @@
 		}
 
 		:global(.toc-accordion[open] .toc-summary) {
-			border-bottom-color: color-mix(in srgb, var(--stone-edge) 58%, transparent);
+			border-bottom-color: var(--rule);
 		}
 
 		:global(.toc-accordion[open] .toc-summary::after) {
@@ -1312,7 +1282,7 @@
 		max-width: var(--prose-measure);
 		height: 1px;
 		margin: 0 auto;
-		background: color-mix(in srgb, var(--stone-edge) 72%, transparent);
+		background: var(--rule);
 
 		@media (max-width: 768px) {
 			width: calc(100% - #{2 * $gutter-sm});
@@ -1324,7 +1294,7 @@
 	  ========================================================= */
 	.breakdown {
 		padding: 48px $gutter 96px;
-		background: var(--night-deep);
+		background: var(--bg);
 
 		@media (max-width: 768px) {
 			padding: 40px $gutter-sm 64px;
@@ -1387,10 +1357,10 @@
 		min-width: 0;
 		margin-bottom: 2rem;
 		overflow-x: hidden;
-		font-family: var(--font-display);
+		font-family: var(--font-talk);
 		font-size: $reading-size;
 		line-height: 1.7;
-		color: var(--ink-bright);
+		color: var(--text-muted);
 
 		/* The section padding establishes the article boundary. Remove content-
 		   specific top margins so an opening quote, paragraph, or heading all begin
@@ -1402,11 +1372,11 @@
 		/* Prose rules below carry $prose: they style the essay and the prose
 		   inside disclosures, never the internals of a furniture block. */
 		:global h2#{$prose} {
-			font-family: var(--font-display);
+			font-family: var(--font-talk);
 			font-size: clamp(24px, 3vw, 32px);
-			font-weight: 700;
-			letter-spacing: -0.02em;
-			color: var(--ink-bright);
+			font-weight: 600;
+			letter-spacing: -0.015em;
+			color: var(--text);
 			margin-top: 2.5rem;
 			margin-bottom: 1rem;
 			padding-top: 1rem;
@@ -1414,23 +1384,23 @@
 		}
 
 		:global h3#{$prose} {
-			font-family: var(--font-display);
+			font-family: var(--font-talk);
 			font-size: clamp(20px, 2.4vw, 24px);
-			font-weight: 700;
-			letter-spacing: -0.015em;
-			color: var(--ink-bright);
+			font-weight: 600;
+			letter-spacing: -0.01em;
+			color: var(--text);
 			margin-top: 1.75rem;
 			margin-bottom: 0.75rem;
 			line-height: 1.25;
 		}
 
 		:global h4#{$prose} {
-			font-family: var(--font-display);
+			font-family: var(--font-talk);
 			/* Body size, bold — an h4 must never read smaller than the prose. */
 			font-size: 1em;
-			font-weight: 700;
-			letter-spacing: -0.01em;
-			color: var(--ink-bright);
+			font-weight: 600;
+			letter-spacing: -0.005em;
+			color: var(--text);
 			margin-top: 1.5rem;
 			margin-bottom: 0.5rem;
 			line-height: 1.3;
@@ -1441,14 +1411,14 @@
 			   in index.scss would otherwise pin paragraphs to 16px. */
 			font-size: inherit;
 			margin-bottom: 1.4rem;
-			color: var(--ink-bright);
+			color: var(--text-muted);
 		}
 
 		:global ul#{$prose},
 		:global ol#{$prose} {
 			margin: 1rem 0 1.4rem;
 			padding-left: 1.5rem;
-			color: var(--ink-bright);
+			color: var(--text-muted);
 		}
 
 		:global li#{$prose} {
@@ -1456,24 +1426,29 @@
 			line-height: 1.6;
 		}
 
+		/* Cold Light links are lavender and always underlined. */
 		:global a#{$prose} {
-			color: var(--lamp-glow);
-			text-decoration: none;
-			transition: color 0.18s ease;
-			border-bottom: 1px solid transparent;
+			color: var(--highlight);
+			text-decoration: underline;
+			text-decoration-thickness: 1px;
+			text-decoration-color: color-mix(in srgb, var(--highlight) 45%, transparent);
+			text-underline-offset: 0.2em;
+			transition:
+				color 0.18s ease,
+				text-decoration-color 0.18s ease;
 
 			&:hover {
-				color: var(--lamp-light);
-				border-bottom-color: currentColor;
+				color: var(--text);
+				text-decoration-color: currentColor;
 			}
 		}
 
 		:global blockquote#{$prose} {
 			margin: 1.75rem 0;
 			padding: 0.75rem 1.25rem 0.75rem 1.5rem;
-			border-left: 3px solid var(--lamp-glow);
-			background: var(--stone-warm);
-			color: var(--ink-bright);
+			border-left: 3px solid var(--accent);
+			background: var(--surface);
+			color: var(--text);
 			/* blog.scss shrinks every blockquote to 14.4px on phones — below the
 			   17px body. Quotes are evidence here; they stay at reading size. */
 			font-size: inherit;
@@ -1483,31 +1458,31 @@
 
 		:global blockquote#{$prose} p {
 			margin-bottom: 0;
-			color: var(--ink-bright);
+			color: var(--text);
 		}
 
 		:global strong#{$prose} {
 			font-weight: 700;
-			color: var(--ink-bright);
+			color: var(--text);
 		}
 
 		:global em#{$prose} {
-			color: var(--ink-bright);
+			color: inherit;
 		}
 
 		:global code#{$prose} {
-			background: var(--stone-warm);
-			color: var(--data-teal);
+			background: var(--surface);
+			color: var(--highlight);
 			padding: 0.15rem 0.4rem;
 			border-radius: 4px;
 			font-size: 0.92em;
 			font-family: var(--font-mono);
-			border: 1px solid var(--stone-edge);
+			border: 1px solid var(--rule);
 		}
 
 		:global(pre) {
-			background: var(--night-mid);
-			border: 1px solid var(--stone-edge);
+			background: var(--surface);
+			border: 1px solid var(--rule);
 			border-radius: 10px;
 			padding: 1rem;
 			overflow-x: auto;
@@ -1521,7 +1496,7 @@
 
 		:global(hr) {
 			border: 0;
-			border-top: 1px solid var(--stone-edge);
+			border-top: 1px solid var(--rule);
 			margin: 2.5rem 0;
 		}
 
@@ -1589,8 +1564,8 @@
 		);
 		margin-inline: auto;
 		padding: 64px var(--discussion-pad);
-		background: var(--night-mid);
-		border-top: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border-top: 1px solid var(--rule);
 		overflow-x: hidden;
 
 		@media (max-width: 768px) {
@@ -1612,16 +1587,16 @@
 		margin-bottom: 12px;
 
 		:global(.kicker) {
-			color: var(--lamp-glow);
+			color: var(--text-faint);
 		}
 	}
 
 	.discussion-title {
-		font-family: var(--font-display);
+		font-family: var(--font-talk);
 		font-size: clamp(22px, 3vw, 28px);
-		font-weight: 700;
-		letter-spacing: -0.02em;
-		color: var(--ink-bright);
+		font-weight: 600;
+		letter-spacing: -0.015em;
+		color: var(--text);
 		text-align: center;
 		margin: 0 0 28px;
 		line-height: 1.15;
@@ -1640,7 +1615,7 @@
 	.discussion-suggest {
 		margin-top: 3rem;
 		padding-top: 2rem;
-		border-top: 1px dashed var(--stone-edge);
+		border-top: 1px dashed var(--rule);
 
 		:global(.waitlist-section) {
 			border: none;
@@ -1650,8 +1625,8 @@
 
 		:global(.waitlist-section h2) {
 			font-size: clamp(18px, 2.4vw, 22px);
-			font-weight: 700;
-			color: var(--ink-bright);
+			font-weight: 600;
+			color: var(--text);
 			margin-bottom: 1rem;
 		}
 	}
@@ -1662,8 +1637,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border: 1px solid var(--rule);
 		border-radius: 10px;
 	}
 
@@ -1673,7 +1648,7 @@
 	.related {
 		box-sizing: border-box;
 		padding: 72px $gutter;
-		background: var(--night-deep);
+		background: var(--bg);
 		overflow-x: hidden;
 
 		@media (max-width: 768px) {
@@ -1693,14 +1668,14 @@
 		margin-bottom: 20px;
 
 		:global(.kicker) {
-			color: var(--lamp-glow);
+			color: var(--text-faint);
 		}
 	}
 
 	.related-framework {
 		margin-top: 2rem;
 		padding-top: 1.25rem;
-		border-top: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
 
 		ul {
 			display: flex;
@@ -1716,22 +1691,23 @@
 		}
 
 		a {
-			color: var(--ink-mid);
-			font-size: 0.86rem;
+			color: var(--text-muted);
+			font-size: var(--font-size-sm);
 			line-height: 1.4;
-			text-decoration: none;
-			border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 35%, transparent);
+			text-decoration: underline;
+			text-decoration-color: color-mix(in srgb, var(--highlight) 40%, transparent);
+			text-underline-offset: 0.2em;
 
 			&:hover {
-				color: var(--lamp-glow);
-				border-bottom-color: var(--lamp-glow);
+				color: var(--highlight);
+				text-decoration-color: currentColor;
 			}
 		}
 	}
 
 	.related-framework-label {
 		margin: 0 0 0.75rem;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	/* =========================================================
@@ -1747,7 +1723,7 @@
 		}
 
 		.case-file-name {
-			font-size: clamp(32px, 9vw, 44px);
+			font-size: clamp(2.75rem, 13vw, 3.5rem);
 		}
 
 		.case-file-portrait {

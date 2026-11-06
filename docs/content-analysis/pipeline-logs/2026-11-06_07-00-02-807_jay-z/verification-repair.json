@@ -1,0 +1,1256 @@
+{
+  "schema_version": 3,
+  "content_sha256": "636a1e82757f889ce5f83452a9fd66015346e5d632aedb37a238599833f23abd",
+  "evidence_sha256": "6df3de900c24e1c4f6e15c7fe3ae2e28f9efa44d9ee392d9e3364360337df930",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify2-1",
+      "severity": "minor",
+      "passage": "Asked in 2019 whether he would kneel or stand, he said, \"I think we've moved past kneeling and I think it's time to go into actionable items.\"",
+      "problem": "S7 continues directly: 'No, I don't want people to stop protesting at all. Kneeling... is a form of protest. I support protest across the board.' Cutting that makes him sound more dismissive of the protest than he was, and the line is then used as Three evidence ('We've moved past kneeling' can read as a Three choosing the bigger platform). It cuts against the thesis rather than for it, and 'about injustice' partly offsets it, so it is minor, but it is a context omission about a living person.",
+      "acceptance_test": "The paragraph adds his same-breath clarification, quoted or closely paraphrased from S7 (for example: he added that he did not want people to stop protesting and supported protest 'across the board'), and C15's inference notes it."
+    },
+    {
+      "id": "verify2-2",
+      "severity": "minor",
+      "passage": "Walking through Marcy with Oprah Winfrey in August 2009, he was asked what his 11-year-old self had felt.",
+      "problem": "S1 says they strolled the Marcy Houses one August afternoon and then sat on his grandmother's stoop a few blocks away; it does not place the Q&A exchange during the walk. The sentence stages the question in a scene the source does not establish.",
+      "acceptance_test": "The sentence attributes the question to the August 2009 O Magazine interview (which included a walk through Marcy) without saying the question was asked while walking."
+    },
+    {
+      "id": "verify2-3",
+      "severity": "minor",
+      "passage": "On August 14, 2019, Jay-Z sat beside NFL Commissioner Roger Goodell at Roc Nation's New York headquarters to explain why his entertainment company was going into business with the league.",
+      "problem": "The hook's date and setting are not in the claim inventory. I checked them against S7 (a Wednesday press conference at his company's New York headquarters alongside Goodell; August 14, 2019 was a Wednesday), so the facts hold, but the opening scene should be traceable like other factual claims.",
+      "acceptance_test": "A claim with this exact passage cites S7 and records the date reasoning."
+    }
+  ],
+  "research_tasks": [
+    "Open the text of Decoded (S21) and confirm 'creating a character', 'I never had to reject Shawn Carter to become Jay-Z' and the 'mindless assault' sentence with page locators, so C11, C55 and C82 no longer rest on the Village Voice relay.",
+    "Find one non-hostile insider account (e.g., Kareem \"Biggs\" Burke, Memphis Bleek, or Zack O'Malley Greenburg's reporting) of how he handles conflict, betrayal or being told no, to give the 8-vs-3 discriminator independent testimony beyond self-report and hostile witnesses.",
+    "Confirm from contemporaneous reporting the exact charge in the October 2001 plea and the Rivera civil settlement Rolling Stone reports ($500,000-$1 million), and decide whether the settlement belongs beside Rivera's 2023 denial.",
+    "After the February 14, 2027 halftime show, reread anything he says about why he accepted (terms/ownership versus legacy/recognition) as a possible discriminator between 8 and 3."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C1",
+      "verdict": "supported",
+      "reason": "Verbatim in S1, Jay-Z's answer to 'what did your 11-year-old self feel?'; speaker, question and sequence match."
+    },
+    {
+      "claim_id": "C2",
+      "verdict": "supported",
+      "reason": "Verbatim in S1, answering 'And did you know you were angry?'; the article's 'Later in the conversation' transition matches the order (it follows the 'Anger' answer)."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "Verbatim in S1, answering 'How did that change you?'"
+    },
+    {
+      "claim_id": "C3",
+      "verdict": "supported",
+      "reason": "Verbatim in S1 ('About 16. He was doing a lot of drugs...'); S12 independently reports the shooting and that the brother did not press charges."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Verbatim in S1 as his answer to Oprah's 'angry kid who would end up shooting his brother' question; the article now keeps the 'Yes'."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "S12 reports Eric did not press charges and apologized when Jay-Z visited him in hospital; S1 has Oprah's 'You made up with your brother after you shot him?' / 'Yeah.'"
+    },
+    {
+      "claim_id": "C4",
+      "verdict": "supported",
+      "reason": "Verbatim in S1, after Oprah's question about the three-shot incident."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "Verbatim in S1; the preceding line 'the guy and I were actually friends' supports 'someone he calls a friend'."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "S1's introduction places his childhood in the Marcy Houses, Bedford-Stuyvesant, Brooklyn."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S1 ('his father had abandoned the family when Jay-Z was 11') and S6 ('Adnis Reeves, who abandoned ... when the musician was 11') agree."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S1 intro: 'At 13 he was selling crack' and '13-year-old Jay-Z began selling drugs'; 'by about 13' is faithful."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "S1: Oprah's 'shot at three times—within six feet', his 'one situation, three shots', and 'the guy and I were actually friends'."
+    },
+    {
+      "claim_id": "C5",
+      "verdict": "supported",
+      "reason": "Verbatim in S1 ('The same record label tried to sign me, but Jaz was the one who'd brought me in...'); 'So I told them no' follows directly."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "Verbatim in S1's intro, a quote he gave Oprah about street integrity."
+    },
+    {
+      "claim_id": "C6",
+      "verdict": "supported",
+      "reason": "Verbatim in S1, answering 'how has marriage changed you?' after 'reconnecting with my father changed me more than anything'."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Verbatim in S1, same exchange."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S1: 'My mom set up a meeting', 'the first time, he didn't' come; S1 intro dates the reconciliation to 2003."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "S1: 'Anger. At the whole situation. Because when you're growing up, your dad is your superhero.' The passage's wording matches. (The adjacent framing sentence 'Walking through Marcy...' is a separate staging issue logged as minor finding verify2-2.)"
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "S1: 'He was saying stuff like \"Man, you knew where I was.\"'; the article's 'as Jay-Z recalls it, said something like' matches the hedge."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Verbatim in S1."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S1: 'How soon after you saw him did he die?' / 'A couple of months. I got him an apartment, I was buying furniture. And he passed away.'"
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S3 describes Lemonade (2016) detailing infidelity and 4:44 alluding to the marital challenges; dates correct."
+    },
+    {
+      "claim_id": "C8",
+      "verdict": "supported",
+      "reason": "Verbatim in S4 (Jay-Z's answer ending 'so you can't connect.'), also in S3; the article now splits at Baquet's follow-up question as S4 shows."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Verbatim in S6 ('Our emotional cue is 'Be a man. Don't cry,''), introduced by 'especially where I grew up'."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "Verbatim in S6, said about 'Song Cry'."
+    },
+    {
+      "claim_id": "C9",
+      "verdict": "supported",
+      "reason": "Verbatim in S6."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Verbatim in S6."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "Verbatim in S6 including the paper's bracketed '(my dad)'."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "A labelled interpretation over three verified accounts (S1 2009, S4/S3 2017, S6 2018); it now names the different sources rather than collapsing them, and the next paragraph states the image-repair limit."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S13: founded Roc-A-Fella with Dash and Kareem 'Biggs' Burke; S1 dates his own label to 1996 after disenchantment with 'the small-time label that finally signed him'."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "S13: in 2004 he became president of Def Jam, 'which already owned a large enough share of Roc-A-Fella'; S9 confirms the presidency."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Verbatim in S9 (Gayle King, CBS Mornings, at the Book of Hov exhibit); dated 2023 in the article and tracked as time_sensitive."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Verbatim in S9, inside his account of 'going back to Def Jam as the president'; 'the condition he says he set' correctly marks it as his account."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Verbatim in S13; attributed to Dash as hostile testimony."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S13: 'In 2021, Dash was sued by Roc-A-Fella Records for attempting to auction ... Reasonable Doubt as an NFT.'"
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "Labelled interpretation; S13 shows Dash's stated frame is money and industry divide-and-conquer, so 'fits a Three at least as well' is fair."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "S14 header and lede: Saint Pablo Tour, Sacramento, speech the previous night (article dated November 20, 2016)."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Verbatim in S14."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Verbatim in S14."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "S14: 'I was hurt. Beyoncé, I was hurt because I wanted to present a video...'; S5 also quotes it."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "S5: the Rap Radar podcast (August 2017) and 'Kill Jay Z', 4:44's first track, referencing Kanye."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Verbatim in S5, preceded by 'what really hurt me was, you can't bring my kids and my wife into it'."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Verbatim in S4 ('I [talked to] Kanye the other day, just to tell him, like, he's my brother. I love Kanye.'), and S3; dated November 2017."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "S8: first Dr. Dre Global Impact Award, February 4, 2024, with Blue Ivy on stage."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Both sentences verbatim in S8."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Both fragments verbatim in S8."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "qualified",
+      "reason": "Verbatim in the Village Voice relay (S11) of Decoded; the book itself was not opened, which the article states in its evidence note."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "qualified",
+      "reason": "Verbatim in S11; relay only, disclosed in the article."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "S11 (Zach Baron's review) says Shawn Carter 'remains stubbornly distant' and notes Beyoncé is not named."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S1: 'Do you and Beyoncé have a pact that you just won't talk about each other?' / 'Yeah.'"
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Verbatim in S4, answering why the West relationship is complicated; also in S3."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Verbatim in S4 ('so it's like, we both — everyone wants to be the greatest in the world'), same answer about West."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S1: 'at that point it was beyond survival. I was successful. It wasn't like I was doing it to feed my family anymore... I had become addicted to the lifestyle.' The ellipsis marks the cut correctly."
+    },
+    {
+      "claim_id": "C7",
+      "verdict": "supported",
+      "reason": "Verbatim in S2; context is Gross's question about rappers on stage, followed by his own first show, as the article says."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "qualified",
+      "reason": "Verbatim in S7 as his answer to 'kneel or stand', but S7's next lines are 'No, I don't want people to stop protesting at all... I support protest across the board.' The article omits that same-breath clarification; see minor finding verify2-1."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "S7: 'the NFL settled a lawsuit brought by Kaepernick and Eric Reid' and '(Reid criticized Jay-Z's new deal with the league)'."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "Verbatim in S7."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "S7: a reporter looking at both men; 'Are you asking me?' then 'I'm not the commissioner yet' as 'the room burst into laughter'."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Verbatim in S7 as his reason for turning down the offer in the past."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "Verbatim in S7."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "Verbatim in S7 ('First thing I said to Roger was...'); S17 echoes the history."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "Verbatim in S7; context is his confirmed objection to Scott's guest spot, 'not anything to do with Kaepernick', which the article reports."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S20 quotes Forbes' Greenburg: 'a fortune that conservatively totals $1 billion... the first hip-hop artist to do so', June 2019."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S18 (Apple Music spot during Monday Night Football on October 26, 2026; Goodell statement; Super Bowl LXI on February 14, 2027) and S17 (Roc Nation executive producing). Tracked as time_sensitive with a trigger."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Verbatim in Goodell's statement in S18; S17 paraphrases it."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Verbatim in S17 (his statement); also S18."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Dated, explicitly undecided interpretation; accurate to S7/S17/S18 and tracked as time_sensitive."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Verbatim in S1, answering about daydreaming as a child (he says he daydreamed about 'performing or playing baseball and basketball')."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "Labelled 'offered as interpretation rather than proof' and immediately weighed against ('also convenient')."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "S10: 'According to the police report, Jay-Z stabbed Rivera twice with a five-inch knife'; attributed to the report, not stated as fact."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Verbatim in S10 ('This past October, Jay-Z admitted to the stabbing and changed his plea to guilty, striking a deal to ensure the probation sentence'); S1 independently says he pleaded guilty in 2001."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "qualified",
+      "reason": "S11 quotes Decoded: 'the potential of being behind bars for years behind a mindless assault wasn't lost on me'. The words are verbatim but the article's 'calls the episode \"a mindless assault\" with \"the potential...\"' rearranges the sentence slightly; relay only."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Verbatim in S22, attributed to Rivera on DJ Vlad, May 2023."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "S15: suit filed by Buzbee October 2024, amended December 2024 to include Carter, alleging rape of a 13-year-old at an after-party following the 2000 VMAs; the article attributes it as an allegation."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S15: the plaintiff 'voluntarily dismissed the lawsuit with prejudice' on Friday, February 14, 2025."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "Verbatim in S15 (statement through Roc Nation)."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "The type answer is a hedged interpretation (medium confidence, alternative named) whose components are each verified above."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Labelled conclusion that honestly concedes 'weaker on costs'; its inputs (masters S9, family S5, process S7, rank S7, Grammys S8) are all verified."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Verbatim in S9; dated 2023 and tracked as time_sensitive."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "Description paraphrase: S7's 'almost like this interview process' as 'felt like an audition' is fair, and the 2026 acceptance is in S17/S18. Tracked with a review trigger."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Verbatim in S7; the FAQ dates it to the August 14, 2019 press conference."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Accurate statement of this run: Decoded is cited only through S11; S21 remains unopened."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "S7: demonstrations 'sparked by Kaepernick kneeling during the national anthem in 2016', 'to protest the killings of blacks by police officers', no NFL play since 2017."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "Verbatim in S7 ('Jay-Z has been among the biggest supporters of Kaepernick')."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Verbatim in S7 ('Jay-Z has turned down invitations to perform at the Super Bowl, even rapping about it in a song')."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "S7: 'I think the process could have been more definite.'"
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "qualified",
+      "reason": "A labelled two-way reading. 'Second fiddle' was said about Travis Scott's billing, not about Jay-Z himself (the previous paragraph makes that clear), so using it as a hint about his own rank-sensitivity is inference, which the article frames as one of two readings."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S17: 'He has won 25 Grammy awards and received 89 nominations'."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "S13 and S1 both date Reasonable Doubt to 1996; S18/S17 echo it."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S6, S3, S15 and S9 all describe the marriage; the 2008 wedding is in S1."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Verbatim in S1 (preparations before going to London with Jaz)."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "S6: 'Reeves' brother was killed in the projects, and finding the murderer became something of an obsession for him', followed by Jay-Z's quoted account."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "S28: 'Song Cry' is from The Blueprint (2001 album; single released 2002)."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Labelled as what 'leans Eight'; the observed behaviour (he told his father how he felt and 'gave him the real conversation') is in S1."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "S24: Square to pay $297 million in cash and stock for a majority of Tidal; Jay-Z to join Square's board; artists remain stakeholders."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "Offered as interpretation with a stated limit ('this is his 2023 position'); inputs from S9 and S24 verified."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Verbatim in S13."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "S13 (originally published August 24, 2022): 'In June, both Dash and the label reached a settlement'."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "qualified",
+      "reason": "An absence claim scoped to 'the sources checked for this profile'; accurate for S13/S9, but absence was not searched exhaustively, which the scoping admits."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "S14: 'Jay Z, call me, bruh. You still ain't calling me'; S14's lede notes 'allegations that Jay Z is dodging his calls'. Attributed to West."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Both fragments verbatim in S5."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "S26: 'in a now-deleted post on X' about the couple's children; S27 dates the rant to March 2025."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "S27: '\"I'm sorry Jay Z,\" he tweeted on April 10', followed by the complaint that none of the rappers had his back."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "qualified",
+      "reason": "Absence claim scoped to the sources checked; S26/S27 report no reply, but the record was not exhaustively searched (an open research task covers it)."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "Verbatim in S23 (Hot 97 appearance, via HipHopDX 2001)."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Verbatim in S23."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "S23: bars directed at Nas's then-girlfriend Carmen Bryan on 'Super Ugly'."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "Interpretation that follows directly from S23 (mother's call, his apology) and S5 (family line)."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "Conditional interpretation ('If the plea is taken at face value') using S10's counterfeit-copies motive and S11's bootlegging account; the article immediately limits its weight because of S22."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "Verbatim in S15 (Alex Spiro)."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "S25: 'as 2003's The Black Album was promoted as his final release'."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "S25: released November 21, 2006."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "Interpretation that explicitly declines to count the episode for either type."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "Verbatim in S7, closing his answer about moving past kneeling to 'actionable items'."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "Verbatim in S7."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "Verbatim in S7, full answer."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "S7: 'Jay-Z also said he and Kaepernick had a conversation about the new deal'."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "Accurate count of stated reasons across S9, S5, S7 and S8."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S9 (masters as a condition of the presidency) and S7 (opening line to Goodell; 'I'm not the commissioner yet')."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "Labelled conclusion that keeps Six open for the childhood material; inputs verified in S1, S2, S7, S9."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "S25, as C129/C130."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "S7 (turned down invitations, 'even rapping about it in a song'; 'among the biggest supporters of Kaepernick')."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "Faithful summary of the three verified accounts (S1, S4/S3, S6); none frames the wall as a way to win."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "Verbatim in S4, Jay-Z's answer to Baquet's 'You can't connect because of the way you feel about yourself, you mean?'; the article reports the question. Time (S3) splices it without the question, which the article no longer does."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "Verbatim in S1 as Oprah's question."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "S1: Oprah's 'I've read that when you were 12, you shot your brother in the shoulder', which he affirms ('Yes—and my brother...'); S12 corroborates the shooting."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "Verbatim in S1."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "Verbatim in S1."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "S7 ('almost like this interview process'; turned down invitations)."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S1",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06 via r.jina.ai (direct fetch 403); full single-page Q&A incl. intro. Checked: 11-year-old 'Anger' answer, 'did you know you were angry', brother shooting, three shots, Jaz-O/London, wall/father reunion, 'couple of months', pact, daydreaming, 'beyond survival'."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Brother shooting summary; 'his brother did not press charges'; Eric apologized at the hospital."
+    },
+    {
+      "source_id": "S6",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Letterman section: 'Our emotional cue...', 'Song Cry', therapy, 'proud of the father', father's brother killed, '(my dad)' compassion line."
+    },
+    {
+      "source_id": "S3",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06 via r.jina.ai (direct 406). Survival-mode quote, Kanye lines, Lemonade/4:44 context. Note Time splices '...infidelity' without Baquet's question; the article follows S4."
+    },
+    {
+      "source_id": "S4",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch 403 and Wayback 429 (rate-limited) for me on 2026-11-06; verified against the raw Wayback copy of the NYT page saved earlier in this run (itemid matches the NYT URL). Survival-mode answer, Baquet's follow-up, 'Yes. In my case... infidelity ...', 'I [talked to] Kanye...', 'underlying competition', 'greatest in the world'."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Dash quotes on The Art of Dialogue; founding with Burke; 2004 Def Jam presidency and share of Roc-A-Fella; 2021 NFT suit and June settlement; originally published August 24, 2022."
+    },
+    {
+      "source_id": "S9",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06 via r.jina.ai (direct 403). CBS Mornings/Gayle King quotes on masters, Def Jam condition, 'up to them'; dated October 26, 2023."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Sacramento transcript: 'Jay Z, call me, bruh. You still ain't calling me', 'Talk to me like a man', 'Beyoncé, I was hurt'."
+    },
+    {
+      "source_id": "S5",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Rap Radar transcription: 'what really hurt me was, you can't bring my kids and my wife into it... he's talked about me 100 times... Now it's a problem with me. That's a real, real problem.'"
+    },
+    {
+      "source_id": "S8",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Speech quotes, first Dr. Dre Global Impact Award, Blue Ivy on stage, February 4, 2024."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Zach Baron's review quoting Decoded ('creating a character', 'never had to reject Shawn Carter', 'mindless assault'), Rivera and Beyoncé unnamed, 'stubbornly distant'."
+    },
+    {
+      "source_id": "S2",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06 (npr.org transcript). 'So that bravado...' answer to Gross's crotch-grab question about rappers generally, followed by his own first show ('I just forgot the words')."
+    },
+    {
+      "source_id": "S7",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Full AP report: kneel/stand answer and its continuation ('I support protest across the board'), 'not about a job', process/interview, 'end this conversation now', Travis Scott 'second fiddle', Reid, Kaepernick answer, 'not the commissioner yet'."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. October 27, 2026 TNND report: his statement ('From Reasonable Doubt...'), Roc Nation executive producing, 25 Grammys."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Forbes via CNN: 'the first hip-hop artist to do so', $1 billion, June 2019."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. October 26, 2026 announcement during MNF, Goodell's 'just one request', Super Bowl LXI on February 14, 2027 at SoFi."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. December 7, 2001: Kit Kat Club, December 1, 1999; 'admitted to the stabbing and changed his plea to guilty'; police report 'stabbed Rivera twice'. Also reports a civil settlement with Rivera ($500,000-$1 million) not used in the article."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. May 22, 2023: Rivera to DJ Vlad, 'JAY-Z was not the guy that actually stabbed me that night'."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. February 14, 2025 voluntary dismissal with prejudice; December 2024 amendment adding Carter; Spiro and Carter statements."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. 'Song Cry' single from The Blueprint."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Complex, April 9, 2024, citing Hot 97/HipHopDX 2001: 'Mom put in a call...', Carmen Bryan, 'women's feelings'. Secondary relay of a 2001 radio quote."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. AP March 4, 2021: Square to pay $297 million in cash and stock for a majority of Tidal; Jay-Z joins the board; artists remain stakeholders."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. March 2025 now-deleted X post about the couple's children."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. '\"I'm sorry Jay Z,\" he tweeted on April 10' plus the complaint about rappers not having his back; March rant dated."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-11-06. Kingdom Come released November 21, 2006; The Black Album 'promoted as his final release'."
+    },
+    {
+      "source_id": "S21",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Publisher catalog page for Decoded; the book text was not opened by me or by any stage. No claim cites it any longer (verify-1 fix confirmed mechanically)."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-1",
+      "accepted": true,
+      "reason": "Confirmed: the shooting passage quotes Oprah's question and his 'Yes—and my brother...' answer verbatim (S1); the 'protection rather than rage' contrast is gone and the commentary says 'He accepts the anger.'"
+    },
+    {
+      "finding_id": "subject-2",
+      "accepted": true,
+      "reason": "Confirmed: the silence is now attributed to West ('By West's account...', S14) and the family line to Jay-Z on Rap Radar (S5). The discriminator cites the stated boundary, not the silence."
+    },
+    {
+      "finding_id": "subject-3",
+      "accepted": true,
+      "reason": "Confirmed: the 'cold' word-match is removed; Dash's divide-and-conquer framing and the 2022 NFT settlement are reported (S13); the absence of a reply is scoped to sources checked."
+    },
+    {
+      "finding_id": "subject-4",
+      "accepted": true,
+      "reason": "Confirmed: the full Kaepernick answer and the report that they talked appear verbatim from S7."
+    },
+    {
+      "finding_id": "subject-5",
+      "accepted": true,
+      "reason": "Confirmed: the hook gives the Kaepernick context and his earlier refusals (S7) before presenting 'didn't like the process' as his own 2019 reason, and says it 'reads two ways'. Persona title and description no longer claim he refused because of an audition."
+    },
+    {
+      "finding_id": "subject-6",
+      "accepted": true,
+      "reason": "Confirmed: heading is '## Two disputed episodes' and the section quotes his Decoded account and his public denial."
+    },
+    {
+      "finding_id": "subject-7",
+      "accepted": true,
+      "reason": "Confirmed: Spiro's 'he never settled, he never paid 1 red penny' is quoted from S15. Leaving out the countersuit status is reasonable given S16's weakness; a research task tracks it."
+    },
+    {
+      "finding_id": "subject-8",
+      "accepted": true,
+      "reason": "Confirmed: 'warned' is gone; the evidence note no longer uses the 'not normally a talkative person' line. The acceptance test's optional element was reasonably omitted for length."
+    },
+    {
+      "finding_id": "fan-F1",
+      "accepted": true,
+      "reason": "Confirmed: the opening now reports, from opened S7, that he was among Kaepernick's biggest supporters and had turned down invitations 'even rapping about it in a song'; the lyric itself is not quoted, which is acceptable since the lyric source is unopened (research task logged)."
+    },
+    {
+      "finding_id": "fan-F2",
+      "accepted": true,
+      "reason": "Confirmed: the 'Super Ugly' episode, the Hot 97 apology and the mother's call are added from S23, and the text concludes that the line is his own family, partly learned after crossing it."
+    },
+    {
+      "finding_id": "fan-F3",
+      "accepted": true,
+      "reason": "Confirmed: the sequence now matches S14 and S5 (silence already in place; family remark is what 'really hurt')."
+    },
+    {
+      "finding_id": "fan-F4",
+      "accepted": true,
+      "reason": "Confirmed: heading narrowed to masters; the March 2021 Tidal sale (S24) is added and 'The rule is narrower than ownership in general' is stated."
+    },
+    {
+      "finding_id": "fan-F5",
+      "accepted": true,
+      "reason": "Confirmed: The Black Album exit and Kingdom Come return (S25) are in the Type 3 case and the FAQ, and are stated as non-discriminating."
+    },
+    {
+      "finding_id": "fan-F6",
+      "accepted": true,
+      "reason": "Confirmed: the father's-brother context from S6 is added; omitting the coming-out story is a reasonable privacy choice that the acceptance test permitted."
+    },
+    {
+      "finding_id": "fan-F7",
+      "accepted": true,
+      "reason": "Accepted rejection: the acceptance test explicitly allows recording that no opened source supports the claim. S1 supports only 'disenchanted with the small-time label that finally signed him', which the article reflects; a research task is logged."
+    },
+    {
+      "finding_id": "fan-F8",
+      "accepted": true,
+      "reason": "Accepted rejection: no opened source covers Sigel or a Jaz-O falling-out, and the test requires verification before use. Its third element is met: the Dash paragraph reconciles 'learned loyalty' with the 2004 split ('Either the code gave way... or it was never as consistent as his telling of it')."
+    },
+    {
+      "finding_id": "critic-F1",
+      "accepted": true,
+      "reason": "Confirmed, same fix as subject-1; the disputed-episodes section also applies the anger-versus-protection test to the Rivera plea."
+    },
+    {
+      "finding_id": "critic-F2",
+      "accepted": true,
+      "reason": "Confirmed: the second test gives an honest count ('control for the masters, family for West and the process..., but rank on Travis Scott and accolades at the Grammys')."
+    },
+    {
+      "finding_id": "critic-F3",
+      "accepted": true,
+      "reason": "Confirmed: the absolute is narrowed to 'In none of the three accounts...', and the bravado quote is adjudicated in the first test."
+    },
+    {
+      "finding_id": "critic-F4",
+      "accepted": true,
+      "reason": "Confirmed: a counterphobic Six test with an authority discriminator (S9, S7) is in 'What separates them', and Six is kept open for the childhood material."
+    },
+    {
+      "finding_id": "critic-F5",
+      "accepted": true,
+      "reason": "Confirmed: the costs claim is reframed as institutional costs that raised his standing with artists and fans, 'a trade a Three makes all the time'."
+    },
+    {
+      "finding_id": "critic-F6",
+      "accepted": true,
+      "reason": "Confirmed: Dash's motive is reported in his words (money, divide and conquer) and judged to fit a Three at least as well."
+    },
+    {
+      "finding_id": "critic-F7",
+      "accepted": true,
+      "reason": "Confirmed: 'admitted to the stabbing and changed his plea to guilty' is quoted from S10; the section notes the plea cuts against the protective reading."
+    },
+    {
+      "finding_id": "critic-F8",
+      "accepted": true,
+      "reason": "Confirmed, same fix as fan-F3."
+    },
+    {
+      "finding_id": "unfamiliar-1",
+      "accepted": true,
+      "reason": "Confirmed: one sourced sentence identifies Kaepernick, the 2016 kneeling, its purpose and his absence since 2017 (S7)."
+    },
+    {
+      "finding_id": "unfamiliar-2",
+      "accepted": true,
+      "reason": "Confirmed: the hook gives both readings of the refusal, including rank."
+    },
+    {
+      "finding_id": "unfamiliar-3",
+      "accepted": true,
+      "reason": "Confirmed: heading renamed and the section placed before the Type 3 / separation / strains sequence."
+    },
+    {
+      "finding_id": "unfamiliar-4",
+      "accepted": true,
+      "reason": "Confirmed: Reasonable Doubt (1996), the marriage and 25 Grammys by October 2026 are given in one sourced sentence."
+    },
+    {
+      "finding_id": "unfamiliar-5",
+      "accepted": true,
+      "reason": "Confirmed: the 'not the commissioner yet' joke now sits in the Six test, where it illustrates his relation to authority."
+    },
+    {
+      "finding_id": "unfamiliar-6",
+      "accepted": true,
+      "reason": "Confirmed: the evidence note is about 40 words; body is 3,877 words, within the 4,500 release limit though above the 3,500 target, with the overage explained by required sourced additions."
+    },
+    {
+      "finding_id": "unfamiliar-7",
+      "accepted": true,
+      "reason": "Confirmed: 'Song Cry' carries album and year (S28); Rivera first appears in the disputed-episodes section."
+    },
+    {
+      "finding_id": "unfamiliar-8",
+      "accepted": true,
+      "reason": "Confirmed: the description is dated, covers the 2026 acceptance and is hedged (145 characters)."
+    },
+    {
+      "finding_id": "enneagram-1",
+      "accepted": true,
+      "reason": "Confirmed: the type answer and first FAQ name the three different sources (father, survival, rule against crying)."
+    },
+    {
+      "finding_id": "enneagram-2",
+      "accepted": true,
+      "reason": "Confirmed: the first test states that a Three could give a similar account and adds the observable datum (he confronted his father)."
+    },
+    {
+      "finding_id": "enneagram-3",
+      "accepted": true,
+      "reason": "Confirmed: the costs test now says who the stands cost him with and concludes it 'leans Eight on terms and is weaker on costs'."
+    },
+    {
+      "finding_id": "enneagram-4",
+      "accepted": true,
+      "reason": "Confirmed: the straw line is gone and the hook argues both readings; the halftime question is left open in 'Where the Type 8 reading strains'."
+    },
+    {
+      "finding_id": "enneagram-5",
+      "accepted": true,
+      "reason": "Confirmed: the discriminator uses the stated boundary; the silence appears only as evidence against Eight."
+    },
+    {
+      "finding_id": "enneagram-6",
+      "accepted": true,
+      "reason": "Confirmed: counterphobic Six tested, including the backup-plan quote (S1)."
+    },
+    {
+      "finding_id": "enneagram-7",
+      "accepted": true,
+      "reason": "Confirmed: the Dash paragraph names the tension with the Jaz-O story and offers both reconciliations."
+    },
+    {
+      "finding_id": "enneagram-8",
+      "accepted": true,
+      "reason": "Confirmed: the Type 3 section states the Three's motive ('needs to be valued'), giving both types a motive-level argument."
+    },
+    {
+      "finding_id": "future-1",
+      "accepted": true,
+      "reason": "Confirmed: the West thread continues past 2017 with the March 2025 post and April 10, 2025 apology (S26, S27), and notes no recorded reply."
+    },
+    {
+      "finding_id": "future-2",
+      "accepted": true,
+      "reason": "Confirmed: the description is dated and C92 carries a post-February-14-2027 recheck trigger."
+    },
+    {
+      "finding_id": "future-3",
+      "accepted": true,
+      "reason": "Confirmed: production references are anchored to the 2019 partnership and C16's trigger lists the dependent passages."
+    },
+    {
+      "finding_id": "future-4",
+      "accepted": true,
+      "reason": "Confirmed: the masters claims are dated to 2023 and carry a sale/licensing trigger."
+    },
+    {
+      "finding_id": "future-5",
+      "accepted": true,
+      "reason": "Confirmed: the evidence note now names only Decoded, since S4 was opened; C100 tracks it."
+    },
+    {
+      "finding_id": "verify-1",
+      "accepted": true,
+      "reason": "Confirmed mechanically: no claim cites S21; C11, C55, C82 and C100 cite only S11 and the article attributes those quotes to the Village Voice relay."
+    },
+    {
+      "finding_id": "verify-2",
+      "accepted": true,
+      "reason": "Confirmed against S4: the quote is split at Baquet's question and the second part is one continuous answer."
+    },
+    {
+      "finding_id": "verify-3",
+      "accepted": true,
+      "reason": "Confirmed: I checked the S4 passages against the raw NYT page copy; attributions and links now point to T Magazine with Time secondary."
+    },
+    {
+      "finding_id": "verify-4",
+      "accepted": true,
+      "reason": "Confirmed against S1's order (11-year-old 'Anger' answer at an earlier point, 'did you know you were angry' later)."
+    },
+    {
+      "finding_id": "verify-5",
+      "accepted": true,
+      "reason": "Confirmed: 'as Jay-Z recalls it, said something like' matches S1's 'He was saying stuff like'."
+    },
+    {
+      "finding_id": "verify-6",
+      "accepted": true,
+      "reason": "Confirmed: C143-C147 and the widened C17, C36, C66 exist and match their passages and sources."
+    },
+    {
+      "finding_id": "verify-7",
+      "accepted": true,
+      "reason": "Confirmed: the listed duplicate hedges and restatements are gone; each limitation now appears once."
+    },
+    {
+      "finding_id": "verify-8",
+      "accepted": true,
+      "reason": "Confirmed: the halftime FAQ anchors to 'where-the-type-8-reading-strains', which narrates both the refusal and the 2026 acceptance."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "These accounts are his own, and a frightened child in a violent neighborhood is not a personality type.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "The limit is plain: the 2017 and 2018 versions came in the years after _Lemonade_, when repairing a public image was also in his interest. Both readings agree that he changed. They disagree about why.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "The court record and the victim's later account do not agree, and this profile does not choose between them.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "An allegation and a denial tell us nothing about his personality, and they are noted here only for accuracy.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "The answer fits, but it is also convenient, and a reader can reasonably weigh the quiet more heavily than this profile does.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "\"Man, you knew where I was.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "The stage on his terms or not at all.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "His account still matches Jay-Z's own word for his younger self, \"cold,\" and it matches the pattern: when control of the work was at stake, the friendship did not decide the outcome.",
+      "preserved": true,
+      "reason": "Removed for accuracy, which the standard allows: three reviewers showed the 'cold' match equated two senses of the word. Its contribution (Dash's account weighed against the loyalty code) survives in the rewritten Dash paragraph and its reconciliation with the Jaz-O story."
+    },
+    {
+      "passage": "He has spent his career refusing to let a label, a league or an audition decide the terms of his work. The one group he names as free to decide is his children.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "The stage on his terms or not at all. The question this profile tries to answer is what that pattern protects: an image, or something he counts as his.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "The 2019 NFL deal is the strongest case against this. Partnering with the league while Kaepernick was still out of it drew public criticism from Reid, and telling reporters \"we've moved past kneeling\" looks more like a Three choosing the bigger platform than an Eight refusing to bend. An Eight reading can say that he chose a seat with power over a gesture, but that is an interpretation, and it should be held loosely.",
+      "preserved": true,
+      "reason": "Reworded, contribution kept: the candidate still names the NFL deal as 'the strongest case against this reading', still weighs 'We've moved past kneeling' as a Three move, and keeps the protected 'held loosely' sentence verbatim."
+    },
+    {
+      "passage": "One possible answer, offered as interpretation rather than proof, is that he learned early that showing feeling was exposure, so his control runs through ownership, terms and timing rather than volume. The answer fits, but it is also convenient, and a reader can reasonably weigh the quiet more heavily than this profile does.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "On the Eight reading, nothing changed but who sets the terms. On the Three reading, he waited until the moment would look best. The record available on November 6, 2026 cannot separate the two.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "His father answered, \"Man, you knew where I was.\" Jay-Z's reply: \"I was a kid! Do you realize how wrong you were? It was your responsibility to see me.\" Then: \"He finally accepted that.\" Reeves died a couple of months later. \"I got him an apartment, I was buying furniture,\" Jay-Z said. \"And he passed away.\"",
+      "preserved": true,
+      "reason": "Changed only to match S1 ('as Jay-Z recalls it, said something like'); the confrontation, his reply, 'He finally accepted that' and the apartment/furniture detail are all verbatim."
+    },
+    {
+      "passage": "Across nine years the explanation does not change. The wall goes up because someone you trusted can let you down, and in danger you cannot afford to feel.",
+      "preserved": true,
+      "reason": "Changed for accuracy (the three accounts name different sources). The insight survives as 'Across nine years the sources he names shift..., but the mechanism holds: the wall goes up wherever feeling would be exposure.'"
+    },
+    {
+      "passage": "The Three reading explains the product. It is weaker on the costs.",
+      "preserved": true,
+      "reason": "Changed to '...It is weaker on why he says no.' because reviewers showed the costs argument was weaker than claimed; the pivot line and its function are kept."
+    },
+    {
+      "passage": "Wing and subtype are left open here. The record does not support a confident guess.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "An Eight reading can say that he chose a seat with power over a gesture, but that is an interpretation, and it should be held loosely.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "The record available on November 6, 2026 cannot separate the two.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "On August 14, 2019, Jay-Z sat beside NFL Commissioner Roger Goodell at Roc Nation's New York headquarters to explain why his entertainment company was going into business with the league.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    },
+    {
+      "passage": "the Brooklyn dealer who became, by Forbes' June 2019 estimate, the first hip-hop artist with a fortune of $1 billion",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate, in the same position and role."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.6,
+      "reason": "I reopened all 25 cited sources and every quotation matched its wording, speaker and context, including the long Oprah, T Magazine and Fresh Air exchanges. Inference is labelled where it is made, hostile witnesses (Dash, West, Rivera) are attributed and weighed, and the court record and Rivera's denial are both given. Limits: motive evidence is mostly self-report in friendly settings, Decoded comes only through a review, testimony from people who know him is thin, and one quote drops his same-breath clarification (verify2-1).",
+      "passage": "If the plea is taken at face value, the episode cuts against the protective reading rather than for it. An assault in a dispute over bootlegged copies of his own album looks like anger on behalf of his work, not protection of anyone. Rivera's denial is why it carries little weight here in either direction."
+    },
+    "enneagram": {
+      "score": 8.0,
+      "reason": "Type 3 gets a motive-level case and full weight, counterphobic Six gets a specific, sourced discriminator (he becomes the authority: masters as a condition, the opening line to Goodell), and the strains section takes the quiet temperament seriously. The 8-vs-3 separation is honest but soft: the article itself concedes the first test is 'consistent with Eight rather than proof' and the second 'is weaker on costs than it first looks', so the Three fails no single decisive test. Medium confidence is the right call, and it is stated.",
+      "passage": "The second test is who sets the terms, and here his stated reasons are mixed. He gives control for the masters, family for West and the process for the halftime refusals, but rank on Travis Scott and accolades at the Grammys. Most of these stands cost him with institutions while raising his standing with artists and fans, a trade a Three makes all the time. The test leans Eight on terms and is weaker on costs than it first looks."
+    },
+    "originality": {
+      "score": 8.8,
+      "reason": "The organizing insight (he refuses the stage unless he sets its terms, and the masters are the line, not ownership in general) is specific to him, supported by details few profiles use: the 'interview process' complaint, the masters-as-condition of the Def Jam job against the Tidal sale, 'I'm not the commissioner yet', and the 11-year-old's promise reappearing in what he says about his children. There is very little reusable type boilerplate.",
+      "passage": "The promise he describes making at 11, \"when I get big, I'm going to take care of this,\" turns up again in what he said about his masters in 2023. He said then that he would not sell them, and he named who gets to decide after him: \"I want my kids to see my work and if they decide to sell it, then it's up to them.\""
+    },
+    "writing": {
+      "score": 8.3,
+      "reason": "Sections develop instead of restating: the 'wall, described three times' device is strong, and the ending lands. The prose is plain and precise. Pacing sags in the middle: 'What separates them' reads as a ledger of tests, and the hedges ('offered as interpretation', 'held loosely', 'consistent with Eight rather than proof') are honest but dense enough to blunt momentum. At 3,877 words it runs past the 3,500 target.",
+      "passage": "Across nine years the sources he names shift, from a father who let him down to danger to a rule about crying, but the mechanism holds: the wall goes up wherever feeling would be exposure. In none of the three accounts does he describe it as a way to keep performing or to keep winning."
+    },
+    "durability": {
+      "score": 8.6,
+      "reason": "The argument rests on dated statements from 2009 to 2024 that will not change; the 2026 halftime news is framed as an open test, dated 'November 6, 2026', and tracked with review triggers, so it ages cleanly after February 14, 2027. Removing the latest event leaves the wall, masters and family-line evidence intact. The masters position is explicitly dated as 'his 2023 position'.",
+      "passage": "On the Eight reading, nothing changed but who sets the terms. On the Three reading, he waited until the moment would look best. The record available on November 6, 2026 cannot separate the two."
+    },
+    "hook": {
+      "score": 8.4,
+      "reason": "A specific, sourced, dated scene with a real contradiction (Kaepernick's ally partnering with the NFL, refusing the halftime show as an 'interview process'), paid off by the 2026 acceptance and the closing question. It takes six paragraphs plus an evidence note to reach the type answer, which slows the open.",
+      "passage": "His 2019 explanation says he refused something narrower than the Super Bowl: being one of four names waiting to be chosen. That reads two ways: a man who will not let others set his terms, or a star who will not be ranked beside three others, as \"second fiddle\" suggests."
+    },
+    "discoverability": {
+      "score": 8.3,
+      "reason": "meta_title (46 characters) and description (145) are accurate, dated and hedged; four FAQs answer real searches (type, Type 3, halftime refusal, therapy) with anchors that match the headings; the type answer is under 60 words; internal links reach Beyonce, Kanye and the Type 8 and Type 3 pages, and suggestions point at existing profiles. Few in-body links to other people profiles beyond those two.",
+      "passage": "## What is Jay-Z's personality type?\n\nJay-Z most likely fits Enneagram Type 8, at medium confidence."
+    }
+  }
+}

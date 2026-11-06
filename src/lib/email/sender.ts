@@ -39,7 +39,20 @@ export interface SendEmailOptions {
 	emailKind?: 'marketing' | 'transactional';
 	idempotencyKey?: string;
 	providerCorrelationId?: string;
+	/**
+	 * Which 9takes mailbox sends it (Gmail only). Replies go to the same
+	 * address. 'dj@9takes.com' is for personal notes DJ wants replies to.
+	 */
+	senderAddress?: SenderAddress;
 }
+
+export const SENDER_ADDRESSES = ['usersup@9takes.com', 'dj@9takes.com'] as const;
+export type SenderAddress = (typeof SENDER_ADDRESSES)[number];
+
+const SENDER_NAMES: Record<SenderAddress, string> = {
+	'usersup@9takes.com': 'DJ at 9takes',
+	'dj@9takes.com': 'DJ Wayne'
+};
 
 export type EmailSendFailureCategory =
 	| 'configuration'
@@ -107,6 +120,7 @@ function classifySendFailure(
 function makeBody({
 	toEmails,
 	fromEmail,
+	fromName = 'DJ at 9takes',
 	subject,
 	htmlMessage,
 	plainTextMessage,
@@ -116,6 +130,7 @@ function makeBody({
 }: {
 	toEmails: string[];
 	fromEmail: string;
+	fromName?: string;
 	subject: string;
 	htmlMessage: string;
 	plainTextMessage?: string;
@@ -140,8 +155,8 @@ function makeBody({
 	const parts = [
 		`MIME-Version: 1.0`,
 		`To: ${safeToEmails.join(', ')}`,
-		`From: DJ at 9takes <${safeFromEmail}>`,
-		`Reply-To: usersup@9takes.com`,
+		`From: ${sanitizeHeaderValue(fromName)} <${safeFromEmail}>`,
+		`Reply-To: ${safeFromEmail}`,
 		`Subject: ${safeSubject}`,
 		`List-ID: 9takes <emails.9takes.com>`,
 		...(unsubscribeUrl
@@ -187,7 +202,8 @@ async function sendWithGmail({
 	plainText,
 	unsubscribeUrl,
 	oneClickUnsubscribeUrl,
-	includeFooter
+	includeFooter,
+	senderAddress = 'usersup@9takes.com'
 }: {
 	to: string;
 	subject: string;
@@ -196,7 +212,11 @@ async function sendWithGmail({
 	unsubscribeUrl?: string;
 	oneClickUnsubscribeUrl?: string;
 	includeFooter: boolean;
+	senderAddress?: SenderAddress;
 }) {
+	if (!SENDER_ADDRESSES.includes(senderAddress)) {
+		throw new Error(`Unknown sender address: ${senderAddress}`);
+	}
 	if (!PRIVATE_gmail_private_key) {
 		throw new Error('PRIVATE_gmail_private_key environment variable is not set');
 	}
@@ -220,14 +240,15 @@ async function sendWithGmail({
 		email: 'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
 		key: privateKey,
 		scopes: ['https://www.googleapis.com/auth/gmail.send'],
-		subject: 'usersup@9takes.com'
+		subject: senderAddress
 	});
 	const gmail = google.gmail({ auth: authClient, version: 'v1' });
 	const response = await gmail.users.messages.send({
 		requestBody: {
 			raw: makeBody({
 				toEmails: [to],
-				fromEmail: 'usersup@9takes.com',
+				fromEmail: senderAddress,
+				fromName: SENDER_NAMES[senderAddress],
 				subject,
 				htmlMessage: fullHtml,
 				plainTextMessage: plainText,
@@ -257,7 +278,8 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 		includeFooter = true,
 		emailKind = 'transactional',
 		idempotencyKey,
-		providerCorrelationId
+		providerCorrelationId,
+		senderAddress
 	} = options;
 
 	let providerAttempted = false;
@@ -377,7 +399,8 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 			plainText: resolvedPlainTextContent,
 			unsubscribeUrl,
 			oneClickUnsubscribeUrl,
-			includeFooter
+			includeFooter,
+			senderAddress
 		});
 
 		return {

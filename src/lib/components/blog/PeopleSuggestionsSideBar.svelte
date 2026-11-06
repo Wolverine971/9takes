@@ -232,24 +232,25 @@
 		max-width: 880px;
 		margin: 0 auto 2rem;
 		padding: 1rem 0;
-		border-top: 1px solid var(--stone-edge);
-		border-bottom: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
+		border-bottom: 1px solid var(--rule);
 	}
 
 	.profile-links-section + .profile-links-section {
 		margin-top: 1rem;
 		padding-top: 1rem;
-		border-top: 1px dashed var(--stone-edge);
+		border-top: 1px dashed var(--rule);
 	}
 
 	.profile-links-title {
 		margin: 0 0 0.65rem;
-		font-size: 0.78rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		line-height: 1.2;
 		text-transform: uppercase;
-		letter-spacing: 0.06em;
-		color: var(--ink-dim);
+		letter-spacing: 0.08em;
+		color: var(--text-faint);
 	}
 
 	.profile-links-list {
@@ -270,16 +271,17 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 0.15rem 0;
-		border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 45%, transparent);
-		color: var(--lamp-glow);
-		font-size: 0.9rem;
+		color: var(--highlight);
+		font-size: var(--font-size-sm);
 		line-height: 1.25;
-		text-decoration: none;
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.2em;
+		text-decoration-color: color-mix(in srgb, var(--highlight) 45%, transparent);
 
 		&:hover {
-			border-bottom-color: var(--ink-bright);
-			color: var(--ink-bright);
-			text-decoration: none;
+			color: var(--text);
+			text-decoration-color: currentColor;
 		}
 
 		&::after {
@@ -298,7 +300,8 @@
 		width: 200px;
 		max-width: 200px;
 		max-height: 88vh;
-		font-size: 0.875rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-sm);
 		line-height: 1.4;
 		z-index: 40;
 
@@ -307,7 +310,6 @@
 	}
 
 	.sidebar-nav {
-		/* Card base styles - Solo Leveling dark theme */
 		box-sizing: border-box;
 		flex: 0 1 auto;
 		min-height: 0;
@@ -316,10 +318,10 @@
 		padding: 0.5rem;
 		overflow-y: auto;
 		overflow-x: hidden;
-		background-color: var(--night-deep);
-		border-radius: 1rem;
-		box-shadow: 0 0 20px color-mix(in srgb, var(--lamp-glow) 15%, transparent);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		background-color: var(--surface);
+		border-radius: 16px;
+		box-shadow: 0 0 24px color-mix(in srgb, var(--accent) 14%, transparent);
+		border: 1px solid var(--rule);
 
 		/* Custom scrollbar */
 		&::-webkit-scrollbar {
@@ -331,25 +333,20 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background-color: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
-			border-radius: 9999px;
+			background-color: color-mix(in srgb, var(--accent) 40%, transparent);
+			border-radius: 999px;
 
 			&:hover {
-				background-color: color-mix(in srgb, var(--lamp-glow) 50%, transparent);
+				background-color: color-mix(in srgb, var(--accent) 65%, transparent);
 			}
 		}
 	}
 
-	.sidebar-bridges {
-		margin-top: 0.9rem;
-		padding-top: 0.9rem;
-		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-	}
-
+	.sidebar-bridges,
 	.sidebar-extra {
 		margin-top: 0.9rem;
 		padding-top: 0.9rem;
-		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		border-top: 1px solid var(--rule);
 	}
 
 	.sidebar-extra:empty {
@@ -359,30 +356,27 @@
 	.sidebar-title {
 		margin: 0 0 0.5rem 0;
 		padding: 0 0 0.35rem 0;
-		font-size: 1rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
 		font-weight: 600;
-		color: var(--ink-bright);
-		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		color: var(--text);
+		border-bottom: 1px solid var(--rule);
 	}
 
 	.sidebar-subtitle {
 		margin: 0 0 0.4rem 0;
-		font-size: 0.78rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		text-transform: uppercase;
-		letter-spacing: 0.06em;
-		color: var(--ink-dim);
+		letter-spacing: 0.08em;
+		color: var(--text-faint);
 	}
 
 	.sidebar-link[data-bridge='true'] {
-		color: var(--ink-bright);
 		// Person slugs get title-cased below; bridge labels are already written
 		// as prose and must keep their sentence case.
 		text-transform: none;
-
-		&:hover {
-			color: var(--lamp-glow);
-		}
 	}
 
 	.sidebar-list {
@@ -414,18 +408,26 @@
 		text-overflow: ellipsis;
 		padding: 0.2rem 0.4rem;
 		box-sizing: border-box;
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.4;
-		color: var(--lamp-glow);
+		color: var(--text-muted);
 		text-decoration: none;
 		border-radius: 4px;
-		transition: all 0.2s ease;
+		transition:
+			color 0.2s ease,
+			background-color 0.2s ease;
 		text-transform: capitalize;
 
+		/* Rail rows are navigation, not inline links: muted text that lifts
+		   onto a raised row on hover, so no underline. */
 		&:hover {
-			color: var(--lamp-glow);
-			background-color: var(--lamp-soft);
+			color: var(--text);
+			background-color: var(--surface-raised);
 			text-decoration: none;
+		}
+
+		&:focus-visible {
+			outline-offset: -2px;
 		}
 
 		&::after {

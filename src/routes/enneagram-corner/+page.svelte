@@ -1,17 +1,16 @@
 <!-- src/routes/enneagram-corner/+page.svelte -->
 <!--
-  /enneagram-corner index — Streetlamp Symposium V5.
+  /enneagram-corner index — Cold Light (2026-11-06; was Streetlamp Symposium V5).
   Phase 5 page #5a of docs/design/2026-05-04-rollout-plan.md.
 
   Visual ground truth: src/routes/personality-analysis/+page.svelte (already migrated).
   Spec: docs/design-system.md §4–§6, /design-preview/v5.
 
   Server load (untouched): returns { enneagramBlogs, featured, recentlyUpdated }.
-  V5 tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-*) live
-  in src/scss/index.scss bridge blocks; this file references them via var(--…).
+  Cold Light tokens (--bg, --surface, --text*, --accent, --highlight) live in
+  src/scss/index.scss; this file references them via var(--…).
 -->
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 	import type { FAQItem } from '$lib/types/faq';
 	import SEOHead from '$lib/components/SEOHead.svelte';
@@ -25,39 +24,12 @@
 
 	let { data }: { data: PageData } = $props();
 
-	// ------------------------------------------------------------------
-	// Theme-aware pic swap. Each enneagram-type-N-dossier image ships in
-	// dark + light variants. Track the actual applied theme on <html> so
-	// the right variant renders on this index page reactively when the
-	// user toggles the theme toggle.
-	// ------------------------------------------------------------------
-	let effectiveTheme = $state<'light' | 'dark'>('dark');
-
-	onMount(() => {
-		const root = document.documentElement;
-		const sync = () => {
-			const dataTheme = root.dataset.theme;
-			if (dataTheme === 'light' || dataTheme === 'dark') {
-				effectiveTheme = dataTheme;
-			} else {
-				effectiveTheme = root.classList.contains('light') ? 'light' : 'dark';
-			}
-		};
-		sync();
-		const obs = new MutationObserver(sync);
-		obs.observe(root, { attributes: true, attributeFilter: ['class', 'data-theme'] });
-		return () => obs.disconnect();
-	});
-
-	// Pics with a paired light variant on disk. Only enneagram-type-N-dossier
-	// slugs (1–9) have `${slug}-light.webp`; everything else falls through.
-	const HAS_LIGHT_VARIANT = /^enneagram-type-[1-9]-dossier$/;
-
+	// Card image URL. Cold Light is dark-only, so the old light-variant swap
+	// (enneagram-type-N-dossier-light.webp) is gone; output is unchanged in dark.
 	function picUrl(pic: string | null | undefined, small = false): string {
 		if (!pic) return '';
-		const suffix = effectiveTheme === 'light' && HAS_LIGHT_VARIANT.test(pic) ? '-light' : '';
 		const prefix = small ? 's-' : '';
-		return `/blogs/${prefix}${pic}${suffix}.webp`;
+		return `/blogs/${prefix}${pic}.webp`;
 	}
 
 	// ------------------------------------------------------------------
@@ -381,6 +353,7 @@
 	  ===================================================================== -->
 	<IndexHero
 		title="The Enneagram, decoded."
+		titleQuiet="decoded."
 		line1="9 emotional types. Each one leads with a different read of the same situation. Here's what each one sees first, and what every type misses."
 		line2={`${publishedCount} reads. Centers, wings, stress lines, growth lines, and the moments those patterns show up in real life.`}
 		imageSrc="/greek_distorted_statue_face.webp"
@@ -399,10 +372,10 @@
 			{/if}
 		{/snippet}
 		{#snippet actions()}
-			<Button size="md" variant="primary" href="/enneagram-corner/subtopic/nine-types">
+			<Button size="lg" variant="primary" href="/enneagram-corner/subtopic/nine-types">
 				Start with the 9 Types
 			</Button>
-			<Button size="md" variant="ghost" href="/enneagram-corner/enneagram-concepts">
+			<Button size="lg" variant="secondary" href="/enneagram-corner/enneagram-concepts">
 				Learn the Core Concepts
 			</Button>
 		{/snippet}
@@ -414,7 +387,7 @@
 	{#if data.featured.length > 0}
 		<section class="featured">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="02" label="FEATURED" />
+				<SectionKicker tone="dim" class="section-tag" num="02" label="FEATURED" />
 				<h2 class="display-md">Featured.</h2>
 				<p class="section-sub">Most recently updated. Worth your full attention.</p>
 			</header>
@@ -448,7 +421,7 @@
 	{#if data.recentlyUpdated.length > 0}
 		<section class="recent">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="03" label="RECENTLY UPDATED" />
+				<SectionKicker tone="dim" class="section-tag" num="03" label="RECENTLY UPDATED" />
 				<h2 class="display-md">Recently updated.</h2>
 				<p class="section-sub">Fresh insights, latest revisions.</p>
 			</header>
@@ -477,7 +450,7 @@
 	  ===================================================================== -->
 	<section class="by-topic">
 		<header class="section-head">
-			<SectionKicker class="section-tag" num="04" label="BY TOPIC" />
+			<SectionKicker tone="dim" class="section-tag" num="04" label="BY TOPIC" />
 			<h2 class="display-md">By topic.</h2>
 			<p class="section-sub">Eight angles on the Enneagram. Pick your entry point.</p>
 		</header>
@@ -494,7 +467,7 @@
 				<div class="topic-block" id={topic.id}>
 					<header class="topic-block-head">
 						<SectionKicker
-							tone="data"
+							tone="dim"
 							num={`04${topicSuffix(ti)}`}
 							label={`TOPIC · ${topic.title.toUpperCase()}`}
 							class="topic-block-kicker"
@@ -519,7 +492,7 @@
 
 					{#if topic.viewAllHref}
 						<div class="topic-block-cta">
-							<Button size="md" variant="secondary" href={topic.viewAllHref}>
+							<Button size="lg" variant="secondary" href={topic.viewAllHref}>
 								View all {topicTotal > 0 ? `${topicTotal} ` : ''}{topic.title} reads
 								{#if remaining > 0}
 									<span class="cta-extra">&middot; {remaining} more &rarr;</span>
@@ -546,16 +519,16 @@
 	  ===================================================================== -->
 	<section class="cta">
 		<div class="cta-inner">
-			<SectionKicker class="section-tag" num="06" label="START HERE" />
+			<SectionKicker tone="dim" class="section-tag" num="06" label="START HERE" />
 			<h2 class="display-md">Ready to discover your type?</h2>
 			<p class="section-sub">
 				Start with the nine types, or build the foundation behind the framework first.
 			</p>
 			<div class="cta-actions">
-				<Button size="md" variant="primary" href="/enneagram-corner/subtopic/nine-types">
+				<Button size="lg" variant="primary" href="/enneagram-corner/subtopic/nine-types">
 					Explore All 9 Types
 				</Button>
-				<Button size="md" variant="ghost" href="/enneagram-corner/subtopic/overview">
+				<Button size="lg" variant="secondary" href="/enneagram-corner/subtopic/overview">
 					Learn the Basics
 				</Button>
 			</div>
@@ -565,68 +538,47 @@
 
 <style lang="scss">
 	/* =========================================================
-	  /enneagram-corner — Streetlamp Symposium index page.
-	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
-	  --pool-rgb, --pool-deep-rgb) ship globally in src/scss/index.scss.
-	  Local-only overrides scoped to .library-index.
+	  /enneagram-corner — Cold Light index page (2026-11-06).
+	  Tokens: --bg / --surface / --surface-raised / --rule / --text*,
+	  --accent (fills), --highlight (lavender). No mono, no amber.
 	  ========================================================= */
 	.library-index {
-		--pool-alpha-strong: 0.28;
-		--pool-alpha-mid: 0.18;
-		--pool-alpha-soft: 0.08;
 		--statue-blend: screen;
 		--grain-opacity: 0.05;
 
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-family: var(--font-display);
+		background: var(--bg);
+		color: var(--text);
+		font-family: var(--font-talk);
 		min-height: 100vh;
 		position: relative;
 		overflow: hidden;
-
-		:global(:root.light) & {
-			--pool-alpha-strong: 0.14;
-			--pool-alpha-mid: 0.08;
-			--pool-alpha-soft: 0.04;
-			--statue-blend: normal;
-			--grain-opacity: 0.025;
-		}
 	}
 
 	/* ---------- shared utilities ---------- */
-	.library-index :global(.mono) {
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--ink-dim);
-	}
-
+	/* Section headings sit under 40px, so they're Archivo semibold, not Anton. */
 	.display-md {
-		font-family: var(--font-display);
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-weight: var(--font-weight-semibold);
 		font-size: clamp(28px, 4vw, 40px);
 		line-height: 1.1;
 		letter-spacing: -0.02em;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 	}
 
 	.display-sm {
-		font-family: var(--font-display);
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-weight: var(--font-weight-semibold);
 		font-size: clamp(22px, 2.6vw, 28px);
 		line-height: 1.18;
 		letter-spacing: -0.015em;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 	}
 
 	.library-index :global(.section-tag) {
 		display: inline-block;
 		margin-bottom: 14px;
-		color: var(--lamp-glow);
 	}
 
 	.library-index :global(p),
@@ -637,7 +589,8 @@
 		padding: 0;
 	}
 
-	.library-index :global(a) {
+	/* Buttons keep their own colors (the mint action needs its dark text). */
+	.library-index :global(a:not(.btn)) {
 		color: inherit;
 		text-decoration: none;
 	}
@@ -653,24 +606,24 @@
 	}
 
 	.section-sub {
-		font-family: var(--font-display);
-		font-size: 17px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-lg);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		max-width: 640px;
 	}
 
 	/* §01 hero + grain styles live in marketing/IndexHero.svelte (extracted 2026-06-10). */
 
 	/* =========================================================
-	  Section blocks — alternating night-deep / night-mid rhythm
+	  Section blocks — alternating --bg / --surface rhythm
 	  ========================================================= */
 	.featured,
 	.by-topic,
 	.cta {
 		padding: 96px 48px;
-		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
+		background: var(--bg);
+		border-top: 1px solid var(--rule);
 
 		@media (max-width: 768px) {
 			padding: 64px 20px;
@@ -680,8 +633,8 @@
 	.recent,
 	.faq {
 		padding: 96px 48px;
-		background: var(--night-mid);
-		border-top: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border-top: 1px solid var(--rule);
 
 		@media (max-width: 768px) {
 			padding: 64px 20px;
@@ -689,7 +642,7 @@
 	}
 
 	/* FAQSection ships its own internal padding/max-width. Center it inside
-	   the V5 night-mid wrapper so it inherits the rhythm without re-styling
+	   the --surface wrapper so it inherits the rhythm without re-styling
 	   the component itself. */
 	.faq {
 		padding-left: 0;
@@ -751,7 +704,7 @@
 		align-items: center;
 		gap: 10px;
 		padding-bottom: 18px;
-		border-bottom: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--rule);
 		position: relative;
 
 		&::after {
@@ -761,21 +714,17 @@
 			bottom: -1px;
 			width: 80px;
 			height: 2px;
-			background: var(--data-teal);
+			background: var(--accent);
 			transform: translateX(-50%);
 			border-radius: 9999px;
 		}
 	}
 
-	.library-index :global(.topic-block-kicker) {
-		color: var(--data-teal);
-	}
-
 	.topic-block-sub {
-		font-family: var(--font-display);
-		font-size: 15px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		max-width: 580px;
 	}
 
@@ -785,10 +734,9 @@
 		justify-content: center;
 
 		:global(.btn) {
-			border-color: var(--data-teal);
-			color: var(--ink-bright);
+			border-color: color-mix(in srgb, var(--highlight) 40%, transparent);
+			color: var(--text);
 			padding-inline: 28px;
-			font-size: 15px;
 			font-weight: 600;
 			letter-spacing: -0.005em;
 			box-shadow: 0 0 0 0 transparent;
@@ -801,16 +749,16 @@
 		}
 
 		:global(.btn:hover) {
-			background: var(--stone-mid);
-			border-color: var(--data-teal);
-			color: var(--ink-bright);
-			box-shadow: 0 0 0 4px rgba(var(--pool-rgb), 0.12);
+			background: var(--surface-raised);
+			border-color: var(--highlight);
+			color: var(--text);
+			box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 12%, transparent);
 			transform: translateY(-1px);
 		}
 
 		.cta-extra {
 			margin-left: 6px;
-			color: var(--data-teal);
+			color: var(--highlight);
 			font-weight: 600;
 		}
 

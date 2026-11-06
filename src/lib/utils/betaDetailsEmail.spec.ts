@@ -2,6 +2,7 @@
 import { describe, expect, it } from 'vitest';
 import {
 	BETA_BOOKING_PLACEHOLDER,
+	betaDetailsEmailHtml,
 	buildBetaDetailsEmail,
 	buildGmailComposeUrl
 } from './betaDetailsEmail';
@@ -14,7 +15,7 @@ describe('buildBetaDetailsEmail', () => {
 
 	it('includes the booking link, or a visible placeholder without one', () => {
 		expect(buildBetaDetailsEmail({ bookingUrl: 'https://booking.example/x' }).body).toContain(
-			'Grab a time here: https://booking.example/x'
+			'Book your intro call here: https://booking.example/x'
 		);
 		expect(buildBetaDetailsEmail({}).body).toContain(BETA_BOOKING_PLACEHOLDER);
 	});
@@ -23,6 +24,21 @@ describe('buildBetaDetailsEmail', () => {
 		const { body } = buildBetaDetailsEmail({});
 		expect(body).toContain('coaching, not clinical therapy');
 		expect(body).toContain('988');
+	});
+
+	it('asks for a reply when they are not ready to book', () => {
+		expect(buildBetaDetailsEmail({}).body).toContain('P.S. Not ready to book? Hit reply');
+	});
+});
+
+describe('betaDetailsEmailHtml', () => {
+	it('makes paragraphs, keeps line breaks, links URLs, and escapes text', () => {
+		const html = betaDetailsEmailHtml(
+			'Hi <you>\n\n1. one\n2. two\n\nBook: https://booking.example/x'
+		);
+		expect(html).toBe(
+			'<p>Hi &lt;you&gt;</p>\n<p>1. one<br>2. two</p>\n<p>Book: <a href="https://booking.example/x">https://booking.example/x</a></p>'
+		);
 	});
 });
 

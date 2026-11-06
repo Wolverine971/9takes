@@ -16,23 +16,29 @@
 </div>
 
 <style>
+	/* Cold Light note: indigo bar on --surface, an Archivo uppercase label
+	   (no emoji bulb), body at the 16px floor. */
 	.date-tip {
-		background: var(--lamp-soft);
-		border-left: 4px solid var(--lamp-glow);
+		background: var(--surface);
+		border-left: 3px solid var(--accent);
 		padding: 1rem;
 		margin: 1.5rem 0;
 		border-radius: 0 0.625rem 0.625rem 0;
 		position: relative;
-		font-size: 0.95rem;
+		font-size: var(--font-size-base);
 		line-height: 1.5;
-		color: var(--ink-bright);
+		color: var(--text-muted);
 	}
 
 	.date-tip::before {
-		content: '💡 Tip';
-		font-weight: bold;
+		content: 'Tip';
 		display: block;
 		margin-bottom: 0.5rem;
-		color: var(--lamp-glow);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-faint);
 	}
 </style>

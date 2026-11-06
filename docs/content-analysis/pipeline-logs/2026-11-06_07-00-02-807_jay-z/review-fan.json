@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "4a2356170694ae8b3ac178b28061e2a4275d58c0915c62614d10fcdabd31a45f",
+  "evidence_sha256": "4ee2565cbfb00bca669a6beaf0340ea841bf7678b6b77164bba6526fd99c36da",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-F1",
+      "severity": "major",
+      "passage": "What he refused in 2019 was the audition: being one of four names waiting to be chosen.",
+      "problem": "The hook, title, description and FAQ all frame the halftime refusal through one 2019 press-conference explanation ('almost like this interview process'). Any informed fan knows his own earlier public framing. On 'APES**T' (The Carters, Everything Is Love, June 2018) he rapped 'I said no to the Super Bowl, you need me, I don't need you', and in 2018 his refusal was widely reported as solidarity with Colin Kaepernick. The draft never mentions either. That leaves out the most-cited primary text on the refusal, and it removes the fact that makes the August 2019 NFL deal look like a reversal rather than a continuation. That reversal is the very point the 'What separates them' section calls the strongest case against Eight. The sentence also misdates things: the 2019 press conference explained earlier refusals, so it was not the year of 'the' refusal.",
+      "acceptance_test": "The opening or the NFL-deal discussion quotes or paraphrases the 2018 'APES**T' line with a source and date. It acknowledges the 2018 Kaepernick-solidarity framing, attributed to reporting or to him as appropriate. The 2019 'interview process' explanation is presented as his later account of earlier refusals. The 'What separates them' and 'strains' sections test both framings ('you need me' leverage and solidarity versus 'audition') against the 2019 deal and the 2026 acceptance. Title, description and the halftime FAQ stay accurate once this is added."
+    },
+    {
+      "id": "fan-F2",
+      "severity": "major",
+      "passage": "Personal attacks were survivable. Family was not.",
+      "problem": "The draft presents 'you brought my family into it' as Jay-Z's fixed line and uses it in the discriminator. But the best-known feud of his career cuts the other way. In the Nas feud, on 'Super Ugly' (December 2001), he rapped about a sexual relationship with Carmen Bryan, the mother of Nas's daughter. He then publicly apologized, reportedly after his mother objected. He himself crossed the family line against a rival, and the person who pulled him back was his mother. Leaving that out flatters him and overstates how consistent the 'protects family' pattern is. It is a revealing contradiction that either reading has to absorb.",
+      "acceptance_test": "The Kanye section or 'What separates them' briefly notes the 2001 'Super Ugly' episode and the public apology, using an opened source with a date. The text then says honestly what it does to the 'family is the line' argument: for example, the line is his family, not family in general, or the line was learned. The sentence 'Family was not.' is no longer offered as a universal principle without that qualification."
+    },
+    {
+      "id": "fan-F3",
+      "severity": "major",
+      "passage": "He let West talk about him \"100 times,\" then went silent when West named his wife.",
+      "problem": "The draft's own quoted source contradicts this sequence. At Sacramento on November 19, 2016, West said 'Jay Z, call me, bruh. You still ain't calling me', so Jay-Z's silence was already in place before West named Beyonce. What the record supports is that the public answer ('Now it's a problem with me') came after the family mention. The causal order is part of the 8-versus-3 discriminator, so the misstatement is consequential. Fans also know the 2016 rift had other public strands (West's complaints about Tidal money and the two families' distance), which this sentence collapses.",
+      "acceptance_test": "The sentence matches the record. Either the silence predated Sacramento and the family mention is what he later named as the point it became 'a real, real problem', or the sentence is cut. The discriminator paragraph no longer implies that the family mention caused the silence. Any other cause of the rift that is mentioned is sourced or clearly framed as context."
+    },
+    {
+      "id": "fan-F4",
+      "severity": "major",
+      "passage": "Ownership is not a negotiating point",
+      "problem": "The heading and the 'protecting what is his' argument generalize from his masters to ownership as such. Jay-Z's well-known business record is full of selling ownership at the right price: Rocawear to Iconix (2007), his Brooklyn Nets stake (2013), majority control of Tidal to Square and half of Armand de Brignac to LVMH (both 2021), and his D'Usse stake to Bacardi (2023). The masters were also literally negotiated, as a condition of the Def Jam job. A reader who knows this sees the heading as a distortion. And the omission hides evidence that matters for 3 versus 8: someone who sells most holdings but never the recordings is making a narrower, more interesting distinction.",
+      "acceptance_test": "The heading and body narrow the claim to his work (the masters), or they acknowledge his record of selling business equity, with at least one sourced, dated example. They state what that distinction suggests and its limit, for example 'the recordings are treated as self rather than asset' as interpretation. The 'second test' paragraph in 'What separates them' stays consistent with the narrowed claim."
+    },
+    {
+      "id": "fan-F5",
+      "severity": "major",
+      "passage": "A Three engineers a persona, keeps the private self out of view, competes to be the greatest and partners with whoever offers the bigger platform. Every one of those fits.",
+      "problem": "The Type 3 case leaves out the most famous image move of his career, which the evidence record's own alternative_case cites: the 2003 'retirement' at the top (The Black Album, the Madison Square Garden farewell filmed as Fade to Black) and the 2006 comeback with Kingdom Come. The alternative case is supposed to get full weight. Without the staged exit and return, it is weaker than the record allows. The episode also tests the 'on his terms' thesis directly: leaving and returning when he chose.",
+      "acceptance_test": "The Type 3 section, or the place where the 'on his terms' thesis is tested, includes the 2003 retirement and 2006 return with a sourced date. The profile then says which reading explains it better or that it does not discriminate. The Three case gains this point instead of having it left out."
+    },
+    {
+      "id": "fan-F6",
+      "severity": "minor",
+      "passage": "He said he now has \"compassion for what (my dad) went through, which was anger.\"",
+      "problem": "This drops the formative context the Letterman source itself supplies. According to the research notes for S6, Jay-Z described his father's anger as a hunt for the man who killed his father's brother, which a fan knows as the reason Adnis Reeves's life came apart and he left. Without it, 'which was anger' is opaque, and the father-son pattern (anger, protection and retaliation passed down) is missing. The same interview has a telling counterpoint to 'Be a man. Don't cry': about his mother coming out (the 2017 song 'Smile'), he said, 'I cried because I was so happy for her, that she was free.' That is the clearest moment in the record where the wall comes down to protect someone, and it goes unused.",
+      "acceptance_test": "One or two sentences give the cause of his father's anger, attributed to the Letterman interview and confirmed against an opened source. The 'Be a man. Don't cry' passage adds or nods to the 'I cried because I was so happy for her' line with attribution, or the editor records why it was left out. No new causal claim about his childhood is made beyond what he said."
+    },
+    {
+      "id": "fan-F7",
+      "severity": "minor",
+      "passage": "In the mid-1990s, disenchanted with the small label that had signed him, he co-founded his own, Roc-A-Fella Records, with Damon Dash and Kareem \"Biggs\" Burke.",
+      "problem": "The well-known origin story is that labels passed on him, and he and Dash sold Reasonable Doubt-era records independently before Roc-A-Fella's distribution deal. That is the original 'audition' he lost, and it directly feeds the profile's central 'won't audition' idea. The draft gives only Oprah's 'disenchanted' framing, so it misses the formative event that makes the 2019 halftime line resonate.",
+      "acceptance_test": "Either the founding sentence notes, with an opened and dated source, that labels declined to sign him before Roc-A-Fella was formed, and the profile links it to the audition thread as interpretation. Or the editor records that no opened source supports it and leaves the claim out."
+    },
+    {
+      "id": "fan-F8",
+      "severity": "minor",
+      "passage": "So it was here in the projects that I learned loyalty.",
+      "problem": "The loyalty section rests entirely on his own telling, the Jaz-O story included. Damon Dash is not the only former insider to accuse him of the opposite. Beanie Sigel's 2009 diss record ('What You Talkin' About') accused him of abandoning the Roc-A-Fella roster, and Jaz-O, the mentor in this anecdote, later had a public falling-out with him that should be checked. Fans see a repeated pattern: former partners call him cold or disloyal while he describes a code of loyalty. That pattern is a revealing contradiction, and the draft treats Dash as a lone hostile outlier.",
+      "acceptance_test": "Either the Dash paragraph or the loyalty passage notes, with an opened and dated source, that at least one other former Roc-A-Fella insider made a similar public accusation, framed as attributed testimony rather than fact. Any Jaz-O claim is verified before use or left out. The text reconciles 'learned loyalty' with the pattern instead of letting the self-report stand alone."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"Man, you knew where I was.\"",
+      "reason": "The father reunion exchange is the most revealing scene in the record. It shows him confronting rather than forgiving, and it carries the wall argument better than any summary."
+    },
+    {
+      "passage": "The stage on his terms or not at all.",
+      "reason": "A sharp, specific framing of the profile's question that fans will recognize as true to him. Keep it even if the 2018 framing (fan-F1) is added."
+    },
+    {
+      "passage": "His account still matches Jay-Z's own word for his younger self, \"cold,\" and it matches the pattern: when control of the work was at stake, the friendship did not decide the outcome.",
+      "reason": "Handles a hostile witness fairly. It flags Dash's bias and conflicting reasons, then shows where his account matches Jay-Z's own self-description."
+    },
+    {
+      "passage": "The court record and the victim's later account do not agree, and this profile does not choose between them.",
+      "reason": "The Rivera stabbing is laid out as fans actually know it (plea, Decoded's 'mindless assault', Rivera's 2023 denial) without being turned into type evidence."
+    },
+    {
+      "passage": "He has spent his career refusing to let a label, a league or an audition decide the terms of his work. The one group he names as free to decide is his children.",
+      "reason": "An earned ending that ties the age-11 promise to the masters quote without moralizing. Distinctive to this subject."
+    }
+  ],
+  "assessment": "As an informed fan's read, this is a fair, well-sourced portrait. It handles his strongest primary material well (the Oprah walk through Marcy, the three versions of 'the wall', the Rivera and Buzbee records) and does not flatter him, putting the NFL deal and Dash's 'cold' on the page. Where it falls short is a set of well-known episodes and texts that it leaves out or compresses in his favor: the 2018 'APES**T' lyric and the Kaepernick-solidarity framing of the halftime refusal (fan-F1); the 2001 'Super Ugly' apology, which complicates 'family is the line' (fan-F2); a silence-then-family sequence contradicted by West's own quoted words (fan-F3); 'ownership' generalized from the masters despite a long record of selling equity (fan-F4); and the 2003 retirement and 2006 comeback missing from the Three case (fan-F5). Fixing these would sharpen rather than overturn the medium-confidence Eight read. They mostly strengthen the alternative and make the discriminator more precise. Several of these are well known but not in the evidence record, so the editor needs opened sources before adding them. Minor precision note: the evidence record has the brother's wound as 'shoulder/arm', but the draft says 'shoulder'; confirm against S1. Similarity advisory: the only trip (0.058 with Nara-Smith) is the shared phrase 'the Eight read(ing)', which is ordinary type vocabulary, and the compared sentences make different arguments. No meaningful reuse found. Risk flags stand as in the evidence record (sensitive allegations, contested typing). I raise no new thesis-change risk."
+}

@@ -27,7 +27,9 @@
 
 	// Search/filter state
 	let waitlistSearch = $state('');
-	let showConvertedOnly = $state(false);
+	type WaitlistFilter = 'all' | 'needs' | 'sent' | 'clients';
+	let waitlistFilter = $state<WaitlistFilter>('all');
+	let detailsSavingId = $state<string | null>(null);
 
 	// Collapsible section state
 	let frameworksExpanded = $state(true);
@@ -42,10 +44,31 @@
 				entry.email?.toLowerCase().includes(waitlistSearch.toLowerCase()) ||
 				entry.session_goal?.toLowerCase().includes(waitlistSearch.toLowerCase());
 
-			const matchesFilter = !showConvertedOnly || entry.isConverted;
-
-			return matchesSearch && matchesFilter;
+			return matchesSearch && matchesWaitlistFilter(entry, waitlistFilter);
 		})
+	);
+
+	function matchesWaitlistFilter(entry: WaitlistEntry, filter: WaitlistFilter): boolean {
+		if (filter === 'needs') return !entry.details_sent_at && !entry.isConverted;
+		if (filter === 'sent') return Boolean(entry.details_sent_at);
+		if (filter === 'clients') return entry.isConverted;
+		return true;
+	}
+
+	const waitlistFilters: { key: WaitlistFilter; label: string }[] = [
+		{ key: 'all', label: 'All' },
+		{ key: 'needs', label: 'Needs details email' },
+		{ key: 'sent', label: 'Details sent' },
+		{ key: 'clients', label: 'Clients' }
+	];
+
+	let waitlistFilterCounts = $derived(
+		Object.fromEntries(
+			waitlistFilters.map(({ key }) => [
+				key,
+				data.recentWaitlist.filter((entry) => matchesWaitlistFilter(entry, key)).length
+			])
+		) as Record<WaitlistFilter, number>
 	);
 
 	const intakeFieldLabels: Record<string, string> = {
@@ -785,10 +808,20 @@
 							</button>
 						{/if}
 					</div>
-					<label class="filter-checkbox">
-						<input type="checkbox" bind:checked={showConvertedOnly} />
-						<span>Show converted only</span>
-					</label>
+					<div class="filter-chips" role="group" aria-label="Filter waitlist">
+						{#each waitlistFilters as filter (filter.key)}
+							<button
+								type="button"
+								class="filter-chip"
+								class:active={waitlistFilter === filter.key}
+								aria-pressed={waitlistFilter === filter.key}
+								onclick={() => (waitlistFilter = filter.key)}
+							>
+								{filter.label}
+								<span class="filter-chip-count">{waitlistFilterCounts[filter.key]}</span>
+							</button>
+						{/each}
+					</div>
 				</div>
 
 				{#if data.recentWaitlist.length === 0}
@@ -819,7 +852,7 @@
 							size="sm"
 							onclick={() => {
 								waitlistSearch = '';
-								showConvertedOnly = false;
+								waitlistFilter = 'all';
 							}}
 						>
 							Clear filters
@@ -883,7 +916,7 @@
 															Client
 														</span>
 													{/if}
-													{#if betaCardSource(entry) && !entry.flagged_reason}
+													{#if betaCardSource(entry)}
 														<span
 															class="beta-badge"
 															title="Asked for the experimental therapy details from {betaCardSource(
@@ -893,13 +926,17 @@
 															Beta card
 														</span>
 													{/if}
-													{#if entry.flagged_reason}
+													{#if entry.details_sent_at}
 														<span
-															class="bot-badge"
-															title="Flagged as a bot signup ({entry.flagged_reason}). Emails to this address are blocked."
+															class="sent-badge"
+															title="You marked the details email sent on {formatDateTime(
+																entry.details_sent_at
+															)}"
 														>
-															Bot
+															Details sent {formatShortDate(entry.details_sent_at)}
 														</span>
+													{:else if !entry.isConverted}
+														<span class="needs-badge">Needs details email</span>
 													{/if}
 												</div>
 												<p class="person-meta">
@@ -947,21 +984,56 @@
 										</td>
 										<td class="action-cell" data-label="Actions">
 											<div class="action-buttons">
-												{#if entry.flagged_reason}
-													<span class="flagged-note">Bot signup · emails blocked</span>
-												{:else}
-													{#if betaCardSource(entry)}
+												{#if !entry.flagged_reason}
+													<Button
+														href={betaDetailsComposeUrl(entry)}
+														target="_blank"
+														rel="noopener noreferrer"
+														size="sm"
+														variant={entry.details_sent_at ? 'secondary' : 'primary'}
+														class="btn-action"
+														title="Opens a Gmail draft from dj@9takes.com with the details email filled in. Nothing sends until you press Send."
+													>
+														{entry.details_sent_at ? 'Resend details' : 'Send details'}
+													</Button>
+													<form
+														method="POST"
+														action="?/setDetailsSent"
+														use:enhance={() => {
+															detailsSavingId = String(entry.id);
+															return async ({ result }) => {
+																detailsSavingId = null;
+																if (result.type === 'success') {
+																	await invalidateAll();
+																} else if (result.type === 'failure') {
+																	notifications.danger(
+																		(result.data as { error?: string } | undefined)?.error ||
+																			'Couldn’t save that',
+																		3000
+																	);
+																}
+															};
+														}}
+													>
+														<input type="hidden" name="waitlistId" value={entry.id} />
+														<input
+															type="hidden"
+															name="sent"
+															value={entry.details_sent_at ? 'false' : 'true'}
+														/>
 														<Button
-															href={betaDetailsComposeUrl(entry)}
-															target="_blank"
-															rel="noopener noreferrer"
+															type="submit"
+															variant="secondary"
 															size="sm"
 															class="btn-action"
-															title="Opens a Gmail draft from dj@9takes.com with the beta details filled in. Nothing sends until you press Send."
+															loading={detailsSavingId === String(entry.id)}
+															title={entry.details_sent_at
+																? 'Undo: mark the details email as not sent'
+																: 'Press after you send the Gmail draft'}
 														>
-															Send details
+															{entry.details_sent_at ? 'Undo sent' : 'Mark sent'}
 														</Button>
-													{/if}
+													</form>
 													<Button
 														variant="secondary"
 														size="sm"
@@ -1057,6 +1129,29 @@
 							Showing {filteredWaitlist.length} of {data.recentWaitlist.length} entries
 						</p>
 					{/if}
+				{/if}
+
+				{#if data.quarantinedCount > 0}
+					<details class="quarantine">
+						<summary>
+							Quarantined bot signups <span class="filter-chip-count">{data.quarantinedCount}</span>
+						</summary>
+						<p class="quarantine-note">
+							Flagged as bots, so they're hidden from the list above and the count. Most use real
+							people's emails that a bot typed in, so emails to these addresses are blocked and they
+							can't become clients.
+						</p>
+						<ul class="quarantine-list">
+							{#each data.quarantinedSignups as bot (bot.id)}
+								<li>
+									<span class="quarantine-email">{bot.email}</span>
+									<span class="quarantine-meta">
+										{formatShortDate(bot.created_at)} · {bot.flagged_reason}
+									</span>
+								</li>
+							{/each}
+						</ul>
+					</details>
 				{/if}
 			</section>
 		</div>
@@ -2064,18 +2159,101 @@
 		font-weight: 600;
 	}
 
-	.bot-badge {
+	.sent-badge,
+	.needs-badge {
 		display: inline-flex;
 		align-items: center;
-		background: color-mix(in srgb, var(--error-text) 14%, transparent);
-		color: var(--error-text);
 		font-size: 0.625rem;
 		padding: 0.125rem 0.375rem;
 		border-radius: 4px;
 		font-weight: 600;
 	}
 
-	.flagged-note {
+	.sent-badge {
+		background: color-mix(in srgb, var(--success) 14%, transparent);
+		color: var(--success-text);
+	}
+
+	.needs-badge {
+		background: color-mix(in srgb, var(--warning) 16%, transparent);
+		color: var(--warning);
+	}
+
+	.filter-chips {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.375rem;
+	}
+
+	.filter-chip {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.375rem;
+		padding: 0.375rem 0.625rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 999px;
+		background: transparent;
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+		cursor: pointer;
+	}
+
+	.filter-chip:hover {
+		color: var(--ink-bright);
+	}
+
+	.filter-chip.active {
+		border-color: var(--lamp-glow);
+		color: var(--ink-bright);
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+	}
+
+	.filter-chip-count {
+		font-size: 0.6875rem;
+		color: var(--ink-dim);
+		font-variant-numeric: tabular-nums;
+	}
+
+	.quarantine {
+		margin-top: 1.25rem;
+		border-top: 1px solid var(--stone-edge);
+		padding-top: 0.875rem;
+	}
+
+	.quarantine summary {
+		cursor: pointer;
+		color: var(--ink-dim);
+		font-size: 0.875rem;
+	}
+
+	.quarantine-note {
+		margin: 0.625rem 0;
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+	}
+
+	.quarantine-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		gap: 0.375rem;
+	}
+
+	.quarantine-list li {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 0.25rem 1rem;
+		font-size: 0.8125rem;
+	}
+
+	.quarantine-email {
+		color: var(--ink-dim);
+		overflow-wrap: anywhere;
+	}
+
+	.quarantine-meta {
 		color: var(--ink-dim);
 		font-size: 0.75rem;
 	}
@@ -2152,22 +2330,6 @@
 	.clear-search:hover {
 		color: var(--ink-bright);
 		background: var(--stone-mid);
-	}
-
-	.filter-checkbox {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		font-size: 0.8125rem;
-		color: var(--ink-mid);
-		cursor: pointer;
-		white-space: nowrap;
-	}
-
-	.filter-checkbox input[type='checkbox'] {
-		width: 16px;
-		height: 16px;
-		accent-color: var(--lamp-glow);
 	}
 
 	.waitlist-table-wrapper {

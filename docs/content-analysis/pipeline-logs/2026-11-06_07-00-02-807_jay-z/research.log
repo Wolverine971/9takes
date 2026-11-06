@@ -1,0 +1,28 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+The Jay-Z research stage is finished. I wrote `docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/evidence.json` and nothing else in the repo. It passes the contract's `validateEvidence` check.
+
+**Result: `ready`. Leading read is Type 8 at medium confidence; Type 3 is the strongest alternative.**
+
+- **Case for 8:** In his own words, across 2009 (Oprah), 2017 (NYT, quoted via Time) and 2018 (Letterman), he describes his emotional wall as protection against being let down again ("you never want to experience that pain again", "survival mode"). He doesn't describe it as switching off feelings to keep winning. When protecting family or his work costs him image or approval, he usually picks protection:
+  - he shot his brother, who was taking from the family
+  - he made getting his masters back a condition of taking the Def Jam presidency
+  - he cut off Kanye only after Kanye brought his family into it
+  - he called out the Grammys over Beyoncé on the Grammys' own stage
+- **Case for 3:** He openly built "Jay-Z" as a character, talks about being "the greatest", and went along with the NFL in 2019 ("we've moved past kneeling"). These are recorded as counterevidence, and the NFL deal is the strongest one.
+- **Still unexplained:** his quiet, shy temperament, and the change from refusing to perform at the Super Bowl in 2019 to headlining it now.
+- **Risks flagged:** sensitive allegations and contested typing are both marked true, so this run will go to the six-reviewer panel.
+
+**Sources:** 22 recorded, 20 actually opened and read. The two I couldn't open are marked unavailable and are flagged as ones to check before use: the NYT interview (blocked by a rate limit today) and the *Decoded* book itself.
+
+**Sensitive and time-sensitive items, all attributed:**
+- **1999 stabbing:** the guilty plea and probation sit next to Rivera's 2023 statement that Jay-Z wasn't the one who stabbed him.
+- **2024 lawsuit:** the Buzbee civil suit was dismissed with prejudice on Feb 14, 2025. The defamation fight is still unresolved and comes with a reminder to check its status.
+- **Super Bowl:** Jay-Z is confirmed (announced Oct 26, 2026) as the Feb 14, 2027 halftime headliner. That claim has a reminder to update it after the show.
+
+**Follow-ups for later stages (in `research_tasks`):**
+- Check the exact wording of the NYT and Rap Radar quotes.
+- Check the *Decoded* lines, which so far come only through a Village Voice review.
+- Confirm the exact plea charge and the date of the stabbing.
+- Find one friendly insider account of how he handles conflict. The only one so far is Dame Dash, who is hostile.
+
+Full source copies are cached in `~/.cache/9takes-research/jay-z/`, outside the public repo. `backlog-queue.json` already had changes before I started, and I didn't touch it.

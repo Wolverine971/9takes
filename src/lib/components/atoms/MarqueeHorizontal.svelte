@@ -130,13 +130,14 @@
 </div>
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme */
+	/* Cold Light: a quiet --surface band; the items are links, so they read
+	   lavender and underlined (the same in and out of a post body). */
 	.marquee-container {
 		width: 100%;
 		overflow: hidden;
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
-		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+		background: var(--surface);
+		border-top: 1px solid var(--rule);
+		border-bottom: 1px solid var(--rule);
 		position: relative;
 	}
 
@@ -153,12 +154,12 @@
 
 	.marquee-container::before {
 		left: 0;
-		background: linear-gradient(to right, var(--stone-warm), transparent);
+		background: linear-gradient(to right, var(--surface), transparent);
 	}
 
 	.marquee-container::after {
 		right: 0;
-		background: linear-gradient(to left, var(--night-deep), transparent);
+		background: linear-gradient(to left, var(--surface), transparent);
 	}
 
 	.marquee {
@@ -192,28 +193,35 @@
 	.marquee-item {
 		display: inline-flex;
 		align-items: center;
+		min-height: 44px;
 		padding: 1rem 2rem;
-		color: var(--ink-mid);
+		font-family: var(--font-talk);
+		color: var(--highlight);
 		text-transform: uppercase;
-		font-size: 1.2rem;
-		font-weight: bold;
-		text-decoration: none;
-		transition: all 0.3s ease;
+		font-size: var(--font-size-lg);
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-decoration-color: color-mix(in srgb, currentColor 55%, transparent);
+		text-underline-offset: 4px;
+		transition:
+			color 0.3s ease,
+			transform 0.3s ease;
 		position: relative;
 
 		&:hover {
-			color: var(--lamp-glow);
-			transform: scale(1.1);
-			/* Phase 2 (2026-05-04): teal text-shadow removed per design-system.md §5. */
+			color: var(--text);
+			transform: scale(1.05);
 		}
 
-		/* Separator between items */
+		/* Separator between items. inline-block keeps the link underline off it. */
 		&::after {
 			content: '•';
-			display: inline-block !important;
+			display: inline-block;
 			margin-left: 2rem;
-			color: var(--ink-dim);
-			font-size: 0.75rem;
+			color: var(--text-faint);
+			font-size: var(--font-size-xs);
 		}
 	}
 

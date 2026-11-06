@@ -74,15 +74,14 @@
 	const triadName = $derived(TRIAD_NAMES[coreEmotion]);
 </script>
 
-<!-- No font <svelte:head> here: Inter + JetBrains Mono are self-hosted via
-     Fontsource in the root layout; the Google Fonts copy was a duplicate
-     download + two extra connections per dossier (2026-06-11 mobile audit). -->
+<!-- No font <svelte:head> here: the Cold Light faces are self-hosted in the
+     root layout (2026-06-11 mobile audit dropped the duplicate Google Fonts copy). -->
 
 <section class="type-dossier">
 	<article class="dossier-card">
 		<div class="dossier-card-top">
-			<span class="mono dossier-id">TYPE {type} · {archetype.toUpperCase()}</span>
-			<span class="mono dossier-triad-tag triad-tag--{triadKey}">{triadName} TRIAD</span>
+			<span class="dlabel dossier-id">TYPE {type} · {archetype.toUpperCase()}</span>
+			<span class="dlabel dossier-triad-tag triad-tag--{triadKey}">{triadName} TRIAD</span>
 		</div>
 
 		<div class="dossier-body">
@@ -103,7 +102,7 @@
 					{#if specimenAttributes.length}
 						<ul class="specimen-attributes" aria-label="Specimen attributes">
 							{#each specimenAttributes as attr, i (attr)}
-								<li class="mono specimen-attr" style="--i: {i}">{attr}</li>
+								<li class="dlabel specimen-attr" style="--i: {i}">{attr}</li>
 							{/each}
 						</ul>
 					{/if}
@@ -111,11 +110,11 @@
 
 				<dl class="dossier-classifications" aria-label="Classifications">
 					<div class="classification-row">
-						<dt class="mono">STANCE</dt>
+						<dt class="dlabel">STANCE</dt>
 						<dd class="classification-value">{hornevian}</dd>
 					</div>
 					<div class="classification-row">
-						<dt class="mono">HARMONIC</dt>
+						<dt class="dlabel">HARMONIC</dt>
 						<dd class="classification-value">{harmonic}</dd>
 					</div>
 				</dl>
@@ -124,7 +123,7 @@
 			<div class="dossier-content">
 				{#if akaArchetypes}
 					<p class="dossier-aka">
-						<span class="mono dossier-aka-label">AKA</span>
+						<span class="dlabel dossier-aka-label">AKA</span>
 						<span class="dossier-aka-value">
 							&ldquo;{akaArchetypes[0]}&rdquo;
 							<span class="dossier-aka-or">or</span>
@@ -132,7 +131,7 @@
 						</span>
 					</p>
 				{/if}
-				<p class="mono dossier-core">
+				<p class="dlabel dossier-core">
 					<span class="dossier-core-label">CORE FEAR</span>
 					<span class="dossier-core-value">{coreFear}</span>
 					<span class="dossier-core-label">CORE DESIRE</span>
@@ -147,11 +146,11 @@
 					<div class="stats">
 						{#each stats as stat (stat.label)}
 							<div class="stat-row">
-								<span class="mono stat-label">{stat.label}</span>
+								<span class="dlabel stat-label">{stat.label}</span>
 								<div class="stat-track" aria-hidden="true">
 									<div class="stat-fill" style="width: {stat.value}%"></div>
 								</div>
-								<span class="mono stat-value">{stat.value}%</span>
+								<span class="dlabel stat-value">{stat.value}%</span>
 							</div>
 						{/each}
 					</div>
@@ -160,16 +159,16 @@
 				{#if stressLine && growthLine}
 					<div class="dossier-movement" aria-label="Movement under stress and in growth">
 						<div class="movement-row movement-row--stress">
-							<span class="mono movement-tag">STRESS LINE</span>
+							<span class="dlabel movement-tag">STRESS LINE</span>
 							<span class="movement-arrow" aria-hidden="true">↘</span>
 							<span class="movement-target">{stressLine.type}</span>
-							<span class="mono movement-name">{stressLine.archetype}</span>
+							<span class="dlabel movement-name">{stressLine.archetype}</span>
 						</div>
 						<div class="movement-row movement-row--growth">
-							<span class="mono movement-tag">GROWTH LINE</span>
+							<span class="dlabel movement-tag">GROWTH LINE</span>
 							<span class="movement-arrow" aria-hidden="true">↗</span>
 							<span class="movement-target">{growthLine.type}</span>
-							<span class="mono movement-name">{growthLine.archetype}</span>
+							<span class="dlabel movement-name">{growthLine.archetype}</span>
 						</div>
 					</div>
 				{/if}
@@ -188,48 +187,27 @@
 </section>
 
 <style lang="scss">
-	/* All tokens scoped to .type-dossier so this component is self-contained
-	   and matches the Streetlamp Symposium V4 dossier card aesthetic. */
+	/* Cold Light dossier card: global tokens only, one tint. The statue reads
+	   as grey stone under an indigo wash; labels are Archivo uppercase. */
 	.type-dossier {
-		--night-deep: #0a0807;
-		--night-mid: #16110d;
-		--stone-warm: #241d17;
-		--stone-mid: #3a302a;
-		--stone-edge: #5c4f47;
-		--lamp-glow: #f59e0b;
-		--lamp-deep: #b45309;
-		--lamp-light: #fbbf24;
-		--data-cyan: #5eead4;
-		--ink-bright: #faf8f4;
-		--ink-mid: #a8a095;
-		/* Mono labels (CORE FEAR, STANCE, stat labels…) ride on --ink-dim.
-		   #5c4f47 against the #241d17 card was <2:1 contrast — unreadable in
-		   dark mode (2026-06-16). Match the global dark dim (#948578) so the
-		   labels clear ~4.5:1 while staying quieter than --ink-mid/--ink-bright. */
-		--ink-dim: #948578;
-		--pool-rgb: 245, 158, 11;
-		--font-display: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
-		--font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
-		--font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
-
 		margin: 1.5rem 0 2.25rem;
-		color: var(--ink-bright);
-		font-family: var(--font-body);
+		color: var(--text);
+		font-family: var(--font-talk);
 	}
 
-	.mono {
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
+	.dlabel {
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		line-height: 1.4;
 	}
 
 	.dossier-card {
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border: 1px solid var(--rule);
 		border-radius: 16px;
 		padding: 28px 32px;
 
@@ -244,29 +222,16 @@
 		align-items: center;
 		gap: 16px;
 		padding-bottom: 22px;
-		border-bottom: 1px solid var(--stone-mid);
+		border-bottom: 1px solid var(--rule);
 		flex-wrap: wrap;
 	}
 
 	.dossier-id {
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.dossier-triad-tag {
-		color: var(--ink-mid);
-		font-weight: 600;
-
-		&.triad-tag--anger {
-			color: color-mix(in srgb, var(--pillar-gut) 72%, var(--ink-bright));
-		}
-
-		&.triad-tag--fear {
-			color: color-mix(in srgb, var(--pillar-head) 72%, var(--ink-bright));
-		}
-
-		&.triad-tag--shame {
-			color: color-mix(in srgb, var(--pillar-heart) 72%, var(--ink-bright));
-		}
+		color: var(--text-muted);
 	}
 
 	.dossier-body {
@@ -296,9 +261,9 @@
 	.subject-stack {
 		position: relative;
 		aspect-ratio: 4 / 5;
-		background: var(--night-deep);
+		background: var(--bg);
 		overflow: hidden;
-		border-radius: 0.625rem;
+		border-radius: 10px;
 	}
 
 	.dossier-image {
@@ -306,50 +271,62 @@
 		height: 100%;
 		object-fit: cover;
 		display: block;
-		filter: contrast(1.2) brightness(0.95) saturate(0.7) sepia(0.18);
+		filter: grayscale(1) contrast(1.15) brightness(0.9);
 	}
 
+	/* The indigo tint the statue library shares, applied over the grey stone. */
 	.dossier-image-vignette {
 		position: absolute;
 		inset: 0;
 		pointer-events: none;
 		background:
-			radial-gradient(ellipse at 30% 25%, rgba(var(--pool-rgb), 0.18) 0%, transparent 60%),
-			linear-gradient(135deg, transparent 40%, rgba(10, 8, 7, 0.7) 100%);
+			radial-gradient(
+				ellipse at 30% 25%,
+				color-mix(in srgb, var(--highlight) 14%, transparent) 0%,
+				transparent 60%
+			),
+			linear-gradient(
+				135deg,
+				color-mix(in srgb, var(--accent) 22%, transparent) 0%,
+				color-mix(in srgb, var(--bg) 70%, transparent) 100%
+			);
 	}
 
 	.corner {
 		position: absolute;
 		width: 14px;
 		height: 14px;
-		border-color: var(--lamp-glow);
+		border-color: color-mix(in srgb, var(--highlight) 60%, transparent);
 		border-style: solid;
 		border-width: 0;
+	}
 
-		&--tl {
-			top: 6px;
-			left: 6px;
-			border-top-width: 1px;
-			border-left-width: 1px;
-		}
-		&--tr {
-			top: 6px;
-			right: 6px;
-			border-top-width: 1px;
-			border-right-width: 1px;
-		}
-		&--bl {
-			bottom: 6px;
-			left: 6px;
-			border-bottom-width: 1px;
-			border-left-width: 1px;
-		}
-		&--br {
-			bottom: 6px;
-			right: 6px;
-			border-bottom-width: 1px;
-			border-right-width: 1px;
-		}
+	.corner--tl {
+		top: 6px;
+		left: 6px;
+		border-top-width: 1px;
+		border-left-width: 1px;
+	}
+
+	.corner--tr {
+		top: 6px;
+		right: 6px;
+		border-top-width: 1px;
+		border-right-width: 1px;
+	}
+
+	.corner--bl {
+		bottom: 6px;
+		left: 6px;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
+	}
+
+	.corner--br {
+		bottom: 6px;
+		right: 6px;
+		border-bottom-width: 1px;
+		border-right-width: 1px;
 	}
 
 	.specimen-attributes {
@@ -370,30 +347,28 @@
 	}
 
 	.specimen-attr {
-		font-size: 10px;
-		font-weight: 600;
+		font-size: 0.625rem;
 		letter-spacing: 0.2em;
-		color: var(--ink-bright);
+		color: var(--text);
 		text-shadow:
-			0 1px 4px rgba(10, 8, 7, 0.9),
-			0 0 12px rgba(10, 8, 7, 0.6);
+			0 1px 4px color-mix(in srgb, var(--bg) 90%, transparent),
+			0 0 12px color-mix(in srgb, var(--bg) 60%, transparent);
 		padding-left: calc(var(--i, 0) * 8%);
 		opacity: 0.95;
 
 		&::before {
 			content: '·';
 			margin-right: 6px;
-			color: var(--lamp-glow);
-			text-shadow: 0 0 6px rgba(var(--pool-rgb), 0.8);
+			color: var(--highlight);
 		}
 	}
 
 	.dossier-classifications {
 		margin: auto 0 0;
 		padding: 14px 16px;
-		background: var(--night-mid);
-		border: 1px solid var(--stone-mid);
-		border-radius: 0.625rem;
+		background: var(--surface-raised);
+		border: 1px solid var(--rule);
+		border-radius: 10px;
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
@@ -409,36 +384,15 @@
 
 	.classification-row dt {
 		margin: 0;
-		font-family: var(--font-mono);
-		font-size: 11px;
-		font-weight: 500;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--ink-dim);
-		line-height: 1.4;
 	}
 
 	.classification-value {
 		margin: 0;
-		font-family: var(--font-mono);
-		font-size: 12px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-sm);
 		font-weight: 600;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-		color: var(--ink-bright);
+		color: var(--text);
 		text-align: right;
-	}
-
-	.triad-value.triad--anger {
-		color: color-mix(in srgb, var(--pillar-gut) 78%, var(--ink-bright));
-	}
-
-	.triad-value.triad--fear {
-		color: color-mix(in srgb, var(--pillar-head) 78%, var(--ink-bright));
-	}
-
-	.triad-value.triad--shame {
-		color: color-mix(in srgb, var(--pillar-heart) 78%, var(--ink-bright));
 	}
 
 	.dossier-content {
@@ -457,22 +411,18 @@
 		padding-bottom: 8px;
 	}
 
-	.dossier-aka-label {
-		color: var(--ink-dim);
-		font-size: 11px;
-	}
-
 	.dossier-aka-value {
-		font-family: var(--font-display);
-		font-size: clamp(18px, 2.2vw, 22px);
+		font-family: var(--font-talk);
+		font-size: clamp(1.125rem, 2.2vw, 1.375rem);
 		font-weight: 600;
 		line-height: 1.25;
 		letter-spacing: -0.01em;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.dossier-aka-or {
-		color: var(--ink-dim);
+		font-family: var(--font-voice);
+		color: var(--highlight);
 		font-weight: 400;
 		font-style: italic;
 		margin: 0 2px;
@@ -484,24 +434,23 @@
 		column-gap: 14px;
 		row-gap: 6px;
 		align-items: baseline;
-		color: var(--ink-mid);
 		margin: 0;
 		padding-bottom: 16px;
-		border-bottom: 1px dashed var(--stone-mid);
-	}
-
-	.dossier-core-label {
-		color: var(--ink-dim);
-		font-size: 11px;
+		border-bottom: 1px dashed var(--rule);
 	}
 
 	.dossier-core-value {
-		color: var(--ink-bright);
-		font-family: var(--font-mono);
-		font-size: 13px;
-		letter-spacing: 0.02em;
+		color: var(--text);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-sm);
+		letter-spacing: normal;
 		text-transform: none;
 		font-weight: 500;
+	}
+
+	.dossier-core-value.triad-value {
+		color: var(--highlight);
+		font-weight: 600;
 	}
 
 	.stats {
@@ -523,22 +472,17 @@
 		}
 	}
 
-	.stat-label {
-		color: var(--ink-dim);
-		font-size: 11px;
-	}
-
 	.stat-track {
 		position: relative;
 		height: 7px;
-		background: var(--night-mid);
-		border: 1px solid var(--stone-mid);
+		background: var(--surface-raised);
+		border: 1px solid var(--rule);
 		border-radius: 0;
 		overflow: hidden;
 	}
 
-	/* Quartile gridlines (25 / 50 / 75) — render above the fill at low opacity
-	   so the bar reads like an instrument gauge instead of a UI progress bar. */
+	/* Quartile gridlines (25 / 50 / 75) above the fill at low opacity, so the bar
+	   reads like an instrument gauge instead of a UI progress bar. */
 	.stat-track::after {
 		content: '';
 		position: absolute;
@@ -547,34 +491,29 @@
 		background-image: linear-gradient(
 			90deg,
 			transparent calc(25% - 1px),
-			var(--ink-dim) calc(25% - 1px),
-			var(--ink-dim) 25%,
+			var(--text-faint) calc(25% - 1px),
+			var(--text-faint) 25%,
 			transparent 25%,
 			transparent calc(50% - 1px),
-			var(--ink-dim) calc(50% - 1px),
-			var(--ink-dim) 50%,
+			var(--text-faint) calc(50% - 1px),
+			var(--text-faint) 50%,
 			transparent 50%,
 			transparent calc(75% - 1px),
-			var(--ink-dim) calc(75% - 1px),
-			var(--ink-dim) 75%,
+			var(--text-faint) calc(75% - 1px),
+			var(--text-faint) 75%,
 			transparent 75%
 		);
-		opacity: 0.45;
+		opacity: 0.35;
 	}
 
 	.stat-fill {
 		position: relative;
 		height: 100%;
-		background: linear-gradient(
-			90deg,
-			var(--lamp-deep) 0%,
-			var(--lamp-glow) 55%,
-			var(--lamp-light) 100%
-		);
-		box-shadow: 0 0 4px rgba(245, 158, 11, 0.28);
+		background: linear-gradient(90deg, var(--accent-deep) 0%, var(--accent) 70%);
+		box-shadow: 0 0 4px color-mix(in srgb, var(--accent) 35%, transparent);
 	}
 
-	/* Bright leading edge — like the needle of a calibrated meter. */
+	/* Lavender leading edge, like the needle of a calibrated meter. */
 	.stat-fill::after {
 		content: '';
 		position: absolute;
@@ -582,14 +521,12 @@
 		bottom: 0;
 		right: 0;
 		width: 1.5px;
-		background: var(--lamp-light);
-		box-shadow: 0 0 4px rgba(251, 191, 36, 0.65);
+		background: var(--highlight);
 	}
 
 	.stat-value {
-		color: var(--lamp-glow);
+		color: var(--text-muted);
 		text-align: right;
-		font-size: 11px;
 	}
 
 	.dossier-movement {
@@ -598,9 +535,9 @@
 		gap: 10px;
 		padding: 14px 16px;
 		margin-top: auto;
-		background: var(--night-mid);
-		border: 1px solid var(--stone-mid);
-		border-radius: 0.625rem;
+		background: var(--surface-raised);
+		border: 1px solid var(--rule);
+		border-radius: 10px;
 	}
 
 	.movement-row {
@@ -611,13 +548,11 @@
 	}
 
 	.movement-tag {
-		color: var(--ink-dim);
 		white-space: nowrap;
 	}
 
 	.movement-arrow {
-		font-family: var(--font-mono);
-		font-size: 16px;
+		font-size: var(--font-size-base);
 		line-height: 1;
 		flex-shrink: 0;
 	}
@@ -630,38 +565,38 @@
 		height: 26px;
 		border-radius: 4px;
 		border: 1px solid currentColor;
-		font-family: var(--font-mono);
+		font-family: var(--font-talk);
 		font-weight: 600;
-		font-size: 13px;
-		letter-spacing: 0.04em;
+		font-size: var(--font-size-sm);
 		flex-shrink: 0;
 	}
 
 	.movement-name {
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		min-width: 0;
 	}
 
+	/* One tint: stress is the quiet line, growth the lit one. */
 	.movement-row--stress {
 		.movement-arrow,
 		.movement-target {
-			color: var(--lamp-glow);
+			color: var(--text-faint);
 		}
 		.movement-target {
-			background: rgba(var(--pool-rgb), 0.1);
+			border-color: var(--rule);
 		}
 	}
 
 	.movement-row--growth {
 		.movement-arrow,
 		.movement-target {
-			color: var(--data-cyan);
+			color: var(--highlight);
 		}
 		.movement-target {
-			background: rgba(94, 234, 212, 0.08);
+			background: var(--accent-deep);
 		}
 	}
 
@@ -673,110 +608,23 @@
 		display: inline-flex;
 		gap: 8px;
 		align-items: center;
-		color: var(--lamp-glow);
-		font-family: var(--font-body);
+		color: var(--highlight);
+		font-family: var(--font-talk);
 		font-weight: 600;
-		font-size: 16px;
-		border-bottom: 1px solid transparent;
-		padding-bottom: 2px;
-		text-decoration: none;
-		transition:
-			border-color 0.2s ease,
-			color 0.2s ease;
+		font-size: var(--font-size-base);
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 4px;
+		transition: color 0.2s ease;
 
 		&:hover {
-			border-bottom-color: var(--lamp-glow);
-			color: var(--lamp-light);
-		}
-	}
-
-	/* =========================================================
-	   Light mode — site-wide theme toggle sets <html class="light">.
-	   We rewire the token palette + a handful of selectors that
-	   behave differently against a bright background.
-	   ========================================================= */
-	:global(html.light) .type-dossier {
-		--night-deep: #faf8f4;
-		--night-mid: #f2ebdd;
-		--stone-warm: #ffffff;
-		--stone-mid: #f5f0e8;
-		--stone-edge: #d6ccb8;
-
-		--lamp-glow: #b45309;
-		--lamp-deep: #92400e;
-		--lamp-light: #d97706;
-
-		--data-cyan: #0f766e;
-
-		--ink-bright: #1c1917;
-		--ink-mid: #44403c;
-		--ink-dim: #78716c;
-
-		--pool-rgb: 217, 119, 6;
-
-		.dossier-card {
-			box-shadow:
-				0 1px 0 rgba(120, 113, 108, 0.12),
-				0 12px 32px rgba(120, 113, 108, 0.08);
+			color: var(--text);
 		}
 
-		.dossier-image {
-			filter: contrast(1.05) brightness(1) saturate(0.9);
-		}
-
-		.dossier-image-vignette {
-			background:
-				radial-gradient(ellipse at 30% 25%, rgba(var(--pool-rgb), 0.06) 0%, transparent 60%),
-				linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.05) 100%);
-		}
-
-		.specimen-attr {
-			color: #faf8f4;
-			text-shadow:
-				0 1px 3px rgba(28, 25, 23, 0.85),
-				0 0 10px rgba(28, 25, 23, 0.6);
-		}
-
-		.status-dot {
-			background: var(--data-cyan);
-			box-shadow: 0 0 6px rgba(15, 118, 110, 0.5);
-		}
-
-		.dossier-classifications {
-			background: #fdfaf2;
-		}
-
-		.stat-track {
-			background: #f5f0e8;
-		}
-
-		.stat-track::after {
-			opacity: 0.5;
-		}
-
-		.stat-fill {
-			box-shadow: 0 0 4px rgba(217, 119, 6, 0.22);
-		}
-
-		.stat-fill::after {
-			box-shadow: 0 0 4px rgba(180, 83, 9, 0.55);
-		}
-
-		.dossier-movement {
-			background: #fdfaf2;
-		}
-
-		.movement-row--growth .movement-target {
-			background: rgba(15, 118, 110, 0.08);
-		}
-
-		.movement-row--stress .movement-target {
-			background: rgba(180, 83, 9, 0.08);
-		}
-
-		.dossier-link:hover {
-			border-bottom-color: var(--lamp-deep);
-			color: var(--lamp-deep);
+		&:focus-visible {
+			outline: 2px solid var(--highlight);
+			outline-offset: 3px;
+			border-radius: 4px;
 		}
 	}
 </style>

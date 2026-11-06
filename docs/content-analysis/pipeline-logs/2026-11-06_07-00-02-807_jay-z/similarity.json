@@ -1,0 +1,211 @@
+{
+  "target": {
+    "person": "jay-z",
+    "type": "8",
+    "units": 8,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "charlize-theron",
+      "date": "2026-08-17",
+      "units": 32
+    },
+    {
+      "person": "Duke-Dennis",
+      "date": "2026-08-15",
+      "units": 42
+    },
+    {
+      "person": "Khabib-Nurmagomedov",
+      "date": "2026-08-13",
+      "units": 39
+    },
+    {
+      "person": "Nara-Smith",
+      "date": "2026-08-04",
+      "units": 47
+    },
+    {
+      "person": "Tyler1",
+      "date": "2026-07-29",
+      "units": 16
+    },
+    {
+      "person": "gordon-ramsay",
+      "date": "2026-07-08",
+      "units": 40
+    },
+    {
+      "person": "nicki-minaj",
+      "date": "2026-06-29",
+      "units": 24
+    },
+    {
+      "person": "susan-sarandon",
+      "date": "2026-06-28",
+      "units": 22
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2096,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.005,
+    "max": 0.058
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.058,
+      "other_person": "Nara-Smith",
+      "shared_phrases": [
+        "eight read",
+        "the eight read"
+      ],
+      "target": "[diagnosis] The Eight reading of Jay-Z rests on two things that run from his childhood to his fifties",
+      "other": "[counter-typing] What holds the Eight read is the handling"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "Nara-Smith",
+      "date": "2026-08-04",
+      "units": 47,
+      "maxScore": 0.058
+    },
+    {
+      "person": "Khabib-Nurmagomedov",
+      "date": "2026-08-13",
+      "units": 39,
+      "maxScore": 0.037
+    },
+    {
+      "person": "Duke-Dennis",
+      "date": "2026-08-15",
+      "units": 42,
+      "maxScore": 0.025
+    },
+    {
+      "person": "charlize-theron",
+      "date": "2026-08-17",
+      "units": 32,
+      "maxScore": 0.024
+    },
+    {
+      "person": "susan-sarandon",
+      "date": "2026-06-28",
+      "units": 22,
+      "maxScore": 0.02
+    },
+    {
+      "person": "gordon-ramsay",
+      "date": "2026-07-08",
+      "units": 40,
+      "maxScore": 0.007
+    },
+    {
+      "person": "Tyler1",
+      "date": "2026-07-29",
+      "units": 16,
+      "maxScore": 0.006
+    },
+    {
+      "person": "nicki-minaj",
+      "date": "2026-06-29",
+      "units": 24,
+      "maxScore": 0.005
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.058,
+      "other_person": "Nara-Smith",
+      "shared_phrases": [
+        "eight read",
+        "the eight read"
+      ],
+      "target": "[diagnosis] The Eight reading of Jay-Z rests on two things that run from his childhood to his fifties",
+      "other": "[counter-typing] What holds the Eight read is the handling"
+    },
+    {
+      "score": 0.037,
+      "other_person": "Khabib-Nurmagomedov",
+      "shared_phrases": [],
+      "target": "[diagnosis] The record does not support a confident guess.",
+      "other": "[diagnosis] still frames the record with disbelief"
+    },
+    {
+      "score": 0.025,
+      "other_person": "Duke-Dennis",
+      "shared_phrases": [],
+      "target": "[diagnosis] 2017 and 2018 he described his emotional wall as protection against being let down again",
+      "other": "[diagnosis] he described discharge in escape vocabulary"
+    },
+    {
+      "score": 0.024,
+      "other_person": "charlize-theron",
+      "shared_phrases": [],
+      "target": "[diagnosis] and around protecting the people and territory it claims.",
+      "other": "[counter-typing] A three spends a career protecting the image the room rewards"
+    },
+    {
+      "score": 0.024,
+      "other_person": "Duke-Dennis",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 8 organizes life around not being controlled or made vulnerable",
+      "other": "[diagnosis] The Enneagram calls that the Challenger's core fear of being controlled."
+    },
+    {
+      "score": 0.02,
+      "other_person": "susan-sarandon",
+      "shared_phrases": [],
+      "target": "[diagnosis] and around protecting the people and territory it claims.",
+      "other": "[diagnosis] and put yourself between power and the people it is crushing."
+    },
+    {
+      "score": 0.019,
+      "other_person": "Khabib-Nurmagomedov",
+      "shared_phrases": [],
+      "target": "[diagnosis] and the choices he makes when protecting what is his costs him something.",
+      "other": "[diagnosis] A single flat statement of what is true"
+    },
+    {
+      "score": 0.019,
+      "other_person": "Duke-Dennis",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Eight reading of Jay-Z rests on two things that run from his childhood to his fifties",
+      "other": "[counter-typing] The Type 6 case rests on the sealed circle"
+    },
+    {
+      "score": 0.014,
+      "other_person": "charlize-theron",
+      "shared_phrases": [],
+      "target": "[diagnosis] The record does not support a confident guess.",
+      "other": "[diagnosis] It still does not explain what she did next."
+    },
+    {
+      "score": 0.013,
+      "other_person": "Nara-Smith",
+      "shared_phrases": [],
+      "target": "[diagnosis] The record does not support a confident guess.",
+      "other": "[counter-typing] so the easy version of the Eight defense does not hold."
+    },
+    {
+      "score": 0.013,
+      "other_person": "Duke-Dennis",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Eight reading of Jay-Z rests on two things that run from his childhood to his fifties",
+      "other": "[counter-typing] Finished videos get demoted to his live channel for missing his bar"
+    },
+    {
+      "score": 0.011,
+      "other_person": "Nara-Smith",
+      "shared_phrases": [],
+      "target": "[diagnosis] The record does not support a confident guess.",
+      "other": "[diagnosis] An image-attuned type does not take a flattering frame and make it worse."
+    }
+  ]
+}

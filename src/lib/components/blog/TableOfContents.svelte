@@ -937,23 +937,29 @@
 {/if}
 
 <style lang="scss">
-	.toc-sidebar {
-		--toc-link-color: var(--lamp-glow);
-		--toc-link-hover-color: var(--lamp-glow);
-		--toc-active-color: var(--ink-bright);
-		--toc-active-background: var(--lamp-soft);
+	/* Cold Light: a quiet nav panel. Entries are muted text (nav, not inline
+	   links); the section you're reading lights up as text on an indigo wash. */
+	.toc-sidebar,
+	.toc-accordion {
+		--toc-link-color: var(--text-muted);
+		--toc-link-hover-color: var(--text);
+		--toc-active-color: var(--text);
+		--toc-active-background: color-mix(in srgb, var(--accent) 24%, transparent);
 
-		/* Card base styles - Solo Leveling dark theme */
-		background-color: var(--night-deep);
-		border-radius: 1rem;
-		box-shadow: 0 0 20px var(--lamp-soft);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		font-family: var(--font-talk);
+	}
+
+	.toc-sidebar {
+		background-color: var(--surface);
+		border-radius: 16px;
+		box-shadow: 0 0 24px color-mix(in srgb, var(--accent) 12%, transparent);
+		border: 1px solid var(--rule);
 
 		position: fixed;
 		top: 50%;
 		transform: translateY(-50%);
 		width: 200px;
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.4;
 		max-width: 200px;
 		z-index: 40;
@@ -971,11 +977,11 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background-color: var(--lamp-glow-rgba);
+			background-color: color-mix(in srgb, var(--accent) 45%, transparent);
 			border-radius: 9999px;
 
 			&:hover {
-				background-color: var(--lamp-glow);
+				background-color: var(--accent);
 			}
 		}
 
@@ -987,12 +993,15 @@
 
 	.toc-title {
 		margin: 0 0 0.5rem 0;
-		padding: 0 0 0.35rem 0;
-		font-size: 1rem;
+		padding: 0 0 0.45rem 0;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
 		line-height: 1.4;
-		color: var(--ink-bright);
-		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		color: var(--text-faint);
+		border-bottom: 1px solid var(--rule);
 	}
 
 	.toc-nav-wrapper {
@@ -1010,20 +1019,13 @@
 	}
 
 	.toc-accordion {
-		--toc-link-color: var(--lamp-glow);
-		--toc-link-hover-color: var(--lamp-glow);
-		--toc-active-color: var(--ink-bright);
-		--toc-active-background: var(--lamp-soft);
-
 		box-sizing: border-box;
 		width: 100%;
 		max-width: 100%;
 		min-width: 0;
-		/* Card base styles - Solo Leveling dark theme */
-		background-color: var(--night-deep);
-		border-radius: 1rem;
-		box-shadow: 0 0 15px var(--lamp-soft);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		background-color: var(--surface);
+		border-radius: 16px;
+		border: 1px solid var(--rule);
 
 		margin: 1rem 0;
 		/* The global `details` rule adds 0.5rem padding, which inset the
@@ -1036,18 +1038,20 @@
 		box-sizing: border-box;
 		max-width: 100%;
 		min-width: 0;
+		font-family: var(--font-talk);
 		font-weight: 600;
-		font-size: 1rem;
+		font-size: var(--font-size-base);
+		min-height: 2.75rem;
 		padding: 0.625rem 1rem;
 		cursor: pointer;
 		display: flex;
 		align-items: center;
 		min-width: 0;
 		outline: none;
-		color: var(--ink-bright);
-		background-color: var(--stone-warm);
+		color: var(--text);
+		background-color: var(--surface);
 		transition: all 0.2s ease;
-		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		border-bottom: 1px solid var(--rule);
 
 		&::-webkit-details-marker {
 			display: none;
@@ -1057,20 +1061,24 @@
 			content: '▶';
 			display: inline-block;
 			margin-right: 0.5rem;
-			font-size: 0.75rem;
+			font-size: var(--font-size-xs);
 			transition: all 0.2s ease;
-			color: var(--lamp-glow);
+			color: var(--text-faint);
 		}
 
 		&:hover {
-			color: var(--lamp-glow);
-			background-color: var(--lamp-soft);
+			color: var(--text);
+			background-color: var(--surface-raised);
+		}
+
+		&:hover::before {
+			color: var(--highlight);
 		}
 
 		/* Keyboard ring. Inset because .toc-accordion clips overflow; radius
 		   follows the card so the ring corners aren't cut off. */
 		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--highlight);
 			outline-offset: -2px;
 			border-radius: inherit;
 		}
@@ -1087,13 +1095,13 @@
 	}
 
 	/* Headings a TOC link moved focus to (tabindex="-1" added on click). Mouse
-	   users see no ring; keyboard users get the system lamp ring. */
+	   users see no ring; keyboard users get the lavender focus ring. */
 	:global([data-toc-focus-target]:focus:not(:focus-visible)) {
 		outline: none;
 	}
 
 	:global([data-toc-focus-target]:focus-visible) {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--highlight);
 		outline-offset: 4px;
 		border-radius: 4px;
 	}
@@ -1103,7 +1111,7 @@
 		max-width: 100%;
 		min-width: 0;
 		padding: 0.625rem 1rem;
-		background-color: var(--night-deep);
+		background-color: var(--bg);
 		overflow-x: hidden;
 	}
 
@@ -1122,7 +1130,7 @@
 		width: auto;
 		padding-left: 0.75rem;
 		margin-top: 0.125rem;
-		border-left: 2px solid var(--lamp-glow-rgba);
+		border-left: 1px solid var(--rule);
 		margin-left: 0.35rem;
 	}
 
@@ -1137,8 +1145,8 @@
 		padding-left: 0;
 		margin-top: 0.5rem;
 		padding-right: 4px;
-		font-weight: 700;
-		font-size: 0.875rem;
+		font-weight: 600;
+		font-size: var(--font-size-sm);
 	}
 
 	:global(.toc-level-h2) {
@@ -1146,20 +1154,20 @@
 		margin-top: 0.25rem;
 		padding-right: 4px;
 		font-weight: 600;
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 	}
 
 	:global(.toc-level-h3) {
 		padding-left: 0.25rem;
 		padding-right: 4px;
-		font-size: 0.75rem;
+		font-size: var(--font-size-xs);
 		opacity: 0.9;
 	}
 
 	:global(.toc-level-h4) {
 		padding-left: 0.5rem;
 		padding-right: 4px;
-		font-size: 0.75rem;
+		font-size: var(--font-size-xs);
 		opacity: 0.85;
 		font-weight: 400;
 	}
@@ -1167,7 +1175,7 @@
 	:global(.toc-level-h5) {
 		padding-left: 0.75rem;
 		padding-right: 4px;
-		font-size: 0.75rem;
+		font-size: var(--font-size-xs);
 		opacity: 0.8;
 		font-weight: 400;
 	}
@@ -1175,7 +1183,7 @@
 	:global(.toc-level-h6) {
 		padding-left: 1rem;
 		padding-right: 4px;
-		font-size: 0.75rem;
+		font-size: var(--font-size-xs);
 		opacity: 0.75;
 		font-weight: 400;
 	}
@@ -1191,7 +1199,7 @@
 		padding: 0.2rem 0.4rem;
 		padding-right: 8px;
 		box-sizing: border-box;
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.4;
 		color: var(--toc-link-color);
 		text-decoration: none;
@@ -1200,7 +1208,7 @@
 
 		&:hover {
 			color: var(--toc-link-hover-color);
-			background-color: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
+			background-color: var(--surface-raised);
 			text-decoration: none;
 		}
 
@@ -1239,14 +1247,6 @@
 		to {
 			transform: translate3d(var(--toc-marquee-offset), 0, 0);
 		}
-	}
-
-	:global(:root.light) .toc-sidebar,
-	:global(:root.light) .toc-accordion {
-		--toc-link-color: var(--ink-mid);
-		--toc-link-hover-color: var(--lamp-deep);
-		--toc-active-color: var(--lamp-deep);
-		--toc-active-background: color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-warm));
 	}
 
 	/* Responsive adjustments - hide sidebar on screens smaller than breakpoint */

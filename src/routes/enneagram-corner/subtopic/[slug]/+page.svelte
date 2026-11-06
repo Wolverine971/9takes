@@ -20,10 +20,10 @@
 </div>
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme - Subtopic Page */
+	/* Subtopic page shell (Cold Light) */
 	.page-wrapper {
 		min-height: 100vh;
-		background: var(--night-deep);
+		background: var(--bg);
 		padding-bottom: 4rem;
 	}
 

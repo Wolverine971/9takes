@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "jay-z",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z/verification-edit.json"
+  },
+  "content_sha256": "1fb025952d5542f14c66a1da7e152f3053ad24286fc634d9839c254c5fc053c5",
+  "evidence_sha256": "8bfc8d55da4e5745a819e8581cfaf505fbcdaedea653ededb74b209b23780b1d"
+}

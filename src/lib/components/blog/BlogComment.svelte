@@ -56,8 +56,8 @@
 
 <style lang="scss">
 	.comment-card {
-		background-color: var(--stone-warm);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+		background-color: var(--surface);
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
 		padding: 0.5rem;
 
@@ -87,7 +87,7 @@
 		align-items: center;
 		gap: 0.25rem;
 		font-size: 0.8rem;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		padding: 0.25rem 1rem;
 	}
 
@@ -112,8 +112,8 @@
 		justify-content: center;
 		min-width: 90px;
 		height: 36px;
-		background: linear-gradient(145deg, var(--lamp-glow), var(--lamp-glow));
-		color: #ffffff;
+		background: var(--accent-deep);
+		color: var(--highlight);
 		font-weight: 600;
 		font-size: 0.875rem;
 		text-align: center;
@@ -131,7 +131,7 @@
 		}
 
 		a {
-			color: #ffffff;
+			color: var(--highlight);
 			text-decoration: none;
 		}
 
@@ -145,7 +145,7 @@
 	.comment-text {
 		display: block;
 		line-height: 1.5;
-		color: var(--ink-bright);
+		color: var(--text);
 		white-space: pre-line;
 	}
 
@@ -153,6 +153,6 @@
 		width: 80%;
 		margin: 0.5rem auto;
 		border: none;
-		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+		border-top: 1px solid var(--rule);
 	}
 </style>

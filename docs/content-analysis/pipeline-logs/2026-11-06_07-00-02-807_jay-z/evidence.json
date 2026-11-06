@@ -1,0 +1,640 @@
+{
+  "schema_version": 3,
+  "subject": "jay-z",
+  "status": "ready",
+  "research_tasks": [
+    "Open the NYT T Magazine Dean Baquet interview (S4) and confirm the 'survival mode' and Kanye passages verbatim and in context; r.jina.ai was rate-limited for nytimes.com on 2026-11-06.",
+    "Check the Rap Radar episode (TIDAL, Aug 2017, ~50:30) for exact wording of the Kanye quote ('kid' vs 'kids').",
+    "Verify the Decoded quotations used via the Village Voice review (S11) against the book (S21): 'I never had to reject Shawn Carter to become Jay-Z', 'creating a character', and the 'mindless assault' passage.",
+    "Confirm from contemporaneous primary reporting the stabbing date (Dec 1 vs Dec 2, 1999) and the exact charge in the October 2001 guilty plea; present Rivera's 2023 denial (S22) alongside the court record.",
+    "Confirm current status of Jay-Z's defamation suit against Tony Buzbee and any Roc Nation appeals with a wire or court source before citing anything beyond the Feb 14, 2025 dismissal.",
+    "Optional strengthening: find one non-hostile insider account (e.g., Kareem 'Biggs' Burke, Memphis Bleek, Beyonce, Zack O'Malley Greenburg's reporting) of how he handles conflict or betrayal, to add independent testimony to the 8 vs 3 discriminator."
+  ],
+  "accuracy_checked_at": "2026-11-06",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.oprah.com/omagazine/oprah-interviews-jay-z-october-2009-issue-of-o-magazine",
+      "title": "Oprah Talks to Jay-Z (The Exclusive O Interview)",
+      "speaker": "Jay-Z, interviewed by Oprah Winfrey",
+      "date": "2009-10 (O, The Oprah Magazine October 2009 issue; posted online 2009-09-02)",
+      "locator": "Q&A: 'When you look back at that, what did your 11-year-old self feel?' through 'It was a weird juxtaposition'; shooting of brother ('I've read that when you were 12...'); 'Getting shot like that would be a wake-up call'; 'how did you decide to leave the streets'; 'And how has marriage changed you?'",
+      "excerpt": "\"Once you've let yourself fall that in love with someone, once you put him on such a high pedestal and he lets you down, you never want to experience that pain again. So I remember just being really quiet and really cold. Never wanting to let myself get close to someone like that again.\" / \"I also felt protective of my mom. I remember telling her, 'Don't worry, when I get big, I'm going to take care of this.'\" / \"It made me not express my feelings as much. I was already a shy kid, and it made me a little reclusive. But it also made me independent. And stronger.\" / \"I was the youngest, but I felt like I needed to protect everybody.\" / \"You want to shoot back. Well, maybe not everyone, but I did. I was angry.\" / \"I always had that wall up. And whenever someone got close to me, I would shut down.\"",
+      "context": "Long-form sit-down Q&A conducted while walking through the Marcy Houses in August 2009, around his 40th birthday and The Blueprint 3. Oprah's intro narrates that his father left when he was 11, that he launched Roc-A-Fella in 1996 after being disenchanted with the small-time label that signed him, that he reconciled with his father Adnis Reeves in 2003 shortly before Reeves's death, and that in 2001 he pleaded guilty to stabbing a record executive and got three years' probation. He also says he refused a label deal out of loyalty to Jaz ('They weren't stand-up people'), that dealing became 'beyond survival... I had become addicted to the lifestyle', and that he and Beyonce keep a pact not to discuss each other. Self-report in a friendly, promotional setting.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S2",
+      "url": "https://www.npr.org/transcripts/132438048",
+      "title": "Jay-Z: Interviewed and 'Decoded' (Fresh Air)",
+      "speaker": "Jay-Z, interviewed by Terry Gross",
+      "date": "2010-11-16 (original broadcast; transcript of 2010-12-30 rebroadcast)",
+      "locator": "Transcript segments on hustling ('it was almost these rules of how to do it'), 'Can't Knock the Hustle', and the crotch-grab question ('So when you get up there, you feel naked, right?')",
+      "excerpt": "\"So when you get up there, you feel naked, right? So when you feel naked, what's the first thing you do? You cover yourself. So that bravado is an act of, I am so nervous right now, and I'm scared to death. I'm going to act so tough that I'm going to hide it.\" / \"The first show I ever did, I just forgot the words. I stood there, and I tried to pass the mic to Damon Dash... I just didn't know what to do. I was like, in shock.\" / On rap: \"Those guys get taken advantage of. Everybody takes their money.\"",
+      "context": "Book-promotion interview for Decoded (2010). The bravado explanation is offered about rappers generally, then applied to his own first show. He also describes dealing as structured like 'a Fortune 500 job', explains street dealers out-earning rappers, and frames 99 Problems as a story of two people 'both in the wrong, but... both used to getting their way.' Self-report, public-radio setting.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S3",
+      "url": "https://time.com/5041732/jay-z-interview/",
+      "title": "Jay-Z Opens Up About Cheating on Beyonce and Using Music 'Like a Therapy Session'",
+      "speaker": "Time staff, quoting Jay-Z's interview with Dean Baquet (T: The New York Times Style Magazine)",
+      "date": "2017-11-29",
+      "locator": "Paragraphs 3-6 of the Time article",
+      "excerpt": "\"So you go into survival mode, and when you go into survival mode what happen? You shut down all emotions. So even with women, you gonna shut down emotionally, so you can't connect,\" he explained. \"And then all the things happen from there: infidelity...\" / On Kanye: \"It's always been like a little underlying competition with your big brother... everyone wants to be the greatest in the world.\"",
+      "context": "Time's write-up of the NYT T Magazine interview published the same day, after 4:44 (June 2017) and Lemonade (2016). Time says he 'shared his experiences of putting up a front as a coping mechanism for the pain of a fraught upbringing.' Secondary report of a primary interview; wording should be confirmed against S4.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S4",
+      "url": "https://www.nytimes.com/interactive/2017/11/29/t-magazine/jay-z-dean-baquet-interview.html",
+      "title": "Jay-Z and Dean Baquet, in Conversation (T Magazine)",
+      "speaker": "Jay-Z, interviewed by Dean Baquet",
+      "date": "2017-11-29",
+      "locator": "Full interview; not opened",
+      "excerpt": "Not opened. Fetch through r.jina.ai returned a 403 rate-limit block for nytimes.com on 2026-11-06. Quotations are taken from S3 and must be checked here before final use.",
+      "context": "Primary source for the survival-mode and therapy passages. Listed so the draft and verify stages reopen it.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S5",
+      "url": "https://www.thefader.com/2017/08/18/jay-z-kanye-west-444-tidal-rap-radar-podcast-interview",
+      "title": "JAY-Z On His Relationship With Kanye: 'You Brought My Family Into This. Now It's A Problem With Me'",
+      "speaker": "Jordan Darville (The Fader), transcribing Jay-Z on the Rap Radar podcast",
+      "date": "2017-08-18",
+      "locator": "Body paragraphs quoting the podcast; Fader says the Kanye comments begin at the 50:30 mark of the episode",
+      "excerpt": "\"It's me talking to myself, and taking ownership of some of the things I've done\" / \"But what really hurt me was, you can't bring my kids and my wife into it. Kanye's my little brother. He's talked about me 100 times. He made a song called 'Big Brother.' We've gotten past bigger issues. But you brought my family into it. Now it's a problem with me. That's a real, real problem. And he knows it's a problem.\"",
+      "context": "First interview after 4:44 (TIDAL's Rap Radar, hosts Elliott Wilson and B.Dot). Explaining 'Kill JAY Z' and the 2016 Sacramento rant by Kanye West that mentioned Beyonce. Other outlets render 'kid' vs 'kids'; check the audio.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S6",
+      "url": "https://www.bangordailynews.com/2018/04/07/arts-culture/jay-z-opens-up-to-david-letterman-about-cheating-on-beyonce-his-mothers-sexuality/",
+      "title": "Jay-Z opens up to David Letterman about cheating on Beyonce, his mother's sexuality",
+      "speaker": "The Washington Post (syndicated by Bangor Daily News), quoting Jay-Z on My Next Guest Needs No Introduction",
+      "date": "2018-04-07",
+      "locator": "Paragraphs on infidelity/therapy, 'Smile' and Gloria Carter, and Adnis Reeves",
+      "excerpt": "\"For a lot of us, especially where I grew up and men in general, we don't have emotional cues from when we were young. Our emotional cue is 'Be a man. Don't cry.'\" / \"It was my way of saying I want to cry, I want to be open, I want to have the emotional tools that it takes to keep my family together\" / \"We did the hard work of going to therapy\" / \"I'm proud of the father and the husband that I am today.\" / On his father: \"I have compassion for what (my dad) went through, which was anger.\" / On his mother: \"I cried because I was so happy for her, that she was free.\"",
+      "context": "50-minute Netflix interview (episode 4). Letterman raised his own infidelity first. Jay-Z describes his father's revenge hunt for the man who killed his brother and his mother's 'ultimatum'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S7",
+      "url": "https://thegrio.com/2019/08/15/jay-z-defends-nfl-deal-with-roc-nation-talks-kaepernick/",
+      "title": "Jay-Z defends NFL deal with Roc Nation, talks Kaepernick",
+      "speaker": "Associated Press (via theGrio), quoting Jay-Z at Roc Nation press conference with Roger Goodell",
+      "date": "2019-08-15 (press conference 2019-08-14)",
+      "locator": "Paragraphs 2-3, 'You'd have to ask him', and 'First thing I said to Roger'",
+      "excerpt": "\"I think we've moved past kneeling and I think it's time to go into actionable items.\" / \"I support protest across the board.\" / \"You'd have to ask him. I'm not his boss.\" / \"First thing I said to Roger was, 'If this is about me performing at the Super Bowl, then we can just end this conversation now.'\"",
+      "context": "Announcement of Roc Nation's partnership to consult on NFL entertainment, including halftime, and Inspire Change. Eric Reid criticized the deal; Kaepernick posted a statement about those 'trying to erase the movement.'",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S8",
+      "url": "https://www.nbcnewyork.com/entertainment/entertainment-news/jay-z-beyonce-grammy-awards/5105432/",
+      "title": "Jay-Z slams Grammys for Beyonce never winning Album of the Year during acceptance speech",
+      "speaker": "NBC New York, quoting Jay-Z's Dr. Dre Global Impact Award speech",
+      "date": "2024-02-04 (ceremony); article 2024-02-05",
+      "locator": "Quoted speech passages",
+      "excerpt": "\"I don't want to embarrass this young lady but she has more Grammys than everyone and has never won Album of the Year... So even by your own metrics that doesn't work.\" / \"Just in life, just keep showing up. Forget the Grammys, just keep showing up. Until they give you all those accolades you feel you deserve. Until they call you champion. Until they call you a genius. Until they call you the greatest of all time. Feel me?\"",
+      "context": "Accepting the first Dr. Dre Global Impact Award at the 66th Grammys with Blue Ivy beside him; Beyonce in the audience. Speech mixed praise ('we love y'all', 'it's subjective') with direct criticism of the Recording Academy.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.expressandstar.com/whats-on/arts-and-entertainment/jay-z-says-he-will-never-sell-his-masters-it-was-the-fight-of-my-life-5840914",
+      "title": "Jay-Z says he will never sell his masters: It was the fight of my life",
+      "speaker": "PA/Express & Star, quoting Jay-Z's CBS Mornings interview with Gayle King",
+      "date": "2023-10-26",
+      "locator": "Quoted interview passages at the Book of HOV exhibit, Brooklyn Public Library",
+      "excerpt": "\"I get why people do it, I've been fortunate enough to make money in this place, but for me, it was the fight of my life\" / \"...then going back to Def Jam as the president and then saying, 'Okay, I'll do this job and part of this job is my masters has to be reverted back to me.\" / \"I want my kids to see my work and if they decide to sell it, then it's up to them.\"",
+      "context": "Asked if he would ever sell his masters, he said 'No.' Explains reversion of masters as a condition of taking the Def Jam presidency (2004-2007).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.rollingstone.com/music/music-news/jay-z-gets-probation-244400/",
+      "title": "Jay-Z Gets Probation",
+      "speaker": "Rolling Stone",
+      "date": "2001-12-07",
+      "locator": "Article body, paragraphs 1-2",
+      "excerpt": "\"Two years after Jay-Z was accused of assault, the rapper has been sentenced to three years probation. The charge stems from the December 1, 1999 stabbing of record producer Lance Rivera at Manhattan Kit Kat Club.\" / \"This past October, Jay-Z admitted to the stabbing and changed his plea to guilty, striking a deal to ensure the probation sentence.\"",
+      "context": "Contemporaneous report of the sentence. Other outlets date the incident December 2, 1999 and differ on the plea's charge level (most report third-degree assault, a misdemeanor). The incident followed the alleged bootlegging of Vol. 3.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.villagevoice.com/decoding-jay-zs-decoded/",
+      "title": "Decoding Jay-Z's Decoded",
+      "speaker": "Village Voice reviewer, quoting Jay-Z's Decoded (2010, with dream hampton)",
+      "date": "2010-11-17",
+      "locator": "Review paragraphs 3-7",
+      "excerpt": "Quoting Decoded: \"I never had to reject Shawn Carter to become Jay-Z\" / \"What the rapper is doing is creating a character that, if you're lucky, you find out about more and more from song to song.\" / On the stabbing: \"The contrast between the million-dollar extravagance of the 'Big Pimpin'' video... and the potential of being behind bars for years behind a mindless assault wasn't lost on me.\"",
+      "context": "Critical review arguing Decoded tells the story of the persona Jay-Z while Shawn Carter 'remains stubbornly distant'; notes the original autobiography was scrapped as too personal, that Rivera is called only 'the guy', and that Beyonce is not named. Book quotations reached through the review; verify against the book (S21).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://thegrio.com/2010/11/22/jay-z-admits-to-shooting-his-brother-when-he-was-12",
+      "title": "Jay-Z admits to shooting his brother when he was 12",
+      "speaker": "theGrio (summarizing PopEater/Decoded-era interview)",
+      "date": "2010-11-22",
+      "locator": "Article body",
+      "excerpt": "\"I thought my life was over,\" he said. \"I thought I'd go to jail forever. It was terrible. I was a boy, a child. I was terrified.\" / Eric did not press charges and apologized for his crack addiction when Jay visited him in hospital.",
+      "context": "Short aggregation; full story linked to PopEater. Corroborates the Oprah account (S1) that he shot his older brother Eric, who was taking from the family to feed a drug habit. Same-speaker corroboration, not independent of Jay-Z's own account.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.okayplayer.com/dame-dash-addresses-his-relationship-with-jay-z-how-would-you-feel-if-your-brother-just-betrayed-you/768057",
+      "title": "Dame Dash Addresses His Relationship With JAY-Z: 'How Would You Feel if Your Brother Just Betrayed You'",
+      "speaker": "Damon Dash (Roc-A-Fella co-founder), on The Art of Dialogue, via Okayplayer",
+      "date": "2022-08-24",
+      "locator": "Quoted interview passages",
+      "excerpt": "\"Like, how would you feel if your brother just betrayed you for money? Would it hurt?\" / \"That was my [friend], like we never argued, nothing. That's why I didn't know it was coming... I was like, '[He's] cold. He's cold.'\" (slur in original omitted here)",
+      "context": "Hostile named testimony from an estranged ex-partner about the 2004 split, when Jay-Z took the Def Jam presidency that put him over Roc-A-Fella. Dash has given conflicting reasons for the split in other interviews (R. Kelly collaboration, Lyor Cohen). Use as attributed opinion only.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.thefader.com/2016/11/20/kanye-west-transcript-sacramento",
+      "title": "Read the full transcript of Kanye West's Sacramento speech",
+      "speaker": "Kanye West (transcribed by The Fader)",
+      "date": "2016-11-20 (speech 2016-11-19)",
+      "locator": "Transcript paragraphs naming Jay Z and Beyonce",
+      "excerpt": "\"Jay Z, call me, bruh. You still ain't calling me. Jay Z, call me. Aye, bruh, I know you got killers. Please don't send them at my head. Just call me. Talk to me like a man.\" / \"Beyonce, I was hurt...\"",
+      "context": "Show-ending rant at the Saint Pablo Tour; West was hospitalized days later. Testimony that Jay-Z had gone silent on him; the reference to Beyonce is what Jay-Z later cited (S5).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.goodmorningamerica.com/news/story/civil-case-accusing-jay-z-diddy-rape-dismissed-118847148",
+      "title": "Civil case accusing Jay-Z, Diddy of raping 13-year-old girl voluntarily dismissed",
+      "speaker": "ABC News / Good Morning America",
+      "date": "2025-02-14",
+      "locator": "Article body",
+      "excerpt": "The civil case was voluntarily dismissed; Jay-Z's lawyer Alex Spiro: \"The false case against Jay-Z, that never should have been brought, has been dismissed with prejudice... he never settled, he never paid 1 red penny.\" Jay-Z: \"The frivolous, fictitious and appalling allegations have been dismissed\" and \"the trauma that my wife, my children, loved ones and I have endured can never be dismissed.\"",
+      "context": "Suit filed December 2024 by an anonymous plaintiff represented by Tony Buzbee, alleging an assault at a 2000 VMAs afterparty; both men denied it. Buzbee has claimed a settlement; Jay-Z's side denies paying anything.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.billionaires.africa/2026/06/29/texas-judge-dismisses-all-roc-nation-lawsuits-in-jay-z-buzbee-war/",
+      "title": "Texas judge dismisses all Roc Nation lawsuits in Jay-Z Buzbee war",
+      "speaker": "Billionaires.Africa",
+      "date": "2026-06-29",
+      "locator": "Article paragraphs 1-5",
+      "excerpt": "A Texas judge dismissed all claims against Roc Nation brought by two former Buzbee clients; Buzbee told TMZ \"We will definitely appeal.\" Jay-Z's defamation case against Buzbee, with a claimed $190 million loss, \"is proceeding separately.\"",
+      "context": "Lower-tier outlet; useful only for the current status of the Buzbee litigation. Confirm against court records or a wire report before stating any status in the article.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://kmph.com/news/entertainment/hip-hop-artist-jay-z-picks-himself-to-headline-super-bowl-lxi-halftime-show-february-14-inglewood-california-sofi-stadium-nfl-apple-music-roc-nation-entertainment-commissioner-roger-goodell",
+      "title": "Jay-Z picks himself to headline Super Bowl LXI halftime show",
+      "speaker": "The National News Desk (KMPH)",
+      "date": "2026-10-27",
+      "locator": "Article paragraphs 1-6",
+      "excerpt": "\"Jay-Z will perform at the Super Bowl LXI halftime show on Feb. 14 at SoFi Stadium in Inglewood, California, the NFL, Apple Music and his entertainment company Roc Nation announced Monday night.\" / Goodell: his request was that Jay-Z take the stage \"whenever the moment felt right to him.\" / Jay-Z: \"From 'Reasonable Doubt' to standing on the Super Bowl halftime stage, this has been a journey.\"",
+      "context": "Recaps his 2019 line to Goodell ('end this conversation now'). Notes 25 Grammys and 89 nominations (second to Beyonce), Songwriters Hall of Fame 2017, Rock & Roll Hall of Fame 2021.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://thegrio.com/2026/10/26/jay-z-super-bowl-lxi-halftime-show-announcement/",
+      "title": "'GOAT's out of the bag': Jay-Z confirms he's headlining the Super Bowl Halftime Show",
+      "speaker": "theGrio",
+      "date": "2026-10-26",
+      "locator": "Article body; Goodell statement paragraph",
+      "excerpt": "Announced during Monday Night Football via an Apple Music ad ('Goat's Out Of The Bag'). Goodell: \"When we first reached an agreement with Roc Nation to produce the show, I had just one request: that Jay-Z take the stage himself one day, whenever the moment felt right to him.\"",
+      "context": "Notes the 2026 Reasonable Doubt 30th-anniversary stadium run (Yankee Stadium in July, Paris, London, two SoFi shows the weekend before the announcement). Independent of S17 in reporting, same press statements.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.news4jax.com/business/2025/09/17/jay-z-backed-plan-for-times-square-casino-loses-bid-for-nyc-license-amid-broadway-opposition/",
+      "title": "Broadway opposition brings the curtain down on a planned Times Square casino backed by Jay-Z",
+      "speaker": "Associated Press (via News4Jax)",
+      "date": "2025-09-17",
+      "locator": "Article body",
+      "excerpt": "Community advisory committee rejected the Caesars Palace Times Square plan backed by Roc Nation; Jay-Z had argued: \"Casino visitors will buy tickets, fill seats, book dinners before shows, and keep hotels in the area full.\"",
+      "context": "Current-accuracy check on a major business bet that failed in 2025; SL Green's CEO, not Jay-Z, berated the committee. Peripheral to the type argument.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.wtvr.com/2019/06/03/superstar-jay-z-has-become-first-billionaire-rapper-says-forbes",
+      "title": "Superstar Jay-Z has become first billionaire rapper, says Forbes",
+      "speaker": "CNN (via WTVR), quoting Forbes' Zack O'Malley Greenburg",
+      "date": "2019-06-03",
+      "locator": "Article paragraphs 1-3",
+      "excerpt": "\"...it's clear that Jay-Z has accumulated a fortune that conservatively totals $1 billion, making him one of only a handful of entertainers to become a billionaire—and the first hip-hop artist to do so,\" Forbes' Zack O'Malley Greenburg writes.",
+      "context": "Forbes estimate built from Armand de Brignac, D'Usse, Tidal, Roc Nation, art and cash/investments. Report of a Forbes estimate; not opened at forbes.com.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.penguin.co.nz/books/decoded-9780753546154",
+      "title": "Decoded",
+      "speaker": "Jay-Z (with dream hampton)",
+      "date": "2010-11-16",
+      "locator": "Book not opened; passages known only via S11 and S2",
+      "excerpt": "Not opened. Book text not available during this stage.",
+      "context": "Primary memoir. Listed so drafting does not treat S11's quotations as directly verified.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.thefader.com/2023/05/22/lance-un-rivera-jay-z-did-not-stab-him",
+      "title": "Lance 'Un' Rivera says JAY-Z did not stab him during 1999 incident",
+      "speaker": "Lance 'Un' Rivera, interviewed by DJ Vlad (via The Fader)",
+      "date": "2023-05-22",
+      "locator": "Article body quoting the VladTV clip",
+      "excerpt": "\"No. JAY-Z was not the guy that actually stabbed me that night.\" / \"I don't know where people got JAY-Z stabbed me from... If JAY-Z would have stabbed me, y'all would have never got The Black Album.\"",
+      "context": "Named testimony from the victim 22 years after Jay-Z's guilty plea; Rivera says they spoke just before he was hit with a champagne bottle. Conflicts with the plea (S10) and the Decoded passage (S11). Must be attributed alongside the court record.",
+      "kind": "testimony",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "His father, Adnis Reeves, left the family when Jay-Z was 11; Jay-Z says the reaction was anger and a resolve never to let anyone that close again, making him 'really quiet and really cold'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S1",
+        "S6"
+      ],
+      "inference": "Establishes his own account of an early decision to armor against dependence and betrayal. Suggests a protective stance toward vulnerability rather than toward image.",
+      "alternative": "A retrospective narrative shaped by later therapy language and a sympathetic Oprah setting; childhood withdrawal after abandonment is common and not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C2",
+      "claim": "At 11 he felt protective of his mother and told her, 'Don't worry, when I get big, I'm going to take care of this'; he says the abandonment made him 'independent. And stronger.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S1"
+      ],
+      "inference": "Early self-assigned protector role and self-reliance, both central to an 8 reading.",
+      "alternative": "Eldest-man-of-the-house role-taking in a fatherless home is circumstantial; a 3 could equally adopt a 'make it better' achiever role.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C3",
+      "claim": "At 12 he shot his older brother Eric in the shoulder/arm after Eric, then about 16 and using drugs, took from the family; Jay-Z says, 'I was the youngest, but I felt like I needed to protect everybody.' Eric did not press charges and they reconciled.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S1",
+        "S12"
+      ],
+      "inference": "Shows protective force used against a threat inside the family. Strong behavioral datum for a protection/control motive.",
+      "alternative": "A traumatized child's impulsive act in a violent environment; circumstance and age explain much. The account is entirely his own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C4",
+      "claim": "After being shot at three times at close range while dealing, he says 'You want to shoot back... I was angry' and that he went home and got a gun; he also says the shooter was a friend and the two could never be friends afterward.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S1"
+      ],
+      "inference": "Retaliatory instinct toward a direct threat; relevant to an anger-forward, counterforce pattern.",
+      "alternative": "Street norms of the late 1980s demanded retaliation regardless of type; may be partly performed toughness in retrospect.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C5",
+      "claim": "He turned down a deal from the label that had brought in his mentor Jaz-O out of loyalty, saying the record men 'weren't stand-up people', and in 1996 launched Roc-A-Fella after being disenchanted with the small label that signed him.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "inference": "Early preference for independence and ownership over being someone else's product; consistent with refusing to be controlled.",
+      "alternative": "Rational business judgment given the era's exploitative deals (he says rappers 'get taken advantage of'); also fits a 3 maximizing upside or a 6 loyalty motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C6",
+      "claim": "He told Oprah, 'I always had that wall up. And whenever someone got close to me, I would shut down,' and that reconnecting with his father in 2003, shortly before Reeves died, 'allowed me to let people in.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S1"
+      ],
+      "inference": "He frames his defended stance as a wall against closeness and names relational repair, not achievement, as what changed him. Supports an 8-style armor reading and growth toward openness.",
+      "alternative": "Could describe 3-style emotional suspension or 5-style withdrawal; 'wall' language is generic.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C7",
+      "claim": "On Fresh Air (2010) he explained rap stage bravado as fear in disguise: 'I'm going to act so tough that I'm going to hide it,' and recalled freezing at his first show and trying to hand the mic to Damon Dash.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S2"
+      ],
+      "inference": "He openly describes toughness as a cover for fear. Cuts both ways: an 8 hides vulnerability; a 3 manages appearance to avoid looking like a failure.",
+      "alternative": "Said about rappers in general; may be a craft observation rather than self-diagnosis.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C8",
+      "claim": "In a 2017 T Magazine interview he tied his infidelity to 'survival mode': 'You shut down all emotions. So even with women, you gonna shut down emotionally, so you can't connect.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S3",
+        "S4"
+      ],
+      "inference": "Repeats the 2009 wall account eight years later in a different context (marriage, after 4:44). Consistency across time strengthens that emotional shutdown is protective armor formed in danger.",
+      "alternative": "Therapy-informed self-explanation that also serves reputation repair after Lemonade; quoted via Time, not yet checked in the NYT original.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C9",
+      "claim": "On Letterman (2018) he said men where he grew up learned 'Be a man. Don't cry,' that he and Beyonce 'did the hard work of going to therapy,' and that he is 'proud of the father and the husband that I am today'; he described compassion for his father's anger.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S6"
+      ],
+      "inference": "Shows deliberate movement toward vulnerability and repair, consistent with an 8 integrating openness, and with the 2009 and 2017 accounts.",
+      "alternative": "Image rehabilitation after a public infidelity story is also what a 3 would do; the setting is promotional.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "In December 1999 record executive Lance 'Un' Rivera was stabbed at Manhattan's Kit Kat Club amid a dispute over the bootlegging of Vol. 3; Jay-Z pleaded guilty in October 2001 and was sentenced to three years' probation in December 2001. In 2023 Rivera said Jay-Z was not the one who stabbed him. In Decoded Jay-Z calls it 'a mindless assault' with the potential to put him 'behind bars for years.'",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S10",
+        "S11",
+        "S22",
+        "S1"
+      ],
+      "inference": "If taken at the plea, a costly, image-reckless act at the height of his fame over control of his product. Must be presented as the court record plus Rivera's later denial, not as a settled scene.",
+      "alternative": "Rivera's 2023 account says someone else stabbed him; the plea may reflect legal strategy. Exact date (Dec 1 vs 2) and charge level vary by outlet.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "In Decoded (2010) he writes that 'I never had to reject Shawn Carter to become Jay-Z' and describes rapping as 'creating a character'; the Village Voice argued the book tells the persona's story while Shawn Carter 'remains stubbornly distant.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S21"
+      ],
+      "inference": "Main support for the Type 3 alternative: deliberate persona construction and image control. Also shows privacy as a boundary.",
+      "alternative": "Persona-craft is a genre convention of rap and a writer's device; withholding private life can be control (8) or image management (3).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "On Rap Radar (August 2017) he said 'Kill JAY Z' was 'me talking to myself, and taking ownership,' and that Kanye West crossed a line by bringing Beyonce and his child into his 2016 Sacramento rant: 'you brought my family into it. Now it's a problem with me.' West had pleaded onstage, 'Jay Z, call me... Talk to me like a man.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S5",
+        "S14",
+        "S3"
+      ],
+      "inference": "Personal criticism is tolerated ('He's talked about me 100 times'); a threat to his family triggers cutoff. Supports a protective-territory boundary.",
+      "alternative": "Image-protective silence (a 3 avoiding a messy public fight) would look similar from outside; wording varies by outlet ('kid'/'kids').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "In 2017 he described his relationship with Kanye West as 'a little underlying competition with your big brother' and said 'everyone wants to be the greatest in the world.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S3"
+      ],
+      "inference": "Explicit status competition; counts toward the Type 3 alternative.",
+      "alternative": "Competitiveness is endemic to rap and to 8s seeking dominance; 'greatest' can mean supremacy rather than admiration.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "He says getting his masters back was 'the fight of my life' and that when he became Def Jam president (2004) he made reversion of his masters a condition: 'part of this job is my masters has to be reverted back to me'; in 2023 he said he would never sell them.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S9",
+        "S20"
+      ],
+      "inference": "Ownership and control of his work treated as non-negotiable even when selling would be lucrative. Fits an 8 motive of not being controlled; legacy framing ('I want my kids to see my work') fits protector role.",
+      "alternative": "Long-horizon wealth logic and legacy-building also fit a 3; ownership is now a mainstream artist value.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "When Roc Nation partnered with the NFL in August 2019 he said, 'I think we've moved past kneeling,' drew criticism from Eric Reid, and said he had told Roger Goodell, 'If this is about me performing at the Super Bowl, then we can just end this conversation now.'",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S7"
+      ],
+      "inference": "Pragmatic alignment with an institution for leverage; complicates a pure defiance reading. The refusal to perform protected him from looking like he was buying a slot.",
+      "alternative": "Reads more 3 (adaptive, deal-oriented, reputation-aware) than 8 (confrontational); also consistent with an 8 preferring a seat of power over protest.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "On October 26, 2026 the NFL, Apple Music and Roc Nation announced Jay-Z as headliner of the Super Bowl LXI halftime show on February 14, 2027 at SoFi Stadium; Goodell said his one request in 2019 was that Jay-Z perform 'whenever the moment felt right to him.' The announcement followed a 2026 Reasonable Doubt 30th-anniversary stadium run.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S18",
+        "S7"
+      ],
+      "inference": "Shows him setting the terms and timing of his own appearance on a stage his company controls. Tests the 2019 refusal: he performs when it is on his terms.",
+      "alternative": "Equally readable as a capstone-legacy move (3); the timing coincides with an anniversary tour and promotion.",
+      "durability": "time_sensitive",
+      "review_trigger": "After 2027-02-14: update with what actually happened at the halftime show (performers, reception) and remove future tense."
+    },
+    {
+      "id": "C17",
+      "claim": "Accepting the first Dr. Dre Global Impact Award at the 66th Grammys (February 4, 2024) with Blue Ivy beside him, he said Beyonce 'has more Grammys than everyone and has never won Album of the Year... even by your own metrics that doesn't work,' then urged artists to keep showing up 'until they call you the greatest of all time.'",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S8"
+      ],
+      "inference": "Publicly confronts the institution honoring him, on behalf of his wife, on its own stage. Supports the protective/confrontational pattern; the 'greatest of all time' coda supports the 3 alternative.",
+      "alternative": "Could be read as status grievance and accolade-seeking (3) rather than protection (8).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "Damon Dash, Roc-A-Fella co-founder, says Jay-Z 'betrayed' him for money in the 2004 Def Jam move, that they 'never argued' so he didn't see it coming, and that he concluded, 'He's cold.'",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Hostile testimony consistent with Jay-Z's own 'cold' self-description and with decisive, unsentimental moves for control.",
+      "alternative": "Dash has given shifting explanations for the split and has an adversarial history with Jay-Z, including a 2021 NFT dispute; may describe ordinary business pragmatism.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "A December 2024 civil suit filed by Tony Buzbee for an anonymous plaintiff accused Jay-Z and Sean Combs of assaulting a 13-year-old in 2000; Jay-Z denied it, and the plaintiff voluntarily dismissed it with prejudice on February 14, 2025. Jay-Z's defamation suit against Buzbee continues; separate Texas suits against Roc Nation were dismissed in June 2026, with Buzbee saying he would appeal.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S15",
+        "S16"
+      ],
+      "inference": "Not evidence of personality. Relevant only as a dated matter that must be stated accurately if mentioned; his response ('he pushed back, he never settled') is lawyer framing.",
+      "alternative": "Buzbee claims a settlement; Jay-Z's side denies paying anything. Status of the remaining litigation needs checking.",
+      "durability": "unresolved",
+      "review_trigger": "Check status of Carter v. Buzbee defamation case and any Roc Nation appeals each refresh; confirm with court records or wire reporting before citing."
+    },
+    {
+      "id": "C20",
+      "claim": "Forbes estimated in June 2019 that Jay-Z had become hip-hop's first billionaire, through holdings including Armand de Brignac, D'Usse, Tidal, Roc Nation and art.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Outcome of the ownership pattern; context, not motive evidence.",
+      "alternative": "Wealth outcomes fit any ambitious type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "A community advisory committee rejected the Roc Nation-backed Caesars Palace Times Square casino bid on September 17, 2025 after Broadway opposition.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "Current-accuracy context: a high-profile business bet that failed; no strong motive inference.",
+      "alternative": "Peripheral; include only if it tests the argument.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "He told Oprah that by the end his dealing was 'beyond survival... I had become addicted to the lifestyle' of cars and jewelry, and that around 20 he decided 'I have to give this everything' to music.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S1"
+      ],
+      "inference": "Status and lifestyle appetite plus all-in commitment; supports both a 3 (success/image) and 7/8 (appetite, intensity) reading.",
+      "alternative": "Ordinary young-dealer materialism; not discriminating.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "He traces his father's departure to his uncle's killing: Reeves hunted the killer with a gun at night, his mother's fear came out 'almost like an ultimatum,' and Reeves turned to heroin.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S1",
+        "S6"
+      ],
+      "inference": "Context for a family pattern of protective vengeance and its costs; supports the narrative of armor learned at home.",
+      "alternative": "Family history explains circumstance, not type; do not frame as a causal wound beyond his own words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "Interpretation: across 1980s Marcy, 1999-2004 business disputes, 2017 Kanye rift and 2024 Grammys, the repeated costly choice is protecting what he counts as his (family, product, masters, terms of appearance) and refusing dependence, with emotional armor he describes as protection against betrayal pain. This fits Enneagram Type 8 better than Type 3.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S5",
+        "S8",
+        "S9",
+        "S10"
+      ],
+      "inference": "Leading type hypothesis at medium confidence.",
+      "alternative": "Type 3: persona engineering, GOAT/accolade language, adaptive institutional deals (NFL) and image-aware reticence fit an achievement/image motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 8,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C6",
+      "C8",
+      "C12",
+      "C14",
+      "C17"
+    ],
+    "against": "Much of his public life reads as image management: he describes Jay-Z as a constructed character (C11), says 'everyone wants to be the greatest in the world' and closes a Grammy speech on being called 'the greatest of all time' (C13, C17), adapted pragmatically to the NFL in 2019 despite criticism (C15), and explains rap bravado as a front to hide fear (C7). He is temperamentally quiet, describes himself as a shy, reclusive kid (S1), avoids public fights and lets art speak (4:44), all less typical of 8 assertiveness. Most motive evidence is his own self-report in friendly or promotional settings, and independent testimony is thin and partly hostile (C18).",
+    "alternative_type": 3,
+    "alternative_case": "Type 3: a self-made achiever who engineered a persona ('creating a character'), keeps Shawn Carter private, measures himself against the greatest (Biggie, Nas, Kanye), retired at the top in 2003 and returned, converted every success into status and brands, and adapts to whatever institution offers the bigger platform (Def Jam presidency, NFL partnership, picking himself for the Super Bowl). His emotional shutdown could be the 3 pattern of suspending feelings to keep performing, and 4:44 plus therapy talk could be image repair after Lemonade.",
+    "discriminator": "What the shutdown protects and what he pays for. He consistently explains his armor as protection against being let down again ('you never want to experience that pain again', 'I always had that wall up', 'survival mode') rather than as suspending feelings to succeed (C1, C6, C8, across 2009, 2017, 2018). And when protection of what he counts as his conflicts with image or approval, he chooses protection at visible cost: shooting the brother who was taking from the family (C3), a guilty plea at the peak of fame (disputed, C10), making masters reversion a condition of the Def Jam job and refusing to sell them (C14), cutting off Kanye only when family was named (C12), and confronting the Grammys on their stage for Beyonce (C17). A Type 3 would be expected to avoid the reputational cost of those moves or reframe them; he instead frames them as protection and ownership. The 2019 NFL accommodation (C15) is the strongest counterexample.",
+    "unexplained": "His low-key, reticent public manner and childhood shyness/reclusiveness (more 9- or 5-flavored than classic 8 expansiveness); the 2019 'moved past kneeling' accommodation of a powerful institution; the shift from refusing to perform at the Super Bowl (2019) to headlining it (announced 2026); and the extent to which his tight control of his own story (Decoded omits Rivera's name and Beyonce) is image management rather than boundary-keeping. Wing is unknown; no subtype claim is supported."
+  },
+  "profile_format": "standard"
+}

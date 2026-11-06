@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-11-05 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
+_Generated: 2026-11-06 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
 _Search data: GSC 2026-07-19 → 2026-10-17 (pulled 2026-10-19)_
 
 **Scope.** Link counts cover **live posts only**: files a route actually serves with `published: true`
@@ -73,7 +73,7 @@ relative to demand. These are where an internal link is most likely to move a ra
 | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` | 1,823 | 46 | 8.6 | 12 | 15 |
 | `/enneagram-corner/how-to-apologize-like-a-pro` | 1,190 | 26 | 7.7 | 11 | 6 |
 | `/enneagram-corner/enneagram-strengths-and-weaknesses` | 1,344 | 16 | 8.6 | 24 | 21 |
-| `/enneagram-corner/enneagram-instinctual-subtypes` | 8,519 | 37 | 12.8 | 160 | 16 |
+| `/enneagram-corner/enneagram-instinctual-subtypes` | 8,519 | 37 | 12.8 | 162 | 16 |
 | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` | 1,568 | 7 | 11.9 | 30 | 9 |
 | `/enneagram-corner/enneagram-types-being-ghosted` | 1,249 | 30 | 7.1 | 26 | 17 |
 
@@ -172,16 +172,16 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 | In | Out | Impressions | Page |
 |---|---|---|---|
 | 212 | 17 | 1,308 | `/enneagram-corner/enneagram-types-in-stress` |
-| 193 | 41 | 7,091 | `/enneagram-corner/enneagram-wings-complete-guide` |
-| 160 | 16 | 8,519 | `/enneagram-corner/enneagram-instinctual-subtypes` |
-| 155 | 14 | 3,317 | `/enneagram-corner/enneagram-type-3` |
+| 194 | 41 | 7,091 | `/enneagram-corner/enneagram-wings-complete-guide` |
+| 162 | 16 | 8,519 | `/enneagram-corner/enneagram-instinctual-subtypes` |
+| 156 | 14 | 3,317 | `/enneagram-corner/enneagram-type-3` |
 | 140 | 26 | 1,547 | `/enneagram-corner/enneagram-type-6` |
-| 138 | 12 | 470 | `/enneagram-corner/enneagram-type-7` |
+| 139 | 12 | 470 | `/enneagram-corner/enneagram-type-7` |
 | 134 | 15 | 2,151 | `/enneagram-corner/enneagram-type-4` |
 | 130 | 18 | 2,642 | `/enneagram-corner/enneagram-type-9` |
 | 127 | 13 | 1,765 | `/enneagram-corner/enneagram-type-5` |
-| 124 | 14 | 942 | `/enneagram-corner/enneagram-type-8` |
-| 109 | 13 | 386 | `/enneagram-corner/enneagram-type-1` |
+| 123 | 14 | 942 | `/enneagram-corner/enneagram-type-8` |
+| 108 | 13 | 386 | `/enneagram-corner/enneagram-type-1` |
 | 105 | 16 | 925 | `/enneagram-corner/enneagram-type-2` |
 | 63 | 24 | 2,222 | `/enneagram-corner/relationship-communication-guide` |
 | 56 | 14 | 142 | `/enneagram-corner/enneagram-connecting-lines` |
@@ -266,8 +266,8 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 12,490 | 9.4 | 25 (22/3) | 22 (22/0) | The Enneagram and Mental Illness: Understand Each Type's Predispositi… | `/enneagram-corner/enneagram-and-mental-illness` |
 | 11,788 | 7.9 | 9 (9/0) | 16 (16/0) | What Enneagram Type Is Your Zodiac Sign? The Complete Correlation Cha… | `/enneagram-corner/astrology-and-the-enneagram` |
 | 8,814 | 12.9 | 21 (21/0) | 8 (8/0) | The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Dec… | `/enneagram-corner/enneagram-compatibility-matrix` |
-| 8,519 | 12.8 | 160 (17/143) | 16 (16/0) | Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type | `/enneagram-corner/enneagram-instinctual-subtypes` |
-| 7,091 | 9.1 | 193 (15/178) | 41 (7/34) | Enneagram Wings: Compare All 18 Combinations and Find Your Pattern | `/enneagram-corner/enneagram-wings-complete-guide` |
+| 8,519 | 12.8 | 162 (17/145) | 16 (16/0) | Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type | `/enneagram-corner/enneagram-instinctual-subtypes` |
+| 7,091 | 9.1 | 194 (15/179) | 41 (7/34) | Enneagram Wings: Compare All 18 Combinations and Find Your Pattern | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 6,111 | 10.0 | 20 (20/0) | 19 (19/0) | Toxic Traits of Each Enneagram Type (and Which One Is the Worst) | `/enneagram-corner/toxic-traits-of-each-enneagram-type` |
 | 5,538 | 7.6 | 26 (14/12) | 3 (3/0) | Depression Patterns by Enneagram Type | `/enneagram-corner/depression-patterns-by-enneagram-type` |
 | 4,769 | 8.7 | 21 (13/8) | 16 (16/0) | Attachment Styles and Enneagram Types: A Map | `/enneagram-corner/attachment-styles-and-enneagram-types` |
@@ -278,7 +278,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 3,735 | 7.3 | 21 (21/0) | 21 (21/0) | How Each Enneagram Type Manipulates (And How to Spot It) | `/enneagram-corner/how-each-enneagram-type-manipulates` |
 | 3,589 | 8.0 | 3 (3/0) | 17 (9/8) | The Kardashian Family Enneagram: How Each Type Built a Billion Dollar… | `/pop-culture/kardashian-family-enneagram-analysis` |
 | 3,497 | 9.7 | 18 (18/0) | 6 (6/0) | Is the Enneagram Scientifically Valid? What Research Says | `/enneagram-corner/mental-health/enneagram-science-mental-health` |
-| 3,317 | 28.4 | 155 (55/100) | 14 (14/0) | Enneagram Type 3: Achiever - Success Becomes Identity | `/enneagram-corner/enneagram-type-3` |
+| 3,317 | 28.4 | 156 (55/101) | 14 (14/0) | Enneagram Type 3: Achiever - Success Becomes Identity | `/enneagram-corner/enneagram-type-3` |
 | 2,796 | 8.6 | 15 (15/0) | 6 (6/0) | The Enneagram's Place in Personality Science: An Honest Audit | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` |
 | 2,642 | 35.0 | 130 (55/75) | 18 (18/0) | Enneagram Type 9: Peacemaker - Finding Your Voice | `/enneagram-corner/enneagram-type-9` |
 | 2,566 | 10.0 | 7 (7/0) | 4 (4/0) | Best Free Enneagram Tests (2026): An Honest Comparison | `/enneagram-corner/enneagram-test-comparison-2026` |
@@ -300,7 +300,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 1,190 | 7.7 | 11 (11/0) | 6 (6/0) | How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips | `/enneagram-corner/how-to-apologize-like-a-pro` |
 | 1,127 | 7.1 | 4 (4/0) | 15 (15/0) | Best Compliments for Each Enneagram Type | `/enneagram-corner/biggest-compliments-to-give-each-enneagram-type` |
 | 943 | 7.2 | 5 (5/0) | 13 (13/0) | Which Enneagram Type Is Most Likely to Be a Narcissist? (Every Type H… | `/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist` |
-| 942 | 10.9 | 124 (50/74) | 14 (14/0) | Enneagram Type 8: Challenger - Behind the Armor | `/enneagram-corner/enneagram-type-8` |
+| 942 | 10.9 | 123 (50/73) | 14 (14/0) | Enneagram Type 8: Challenger - Behind the Armor | `/enneagram-corner/enneagram-type-8` |
 | 929 | 7.5 | 17 (17/0) | 23 (23/0) | Why You Can't Stop Overthinking (Your Enneagram Type Explains It) | `/enneagram-corner/why-you-cant-stop-overthinking-enneagram` |
 | 925 | 39.8 | 105 (53/52) | 16 (16/0) | Enneagram Type 2: Helper - The One-Way Mirror | `/enneagram-corner/enneagram-type-2` |
 | 884 | 8.2 | 3 (3/0) | 6 (5/1) | Ghislaine Maxwell: The Hostage Princess Who Became the Enabler-in-Chi… | `/pop-culture/ghislaine-maxwell-psychology` |
@@ -319,14 +319,14 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 583 | 9.1 | 5 (5/0) | 3 (3/0) | Enneagram Social Styles: The Hornevian Triads, Decoded | `/enneagram-corner/enneagram-social-styles` |
 | 520 | 27.5 | 3 (3/0) | 5 (5/0) | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage Love (and… | `/how-to-guides/dating-dynamics-by-enneagram-type` |
 | 509 | 37.5 | 11 (8/3) | 24 (24/0) | Enneagram Concepts: The Personality Box You're Living In | `/enneagram-corner/enneagram-concepts` |
-| 470 | 19.1 | 138 (53/85) | 12 (12/0) | Enneagram Type 7: Enthusiast - The Possibility Engine | `/enneagram-corner/enneagram-type-7` |
+| 470 | 19.1 | 139 (53/86) | 12 (12/0) | Enneagram Type 7: Enthusiast - The Possibility Engine | `/enneagram-corner/enneagram-type-7` |
 | 468 | 45.7 | 6 (4/2) | 11 (9/2) | Enneagram Leadership: Why Your Approach Keeps Backfiring | `/enneagram-corner/enneagram-leadership` |
 | 461 | 9.7 | 12 (12/0) | 19 (19/0) | Enneagram Types on a First Date: What to Expect | `/enneagram-corner/enneagram-types-on-a-first-date` |
 | 444 | 15.1 | 3 (3/0) | 10 (7/3) | The Psychology of Jeffrey Epstein: Understanding the Dark Helper (Par… | `/pop-culture/epstein-psychology-part-1` |
 | 413 | 17.1 | 3 (3/0) | 10 (10/0) | How Each Enneagram Type Resists Therapy | `/enneagram-corner/mental-health/enneagram-therapy-resistance-guide` |
 | 396 | 27.7 | 7 (7/0) | 16 (16/0) | Enneagram vs Myers-Briggs: Which Actually Explains You Better? | `/enneagram-corner/enneagram-vs-meyers-briggs` |
 | 390 | 24.5 | 35 (35/0) | 10 (10/0) | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `/enneagram-corner/beginners-guide-to-determining-your-enneagram-type` |
-| 386 | 15.6 | 109 (49/60) | 13 (13/0) | Enneagram Type 1: Perfectionist - The Inner Courtroom | `/enneagram-corner/enneagram-type-1` |
+| 386 | 15.6 | 108 (49/59) | 13 (13/0) | Enneagram Type 1: Perfectionist - The Inner Courtroom | `/enneagram-corner/enneagram-type-1` |
 | 360 | 11.5 | 27 (27/0) | 21 (21/0) | The Party Test: What Your Social Style Reveals About Your Type | `/enneagram-corner/enneagram-types-at-party` |
 | 346 | 11.3 | 3 (3/0) | 17 (17/0) | How All 9 Enneagram Types Flex (And What They Need) | `/enneagram-corner/how-each-enneagram-flexes` |
 | 324 | 6.2 | 5 (5/0) | 35 (4/31) | What Enneagram Type Are Most Musicians? The Data Says Type 4 | `/pop-culture/what-enneagram-type-are-most-musicians` |

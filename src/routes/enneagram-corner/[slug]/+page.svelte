@@ -125,14 +125,14 @@
 	.article-body {
 		margin-bottom: 2rem;
 		line-height: 1.7;
-		/* Body reads in --ink-bright (ratified 2026-06-09, design-system.md §6). */
-		color: var(--ink-bright);
+		/* Body color comes from .blog in blog.scss (--text-muted); headings
+		   and strong read at --text. */
 
 		/* Header styles for injected content */
 		:global(h2) {
 			font-size: 1.75rem;
 			font-weight: 600;
-			color: var(--ink-bright);
+			color: var(--text);
 			margin-top: 2rem;
 			margin-bottom: 1rem;
 			padding-top: 1rem;
@@ -142,7 +142,7 @@
 		:global(h3) {
 			font-size: 1.35rem;
 			font-weight: 600;
-			color: var(--ink-bright);
+			color: var(--text);
 			margin-top: 1.5rem;
 			margin-bottom: 0.75rem;
 			line-height: 1.35;
@@ -151,7 +151,7 @@
 		:global(h4) {
 			font-size: 1.15rem;
 			font-weight: 600;
-			color: var(--ink-bright);
+			color: var(--text);
 			margin-top: 1.25rem;
 			margin-bottom: 0.5rem;
 			line-height: 1.4;
@@ -172,32 +172,11 @@
 			line-height: 1.6;
 		}
 
-		:global(a) {
-			text-decoration: none;
-			transition: color 0.2s ease;
-
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-
-		:global(blockquote) {
-			margin: 1.5rem 0;
-			padding: 1rem 1.5rem;
-			border-left: 4px solid var(--lamp-glow);
-			background-color: var(--stone-warm);
-			font-style: italic;
-			color: var(--ink-mid);
-			border-radius: 0 0.625rem 0.625rem 0;
-		}
-
-		:global(blockquote p) {
-			margin-bottom: 0;
-		}
+		/* Links and blockquotes are styled once, in blog.scss (lavender +
+		   underlined; indigo bar on --surface). */
 
 		:global(strong) {
 			font-weight: 700;
-			color: inherit;
 		}
 
 		:global(.text-white :not(a):not([class*='bg-'])) {
@@ -205,16 +184,16 @@
 		}
 
 		:global(code) {
-			background-color: var(--stone-warm);
-			color: var(--data-teal);
+			background-color: var(--surface);
+			color: var(--highlight);
 			padding: 0.2rem 0.4rem;
 			border-radius: 4px;
 			font-size: 0.9em;
 		}
 
 		:global(pre) {
-			background-color: var(--night-deep);
-			border: 1px solid var(--stone-edge);
+			background-color: var(--bg);
+			border: 1px solid var(--rule);
 			border-radius: 0.625rem;
 			padding: 1rem;
 			overflow-x: auto;
@@ -229,7 +208,7 @@
 	.section-divider {
 		margin: 5rem 0;
 		border: 0;
-		border-top: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
 	}
 
 	.join {

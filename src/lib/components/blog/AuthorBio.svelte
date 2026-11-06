@@ -3,7 +3,7 @@
 	let { author = 'DJ Wayne', compact = false }: { author?: string; compact?: boolean } = $props();
 </script>
 
-<section class="author-bio" class:compact aria-label="About the author">
+<section class={['author-bio', { compact }]} aria-label="About the author">
 	<a href="/about" class="author-photo-link">
 		<img
 			src="/brand/s-djface.webp"
@@ -81,10 +81,11 @@
 		gap: 1rem;
 		padding: 1.25rem;
 		margin: 2rem 0;
-		background-color: var(--stone-warm);
-		border: 1px solid var(--lamp-soft);
-		border-radius: 1rem;
+		background-color: var(--surface);
+		border: 1px solid var(--rule);
+		border-radius: 16px;
 		max-width: 48rem;
+		font-family: var(--font-talk);
 
 		&.compact {
 			padding: 1rem;
@@ -96,12 +97,23 @@
 			}
 
 			.author-name {
-				font-size: 0.9375rem;
+				font-size: var(--font-size-base);
 			}
 
 			.author-role {
-				font-size: 0.75rem;
+				font-size: var(--font-size-xs);
 			}
+		}
+	}
+
+	/* No link arrows: bios sit inside blog prose, so clear any ::after a
+	   prose link rule might add. */
+	.author-photo-link,
+	.author-name a,
+	.social-link {
+		&::after {
+			content: none;
+			display: none;
 		}
 	}
 
@@ -114,12 +126,6 @@
 		&:hover {
 			opacity: 0.85;
 		}
-
-		/* Override blog link arrow */
-		&::after {
-			content: none !important;
-			display: none !important;
-		}
 	}
 
 	.author-photo {
@@ -127,7 +133,7 @@
 		height: 72px;
 		border-radius: 50%;
 		object-fit: cover;
-		border: 2px solid var(--lamp-glow-rgba);
+		border: 2px solid color-mix(in srgb, var(--accent) 60%, transparent);
 	}
 
 	.author-info {
@@ -145,38 +151,38 @@
 
 	.author-name {
 		margin: 0;
-		font-size: 1.0625rem;
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-lg);
+		font-weight: 600;
 		line-height: 1.3;
 
 		a {
-			color: var(--ink-bright);
+			color: var(--text);
 			text-decoration: none;
 			transition: color 0.2s ease;
 
 			&:hover {
-				color: var(--lamp-glow);
-			}
-
-			/* Override blog link arrow */
-			&::after {
-				content: none !important;
-				display: none !important;
+				color: var(--highlight);
+				text-decoration: underline;
+				text-underline-offset: 0.2em;
 			}
 		}
 	}
 
 	.author-role {
-		font-size: 0.8125rem;
-		color: var(--ink-mid);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-faint);
 		white-space: nowrap;
 	}
 
 	.author-bio-text {
 		margin: 0.375rem 0 0.5rem;
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.author-links {
@@ -191,21 +197,18 @@
 		justify-content: center;
 		width: 32px;
 		height: 32px;
-		border-radius: 0.625rem;
-		color: var(--ink-mid);
-		background: color-mix(in srgb, var(--ink-dim) 10%, transparent);
-		transition: all 0.2s ease;
+		border-radius: 10px;
+		color: var(--text-muted);
+		background: var(--surface-raised);
+		border: 1px solid var(--rule);
+		transition:
+			color 0.2s ease,
+			border-color 0.2s ease;
 		text-decoration: none;
 
 		&:hover {
-			color: var(--ink-bright);
-			background: var(--lamp-soft);
-		}
-
-		/* Override blog link arrow */
-		&::after {
-			content: none !important;
-			display: none !important;
+			color: var(--highlight);
+			border-color: color-mix(in srgb, var(--accent) 55%, var(--rule));
 		}
 	}
 
@@ -226,11 +229,7 @@
 		}
 
 		.author-name {
-			font-size: 0.9375rem;
-		}
-
-		.author-bio-text {
-			font-size: 0.8125rem;
+			font-size: var(--font-size-base);
 		}
 
 		.social-link {

@@ -149,10 +149,10 @@
 <style>
 	.waitlist-section {
 		text-align: center;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		border: 1px solid var(--rule);
 		padding: 2rem;
 		border-radius: 1rem;
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+		background: var(--surface);
 		/* No static glow: borders are the elevation (V5) */
 	}
 	.waitlist-section--embedded {
@@ -163,12 +163,12 @@
 	.waitlist-section h2 {
 		margin-top: 0;
 		margin-bottom: 0.5rem;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 	.waitlist-section p {
 		margin-top: 0;
 		margin-bottom: 1.25rem;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 	.waitlist-form {
 		display: flex;
@@ -194,8 +194,8 @@
 	.field-label {
 		display: block;
 		margin-bottom: 0.35rem;
-		color: var(--ink-bright);
-		font-size: 0.875rem;
+		color: var(--text);
+		font-size: var(--font-size-sm);
 		font-weight: 600;
 	}
 	.waitlist-form input {
@@ -203,31 +203,31 @@
 		margin: 0;
 		padding: 10px;
 		border-radius: 0.625rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-		background-color: var(--stone-warm);
-		color: var(--ink-bright);
+		border: 1px solid var(--rule);
+		background-color: var(--surface-raised);
+		color: var(--text);
 	}
 	.waitlist-form input[aria-invalid='true'] {
 		border-color: var(--error);
 	}
 	.waitlist-form input:focus {
 		outline: none;
-		border-color: var(--lamp-glow);
-		box-shadow: var(--glow-sm);
+		border-color: var(--highlight);
+		box-shadow: 0 0 0 1px var(--highlight);
 	}
 	.waitlist-form :global(.waitlist-submit) {
 		width: 155px;
 	}
 	.email-field .field-help {
 		margin: 0.35rem 0 0;
-		color: var(--ink-dim);
-		font-size: 0.75rem;
+		color: var(--text-faint);
+		font-size: var(--font-size-xs);
 		line-height: 1.4;
 	}
 	.waitlist-section .error,
 	.waitlist-section .status {
 		margin: 0.75rem 0 0;
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 	}
 	.waitlist-section .error {
 		color: var(--error-text);
@@ -272,15 +272,15 @@
 		}
 	}
 	::placeholder {
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		opacity: 1;
 	}
 
 	:-ms-input-placeholder {
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	::-ms-input-placeholder {
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 </style>

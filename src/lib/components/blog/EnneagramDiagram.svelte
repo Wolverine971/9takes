@@ -17,7 +17,8 @@
 
 	type Source = 'node' | 'legend';
 
-	// Type metadata (colors come from shared constants)
+	// Type metadata. Names come from the shared constants; the symbol itself is
+	// one tint (Cold Light), so no per-type color is used here.
 	const typeMetadata: Record<
 		number,
 		{
@@ -90,7 +91,6 @@
 		id,
 		name: ENNEAGRAM_TYPE_COLORS[id].name,
 		shortName: ENNEAGRAM_TYPE_COLORS[id].name.replace(/^The /, ''),
-		color: ENNEAGRAM_TYPE_COLORS[id].color,
 		...typeMetadata[id]
 	}));
 
@@ -144,7 +144,6 @@
 	let detail = $derived(
 		enneagramTypes[(featuredType !== null ? (activeType ?? featuredType) : detailType) - 1]
 	);
-	let activeColor = $derived(shownType ? enneagramTypes[shownType - 1].color : undefined);
 
 	function activate(id: number, source: Source) {
 		clearTimeout(releaseTimer);
@@ -206,11 +205,10 @@
 {/snippet}
 
 <div
-	class="diagram-wrapper"
-	class:size-sm={size === 'sm'}
-	class:size-lg={size === 'lg'}
-	class:has-active={shownType !== null}
-	style:--active-color={activeColor}
+	class={[
+		'diagram-wrapper',
+		{ 'size-sm': size === 'sm', 'size-lg': size === 'lg', 'has-active': shownType !== null }
+	]}
 >
 	<div
 		class="diagram-stage"
@@ -228,8 +226,7 @@
 					y1={from.y}
 					x2={to.x}
 					y2={to.y}
-					class="line line-{line.kind}"
-					class:lit={shownType === line.a || shownType === line.b}
+					class={[`line line-${line.kind}`, { lit: shownType === line.a || shownType === line.b }]}
 				/>
 			{/each}
 		</svg>
@@ -237,12 +234,9 @@
 		{#each enneagramTypes as type, index (type.id)}
 			<a
 				href={resolve(getTypeUrl(type.id))}
-				class="type-node"
-				class:active={shownType === type.id}
-				class:featured={featuredType === type.id}
+				class={['type-node', { active: shownType === type.id, featured: featuredType === type.id }]}
 				style:left="{positions[index].x}%"
 				style:top="{positions[index].y}%"
-				style:--node-color={type.color}
 				onpointerenter={(event) => handlePointerEnter(event, type.id, 'node')}
 				onfocus={(event) => handleFocus(event, type.id, 'node')}
 				onblur={() => release(type.id)}
@@ -257,17 +251,14 @@
 	<div class="readout">
 		{#if showLabels && featuredType === null}
 			<ul
-				class="type-legend"
-				class:is-covered={detailsOpen}
+				class={['type-legend', { 'is-covered': detailsOpen }]}
 				onpointerleave={() => activeSource === 'legend' && release()}
 			>
 				{#each enneagramTypes as type (type.id)}
 					<li>
 						<a
 							href={resolve(getTypeUrl(type.id))}
-							class="legend-item"
-							class:active={activeType === type.id}
-							style:--node-color={type.color}
+							class={['legend-item', { active: activeType === type.id }]}
 							onpointerenter={(event) => handlePointerEnter(event, type.id, 'legend')}
 							onfocus={(event) => handleFocus(event, type.id, 'legend')}
 							onblur={() => release(type.id)}
@@ -290,21 +281,17 @@
 			</div>
 		{/each}
 
-		<div
-			class="type-card"
-			class:is-open={detailsOpen}
-			style:--node-color={detail.color}
-			aria-hidden={!detailsOpen}
-		>
+		<div class={['type-card', { 'is-open': detailsOpen }]} aria-hidden={!detailsOpen}>
 			{@render cardBody(detail)}
 		</div>
 	</div>
 </div>
 
 <style>
+	/* Cold Light: one tint, like the statues. The lit type (the article's
+	   person, or whichever number is hovered) is lavender on deep indigo with a
+	   lavender ring; every other type is faint with a hairline ring. */
 	.diagram-wrapper {
-		--font-display: 'Inter Variable', 'Inter', system-ui, sans-serif;
-		--font-mono: 'JetBrains Mono', ui-monospace, monospace;
 		--motion: 0.16s ease;
 
 		box-sizing: border-box;
@@ -312,6 +299,7 @@
 		max-width: 22rem;
 		margin: 0 auto;
 		container-type: inline-size;
+		font-family: var(--font-talk);
 	}
 
 	.diagram-wrapper.size-sm {
@@ -349,8 +337,8 @@
 	}
 
 	.ring {
-		fill: color-mix(in srgb, var(--night-mid) 70%, transparent);
-		stroke: color-mix(in srgb, var(--lamp-glow) 30%, var(--stone-edge));
+		fill: color-mix(in srgb, var(--accent) 5%, transparent);
+		stroke: var(--rule);
 		stroke-width: 0.35;
 	}
 
@@ -364,13 +352,13 @@
 	}
 
 	.line-triangle {
-		stroke: var(--lamp-glow);
-		stroke-opacity: 0.5;
+		stroke: var(--highlight);
+		stroke-opacity: 0.3;
 	}
 
 	.line-hexad {
-		stroke: var(--data-teal);
-		stroke-opacity: 0.4;
+		stroke: var(--accent);
+		stroke-opacity: 0.55;
 	}
 
 	.has-active .line {
@@ -378,9 +366,9 @@
 	}
 
 	.has-active .line.lit {
-		stroke: var(--active-color);
-		stroke-opacity: 0.9;
-		stroke-width: 0.7;
+		stroke: var(--highlight);
+		stroke-opacity: 0.7;
+		stroke-width: 0.6;
 	}
 
 	/* ==========================================
@@ -388,9 +376,6 @@
 	   ========================================== */
 	.type-node {
 		--node-size: clamp(2.125rem, 14.5cqi, 2.75rem);
-		/* Nudged toward the ink color so light yellows stay legible on light
-		   surfaces and dark reds stay legible on dark ones. */
-		--node-ink: color-mix(in srgb, var(--node-color) 75%, var(--ink-bright));
 
 		position: absolute;
 		z-index: 1;
@@ -400,14 +385,13 @@
 		width: var(--node-size);
 		height: var(--node-size);
 		padding: 0;
-		border: 2px solid var(--node-color);
+		border: 1.5px solid var(--rule);
 		border-radius: 50%;
-		background: var(--stone-warm);
-		box-shadow: 0 1px 2px rgb(12 10 9 / 0.08);
-		color: var(--node-ink);
-		font-family: var(--font-mono);
+		background: var(--surface);
+		color: var(--text-faint);
+		font-family: var(--font-talk);
 		font-size: calc(var(--node-size) * 0.4);
-		font-weight: 700;
+		font-weight: 600;
 		line-height: 1;
 		text-decoration: none;
 		transform: translate(-50%, -50%);
@@ -422,29 +406,28 @@
 	.type-node:hover,
 	.type-node.active {
 		z-index: 2;
-		background: color-mix(in srgb, var(--node-color) 14%, var(--stone-warm));
-		box-shadow: 0 0 0 4px color-mix(in srgb, var(--node-color) 22%, transparent);
+		border-color: var(--highlight);
+		background: var(--accent-deep);
+		box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 28%, transparent);
+		color: var(--highlight);
 		text-decoration: none;
 		transform: translate(-50%, -50%) scale(1.1);
 	}
 
-	/* Fade by color, not opacity: a translucent node would let the lines
-	   behind it show through the number. */
 	.has-active .type-node:not(.active) {
-		border-color: color-mix(in srgb, var(--node-color) 35%, var(--stone-warm));
-		color: color-mix(in srgb, var(--node-ink) 40%, var(--stone-warm));
 		box-shadow: none;
 	}
 
 	.type-node:focus-visible {
-		outline: 2px solid var(--node-color);
+		outline: 2px solid var(--highlight);
 		outline-offset: 3px;
 	}
 
 	/* The article's person keeps a dashed halo while another type is being
 	   explored, so their spot on the symbol is never lost. */
 	.type-node.featured:not(.active) {
-		outline: 1.5px dashed color-mix(in srgb, var(--node-color) 70%, transparent);
+		color: var(--highlight);
+		outline: 1.5px dashed color-mix(in srgb, var(--highlight) 60%, transparent);
 		outline-offset: 3px;
 	}
 
@@ -488,14 +471,12 @@
 	}
 
 	.legend-item {
-		--node-ink: color-mix(in srgb, var(--node-color) 75%, var(--ink-bright));
-
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		gap: 0.2rem;
 		padding: 0.3rem 0.25rem;
-		border-radius: 0.625rem;
+		border-radius: 10px;
 		text-decoration: none;
 		transition:
 			background-color var(--motion),
@@ -504,7 +485,7 @@
 
 	.legend-item:hover,
 	.legend-item.active {
-		background: color-mix(in srgb, var(--node-color) 12%, transparent);
+		background: var(--surface-raised);
 		text-decoration: none;
 	}
 
@@ -513,7 +494,7 @@
 	}
 
 	.legend-item:focus-visible {
-		outline: 2px solid var(--node-color);
+		outline: 2px solid var(--highlight);
 		outline-offset: 1px;
 	}
 
@@ -524,23 +505,30 @@
 		width: 1.25rem;
 		height: 1.25rem;
 		padding: 0;
-		border: 1.5px solid var(--node-color);
+		border: 1.5px solid var(--rule);
 		border-radius: 50%;
-		background: var(--stone-warm);
-		color: var(--node-ink);
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		font-weight: 700;
+		background: var(--surface);
+		color: var(--text-faint);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
 		line-height: 1;
 	}
 
-	/* 12px floor (design-system mono/label size). */
+	.legend-item:hover .legend-badge,
+	.legend-item.active .legend-badge {
+		border-color: var(--highlight);
+		background: var(--accent-deep);
+		color: var(--highlight);
+	}
+
+	/* 12px floor (design-system label size). */
 	.legend-name {
 		max-width: 100%;
 		overflow: hidden;
-		color: var(--ink-bright);
-		font-family: var(--font-display);
-		font-size: 0.75rem;
+		color: var(--text-muted);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		line-height: 1.2;
 		text-overflow: ellipsis;
@@ -548,14 +536,12 @@
 	}
 
 	.type-card {
-		--node-ink: color-mix(in srgb, var(--node-color) 75%, var(--ink-bright));
-
 		box-sizing: border-box;
 		align-self: stretch;
 		padding: 0.75rem 0.875rem;
-		border: 1px solid color-mix(in srgb, var(--node-color) 40%, var(--stone-edge));
-		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--node-color) 7%, var(--stone-warm));
+		border: 1px solid var(--rule);
+		border-radius: 10px;
+		background: var(--surface-raised);
 		opacity: 0;
 		visibility: hidden;
 		pointer-events: none;
@@ -563,8 +549,6 @@
 		transition:
 			opacity var(--motion),
 			transform var(--motion),
-			border-color var(--motion),
-			background-color var(--motion),
 			visibility 0s linear 0.16s;
 	}
 
@@ -574,9 +558,7 @@
 		transform: none;
 		transition:
 			opacity var(--motion),
-			transform var(--motion),
-			border-color var(--motion),
-			background-color var(--motion);
+			transform var(--motion);
 	}
 
 	.card-head {
@@ -594,13 +576,13 @@
 		width: 2rem;
 		height: 2rem;
 		padding: 0;
-		border: 2px solid var(--node-color);
+		border: 1.5px solid var(--highlight);
 		border-radius: 50%;
-		background: var(--stone-warm);
-		color: var(--node-ink);
-		font-family: var(--font-mono);
+		background: var(--accent-deep);
+		color: var(--highlight);
+		font-family: var(--font-talk);
 		font-size: 0.9rem;
-		font-weight: 700;
+		font-weight: 600;
 		line-height: 1;
 	}
 
@@ -611,10 +593,10 @@
 	}
 
 	.card-name {
-		color: var(--ink-bright);
-		font-family: var(--font-display);
+		color: var(--text);
+		font-family: var(--font-talk);
 		font-size: 0.95rem;
-		font-weight: 700;
+		font-weight: 600;
 		line-height: 1.2;
 	}
 
@@ -624,16 +606,16 @@
 	}
 
 	.card-core {
-		color: var(--ink-dim);
-		font-family: var(--font-display);
-		font-size: 0.75rem;
+		color: var(--text-faint);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 500;
 		line-height: 1.3;
 	}
 
 	.card-core strong {
-		color: var(--node-ink);
-		font-weight: 700;
+		color: var(--text);
+		font-weight: 600;
 	}
 
 	.diagram-wrapper .card-description,
@@ -645,16 +627,16 @@
 
 	.diagram-wrapper .card-description {
 		margin-bottom: 0.4rem;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.diagram-wrapper .card-stance {
-		color: var(--ink-bright);
+		color: var(--text-muted);
 	}
 
 	.card-stance strong {
-		color: var(--node-ink);
-		font-weight: 700;
+		color: var(--highlight);
+		font-weight: 600;
 	}
 
 	@media (prefers-reduced-motion: reduce) {

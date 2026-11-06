@@ -1,14 +1,14 @@
 <!-- src/routes/how-to-guides/+page.svelte -->
 <!--
-  /how-to-guides index — Streetlamp Symposium V5.
+  /how-to-guides index — Cold Light (2026-11-06; was Streetlamp Symposium V5).
   Phase 5 page #5c of docs/design/2026-05-04-rollout-plan.md.
 
   Template: src/routes/enneagram-corner/+page.svelte (already migrated).
   Spec: docs/design-system.md §4–§6, /design-preview/v5.
 
   Server load (untouched): returns { posts, featured, recentlyUpdated }.
-  V5 tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-*) live
-  in src/scss/index.scss bridge blocks; this file references them via var(--…).
+  Cold Light tokens (--bg, --surface, --text*, --accent, --highlight) live in
+  src/scss/index.scss; this file references them via var(--…).
 
   Note: most guide posts have no `type` frontmatter, so we drop topic-grouping
   for this index and present a single "All Guides" sub-section under §04.
@@ -149,6 +149,7 @@
 	  ===================================================================== -->
 	<IndexHero
 		title="How-to guides."
+		titleQuiet="guides."
 		line1="Step-by-step playbooks for using the Enneagram in real situations: conflict, dating, work, family."
 		line2={`${publishedCount} guides. Tactical, not theoretical.`}
 		imageSrc="/greek_pantheon.webp"
@@ -156,8 +157,8 @@
 		imageMono="9TAKES · CASE FILES · HOW-TO GUIDES"
 	>
 		{#snippet actions()}
-			<Button size="md" variant="primary" href="#latest">Read Latest Guide</Button>
-			<Button size="md" variant="ghost" href="/enneagram-corner">Learn the Enneagram</Button>
+			<Button size="lg" variant="primary" href="#latest">Read Latest Guide</Button>
+			<Button size="lg" variant="secondary" href="/enneagram-corner">Learn the Enneagram</Button>
 		{/snippet}
 	</IndexHero>
 
@@ -167,14 +168,14 @@
 	{#if data.featured.length > 0}
 		<section class="featured" id="latest">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="02" label="FEATURED" />
+				<SectionKicker tone="dim" class="section-tag" num="02" label="FEATURED" />
 				<h2 class="display-md">Featured guide.</h2>
 				<p class="section-sub">Most recently updated. Worth your full attention.</p>
 			</header>
 
 			<!-- CaseGrid has no single-card mode; the server returns exactly 1 featured
 			     guide, which renders centered at 880px — wrapper kept local. -->
-			<div class="featured-wrap" class:featured-wrap--single={data.featured.length === 1}>
+			<div class={['featured-wrap', { 'featured-wrap--single': data.featured.length === 1 }]}>
 				{#each data.featured as post, i (post.slug)}
 					{@const topic = (post.type?.[0] ?? 'GUIDE').toString().replace(/-/g, ' ').toUpperCase()}
 					<CaseCard
@@ -201,7 +202,7 @@
 	{#if data.recentlyUpdated.length > 0}
 		<section class="recent" id="recent">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="03" label="RECENTLY UPDATED" />
+				<SectionKicker tone="dim" class="section-tag" num="03" label="RECENTLY UPDATED" />
 				<h2 class="display-md">Recently updated.</h2>
 				<p class="section-sub">Fresh playbooks, latest revisions.</p>
 			</header>
@@ -232,7 +233,7 @@
 	{#if remainingPosts.length > 0}
 		<section class="by-topic" id="all-guides">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="04" label="THE LIBRARY" />
+				<SectionKicker tone="dim" class="section-tag" num="04" label="THE LIBRARY" />
 				<h2 class="display-md">More guides.</h2>
 				<p class="section-sub">
 					Everything else worth reading. Pick the situation you&rsquo;re in.
@@ -242,7 +243,7 @@
 			<div class="topic-block">
 				<header class="topic-block-head">
 					<SectionKicker
-						tone="data"
+						tone="dim"
 						num="04a"
 						label="TOPIC · ALL GUIDES"
 						class="topic-block-kicker"
@@ -282,14 +283,14 @@
 	  ===================================================================== -->
 	<section class="cta">
 		<div class="cta-inner">
-			<SectionKicker class="section-tag" num="06" label="START HERE" />
+			<SectionKicker tone="dim" class="section-tag" num="06" label="START HERE" />
 			<h2 class="display-md">Ready to put a guide to work?</h2>
 			<p class="section-sub">
 				Find your type first &mdash; then come back and pick the playbook that fits the situation.
 			</p>
 			<div class="cta-actions">
-				<Button size="md" variant="primary" href="/enneagram-test">Take the Test</Button>
-				<Button size="md" variant="ghost" href="/enneagram-corner">Learn the Basics</Button>
+				<Button size="lg" variant="primary" href="/enneagram-test">Take the Test</Button>
+				<Button size="lg" variant="secondary" href="/enneagram-corner">Learn the Basics</Button>
 			</div>
 		</div>
 	</section>
@@ -297,68 +298,47 @@
 
 <style lang="scss">
 	/* =========================================================
-	  /how-to-guides — Streetlamp Symposium index page.
-	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
-	  --pool-rgb, --pool-deep-rgb) ship globally in src/scss/index.scss.
-	  Local-only overrides scoped to .library-index.
+	  /how-to-guides — Cold Light index page (2026-11-06).
+	  Tokens: --bg / --surface / --surface-raised / --rule / --text*,
+	  --accent (fills), --highlight (lavender). No mono, no amber.
 	  ========================================================= */
 	.library-index {
-		--pool-alpha-strong: 0.28;
-		--pool-alpha-mid: 0.18;
-		--pool-alpha-soft: 0.08;
 		--statue-blend: screen;
 		--grain-opacity: 0.05;
 
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-family: var(--font-display);
+		background: var(--bg);
+		color: var(--text);
+		font-family: var(--font-talk);
 		min-height: 100vh;
 		position: relative;
 		overflow: hidden;
-
-		:global(:root.light) & {
-			--pool-alpha-strong: 0.14;
-			--pool-alpha-mid: 0.08;
-			--pool-alpha-soft: 0.04;
-			--statue-blend: normal;
-			--grain-opacity: 0.025;
-		}
 	}
 
 	/* ---------- shared utilities ---------- */
-	.library-index :global(.mono) {
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--ink-dim);
-	}
-
+	/* Section headings sit under 40px, so they're Archivo semibold, not Anton. */
 	.display-md {
-		font-family: var(--font-display);
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-weight: var(--font-weight-semibold);
 		font-size: clamp(28px, 4vw, 40px);
 		line-height: 1.1;
 		letter-spacing: -0.02em;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 	}
 
 	.display-sm {
-		font-family: var(--font-display);
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-weight: var(--font-weight-semibold);
 		font-size: clamp(22px, 2.6vw, 28px);
 		line-height: 1.18;
 		letter-spacing: -0.015em;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 	}
 
 	.library-index :global(.section-tag) {
 		display: inline-block;
 		margin-bottom: 14px;
-		color: var(--lamp-glow);
 	}
 
 	.library-index :global(p),
@@ -368,7 +348,8 @@
 		margin: 0;
 	}
 
-	.library-index :global(a) {
+	/* Buttons keep their own colors (the mint action needs its dark text). */
+	.library-index :global(a:not(.btn)) {
 		color: inherit;
 		text-decoration: none;
 	}
@@ -384,10 +365,10 @@
 	}
 
 	.section-sub {
-		font-family: var(--font-display);
-		font-size: 17px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-lg);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		max-width: 640px;
 	}
 
@@ -395,14 +376,14 @@
 	/* §01 hero + grain styles live in marketing/IndexHero.svelte (extracted 2026-06-10). */
 
 	/* =========================================================
-	  Section blocks — alternating night-deep / night-mid rhythm
+	  Section blocks — alternating --bg / --surface rhythm
 	  ========================================================= */
 	.featured,
 	.by-topic,
 	.cta {
 		padding: 96px 48px;
-		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
+		background: var(--bg);
+		border-top: 1px solid var(--rule);
 
 		@media (max-width: 768px) {
 			padding: 64px 20px;
@@ -412,8 +393,8 @@
 	.recent,
 	.faq {
 		padding: 96px 48px;
-		background: var(--night-mid);
-		border-top: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border-top: 1px solid var(--rule);
 
 		@media (max-width: 768px) {
 			padding: 64px 20px;
@@ -483,7 +464,7 @@
 		align-items: center;
 		gap: 10px;
 		padding-bottom: 18px;
-		border-bottom: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--rule);
 		position: relative;
 
 		&::after {
@@ -493,21 +474,17 @@
 			bottom: -1px;
 			width: 80px;
 			height: 2px;
-			background: var(--data-teal);
+			background: var(--accent);
 			transform: translateX(-50%);
 			border-radius: 9999px;
 		}
 	}
 
-	.library-index :global(.topic-block-kicker) {
-		color: var(--data-teal);
-	}
-
 	.topic-block-sub {
-		font-family: var(--font-display);
-		font-size: 15px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		max-width: 580px;
 	}
 

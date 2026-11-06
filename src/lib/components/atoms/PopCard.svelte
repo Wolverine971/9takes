@@ -367,11 +367,11 @@
 </div>
 
 <style lang="scss">
-	// Shared glass effect mixin
-	@mixin glass($bg-opacity: 0.3, $blur: 8px, $border-opacity: 0.2) {
-		background-color: rgba(0, 0, 0, $bg-opacity);
+	// Shared glass effect mixin (Cold Light: a --bg scrim with a lavender-white edge)
+	@mixin glass($bg-opacity: 30%, $blur: 8px, $border-opacity: 20%) {
+		background-color: color-mix(in srgb, var(--bg) $bg-opacity, transparent);
 		backdrop-filter: blur($blur);
-		border: 1px solid rgba(255, 255, 255, $border-opacity);
+		border: 1px solid color-mix(in srgb, var(--text) $border-opacity, transparent);
 	}
 
 	@keyframes pan-overlay {
@@ -409,16 +409,16 @@
 		overflow: hidden;
 		margin: 1rem auto;
 		max-width: 100%;
-		border: 2px solid var(--lamp-glow);
+		border: 1px solid var(--rule);
 		border-radius: var(--border-radius-lg);
-		background-color: var(--lamp-soft);
+		background-color: var(--surface);
 		box-shadow: var(--shadow-sm);
 		transition: var(--transition-glow);
 
 		&:hover {
 			transform: none;
-			border-color: var(--lamp-glow);
-			box-shadow: var(--glow-md);
+			border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+			box-shadow: 0 0 20px color-mix(in srgb, var(--accent) 35%, transparent);
 
 			.image-card__content {
 				backdrop-filter: blur(5px);
@@ -426,7 +426,7 @@
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--focus);
 			outline-offset: 2px;
 		}
 	}
@@ -444,8 +444,8 @@
 		width: 100%;
 		height: 100%;
 		background: linear-gradient(
-			var(--lamp-soft),
-			var(--lamp-soft) 3px,
+			color-mix(in srgb, var(--accent) 10%, transparent),
+			color-mix(in srgb, var(--accent) 10%, transparent) 3px,
 			transparent 3px,
 			transparent 9px
 		);
@@ -484,15 +484,15 @@
 		min-width: 32px;
 		max-width: 48px;
 		margin-top: 1rem;
-		filter: drop-shadow(0 0 0.5rem white);
+		filter: drop-shadow(0 0 0.5rem var(--text));
 	}
 
 	.image-card-base.personality-portrait-well {
 		background-color: var(--personality-portrait-well);
-		border-color: var(--stone-edge);
+		border-color: var(--rule);
 
 		&:hover {
-			border-color: var(--stone-edge);
+			border-color: var(--rule);
 			box-shadow: var(--shadow-md);
 		}
 	}
@@ -517,7 +517,7 @@
 		border-radius: inherit;
 		opacity: 0;
 		backdrop-filter: blur(0);
-		background: rgba(0, 0, 0, 0);
+		background: transparent;
 		transition:
 			opacity 0.3s ease,
 			backdrop-filter 0.4s ease,
@@ -535,7 +535,7 @@
 		&--visible {
 			opacity: 1;
 			backdrop-filter: blur(6px);
-			background: rgba(12, 10, 9, 0.7);
+			background: color-mix(in srgb, var(--bg) 70%, transparent);
 			pointer-events: auto;
 
 			.spec-hud {
@@ -554,8 +554,8 @@
 			0deg,
 			transparent,
 			transparent 2px,
-			rgba(255, 255, 255, 0.015) 2px,
-			rgba(255, 255, 255, 0.015) 4px
+			color-mix(in srgb, var(--text) 1.5%, transparent) 2px,
+			color-mix(in srgb, var(--text) 1.5%, transparent) 4px
 		);
 		border-radius: inherit;
 	}
@@ -596,7 +596,7 @@
 
 	// Title with glass effect - min-height prevents CLS during font loading
 	.image-card__title {
-		@include glass(0.3, 8px, 0.2);
+		@include glass(30%, 8px, 20%);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -604,15 +604,15 @@
 		padding: 0.75rem;
 		margin: 0;
 		border-radius: 1rem;
-		color: white;
-		font-family: var(--font-family, sans-serif);
+		color: var(--text);
+		font-family: var(--font-talk);
 		font-size: 1.5rem; // fallback where cqi is unsupported
 		font-size: clamp(1.25rem, 8.5cqi, 2rem);
 		font-weight: 400;
 		// Explicit: inside a post this otherwise inherits the article's 1.7 body leading.
 		line-height: 1.15;
 		letter-spacing: 0.05em;
-		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+		text-shadow: 2px 2px 4px color-mix(in srgb, var(--bg) 60%, transparent);
 		text-transform: uppercase;
 		text-wrap: balance;
 
@@ -634,24 +634,24 @@
 		}
 	}
 
-	// Tech spec HUD panel
+	// Spec HUD panel. Cold Light has no mono face: labels are Archivo uppercase.
 	.spec-hud {
 		position: relative;
-		font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
-		color: rgba(255, 255, 255, 0.9);
+		font-family: var(--font-talk);
+		color: var(--text);
 		padding: 1.25rem 1.5rem;
 		margin: 1rem;
 		max-width: 92%;
 		text-align: left;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 40%, transparent);
-		background: rgba(12, 10, 9, 0.5);
+		border: 1px solid color-mix(in srgb, var(--accent) 50%, transparent);
+		background: color-mix(in srgb, var(--bg) 50%, transparent);
 
 		// Corner bracket accents
 		&__corner {
 			position: absolute;
 			width: 12px;
 			height: 12px;
-			border-color: color-mix(in srgb, var(--lamp-glow) 80%, transparent);
+			border-color: color-mix(in srgb, var(--highlight) 80%, transparent);
 			border-style: solid;
 
 			&--tl {
@@ -682,21 +682,24 @@
 			align-items: center;
 			margin-bottom: 0.75rem;
 			padding-bottom: 0.5rem;
-			border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
+			border-bottom: 1px solid var(--rule);
 		}
 
 		&__label {
 			font-size: clamp(0.6rem, 1.8vw, 0.7rem);
-			letter-spacing: 0.15em;
-			color: var(--lamp-glow);
+			font-weight: 600;
+			letter-spacing: 0.08em;
+			color: var(--text-faint);
 			text-transform: uppercase;
 		}
 
 		&__type-badge {
 			font-size: clamp(0.6rem, 1.8vw, 0.7rem);
-			letter-spacing: 0.1em;
-			color: var(--lamp-glow);
-			border: 1px solid color-mix(in srgb, var(--lamp-glow) 50%, transparent);
+			letter-spacing: 0.08em;
+			color: var(--highlight);
+			background: var(--accent-deep);
+			border: 1px solid color-mix(in srgb, var(--highlight) 50%, transparent);
+			border-radius: 4px;
 			padding: 0.15rem 0.5rem;
 			font-weight: 700;
 		}
@@ -706,8 +709,8 @@
 			background: linear-gradient(
 				90deg,
 				transparent,
-				color-mix(in srgb, var(--lamp-glow) 30%, transparent) 20%,
-				color-mix(in srgb, var(--lamp-glow) 30%, transparent) 80%,
+				color-mix(in srgb, var(--accent) 40%, transparent) 20%,
+				color-mix(in srgb, var(--accent) 40%, transparent) 80%,
 				transparent
 			);
 			margin: 0.4rem 0;
@@ -723,19 +726,23 @@
 			&--highlight {
 				margin-top: 0.25rem;
 				.spec-hud__key {
-					color: var(--lamp-glow);
+					color: var(--highlight);
 				}
+				// The emotional stance is the inner-voice line: Playfair italic lavender.
 				.spec-hud__val {
+					font-family: var(--font-voice);
 					font-style: italic;
-					color: rgba(255, 255, 255, 0.8);
+					color: var(--highlight);
 				}
 			}
 		}
 
 		&__key {
 			font-size: clamp(0.55rem, 1.6vw, 0.65rem);
-			letter-spacing: 0.1em;
-			color: var(--lamp-glow);
+			font-weight: 600;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--text-faint);
 			white-space: nowrap;
 			flex-shrink: 0;
 			padding-top: 0.1rem;
@@ -743,7 +750,7 @@
 
 		&__val {
 			font-size: clamp(0.75rem, 2.2vw, 0.9rem);
-			color: rgba(255, 255, 255, 0.9);
+			color: var(--text);
 			font-weight: 500;
 			text-wrap: pretty;
 		}

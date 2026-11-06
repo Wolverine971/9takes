@@ -1,14 +1,14 @@
 <!-- src/routes/pop-culture/+page.svelte -->
 <!--
-  /pop-culture index — Streetlamp Symposium V5.
+  /pop-culture index — Cold Light (2026-11-06; was Streetlamp Symposium V5).
   Phase 5 page #5d of docs/design/2026-05-04-rollout-plan.md.
 
   Template: src/routes/enneagram-corner/+page.svelte (already migrated).
   Spec: docs/design-system.md §4–§6, /design-preview/v5.
 
   Server load returns { popCultureBlogs, featured, recentlyUpdated, categoryGroups }.
-  V5 tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-*) live
-  in src/scss/index.scss bridge blocks; this file references them via var(--…).
+  Cold Light tokens (--bg, --surface, --text*, --accent, --highlight) live in
+  src/scss/index.scss; this file references them via var(--…).
 
   Pop-culture posts are organized by the `popCulture` frontmatter object:
   category -> subcategory -> optional series. The index groups by that taxonomy
@@ -151,6 +151,7 @@
 	  ===================================================================== -->
 	<IndexHero
 		title="Pop culture, decoded."
+		titleQuiet="decoded."
 		line1="Movies, shows, fictional characters, and public moments, all read through the 9 emotional patterns."
 		line2={`${publishedCount} reads. The patterns you didn’t see coming.`}
 		imageSrc="/greek_distorted_statue_face.webp"
@@ -158,8 +159,8 @@
 		imageMono="9TAKES · CASE FILES · POP CULTURE"
 	>
 		{#snippet actions()}
-			<Button size="md" variant="primary" href="#latest">Start with Latest</Button>
-			<Button size="md" variant="ghost" href="#all-analyses">Browse All Analyses</Button>
+			<Button size="lg" variant="primary" href="#latest">Start with Latest</Button>
+			<Button size="lg" variant="secondary" href="#all-analyses">Browse All Analyses</Button>
 		{/snippet}
 	</IndexHero>
 
@@ -169,7 +170,7 @@
 	{#if data.featured.length > 0}
 		<section class="featured" id="latest">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="02" label="FEATURED" />
+				<SectionKicker tone="dim" class="section-tag" num="02" label="FEATURED" />
 				<h2 class="display-md">Featured.</h2>
 				<p class="section-sub">Most recently updated. Worth your full attention.</p>
 			</header>
@@ -177,7 +178,7 @@
 			<!-- Kept local (not CaseGrid): single-featured layout centers one card at
 			     880px — CaseGrid columns={2} has no single-card mode, and the server
 			     returns exactly 1 featured post here. Cards are the shared atom. -->
-			<div class="featured-grid" class:featured-grid--single={data.featured.length === 1}>
+			<div class={['featured-grid', { 'featured-grid--single': data.featured.length === 1 }]}>
 				{#each data.featured as post, i (post.slug)}
 					{@const topic = getTopicLabel(post).toUpperCase()}
 					<CaseCard
@@ -204,7 +205,7 @@
 	{#if data.recentlyUpdated.length > 0}
 		<section class="recent" id="recent">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="03" label="RECENTLY UPDATED" />
+				<SectionKicker tone="dim" class="section-tag" num="03" label="RECENTLY UPDATED" />
 				<h2 class="display-md">Recently updated.</h2>
 				<p class="section-sub">Fresh analyses, latest revisions.</p>
 			</header>
@@ -233,7 +234,7 @@
 	{#if data.categoryGroups.length > 0}
 		<section class="by-topic" id="all-analyses">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="04" label="BY TOPIC" />
+				<SectionKicker tone="dim" class="section-tag" num="04" label="BY TOPIC" />
 				<h2 class="display-md">By topic.</h2>
 				<p class="section-sub">Choose a cluster and read the pieces that belong together.</p>
 			</header>
@@ -242,7 +243,7 @@
 				<div class="topic-block" id={group.category.slug}>
 					<header class="topic-block-head">
 						<SectionKicker
-							tone="data"
+							tone="dim"
 							num={`04${topicSuffix(gi)}`}
 							label={`CATEGORY · ${group.category.title.toUpperCase()}`}
 							class="topic-block-kicker"
@@ -256,11 +257,11 @@
 							<div class="subcategory-block" id={subcategoryGroup.subcategory.slug}>
 								<header class="subcategory-head">
 									<div>
-										<p class="mono subcategory-label">SUBCATEGORY</p>
+										<p class="index-label subcategory-label">SUBCATEGORY</p>
 										<h4>{subcategoryGroup.subcategory.title}</h4>
 										<p>{subcategoryGroup.subcategory.descriptor}</p>
 									</div>
-									<span class="mono subcategory-count">
+									<span class="index-label subcategory-count">
 										{subcategoryGroup.posts.length}
 										{subcategoryGroup.posts.length === 1 ? 'READ' : 'READS'}
 									</span>
@@ -310,15 +311,15 @@
 	  ===================================================================== -->
 	<section class="cta">
 		<div class="cta-inner">
-			<SectionKicker class="section-tag" num="06" label="GO DEEPER" />
+			<SectionKicker tone="dim" class="section-tag" num="06" label="GO DEEPER" />
 			<h2 class="display-md">Dive deeper into personality.</h2>
 			<p class="section-sub">
 				Explore how the Enneagram reveals hidden patterns in pop culture, from criminal minds to
 				creative genius.
 			</p>
 			<div class="cta-actions">
-				<Button size="md" variant="primary" href="/enneagram-corner">Learn the Enneagram</Button>
-				<Button size="md" variant="ghost" href="/personality-analysis">Famous People</Button>
+				<Button size="lg" variant="primary" href="/enneagram-corner">Learn the Enneagram</Button>
+				<Button size="lg" variant="secondary" href="/personality-analysis">Famous People</Button>
 			</div>
 		</div>
 	</section>
@@ -326,68 +327,57 @@
 
 <style lang="scss">
 	/* =========================================================
-	  /pop-culture — Streetlamp Symposium index page.
-	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
-	  --pool-rgb, --pool-deep-rgb) ship globally in src/scss/index.scss.
-	  Local-only overrides scoped to .library-index.
+	  /pop-culture — Cold Light index page (2026-11-06).
+	  Tokens: --bg / --surface / --surface-raised / --rule / --text*,
+	  --accent (fills), --highlight (lavender). No mono, no amber.
 	  ========================================================= */
 	.library-index {
-		--pool-alpha-strong: 0.28;
-		--pool-alpha-mid: 0.18;
-		--pool-alpha-soft: 0.08;
 		--statue-blend: screen;
 		--grain-opacity: 0.05;
 
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-family: var(--font-display);
+		background: var(--bg);
+		color: var(--text);
+		font-family: var(--font-talk);
 		min-height: 100vh;
 		position: relative;
 		overflow: hidden;
-
-		:global(:root.light) & {
-			--pool-alpha-strong: 0.14;
-			--pool-alpha-mid: 0.08;
-			--pool-alpha-soft: 0.04;
-			--statue-blend: normal;
-			--grain-opacity: 0.025;
-		}
 	}
 
 	/* ---------- shared utilities ---------- */
-	.library-index :global(.mono) {
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
+	/* Labels: Archivo uppercase, letter-spaced, faint. No mono in Cold Light. */
+	.index-label {
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
+	/* Section headings sit under 40px, so they're Archivo semibold, not Anton. */
 	.display-md {
-		font-family: var(--font-display);
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-weight: var(--font-weight-semibold);
 		font-size: clamp(28px, 4vw, 40px);
 		line-height: 1.1;
 		letter-spacing: -0.02em;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 	}
 
 	.display-sm {
-		font-family: var(--font-display);
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-weight: var(--font-weight-semibold);
 		font-size: clamp(22px, 2.6vw, 28px);
 		line-height: 1.18;
 		letter-spacing: -0.015em;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 	}
 
 	.library-index :global(.section-tag) {
 		display: inline-block;
 		margin-bottom: 14px;
-		color: var(--lamp-glow);
 	}
 
 	.library-index :global(p),
@@ -397,7 +387,8 @@
 		margin: 0;
 	}
 
-	.library-index :global(a) {
+	/* Buttons keep their own colors (the mint action needs its dark text). */
+	.library-index :global(a:not(.btn)) {
 		color: inherit;
 		text-decoration: none;
 	}
@@ -413,10 +404,10 @@
 	}
 
 	.section-sub {
-		font-family: var(--font-display);
-		font-size: 17px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-lg);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		max-width: 640px;
 	}
 
@@ -424,14 +415,14 @@
 	/* §01 hero + grain styles live in marketing/IndexHero.svelte (extracted 2026-06-10). */
 
 	/* =========================================================
-	  Section blocks — alternating night-deep / night-mid rhythm
+	  Section blocks — alternating --bg / --surface rhythm
 	  ========================================================= */
 	.featured,
 	.by-topic,
 	.cta {
 		padding: 96px 48px;
-		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
+		background: var(--bg);
+		border-top: 1px solid var(--rule);
 
 		@media (max-width: 768px) {
 			padding: 64px 20px;
@@ -440,8 +431,8 @@
 
 	.recent {
 		padding: 96px 48px;
-		background: var(--night-mid);
-		border-top: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border-top: 1px solid var(--rule);
 
 		@media (max-width: 768px) {
 			padding: 64px 20px;
@@ -505,7 +496,7 @@
 		align-items: center;
 		gap: 10px;
 		padding-bottom: 18px;
-		border-bottom: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--rule);
 		position: relative;
 
 		&::after {
@@ -515,21 +506,17 @@
 			bottom: -1px;
 			width: 80px;
 			height: 2px;
-			background: var(--data-teal);
+			background: var(--accent);
 			transform: translateX(-50%);
 			border-radius: 9999px;
 		}
 	}
 
-	.library-index :global(.topic-block-kicker) {
-		color: var(--data-teal);
-	}
-
 	.topic-block-sub {
-		font-family: var(--font-display);
-		font-size: 15px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		max-width: 580px;
 	}
 
@@ -550,22 +537,22 @@
 		gap: 24px;
 		margin-bottom: 18px;
 		padding: 18px 0 14px;
-		border-bottom: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--rule);
 
 		h4 {
-			font-family: var(--font-display);
+			font-family: var(--font-talk);
 			font-size: 22px;
 			line-height: 1.2;
-			color: var(--ink-bright);
+			color: var(--text);
 			margin: 0 0 6px;
 			letter-spacing: 0;
 		}
 
-		p:not(.mono) {
-			font-family: var(--font-display);
-			font-size: 14px;
+		p:not(.index-label) {
+			font-family: var(--font-talk);
+			font-size: var(--font-size-sm);
 			line-height: 1.5;
-			color: var(--ink-mid);
+			color: var(--text-muted);
 			margin: 0;
 			max-width: 620px;
 		}
@@ -581,12 +568,10 @@
 	}
 
 	.subcategory-label {
-		color: var(--data-teal);
 		margin-bottom: 8px;
 	}
 
 	.subcategory-count {
-		color: var(--lamp-glow);
 		white-space: nowrap;
 		padding-top: 2px;
 	}

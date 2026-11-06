@@ -107,17 +107,20 @@
 		width: 100%;
 		margin: 0 0 0.95rem;
 		padding-top: 0.55rem;
-		border-top: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
 	}
 
-	.famous-types__heading {
+	/* Cold Light label: Archivo uppercase, letter-spaced, faint. Anchored to the
+	   wrapper so the article's h3 rules don't restyle it. */
+	.famous-types .famous-types__heading {
 		margin: 0 0 0.35rem;
-		font-size: 0.82rem;
-		line-height: 1.25;
-		font-weight: 700;
-		letter-spacing: 0.04em;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		line-height: 1.3;
+		font-weight: 600;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--ink-bright);
+		color: var(--text-faint);
 	}
 
 	.famous-types__list {
@@ -126,7 +129,8 @@
 		margin: 0;
 		columns: 11rem auto;
 		column-gap: 1rem;
-		font-size: 0.95rem;
+		font-size: var(--font-size-base);
+		color: var(--text-muted);
 	}
 
 	.famous-types__list li {
@@ -137,18 +141,15 @@
 
 	.famous-types__all {
 		margin: 0.25rem 0 1rem;
-		font-size: 0.95rem;
+		font-size: var(--font-size-base);
 		font-weight: 600;
 	}
 
-	.famous-types__all a {
-		color: var(--ink-bright);
-		text-decoration-thickness: 0.08em;
-		text-underline-offset: 0.18em;
-	}
-
+	/* Links are lavender and always underlined. */
+	.famous-types__all a,
 	.famous-types__list a {
-		color: inherit;
+		color: var(--highlight);
+		text-decoration: underline;
 		text-decoration-thickness: 0.08em;
 		text-underline-offset: 0.18em;
 	}

@@ -60,7 +60,7 @@
 	id="popCultureArticle"
 	{@attach trackArticleHtml((html) => (tocContent = html))}
 >
-	<div class="article-header" class:dark-theme={isDarkContent}>
+	<div class={['article-header', { 'dark-theme': isDarkContent }]}>
 		<BlogPageHead data={data.frontmatter} slug={`pop-culture/${data.slug}`} />
 
 		{#if isDarkContent}
@@ -83,11 +83,11 @@
 	</div>
 
 	{#if data?.frontmatter?.picGroup}
-		<div class="featured-image" class:dark-image={isDarkContent}>
+		<div class={['featured-image', { 'dark-image': isDarkContent }]}>
 			<PopCardGroup people={data.frontmatter.picGroup} lazyLoad={!data.frontmatter.eagerPicGroup} />
 		</div>
 	{:else if data?.frontmatter?.pic}
-		<div class="featured-image" class:dark-image={isDarkContent}>
+		<div class={['featured-image', { 'dark-image': isDarkContent }]}>
 			<PopCard
 				priority
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
@@ -117,7 +117,7 @@
 		<div class="related-grid">
 			{#if bridges}
 				<a href={`/enneagram-corner/enneagram-type-${bridges.type}`} class="related-card">
-					<span class="card-icon">○</span>
+					<span class="card-icon" aria-hidden="true">○</span>
 					<h3>{TYPE_PILLAR_LABELS[bridges.type]}</h3>
 					<p>The pillar profile for the type at the center of this analysis.</p>
 					<span class="card-link">Read the type pillar →</span>
@@ -127,7 +127,7 @@
 						href={`/enneagram-corner/enneagram-type-${bridges.secondaryType}`}
 						class="related-card"
 					>
-						<span class="card-icon">◐</span>
+						<span class="card-icon" aria-hidden="true">◐</span>
 						<h3>{TYPE_PILLAR_LABELS[bridges.secondaryType]}</h3>
 						<p>The other type driving this dynamic. Read it side-by-side.</p>
 						<span class="card-link">Read the type pillar →</span>
@@ -135,27 +135,27 @@
 				{/if}
 				{#if bridgeCategory}
 					<a href={`/personality-analysis/categories/${bridgeCategory.slug}`} class="related-card">
-						<span class="card-icon">◯</span>
+						<span class="card-icon" aria-hidden="true">◯</span>
 						<h3>{bridgeCategory.label} profiles</h3>
 						<p>Real-people personality breakdowns inside this same category.</p>
 						<span class="card-link">Browse profiles →</span>
 					</a>
 				{/if}
 				<a href={`/corpus-stats#domain-${bridges.corpusAnchor}`} class="related-card">
-					<span class="card-icon">▦</span>
+					<span class="card-icon" aria-hidden="true">▦</span>
 					<h3>Corpus stats: {bridgeCategory?.shortLabel ?? bridges.corpusAnchor}</h3>
 					<p>The actual type distribution in this domain across the 9takes corpus.</p>
 					<span class="card-link">See the data →</span>
 				</a>
 			{:else}
 				<a href="/pop-culture#dark-psychology" class="related-card">
-					<span class="card-icon">🎭</span>
+					<span class="card-icon" aria-hidden="true">◆</span>
 					<h3>Dark Psychology</h3>
 					<p>Explore the shadow side of personality through famous cases.</p>
 					<span class="card-link">View Articles →</span>
 				</a>
 				<a href="/pop-culture#celebrity-analysis" class="related-card">
-					<span class="card-icon">⭐</span>
+					<span class="card-icon" aria-hidden="true">✦</span>
 					<h3>Celebrity Analysis</h3>
 					<p>Deep dives into the personalities of public figures.</p>
 					<span class="card-link">View Articles →</span>
@@ -185,12 +185,11 @@
 {/key}
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme - Pop Culture Article */
-	/* Body reads in --ink-bright (ratified 2026-06-09, design-system.md §6) —
-	   this page previously used legacy --neutral-700, one of three different
-	   body colors shipping across the blog sections. */
+	/* Pop Culture article (Cold Light). Body copy is --text-muted, headings and
+	   strong are --text. Links, blockquotes and tables come from blog.scss,
+	   which styles `.pop-culture-article .article-content` like `.blog`. */
 	.pop-culture-article {
-		color: var(--ink-bright);
+		color: var(--text-muted);
 	}
 
 	.article-header {
@@ -198,32 +197,32 @@
 
 		&.dark-theme {
 			padding: 2rem;
-			background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+			background: linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%);
 			border-radius: 1rem;
-			border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
-			color: var(--ink-bright);
+			border: 1px solid var(--rule);
+			color: var(--text);
 
 			:global(h1) {
-				color: var(--ink-bright) !important;
+				color: var(--text);
 			}
 
 			:global(.article-subtitle) {
-				color: var(--ink-mid) !important;
+				color: var(--text-muted);
 			}
 		}
 	}
 
 	.content-warning {
-		background: rgba(239, 68, 68, 0.15);
-		border: 2px solid #ef4444;
+		background: var(--error-light);
+		border: 1px solid var(--error);
 		border-radius: 0.625rem;
 		padding: 1rem;
 		margin-bottom: 1.5rem;
-		color: #f87171;
-		font-size: 0.95rem;
+		color: var(--error-text);
+		font-size: var(--font-size-sm);
 
 		strong {
-			color: #fca5a5;
+			color: var(--text);
 		}
 	}
 
@@ -233,15 +232,19 @@
 		flex-wrap: wrap;
 		margin-top: 1rem;
 
+		/* Tags are metadata: Archivo uppercase labels on a hairline ring. */
 		.tag {
 			display: inline-block;
-			padding: 0.25rem 0.75rem;
-			background: var(--lamp-soft);
-			color: var(--lamp-glow);
-			border-radius: 9999px;
-			font-size: 0.85rem;
-			font-weight: 500;
-			border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, var(--stone-edge));
+			padding: 0.3rem 0.75rem;
+			background: transparent;
+			color: var(--text-faint);
+			border-radius: 999px;
+			font-family: var(--font-talk);
+			font-size: var(--font-size-xs);
+			font-weight: 600;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			border: 1px solid var(--rule);
 		}
 	}
 
@@ -262,15 +265,15 @@
 		   .blog and the dossier .article-body. */
 		max-width: var(--prose-measure);
 		margin-inline: auto;
-		font-size: 1.125rem;
+		font-size: var(--font-size-lg);
 		margin-bottom: 2rem;
 		line-height: 1.7;
-		color: var(--ink-bright);
+		color: var(--text-muted);
 
 		:global(h2) {
 			font-size: 1.75rem;
 			font-weight: 600;
-			color: var(--ink-bright);
+			color: var(--text);
 			margin-top: 2rem;
 			margin-bottom: 1rem;
 			padding-top: 1rem;
@@ -280,7 +283,7 @@
 		:global(h3) {
 			font-size: 1.35rem;
 			font-weight: 600;
-			color: var(--ink-bright);
+			color: var(--text);
 			margin-top: 1.5rem;
 			margin-bottom: 0.75rem;
 			line-height: 1.35;
@@ -289,7 +292,7 @@
 		:global(h4) {
 			font-size: 1.15rem;
 			font-weight: 600;
-			color: var(--ink-bright);
+			color: var(--text);
 			margin-top: 1.25rem;
 			margin-bottom: 0.5rem;
 			line-height: 1.4;
@@ -300,14 +303,12 @@
 			   in index.scss would otherwise pin paragraphs to 16px. */
 			font-size: inherit;
 			margin-bottom: 1.2rem;
-			color: var(--ink-bright);
 		}
 
 		:global(ul),
 		:global(ol) {
 			margin: 1rem 0;
 			padding-left: 1.5rem;
-			color: var(--ink-bright);
 		}
 
 		:global(li) {
@@ -315,48 +316,21 @@
 			line-height: 1.6;
 		}
 
-		:global(a) {
-			color: var(--lamp-glow);
-			text-decoration: none;
-			transition: color 0.2s ease;
-
-			&:hover {
-				color: var(--lamp-glow);
-				text-decoration: underline;
-			}
-		}
-
-		:global(blockquote) {
-			margin: 1.5rem 0;
-			padding: 1rem 1.5rem;
-			border-left: 4px solid var(--lamp-glow);
-			background-color: var(--stone-warm);
-			font-style: italic;
-			color: var(--ink-mid);
-			border-radius: 0 0.625rem 0.625rem 0;
-		}
-
-		:global(blockquote p) {
-			margin-bottom: 0;
-			color: var(--ink-mid);
-		}
-
 		:global(strong) {
 			font-weight: 600;
-			color: var(--ink-bright);
 		}
 
 		:global(code) {
-			background-color: var(--stone-warm);
-			color: var(--lamp-glow);
+			background-color: var(--surface);
+			color: var(--highlight);
 			padding: 0.2rem 0.4rem;
 			border-radius: 4px;
 			font-size: 0.9em;
 		}
 
 		:global(pre) {
-			background-color: var(--night-deep);
-			border: 1px solid var(--stone-edge);
+			background-color: var(--bg);
+			border: 1px solid var(--rule);
 			border-radius: 0.625rem;
 			padding: 1rem;
 			overflow-x: auto;
@@ -371,16 +345,17 @@
 	.related-content {
 		margin-top: 3rem;
 		padding: 2.5rem;
-		background: var(--stone-warm);
+		background: var(--surface);
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
+		border: 1px solid var(--rule);
 
 		.related-eyebrow {
+			font-family: var(--font-talk);
 			text-transform: uppercase;
-			font-size: 0.75rem;
-			font-weight: 700;
-			letter-spacing: 0.1em;
-			color: var(--lamp-glow);
+			font-size: var(--font-size-xs);
+			font-weight: 600;
+			letter-spacing: 0.08em;
+			color: var(--text-faint);
 			text-align: center;
 			margin-bottom: 0.25rem;
 		}
@@ -390,7 +365,7 @@
 			font-weight: 600;
 			margin-bottom: 1.5rem;
 			text-align: center;
-			color: var(--ink-bright);
+			color: var(--text);
 		}
 
 		.related-grid {
@@ -403,9 +378,9 @@
 			display: flex;
 			flex-direction: column;
 			padding: 1.5rem;
-			background: var(--lamp-soft);
+			background: var(--surface-raised);
 			border-radius: 0.625rem;
-			border: 1px solid var(--stone-edge);
+			border: 1px solid var(--rule);
 			text-decoration: none;
 			color: inherit;
 			transition:
@@ -414,39 +389,44 @@
 				transform 0.2s ease;
 
 			&:hover {
-				border-color: color-mix(in srgb, var(--lamp-glow) 50%, var(--stone-edge));
-				background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
+				border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+				background: color-mix(in srgb, var(--accent) 12%, var(--surface-raised));
 				transform: translateY(-2px);
 
 				.card-link {
-					color: var(--lamp-glow);
+					color: var(--text);
 				}
 			}
 
 			.card-icon {
 				font-size: 1.75rem;
 				margin-bottom: 0.75rem;
+				color: var(--text-faint);
 			}
 
 			h3 {
-				font-size: 1.1rem;
+				font-size: var(--font-size-lg);
 				font-weight: 600;
 				margin-bottom: 0.5rem;
-				color: var(--ink-bright);
+				color: var(--text);
 			}
 
 			p {
-				font-size: 0.9rem;
+				font-size: var(--font-size-sm);
 				line-height: 1.5;
-				color: var(--ink-mid);
+				color: var(--text-muted);
 				margin-bottom: 1rem;
 				flex: 1;
 			}
 
+			/* Reads as the card's link: lavender, underlined. */
 			.card-link {
-				font-size: 0.85rem;
+				font-size: var(--font-size-sm);
 				font-weight: 600;
-				color: var(--lamp-glow);
+				color: var(--highlight);
+				text-decoration: underline;
+				text-decoration-thickness: 1px;
+				text-underline-offset: 3px;
 				transition: color 0.2s ease;
 			}
 		}
@@ -455,15 +435,15 @@
 	.section-divider {
 		margin: 5rem 0;
 		border: 0;
-		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		border-top: 1px solid var(--rule);
 	}
 
 	.join {
 		margin-top: 2rem;
 		padding: 2rem;
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+		background: var(--surface);
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
+		border: 1px solid var(--rule);
 	}
 
 	/* Mobile-specific styles */
@@ -528,7 +508,7 @@
 			padding: 1.5rem;
 
 			h2 {
-				font-size: 1.25rem;
+				font-size: var(--font-size-xl);
 			}
 
 			.related-grid {

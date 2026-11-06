@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "4a2356170694ae8b3ac178b28061e2a4275d58c0915c62614d10fcdabd31a45f",
+  "evidence_sha256": "4ee2565cbfb00bca669a6beaf0340ea841bf7678b6b77164bba6526fd99c36da",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-1",
+      "severity": "major",
+      "passage": "He also confirmed that he had objected to Travis Scott joining Maroon 5's halftime set earlier that year, and said it had nothing to do with Colin Kaepernick: \"I didn't see any reason for him to play second fiddle to anyone that year.\"",
+      "problem": "The draft never tells the reader who Colin Kaepernick is, that he knelt during the national anthem to protest police violence, or that he had been out of the league since 2017. The article calls the 2019 NFL deal 'the strongest case against' the Eight reading, and later quotes 'I think we've moved past kneeling' and Eric Reid's criticism. A reader who does not already know the protest, or who reads this in five years, cannot see why the deal was costly or contested. Without that, the main counterargument has no stakes.",
+      "acceptance_test": "At the first mention of Kaepernick, one sourced clause says who he is, what the kneeling protest was, and that no team had signed him since 2017 (dated). A cold reader can then explain, from the article alone, why critics objected to the 2019 deal."
+    },
+    {
+      "id": "unfamiliar-2",
+      "severity": "major",
+      "passage": "Achievers usually want the biggest stage. What he refused in 2019 was the audition: being one of four names waiting to be chosen.",
+      "problem": "The hook presents the halftime refusal as evidence for the 'something he counts as his' side of the question it poses. The quotes it rests on are just as easy to read as rank and image: he disliked being one of four artists who each 'thinks they're playing the Super Bowl', and he objected to Travis Scott playing 'second fiddle to anyone'. Both are status language. The article later admits the 2026 acceptance cannot settle the question, but never admits the 2019 refusal is also ambiguous. A careful reader who notices 'second fiddle' feels the opening was set up to win the argument, and that weakens trust in the evidence that comes after it.",
+      "acceptance_test": "Either the opening or 'What separates them' says in one or two sentences that the 2019 refusal and the 'second fiddle' remark also fit a status reading, and explains why the profile still counts them, or stops counting them, toward the Eight case. 'The second test' paragraph no longer implies the halftime refusal was given purely as protection or control unless a quoted reason supports that."
+    },
+    {
+      "id": "unfamiliar-3",
+      "severity": "minor",
+      "passage": "## The record he does not narrate",
+      "problem": "The heading contradicts the section. The section quotes Decoded calling the stabbing 'a mindless assault' and quotes his February 2025 statement calling the claims 'frivolous, fictitious and appalling.' He narrates both matters, briefly and on his own terms. A reader who notices this starts doubting the headings elsewhere. The section also sits between 'What separates them' and 'Where the Type 8 reading strains', which breaks up the type argument right where it should build.",
+      "acceptance_test": "The heading describes what the section actually contains (for example, the disputed record). Either the section moves so the Type 3 case, the discriminator and the strains read in sequence, or a single line at its start tells the reader why it interrupts the type argument there."
+    },
+    {
+      "id": "unfamiliar-4",
+      "severity": "minor",
+      "passage": "The usual picture of Jay-Z is hip-hop's great achiever: the Brooklyn dealer who became, by Forbes' June 2019 estimate, the first hip-hop artist with a fortune of $1 billion",
+      "problem": "Orientation is thin for a reader who knows only the name. The body never says plainly that he is one of the most commercially successful rappers, never names a single album before the late mention of Reasonable Doubt ('thirty years after his debut album'), and never states that Beyonce is his wife. The reader works that out from 'his wife' and 'their marriage.' The masters argument ('the fight of my life') matters because the catalog is valuable, but the reader is never told what is in it.",
+      "acceptance_test": "Within the first 250 words a cold reader learns, from one or two dated, sourced clauses, what his music career consists of (debut year, standing or catalog scale) and that he is married to Beyonce. No new unsourced superlatives are added."
+    },
+    {
+      "id": "unfamiliar-5",
+      "severity": "minor",
+      "passage": "At one point a reporter's question seemed aimed at both men. \"Are you asking me?\" Jay-Z said. \"I'm not the commissioner yet.\" The room laughed.",
+      "problem": "This is the first image a reader gets, and it never pays off. Nothing later connects the joke to ownership, rank or wanting to be in charge, so it reads as color that uses up the most valuable lines in the piece.",
+      "acceptance_test": "The joke is either tied to the thesis in a later sentence (for example, where Goodell's 2026 'whenever the moment felt right to him' is discussed) or cut so that the opening reaches the halftime refusal faster. A cold reader can say why the joke is there."
+    },
+    {
+      "id": "unfamiliar-6",
+      "severity": "minor",
+      "passage": "A note on the evidence before going further. Most of what follows is Jay-Z describing himself in friendly or promotional settings",
+      "problem": "This is honest and worth keeping, but it is a 115-word methodology paragraph placed before the type answer. It stalls the momentum the opening built, and its mention of a 'Lance Rivera' stabbing case and source substitutions comes before the reader knows any of that story. The body runs about 3,800 words, above the 2,000–3,500 target. Pacing pressure in the Kanye and disputed-record sections makes this front-loading more noticeable.",
+      "acceptance_test": "The evidence caveat stays in the article with its substance intact (self-report in friendly settings, two unopened primaries named, thin and hostile testimony, the Oprah 'not normally a talkative person' line). It is either cut to roughly 60 words before the type answer or moved to where the self-report evidence is first weighed. The body lands at or under about 3,500 words without losing any sourced discriminator evidence."
+    },
+    {
+      "id": "unfamiliar-7",
+      "severity": "minor",
+      "passage": "Talking about his song \"Song Cry,\" he said, \"It was my way of saying I want to cry, I want to be open",
+      "problem": "A cold reader is not told that 'Song Cry' is his own 2001 track, written years before the infidelity era. The date matters to the argument, because it shows the wish to open up came before any post-Lemonade image repair. Similarly, Lance Rivera is introduced in the Type 3 section ('the record executive at the center of a 1999 stabbing case') before the stabbing is explained, which sends the reader forward without context.",
+      "acceptance_test": "'Song Cry' carries its album and year, sourced. The first Rivera mention either points the reader ahead clearly or is moved after the disputed-record account."
+    },
+    {
+      "id": "unfamiliar-8",
+      "severity": "minor",
+      "passage": "Jay-Z turned down the Super Bowl because it felt like an audition and calls his emotional wall protection. Why Type 8 fits him better than Type 3.",
+      "problem": "A searcher who arrives after the February 14, 2027 show will see a description saying he 'turned down the Super Bowl' about a man who headlined it. That reads as stale or wrong before they click. 'Fits him better' is also firmer than the body's 'medium confidence' and 'No single choice settles it.'",
+      "acceptance_test": "The description dates the refusal (2019) or mentions the 2027 headline, stays within 120–170 characters, and uses hedged language that matches the body's medium confidence (for example, 'why Type 8 leads Type 3')."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The stage on his terms or not at all. The question this profile tries to answer is what that pattern protects: an image, or something he counts as his.",
+      "reason": "Gives the unfamiliar reader a clear, concrete question to carry through the piece. The open question creates momentum without overclaiming."
+    },
+    {
+      "passage": "His father answered, \"Man, you knew where I was.\" Jay-Z's reply: \"I was a kid! Do you realize how wrong you were? It was your responsibility to see me.\" Then: \"He finally accepted that.\" Reeves died a couple of months later. \"I got him an apartment, I was buying furniture,\" Jay-Z said. \"And he passed away.\"",
+      "reason": "The most human and memorable scene in the profile, told in his own sourced words with no invented interiority. The furniture detail makes the loss land for a reader who knows nothing about him."
+    },
+    {
+      "passage": "Across nine years the explanation does not change. The wall goes up because someone you trusted can let you down, and in danger you cannot afford to feel.",
+      "reason": "Turns three interviews into one clear, checkable pattern. The paragraph's closing admission ('Both readings agree that he changed. They disagree about why.') is honest and easy to follow."
+    },
+    {
+      "passage": "The Three reading explains the product. It is weaker on the costs.",
+      "reason": "A precise two-sentence pivot that tells a newcomer exactly how the type argument will be decided."
+    },
+    {
+      "passage": "He has spent his career refusing to let a label, a league or an audition decide the terms of his work. The one group he names as free to decide is his children.",
+      "reason": "An ending that comes out of the evidence. It ties the age-11 promise to the 2023 masters quote, closes the opening's audition thread, and adds no moral or CTA."
+    }
+  ],
+  "assessment": "For a reader who knows only the name, this is a gripping, well-sourced portrait with a clear question (image or territory?), a strong father and wall through-line, and an honest Type 3 case. The Kaepernick context is missing, and that gap removes the stakes from the profile's own strongest counterexample. The hook also counts the 2019 halftime refusal for the Eight side without admitting that its 'second fiddle' and four-artist language reads just as easily as status. Smaller issues: thin career orientation (no album or catalog scale, Beyonce never stated to be his wife), an opening joke that never pays off, a methodology paragraph that stalls momentum, a section heading the section contradicts, and a body (~3,800 words) above target. The similarity advisory tripped only on the shared phrase 'the Eight read' with Nara-Smith. That is ordinary type vocabulary, the arguments differ, and no meaningful reuse was found. I keep the inherited risk flags: sensitive allegations (stabbing case, dismissed civil suit) and contested typing (8 vs 3 at medium confidence)."
+}

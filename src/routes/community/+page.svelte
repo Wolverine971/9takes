@@ -1,14 +1,14 @@
 <!-- src/routes/community/+page.svelte -->
 <!--
-  /community index — Streetlamp Symposium V5.
+  /community index — Cold Light (2026-11-06; was Streetlamp Symposium V5).
   Phase 5 page #5b of docs/design/2026-05-04-rollout-plan.md.
 
   Template: src/routes/enneagram-corner/+page.svelte (already migrated).
   Spec: docs/design-system.md §4–§6, /design-preview/v5.
 
   Server load (untouched): returns { posts, featured, recentlyUpdated }.
-  V5 tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-*) live
-  in src/scss/index.scss bridge blocks; this file references them via var(--…).
+  Cold Light tokens (--bg, --surface, --text*, --accent, --highlight) live in
+  src/scss/index.scss; this file references them via var(--…).
 -->
 <script lang="ts">
 	import type { PageData } from './$types';
@@ -193,6 +193,7 @@
 	  ===================================================================== -->
 	<IndexHero
 		title="The takes of 9takes."
+		titleQuiet="of 9takes."
 		line1="Real situations. Honest reads. The pieces our community keeps coming back to."
 		line2={`${publishedCount} reads. From the people who actually use the platform.`}
 		imageSrc="/philosopher-gathering.webp"
@@ -200,8 +201,9 @@
 		imageMono="9TAKES · CASE FILES · COMMUNITY"
 	>
 		{#snippet actions()}
-			<Button size="md" variant="primary" href="#latest">Read Latest</Button>
-			<Button size="md" variant="ghost" href="/questions">Answer Questions</Button>
+			<Button size="lg" variant="secondary" href="#latest">Read Latest</Button>
+			<!-- The page's one mint action: answering is the 9takes ritual. -->
+			<Button size="lg" variant="action" href="/questions">Answer Questions</Button>
 		{/snippet}
 	</IndexHero>
 
@@ -211,7 +213,7 @@
 	{#if data.featured.length > 0}
 		<section class="featured" id="latest">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="02" label="FEATURED" />
+				<SectionKicker tone="dim" class="section-tag" num="02" label="FEATURED" />
 				<h2 class="display-md">Featured.</h2>
 				<p class="section-sub">Most recently updated. Worth your full attention.</p>
 			</header>
@@ -245,7 +247,7 @@
 	{#if data.recentlyUpdated.length > 0}
 		<section class="recent" id="recent">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="03" label="RECENTLY UPDATED" />
+				<SectionKicker tone="dim" class="section-tag" num="03" label="RECENTLY UPDATED" />
 				<h2 class="display-md">Recently updated.</h2>
 				<p class="section-sub">Fresh insights, latest revisions.</p>
 			</header>
@@ -275,7 +277,7 @@
 	  ===================================================================== -->
 	<section class="by-topic">
 		<header class="section-head">
-			<SectionKicker class="section-tag" num="04" label="BY TOPIC" />
+			<SectionKicker tone="dim" class="section-tag" num="04" label="BY TOPIC" />
 			<h2 class="display-md">By topic.</h2>
 			<p class="section-sub">Three angles on what we&rsquo;re thinking. Pick your entry point.</p>
 		</header>
@@ -286,7 +288,7 @@
 				<div class="topic-block" id={topic.id}>
 					<header class="topic-block-head">
 						<SectionKicker
-							tone="data"
+							tone="dim"
 							num={`04${topicSuffix(ti)}`}
 							label={`TOPIC · ${topic.title.toUpperCase()}`}
 							class="topic-block-kicker"
@@ -332,15 +334,15 @@
 	  ===================================================================== -->
 	<section class="cta">
 		<div class="cta-inner">
-			<SectionKicker class="section-tag" num="06" label="JOIN IN" />
+			<SectionKicker tone="dim" class="section-tag" num="06" label="JOIN IN" />
 			<h2 class="display-md">Ready to add your take?</h2>
 			<p class="section-sub">
 				Answer questions, compare reads with the other 8 types, and see what your perspective is
 				worth.
 			</p>
 			<div class="cta-actions">
-				<Button size="md" variant="primary" href="/questions">Answer Questions</Button>
-				<Button size="md" variant="ghost" href="/enneagram-corner">Learn the Enneagram</Button>
+				<Button size="lg" variant="primary" href="/questions">Answer Questions</Button>
+				<Button size="lg" variant="secondary" href="/enneagram-corner">Learn the Enneagram</Button>
 			</div>
 		</div>
 	</section>
@@ -348,68 +350,47 @@
 
 <style lang="scss">
 	/* =========================================================
-	  /community — Streetlamp Symposium index page.
-	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
-	  --pool-rgb, --pool-deep-rgb) ship globally in src/scss/index.scss.
-	  Local-only overrides scoped to .library-index.
+	  /community — Cold Light index page (2026-11-06).
+	  Tokens: --bg / --surface / --surface-raised / --rule / --text*,
+	  --accent (fills), --highlight (lavender). No mono, no amber.
 	  ========================================================= */
 	.library-index {
-		--pool-alpha-strong: 0.28;
-		--pool-alpha-mid: 0.18;
-		--pool-alpha-soft: 0.08;
 		--statue-blend: screen;
 		--grain-opacity: 0.05;
 
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-family: var(--font-display);
+		background: var(--bg);
+		color: var(--text);
+		font-family: var(--font-talk);
 		min-height: 100vh;
 		position: relative;
 		overflow: hidden;
-
-		:global(:root.light) & {
-			--pool-alpha-strong: 0.14;
-			--pool-alpha-mid: 0.08;
-			--pool-alpha-soft: 0.04;
-			--statue-blend: normal;
-			--grain-opacity: 0.025;
-		}
 	}
 
 	/* ---------- shared utilities ---------- */
-	.library-index :global(.mono) {
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--ink-dim);
-	}
-
+	/* Section headings sit under 40px, so they're Archivo semibold, not Anton. */
 	.display-md {
-		font-family: var(--font-display);
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-weight: var(--font-weight-semibold);
 		font-size: clamp(28px, 4vw, 40px);
 		line-height: 1.1;
 		letter-spacing: -0.02em;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 	}
 
 	.display-sm {
-		font-family: var(--font-display);
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-weight: var(--font-weight-semibold);
 		font-size: clamp(22px, 2.6vw, 28px);
 		line-height: 1.18;
 		letter-spacing: -0.015em;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 	}
 
 	.library-index :global(.section-tag) {
 		display: inline-block;
 		margin-bottom: 14px;
-		color: var(--lamp-glow);
 	}
 
 	.library-index :global(p),
@@ -419,7 +400,8 @@
 		margin: 0;
 	}
 
-	.library-index :global(a) {
+	/* Buttons keep their own colors (the mint action needs its dark text). */
+	.library-index :global(a:not(.btn)) {
 		color: inherit;
 		text-decoration: none;
 	}
@@ -435,10 +417,10 @@
 	}
 
 	.section-sub {
-		font-family: var(--font-display);
-		font-size: 17px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-lg);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		max-width: 640px;
 	}
 
@@ -446,14 +428,14 @@
 	/* §01 hero + grain styles live in marketing/IndexHero.svelte (extracted 2026-06-10). */
 
 	/* =========================================================
-	  Section blocks — alternating night-deep / night-mid rhythm
+	  Section blocks — alternating --bg / --surface rhythm
 	  ========================================================= */
 	.featured,
 	.by-topic,
 	.cta {
 		padding: 96px 48px;
-		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
+		background: var(--bg);
+		border-top: 1px solid var(--rule);
 
 		@media (max-width: 768px) {
 			padding: 64px 20px;
@@ -463,8 +445,8 @@
 	.recent,
 	.faq {
 		padding: 96px 48px;
-		background: var(--night-mid);
-		border-top: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border-top: 1px solid var(--rule);
 
 		@media (max-width: 768px) {
 			padding: 64px 20px;
@@ -511,7 +493,7 @@
 		align-items: center;
 		gap: 10px;
 		padding-bottom: 18px;
-		border-bottom: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--rule);
 		position: relative;
 
 		&::after {
@@ -521,21 +503,17 @@
 			bottom: -1px;
 			width: 80px;
 			height: 2px;
-			background: var(--data-teal);
+			background: var(--accent);
 			transform: translateX(-50%);
 			border-radius: 9999px;
 		}
 	}
 
-	.library-index :global(.topic-block-kicker) {
-		color: var(--data-teal);
-	}
-
 	.topic-block-sub {
-		font-family: var(--font-display);
-		font-size: 15px;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		max-width: 580px;
 	}
 

@@ -99,7 +99,7 @@
 		text-align: center;
 		font-size: 1.5rem;
 		margin-bottom: 1rem;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.blog-grid-container {
@@ -119,28 +119,33 @@
 		display: block;
 		height: 100%;
 		min-height: 200px;
-		background-color: var(--stone-warm);
+		background-color: var(--surface);
 		background-size: cover;
 		background-position: center;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
 		overflow: hidden;
 		text-decoration: none;
 		transition: all 0.3s ease;
 
 		&:hover,
-		&:focus {
-			border-color: var(--lamp-glow);
-			box-shadow: 0 0 25px var(--lamp-glow-rgba);
-			outline: none;
+		&:focus-visible {
+			border-color: color-mix(in srgb, var(--accent) 70%, transparent);
+			box-shadow: 0 0 25px color-mix(in srgb, var(--accent) 35%, transparent);
 			transform: translateY(-3px);
+		}
+
+		/* Keyboard focus keeps the lavender ring (never indigo). */
+		&:focus-visible {
+			outline: 2px solid var(--focus);
+			outline-offset: 2px;
 		}
 	}
 
 	.blog-content {
 		height: 100%;
 		padding: 1rem;
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+		background: linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%);
 		transition: background 0.3s ease;
 
 		&.has-image {
@@ -154,9 +159,11 @@
 	}
 
 	.blog-title {
-		font-size: 1.2rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xl);
+		font-weight: 600;
 		margin-bottom: 0.5rem;
-		color: var(--ink-bright);
+		color: var(--text);
 
 		.has-image & {
 			color: var(--text-on-image);
@@ -164,8 +171,8 @@
 	}
 
 	.blog-description {
-		font-size: 0.9rem;
-		color: var(--ink-mid);
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
 
 		.has-image & {
 			color: var(--text-on-image-muted);
@@ -178,11 +185,11 @@
 		}
 
 		.blog-title {
-			font-size: 1rem;
+			font-size: var(--font-size-base);
 		}
 
 		.blog-description {
-			font-size: 0.8rem;
+			font-size: var(--font-size-xs);
 		}
 	}
 </style>

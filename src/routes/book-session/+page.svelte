@@ -498,20 +498,23 @@
 		<section id="experimental-therapy" class="talk-sessions" aria-labelledby="talk-sessions-title">
 			<h2 id="talk-sessions-title">Experimental therapy, 9takes style</h2>
 			<p>
-				Therapy often gets treated like something shameful. People work through their heaviest stuff
-				behind a closed door, and too often they walk out without getting anywhere. I want to flip
-				that. Going deep on your inner world should feel like leveling up, and you should come out
-				stronger and proud of the work.
+				You know the moments. You snap at someone and can’t explain why. A conversation goes
+				sideways and you replay it for days. Someone you care about shuts down and you can’t reach
+				them. We figure out what’s driving those moments, in you and in the people around you. It
+				isn’t about what’s wrong with you. It’s leveling up.
 			</p>
 			<ol class="talk-steps">
-				<li><strong>Leave your email.</strong> I’ll send you the details myself.</li>
 				<li>
-					<strong>A free 30-minute call.</strong> I hear what’s going on, and you decide if it’s for you.
+					<strong>Leave your email.</strong> The details and a link to book land in your inbox right away.
+					Not ready to book? Reply and tell me what’s going on.
 				</li>
 				<li>
-					<strong>1-on-1 sessions.</strong> I ask questions, tell you what I hear underneath your answers,
-					and we follow the thread. The Enneagram is our map. Some sessions get into heavy stuff; the
-					goal is that you leave every one clearer and more excited about your life.
+					<strong>A free 30-minute intro call.</strong> You tell me what’s going on, and you decide if
+					it’s for you.
+				</li>
+				<li>
+					<strong>1-on-1 sessions.</strong> The Enneagram maps your patterns, then we work through the
+					people in your life. You leave every session with something to try that week.
 				</li>
 				<li>
 					<strong>Something to keep.</strong> After each session you get a short write-up of what you
@@ -519,8 +522,8 @@
 				</li>
 			</ol>
 			<p>
-				It’s free while I shape how I run these. All I ask is honest feedback on what’s working and
-				what isn’t. It’s coaching, not clinical therapy, diagnosis, or crisis support.
+				It’s free, with no commitment and no card. All I ask is honest feedback on what’s working
+				and what isn’t. It’s coaching, not clinical therapy, diagnosis, or crisis support.
 			</p>
 			<ExperimentalTherapyCard placement="inline" surface="book_session" />
 		</section>

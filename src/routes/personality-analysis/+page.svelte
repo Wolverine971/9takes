@@ -45,6 +45,11 @@
 	const publicFigureCount = $derived(data.publicFigureCount);
 	const celebrityHub = $derived(data.celebrityHub ?? []);
 	const justAdded = $derived(data.justAdded ?? []);
+	// Second line of the H1. Together the two spans read
+	// "Enneagram celebrities: 460+ famous people, typed."
+	const titleVoice = $derived(
+		publicFigureCount ? `${publicFigureCount} famous people, typed.` : 'typed.'
+	);
 
 	// Head term: "enneagram celebrities". The old title's terms ("famous people",
 	// "personality analysis") stay in the title and description.
@@ -165,7 +170,7 @@
 			aria-label={`Scroll ${label} left`}
 			onclick={(e) => scrollRail(e, -1)}
 		>
-			<span aria-hidden="true">&larr;</span>
+			<span class="rail-arrow-dot" aria-hidden="true">&larr;</span>
 		</button>
 		<button
 			type="button"
@@ -173,7 +178,7 @@
 			aria-label={`Scroll ${label} right`}
 			onclick={(e) => scrollRail(e, 1)}
 		>
-			<span aria-hidden="true">&rarr;</span>
+			<span class="rail-arrow-dot" aria-hidden="true">&rarr;</span>
 		</button>
 	</div>
 {/snippet}
@@ -181,9 +186,14 @@
 <div class="faces-index">
 	<!-- Compact header: title, one line of why, then straight to type chips. -->
 	<header class="page-head">
-		<p class="mono page-kicker">Case files &middot; all nine types</p>
+		<p class="label page-kicker">Case files &middot; all nine types</p>
+		<!-- Text content stays "Enneagram celebrities: 460+ famous people, typed." (SEO).
+		     Loud half in Anton, quiet half in Playfair italic. -->
 		<h1 class="page-title">
-			Enneagram celebrities{#if publicFigureCount}: {publicFigureCount} famous people{/if}, typed.
+			<span class="page-title-shout"
+				>Enneagram celebrities{#if publicFigureCount}:{:else},{/if}</span
+			>
+			<span class="page-title-voice">{titleVoice}</span>
 		</h1>
 		<p class="page-sub">
 			Each one is our read of the public record: the interviews, the feuds, the decisions nobody
@@ -229,14 +239,14 @@
 									fetchpriority={i < 2 ? 'high' : undefined}
 									decoding="async"
 								/>
-								<span class="face-badge mono">Type {person.enneagram}</span>
+								<span class="face-badge label">Type {person.enneagram}</span>
 							</span>
 							<span class="face-name">{person.name}</span>
 							{#if person.personaTitle}
 								<span class="face-title">{person.personaTitle}</span>
 							{/if}
 							{#if addedLabel(person.addedAt)}
-								<span class="face-date mono">{addedLabel(person.addedAt)}</span>
+								<span class="face-date label">{addedLabel(person.addedAt)}</span>
 							{/if}
 						</a>
 					</li>
@@ -316,7 +326,7 @@
 			{#if Number(group.type) === SIGNUP_AFTER_TYPE && !data?.user}
 				<aside class="signup">
 					<div class="signup-copy">
-						<p class="mono signup-kicker">Case file dispatch</p>
+						<p class="label signup-kicker">Case file dispatch</p>
 						<h3>Get the next famous-person read.</h3>
 						<p>New breakdowns and pattern notes, sent only when there's one worth reading.</p>
 					</div>
@@ -335,17 +345,17 @@
 </div>
 
 <style lang="scss">
+	/* Cold Light (2026-11-06 lean reskin). One tint for the whole page: the
+	   nine type colors stay off (DJ, 2026-11-04). Links are lavender and
+	   underlined; nothing here is mint because nothing here is "give your take". */
 	.faces-index {
 		--gutter: 48px;
 		--tile: 176px;
-		/* One accent for the whole page. DJ (2026-11-04): the nine type colors
-		   were distracting, so numbers are neutral outlines and amber marks
-		   links and hover only. */
-		--face-color: var(--lamp-glow);
+		--label-size: var(--font-size-xs);
 
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-family: var(--font-display);
+		background: var(--bg);
+		color: var(--text);
+		font-family: var(--font-talk);
 		min-height: 100vh;
 		overflow: hidden;
 		padding-bottom: 80px;
@@ -357,17 +367,26 @@
 		}
 	}
 
-	.faces-index :global(a) {
+	/* :where() keeps this at element specificity so link classes below win. */
+	:where(.faces-index) :global(a) {
 		color: inherit;
 		text-decoration: none;
 	}
 
-	.mono {
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
+	.faces-index :global(a:focus-visible),
+	.faces-index button:focus-visible {
+		outline: 2px solid var(--focus);
+		outline-offset: 2px;
+	}
+
+	/* Small uppercase labels: Archivo, letter-spaced, faint. No mono in Cold Light. */
+	.label {
+		font-family: var(--font-talk);
+		font-size: var(--label-size);
+		font-weight: var(--font-weight-semibold);
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
+		color: var(--text-faint);
 	}
 
 	/* ---------- compact header ---------- */
@@ -388,39 +407,58 @@
 
 	.page-kicker {
 		margin: 0;
-		color: var(--lamp-glow);
 	}
 
 	.page-title {
 		margin: 0;
-		font-size: clamp(30px, 4.6vw, 52px);
-		font-weight: 800;
-		line-height: 1.05;
-		letter-spacing: -0.03em;
-		max-width: 22ch;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+
+	/* The take: Anton, uppercase, 40px+. */
+	.page-title-shout {
+		font-family: var(--font-shout);
+		font-size: clamp(2.5rem, 6vw, 4.5rem);
+		font-weight: 400;
+		line-height: 0.98;
+		letter-spacing: 0.005em;
+		text-transform: uppercase;
+		color: var(--text);
+	}
+
+	/* The quiet second line: Playfair italic, lavender. */
+	.page-title-voice {
+		font-family: var(--font-voice);
+		font-size: clamp(1.5rem, 2.8vw, 2.25rem);
+		font-style: italic;
+		font-weight: 400;
+		line-height: 1.15;
+		color: var(--highlight);
 	}
 
 	.page-sub {
 		margin: 0;
 		max-width: 680px;
-		font-size: 16px;
+		font-size: var(--font-size-base);
 		line-height: 1.55;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 
 		a {
-			color: var(--lamp-glow);
-			font-weight: 600;
+			color: var(--highlight);
+			font-weight: var(--font-weight-semibold);
 			white-space: nowrap;
+			text-decoration: underline;
+			text-decoration-thickness: 1px;
+			text-underline-offset: 3px;
 
-			&:hover,
-			&:focus-visible {
-				text-decoration: underline;
-				text-underline-offset: 3px;
+			&:hover {
+				color: var(--text);
 			}
 		}
 
 		@media (max-width: 768px) {
-			font-size: 15px;
+			font-size: calc(var(--font-size-base) * 0.9375);
 		}
 	}
 
@@ -443,31 +481,40 @@
 		}
 	}
 
+	/* Not selected = faint number on a --rule ring. Hover/focus lights it:
+	   lavender on indigo deep. */
 	.type-chip {
 		flex: none;
 		display: inline-flex;
 		align-items: center;
 		gap: 7px;
 		padding: 5px 12px 5px 5px;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 9999px;
-		background: var(--stone-warm);
-		font-size: 13.5px;
-		font-weight: 600;
-		color: var(--ink-bright);
+		background: var(--surface);
+		font-size: var(--font-size-sm);
+		font-weight: var(--font-weight-semibold);
+		color: var(--text);
 		transition:
 			border-color 0.15s ease,
 			background 0.15s ease;
 
 		&:hover,
 		&:focus-visible {
-			border-color: var(--face-color);
-			background: var(--stone-mid);
+			border-color: var(--highlight);
+			background: var(--surface-raised);
 
 			.type-chip-num {
-				border-color: var(--face-color);
-				color: var(--face-color);
+				border-color: var(--highlight);
+				background: var(--accent-deep);
+				color: var(--highlight);
 			}
+		}
+
+		/* 44px tap targets on phones. */
+		@media (max-width: 768px), (pointer: coarse) {
+			min-height: 44px;
+			padding: 6px 14px 6px 6px;
 		}
 	}
 
@@ -476,14 +523,20 @@
 		place-items: center;
 		width: 24px;
 		height: 24px;
-		border: 1.5px solid var(--ink-dim);
+		border: 1px solid var(--rule);
 		border-radius: 9999px;
-		color: var(--ink-bright);
-		font-size: 12px;
-		font-weight: 700;
+		color: var(--text-faint);
+		font-size: var(--font-size-xs);
+		font-weight: var(--font-weight-bold);
 		transition:
 			border-color 0.15s ease,
+			background 0.15s ease,
 			color 0.15s ease;
+
+		@media (max-width: 768px), (pointer: coarse) {
+			width: 30px;
+			height: 30px;
+		}
 	}
 
 	/* ---------- rails (shared by Just added + the nine types) ---------- */
@@ -505,17 +558,19 @@
 		margin-bottom: 14px;
 	}
 
+	/* The rail's own type: lit, one tint. */
 	.rail-num {
 		flex: none;
 		display: grid;
 		place-items: center;
 		width: 36px;
 		height: 36px;
-		border: 1.5px solid var(--ink-dim);
+		border: 1px solid color-mix(in srgb, var(--highlight) 45%, transparent);
 		border-radius: 9999px;
-		color: var(--ink-bright);
-		font-size: 18px;
-		font-weight: 800;
+		background: var(--accent-deep);
+		color: var(--highlight);
+		font-size: var(--font-size-lg);
+		font-weight: var(--font-weight-bold);
 
 		/* The heading already says "Type N"; phones need the width. */
 		@media (max-width: 768px) {
@@ -533,75 +588,92 @@
 
 	.rail-heading {
 		margin: 0;
-		font-size: clamp(17px, 2vw, 22px);
-		font-weight: 700;
+		font-family: var(--font-talk);
+		font-size: clamp(var(--font-size-lg), 2vw, 1.375rem);
+		font-weight: var(--font-weight-semibold);
 		line-height: 1.2;
 		letter-spacing: -0.01em;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.rail-meta {
 		margin: 0;
-		font-size: clamp(13px, 1.4vw, 14px);
+		font-size: var(--font-size-sm);
 		line-height: 1.4;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 
 		em {
-			color: var(--ink-mid);
+			font-family: var(--font-voice);
 			font-style: italic;
+			color: var(--highlight);
 		}
 	}
 
 	.rail-all {
 		flex: none;
-		font-size: 14px;
-		font-weight: 600;
-		color: var(--ink-bright);
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+		font-size: var(--font-size-sm);
+		font-weight: var(--font-weight-semibold);
+		color: var(--highlight);
 		white-space: nowrap;
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 3px;
 
 		.rail-all-arrow {
 			margin-left: 4px;
-			color: var(--face-color);
 		}
 
-		&:hover,
-		&:focus-visible {
-			text-decoration: underline;
-			text-decoration-color: var(--face-color);
-			text-underline-offset: 3px;
+		&:hover {
+			color: var(--text);
 		}
 	}
 
 	.rail-arrows {
 		flex: none;
 		display: none;
-		gap: 6px;
 
 		@media (hover: hover) and (pointer: fine) and (min-width: 769px) {
 			display: flex;
 		}
 	}
 
+	/* 44px hit area; the visible circle stays 32px. */
 	.rail-arrow {
+		display: grid;
+		place-items: center;
+		width: 44px;
+		height: 44px;
+		padding: 0;
+		border: 0;
+		border-radius: 50%;
+		background: transparent;
+		color: var(--text-muted);
+		cursor: pointer;
+
+		&:hover .rail-arrow-dot,
+		&:focus-visible .rail-arrow-dot {
+			border-color: var(--highlight);
+			background: var(--surface-raised);
+			color: var(--text);
+		}
+	}
+
+	.rail-arrow-dot {
 		display: grid;
 		place-items: center;
 		width: 32px;
 		height: 32px;
-		border: 1px solid var(--stone-edge);
-		border-radius: 9999px;
-		background: var(--stone-warm);
-		color: var(--ink-mid);
-		font-size: 15px;
-		cursor: pointer;
+		border: 1px solid var(--rule);
+		border-radius: 50%;
+		background: var(--surface);
+		font-size: var(--font-size-sm);
 		transition:
 			border-color 0.15s ease,
+			background 0.15s ease,
 			color 0.15s ease;
-
-		&:hover,
-		&:focus-visible {
-			border-color: var(--face-color);
-			color: var(--ink-bright);
-		}
 	}
 
 	.rail {
@@ -617,7 +689,7 @@
 		scroll-padding-inline: var(--gutter);
 		overscroll-behavior-x: contain;
 		scrollbar-width: thin;
-		scrollbar-color: var(--stone-edge) transparent;
+		scrollbar-color: var(--rule) transparent;
 
 		> li {
 			scroll-snap-align: start;
@@ -642,6 +714,8 @@
 		height: 100%;
 	}
 
+	/* Card frame: --surface well, --rule hairline drawn over the image edge
+	   (outline, so the portrait's size and eye-mark guide don't move). */
 	.face-photo {
 		position: relative;
 		display: block;
@@ -649,7 +723,10 @@
 		margin-bottom: 6px;
 		overflow: hidden;
 		border-radius: 10px;
-		box-shadow: inset 0 0 0 1px var(--stone-edge);
+		background-color: var(--surface);
+		outline: 1px solid var(--rule);
+		outline-offset: -1px;
+		transition: outline-color 0.15s ease;
 
 		img {
 			width: 100%;
@@ -661,6 +738,11 @@
 			transform: translateY(var(--portrait-offset-y)) scale(var(--portrait-scale));
 			transition: transform 0.3s ease;
 		}
+	}
+
+	.face:hover .face-photo,
+	.face:focus-visible .face-photo {
+		outline-color: color-mix(in srgb, var(--highlight) 45%, transparent);
 	}
 
 	.face:hover .face-photo img,
@@ -681,27 +763,28 @@
 
 	.face-badge {
 		position: absolute;
+		z-index: 1;
 		top: 8px;
 		left: 8px;
 		padding: 3px 7px;
 		border-radius: 4px;
-		background: rgba(0, 0, 0, 0.62);
-		color: #fff;
-		font-size: 10px;
+		background: color-mix(in srgb, var(--bg) 72%, transparent);
+		color: var(--text);
+		font-size: calc(var(--font-size-xs) * 0.875);
 		letter-spacing: 0.06em;
 	}
 
 	.face-name {
-		font-size: 15px;
-		font-weight: 700;
+		font-size: calc(var(--font-size-base) * 0.9375);
+		font-weight: var(--font-weight-bold);
 		line-height: 1.25;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.face:hover .face-name,
 	.face:focus-visible .face-name {
 		text-decoration: underline;
-		text-decoration-color: var(--face-color);
+		text-decoration-color: var(--highlight);
 		text-underline-offset: 3px;
 	}
 
@@ -711,24 +794,23 @@
 		line-clamp: 2;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
-		font-size: 13px;
+		font-size: calc(var(--font-size-sm) * 0.9286);
 		line-height: 1.35;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.face-date {
 		margin-top: 2px;
-		font-size: 11px;
-		color: var(--ink-dim);
+		font-size: calc(var(--font-size-xs) * 0.9167);
 	}
 
 	@media (max-width: 768px) {
 		.face-name {
-			font-size: 14px;
+			font-size: var(--font-size-sm);
 		}
 
 		.face-title {
-			font-size: 12px;
+			font-size: var(--font-size-xs);
 		}
 	}
 
@@ -741,53 +823,59 @@
 		gap: 6px;
 		aspect-ratio: 4 / 5;
 		padding: 16px;
-		border: 1.5px dashed var(--ink-dim);
+		border: 1px dashed color-mix(in srgb, var(--highlight) 30%, transparent);
 		border-radius: 10px;
-		background: var(--stone-warm);
-		transition: background 0.15s ease;
+		background: var(--surface);
+		transition:
+			background 0.15s ease,
+			border-color 0.15s ease;
 
 		&:hover,
 		&:focus-visible {
-			background: var(--stone-mid);
+			border-color: var(--highlight);
+			background: var(--surface-raised);
 		}
 	}
 
 	.face-more-count {
-		font-size: 30px;
-		font-weight: 800;
+		font-size: calc(var(--font-size-xl) * 1.5);
+		font-weight: var(--font-weight-bold);
 		line-height: 1;
-		color: var(--face-color);
+		color: var(--highlight);
 	}
 
 	.face-more-label {
-		font-size: 14px;
-		font-weight: 600;
+		font-size: var(--font-size-sm);
+		font-weight: var(--font-weight-semibold);
 		line-height: 1.3;
-		color: var(--ink-bright);
+		color: var(--text);
+		text-decoration: underline;
+		text-decoration-color: color-mix(in srgb, var(--highlight) 60%, transparent);
+		text-underline-offset: 3px;
 	}
 
 	.face-more-arrow {
-		color: var(--face-color);
-		font-size: 18px;
+		color: var(--highlight);
+		font-size: var(--font-size-lg);
 	}
 
 	/* ---------- by-type section ---------- */
 	.by-type {
 		margin-top: 28px;
 		scroll-margin-top: 64px;
-		border-top: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
 	}
 
 	.by-type-heading {
 		max-width: 1280px;
 		margin: 0 auto;
 		padding: 32px var(--gutter) 0;
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
+		font-family: var(--font-talk);
+		font-size: var(--label-size);
+		font-weight: var(--font-weight-semibold);
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 	}
 
 	.type-rail + .type-rail,
@@ -804,8 +892,8 @@
 		grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
 		gap: 24px;
 		align-items: center;
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border: 1px solid var(--rule);
 		border-radius: 16px;
 
 		@media (max-width: 1376px) {
@@ -825,10 +913,12 @@
 
 		h3 {
 			margin: 0;
-			font-size: clamp(20px, 2.2vw, 26px);
+			font-family: var(--font-talk);
+			font-size: clamp(var(--font-size-xl), 2.2vw, 1.625rem);
+			font-weight: var(--font-weight-semibold);
 			line-height: 1.15;
 			letter-spacing: -0.015em;
-			color: var(--ink-bright);
+			color: var(--text);
 		}
 
 		p {
@@ -837,14 +927,10 @@
 
 		p:not(.signup-kicker) {
 			max-width: 520px;
-			font-size: 15px;
+			font-size: calc(var(--font-size-base) * 0.9375);
 			line-height: 1.55;
-			color: var(--ink-mid);
+			color: var(--text-muted);
 		}
-	}
-
-	.signup-kicker {
-		color: var(--lamp-glow);
 	}
 
 	.signup-form {
@@ -856,8 +942,8 @@
 		margin: 40px auto 0;
 		padding: 0 var(--gutter);
 		text-align: center;
-		font-size: 13px;
+		font-size: calc(var(--font-size-sm) * 0.9286);
 		line-height: 1.55;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 </style>

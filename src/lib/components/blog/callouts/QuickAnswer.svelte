@@ -17,8 +17,8 @@
 		question?: string;
 		/**
 		 * Visual style variant
-		 * - 'default': brand amber accent
-		 * - 'subtle': neutral ink accent
+		 * - 'default': indigo --accent bar
+		 * - 'subtle': faint neutral bar
 		 */
 		variant?: 'default' | 'subtle';
 		/**
@@ -54,17 +54,20 @@
 </Callout>
 
 <style lang="scss">
-	.quick-answer__question {
-		font-size: 1.125rem;
+	/* Cold Light: Archivo semibold question in --text; the answer stays --text-muted
+	   via the Callout base. Anchored to the shell so article <p> rules can't win. */
+	:global(.callout) .quick-answer__question {
+		font-family: var(--font-talk);
+		font-size: var(--font-size-lg);
 		font-weight: 600;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0 0 0.75rem;
 		line-height: 1.4;
 	}
 
 	@media (max-width: 640px) {
-		.quick-answer__question {
-			font-size: 1rem;
+		:global(.callout) .quick-answer__question {
+			font-size: var(--font-size-base);
 		}
 	}
 </style>

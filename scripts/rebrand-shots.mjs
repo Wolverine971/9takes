@@ -307,7 +307,8 @@ async function capture(opts) {
 				if (vpName === 'phone') shot.checks = await phoneChecks(page);
 				await page.screenshot({
 					path: join(outDir, shot.file),
-					fullPage: !shot.truncated,
+					// fullPage stays on so a clip taller than the viewport isn't cut to one screen.
+					fullPage: true,
 					clip: shot.truncated
 						? { x: 0, y: 0, width: vp.viewport.width, height: maxCss }
 						: undefined,

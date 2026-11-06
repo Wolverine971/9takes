@@ -23,34 +23,76 @@ function createFakeSupabase(
 		waitlist?: Row[];
 		insertError?: { code?: string; message?: string } | null;
 		metadataError?: { message: string } | null;
+		suppressed?: string[];
+		sentInLastDay?: number;
 	} = {}
 ) {
 	const waitlist = [...(options.waitlist ?? [])];
 	const metadata: Row[] = [];
+
+	function waitlistQuery() {
+		const filters: Array<(row: Row) => boolean> = [];
+		let patch: Row | null = null;
+		let countOnly = false;
+		const query: any = {
+			select: (_columns: string, opts?: { head?: boolean }) => {
+				countOnly = Boolean(opts?.head);
+				return query;
+			},
+			update: (values: Row) => {
+				patch = values;
+				return query;
+			},
+			eq: (column: string, value: unknown) => {
+				filters.push((row) => row[column] === value);
+				return query;
+			},
+			is: (column: string, value: unknown) => {
+				filters.push((row) => (row[column] ?? null) === value);
+				return query;
+			},
+			gte: () => {
+				// The only gte is the 24-hour auto-send count.
+				return Promise.resolve({ count: options.sentInLastDay ?? 0, error: null });
+			},
+			maybeSingle: async () => {
+				const match = waitlist.find((row) => filters.every((f) => f(row))) ?? null;
+				if (match && patch) Object.assign(match, patch);
+				return { data: match, error: null };
+			},
+			then: (resolve: (value: unknown) => void) => {
+				// A bare awaited update (the claim give-back).
+				for (const row of waitlist.filter((r) => filters.every((f) => f(r)))) {
+					if (patch) Object.assign(row, patch);
+				}
+				resolve({ data: null, error: null, count: countOnly ? 0 : undefined });
+			},
+			insert: (row: Row) => ({
+				select: () => ({
+					single: async () => {
+						if (options.insertError) return { data: null, error: options.insertError };
+						const saved = {
+							id: `w-${waitlist.length + 1}`,
+							flagged_reason: null,
+							details_sent_at: null,
+							...row
+						};
+						waitlist.push(saved);
+						return { data: { id: saved.id }, error: null };
+					}
+				})
+			})
+		};
+		return query;
+	}
+
 	const supabase = {
+		rpc: vi.fn(async () => ({
+			data: (options.suppressed ?? []).map((email) => ({ email })),
+			error: null
+		})),
 		from(table: string) {
-			if (table === 'coaching_waitlist') {
-				return {
-					select: () => ({
-						eq: (_column: string, email: string) => ({
-							maybeSingle: async () => ({
-								data: waitlist.find((row) => row.email === email) ?? null,
-								error: null
-							})
-						})
-					}),
-					insert: (row: Row) => ({
-						select: () => ({
-							single: async () => {
-								if (options.insertError) return { data: null, error: options.insertError };
-								const saved = { id: `w-${waitlist.length + 1}`, flagged_reason: null, ...row };
-								waitlist.push(saved);
-								return { data: { id: saved.id }, error: null };
-							}
-						})
-					})
-				};
-			}
+			if (table === 'coaching_waitlist') return waitlistQuery();
 			if (table === 'coaching_waitlist_metadata') {
 				return {
 					insert: async (row: Row) => {
@@ -95,7 +137,7 @@ describe('createBetaSignup', () => {
 			bookingUrl: 'https://booking.example/beta'
 		});
 
-		expect(result).toEqual({ ok: true, alerted: true, recorded: true });
+		expect(result).toEqual({ ok: true, alerted: true, recorded: true, detailsSent: true });
 		expect(fake.waitlist).toEqual([
 			expect.objectContaining({ email: 'reader@example.com', name: '' })
 		]);
@@ -111,14 +153,96 @@ describe('createBetaSignup', () => {
 		// The raw IP is never stored.
 		expect(fake.metadata[0].ip_address).not.toContain('203.0.113.7');
 
-		expect(send).toHaveBeenCalledTimes(1);
-		const alert = send.mock.calls[0][0];
+		expect(send).toHaveBeenCalledTimes(2);
+		const alert = send.mock.calls[1][0];
 		expect(alert.to).toBe('admin@9takes.com');
 		expect(alert.subject).toBe('Beta signup: reader@example.com');
 		expect(alert.emailKind).toBe('transactional');
-		expect(alert.htmlContent).toContain('https://mail.google.com/mail/?');
-		expect(alert.htmlContent).toContain(encodeURIComponent('reader@example.com'));
+		expect(alert.htmlContent).toContain('went out automatically');
 		expect(alert.htmlContent).not.toContain('PRIVATE_BETA_BOOKING_URL');
+	});
+
+	it('emails the details to the visitor from dj@9takes.com and marks them sent', async () => {
+		const fake = createFakeSupabase();
+		await createBetaSignup(input(), {
+			supabase: fake.supabase,
+			sendEmail: send,
+			bookingUrl: 'https://booking.example/beta',
+			now: () => new Date('2026-11-06T18:00:00Z')
+		});
+
+		const details = send.mock.calls[0][0];
+		expect(details.to).toBe('reader@example.com');
+		expect(details.senderAddress).toBe('dj@9takes.com');
+		expect(details.plainTextContent).toContain(
+			'Book your intro call here: https://booking.example/beta'
+		);
+		expect(details.htmlContent).toContain('<a href="https://booking.example/beta">');
+		expect(fake.waitlist[0].details_sent_at).toBe('2026-11-06T18:00:00.000Z');
+	});
+
+	it('does not send the details twice to the same address', async () => {
+		const fake = createFakeSupabase({
+			waitlist: [
+				{
+					id: 'w-1',
+					email: 'reader@example.com',
+					flagged_reason: null,
+					created_at: '2026-11-01T10:00:00Z',
+					details_sent_at: '2026-11-01T10:00:05Z'
+				}
+			]
+		});
+		const result = await createBetaSignup(input(), {
+			supabase: fake.supabase,
+			sendEmail: send,
+			bookingUrl: 'https://booking.example/beta'
+		});
+
+		expect(result).toMatchObject({ detailsSent: false });
+		expect(send).toHaveBeenCalledTimes(1);
+		expect(send.mock.calls[0][0].to).toBe('admin@9takes.com');
+		expect(send.mock.calls[0][0].htmlContent).toContain('already got the details email');
+	});
+
+	it('stops auto-sending at the daily cap and hands DJ a draft instead', async () => {
+		const fake = createFakeSupabase({ sentInLastDay: 20 });
+		const result = await createBetaSignup(input(), {
+			supabase: fake.supabase,
+			sendEmail: send,
+			bookingUrl: 'https://booking.example/beta'
+		});
+
+		expect(result).toMatchObject({ detailsSent: false });
+		expect(send).toHaveBeenCalledTimes(1);
+		expect(send.mock.calls[0][0].htmlContent).toContain('daily limit');
+		expect(send.mock.calls[0][0].htmlContent).toContain('https://mail.google.com/mail/?');
+		expect(fake.waitlist[0].details_sent_at).toBeNull();
+	});
+
+	it('never auto-sends to an address that unsubscribed', async () => {
+		const fake = createFakeSupabase({ suppressed: ['reader@example.com'] });
+		await createBetaSignup(input(), {
+			supabase: fake.supabase,
+			sendEmail: send,
+			bookingUrl: 'https://booking.example/beta'
+		});
+
+		expect(send.mock.calls.map(([options]) => options.to)).toEqual(['admin@9takes.com']);
+	});
+
+	it('gives the sent mark back when the details email fails', async () => {
+		const fake = createFakeSupabase();
+		send.mockResolvedValueOnce({ success: false, error: 'gmail down' } as SendEmailResult);
+		const result = await createBetaSignup(input(), {
+			supabase: fake.supabase,
+			sendEmail: send,
+			bookingUrl: 'https://booking.example/beta'
+		});
+
+		expect(result).toMatchObject({ detailsSent: false, alerted: true });
+		expect(fake.waitlist[0].details_sent_at).toBeNull();
+		expect(send.mock.calls[1][0].htmlContent).toContain('did NOT go out automatically');
 	});
 
 	it('tags the signup with the card copy they saw', async () => {
@@ -133,9 +257,9 @@ describe('createBetaSignup', () => {
 		expect(send.mock.calls[0][0].htmlContent).toContain('read_like_this');
 	});
 
-	it('never emails the visitor: the only message goes to DJ', async () => {
+	it('emails only DJ when the booking link is not configured', async () => {
 		const fake = createFakeSupabase();
-		await createBetaSignup(input(), { supabase: fake.supabase, sendEmail: send });
+		await createBetaSignup(input(), { supabase: fake.supabase, sendEmail: send, bookingUrl: null });
 
 		for (const [options] of send.mock.calls) {
 			expect(options.to).toBe('admin@9takes.com');
@@ -161,9 +285,13 @@ describe('createBetaSignup', () => {
 			]
 		});
 
-		const result = await createBetaSignup(input(), { supabase: fake.supabase, sendEmail: send });
+		const result = await createBetaSignup(input(), {
+			supabase: fake.supabase,
+			sendEmail: send,
+			bookingUrl: null
+		});
 
-		expect(result).toEqual({ ok: true, alerted: true, recorded: true });
+		expect(result).toEqual({ ok: true, alerted: true, recorded: true, detailsSent: false });
 		expect(fake.waitlist).toHaveLength(1);
 		expect(fake.metadata[0].waitlist_id).toBe('w-ryan');
 		expect(send.mock.calls[0][0].htmlContent).toContain(
@@ -180,7 +308,7 @@ describe('createBetaSignup', () => {
 
 		const result = await createBetaSignup(input(), { supabase: fake.supabase, sendEmail: send });
 
-		expect(result).toEqual({ ok: true, alerted: false, recorded: false });
+		expect(result).toEqual({ ok: true, alerted: false, recorded: false, detailsSent: false });
 		expect(fake.metadata).toHaveLength(0);
 		expect(send).not.toHaveBeenCalled();
 	});
@@ -207,18 +335,26 @@ describe('createBetaSignup', () => {
 		const fake = createFakeSupabase();
 		send.mockResolvedValueOnce({ success: false, error: 'gmail down' } as SendEmailResult);
 
-		const result = await createBetaSignup(input(), { supabase: fake.supabase, sendEmail: send });
+		const result = await createBetaSignup(input(), {
+			supabase: fake.supabase,
+			sendEmail: send,
+			bookingUrl: null
+		});
 
-		expect(result).toEqual({ ok: true, alerted: false, recorded: true });
+		expect(result).toEqual({ ok: true, alerted: false, recorded: true, detailsSent: false });
 		expect(fake.waitlist).toHaveLength(1);
 	});
 
 	it('keeps the signup when the metadata row fails to save', async () => {
 		const fake = createFakeSupabase({ metadataError: { message: 'boom' } });
 
-		const result = await createBetaSignup(input(), { supabase: fake.supabase, sendEmail: send });
+		const result = await createBetaSignup(input(), {
+			supabase: fake.supabase,
+			sendEmail: send,
+			bookingUrl: null
+		});
 
-		expect(result).toEqual({ ok: true, alerted: true, recorded: true });
+		expect(result).toEqual({ ok: true, alerted: true, recorded: true, detailsSent: false });
 		expect(fake.waitlist).toHaveLength(1);
 	});
 
@@ -237,10 +373,11 @@ describe('createBetaSignup', () => {
 		const result = await createBetaSignup(input(), {
 			supabase: fake.supabase,
 			sendEmail: send,
-			alertAddress: null
+			alertAddress: null,
+			bookingUrl: null
 		});
 
-		expect(result).toEqual({ ok: true, alerted: false, recorded: true });
+		expect(result).toEqual({ ok: true, alerted: false, recorded: true, detailsSent: false });
 		expect(send).not.toHaveBeenCalled();
 	});
 });

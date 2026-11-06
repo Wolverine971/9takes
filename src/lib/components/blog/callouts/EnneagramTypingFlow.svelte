@@ -5,14 +5,12 @@
   Editorial-style SVG infographic that maps the blog's 4-step framework:
     behavior → motivation pivot → 3 emotion centers → 9 typed lessons → your type.
 
-  Self-contained: ships its own dark "diagram card" palette (warm/amber, mirroring
-  the Streetlamp Symposium V4 preview) so it pops inside any blog theme.
+  Cold Light (2026-11-06): the --tf-* palette now points at the global tokens.
+  One tint: lines and bars are indigo --accent, node labels lavender, notes
+  --text-faint; the three centers and nine types no longer get their own
+  colors. Labels are Archivo (no mono); the nine lessons are inner voices, so
+  they're Playfair italic.
 -->
-<script lang="ts">
-	import { TYPE_COLOR_MAP } from '$lib/constants/enneagramColors';
-
-	const c = TYPE_COLOR_MAP;
-</script>
 
 <figure class="typing-flow" aria-labelledby="typing-flow-title">
 	<figcaption class="typing-flow__caption">
@@ -42,7 +40,7 @@
 					orient="auto"
 					markerUnits="strokeWidth"
 				>
-					<path d="M0,0 L0,10 L10,5 z" fill="var(--tf-glow)" />
+					<path d="M0,0 L0,10 L10,5 z" fill="var(--tf-line)" />
 				</marker>
 			</defs>
 
@@ -76,7 +74,7 @@
 				y1="112"
 				x2="400"
 				y2="170"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="2"
 				marker-end="url(#tf-arrow)"
 			/>
@@ -94,7 +92,7 @@
 					rx="8"
 					ry="8"
 					fill="var(--tf-stone)"
-					stroke="var(--tf-glow)"
+					stroke="var(--tf-line)"
 					stroke-width="1.5"
 				/>
 				<text x="400" y="212" text-anchor="middle" class="tf-label" fill="var(--tf-glow)">
@@ -135,7 +133,7 @@
 				y1="300"
 				x2="400"
 				y2="350"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="2"
 				marker-end="url(#tf-arrow)"
 			/>
@@ -157,7 +155,7 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="20" y="360" width="240" height="4" fill="#DC2626" />
+				<rect x="20" y="360" width="240" height="4" fill="var(--tf-bar)" />
 				<text x="140" y="392" text-anchor="middle" class="tf-label" fill="var(--tf-glow)">
 					ANGER &middot; BODY
 				</text>
@@ -197,7 +195,7 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="280" y="360" width="240" height="4" fill="#F472B6" />
+				<rect x="280" y="360" width="240" height="4" fill="var(--tf-bar)" />
 				<text x="400" y="392" text-anchor="middle" class="tf-label" fill="var(--tf-glow)">
 					SHAME &middot; HEART
 				</text>
@@ -237,7 +235,7 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="540" y="360" width="240" height="4" fill="#0EA5E9" />
+				<rect x="540" y="360" width="240" height="4" fill="var(--tf-bar)" />
 				<text x="660" y="392" text-anchor="middle" class="tf-label" fill="var(--tf-glow)">
 					FEAR &middot; HEAD
 				</text>
@@ -271,7 +269,7 @@
 				y1="350"
 				x2="140"
 				y2="358"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="1.4"
 				stroke-dasharray="4 4"
 			/>
@@ -280,7 +278,7 @@
 				y1="350"
 				x2="660"
 				y2="358"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="1.4"
 				stroke-dasharray="4 4"
 			/>
@@ -291,7 +289,7 @@
 				y1="470"
 				x2="140"
 				y2="510"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="2"
 				marker-end="url(#tf-arrow)"
 			/>
@@ -300,7 +298,7 @@
 				y1="470"
 				x2="400"
 				y2="510"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="2"
 				marker-end="url(#tf-arrow)"
 			/>
@@ -309,7 +307,7 @@
 				y1="470"
 				x2="660"
 				y2="510"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="2"
 				marker-end="url(#tf-arrow)"
 			/>
@@ -328,14 +326,14 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="20" y="520" width="240" height="3" fill={c[8]} />
+				<rect x="20" y="520" width="240" height="3" fill="var(--tf-tbar)" />
 				<text x="140" y="546" text-anchor="middle" class="tf-tlabel" fill="var(--tf-glow)">
 					T8 &middot; THE CHALLENGER
 				</text>
-				<text x="140" y="572" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="140" y="572" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					&ldquo;I must never
 				</text>
-				<text x="140" y="588" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="140" y="588" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					be vulnerable&rdquo;
 				</text>
 			</g>
@@ -352,14 +350,14 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="280" y="520" width="240" height="3" fill={c[2]} />
+				<rect x="280" y="520" width="240" height="3" fill="var(--tf-tbar)" />
 				<text x="400" y="546" text-anchor="middle" class="tf-tlabel" fill="var(--tf-glow)">
 					T2 &middot; THE HELPER
 				</text>
-				<text x="400" y="572" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="400" y="572" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					&ldquo;I&rsquo;m only loved
 				</text>
-				<text x="400" y="588" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="400" y="588" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					when I&rsquo;m helpful&rdquo;
 				</text>
 			</g>
@@ -376,14 +374,14 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="540" y="520" width="240" height="3" fill={c[5]} />
+				<rect x="540" y="520" width="240" height="3" fill="var(--tf-tbar)" />
 				<text x="660" y="546" text-anchor="middle" class="tf-tlabel" fill="var(--tf-glow)">
 					T5 &middot; THE INVESTIGATOR
 				</text>
-				<text x="660" y="572" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="660" y="572" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					&ldquo;the world takes more
 				</text>
-				<text x="660" y="588" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="660" y="588" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					than it gives&rdquo;
 				</text>
 			</g>
@@ -401,14 +399,14 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="20" y="612" width="240" height="3" fill={c[9]} />
+				<rect x="20" y="612" width="240" height="3" fill="var(--tf-tbar)" />
 				<text x="140" y="638" text-anchor="middle" class="tf-tlabel" fill="var(--tf-glow)">
 					T9 &middot; THE PEACEMAKER
 				</text>
-				<text x="140" y="664" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="140" y="664" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					&ldquo;my needs
 				</text>
-				<text x="140" y="680" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="140" y="680" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					create conflict&rdquo;
 				</text>
 			</g>
@@ -425,14 +423,14 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="280" y="612" width="240" height="3" fill={c[3]} />
+				<rect x="280" y="612" width="240" height="3" fill="var(--tf-tbar)" />
 				<text x="400" y="638" text-anchor="middle" class="tf-tlabel" fill="var(--tf-glow)">
 					T3 &middot; THE ACHIEVER
 				</text>
-				<text x="400" y="664" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="400" y="664" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					&ldquo;I&rsquo;m only valued
 				</text>
-				<text x="400" y="680" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="400" y="680" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					for what I achieve&rdquo;
 				</text>
 			</g>
@@ -449,14 +447,14 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="540" y="612" width="240" height="3" fill={c[6]} />
+				<rect x="540" y="612" width="240" height="3" fill="var(--tf-tbar)" />
 				<text x="660" y="638" text-anchor="middle" class="tf-tlabel" fill="var(--tf-glow)">
 					T6 &middot; THE LOYALIST
 				</text>
-				<text x="660" y="664" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="660" y="664" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					&ldquo;I can&rsquo;t trust
 				</text>
-				<text x="660" y="680" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="660" y="680" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					authority to keep me safe&rdquo;
 				</text>
 			</g>
@@ -474,14 +472,14 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="20" y="704" width="240" height="3" fill={c[1]} />
+				<rect x="20" y="704" width="240" height="3" fill="var(--tf-tbar)" />
 				<text x="140" y="730" text-anchor="middle" class="tf-tlabel" fill="var(--tf-glow)">
 					T1 &middot; THE PERFECTIONIST
 				</text>
-				<text x="140" y="756" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="140" y="756" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					&ldquo;I&rsquo;m only good
 				</text>
-				<text x="140" y="772" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="140" y="772" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					if I&rsquo;m perfect&rdquo;
 				</text>
 			</g>
@@ -498,14 +496,14 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="280" y="704" width="240" height="3" fill={c[4]} />
+				<rect x="280" y="704" width="240" height="3" fill="var(--tf-tbar)" />
 				<text x="400" y="730" text-anchor="middle" class="tf-tlabel" fill="var(--tf-glow)">
 					T4 &middot; THE INDIVIDUALIST
 				</text>
-				<text x="400" y="756" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="400" y="756" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					&ldquo;I&rsquo;m fundamentally
 				</text>
-				<text x="400" y="772" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="400" y="772" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					different (and alone)&rdquo;
 				</text>
 			</g>
@@ -522,14 +520,14 @@
 					stroke="var(--tf-edge)"
 					stroke-width="1"
 				/>
-				<rect x="540" y="704" width="240" height="3" fill={c[7]} />
+				<rect x="540" y="704" width="240" height="3" fill="var(--tf-tbar)" />
 				<text x="660" y="730" text-anchor="middle" class="tf-tlabel" fill="var(--tf-glow)">
 					T7 &middot; THE ENTHUSIAST
 				</text>
-				<text x="660" y="756" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="660" y="756" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					&ldquo;pain must be avoided
 				</text>
-				<text x="660" y="772" text-anchor="middle" class="tf-tbody" fill="var(--tf-ink)">
+				<text x="660" y="772" text-anchor="middle" class="tf-tbody" fill="var(--tf-voice)">
 					at all costs&rdquo;
 				</text>
 			</g>
@@ -545,7 +543,7 @@
 				y1="828"
 				x2="380"
 				y2="900"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="2"
 				marker-end="url(#tf-arrow)"
 			/>
@@ -554,7 +552,7 @@
 				y1="828"
 				x2="400"
 				y2="900"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="2"
 				marker-end="url(#tf-arrow)"
 			/>
@@ -563,7 +561,7 @@
 				y1="828"
 				x2="420"
 				y2="900"
-				stroke="var(--tf-glow)"
+				stroke="var(--tf-line)"
 				stroke-width="2"
 				marker-end="url(#tf-arrow)"
 			/>
@@ -578,7 +576,7 @@
 					rx="8"
 					ry="8"
 					fill="var(--tf-stone)"
-					stroke="var(--tf-glow)"
+					stroke="var(--tf-line)"
 					stroke-width="2"
 				/>
 				<text x="400" y="944" text-anchor="middle" class="tf-label" fill="var(--tf-glow)">
@@ -618,23 +616,24 @@
 
 <style lang="scss">
 	.typing-flow {
-		/* dark mode (default) — warm streetlamp palette */
-		--tf-night: #0a0807;
-		--tf-night-mid: #16110d;
-		--tf-stone: #241d17;
-		--tf-edge: #5c4f47;
-		--tf-glow: #f59e0b;
-		--tf-ink: #faf8f4;
-		--tf-mid: #a8a095;
-		--tf-dim: #8a7d70;
-		--tf-pool: rgba(245, 158, 11, 0.18);
-		--tf-title: #ffffff;
-		--tf-title-shadow: rgba(0, 0, 0, 0.45);
-		--tf-card-shadow: rgba(0, 0, 0, 0.45);
-		--tf-card-ring: rgba(245, 158, 11, 0.06);
+		/* Cold Light: local aliases onto the global tokens. */
+		--tf-night: var(--bg);
+		--tf-night-mid: var(--surface);
+		--tf-stone: var(--surface-raised);
+		--tf-edge: var(--rule);
+		--tf-line: var(--accent);
+		--tf-bar: var(--accent);
+		--tf-tbar: color-mix(in srgb, var(--accent) 55%, transparent);
+		--tf-glow: var(--highlight); /* node labels (text): lavender, never indigo */
+		--tf-voice: var(--highlight);
+		--tf-ink: var(--text);
+		--tf-mid: var(--text-muted);
+		--tf-dim: var(--text-faint);
+		--tf-pool: color-mix(in srgb, var(--accent) 16%, transparent);
+		--tf-title: var(--text);
 
-		--tf-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
-		--tf-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+		--tf-label-font: var(--font-talk);
+		--tf-body: var(--font-talk);
 
 		position: relative;
 		margin: 2.5rem auto;
@@ -664,23 +663,6 @@
 		}
 	}
 
-	/* light mode — cream parchment, burnt-orange glow */
-	:global(:root.light) .typing-flow {
-		--tf-night: #fbf7ee;
-		--tf-night-mid: #fff8e8;
-		--tf-stone: #ffffff;
-		--tf-edge: #d6ccb8;
-		--tf-glow: #b45309;
-		--tf-ink: #1c1917;
-		--tf-mid: #57534e;
-		--tf-dim: #78716c;
-		--tf-pool: rgba(180, 83, 9, 0.09);
-		--tf-title: #1c1917;
-		--tf-title-shadow: transparent;
-		--tf-card-shadow: rgba(28, 25, 23, 0.08);
-		--tf-card-ring: rgba(180, 83, 9, 0.05);
-	}
-
 	.typing-flow__caption {
 		display: flex;
 		flex-direction: column;
@@ -694,29 +676,28 @@
 	}
 
 	.typing-flow__tag {
-		font-family: var(--tf-mono);
-		font-size: 11px;
-		font-weight: 500;
-		letter-spacing: 0.12em;
+		font-family: var(--tf-label-font);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		color: var(--tf-glow);
+		color: var(--tf-dim);
 	}
 
 	.typing-flow .typing-flow__title,
 	h3.typing-flow__title {
 		font-family: var(--tf-body);
-		font-weight: 700;
+		font-weight: 600;
 		font-size: clamp(20px, 3vw, 26px);
 		line-height: 1.15;
 		letter-spacing: -0.02em;
 		color: var(--tf-title);
-		text-shadow: 0 1px 2px var(--tf-title-shadow);
 		margin: 0;
 	}
 
 	.typing-flow__sub {
 		font-family: var(--tf-body);
-		font-size: 14px;
+		font-size: var(--font-size-sm);
 		line-height: 1.55;
 		color: var(--tf-mid);
 		margin: 0;
@@ -738,16 +719,16 @@
 
 	/* SVG text classes via :global */
 	.typing-flow__svg :global(.tf-label) {
-		font-family: var(--tf-mono);
-		font-size: 12px;
-		font-weight: 500;
+		font-family: var(--tf-label-font);
+		font-size: var(--font-size-xs);
+		font-weight: 600;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
 	}
 
 	.typing-flow__svg :global(.tf-body) {
 		font-family: var(--tf-body);
-		font-size: 14px;
+		font-size: var(--font-size-sm);
 		font-weight: 400;
 	}
 
@@ -761,22 +742,23 @@
 	}
 
 	.typing-flow__svg :global(.tf-tlabel) {
-		font-family: var(--tf-mono);
+		font-family: var(--tf-label-font);
 		font-size: 10.5px;
-		font-weight: 500;
+		font-weight: 600;
 		letter-spacing: 0.07em;
 		text-transform: uppercase;
 	}
 
+	/* The nine lessons are inner voices: Playfair italic, lavender. */
 	.typing-flow__svg :global(.tf-tbody) {
-		font-family: var(--tf-body);
-		font-size: 12.5px;
-		font-weight: 500;
+		font-family: var(--font-voice);
+		font-size: 13.5px;
+		font-weight: 400;
 		font-style: italic;
 	}
 
 	.typing-flow__svg :global(.tf-annotation) {
-		font-family: var(--tf-mono);
+		font-family: var(--tf-label-font);
 		font-size: 10px;
 		font-weight: 500;
 		letter-spacing: 0.12em;

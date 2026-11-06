@@ -143,7 +143,8 @@ export default {
 			typography: (theme) => ({
 				DEFAULT: {
 					css: {
-						color: 'var(--ink-bright)',
+						// Cold Light prose: body --text-muted, headings/strong --text.
+						color: 'var(--text-muted)',
 						fontSize: '1rem',
 						lineHeight: '1.5',
 						maxWidth: '68ch',
@@ -157,31 +158,31 @@ export default {
 							textDecoration: 'underline',
 							textUnderlineOffset: '3px',
 							'&:hover': {
-								color: 'var(--lamp-light)'
+								color: 'var(--text)'
 							}
 						},
 						h1: {
-							color: 'var(--ink-bright)',
+							color: 'var(--text)',
 							fontFamily: theme('fontFamily.heading').join(','),
 							fontSize: '2.25rem',
 							lineHeight: '1.2',
 							marginBottom: '0.75em'
 						},
 						h2: {
-							color: 'var(--ink-bright)',
+							color: 'var(--text)',
 							fontFamily: theme('fontFamily.heading').join(','),
 							fontSize: '1.75rem',
 							lineHeight: '1.25',
 							marginTop: '1.5em'
 						},
 						h3: {
-							color: 'var(--ink-bright)',
+							color: 'var(--text)',
 							fontFamily: theme('fontFamily.heading').join(','),
 							fontSize: '1.375rem',
 							lineHeight: '1.3'
 						},
 						h4: {
-							color: 'var(--ink-bright)',
+							color: 'var(--text)',
 							fontWeight: 600
 						},
 						p: {
@@ -189,13 +190,14 @@ export default {
 							marginBottom: '0.5em'
 						},
 						strong: {
-							color: 'var(--ink-bright)'
+							color: 'var(--text)'
 						},
 						blockquote: {
-							borderLeftColor: 'var(--highlight)',
-							fontStyle: 'normal',
+							borderLeftColor: 'var(--accent)',
+							backgroundColor: 'var(--surface)',
+							fontStyle: 'italic',
 							paddingLeft: '1rem',
-							color: 'var(--ink-mid)'
+							color: 'var(--text)'
 						},
 						ul: {
 							marginTop: '0.5em',

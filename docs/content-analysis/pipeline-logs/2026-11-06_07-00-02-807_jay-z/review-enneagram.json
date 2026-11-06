@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "4a2356170694ae8b3ac178b28061e2a4275d58c0915c62614d10fcdabd31a45f",
+  "evidence_sha256": "4ee2565cbfb00bca669a6beaf0340ea841bf7678b6b77164bba6526fd99c36da",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-1",
+      "severity": "major",
+      "passage": "In 2009, 2017 and 2018 he described his emotional wall as protection against being let down again, and when guarding his family or his work cost him approval, he usually guarded.",
+      "problem": "The plain-language type answer (repeated in the first FAQ) compresses three different accounts into one motive. Only the 2009 Oprah account ties the wall to being let down (the father on a pedestal). The 2017 account (via Time) blames 'survival mode' and danger, and the 2018 Letterman account blames a learned cultural rule ('Be a man. Don't cry'). Neither says 'let down again'. The same blurring shows up in 'What separates them' ('protection ... against the rule that men don't cry': the rule is presented as the cause of the shutdown, not something it protects against), and the description says he 'calls his emotional wall protection', which puts a word in his mouth he does not use in any quoted passage. This is the headline evidence for Type 8, so overstating its consistency inflates the typing.",
+      "acceptance_test": "The 60-word answer and FAQ give 'being let down' only to 2009 and describe 2017 (survival mode/danger) and 2018 (learned rule against crying) accurately. The description does not say he 'calls' the wall protection unless a quoted source has him saying so. The 'What separates them' sentence no longer lists the men-don't-cry rule as something the shutdown protects against."
+    },
+    {
+      "id": "enneagram-2",
+      "severity": "major",
+      "passage": "He never describes it as a way to keep performing or to keep winning. That is closer to an Eight's armor than to a Three's habit of setting feelings aside to get the job done.",
+      "problem": "This discriminator is lopsided. It counts the absence of Three self-language that a Three would almost never use about themselves ('I shut down to keep winning'), then treats that absence as evidence. Shutting down after abandonment, in danger or under a 'don't cry' upbringing is not specific to any type: it fits a withdrawn 5, a betrayal-wary 6 and a Three whose feelings got in the way of being what the environment rewarded. As written, the self-account is consistent with Eight but does not separate Eight from Three. The draft admits the setting limits this ('Both readings agree that he changed') but still promotes it to 'the first test'.",
+      "acceptance_test": "Either (a) the article names an observable behavior that would differ between the two readings, such as what he does when the wall is challenged (counter-force and confrontation versus adapting to what the room values), and shows the record on it, or (b) the wall evidence is presented as consistent with Eight rather than as a test it passes against Three, and the article says plainly that a Three could give the same self-account."
+    },
+    {
+      "id": "enneagram-3",
+      "severity": "major",
+      "passage": "A Three can be ruthless about ownership and can feud, but the reasons Jay-Z gives each time are protection and control, not how it will look.",
+      "problem": "The 'costs' test is the argument's main support, but most of the listed choices cost him with institutions while raising his standing with the audience whose regard matters to him. Keeping his masters is celebrated by artists. Calling out the Grammys for Beyonce played well with her audience and hip-hop. Refusing to audition kept him from looking like one candidate among four. Taking Def Jam brought power along with the broken friendship. A Three routinely gives up approval from institutions to win admiration from the group that counts, so these choices do not show the image cost the paragraph claims. The reasons he gives are also self-reports from public settings, which the article concedes elsewhere. The one choice in the record that cost him something real is turning down the London label deal out of loyalty to Jaz-O while he was still dealing, and that points to loyalty (6 or 8) more than to control.",
+      "acceptance_test": "For each costly choice in 'What separates them', the article says who it cost him with and who it gained him with. At least one cited choice cost him standing with the audience a Three would protect, or real status he wanted. If none can be found, the paragraph says the costs test is weaker than stated and the confidence language stays at medium or lower."
+    },
+    {
+      "id": "enneagram-4",
+      "severity": "major",
+      "passage": "Achievers usually want the biggest stage. What he refused in 2019 was the audition: being one of four names waiting to be chosen.",
+      "problem": "The halftime refusal is the hook, the persona title and the lead of the description ('Why Type 8 fits him better than Type 3'), but the body never argues why refusing an audition points to Eight rather than Three. 'Achievers usually want the biggest stage' is a straw version of Three: a top-tier Three often declines a contest that would show him as one option among several, and that protects his image. The same press conference has rank language the draft quotes but never analyzes ('I didn't see any reason for him to play second fiddle to anyone that year', plus 'he's playing on a stage that had an M on it' in theGrio), which leans toward status. The theGrio report also has a line the draft leaves out, 'I think the process could have been more definite', which is the part that best supports a control reading. The article later admits the 2026 reversal cannot separate the readings. It never makes the same check for the 2019 refusal.",
+      "acceptance_test": "The body states how an Eight and a Three would each read the 2019 refusal, deals with the 'second fiddle' rank language, and considers the 'more definite' process complaint. The description and the hook framing do not present the refusal as evidence for Eight over Three unless the body earns that."
+    },
+    {
+      "id": "enneagram-5",
+      "severity": "minor",
+      "passage": "He let West talk about him \"100 times,\" then went silent when West named his wife.",
+      "problem": "The Kanye episode is counted on both sides. Here, going silent after West named Beyonce is evidence for the protective Eight. In 'Where the Type 8 reading strains', answering through an album and speaking only months later is evidence against Eight. Silence and a delayed, art-first reply are what a Three avoiding a messy public fight would also do. The behavior that best fits Eight is the boundary he describes (family is off-limits), not the silence.",
+      "acceptance_test": "The discriminator paragraph cites the stated boundary and his Rap Radar framing ('Now it's a problem with me'), not the silence, as the Eight datum, and says how a Three's image-protective silence would look different. Otherwise the Kanye episode comes out of the discriminator list and stays as an unresolved strain."
+    },
+    {
+      "id": "enneagram-6",
+      "severity": "minor",
+      "passage": "So it was here in the projects that I learned loyalty.",
+      "problem": "A large share of the draft's character evidence is about loyalty, betrayal and distrust of outsiders: the projects loyalty code, turning down a label out of loyalty to Jaz-O, 'They weren't stand-up people', 'Everybody takes their money', a friend who shot at him can never be a friend again, and a wall built after his father let him down. Counterphobic Six is the classic Eight lookalike for exactly this material, and the article never names it. The same Oprah interview also has 'I always had a fear that this music thing wouldn't be successful', which the draft leaves out: he planned a return to dealing as a backup, which is security hedging. The Three-versus-Eight frame leaves this rival untested.",
+      "acceptance_test": "One or two sentences name counterphobic Six as a rival for the loyalty and betrayal evidence and give the observation that separates it from Eight, such as whether he seeks or tests an authority or makes himself the authority (his ease beside Goodell is relevant). If nothing separates them, the article lists Six as unresolved."
+    },
+    {
+      "id": "enneagram-7",
+      "severity": "minor",
+      "passage": "His account still matches Jay-Z's own word for his younger self, \"cold,\" and it matches the pattern: when control of the work was at stake, the friendship did not decide the outcome.",
+      "problem": "'The pattern' claimed here contradicts an earlier anecdote: in the Jaz-O episode, loyalty to a friend beat a record deal. The article does not reconcile the two. Choosing the bigger seat over a cofounder friendship, as Dash describes it ('betrayed you for money'), is also the stereotypical Three move, so Dash's 'cold' fits both types and does not count toward Eight specifically. Matching Jay-Z's 'really cold' (about intimacy after his father left) to Dash's 'cold' (about a business split) equates two different senses of the word.",
+      "acceptance_test": "The article names the tension between the Jaz-O choice and the 2004 Dash split and says how each type would reconcile it, or drops 'it matches the pattern'. It notes that trading a friendship for a bigger platform fits a Three as well, and it stops treating the two uses of 'cold' as the same trait."
+    },
+    {
+      "id": "enneagram-8",
+      "severity": "minor",
+      "passage": "A Three engineers a persona, keeps the private self out of view, competes to be the greatest and partners with whoever offers the bigger platform. Every one of those fits.",
+      "problem": "The two types are argued at different depths. Eight gets a motive (not being controlled or made vulnerable). Three gets a checklist of behaviors with no stated motive (worth through being seen to succeed, or fear of being worthless without achievement), so the comparison sets a motive against a list. Two quotes are also filed only under Three. The Fresh Air bravado quote (toughness as cover for fear) fits the draft's own Eight definition at least as well, and he was describing rappers in general. 'There's nothing worse than becoming successful as someone else' answered Oprah's 'we've both become successful by being ourselves', so it is a claim about authenticity, which is not straightforward evidence of image-seeking.",
+      "acceptance_test": "The Three section states Three's core motive and tests at least one quote against it. The bravado quote is marked as cutting both ways, or as a general comment about rappers. The 'successful as someone else' line keeps Oprah's prompt or is caveated, or it is moved."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "These accounts are his own, and a frightened child in a violent neighborhood is not a personality type.",
+      "reason": "Good typing discipline. It refuses to treat childhood trauma as proof of type and moves the evidence to the adult's stated reasons, which is the correct level of inference."
+    },
+    {
+      "passage": "Wing and subtype are left open here. The record does not support a confident guess.",
+      "reason": "Avoids the convenient wing or self-preservation subtype that could explain away the quiet. Keep it, and do not add a subtype to fix the strain section."
+    },
+    {
+      "passage": "An Eight reading can say that he chose a seat with power over a gesture, but that is an interpretation, and it should be held loosely.",
+      "reason": "Faces the strongest counterexample (the 2019 NFL deal) head-on and labels the reconciling move as interpretation rather than evidence."
+    },
+    {
+      "passage": "One possible answer, offered as interpretation rather than proof, is that he learned early that showing feeling was exposure, so his control runs through ownership, terms and timing rather than volume. The answer fits, but it is also convenient, and a reader can reasonably weigh the quiet more heavily than this profile does.",
+      "reason": "Rare honesty about the weakest point of the Eight reading. It names its own rescue as convenient and invites the reader to disagree."
+    },
+    {
+      "passage": "On the Eight reading, nothing changed but who sets the terms. On the Three reading, he waited until the moment would look best. The record available on November 6, 2026 cannot separate the two.",
+      "reason": "States both readings of the 2026 reversal symmetrically and dates the uncertainty. This is the model the 2019 refusal (enneagram-4) should follow."
+    }
+  ],
+  "assessment": "Type 8 at medium confidence is defensible, and the draft is unusually honest about where it strains: the quiet, the NFL deal and the 2026 reversal are named and left unresolved, and no wing, arrow or subtype is used to explain them away. The discriminators are weaker than presented. (1) The 'what the wall protects' test merges three different self-accounts into one 'let down again' motive (enneagram-1) and rests on the absence of Three self-language a Three would not use (enneagram-2). (2) The 'costs' test mostly lists choices that cost him with institutions while raising his standing with the audience that matters to him, which a Three also does (enneagram-3). (3) The audition refusal that anchors the hook, persona title and description is never argued as Eight versus Three, and the 'second fiddle' rank language and the left-out 'process could have been more definite' remark are not examined (enneagram-4). The Three case is a list of behaviors set against an Eight motive (enneagram-8), and counterphobic Six, the natural rival for the loyalty and betrayal material, is never tested (enneagram-6). Contested typing stays flagged, and sensitive allegations (the 1999 stabbing and the dismissed 2024 suit) remain present though correctly kept out of the type argument. I opened two sources: the Oprah 2009 interview (via r.jina.ai) and theGrio 2019. The quotes used for typing match, with the context notes above. The similarity advisory tripped only on 'the Eight read(ing)' shared with Nara-Smith. That is ordinary type vocabulary, and the arguments differ, so I did not raise a finding."
+}

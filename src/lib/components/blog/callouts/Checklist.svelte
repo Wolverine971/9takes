@@ -2,7 +2,7 @@
 <!--
   Interactive checklist for blog content — action items, to-do lists, steps.
   Shell renders through the shared <Callout> base (2026-06-10 consolidation);
-  the title becomes the base's mono kicker label. Public props unchanged.
+  the title becomes the base's Archivo label. Public props unchanged.
 -->
 <script lang="ts">
 	import type { Snippet } from 'svelte';
@@ -41,7 +41,7 @@
 	<div class="checklist__items">
 		{#each items as item, index (item)}
 			{@const itemId = `${listId}-${index}`}
-			<div class="checklist__item" class:checklist__item--checked={checkedStates[index]}>
+			<div class={['checklist__item', { 'checklist__item--checked': checkedStates[index] }]}>
 				<input
 					type="checkbox"
 					id={itemId}
@@ -80,14 +80,16 @@
 		align-items: flex-start;
 		gap: 0.75rem;
 		padding: 0.75rem 1rem;
-		background: rgba(255, 255, 255, 0.03);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
+		background: var(--bg);
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
-		transition: all 0.2s ease;
+		transition:
+			background 0.2s ease,
+			border-color 0.2s ease;
 
 		&:hover {
-			background: var(--lamp-soft);
-			border-color: color-mix(in srgb, var(--lamp-glow) 25%, var(--stone-edge));
+			background: var(--surface-raised);
+			border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
 		}
 	}
 
@@ -96,73 +98,81 @@
 		width: 18px;
 		height: 18px;
 		border-radius: 4px;
-		border: 2px solid var(--ink-dim);
+		border: 2px solid var(--text-faint);
 		background: transparent;
 		cursor: pointer;
 		flex-shrink: 0;
 		appearance: none;
 		-webkit-appearance: none;
-		transition: all 0.2s ease;
+		transition:
+			background 0.2s ease,
+			border-color 0.2s ease;
 
+		/* Checked = indigo fill, light check (--text on --accent is fine). */
 		&:checked {
-			background: var(--lamp-glow);
-			border-color: var(--lamp-glow);
+			background: var(--accent);
+			border-color: var(--accent);
 
-			// Checkmark — dark on amber per the locked CTA contrast rule
 			&::after {
 				content: '✓';
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				color: var(--night-deep);
-				font-size: 12px;
+				color: var(--text);
+				font-size: var(--font-size-xs);
 				font-weight: bold;
+				line-height: 14px;
 			}
 		}
 
 		&:focus {
 			outline: none;
-			box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 30%, transparent);
+		}
+
+		&:focus-visible {
+			outline: 2px solid var(--highlight);
+			outline-offset: 2px;
 		}
 	}
 
 	.checklist__label {
-		font-size: 0.9rem;
+		font-size: var(--font-size-base);
 		line-height: 1.6;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		cursor: pointer;
 		flex: 1;
 
 		:global(strong),
 		:global(b) {
-			color: var(--ink-bright);
+			color: var(--text);
 			font-weight: 600;
 		}
 
 		:global(a) {
-			color: var(--lamp-glow);
+			color: var(--highlight);
+			text-decoration: underline;
 		}
 	}
 
-	// Checked state styling for the whole item
+	/* Checked: the row settles onto --surface-raised with an indigo edge (no green). */
 	.checklist__item--checked {
-		background: color-mix(in srgb, var(--success) 8%, transparent);
-		border-color: color-mix(in srgb, var(--success) 20%, transparent);
+		background: var(--surface-raised);
+		border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
 
 		.checklist__label {
-			color: var(--ink-mid);
+			color: var(--text-faint);
 			text-decoration: line-through;
-			text-decoration-color: var(--ink-dim);
+			text-decoration-color: var(--text-faint);
 		}
 	}
 
 	.checklist__note {
 		margin: 1rem 0 0;
 		padding-top: 0.75rem;
-		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
-		font-size: 0.8rem;
+		border-top: 1px solid var(--rule);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		font-style: italic;
 	}
 
@@ -176,7 +186,7 @@
 		}
 
 		.checklist__label {
-			font-size: 0.85rem;
+			font-size: var(--font-size-sm);
 		}
 	}
 </style>

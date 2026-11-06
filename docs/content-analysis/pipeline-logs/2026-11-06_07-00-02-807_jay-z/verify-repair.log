@@ -1,0 +1,42 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+The Jay-Z repair verification is written, and the profile doesn't clear the release gate. It holds on two blockers:
+
+- **Overall score is 8.4.** The floor is 8.5.
+- **Status is `revise`.** I found three small wording fixes.
+
+There are no major findings, and the previous blocker is fixed: no claim cites the unopened *Decoded* book any more.
+
+**What checked out:**
+- **Sources:** I reopened all 25 cited sources (four needed a workaround). Every quote matched its words, speaker and context. That includes the long Oprah, NYT T Magazine and Fresh Air exchanges, and the NFL press conference.
+- **Repair decisions:** I agree with all 45 decisions on reviewer findings and the 8 fixes from the last verification, including the two the editor rejected for lack of an opened source.
+- **Protected passages:** all 21 are kept. Five were reworded, each to fix accuracy, and what made each one good survived.
+- **Other checks:** the evidence inventory covers the article's claims, the metadata matches the body, Type 3 and counterphobic Type 6 are seriously tested, and it passes the five-year test.
+
+**The three minor findings:**
+1. **Kneeling quote cut short.** The article quotes "we've moved past kneeling" and uses it as Type 3 evidence. In the same answer he said "I support protest across the board," and the article leaves that out. It makes a living person sound more dismissive than he was. This is the one I'd fix before release.
+2. **Invented scene.** It says Oprah asked about his 11-year-old self while they walked through Marcy. The source doesn't place the question during the walk.
+3. **Opening not inventoried.** The date and setting in the opening (August 14, 2019, at Roc Nation's offices) aren't in the claim list. I checked them and they're correct.
+
+**Scores:**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.6 |
+| Enneagram | 8.0 |
+| Originality | 8.8 |
+| Writing | 8.3 |
+| Durability | 8.6 |
+| Hook | 8.4 |
+| Discoverability | 8.3 |
+
+The 8.4 overall comes mainly from two things:
+- **Type 8 vs Type 3 is honest but soft.** The article itself concedes Three fails no decisive test, so Enneagram sits exactly at its 8.0 floor.
+- **The middle drags a little.** "What separates them" reads like a list of tests and is heavy on hedges.
+
+**Caveats:**
+- **NYT interview source:** the NYT and Wayback Machine both blocked me, so I checked it against the copy of the page an earlier stage of this run saved from the Wayback Machine.
+- **Previous scores seen before scoring:** before I scored, I accidentally saw the previous verification's scores (overall 8.4) in a file printed alongside the repair request. My scores are my own, with a reason and passage for each, but you should know I'd seen them.
+
+This was the run's one allowed repair, so the run will hold. The cheapest way forward is a short manual edit: fix the kneeling quote and the Oprah sentence, then tighten "What separates them" and the opening. After that, rerun with `--refresh`.
+
+I only wrote `verification-repair.json` in the run folder; scratch downloads and scripts are in `/tmp/jz-verify-*`. Nothing was published.

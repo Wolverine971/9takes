@@ -62,7 +62,7 @@
 		align-items: center;
 		margin-bottom: 1.25rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
+		border-bottom: 1px solid var(--rule);
 		gap: 1rem;
 	}
 
@@ -73,16 +73,17 @@
 	}
 
 	.section-title-group h2 {
-		font-size: 1.25rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xl);
 		font-weight: 600;
-		color: var(--ink-bright);
+		color: var(--text);
 		margin: 0;
 		line-height: 1.3;
 	}
 
 	.section-subtitle {
-		font-size: 0.8125rem;
-		color: var(--ink-dim);
+		font-size: var(--font-size-sm);
+		color: var(--text-faint);
 		margin: 0.125rem 0 0;
 	}
 
@@ -93,28 +94,23 @@
 	}
 
 	.faq-item {
-		/* --stone-warm is the canonical raised-card surface (white in light
-		   mode, warm-brown in dark). Using --night-deep made cards collapse
-		   into the section background in light mode — see design audit
-		   2026-06-11. */
-		background: var(--stone-warm);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-		border-radius: 0.625rem;
+		background: var(--surface);
+		border: 1px solid var(--rule);
+		border-radius: 10px;
 		overflow: hidden;
 		transition:
 			border-color 0.2s ease,
 			box-shadow 0.2s ease;
 
 		&:hover {
-			border-color: var(--lamp-glow-rgba);
-			box-shadow: 0 2px 8px color-mix(in srgb, var(--ink-bright) 9%, transparent);
+			border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
 		}
 
 		&[open] {
-			border-color: var(--lamp-glow-rgba);
+			border-color: color-mix(in srgb, var(--accent) 55%, var(--rule));
 
 			.faq-question {
-				border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
+				border-bottom: 1px solid var(--rule);
 			}
 
 			.toggle-icon::after {
@@ -138,14 +134,14 @@
 		}
 
 		&:hover {
-			background: color-mix(in srgb, var(--lamp-glow) 5%, transparent);
+			background: var(--surface-raised);
 		}
 	}
 
 	.question-text {
-		font-size: 0.9375rem;
+		font-size: var(--font-size-base);
 		font-weight: 600;
-		color: var(--ink-bright);
+		color: var(--text);
 		line-height: 1.4;
 	}
 
@@ -161,8 +157,8 @@
 			content: '';
 			width: 0.5rem;
 			height: 0.5rem;
-			border-right: 2px solid var(--ink-dim);
-			border-bottom: 2px solid var(--ink-dim);
+			border-right: 2px solid var(--text-faint);
+			border-bottom: 2px solid var(--text-faint);
 			transform: rotate(45deg);
 			transition: transform 0.2s ease;
 		}
@@ -175,8 +171,8 @@
 		background: transparent;
 
 		p {
-			font-size: 0.9375rem;
-			color: var(--ink-mid);
+			font-size: var(--font-size-base);
+			color: var(--text-muted);
 			line-height: 1.7;
 			margin: 0;
 		}
@@ -196,31 +192,19 @@
 		}
 
 		.section-title-group h2 {
-			font-size: 1.0625rem;
+			font-size: var(--font-size-lg);
 		}
 
 		.section-subtitle {
-			font-size: 0.75rem;
-		}
-
-		.faq-item {
-			border-radius: 0.625rem;
+			font-size: var(--font-size-xs);
 		}
 
 		.faq-question {
 			padding: 0.875rem 1rem;
 		}
 
-		.question-text {
-			font-size: 1rem;
-		}
-
 		.faq-answer {
 			padding: 0.875rem 1rem 1rem;
-
-			p {
-				font-size: 1rem;
-			}
 		}
 	}
 
@@ -230,7 +214,7 @@
 		}
 
 		.section-title-group h2 {
-			font-size: 1rem;
+			font-size: var(--font-size-base);
 		}
 
 		.faq-question {

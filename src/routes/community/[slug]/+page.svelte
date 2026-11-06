@@ -64,11 +64,11 @@
 
 <SuggestionsBlog posts={data?.posts} blogType="Community" slugPrefix="community" />
 
-<div class="join">
-	{#if !authShell.user}
+{#if !authShell.user}
+	<div class="join">
 		<EmailSignup cta="Get the next community take from 9takes" />
-	{/if}
-</div>
+	</div>
+{/if}
 
 <!-- The beta card ("Want to try experimental therapy, 9takes style?") for every
      reader: a side card on wide screens, inside the article on narrower ones.
@@ -86,21 +86,14 @@
 		max-width: var(--prose-measure);
 		margin: 3rem auto;
 		border: none;
-		border-top: 1px solid var(--stone-edge);
-	}
-
-	/* Streetlamp Symposium — Community article reading layout.
-	   Body reads in --ink-bright (ratified 2026-06-09, design-system.md §6);
-	   --ink-mid is for captions/secondary voice only. */
-	:global(.blog) {
-		color: var(--ink-bright);
+		border-top: 1px solid var(--rule);
 	}
 
 	.join {
 		margin-top: 2rem;
 		padding: 2rem;
-		background: var(--stone-warm);
+		background: var(--surface);
 		border-radius: 1rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 	}
 </style>

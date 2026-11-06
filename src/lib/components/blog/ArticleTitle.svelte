@@ -15,15 +15,14 @@
 </script>
 
 {#if slug}
-	<h2 class="heading" class:large={!slug} {id} style:--tag={`h-blog-${cleanedTitle}`}>
+	<h2 class={['heading', { large: !slug }]} {id} style:--tag={`h-blog-${cleanedTitle}`}>
 		<a {href}>
 			{title}
 		</a>
 	</h2>
 {:else if headingTag === 'h2'}
 	<h2
-		class="heading"
-		class:large={!slug}
+		class={['heading', { large: !slug }]}
 		{id}
 		itemprop={structuredData ? 'headline' : undefined}
 		style:--tag={`h-blog-${cleanedTitle}`}
@@ -32,8 +31,7 @@
 	</h2>
 {:else}
 	<h1
-		class="heading"
-		class:large={!slug}
+		class={['heading', { large: !slug }]}
 		{id}
 		itemprop={structuredData ? 'headline' : undefined}
 		style:--tag={`h-blog-${cleanedTitle}`}
@@ -43,9 +41,11 @@
 {/if}
 
 <style>
+	/* Post titles are full sentences, so they stay Archivo semibold (Anton is
+	   for short uppercase shouts only). */
 	h1 {
 		text-wrap: balance;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 	h2 {
 		margin: 0;
@@ -53,17 +53,20 @@
 	}
 	.heading {
 		margin: 0;
+		font-family: var(--font-talk);
 		font-size: 1.8rem;
-		font-weight: bolder;
-		color: var(--ink-bright);
+		font-weight: 600;
+		color: var(--text);
 	}
 	.heading a {
-		color: var(--lamp-glow);
-		text-decoration: none;
+		color: var(--highlight);
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.15em;
 		transition: color 0.2s ease;
 	}
 	.heading a:hover {
-		color: var(--lamp-glow);
+		color: var(--text);
 	}
 	.large {
 		margin-top: calc(var(--spacing-unit) * 1);

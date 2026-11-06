@@ -39,33 +39,32 @@
 {/if}
 
 <style lang="scss">
+	/* Cold Light has no mono face: labels are Archivo, uppercase and letter-spaced. */
 	.kicker {
-		font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
-		font-weight: 500;
+		font-family: var(--font-talk);
+		font-weight: 600;
 		text-transform: uppercase;
 		display: inline-block;
 		line-height: 1.3;
 	}
 
 	.kicker--sm {
-		font-size: 12px;
-		letter-spacing: 0.08em;
+		font-size: 0.75rem;
+		letter-spacing: 0.1em;
 	}
 
 	.kicker--md {
-		font-size: 14px;
-		letter-spacing: 0.06em;
+		font-size: 0.875rem;
+		letter-spacing: 0.08em;
 	}
 
-	.kicker--lamp {
-		color: var(--lamp-glow);
-	}
-
+	/* `lamp` and `data` are legacy names; both read as lavender emphasis now. */
+	.kicker--lamp,
 	.kicker--data {
-		color: var(--data-teal);
+		color: var(--highlight);
 	}
 
 	.kicker--dim {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 </style>

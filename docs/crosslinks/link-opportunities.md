@@ -1,7 +1,7 @@
 # Link Opportunities
 
-_Generated: 2026-11-05 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-07-19 → 2026-10-17. 177 candidate links found (+128 weaker ones offered only for gate debt); 282 suppressed in `docs/crosslinks/skipped.json`._
+_Generated: 2026-11-06 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Search data: GSC 2026-07-19 → 2026-10-17. 179 candidate links found (+128 weaker ones offered only for gate debt); 282 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -75,6 +75,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 3 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L130) | `/personality-analysis/ryan-reynolds` | "Ryan Reynolds" | …broad on purpose. It holds Jeff Bezos. It also holds Taylor Swift, who runs a very large business, and Ryan Reynolds, who sold a gin brand… |
 | 2.92 | `/pop-culture/twitter-x-personality-types-toxic` (L225) | `/personality-analysis/elon-musk` | "Elon Musk" | **Did X become more toxic after Elon Musk bought Twitter?** |
 | 2.56 | `/enneagram-corner/enneagram-wings-complete-guide` (L239) | `/personality-analysis/bill-gates` | "Bill Gates" | **Public-figure interpretations:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), [Mark Zuckerberg](/personality-ana… |
+| 1.41 | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` (L417) | `/personality-analysis/scott-galloway` | "Scott Galloway" | … such as abandoning their original no-guests rule. One split played out live on Scott Galloway's podcast: Jordi called integrating gamblin… |
 | 0.61 | `/pop-culture/podcast-bros-enneagram-analysis` (L346) | `/personality-analysis/andrew-schulz` | "Andrew Schulz" | - **The Second Generation**: A wave of newer hosts—Andrew Schulz, Theo Von, Danny Jones—are building audiences using the infrastructure the… |
 
 ## 4. People → people (personality-analysis → personality-analysis)
