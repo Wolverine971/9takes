@@ -5,8 +5,14 @@
 > **A living document.** Source of truth for brand, design tokens, and component conventions.
 > Status: **In progress.** Started 2026-05-01.
 >
+> **Visual identity: Cold Light (locked 2026-11-05).** The brand spec is
+> [`docs/brand/cold-light.md`](brand/cold-light.md): story, palette, type, imagery, logo and rules.
+> This doc holds the implementation contract (tokens, scales, components). Streetlamp Symposium
+> sections below are kept as history and marked retired.
+>
 > Sister docs (intentionally not source-of-truth — they're inputs to this doc):
 >
+> - `docs/brand/cold-light.md` — Cold Light brand spec (wins on anything visual-brand)
 > - `docs/design/2026-05-01-design-system-gap-analysis.md` — full audit & contradictions log
 > - `docs/brand/brand-positioning.md` — brand strategy (voice, audience)
 > - `docs/brand/brand-style-guide-v2.md` — voice & copy conventions
@@ -36,20 +42,20 @@ Detailed audit lives in `docs/design/2026-05-01-design-system-gap-analysis.md`. 
 
 | Area                | What's in the code today                                                                                                                                                                    | Lock status          |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| Brand mood          | Streetlamp Symposium — warm-tech baseline + tech-spec dossier variant for `/personality-analysis/*`                                                                                         | ✅ LOCKED 2026-05-04 |
+| Brand mood          | **Cold Light** — hidden until you answer; dark is the unknown, light is the reveal (`docs/brand/cold-light.md`). Streetlamp Symposium retired 2026-11-05.                                   | ✅ LOCKED 2026-11-05 |
 | Brand voice         | Locked in `brand-positioning.md` + `brand-style-guide-v2.md`                                                                                                                                | ✅ Locked            |
-| Color palette       | V5: sodium-amber primary (`--lamp-glow`), warm-stone surfaces (`--night-*`, `--stone-*`), teal data accent (`--data-teal`). **Phase 7 complete 2026-06-11: legacy bridge aliases deleted.** | ✅ LOCKED 2026-05-04 |
+| Color palette       | Cold Light role tokens (`--bg`, `--surface*`, `--accent`, `--highlight`, `--action`, `--text*`, `--rule`). V5 amber/stone set retired 2026-11-05; code migration in progress.               | ✅ LOCKED 2026-11-05 |
 | Surface tokens      | `--bg-*` bridge aliases DELETED (Phase 7, 2026-06-11) — use `--night-*` / `--stone-*` directly                                                                                              | ✅ Resolved          |
-| Light mode          | Full `:root.light` overrides + `ThemeToggle.svelte` shipped (Tier 2)                                                                                                                        | ✅ Shipped           |
-| Typography          | Inter (variable, all weights) + JetBrains Mono. Rajdhani / Space Grotesk / Noticia Text retired in Phase 2.                                                                                 | ✅ LOCKED 2026-05-04 |
+| Light mode          | **Removed.** Dark only, no theme toggle (DJ, 2026-11-05). `:root.light` overrides and `ThemeToggle.svelte` are being deleted.                                                               | ✅ LOCKED 2026-11-05 |
+| Typography          | Anton (`--font-shout`) + Playfair Display italic (`--font-voice`) + Archivo (`--font-talk`), self-hosted. Inter + JetBrains Mono retired 2026-11-05.                                        | ✅ LOCKED 2026-11-05 |
 | Spacing             | Tailwind `xs/sm/md/lg/xl/2xl/3xl` tokens exist; arbitrary values still common                                                                                                               | 🟡 Partial           |
 | Radius              | `sm 4px / md 10px / xl 16px / full` — Kole's recipe, **lint-enforced** (`pnpm lint:radius`) for Tailwind classes AND raw CSS declarations (backlog burned 527→0 2026-06-11)                 | ✅ LOCKED 2026-04-27 |
 | Shadow              | Soft, neutral, Kole's recipe (`rgba(0,0,0, 0.15–0.25)`, 2× blur) in dark mode; softer in light mode. CSS-var driven.                                                                        | ✅ LOCKED 2026-04-27 |
 | Motion              | Global reduced-motion guard shipped. Duration/easing scale and property-specific transition contract remain open.                                                                           | 🟡 Partial           |
-| Glows               | Two tokens remain: `--glow-sm` and `--glow-md`. Legacy color-named utilities and unused global effect mixins are retired.                                                                   | ✅ LOCKED 2026-05-04 |
+| Glows               | Two tokens remain: `--glow-sm` and `--glow-md`, now indigo (`--accent`) instead of amber. Legacy color-named utilities and unused global effect mixins are retired.                         | ✅ LOCKED 2026-05-04 |
 | Components          | Shared atoms: Button, SectionKicker, Callout (6 blog callouts render through it), CaseCard/CaseGrid/IndexHero (all 5 listing pages). Icon atom still open.                                  | 🟡 Improving         |
 | Icons               | Lucide is installed and partially adopted; 27 custom icon components and many inline SVGs remain. Custom Enneagram marks are exempt.                                                        | 🟡 Migrating         |
-| Imagery             | Logo (`aero.webp`), hero statues, philosopher photos, DJ portraits — solid asset library, well organized in `static/brand/`                                                                 | ✅ Locked            |
+| Imagery             | Statues only: grey Greek marble on black, one indigo tint ramp applied after. Logo = nine-mask mark in the statue tint. Philosopher scenes and photos retired for brand imagery 2026-11-05. | ✅ LOCKED 2026-11-05 |
 | `/styleguide` route | Shipped — §00–§12 (tokens, type, spacing, radius, shadow, components incl. Callout / CaseCard / CaseGrid / IndexHero as of 2026-06-11)                                                      | ✅ Shipped           |
 
 **Verdict:** Strong token and brand foundation with a shipped styleguide, but partial component
@@ -74,9 +80,9 @@ Same order as the walkthrough template — brand mood **first**, because every l
 
 | #   | Section             | Status               | Notes                                                                                 |
 | --- | ------------------- | -------------------- | ------------------------------------------------------------------------------------- |
-| 4   | Brand foundations   | ✅ LOCKED 2026-05-04 | Streetlamp Symposium — warm-tech baseline + dossier variant                           |
-| 5   | Color               | ✅ LOCKED 2026-05-04 | V5 token set; bridge migration via rollout plan                                       |
-| 6   | Typography          | ✅ LOCKED 2026-05-04 | Inter + JetBrains Mono only; Rajdhani/Space Grotesk retired                           |
+| 4   | Brand foundations   | ✅ LOCKED 2026-11-05 | Cold Light (`docs/brand/cold-light.md`); Streetlamp Symposium retired                 |
+| 5   | Color               | ✅ LOCKED 2026-11-05 | Cold Light role tokens, dark only; V5 amber set retired                               |
+| 6   | Typography          | ✅ LOCKED 2026-11-05 | Anton + Playfair Display italic + Archivo; Inter + JetBrains Mono retired             |
 | 7   | Spacing             | 🟡 De-facto          | Token set exists; subset commitment open                                              |
 | 8   | Radius              | ✅ Locked            | `sm/md/xl/full`, lint-enforced                                                        |
 | 9   | Shadow              | ✅ Locked            | Kole's recipe, theme-aware                                                            |
@@ -90,8 +96,9 @@ Same order as the walkthrough template — brand mood **first**, because every l
 ## 4. Brand foundations
 
 Voice is **locked** in `docs/brand/brand-positioning.md` and
-`docs/brand/brand-style-guide-v2.md`. The Streetlamp Symposium mood is also locked; the remaining work
-is implementation consolidation rather than choosing a new visual direction.
+`docs/brand/brand-style-guide-v2.md`. Words are locked in `docs/brand/messaging-hierarchy.md` (six
+lines, including the core formula **Honesty + Curiosity = Clarity**, added 2026-11-05). The visual
+mood is **Cold Light**, locked 2026-11-05; its full spec is `docs/brand/cold-light.md`.
 
 ### Locked
 
@@ -104,7 +111,36 @@ is implementation consolidation rather than choosing a new visual direction.
 | **Voice (4 traits)** | Tactically Direct · Socially Savvy · Respectfully Provocative · Pattern-Recognition Focused                                                                   |
 | **What we are NOT**  | ❌ Academic/theoretical · ❌ New-Age mystical · ❌ Generic SaaS minimalist · ❌ Corporate · ❌ Preachy                                                        |
 
-### ✅ LOCKED 2026-05-04 — Streetlamp Symposium
+### ✅ LOCKED 2026-11-05 — Cold Light
+
+**Story: hidden until you answer.** The feed lets you watch; 9takes doesn't. Every question stays
+dark until you answer it, then the other takes come into the light.
+
+**Principles** (full text in `docs/brand/cold-light.md`):
+
+- **Show that something's there.** Counts, types and blurred rows. Never what a take says before someone answers.
+- **Dark is the unknown.** Pages stay mostly dark.
+- **Light is the reveal.** Revealed takes come up in lavender and white.
+- **Mint is the key.** The one control that turns the lights on: give your take. About one mint element in view at a time.
+
+**Visual vocabulary:**
+
+- Night background (`#01010D`), never pure black, never warm stone
+- Grey Greek marble statues with one shared indigo tint ramp, lit from the upper left on black
+- Anton uppercase for the loud take, Playfair Display italic for the quiet feeling under it
+- Blurred rows and counts for takes you can't see yet
+- 1px `--rule` hairlines as the elevation workhorse; shadows only for floating UI
+- The nine-mask logo in the statue tint
+
+**What we are visually NOT** (adds to the list below): amber, orange or warm light; light mode;
+hacker clichés (code rain, glitch text, skulls); cruelty.
+
+**Single-mode brand.** Cold Light has no dossier variant. `/personality-analysis/*` uses the same
+tokens; any dossier-style layout it keeps is a layout choice, not a second palette.
+
+### 🗄️ RETIRED 2026-11-05 — Streetlamp Symposium (was locked 2026-05-04)
+
+Kept as history. Do not use for new work.
 
 **Two-mode brand:**
 
@@ -128,12 +164,12 @@ is implementation consolidation rather than choosing a new visual direction.
 - Sodium-amber primary glow — never neon, never gradient-drenched
 - Negative space treated as deep night, not empty white
 
-**Header wordmark accent rule (ratified 2026-07-13):** the text wordmark rests in warm marble
+**Header wordmark accent rule (ratified 2026-07-13, retired with Streetlamp):** the text wordmark rests in warm marble
 (`--ink-bright` mixed lightly with `--lamp-deep`). Full `--lamp-glow` is reserved for hover/focus,
 primary action, and compact illuminated labels. The search edge and Library border carry low-alpha
 amber mixed into stone; the logo does not compete with them. See HyperPlexed pattern P19.
 
-**What we are visually NOT** (final):
+**What we are visually NOT** (still applies under Cold Light):
 
 - ❌ Generic SaaS template (Notion/Linear/Stripe wholesale aesthetic)
 - ❌ Wellness-app softness (Headspace, Calm)
@@ -143,11 +179,45 @@ amber mixed into stone; the logo does not compete with them. See HyperPlexed pat
 - ❌ Red-pill / "The Game" bro aesthetic
 - ❌ Corporate-cold SaaS (Salesforce, Hubspot)
 
-**Canonical visual reference:** `/design-preview/v5`. Production migrates in Phase 4 of `docs/design/2026-05-04-rollout-plan.md`.
+**Canonical visual reference (retired):** `/design-preview/v5`. Cold Light's reference is the approved brand page summarized in `docs/brand/cold-light.md`.
 
 ---
 
 ## 5. Color
+
+### ✅ LOCKED 2026-11-05 — Cold Light token contract
+
+Dark only. One set of values, no `:root.light` overrides. Plain names are for people; role names are
+for code. Full rationale and the contrast table live in `docs/brand/cold-light.md`.
+
+| Plain name     | Token              | Value                      | Use                                                                              |
+| -------------- | ------------------ | -------------------------- | -------------------------------------------------------------------------------- |
+| Night          | `--bg`             | `#01010D`                  | Every page background. Never pure `#000`.                                        |
+| Surface        | `--surface`        | `#0C0B22`                  | Cards and panels                                                                 |
+| Surface raised | `--surface-raised` | `#131133`                  | Text boxes, hover, raised rows                                                   |
+| Indigo         | `--accent`         | `#6331FB`                  | Statue tint, glows, fills, selected states. **Never text, never focus** (3.3:1). |
+| Indigo deep    | `--accent-deep`    | `#24127A`                  | Deep fills, pressed states                                                       |
+| Lavender       | `--highlight`      | `#CFC2FF`                  | Italic inner-voice lines, links (always underlined), focus outlines              |
+| Mint           | `--action`         | `#88F9C0`                  | Give your take; your take is in. About one in view at a time.                    |
+| Dark on mint   | `--text-on-action` | `#01010D`                  | Label on mint buttons (16.2:1)                                                   |
+| Text           | `--text`           | `#F4F2FF`                  | Headlines and anything that must read                                            |
+| Muted          | `--text-muted`     | `#BDB8DA`                  | Body text                                                                        |
+| Faint          | `--text-faint`     | `#8D88AE`                  | Counts, dates, labels                                                            |
+| Rule           | `--rule`           | `rgba(207, 194, 255, .14)` | Hairline borders and dividers                                                    |
+
+**Color priority:** mint is action, lavender is links and focus, indigo is fills and glows, Enneagram
+type color is data only, and the text ramp carries everything else. Text on indigo uses `--text`
+(5.7:1).
+
+**Migration status (2026-11-05):** code is moving from V5 names to these tokens. Until that lands,
+some files still use `--lamp-*`, `--night-*`, `--stone-*` and `--ink-*`. Don't add new uses of
+them. The old-role-to-new-role map is in `docs/brand/cold-light.md`.
+
+**Open items:** the Enneagram type colors for Types 3 and 7 (`#F59E0B`, `#FBBF24`) and the
+`--warning` semantic (`#F59E0B`) are amber hexes. They are data and status colors, not brand
+accents, but they sit close to the "never amber" rule. The personality portrait well (`#2C1F28`) is
+warm. Each needs a decision during the screen-by-screen work. `--data-teal` has no Cold Light role
+yet.
 
 ### Archived pre-V5 palette — historical only
 
@@ -156,7 +226,9 @@ component-alias palettes are retired. They are not alternative themes and must n
 work. Historical values remain in `docs/design/2026-05-04-streetlamp-symposium-v5.md` for archaeology;
 the V5 role map below is the only production color contract.
 
-### ✅ LOCKED 2026-05-04 — V5 token set
+### 🗄️ RETIRED 2026-11-05 — V5 token set (was locked 2026-05-04)
+
+Kept as history. Replaced by the Cold Light token contract above.
 
 The Streetlamp Symposium palette replaced the de-facto teal-primary palette as the brand identity.
 The bridge migration is complete: production code uses the V5 role tokens directly, without the
@@ -208,9 +280,10 @@ unchanged; owned portrait callers opt into a theme-aware presentation treatment.
 | Portrait well   | `--personality-portrait-well`   | `#2C1F28`                                        | `#F6F3FB`                                        |
 | Portrait filter | `--personality-portrait-filter` | `contrast(1.08) brightness(0.92) saturate(0.68)` | `contrast(1.02) brightness(0.99) saturate(0.58)` |
 
-Color priority on personality-analysis surfaces:
+Color priority on personality-analysis surfaces (item 1 updated for Cold Light 2026-11-05; the
+light-mode column above is moot now that the site is dark only):
 
-1. Amber is illumination, action, and focus.
+1. Mint is action; lavender is links and focus; indigo is fills and glows. (Was: amber.)
 2. Enneagram type color is data only.
 3. Legacy portrait violet stays inside treated portrait imagery. Purple remains valid only when it
    is explicitly labeled Type 4 or heart-triad data.
@@ -248,7 +321,31 @@ Cut from six to two:
 
 ## 6. Typography
 
-### ✅ LOCKED 2026-05-04 — Inter + JetBrains Mono
+### ✅ LOCKED 2026-11-05 — Anton + Playfair Display italic + Archivo
+
+The loud take and the quiet feeling underneath. Confirmed by DJ on 2026-11-05. All three are
+self-hosted so headlines don't jump while loading on phones. **No fourth typeface.**
+
+| Family                      | Token          | Use                                                                                                      |
+| --------------------------- | -------------- | -------------------------------------------------------------------------------------------------------- |
+| **Anton**                   | `--font-shout` | The take. Uppercase headlines and section titles, 40px and up. Never a full sentence.                    |
+| **Playfair Display italic** | `--font-voice` | The feeling. Second line of a headline, inner-voice lines, emotion questions. Lavender.                  |
+| **Archivo**                 | `--font-talk`  | Everything people read and type: takes, buttons, body, forms, labels. 16–20px body, regular to semibold. |
+
+Rules:
+
+- Pair the loud line with the quiet one in big headlines.
+- Headings below 40px use Archivo semibold.
+- JetBrains Mono is retired with Inter. Small uppercase labels and kickers use Archivo with
+  letter-spacing in `--text-faint`.
+- Body text is `--text-muted`; headlines and short must-read text are `--text`; italic voice lines
+  are `--highlight`. Links are `--highlight`, always underlined.
+- Noticia Text in `static/fonts/` still feeds the question social-card renderer. Share cards move to
+  Cold Light (and must never show what a take says) during the rollout.
+
+### 🗄️ RETIRED 2026-11-05 — Inter + JetBrains Mono (was locked 2026-05-04)
+
+Kept as history.
 
 **Type system:** Inter (variable, weights 400–800) + JetBrains Mono. **No serif. No third sans-serif.**
 
@@ -259,7 +356,7 @@ Cut from six to two:
 
 **Drop in Phase 2:** Rajdhani, Space Grotesk. Inter at weight 800 with -0.04em letter-spacing handles the gravitas role Rajdhani used to do. (Noticia Text files in `static/fonts/` are **kept intentionally** — the question social-card renderer (`renderQuestionSocialCard.ts`) loads the TTFs at runtime, and question-print/social-card templates use the family. Exempt asset skin, not UI chrome.)
 
-### Type scale (V5 lock)
+### Type scale (V5 lock, retired 2026-11-05)
 
 ```
 display-xl   72px  Inter  800  -0.04em letter-spacing  hero tagline
@@ -273,7 +370,7 @@ mono         12px  JetBrains 500  0.08em UPPERCASE     dossier-style labels
 mono-lg      14px  JetBrains 500  0.06em UPPERCASE     prominent annotations
 ```
 
-### Color rules (locked, re-ratified 2026-06-09)
+### Color rules (V5, re-ratified 2026-06-09, retired 2026-11-05)
 
 | Element             | Color                                   |
 | ------------------- | --------------------------------------- |
@@ -434,9 +531,13 @@ Things deferred — capture here so they're not lost.
 - [ ] **Finish icon convergence.** `@lucide/svelte` is installed and partially adopted. Replace
       ordinary hand-rolled controls one route at a time and lock a shared size/stroke contract. Custom
       Enneagram-type symbols stay as a different category.
-- [ ] **Logo system.** `aero.webp` is the current header/footer logo. 8 color variants exist (`aria/fresco/nimbus/oceanic/polar/dark-rubix/rock-rubix`) with no documented usage rules. Decide: which variants survive, which are deleted?
-- [ ] **Photography direction.** Greek statues (`greek_distorted_statue_face.png`), philosopher gathering, cyber campfire — three different aesthetics in the hero rotation. Pick one or document the rule.
-- [ ] **Brand-flavored dark mode personality.** Current dark mode is "warm stone" (brown undertone) — feels intentional. Confirm or pick differently (e.g. "deep teal-tinted").
+- [x] **Logo system.** Decided 2026-11-05: the nine-mask mark recolored with the statue tint
+      (option A). Master: `docs/design/homepage-whispering-statues/logo-nine-mask-statue-tint.png`.
+      Aero and the color variants (`aria/fresco/nimbus/oceanic/polar/dark-rubix/rock-rubix`) are legacy.
+- [x] **Photography direction.** Decided 2026-11-05: statues only, grey stone with one shared indigo
+      tint ramp. No photos of people, places or phones. See `docs/brand/cold-light.md`.
+- [x] **Brand-flavored dark mode personality.** Decided 2026-11-05: Night `#01010D` with a trace of
+      blue replaces warm stone. Dark only.
 - [x] **Loading + empty + error adoption.** `<EmptyState>` and `<ErrorState>` share the canonical
       `StatusState` shell and are used by production content/related-post flows. Skeleton and Spinner each
       have one contract; remaining route-local loaders should migrate as their owners are touched.
@@ -462,4 +563,5 @@ Things deferred — capture here so they're not lost.
 | 2026-05-05 | **Migration complete (Phases 1–7).** All page categories, asset generators, admin surface, and 47 components migrated to V5 tokens + Svelte 5 runes. Bridge demolition: legacy SCSS tokens redirected as one-line aliases to V5; V5 is now single source of truth for color values. `body` styles use V5 directly. `/design-preview/v2\|v3\|v4` deleted. `@fontsource/rajdhani` + `@fontsource/space-grotesk` removed. **0 legacy core token refs in `src/` code.** Tracker: `docs/design/migration-progress.md`.                                                                                                                                                                                                             |
 | 2026-06-11 | **Phase 8 — `--neutral-*` ramp deleted** from `src/scss/index.scss` (both themes), plus zero-consumer `--neutral-light/-border/-text/-divider`. All 20 `var(--neutral-N)` consumers migrated by role per §6: body prose/headings/primary control text → `--ink-bright`; metadata/secondary voice → `--ink-mid`; panel bg → `--night-deep`; borders → `--stone-edge`. Tailwind `neutral` classes are independent hex literals — unaffected. Same day: stale `.noticia-text-regular` utility renamed `.font-body`.                                                                                                                                                                                                              |
 | 2026-08-02 | **Contained-violet personality portrait contract locked and Phase 9 alias cleanup completed.** Added theme-aware portrait well/filter tokens, semantic opt-in classes, and `/styleguide` §13 with all nine Enneagram type colors. Removed the standalone rose, gray-name, zero-consumer generic component aliases, and unused color-named glow mixins; migrated the remaining callers to V5 roles; converted the live legacy swatches to an archive notice; and retired the superseded Anna decision preview. Source portrait assets remain unchanged.                                                                                                                                                                        |
+| 2026-11-05 | **Cold Light locked; Streetlamp Symposium retired.** DJ approved the new identity: dark only (light mode and theme toggle removed), Night/Indigo/Lavender/Mint role tokens, Anton + Playfair Display italic + Archivo replacing Inter + JetBrains Mono, statues only with one indigo tint ramp, nine-mask logo recolored in the statue tint. Radius scale unchanged. Brand spec: `docs/brand/cold-light.md`. §1, §3, §4, §5, §6 and §13 updated; Streetlamp sections kept as history and marked retired.                                                                                                                                                                                                                      |
 | 2026-08-03 | **Phase 9 independent and clean-room hardening completed.** Repaired 18 residual calls to deleted bridge aliases, removed dormant Tailwind rose/purple/obsolete brand ramps, harmonized three published article skins plus print/email output, removed old violet from SVG presentation attributes and shared fallbacks, and added `lint:colors` as a regression guard. Type 4 purple and contained portrait violet remain intentional data/media roles. The form/status/loading primitive families and executable styleguide coverage also shipped; Wave 3 began retiring the line-budgeted global component migration layer.                                                                                                |

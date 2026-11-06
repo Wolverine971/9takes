@@ -1,4 +1,5 @@
 <!-- docs/design/homepage-whispering-statues/review/persona-reviews-2026-11-04.md -->
+
 # Persona reviews: whispering-statues homepage (2026-11-04)
 
 Page: https://claude.ai/artifact/Rif2yTPiXRhcWq1nsSBXsA (version 7). Personas: `../review-personas.md`.

@@ -1,4 +1,5 @@
 <!-- docs/design/homepage-whispering-statues/review/v1-vs-v2-persona-comparison-2026-11-04.md -->
+
 # v1 vs v2: persona comparison (2026-11-04)
 
 - v1: https://claude.ai/artifact/Rif2yTPiXRhcWq1nsSBXsA

@@ -23,7 +23,9 @@ assert.equal(
 
 const FUNCTIONS_DIR = path.resolve('.vercel/output/functions');
 const ARTICLE_FUNCTION = `${FUNCTIONS_DIR}/personality-analysis/[slug].func`;
-const ARTICLE_PROCESSOR = 'chunks/blogContentProcessor.js';
+// The bundler names the chunk after its module only while it stays separate; it can
+// also merge into a shared chunk or the route entry, so find it by the function it defines.
+const ARTICLE_PROCESSOR_MARKER = /function processBlogContent\b/;
 const RUNTIME_REQUIRE = /__require\(\s*["']([^"']+)["']\s*\)/g;
 
 function listFunctionDirs(dir, found = new Set()) {
@@ -90,7 +92,12 @@ console.log('✓ Every runtime require() in the traced Vercel functions resolves
 
 const articleCopy = isolate(realpathSync(ARTICLE_FUNCTION));
 try {
-	await import(pathToFileURL(path.join(serverOutputDir(articleCopy), ARTICLE_PROCESSOR)).href);
+	const serverDir = serverOutputDir(articleCopy);
+	const processorChunk = listJsFiles(serverDir).find((file) =>
+		ARTICLE_PROCESSOR_MARKER.test(readFileSync(file, 'utf8'))
+	);
+	assert.ok(processorChunk, 'Could not find the chunk that defines processBlogContent');
+	await import(pathToFileURL(processorChunk).href);
 } finally {
 	rmSync(articleCopy, { recursive: true, force: true });
 }

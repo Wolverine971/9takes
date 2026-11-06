@@ -6,7 +6,6 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 vi.mock('$app/paths', () => ({
 	resolve: (path: string, params?: { slug: string }) => path.replace('[slug]', params?.slug ?? '')
 }));
-vi.mock('svelte/motion', () => ({ prefersReducedMotion: { current: false } }));
 const { practiceMock, commentCreatedMock, commentFailedMock, deserializeMock } = vi.hoisted(() => ({
 	practiceMock: vi.fn(),
 	commentCreatedMock: vi.fn(),
@@ -27,7 +26,6 @@ vi.mock('$app/forms', () => ({ deserialize: deserializeMock }));
 
 import Homepage from './+page.svelte';
 import { load } from './+page';
-import HomepagePreview from './design-preview/harry-dry/+page.svelte';
 
 const SLUG = 'whats-criteria-considering-someone-friend';
 const live = {
@@ -39,6 +37,11 @@ const live = {
 	answered: false,
 	ownTake: null,
 	answers: []
+};
+const liveTypes = {
+	recent: [8, null, 4, null],
+	answered: [4, 8, 9],
+	newestAt: '2026-10-31T18:00:00Z'
 };
 const ANSWER = 'Someone who shows up when it is inconvenient.';
 const postedBody = {
@@ -102,144 +105,97 @@ function answerCalls() {
 	return vi.mocked(fetch).mock.calls.filter(([input]) => String(input) === '/api/homepage/answer');
 }
 
-async function writeAndReveal(text = ANSWER) {
-	await fireEvent.input(screen.getByRole('textbox'), { target: { value: text } });
-	await fireEvent.click(
-		screen.getByRole('button', {
-			name: /^(Reveal 9 perspectives|Post & read answers)$/
-		})
-	);
+function renderHome(data: Record<string, unknown> = { live, liveTypes }) {
+	return render(Homepage, { props: { data: data as never } });
 }
 
-describe('promoted homepage', () => {
-	it('uses indexable homepage metadata and delegates navigation to the shared site header', () => {
-		const { container } = render(Homepage, { props: { data: { live } as never } });
+async function writeAndPost(text = ANSWER) {
+	await fireEvent.input(screen.getByRole('textbox', { name: 'Your take' }), {
+		target: { value: text }
+	});
+	await fireEvent.click(screen.getByRole('button', { name: /^Post/ }));
+}
+
+describe('homepage', () => {
+	it('keeps indexable metadata and leaves navigation to the shared site header', () => {
+		const { container } = renderHome();
 		expect(document.head.querySelector('link[rel="canonical"]')?.getAttribute('href')).toBe(
 			'https://9takes.com'
 		);
 		expect(document.head.querySelector('meta[name="robots"]')?.getAttribute('content')).toMatch(
 			/^index, follow/
 		);
-		expect(load({} as never)).toEqual({ pageChrome: 'default', pageShell: 'owned' });
 		expect(load({ data: { live } } as never)).toEqual({
 			live,
 			pageChrome: 'default',
 			pageShell: 'owned'
 		});
-		expect(screen.queryByRole('navigation')).toBeNull();
 		expect(container.querySelector('header')).toBeNull();
+		expect(container.querySelector('footer')).toBeNull();
 		expect(document.title).toBe('1 Question, 9 Perspectives | 9takes');
-		expect(container.textContent).not.toMatch(/§|PREVIEW|Preview|Current homepage|Compare V1|V2/);
-		expect(screen.getByText('Answer before the crowd. Then read what others think.')).toBeTruthy();
-		expect(screen.getByText('“How are you?”')).toBeTruthy();
-		expect(
-			screen.getByRole('heading', { name: /The same situation\.\s*Two different emergencies\./ })
-		).toBeTruthy();
-		expect(container.querySelectorAll('.scene-stage img')).toHaveLength(5);
 		const structuredData = [
 			...document.head.querySelectorAll('script[type="application/ld+json"]')
 		].map((script) => JSON.parse(script.textContent ?? '{}'));
 		expect(structuredData).toContainEqual(
-			expect.objectContaining({
-				'@type': 'WebPage',
-				'@id': 'https://9takes.com/#webpage',
-				url: 'https://9takes.com'
-			})
+			expect.objectContaining({ '@type': 'WebPage', '@id': 'https://9takes.com/#webpage' })
 		);
 	});
 
-	it('falls back to the local practice answer when the live question is unavailable', async () => {
-		const { container } = render(Homepage, { props: { data: { live: null } as never } });
-		const answer = 'Private test answer: listen before judging.';
-		await writeAndReveal(answer);
-		await waitFor(() => expect(container.querySelector('.comparison')).toBeTruthy());
-		expect(fetch).toHaveBeenCalledTimes(1);
-		expect(fetch).toHaveBeenCalledWith('/api/homepage/community', {
-			signal: expect.any(AbortSignal)
-		});
-		const copies = [...container.querySelectorAll('blockquote')].filter(
-			(quote) => quote.textContent === answer
-		);
-		expect(copies).toHaveLength(2);
-		for (const quote of copies) expect(quote.closest('.ph-no-capture')).toBeTruthy();
-		expect(document.activeElement?.id).toBe('reveal-title');
-		const revealEvent = practiceMock.mock.calls.find(([input]) => input.step === 'revealed')?.[0];
-		expect(revealEvent).toMatchObject({ surface: 'homepage', practiceId: 'friendship' });
-		expect(JSON.stringify(practiceMock.mock.calls)).not.toContain(answer);
-		expect(
-			screen.getByRole('link', { name: 'Join the friendship conversation' }).getAttribute('href')
-		).toBe(`/questions/${SLUG}`);
-	});
-
-	it('keeps the alternate design route excluded from indexing', () => {
-		render(HomepagePreview);
-		expect(document.head.querySelector('meta[name="robots"]')?.getAttribute('content')).toMatch(
-			/^noindex, nofollow/
-		);
-		expect(screen.getByRole('navigation', { name: 'Preview navigation' })).toBeTruthy();
+	it('renders the v4 sections with one h1 and the hero image loaded eagerly', () => {
+		const { container } = renderHome();
+		expect(container.querySelectorAll('h1')).toHaveLength(1);
+		expect(screen.getByRole('heading', { level: 1 }).textContent).toMatch(/Give\s*your take/);
+		for (const name of [
+			/Answer before\s*the crowd does/,
+			/What's under\s*every take/,
+			/Before\s*you post/,
+			/The internet collapses\s*Nine perspectives\s*into one winning take\./
+		]) {
+			expect(screen.getByRole('heading', { level: 2, name })).toBeTruthy();
+		}
+		const hero = container.querySelector('.photo img')!;
+		expect(hero.getAttribute('fetchpriority')).toBe('high');
+		expect(hero.getAttribute('loading')).toBeNull();
+		const busts = [...container.querySelectorAll('.tri-face img')];
+		expect(busts).toHaveLength(3);
+		for (const bust of busts) expect(bust.getAttribute('loading')).toBe('lazy');
+		const typeLinks = screen
+			.getByRole('navigation', { name: 'The nine Enneagram types' })
+			.querySelectorAll('a');
+		expect(typeLinks).toHaveLength(9);
+		expect(typeLinks[0].getAttribute('href')).toBe('/enneagram-corner/enneagram-type-1');
 	});
 });
 
-describe('homepage live take', () => {
-	it('keeps the FAQs and pre-submit disclosure accurate when switching between live and practice', async () => {
-		const { container, rerender } = render(Homepage, { props: { data: { live } as never } });
-		const liveFaqs = container.querySelector('.faqs')!;
-		expect(liveFaqs.textContent).toContain('The live answers come from community members.');
-		expect(liveFaqs.textContent).toContain('separate comparison of AI-written examples');
-		expect(liveFaqs.textContent).not.toContain('This page starts with a private exercise');
-		expect(liveFaqs.textContent).not.toContain('They are not answers from community members.');
-		expect(liveFaqs.textContent).toContain('Guests do not have edit or delete controls.');
-		const submit = screen.getByRole('button', { name: 'Post & read answers' });
-		const disclosure = container.querySelector('#practice-note')!;
-		expect(disclosure.textContent).toContain('Your answer will be public, without your name.');
-		expect(
-			disclosure.compareDocumentPosition(submit) & Node.DOCUMENT_POSITION_FOLLOWING
-		).toBeTruthy();
-		expect(submit.getAttribute('aria-describedby')).toBe('practice-note');
-		const postingHelp = screen.getByRole('link', { name: /Guest editing & removal/ });
-		expect(postingHelp.getAttribute('href')).toBe('/posting-and-privacy#editing-and-removal');
-		expect(postingHelp.getAttribute('target')).toBe('_blank');
-		expect(
-			postingHelp.compareDocumentPosition(submit) & Node.DOCUMENT_POSITION_FOLLOWING
-		).toBeTruthy();
-
-		await rerender({ data: { live: null } as never });
-		const practiceFaqs = container.querySelector('.faqs')!;
-		expect(practiceFaqs.textContent).toContain('private exercise using AI-written examples');
-		expect(practiceFaqs.textContent).not.toContain('Posting makes your answer public');
-		expect(container.querySelector('#practice-note')?.textContent).toContain('Nothing is posted.');
-		expect(screen.queryByRole('link', { name: /Guest editing & removal/ })).toBeNull();
-		expect(answerCalls()).toHaveLength(0);
-	});
-
-	it('frames the hero around the live question and shows no takes before posting', async () => {
-		const { container } = render(Homepage, { props: { data: { live } as never } });
+describe('homepage live question card', () => {
+	it('shows the count and who answered, but no take text before posting', () => {
+		const { container } = renderHome();
 		expect(screen.getByRole('heading', { name: live.title })).toBeTruthy();
-		expect(screen.getByText('10 responses so far')).toBeTruthy();
-		expect(screen.getByText(/Your answer will be public, without your name/)).toBeTruthy();
-
-		expect(container.querySelectorAll('.live-take')).toHaveLength(0);
-		expect(container.textContent).not.toMatch(/Preview|simulated/);
+		expect(screen.getByText('10 takes · newest Oct 31')).toBeTruthy();
+		expect(screen.getByRole('button', { name: /Post & see all 10/ })).toBeTruthy();
+		expect(container.querySelector('#live-note')?.textContent).toContain('Anonymous.');
+		expect(screen.getByText(/No 1, 2, 3, 5, 6 or 7 has answered yet\./)).toBeTruthy();
+		expect(container.querySelector('.lock-count')?.textContent).toMatch(
+			/10 takes\s*unlock when you post yours\./
+		);
+		const chips = [...container.querySelectorAll('.locked .chip')].map((chip) => chip.textContent);
+		expect(chips).toEqual(['8', '–', '4', '–']);
+		// Locked rows are placeholders only, hidden from assistive tech.
+		expect(container.querySelector('.locked')?.getAttribute('aria-hidden')).toBe('true');
+		expect(container.querySelector('.locked')?.textContent).toMatch(/^[x,\s–0-9]+$/);
 		expect(answerCalls()).toHaveLength(0);
 	});
 
-	it('posts the answer for real, unlocks the answers and offers reply notes', async () => {
-		const { container } = render(Homepage, { props: { data: { live } as never } });
-		await writeAndReveal();
+	it('posts the take for real, unlocks the answers and offers reply notes', async () => {
+		const { container } = renderHome();
+		await writeAndPost();
 
 		await waitFor(() =>
 			expect(
 				screen.getByRole('heading', { name: 'You’re in. Here’s how others answered.' })
 			).toBeTruthy()
 		);
-		expect(answerCalls()).toHaveLength(1);
 		expect(document.activeElement?.textContent).toBe('You’re in. Here’s how others answered.');
-		expect(
-			container
-				.querySelector('#live-optin')!
-				.compareDocumentPosition(container.querySelector('.comparison')!) &
-				Node.DOCUMENT_POSITION_FOLLOWING
-		).toBeTruthy();
 		const [, init] = answerCalls()[0];
 		expect(init).toMatchObject({ method: 'POST', headers: { 'content-type': 'application/json' } });
 		expect(JSON.parse(String(init?.body))).toEqual({
@@ -247,17 +203,14 @@ describe('homepage live take', () => {
 			comment: ANSWER,
 			fingerprint: 'visitor-cookie'
 		});
-
+		expect(screen.getByText('Posted anonymously', { exact: false })).toBeTruthy();
+		expect(container.querySelector('.take-row.own')?.textContent).toContain(ANSWER);
 		expect(screen.getByText('They remember the small things.')).toBeTruthy();
-		expect(screen.getByText('ENNEAGRAM 2')).toBeTruthy();
-		expect(container.querySelector('.own-take')?.textContent).toContain(ANSWER);
-		expect(screen.getByText('11 responses so far')).toBeTruthy();
-		expect(screen.queryByRole('button', { name: 'Edit answer' })).toBeNull();
+		expect(screen.getByText('11 takes · newest Oct 31')).toBeTruthy();
 		expect(
 			screen.getByRole('link', { name: 'Open the full conversation' }).getAttribute('href')
 		).toBe(`/questions/${SLUG}`);
 
-		// The real "take posted" event, never with the answer text.
 		expect(commentCreatedMock).toHaveBeenCalledWith(
 			expect.objectContaining({
 				surface: 'homepage',
@@ -271,10 +224,10 @@ describe('homepage live take', () => {
 			})
 		);
 		expect(practiceMock.mock.calls.map(([input]) => input.step)).toContain('live_post_clicked');
-		const analytics = JSON.stringify([practiceMock.mock.calls, commentCreatedMock.mock.calls]);
-		expect(analytics).not.toContain(ANSWER);
+		expect(JSON.stringify([practiceMock.mock.calls, commentCreatedMock.mock.calls])).not.toContain(
+			ANSWER
+		);
 
-		// Reply notes: the question page's tray, saved through the live question's action.
 		const tray = screen.getByRole('region', { name: 'Want a note if someone replies?' });
 		expect(tray.textContent).toContain('DJ reads every take and replies.');
 		deserializeMock.mockReturnValueOnce({
@@ -297,47 +250,21 @@ describe('homepage live take', () => {
 	});
 
 	it('opens straight to the unlocked state for a visitor who already answered', () => {
-		const { container } = render(Homepage, {
-			props: {
-				data: {
-					live: {
-						...live,
-						answered: true,
-						ownTake: { id: 77, text: 'Loyalty, mostly.' },
-						answers: [{ id: 31, text: 'They remember the small things.', type: 2 }]
-					}
-				} as never
-			}
+		const { container } = renderHome({
+			live: {
+				...live,
+				answered: true,
+				ownTake: { id: 77, text: 'Loyalty, mostly.' },
+				answers: [{ id: 31, text: 'They remember the small things.', type: 2 }]
+			},
+			liveTypes
 		});
-
-		expect(screen.queryByRole('button', { name: 'Reveal 9 perspectives' })).toBeNull();
-		expect(screen.getByRole('heading', { name: 'You already answered this one.' })).toBeTruthy();
-		expect(screen.getByText('YOU ANSWERED THIS ONE')).toBeTruthy();
-		expect(container.querySelector('.own-take')?.textContent).toContain('Loyalty, mostly.');
+		expect(screen.queryByRole('textbox', { name: 'Your take' })).toBeNull();
+		expect(screen.getByText('You answered this one', { exact: false })).toBeTruthy();
+		expect(container.querySelector('.take-row.own')?.textContent).toContain('Loyalty, mostly.');
 		expect(screen.getByText('They remember the small things.')).toBeTruthy();
-		expect(screen.queryByRole('button', { name: 'Post & read answers' })).toBeNull();
 		expect(screen.queryByRole('region', { name: 'Want a note if someone replies?' })).toBeNull();
 		expect(answerCalls()).toHaveLength(0);
-	});
-
-	it('shows the earlier take when the server says this visitor already answered', async () => {
-		answerReply = {
-			status: 200,
-			body: {
-				...postedBody,
-				alreadyAnswered: true,
-				commentId: null,
-				commentAnalytics: null,
-				ownTake: { id: 77, text: 'Loyalty, mostly.' }
-			}
-		};
-		const { container } = render(Homepage, { props: { data: { live } as never } });
-		await writeAndReveal();
-
-		expect(await screen.findByText('YOU ANSWERED THIS ONE')).toBeTruthy();
-		expect(container.querySelector('.own-take')?.textContent).toContain('Loyalty, mostly.');
-		expect(commentCreatedMock).not.toHaveBeenCalled();
-		expect(screen.queryByRole('region', { name: 'Want a note if someone replies?' })).toBeNull();
 	});
 
 	it('never labels an unposted draft as the visitor’s take', async () => {
@@ -345,12 +272,13 @@ describe('homepage live take', () => {
 			status: 200,
 			body: { ...postedBody, alreadyAnswered: true, commentId: null, ownTake: null }
 		};
-		const { container } = render(Homepage, { props: { data: { live } as never } });
-		await writeAndReveal();
+		const { container } = renderHome();
+		await writeAndPost();
 
-		expect(await screen.findByText('YOU ANSWERED THIS ONE')).toBeTruthy();
-		expect(container.querySelector('.own-take')).toBeNull();
-		expect(container.querySelector('#live-optin')?.textContent).not.toContain(ANSWER);
+		expect(await screen.findByText('You answered this one', { exact: false })).toBeTruthy();
+		expect(container.querySelector('.take-row.own')).toBeNull();
+		expect(container.querySelector('#answer')?.textContent).not.toContain(ANSWER);
+		expect(commentCreatedMock).not.toHaveBeenCalled();
 	});
 
 	it('keeps the draft and explains when posting fails', async () => {
@@ -358,34 +286,45 @@ describe('homepage live take', () => {
 			status: 429,
 			body: { error: 'Too many comments. Please wait a minute before trying again.' }
 		};
-		const { container } = render(Homepage, { props: { data: { live } as never } });
-		await writeAndReveal();
+		renderHome();
+		await writeAndPost();
 
 		expect((await screen.findByRole('alert')).textContent).toBe(
 			'Too many comments. Please wait a minute before trying again.'
 		);
-		expect(screen.getByRole('button', { name: 'Post & read answers' })).toBeTruthy();
-		expect((screen.getByRole('textbox') as HTMLTextAreaElement).value).toBe(ANSWER);
-		expect(container.querySelector('.comparison')).toBeNull();
+		expect((screen.getByRole('textbox', { name: 'Your take' }) as HTMLTextAreaElement).value).toBe(
+			ANSWER
+		);
 		answerReply = { status: 200, body: postedBody };
-		await fireEvent.click(screen.getByRole('button', { name: 'Post & read answers' }));
+		await fireEvent.click(screen.getByRole('button', { name: /^Post/ }));
 		expect(await screen.findByText('They remember the small things.')).toBeTruthy();
 		expect(commentFailedMock).toHaveBeenCalledWith(
-			expect.objectContaining({
-				surface: 'homepage',
-				failureStage: 'request',
-				errorCategory: 'http_error'
-			})
+			expect.objectContaining({ surface: 'homepage', errorCategory: 'http_error' })
 		);
 		expect(JSON.stringify(commentFailedMock.mock.calls)).not.toContain(ANSWER);
 	});
 
-	it('tells signed-in visitors their take posts from their account', async () => {
-		render(Homepage, { props: { data: { live: { ...live, signedIn: true } } as never } });
-		expect(screen.getByRole('button', { name: 'Post & read answers' })).toBeTruthy();
-		expect(
-			screen.getByText(/Your answer will be public and posted from your account/)
-		).toBeTruthy();
-		expect(screen.queryByText(/No name or account attached/)).toBeNull();
+	it('asks for a few words before posting an empty take', async () => {
+		renderHome();
+		await fireEvent.click(screen.getByRole('button', { name: /^Post/ }));
+		expect(screen.getByRole('alert').textContent).toBe('Add a few words of your own first.');
+		expect(answerCalls()).toHaveLength(0);
+	});
+
+	it('tells signed-in visitors their take posts from their account', () => {
+		const { container } = renderHome({ live: { ...live, signedIn: true }, liveTypes });
+		expect(container.querySelector('#live-note')?.textContent).toContain(
+			'Posts from your account.'
+		);
+		expect(container.textContent).toContain('your take posts from your account');
+		expect(container.querySelector('#live-note')?.textContent).not.toContain('Anonymous.');
+	});
+
+	it('links to the open questions when the live question is unavailable', () => {
+		renderHome({ live: null, liveTypes: null });
+		expect(screen.queryByRole('textbox', { name: 'Your take' })).toBeNull();
+		expect(screen.getByRole('link', { name: /Browse open questions/ }).getAttribute('href')).toBe(
+			'/questions'
+		);
 	});
 });

@@ -20,8 +20,8 @@
 		}
 	],
 	"display": "standalone",
-	"theme_color": "#0a0807",
-	"background_color": "#0a0807",
+	"theme_color": "#01010D",
+	"background_color": "#01010D",
 	"scope": "/",
 	"start_url": "/",
 	"id": "/",

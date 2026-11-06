@@ -1,14 +1,20 @@
 <!-- src/routes/+layout.svelte -->
 <script lang="ts">
-	// Phase 2 (2026-05-04): swapped to Inter Variable + JetBrains Mono per
-	// design-system.md §6. Space Grotesk + Rajdhani imports removed; the
-	// @fontsource/* packages are still in package.json (used by email
-	// templates / poster generator until Phase 6) but no longer loaded
-	// globally.
+	// Cold Light (2026-11-05): Archivo (talk) + Playfair Display italic (voice)
+	// + Anton (shout), self-hosted, font-display: swap, latin subset only (keeps
+	// build output + global CSS lean). Size-adjusted local fallbacks live in
+	// src/scss/index.scss. Inter is retired from the UI (the email asset script
+	// outlines its own TTFs from static/fonts/inter).
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
-	import '@fontsource-variable/inter';
-	import '@fontsource/jetbrains-mono/400.css';
-	import '@fontsource/jetbrains-mono/500.css';
+	import '@fontsource/archivo/latin-400.css';
+	import '@fontsource/archivo/latin-500.css';
+	import '@fontsource/archivo/latin-600.css';
+	import '@fontsource/archivo/latin-700.css';
+	import '@fontsource/playfair-display/latin-400-italic.css';
+	import '@fontsource/playfair-display/latin-500-italic.css';
+	import '@fontsource/anton/latin-400.css';
+	import '@fontsource/jetbrains-mono/latin-400.css';
+	import '@fontsource/jetbrains-mono/latin-500.css';
 	import '../app.scss';
 	import { browser, dev } from '$app/environment';
 	import { afterNavigate } from '$app/navigation';
@@ -602,15 +608,12 @@
 		name="viewport"
 		content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"
 	/>
-	<meta name="theme-color" content="#0C0A09" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-title" content="9takes" />
 	<meta name="mobile-web-app-capable" content="yes" />
 	<meta name="application-name" content="9takes" />
-	<meta name="msapplication-TileColor" content="#0a0807" />
+	<meta name="msapplication-TileColor" content="#01010D" />
 	<meta name="msapplication-TileImage" content="/brand/app-icon-nine-mask-192.png" />
-	<meta name="color-scheme" content="dark light" />
-	{@html `<script>(function(){try{var stored=localStorage.getItem('9takes-theme');var effective=stored==='light'||stored==='dark'?stored:(window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');var root=document.documentElement;root.classList.toggle('light',effective==='light');root.classList.toggle('dark',effective==='dark');root.dataset.theme=effective;root.style.colorScheme=effective;var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content',effective==='light'?'#FAFAF9':'#0C0A09');}catch{}})()</script>`}
 
 	{#if !dev}
 		<!-- Use dns-prefetch instead of preconnect for lighter initial load -->
@@ -683,7 +686,7 @@
 		<!-- Skip link for accessibility (WCAG 2.4.1) -->
 		<a
 			href="#main-content"
-			class="skip-link sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-[var(--lamp-glow)] focus:px-4 focus:py-2 focus:text-[var(--text-on-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
+			class="skip-link sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-[var(--highlight)] focus:px-4 focus:py-2 focus:text-[var(--text-on-action)] focus:outline-none focus:ring-2 focus:ring-[var(--text)]"
 		>
 			Skip to main content
 		</a>
@@ -724,8 +727,8 @@
 		margin: 0;
 		box-sizing: border-box;
 		padding: 0;
-		background-color: var(--night-deep);
-		color: var(--ink-bright);
+		background-color: var(--bg);
+		color: var(--text);
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		touch-action: manipulation;
 	}
@@ -746,12 +749,7 @@
 
 	.app-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(
-			180deg,
-			var(--night-deep) 0%,
-			var(--night-deep) 50%,
-			var(--night-deep) 100%
-		);
+		background: linear-gradient(180deg, var(--bg) 0%, var(--bg) 50%, var(--bg) 100%);
 		overflow-x: hidden;
 	}
 

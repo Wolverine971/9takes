@@ -31,9 +31,9 @@
 		font-size: inherit;
 	}
 
-	/* Link styling for blog content - Warm Tech theme */
-	--blog-link-color: var(--lamp-glow);
-	--blog-link-hover-color: var(--lamp-glow);
+	/* Link styling for blog content — Cold Light: lavender, always underlined */
+	--blog-link-color: var(--highlight);
+	--blog-link-hover-color: var(--lamp-light);
 
 	/* Prose link styles must not leak into embedded conversion banners. Those
 	   components own their complete button treatment and theme contrast. */
@@ -41,11 +41,16 @@
 			[class*='border-']
 		) {
 		color: var(--blog-link-color);
-		text-decoration: none;
-		transition: color 0.2s ease;
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-decoration-color: color-mix(in srgb, currentColor 55%, transparent);
+		text-underline-offset: 3px;
+		transition:
+			color 0.2s ease,
+			text-decoration-color 0.2s ease;
 
 		&:hover {
-			text-decoration: underline;
+			text-decoration-color: currentColor;
 			color: var(--blog-link-hover-color);
 		}
 
@@ -70,11 +75,6 @@
 		margin-top: 0.5rem;
 		padding-top: 0.5rem;
 	}
-}
-
-:root.light .blog {
-	--blog-link-color: var(--lamp-glow);
-	--blog-link-hover-color: var(--lamp-glow);
 }
 
 /* Quote styling - Warm Tech theme */
@@ -534,7 +534,7 @@ blockquote {
 .disclaimer {
 	margin: 1.5rem 0;
 	padding: 1rem 1.25rem;
-	background-color: rgba(251, 191, 36, 0.08);
+	background-color: var(--warning-light);
 	border-left: 4px solid var(--warning);
 	border-radius: 0 0.625rem 0.625rem 0;
 	font-size: 1rem;

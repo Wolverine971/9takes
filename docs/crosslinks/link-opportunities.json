@@ -258,7 +258,7 @@
 				"impressions": 0,
 				"outCount": 6
 			},
-			"line": 361,
+			"line": 360,
 			"anchor": "ADHD",
 			"phrase": "adhd",
 			"phraseKind": "gsc",
@@ -366,7 +366,7 @@
 				"impressions": 0,
 				"outCount": 6
 			},
-			"line": 361,
+			"line": 360,
 			"anchor": "ADHD",
 			"phrase": "adhd",
 			"phraseKind": "gsc",
@@ -1076,31 +1076,31 @@
 			"excerpt": "Psychologist John Gottman studied 130 newlywed couples in his research lab, then followed up six years later. He discovered that relationships live and die on tiny moments he calls \"emotional bids,\" any attempt by one pe…"
 		},
 		{
-			"id": "/enneagram-corner/toxic-traits-of-each-enneagram-type -> /enneagram-corner/enneagram-instinctual-subtypes",
+			"id": "/pop-culture/masculinity-strength-and-the-enneagram -> /enneagram-corner/first-impression-enneagram-playbook",
 			"score": 1.27,
 			"target": {
-				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
-				"title": "Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type",
+				"url": "/enneagram-corner/first-impression-enneagram-playbook",
+				"title": "Enneagram First Impressions: What Each Type Is Scanning For",
 				"kind": "blog",
 				"section": "enneagram-corner",
-				"impressions": 8519,
-				"clicks": 37,
-				"position": 12.8,
-				"inbound": 159
+				"impressions": 26,
+				"clicks": 0,
+				"position": 11.9,
+				"inbound": 5
 			},
 			"source": {
-				"url": "/enneagram-corner/toxic-traits-of-each-enneagram-type",
-				"file": "src/blog/enneagram/toxic-traits-of-each-enneagram-type.md",
-				"section": "enneagram-corner",
-				"impressions": 6111,
-				"outCount": 19
+				"url": "/pop-culture/masculinity-strength-and-the-enneagram",
+				"file": "src/blog/pop-culture/masculinity-strength-and-the-enneagram.md",
+				"section": "pop-culture",
+				"impressions": 0,
+				"outCount": 8
 			},
-			"line": 227,
-			"anchor": "self-preservation",
-			"phrase": "self-preservation",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "💡 **A commonly observed pattern:** Many Fives describe the world's demands as more than their energy can cover. Withdrawal feels like self-preservation, even when it reads as coldness to you."
+			"line": 34,
+			"anchor": "first impressions",
+			"phrase": "first impression",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "Appearance can shape first impressions. Rejection can hurt. [Dating apps](/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types) can intensify comparison. A message like \"looks never matter\" will not…"
 		}
 	],
 	"peopleBridge": [
@@ -1151,7 +1151,7 @@
 				"impressions": 0,
 				"outCount": 6
 			},
-			"line": 453,
+			"line": 452,
 			"anchor": "Greta Thunberg",
 			"phrase": "Greta Thunberg",
 			"phraseKind": "name",
@@ -1340,7 +1340,7 @@
 				"impressions": 0,
 				"outCount": 6
 			},
-			"line": 375,
+			"line": 374,
 			"anchor": "Sam Parr",
 			"phrase": "Sam Parr",
 			"phraseKind": "name",
@@ -1394,7 +1394,7 @@
 				"impressions": 0,
 				"outCount": 6
 			},
-			"line": 375,
+			"line": 374,
 			"anchor": "Shaan Puri",
 			"phrase": "Shaan Puri",
 			"phraseKind": "name",

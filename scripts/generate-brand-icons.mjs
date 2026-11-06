@@ -10,7 +10,53 @@ const approvedLogoPath = resolve(
 	'source-assets/brand',
 	'exploration/2026-07-22/mask-logo-carousel-v1/9takes-nine-face-slot-logo-v1.png'
 );
-const appIconSource = await readFile(approvedLogoPath);
+// Cold Light (2026-11-05): the nine-mask mark runs through the same indigo tint ramp
+// as the statue images (logo recolor "A"). Ramp is keyed on luminance; the black point
+// drops the source's near-black frame onto the page background (#01010D) exactly.
+const PAGE_BACKGROUND = '#01010D';
+const TINT_RAMP = [
+	[0, [1, 1, 13]],
+	[0.3, [22, 10, 70]],
+	[0.62, [99, 49, 251]],
+	[0.88, [190, 170, 255]],
+	[1, [236, 230, 255]]
+];
+const TINT_GAIN = 1.08;
+const TINT_BLACK_POINT = 0.065;
+
+function sampleRamp(t) {
+	for (let i = 1; i < TINT_RAMP.length; i++) {
+		const [p0, c0] = TINT_RAMP[i - 1];
+		const [p1, c1] = TINT_RAMP[i];
+		if (t <= p1) {
+			const k = (t - p0) / (p1 - p0);
+			return c0.map((v, j) => v + (c1[j] - v) * k);
+		}
+	}
+	return TINT_RAMP.at(-1)[1];
+}
+
+async function tint(input) {
+	const { data, info } = await sharp(input)
+		.ensureAlpha()
+		.raw()
+		.toBuffer({ resolveWithObject: true });
+	const out = Buffer.alloc(data.length);
+	for (let i = 0; i < data.length; i += 4) {
+		const l = (0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2]) / 255;
+		const t = Math.min(1, Math.max(0, (l * TINT_GAIN - TINT_BLACK_POINT) / (1 - TINT_BLACK_POINT)));
+		const [r, g, b] = sampleRamp(t);
+		out[i] = Math.round(r);
+		out[i + 1] = Math.round(g);
+		out[i + 2] = Math.round(b);
+		out[i + 3] = data[i + 3];
+	}
+	return sharp(out, { raw: { width: info.width, height: info.height, channels: 4 } })
+		.png()
+		.toBuffer();
+}
+
+const appIconSource = await tint(await readFile(approvedLogoPath));
 
 await sharp(appIconSource)
 	.resize(512, 512, { kernel: sharp.kernel.lanczos3 })
@@ -30,11 +76,11 @@ async function render(source, size, outputPath, inset = 0) {
 				width: size,
 				height: size,
 				channels: 3,
-				background: '#080706'
+				background: PAGE_BACKGROUND
 			}
 		})
 			.composite([{ input: foreground, left: inset, top: inset }])
-			.flatten({ background: '#080706' })
+			.flatten({ background: PAGE_BACKGROUND })
 			.removeAlpha()
 			.png({ compressionLevel: 9, adaptiveFiltering: true })
 			.toFile(outputPath);
@@ -50,7 +96,7 @@ async function render(source, size, outputPath, inset = 0) {
 	}
 
 	await pipeline
-		.flatten({ background: '#0a0807' })
+		.flatten({ background: PAGE_BACKGROUND })
 		.png({ compressionLevel: 9, adaptiveFiltering: true })
 		.toFile(outputPath);
 }
@@ -61,7 +107,8 @@ const appIcons = [
 	['apple-touch-icon-nine-mask.png', 180],
 	['app-icon-nine-mask-192.png', 192],
 	['app-icon-nine-mask-512.png', 512],
-	['app-icon-nine-mask-maskable-512.png', 512, 51],
+	// Maskable inset keeps all nine faces inside the 40%-radius circular safe zone.
+	['app-icon-nine-mask-maskable-512.png', 512, 96],
 	['android-chrome-nine-mask-192x192.png', 192],
 	['android-chrome-nine-mask-512x512.png', 512],
 	// Keep the standard legacy filenames current for external references that have not refreshed yet.
@@ -69,7 +116,7 @@ const appIcons = [
 	['apple-touch-icon.png', 180],
 	['app-icon-192.png', 192],
 	['app-icon-512.png', 512],
-	['app-icon-maskable-512.png', 512, 51],
+	['app-icon-maskable-512.png', 512, 96],
 	['android-chrome-192x192.png', 192],
 	['android-chrome-512x512.png', 512]
 ];
@@ -134,21 +181,21 @@ const socialCardOverlay = Buffer.from(`
 	<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
 		<defs>
 			<radialGradient id="glow" cx="22%" cy="20%" r="90%">
-				<stop offset="0" stop-color="#3a2412" stop-opacity="0.8" />
-				<stop offset="1" stop-color="#0a0807" stop-opacity="0" />
+				<stop offset="0" stop-color="#26135f" stop-opacity="0.8" />
+				<stop offset="1" stop-color="#01010D" stop-opacity="0" />
 			</radialGradient>
 		</defs>
-		<rect width="1200" height="630" fill="#0a0807" />
+		<rect width="1200" height="630" fill="#01010D" />
 		<rect width="1200" height="630" fill="url(#glow)" />
-		<rect y="0" width="1200" height="10" fill="#f59e0b" />
-		<text x="610" y="255" fill="#faf8f4" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="800">9takes</text>
-		<text x="610" y="315" fill="#f59e0b" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="5">NINE PERSPECTIVES</text>
-		<text x="610" y="390" fill="#a8a095" font-family="Inter, Arial, sans-serif" font-size="28">One situation, 9 ways to see it.</text>
+		<rect y="0" width="1200" height="10" fill="#6331FB" />
+		<text x="610" y="255" fill="#F4F2FF" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="800">9takes</text>
+		<text x="610" y="315" fill="#88F9C0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="5">NINE PERSPECTIVES</text>
+		<text x="610" y="390" fill="#A6A0C8" font-family="Inter, Arial, sans-serif" font-size="28">One situation, 9 ways to see it.</text>
 	</svg>
 `);
 
 await sharp({
-	create: { width: 1200, height: 630, channels: 3, background: '#0a0807' }
+	create: { width: 1200, height: 630, channels: 3, background: PAGE_BACKGROUND }
 })
 	.composite([
 		{ input: socialCardOverlay, left: 0, top: 0 },

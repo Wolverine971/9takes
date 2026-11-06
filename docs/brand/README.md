@@ -2,7 +2,7 @@
 
 # Brand Resources
 
-_Last Updated: 2026-08-13_
+_Last Updated: 2026-11-05_
 
 ---
 
@@ -19,6 +19,7 @@ an explicit decision to replace one of these levels.
 | **Product ritual**      | Answer before the crowd.                                        |
 | **Product explanation** | One question, nine perspectives.                                |
 | **Personal payoff**     | Stop mistaking someone else’s alarm for a defect.               |
+| **Core formula**        | Honesty + Curiosity = Clarity.                                  |
 
 **Positioning:** 9takes protects your honest first read, then shows how nine different emotional
 patterns interpret the same situation so you can understand yourself and others better.
@@ -30,14 +31,21 @@ patterns interpret the same situation so you can understand yourself and others 
 | File                                                       | Purpose                                                  | When to Use                          |
 | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------ |
 | [`messaging-hierarchy.md`](./messaging-hierarchy.md)       | **Canonical message hierarchy** - frozen master language | Start every messaging task here      |
+| [`cold-light.md`](./cold-light.md)                         | **Canonical visual identity** - Cold Light (2026-11-05)  | Any visual, image or asset work      |
 | [`brand-positioning.md`](./brand-positioning.md)           | **Strategic foundation** - purpose, values, positioning  | Strategy, new initiatives, alignment |
 | [`brand-style-guide-v2.md`](./brand-style-guide-v2.md)     | Complete brand voice, tone, style                        | Writing any content                  |
 | [`BRAND-KIT.md`](./BRAND-KIT.md)                           | Archived purple-era asset library                        | Historical reference only            |
 | [`dj-communication-guide.md`](./dj-communication-guide.md) | Personal communication preferences                       | AI assistants working with DJ        |
 
-Current visual-design implementation guidance lives in
-[`../design-system.md`](../design-system.md). Superseded Solo Leveling and
-warm-tech proposal docs live in [`../archives/design/`](../archives/design/).
+The visual identity is **Cold Light** ([`cold-light.md`](./cold-light.md)): dark only, Night
+`#01010D` background, indigo `#6331FB` for fills and the statue tint, lavender `#CFC2FF` for the
+reveal, mint `#88F9C0` for "give your take." Type is Anton + Playfair Display italic + Archivo.
+Images are grey Greek marble statues with one indigo tint. Streetlamp Symposium (amber, warm stone,
+Inter) was retired on 2026-11-05.
+
+Token-level implementation guidance lives in [`../design-system.md`](../design-system.md).
+Superseded Solo Leveling and warm-tech proposal docs live in
+[`../archives/design/`](../archives/design/).
 
 ---
 

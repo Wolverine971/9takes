@@ -1,4 +1,5 @@
 <!-- docs/design/homepage-whispering-statues/prompts-emotions.md -->
+
 # Emotion statues: shame, fear, anger (2026-11-04)
 
 These are three portraits for a row between "What's under every take" and "Before you post" on the v4 homepage (https://claude.ai/artifact/8GYieRBEDYbPu9XTW7dq3K). DJ generates them in ChatGPT; agents never generate images. The prompts match the whispering-statues hero and `docs/design/image-refresh-2026-11-04/README.md`. The indigo duotone is added afterwards with sharp, so the prompts ask for neutral grey stone.

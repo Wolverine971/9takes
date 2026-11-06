@@ -3,7 +3,7 @@
 # 9takes Messaging Hierarchy
 
 **Status:** Canonical and frozen
-**Locked:** 2026-08-13
+**Locked:** 2026-08-13 (core formula added by DJ 2026-11-05)
 **Owner:** DJ Wayne
 **Purpose:** Keep the main thing the main thing. This is the source of truth for public positioning, product copy, founder communications, social content, outreach, and agent-generated drafts.
 
@@ -16,14 +16,16 @@
 | **Product ritual**      | **Answer before the crowd.**                                        | Names the behavior that makes 9takes different.                       |
 | **Product explanation** | **One question, nine perspectives.**                                | Explains the product in the fewest possible words.                    |
 | **Personal payoff**     | **Stop mistaking someone else’s alarm for a defect.**               | Makes the emotional benefit personal and concrete.                    |
+| **Core formula**        | **Honesty + Curiosity = Clarity.**                                  | Names the three steps of every question, in order.                    |
 
-These lines are not five competing slogans. They are five levels of one message:
+These lines are not six competing slogans. They are six levels of one message:
 
 1. The internet rewards one interpretation and hides the rest.
 2. 9takes helps you see the emotional logic beneath those interpretations.
 3. It protects your honest perspective by asking you to answer before seeing the room.
 4. It then places your answer beside eight other ways of reading the same situation.
 5. The result is greater understanding of yourself and less judgment of other people.
+6. The formula names that experience in order: be honest first (answer before the crowd), get curious about the other takes (nine perspectives), and leave with clarity (the emotions behind every take).
 
 ## The main narrative
 
@@ -55,14 +57,15 @@ human tension.
 - Use the **product ritual** in calls to action and product demonstrations.
 - Use the **product explanation** when someone needs a fast description of 9takes.
 - Use the **personal payoff** in stories about conflict, relationships, blind spots, and self-recognition.
+- Use the **core formula** when explaining how 9takes works in one breath: about page, onboarding, bios, and the brand page. Keep the order: honesty, then curiosity, then clarity.
 
 ### Do not improvise new master concepts
 
-New metaphors, campaign names, or format labels may help a specific piece. They do not join this hierarchy unless DJ explicitly replaces one of the five levels above.
+New metaphors, campaign names, or format labels may help a specific piece. They do not join this hierarchy unless DJ explicitly replaces or adds a level, as he did with the core formula on 2026-11-05.
 
 Before proposing a new public concept, ask:
 
-1. Can the idea be expressed using one of the five canonical lines?
+1. Can the idea be expressed using one of the six canonical lines?
 2. Is it a production label or campaign device rather than a brand belief?
 3. Will it clarify the hierarchy or compete with it?
 
@@ -84,7 +87,7 @@ These ideas remain useful, but they support the hierarchy rather than compete wi
 | **Questions over verdicts**         | A writing and community value                                     | Keep; it governs how analysis is framed.                             |
 | **Understanding over judgment**     | A brand value                                                     | Keep; demonstrate it through stories and behavior.                   |
 | **One Take**                        | Existing founder video format                                     | A series format, not a new master message.                           |
-| **Streetlamp Symposium**            | Visual-world language                                             | Keep inside design direction unless the audience needs it.           |
+| **Cold Light**                      | Visual-world language (replaced Streetlamp Symposium 2026-11-05)  | Keep inside design direction; see `docs/brand/cold-light.md`.        |
 | **Personality-maxing**              | Optional campaign language                                        | Never use as the umbrella positioning.                               |
 | **Open-source conflict resolution** | Strategic metaphor                                                | Internal/supporting language only unless a specific piece earns it.  |
 

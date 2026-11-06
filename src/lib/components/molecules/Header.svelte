@@ -6,7 +6,6 @@
 	import MobileNav from './MobileNavNew.svelte';
 	import { NAV_OFFER } from '$lib/utils/navOffer';
 	import HeaderSearch from './HeaderSearch.svelte';
-	import ThemeToggle from '$lib/components/atoms/ThemeToggle.svelte';
 	import { Button } from '$lib/components/atoms';
 	import { getAuthShell } from '$lib/authShell.svelte';
 	import { useNotificationCount } from '$lib/notificationCount.svelte';
@@ -185,7 +184,6 @@
 			</a>
 
 			<div class="header-actions mobile-actions">
-				<ThemeToggle />
 				{#if authShell.user}
 					<a
 						href={resolve('/account#notifications')}
@@ -288,7 +286,6 @@
 		</div>
 
 		<div class="header-actions">
-			<ThemeToggle />
 			{#if authShell.user}
 				<a
 					href={resolve('/account#notifications')}
@@ -455,10 +452,6 @@
 
 	.header-shell :global(.btn--ghost.desktop-auth) {
 		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
-	}
-	:global(:root.light) .header-shell :global(.btn--ghost.desktop-auth),
-	:global(:root.light) .mobile-login {
-		color: var(--lamp-deep);
 	}
 
 	/* Top-level funnel link (2026-07-18): Questions is the give-first product,

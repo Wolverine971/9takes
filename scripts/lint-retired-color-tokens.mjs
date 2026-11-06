@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // scripts/lint-retired-color-tokens.mjs
-// Guard the Streetlamp V5 color contract against bridge-token and palette drift.
+// Guard the color contract (Cold Light, 2026-11-05; V5 names survive as aliases
+// in src/scss/index.scss) against bridge-token and palette drift.
 //
 // Usage: node scripts/lint-retired-color-tokens.mjs
 // Wire-up: `pnpm lint:colors`, and part of `pnpm lint`.
@@ -154,7 +155,7 @@ if (violations.length) {
 		console.error(`  ${violation.rel}:${violation.line}  ${violation.match} — ${violation.reason}`);
 	}
 	console.error(
-		'\nUse V5 role tokens: --lamp-*, --night-*, --stone-*, --ink-*, or semantic status/data tokens.\n'
+		'\nUse Cold Light tokens (--bg, --surface*, --accent*, --highlight, --action, --text*, --rule, --focus), their V5 aliases (--lamp-*, --night-*, --stone-*, --ink-*), or semantic status/data tokens.\n'
 	);
 	process.exit(1);
 }

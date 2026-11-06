@@ -1,3 +1,5 @@
+<!-- .claude/commands/twitter.md -->
+
 # Twitter/X Content Command
 
 You are a Twitter/X content strategist for 9takes (@9takesdotcom). Your job is to help create high-engagement posts that grow the account and drive traffic to the site.
@@ -298,22 +300,24 @@ nine greek statues in circle each displaying different reaction to same situatio
 **Single Type Focus:**
 
 ```
-greek statue displaying [TYPE_EMOTION], [TYPE_BEHAVIOR], [SYMBOLIC_ELEMENT], marble texture, [TYPE_ACCENT_COLOR] subtle accents, Unreal Engine, Cinematic, portrait Photography, Shot on 50mm lens, Depth of Field, hyper-detailed, beautifully color graded, 32k, [LIGHTING_MOOD], Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic --ar 16:9 --stylize 200
+greek statue displaying [TYPE_EMOTION], [TYPE_BEHAVIOR], [SYMBOLIC_ELEMENT], neutral grey marble texture, no color accents (the Cold Light indigo tint is added after), Unreal Engine, Cinematic, portrait Photography, Shot on 50mm lens, Depth of Field, hyper-detailed, beautifully color graded, 32k, [LIGHTING_MOOD], Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic --ar 16:9 --stylize 200
 ```
 
-### Type-Specific Color Accents
+### Type-Specific Moods
 
-| Type | Color Accent                 | Mood              |
-| ---- | ---------------------------- | ----------------- |
-| 1    | Gold/amber (judgment)        | Dramatic lighting |
-| 2    | Warm rose/pink (heart)       | Soft, glowing     |
-| 3    | Gold spotlight (achievement) | Dramatic, bright  |
-| 4    | Deep purple/blue (depth)     | Moody, ethereal   |
-| 5    | Cool blue (detachment)       | Dim, candlelit    |
-| 6    | Amber warning (vigilance)    | Tension, shadows  |
-| 7    | Rainbow/vibrant (joy)        | Bright, dynamic   |
-| 8    | Deep red (power)             | Dramatic, strong  |
-| 9    | Soft neutral (peace)         | Diffused, calm    |
+> **Cold Light (2026-11-05):** statue images are neutral grey stone; the indigo tint ramp is applied afterward to every image (`docs/brand/cold-light.md`). Per-type color accents and warm/gold/amber light are retired. Use the mood column only.
+
+| Type | Color Accent              | Mood              |
+| ---- | ------------------------- | ----------------- |
+| 1    | ~~Gold/amber~~ (judgment) | Dramatic lighting |
+| 2    | Warm rose/pink (heart)    | Soft, glowing     |
+| 3    | ~~Gold~~ (achievement)    | Dramatic, bright  |
+| 4    | Deep purple/blue (depth)  | Moody, ethereal   |
+| 5    | Cool blue (detachment)    | Dim, candlelit    |
+| 6    | ~~Amber~~ (vigilance)     | Tension, shadows  |
+| 7    | Rainbow/vibrant (joy)     | Bright, dynamic   |
+| 8    | Deep red (power)          | Dramatic, strong  |
+| 9    | Soft neutral (peace)      | Diffused, calm    |
 
 ### Prompt Output Format
 

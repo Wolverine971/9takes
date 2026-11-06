@@ -601,7 +601,7 @@
 		margin: 0;
 	}
 
-	.questions-index :global(:where(a)) {
+	.questions-index :global(:where(a:not(.btn))) {
 		color: inherit;
 		text-decoration: none;
 	}

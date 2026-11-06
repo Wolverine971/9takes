@@ -1,8 +1,8 @@
 ---
-title: 'Sam Parr: The Scared Kid Running the Whole Show'
-meta_title: 'Sam Parr Enneagram Type 8: The Scared Kid in Charge'
-persona_title: "Media's Brute-Force Builder"
-description: 'Sam Parr built The Hustle, sold it for $27M, and launched Hampton. His Enneagram Type 8 personality explains the vulnerability behind the brute force.'
+title: "Sam Parr Can't Do Anything at Half Volume"
+meta_title: "Sam Parr Enneagram: Why He's a Type 8, Not a 3"
+persona_title: "Media's Full-Volume Founder"
+description: "Sam Parr built The Hustle, sold it to HubSpot and launched Hampton. His all-the-way-in, on-his-own-terms style marks him as a classic Enneagram Type 8."
 author: 'DJ Wayne'
 date: '2026-02-26'
 loc: 'https://9takes.com/personality-analysis/sam-parr'
@@ -23,6 +23,7 @@ knows_about:
   - 'Podcasting (My First Million)'
   - 'Founder peer communities (Hampton)'
   - 'Cold outreach'
+  - 'Copywriting (Copy That)'
   - 'Event marketing (Hustle Con)'
 keywords:
   - 'Sam Parr enneagram'
@@ -35,22 +36,45 @@ keywords:
 same_as:
   - 'https://twitter.com/thesamparr'
 citations:
+  - 'https://podscripts.co/podcasts/my-first-million/why-i-got-sober-for-entrepreneurs'
+  - 'https://theygotacquired.com/podcast/sam-parr-the-hustle/'
+  - 'https://podscripts.co/podcasts/my-first-million/is-this-the-end-of-the-pod'
+  - 'https://rosetta.to/u/myfirstmillionpod/the-20-million-year-personality-quiz-89-of-fortune-100s-swear-by'
+  - 'https://www.samparr.com'
+  - 'https://samparr.com/were-all-idiots/'
+  - 'https://samparr.com/how-to-make-1b-in-10-days/'
+  - 'https://samparr.com/my-best-friend-died-and-this-is-for-him/'
+  - 'https://samparr.com/6-things-learned-drinking-1-year/'
+  - 'https://www.joinhampton.com/about-us'
+  - 'https://karagoldin.com/podcast/380'
+  - 'https://tditpodcast.transistor.fm/episodes/sam-parr-the-worlds-largest-podcaster-hates-podcasting-ep-19'
+  - 'https://noahkagan.com/i-hated-sam-parr/'
+  - 'https://money.com/the-7-magic-words-that-will-get-you-a-discount-on-almost-anything-according-to-a-frugal-ceo/'
+  - 'https://www.mfmpod.com/how-i-live-on-25000month-in-new-york-city/'
+  - 'https://www.thousandfaces.club/posts/sam-parr-the-hustle'
+  - 'https://www.mixergy.com/?p=92768'
+  - 'https://podcastnotes.org/below-the-line/parr'
+  - 'https://www.axios.com/2021/02/03/hubspot-acquisition-the-hustle'
+  - 'https://techcrunch.com/2021/02/04/hubspot-acquires-media-startup-the-hustle/'
   - 'https://twitter.com/thesamparr'
 faqs:
   - question: "What is Sam Parr's personality type?"
-    answer: "Sam Parr is an Enneagram Type 8 (The Challenger). The pattern shows in the 'aggressive, impulsive and brash' exterior covering a self-image he described as 'a pimpled faced, Jew-fro-having, 8th grade twerp,' the fifty cold emails he sent Pandora's founder over two years, the $800,000 raise he regretted because of the obligations it created, and the nights he spent lying on the floor telling his wife he was quitting while projecting calm to employees because 'that fear spreads.'"
+    answer: "Sam Parr is an Enneagram Type 8, the Challenger, most likely with a 7 wing. Eights go all the way in and refuse to be controlled while they do it. Sam has said, 'I just like doing everything to the extreme.' He told HubSpot to say whether it wanted to buy The Hustle or stop wasting his time, he wishes he had never raised money and had 'just owned it all,' and he has tied the willingness to tell people off directly to months of savings."
     anchor: 'what-is-sam-parrs-personality-type'
+  - question: 'Is Sam Parr a Type 3?'
+    answer: "Type 3 is the strongest alternative. Sam openly says he wants admiration and is widely quoted saying his career is driven by proving wrong the people who made fun of him. But his money habits point to an Eight. He rented a Rolex to try it out and hated how nervous it made him, buys electronics as display models and clothes secondhand, and regrets raising money because he would rather have 'just owned it all.' His money habits are about freedom, which is an Eight's priority."
+    anchor: 'is-sam-parr-a-type-3'
   - question: 'How did Sam Parr build and sell The Hustle?'
-    answer: "It started with Hustle Con in 2014 — a conference he pulled together in six weeks by cold-emailing founders, spending $6,000 and making $50,000. He turned the attendee list into a daily newsletter on May 1, 2016, writing under fake personas like Steve Garcia and Sidd Finch to look bigger, and grew it past two million subscribers. In February 2021 he sold The Hustle to HubSpot for roughly $27 million."
+    answer: "He started with Hustle Con in 2014, a one-day founder conference he put together in about seven weeks by cold-emailing speakers. It sold 400 tickets, brought in $56,844 and cleared about $40,000. He turned the audience into a daily business newsletter, The Hustle, which had about 1.5 million subscribers when HubSpot bought it in February 2021. HubSpot never announced the price. Its SEC filing showed $17.2 million in cash plus stock, Axios reported about $27 million, and Sam has described the total as over $30 million."
     anchor: 'follow-up-or-die-from-hustle-con-to-the-hustle'
   - question: 'Why did Sam Parr quit drinking?'
-    answer: "A college DUI put him in jail for 24 hours, and lying about it on a background check cost him a job at Airbnb the Sunday before he was supposed to start. He quit alcohol entirely at 23 and hasn't had a drink since, crediting his pit bull Sid with saving him 'from being a degenerate.' To celebrate one year sober, he rode a motorcycle 9,000 miles from San Francisco to New York and back with Marcus Aurelius in the saddlebag."
+    answer: "Sam has said he drank to fit in and to cover up pain, and that in college it led to fights and three arrests, including a DUI that put him in jail for 24 hours. He came home to find his pit bull Sid had made a mess in the house and looked sad, and he got sober so he wouldn't let the dog down again. He also lost a job offer at Airbnb after he didn't disclose a misdemeanor on the application, and he relapsed for a while after moving to San Francisco. He has been sober since about 2013."
     anchor: 'the-airbnb-rejection-that-broke-him-open'
   - question: 'What is Hampton, the company Sam Parr founded?'
-    answer: "Hampton, launched in 2023, is a vetted peer community for founders — acceptance rate under 8%, members must do at least $3 million in annual revenue or have a $10 million-plus exit. Members meet in facilitated core groups of about eight to discuss finances, net worth, and where they're stuck. It grew out of a Slack channel called 'Shit, I'm Fucked' and now does $8 million in annual recurring revenue with over 1,000 members, no outside investment."
+    answer: "Hampton is a vetted peer community for founders and CEOs, co-founded by Sam Parr and Joe Speiser and launched publicly in 2023. Members need at least $3 million in revenue, a $10 million exit or $3 million raised, and they meet monthly in small core groups to talk honestly about their companies, money and lives. It grew out of the monthly meetings Sam and Joe held while Sam was running The Hustle. As of late 2026 it has core groups in 18 cities and accepts about 2% of applicants."
     anchor: 'hampton-8m-in-revenue-built-from-loneliness'
   - question: 'Why do Sam Parr and Shaan Puri work so well together?'
-    answer: "They're precise opposites: Sam is a Type 8, blunt and grounded in execution; Shaan is a Type 7, always scanning the horizon. Where Sam says 'that's dumb,' Shaan says 'but what if.' In August 2024 they released an episode titled 'Is This The End Of The Pod?' dissecting an actual fight from the day before — Sam admitted the argument had made him physically sick."
+    answer: "Sam is the reaction and Shaan is the reframe. Sam asks guests what they make, gets visibly excited and makes the bold call. Shaan, a Type 7, turns it into a framework or a story. When they had a real fight in 2024, Shaan opened the next episode with an apology, and Sam refused to let him take all the blame: 'everything is mutual.' Sam has also said Shaan is the more logical of the two and more comfortable with confrontation."
     anchor: 'why-my-first-million-works-sam-parr-and-shaan-puri'
 twitter: 'https://twitter.com/thesamparr'
 instagram: ''
@@ -58,238 +82,195 @@ tiktok: ''
 path: src/blog/people/drafts/Sam-Parr.md
 ---
 
-> "Maybe 80% of the time I'm unhappy in that I'm angry — at something, or I'm like 'this could be better' and 'this sucks' and 'we're going to die, we're going to go out of business.' But it's thrilling. And I enjoy it."
+> "I just loved doing everything to the extreme. If I was going to, well, you get the idea. I just like doing everything to the extreme." Sam Parr, [My First Million, "Why I Got Sober"](https://podscripts.co/podcasts/my-first-million/why-i-got-sober-for-entrepreneurs), 2021
 
-<p class="firstLetter">Sam Parr stands 6'2". He was a Division 1 sprinter. He has "Bold. Fast. Fun." tattooed on his thigh. He cold-emails CEOs fifty times without flinching and once ran an illegal online liquor store that pulled $1,000 a day from his college dorm room. When HubSpot came circling, he told them: "Just tell me, are you trying to buy us? Because if you are, maybe we can have a conversation, but don't waste my time."</p>
+<p class="firstLetter">Sam Parr doesn't think much of personality tests. When Shaan Puri started walking him through the history of Myers-Briggs on My First Million, Sam's first reaction was "is it even real, are horoscopes real, right, are palm readers real." Shaan filled in the rest: about half of people get a different result when they retake it, and critics say it runs on the Forer effect (write something vague enough and everyone thinks it's about them).</p>
 
-Noah Kagan's first impression: "Aggressive, impulsive and brash." The guy looks like he was built in a lab to dominate rooms.
+They're not wrong. So this page has one rule. Every claim below should fit Sam Parr and not his co-host [Shaan Puri](/personality-analysis/shaan-puri). If it describes Shaan just as well, it's a horoscope and it should go.
 
-But he wrote something once that his podcast audience has probably never read. Describing the person he saw in the mirror, he said that while the world saw a substantial man, he still saw "a pimpled faced, Jew-fro-having, 8th grade twerp."
-
-That gap is the engine behind everything Sam Parr has built. And destroyed. And sold for eight figures. And built again.
+The claim is that Sam goes all the way in, and he won't let anyone else hold the wheel while he does it. When nothing is in his way, that sounds like the excited "dude" every listener knows. When something blocks him, strings him along or tries to run him, it comes out as force. Sometimes it comes out as anger.
 
 <details>
 <summary class="accordion">TL;DR: Why Sam Parr is an Enneagram Type 8</summary>
 <div class="panel">
 <ul>
-<li><b>Dominance as armor:</b> Sam's aggressive, confrontational exterior covers a dread of being controlled or caught helpless, rooted in watching his parents scrape by.</li>
-<li><b>Every company is a fortress:</b> The Hustle, Hampton, Trends. Each one creates distance from the vulnerability he won't show in public.</li>
-<li><b>Addicted to intensity:</b> He describes being unhappy 80% of the time and calls it "thrilling." Intensity as a way to feel alive and in control.</li>
-<li><b>The soft center:</b> An 80-pound pit bull named Sid saved him from self-destruction. The man who builds fortresses built a company around vulnerability. The armor has always had cracks.</li>
+<li><b>The type:</b> Enneagram Type 8, most likely with a 7 wing.</li>
+<li><b>All the way in:</b> "I just like doing everything to the extreme." As a kid that meant whole packs of cookies. Later it meant drinking and fights. Since then it has meant companies, races and fatherhood.</li>
+<li><b>On his own terms:</b> he told HubSpot not to waste his time, wishes he had "just owned it all" instead of raising money, and ties the freedom to say no to months of savings.</li>
+<li><b>Force, then anger:</b> he asks people what they make and pulls up their brokerage accounts. When he hits hypocrisy or a complaint he can't fix, he gets angry or rattled, and he has said so.</li>
+<li><b>Protector:</b> "I will kill someone to protect you," he thought when he got married. When his daughter was born: "I will die for you."</li>
+<li><b>The limit:</b> Sam has never named his own type, and he'd probably call this a horoscope. It's a read of the public record.</li>
 </ul>
 </div>
 </details>
 
-## The Hill, St. Louis: Where Sam Parr Learned to Fight
+---
 
-Sam grew up in The Hill, the Italian-American pocket of St. Louis where everybody knew your business and your grandmother's tomato recipe. "Predominantly blue collar." Families planted backyard gardens and stretched what they had.
-
-His father was an entrepreneur. Started with a roadside fruit stand in Missouri and built it into a produce brokerage, buying bulk from farmers and reselling to Walmart. His mother went back to school, earned her master's, became a teacher.
-
-They weren't poor, exactly. But they weren't comfortable either.
-
-His mother swiped her debit card for $2,000 to pay for his braces. Sam knew about the strain it caused. His mother didn't know he knew.
-
-At 21, he set a goal: $20 million by age 30. Not for Lamborghinis. Not for status. "I want 'I can pay for braces or an MRI for my kids and not sweat it' money."
-
-He got in trouble for asking adults how much money they made and how they afforded their cars. That wasn't rudeness. It was the instinct that would later make him a great podcast host: curiosity without social filters.
-
-He attended St. Louis University High School, a Jesuit prep school whose graduates are taught to be "men for others." The phrase wouldn't catch up with him for twenty years. Then he headed to Nashville on a D1 track scholarship at Belmont University. Music business major. Sprinted the 200m and 400m. Sold his old track shoes on eBay between races.
-
-## Hot Dogs, Moonshine, and a Pit Bull
-
-In Nashville, the pattern that would define Sam's career showed up for the first time: find a commodity, make it impossible to ignore.
-
-He bought a $500 hot dog cart and named it "Southern Sam's: Wieners as Big as a Baby's Arm." The marketing hook: put your baby's arm in a bun, put mustard on it, let them take a photo, and you got a free hot dog.
-
-"A hot dog is a commodity. They're pretty much all the same," he said. "So I asked myself, how do I stand out?"
-
-He stood in 99-degree Nashville heat shouting "All beef hotdogs!" On slow days he made $200. On good days he walked home with $1,000 to $2,000 cash. Fifty percent margins. He was 20.
-
-Before the hot dogs, he'd already been running Moonshine Online, an illegal white whiskey operation out of his dorm with a PayPal "Buy It Now" button, pulling up to $1,000 a day until his lawyer told him to shut it down.
-
-That same year, a friend asked Sam to watch someone's dog for two weeks. The owner had been arrested. Two weeks became six months. No one came back. Sam kept him. An 80-pound white pit bull he renamed Sydney, after the city he'd studied in. Everyone called him Sid.
-
-Sam had read Dale Carnegie's _How to Win Friends and Influence People_ in sixth grade. He learned that "if you're vulnerable or open with someone about what you're struggling with and they see you trying to get better, they're more likely to help." A sixth-grader learning that vulnerability is a strategic asset.
-
-## The Airbnb Rejection That Broke Him Open
-
-After college, Sam moved to San Francisco to start an internet company. He shipped Sid via Delta cargo. The airline accidentally routed the dog to Miami first.
-
-He co-founded Bunk, a roommate-matching app ("Tinder for roommates"), and sold it to Apartment List for $15,000. Then he cold-emailed [Brian Chesky](/personality-analysis/brian-chesky) at Airbnb with unsolicited advice on improving their website. Got an interview. Got an offer.
-
-And then the background check.
-
-Sam had a drug and alcohol problem in college. He'd been arrested for a DUI that landed him in jail for 24 hours. When he came home, Sid had shit in the house and was standing there with those expressive eyebrows, visibly distressed. Alone. Confused. Waiting.
-
-"This dog saved me from being a degenerate," Sam would later write.
-
-On the background check, the form asked if he'd ever been "under investigation." He said no. Technically, he hadn't been convicted yet. Airbnb didn't see it that way. The Sunday before he was supposed to start, they called: "No, you smart ass. You should have told us and we could have worked with you, but we can't hire a liar."
-
-Stuck in San Francisco with a couple thousand dollars, no job, and a pit bull. He called his parents in tears.
-
-He got sober. Went to some AA meetings. Quit alcohol entirely at 23 and hasn't had a drink since. The DUI. Sid staring up at him from that mess on the floor. The Airbnb call. Same realization from three directions: the hustle means nothing if you're lying to everyone, including yourself.
-
-To celebrate one year of sobriety, he rode his motorcycle from San Francisco to New York and back. Nine thousand miles. Forty-seven days. Budget of $100 a day, usually spending only $45. He was reading Marcus Aurelius's _Meditations_ at the time.
-
-"It felt as if I had bad eyesight and I was able to put glasses on," he said about sobriety. "My senses heightened."
-
-The motorcycle trip is how his future wife found him. Sara Sodine read about the ride online. She'd also bought one of his Craigslist apartment-finding guide PDFs. When they finally met at a happy hour, he couldn't think of what to say, so he told her the last dirty joke he'd heard.
-
-## "Follow Up or Die": From Hustle Con to The Hustle
-
-While recovering from the Airbnb disaster, Sam started a free weekly book club for ambitious people in San Francisco. He called it The Anti-MBA. He wanted the networks that Harvard and Stanford MBAs had. He couldn't afford one.
-
-Each week they discussed a business book and invited local entrepreneurs to speak. It replaced the MBA he couldn't buy.
-
-Then, in 2014, he organized Hustle Con. A single-day conference for entrepreneurs. He pulled it together in six weeks by cold-emailing tech founders, some of them 7 to 10 times before they responded. Spent $6,000. Made $50,000.
-
-He emailed the founder of Pandora fifty times over two years before getting a reply.
-
-His mantra to coworkers: "Follow up or die."
-
-This persistence wasn't courage. It was closer to compulsion. Sam used to open the phone book and cold-call random strangers, trying to convince them to recommend a movie for him to watch that night. "Literally like a hundred times a day." The point was to burn the word "no" out of his nervous system.
-
-From Hustle Con, he started emailing 2-3 stories a week to his attendee list. Used fake writer personas (Steve Garcia, Sidd Finch, Sydney Webb) to make his operation look bigger than it was. He got the idea from Ben Franklin, who ran a newspaper and wrote under aliases.
-
-On May 1, 2016, this became The Hustle. A daily business newsletter. 100,000 subscribers in year one. 500,000 in year two. A million by year three. Eventually over two million.
-
-"I did that just as a way to kill time," he said about Hustle Con, "thinking maybe this isn't going to be The Thing, but maybe it'll help me find The Thing."
-
-## $8M in Revenue, Panic on the Floor
-
-By age 28, The Hustle was generating $8 million in revenue. Sam looked unstoppable.
-
-He felt unstoppable about 30% of the time. The other 70%, he was running on anxiety, thinking "I'm making this up as I go" and calculating what would happen if key employees quit.
-
-There were nights lying on the floor. Sara would be nearby.
-
-"Sara, I'm quitting. I'm done. I'm quitting."
-
-She would rub his back without judgment. Eventually: "You're not going to quit. Come on."
-
-He called himself "neurotic and prone to ups and downs." Sara was "very stable." He needed to appear "cool and calm to your employees because that fear spreads," while running The Hustle in what he described as permanent "fight-or-flight mode" where "I always felt someone's coming to me for something."
-
-He once admitted to having "PTSD typing 'Ch' into my web bar" because that's chase.com, and he'd compulsively check his bank balance.
-
-Then he built Trends, a premium subscription at $299 a year. Presold $30,000 in one day. The company hit a trajectory toward $20 million in annual revenue.
-
-His own diagnosis: "I'm not really that much of a business person; I'm an artist. I was being a business person and I was worn out and I wanted to create, not have meetings and manage people."
-
-Look back at every move and the pattern is the same. The newsletter pieces written under pen names like Steve Garcia and Sidd Finch. The Anti-MBA's curated reading list. The Hustle's voice, distilled into a daily column with the rhythm of stand-up comedy. The 9,000-mile motorcycle ride with Marcus Aurelius in the saddlebag. He didn't build a media business so much as keep finding excuses to write, perform, and ride. He has the constitution of a sprinter and the soul of a columnist. "I would say I'm a creator," he told one interviewer. "It sounds weird, but I think I'm an artist." The business person was always the costume. The artist was who he was when he took it off.
-
-In February 2021, he sold The Hustle to HubSpot for roughly $27 million.
-
-"When I sold, I was a person with poor eyesight who put on glasses and saw the world differently," he said. "I was like, 'Oh my God, living is so wonderful!' This is life? I could have been living this for a time."
-
-He'd used the exact same metaphor years earlier. About getting sober.
-
-## What is Sam Parr's Personality Type?
+## What is Sam Parr's personality type?
 
 ### Sam Parr is an Enneagram Type 8
 
-The core wound of [Type 8](/enneagram-corner/enneagram-type-8) is the belief that the world will exploit vulnerability. The response: become invulnerable, or at least look that way. Eights don't charge forward because they're fearless. They charge forward because standing still feels like death.
+Sam Parr is an [Enneagram Type 8](/enneagram-corner/enneagram-type-8), the Challenger. Eights sit in the gut triad, the instinctive types, and the core emotion of that triad is anger, as opposed to the fear behind the head types or the shame behind the heart types.
 
-Type 8 sits in the Enneagram's gut triad. Sam is a former D1 sprinter who still sets quarterly NFL Combine-style fitness challenges (4.6-second 40-yard dash, 225-pound bench for 16 reps). He's completed half Ironmans. He tracks calories and blood biomarkers and has said his goal is to live to 130. He processes the world through intensity and physical output before anything else.
+For an Eight, anger is mostly about control. It shows up when someone tries to run them, strings them along, makes them small, or pushes around someone weaker. The rest of the time, the classic Enneagram word for what drives an Eight is lust, meaning appetite for intensity. More, harder, all of it.
 
-Here's how that plays out across his life:
+Sam described that appetite himself in the episode about why he got sober. "As a young kid, very early on, I realized that I loved to go all in on stuff. So like, if I could get my hand on a pack of cookies, I would eat the whole thing, even if it made me sick." If he got into running, "I would run constantly." He ran Division I track. "I would never leave my plate with food on it."
 
-**Autonomy over everything.** He raised $800,000 for The Hustle and later regretted it because of the obligations it created. He wanted to "remain selfish, free to experiment without shareholder pressure." On the Below the Line podcast: "There's a direct correlation to your willingness to tell someone to fuck off if you don't like what they're saying and how many months of savings you have."
+That appetite has three settings.
 
-**Vulnerability masked by strength.** While privately lying on the floor wanting to quit, he maintained an "aggressive, impulsive and brash" exterior because "that fear spreads" to employees. The entire public persona is a controlled burn.
+**Wide open.** At 16, by his own account, he looked and acted like Napoleon Dynamite, read every pickup-artist book he could find, and learned to act like he didn't care. In a 2026 talk called "Be Chalant," he called that "dumb." In his 20s, when he started his first company, he began openly showing his enthusiasm, and he noticed it worked: "People were more attracted to me. Investors. Employees. Customers. Everyone." He has been loud about what he likes ever since.
 
-**Intensity as a survival strategy.** Cold-calling strangers a hundred times a day to burn away rejection. Riding a motorcycle 9,000 miles to mark one year sober. Carrying an 80-pound pit bull on his shoulders through city streets because the dog couldn't walk anymore. If you're always moving, nothing can pin you down.
+He once heard about a fast runner on a podcast and announced he'd beat him in a race. "Without thinking, I said I'd whoop him." He put his own odds at 15%. "But who cares."
 
-**The braces origin story.** His entire financial ambition traces back to wanting to protect his family from helplessness. That's the Eight's healthy direction — toward [Type 2](/enneagram-corner/enneagram-type-2), the protector who learns to serve.
+**Pushing on people.** Shaan has described Sam's move on air: "you'll just ask a blunt question... what is it, how much, what's in your pocket right now." In October 2026 he wrote about meeting a Hampton member who'd turned a $10 million exit into about $50 million picking stocks: "Being that I'm a noisy sonuvabitch, I asked him to pull up his accounts so I could see the numbers."
 
-Sam laid it bare in a 2025 podcast episode: "My self-worth is my net worth basically. That's probably through years of trauma and believing something, and it's hard to break."
+When HubSpot sent The Hustle a vague email about a "partnership," Sam wrote back:
 
-A man trying to outrun the feeling that he's not enough. And he knows it. He's read his old journal entries: the same complaints for 10 or 15 years. Whether his time is worth it. Why he keeps losing his temper. The entries change. The questions don't.
+> "Just tell me, are you trying to buy us? Because if you are, maybe we can have a conversation, but don't waste my time."
 
-Under [stress](/enneagram-corner/enneagram-types-in-stress), Eights retreat toward Type 5: solitude, intellect, withdrawal. Sam has seen a psychiatrist since 2014, pays "a lot of money" for a CEO coach, and reads philosophy on cross-country motorcycle trips.
+**Blocked.** This is where the anger lives. He once signed up for a psychedelic therapy session and never made it to the session. At the dinner beforehand, the facilitator explained that "capitalism is ruining everything." Sam learned she used to work at Lehman Brothers and had a venture capital firm on the side. They argued at the table.
 
-He once paid $4,000 for MDMA-assisted psychedelic therapy with Sara. Got kicked out before the session even started. The facilitator opened the evening with anti-capitalist rhetoric about how "this medicine needs to be free for everyone" and "capitalism is ruining everything." Sam discovered she'd previously worked at Lehman Brothers and had a venture capital firm on the side. He started laughing at the hypocrisy, got into an argument at the dinner table, and was asked to leave.
+"I basically got asked to leave."
 
-Even in the most surrendered setting imaginable, his Eight instinct won't stop testing the room for contradictions.
+Run the Shaan test on those three, and the first one fails. Shaan gets just as excited on air. That wide-open streak is something they share, and it's probably why the show works. The other two hold. Shaan has described the difference himself: "I'm a monologue... your thing is like you'll just ask a blunt question." Shaan isn't the one demanding to see your brokerage account or getting thrown out of a dinner for arguing.
 
-In health, Eights move toward Type 2: the protector who serves. Hampton. The "Shit, I'm Fucked" event. Hiring "freaks and weirdos" who need someone to bet on them. The second act of Sam's career is building the safety net he never had.
+Before he got sober, all three settings ran hotter. Sam has said he drank in high school "because I was really uncomfortable with myself," drank "to fit in," and became "a little bit of a bully." By college: "I loved to fight." He was arrested three times. A year sober, he wrote, "I don't think I've been angry once in the past 8 months... aka I'm not an impulsive bastard." Seven years later he gave a more measured scorecard: "I still act impulsive sometimes and I still say a lot of stuff I don't really mean. But it's way less."
 
-## Why My First Million Works: Sam Parr and Shaan Puri
+## The big confessions are comeback stories
 
-In mid-2019, [Shaan Puri](/personality-analysis/shaan-puri), a serial founder who'd just sold Bebo to Twitch, approached Sam with a proposition: "I'm creating a podcast anyways. You give me distribution. We split the money 50/50."
+Sam shares more about himself than almost anyone with a business podcast. "I was a derelict." "I was mentally ill and I was a complete addict." MFM still files "Why I Got Sober" among its greatest hits.
 
-Sam had The Hustle's two-million-person newsletter. Shaan had the ideas and the mic presence. My First Million launched on June 23, 2019. The first episode pulled 60,000 downloads. Within weeks, that number dropped to 10,000.
+Most of the big confessions are before-and-after stories. "Drunk Sam" versus the guy telling you about him. "I'm a nice guy now. But back then... I just had demons." Even his most self-deprecating line, that his "inner self-esteem was that of a pimpled faced, Jew-fro-having, 8th grade twerp," comes from a 2014 post about his drinking years, and the point of that post is that sobriety fixed it.
 
-They ground it out. Two to three episodes a week for two years before the show broke through. Sam has called growing the podcast "one of the hardest challenges he's faced." It now has over 800 episodes, nearly 500,000 YouTube subscribers, and over 200 million YouTube views.
+A comeback story is strength with the receipts attached. You can tell it on a podcast because you already won. Noah Kagan, who wrote a post titled "I Hated Sam Parr," ended up praising exactly this unfiltered streak: "No fucks given. I love when Sam called out VCs harassing people or when he chose to showcase his mother-in-law's pillow company. He's not optimizing for an algorithm."
 
-Morning Brew matters here because [Alex Lieberman](/personality-analysis/alex-lieberman) solved the same stale-business-news problem from the newsletter side, with a more anxious Seven engine underneath the growth.
+He does talk about present-tense soft spots, though, and plainly. Complaints from employees rattle him. A fight with a business partner "ruins my week." He has been working through a fear of riding the subway. In October 2026 he said an executive coach told him he was "really self-critical."
 
-What makes the show work is what makes the two of them work: precise opposites who amplify each other. Sam is a [Type 8](/enneagram-corner/enneagram-type-8), blunt and grounded in execution. Shaan is a [Type 7](/enneagram-corner/enneagram-type-7), enthusiastic, always scanning the horizon. Where Sam says "that's dumb," Shaan says "but what if." When Shaan's enthusiasm drifts into abstraction, Sam yanks it back to earth. When Sam's intensity gets heavy, Shaan cracks a joke.
+## Hot dogs, moonshine and a scary-looking pit bull
 
-They prepare differently. Sam picks up the phone: "I'll get on the phone with someone and I'll say, tell me everything." Shaan watches: "I'm constantly going around observing things and then go down the rabbit hole."
+Sam grew up in Missouri, around St. Louis. His parents owned a fruit stand, "and that is how I learned about entrepreneurship." He went to college in Nashville on that track scholarship. On the track, by his own account, he "didn't apply myself."
 
-Shaan has described Sam as openly enthusiastic about guests: "Sam's like 'this guy's amazing, this guy's an artist.'" He's called him "a good guy" and "a history nerd." They trade books about Joe Kennedy and Kirk Kerkorian. Their friendship predates the podcast by years, going back to a mastermind group during the Hustle Con era.
+He was busy selling: a hot dog stand that could make $1,000 on a good day, and an online moonshine business that, in his words, "made a TON of money" but was "kinda illegal."
 
-In August 2024, they released an episode titled "Is This The End Of The Pod?", a post-mortem of an actual fight they'd had the day before. They applied John Gottman's framework about the 5:1 ratio of positive-to-negative interactions. Sam admitted the argument had made him physically sick. "The body keeps the score." Rather than bulldozing through the conflict or reframing it away, they sat down and dissected it together on-air.
+In the winter of his sophomore year, a friend of a friend asked him to watch a dog whose owner had been arrested. It would only be two weeks. Six months later Sam still had him. Eight months in, the owner got out and asked for the dog back.
 
-Sam brings the weight. Shaan brings the lift. When it breaks down, neither default is enough.
+"By this point I owned the dog longer than he had, got him neutered, trained him and fallen in love. So I said no."
 
-## Marriage, Fatherhood, and the Loss of Sid
+The dog was a big white pit bull named Casper. Sam renamed him Sydney, after the city he loved, and everyone called him Sid. Sid lunged at other dogs and ignored Sam on walks. So Sam took a $150 prize he'd won for showing up to an accounting club meeting and spent it on a dog trainer, who taught him "when to be stern and sometimes rough, what behavior is acceptable and what isn't."
 
-Four years after the dirty joke at the happy hour, Sam proposed after Thanksgiving with both families present in St. Louis. He whipped out the ring without saying a single word.
+> "I was proud that I took this beast and made him calm and to trust me."
 
-Sara's take: "He's a very talkative guy, so that was one of the few moments when he was utterly speechless."
+Then came the DUI that put him in jail for 24 hours. "When I came home Sid had shit in the house. He looked so sad. I was devastated and upset that I let him down. That's when I got sober, so I wouldn't let him down again."
 
-They married in a Catholic ceremony at Sara's parents' church in Manhattan, reception at Carnegie Hall's rooftop terrace. The kid from The Hill, whose mother strained to pay for braces, got married at Carnegie Hall.
+## The lie that cost him Airbnb
 
-Sara works as a researcher at Airbnb. The same company that fired Sam before his first day. He's never publicly commented on the irony.
+In 2011, as a college junior, Sam cold-emailed the founder of a small startup called Airbed and Breakfast and explained why they should hire him. The founder asked if he wanted to interview. He said yes, flew out on a Monday and got the job.
 
-After the eight-figure exit, Sam still buys electronics as display models because they're cheaper. Shops for clothes secondhand on Grailed. He once rented a Rolex before deciding to buy one. Wore it for a few days, thought "This f---ing sucks. I'm freaking out all the time, I'm nervous about hitting it, and this is stupid," and never bought it.
+His parents, who thought a startup sounded like a Ponzi scheme, drove down to help him pack. Then Airbnb called.
 
-His seven-word negotiation phrase for almost every transaction: "Is that the best you can do?"
+> "I had lied on the application. I said I didn't have a misdemeanor. I did. A recent DUI... 'You're supposed to start next week...but we're rescinding our offer. You lied.'"
 
-When their daughter Naomi was born in late October 2023, a new fear replaced the old ones: "I'm incredibly nervous for my child growing up in a wealthy household. That freaks me out."
+That's his 2026 telling. In earlier versions the call came the Sunday before his start date, and in 2021 he explained he'd thought he wasn't technically lying because his case was still pending. "Regardless, I was in the wrong." Today he sums it up: "It was awful! But very fair of them."
 
-Before Naomi, they experienced a miscarriage. "Money and power don't fix certain problems," he said. "That shit doesn't matter."
+His parents gave him about $5,000 and told him they knew he'd figure it out. He moved to San Francisco anyway.
 
-Ten days after Naomi arrived, Sid died. About fourteen years old. Sam and Sara had been keeping him healthy specifically so he could meet the baby. He did.
+In San Francisco, broke and depressed, he started drinking again. "I was only sober at that point for two three months." He got sober for good around 2013, at about 23, with help from a mental-health clinic. He described what sober fun felt like with a metaphor he'd use again: "it felt like I put on glasses for the first time after years of poor eyesight."
 
-"2009-2023. Long live Sid," Sam wrote. "This dog saved me from being a degenerate. I love him so much. Carried him around the last three years and loved it."
+In 2014 he quit his job and rode a motorcycle 9,000 miles across the country and back in 47 days, with Marcus Aurelius's _Meditations_ in the bag.
 
-The loss crushed him for months. He could barely write or speak about the dog afterward. The first tattoo on his leg sleeve is a portrait of Sid. The same legs that carry "Bold. Fast. Fun." now carry the face of the animal that saved him from himself.
+## Copying sales letters by hand: from Hustle Con to The Hustle
 
-Noah Kagan, who initially hated Sam, eventually came around: "Present as a father, prioritizes his marriage and seems to be making a lot of money doing things he loves with no compromises."
+Sam taught himself to write the hard way. "I would get the best sales letters and the best writing that I could find...and I would literally copy them by hand for hours every single day for months." That habit became his writing course, Copy That.
 
-## Hampton: $8M in Revenue, Built From Loneliness
+In 2014 he put together Hustle Con, a one-day founder conference, in about seven weeks. It sold 400 tickets and made a $40,212 profit. The attendee list became a newsletter, and the newsletter became The Hustle, a daily business email that grew up alongside [Alex Lieberman](/personality-analysis/alex-lieberman)'s Morning Brew and had about 1.5 million subscribers by early 2021.
 
-When Sam sold The Hustle: "I should feel really successful right now. Instead I felt incredibly alone."
+Along the way he raised about a million dollars on convertible notes, and he still regrets it. On My First Million in 2020 he said he wished he hadn't raised money: he "would have just owned it all" and "would be greedier and richer." Those are his reasons, money and ownership. The control angle is our reading: an Eight hates giving away a piece of the thing.
 
-He had outrun his old circle. Making $50-million-level decisions with no peers who understood and no one to show him blind spots. So he built the thing he wished he'd had.
+A line of his about personal savings fits next to it:
 
-Hampton launched in 2023: a vetted peer membership community for founders and CEOs. Acceptance rate under 8%. Sam and his co-founder Joe Speiser personally review every application. Members must generate at least $3 million in annual revenue or have a $10 million-plus exit. The average member's company does $23 million a year.
+> "There's a direct correlation to your willingness to tell someone to f*ck off if you don't like what they're saying and how many months of savings you have."
 
-What actually happens inside: members get placed in "Core groups" of about eight founders, matched by company stage, then industry, then geography. Each group has a Hampton-trained facilitator, mostly former entrepreneurs, described internally as "glorified therapists." They meet ten times a year, roughly three hours a month. SWOT analyses. Financial reviews. Net worth discussions. Not as founders performing strength, but as people admitting where they're stuck.
+The rest of his money habits point the same way. In 2019 he told Money that he asks for the display model when he buys electronics and buys a lot of his clothes secondhand. When he was thinking about buying a Rolex, he rented one first. "This f--king sucks. I'm freaking out all the time, I'm nervous about hitting it, and this is stupid... why the hell did I ever think I wanted to buy this?"
 
-Over 1,000 members across 16 cities. $8 million in annual recurring revenue. About 20 employees. No outside investment. In late 2024, Sam shifted to in-person meetings, each city operating as its own mini-business with local chapter leads who set their own budgets and events. His philosophy: "if it gets too big and too fast, it sucks. There's no culture and there's no soul to it."
+He talks about not becoming a "prisoner" to stuff. That doesn't make him cheap. He did a whole episode, "How I Live On $25,000/Month In New York City," answering listeners' questions about what he spends. A Three curates the image. Sam opens the books.
 
-The origin was a Slack channel called "Shit, I'm Fucked," a space for entrepreneurs to share their worst moments. It blew up. Sam turned it into a live event: 10 entrepreneurs telling 5-minute stories of utter misery and failure to 100 other founders. One guy raised $100 million and blew it in two years. Another had a $30 million-a-year company destroyed by a lawsuit.
+What he won't do is let a possession own him. That's the clearest line between Sam and a Type 3 achiever.
 
-"Very cathartic," Sam wrote. "Participants laughed at their miseries and felt less alone."
+HubSpot bought The Hustle in February 2021. Neither side announced the price. Reports run from the $17.2 million in cash plus stock in HubSpot's filing to Axios's $27 million, and Sam has put it at both "more than $20 million" and "over $30M."
 
-Think about what Sam actually built here. A man whose entire career runs on projected strength created a structured space where the most powerful people in the room are required to be vulnerable. It's the opposite of what someone like [Dave Portnoy](/personality-analysis/dave-portnoy) does with his Eight energy. Portnoy doubles down on dominance. Sam built a room where dominance isn't the point.
+Afterward he reached for the same metaphor he'd used for sobriety: "When I sold, I was a person with poor eyesight who put on glasses and saw the world differently."
 
-The Jesuit phrase from his high school finally landed. *Men for others.* He needed twenty years of building fortresses before he understood the assignment.
+Twice, something that had been running his life stopped running it. First the alcohol, then the company. He was clear about why he wanted out: "I'm not really that much of a business person; I'm an artist... I was worn out and I wanted to create, not have meetings and manage people."
 
-He couldn't do it for himself. So he built a company that does it for others.
+## Sam is the reaction, Shaan is the reframe
 
-"Past a certain point, and there's most certainly a number for that, one should focus on serving others more than earning," he said on his Moneywise podcast.
+My First Million started in 2019, with The Hustle behind it. More than 850 episodes later, the split is easy to hear. Sam is the audience surrogate: he asks what it makes, gets visibly excited and makes the bold call. Shaan, a [Type 7](/enneagram-corner/enneagram-type-7), turns it into a framework or a story.
 
-He said something else, in a quieter moment: "I embrace my ability to get addicted to things. I just try to choose what I'm going to give into."
+Shaan calls himself a firecracker who stays "extremely tolerant and unbothered until the moment I'm bothered." In August 2024 the two had a real fight off-mic, and the next day they recorded an episode called "Is This The End Of The Pod?" They never said what it was about. Shaan opened with an apology for being "a little pissy."
 
-The kid who got addicted to alcohol in college. The entrepreneur addicted to hustle. The founder addicted to building. Same engine, different target. Now the target is other people's loneliness.
+Sam didn't take the win. When Shaan finished apologizing, Sam pushed back: "I want to let you know that everything is mutual... you're sort of acting that you didn't blame me for anything. You only blamed yourself. And I want to let you know that that's not actually the reality."
 
-He wants Hampton to be "a greater than 100 million dollar a year revenue business" and plans to build it over 20 years. The man who admitted his self-worth equals his net worth is now building a company whose entire value proposition is telling powerful people that theirs shouldn't.
+Earlier in the same episode, he said something that complicates the loud-guy picture. He told Shaan, "you are quite logical... most people, myself included, are more emotional than logical." He said Shaan was "a little more comfortable with confrontation," and that conflict with a partner "ruins my week."
 
-He hasn't resolved the contradiction. He's just found a way to build on top of it.
+So the force has a direction. Sam pushes hard on acquirers, hypocrites, VCs and strangers with brokerage accounts. With his own people, he's soft. He has described himself as "super soft," and the running joke at The Hustle was that if you wanted a raise, you just had to ask. A real fight with someone inside the circle is a different thing.
+
+Which one are you, by the way? The one who asks what it makes, or the one who explains why it works?
+
+## Hampton: no one to call bullshit
+
+At 28, Sam was running a company doing about $8 million a year. "30% of the time I felt unstoppable," he has written. The other 70%, he was "full fear," thinking "I'm making this up as I go."
+
+He went looking for help, his way. He Googled media founders, found Joe Speiser in a Business Insider article, and cold-emailed him. "I lied and said I'd be in New York for other meetings." The meetings didn't exist.
+
+They started meeting monthly. Joe "guided me through selling my company for over $30M."
+
+After the sale, Sam realized most founders never get that. Once they hit real revenue, he wrote, "suddenly they're all alone... No one to call bullshit."
+
+In 2023 he and Joe launched [Hampton](https://www.joinhampton.com), a vetted community of founders who meet monthly in small core groups to talk honestly about their businesses, money and lives. As of late 2026 it has groups in 18 cities.
+
+The telling decision is one he has now made twice: handing off the CEO job. The Hustle had a CEO who wasn't Sam, and so does Hampton. He kept the company. "I'm heavily involved in everything," he has said. "It's my job still." "I think I am capable of running a company that's like big," he has said, "but... it doesn't fit my skill set." He was specific about why:
+
+> "If someone comes to me complaining about something, it bothers me. Like, I think about it. And I'm like, I don't want to have this conversation. I feel guilty. [Or] they're wrong. I'm angry at them... For me, I get rattled. And that's not good for a CEO."
+
+Guilt, avoidance, anger, all in one answer. He knows that mix makes him great at starting things and bad at the daily complaint desk. So he kept the part he loves and handed off the part that rattles him.
+
+## Dad: kill for you, die for you
+
+Sid made it to his daughter's first ten days. As the dog's last weekend approached in October 2023, Sam tweeted: "Haven't ever been this sad but I'm so happy he made it this far to meet her!" Two days later Sid was gone, at about 15. "This dog saved me from being a degenerate."
+
+Sam has two kids now. On the Two Dads in Tech podcast he described how protection changed shape. When he got married: "We are family now... I will kill someone to protect you." When his daughter was born: "Oh, I will die for you." Being the calm one at home, he said, "I loved carrying that burden."
+
+He talks about his wife with admiration. "I admire my wife. That's how I knew I wanted to marry her. She was/is formidable." On their third date he got a kidney stone, and she "rushed me to the hospital and took care of business." In 2024 Noah Kagan wrote that Sam is "super present as a father" and "prioritizes his marriage."
+
+The scoreboard has moved, too. In his 20s, he wrote, "I became obsessed with the idea that I should put the work in today that will make my future self proud." Now the question is "what can I do today that will make my future family proud."
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: 8w7, instincts, stress and growth, and why not 3, 6 or 7</summary>
+<div class="panel">
+
+**Wing: 8w7.** The 7 wing shows up as appetite and speed: a hot dog stand and a moonshine site in college, a 9,000-mile ride, and the choice to show enthusiasm openly instead of playing it cool.
+
+**Instinct: probably self-preservation first.** His money talk is mostly about safety and independence: months of savings as permission to say no, a goal of $20 million liquid by age 30. Hampton gives the social instinct weight too. See the [instinctual subtypes guide](/enneagram-corner/enneagram-instinctual-subtypes).
+
+**Stress and growth.** Under stress, Eights can move toward the [Type 5](/enneagram-corner/enneagram-types-in-stress) pattern of pulling back into their heads. Sam's version is getting "rattled," then stepping back and turning the problem into a game: "instead of getting mad, though, I typically like to look at as a game." In growth, Eights move toward Type 2, where protection becomes care. "I loved carrying that burden" is that line in his own words. Treat both as a tentative map.
+
+**Why not Type 3?** This is the strongest rival. Sam says, "I want people to feel admiration for me like I do the people I admire." He's widely quoted saying, "My entire existence in my career is driven by trying to prove wrong the people who made fun of me." His reason for dropping the cool act in his 20s was that open enthusiasm worked on "investors, employees, customers." And his method for handling people he's mad at sounds like a Three's playbook: "What are their needs? How can I meet their needs so I can eventually get what I want?"
+
+The tiebreaker is what he does when image and freedom pull apart. He rented the status watch and hated how nervous it made him. He buys display models. His regret about the raise is about money and ownership, "would have just owned it all," and he never mentions how it looked. He tells the Airbnb lie on himself, in public, more than once. A Three wants to be seen winning. Sam wants nobody holding his leash.
+
+**Why not Type 6?** This rival is closer than it looks. At 28 he was "full fear" 70% of the time. He has dealt with panic, gets rattled by complaints and hates fights with people close to him.
+
+When he was scared, he went and found a guide in Joe, and he built Hampton around founders who need someone to "call bullshit" on them. That is a lot of Six. A counterphobic Six, who charges at fear and argues with authority, can look exactly like an Eight from outside. Two things tip it for us. First, what drove his worst years: appetite. Whole packs of cookies, drinking "to the extreme," fights he "loved." Second, where he puts himself in the safety equation. A Six looks for something solid to lean on. Sam wants to be the solid thing: "calmness should come from Dad, or Dad will protect us... I loved carrying that burden." His question is less "who can I trust?" and more "who's trying to run me?"
+
+**Why not Type 7?** Sevens tend to steer around pain. Sam goes looking for it: copying sales letters by hand for months, and "I now embrace obstacles because I love the exhilarating emotion of feeling the stress, pain, and achievement when overcoming it." The appetite is real, and it's why the 7 wing fits. The push underneath it is the Eight.
+
+</div>
+</details>
+
+Sam would probably still call this a horoscope. Run the Shaan test on any section above and see how many survive, then tell us where we got him wrong.
+
+In October 2026 he wrote about his kids' first and third birthdays. He skateboarded down the street to pick up the cake and balloons, and his mother, visiting from St. Louis, filmed him rolling home with them.
+
+> "I want the record to show that I'm a cool dad."
 
 > **Disclaimer:** This analysis of Sam Parr's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Sam Parr.

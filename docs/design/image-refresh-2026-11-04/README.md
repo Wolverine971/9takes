@@ -8,11 +8,37 @@ This review covers the 157 distinct hero images used by 159 published non-profil
 
 Open [the visual review](review.html) for before/after pairs, tier filters, article links, reasons and suggested scenes. [The inventory](inventory.json), [assessments](assessments.json) and [generation prompts](prompts.json) preserve the decisions in structured form. Contact sheets preserve the original visual audit.
 
+## Cold Light update (2026-11-05)
+
+DJ approved the Cold Light identity on November 5 ([`docs/brand/cold-light.md`](../../brand/cold-light.md)). Two rules now sit above everything else in this README.
+
+**Statues only.** Every brand image is a Greek marble statue. No photos of people, places or phones. The Cold Light statue standard is:
+
+- Dry, matte, weathered marble with blank carved eyes.
+- One light from the upper left on a black background.
+- Restrained expressions, like real sculpture.
+- No text inside the image.
+- No warm, amber or orange light anywhere in the frame.
+
+**One shared tint, applied after.** Prompts ask for neutral grey stone. After DJ saves the file, the image is converted to greyscale and each pixel's brightness is mapped through this ramp with `sharp`, so the whole library looks lit by the same light:
+
+| Stop | Color     | Lands on               |
+| ---- | --------- | ---------------------- |
+| 0    | `#01010D` | Deepest shadow (Night) |
+| 0.30 | `#160A46` | Shadow                 |
+| 0.62 | `#6331FB` | Midtones (Indigo)      |
+| 0.88 | `#BEAAFF` | Highlights (Lavender)  |
+| 1    | `#ECE6FF` | Brightest highlight    |
+
+Don't hand-tint, recolor per type, or add a second accent color. Worked prompts that already meet this standard: [`../homepage-whispering-statues/prompts-emotions.md`](../homepage-whispering-statues/prompts-emotions.md).
+
+**Open for DJ:** the article heroes in this refresh use scenes (courtyards, cafés, offices) and allow modern props. The Cold Light standard says black background and no phones. Until DJ decides whether article heroes keep simple settings, new brand and homepage imagery follows the black-background standard, and article heroes keep their settings but drop all warm light and take the indigo tint.
+
 ## The visual standard
 
 - **Material:** dry, matte, physically carved marble or limestone. Irregular pores, small chips, worn edges and a little grime in recesses. Avoid identical crack patterns, uniform dirt, shiny resin and skin painted grey.
-- **Light:** one believable dominant source, usually raking side light. Keep detail in the shadows and separation between the subject and background. Warm reflected light is welcome in a small area; it is not mandatory in every image.
-- **Color:** charcoal, ash, chalk and muted stone. The warm edge in `greek-statue-reading.webp` is a useful upper bound for an accent. Avoid full-frame blue/pink lighting, saturated skies and decorative gold.
+- **Light:** one believable dominant source, usually raking side light. Keep detail in the shadows and separation between the subject and background. For new work, the light comes from the upper left. No warm reflected light (retired with Cold Light, 2026-11-05).
+- **Color:** charcoal, ash, chalk and muted grey stone in the prompt; the indigo tint ramp is added afterward. No warm accents. Avoid full-frame blue/pink lighting, saturated skies and decorative gold.
 - **Composition:** usually one to three principal figures and one readable action. Prefer a close or medium view. Use a larger group only when the article needs relationships within that group. Leave important hands, faces and objects safe for the consuming crop.
 - **Setting:** a courtyard, café, library, office, workshop or domestic space can all work. The collection should share material and light, without becoming the same dark room over and over.
 - **Props:** modern objects are fine when the article needs them. A phone can be a phone. Avoid floating icons, glowing diagrams, generic chains, random masks and fantasy scenery used as substitutes for an idea.
@@ -84,7 +110,7 @@ The first two rounds shipped locally under the original public filenames. The No
 
 ## Reusable prompt structure
 
-> Editorial photograph of a life-sized ancient Greek marble statue [specific action] in [simple setting]. The important relationship is [behavior from the article]. [One or two essential props.] Dry matte weathered stone, irregular pores, worn chisel marks and small edge chips; visibly carved eyes and hair. [Shot distance] with clear silhouettes and important gestures safe for the crop. One believable side light, charcoal shadows, ash and chalk highlights, optional faint warm reflected light. Natural photographic tonal range. No neon, glossy CGI, floating symbols, magical effects, decorative gold cracks, text or watermark.
+> Editorial photograph of a life-sized ancient Greek marble statue [specific action] in [simple setting]. The important relationship is [behavior from the article]. [One or two essential props.] Dry matte weathered stone, irregular pores, worn chisel marks and small edge chips; visibly carved eyes and hair. [Shot distance] with clear silhouettes and important gestures safe for the crop. One believable raking light from the upper left, charcoal shadows, ash and chalk highlights, neutral grey stone with no warm light. Natural photographic tonal range. No neon, glossy CGI, floating symbols, magical effects, decorative gold cracks, text or watermark.
 
 Do not reuse the prompt mechanically. All eleven exact prompts and their output paths are in `prompts.json`. The subjects and settings are the variable part; material credibility and restraint are the constant part. For an edit, preserve the user-approved concept and constrain the change to the requested material, color or setting.
 

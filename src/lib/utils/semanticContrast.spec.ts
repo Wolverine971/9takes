@@ -3,12 +3,9 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 
 const stylesheet = readFileSync(new URL('../../scss/index.scss', import.meta.url), 'utf8');
+// Cold Light is dark only (2026-11-05): one first-level :root block.
 const darkTokens = stylesheet.slice(
 	stylesheet.indexOf(':root {'),
-	stylesheet.indexOf('/*==============================================\n  LIGHT MODE OVERRIDES')
-);
-const lightTokens = stylesheet.slice(
-	stylesheet.indexOf(':root.light {'),
 	stylesheet.indexOf('/*==============================================\n  COMPONENT LIBRARY')
 );
 
@@ -37,19 +34,47 @@ function contrast(first: string, second: string): number {
 }
 
 describe('semantic contrast tokens', () => {
-	it('keeps destructive button text AA-compliant in dark and light themes', () => {
+	it('keeps destructive button text AA-compliant', () => {
 		expect(
 			contrast(token(darkTokens, 'danger-surface'), token(darkTokens, 'text-on-danger'))
 		).toBeGreaterThanOrEqual(4.5);
-		expect(
-			contrast(token(lightTokens, 'danger-surface'), token(lightTokens, 'text-on-danger'))
-		).toBeGreaterThanOrEqual(4.5);
 	});
 
-	it('keeps status text AA-compliant on the primary theme surfaces', () => {
-		for (const name of ['success-text', 'warning-text', 'error-text']) {
-			expect(contrast(token(darkTokens, name), '#0a0807')).toBeGreaterThanOrEqual(4.5);
-			expect(contrast(token(lightTokens, name), '#ffffff')).toBeGreaterThanOrEqual(4.5);
+	it('keeps status text AA-compliant on every Cold Light surface', () => {
+		for (const surface of ['bg', 'surface', 'surface-raised']) {
+			for (const name of ['success-text', 'warning-text', 'error-text']) {
+				expect(
+					contrast(token(darkTokens, name), token(darkTokens, surface))
+				).toBeGreaterThanOrEqual(4.5);
+			}
 		}
+	});
+
+	it('keeps the Cold Light contract pairs legible', () => {
+		for (const surface of ['bg', 'surface', 'surface-raised']) {
+			for (const name of ['text', 'text-muted', 'text-faint', 'highlight']) {
+				expect(
+					contrast(token(darkTokens, name), token(darkTokens, surface))
+				).toBeGreaterThanOrEqual(4.5);
+			}
+		}
+		// Mint and lavender fills carry dark text; indigo fills carry light text.
+		expect(
+			contrast(token(darkTokens, 'text-on-action'), token(darkTokens, 'action'))
+		).toBeGreaterThanOrEqual(4.5);
+		expect(
+			contrast(token(darkTokens, 'text-on-action'), token(darkTokens, 'highlight'))
+		).toBeGreaterThanOrEqual(4.5);
+		expect(contrast(token(darkTokens, 'text'), token(darkTokens, 'accent'))).toBeGreaterThanOrEqual(
+			4.5
+		);
+		// Legacy aliases that components still use as text must stay readable.
+		for (const name of ['lamp-deep', 'data-teal']) {
+			expect(
+				contrast(token(darkTokens, name), token(darkTokens, 'surface'))
+			).toBeGreaterThanOrEqual(4.5);
+		}
+		// Indigo is never text: guard that it stays below AA so nobody "fixes" the rule away.
+		expect(contrast(token(darkTokens, 'accent'), token(darkTokens, 'bg'))).toBeLessThan(4.5);
 	});
 });

@@ -1,7 +1,8 @@
 /* src/scss/index.scss */
 /*
- * Main Stylesheet - Organized and Optimized
- * Theme: 9takes Warm Tech
+ * Main Stylesheet
+ * Theme: Cold Light (locked 2026-11-05). Dark only, by design: there is no
+ * light theme and no theme toggle. Source of truth: the Cold Light brand page.
  */
 
 @use 'mixins' as *;
@@ -9,71 +10,175 @@
 @use 'components';
 
 /*==============================================
+  FONT FALLBACKS — size-adjusted local faces so the swap from the system
+  fallback to the self-hosted webfont (imported in +layout.svelte) barely
+  shifts layout. Ratios measured 2026-11-05 against the shipped woff2 files
+  (Archivo vs Arial 0.982, Anton vs Impact 0.948, Playfair italic vs Georgia
+  italic 0.941); ascent/descent come from each font's hhea table.
+==============================================*/
+@font-face {
+	font-family: 'Archivo Fallback';
+	src: local('Arial'), local('ArialMT'), local('Helvetica Neue'), local('Helvetica');
+	size-adjust: 98.2%;
+	ascent-override: 89.4%;
+	descent-override: 21.4%;
+	line-gap-override: 0%;
+}
+
+@font-face {
+	font-family: 'Anton Fallback';
+	src: local('Impact'), local('Arial Narrow Bold'), local('Arial Narrow');
+	size-adjust: 94.8%;
+	ascent-override: 124.1%;
+	descent-override: 34.7%;
+	line-gap-override: 0%;
+}
+
+@font-face {
+	font-family: 'Playfair Display Fallback';
+	font-style: italic;
+	src: local('Georgia Italic'), local('Georgia-Italic'), local('Georgia');
+	size-adjust: 94.1%;
+	ascent-override: 115%;
+	descent-override: 26.7%;
+	line-gap-override: 0%;
+}
+
+/*==============================================
   VARIABLES - THEME TOKENS
 ==============================================*/
 :root {
-	/* Phase 7 complete 2026-06-10: legacy bridge aliases deleted; V5 tokens
-	   (--lamp-*, --night-*, --stone-*, --ink-*) are the only color source of truth. */
+	color-scheme: dark;
 
 	/* ========================================
-	   FUNCTIONAL / STATUS COLORS
-	   Adjusted for dark backgrounds
+	   COLD LIGHT CONTRACT — the only color source of truth.
+	   Every other color token below is an alias of these.
+	   Rules: mint (--action) is rationed to about one element in view (the
+	   main "give your take" CTA). Indigo (--accent) is never text and never a
+	   focus outline (3.3:1 on --bg); text on an indigo fill is --text (5.7:1).
+	   Lavender (--highlight) carries links, focus and accents; text on a
+	   lavender or mint fill is --text-on-action (12.7:1 / 16.2:1).
+	   ======================================== */
+	--bg: #01010d;
+	--surface: #0c0b22;
+	--surface-raised: #131133;
+	--accent: #6331fb;
+	--accent-deep: #24127a;
+	--highlight: #cfc2ff;
+	--action: #88f9c0;
+	--text-on-action: #01010d;
+	--text: #f4f2ff;
+	--text-muted: #bdb8da;
+	--text-faint: #8d88ae;
+	--rule: rgba(207, 194, 255, 0.14);
+	--focus: var(--highlight);
+
+	/* Fonts. Shout = Anton, uppercase posters only (opt-in, never body or
+	   default headings). Voice = Playfair Display, used italic. Talk = Archivo,
+	   everything readable. The "Fallback" faces above are metric-matched. */
+	--font-shout: 'Anton', 'Anton Fallback', Impact, 'Arial Narrow', sans-serif;
+	--font-voice: 'Playfair Display', 'Playfair Display Fallback', Georgia, serif;
+	--font-talk: 'Archivo', 'Archivo Fallback', 'Helvetica Neue', Arial, sans-serif;
+
+	/* ========================================
+	   LEGACY V5 TOKEN NAMES → COLD LIGHT
+	   267+ components still read the Streetlamp V5 names (--night-*,
+	   --stone-*, --lamp-*, --ink-*, --data-*). They are kept as aliases so the
+	   whole site repaints from here; new code should use the contract above.
+	   ======================================== */
+
+	/* Surfaces */
+	--night-deep: var(--bg);
+	--night-mid: #07061a; /* between --bg and --surface: alternate sections */
+	--stone-warm: var(--surface);
+	--stone-mid: var(--surface-raised);
+	/* Solid border/edge. --rule is translucent; this is the opaque equivalent
+	   with enough presence for input and chip outlines. */
+	--stone-edge: #383360;
+
+	/* Old sodium-amber accent → lavender. Amber fills carried dark text, and
+	   so does lavender, so every "amber button" stays legible. */
+	--lamp-glow: var(--highlight);
+	--lamp-deep: #b3a3ff; /* hover/pressed + some text — 9.5:1 on --bg */
+	--lamp-light: #e4dcff;
+	--lamp-soft: rgba(99, 49, 251, 0.18); /* indigo wash behind lavender text */
+	--lamp-glow-rgba: rgba(99, 49, 251, 0.45); /* indigo glow / soft borders */
+
+	/* Marble — high-light moments */
+	--marble-pure: var(--text);
+	--marble-warm: #e4dffa;
+	--marble-shadow: var(--text-muted);
+
+	/* Data accent (was teal) → mid violet. Readable as text (7.6:1 on --bg). */
+	--data-teal: #a08cff;
+	--data-cyan: var(--highlight);
+	--data-teal-rgba: rgba(160, 140, 255, 0.16);
+
+	/* Ink — semantic text */
+	--ink-bright: var(--text);
+	--ink-mid: var(--text-muted);
+	--ink-dim: var(--text-faint); /* 5.8:1 on --surface */
+	--ink-muted: #2c2850; /* disabled fills / near-invisible hairlines */
+
+	/* Pool / glow rgb triples for radial gradients (indigo, deep indigo) */
+	--pool-rgb: 99, 49, 251;
+	--pool-deep-rgb: 36, 18, 122;
+
+	/* ========================================
+	   FUNCTIONAL / STATUS COLORS (dark surfaces)
 	   ======================================== */
 	--success: #10b981;
 	--success-light: rgba(16, 185, 129, 0.15);
 	--success-border: #10b981;
 	--success-text: #34d399;
-	--warning: #f59e0b;
-	--warning-light: rgba(245, 158, 11, 0.15);
-	--warning-border: #f59e0b;
-	--warning-text: #fbbf24;
+	/* Warning moved off brand amber to a cooler yellow so it can't read as
+	   the retired Streetlamp accent. */
+	--warning: #eab308;
+	--warning-light: rgba(234, 179, 8, 0.15);
+	--warning-border: #eab308;
+	--warning-text: #facc15;
 	--error: #ef4444;
 	--error-light: rgba(239, 68, 68, 0.15);
 	--error-700: #dc2626;
-	--error-text: #fca5a5;
-	--info: var(--lamp-glow);
-	--info-light: var(--lamp-soft);
-	--info-border: var(--lamp-glow);
-	--info-text: var(--lamp-glow);
+	--error-text: #ff9c9c;
+	--info: var(--highlight);
+	--info-light: rgba(207, 194, 255, 0.12);
+	--info-border: var(--highlight);
+	--info-text: var(--highlight);
 	/* Filled destructive controls need their own surface/on-surface pair. Raw
 	   status hues remain available for borders and data marks. */
 	--danger-surface: #ef4444;
 	--danger-surface-hover: #f87171;
-	--text-on-danger: #0a0807;
+	--text-on-danger: #01010d;
 
 	/* ========================================
-	   TEXT COLORS — on-color text only.
-	   Phase 7 complete 2026-06-10: the --text-primary/-secondary/-tertiary/-muted
-	   bridge aliases were deleted; use --ink-* directly.
+	   ON-COLOR TEXT
 	   ======================================== */
-	--text-on-primary: #0c0a09;
-	--text-on-dark: #fafaf9;
+	/* --lamp-glow (lavender) fills → dark text. */
+	--text-on-primary: var(--text-on-action);
+	/* Indigo (--accent) fills → light text. */
+	--text-on-accent: var(--text);
+	--text-on-dark: var(--text);
 	--text-on-image: var(--text-on-dark);
-	--text-on-image-muted: rgba(250, 250, 249, 0.82);
+	--text-on-image-muted: rgba(244, 242, 255, 0.82);
 
 	/* ========================================
 	   SHADOWS & GLOWS
-	   Dark theme: Kole's recipe — bigger blur, lower alpha, neutral color.
-	   The old values (0.3-0.5 alpha on near-black) were too heavy for dark mode.
+	   Neutral, large blur, low alpha; glows are indigo.
 	   ======================================== */
-	--shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
-	--shadow-md: 0 6px 16px rgba(0, 0, 0, 0.18);
-	--shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.22);
-	--shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.25);
-	--shadow-color: rgba(0, 0, 0, 0.2);
+	--shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+	--shadow-md: 0 6px 16px rgba(0, 0, 0, 0.3);
+	--shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.35);
+	--shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.4);
+	--shadow-color: rgba(0, 0, 0, 0.3);
 
-	/* Glow Effects — locked 2026-05-04 (cut from 6 → 2 per design-system.md §5).
-	   --glow-lg, --glow-secondary, --glow-accent, --glow-subtle removed. */
 	--glow-sm: 0 0 10px var(--lamp-glow-rgba);
 	--glow-md: 0 0 20px var(--lamp-glow-rgba);
 
 	/* ========================================
 	   LAYOUT
 	   ======================================== */
-	/* Radius tokens aligned to the locked scale (design-system.md §8:
-	   4px / 10px / 16px / full). 2026-06-10: --border-radius was 0.5rem (8px,
-	   off-scale) and --border-radius-lg was 0.75rem (12px, deprecated) — the
-	   source of the "8px card language" drift. Now 10px / 16px. */
+	/* Radius tokens aligned to the locked scale (4px / 10px / 16px / full). */
 	--border-radius: 0.625rem;
 	--border-radius-md: var(--border-radius);
 	--base-border-radius: var(--border-radius);
@@ -83,8 +188,7 @@
 	--card-margin: 1rem;
 	--spacing-unit: 5px;
 
-	/* Spacing scale — mirrors tailwind.config.ts `spacing` + design-system.md §7.
-	   Use these for padding/margin/gap so spacing stays on-system. 2026-05-29. */
+	/* Spacing scale — mirrors tailwind.config.ts `spacing`. */
 	--space-xs: 0.25rem; /* 4px  — hairlines, icon padding */
 	--space-sm: 0.5rem; /* 8px  — tight gaps between paired elements */
 	--space-md: 0.75rem; /* 12px — default small gap */
@@ -93,16 +197,8 @@
 	--space-2xl: 2rem; /* 32px — section gaps on a page */
 	--space-3xl: 3rem; /* 48px — major section breaks, hero padding */
 
-	/* Reading measure — caps prose columns at a comfortable line length
-	   (~675px at 18px Inter; top of the 45–75ch comfort range — 68ch felt
-	   too tight on desktop). Applied to article bodies (.blog, dossier
-	   .article-body, pop-culture .article-content). Mobile is unaffected:
-	   viewports are narrower than the cap. design-system.md §6 body-lg.
-	   2026-06-09 design audit.
-	   rem, not ch: `ch` resolves against each element's own font size, so
-	   the 75ch token rendered 852px on 18px prose but 757px on 16px blocks
-	   (sources, section dividers) and nothing lined up. 53.25rem is the
-	   852px the 18px prose column already rendered at. 2026-09-23. */
+	/* Reading measure — caps prose columns at a comfortable line length.
+	   rem, not ch: `ch` resolves against each element's own font size. */
 	--prose-measure: 53.25rem;
 	--font-size: var(--font-size-base);
 	--tag: none;
@@ -110,11 +206,12 @@
 
 	/* ========================================
 	   TYPOGRAPHY
+	   Legacy names map onto the Cold Light families. --font-display (used by
+	   headings sitewide) is Archivo, NOT Anton: Anton is opt-in via
+	   --font-shout only.
 	   ======================================== */
-	/* Phase 2 (2026-05-04): Inter Variable + JetBrains Mono. Locked in design-system.md §6.
-	   Space Grotesk + Rajdhani retired. The variable Inter file covers all weights from one file. */
-	--font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
-	--font-display: 'Inter Variable', 'Inter', system-ui, sans-serif;
+	--font-family: var(--font-talk);
+	--font-display: var(--font-talk);
 	--font-mono: 'JetBrains Mono', ui-monospace, monospace;
 
 	/* Font sizes */
@@ -145,15 +242,14 @@
 	/* ========================================
 	   MISC
 	   ======================================== */
-	--glass-color: rgba(28, 25, 23, 0.85);
-	/* 2026-06-10: was the retired teal rgba(45,212,191,0.15) — it tinted the
-	   site header's bottom border teal. Now a stone-edge tint. */
-	--glass-border: rgba(92, 79, 71, 0.45);
-	--image-overlay-strong: rgba(12, 10, 9, 0.97);
-	--image-overlay-medium: rgba(12, 10, 9, 0.72);
-	--image-overlay-soft: rgba(12, 10, 9, 0.2);
+	--glass-color: rgba(12, 11, 34, 0.85);
+	--glass-border: var(--rule);
+	--image-overlay-strong: rgba(1, 1, 13, 0.97);
+	--image-overlay-medium: rgba(1, 1, 13, 0.72);
+	--image-overlay-soft: rgba(1, 1, 13, 0.2);
+
 	/* ========================================
-	   TYPE-SPECIFIC COLORS (Enneagram)
+	   TYPE-SPECIFIC COLORS (Enneagram) — categorical data colors, not brand.
 	   ======================================== */
 	--type-1-color: #6366f1; /* Indigo - Perfectionist */
 	--type-2-color: #f472b6; /* Pink - Helper */
@@ -168,141 +264,10 @@
 	--pillar-gut: #dc2626;
 	--pillar-heart: #a855f7;
 
-	/* ========================================
-	   V5 STREETLAMP SYMPOSIUM TOKENS
-	   Locked 2026-05-04 in docs/design-system.md §4–§6.
-	   Phase 7 complete 2026-06-10: the legacy bridge aliases
-	   (--bg-*, --text-*, --primary-*, --accent, --color-theme-purple*)
-	   are deleted per docs/design/2026-05-04-rollout-plan.md.
-	   These V5 tokens are the only color source of truth.
-	   ======================================== */
-
-	/* Surfaces — deep-night stone */
-	--night-deep: #0a0807;
-	--night-mid: #16110d;
-	--stone-warm: #241d17;
-	--stone-mid: #3a302a;
-	--stone-edge: #5c4f47;
-
-	/* Sodium-amber primary illumination */
-	--lamp-glow: #f59e0b;
-	--lamp-deep: #b45309;
-	--lamp-light: #fbbf24;
-	--lamp-soft: rgba(245, 158, 11, 0.14);
-	--lamp-glow-rgba: rgba(245, 158, 11, 0.4);
-
-	/* Marble — for high-light moments (statue, parchment) */
-	--marble-pure: #faf8f4;
-	--marble-warm: #ede6da;
-	--marble-shadow: #a8a095;
-
-	/* Data accent — tech-spec dossier mode */
-	--data-teal: #0d9488;
-	--data-cyan: #5eead4;
-	--data-teal-rgba: rgba(13, 148, 136, 0.18);
-
-	/* Ink — semantic text */
-	--ink-bright: #faf8f4;
-	--ink-mid: #a8a095;
-	/* --ink-dim is used both as muted/caption TEXT (--text-tertiary/--text-muted,
-	   placeholders) and as faint border tints via color-mix(). It was #5c4f47,
-	   which only hit 2.11:1 on stone-warm — a WCAG AA failure for text. Lightened
-	   to #948578 (~4.5:1 on stone-warm, higher on night-deep) for readability.
-	   Side effect: color-mix() borders get a touch lighter — acceptable on the
-	   near-black surfaces. 2026-05-29. */
-	--ink-dim: #948578;
-	--ink-muted: #3a302a;
-
-	/* Pool / glow rgb triples for radial gradients */
-	--pool-rgb: 245, 158, 11;
-	--pool-deep-rgb: 180, 83, 9;
-
-	/* Personality portraits — contained-violet media treatment.
-	   The violet is baked into the protected portrait assets; these tokens make
-	   it a quiet image signature instead of a third UI accent. */
-	--personality-portrait-well: #2c1f28;
-	--personality-portrait-filter: contrast(1.08) brightness(0.92) saturate(0.68);
-}
-
-/*==============================================
-  LIGHT MODE OVERRIDES
-==============================================*/
-:root.light {
-	/* Phase 7 complete 2026-06-10: legacy bridge aliases deleted; V5 tokens
-	   (--lamp-*, --night-*, --stone-*, --ink-*) are the only color source of truth. */
-
-	--text-on-primary: #ffffff;
-	--text-on-dark: #fafaf9;
-	--text-on-image: #fafaf9;
-	--text-on-image-muted: rgba(250, 250, 249, 0.82);
-	--success-text: #047857;
-	--warning-text: #92400e;
-	--error-text: #b91c1c;
-	--info-text: #92400e;
-	--danger-surface: #b91c1c;
-	--danger-surface-hover: #991b1b;
-	--text-on-danger: #ffffff;
-
-	/* Phase 8 (2026-06-11): light-theme --neutral-* ramp deleted with the
-	   dark one; consumers use --ink-* / --night-* / --stone-* directly. */
-
-	--shadow-sm: 0 1px 3px rgba(12, 10, 9, 0.08);
-	--shadow-md: 0 4px 6px rgba(12, 10, 9, 0.1);
-	--shadow-lg: 0 10px 15px rgba(12, 10, 9, 0.1);
-	--shadow-xl: 0 20px 25px rgba(12, 10, 9, 0.12);
-	--shadow-color: rgba(12, 10, 9, 0.1);
-
-	--glow-sm: 0 1px 4px var(--lamp-glow-rgba);
-	--glow-md: 0 2px 8px var(--lamp-glow-rgba);
-	/* --glow-lg removed 2026-05-04 — see design-system.md §5. */
-
-	--glass-color: rgba(255, 255, 255, 0.85);
-	/* 2026-06-10: was a teal tint; now stone-edge (light) to match dark mode. */
-	--glass-border: rgba(214, 204, 184, 0.7);
-
-	--pillar-head: #0ea5e9;
-	--pillar-gut: #dc2626;
-	--pillar-heart: #a855f7;
-
-	color-scheme: light;
-
-	/* ========================================
-	   V5 STREETLAMP SYMPOSIUM TOKENS — LIGHT MODE
-	   See dark-mode block above for context.
-	   ======================================== */
-
-	--night-deep: #faf8f4;
-	--night-mid: #f2ebdd;
-	--stone-warm: #ffffff;
-	--stone-mid: #f5f0e8;
-	--stone-edge: #d6ccb8;
-
-	--lamp-glow: #b45309;
-	--lamp-deep: #92400e;
-	--lamp-light: #d97706;
-	--lamp-soft: rgba(180, 83, 9, 0.1);
-	--lamp-glow-rgba: rgba(217, 119, 6, 0.18);
-
-	--marble-pure: #ffffff;
-	--marble-warm: #faf8f4;
-	--marble-shadow: #8b7e6e;
-
-	--data-teal: #0f766e;
-	--data-cyan: #14b8a6;
-	--data-teal-rgba: rgba(15, 118, 110, 0.14);
-
-	--ink-bright: #1c1917;
-	--ink-mid: #44403c;
-	--ink-dim: #78716c;
-	--ink-muted: #a8a29e;
-
-	--pool-rgb: 217, 119, 6;
-	--pool-deep-rgb: 180, 83, 9;
-
-	/* White surfaces make the legacy violet read louder, so light mode pulls
-	   saturation down slightly further than dark mode. */
-	--personality-portrait-well: #f6f3fb;
-	--personality-portrait-filter: contrast(1.02) brightness(0.99) saturate(0.58);
+	/* Personality portraits — the violet baked into the portrait assets now
+	   sits inside the brand palette, so the treatment is lighter-handed. */
+	--personality-portrait-well: #171338;
+	--personality-portrait-filter: contrast(1.06) brightness(0.94) saturate(0.82);
 }
 
 /*==============================================
@@ -335,10 +300,22 @@ body {
 	font-family: var(--font-family);
 	font-size: 16px;
 	line-height: 1.6;
-	background-color: var(--night-deep);
-	color: var(--ink-bright);
+	background-color: var(--bg);
+	color: var(--text);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+	background-color: var(--accent);
+	color: var(--text);
+}
+
+/* Focus: one lavender ring everywhere. Zero specificity, so components that
+   draw their own focus treatment still win. Indigo is never a focus color. */
+:where(:focus-visible) {
+	outline: 2px solid var(--focus);
+	outline-offset: 2px;
 }
 
 /* Media elements */
@@ -382,7 +359,9 @@ h6 {
 	padding: 1rem 0 0.5rem;
 	margin: 1rem 0 0.5rem;
 	line-height: 1.2;
-	font-weight: revert;
+	font-family: var(--font-display);
+	font-weight: 600;
+	letter-spacing: -0.01em;
 }
 
 h1 {
@@ -413,17 +392,17 @@ figcaption {
    ---------------------------------------------------------------- */
 .display-xl {
 	font-family: var(--font-display);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: clamp(40px, 7.4vw, 72px);
-	line-height: 1.02;
-	letter-spacing: -0.04em;
+	line-height: 1.04;
+	letter-spacing: -0.03em;
 	color: var(--ink-bright);
 	margin: 0;
 }
 
 .display-md {
 	font-family: var(--font-display);
-	font-weight: 700;
+	font-weight: 600;
 	font-size: clamp(28px, 4vw, 40px);
 	line-height: 1.1;
 	letter-spacing: -0.02em;
@@ -441,8 +420,23 @@ figcaption {
 }
 
 .highlight {
-	color: var(--lamp-glow);
+	color: var(--highlight);
 	font-weight: 700;
+}
+
+/* Cold Light type voices (opt-in). */
+.font-shout {
+	font-family: var(--font-shout);
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 0.9;
+	letter-spacing: 0.005em;
+}
+
+.font-voice {
+	font-family: var(--font-voice);
+	font-style: italic;
+	font-weight: 400;
 }
 
 .txt-white {
@@ -452,7 +446,7 @@ figcaption {
 
 .txt-dark {
 	color: var(--ink-mid);
-	text-shadow: 1px 1px 1px var(--lamp-glow);
+	text-shadow: 1px 1px 1px var(--bg);
 }
 
 /* Forces the body font stack on elements that don't inherit it (textareas).
@@ -468,17 +462,18 @@ figcaption {
   LINKS
 ==============================================*/
 a {
-	color: var(--lamp-glow);
+	color: var(--highlight);
 	text-decoration: none;
+	text-underline-offset: 3px;
+	text-decoration-thickness: 1px;
 	transition: var(--transition-glow);
 
 	&:hover {
-		color: var(--lamp-glow);
-		text-shadow: var(--glow-sm);
+		color: var(--lamp-light);
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--focus);
 		outline-offset: 2px;
 		border-radius: var(--border-radius-sm);
 	}
@@ -491,7 +486,21 @@ a {
 }
 
 .main a {
-	color: var(--lamp-glow);
+	color: var(--highlight);
+}
+
+/* Links in running copy are underlined (Cold Light rule: color alone never
+   marks a link). Scoped to prose contexts so nav, cards and button-like
+   anchors keep their own treatment; any component rule with a class beats
+   this (0,0,1)-specificity selector. */
+:where(p, blockquote, figcaption, dd, td, .prose, .blog, .article-body) a,
+:where(.prose, .blog, .article-body) :where(li) a {
+	text-decoration-line: underline;
+	text-decoration-color: color-mix(in srgb, currentColor 55%, transparent);
+
+	&:hover {
+		text-decoration-color: currentColor;
+	}
 }
 
 .external-link::after {
@@ -595,8 +604,8 @@ figure {
   CARDS & CONTAINERS
 ==============================================*/
 .card {
-	background-color: var(--stone-warm);
-	border: 1px solid var(--stone-warm);
+	background-color: var(--surface);
+	border: 1px solid var(--rule);
 	border-radius: var(--border-radius);
 	box-shadow: var(--shadow-md);
 	padding: var(--card-padding);
@@ -625,8 +634,8 @@ figure {
 }
 
 .panel {
-	background-color: var(--stone-warm);
-	border: 1px solid var(--stone-warm);
+	background-color: var(--surface);
+	border: 1px solid var(--rule);
 	border-radius: 0.625rem;
 	padding: 1rem;
 	overflow: hidden;
@@ -663,8 +672,8 @@ figure {
 
 textarea {
 	margin-bottom: 20px;
-	background-color: var(--stone-warm);
-	border: 1px solid var(--stone-warm);
+	background-color: var(--surface);
+	border: 1px solid var(--stone-edge);
 	border-radius: var(--base-border-radius);
 	padding: 10px 20px;
 	width: 100%;
@@ -741,20 +750,20 @@ select {
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--focus);
 		outline-offset: 2px;
 		border-radius: var(--border-radius-sm);
 	}
 }
 
 details {
-	border: 1px solid var(--stone-warm);
+	border: 1px solid var(--rule);
 	border-radius: var(--border-radius-sm);
-	background-color: var(--stone-warm);
+	background-color: var(--surface);
 	padding: 0.5rem;
 
 	&:hover {
-		border-color: var(--lamp-soft);
+		border-color: var(--lamp-glow-rgba);
 	}
 
 	summary {
@@ -794,7 +803,7 @@ ul {
 tr,
 td,
 th {
-	border: 1px solid var(--stone-warm);
+	border: 1px solid var(--rule);
 	text-align: center;
 	vertical-align: baseline;
 	color: var(--ink-bright);
@@ -814,7 +823,7 @@ td {
 
 table {
 	border-collapse: collapse;
-	border: 1px solid var(--stone-warm);
+	border: 1px solid var(--rule);
 }
 
 .scrollable-div {
@@ -831,7 +840,7 @@ table {
 	padding: 1rem;
 	transition: transform 0.7s ease-in-out;
 	flex: 1;
-	border: 1px solid grey;
+	border: 1px solid var(--rule);
 
 	h2,
 	h3,
@@ -931,19 +940,19 @@ body::-webkit-scrollbar-track,
 body::-webkit-scrollbar-thumb,
 .scroll-table::-webkit-scrollbar-thumb,
 .scrollable-div::-webkit-scrollbar-thumb {
-	background-color: var(--lamp-glow);
+	background-color: var(--stone-edge);
 	border-radius: var(--base-border-radius);
 	border: 2px solid var(--night-deep);
 
 	&:hover {
-		background-color: var(--lamp-glow);
+		background-color: var(--text-faint);
 	}
 }
 
 /* Firefox scrollbar */
 * {
 	scrollbar-width: thin;
-	scrollbar-color: var(--lamp-glow) var(--night-deep);
+	scrollbar-color: var(--stone-edge) var(--night-deep);
 }
 
 /*==============================================
@@ -981,7 +990,7 @@ body::-webkit-scrollbar-thumb,
 	h4,
 	h5,
 	h6 {
-		font-weight: 700;
+		font-weight: 600;
 		/* 1.15 not 1: wrapped two-line headings collide at line-height 1
 		   (2026-06-11 mobile audit) */
 		line-height: 1.15;

@@ -1,8 +1,9 @@
 // src/routes/homepage.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { adminRpc, demoTimeMock, getQuestionTakesMock } = vi.hoisted(() => ({
+const { adminRpc, adminFrom, demoTimeMock, getQuestionTakesMock } = vi.hoisted(() => ({
 	adminRpc: vi.fn(),
+	adminFrom: vi.fn(),
 	demoTimeMock: vi.fn(),
 	getQuestionTakesMock: vi.fn()
 }));
@@ -10,7 +11,7 @@ const { adminRpc, demoTimeMock, getQuestionTakesMock } = vi.hoisted(() => ({
 // The real giveFirstFunnel runs, so its crawler filter is under test; only the
 // service-role RPC that would write the event is mocked.
 vi.mock('$lib/server/supabaseAdmin', () => ({
-	getSupabaseAdminClient: () => ({ rpc: adminRpc })
+	getSupabaseAdminClient: () => ({ rpc: adminRpc, from: adminFrom })
 }));
 vi.mock('$lib/supabase', () => ({ supabase: { rpc: vi.fn() } }));
 vi.mock('$lib/server/demoTime', () => ({ loadRouteDemoTime: demoTimeMock }));
@@ -72,6 +73,24 @@ function buildEvent(
 	};
 }
 
+/** Service-role table reads for the answered-types row: comments, then profiles. */
+function stubAdminTables(tables: Record<string, unknown[]>) {
+	const selects: Record<string, string> = {};
+	adminFrom.mockImplementation((table: string) => {
+		const query: Record<string, unknown> = {};
+		query.select = (columns: string) => {
+			selects[table] = columns;
+			return query;
+		};
+		for (const method of ['eq', 'not', 'order', 'in']) query[method] = () => query;
+		const result = { data: tables[table] ?? [], error: null };
+		query.limit = async () => result;
+		query.then = (resolve: (value: unknown) => unknown) => resolve(result);
+		return query;
+	});
+	return selects;
+}
+
 function gateEvents() {
 	return adminRpc.mock.calls.filter(([name]) => name === 'record_give_first_event');
 }
@@ -81,6 +100,9 @@ beforeEach(() => {
 	vi.spyOn(console, 'warn').mockImplementation(() => {});
 	demoTimeMock.mockResolvedValue(false);
 	adminRpc.mockResolvedValue({ data: null, error: null });
+	adminFrom.mockImplementation(() => {
+		throw new Error('admin tables not stubbed');
+	});
 	getQuestionTakesMock.mockResolvedValue({
 		data: [
 			{ id: 77, comment: 'Loyalty, mostly.', is_own: true },
@@ -178,16 +200,57 @@ describe('homepage live take load', () => {
 		expect(gateEvents()).toHaveLength(0);
 	});
 
-	it('falls back to the practice homepage in demo mode or when the question is gone', async () => {
+	it('falls back to the no-question card in demo mode or when the question is gone', async () => {
+		const empty = { live: null, liveTypes: null };
 		demoTimeMock.mockResolvedValueOnce(true);
-		expect(await load(buildEvent({ cookie: 'visitor-1' }).event as never)).toEqual({ live: null });
+		expect(await load(buildEvent({ cookie: 'visitor-1' }).event as never)).toEqual(empty);
 
-		expect(await load(buildEvent({ question: null }).event as never)).toEqual({ live: null });
+		expect(await load(buildEvent({ question: null }).event as never)).toEqual(empty);
 		expect(gateEvents()).toHaveLength(0);
+		expect(adminFrom).not.toHaveBeenCalled();
 	});
 
 	it('never fails the homepage when the live question cannot load', async () => {
 		demoTimeMock.mockRejectedValueOnce(new Error('settings timeout'));
-		expect(await load(buildEvent({ cookie: 'visitor-1' }).event as never)).toEqual({ live: null });
+		expect(await load(buildEvent({ cookie: 'visitor-1' }).event as never)).toEqual({
+			live: null,
+			liveTypes: null
+		});
+	});
+
+	it('tells the locked card which types answered, reading no take text', async () => {
+		const selects = stubAdminTables({
+			comments: [
+				{ author_id: 'a', created_at: '2026-10-31T15:00:00Z' },
+				{ author_id: null, created_at: '2026-10-30T15:00:00Z' },
+				{ author_id: 'b', created_at: '2026-10-29T15:00:00Z' },
+				{ author_id: 'c', created_at: '2026-10-28T15:00:00Z' },
+				{ author_id: 'a', created_at: '2026-10-27T15:00:00Z' }
+			],
+			profiles: [
+				{ id: 'a', enneagram: '8' },
+				{ id: 'b', enneagram: 'unknown' },
+				{ id: 'c', enneagram: 4 }
+			]
+		});
+		const { event, settle } = buildEvent({ cookie: 'visitor-1' });
+		const data = (await load(event as never)) as { liveTypes: unknown };
+		await settle();
+
+		expect(data.liveTypes).toEqual({
+			recent: [8, 4, 8, null],
+			answered: [4, 8],
+			newestAt: '2026-10-31T15:00:00Z'
+		});
+		expect(selects.comments).toBe('author_id, created_at');
+		expect(selects.comments).not.toContain('comment,');
+		expect(getQuestionTakesMock).not.toHaveBeenCalled();
+	});
+
+	it('drops the types row instead of failing when the types read errors', async () => {
+		const { event } = buildEvent({ cookie: 'visitor-1' });
+		const data = (await load(event as never)) as { live: unknown; liveTypes: unknown };
+		expect(data.live).not.toBeNull();
+		expect(data.liveTypes).toBeNull();
 	});
 });

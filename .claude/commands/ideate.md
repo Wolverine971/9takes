@@ -206,7 +206,7 @@ Format: [aspect ratio in words, e.g. square 1:1 (1024×1024) or 4:5 portrait].
 
 **ChatGPT-specific rules (baked in, learned the hard way):**
 
-- **Beat the yellow-tint bias.** GPT Image pushes a global warm cast that flattens cold scenes. On any cold/neutral shot add _"do NOT apply a global warm/yellow cast; keep shadows cool grey-blue."_ A genuinely warm scene is the exception — say amber-as-dominant is correct there.
+- **Beat the yellow-tint bias.** GPT Image pushes a global warm cast that flattens cold scenes. On any cold/neutral shot add _"do NOT apply a global warm/yellow cast; keep shadows cool grey-blue."_ For 9takes assets there is no warm exception: Cold Light bans amber and warm light.
 - **Beat "too dark."** On low-key shots name the single light source and add _"keep shadow detail visible, not crushed black."_
 - **Beat "too many subjects."** Crowds = a _blurred, undetailed mass_; never request many distinct rendered faces.
 - **Photorealistic + real texture.** Open with "Photorealistic"; request real imperfections (skin pores, fabric wear, dust, film grain) to fight the glossy AI look.
@@ -229,16 +229,16 @@ The directing method above is universal. The **9takes brand constraints** apply 
 
 **Brand: ON (9takes asset)** — apply all of:
 
-- **Amber (Streetlamp V5)** accent present in every frame; dark text on amber fills. **Never red/teal/rose** for primary (teal only as a `data-*` accent). [See `moody-portrait-prompt.md` for the canonical amber-rim look.]
+- **Cold Light (`docs/brand/cold-light.md`)** accent present in every frame: a cool indigo/lavender light, never amber or warm light; mint `#88F9C0` with dark text only on the one CTA; Night `#01010D` base. **Never red/teal/rose** for primary. (`moody-portrait-prompt.md` still describes the retired amber-rim look; don't copy its color.)
 - **Real scenes, no statue overlay.** The subject is the moment, not a stylized stand-in.
 - **Anonymity** if a real public figure is implied: _"an anonymous [person]"_, face turned/distant/obscured — beats likeness drift + celebrity refusals.
 - **Fixed chrome** if it becomes a deck panel: `9takes` top-left · theme tag top-right · `9takes.com` bottom-left.
 - **1:1 square** (or 4:5), composition top-weighted to survive the feed crop.
-- For a series → carry the moodboard shared-signature discipline (amber accent + consistent finish + one dominant light per frame).
+- For a series → carry the moodboard shared-signature discipline (indigo accent + consistent finish + one dominant light per frame).
 
-**Brand: OFF (general creative)** — drop amber/chrome/anonymity. Keep everything that makes an image good: the idea, the story test, real-over-rendered, the camera/light/style discipline, the tool guardrails. The user supplies any palette; you don't force one.
+**Brand: OFF (general creative)** — drop the Cold Light palette/chrome/anonymity. Keep everything that makes an image good: the idea, the story test, real-over-rendered, the camera/light/style discipline, the tool guardrails. The user supplies any palette; you don't force one.
 
-If unsure which mode, **ask one line at Step 0**: _"Is this a 9takes asset (amber + brand rules on), or a general creative image?"_
+If unsure which mode, **ask one line at Step 0**: _"Is this a 9takes asset (Cold Light + brand rules on), or a general creative image?"_
 
 ## 14. The enrichment pass (always run after the first prompts are written)
 
@@ -403,5 +403,5 @@ Self-sufficient by design. Distilled from:
 - `docs/ai-image-gen/iklipse-camera-angle-cheat-sheet.md` — the angle→emotion table (§7).
 - `docs/ai-image-gen/iklipse-better-ai-results.md` — references as the foundation + the "would I save this?" test (§10).
 - `docs/ai-image-gen/iklipse-ai-and-emotions.md` — the wordless-gallery / pick-one series shape (§5).
-- `docs/ai-image-gen/moody-portrait-prompt.md` — the canonical amber-rim brand look (§13).
+- `docs/ai-image-gen/moody-portrait-prompt.md` — the amber-rim look (retired by Cold Light 2026-11-05; framing still useful, color is not).
 - `.claude/commands/moodboard.md` — the person-anchored sibling pipeline.

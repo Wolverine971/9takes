@@ -3,9 +3,12 @@ import type { Config } from 'tailwindcss';
 import flowbitePlugin from 'flowbite/plugin';
 import typographyPlugin from '@tailwindcss/typography';
 
-// Phase 2 (2026-05-04): Inter Variable handles every size + weight. Locked in design-system.md §6.
-const fontSans = ['"Inter Variable"', '"Inter"', 'system-ui', 'sans-serif'];
-const fontDisplay = ['"Inter Variable"', '"Inter"', 'system-ui', 'sans-serif'];
+// Cold Light (2026-11-05): Archivo talks (body, UI, default headings), Playfair
+// Display italic is the voice, Anton shouts (uppercase posters only, opt-in).
+// Stacks mirror --font-talk / --font-voice / --font-shout in src/scss/index.scss.
+const fontTalk = ['"Archivo"', '"Archivo Fallback"', '"Helvetica Neue"', 'Arial', 'sans-serif'];
+const fontVoice = ['"Playfair Display"', '"Playfair Display Fallback"', 'Georgia', 'serif'];
+const fontShout = ['"Anton"', '"Anton Fallback"', 'Impact', '"Arial Narrow"', 'sans-serif'];
 const fontMono = ['"JetBrains Mono"', 'ui-monospace', 'monospace'];
 
 export default {
@@ -17,51 +20,59 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				// Amber primary palette — sodium-amber illumination (V5 --lamp-*).
-				// 2026-05-29: was teal. Teal was off-brand vs the shipped V5 amber theme,
-				// so `bg-primary-500` (teal) disagreed with the legacy `--primary` token (amber).
-				// primary-500 = #F59E0B = --lamp-glow; 400 = --lamp-light; 700 = --lamp-deep.
+				// Cold Light primary ramp (2026-11-05; was sodium amber). Lightest →
+				// darkest: 300 = --highlight (lavender), 600 = --accent (indigo),
+				// 900 = --accent-deep. 50–500 are readable as text on the dark
+				// surfaces (500 = 7.6:1); 600–900 are fills that carry light text.
+				// Indigo (600) is never text or a focus ring — `focus:ring-primary-500`
+				// therefore resolves to lavender-violet, not indigo.
 				primary: {
-					50: '#FFFBEB',
-					100: '#FEF3C7',
-					200: '#FDE68A',
-					300: '#FCD34D',
-					400: '#FBBF24',
-					500: '#F59E0B',
-					600: '#D97706',
-					700: '#B45309',
-					800: '#92400E',
-					900: '#78350F'
+					50: '#F5F2FF',
+					100: '#EBE5FF',
+					200: '#DCD3FF',
+					300: '#CFC2FF',
+					400: '#B3A3FF',
+					500: '#A08CFF',
+					600: '#6331FB',
+					700: '#4A22C9',
+					800: '#34179A',
+					900: '#24127A'
 				},
-				// Teal survives ONLY as the data / tech-spec dossier accent (V5 --data-teal).
-				// This is the OLD `primary` ramp, renamed. Use `data-*` for annotations,
-				// stat panels, and `/personality-analysis/*` dossier moments — never as the
-				// brand action color.
+				// Data / dossier accent. Was teal; now the same violet family as
+				// --data-teal (#A08CFF) so stat panels stay on-palette.
 				data: {
-					50: '#F0FDFA',
-					100: '#CCFBF1',
-					200: '#99F6E4',
-					300: '#5EEAD4',
-					400: '#2DD4BF',
-					500: '#14B8A6',
-					600: '#0D9488',
-					700: '#0F766E',
-					800: '#115E59',
-					900: '#134E4A'
+					50: '#F5F2FF',
+					100: '#EBE5FF',
+					200: '#DCD3FF',
+					300: '#CFC2FF',
+					400: '#B3A3FF',
+					500: '#A08CFF',
+					600: '#8670F0',
+					700: '#6331FB',
+					800: '#34179A',
+					900: '#24127A'
 				},
-				// Warm stone neutral palette
+				// Cool ink-violet neutrals (was warm stone). 950 = --bg,
+				// 900 = --surface, 800 = --surface-raised, 400 = --text-faint,
+				// 300 = --text-muted, 50 = --text.
 				neutral: {
-					50: '#FAFAF9',
-					100: '#F5F5F4',
-					200: '#E7E5E4',
-					300: '#D6D3D1',
-					400: '#A8A29E',
-					500: '#78716C',
-					600: '#57534E',
-					700: '#44403C',
-					800: '#292524',
-					900: '#1C1917',
-					950: '#0C0A09'
+					50: '#F4F2FF',
+					100: '#E7E4F6',
+					200: '#D3CFE8',
+					300: '#BDB8DA',
+					400: '#8D88AE',
+					500: '#6B6790',
+					600: '#4D4970',
+					700: '#383360',
+					800: '#131133',
+					900: '#0C0B22',
+					950: '#01010D'
+				},
+				// Mint "action" — rationed: about one element in view (the main
+				// give-your-take CTA). Pair with text-action-ink.
+				action: {
+					DEFAULT: '#88F9C0',
+					ink: '#01010D'
 				},
 				// Functional colors
 				success: {
@@ -71,8 +82,8 @@ export default {
 					700: '#15803D'
 				},
 				warning: {
-					50: '#FFFBEB',
-					100: '#FEF3C7',
+					50: '#FEFCE8',
+					100: '#FEF9C3',
 					500: '#EAB308',
 					700: '#A16207'
 				},
@@ -83,15 +94,14 @@ export default {
 					700: '#B91C1C'
 				},
 				info: {
-					50: '#F0FDFA',
-					100: '#CCFBF1',
-					500: '#14B8A6',
-					700: '#0F766E'
+					50: '#F5F2FF',
+					100: '#EBE5FF',
+					500: '#A08CFF',
+					700: '#6331FB'
 				}
 			},
 			boxShadow: {
-				// Theme-aware: defined in src/scss/index.scss for both dark and light modes.
-				// Following Kole's recipe — soft, neutral, larger blur, low alpha.
+				// Defined in src/scss/index.scss (Cold Light is dark only).
 				sm: 'var(--shadow-sm)',
 				md: 'var(--shadow-md)',
 				lg: 'var(--shadow-lg)',
@@ -118,9 +128,12 @@ export default {
 				'3xl': '3rem'
 			},
 			fontFamily: {
-				sans: fontSans,
-				heading: fontDisplay,
-				display: fontDisplay,
+				sans: fontTalk,
+				talk: fontTalk,
+				heading: fontTalk,
+				display: fontTalk,
+				voice: fontVoice,
+				shout: fontShout,
 				mono: fontMono
 			},
 			maxWidth: {
@@ -139,12 +152,12 @@ export default {
 							marginBottom: '0.75em'
 						},
 						a: {
-							color: 'var(--lamp-glow)',
+							color: 'var(--highlight)',
 							fontWeight: 600,
-							textDecoration: 'none',
+							textDecoration: 'underline',
+							textUnderlineOffset: '3px',
 							'&:hover': {
-								color: 'var(--lamp-glow)',
-								textDecoration: 'underline'
+								color: 'var(--lamp-light)'
 							}
 						},
 						h1: {
@@ -179,7 +192,7 @@ export default {
 							color: 'var(--ink-bright)'
 						},
 						blockquote: {
-							borderLeftColor: 'var(--lamp-glow)',
+							borderLeftColor: 'var(--highlight)',
 							fontStyle: 'normal',
 							paddingLeft: '1rem',
 							color: 'var(--ink-mid)'
@@ -198,7 +211,7 @@ export default {
 							fontFamily: theme('fontFamily.mono').join(','),
 							padding: '0.1rem 0.25rem',
 							borderRadius: theme('borderRadius.sm'),
-							backgroundColor: 'var(--stone-warm)'
+							backgroundColor: 'var(--surface)'
 						}
 					}
 				},

@@ -144,7 +144,7 @@ Lighting defines everything (`iklipse-dont-prompt-ai.md`). Specify **direction +
 
 The whole set shares **one** identity so it reads as a deliberate series. Menu (as the _medium/look_, not a render recipe): documentary photograph · film still · faded old photograph · editorial · minimalist · noir · vérité.
 
-**9takes approach (the through-line):** render **real scenes — a moment in time the person actually saw, did, or lived through.** Real people, real rooms, real era detail. Do **NOT** overlay the Greek-statue motif or any stylized marble stand-in — the subject is the _moment_, not a sculpture of the person. (The old Greek-statue style is a separate legacy look; it is **off** for this pipeline.) The set coheres through a shared **palette + lighting mood** (e.g. moody amber, single warm source) and the consistent POV treatment — _not_ a repeated subject. Camera, light, and whose-eyes-we're-behind are the variables per shot.
+**9takes approach (the through-line):** render **real scenes — a moment in time the person actually saw, did, or lived through.** Real people, real rooms, real era detail. Do **NOT** overlay the Greek-statue motif or any stylized marble stand-in — the subject is the _moment_, not a sculpture of the person. (The old Greek-statue style is a separate legacy look; it is **off** for this pipeline.) The set coheres through a shared **palette + lighting mood** (e.g. cold night, single cool lavender-white source) and the consistent POV treatment — _not_ a repeated subject. Camera, light, and whose-eyes-we're-behind are the variables per shot.
 
 ## 7. Per-type vision anchors (Enneagram → mood / world / light)
 
@@ -153,10 +153,10 @@ Start the Vision pitch from the person's type, then bend it to _their_ specifics
 | Type                | Mood                  | World / palette          | Signature light            | Default arena                        |
 | ------------------- | --------------------- | ------------------------ | -------------------------- | ------------------------------------ |
 | 1 The Reformer      | controlled, exacting  | clean lines, cool order  | even, hard-edged           | the corrected desk, the workshop     |
-| 2 The Helper        | warm, yearning        | soft amber, domestic     | wraparound soft            | the kitchen, the doorway, an embrace |
+| 2 The Helper        | warm, yearning        | soft lavender, domestic  | wraparound soft            | the kitchen, the doorway, an embrace |
 | 3 The Achiever      | polished, charged     | spotlit stage, glass     | bright key + hard shadow   | the podium, the mirror, the win      |
 | 4 The Individualist | melancholy, romantic  | deep blues, candle, rain | low-key, single source     | the reflection, the studio at night  |
-| 5 The Investigator  | still, cerebral, cold | books, paper, dim amber  | desk-lamp pool in darkness | the study, the archive, behind glass |
+| 5 The Investigator  | still, cerebral, cold | books, paper, dim cold   | desk-lamp pool in darkness | the study, the archive, behind glass |
 | 6 The Loyalist      | vigilant, tense       | corridors, thresholds    | hard side, long shadows    | the watch-post, the doorway scanned  |
 | 7 The Enthusiast    | kinetic, bright       | saturated, motion blur   | high-key, color            | mid-leap, the crowd, the open road   |
 | 8 The Challenger    | heavy, commanding     | concrete, low horizon    | dramatic low-key, rim      | the threshold held, the ring         |
@@ -164,8 +164,8 @@ Start the Vision pitch from the person's type, then bend it to _their_ specifics
 
 ## 8. Brand non-negotiables
 
-- **Amber (Streetlamp V5)** is the accent; dark text on amber fills. **Never red/teal/rose** for primary.
-- **Per-person accent (lock it at Gate A):** alongside amber, pick ONE secondary color that is _theirs_ (Chappell = hot pink, Lana/Type 4 = purple). The eventual deck uses it for the cover vibe, eye-bar, and `TYPE N` label. Amber stays primary; the person accent never takes over. Base = black.
+- **Indigo (Cold Light, `docs/brand/cold-light.md`)** is the accent: indigo `#6331FB` fills and glows, lavender `#CFC2FF` for highlights and italic lines, mint `#88F9C0` (dark text) only on the one CTA. Base = Night `#01010D`. **Never amber, orange or warm light; never red/teal/rose** for primary.
+- **Per-person accent (lock it at Gate A):** alongside indigo, pick ONE secondary color that is _theirs_ (Chappell = hot pink, Lana/Type 4 = purple). The eventual deck uses it for the cover vibe, eye-bar, and `TYPE N` label. Indigo stays primary; the person accent never takes over. Base = Night `#01010D`.
 - **Real scenes, no statue overlay** (per §6). The subject is the moment the person lived, not a stylized stand-in.
 - **Fixed chrome** on any slide that becomes a deck panel: `9takes` top-left · theme tag top-right · `9takes.com` bottom-left.
 - **Exactly one bright/high-key slide** per eventual deck — the peak. Everything else is moody.
@@ -183,7 +183,7 @@ Subject: [who is in it / whose eyes, doing or seeing what — always "an anonymo
 Details: [specific real props, textures, era detail; for crowds: "a blurred, undetailed mass," not many faces. If the moment is a real public event, the accurate wardrobe/setting so fans recognize the POV].
 Camera: [angle + distance + lens-mm].
 Light: [direction + quality + the single dominant source + time of day].
-Color & finish: [the era palette; where the amber accent lives; photorealistic with real imperfections + film grain].
+Color & finish: [the era palette; where the indigo/lavender accent lives; photorealistic with real imperfections + film grain].
 Constraints: [no visible face / no facial reflection; anti-yellow-tint line for cold shots; shadow-detail-retained for dark shots; a hard negative list against wrong/invented wardrobe; no on-image text; anonymous, no specific celebrity].
 Format: square 1:1 (1024×1024).
 ```
@@ -192,7 +192,7 @@ Format: square 1:1 (1024×1024).
 
 **ChatGPT-specific rules (bake these into the prompt, learned the hard way):**
 
-- **Beat the yellow-tint bias.** GPT Image pushes a global warm cast — which would flatten cold eras into the same gold as warm ones and kill the era contrast. Keep amber as a **local light source only** (window shaft, lamp, bar glow, sign); on every cold shot add an explicit _"do NOT apply a global warm/yellow cast; keep shadows cool grey-blue."_ (A genuinely warm shot — e.g. a vanity-bulb close-up — is the exception: there, amber-as-dominant is correct; say so.)
+- **Beat the yellow-tint bias.** GPT Image pushes a global warm cast — which would flatten cold eras into the same gold as warm ones and kill the era contrast. Cold Light has no warm light: keep the accent a **local cool light source only** (window shaft, screen glow, streetlight, sign) in indigo/lavender, and on every shot add an explicit _"do NOT apply a global warm/yellow cast; keep shadows cool grey-blue."_
 - **Beat "too dark."** On low-key shots, name the single light source and add _"keep shadow detail visible, not crushed black."_
 - **Beat "too many subjects."** Crowds = a _blurred, undetailed mass_; never ask for many distinct rendered faces (GPT's weak spot).
 - **Never render the subject's face (hard rule).** AI cannot land a real person's likeness — a rendered face reads as "off" or as a different person, and invites refusals. So **no shot shows the face.** Design every frame so the face is turned away, distant, out of frame, or hidden (by hair, hands, a mask, shadow). Carry identity through **tells** instead: hair, body, wardrobe, setting. Mirrors are dangerous — a reflection will render a face; if you use one, explicitly forbid the facial reflection. If a shot can only work with a clear face, redesign the shot. Never name the person, either.
@@ -208,9 +208,9 @@ Format: square 1:1 (1024×1024).
 
 Every prompt must visibly differ from the others in the set on **at least two** of {POV lens, angle, distance, lens, light, setting}. If two prompts share all of those, one is redundant — kill or redirect it.
 
-**Text-bearing panels** (hook, formula peak, badges, CTA) → a **text-free ChatGPT background** brief (DJ runs it) + the exact on-slide text and chrome positions for Canva type (background: amber, or inverted-light for the peak). Or mark "Canva (type+shape)." (Photo-set captions are overlaid **after** generation — never ask ChatGPT to render them in-image.)
+**Text-bearing panels** (hook, formula peak, badges, CTA) → a **text-free ChatGPT background** brief (DJ runs it) + the exact on-slide text and chrome positions for Canva type (background: Night `#01010D`, or inverted lavender-light for the peak). Or mark "Canva (type+shape)." (Photo-set captions are overlaid **after** generation — never ask ChatGPT to render them in-image.)
 
-**Consistency workflow tip (put this in the doc's hand-off):** generate the first shot, approve it, then **upload that frame as a style reference** for the rest so the grain/amber/finish stay consistent. Refine conversationally in ChatGPT — regenerate, don't overload one prompt.
+**Consistency workflow tip (put this in the doc's hand-off):** generate the first shot, approve it, then **upload that frame as a style reference** for the rest so the grain/indigo/finish stay consistent. Refine conversationally in ChatGPT — regenerate, don't overload one prompt.
 
 ## 10. Variation + kill guidance (per shot)
 
@@ -232,7 +232,7 @@ A person is **not one mood across their whole life.** Greene's _still / cerebral
 - **Map the person into 3–5 distinct ERAS/facets** first (origin · the wilderness years · the breakthrough/method · a tonal-outlier era · the rupture/present). Each era gets a **one-line mood**. This is the "highlight several things about them" layer.
 - **Each shot is a moment inside one era, and carries its OWN mini vision palette** tuned to that era: _Era · Mood · World/palette · Time · Styling/props · Light · Style/finish._ Two shots from different eras should look genuinely different (cold institutional grey vs warm candlelit gold).
 - **A thin SHARED SIGNATURE holds the varied palettes together as one 9takes series.** Lock it once and apply to every shot regardless of era:
-  - an **amber accent** present in every frame (even cold ones — a warm sliver of light, a lamp, a reflection),
+  - an **indigo/lavender accent** present in every frame (a cool sliver of light, a screen, a reflection; never warm),
   - the **bottom-right factual caption** treatment (same type, same corner),
   - a **subtle film-grain / real-photograph finish** (the "moment in time," not a render),
   - **1:1**, POV-driven, one dominant light source per frame.
@@ -283,7 +283,7 @@ Rules for the frame:
 - **Empty of people.** The subject's space with the subject gone — the vacated vanity stool, the empty desk chair, the notecards with no hand. Absolutely no person, face, or human reflection.
 - **Rhyme it against one earlier shot.** Same room/setup as a shot the reader just lived through, now vacated and turned slightly toward the viewer — "this seat is for you."
 - **Generous negative space** — the frame carries large centered overlay text later; keep the center clean and uncluttered. Quiet and invitational, not sad or spooky.
-- Shared signature still applies (amber sliver, grain, 1:1, one dominant light source) — but **no fact caption** on this shot; the question is the only text.
+- Shared signature still applies (indigo sliver, grain, 1:1, one dominant light source) — but **no fact caption** on this shot; the question is the only text.
 
 Rules for the question layer (written beside the prompt, added in Canva, never in-prompt):
 
@@ -309,7 +309,7 @@ Pitch (≤1 screen), seeded from §7 and §12:
 
 - **Person overview:** type (wing), persona, and 4–6 things worth highlighting about how they see the world.
 - **Eras:** 3–5 distinct life eras/facets, each with a one-line **mood** (these are the palettes the shots will draw from). Show the tonal range — include at least one tonal-outlier era (the "spicy"/warm one, the manic one, the broken one).
-- **Shared signature:** the thin constant across all shots (§12) — amber accent + bottom-right caption + film-grain finish + 1:1 POV.
+- **Shared signature:** the thin constant across all shots (§12) — indigo accent + bottom-right caption + film-grain finish + 1:1 POV.
 - **Per-person accent:** the one secondary color that is _theirs_ (§8), with a one-line why.
 
 Then **stop and ask**: _"Lock the eras + signature + accent, or adjust?"_ Do not proceed until approved.
@@ -334,7 +334,7 @@ Confirm: (a) every shot applies the **shared signature**; (b) palettes genuinely
 
 ## Step 4 — Write story + overlay caption + prompt per shot
 
-Each shot prompt must encode **its own era-palette** (not a global one), while keeping the shared-signature amber accent. For each approved shot, write all three layers (§11 + §9 + §10):
+Each shot prompt must encode **its own era-palette** (not a global one), while keeping the shared-signature indigo accent. For each approved shot, write all three layers (§11 + §9 + §10):
 
 1. **Story (why this shot)** — 1–3 sentences of editorial intent tied to their perspective.
 2. **Overlay caption** — the on-image text (bottom-right), grounded in a real citable fact.
@@ -396,7 +396,7 @@ Write `docs/ai-image-gen/moodboards/<person-slug>-moodboard.md` (template below)
 
 ## Shared signature (the constant across every shot)
 
-- Amber accent in every frame · bottom-right factual caption · subtle film-grain / real-photo finish · 1:1 · POV-driven · one dominant light source.
+- Indigo/lavender accent in every frame (never warm) · bottom-right factual caption · subtle film-grain / real-photo finish · 1:1 · POV-driven · one dominant light source.
 
 ## Shot list
 
@@ -421,7 +421,7 @@ Write `docs/ai-image-gen/moodboards/<person-slug>-moodboard.md` (template below)
     Details: <named props, textures, period detail; crowds = blurred mass>.
     Camera: <angle + distance + lens-mm>.
     Light: <direction + quality + single dominant source + time of day>.
-    Color & finish: <era palette; where the amber accent lives; photorealistic, real imperfections, film grain>.
+    Color & finish: <era palette; where the indigo/lavender accent lives; photorealistic, real imperfections, film grain>.
     Constraints: <anti-yellow-tint if cold; shadow-detail if dark; no on-image text; anonymous, no specific celebrity>.
     Format: square 1:1 (1024×1024).
 
@@ -438,7 +438,7 @@ _Vary: <the one axis to spin>._ · _Kill rule: <keep only the frame where ...>._
 ## Hand-off
 
 Feed to `/carousel <Person>` (Story mode) — it consumes these era-tuned shot prompts for the deck's image slides (no flat re-prompting). The bright peak shot maps to the deck's single inverted/high-key slide; the mirror shot is the deck's final frame.
-Generate Shot 1 in ChatGPT first, approve it, then upload it as a style reference for the rest to lock the grain/amber/finish across the set.
+Generate Shot 1 in ChatGPT first, approve it, then upload it as a style reference for the rest to lock the grain/indigo/finish across the set.
 File approved renders at `docs/ai-image-gen/moodboards/<person-slug>/images/shot-N-<name>.png` — the deck build sheet lives beside them at `<person-slug>/carousel.md`.
 ````
 

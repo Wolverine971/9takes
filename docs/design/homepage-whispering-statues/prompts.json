@@ -1,29 +1,29 @@
 {
-  "generated_on": "2026-11-04",
-  "method": "Built-in image_gen tool",
-  "requested_aspect_ratio": "4:5",
-  "images": [
-    {
-      "slug": "01-he-whispers-she-smirks",
-      "title": "Prompt 1 — He whispers, she smirks",
-      "prompt": "Use case: ads-marketing\nAsset type: homepage hero photograph.\nCreate one image, vertical 4:5 aspect ratio.\nPhotograph of an ancient Greek marble sculpture, Hellenistic style, museum quality. Two figures, a young adult man and a young adult woman, carved from a single block of white Carrara marble. He leans in and whispers into her ear, one hand cupped beside his mouth, his other hand resting on her shoulder. She turns her face slightly toward the viewer with a sly, knowing half-smile and lowered eyelids, as if she just heard delicious gossip. Expressive faces in the style of Hellenistic sculpture, not blank classical faces. Classical curly hair, draped robes over the shoulders. Framed tight from mid-chest up, both heads in the upper half of the frame and centered. Pure black background, one dramatic spotlight from upper left with crisp rim light on the hair and shoulders, deep shadows, high contrast, fine marble texture and subtle cracks. No pedestal, no text, no logos.",
-      "file": "01-he-whispers-she-smirks.webp",
-      "master": "source-assets/homepage/whispering-statues/01-he-whispers-she-smirks.png"
-    },
-    {
-      "slug": "02-he-whispers-shes-scandalized",
-      "title": "Prompt 2 — He whispers, she's scandalized",
-      "prompt": "Use case: ads-marketing\nAsset type: homepage hero photograph.\nCreate one image, vertical 4:5 aspect ratio.\nPhotograph of an ancient Greek marble sculpture, Hellenistic style, museum quality. Two figures, a young adult man and a young adult woman, carved from a single block of white Carrara marble. He leans in and whispers into her ear, one hand cupped beside his mouth, his other hand resting on her shoulder. She turns her face slightly toward the viewer, her eyes wide and her marble fingertips raised to her parted lips, scandalized but loving it. Expressive faces in the style of Hellenistic sculpture, not blank classical faces. Classical curly hair, draped robes over the shoulders. Framed tight from mid-chest up, both heads in the upper half of the frame and centered. Pure black background, one dramatic spotlight from upper left with crisp rim light on the hair and shoulders, deep shadows, high contrast, fine marble texture and subtle cracks. No pedestal, no text, no logos.",
-      "file": "02-he-whispers-shes-scandalized.webp",
-      "master": "source-assets/homepage/whispering-statues/02-he-whispers-shes-scandalized.png"
-    },
-    {
-      "slug": "03-two-friends-whispering",
-      "title": "Prompt 3 — Two friends whispering",
-      "prompt": "Use case: ads-marketing\nAsset type: homepage hero photograph.\nCreate one image, vertical 4:5 aspect ratio.\nPhotograph of an ancient Greek marble sculpture of two young adult men seated side by side, carved from white marble. One leans in and whispers into the other's ear, hand cupped beside his mouth, his other arm around his friend's shoulder. The listener looks off to the side with a faint, surprised smile. Hellenistic style, expressive faces, curly hair, drapery across the laps. Framed from the waist up, heads in the upper half. Pure black background, one dramatic spotlight from upper left, crisp rim light, high contrast. No text, no logos.",
-      "file": "03-two-friends-whispering.webp",
-      "master": "source-assets/homepage/whispering-statues/03-two-friends-whispering.png"
-    }
-  ],
-  "master_note": "Original PNG masters are saved in source-assets/ (gitignored); the review WebPs are versionable repository files."
+	"generated_on": "2026-11-04",
+	"method": "Built-in image_gen tool",
+	"requested_aspect_ratio": "4:5",
+	"images": [
+		{
+			"slug": "01-he-whispers-she-smirks",
+			"title": "Prompt 1 — He whispers, she smirks",
+			"prompt": "Use case: ads-marketing\nAsset type: homepage hero photograph.\nCreate one image, vertical 4:5 aspect ratio.\nPhotograph of an ancient Greek marble sculpture, Hellenistic style, museum quality. Two figures, a young adult man and a young adult woman, carved from a single block of white Carrara marble. He leans in and whispers into her ear, one hand cupped beside his mouth, his other hand resting on her shoulder. She turns her face slightly toward the viewer with a sly, knowing half-smile and lowered eyelids, as if she just heard delicious gossip. Expressive faces in the style of Hellenistic sculpture, not blank classical faces. Classical curly hair, draped robes over the shoulders. Framed tight from mid-chest up, both heads in the upper half of the frame and centered. Pure black background, one dramatic spotlight from upper left with crisp rim light on the hair and shoulders, deep shadows, high contrast, fine marble texture and subtle cracks. No pedestal, no text, no logos.",
+			"file": "01-he-whispers-she-smirks.webp",
+			"master": "source-assets/homepage/whispering-statues/01-he-whispers-she-smirks.png"
+		},
+		{
+			"slug": "02-he-whispers-shes-scandalized",
+			"title": "Prompt 2 — He whispers, she's scandalized",
+			"prompt": "Use case: ads-marketing\nAsset type: homepage hero photograph.\nCreate one image, vertical 4:5 aspect ratio.\nPhotograph of an ancient Greek marble sculpture, Hellenistic style, museum quality. Two figures, a young adult man and a young adult woman, carved from a single block of white Carrara marble. He leans in and whispers into her ear, one hand cupped beside his mouth, his other hand resting on her shoulder. She turns her face slightly toward the viewer, her eyes wide and her marble fingertips raised to her parted lips, scandalized but loving it. Expressive faces in the style of Hellenistic sculpture, not blank classical faces. Classical curly hair, draped robes over the shoulders. Framed tight from mid-chest up, both heads in the upper half of the frame and centered. Pure black background, one dramatic spotlight from upper left with crisp rim light on the hair and shoulders, deep shadows, high contrast, fine marble texture and subtle cracks. No pedestal, no text, no logos.",
+			"file": "02-he-whispers-shes-scandalized.webp",
+			"master": "source-assets/homepage/whispering-statues/02-he-whispers-shes-scandalized.png"
+		},
+		{
+			"slug": "03-two-friends-whispering",
+			"title": "Prompt 3 — Two friends whispering",
+			"prompt": "Use case: ads-marketing\nAsset type: homepage hero photograph.\nCreate one image, vertical 4:5 aspect ratio.\nPhotograph of an ancient Greek marble sculpture of two young adult men seated side by side, carved from white marble. One leans in and whispers into the other's ear, hand cupped beside his mouth, his other arm around his friend's shoulder. The listener looks off to the side with a faint, surprised smile. Hellenistic style, expressive faces, curly hair, drapery across the laps. Framed from the waist up, heads in the upper half. Pure black background, one dramatic spotlight from upper left, crisp rim light, high contrast. No text, no logos.",
+			"file": "03-two-friends-whispering.webp",
+			"master": "source-assets/homepage/whispering-statues/03-two-friends-whispering.png"
+		}
+	],
+	"master_note": "Original PNG masters are saved in source-assets/ (gitignored); the review WebPs are versionable repository files."
 }

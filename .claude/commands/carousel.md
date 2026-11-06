@@ -108,7 +108,7 @@ Diagnostic hooks ~3× harder (felt accusation). Lookup wins saves. Gallery wins 
 3  THESIS   "[Technique] = EMOTION"
 4..N ENTRY PAIRS per item:
      a) INFO CARD:  #N: NAME / Use when / Best for [chips] / Driven by [chips]
-     b) DEMO CARD:  full-bleed image + amber badge "NAME = Emotion"
+     b) DEMO CARD:  full-bleed image + indigo badge "NAME = Emotion"
      (QUICK RULE interstitial every ~2 entries: "Want X? → A. Want Y? → B.")
 N+1 RECAP   "SAVE THIS" — whole map as one list, on the light peak slide
 N+2 CTA     participation question + comment-bait
@@ -135,7 +135,7 @@ The proven shape from the Chappell Roan build (`docs/ai-image-gen/moodboards/cha
 3..N POV ARC  the moodboard's POV shots in story order — origin wound → private/love wound →
               the grind → the armor/method → triumph → the cost. Each: full-bleed image,
               face-free, + one overlay fact caption (bottom-third scrim, 1–2 lines).
-N+1  REVEAL   ★ the deck's single inverted/amber text slide: "That's Enneagram Type N —
+N+1  REVEAL   ★ the deck's single inverted lavender-light text slide: "That's Enneagram Type N —
               The [Archetype]. [one-line thesis]."
 N+2  MIRROR ⚡ ★ the Mirror Moment (spec: docs/product/the-mirror-moment.md): the moodboard's
               empty-frame mirror shot + bridge line + the mirror question, large-centered.
@@ -182,14 +182,14 @@ Always on an **inverted light/bright frame** — the one slide that pops against
 
 ## G. Brand swap + visual system (NON-NEGOTIABLE)
 
-- **Accent is amber (Streetlamp V5), dark text on amber fills. NEVER red/teal/rose for primary** (teal only as a `data-*` accent). iklipse runs cool/blue — we go warm on purpose so it never reads as a clone.
+- **Accent is Cold Light (`docs/brand/cold-light.md`): Night `#01010D` base, indigo `#6331FB` fills/badges with `#F4F2FF` text, lavender `#CFC2FF` for italic lines, mint `#88F9C0` with dark text only on the one CTA. NEVER amber, orange or warm light; never red/teal/rose for primary.** iklipse also runs cool/blue, so the 9takes tells are the tinted statues, the Anton + Playfair italic pairing and the nine-mask mark.
 - **Fixed chrome on every slide:** `9takes` top-left · theme tag top-right (`The Nine`, `Reading People`, `Type Decoder`, `Emotional Read Check`) · `9takes.com` bottom-left.
 - **Alternating rhythm:** moody full-bleed **photo** ↔ clean **diagram**. **Never two diagram slides back to back.**
 - **Exactly one inverted bright slide** = the formula/recap peak ("save this").
 - **Type:** heavy condensed sans headlines + **serif italic** reserved for swipe/payoff/subhead only.
-- **The `X = Emotion` overlay becomes an amber pill `Type N = [Emotion]`.**
+- **The `X = Emotion` overlay becomes an indigo pill `Type N = [Emotion]`.**
 - **Imagery proves the point:** every photo is itself an instance of the rule (a 9takes "emotion" slide shows a real, unguarded face). 1:1 square, text top-weighted to survive the feed crop.
-- **Story decks (§C4) use the SERIES chrome instead of the above:** mono name font + amber corner brackets · `9takes` · `THE FULL READ → 9takes.com` · `Analysis by DJ Wayne` — plus a **per-person accent color** locked in the moodboard (e.g. hot pink for Chappell, purple for Lana/Type 4) used for the eye-bar, the `TYPE N · THE [ARCHETYPE]` label, and the cover vibe. Amber stays primary; the person accent never takes over. Base = black. 4:5 vertical.
+- **Story decks (§C4) use the SERIES chrome instead of the above:** mono name font + lavender corner brackets · `9takes` · `THE FULL READ → 9takes.com` · `Analysis by DJ Wayne` — plus a **per-person accent color** locked in the moodboard (e.g. hot pink for Chappell, purple for Lana/Type 4) used for the eye-bar, the `TYPE N · THE [ARCHETYPE]` label, and the cover vibe. Indigo stays primary; the person accent never takes over. Base = Night `#01010D`. 4:5 vertical.
 
 ## H. Format → length
 
@@ -215,7 +215,7 @@ Subject: [who/what, doing what — anonymous, no real person's face].
 Details: [2–4 real props that carry feeling; crowds = "a blurred, undetailed mass"].
 Camera: [angle + distance + lens-mm — DIRECTED per slide off the angle→emotion sheet, never default eye-level].
 Light: [direction + quality + the single dominant source].
-Color & finish: [palette; where the amber accent lives; film grain, real photograph — NOT a 3D render, NOT CGI, NOT glossy].
+Color & finish: [palette; where the indigo/lavender accent lives; film grain, real photograph — NOT a 3D render, NOT CGI, NOT glossy].
 Constraints: [anti global warm/yellow cast on cold frames; keep shadow detail, not crushed black; no on-image text].
 Format: square 1:1 (1024×1024), composition top-weighted.
 ```
@@ -228,12 +228,12 @@ Format: square 1:1 (1024×1024), composition top-weighted.
 - **Vary the direction across slides:** every pair of photo prompts must differ on **at least two** of {angle, distance, lens, light, setting}. Nine identical eye-level 50mm frames = flat deck.
 - Midjourney remains a fallback only — refine with `/midjourney-prompt` if the user asks for MJ.
 
-**Text-bearing slides** (hook, diagram/taxonomy, formula peak, badges, CTA) → spec a **text-free ChatGPT background** brief (DJ runs it) + the exact on-slide text and chrome positions for Canva type (background: amber or inverted-light for the peak). Never route these to `gemini-imagegen` or any image API. Photo-slide captions are always overlaid after generation — never ask the model to render them in-image.
+**Text-bearing slides** (hook, diagram/taxonomy, formula peak, badges, CTA) → spec a **text-free ChatGPT background** brief (DJ runs it) + the exact on-slide text and chrome positions for Canva type (background: Night `#01010D` or inverted lavender-light for the peak). Never route these to `gemini-imagegen` or any image API. Photo-slide captions are always overlaid after generation — never ask the model to render them in-image.
 
 ## J. Quality gates (run before writing the file)
 
 - **All ★ beats present** for the chosen mode. If one is missing, the deck fails — add it.
-- **Brand non-negotiables hold:** amber only, fixed chrome on every slide, exactly one bright peak slide, no two diagram slides adjacent.
+- **Brand non-negotiables hold:** Cold Light colors only (no amber), fixed chrome on every slide, exactly one bright peak slide, no two diagram slides adjacent.
 - **Hook passes the copy triad** (Harry Dry): can I visualize it? can I falsify it? could nobody else say this? — 2+ no's → rewrite.
 - **The taxonomy/word-bank slide is screenshot-able** — chips, not prose. This is the save-able payload; if it's weak, the deck is weak.
 - **Every photo slide proves its own point** (the image is an instance of the claim).
@@ -270,7 +270,7 @@ Write **every slide** in the chosen mode's beat skeleton (§C). Hit all ★ beat
 
 **If a moodboard was found in Step 1:** pull the photo-slide prompts straight from its shot list — they're already directed (POV lens, camera, light, style) and non-flat. Match each beat to the moment whose feeling fits; the moodboard's bright peak shot becomes the deck's one inverted slide. Only write a fresh §I prompt for a beat the moodboard doesn't cover.
 
-**Otherwise (no moodboard):** for each photo slide, emit a ChatGPT production brief (§I) tuned to that slide's named emotion/type — and vary the camera angle, distance, lens, and lighting across slides so the set isn't flat (don't repeat `50mm` + the same amber light on every frame). For each text-bearing slide, mark it "ChatGPT background + Canva type" (DJ runs the ChatGPT prompt; see the image rule at the top). Every slide gets the fixed chrome (§G — series chrome for Story decks).
+**Otherwise (no moodboard):** for each photo slide, emit a ChatGPT production brief (§I) tuned to that slide's named emotion/type — and vary the camera angle, distance, lens, and lighting across slides so the set isn't flat (don't repeat `50mm` + the same light on every frame). For each text-bearing slide, mark it "ChatGPT background + Canva type" (DJ runs the ChatGPT prompt; see the image rule at the top). Every slide gets the fixed chrome (§G — series chrome for Story decks).
 
 ## Step 5 — Assemble the deck
 

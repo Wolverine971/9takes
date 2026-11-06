@@ -1,257 +1,127 @@
 <!-- docs/brand/9takes-style-guide-for-assets.md -->
 
-> ⚠️ **ARCHIVED 2026-05-04** — Historical reference only. The locked design system is in `docs/design-system.md` (Streetlamp Symposium · sodium-amber primary · Inter typography). Asset-generation tools migrate to V5 styles in Phase 6 of `docs/design/2026-05-04-rollout-plan.md`.
+> **Updated 2026-11-05 for Cold Light.** The visual sections below follow
+> [`cold-light.md`](./cold-light.md), the canonical visual identity. Templates and Canva setup live
+> in [`canva-design-handoff.md`](./canva-design-handoff.md). The previous Solo Leveling purple specs
+> (and the Streetlamp amber specs that replaced them) are retired; git history has them.
 >
-> ⚠️ **MESSAGING ALSO SUPERSEDED (2026-08-13)** — The tagline/positioning table below predates the
-> canonical hierarchy in `docs/brand/messaging-hierarchy.md`. Current lines: "See the emotions
-> behind every take" (promise) · "One question, nine perspectives" (explanation) · "Answer before
-> the crowd" (ritual). "One situation, 9 ways to see it" and "personality-max your EQ" are retired.
+> ⚠️ **MESSAGING ALSO SUPERSEDED (2026-08-13)** — The voice section below predates the
+> canonical hierarchy in `docs/brand/messaging-hierarchy.md`. Use the six locked lines there.
+> "One situation, 9 ways to see it" and "personality-max your EQ" are retired.
 
-# 9takes Complete Style Guide for Image Asset Creation
+# 9takes Style Guide for Image Assets
 
 _Use this document when creating Instagram carousels, social graphics, thumbnails, or any visual assets for 9takes._
+
+**Agents never generate images.** Write the finished prompt and hand it to DJ; he runs it in ChatGPT on his own subscription. No OpenRouter, Gemini, Canva AI generate or other image APIs.
 
 ---
 
 ## 1. Brand Identity at a Glance
 
-| Element               | Value                                                                                        |
-| --------------------- | -------------------------------------------------------------------------------------------- |
-| **Brand Name**        | 9takes                                                                                       |
-| **Primary Tagline**   | "See the emotions behind every take"                                                         |
-| **Secondary Tagline** | "One situation, 9 ways to see it"                                                            |
-| **Positioning**       | Decode social dynamics, personality-max your EQ, turn conflict into understanding            |
-| **Core Concept**      | The Enneagram framework: 9 personality types, each with a distinct emotional lens            |
-| **Aesthetic**         | "Solo Leveling" dark void with system UI feel - scholarly but modern, mystical but practical |
+| Element                 | Value                                                                              |
+| ----------------------- | ---------------------------------------------------------------------------------- |
+| **Brand Name**          | 9takes                                                                             |
+| **Brand promise**       | "See the emotions behind every take."                                              |
+| **Product explanation** | "One question, nine perspectives."                                                 |
+| **Core formula**        | "Honesty + Curiosity = Clarity."                                                   |
+| **Aesthetic**           | **Cold Light.** Hidden until you answer: dark is the unknown, light is the reveal. |
+| **Imagery**             | Grey Greek marble statues on black, with one shared indigo tint                    |
 
 ---
 
 ## 2. Color Palette
 
-### Primary Brand Colors
+Dark only. Mostly dark, a little light.
 
-| Name                      | Hex       | RGB           | Usage                                       |
-| ------------------------- | --------- | ------------- | ------------------------------------------- |
-| **Shadow Monarch Purple** | `#7c3aed` | 124, 58, 237  | Primary brand color, CTAs, headers, borders |
-| **Purple Light**          | `#a78bfa` | 167, 139, 250 | Hover states, highlights, link text         |
-| **Purple Dark**           | `#5b21b6` | 91, 33, 182   | Active states, depth, gradient endpoints    |
-| **Purple Glow**           | `#8b5cf6` | 139, 92, 246  | Effects, gradients, accents                 |
+| Name            | Hex                        | Usage                                                                                    |
+| --------------- | -------------------------- | ---------------------------------------------------------------------------------------- |
+| **Night**       | `#01010D`                  | Every background. Never pure black.                                                      |
+| **Surface**     | `#0C0B22`                  | Cards, panels, text containers                                                           |
+| **Raised**      | `#131133`                  | Raised rows, inner boxes                                                                 |
+| **Indigo**      | `#6331FB`                  | Statue tint, fills, glows, tags. **Never text** (too dark at 3.3:1).                     |
+| **Indigo deep** | `#24127A`                  | Deep fills                                                                               |
+| **Lavender**    | `#CFC2FF`                  | The reveal: italic voice lines, highlights, underlined links                             |
+| **Mint**        | `#88F9C0`                  | The key: the one "give your take" CTA. Dark `#01010D` text on it. One per slide at most. |
+| **Text**        | `#F4F2FF`                  | Headlines                                                                                |
+| **Muted**       | `#BDB8DA`                  | Body copy                                                                                |
+| **Faint**       | `#8D88AE`                  | Counts, dates, small labels                                                              |
+| **Rule**        | `rgba(207, 194, 255, .14)` | Hairline borders                                                                         |
 
-### Secondary Colors
+**Never:** amber, orange or warm light (including old social templates), pure black, indigo text,
+gradient-drenched backgrounds.
 
-| Name               | Hex       | RGB          | Usage                               |
-| ------------------ | --------- | ------------ | ----------------------------------- |
-| **System Blue**    | `#3b82f6` | 59, 130, 246 | Links, info elements, navigation    |
-| **Blue Light**     | `#60a5fa` | 96, 165, 250 | Hover states                        |
-| **Awakening Cyan** | `#06b6d4` | 6, 182, 212  | Accent highlights, special elements |
-| **Cyan Light**     | `#22d3ee` | 34, 211, 238 | Glows, emphasis                     |
+### Enneagram type colors
 
-### Background Colors (Dark Theme)
+Use only when an asset is explicitly about one type, as a small data mark (a dot, a number, a thin
+bar). Never as a background or button. Values match `docs/design-system.md` §5.
 
-| Name               | Hex       | RGB        | Usage                              |
-| ------------------ | --------- | ---------- | ---------------------------------- |
-| **Void Abyss**     | `#0a0a0f` | 10, 10, 15 | Main background, slide backgrounds |
-| **Void Deep**      | `#12121a` | 18, 18, 26 | Cards, containers, secondary bg    |
-| **Void Surface**   | `#1a1a2e` | 26, 26, 46 | Elevated elements, card bodies     |
-| **Void Elevated**  | `#252538` | 37, 37, 56 | Modals, dropdowns, accent panels   |
-| **Void Highlight** | `#2d2d44` | 45, 45, 68 | Hover backgrounds, subtle dividers |
-
-### Text Colors
-
-| Name               | Hex       | RGB           | Usage                                   |
-| ------------------ | --------- | ------------- | --------------------------------------- |
-| **Text Primary**   | `#f8fafc` | 248, 250, 252 | Headlines, important text, slide titles |
-| **Text Secondary** | `#e2e8f0` | 226, 232, 240 | Body text                               |
-| **Text Tertiary**  | `#94a3b8` | 148, 163, 184 | Captions, metadata, small print         |
-| **Text Muted**     | `#475569` | 71, 85, 105   | Disabled, placeholders                  |
-
-### Enneagram Type Colors
-
-These are CRITICAL for carousel slides about individual types:
-
-| Type  | Name                     | Hex       | RGB                    |
-| ----- | ------------------------ | --------- | ---------------------- |
-| **1** | Perfectionist / Reformer | `#3b82f6` | 59, 130, 246 (Blue)    |
-| **2** | Helper                   | `#ec4899` | 236, 72, 153 (Pink)    |
-| **3** | Achiever                 | `#f59e0b` | 245, 158, 11 (Amber)   |
-| **4** | Individualist            | `#8b5cf6` | 139, 92, 246 (Purple)  |
-| **5** | Investigator             | `#06b6d4` | 6, 182, 212 (Cyan)     |
-| **6** | Loyalist                 | `#22c55e` | 34, 197, 94 (Green)    |
-| **7** | Enthusiast               | `#eab308` | 234, 179, 8 (Yellow)   |
-| **8** | Challenger               | `#ef4444` | 239, 68, 68 (Red)      |
-| **9** | Peacemaker               | `#10b981` | 16, 185, 129 (Emerald) |
-
-### Functional / Accent Colors
-
-| Name            | Hex       | Usage                              |
-| --------------- | --------- | ---------------------------------- |
-| **Gold Accent** | `#d4af37` | Premium, special, featured content |
-| **Success**     | `#10b981` | Positive, confirmation             |
-| **Warning**     | `#f59e0b` | Alerts, cautions                   |
-| **Error**       | `#ef4444` | Errors, intense emphasis           |
+| Type | Hex       | Type | Hex       | Type | Hex       |
+| ---- | --------- | ---- | --------- | ---- | --------- |
+| 1    | `#6366F1` | 4    | `#A855F7` | 7    | `#FBBF24` |
+| 2    | `#F472B6` | 5    | `#0EA5E9` | 8    | `#DC2626` |
+| 3    | `#F59E0B` | 6    | `#22C55E` | 9    | `#34D399` |
 
 ---
 
 ## 3. Typography
 
-### Primary Font: Noticia Text (Serif)
+Three faces. No fourth.
 
-All text on the site uses **Noticia Text** - a serif that creates a scholarly, thoughtful feel.
+| Face                        | Role                         | Rules                                                         |
+| --------------------------- | ---------------------------- | ------------------------------------------------------------- |
+| **Anton**                   | The loud take                | Uppercase only. Headlines 40px and up. Never a full sentence. |
+| **Playfair Display italic** | The quiet feeling underneath | Second line of a headline, inner-voice lines. Lavender.       |
+| **Archivo**                 | Everything people read       | Body, captions, labels, buttons. Regular to semibold.         |
 
-- **Weights available**: Regular (400), Bold (700), Italic, Bold Italic
-- **Canva alternatives**: **Lora** or **Playfair Display** (similar serifs)
-- **Feel**: Authoritative, classic, intelligent - NOT trendy or casual
+All three are free Google Fonts and available in Canva.
 
-### Font Hierarchy
+**Signature pairing:** a loud Anton line, then a quiet Playfair italic line under it.
 
-| Element             | Weight  | Desktop Size | Mobile Size |
-| ------------------- | ------- | ------------ | ----------- |
-| H1 (Slide Title)    | Bold    | 48px         | 32px        |
-| H2 (Section Header) | Bold    | 36px         | 24px        |
-| H3 (Subhead)        | Bold    | 24px         | 20px        |
-| Body                | Regular | 18px         | 16px        |
-| Caption / Small     | Regular | 14px         | 12px        |
-
-### Secondary Font: Space Grotesk (Sans-Serif)
-
-Used in CSS as the body font-family. Clean geometric sans-serif.
-
-### Display Font: Rajdhani (Sans-Serif)
-
-Used for display/UI elements. Has a tech/gaming quality.
+```
+ANSWER BEFORE
+THE CROWD
+What will they think of me?
+```
 
 ---
 
-## 4. Visual Effects & Design Patterns
+## 4. Imagery
 
-### Gradients
+**Statues only, one shared tint.**
 
-**Primary Gradient (Purple)**:
+- Dry, matte, weathered Greek marble with blank carved eyes
+- One light from the upper left on a black background
+- Restrained expressions, like real sculpture
+- No text inside the image
+- No photos of people, places or phones
+- Prompts ask for **neutral grey stone**. The indigo tint ramp (`#01010D` → `#160A46` → `#6331FB` → `#BEAAFF` → `#ECE6FF`) is applied afterward with sharp, so every statue matches.
 
-```
-135deg, #7c3aed 0%, #5b21b6 100%
-```
+Prompt standard and examples: `docs/design/image-refresh-2026-11-04/README.md` and
+`docs/design/homepage-whispering-statues/prompts-emotions.md`.
 
-**Card Background Gradient**:
-
-```
-180deg, #1a1a2e 0%, #12121a 100%
-```
-
-**Subtle Purple Tint** (for alternate rows, panels):
-
-```
-135deg, rgba(124, 58, 237, 0.06) 0%, transparent 100%
-```
-
-### Glow Effects
-
-This is a SIGNATURE design element. Purple glows on dark backgrounds create the "Solo Leveling" aesthetic.
-
-| Effect          | CSS Value                          | When to Use                   |
-| --------------- | ---------------------------------- | ----------------------------- |
-| **Small Glow**  | `0 0 10px rgba(124, 58, 237, 0.3)` | Subtle hover states           |
-| **Medium Glow** | `0 0 20px rgba(124, 58, 237, 0.4)` | Active elements, borders      |
-| **Large Glow**  | `0 0 40px rgba(124, 58, 237, 0.5)` | Hero elements, featured items |
-| **Blue Glow**   | `0 0 20px rgba(59, 130, 246, 0.4)` | Secondary elements            |
-| **Cyan Glow**   | `0 0 20px rgba(6, 182, 212, 0.4)`  | Accent highlights             |
-| **Text Glow**   | `0 0 10px rgba(124, 58, 237, 0.5)` | Important text on dark bg     |
-
-### Glass / Frosted Effect
-
-- Background: `rgba(26, 26, 46, 0.8)` with `backdrop-filter: blur(20px)`
-- Border: `1px solid rgba(124, 58, 237, 0.2)`
-- Creates a floating, ethereal panel on dark backgrounds
-
-### Borders
-
-- Default border: `1px solid #252538` (void-elevated)
-- Accent border: `1px solid rgba(124, 58, 237, 0.2)` (glass border)
-- Active/hover border: purple glow border
-- Border radius: `0.5rem` (8px) default, `0.75rem` (12px) for cards, `0.25rem` (4px) for small elements
-
-### Shadows
-
-All shadows are dark/black-based (NOT light/gray) because of the dark theme:
-
-- Small: `0 1px 3px rgba(0, 0, 0, 0.3)`
-- Medium: `0 4px 6px rgba(0, 0, 0, 0.4)`
-- Large: `0 10px 15px rgba(0, 0, 0, 0.5)`
+**Avoid:** hacker clichés (code rain, glitch text, skulls), neon, gold cracks, floating symbols,
+warm or orange light.
 
 ---
 
-## 5. Component Design Patterns
+## 5. Shapes, Borders and Effects
 
-### Cards
-
-- Dark background (`#1a1a2e`)
-- Subtle border (`rgba(100, 116, 139, 0.3)`)
-- Border radius: 12px
-- Shadow: `0 0 15px rgba(0, 0, 0, 0.3)`
-- On hover: lift up 4-5px, purple glow border, glow shadow
-
-### Buttons (Primary)
-
-- Purple gradient background (`#7c3aed` to `#5b21b6`)
-- White text
-- Purple glow shadow
-- On hover: lighter gradient, lift up 2px, stronger glow
-
-### Buttons (Secondary/Outline)
-
-- Transparent background
-- Purple border (`#7c3aed`)
-- Purple-light text (`#8b5cf6`)
-- On hover: subtle purple fill, lift, glow
-
-### Blockquotes / Pull Quotes
-
-- Left border: 4px solid purple (`#7c3aed`)
-- Background: void-surface (`#1a1a2e`)
-- Italic text
-- Border radius: 0 8px 8px 0
-
-### Timeline Elements
-
-- Vertical purple gradient line
-- Purple dot markers on the line
-- Key moments get a glowing dot
-
-### Contrast Panels (Side-by-Side)
-
-- Two-column grid
-- Left: neutral dark background
-- Right: subtle purple tint background
-- Uppercase labels with colored bottom borders
+- Corners: 4px (badges), 10px (buttons, chips), 16px (cards). Nothing else.
+- Borders: 1px hairline in Rule (`rgba(207, 194, 255, .14)`). Borders do the work; shadows are rare.
+- Glows: soft indigo only, small and low alpha. No glow chains, no neon.
+- Hidden takes: show that they exist (a count, type numbers, blurred rows). **Never show what a take says** on an asset that hasn't asked the viewer to answer first.
 
 ---
 
 ## 6. Logo & Brand Marks
 
-### Primary Logo
-
-- **File**: `9takes-nine-mask-logo.png` - nine expressive masks in an amber 3×3 frame
-- Use `9takes-nine-mask-logo-192.png` for compact UI placements and `9takes-nine-mask-logo-512.png` for structured data
-- Use on dark backgrounds
-
-### Social Card
-
-- **File**: `9takes-nine-mask-social-card.png` - 1200×630 branded fallback for OG and Twitter metadata
-
-### Logo Variants (available for different contexts)
-
-| Name    | File          | Description                  |
-| ------- | ------------- | ---------------------------- |
-| Aero    | `aero.png`    | Legacy — retired primary     |
-| Aria    | `aria.png`    | Pink/rose variant            |
-| Fresco  | `fresco.png`  | Warm variant                 |
-| Nimbus  | `nimbus.png`  | Legacy — retired poster mark |
-| Oceanic | `oceanic.png` | Teal variant                 |
-| Polar   | `polar.png`   | Cool/icy variant             |
-
-### Enneagram Symbol
-
-- `enneagram.svg` - the classic 9-pointed enneagram diagram
+- **Primary logo:** the nine-mask mark recolored with the statue tint. Master:
+  `docs/design/homepage-whispering-statues/logo-nine-mask-statue-tint.png`.
+- The amber-lined, warm-cream nine-mask version is retired. So are Aero, Aria, Fresco, Nimbus,
+  Oceanic, Polar and the Rubix marks.
+- Use on Night backgrounds.
+- `enneagram.svg` is still fine for diagrams.
 
 ---
 
@@ -340,82 +210,52 @@ Decode, Navigate, Map, Read, Unlock, Resolve
 
 ## 8. Carousel / Instagram Slide Design Rules
 
-Based on the existing design system, here's how to construct slides:
+### Slide background
 
-### Slide Background
+- Default: solid Night `#01010D`
+- Panels on top: Surface `#0C0B22` with a 1px Rule border
+- Statue slides: the tinted statue full-bleed, fading to Night
 
-- Default: Solid `#0a0a0f` (Void Abyss)
-- Alternative: Gradient from `#0a0a0f` to `#12121a`
-- For type-specific slides: use the type's color as a subtle accent (10-15% opacity overlay or border glow)
+### Slide text
 
-### Slide Text
+- Headlines: Anton uppercase, Text `#F4F2FF`
+- Voice line under the headline: Playfair Display italic, Lavender `#CFC2FF`
+- Body: Archivo, Muted `#BDB8DA`
+- Small labels and counts: Archivo uppercase with letter-spacing, Faint `#8D88AE`
 
-- Headlines: `#f8fafc` (white), Bold, large
-- Body: `#e2e8f0` or `#94a3b8` depending on hierarchy
-- Accent words: `#7c3aed` (purple) or the relevant type color
-- Quotes: Italic, `#94a3b8`, with purple left border or top/bottom borders
+### Slide accents
 
-### Slide Accents
+- One mint element at most per slide, and only when it's the action ("Give your take", "Answer first")
+- Indigo for tags and fills, with Text `#F4F2FF` on top
+- Type color only as a small data mark on type-specific slides
 
-- Purple glow borders on key elements
-- Type-colored accent bars, dots, or borders for type-specific content
-- Glass/frosted panels for text containers over images
-- Subtle gradient overlays (purple to transparent)
+### Slide structure
 
-### Slide Structure
+- Hook on the first slide, one idea per slide after that
+- Exactly one bright reveal slide (Lavender/Text on Night) for the payoff
+- End with the ritual: answer before the crowd
 
-- Keep text minimal - hook on first slide, one idea per subsequent slide
-- Use the type number prominently when referencing a specific type
-- Include the type color as a visual identifier
-- End slides with a CTA or "small experiment"
+### Template color combos for Canva
 
-### Template Color Combos for Canva
+**Default slide:** Night background · Text headline · Lavender italic line · Muted body
 
-**Default slide**:
+**Type-specific slide:** Night background · Text headline · that type's color as a small mark
 
-- Background: `#0a0a0f`
-- Text: `#f8fafc`
-- Accent: `#7c3aed`
-
-**Type-specific slide**:
-
-- Background: `#0a0a0f`
-- Text: `#f8fafc`
-- Accent: [that type's color from the table above]
-- Border or glow in the type color
-
-**CTA / final slide**:
-
-- Background: gradient `#7c3aed` to `#5b21b6`
-- Text: `#ffffff`
-- Accent: `#06b6d4` (cyan) or `#d4af37` (gold)
+**CTA / final slide:** Night background · Anton headline · one mint button with Night text
 
 ---
 
 ## 9. Quick Copy-Paste Color Codes
 
 ```
-#7c3aed  Purple (Primary)
-#a78bfa  Purple Light
-#5b21b6  Purple Dark
-#8b5cf6  Purple Glow
-#3b82f6  Blue (Secondary)
-#06b6d4  Cyan (Accent)
-#0a0a0f  Background (Void Abyss)
-#12121a  Background (Void Deep)
-#1a1a2e  Background (Void Surface)
-#252538  Background (Void Elevated)
-#f8fafc  Text Primary (White)
-#e2e8f0  Text Secondary
-#94a3b8  Text Tertiary
-#d4af37  Gold Accent
-#3b82f6  Type 1 (Blue)
-#ec4899  Type 2 (Pink)
-#f59e0b  Type 3 (Amber)
-#8b5cf6  Type 4 (Purple)
-#06b6d4  Type 5 (Cyan)
-#22c55e  Type 6 (Green)
-#eab308  Type 7 (Yellow)
-#ef4444  Type 8 (Red)
-#10b981  Type 9 (Emerald)
+#01010D  Night (background)
+#0C0B22  Surface
+#131133  Surface raised
+#6331FB  Indigo (fills, tint; never text)
+#24127A  Indigo deep
+#CFC2FF  Lavender (reveal, italic lines, links)
+#88F9C0  Mint (the one CTA)
+#F4F2FF  Text
+#BDB8DA  Text muted
+#8D88AE  Text faint
 ```

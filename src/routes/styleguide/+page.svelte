@@ -3,19 +3,16 @@
   /styleguide — 9takes design system test bench
   Source of truth: docs/design-system.md (locked 2026-05-04)
   Rollout plan:    docs/design/2026-05-04-rollout-plan.md (Phase 3)
-  Visual ground truth (aesthetic only): /design-preview/v5
 
   Hard guardrails (do not relax):
   - Scoped styles only. Reads global tokens from src/scss/index.scss; never
     mutates them. The bridge (V5 + legacy) is rendered as documentation, not
     re-defined here.
-  - Theme toggle uses the canonical production theme store so labels, root
-    tokens, browser chrome, and rendered specimens cannot drift apart.
+  - Dark only (Cold Light, 2026-11-05): no theme toggle, no light specimens.
   - No new npm packages. Production atoms are rendered directly when they
     exist; bespoke specimens are provisional and tracked for replacement.
 -->
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 	import {
 		Button,
@@ -30,7 +27,6 @@
 		Textarea
 	} from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
-	import { applyTheme, theme as themeState } from '$lib/stores/theme.svelte';
 	// Listing + callout atoms (extracted 2026-06-10, design audit) — build rule:
 	// if it isn't on /styleguide, it doesn't exist.
 	import IndexHero from '$lib/components/marketing/IndexHero.svelte';
@@ -41,20 +37,7 @@
 	let { data }: { data: PageData } = $props();
 	const portraitPreflight = $derived(data.portraitPreflight);
 
-	// ---------------------------------------------------------------------------
-	// Theme state — follows the canonical production preference so the control
-	// label and the root-level token block always describe the same theme.
-	// ---------------------------------------------------------------------------
-	const theme = $derived(themeState.preference);
 	let bannerDismissed = $state(false);
-
-	onMount(() => {
-		applyTheme(themeState.preference);
-	});
-
-	function toggleTheme() {
-		themeState.set(theme === 'dark' ? 'light' : 'dark');
-	}
 
 	function openModalPreview() {
 		getModal('styleguide-modal-preview')?.open();
@@ -368,9 +351,9 @@
 	/>
 </svelte:head>
 
-<div class="styleguide" class:sg-light={theme === 'light'}>
+<div class="styleguide">
 	<!-- ============================================================
-	  STICKY HEADER BAR — kicker + theme toggle
+	  STICKY HEADER BAR — kicker + dismiss
 	============================================================ -->
 	{#if !bannerDismissed}
 		<header class="sg-bar">
@@ -379,15 +362,6 @@
 					STYLEGUIDE · v1 · 2026-05-04 · <span class="sg-bar-lock">LOCKED</span>
 				</span>
 				<div class="sg-bar-actions">
-					<button
-						class="sg-theme-toggle"
-						type="button"
-						onclick={toggleTheme}
-						aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
-						title={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
-					>
-						{theme === 'dark' ? '☀' : '🌙'}
-					</button>
 					<button
 						class="sg-bar-dismiss"
 						type="button"
@@ -417,9 +391,6 @@
 						</li>
 					{/each}
 				</ol>
-				<p class="mono sg-toc-foot">
-					DOCS · <a href="/design-preview/v5">/design-preview/v5</a>
-				</p>
 			</div>
 		</aside>
 
@@ -1091,8 +1062,8 @@
 							</div>
 
 							<p class="sg-preflight-instruction">
-								Inspect both crops, then use the theme control above and repeat the review. These
-								are the exact full and thumbnail files checked by <code>pnpm portrait:check</code>.
+								Inspect both crops on the dark surface before publishing. These are the exact full
+								and thumbnail files checked by <code>pnpm portrait:check</code>.
 							</p>
 
 							<div class="sg-preflight-grid">
@@ -1185,8 +1156,7 @@
 			<footer class="sg-footer">
 				<p class="mono">
 					Source of truth: <code>docs/design-system.md</code> · Live spec:
-					<code>docs/design/2026-05-04-rollout-plan.md</code> · Lock candidate:
-					<a href="/design-preview/v5">/design-preview/v5</a>
+					<code>docs/design/2026-05-04-rollout-plan.md</code>
 				</p>
 			</footer>
 		</div>
@@ -1319,7 +1289,6 @@
 		align-items: center;
 	}
 
-	.sg-theme-toggle,
 	.sg-bar-dismiss {
 		background: var(--stone-warm);
 		color: var(--ink-bright);
@@ -1333,21 +1302,6 @@
 		transition:
 			background 0.18s ease,
 			border-color 0.18s ease;
-	}
-
-	.sg-theme-toggle {
-		width: 36px;
-		height: 36px;
-		border-radius: 9999px;
-		font-size: 16px;
-
-		&:hover {
-			border-color: var(--lamp-glow);
-		}
-		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
-			outline-offset: 2px;
-		}
 	}
 
 	.sg-bar-dismiss {
@@ -1455,24 +1409,6 @@
 				outline: 2px solid var(--lamp-glow);
 				outline-offset: 2px;
 			}
-		}
-	}
-
-	.sg-toc-foot {
-		margin-top: 16px;
-		color: var(--ink-dim);
-
-		a {
-			color: var(--lamp-glow);
-			text-decoration: none;
-
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-
-		@media (max-width: 968px) {
-			display: none;
 		}
 	}
 
@@ -2372,11 +2308,6 @@
 		mix-blend-mode: screen;
 	}
 
-	.styleguide.sg-light .sg-vocab-img--statue {
-		filter: contrast(1.05) brightness(1) saturate(1);
-		mix-blend-mode: normal;
-	}
-
 	.sg-vocab-vignette {
 		position: absolute;
 		inset: 0;
@@ -2385,12 +2316,6 @@
 			radial-gradient(ellipse at 25% 25%, rgba(245, 158, 11, 0.22) 0%, transparent 55%),
 			linear-gradient(135deg, transparent 35%, rgba(10, 8, 7, 0.65) 100%),
 			linear-gradient(180deg, transparent 60%, rgba(10, 8, 7, 0.85) 100%);
-	}
-
-	.styleguide.sg-light .sg-vocab-vignette {
-		background:
-			radial-gradient(ellipse at 25% 25%, rgba(217, 119, 6, 0.08) 0%, transparent 55%),
-			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.06) 100%);
 	}
 
 	.sg-enneagram {
@@ -2628,15 +2553,6 @@
 			color: var(--ink-dim);
 			font-size: 11px;
 			line-height: 1.6;
-		}
-
-		a {
-			color: var(--lamp-glow);
-			text-decoration: none;
-
-			&:hover {
-				text-decoration: underline;
-			}
 		}
 	}
 

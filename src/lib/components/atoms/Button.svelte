@@ -129,7 +129,7 @@
 		align-items: center;
 		justify-content: center;
 		gap: 0.5rem;
-		font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
+		font-family: var(--font-talk);
 		font-weight: 600;
 		border-radius: 0.625rem; /* rounded-md */
 		border: 1px solid transparent;

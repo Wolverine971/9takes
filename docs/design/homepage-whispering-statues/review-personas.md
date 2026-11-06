@@ -1,3 +1,5 @@
+<!-- docs/design/homepage-whispering-statues/review-personas.md -->
+
 # Homepage review personas (2026-11-04)
 
 Four adversarial reviewers for the "whispering statues" homepage concept
@@ -40,7 +42,7 @@ first as a cold visitor, then as a critic. DJ's open question for all four: does
 ## 4. Dr. Renee Okafor, 44: serious Enneagram enthusiast
 
 - **Who:** Licensed marriage and family therapist in Chicago who uses the Enneagram with clients. Self-typed 6w5. Has done an IEQ9 assessment and a weekend workshop.
-- **Reading list:** Riso and Hudson (*The Wisdom of the Enneagram*), Beatrice Chestnut (*The Complete Enneagram*), Sandra Maitri, Claudio Naranjo, Helen Palmer, follows Enneagram podcasts.
+- **Reading list:** Riso and Hudson (_The Wisdom of the Enneagram_), Beatrice Chestnut (_The Complete Enneagram_), Sandra Maitri, Claudio Naranjo, Helen Palmer, follows Enneagram podcasts.
 - **Why she'd care:** Always looking for good resources to send clients and for real examples of how each type sees the same situation.
 - **How she arrives:** A colleague emails her a 9takes link. Desktop at her office, reads carefully.
 - **Skeptical of:** Pop-psych Enneagram (types as horoscopes or memes), mislabeled centers or core emotions, typing people from the outside, reducing a type to a stereotype ("Perfectionist," "Helper"), nicknames that clash with Riso-Hudson's names, ethics of anonymity and emotional content without care, AI-written psychology.

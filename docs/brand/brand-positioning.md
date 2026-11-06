@@ -253,19 +253,22 @@ five levels rather than compete with it.
 
 ## Visual Identity (Summary)
 
-**Aesthetic:** Streetlamp Symposium — warm-tech, dark stone with sodium-amber illumination. Greek-statue + tech-spec contrast. (Locked 2026-05-04; V5 token set.)
+**Aesthetic:** Cold Light. Hidden until you answer: every question stays dark until you give your take, then the other takes come into the light. (Locked 2026-11-05; replaces Streetlamp Symposium.)
 
-| Element     | Value                                                       |
-| ----------- | ----------------------------------------------------------- |
-| Primary     | `--lamp-glow` #F59E0B sodium-amber (light mode: #B45309)    |
-| Data accent | `--data-teal` #0D9488 — tech-spec/dossier annotations only  |
-| Surfaces    | Warm stone: `--night-deep` #0a0807 → `--stone-warm` #241D17 |
-| Text        | `--ink-bright` #FAF8F4 (dark) / #1C1917 (light)             |
-| Typography  | Inter (all weights) + JetBrains Mono                        |
+| Element    | Value                                                                                |
+| ---------- | ------------------------------------------------------------------------------------ |
+| Background | Night `--bg` #01010D, dark only (no light mode)                                      |
+| Surfaces   | `--surface` #0C0B22 → `--surface-raised` #131133                                     |
+| Accent     | Indigo `--accent` #6331FB: statue tint, fills, glows. Never text.                    |
+| Reveal     | Lavender `--highlight` #CFC2FF: italic voice lines, underlined links, focus outlines |
+| Action     | Mint `--action` #88F9C0: give your take. About one in view at a time.                |
+| Text       | `--text` #F4F2FF / `--text-muted` #BDB8DA / `--text-faint` #8D88AE                   |
+| Typography | Anton (the loud take) + Playfair Display italic (the quiet feeling) + Archivo (body) |
+| Imagery    | Grey Greek marble statues on black, one shared indigo tint ramp                      |
 
-**Visual Feel:** Dark warm stone, sodium-amber glow (never neon, never gradient-drenched). Amber CTAs carry dark text. Teal/rose and the old purple "Solo Leveling" palette are retired.
+**Visual Feel:** Mostly dark, a little light. Dark is the unknown, lavender and white are the reveal, mint is the key. Never amber or warm light, never pure black, no hacker clichés. Amber, teal/rose and the old purple "Solo Leveling" palette are retired.
 
-_Source of truth: `docs/design-system.md` (living doc). Old guides (`BRAND-KIT.md`, solo-leveling-\* files) are archived historical reference only._
+_Brand spec: `docs/brand/cold-light.md`. Tokens: `docs/design-system.md` (living doc). Old guides (`BRAND-KIT.md`, solo-leveling-\* files) are archived historical reference only._
 
 ---
 

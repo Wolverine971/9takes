@@ -84,7 +84,7 @@ Apply only fixes the user approved in the audit phase. Use the P-recipes directl
 - P13 primitives for interactive controls
 - P14-P18 signature effects
 
-Respect 9takes conventions: Streetlamp Symposium V5 tokens, Svelte 5 runes in modern files, Tailwind + SCSS, Flowbite only where already established, `Button`/`Modal`/`Callout` atoms where appropriate, and no raw color-name classes or off-scale radii. Do not edit canonical primitives unless the user explicitly asks.
+Respect 9takes conventions: Cold Light tokens (`docs/brand/cold-light.md`; dark only), Svelte 5 runes in modern files, Tailwind + SCSS, Flowbite only where already established, `Button`/`Modal`/`Callout` atoms where appropriate, and no raw color-name classes or off-scale radii. Do not edit canonical primitives unless the user explicitly asks.
 
 If an approved fix creates a reusable pattern and a second surface will plausibly need it, add the next P-number to `HYPERPLEXED_FIX_PATTERNS.md` with the same finding/recipe shape, include reduced-motion behavior, and cite it from the audit.
 
