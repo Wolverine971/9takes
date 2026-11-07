@@ -8,6 +8,7 @@
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import { Button, Field, Input, Textarea } from '$lib/components/atoms';
 	import ChoiceCard from '$lib/components/enneagramTest/ChoiceCard.svelte';
 	import TypeDetails from '$lib/components/enneagramTest/TypeDetails.svelte';
@@ -122,6 +123,10 @@
 <SEOHead
 	title="{Name} wants your honest read | 9takes"
 	description="Someone who knows you took the 9takes Enneagram test and wants your read on them."
+	ogImage={ogImageUrl('enneagram-test-read')}
+	ogImageWidth={1200}
+	ogImageHeight={630}
+	twitterImageAlt="An honest read on 9takes: someone who knows you wants your honest take on them."
 	noindex
 />
 

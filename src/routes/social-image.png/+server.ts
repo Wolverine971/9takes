@@ -3,17 +3,25 @@ import path from 'node:path';
 import { readFile } from 'node:fs/promises';
 import sharp from 'sharp';
 import type { RequestHandler } from './$types';
+import { renderBrandCard } from '$lib/server/brandCards/renderBrandCard';
+import { PERSON_SOCIAL_CARD_MAX_NAME_LENGTH } from '$lib/utils/socialImage';
+import {
+	formatPersonalityDisplayName,
+	normalizePersonalitySlug
+} from '$lib/utils/personalityAnalysis';
 
 const CACHE_CONTROL = 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=2592000';
 const STATIC_ROOT = path.resolve('static');
 const ALLOWED_PATH_PREFIX = '/types/';
 const ALLOWED_EXTENSION = /\.(?:png|webp|jpe?g)$/i;
-const FALLBACK_IMAGE_PATH = '/brand/9takes-nine-mask-social-card.png';
+// Cold Light site-default card (1200x630 JPEG), see src/lib/brand/brandCardPresets.ts.
+const FALLBACK_IMAGE_PATH = '/brand/og/default.jpg';
 const MAX_CONVERTED_IMAGE_CACHE_ENTRIES = 256;
 const convertedImageCache = new Map<string, Buffer>();
 
-function setCachedPng(sourcePath: string, pngBuffer: Buffer): void {
-	convertedImageCache.set(sourcePath, pngBuffer);
+/** One LRU-ish map for converted portraits and rendered person cards (keyed by the full params). */
+function setCachedImage(cacheKey: string, buffer: Buffer): void {
+	convertedImageCache.set(cacheKey, buffer);
 
 	if (convertedImageCache.size > MAX_CONVERTED_IMAGE_CACHE_ENTRIES) {
 		const firstKey = convertedImageCache.keys().next().value;
@@ -65,30 +73,83 @@ async function toPngBuffer(sourcePath: string, request: Request): Promise<Buffer
 		? sourceBuffer
 		: await sharp(sourceBuffer).png().toBuffer();
 
-	setCachedPng(sourcePath, pngBuffer);
+	setCachedImage(sourcePath, pngBuffer);
 	return pngBuffer;
+}
+
+function imageResponse(buffer: Buffer, contentType: 'image/png' | 'image/jpeg'): Response {
+	return new Response(new Uint8Array(buffer), {
+		headers: {
+			'content-type': contentType,
+			'cache-control': CACHE_CONTROL
+		}
+	});
+}
+
+interface PersonCardParams {
+	portrait: string;
+	name: string;
+	type: number | null;
+}
+
+/**
+ * `name` (1-80 chars) + a valid /types/ `path` switch the endpoint to the 1200x630 Cold Light
+ * person card. `type` is optional and ignored unless it is 1-9. Only name, type and portrait go
+ * on the card, never take or comment text.
+ *
+ * The name must belong to the portrait: if it doesn't match the file's own person (by slug), the
+ * card uses the display name derived from the filename instead, so nobody can mint a 9takes-
+ * branded image with arbitrary text over a real person's portrait.
+ */
+function readPersonCardParams(url: URL, sourcePath: string | null): PersonCardParams | null {
+	const name = url.searchParams.get('name')?.replace(/\s+/g, ' ').trim() ?? '';
+	if (!sourcePath || !name || name.length > PERSON_SOCIAL_CARD_MAX_NAME_LENGTH) return null;
+
+	const portrait = `/${path.relative(STATIC_ROOT, sourcePath).split(path.sep).join('/')}`;
+	const stem = path.posix.basename(portrait).replace(ALLOWED_EXTENSION, '');
+	const fileName = formatPersonalityDisplayName(stem);
+	if (!fileName) return null;
+	const nameSlug = normalizePersonalitySlug(name);
+	const nameMatchesFile =
+		nameSlug === normalizePersonalitySlug(stem) || nameSlug === normalizePersonalitySlug(fileName);
+
+	const rawType = url.searchParams.get('type');
+	const typeNumber = rawType && /^[1-9]$/.test(rawType) ? Number(rawType) : null;
+	return { portrait, name: nameMatchesFile ? name : fileName, type: typeNumber };
+}
+
+async function renderPersonCard({ portrait, name, type }: PersonCardParams): Promise<Buffer> {
+	const cacheKey = `person-card|${portrait}|${name}|${type ?? ''}`;
+	const cached = convertedImageCache.get(cacheKey);
+	if (cached) return cached;
+
+	const jpeg = await renderBrandCard(
+		{ template: 'person', name, type, portrait },
+		{ format: 'og', output: 'jpeg' }
+	);
+	setCachedImage(cacheKey, jpeg);
+	return jpeg;
+}
+
+async function fallbackResponse(request: Request): Promise<Response> {
+	const fallbackPath = path.resolve(STATIC_ROOT, `.${FALLBACK_IMAGE_PATH}`);
+	return imageResponse(await readStaticAsset(fallbackPath, request), 'image/jpeg');
 }
 
 export const GET: RequestHandler = async ({ url, request }) => {
 	const requestedPath = url.searchParams.get('path');
 	const sourcePath = resolveStaticAssetPath(requestedPath);
-	const fallbackPath = path.resolve(STATIC_ROOT, `.${FALLBACK_IMAGE_PATH}`);
+	const personCard = readPersonCardParams(url, sourcePath);
 
 	try {
-		const imageBuffer = await toPngBuffer(sourcePath ?? fallbackPath, request);
-		return new Response(new Uint8Array(imageBuffer), {
-			headers: {
-				'content-type': 'image/png',
-				'cache-control': CACHE_CONTROL
-			}
-		});
+		if (personCard) {
+			return imageResponse(await renderPersonCard(personCard), 'image/jpeg');
+		}
+		if (!sourcePath) {
+			return await fallbackResponse(request);
+		}
+		return imageResponse(await toPngBuffer(sourcePath, request), 'image/png');
 	} catch {
-		const imageBuffer = await readStaticAsset(fallbackPath, request);
-		return new Response(new Uint8Array(imageBuffer), {
-			headers: {
-				'content-type': 'image/png',
-				'cache-control': CACHE_CONTROL
-			}
-		});
+		return fallbackResponse(request);
 	}
 };

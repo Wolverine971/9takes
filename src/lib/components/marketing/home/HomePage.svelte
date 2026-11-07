@@ -5,6 +5,7 @@
 -->
 <script lang="ts">
 	import { resolve } from '$app/paths';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import type { LiveTake } from '$lib/data/homepageLiveTake';
 	import type { LiveTakeTypes } from '$lib/data/homepageLiveTypes';
@@ -23,14 +24,17 @@
 
 	const title = '1 Question, 9 Perspectives | 9takes';
 	const description =
-		'A question-and-answer community for seeing why people react differently. Answer a question, read other people’s responses, and compare 9 perspectives.';
+		'One question, nine perspectives. Answer anonymously before you see the crowd, then see the emotions behind every take.';
 </script>
 
 <SEOHead
 	{title}
 	{description}
 	canonical="https://9takes.com"
-	twitterImageAlt="Nine people gathered in conversation beneath a streetlamp"
+	ogImage={ogImageUrl('home')}
+	ogImageWidth={1200}
+	ogImageHeight={630}
+	twitterImageAlt="9takes: nine marble masks. Give your take, then see the emotions behind every take."
 	jsonLd={{
 		'@context': 'https://schema.org',
 		'@type': 'WebPage',

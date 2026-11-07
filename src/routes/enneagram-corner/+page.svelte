@@ -14,6 +14,7 @@
 	import type { PageData } from './$types';
 	import type { FAQItem } from '$lib/types/faq';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 	import { Button, SectionKicker } from '$lib/components/atoms';
 	// Shared listing atoms — extracted 2026-06-10 (design audit): five listing
@@ -195,9 +196,9 @@
 	const PAGE_ID = `${PAGE_URL}#collection`;
 	const ORG_ID = `${SITE_URL}/#organization`;
 	const WEBSITE_ID = `${SITE_URL}/#website`;
-	const OG_IMAGE_URL = `${SITE_URL}/enneagram-corner-card.webp`;
+	const OG_IMAGE_URL = ogImageUrl('enneagram-corner');
 	const OG_IMAGE_WIDTH = 1200;
-	const OG_IMAGE_HEIGHT = 628;
+	const OG_IMAGE_HEIGHT = 630;
 
 	// SEO copy — single source of truth (mirrored to <SEOHead> below).
 	const SEO_TITLE = 'Enneagram Personality Guide: Complete Psychology System | 9takes';
@@ -344,6 +345,7 @@
 	ogImage={OG_IMAGE_URL}
 	ogImageWidth={OG_IMAGE_WIDTH}
 	ogImageHeight={OG_IMAGE_HEIGHT}
+	twitterImageAlt="Enneagram Corner on 9takes: the Enneagram, decoded."
 	jsonLd={jsonLdGraph}
 	author="9takes"
 />

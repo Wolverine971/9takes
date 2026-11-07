@@ -6,7 +6,12 @@
 		buildPersonalityImageUrl,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
-	import { buildSocialImageUrl } from '$lib/utils/socialImage';
+	import {
+		buildPersonSocialCardUrl,
+		buildSocialImageUrl,
+		PERSON_SOCIAL_CARD_HEIGHT,
+		PERSON_SOCIAL_CARD_WIDTH
+	} from '$lib/utils/socialImage';
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import { buildPersonPageJsonLd } from '$lib/utils/personJsonLd';
 	import { buildPersonIdentifiers, buildPersonSameAsUrls } from '$lib/utils/schema';
@@ -33,8 +38,18 @@
 	let shareImagePath = $derived(
 		buildPersonalityImagePath(data?.enneagram, data?.person || data?.slug)
 	);
-	let shareImageUrl = $derived(
-		buildSocialImageUrl(buildPersonalityImageUrl(data?.enneagram, data?.person || data?.slug))
+	let portraitUrl = $derived(buildPersonalityImageUrl(data?.enneagram, data?.person || data?.slug));
+	// JSON-LD keeps the square portrait (the person's image); link previews get the 1200x630
+	// Cold Light person card built from it.
+	let shareImageUrl = $derived(buildSocialImageUrl(portraitUrl));
+	let shareCardUrl = $derived(
+		buildPersonSocialCardUrl({ imagePath: portraitUrl, name: personName, type: data?.enneagram })
+	);
+	let shareCardIsBranded = $derived(shareCardUrl.includes('name='));
+	let shareCardAlt = $derived(
+		data?.enneagram
+			? `${personName}, Enneagram Type ${data.enneagram}: personality analysis on 9takes`
+			: `${personName}: personality analysis on 9takes`
 	);
 
 	let breadcrumbItems = $derived.by(() => [
@@ -132,13 +147,20 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content={canonicalUrl} />
 	<meta property="og:locale" content="en_US" />
-	{#if shareImageUrl}
-		<meta property="og:image" content={shareImageUrl} />
-		<meta property="og:image:secure_url" content={shareImageUrl} />
-		<meta property="og:image:type" content="image/png" />
-		<meta property="og:image:width" content="1080" />
-		<meta property="og:image:height" content="1080" />
-		<meta property="og:image:alt" content={personName} />
+	{#if shareCardUrl}
+		<meta property="og:image" content={shareCardUrl} />
+		<meta property="og:image:secure_url" content={shareCardUrl} />
+		{#if shareCardIsBranded}
+			<meta property="og:image:type" content="image/jpeg" />
+			<meta property="og:image:width" content={String(PERSON_SOCIAL_CARD_WIDTH)} />
+			<meta property="og:image:height" content={String(PERSON_SOCIAL_CARD_HEIGHT)} />
+			<meta property="og:image:alt" content={shareCardAlt} />
+		{:else}
+			<meta property="og:image:type" content="image/png" />
+			<meta property="og:image:width" content="1080" />
+			<meta property="og:image:height" content="1080" />
+			<meta property="og:image:alt" content={personName} />
+		{/if}
 	{/if}
 
 	<meta name="twitter:site" content="@9takesdotcom" />
@@ -147,11 +169,15 @@
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content={seoTitle || articleTitle} />
 	<meta name="twitter:url" content={canonicalUrl} />
-	{#if shareImageUrl}
-		<meta name="twitter:image" content={shareImageUrl} />
-		<meta name="twitter:image:src" content={shareImageUrl} />
+	{#if shareCardUrl}
+		<meta name="twitter:image" content={shareCardUrl} />
+		<meta name="twitter:image:src" content={shareCardUrl} />
+		{#if shareCardIsBranded}
+			<meta name="twitter:image:width" content={String(PERSON_SOCIAL_CARD_WIDTH)} />
+			<meta name="twitter:image:height" content={String(PERSON_SOCIAL_CARD_HEIGHT)} />
+		{/if}
 	{/if}
-	<meta name="twitter:image:alt" content={personName} />
+	<meta name="twitter:image:alt" content={shareCardIsBranded ? shareCardAlt : personName} />
 
 	<meta property="article:author" content="DJ Wayne" />
 	<meta property="article:published_time" content={publishedAt} />

@@ -2,6 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl as brandOgImageUrl } from '$lib/brand/brandCardPresets';
 	import { SectionKicker } from '$lib/components/atoms';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import {
@@ -73,9 +74,9 @@
 
 	const faqItems = $derived([...data.category.seoFaqs, ...statFaqs]);
 
-	const ogImageUrl = $derived(
-		data.category.ogImage ?? 'https://9takes.com/images/home-reimagined/streetlamp-nine.webp'
-	);
+	// No category sets its own image yet, so they share the 1200x630 Cold Light default card.
+	const ogImageUrl = $derived(data.category.ogImage ?? brandOgImageUrl('default'));
+	const ogImageSize = $derived(data.category.ogImage ? null : { width: 1200, height: 630 });
 
 	const ORG_ID = 'https://9takes.com/#organization';
 	const WEBSITE_ID = 'https://9takes.com/#website';
@@ -125,8 +126,7 @@
 				image: {
 					'@type': 'ImageObject',
 					url: ogImageUrl,
-					width: 1400,
-					height: 788
+					...(ogImageSize ?? {})
 				},
 				...(data.earliestPublish ? { datePublished: data.earliestPublish } : {}),
 				...(data.latestUpdate ? { dateModified: data.latestUpdate } : {}),
@@ -307,6 +307,8 @@
 	canonical={canonicalUrl}
 	twitterCardType="summary_large_image"
 	ogImage={ogImageUrl}
+	ogImageWidth={ogImageSize?.width}
+	ogImageHeight={ogImageSize?.height}
 	author="9takes"
 	twitterImageAlt={`${data.category.label} personality analysis on 9takes`}
 	jsonLd={structuredData}

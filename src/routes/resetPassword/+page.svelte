@@ -9,6 +9,7 @@
 	import { goto } from '$app/navigation';
 	import type { ActionData, PageData } from './$types';
 	import { Button, Field, Input } from '$lib/components/atoms';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 
 	let { form, data }: { form: ActionData; data: PageData } = $props();
 
@@ -16,7 +17,7 @@
 	let confirmPassword = $state('');
 	let loading = $state(false);
 
-	const ogImage = 'https://9takes.com/greek_pantheon.png';
+	const ogImage = ogImageUrl('default');
 
 	// Handle password validation — same policy as registration (8+ chars with
 	// upper/lower/number); reset previously accepted 6-char passwords that
@@ -64,7 +65,13 @@
 	<meta property="og:url" content="https://9takes.com/resetPassword" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content={ogImage} />
-	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta
+		property="og:image:alt"
+		content="9takes: see the emotions behind every take. One question, nine perspectives."
+	/>
 </svelte:head>
 
 <div class="auth-container">

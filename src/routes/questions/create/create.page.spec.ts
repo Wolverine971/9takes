@@ -18,6 +18,9 @@ const { gotoMock, notificationMocks, html2canvasMock, captureQuestionCreatedMock
 	})
 );
 
+const isSocialCardWarmup = (requestUrl: string) =>
+	/^\/questions\/[^/]+\/social-card\.png$/.test(requestUrl);
+
 vi.mock('$app/navigation', () => ({
 	goto: gotoMock
 }));
@@ -100,7 +103,6 @@ describe('Create Question page', () => {
 	it('preserves punctuation and keeps the loading handoff visible until navigation resolves', async () => {
 		let resolveNavigation!: () => void;
 		let resolveCreation!: (response: Response) => void;
-		let resolveUpload!: (response: Response) => void;
 		const fetchMock = vi.fn((input: RequestInfo | URL, _init?: RequestInit) => {
 			const requestUrl = String(input);
 			if (requestUrl === '?/getUrl') {
@@ -111,10 +113,8 @@ describe('Create Question page', () => {
 					resolveCreation = resolve;
 				});
 			}
-			if (requestUrl === '/api/questions/upload-image') {
-				return new Promise<Response>((resolve) => {
-					resolveUpload = resolve;
-				});
+			if (isSocialCardWarmup(requestUrl)) {
+				return Promise.resolve(new Response(null, { status: 302 }));
 			}
 
 			throw new Error(`Unexpected request: ${requestUrl}`);
@@ -151,15 +151,6 @@ describe('Create Question page', () => {
 		expect(document.activeElement).toBe(progressStatus);
 
 		resolveCreation(actionResponse([{ id: 101, url: 'whats-best-way-handle-this-1' }]));
-		await waitFor(() => {
-			expect(screen.getByRole('status').textContent).toContain('Question saved');
-		});
-		await waitFor(() => {
-			expect(
-				fetchMock.mock.calls.some(([input]) => String(input) === '/api/questions/upload-image')
-			).toBe(true);
-		});
-		resolveUpload(new Response(JSON.stringify({ success: true }), { status: 200 }));
 
 		await waitFor(() => {
 			expect(gotoMock).toHaveBeenCalledWith('/questions/whats-best-way-handle-this-1');
@@ -173,14 +164,19 @@ describe('Create Question page', () => {
 
 		const prepareBody = fetchMock.mock.calls[0]?.[1]?.body as FormData;
 		const createBody = fetchMock.mock.calls[1]?.[1]?.body as FormData;
-		const uploadBody = fetchMock.mock.calls[2]?.[1]?.body as FormData;
+		const warmupCall = fetchMock.mock.calls[2];
 		const normalizedQuestion = "What's the best way to handle this?";
 
 		expect(prepareBody.get('question')).toBe(normalizedQuestion);
 		expect(createBody.get('question')).toBe(normalizedQuestion);
 		expect(createBody.has('author_id')).toBe(false);
-		expect(uploadBody.get('url')).toBe('whats-best-way-handle-this-1');
-		expect(uploadBody.getAll('img_url')).toHaveLength(1);
+		// The share card is rendered server-side (v4); the client only warms it, never uploads.
+		expect(String(warmupCall?.[0])).toBe('/questions/whats-best-way-handle-this-1/social-card.png');
+		expect(warmupCall?.[1]).toMatchObject({ redirect: 'manual', keepalive: true });
+		expect(
+			fetchMock.mock.calls.some(([input]) => String(input) === '/api/questions/upload-image')
+		).toBe(false);
+		expect(html2canvasMock).not.toHaveBeenCalled();
 		expect(captureQuestionCreatedMock).toHaveBeenCalledTimes(1);
 		expect(captureQuestionCreatedMock).toHaveBeenCalledWith({
 			questionId: 101,
@@ -208,8 +204,8 @@ describe('Create Question page', () => {
 			if (requestUrl === '?/createQuestion') {
 				return Promise.resolve(actionResponse([{ id: 102, url: 'how-do-i-recover' }]));
 			}
-			if (requestUrl === '/api/questions/upload-image') {
-				return Promise.resolve(new Response(JSON.stringify({ success: true }), { status: 200 }));
+			if (isSocialCardWarmup(requestUrl)) {
+				return Promise.resolve(new Response(null, { status: 302 }));
 			}
 
 			throw new Error(`Unexpected request: ${requestUrl}`);

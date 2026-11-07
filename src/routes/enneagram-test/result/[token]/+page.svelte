@@ -7,6 +7,7 @@
 -->
 <script lang="ts">
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import { Button, Field, Input } from '$lib/components/atoms';
 	import InviteSheet from '$lib/components/enneagramTest/InviteSheet.svelte';
 	import ResultSummary from '$lib/components/enneagramTest/ResultSummary.svelte';
@@ -84,6 +85,10 @@
 <SEOHead
 	title="Your Enneagram Test Result | 9takes"
 	description="Your private 9takes Enneagram test result."
+	ogImage={ogImageUrl('enneagram-test')}
+	ogImageWidth={1200}
+	ogImageHeight={630}
+	twitterImageAlt="Free Enneagram test on 9takes: what's your type? It starts with emotion, not behavior."
 	noindex
 />
 

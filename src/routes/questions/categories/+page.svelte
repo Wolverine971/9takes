@@ -9,6 +9,7 @@
 	import CategoryBrowseBranch from '$lib/components/questions/CategoryBrowseBranch.svelte';
 	import { Button, SectionKicker } from '$lib/components/atoms';
 	import type { PageData } from './$types';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 
 	type BrowseCategoryNode = {
 		id: number;
@@ -32,7 +33,9 @@
 	const pageDescription =
 		'Browse question categories with live questions only. Empty branches are hidden so the tree stays useful.';
 	const canonicalUrl = 'https://9takes.com/questions/categories';
-	const shareImage = 'https://9takes.com/questions-default.webp';
+	const shareImage = ogImageUrl('questions');
+	const shareImageAlt =
+		'9takes questions: answer before the crowd. One question, nine perspectives.';
 </script>
 
 <svelte:head>
@@ -52,6 +55,9 @@
 	<meta property="og:title" content={pageTitle} />
 	<meta property="og:description" content={pageDescription} />
 	<meta property="og:image" content={shareImage} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:alt" content={shareImageAlt} />
 	<meta property="og:locale" content="en_US" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@9takesdotcom" />
@@ -59,6 +65,8 @@
 	<meta name="twitter:title" content={pageTitle} />
 	<meta name="twitter:description" content={pageDescription} />
 	<meta name="twitter:image" content={shareImage} />
+	<meta name="twitter:image:width" content="1200" />
+	<meta name="twitter:image:height" content="630" />
 	<meta name="twitter:image:alt" content="Question categories on 9takes" />
 	<meta name="twitter:url" content={canonicalUrl} />
 	<script type="application/ld+json">

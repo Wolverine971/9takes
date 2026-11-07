@@ -12,11 +12,6 @@
 	import { fade, fly } from 'svelte/transition';
 	import type { PageData } from './$types';
 	import QuestionSocialCardTemplate from '$lib/components/questions/QuestionSocialCardTemplate.svelte';
-	import {
-		QUESTION_SOCIAL_CARD_HEIGHT,
-		QUESTION_SOCIAL_CARD_VARIANT,
-		QUESTION_SOCIAL_CARD_WIDTH
-	} from '$lib/socialCards/questionSocialCard';
 
 	let { data }: { data: PageData } = $props();
 
@@ -31,10 +26,9 @@
 	// Social-card preview scales from its measured width (card art is 1200×630).
 	// Fixed 320px tiers clipped inside the modal at ≤390px (2026-06-11 audit).
 	let previewWidth = $state(0);
-	type CreateProgressStage = 'saving' | 'generatingImage' | 'redirecting';
+	type CreateProgressStage = 'saving' | 'redirecting';
 	const CREATE_PROGRESS_STEPS: Array<{ stage: CreateProgressStage; label: string }> = [
 		{ stage: 'saving', label: 'Save question' },
-		{ stage: 'generatingImage', label: 'Prepare card' },
 		{ stage: 'redirecting', label: 'Open discussion' }
 	];
 	let createProgressStage = $state<CreateProgressStage>('saving');
@@ -43,33 +37,19 @@
 	);
 	let createProgressTitle = $derived.by(() => {
 		if (createProgressStage === 'saving') return 'Saving your question';
-		if (createProgressStage === 'generatingImage') return 'Question saved';
 		return 'Question created';
 	});
 	let createProgressMessage = $derived.by(() => {
 		if (createProgressStage === 'saving') {
 			return 'Securing your question and preparing its discussion page.';
 		}
-		if (createProgressStage === 'generatingImage') {
-			return 'Finishing the share card before we open the discussion.';
-		}
 		return 'Opening your new discussion now.';
 	});
-	let html2canvasModule = $state<
-		((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>) | null
-	>(null);
-	let fontLoaded = $state(false);
 	let resizeDebounceTimer: ReturnType<typeof setTimeout>;
-	let questionPublicUrl = $derived(
-		url ? `https://9takes.com/questions/${url}` : 'https://9takes.com/questions'
-	);
 
 	const MIN_CHAR_COUNT = 10;
 	const MAX_CHAR_COUNT = 280;
 	const MAX_CONTEXT_CHAR_COUNT = 2000;
-	const IMAGE_GENERATION_TIMEOUT_MS = 10000;
-	const IMAGE_UPLOAD_TIMEOUT_MS = 7000;
-	const SOCIAL_CARD_CAPTURE_ID = 'question-social-card-capture';
 	let normalizedQuestion = $derived(question.trim().replace(/\s+/g, ' '));
 	let isQuestionValid = $derived(
 		normalizedQuestion.length >= MIN_CHAR_COUNT && normalizedQuestion.length <= MAX_CHAR_COUNT
@@ -80,11 +60,6 @@
 
 	onMount(() => {
 		question = page.url.searchParams.get('question') || '';
-
-		// Wait for fonts to load
-		document.fonts.ready.then(() => {
-			fontLoaded = true;
-		});
 
 		return () => {
 			// Cleanup
@@ -171,65 +146,18 @@
 		return fallback;
 	}
 
-	async function waitForImagesToLoad(element: HTMLElement): Promise<void> {
-		const images = Array.from(element.querySelectorAll('img')).filter((img) => !img.complete);
-		if (!images.length) return;
-
-		await Promise.all(
-			images.map(
-				(image) =>
-					new Promise<void>((resolve) => {
-						image.addEventListener('load', () => resolve(), { once: true });
-						image.addEventListener('error', () => resolve(), { once: true });
-					})
-			)
-		);
-	}
-
-	async function withTimeout<T>(promise: Promise<T>, timeoutMs: number): Promise<T> {
-		let timeoutRef: ReturnType<typeof setTimeout> | undefined;
-		const timeoutPromise = new Promise<never>((_, reject) => {
-			timeoutRef = setTimeout(() => reject(new Error(`Timed out after ${timeoutMs}ms`)), timeoutMs);
-		});
-
+	// The share card is drawn on the server (v4, Cold Light) the first time
+	// /questions/<url>/social-card.png is requested. Ask for it once now so it is stored before
+	// anyone shares the link. Fire-and-forget: it never blocks or fails question creation.
+	function warmQuestionSocialCard(questionUrl: string) {
 		try {
-			return await Promise.race([promise, timeoutPromise]);
-		} finally {
-			if (timeoutRef) clearTimeout(timeoutRef);
+			void fetch(`/questions/${encodeURIComponent(questionUrl)}/social-card.png`, {
+				redirect: 'manual',
+				keepalive: true
+			}).catch(() => {});
+		} catch {
+			// Best effort only.
 		}
-	}
-
-	async function generateQuestionImage(elementId: string): Promise<string> {
-		// Dynamically import html2canvas when needed
-		if (!html2canvasModule) {
-			const module = await import('html2canvas');
-			html2canvasModule = module.default;
-		}
-
-		const questionNode = document.getElementById(elementId);
-		if (!questionNode) {
-			throw new Error('Question element not found');
-		}
-
-		// Wait for fonts to load
-		if (!fontLoaded) {
-			await document.fonts.ready;
-		}
-		await waitForImagesToLoad(questionNode);
-
-		const canvas = await html2canvasModule!(questionNode, {
-			useCORS: true,
-			allowTaint: true,
-			backgroundColor: '#0a0807',
-			scale: 1,
-			logging: false,
-			width: QUESTION_SOCIAL_CARD_WIDTH,
-			height: QUESTION_SOCIAL_CARD_HEIGHT,
-			windowWidth: QUESTION_SOCIAL_CARD_WIDTH,
-			windowHeight: QUESTION_SOCIAL_CARD_HEIGHT
-		});
-
-		return canvas.toDataURL('image/png');
 	}
 
 	async function createQuestion() {
@@ -291,40 +219,7 @@
 				hasContext: Boolean(context.trim())
 			});
 
-			try {
-				createProgressStage = 'generatingImage';
-				// Let the social card render the final collision-safe URL before capture.
-				await tick();
-				const png = await withTimeout(
-					generateQuestionImage(SOCIAL_CARD_CAPTURE_ID),
-					IMAGE_GENERATION_TIMEOUT_MS
-				);
-				// Check image size (rough estimate: base64 is ~1.37x larger than binary)
-				const estimatedSize = png.length * 0.75;
-				if (estimatedSize > 10 * 1024 * 1024) {
-					throw new Error('Generated image is too large. Please try a shorter question.');
-				}
-
-				const uploadBody = new FormData();
-				uploadBody.append('questionId', questionId.toString());
-				uploadBody.append('url', createdUrl);
-				uploadBody.append('img_url', png);
-				uploadBody.append('variant', QUESTION_SOCIAL_CARD_VARIANT);
-
-				await withTimeout(
-					fetch('/api/questions/upload-image', { method: 'POST', body: uploadBody }).then(
-						async (uploadResp) => {
-							if (!uploadResp.ok) {
-								const uploadError = await uploadResp.text();
-								throw new Error(uploadError || 'Image upload failed');
-							}
-						}
-					),
-					IMAGE_UPLOAD_TIMEOUT_MS
-				);
-			} catch (error) {
-				console.error('Error generating or uploading image:', error);
-			}
+			warmQuestionSocialCard(createdUrl);
 
 			createProgressStage = 'redirecting';
 			await tick();
@@ -499,7 +394,7 @@
 				</h3>
 				<p class="mt-2 max-w-sm text-sm text-[var(--ink-mid)]">{createProgressMessage}</p>
 
-				<ol class="mt-6 grid w-full max-w-md grid-cols-3 gap-2" aria-label="Creation progress">
+				<ol class="mt-6 grid w-full max-w-md grid-cols-2 gap-2" aria-label="Creation progress">
 					{#each CREATE_PROGRESS_STEPS as step, index (step.stage)}
 						<li
 							class={`flex flex-col items-center gap-2 text-xs font-medium ${index <= createProgressIndex ? 'text-[var(--ink-bright)]' : 'text-[var(--ink-dim)]'}`}
@@ -546,7 +441,7 @@
 						class="origin-top-left"
 						style="transform: scale({previewWidth ? previewWidth / 1200 : 0.2667})"
 					>
-						<QuestionSocialCardTemplate questionText={question} questionUrl={questionPublicUrl} />
+						<QuestionSocialCardTemplate questionText={question} />
 					</div>
 				</div>
 			</div>
@@ -561,14 +456,6 @@
 		</div>
 	</div>
 </Modal>
-
-<div class="pointer-events-none fixed -left-[200vw] top-0" aria-hidden="true">
-	<QuestionSocialCardTemplate
-		id={SOCIAL_CARD_CAPTURE_ID}
-		questionText={question}
-		questionUrl={questionPublicUrl}
-	/>
-</div>
 
 <style>
 	.creation-spinner {

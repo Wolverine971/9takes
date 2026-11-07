@@ -1,5 +1,6 @@
 <!-- src/lib/components/blog/BlogPageHead.svelte -->
 <script lang="ts">
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
@@ -30,8 +31,7 @@
 	// visual truncation; a literal ellipsis in <title> cuts the keyword tail.
 	let serpTitle = $derived(formattedTitle.trim() || '9takes');
 	let serpDescription = $derived(capDescriptionForSnippet(description || seoTitle || articleTitle));
-	const defaultShareImage = 'https://9takes.com/brand/9takes-nine-mask-social-card.png';
-	let hasCompositeShareImage = $derived(Boolean(data?.pic?.endsWith('-composite')));
+	const defaultShareImage = ogImageUrl('default');
 	let shareImage = $derived(
 		data?.pic
 			? `https://9takes.com/blogs/${data.pic}.webp`
@@ -48,11 +48,10 @@
 					? data.picGroup.map((p) => p.text).join(', ')
 					: articleTitle || '9takes'
 	);
-	let shareImageWidth = $derived(
-		data?.pic ? (hasCompositeShareImage ? '2200' : '900') : data?.picGroup?.length ? '560' : '1200'
-	);
-	let shareImageHeight = $derived(
-		data?.pic ? (hasCompositeShareImage ? '1080' : '900') : data?.picGroup?.length ? '560' : '630'
+	// Only the default card's size is known. Post heroes (`pic`) and portraits (`picGroup`) come
+	// in many sizes, and a wrong hint is worse than none, so those omit width/height.
+	let shareImageSize = $derived(
+		shareImage === defaultShareImage ? { width: 1200, height: 630 } : null
 	);
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
@@ -169,8 +168,7 @@
 					image: {
 						'@type': 'ImageObject',
 						url: shareImage,
-						width: Number(shareImageWidth),
-						height: Number(shareImageHeight)
+						...(shareImageSize ?? {})
 					}
 				}
 			: {}),
@@ -223,8 +221,10 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content={canonicalUrl} />
 	<meta property="og:image" content={shareImage} />
-	<meta property="og:image:width" content={shareImageWidth} />
-	<meta property="og:image:height" content={shareImageHeight} />
+	{#if shareImageSize}
+		<meta property="og:image:width" content={String(shareImageSize.width)} />
+		<meta property="og:image:height" content={String(shareImageSize.height)} />
+	{/if}
 	<meta property="og:image:alt" content={shareImageAlt} />
 	<meta property="og:locale" content="en_US" />
 

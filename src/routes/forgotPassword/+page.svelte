@@ -12,6 +12,7 @@
 	import type { ActionData } from './$types';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import { Button, Field, Input } from '$lib/components/atoms';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import CaptchaFrame from '$lib/components/molecules/CaptchaFrame.svelte';
 	import {
 		ensureRecaptchaLoaded,
@@ -135,7 +136,7 @@
 		}
 	});
 
-	const ogImage = 'https://9takes.com/greek_pantheon.png';
+	const ogImage = ogImageUrl('default');
 </script>
 
 <svelte:head>
@@ -149,7 +150,13 @@
 	<meta property="og:url" content="https://9takes.com/forgotPassword" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content={ogImage} />
-	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta
+		property="og:image:alt"
+		content="9takes: see the emotions behind every take. One question, nine perspectives."
+	/>
 </svelte:head>
 
 <div class="auth-container">

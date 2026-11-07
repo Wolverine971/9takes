@@ -33,6 +33,7 @@ vi.mock('$lib/utils/logger', () => ({
 
 import { GET } from './+server';
 import { QUESTION_SOCIAL_CARD_FILENAME } from '$lib/socialCards/questionSocialCard';
+import { ogImageUrl } from '$lib/brand/brandCardPresets';
 
 function makeSupabase(question: any) {
 	const single = vi.fn().mockResolvedValue({ data: question, error: null });
@@ -151,6 +152,6 @@ describe('GET /questions/[slug]/social-card.png', () => {
 		} as any);
 
 		expect(response.status).toBe(302);
-		expect(response.headers.get('location')).toBe('https://9takes.com/questions-default.webp');
+		expect(response.headers.get('location')).toBe(ogImageUrl('questions'));
 	});
 });

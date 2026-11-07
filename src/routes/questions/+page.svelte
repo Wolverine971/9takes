@@ -13,6 +13,7 @@
 	import AnsweredTypes from '$lib/components/questions/AnsweredTypes.svelte';
 	import { listTypes, missingTypes } from '$lib/data/homepageLiveTypes';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
 	import { extractPageViewAttribution } from '$lib/analytics/attribution';
@@ -262,7 +263,10 @@
 	description="An anonymous Enneagram community Q&A. Answer before the crowd: other answers stay hidden until you post yours, then see how all nine types read the same question."
 	canonical="https://9takes.com/questions"
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/questions-default.webp"
+	ogImage={ogImageUrl('questions')}
+	ogImageWidth={1200}
+	ogImageHeight={630}
+	twitterImageAlt="9takes questions: answer before the crowd. One question, nine perspectives."
 	jsonLd={questionsJsonLd}
 	additionalMeta={[
 		{

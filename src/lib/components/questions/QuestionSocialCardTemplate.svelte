@@ -1,9 +1,11 @@
 <!-- src/lib/components/questions/QuestionSocialCardTemplate.svelte -->
+<!--
+  Preview of the question share card (v4, Cold Light, 2026-11-06), shown in the create modal.
+  The real card is drawn on the server by renderBrandCard ({ template: 'question' }) at
+  /questions/[slug]/social-card.png; this mirrors its layout at 1200x630 so the asker sees
+  what a shared link will look like. Question text only, never takes.
+-->
 <script lang="ts">
-	import {
-		calculateQuestionCardTextLayout,
-		calculateQuestionCardTextLayoutClient
-	} from '$lib/socialCards/questionCardTextLayout';
 	import {
 		QUESTION_SOCIAL_CARD_HEIGHT,
 		QUESTION_SOCIAL_CARD_WIDTH
@@ -11,203 +13,175 @@
 
 	interface Props {
 		questionText?: string;
-		questionUrl?: string;
 		id?: string;
 		className?: string;
 	}
 
-	let { questionText = '', questionUrl = '', id = undefined, className = '' }: Props = $props();
+	let { questionText = '', id = undefined, className = '' }: Props = $props();
 
-	let safeQuestionText = $derived(questionText?.trim() || 'Share your perspective');
-	let safeQuestionUrl = $derived(questionUrl?.trim() || '9takes.com/questions');
-	let displayUrl = $derived(safeQuestionUrl.replace(/^https?:\/\//, ''));
+	const TAKE_CHIPS = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-	// The synchronous estimate renders first (and on the server); the browser
-	// measurement replaces it. A newer text supersedes an in-flight measurement.
-	let textLayout = $derived(calculateQuestionCardTextLayout(safeQuestionText));
+	let safeQuestionText = $derived(
+		questionText.replace(/\s+/g, ' ').trim() || 'Share your perspective'
+	);
 
-	$effect(() => {
-		const text = safeQuestionText;
-		let superseded = false;
-		void calculateQuestionCardTextLayoutClient(text)
-			.then((layout) => {
-				if (!superseded) textLayout = layout;
-			})
-			.catch(() => {
-				if (!superseded) textLayout = calculateQuestionCardTextLayout(text);
-			});
-		return () => {
-			superseded = true;
-		};
+	// Same range as the server card (62px down to 34px, at most four lines across 1072px).
+	let questionFontSize = $derived.by(() => {
+		const length = safeQuestionText.length;
+		if (length <= 40) return 62;
+		if (length <= 70) return 56;
+		if (length <= 110) return 50;
+		if (length <= 160) return 44;
+		if (length <= 220) return 38;
+		return 34;
 	});
 </script>
 
 <div
 	{id}
-	class={`question-social-card ${className}`.trim()}
-	style={`width:${QUESTION_SOCIAL_CARD_WIDTH}px; height:${QUESTION_SOCIAL_CARD_HEIGHT}px;`}
+	class={['question-social-card', className]}
+	style:width="{QUESTION_SOCIAL_CARD_WIDTH}px"
+	style:height="{QUESTION_SOCIAL_CARD_HEIGHT}px"
 >
-	<div class="glow"></div>
-	<div class="shade"></div>
-	<div class="bracket bracket-tl" aria-hidden="true"></div>
-	<div class="bracket bracket-br" aria-hidden="true"></div>
+	<div class="glow" aria-hidden="true"></div>
 
 	<div class="content">
-		<div class="card-top">
-			<p class="brand">9takes</p>
-			<p class="tagline">One question &middot; Nine perspectives</p>
+		<div class="brand">
+			<img src="/brand/9takes-nine-mask-logo.png" alt="" width="52" height="52" />
+			<span>9takes</span>
 		</div>
-		<div class="question-wrap">
-			<h2
-				class="question"
-				style={`font-size:${textLayout.fontSize}px; line-height:${textLayout.lineHeight};`}
-			>
-				{#each textLayout.lines as line, i (`${i}:${line}`)}
-					<span>{line}</span>
-				{/each}
-			</h2>
+
+		<div class="question-band">
+			<p class="kicker">One question, nine perspectives</p>
+			<h2 class="question" style:font-size="{questionFontSize}px">{safeQuestionText}</h2>
 		</div>
+
 		<div class="card-bottom">
-			<span class="rule" aria-hidden="true"></span>
-			<p class="url">{displayUrl}</p>
-			<p class="strip">Answer before the crowd &middot; See all 9 takes</p>
+			<ol class="chips" aria-label="Nine takes, hidden until you answer">
+				{#each TAKE_CHIPS as chip (chip)}
+					<li>{chip}</li>
+				{/each}
+			</ol>
+			<span class="action">Answer before the crowd</span>
 		</div>
 	</div>
 </div>
 
 <style>
-	/* Streetlamp Symposium V5 palette, hardcoded: html2canvas renders this node in an
-	   isolated context where the app's CSS custom properties may not resolve. */
 	.question-social-card {
 		position: relative;
 		overflow: hidden;
 		border-radius: 1rem;
-		background: #0a0807;
-		border: 1px solid rgba(92, 79, 71, 0.5);
-		font-family: 'Inter Variable', 'Inter', 'Helvetica Neue', sans-serif;
+		background: var(--bg);
+		font-family: var(--font-talk);
+		color: var(--text);
 	}
 
+	/* One light, upper-left (Cold Light rule). */
 	.glow {
 		position: absolute;
 		inset: 0;
 		background: radial-gradient(
-			ellipse at 50% 14%,
-			rgba(245, 158, 11, 0.16) 0%,
-			rgba(245, 158, 11, 0.05) 45%,
-			transparent 72%
+			circle at 8% 0%,
+			color-mix(in srgb, var(--accent) 30%, transparent) 0%,
+			color-mix(in srgb, var(--accent-deep) 10%, transparent) 55%,
+			transparent 100%
 		);
-	}
-
-	.shade {
-		position: absolute;
-		inset: 0;
-		background: linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, 0.28) 100%);
-	}
-
-	.bracket {
-		position: absolute;
-		z-index: 3;
-		width: 64px;
-		height: 64px;
-		pointer-events: none;
-	}
-
-	.bracket-tl {
-		top: 32px;
-		left: 32px;
-		border-top: 2px solid rgba(245, 158, 11, 0.6);
-		border-left: 2px solid rgba(245, 158, 11, 0.6);
-	}
-
-	.bracket-br {
-		right: 32px;
-		bottom: 32px;
-		border-right: 2px solid rgba(245, 158, 11, 0.6);
-		border-bottom: 2px solid rgba(245, 158, 11, 0.6);
 	}
 
 	.content {
 		position: relative;
-		z-index: 2;
+		z-index: 1;
 		display: grid;
 		grid-template-rows: auto 1fr auto;
 		height: 100%;
-		padding: 48px 58px 24px;
-		color: #faf8f4;
+		padding: 64px;
 	}
 
-	.card-top {
+	.brand {
 		display: flex;
-		align-items: baseline;
+		align-items: center;
+		gap: 14px;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 1;
+	}
+
+	.brand img {
+		display: block;
+		width: 52px;
+		height: 52px;
+	}
+
+	.question-band {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 22px;
+		padding: 24px 0 40px;
+	}
+
+	.kicker {
+		margin: 0;
+		color: var(--highlight);
+		font-size: 19px;
+		font-weight: 500;
+		letter-spacing: 0.16em;
+		text-transform: uppercase;
+	}
+
+	.question {
+		display: -webkit-box;
+		margin: 0;
+		overflow: hidden;
+		color: var(--text);
+		font-weight: 600;
+		line-height: 1.16;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 5;
+		line-clamp: 5;
+	}
+
+	.card-bottom {
+		display: flex;
+		align-items: center;
 		justify-content: space-between;
 		gap: 24px;
 	}
 
-	.brand {
-		margin: 0;
-		color: #f59e0b;
-		font-size: 23px;
-		font-weight: 700;
-		letter-spacing: 0.18em;
-		text-transform: uppercase;
-	}
-
-	.tagline {
-		margin: 0;
-		color: #948578;
-		font-size: 17px;
-		font-weight: 700;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-	}
-
-	.question-wrap {
+	.chips {
 		display: flex;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-		padding: 18px 60px;
-	}
-
-	.question {
+		gap: 12px;
 		margin: 0;
-		font-weight: 700;
-		color: #faf8f4;
-		text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+		padding: 0;
+		list-style: none;
 	}
 
-	.question span {
-		display: block;
-	}
-
-	.card-bottom {
+	.chips li {
 		display: grid;
-		justify-items: center;
-		gap: 14px;
-	}
-
-	.rule {
-		width: 56px;
-		height: 3px;
-		border-radius: 999px;
-		background: rgba(245, 158, 11, 0.85);
-	}
-
-	.url {
-		margin: 0;
-		color: #a8a095;
-		font-size: 20px;
-		font-weight: 600;
-		text-align: center;
-	}
-
-	.strip {
-		margin: 0;
-		color: #948578;
-		font-size: 15px;
+		place-items: center;
+		width: 44px;
+		height: 44px;
+		border: 1.5px solid color-mix(in srgb, var(--highlight) 28%, transparent);
+		border-radius: 10px;
+		background: var(--surface-raised);
+		color: var(--text-muted);
+		font-size: 18px;
 		font-weight: 700;
-		letter-spacing: 0.18em;
+	}
+
+	.action {
+		display: inline-flex;
+		align-items: center;
+		height: 54px;
+		padding: 0 22px;
+		border-radius: 999px;
+		background: var(--action);
+		color: var(--text-on-action);
+		font-size: 20px;
+		font-weight: 700;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		text-align: center;
+		white-space: nowrap;
 	}
 </style>

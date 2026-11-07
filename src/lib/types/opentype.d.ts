@@ -1,5 +1,16 @@
 // src/lib/types/opentype.d.ts
 declare module 'opentype.js' {
+	export type PathCommand =
+		| { type: 'M' | 'L'; x: number; y: number }
+		| { type: 'Q'; x1: number; y1: number; x: number; y: number }
+		| { type: 'C'; x1: number; y1: number; x2: number; y2: number; x: number; y: number }
+		| { type: 'Z' };
+
+	export interface Path {
+		commands: PathCommand[];
+		toPathData(decimalPlaces?: number): string;
+	}
+
 	export interface Font {
 		tables: { gsub?: unknown };
 		getAdvanceWidth(text: string, fontSize: number, options?: Record<string, unknown>): number;
@@ -9,9 +20,7 @@ declare module 'opentype.js' {
 			y: number,
 			fontSize: number,
 			options?: Record<string, unknown>
-		): {
-			toPathData(decimalPlaces?: number): string;
-		};
+		): Path;
 	}
 
 	export function parse(buffer: ArrayBuffer): Font;

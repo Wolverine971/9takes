@@ -37,9 +37,12 @@
 	import { PUBLIC_SUPABASE_URL } from '$env/static/public';
 	import {
 		isQuestionSocialCardV1,
+		QUESTION_SOCIAL_CARD_HEIGHT,
+		QUESTION_SOCIAL_CARD_WIDTH,
 		toQuestionPublicImageUrl,
 		toQuestionSocialCardRoute
 	} from '$lib/socialCards/questionSocialCard';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import { buildGatedContentFlags } from '$lib/components/questions/answerGist';
 	import { shortDate } from '$lib/components/questions/sealedTakes';
 
@@ -626,7 +629,7 @@
 		if (data.question?.url) {
 			return toQuestionSocialCardRoute(data.question.url);
 		}
-		return 'https://9takes.com/questions-default.webp';
+		return ogImageUrl('questions');
 	});
 	let twitterImageAlt = $derived(
 		`Question on 9takes: ${data.question?.question_formatted || data.question?.question || 'Share your perspective'}`
@@ -865,6 +868,8 @@
 	canonical={url}
 	twitterCardType="summary_large_image"
 	ogImage={imgUrl}
+	ogImageWidth={QUESTION_SOCIAL_CARD_WIDTH}
+	ogImageHeight={QUESTION_SOCIAL_CARD_HEIGHT}
 	twitterImage={imgUrl}
 	{twitterImageAlt}
 	jsonLd={questionStructuredData}

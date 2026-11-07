@@ -1,6 +1,5 @@
 // src/routes/questions/[slug]/social-card.png/+server.ts
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
-// src/routes/questions/[slug]/social-card.png/+server.ts
 import { PUBLIC_SUPABASE_URL } from '$env/static/public';
 import type { RequestHandler } from './$types';
 import { logger } from '$lib/utils/logger';
@@ -11,9 +10,10 @@ import {
 	isQuestionSocialCardV1,
 	toQuestionPublicImageUrl
 } from '$lib/socialCards/questionSocialCard';
+import { ogImageUrl } from '$lib/brand/brandCardPresets';
 
 const CACHE_CONTROL = 'public, max-age=300, s-maxage=3600, stale-while-revalidate=86400';
-const FALLBACK_SOCIAL_IMAGE = 'https://9takes.com/questions-default.webp';
+const FALLBACK_SOCIAL_IMAGE = ogImageUrl('questions');
 const MAX_IMAGE_BYTES = 10 * 1024 * 1024;
 
 const redirectWithCache = (url: string, status = 302) =>
@@ -25,7 +25,7 @@ const redirectWithCache = (url: string, status = 302) =>
 		}
 	});
 
-export const GET: RequestHandler = async ({ params, locals, request }) => {
+export const GET: RequestHandler = async ({ params, locals }) => {
 	const slug = params.slug;
 	const supabase = locals.supabase;
 
@@ -52,7 +52,7 @@ export const GET: RequestHandler = async ({ params, locals, request }) => {
 
 		if (question.img_url && isQuestionSocialCardV1(question.img_url)) {
 			const existingUrl = toQuestionPublicImageUrl(PUBLIC_SUPABASE_URL, question.img_url);
-			logger.info('Question social card redirect (already v1)', {
+			logger.info('Question social card redirect (already current)', {
 				slug,
 				questionId: question.id,
 				path: question.img_url
@@ -77,10 +77,7 @@ export const GET: RequestHandler = async ({ params, locals, request }) => {
 		const questionUrl = `https://9takes.com/questions/${question.url}`;
 		const cardBuffer = await renderQuestionSocialCard({
 			questionText: question.question_formatted || question.question || 'Share your perspective',
-			questionUrl,
-			backgroundUrl: new URL('/greek_pantheon.png', request.url).toString(),
-			fontRegularUrl: new URL('/fonts/NoticiaText-Regular.ttf', request.url).toString(),
-			fontBoldUrl: new URL('/fonts/NoticiaText-Bold.ttf', request.url).toString()
+			questionUrl
 		});
 
 		const upload = await uploadQuestionImageBuffer({

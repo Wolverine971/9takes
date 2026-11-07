@@ -28,14 +28,15 @@ patterns interpret the same situation so you can understand yourself and others 
 
 ## Files in This Folder
 
-| File                                                       | Purpose                                                  | When to Use                          |
-| ---------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------ |
-| [`messaging-hierarchy.md`](./messaging-hierarchy.md)       | **Canonical message hierarchy** - frozen master language | Start every messaging task here      |
-| [`cold-light.md`](./cold-light.md)                         | **Canonical visual identity** - Cold Light (2026-11-05)  | Any visual, image or asset work      |
-| [`brand-positioning.md`](./brand-positioning.md)           | **Strategic foundation** - purpose, values, positioning  | Strategy, new initiatives, alignment |
-| [`brand-style-guide-v2.md`](./brand-style-guide-v2.md)     | Complete brand voice, tone, style                        | Writing any content                  |
-| [`BRAND-KIT.md`](./BRAND-KIT.md)                           | Archived purple-era asset library                        | Historical reference only            |
-| [`dj-communication-guide.md`](./dj-communication-guide.md) | Personal communication preferences                       | AI assistants working with DJ        |
+| File                                                       | Purpose                                                  | When to Use                                       |
+| ---------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------- |
+| [`brand-assets.md`](./brand-assets.md)                     | **Generated brand kit** - lines, look, files, IG/X specs | Any asset, page or messaging task; `/admin/brand` |
+| [`messaging-hierarchy.md`](./messaging-hierarchy.md)       | **Canonical message hierarchy** - frozen master language | Start every messaging task here                   |
+| [`cold-light.md`](./cold-light.md)                         | **Canonical visual identity** - Cold Light (2026-11-05)  | Any visual, image or asset work                   |
+| [`brand-positioning.md`](./brand-positioning.md)           | **Strategic foundation** - purpose, values, positioning  | Strategy, new initiatives, alignment              |
+| [`brand-style-guide-v2.md`](./brand-style-guide-v2.md)     | Complete brand voice, tone, style                        | Writing any content                               |
+| [`BRAND-KIT.md`](./BRAND-KIT.md)                           | Archived purple-era asset library                        | Historical reference only                         |
+| [`dj-communication-guide.md`](./dj-communication-guide.md) | Personal communication preferences                       | AI assistants working with DJ                     |
 
 The visual identity is **Cold Light** ([`cold-light.md`](./cold-light.md)): dark only, Night
 `#01010D` background, indigo `#6331FB` for fills and the statue tint, lavender `#CFC2FF` for the

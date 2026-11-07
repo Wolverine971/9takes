@@ -1,5 +1,6 @@
 <!-- src/lib/components/SEOHead.svelte -->
 <script lang="ts">
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 
 	interface AdditionalMetaEntry {
@@ -30,7 +31,8 @@
 		locale?: string;
 	}
 
-	const DEFAULT_OG_IMAGE = 'https://9takes.com/images/home-reimagined/streetlamp-nine.webp';
+	// Cold Light site-default link preview (1200x630), rendered by `pnpm gen:brand-og`.
+	const DEFAULT_OG_IMAGE = ogImageUrl('default');
 
 	let {
 		title = '9takes - See the emotions behind every take',
@@ -58,10 +60,10 @@
 	// Dimension hints are only emitted when they're actually known: either the
 	// caller passed them, or the tag describes the default image whose size we own.
 	let ogImageWidth = $derived(
-		providedOgImageWidth ?? (ogImage === DEFAULT_OG_IMAGE ? 1400 : undefined)
+		providedOgImageWidth ?? (ogImage === DEFAULT_OG_IMAGE ? 1200 : undefined)
 	);
 	let ogImageHeight = $derived(
-		providedOgImageHeight ?? (ogImage === DEFAULT_OG_IMAGE ? 788 : undefined)
+		providedOgImageHeight ?? (ogImage === DEFAULT_OG_IMAGE ? 630 : undefined)
 	);
 	let twitterImage = $derived(providedTwitterImage ?? ogImage);
 	let twitterImageWidth = $derived(providedTwitterImageWidth ?? ogImageWidth);

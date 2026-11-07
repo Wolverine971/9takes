@@ -8,6 +8,7 @@
 -->
 <script lang="ts">
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import TestFlow from '$lib/components/enneagramTest/TestFlow.svelte';
 	import TypeBadge from '$lib/components/enneagramTest/TypeBadge.svelte';
 	import { EMOTIONS, EMOTION_ORDER, TEST_TYPES, typesForEmotion } from '$lib/enneagramTest/content';
@@ -82,7 +83,16 @@
 	let testActive = $state(false);
 </script>
 
-<SEOHead title={pageTitle} description={pageDescription} canonical={pageUrl} {jsonLd} />
+<SEOHead
+	title={pageTitle}
+	description={pageDescription}
+	canonical={pageUrl}
+	ogImage={ogImageUrl('enneagram-test')}
+	ogImageWidth={1200}
+	ogImageHeight={630}
+	twitterImageAlt="Free Enneagram test on 9takes: what's your type? It starts with emotion, not behavior."
+	{jsonLd}
+/>
 
 <div class="test-page">
 	<TestFlow onActiveChange={(active) => (testActive = active)} />

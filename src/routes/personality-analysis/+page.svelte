@@ -15,6 +15,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import { portraitAlignmentStyle } from './portraitAlignment';
 	import {
@@ -157,7 +158,10 @@
 	description={seoDescription}
 	canonical="https://9takes.com/personality-analysis"
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/brand/9takes-nine-mask-social-card.png"
+	ogImage={ogImageUrl('personality-analysis')}
+	ogImageWidth={1200}
+	ogImageHeight={630}
+	twitterImageAlt="Enneagram celebrities on 9takes: famous people, typed. Read the emotions under the headlines."
 	jsonLd={structuredData}
 	author="9takes"
 />

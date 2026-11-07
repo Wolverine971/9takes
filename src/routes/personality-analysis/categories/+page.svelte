@@ -2,6 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 
 	let { data }: { data: PageData } = $props();
@@ -166,7 +167,9 @@
 	description={seoDescription}
 	canonical={canonicalUrl}
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/brand/9takes-nine-mask-social-card.png"
+	ogImage={ogImageUrl('personality-analysis')}
+	ogImageWidth={1200}
+	ogImageHeight={630}
 	author="9takes"
 	twitterImageAlt="Browse famous people personality analysis by category on 9takes"
 	jsonLd={structuredData}

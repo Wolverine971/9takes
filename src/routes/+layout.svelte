@@ -602,7 +602,7 @@
 </script>
 
 <svelte:head>
-	<link rel="manifest" href="/site.webmanifest?v=20260722" />
+	<link rel="manifest" href="/site.webmanifest?v=20261106" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon-nine-mask.png" />
 	<meta
 		name="viewport"

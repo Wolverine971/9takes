@@ -3,6 +3,11 @@
 <script lang="ts">
 	import { Button } from '$lib/components/atoms';
 	import twitter from '$lib/images/twitter.svg';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
+
+	const shareImage = ogImageUrl('default');
+	const shareImageAlt =
+		'9takes: see the emotions behind every take. One question, nine perspectives.';
 
 	let showEmail = $state(false);
 </script>
@@ -23,28 +28,31 @@
 	<link rel="alternate" href="https://9takes.com/about" hreflang="x-default" />
 
 	<!-- Open Graph -->
+	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content="About 9takes - Answer First, See 9 Perspectives" />
 	<meta
 		property="og:description"
 		content="9takes shows how different Enneagram types read the same situation after you give your own take first."
 	/>
-	<meta property="og:image" content="https://9takes.com/brand/9takes-nine-mask-social-card.png" />
-	<meta property="og:image:alt" content="9takes brand mark" />
+	<meta property="og:image" content={shareImage} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:alt" content={shareImageAlt} />
 	<meta property="og:url" content="https://9takes.com/about" />
 	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="en_US" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@djwayne3" />
+	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content="About 9takes - Answer First, See 9 Perspectives" />
 	<meta
 		name="twitter:description"
 		content="Give your real take first. Then compare how nine Enneagram types read the same situation."
 	/>
-	<meta name="twitter:image" content="https://9takes.com/brand/9takes-nine-mask-social-card.png" />
-	<meta name="twitter:image:alt" content="9takes brand mark" />
+	<meta name="twitter:image" content={shareImage} />
+	<meta name="twitter:image:alt" content={shareImageAlt} />
 
 	<!-- Structured Data for Person and Organization -->
 	<script type="application/ld+json">

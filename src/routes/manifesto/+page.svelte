@@ -2,12 +2,13 @@
 <script lang="ts">
 	import { Button, SectionKicker } from '$lib/components/atoms';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 
 	const title = 'The 9takes Manifesto | Answer Before the Crowd';
 	const description =
 		'The internet collapses nine perspectives into one winning take. 9takes opens the room again so you can answer before the crowd and see what others see.';
 	const canonical = 'https://9takes.com/manifesto';
-	const socialImage = 'https://9takes.com/images/home-reimagined/streetlamp-nine.webp';
+	const socialImage = ogImageUrl('manifesto');
 
 	const articleJsonLd = {
 		'@context': 'https://schema.org',
@@ -30,7 +31,12 @@
 			name: '9takes',
 			url: 'https://9takes.com'
 		},
-		image: socialImage
+		image: {
+			'@type': 'ImageObject',
+			url: socialImage,
+			width: 1200,
+			height: 630
+		}
 	};
 </script>
 
@@ -39,8 +45,10 @@
 	{description}
 	{canonical}
 	ogImage={socialImage}
+	ogImageWidth={1200}
+	ogImageHeight={630}
 	twitterImage={socialImage}
-	twitterImageAlt="Nine people gathered in conversation beneath a streetlamp"
+	twitterImageAlt="The 9takes manifesto: one take wins. The internet collapses nine perspectives into one winning take."
 	ogType="article"
 	jsonLd={articleJsonLd}
 	author="DJ Wayne"

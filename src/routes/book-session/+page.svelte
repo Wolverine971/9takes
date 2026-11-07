@@ -16,6 +16,7 @@
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import { Button, Field, Input, Textarea } from '$lib/components/atoms';
 	import ExperimentalTherapyCard from '$lib/components/blog/ExperimentalTherapyCard.svelte';
 	import VoiceRecorder, {
@@ -201,7 +202,10 @@
 	description={metaDescription}
 	canonical="https://9takes.com/book-session"
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/blogs/greek-statue-enneagram-coaching.webp"
+	ogImage={ogImageUrl('book-session')}
+	ogImageWidth={1200}
+	ogImageHeight={630}
+	twitterImageAlt="Experimental Enneagram therapy on 9takes, free beta 1-on-1: what are you trying to figure out?"
 	twitterCreator="@djwayne3"
 	jsonLd={{
 		'@context': 'https://schema.org',

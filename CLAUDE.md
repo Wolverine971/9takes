@@ -311,16 +311,17 @@ Content here. Can import Svelte components:
 
 Brand docs are in `docs/brand/`:
 
-| File                               | Purpose                                                |
-| ---------------------------------- | ------------------------------------------------------ |
-| `messaging-hierarchy.md`           | **Canonical frozen message hierarchy; read first**     |
-| `cold-light.md`                    | **Canonical visual identity (Cold Light, 2026-11-05)** |
-| `README.md`                        | Quick brand reference (taglines, voice attributes)     |
-| `BRAND-KIT.md`                     | Brand kit (colors, logos, typography)                  |
-| `brand-positioning.md`             | Market positioning                                     |
-| `brand-style-guide-v2.md`          | Complete voice, tone, and style guide                  |
-| `dj-communication-guide.md`        | Personal communication preferences for AI              |
-| `9takes-style-guide-for-assets.md` | Asset-generation style reference                       |
+| File                               | Purpose                                                                    |
+| ---------------------------------- | -------------------------------------------------------------------------- |
+| `brand-assets.md`                  | **Generated brand kit (lines, look, files, social specs); `/admin/brand`** |
+| `messaging-hierarchy.md`           | **Canonical frozen message hierarchy; read first**                         |
+| `cold-light.md`                    | **Canonical visual identity (Cold Light, 2026-11-05)**                     |
+| `README.md`                        | Quick brand reference (taglines, voice attributes)                         |
+| `BRAND-KIT.md`                     | Brand kit (colors, logos, typography)                                      |
+| `brand-positioning.md`             | Market positioning                                                         |
+| `brand-style-guide-v2.md`          | Complete voice, tone, and style guide                                      |
+| `dj-communication-guide.md`        | Personal communication preferences for AI                                  |
+| `9takes-style-guide-for-assets.md` | Asset-generation style reference                                           |
 
 **Key Voice Attributes**:
 
@@ -421,10 +422,14 @@ Run via `pnpm <alias>` where available:
 | `pnpm seo:normalize-internal-personality-links`     | Rewrite internal personality links                                     |
 | `pnpm label-paths`                                  | Annotate files with path comments                                      |
 | `node scripts/blog-image-variants.mjs <slug> <img>` | Build blog image variant set from a ChatGPT-generated image (free)     |
+| `pnpm brand:card -- --list` / `--preset <id>`       | Render on-brand IG/X/OG cards (statement, question, person, slide)     |
+| `pnpm gen:brand-og`                                 | Re-render every link-preview card into `static/brand/og/`              |
+| `pnpm gen:brand-kit`                                | Regenerate `docs/brand/brand-assets.md` from `src/lib/brand/`          |
 
 ## Common Tasks
 
 - **Add blog post**: Create `.md` in `src/blog/[category]/`, run `pnpm index:blogs`. Enneagram Corner posts also need `subtopics: [...]` (lane slugs from `src/lib/data/enneagramCornerTaxonomy.js`; a slug from another section cross-lists the post there) or `pnpm test` fails. Once `published: true`, give it 3+ outbound and 3+ inbound links (`pnpm gen:crosslinks -- --target <url>`) or `pnpm crosslinks:check` (lint + CI) fails. `/crosslink-queue` works the link queue weekly.
+- **Brand assets, social cards, link previews**: the brand kit lives in `src/lib/brand/` (data) and renders at `/admin/brand` (DJ) and `docs/brand/brand-assets.md` (agents, via `pnpm gen:brand-kit`). Make IG/X/OG images with `pnpm brand:card` (same renderer as the site's og:images, `src/lib/server/brandCards/renderBrandCard.ts`); never with an image model. Page og:images use `ogImageUrl('<preset>')` from `src/lib/brand/brandCardPresets.ts`; change copy there, then `pnpm gen:brand-og`.
 - **Add celebrity analysis**: Use admin `/admin/content-board` (saves to `blogs_famous_people`)
 - **Any image (blog hero, carousel, social)**: agents NEVER generate images (DJ's rule, 2026-10-04; one OpenRouter run cost ~$7). That means no OpenRouter, no `gemini-imagegen` / Gemini API, no Canva AI generate, no other paid image API, and no driving ChatGPT in the browser. Write the finished prompt to the Cold Light statue spec (dry matte weathered grey Greek marble, blank carved eyes, one light from the upper left, black background, restrained expression, no text, no warm light; the indigo tint ramp is applied afterward with sharp, so prompts ask for neutral grey stone; see `docs/brand/cold-light.md`) and hand it to DJ; he runs it himself in a separate ChatGPT chat on his subscription. For a blog hero, once he saves the file, `node scripts/blog-image-variants.mjs <slug> <image>` builds the variant set and you set `pic: '<slug>'`. Subagent prompts must restate this rule.
 - **Transcribe audio/video (podcasts, interviews)**: use `whisper-cli` with the local models in `~/.cache/hyperframes/whisper/models/` (`ggml-small.en.bin` is fast, `ggml-medium.en.bin` more accurate). Convert first, then transcribe: `ffmpeg -i in.mp3 -ar 16000 -ac 1 clip.wav && whisper-cli -m ~/.cache/hyperframes/whisper/models/ggml-small.en.bin -f clip.wav -otxt -of clip -np` (a 90-second clip takes about 3 seconds). Never search the whole disk or home folder for models or files (`find /`, `find ~`); a global hook blocks it because it sets off macOS permission prompts on the unattended runs.

@@ -951,10 +951,11 @@ function buildPostEntry(post) {
 	}
 
 	if (post.pic) {
+		const imagePath = `/blogs/${post.pic}.webp`;
 		return {
 			loc,
 			lastmod,
-			imageLoc: `${SITE_URL}/blogs/${post.pic}.webp`
+			...(staticAssetExists(imagePath) && { imageLoc: `${SITE_URL}${imagePath}` })
 		};
 	}
 

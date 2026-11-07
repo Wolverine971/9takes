@@ -13,6 +13,7 @@ import {
 	MessageCircleReply,
 	MessageSquareText,
 	MessagesSquare,
+	Palette,
 	PenLine,
 	RefreshCw,
 	Search,
@@ -91,6 +92,7 @@ export const adminNavGroups = [
 			{ href: '/admin/welcome-sequence', label: 'Welcome sequence', icon: FileText },
 			{ href: '/admin/reactivation-sequence', label: 'Reactivation', icon: RefreshCw },
 			{ href: '/admin/marketing', label: 'Marketing', icon: Megaphone },
+			{ href: '/admin/brand', label: 'Brand kit', icon: Palette },
 			{ href: '/admin/transactional-emails', label: 'Email templates', icon: FileCode2 }
 		]
 	},

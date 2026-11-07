@@ -2,6 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import EnneagramTypeIntro from '$lib/components/blog/EnneagramTypeIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
@@ -171,9 +172,7 @@
 	let leadOgImage = $derived(
 		leadPerson ? buildPersonalityImageUrl(leadPerson.enneagram, leadPerson.slug, 'full') : ''
 	);
-	let ogImage = $derived(
-		leadOgImage || 'https://9takes.com/brand/9takes-nine-mask-social-card.png'
-	);
+	let ogImage = $derived(leadOgImage || ogImageUrl('personality-analysis'));
 
 	let breadcrumbSchema = $derived({
 		'@type': 'BreadcrumbList',
@@ -394,6 +393,8 @@
 	canonical={canonicalUrl}
 	twitterCardType="summary_large_image"
 	{ogImage}
+	ogImageWidth={leadOgImage ? undefined : 1200}
+	ogImageHeight={leadOgImage ? undefined : 630}
 	twitterImageAlt={`Famous Enneagram Type ${data.slug}: ${typeInfo.name}`}
 	author="9takes"
 	ogType="website"

@@ -132,16 +132,14 @@
 	canonical="https://9takes.com/pop-culture"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/blogs/pop-queens-enneagram-analysis-composite.webp"
+	author="9takes"
 	additionalMeta={[
 		{
 			name: 'keywords',
 			content:
 				'dark triad, criminal psychology, celebrity psychology, enneagram pop culture, serial killers, personality disorders, famous scandals, narcissism, psychopathy, cultural psychology, celebrity mental health'
 		},
-		{ name: 'author', content: '9takes' },
-		{ property: 'article:publisher', content: 'https://9takes.com' },
-		{ property: 'og:site_name', content: '9takes' },
-		{ property: 'og:locale', content: 'en_US' }
+		{ property: 'article:publisher', content: 'https://9takes.com' }
 	]}
 />
 
