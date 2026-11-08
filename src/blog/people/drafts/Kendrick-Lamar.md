@@ -223,6 +223,14 @@ Under stress a Four moves to Type 2, and you can see it in Kendrick's over-ident
 
 The strongest alternate case is Type 1. Kendrick is deeply moralistic, casts himself as a conscience and a truth-teller, and frames GNX as a mission to expose fraud and reset the culture. That is real reformer energy. There is also a Type 8 reading: the dominance ("it's just big me"), the appetite for war, the protectiveness of the West Coast. But both fall short of the center. A Type 1's anger is about correcting external wrongs; Kendrick's is inseparable from his own identity and worth. A Type 8 does not write "the thing I fear most is myself," does not build albums out of shame, does not go silent for years to process feeling. The moralism and the combat are how the identity expresses itself. The identity itself, fragile, singular, terrified of being unreal, is pure Four.
 
+The Type 6 case gets raised more than either, and it deserves a real hearing. Kendrick describes himself through fear first ("I fear a lot of things"). He put a track called "FEAR." at the center of _DAMN._ and fought Drake under a title that draws a group line: "Not Like Us." Rallying the West Coast against an outsider, then carrying that fight onto the Super Bowl stage, can look like a Six defending the tribe.
+
+Watch what he does with allies, though. Offered a seat in a "Big Three," he answered "it's just big me." In August 2021 he announced he was making his final TDE album, leaving the label that signed him at fifteen, and _Mr. Morale & the Big Steppers_ became his first release under pgLang, his own company.
+
+On "Savior" he tells fans flatly, "Kendrick made you think about it, but he is not your savior."
+
+A Six under threat reaches for a trusted structure. Kendrick keeps walking out of his, and the fear he ranks highest is himself. The "Us" is a standard he holds people to, with room inside it for very few.
+
 </div>
 </details>
 

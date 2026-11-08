@@ -5,7 +5,7 @@
 
   Three emotion cards. Each names the intelligence that emotion builds, then
   the type that uses it, the type that pushes it down and the type that
-  doesn't notice it, with that type's superpower. Emotion names, colors and
+  doesn't notice it, with that type's superpower. Emotion names and
   the uses / pushes down / doesn't notice split come from the Enneagram test
   copy bank (DJ's triad map). Do not "correct" the split here.
 
@@ -31,7 +31,7 @@
 		{#each EMOTION_ORDER as emotion (emotion)}
 			{@const content = EMOTIONS[emotion]}
 			{@const intelligence = INTELLIGENCE[emotion]}
-			<div class="sp-map__card" style="--emo: {content.color}">
+			<div class="sp-map__card" style="--emo: {EMOTION_TINT[emotion]}">
 				<div class="sp-map__head">
 					<span class="sp-map__emotion">{content.name}</span>
 					<span class="sp-map__intel"
@@ -85,7 +85,7 @@
 		border-radius: 1rem;
 		border: 1px solid color-mix(in srgb, var(--emo) 34%, transparent);
 		border-top: 4px solid var(--emo);
-		background: color-mix(in srgb, var(--emo) 7%, var(--stone-warm));
+		background: color-mix(in srgb, var(--emo) 7%, var(--surface));
 	}
 
 	.sp-map__head {
@@ -96,29 +96,29 @@
 	}
 
 	.sp-map__emotion {
-		font-size: 0.75rem;
+		font-size: var(--font-size-xs);
 		font-weight: 800;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--highlight);
 	}
 
 	.sp-map__intel {
-		font-size: 1.1rem;
+		font-size: var(--font-size-lg);
 		font-weight: 800;
 		line-height: 1.2;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.sp-map__arrow {
 		margin-right: 0.3em;
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--text-faint);
 	}
 
 	.sp-map__line {
-		font-size: 0.82rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.4;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	/* The article's prose-link rule (.blog a:not(...) x5) outranks any sane
@@ -130,9 +130,9 @@
 		gap: 0.6rem;
 		padding: 0.6rem 0.55rem;
 		border-radius: 0.625rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
-		background: color-mix(in srgb, var(--night-deep) 55%, transparent);
-		color: var(--ink-bright);
+		border: 1px solid color-mix(in srgb, var(--text-faint) 22%, transparent);
+		background: color-mix(in srgb, var(--bg) 55%, transparent);
+		color: var(--text);
 		text-decoration: none !important;
 		transition:
 			border-color 0.18s ease,
@@ -140,11 +140,11 @@
 
 		&:hover {
 			border-color: color-mix(in srgb, var(--emo) 60%, transparent);
-			background: color-mix(in srgb, var(--emo) 12%, var(--night-deep));
+			background: color-mix(in srgb, var(--emo) 12%, var(--bg));
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--highlight);
 			outline-offset: 2px;
 		}
 	}
@@ -156,7 +156,7 @@
 		line-height: 1;
 		text-align: center;
 		font-feature-settings: 'tnum';
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--highlight);
 	}
 
 	.sp-map__body {
@@ -167,24 +167,24 @@
 	}
 
 	.sp-map__tag {
-		font-size: 0.66rem;
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.sp-map__name {
-		font-size: 0.8rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.3;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.sp-map__power {
-		font-size: 0.95rem;
+		font-size: var(--font-size-base);
 		font-weight: 700;
 		line-height: 1.25;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.sp-map__sr {
@@ -200,9 +200,9 @@
 	   rule would otherwise restyle the caption. */
 	.sp-map .sp-map__caption {
 		margin-top: 0.9rem;
-		font-size: 0.82rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.55;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		text-align: center;
 		font-style: italic;
 	}

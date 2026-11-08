@@ -274,7 +274,7 @@ The Type 3 reading is the popular one and it is not stupid: the medals, the bran
 
 The split is in what each type asks after a win. A Three asks whether the result was enough, and it never is; 9takes' own [Type 3](/enneagram-corner/enneagram-type-3) page calls it a moving finish line. Biles takes the win as given and goes straight to whether the thing that broke can break again. No Achiever reading explains why the threat rather than the verdict is what she cannot close.
 
-**Confidence: high on Six over Three, moderate on that tiebreaker,** which rests on one coach's recollection and one therapy exchange she reported herself. What would overturn it: she rebuilds without a trusted circle, or competes the double pike unspotted while the deduction still stands. The wing, the subtype, the arrows and the full argument against are further down the page.
+**Confidence: high on Six over Three, moderate on that tiebreaker,** which rests on one coach's recollection and one therapy exchange she reported herself. What would overturn it is a pattern over years: major calls made with no trusted person consulted, and fear dropping out of her own account of them. One solo decision would not. The wing, the subtype, the arrows and the full argument against are further down the page.
 
 ---
 
@@ -437,7 +437,9 @@ The counterphobic evidence is loud. She competes skills nobody else will attempt
 
 ### Stress and Growth Arrows
 
-Under strain a Six borrows the Three, and 2018 to 2021 is the clean example: a federal investigation, a national team, the GOAT branding, and a private belief that her presence was the only thing keeping the scandal visible, carried without telling anyone she was fraying. Competence became the costume, and it held until her body took it off in front of the world. In growth she borrows the Nine, and it reads as self-trust: therapy every Thursday, a coaching plan she did not choose and accepted anyway, the bow to Andrade. Rio 2016 left her ashamed of a beam bronze for years; Tokyo 2021 she swung hers around her neck. More on the <a href="/enneagram-corner/enneagram-types-in-stress">stress lines</a>.
+Under strain a Six borrows the Three, and 2018 to 2021 is the clean example: a federal investigation, a national team, and a private belief that her presence was the only thing keeping the scandal visible, carried without telling anyone she was fraying. Her excellence predates all of it. What the stress line added was the look of being unbreakable while carrying it, a costume that held until her body took it off in front of the world.
+
+In growth she borrows the Nine, and it reads as self-trust: therapy every Thursday, a coaching plan she did not choose and accepted anyway, the bow to Andrade. Rio 2016 left her ashamed of a beam bronze for years; Tokyo 2021 she swung hers around her neck. More on the <a href="/enneagram-corner/enneagram-types-in-stress">stress lines</a>.
 
 ### What about Simone Biles's MBTI type?
 
@@ -445,11 +447,11 @@ Personality Database crowd-votes her ESFJ, and it picks up something real: the g
 
 ### Counterarguments: Why Simone Biles might not be Type 6
 
-The Type 3 case is argued up in the diagnosis section, and so are two of the three falsifiers. Here is the third: she settles Los Angeles without consulting the people she consults. Any one of them and the Six reading loses its spine. The reason to keep it is that both questions were asked privately, to people with no audience attached, and one she was still asking eight years later.
+The Type 3 case is argued up in the diagnosis section, and so is the falsifier. One solo call doesn't break a Six reading. Sixes decide things alone all the time, and if she settles Los Angeles by herself, that is one decision. What would break it is years of them, with fear gone from her own account. The reason to keep the read is that both questions were asked privately, to people with no audience attached, and one she was still asking eight years later.
 
 Type 2 has a smaller case built on the warmth, and Type 8 one built on the clapbacks. A Two's worst outcome is going unneeded; hers is letting somebody down. An Eight comes in hard because the fear is absent; she comes in hard at a fear she feels, which is the counterphobic charge above.
 
-What Six does not account for: ten years of self-initiated record-chasing, and going back to the site of her worst public failure to do it again. The wing and the stress line are the reconciliation offered above, and the softest seam here.
+Record-chasing isn't a problem for this read either. A Six can be the greatest of all time. Ten years of self-set records, and a return to the Olympics after her worst public failure there, show the type's strengths at full size: preparation, and courage that walks into the fear with eyes open. What marks hers is the question a Three never asks: can the thing that broke break again? That is why she pays half a point for a spotter on the hardest vault any woman has competed.
 
 </div>
 </details>

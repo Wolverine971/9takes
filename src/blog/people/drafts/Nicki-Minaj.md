@@ -286,7 +286,7 @@ She also talks differently about motherhood since her son Papa Bear was born in 
 
 ## The Fortress That Became a Prison
 
-If you map Nicki's public conflicts with Cardi B, Megan Thee Stallion, Mariah Carey, journalists, anyone who's crossed the invisible line, a pattern emerges in the early years. It's always about betrayal. Someone she trusted breaks loyalty, and the response is immediate, overwhelming, and disproportionate to what an outsider would consider the offense. The Eight's most sacred law: you don't betray the people who protected you.
+If you map Nicki's public conflicts with Cardi B, Megan Thee Stallion, Mariah Carey, journalists, anyone who's crossed the invisible line, a pattern emerges in the early years. It's always about betrayal. Someone she trusted breaks loyalty, and the response is immediate, overwhelming, and disproportionate to what an outsider would consider the offense. Her most sacred law: you don't betray the people who protected you.
 
 By 2025, the pattern mutated into something harder to explain with loyalty alone.
 
@@ -355,7 +355,11 @@ The arms are still out. They have always been out. But in 2026, the question is 
 
 <h3>Counterarguments: Why Nicki Minaj Might Not Be Type 8</h3>
 
-<p>The strongest alternate case is Type 3: the relentless drive to be first, the "female rapper turned mogul" ambition, the image-management, the alter egos as curated personas. But the 3 chases the win and the admiration; Nicki repeatedly chooses confrontation over optimization, torching valuable alliances on principle rather than managing her image to keep winning. A Type 6 case rests on the lifelong vigilance and the loyalty-testing, and a counterphobic Six can look a lot like an Eight. The tell is the source of the energy: the Six's aggression is anxiety pushed outward and reaching for security, while Nicki's runs on anger and appetite, the Eight's instinct to control the territory rather than secure a guarantee from it. What would change our mind: evidence that the dominance is fundamentally image-management for status (3), or that the fighting is fear-driven threat-scanning reaching for protection (6) rather than the Eight's refusal to be controlled.</p>
+<p>The strongest alternate case is Type 3: the relentless drive to be first, the "female rapper turned mogul" ambition, the image-management, the alter egos as curated personas. But the 3 chases the win and the admiration; Nicki repeatedly chooses confrontation over optimization, torching valuable alliances on principle rather than managing her image to keep winning.</p>
+
+<p>The Type 6 case is stronger than a line or two can settle. Loyalty tests, betrayal as the one unforgivable offense, allies turning into suspects, a fan army as the in-group, the "more anxiety" that arrived with her son: a counterphobic Six could own every item on that list. The difference shows when the ground shifts. A Six under pressure looks for something solid to stand behind, a mentor or a rulebook, and tests it hard before trusting it. Nicki goes after the authority itself. Record executives told her female rappers don't make it anymore, and she built a career on proving them wrong. When her conflict was with Jay-Z and Roc Nation, the most powerful structure in her genre, she took it public. She won't even hand off the business, because delegating means leaning on someone. The Barbz don't shelter her. She commands them. The fear on this page is real. It just isn't the thing making her decisions.</p>
+
+<p>What would change our mind: evidence that the dominance is fundamentally image-management for status (3), or that the fighting is fear-driven threat-scanning reaching for protection (6) rather than the Eight's refusal to be controlled.</p>
 </div>
 </details>
 

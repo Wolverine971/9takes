@@ -184,6 +184,10 @@ The evidence is structural, not superficial:
 
 **Why not [Type 3](/enneagram-corner/enneagram-type-3), the Achiever?** Both types drive toward excellence, but the engine is different. A 3 performs for the audience — they want to _appear_ successful. Jobs demanded perfection inside a sealed box where no audience existed. A 3 manages relationships strategically. Jobs called people "bozos" to their faces, berated waitresses, alienated teams. He wasn't curating an image; he was prosecuting a standard. When Apple was struggling in 1997, an ad agency pitched the slogan "We're back." A 3 would have seized it — great narrative management. Jobs rejected it because it wasn't _true_ yet. The distinction matters: Jobs wasn't chasing applause. He was chasing correctness.
 
+**Why not [Type 4](/enneagram-corner/enneagram-type-4), the Individualist?** Some readers see a Four here: the adopted boy who "always felt special," the tears over a CD tray, a lifelong sense of not being good enough, a career spent on beautiful objects. The Enneagram expects all of it. A One under stress moves toward Four, and the wilderness years are where Jobs looks most like one, puffy-eyed on a mattress in an empty mansion.
+
+The split is in where "not good enough" lands. A Four feels something is missing in who they are. Jobs's verdicts landed on the thing in front of him: the circuit board no customer would see, the plastic screen scratched by his keys, the slogan "We're back," rejected because it wasn't true yet. He cried over the CD tray because it was the wrong shape. A Four asks, "Is this me?" Jobs asked, "Is this right?"
+
 ---
 
 ## Steve Jobs's Spiritual Minimalism and Design Obsession

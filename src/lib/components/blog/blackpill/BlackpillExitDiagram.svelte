@@ -160,16 +160,16 @@
 		margin: 3rem 0;
 		padding: clamp(1rem, 3vw, 2rem);
 		transform: translateX(-50%);
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 16px;
 		background:
 			radial-gradient(
 				circle at 50% 100%,
-				color-mix(in srgb, var(--data-teal) 11%, transparent),
+				color-mix(in srgb, var(--accent) 14%, transparent),
 				transparent 34rem
 			),
-			var(--night-deep);
-		color: var(--ink-bright);
+			var(--bg);
+		color: var(--text);
 		overflow: hidden;
 	}
 
@@ -188,20 +188,20 @@
 
 	.map-header > p:last-child {
 		margin: 0;
-		color: var(--ink-mid);
-		font-size: 1rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-base);
 	}
 
 	.kicker,
 	.stage-label,
 	.action-label {
 		margin: 0;
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 	}
 
 	.see-stage,
@@ -210,9 +210,9 @@
 	.upward-stage {
 		margin-top: 1rem;
 		padding: clamp(1rem, 3vw, 1.5rem);
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 16px;
-		background: color-mix(in srgb, var(--stone-warm) 88%, transparent);
+		background: color-mix(in srgb, var(--surface) 88%, transparent);
 	}
 
 	.stage-copy {
@@ -228,12 +228,12 @@
 		width: 2.75rem;
 		height: 2.75rem;
 		flex: 0 0 auto;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 35%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
 		border-radius: 10px;
-		background: var(--night-deep);
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
-		color: var(--ink-mid);
+		background: var(--bg);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		color: var(--text-muted);
 	}
 
 	.stage-copy h3,
@@ -259,9 +259,9 @@
 		align-content: center;
 		min-height: 6rem;
 		padding: 0.8rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 10px;
-		background: var(--night-mid);
+		background: var(--surface-raised);
 	}
 
 	.cycle-strip li:not(:last-child)::after {
@@ -275,36 +275,36 @@
 		width: 1rem;
 		height: 1rem;
 		transform: translateY(-50%);
-		background: var(--night-deep);
-		color: var(--lamp-glow);
-		font-size: 0.8rem;
+		background: var(--bg);
+		color: var(--text-faint);
+		font-size: var(--font-size-sm);
 	}
 
 	.cycle-strip span {
-		font-family: var(--font-mono);
-		font-size: 0.66rem;
-		color: var(--ink-dim);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		color: var(--text-faint);
 	}
 
 	.cycle-strip strong {
 		margin-top: 0.3rem;
-		font-size: 0.9rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.3;
 	}
 
 	.cycle-return,
 	.upward-return {
 		margin: 0.8rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		text-align: center;
 	}
 
 	.cycle-return span,
 	.upward-return span {
 		margin-right: 0.25rem;
-		color: var(--lamp-glow);
-		font-size: 1.2rem;
+		color: var(--text-faint);
+		font-size: var(--font-size-xl);
 	}
 
 	.truth-key {
@@ -312,12 +312,12 @@
 		grid-template-columns: minmax(0, 1fr) 6rem minmax(0, 1fr);
 		gap: 0.75rem;
 		margin-bottom: 0.5rem;
-		font-family: var(--font-mono);
-		font-size: 0.68rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.truth-key span:nth-child(2) {
@@ -335,33 +335,33 @@
 		gap: 0.75rem;
 		align-items: center;
 		padding: 0.75rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 10px;
-		background: var(--night-mid);
+		background: var(--surface-raised);
 	}
 
 	.truth-row p {
 		margin: 0;
-		font-size: 0.9rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.35;
 	}
 
 	.truth-row p:first-child {
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.truth-row p:last-child {
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		text-decoration: line-through;
-		text-decoration-color: color-mix(in srgb, var(--error) 60%, transparent);
+		text-decoration-color: var(--text-faint);
 	}
 
 	.truth-row > span {
-		font-family: var(--font-mono);
-		font-size: 1.2rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xl);
 		font-weight: 700;
 		text-align: center;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.action-grid {
@@ -375,21 +375,17 @@
 		min-width: 0;
 		flex-direction: column;
 		padding: 1rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 10px;
-		background: var(--night-mid);
+		background: var(--surface-raised);
 	}
 
 	.social-card {
-		border-color: color-mix(in srgb, var(--lamp-glow) 40%, var(--stone-edge));
+		border-color: color-mix(in srgb, var(--accent) 50%, transparent);
 	}
 
 	.economic-card {
-		border-color: color-mix(in srgb, var(--data-teal) 45%, var(--stone-edge));
-	}
-
-	.economic-card .action-label {
-		color: var(--data-cyan);
+		border-color: color-mix(in srgb, var(--highlight) 30%, transparent);
 	}
 
 	.action-card ul {
@@ -403,8 +399,8 @@
 	.action-card li {
 		position: relative;
 		padding-left: 1.15rem;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.4;
 	}
 
@@ -412,32 +408,24 @@
 		content: '↗';
 		position: absolute;
 		left: 0;
-		color: var(--lamp-glow);
-	}
-
-	.economic-card li::before {
-		color: var(--data-cyan);
+		color: var(--highlight);
 	}
 
 	.action-result {
 		margin: auto 0 0;
 		padding: 0.75rem;
 		border-radius: 10px;
-		background: var(--stone-warm);
-		font-size: 0.86rem;
+		background: var(--bg);
+		font-size: var(--font-size-sm);
 		font-weight: 700;
 		line-height: 1.4;
 	}
 
 	.upward-stage {
-		border-color: color-mix(in srgb, var(--data-teal) 48%, var(--stone-edge));
+		border-color: color-mix(in srgb, var(--highlight) 35%, transparent);
 		background:
-			linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--data-teal) 10%, transparent),
-				transparent 55%
-			),
-			var(--stone-warm);
+			linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, transparent), transparent 55%),
+			var(--surface);
 	}
 
 	.upward-heading {
@@ -461,9 +449,9 @@
 		align-content: center;
 		min-height: 5.5rem;
 		padding: 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--data-teal) 42%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--highlight) 30%, transparent);
 		border-radius: 10px;
-		background: var(--night-mid);
+		background: var(--surface-raised);
 	}
 
 	.upward-stage li:not(:last-child)::after {
@@ -477,25 +465,25 @@
 		width: 1rem;
 		height: 1rem;
 		transform: translateY(-50%);
-		background: var(--night-deep);
-		color: var(--data-cyan);
-		font-size: 0.8rem;
+		background: var(--bg);
+		color: var(--highlight);
+		font-size: var(--font-size-sm);
 	}
 
 	.upward-stage li span {
-		font-family: var(--font-mono);
-		font-size: 0.66rem;
-		color: var(--data-cyan);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		color: var(--highlight);
 	}
 
 	.upward-stage li strong {
 		margin-top: 0.3rem;
-		font-size: 0.88rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.3;
 	}
 
 	.upward-return span {
-		color: var(--data-cyan);
+		color: var(--highlight);
 	}
 
 	/* The shared article TOC becomes a fixed 200px left rail on wide screens.

@@ -67,13 +67,13 @@ citations:
   - 'https://www.tvline.com/2020349/why-mila-kunis-replaced-lacey-chabert-meg-griffin-family-guy/'
 faqs:
   - question: "What is Mila Kunis's personality type?"
-    answer: "Mila Kunis fits Enneagram Type 6 (The Loyalist). Her own accounts center on safe places, long-term trust, and rapid action when people or places inside her circle feel threatened. The pattern connects her decades with the same manager and Family Guy, the Ukraine fundraiser she helped launch in 2022, and the Danny Masterson character letter that damaged her reputation in 2023."
+    answer: "Mila Kunis fits Enneagram Type 6 (The Loyalist). Her own accounts center on safe places, long-term trust, and rapid action when people or places inside her circle feel threatened. The pattern connects her decades with the same manager and Family Guy, the Ukraine fundraiser she helped launch in 2022, and the Black Swan set where she and Natalie Portman compared the director's messages instead of competing."
     anchor: 'what-is-mila-kuniss-personality-type'
   - question: "How did Mila Kunis's family come to America?"
     answer: "Her family left Soviet Ukraine in 1991 on religious-refugee visas after facing antisemitism. Kunis was seven, spoke no English, and has said the family arrived with $250. In a 2016 interview, she said her parents later spent $890 of their last $900 on an acting class. Her 2018 retelling said the check left $300. Both versions agree that the class consumed most of the family's cash and led her to Susan Curtis, who still managed her in 2018."
     anchor: 'the-890-that-bought-her-future'
   - question: 'Why did Mila Kunis write a character letter for Danny Masterson?'
-    answer: "Masterson's family asked Kunis and Ashton Kutcher to describe the person they had known for 25 years so the sentencing judge could consider that history. Kunis praised his 'innate goodness' after his conviction on two rape counts. This article reads the decision as misplaced Type 6 loyalty: private history displaced the scrutiny the verdict required. That explains the mechanism without excusing the letter."
+    answer: "Masterson's family asked Kunis and Ashton Kutcher to describe the person they had known for 25 years so the sentencing judge could consider that history. Kunis praised his 'innate goodness' after his conviction on two rape counts. Kutcher wrote one too, so the letter says little about either person's type. This article reads it as the cost of a loyalty pattern documented elsewhere in her life: twenty-five years of private history outranked a jury verdict. That explains the mechanism without excusing the letter."
     anchor: 'the-masterson-letter-and-the-limit-of-loyalty'
   - question: 'How did Mila Kunis and Ashton Kutcher get together?'
     answer: "They met on That '70s Show when she was fourteen and he was nineteen, but did not date during the series. They reconnected in 2012 after other long relationships ended and initially agreed to keep things casual. Kunis later told James Corden that they trusted each other and were living together three months later."
@@ -133,7 +133,8 @@ Her own words point somewhere tenser. The calm looks like the result of preparin
 <li><b>The calm has a job:</b> Her public ease sits on top of preparation, planning, and firm boundaries around work and family.</li>
 <li><b>The refugee history matters:</b> Her family left antisemitic Soviet Ukraine on religious-refugee visas. Her earliest memories of America are fear, confusion, and a language she could not understand.</li>
 <li><b>Loyalty lasts:</b> A manager she kept from childhood into adulthood, Meg Griffin since 1999, a husband she first met at fourteen, and a tightly protected family schedule.</li>
-<li><b>Loyalty can fail:</b> The Ukraine fundraiser and the Masterson letter show the helpful and harmful ends of the same protect-the-circle reflex.</li>
+<li><b>Old trust beats manufactured doubt:</b> On <em>Black Swan</em>, she and Natalie Portman compared Darren Aronofsky's messages and laughed off his attempt to make them rivals.</li>
+<li><b>The cost:</b> Her 2023 letter for Danny Masterson, written alongside one from Kutcher, shows what happens when that loyalty outlasts a jury verdict. It is a cost of the pattern, and weak evidence of type on its own.</li>
 </ul>
 </div>
 </details>
@@ -142,7 +143,7 @@ Her own words point somewhere tenser. The calm looks like the result of preparin
 
 ### Mila Kunis is an Enneagram Type 6
 
-Mila Kunis fits Enneagram Type 6, the Loyalist. Her public record is organized around preparation, long-term trust, and fast action when her circle feels threatened. The same pattern helps explain her durable career, her Ukraine fundraiser, and the character letter that damaged her reputation.
+Mila Kunis fits Enneagram Type 6, the Loyalist. Her public record is organized around preparation, long-term trust, and fast action when her circle feels threatened. The same pattern helps explain her durable career and her Ukraine fundraiser. It also shows what it costs when it misfires, as it did with the 2023 character letter that damaged her reputation.
 
 [Type 6](/enneagram-corner/enneagram-type-6) is built around a question: _Is this ground safe?_ Sixes scan for risk, test who can be trusted, and build reliable structures around the people and institutions that pass. The fear is uncertainty. The desire is dependable ground. Relief arrives when the plan, the person, or the group holds. The pattern is closely tied to [anticipatory anxiety](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
 
@@ -169,7 +170,7 @@ Her story shows both social and self-preservation concerns. Social Six themes ap
 
 ### Stress toward Type 3, growth toward Type 9
 
-The line toward Type 3 can turn a Six's uncertainty into a push to control how other people interpret the situation. The 2023 apology video focused heavily on the letters' intent and the way they were meant to be understood. A healthier move toward Type 9 would look quieter: tolerating uncertainty long enough to reconsider whether an old loyalty still deserves authority. Her 2025 one-film-per-year boundary and alternating work schedule with Kutcher suggest a life built around steadier limits, though they do not prove an arrow movement.
+The line toward Type 3 can turn a Six's uncertainty into a push to control how other people interpret the situation. A healthier move toward Type 9 would look quieter: tolerating uncertainty long enough to reconsider whether an old loyalty still deserves authority. Her 2025 one-film-per-year boundary and alternating work schedule with Kutcher suggest a life built around steadier limits, though they do not prove an arrow movement.
 
 ### Why the relaxed surface can look like Type 9
 
@@ -243,9 +244,7 @@ Aronofsky also admitted trying to make Kunis and Portman compete. The two friend
 
 ## The Masterson letter and the limit of loyalty
 
-On October 7, 2022, Netflix released _Luckiest Girl Alive_. Kunis starred in it and served as a producer. The story follows a woman whose adult life has been built around sexual assault she could not publicly name. Author Jessica Knoll had already disclosed that the rape in her novel drew from her own experience as a teenager.
-
-Eleven months later, Danny Masterson was sentenced to thirty years to life after a jury at his second trial convicted him on two rape counts. Kunis and Kutcher had submitted character letters for Judge Charlaine Olmedo to consider at sentencing.
+In September 2023, Danny Masterson was sentenced to thirty years to life after a jury at his second trial convicted him on two rape counts. Kunis and Kutcher had submitted character letters for Judge Charlaine Olmedo to consider at sentencing.
 
 Kunis wrote that she had sensed Masterson's "innate goodness and genuine nature" from the beginning. She called him a role model. The [full letter](https://dam.tmz.com/document/6b/o/2023/09/19/6be0e9cb3be94a9abc7fd39a0324e260.pdf) described the friend she believed she had known for twenty-five years.
 
@@ -253,17 +252,19 @@ The public response was immediate. Kunis and Kutcher posted a video the next day
 
 One of the women Masterson was convicted of raping called the video "incredibly insulting and hurtful."
 
-The letter is the sharpest test of this personality analysis. It shows the danger of treating private history as stronger evidence than a verdict built from testimony Kunis did not witness.
+The letter is the sharpest cost of this pattern. It shows the danger of treating private history as stronger evidence than a verdict built from testimony Kunis did not witness.
+
+As evidence of type, though, it is weak. Kutcher wrote a letter too, and his pattern reads more like a Seven's. Loyalty to a friend of twenty-five years is something any type can feel. What makes the letter Six-shaped on this page is the pattern built elsewhere in her life: the safe-place language, the manager she calls a parent, trust as the deciding word. The letter shows what that pattern costs when it meets a verdict.
 
 The Type 6 conflict can be stated without pretending to know her private thoughts:
 
 <p class="inner-thought">Twenty-five years of private history. One jury verdict. One family request. Which source of certainty gets to define the person?</p>
 
-The letter answered that question in the wrong direction. A trusted person stayed inside the protected unit after the evidence required scrutiny.
+In the letter, private history won. A trusted person stayed inside the protected unit after a jury had weighed testimony Kunis never heard.
 
 The apology video preserved the same frame. Its language concentrated on intent, purpose, and what the letters were meant to do. It offered far less reconsideration of the judgment that produced them.
 
-The letter becomes understandable as misplaced loyalty, and it remains indefensible as a response to two rape convictions. Explanation stops well short of absolution.
+The Six pattern shows up here as twenty-five years of private trust outranking a jury verdict. That explains how the letter got written. It does not excuse what the letter said, and Kunis signed it under her own name.
 
 ## What her calm is protecting
 
@@ -273,7 +274,7 @@ For much of Kunis's life, loyalty has been an asset. It kept relationships durab
 
 The Masterson letter exposed the boundary. Loyalty can organize a life. It cannot decide whether the person receiving it still deserves protection.
 
-The country had earned her loyalty. The friend had not.
+The question her pattern leaves open is what it would take, for her, to move someone outside the circle once they are in.
 
 <!-- TESTIMONY LEDGER
 1. Mila Kunis: "Until I get comfortable and I feel like I'm in a safe place." WTF with Marc Maron, July 2018. Used in the epigraph and diagnosis.

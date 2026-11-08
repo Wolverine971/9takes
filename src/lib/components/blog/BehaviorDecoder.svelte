@@ -10,8 +10,6 @@
   ones use `hidden`) so the content is crawlable and works without JS.
 -->
 <script lang="ts">
-	import { TYPE_COLOR_MAP } from '$lib/constants/enneagramColors';
-
 	type Motive = {
 		type: number;
 		feeling: string;
@@ -280,8 +278,7 @@
 				aria-selected={activeId === behavior.id}
 				aria-controls="decoder-panel-{behavior.id}"
 				tabindex={activeId === behavior.id ? 0 : -1}
-				class="decoder__tab"
-				class:decoder__tab--active={activeId === behavior.id}
+				class={['decoder__tab', { 'decoder__tab--active': activeId === behavior.id }]}
 				onclick={() => (activeId = behavior.id)}
 				onkeydown={(event) => onTabKeydown(event, i)}
 			>
@@ -305,7 +302,7 @@
 
 			<ul class="decoder__motives">
 				{#each behavior.motives as motive (motive.type)}
-					<li class="decoder__motive" style="--type-color: {TYPE_COLOR_MAP[motive.type]}">
+					<li class="decoder__motive">
 						<p class="decoder__says">{motive.says}</p>
 						<p class="decoder__feeling">{motive.feeling}</p>
 						<dl class="decoder__advice">
@@ -335,18 +332,18 @@
 	.decoder {
 		margin: 2rem 0;
 		padding: 1.25rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
+		border: 1px solid var(--rule);
 		border-radius: 10px;
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 60%);
+		background: linear-gradient(135deg, var(--surface) 0%, var(--bg) 60%);
 	}
 
 	.decoder .decoder__eyebrow {
 		margin: 0 0 0.75rem;
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 	}
 
 	.decoder__tabs {
@@ -357,12 +354,13 @@
 	}
 
 	.decoder__tab {
+		min-height: 44px;
 		padding: 0.45rem 0.9rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 999px;
 		background: transparent;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.3;
 		cursor: pointer;
 		transition:
@@ -372,24 +370,24 @@
 	}
 
 	.decoder__tab:hover {
-		border-color: var(--lamp-glow);
-		color: var(--ink-bright);
+		border-color: var(--highlight);
+		color: var(--text);
 	}
 
 	.decoder__tab:focus-visible {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--highlight);
 		outline-offset: 2px;
 	}
 
 	.decoder__tab--active {
-		background: var(--lamp-glow);
-		border-color: var(--lamp-glow);
-		color: var(--text-on-primary);
+		background: var(--accent-deep);
+		border-color: var(--highlight);
+		color: var(--text);
 		font-weight: 600;
 	}
 
 	.decoder__tab--active:hover {
-		color: var(--text-on-primary);
+		color: var(--text);
 	}
 
 	.decoder .decoder__ask {
@@ -400,18 +398,18 @@
 	}
 
 	.decoder__ask-label {
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.decoder__ask-question {
-		font-size: 1.15rem;
+		font-size: var(--font-size-lg);
 		font-weight: 600;
 		line-height: 1.4;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.decoder .decoder__motives {
@@ -426,33 +424,35 @@
 	.decoder .decoder__motive {
 		margin: 0;
 		padding: 0.9rem 1rem;
-		border: 1px solid var(--stone-edge);
-		border-left: 3px solid var(--type-color);
+		border: 1px solid var(--rule);
+		border-left: 3px solid var(--accent);
 		border-radius: 10px;
-		background: color-mix(in srgb, var(--night-deep) 85%, transparent);
+		background: color-mix(in srgb, var(--bg) 85%, transparent);
 	}
 
 	.decoder .decoder__type {
 		margin: 0.75rem 0 0;
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
-		color: var(--type-color);
+		color: var(--text-faint);
 	}
 
 	.decoder .decoder__says {
 		margin: 0 0 0.35rem;
-		font-size: 1rem;
+		font-family: var(--font-voice);
+		font-size: var(--font-size-lg);
 		font-style: italic;
-		color: var(--ink-bright);
+		line-height: 1.4;
+		color: var(--highlight);
 	}
 
 	.decoder .decoder__feeling {
 		margin: 0 0 0.75rem;
-		font-size: 0.92rem;
+		font-size: var(--font-size-base);
 		line-height: 1.5;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.decoder .decoder__advice {
@@ -471,31 +471,31 @@
 
 	.decoder__advice-row dd {
 		margin: 0;
-		font-size: 0.9rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.45;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.decoder__label {
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
 	}
 
 	.decoder__label--helps {
-		color: var(--success);
+		color: var(--highlight);
 	}
 
 	.decoder__label--backfires {
-		color: var(--error-text, var(--error));
+		color: var(--text-faint);
 	}
 
 	.decoder .decoder__note {
 		margin: 1.25rem 0 0;
-		font-size: 0.85rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	@media (max-width: 640px) {
@@ -504,7 +504,7 @@
 		}
 
 		.decoder__ask-question {
-			font-size: 1.05rem;
+			font-size: var(--font-size-base);
 		}
 	}
 

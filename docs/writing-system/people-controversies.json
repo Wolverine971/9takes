@@ -1,0 +1,311 @@
+{
+	"_readme": "Major public controversies each person page must state plainly. Checked by `pnpm controversies:check` (in `pnpm lint`). Every mustMention regex must match the article body (case-insensitive; frontmatter and HTML comments don't count). status 'required' fails when missing; 'open' is a known gap listed by `pnpm controversies:check -- --open`. New entries start 'open'; flip to 'required' once the section is written. Tone rules: 'Fair treatment across types' in people-profile-standard.md. Seeded 2026-11-07 from the controversy audit.",
+	"morgan-wallen": [
+		{
+			"id": "2021-slur-video",
+			"label": "2021 video of him using the n-word",
+			"status": "required",
+			"mustMention": ["n-word", "2021"]
+		},
+		{
+			"id": "2024-chair",
+			"label": "2024 Nashville rooftop chair arrest and plea",
+			"status": "required",
+			"mustMention": ["chair", "plea|pleaded"]
+		}
+	],
+	"tucker-carlson": [
+		{
+			"id": "fuentes-interview",
+			"label": "2025 Nick Fuentes interview",
+			"status": "required",
+			"mustMention": ["Fuentes"]
+		},
+		{
+			"id": "darryl-cooper-interview",
+			"label": "2024 Darryl Cooper interview",
+			"status": "required",
+			"mustMention": ["Darryl Cooper|Cooper"]
+		},
+		{
+			"id": "replacement-segments",
+			"label": "Fox-era 'replacement' immigration segments",
+			"status": "required",
+			"mustMention": ["replacement"]
+		},
+		{
+			"id": "blake-neff",
+			"label": "Head writer Blake Neff's 2020 resignation over racist posts",
+			"status": "required",
+			"mustMention": ["Neff"]
+		}
+	],
+	"kanye": [
+		{
+			"id": "2022-antisemitism",
+			"label": "2022 antisemitic remarks and Adidas termination",
+			"status": "required",
+			"mustMention": ["antisemit", "Adidas"]
+		},
+		{
+			"id": "2025-nazi-content",
+			"label": "2025 swastika shirts, 'Heil Hitler' song and posts",
+			"status": "required",
+			"mustMention": ["2025", "swastika|Heil Hitler"]
+		}
+	],
+	"mila-kunis": [
+		{
+			"id": "masterson-letter",
+			"label": "Character letter for Danny Masterson at sentencing",
+			"status": "required",
+			"mustMention": ["Masterson", "letter"]
+		}
+	],
+	"jd-vance": [
+		{
+			"id": "fuentes",
+			"label": "Response to Nick Fuentes",
+			"status": "required",
+			"mustMention": ["Fuentes"]
+		},
+		{
+			"id": "springfield",
+			"label": "Springfield pet-eating claims and 'create stories' remark",
+			"status": "open",
+			"mustMention": ["Springfield"]
+		},
+		{
+			"id": "young-republicans-chat",
+			"label": "2025 Young Republicans group-chat leak response",
+			"status": "open",
+			"mustMention": ["Young Republican"]
+		}
+	],
+	"pete-hegseth": [
+		{
+			"id": "monterey-allegation",
+			"label": "2017 Monterey sexual assault allegation (no charges, settlement, denial)",
+			"status": "required",
+			"mustMention": ["Monterey", "settle"]
+		},
+		{
+			"id": "signal-chat",
+			"label": "2025 Signal group chat",
+			"status": "required",
+			"mustMention": ["Signal"]
+		}
+	],
+	"donald-trump": [
+		{
+			"id": "civil-fraud",
+			"label": "New York civil fraud ruling",
+			"status": "required",
+			"mustMention": ["fraud"]
+		},
+		{
+			"id": "felony-conviction",
+			"label": "2024 conviction on 34 felony counts",
+			"status": "open",
+			"mustMention": ["34 (felony )?counts|34 felon|felony conviction"]
+		},
+		{
+			"id": "carroll-verdict",
+			"label": "E. Jean Carroll sexual abuse and defamation verdicts",
+			"status": "open",
+			"mustMention": ["Carroll"]
+		},
+		{
+			"id": "january-6",
+			"label": "January 6, 2021 Capitol attack",
+			"status": "open",
+			"mustMention": ["January 6|Jan\\. 6|Capitol"]
+		}
+	],
+	"elon-musk": [
+		{
+			"id": "2023-actual-truth-post",
+			"label": "2023 'actual truth' antisemitism post and advertiser exodus",
+			"status": "open",
+			"mustMention": ["actual truth"]
+		},
+		{
+			"id": "2025-inauguration-gesture",
+			"label": "January 2025 inauguration-rally gesture",
+			"status": "open",
+			"mustMention": ["gesture|salute"]
+		},
+		{
+			"id": "afd-support",
+			"label": "Support for Germany's AfD",
+			"status": "open",
+			"mustMention": ["AfD|Alternative for Germany"]
+		}
+	],
+	"joe-rogan": [
+		{
+			"id": "2022-n-word-compilation",
+			"label": "2022 compilation of him using the n-word, and his apology",
+			"status": "open",
+			"mustMention": ["n-word", "apolog"]
+		}
+	],
+	"kevin-hart": [
+		{
+			"id": "oscars-tweets",
+			"label": "2018 Oscars hosting exit over past homophobic tweets",
+			"status": "open",
+			"mustMention": ["Oscars?", "tweet"]
+		}
+	],
+	"andrew-tate": [
+		{
+			"id": "criminal-charges",
+			"label": "Romanian and UK charges (alleged, denied)",
+			"status": "required",
+			"mustMention": ["Romania", "charge"]
+		}
+	],
+	"adin-ross": [
+		{
+			"id": "slur-and-gesture",
+			"label": "On-stream n-word and the hand-rubbing gesture",
+			"status": "required",
+			"mustMention": ["n-word|slur", "gesture"]
+		}
+	],
+	"pewdiepie": [
+		{
+			"id": "2017-fiverr-video",
+			"label": "2017 Fiverr video ('Death to all Jews' sign), stated plainly",
+			"status": "open",
+			"mustMention": ["Death to all Jews"]
+		},
+		{
+			"id": "2017-slur",
+			"label": "2017 on-stream n-word",
+			"status": "open",
+			"mustMention": ["n-word"]
+		}
+	],
+	"shane-gillis": [
+		{
+			"id": "2019-snl-firing",
+			"label": "2019 SNL firing over slurs on an old podcast",
+			"status": "required",
+			"mustMention": ["SNL|Saturday Night Live", "slur"]
+		}
+	],
+	"dave-chappelle": [
+		{
+			"id": "the-closer",
+			"label": "The Closer and the trans-material backlash",
+			"status": "required",
+			"mustMention": ["The Closer", "trans"]
+		}
+	],
+	"bill-clinton": [
+		{
+			"id": "lewinsky",
+			"label": "Lewinsky affair (she was a White House intern)",
+			"status": "required",
+			"mustMention": ["Lewinsky", "intern"]
+		},
+		{
+			"id": "impeachment-perjury",
+			"label": "Impeachment, perjury charge and contempt finding",
+			"status": "open",
+			"mustMention": ["impeach", "perjur|contempt"]
+		},
+		{
+			"id": "paula-jones",
+			"label": "Paula Jones lawsuit and settlement",
+			"status": "open",
+			"mustMention": ["Paula Jones"]
+		}
+	],
+	"joe-biden": [
+		{
+			"id": "hunter-pardon",
+			"label": "Pardon of Hunter Biden after promising not to",
+			"status": "required",
+			"mustMention": ["pardon"]
+		}
+	],
+	"hasan-piker": [
+		{
+			"id": "9-11-and-israel-remarks",
+			"label": "9/11 remark and Hamas/Israel remarks",
+			"status": "required",
+			"mustMention": ["9/11", "Hamas"]
+		}
+	],
+	"zohran-mamdani": [
+		{
+			"id": "globalize-the-intifada",
+			"label": "Declining to condemn 'globalize the intifada'",
+			"status": "required",
+			"mustMention": ["intifada"]
+		}
+	],
+	"cristiano-ronaldo": [
+		{
+			"id": "mayorga-allegation",
+			"label": "Kathryn Mayorga allegation (procedural dismissal, denial)",
+			"status": "required",
+			"mustMention": ["Mayorga"]
+		}
+	],
+	"conor-mcgregor": [
+		{
+			"id": "nikita-hand-civil-case",
+			"label": "Nikita Hand civil verdict and appeal",
+			"status": "required",
+			"mustMention": ["Hand", "appeal"]
+		}
+	],
+	"johnny-depp": [
+		{
+			"id": "virginia-verdict",
+			"label": "2022 Virginia defamation verdict",
+			"status": "required",
+			"mustMention": ["Virginia|Fairfax|verdict|jury"]
+		},
+		{
+			"id": "uk-2020-ruling",
+			"label": "2020 UK High Court ruling against him (The Sun case)",
+			"status": "open",
+			"mustMention": ["High Court|The Sun|London"]
+		}
+	],
+	"amber-heard": [
+		{
+			"id": "virginia-verdict",
+			"label": "2022 Virginia defamation verdict",
+			"status": "required",
+			"mustMention": ["Virginia|Fairfax|verdict|jury"]
+		},
+		{
+			"id": "uk-2020-ruling",
+			"label": "2020 UK High Court ruling in her favor (The Sun case)",
+			"status": "open",
+			"mustMention": ["High Court|The Sun|London"]
+		}
+	],
+	"jared-leto": [
+		{
+			"id": "2025-allegations",
+			"label": "2025 Air Mail allegations (denied, unproven in court)",
+			"status": "required",
+			"mustMention": ["Air Mail", "den(y|ied|ial)"]
+		}
+	],
+	"ellen-degeneres": [
+		{
+			"id": "2020-workplace",
+			"label": "2020 workplace-culture allegations and WarnerMedia investigation",
+			"status": "required",
+			"mustMention": ["workplace", "investigat"]
+		}
+	]
+}

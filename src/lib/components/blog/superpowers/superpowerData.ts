@@ -5,7 +5,7 @@
 // each emotion builds, each type's superpower and kryptonite labels, and the
 // shared scenes for the "same moment, nine superpowers" picker.
 //
-// Emotion names, colors and the type split come from the Enneagram test copy
+// Emotion names and the type split come from the Enneagram test copy
 // bank. DJ's triad map is deliberate: uses it 8 / 4 / 6, pushes it down
 // 1 / 2 / 7, doesn't notice it 9 / 3 / 5. Do not "correct" it.
 //
@@ -13,6 +13,16 @@
 // the anchor here has to change with it.
 
 import type { Emotion, TestType } from '$lib/enneagramTest/content';
+
+// Cold Light: one tint. The test copy bank paints anger / shame / fear red,
+// pink and blue; on the blog the three emotions are three lightness steps of
+// the indigo-lavender ramp instead (light, mid, deep). Names stay on every
+// card, so identity never rests on color alone.
+export const EMOTION_TINT: Record<Emotion, string> = {
+	anger: 'var(--highlight)',
+	shame: 'color-mix(in srgb, var(--highlight) 50%, var(--accent))',
+	fear: 'var(--accent)'
+};
 
 export type Intelligence = { name: string; line: string };
 

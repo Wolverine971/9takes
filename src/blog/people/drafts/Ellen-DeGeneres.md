@@ -210,7 +210,7 @@ In 2003, two things happened. Ellen voiced Dory in _Finding Nemo_, and _The Elle
 
 Look at what she designed. Not a hard-hitting interview show. A daily hour of games, giveaways, celebrity lightness, a monologue, and a dance, wrapped in a single instruction to the audience: be kind to one another. It played as sunshine. Underneath, it was architecture. She had taken the skill she learned at 16, keep the room light so no one leaves, and scaled it to a national studio.
 
-The security a Six cannot find, a Six builds. Ellen constructed a controlled, predictable, relentlessly positive environment and stood at the center of it, safe at last inside a world running to her rules. The dancing was not filler either. Sixes carry a body full of anxious energy, and movement burns it off. She was, in the most literal sense, shaking it out on live television every afternoon.
+The security a Six cannot find, a Six builds. Ellen constructed a controlled, predictable, relentlessly positive environment and stood at the center of it, safe at last inside a world running to her rules. The dancing was not filler either. It was real joy, and it also gave the nerves behind a carefully run room somewhere to go. She was, in the most literal sense, shaking it out on live television every afternoon.
 
 "Be kind" was sincere. She meant it, and she spent real money and airtime on it, from surprise handouts to LGBTQ+ advocacy that mattered to people who had no Ellen fortune to protect them. But sincerity and defense are not opposites for a Six. The kindest possible room was also the safest one, protecting the audience and the host at once.
 

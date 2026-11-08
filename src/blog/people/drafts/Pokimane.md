@@ -160,7 +160,7 @@ A Three takes the bigger bag. A Six asks what the money will cost her soul.
 
 ### The Counterphobic Six
 
-Here's what makes her psychology interesting. Most Sixes respond to fear by seeking reassurance, deferring to authority, avoiding confrontation. Pokimane does the opposite.
+Here's what makes her psychology interesting. A Six can answer fear in two directions, and most use both depending on the arena: look for backup, or go straight at the threat. On harassment, Pokimane goes straight at it.
 
 When years of aggressive, vulgar emails from an anonymous harasser took a psychological toll, she didn't keep it private. She processed it on stream, not seeking sympathy, but refusing to be silenced.
 
@@ -192,7 +192,7 @@ Pokimane reads as a **sp/so 6**, which in Naranjo's taxonomy is sometimes called
 
 **Social secondary:** OfflineTV. RTS. Charity streams. The AOC Among Us moment. Mentoring younger female streamers. Bernie Sanders / Kamala stream October 2024. The so-6 instinct is *am I safe inside the group*, which is why she keeps building groups whose rules she helps write. Sp-dominance keeps her solvent; so-secondary keeps her connected.
 
-**Sexual (one-to-one) tertiary:** This is the missing instinct, and her own framing names it. Demisexuality. Celibacy. Private relationships. Threat-modeling oxytocin. The sx-6 (the "counterphobic" subtype in some readings) is the *most* aggressive Six — the one who picks fights to find allies. Pokimane's counterphobic edge is real but it's *selectively* deployed; she's not a sx-dominant who needs intense pair-bonds to feel alive. She specifically defends *against* that intensity. Sx-last is why her romantic life looks the way it does — not absence of desire but active de-prioritization of it.
+**Sexual (one-to-one) tertiary:** This is the missing instinct, and her own framing names it. Demisexuality. Celibacy. Private relationships. Threat-modeling oxytocin. The sx-6 ("Strength and Beauty" in Chestnut's naming, "counterphobic" in some readings) goes straight at fear by making itself strong or striking enough that the threat has to deal with it on its terms. Pokimane's counterphobic edge is real but it's *selectively* deployed; she's not a sx-dominant who needs intense pair-bonds to feel alive. She specifically defends *against* that intensity. Sx-last is why her romantic life looks the way it does — not absence of desire but active de-prioritization of it.
 
 The sp/so stack also predicts the specific shape of her empire. RTS protects the *material* layer (contracts, deals, money). OfflineTV protected the *social* layer (community, found family). Myna Snacks tried to protect the *body* layer (food, health). No sexual-stack venture exists. The instincts she invests in are the ones at the top of her stack.
 

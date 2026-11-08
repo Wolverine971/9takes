@@ -22,7 +22,7 @@
 
 	<ol class="map-rows">
 		{#each ENNEAGRAM_STRESS_LOOPS as loop (loop.type)}
-			<li class="map-row" style:--type-color={`var(--type-${loop.type}-color)`}>
+			<li class="map-row">
 				<div class="type-id">
 					<span>{loop.type}</span>
 					<strong>{loop.name}</strong>
@@ -48,38 +48,38 @@
 	.type-map {
 		overflow: hidden;
 		margin: 2rem 0 2.5rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
-		background: var(--night-mid);
-		color: var(--ink-bright);
+		background: var(--surface);
+		color: var(--text);
 	}
 
 	figcaption {
 		display: grid;
 		gap: 0.4rem;
 		padding: 1.5rem;
-		border-bottom: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--rule);
 		background:
 			radial-gradient(
 				circle at 88% 0%,
-				color-mix(in srgb, var(--data-teal) 12%, transparent),
+				color-mix(in srgb, var(--accent) 14%, transparent),
 				transparent 34%
 			),
-			var(--night-deep);
+			var(--bg);
 	}
 
 	figcaption > span,
 	.map-head,
 	.map-cell > span {
-		font-family: var(--font-mono);
-		font-size: 0.68rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
 	}
 
 	figcaption > span {
-		color: var(--data-cyan);
+		color: var(--text-faint);
 	}
 
 	figcaption strong {
@@ -91,8 +91,8 @@
 	figcaption p {
 		max-width: 64ch;
 		margin: 0;
-		color: var(--ink-mid);
-		font-size: 0.95rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-base);
 		line-height: 1.55;
 	}
 
@@ -104,9 +104,9 @@
 
 	.map-head {
 		padding: 0.7rem 1rem;
-		border-bottom: 1px solid var(--stone-edge);
-		background: var(--stone-warm);
-		color: var(--ink-dim);
+		border-bottom: 1px solid var(--rule);
+		background: var(--surface);
+		color: var(--text-faint);
 	}
 
 	.map-head span:not(:first-child) {
@@ -122,7 +122,7 @@
 	.map-row {
 		position: relative;
 		min-width: 0;
-		border-bottom: 1px solid color-mix(in srgb, var(--stone-edge) 74%, transparent);
+		border-bottom: 1px solid var(--rule);
 	}
 
 	.map-row:last-child {
@@ -134,7 +134,7 @@
 		position: absolute;
 		inset: 0 auto 0 0;
 		width: 3px;
-		background: var(--type-color);
+		background: color-mix(in srgb, var(--accent) 55%, transparent);
 	}
 
 	.type-id,
@@ -155,22 +155,22 @@
 		width: 2rem;
 		height: 2rem;
 		place-items: center;
-		border: 1px solid color-mix(in srgb, var(--type-color) 45%, var(--stone-edge));
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--type-color) 12%, transparent);
-		color: var(--type-color);
-		font-family: var(--font-mono);
-		font-size: 0.78rem;
+		background: var(--surface-raised);
+		color: var(--highlight);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 	}
 
 	.type-id strong {
-		font-size: 0.8rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.35;
 	}
 
 	.map-cell {
-		border-left: 1px solid color-mix(in srgb, var(--stone-edge) 58%, transparent);
+		border-left: 1px solid var(--rule);
 	}
 
 	.map-cell > span {
@@ -179,21 +179,21 @@
 	}
 
 	.map-cell--fear > span {
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 	}
 
 	.map-cell--defense > span {
-		color: var(--data-cyan);
+		color: var(--text-faint);
 	}
 
 	.map-cell--backfire > span {
-		color: var(--error-text);
+		color: var(--text-faint);
 	}
 
 	.map-cell p {
 		margin: 0;
-		color: var(--ink-mid);
-		font-size: 0.78rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.45;
 		overflow-wrap: anywhere;
 	}
@@ -204,7 +204,7 @@
 		}
 
 		figcaption p {
-			font-size: 1rem;
+			font-size: var(--font-size-base);
 		}
 
 		.map-head {
@@ -226,12 +226,12 @@
 		}
 
 		.type-id strong {
-			font-size: 1rem;
+			font-size: var(--font-size-base);
 		}
 
 		.map-cell {
 			padding: 0.75rem 0;
-			border-top: 1px solid color-mix(in srgb, var(--stone-edge) 58%, transparent);
+			border-top: 1px solid var(--rule);
 			border-left: 0;
 		}
 
@@ -240,7 +240,7 @@
 		}
 
 		.map-cell p {
-			font-size: 1rem;
+			font-size: var(--font-size-base);
 		}
 	}
 </style>

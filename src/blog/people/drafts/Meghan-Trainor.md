@@ -53,7 +53,7 @@ citations:
   - 'https://www.meghan-trainor.com'
 faqs:
   - question: "What is Meghan Trainor's personality type?"
-    answer: "Meghan Trainor is an Enneagram Type 6 (The Loyalist), specifically a 6w7. The pattern shows in the panic disorder diagnosed after her vocal cord surgeries, the compulsive public naming of her antidepressant and its exact dose, the Encino compound where both brothers live with her and her parents visit almost daily, saying 'I love you' six dates in to the man who passed the safety test, and 'All About That Bass' working as a spell — reassuring the writer, not the listener."
+    answer: "Meghan Trainor is an Enneagram Type 6 (The Loyalist), specifically a 6w7. The pattern shows in what she built around the panic disorder diagnosed after her vocal cord surgeries: the repeated public naming of her antidepressant and its exact dose, the Encino compound where both brothers live with her and her parents visit almost daily, saying 'I love you' six dates in to the man who passed the safety test, and 'All About That Bass' working as a spell — reassuring the writer, not the listener."
     anchor: 'what-is-meghan-trainors-personality-type'
   - question: 'Does Meghan Trainor have panic disorder?'
     answer: "Yes. Her first panic attack hit backstage at CBS while announcing the 2017 Grammy nominations — her body 'vibrating nonstop' the week of her second vocal cord surgery. She was diagnosed with panic disorder and takes Citalopram, naming the drug and the twenty-milligram dose publicly: 'That medicine saved me, saved my life, saved my career.' She was later diagnosed with PTSD after her son Riley's NICU stay, and had another panic attack after her second child in 2023."
@@ -117,7 +117,7 @@ She had won Best New Artist the year before. She was about to go back under for 
 
 The woman who wrote the most aggressively confident body-positivity anthem of the 2010s was already quietly falling apart.
 
-The gap between those two facts is the key to her. Meghan Trainor is not the bouncy doo-wop optimist her singles want you to believe she is. She is a deeply anxious, safety-seeking person who figured out early that if she could write confidence into a hook, she could hum it back to herself until she half-believed it. Then the vocal cord hemorrhaged. Then the spell broke.
+The gap between those two facts is the key to her. The bouncy doo-wop optimist on her singles is real, and so is the anxious, safety-seeking person underneath, who figured out early that if she could write confidence into a hook, she could hum it back to herself until she half-believed it. Then the vocal cord hemorrhaged. Then the spell broke.
 
 This is the story of what she did next — and why she ended up building a literal compound around herself to make sure it never happens again.
 
@@ -129,7 +129,7 @@ This is the story of what she did next — and why she ended up building a liter
 <li><b>Panic disorder, not nerves:</b> Diagnosed after two vocal cord surgeries. Named the exact dose of her antidepressant in public. 6s don't hide the fear once they've named it.</li>
 <li><b>The compound:</b> Both brothers live with her and Daryl. Parents visit almost daily. The Six builds her safety inward, not upward.</li>
 <li><b>Six dates to "I love you":</b> Fast attachment to the safest available man. Moved the wedding forward when it felt right.</li>
-<li><b>Her father's record collection is her panic room:</b> Doo-wop, R&B, the Chordettes — the music she retreats to when the world goes loud is the music she heard before she knew the world was loud.</li>
+<li><b>Her father's record collection is home base:</b> Doo-wop, R&B, the Chordettes. The music she returns to when the world goes loud is the music she heard before she knew the world was loud, and it is also the sound she writes best.</li>
 </ul>
 </div>
 </details>
@@ -140,7 +140,9 @@ This is the story of what she did next — and why she ended up building a liter
 
 She's a 6w7 — the core anxiety of the Loyalist softened by the Seven wing's bright, upbeat affect. That combination is what produces the bubblegum sound on top of the panic disorder underneath. Sixes don't fake happiness. They _manufacture_ it, because the alternative — sitting with the buzzing nervous system and the "what if" loop — is unbearable. Writing a song called "Me Too" with finger-snaps and mouth pops is Trainor's version of what <a href="/enneagram-corner/enneagram-type-6">the Type 6</a> mind does when it needs relief: produce a bright, rhythmic, reassuring object and put it on repeat.
 
-The diagnostics line up cleanly. Panic disorder is the textbook [Type 6 nervous-system signature](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) — fight-or-flight "in overdrive, going off all day long without much control," as she described it to her brother on _Workin' On It_. Her attachment pattern is 6: rapid, intense loyalty to the person who passes the safety test. Her [stress response](/enneagram-corner/enneagram-types-in-stress) is 6 — when the vocal cords went, she didn't collapse; she shifted hard toward Type 3 image-management, rebuilt her body, and came back with a TikTok hit. And her home is 6: a family compound in Encino where her brothers live in the same house, her parents are a short visit away, and a man who tells her she's beautiful is never more than one room over.
+Start with what doesn't type her. Panic disorder can hit any of the nine types, and [anxiety by itself is not a type](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide). She has described her fight-or-flight as "in overdrive, going off all day long without much control" to her brother on _Workin' On It_. What points to Six is what she builds around it.
+
+Her attachment pattern is 6: rapid, intense loyalty to the person who passes the safety test. Her [stress response](/enneagram-corner/enneagram-types-in-stress) is 6 — when the vocal cords went, she didn't collapse; she shifted hard toward Type 3 image-management, rebuilt her body, and came back with a TikTok hit. And her home is 6: a family compound in Encino where her brothers live in the same house, her parents are a short visit away, and her husband is never far.
 
 Ruling out the neighbors briefly: she's not a 2, because her primary pull is not to rescue people — it's to secure herself first and bring her family inside the wall. She's not a 3, even though she can perform like one, because a 3 would not have quit the recording-artist dream and retreated to ghostwriting for other stars the moment she felt her looks weren't "right." A 6 retreats. A 3 doubles down.
 
@@ -166,13 +168,15 @@ Read that sentence twice. _So I shut down the whole idea._ Assess the threat. De
 
 The person you know from the radio almost didn't happen. A handful of years in the Nashville songwriter rooms is what it took for her to believe she could be in the front of the camera. Kevin Kadish, the producer she co-wrote "All About That Bass" with, told her after their first session in June 2013: "You need to be the artist. I don't want to write any songs that aren't for you to sing." She had the talent. He saw it in two hours. She did not have the trust.
 
+The talent deserves its own beat, because the fear story can swallow it. Between fifteen and seventeen she put out three independent albums that she wrote, recorded, performed and produced herself. In Nashville she co-wrote "I Like the Sound of That," which Rascal Flatts took to number one on Billboard's Country Airplay chart in 2016. Making a 1958 chord loop sound current on 2014 radio takes skill. The fear explains what she writes about. The craft explains why so many people sang along.
+
 Her mother, Kelli, ran the family jewelry store on Nantucket and rarely shows up by name in the press — Gary gets the music and the mythology. But Kelli is in the work. She is the literal voice on the track "Mom" from _Thank You_. She is the unspoken referent in the line that opens "All About That Bass": _my mama she told me don't worry about your size._ The Six reaches for the mother's voice the way she reaches for any reassuring authority — out loud, on repeat, in a chorus.
 
 ## "All About That Bass" Was a Spell
 
 Here is what you are supposed to believe about "All About That Bass": it is a body-positive anthem, a confident swagger from a confident artist pushing back against a skinny-obsessed industry. Four times platinum. Eight weeks at number one in 2014. Grammy nominations for Record and Song of the Year.
 
-Here is what it actually was: a 22-year-old who had just written the line _"I see the magazine workin' that Photoshop"_ into a three-chord doo-wop loop and then listened to it back until her nervous system started to believe her.
+Here is what it also was: a 22-year-old who had just written the line _"I see the magazine workin' that Photoshop"_ into a three-chord doo-wop loop and then listened to it back until her nervous system started to believe her.
 
 Every major label they shopped the demo to passed. The labels wanted it re-cut with synths — more 2013, less 1958. Kadish refused. When Epic finally said yes, Trainor's call to her co-writer had the tone of a person whose private disaster forecasts had just been proven wrong: _"Are you sitting down? You're gonna shit your pants."_ The Six who has spent months bracing for a no does not immediately know how to receive a yes.
 
@@ -182,7 +186,7 @@ Which is why the critiques of the song — that it's body-positive only by degra
 
 Read the Cosmopolitan interview she gave after she started dating Daryl Sabara: _"No one expressed how they liked my body out loud in the bedroom until I met Daryl. He is obsessed with it — every inch. That has improved my confidence more than even 'Bass' did."_
 
-The anthem didn't fix it. External reassurance from the one trusted man did. That is exactly what you'd expect. The Six's confidence isn't internally generated. It's borrowed, from trusted sources, and it needs to be said out loud.
+The anthem didn't fix it. Reassurance from the one trusted man did. That fits the pattern: for her, confidence lands hardest when someone she trusts says it out loud.
 
 The song made her a star. But it didn't make her feel safe. Nothing about becoming famous made her feel safe.
 
@@ -192,7 +196,7 @@ Two years later, L.A. Reid told her she didn't have a single. She wrote "NO" in 
 
 So why write the script?
 
-Because a Six who has never had to defend a boundary in person rehearses the boundary in audio first. The word "no" appears 85 times in three minutes. That is not a pop chorus. That is a person running a drill. The Bass spell was about her body. The NO spell was about her social field. Different fear, same writer — trying out a sentence in front of a microphone until the sentence starts to feel like hers.
+Because a Six who has never had to defend a boundary in person rehearses the boundary in audio first. The word "no" appears 85 times in three minutes. It works as a pop chorus, and it also works as a drill. The Bass spell was about her body. The NO spell was about her social field. Different fear, same writer — trying out a sentence in front of a microphone until the sentence starts to feel like hers.
 
 ## When the Voice Gave Out
 
@@ -226,7 +230,7 @@ Before she ever met Daryl, she had already written him.
 
 Read that origin again. The song was drafted inside a father-daughter reassurance ritual. A Six and her safest adult rehearsing what a safe future adult would have to do to qualify. By the time the song was on the radio, Trainor had put her emotional safety spec on public record so comprehensively that any man who rolled up to her would already know the rubric. The shopping list goes out before the proposal.
 
-It doesn't hurt, for the theory, that Daryl turned out to be a practicing Baháʼí who doesn't drink, doesn't party, and tells her she's beautiful on command.
+It doesn't hurt, for the theory, that Daryl turned out to be a practicing Baháʼí who doesn't drink, doesn't party, and tells her she's beautiful without being asked.
 
 ## Why Meghan Trainor Built a Compound
 
@@ -284,9 +288,9 @@ Two things are true about what happened next.
 
 One: she cried. Publicly, in interviews, about the criticism. "Mean" comments, "attacking her body," sixty pounds down and she is crying over the reception. That reaction — being genuinely wounded by what her community thinks of her — tells you she is not a person who has mastered indifference. She never has been.
 
-Two: the weight loss itself is not a betrayal of her politics. It is her finally doing for her body what she had been trying to do from a microphone for a decade. "All About That Bass" was never the thesis. It was a spell cast against an anxiety about her body. When better tools for that anxiety became available — a medication her friends and doctor recommended, results she could see — she used them. She does not generate confidence from scratch. She borrows it from reliable sources. A GLP-1 is just another reliable source.
+Two: the weight loss itself is not a betrayal of her politics. It is her finally doing for her body what she had been trying to do from a microphone for a decade. "All About That Bass" was never the thesis. It was a spell cast against an anxiety about her body. When better tools for that anxiety became available — a medication her friends and doctor recommended, results she could see — she used them. She has always taken confidence from reliable sources. A GLP-1 is one more.
 
-The fans who feel betrayed were never wrong to love the song. They were wrong about who was singing it to whom. It was never a manifesto for them. It was a woman coaching herself through a bad day.
+The fans who feel betrayed were never wrong to love the song. She wrote it to coach herself through a bad day, and she built it well enough that millions of other people could use it the same way.
 
 ## What "Takin' It Back" Was Actually Taking Back
 
@@ -300,9 +304,7 @@ Critics read the album as a calculated nostalgia play. A return to the sound tha
 
 It was a safer commercial move. It was also a Six doing what Sixes do when they come out of a long stretch of stress: retreating to the safest available sound, which in her case happened to be the music she associates with her father and a Methodist church in Nantucket and a family band in her uncle's house. The album is a psychological address. _I'm going back to the place where I first felt safe, and I'm inviting you._
 
-A different kind of artist coming off two pregnancies, a PTSD diagnosis, two panic attacks, and a crisis of faith in her own body would have made a reinvention album aimed at chart position, or an experimental one that announced growth. Meghan Trainor went home to her father's record collection.
-
-That is the whole of her.
+A different kind of artist coming off two pregnancies, a PTSD diagnosis, two panic attacks, and a crisis of faith in her own body would have made a reinvention album aimed at chart position, or an experimental one that announced growth. Meghan Trainor went home to her father's record collection, the sound she knows best, and got her biggest hit in six years out of it.
 
 ## The Bubblegum on Top of the Panic
 
@@ -312,9 +314,9 @@ People mistake this for resilience. Or performance. Or denial.
 
 It's none of those. It's a woman whose nervous system has been, since she was a child, quietly calculating which rooms are safe. She talks about the worst parts of her life with a smile because a 6 who has done her work has figured out that naming the fear with a light voice is how you survive naming the fear at all. You do not let the fear have the dignity of your tone.
 
-Every song she releases is doing the same trick, at higher volume. The doo-wop, the finger snaps, the mouth pops, the aggressive optimism of the lyrics — none of that is fake. But none of it is the story, either. The story is the body backstage at CBS, the twenty milligrams of Citalopram, the compound in Encino, the six dates and an I love you, the small child in a NICU, the father who played her Little Richard, and a woman who has spent her entire career writing the reassurance she was never able to generate alone.
+Every song she releases is doing the same trick, at higher volume. The doo-wop, the finger snaps, the mouth pops, the aggressive optimism of the lyrics — none of that is fake, and none of it is easy to write. The story underneath is the body backstage at CBS, the twenty milligrams of Citalopram, the compound in Encino, the six dates and an I love you, the small child in a NICU, the father who played her Little Richard, and a woman who has spent her entire career writing the reassurance she was never able to generate alone.
 
-A Six. Doing what Sixes do. Making the world smaller until the small world feels safe. Making the song loud enough to sing herself back down. Making sure every person she loves is inside the wall before the fight-or-flight starts vibrating again.
+A Six with a songwriter's ear. Keeping the people she loves close. Making the song loud enough to sing herself back down. Making sure every person she loves is inside the wall before the fight-or-flight starts vibrating again.
 
 And it always starts vibrating again.
 

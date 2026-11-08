@@ -5,7 +5,7 @@
 
   Three emotion cards. Inside each: the type that uses the emotion, the type
   that pushes it down and the type that doesn't notice it, with the trait a
-  partner ends up living with. Emotion names, colors and the uses / pushes
+  partner ends up living with. Emotion names and the uses / pushes
   down / doesn't notice split come from the Enneagram test copy bank (DJ's
   triad map), so the two stay in step. Do not "correct" the split here.
 
@@ -21,6 +21,7 @@
 		RELATION_ORDER,
 		type TestType
 	} from '$lib/enneagramTest/content';
+	import { EMOTION_TINT } from './superpowers/superpowerData';
 
 	type Trait = { anchor: string; trait: string; youGet: string };
 
@@ -77,7 +78,7 @@
 	<div class="emotion-map__grid">
 		{#each EMOTION_ORDER as emotion (emotion)}
 			{@const content = EMOTIONS[emotion]}
-			<div class="emotion-map__card" style="--emo: {content.color}">
+			<div class="emotion-map__card" style="--emo: {EMOTION_TINT[emotion]}">
 				<div class="emotion-map__head">
 					<span class="emotion-map__name">{content.name}</span>
 					<span class="emotion-map__words">{content.words.slice(0, 3).join(' · ')}</span>
@@ -128,7 +129,7 @@
 		border-radius: 1rem;
 		border: 1px solid color-mix(in srgb, var(--emo) 34%, transparent);
 		border-top: 4px solid var(--emo);
-		background: color-mix(in srgb, var(--emo) 7%, var(--stone-warm));
+		background: color-mix(in srgb, var(--emo) 7%, var(--surface));
 	}
 
 	.emotion-map__head {
@@ -139,16 +140,16 @@
 	}
 
 	.emotion-map__name {
-		font-size: 1.15rem;
+		font-size: var(--font-size-lg);
 		font-weight: 800;
 		line-height: 1.2;
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--highlight);
 	}
 
 	.emotion-map__words {
-		font-size: 0.74rem;
+		font-size: var(--font-size-xs);
 		line-height: 1.4;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.emotion-map__row {
@@ -157,9 +158,9 @@
 		gap: 0.6rem;
 		padding: 0.6rem 0.55rem;
 		border-radius: 0.625rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
-		background: color-mix(in srgb, var(--night-deep) 55%, transparent);
-		color: var(--ink-bright);
+		border: 1px solid color-mix(in srgb, var(--text-faint) 22%, transparent);
+		background: color-mix(in srgb, var(--bg) 55%, transparent);
+		color: var(--text);
 		text-decoration: none;
 		transition:
 			border-color 0.18s ease,
@@ -167,11 +168,11 @@
 
 		&:hover {
 			border-color: color-mix(in srgb, var(--emo) 60%, transparent);
-			background: color-mix(in srgb, var(--emo) 12%, var(--night-deep));
+			background: color-mix(in srgb, var(--emo) 12%, var(--bg));
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--highlight);
 			outline-offset: 2px;
 		}
 	}
@@ -183,7 +184,7 @@
 		line-height: 1;
 		text-align: center;
 		font-feature-settings: 'tnum';
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--highlight);
 	}
 
 	.emotion-map__body {
@@ -194,24 +195,24 @@
 	}
 
 	.emotion-map__tag {
-		font-size: 0.66rem;
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.emotion-map__trait {
-		font-size: 0.95rem;
+		font-size: var(--font-size-base);
 		font-weight: 700;
 		line-height: 1.25;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.emotion-map__get {
-		font-size: 0.8rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.35;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.emotion-map__sr {
@@ -225,9 +226,9 @@
 
 	.emotion-map__caption {
 		margin-top: 0.9rem;
-		font-size: 0.82rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.55;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		text-align: center;
 		font-style: italic;
 	}

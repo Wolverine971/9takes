@@ -54,7 +54,7 @@ faqs:
     answer: "Morgan Wallen is an Enneagram Type 6 (The Loyalist), specifically a counterphobic Six. The pattern shows in his admission that he assumes 'the worst in everyone pretty much,' the preacher's son who compulsively tested every structure meant to keep him safe, the fortress inner circle of Hardy, Ernest, and Theo Von — complete with a shared prayer list — the counterphobic charges at what scares him, and an album literally titled I'm the Problem."
     anchor: 'what-is-morgan-wallens-personality-type'
   - question: 'What happened with the Morgan Wallen racial slur video?'
-    answer: "In February 2021, a neighbor's doorbell camera caught Wallen shouting a racial slur at a friend — 'hour 72 of a 72-hour bender,' as he described it. His label suspended him, radio pulled his music, and award shows shut him out. He spent 30 days in rehab in San Diego asking 'why I was acting that way,' and has maintained: 'There's no excuse. I've never made an excuse. I never will make an excuse.'"
+    answer: "In February 2021, a neighbor's doorbell camera caught Wallen shouting the n-word at a friend — 'hour 72 of a 72-hour bender,' as he described it. His label suspended him, radio pulled his music, and award shows shut him out. He spent 30 days in rehab in San Diego asking 'why I was acting that way,' and has maintained: 'There's no excuse. I've never made an excuse. I never will make an excuse.'"
     anchor: 'hour-72'
   - question: 'Why did Morgan Wallen stop drinking?'
     answer: "The turn started with rehab in 2021 and a mostly sober 75-show Dangerous Tour in 2022, which he treated 'like an athlete would a season.' The final line came on April 7, 2024, when he threw a chair off the rooftop of Eric Church's Nashville bar that landed three feet from two police officers. He pleaded guilty to reckless endangerment, apologized to the staff the next day, and hasn't set foot in a bar since."
@@ -245,15 +245,19 @@ His song "I Got Better" captures the shift: "It's not just a song to a girl," he
 
 ## Hour 72
 
-February 2021. A neighbor's doorbell camera captured Morgan Wallen shouting a racial slur at a friend after a night out in Nashville.
+February 2021. A neighbor's video, published by TMZ, showed Morgan Wallen stumbling toward his Nashville home after a night out and shouting the n-word at a friend in the car that had dropped him off.
 
 He described the context: "hour 72 of a 72-hour bender."
 
 His label suspended him. Radio stations pulled his music. Award shows shut the door. The industry response was swift and total.
 
+The sharpest response came from inside country music. Mickey Guyton, the first Black female solo artist nominated for a Grammy in a country category, wrote that "the hate runs deep" and that this "is not his first time using that 'unacceptable' racial slur and we all know that." She aimed her last line at Nashville itself: "crickets won't work this time."
+
 Morgan went to rehab in San Diego for 30 days. "I was trying to figure out why I was acting that way and whether I had an alcohol problem or a deeper issue."
 
-That phrasing matters. He wasn't just asking _what did I do._ He was asking _why am I like this._ The distinction is the difference between damage control and actual reckoning.
+That phrasing fits the Six pattern, which answers a failure by hunting for the faulty system underneath it. He framed rehab as a search for _why_. That is his account of it, and the record can't show more than that.
+
+That July he sat down with Michael Strahan on _Good Morning America_. He said he and his friends "say dumb stuff together" and that "in our minds, it's playful." He added that this "sounds ignorant" and that "it's wrong."
 
 When he emerged and eventually gave his Billboard cover interview, his first major sit-down in two years, the reflection was pointed: "Just how much that people listen to me. I don't think I realized that, at least not at that grand of a scale at the time. I [learned] how much my words matter."
 
@@ -261,7 +265,7 @@ He also said: "There's no excuse. I've never made an excuse. I never will make a
 
 And then, with blunt honesty: "That person is definitely not the same person I am now."
 
-What the public saw was a scandal and a comeback. What was actually happening was a man whose security strategies had catastrophically failed — the bender that was supposed to be fun, the word that was supposed to be harmless, the life that was supposed to be under control — collapsing into the image-management mode that Sixes under stress default to, and then slowly, painfully, climbing back out.
+What the public saw was a scandal and a comeback. Read through the type, it was a man whose security strategies failed all at once: the bender that was supposed to be fun, the word he said his circle treated as "playful," the life that was supposed to be under control. Under that stress he dropped into the image-management mode Sixes default to. The pattern explains the shape of the collapse. It doesn't explain the word, and the word was his.
 
 ## The Fans Who Wouldn't Leave
 

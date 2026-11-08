@@ -100,8 +100,8 @@ That pattern, fear driving preparation driving creation driving the feared outco
 <ul>
 <li><b>Fear, not power:</b> Every major decision traces back to anticipating and hedging against catastrophe: a parachute after 9/11, New Zealand citizenship, cryonic preservation.</li>
 <li><b>The perpetual outsider:</b> Seven schools across four countries before high school. A German-American kid in Namibia. A conservative at Stanford. Always watching from the margin.</li>
-<li><b>The loyalist's tribe:</b> Built the PayPal Mafia, co-founded a secretive elite network called Dialog, and quietly placed protégés throughout government, all while holding no office himself.</li>
-<li><b>The self-fulfilling prophecy:</b> Feared government surveillance. Built Palantir. Feared the Antichrist's infrastructure. May have created it. The classic Type 6 trap: manifesting the thing you dread most.</li>
+<li><b>Who gets inside:</b> Built the PayPal Mafia, co-founded a secretive elite network called Dialog, and quietly placed protégés throughout government, all while holding no office himself.</li>
+<li><b>The self-fulfilling prophecy:</b> Feared government surveillance. Built Palantir. Feared the Antichrist's infrastructure. May have created it. The stressed Six's trap: manifesting the thing you dread most.</li>
 </ul>
 </div>
 </details>
@@ -160,7 +160,7 @@ Both men knew the answer. If Thiel had won the most competitive game in law, he 
 
 ### Peter Thiel is an Enneagram Type 6
 
-<a href="/enneagram-corner/enneagram-type-6">Enneagram Type 6</a>, sometimes called "The Loyalist" or "The Skeptic," is defined by a core need for security and a deep distrust of authority. Sixes learned early, usually in childhood, that the world isn't reliably safe. They responded by becoming hypervigilant, developing sophisticated systems for anticipating danger, testing loyalty, and questioning received wisdom.
+<a href="/enneagram-corner/enneagram-type-6">Enneagram Type 6</a>, sometimes called "The Loyalist" or "The Skeptic," is the type that won't take safety on faith. The Six habit is to test what it hears, including what people in charge say, and to commit hard to whatever survives the test. That habit often forms in a childhood where the ground kept moving. The payoff is a mind that is hard to fool and loyal for decades to the people and ideas that pass inspection.
 
 The evidence for Thiel as a Six is overwhelming:
 
@@ -193,21 +193,23 @@ Seasteading was the purest version of the impulse. Thiel funded the institute in
 
 But there is a shadow side to this pattern. Enneagram psychology has documented it extensively, and it may be the most important key to understanding Peter Thiel.
 
-Sixes, through their obsessive focus on worst-case scenarios, can inadvertently create the conditions for those scenarios to come true. Don Richard Riso and Russ Hudson, founders of the Enneagram Institute, describe the unhealthy Six as someone who, **"feeling persecuted, that others are 'out to get them,' they lash out and act irrationally, bringing about what they fear."**
+Under stress, a Six's focus on worst-case scenarios can inadvertently create the conditions for those scenarios to come true. Don Richard Riso and Russ Hudson, founders of the Enneagram Institute, describe the unhealthy Six as someone who, **"feeling persecuted, that others are 'out to get them,' they lash out and act irrationally, bringing about what they fear."**
 
 Beatrice Chestnut, a clinical psychologist and leading Enneagram author, identifies projection as the Six's primary defense mechanism and traces how it creates a feedback loop: **"When Sixes project either something negative or positive that is untrue, they create a false reality without knowing they are doing so."** The paradox, Chestnut notes, is that the very defense mechanism Sixes use to reduce anxiety **"ironically raises the Six's anxiety level."** She explicitly names "becoming aware of how they create self-fulfilling prophecies" as one of the essential growth tasks for Type 6.
 
 Claudio Naranjo, the Chilean psychiatrist who helped systematize the modern Enneagram, titled his chapter on Type 6 **"The Persecuted Persecutor"**, a label that captures the dynamic precisely. The Six feels persecuted, acts defensively, and through that defensive behavior becomes the very threat they feared.
 
-This is not a flaw unique to unhealthy Sixes. It is a structural tendency of the type, the natural consequence of running worst-case scenarios with enough intelligence, resources, and determination to actually build things.
+Riso and Hudson file that loop under the unhealthy Six, and scale decides how far it goes. An ordinary Six who rehearses the worst case ends up with a backup plan and a packed go-bag. A Six with billions of dollars and a data-analysis company can build the very thing he was bracing against.
 
 Keep this pattern in mind. It explains Palantir.
 
-## The Loyalist's Tribe
+## Who Gets Inside
 
-Sixes are tribal. They think in terms of inner circles and outer circles. Trusted allies and potential threats. Their loyalty, once earned, is fierce and long-lasting. They build networks not for status but for security, surrounding themselves with people they've tested, vetted, and invested in over years.
+The question a Six asks about people is practical: if the room turns on me, who stays? Thiel turned that question into a hiring screen. "What important truth do very few people agree with you on?" looks like a test of originality. It also tests nerve. Anyone with a real answer has already paid a social price for breaking with a crowd, which makes that person unlikely to fold when a crowd turns on Thiel.
 
-Thiel's tribal instinct shows up everywhere.
+The screen rewards nerve over agreement, so the people who pass it don't all vote alike. What the circle protects is a supply of people whose loyalty has already held under pressure. Once someone gets in, Thiel invests for decades. The cost comes from the same filter. Everyone untested stays outside, and from out there the network looks like a mafia.
+
+Thiel's circle-building shows up everywhere.
 
 When he started PayPal, he told co-founder Max Levchin: **"I wanted to build a company where everybody would be really great friends and, no matter what happened with the company, the friendships would survive."** His management philosophy was pure Girard: every person responsible for exactly one thing. One job, one metric, one territory. Keith Rabois recalled: **"He would refuse to discuss virtually anything else with you except what was currently assigned as your #1 initiative."** The reasoning was anti-mimetic: if no one competes for the same role, internal conflict is structurally impossible.
 
@@ -231,7 +233,7 @@ This is not merely temperament. It is philosophy. Thiel was deeply influenced by
 
 He holds no government office. More than a dozen people with direct ties to him hold administration positions, yet Thiel maintains distance. Why expose yourself as a target when you can influence through trusted proxies?
 
-This is how a Six operates. Not through the loud accumulation of visible power, but through the quiet construction of loyalty networks that endure.
+Thiel's influence runs through people he tested years ago, which is why it so rarely shows up under his own name.
 
 ## Not Power, Fear: The Misread of Peter Thiel
 
@@ -277,7 +279,7 @@ Riso and Hudson: the Six **"brings about what they fear."** Chestnut: the Six **
 
 Thiel feared a surveillance state. So he built the tools to prevent it from being built by someone worse, someone without his vigilance, his awareness of the danger, his philosophical framework for understanding power. But in doing so, he created the very infrastructure he feared. The tools exist now regardless of who controls them. And the man who named his company after corrupting seeing-stones knows, on some level, what Tolkien was warning about.
 
-His justification (that the alternative is worse, that _someone_ will build these tools and better it be someone who understands the danger) is the same logic every Six uses when their defensive actions create new threats. The security system that makes the neighborhood feel surveilled. The loyalty test that drives away the loyal. The fear of betrayal that provokes the very betrayal it anticipated.
+His justification (that the alternative is worse, that _someone_ will build these tools and better it be someone who understands the danger) is the logic of a Six under threat, whose defensive actions create new threats. The security system that makes the neighborhood feel surveilled. The loyalty test that drives away the loyal. The fear of betrayal that provokes the very betrayal it anticipated.
 
 **"I don't want Antichrist. I don't want Armageddon. I would like to find some narrow path between these two,"** he wrote in _First Things_. That narrow path is the Six's eternal quest, and the Six's eternal frustration. The harder you grip, the more the ground shifts.
 

@@ -9,7 +9,7 @@
 
   Every scene and every read renders server-side (inactive scenes and the
   zoom-only "Notices" line use `hidden`), so the content is crawlable and
-  works without JS. Copy lives in superpowerData.ts; emotion names, colors
+  works without JS. Copy and the emotion tints live in superpowerData.ts; emotion names
   and the type split come from the Enneagram test copy bank (DJ's triad map,
   do not "correct" it). No heading tags inside (the table of contents reads
   h2/h3 from the DOM).
@@ -82,8 +82,7 @@
 				aria-selected={activeId === scene.id}
 				aria-controls="{uid}-panel-{scene.id}"
 				tabindex={activeId === scene.id ? 0 : -1}
-				class="sp-scenes__tab"
-				class:sp-scenes__tab--active={activeId === scene.id}
+				class={['sp-scenes__tab', { 'sp-scenes__tab--active': activeId === scene.id }]}
 				onclick={() => (activeId = scene.id)}
 				onkeydown={(event) => onTabKeydown(event, i)}
 			>
@@ -110,7 +109,7 @@
 					{#each EMOTION_ORDER as emotion (emotion)}
 						<div
 							class="sp-scenes__picker-col"
-							style="--emo: {EMOTIONS[emotion].color}"
+							style="--emo: {EMOTION_TINT[emotion]}"
 							role="group"
 							aria-label={EMOTIONS[emotion].name}
 						>
@@ -138,23 +137,21 @@
 			</div>
 
 			<div
-				class="sp-scenes__reads"
-				class:sp-scenes__reads--focus={picked !== null}
+				class={['sp-scenes__reads', { 'sp-scenes__reads--focus': picked !== null }]}
 				id="{uid}-reads-{scene.id}"
 			>
 				{#each EMOTION_ORDER as emotion (emotion)}
 					{@const types = typesForEmotion(emotion)}
 					<div
 						class="sp-scenes__col"
-						style="--emo: {EMOTIONS[emotion].color}"
+						style="--emo: {EMOTION_TINT[emotion]}"
 						hidden={picked !== null && !types.includes(picked)}
 					>
 						{#each types as type (type)}
 							{@const read = scene.reads[type]}
 							{@const focused = picked === type}
 							<div
-								class="sp-scenes__read"
-								class:sp-scenes__read--focus={focused}
+								class={['sp-scenes__read', { 'sp-scenes__read--focus': focused }]}
 								hidden={picked !== null && !focused}
 							>
 								<span class="sp-scenes__read-head">
@@ -213,9 +210,9 @@
 	.sp-scenes {
 		margin: 2rem 0;
 		padding: 1.25rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 60%);
+		background: linear-gradient(135deg, var(--surface) 0%, var(--bg) 60%);
 	}
 
 	/* Several elements here set their own `display`, which beats the UA's
@@ -227,11 +224,11 @@
 	.sp-scenes__title {
 		display: block;
 		margin-bottom: 0.85rem;
-		font-family: var(--font-display);
-		font-size: 1.2rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xl);
 		font-weight: 800;
 		line-height: 1.25;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.sp-scenes__tabs {
@@ -242,12 +239,13 @@
 	}
 
 	.sp-scenes__tab {
+		min-height: 44px;
 		padding: 0.45rem 0.9rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 999px;
 		background: transparent;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.3;
 		cursor: pointer;
 		transition:
@@ -256,21 +254,21 @@
 			border-color 0.15s ease;
 
 		&:hover {
-			border-color: var(--lamp-glow);
-			color: var(--ink-bright);
+			border-color: var(--highlight);
+			color: var(--text);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--highlight);
 			outline-offset: 2px;
 		}
 	}
 
 	.sp-scenes__tab--active,
 	.sp-scenes__tab--active:hover {
-		background: var(--lamp-glow);
-		border-color: var(--lamp-glow);
-		color: var(--text-on-primary);
+		background: var(--accent-deep);
+		border-color: var(--highlight);
+		color: var(--text);
 		font-weight: 600;
 	}
 
@@ -281,10 +279,10 @@
 	.sp-scenes__setup {
 		display: block;
 		padding-left: 0.8rem;
-		border-left: 2px solid var(--lamp-glow);
-		font-size: 1.02rem;
+		border-left: 2px solid var(--accent);
+		font-size: var(--font-size-base);
 		line-height: 1.5;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	/* Picker: one column per emotion, rows in uses / pushes down / unaware order. */
@@ -295,11 +293,11 @@
 	.sp-scenes__picker-label {
 		display: block;
 		margin-bottom: 0.5rem;
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.sp-scenes__picker-grid {
@@ -316,23 +314,24 @@
 	}
 
 	.sp-scenes__picker-emotion {
-		font-size: 0.66rem;
+		font-size: var(--font-size-xs);
 		font-weight: 800;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--highlight);
 	}
 
 	.sp-scenes__pick {
 		display: flex;
 		align-items: center;
+		min-height: 44px;
 		gap: 0.45rem;
 		min-width: 0;
 		padding: 0.4rem 0.55rem;
 		border: 1px solid color-mix(in srgb, var(--emo) 30%, transparent);
 		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--emo) 6%, transparent);
-		color: var(--ink-bright);
+		color: var(--text);
 		text-align: left;
 		cursor: pointer;
 		transition:
@@ -344,28 +343,28 @@
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--highlight);
 			outline-offset: 2px;
 		}
 
 		&[aria-pressed='true'] {
 			border-color: var(--emo);
-			background: color-mix(in srgb, var(--emo) 24%, var(--stone-warm));
+			background: color-mix(in srgb, var(--emo) 24%, var(--surface));
 		}
 	}
 
 	.sp-scenes__pick-num {
 		flex: 0 0 auto;
-		font-size: 1.05rem;
+		font-size: var(--font-size-base);
 		font-weight: 800;
 		line-height: 1;
 		font-feature-settings: 'tnum';
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--highlight);
 	}
 
 	.sp-scenes__pick-name {
 		min-width: 0;
-		font-size: 0.8rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.2;
 		overflow-wrap: anywhere;
 	}
@@ -393,10 +392,10 @@
 		gap: 0.35rem;
 		min-width: 0;
 		padding: 0.7rem 0.75rem 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
+		border: 1px solid color-mix(in srgb, var(--text-faint) 22%, transparent);
 		border-left: 3px solid var(--emo);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--night-deep) 60%, transparent);
+		background: color-mix(in srgb, var(--bg) 60%, transparent);
 		animation: sp-scenes-in 0.2s ease both;
 	}
 
@@ -408,67 +407,67 @@
 	}
 
 	.sp-scenes__read-num {
-		font-size: 1.25rem;
+		font-size: var(--font-size-xl);
 		font-weight: 800;
 		line-height: 1;
 		font-feature-settings: 'tnum';
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--highlight);
 	}
 
 	.sp-scenes__read-name {
-		font-size: 0.8rem;
+		font-size: var(--font-size-sm);
 		font-weight: 700;
 		line-height: 1.3;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.sp-scenes__read-tag {
-		font-size: 0.66rem;
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	/* Size and leading live on the line block, not the inline text: the block's
 	   strut would otherwise carry the article's 18px / 1.7 leading. */
 	.sp-scenes__line {
 		display: block;
-		font-size: 0.88rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.45;
 	}
 
 	.sp-scenes__text {
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	/* Compact card: no labels except an inline, muted "Overdone:". */
 	.sp-scenes__label {
-		font-size: 0.66rem;
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.sp-scenes__line--over {
 		padding-top: 0.35rem;
 		border-top: 1px dashed color-mix(in srgb, var(--emo) 30%, transparent);
-		font-size: 0.8rem;
+		font-size: var(--font-size-sm);
 
 		.sp-scenes__label {
 			margin-right: 0.3rem;
 		}
 
 		.sp-scenes__text {
-			color: var(--ink-mid);
+			color: var(--text-muted);
 		}
 	}
 
 	.sp-scenes__sublabel {
 		display: block;
 		margin-top: 0.2rem;
-		font-size: 0.78rem;
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0;
 		text-transform: none;
@@ -498,7 +497,7 @@
 		padding: 1rem 1.1rem 1.1rem;
 		border: 1px solid color-mix(in srgb, var(--emo) 38%, transparent);
 		border-left: 4px solid var(--emo);
-		background: color-mix(in srgb, var(--emo) 8%, var(--stone-warm));
+		background: color-mix(in srgb, var(--emo) 8%, var(--surface));
 		/* A new animation name restarts the fade when a visible card zooms in. */
 		animation-name: sp-scenes-focus;
 
@@ -507,7 +506,7 @@
 		}
 
 		.sp-scenes__read-name {
-			font-size: 1.05rem;
+			font-size: var(--font-size-base);
 		}
 
 		.sp-scenes__line {
@@ -515,7 +514,7 @@
 			grid-template-columns: 8.5rem minmax(0, 1fr);
 			gap: 0.75rem;
 			align-items: baseline;
-			font-size: 0.98rem;
+			font-size: var(--font-size-base);
 			line-height: 1.5;
 		}
 
@@ -525,7 +524,7 @@
 
 		.sp-scenes__line--move .sp-scenes__label,
 		.sp-scenes__line--move .sp-scenes__sublabel {
-			color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+			color: var(--highlight);
 		}
 
 		.sp-scenes__line--move .sp-scenes__text {
@@ -540,7 +539,7 @@
 			}
 
 			.sp-scenes__sublabel {
-				color: var(--ink-mid);
+				color: var(--text-muted);
 			}
 		}
 	}
@@ -554,28 +553,29 @@
 	}
 
 	.sp-scenes__all {
+		min-height: 44px;
 		padding: 0.45rem 0.9rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 999px;
 		background: transparent;
-		color: var(--ink-bright);
-		font-size: 0.88rem;
+		color: var(--text);
+		font-size: var(--font-size-sm);
 		line-height: 1.3;
 		cursor: pointer;
 		transition: border-color 0.15s ease;
 
 		&:hover {
-			border-color: var(--lamp-glow);
+			border-color: var(--highlight);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--highlight);
 			outline-offset: 2px;
 		}
 	}
 
 	.sp-scenes .sp-scenes__jump {
-		font-size: 0.88rem;
+		font-size: var(--font-size-sm);
 	}
 
 	@keyframes sp-scenes-in {
@@ -621,7 +621,7 @@
 		}
 
 		.sp-scenes__pick-name {
-			font-size: 0.72rem;
+			font-size: var(--font-size-xs);
 		}
 
 		.sp-scenes__read--focus {

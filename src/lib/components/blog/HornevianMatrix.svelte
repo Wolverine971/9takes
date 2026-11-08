@@ -98,38 +98,31 @@
 		margin: 2rem 0 2.5rem;
 		padding: 1.5rem 1.5rem 1.75rem;
 		border-radius: 1rem;
-		background: linear-gradient(
-			135deg,
-			var(--stone-warm) 0%,
-			var(--night-deep) 50%,
-			var(--night-deep) 100%
-		);
-		border: 1px solid color-mix(in srgb, var(--data-teal) 25%, transparent);
-		box-shadow:
-			0 8px 28px rgba(0, 0, 0, 0.3),
-			0 0 0 1px color-mix(in srgb, var(--data-teal) 10%, transparent);
+		background: linear-gradient(135deg, var(--surface) 0%, var(--bg) 50%, var(--bg) 100%);
+		border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+		box-shadow: var(--shadow-md);
 	}
 
 	.hornevian__legend {
-		font-size: 0.85rem;
-		color: var(--ink-dim);
+		font-size: var(--font-size-sm);
+		color: var(--text-faint);
 		text-align: center;
 		margin-bottom: 1rem;
 		line-height: 1.5;
+	}
 
-		&-label {
-			color: var(--lamp-glow);
-			font-weight: 700;
-			text-transform: uppercase;
-			letter-spacing: 0.04em;
-			font-size: 0.75rem;
-		}
+	.hornevian__legend-label {
+		color: var(--text-muted);
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		font-size: var(--font-size-xs);
+	}
 
-		&-sep {
-			margin: 0 0.5rem;
-			color: var(--ink-dim);
-			opacity: 0.5;
-		}
+	.hornevian__legend-sep {
+		margin: 0 0.5rem;
+		color: var(--text-faint);
+		opacity: 0.5;
 	}
 
 	.hornevian__grid {
@@ -150,22 +143,22 @@
 		padding: 0.6rem 0.4rem;
 		text-align: center;
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--data-teal) 8%, transparent);
-		border: 1px solid color-mix(in srgb, var(--data-teal) 20%, transparent);
+		background: color-mix(in srgb, var(--accent) 10%, transparent);
+		border: 1px solid var(--rule);
 	}
 
 	.hornevian__want {
-		font-size: 0.85rem;
+		font-size: var(--font-size-sm);
 		font-weight: 700;
-		color: var(--ink-bright);
+		color: var(--text);
 		line-height: 1.2;
 	}
 
 	.hornevian__center {
-		font-size: 0.7rem;
+		font-size: var(--font-size-xs);
 		text-transform: uppercase;
 		letter-spacing: 0.06em;
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 		margin-top: 0.2rem;
 	}
 
@@ -178,23 +171,23 @@
 		border-radius: 0.625rem;
 		background: linear-gradient(
 			90deg,
-			color-mix(in srgb, var(--data-teal) 12%, transparent) 0%,
-			color-mix(in srgb, var(--data-teal) 4%, transparent) 100%
+			color-mix(in srgb, var(--accent) 16%, transparent) 0%,
+			color-mix(in srgb, var(--accent) 4%, transparent) 100%
 		);
-		border: 1px solid color-mix(in srgb, var(--data-teal) 20%, transparent);
-		border-left: 4px solid var(--lamp-glow);
+		border: 1px solid var(--rule);
+		border-left: 4px solid var(--accent);
 	}
 
 	.hornevian__style {
-		font-size: 0.95rem;
+		font-size: var(--font-size-base);
 		font-weight: 700;
-		color: var(--ink-bright);
+		color: var(--text);
 		line-height: 1.2;
 	}
 
 	.hornevian__move {
-		font-size: 0.72rem;
-		color: var(--ink-dim);
+		font-size: var(--font-size-xs);
+		color: var(--text-faint);
 		margin-top: 0.2rem;
 		font-style: italic;
 	}
@@ -208,21 +201,21 @@
 		text-align: center;
 		text-decoration: none;
 		border-radius: 0.625rem;
-		background: rgba(255, 255, 255, 0.03);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
+		background: var(--surface);
+		border: 1px solid color-mix(in srgb, var(--text-faint) 18%, transparent);
 		transition:
 			background 0.18s ease,
 			border-color 0.18s ease,
 			transform 0.18s ease;
 
 		&:hover {
-			background: color-mix(in srgb, var(--data-teal) 10%, transparent);
-			border-color: color-mix(in srgb, var(--data-teal) 35%, transparent);
+			background: color-mix(in srgb, var(--accent) 16%, var(--surface));
+			border-color: color-mix(in srgb, var(--highlight) 35%, transparent);
 			transform: translateY(-1px);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--highlight);
 			outline-offset: 2px;
 		}
 	}
@@ -230,23 +223,23 @@
 	.hornevian__num {
 		font-size: 1.85rem;
 		font-weight: 800;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 		line-height: 1;
 		font-feature-settings: 'tnum';
 	}
 
 	.hornevian__name {
-		font-size: 0.78rem;
-		color: var(--ink-mid);
+		font-size: var(--font-size-xs);
+		color: var(--text-muted);
 		margin-top: 0.3rem;
 		letter-spacing: 0.02em;
 	}
 
 	.hornevian__caption {
 		margin-top: 1.1rem;
-		font-size: 0.82rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.55;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		text-align: center;
 		font-style: italic;
 	}
@@ -266,11 +259,11 @@
 		}
 
 		.hornevian__want {
-			font-size: 0.72rem;
+			font-size: var(--font-size-xs);
 		}
 
 		.hornevian__center {
-			font-size: 0.6rem;
+			font-size: var(--font-size-xs);
 		}
 
 		.hornevian__row-head {
@@ -279,11 +272,11 @@
 		}
 
 		.hornevian__style {
-			font-size: 0.82rem;
+			font-size: var(--font-size-sm);
 		}
 
 		.hornevian__move {
-			font-size: 0.62rem;
+			font-size: var(--font-size-xs);
 		}
 
 		.hornevian__cell {
@@ -295,11 +288,11 @@
 		}
 
 		.hornevian__name {
-			font-size: 0.66rem;
+			font-size: var(--font-size-xs);
 		}
 
 		.hornevian__legend {
-			font-size: 0.75rem;
+			font-size: var(--font-size-xs);
 		}
 	}
 </style>

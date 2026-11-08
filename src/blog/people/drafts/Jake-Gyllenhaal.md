@@ -134,7 +134,7 @@ A boy who literally cannot see the world clearly, raised in a household dedicate
 
 ### Jake Gyllenhaal is an Enneagram Type 6
 
-The Enneagram's [Type 6](/enneagram-corner/enneagram-type-6) is called "The Loyalist," but the name undersells what's really happening. Sixes are the type most fundamentally shaped by fear. Not cowardice, but a bone-deep awareness that the ground can shift without warning. They compensate by becoming the most prepared, the most loyal, the most watchful person in any room.
+The Enneagram's [Type 6](/enneagram-corner/enneagram-type-6) is called "The Loyalist," but the name undersells what's really happening. Fear sits at the Six's core as a bone-deep awareness that the ground can shift without warning. What makes the type interesting is what that awareness builds: a plan, and an eye for the crack in the floor other people step over. In some Sixes it also builds nerve.
 
 What makes Jake a textbook case is that he's a **counterphobic Six**. Where some Sixes retreat from what scares them, counterphobic Sixes charge directly at it. They pick fights with their own terror. They volunteer for the thing that makes their hands shake.
 

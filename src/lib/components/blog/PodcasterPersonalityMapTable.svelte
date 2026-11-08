@@ -176,9 +176,9 @@
 
 	.podcaster-map__table-shell {
 		overflow-x: auto;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
-		background: var(--night-deep);
+		background: var(--bg);
 	}
 
 	table {
@@ -188,7 +188,7 @@
 
 	th[scope='row'] {
 		font-weight: 600;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	td,
@@ -197,7 +197,8 @@
 	}
 
 	a {
-		color: var(--lamp-glow);
+		color: var(--highlight);
+		text-decoration-line: underline;
 		text-decoration-thickness: 1px;
 		text-underline-offset: 0.16em;
 	}
@@ -235,10 +236,10 @@
 		.podcaster-card {
 			display: block;
 			padding: 1rem;
-			border: 1px solid var(--stone-edge);
+			border: 1px solid var(--rule);
 			border-radius: 1rem;
-			background: var(--stone-warm);
-			color: var(--ink-mid);
+			background: var(--surface);
+			color: var(--text-muted);
 			text-decoration: none;
 			transition:
 				border-color 160ms ease,
@@ -246,12 +247,12 @@
 		}
 
 		.podcaster-card:hover {
-			border-color: var(--lamp-glow);
-			background: var(--night-deep);
+			border-color: var(--highlight);
+			background: var(--bg);
 		}
 
 		:global(.podcaster-card:focus-visible) {
-			outline: 2px solid var(--lamp-glow);
+			outline: 2px solid var(--highlight);
 			outline-offset: 3px;
 		}
 
@@ -265,29 +266,29 @@
 		.podcaster-card__header h3 {
 			margin: 0;
 			padding: 0;
-			font-size: 1rem;
+			font-size: var(--font-size-base);
 			line-height: 1.35;
-			color: var(--ink-bright);
+			color: var(--text);
 		}
 
 		.podcaster-card__header span {
 			flex: 0 0 auto;
 			padding: 0.2rem 0.45rem;
 			border-radius: 999px;
-			background: var(--lamp-soft);
-			font-family: var(--font-mono);
-			font-size: 0.65rem;
+			background: var(--accent-deep);
+			font-family: var(--font-talk);
+			font-size: var(--font-size-xs);
 			font-weight: 700;
 			line-height: 1.35;
 			letter-spacing: 0.04em;
-			color: var(--lamp-glow);
+			color: var(--highlight);
 		}
 
 		.podcaster-card__show {
 			margin: 0.35rem 0 0.85rem !important;
-			font-size: 0.875rem;
+			font-size: var(--font-size-sm);
 			font-weight: 600;
-			color: var(--ink-mid);
+			color: var(--text-muted);
 		}
 
 		dl {
@@ -303,19 +304,19 @@
 
 		dt {
 			margin-bottom: 0.2rem;
-			font-family: var(--font-mono);
-			font-size: 0.65rem;
+			font-family: var(--font-talk);
+			font-size: var(--font-size-xs);
 			font-weight: 700;
 			letter-spacing: 0.06em;
 			text-transform: uppercase;
-			color: var(--ink-dim);
+			color: var(--text-faint);
 		}
 
 		dd {
 			margin: 0;
-			font-size: 0.8rem;
+			font-size: var(--font-size-sm);
 			line-height: 1.45;
-			color: var(--ink-mid);
+			color: var(--text-muted);
 		}
 	}
 

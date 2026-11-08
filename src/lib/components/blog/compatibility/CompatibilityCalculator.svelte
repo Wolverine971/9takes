@@ -170,7 +170,7 @@
 		</dl>
 
 		<div class="calc__actions">
-			<Button variant="secondary" size="sm" onclick={copyPairLink}>Copy link to {pairCode}</Button>
+			<Button variant="secondary" onclick={copyPairLink}>Copy link to {pairCode}</Button>
 			<a class="calc__chart-link" href="#compatibility-chart"
 				>Compare every Type {typeA} pairing on the chart</a
 			>
@@ -183,10 +183,10 @@
 	.calc {
 		margin: 1.5rem 0 1.25rem;
 		overflow: hidden;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
-		background: var(--night-mid);
-		color: var(--ink-bright);
+		background: var(--surface);
+		color: var(--text);
 		scroll-margin-top: 5rem;
 	}
 
@@ -195,10 +195,10 @@
 		background:
 			radial-gradient(
 				circle at 100% 0%,
-				color-mix(in srgb, var(--lamp-glow) 12%, transparent),
+				color-mix(in srgb, var(--accent) 16%, transparent),
 				transparent 55%
 			),
-			var(--night-deep);
+			var(--bg);
 	}
 
 	.calc__fields {
@@ -221,8 +221,8 @@
 		right: 1rem;
 		width: 0.5rem;
 		height: 0.5rem;
-		border-right: 2px solid var(--ink-dim);
-		border-bottom: 2px solid var(--ink-dim);
+		border-right: 2px solid var(--text-faint);
+		border-bottom: 2px solid var(--text-faint);
 		transform: translateY(-70%) rotate(45deg);
 		pointer-events: none;
 	}
@@ -242,10 +242,10 @@
 	.calc__hint {
 		margin: 0;
 		padding: 0 var(--space-lg) var(--space-md);
-		background: var(--night-deep);
-		border-bottom: 1px solid var(--stone-edge);
-		color: var(--ink-dim);
-		font-size: 0.875rem;
+		background: var(--bg);
+		border-bottom: 1px solid var(--rule);
+		color: var(--text-faint);
+		font-size: var(--font-size-sm);
 		line-height: 1.45;
 	}
 
@@ -260,9 +260,9 @@
 	}
 
 	.calc__pair {
-		color: var(--ink-dim);
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
+		color: var(--text-faint);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		letter-spacing: 0.06em;
 		line-height: 1.4;
@@ -270,8 +270,8 @@
 	}
 
 	.calc__title {
-		color: var(--ink-bright);
-		font-family: var(--font-display);
+		color: var(--text);
+		font-family: var(--font-talk);
 		font-size: 1.5rem;
 		font-weight: 700;
 		line-height: 1.2;
@@ -285,24 +285,24 @@
 		justify-self: start;
 		max-width: 100%;
 		padding: var(--space-xs) var(--space-md);
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 45%, transparent);
+		border: 1px solid color-mix(in srgb, var(--highlight) 35%, transparent);
 		border-radius: 0.625rem;
-		background: var(--lamp-soft);
+		background: color-mix(in srgb, var(--accent) 18%, transparent);
 		line-height: 1.4;
 	}
 
 	.calc__fault-label {
-		color: var(--lamp-glow);
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
+		color: var(--highlight);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
 	}
 
 	.calc__fault-text {
-		color: var(--ink-bright);
-		font-size: 1rem;
+		color: var(--text);
+		font-size: var(--font-size-base);
 		font-weight: 600;
 	}
 
@@ -314,18 +314,18 @@
 
 	.calc__read {
 		padding-left: var(--space-md);
-		border-left: 2px solid var(--stone-edge);
+		border-left: 2px solid var(--rule);
 	}
 
 	.calc__read--works {
-		border-left-color: var(--lamp-glow);
+		border-left-color: var(--accent);
 	}
 
 	.calc__read dt {
 		margin: 0 0 var(--space-xs);
-		color: var(--ink-dim);
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
+		color: var(--text-faint);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		letter-spacing: 0.06em;
 		line-height: 1.4;
@@ -334,8 +334,8 @@
 
 	.calc__read dd {
 		margin: 0;
-		color: var(--ink-bright);
-		font-size: 1rem;
+		color: var(--text);
+		font-size: var(--font-size-base);
 		line-height: 1.6;
 	}
 
@@ -345,17 +345,21 @@
 		align-items: center;
 		gap: var(--space-sm) var(--space-lg);
 		padding-top: var(--space-sm);
-		border-top: 1px solid var(--stone-edge);
+		border-top: 1px solid var(--rule);
 	}
 
 	.calc__chart-link {
-		font-size: 0.875rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.45;
 	}
 
+	.calc__actions :global(.btn) {
+		min-height: 44px;
+	}
+
 	.calc__copy-status {
-		color: var(--ink-mid);
-		font-size: 0.875rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 	}
 
 	.calc__copy-status:empty {
@@ -363,7 +367,7 @@
 	}
 
 	.calc :global(a:focus-visible) {
-		outline: 2px solid var(--lamp-glow);
+		outline: 2px solid var(--highlight);
 		outline-offset: 2px;
 		border-radius: 0.25rem;
 	}
@@ -377,8 +381,8 @@
 		.calc__plus {
 			display: block;
 			padding-bottom: 0.6rem;
-			color: var(--lamp-glow);
-			font-family: var(--font-display);
+			color: var(--text-faint);
+			font-family: var(--font-talk);
 			font-size: 1.5rem;
 			font-weight: 700;
 			line-height: 1;

@@ -220,7 +220,7 @@ That's not a Seven's party. That's a Six's verdict on every institution that pro
 
 Most people misunderstand counterphobic behavior. They see someone confronting threats and assume fearlessness. The opposite is true. A counterphobic Six is terrified, and her strategy for managing terror is to charge directly at it, because waiting feels worse than fighting.
 
-Lorenz cried on MSNBC, then published the Libs of TikTok investigation the same week. Two years later, she arranged a face-to-face interview with the woman she'd exposed. She called her editor "the best editor on the entire planet" for helping her prepare. She needed the institutional backup (a Six always needs backup), and she got it. Then she sat down with her adversary and the camera rolling.
+Lorenz cried on MSNBC, then published the Libs of TikTok investigation the same week. Two years later, she arranged a face-to-face interview with the woman she'd exposed. She called her editor "the best editor on the entire planet" for helping her prepare. She secured the institutional backup first. For this Six, backup is part of the plan, and once it was in place she sat down with her adversary and the camera rolling.
 
 "The way to react to that is always be completely polite and completely calm," she told Poynter about the encounter. "Because all they want to do is have you freaking out or yelling at them."
 

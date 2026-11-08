@@ -207,16 +207,16 @@
 		margin: 3rem 0;
 		padding: clamp(1rem, 3vw, 2rem);
 		transform: translateX(-50%);
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 16px;
 		background:
 			radial-gradient(
 				circle at 50% 0%,
-				color-mix(in srgb, var(--lamp-glow) 10%, transparent),
+				color-mix(in srgb, var(--accent) 14%, transparent),
 				transparent 32rem
 			),
-			var(--night-deep);
-		color: var(--ink-bright);
+			var(--bg);
+		color: var(--text);
 		overflow: hidden;
 	}
 
@@ -228,8 +228,8 @@
 		background: linear-gradient(
 			to bottom,
 			transparent,
-			color-mix(in srgb, var(--lamp-glow) 30%, transparent) 8%,
-			color-mix(in srgb, var(--lamp-glow) 30%, transparent) 92%,
+			color-mix(in srgb, var(--accent) 45%, transparent) 8%,
+			color-mix(in srgb, var(--accent) 45%, transparent) 92%,
 			transparent
 		);
 		pointer-events: none;
@@ -255,20 +255,20 @@
 
 	.map-header > p:last-child {
 		margin: 0;
-		color: var(--ink-mid);
-		font-size: 1rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-base);
 	}
 
 	.kicker,
 	.node-label,
 	.loop-label {
 		margin: 0;
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 	}
 
 	.origin-stack {
@@ -283,9 +283,9 @@
 		gap: 1rem;
 		width: min(100%, 42rem);
 		padding: 1rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 10px;
-		background: var(--stone-warm);
+		background: var(--surface);
 	}
 
 	.flow-node p,
@@ -294,11 +294,11 @@
 	}
 
 	.origin-node {
-		border-color: color-mix(in srgb, var(--data-teal) 45%, var(--stone-edge));
+		border-color: color-mix(in srgb, var(--highlight) 30%, transparent);
 	}
 
 	.shame-node {
-		border-color: color-mix(in srgb, var(--lamp-glow) 45%, var(--stone-edge));
+		border-color: color-mix(in srgb, var(--accent) 55%, transparent);
 	}
 
 	.node-number {
@@ -306,26 +306,26 @@
 		place-items: center;
 		width: 2.5rem;
 		height: 2.5rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 32%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
 		border-radius: 10px;
-		background: var(--night-mid);
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
-		color: var(--ink-mid);
+		background: var(--bg);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		color: var(--text-muted);
 	}
 
 	.node-note {
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 	}
 
 	.flow-arrow {
 		display: grid;
 		place-items: center;
 		height: 3rem;
-		color: var(--lamp-glow);
-		font-family: var(--font-mono);
-		font-size: 1.25rem;
+		color: var(--highlight);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xl);
 	}
 
 	.flow-arrow span {
@@ -334,15 +334,15 @@
 		width: 2rem;
 		height: 2rem;
 		border-radius: 9999px;
-		background: var(--night-deep);
+		background: var(--bg);
 	}
 
 	.blame-stage,
 	.loop-stage {
 		padding: 1rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 16px;
-		background: color-mix(in srgb, var(--stone-warm) 86%, transparent);
+		background: color-mix(in srgb, var(--surface) 86%, transparent);
 	}
 
 	.stage-heading {
@@ -370,14 +370,14 @@
 		min-width: 0;
 		flex-direction: column;
 		padding: 1rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 10px;
-		background: var(--night-mid);
+		background: var(--surface-raised);
 	}
 
 	.branch-card h3 {
 		margin: 0;
-		font-size: 1rem;
+		font-size: var(--font-size-base);
 	}
 
 	.branch-card ul,
@@ -389,21 +389,21 @@
 
 	.branch-card li {
 		margin: 0 0 0.45rem;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.45;
 	}
 
 	.branch-result {
 		margin: auto 0 0;
 		padding-top: 0.75rem;
-		border-top: 1px solid var(--stone-edge);
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
+		border-top: 1px solid var(--rule);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.community-stage {
@@ -415,17 +415,17 @@
 		gap: 0.35rem;
 		margin-top: 1rem;
 		padding: 0.8rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--accent) 50%, transparent);
 		border-radius: 10px;
-		background: var(--night-deep);
+		background: var(--bg);
 	}
 
 	.community-message span {
-		font-family: var(--font-mono);
-		font-size: 0.68rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.08em;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.reward-grid {
@@ -435,24 +435,24 @@
 
 	.reward-grid article {
 		padding: 0.9rem;
-		border: 1px solid color-mix(in srgb, var(--data-teal) 42%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--highlight) 30%, transparent);
 		border-radius: 10px;
-		background: color-mix(in srgb, var(--data-teal) 8%, var(--stone-warm));
+		background: color-mix(in srgb, var(--accent) 12%, var(--surface));
 		text-align: center;
 	}
 
 	.reward-grid p {
 		margin: 0 0 0.3rem;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--data-cyan);
+		color: var(--highlight);
 	}
 
 	.reward-grid strong {
-		font-size: 0.9rem;
+		font-size: var(--font-size-sm);
 	}
 
 	.worldview-stage {
@@ -460,15 +460,11 @@
 		grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
 		gap: 1.5rem;
 		padding: clamp(1rem, 3vw, 1.5rem);
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 50%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--accent) 60%, transparent);
 		border-radius: 16px;
 		background:
-			linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--lamp-glow) 9%, transparent),
-				transparent 48%
-			),
-			var(--stone-warm);
+			linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, transparent), transparent 48%),
+			var(--surface);
 	}
 
 	.worldview-heading h3,
@@ -488,8 +484,8 @@
 	.worldview-stage li {
 		position: relative;
 		padding-left: 1.25rem;
-		color: var(--ink-mid);
-		font-size: 0.94rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-base);
 		line-height: 1.45;
 	}
 
@@ -497,7 +493,7 @@
 		content: '—';
 		position: absolute;
 		left: 0;
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 	}
 
 	.loop-heading {
@@ -512,17 +508,17 @@
 
 	.loop-panel {
 		padding: 1rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 10px;
-		background: var(--night-mid);
+		background: var(--surface-raised);
 	}
 
 	.social-loop {
-		border-color: color-mix(in srgb, var(--error) 36%, var(--stone-edge));
+		border-color: color-mix(in srgb, var(--accent) 55%, transparent);
 	}
 
 	.money-loop {
-		border-color: color-mix(in srgb, var(--data-teal) 42%, var(--stone-edge));
+		border-color: color-mix(in srgb, var(--highlight) 30%, transparent);
 	}
 
 	.loop-panel ol {
@@ -549,18 +545,18 @@
 		left: 0.72rem;
 		width: 1px;
 		height: 0.6rem;
-		background: var(--stone-edge);
+		background: var(--rule);
 	}
 
 	.loop-panel li span {
-		font-family: var(--font-mono);
-		font-size: 0.68rem;
-		color: var(--ink-dim);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
+		color: var(--text-faint);
 	}
 
 	.loop-panel li p {
 		margin: 0;
-		font-size: 0.9rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.35;
 	}
 
@@ -568,7 +564,7 @@
 		margin: 0;
 		padding: 0.75rem;
 		border-radius: 10px;
-		background: var(--stone-warm);
+		background: var(--bg);
 		font-weight: 700;
 		text-align: center;
 	}
@@ -580,14 +576,14 @@
 		width: min(100%, 42rem);
 		margin: 1rem auto 0;
 		padding: 1rem;
-		border: 1px dashed color-mix(in srgb, var(--lamp-glow) 45%, var(--stone-edge));
+		border: 1px dashed color-mix(in srgb, var(--accent) 55%, transparent);
 		border-radius: 10px;
-		background: var(--night-deep);
+		background: var(--bg);
 	}
 
 	.loop-return > span {
 		font-size: 2rem;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.loop-return p,
@@ -598,8 +594,8 @@
 
 	.loop-return strong {
 		margin-top: 0.2rem;
-		color: var(--ink-mid);
-		font-size: 0.85rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 	}
 
 	/* The shared article TOC becomes a fixed 200px left rail on wide screens.

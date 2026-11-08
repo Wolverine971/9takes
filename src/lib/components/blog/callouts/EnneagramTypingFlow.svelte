@@ -663,6 +663,11 @@
 		}
 	}
 
+	/* Global figcaption rules italicize captions; this caption is a header. */
+	.typing-flow .typing-flow__caption {
+		font-style: normal;
+	}
+
 	.typing-flow__caption {
 		display: flex;
 		flex-direction: column;

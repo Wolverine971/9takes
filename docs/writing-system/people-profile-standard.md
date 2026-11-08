@@ -47,6 +47,28 @@ Target roughly 2,000–3,500 words when the evidence warrants it. Mechanical rel
 
 Check current accuracy during research, but include recent events only when they deepen, complicate, or meaningfully test the personality argument. Use absolute dates. Record changing positions, relationships, figures and unresolved matters as `time_sensitive`/`unresolved` claims with an actionable `review_trigger`. If the latest event were removed, the central insight should still stand. The `accuracy_checked_at` field records a check, not a promise that the article never needs maintenance.
 
+## Fair treatment across types
+
+9takes explains why people act as they do. It is neither defender nor prosecutor. Readers on every side notice when the same behavior gets a charitable reading for one type and a cynical one for another, so apply one standard to every type and every political side. (Added 2026-11-07 after a reader audit found Type 6 pages harsher than others and controversy handling uneven by type.)
+
+**Type range**
+
+- Give the core type credit for its strengths. Humor, nerve, magnetism, beauty, creativity and excellence belong to the type when the motive fits; don't hand every attractive trait to the wing, the arrow or the biography.
+- Success is not a stress symptom by default. File achievement under a stress arrow only with evidence that it came from strain.
+- No single emotion is a typing requirement. Anxiety alone doesn't make someone a 6, and its absence doesn't rule a 6 out.
+- Write failure modes as the unhealthy or stressed version of the type ("a Six under threat"), not as what the whole type is ("Sixes are tribal").
+- A shared act is weak type evidence. If two people did the same thing (co-signed a letter, made the same reversal), show why this person did it in a type-specific way, or don't use it as proof. Check related pages for the same event cited as evidence for a different type.
+
+**Controversies**
+
+1. Every major public controversy appears on the page. Coverage is checked by `pnpm controversies:check` against `docs/writing-system/people-controversies.json`; add new entries as `open`, then flip to `required` once written.
+2. State the record in one plain paragraph: the actual word, act or charge, with absolute dates. No euphemisms ("an incident", "a slur slipped out").
+3. Label the evidence: on video or in their own words, court finding, settled without admission, or alleged by a named source and denied.
+4. Give the person's response and one named critic's actual argument. The author never vouches for or against the sincerity of an apology.
+5. Use the type to explain how the behavior fits the pattern, then say plainly that it doesn't excuse it.
+6. Hold remorse to the same test for every type. An apology isn't image management on a 3 page and genuine reckoning on a 6 page without evidence that distinguishes them.
+7. No verdict lines, snark or moralizing adjectives. Models: Cristiano Ronaldo (Mayorga allegation), Jared Leto (2025 allegations), Dave Chappelle (_The Closer_).
+
 ## Metadata and inherited state
 
 Finish FAQs, titles, descriptions, citations and biographical facts against the edited article. Update affected FAQs during refresh; preserve still-supported facts. Never turn a birth year into January 1. Omit an unsupported full date. Do not add unsupported precision elsewhere.

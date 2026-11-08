@@ -149,6 +149,8 @@ The story can look like spontaneous adventurousness. Its more revealing feature 
 
 No audition anecdote proves a personality type. In the larger pattern, though, this is the counterphobic possibility: fear does not always produce retreat. Sometimes it produces a charge.
 
+The charge paid off on screen. In 2013 Lawrence won Best Actress for _Silver Linings Playbook_ at 22, the second-youngest winner in that category, and she had four Oscar nominations by 25. The anxiety in this analysis helps explain how hard she worked. It does not explain why she was good. She plays scenes as if nobody handed her the next line, and that takes real skill.
+
 ## What is Jennifer Lawrence's Personality Type?
 
 ### Jennifer Lawrence is an Enneagram Type 6
@@ -194,7 +196,7 @@ The most spontaneous-seeming woman in Hollywood was describing a hidden rule und
 
 That resembles the Six's bargain: loyalty and effort in exchange for safety.
 
-When she wrote her famous pay gap essay in Lena Dunham's newsletter, she admitted the real reason she hadn't negotiated harder: "I didn't want to seem 'difficult' or 'spoiled.'" Not a strategic calculation. Not a principled stand she'd been building toward. A fear response. The terror of being labeled the difficult woman.
+When she wrote her famous pay gap essay in Lena Dunham's newsletter in 2015, she admitted the real reason she hadn't negotiated harder: "I didn't want to seem 'difficult' or 'spoiled.'" That is fear, named in her own words. Then she published it under her own name and turned on the same fear in print. "I'm over trying to find the 'adorable' way to state my opinion and still be likable," she wrote, as [_The Guardian_ reported](https://www.theguardian.com/film/2015/oct/13/jennifer-lawrence-hollywood-gender-pay-gap). Admitting you folded, in public, at the height of your fame, is the counterphobic move: walking straight at the label you were afraid of.
 
 <div class="contrast-panel">
 <div class="contrast-panel__side contrast-panel__side--left">
@@ -207,7 +209,7 @@ When she wrote her famous pay gap essay in Lena Dunham's newsletter, she admitte
 </div>
 </div>
 
-Both statements are completely true. She could tell a studio executive to go to hell about her body — that was the counterphobic bravado, the Nitro energy, the part of her that charges at threats. But she couldn't ask for fair pay without apologizing. That was the phobic underbelly — the part that needs to be liked more than it needs to be right.
+Both statements are completely true. She could tell a studio executive to go to hell about her body — that was the counterphobic bravado, the Nitro energy, the part of her that charges at threats. But she couldn't ask for fair pay without apologizing. That was the phobic side, the wish to be liked, and the essay is where she named it and pushed past it.
 
 ---
 
@@ -241,7 +243,7 @@ The image is almost comically small for one of the most famous women on earth. B
 
 She describes grocery shopping together as her favorite activity. "Okay, we've got this list. These are the things we need. Let's work together and get this done."
 
-The woman who once seemed like the wildest person at every party was actually craving a grocery list.
+The woman who once seemed like the wildest person at every party also wanted a grocery list.
 
 ---
 
@@ -275,8 +277,8 @@ The double negative leaves both truths standing. Motherhood enlarged her life an
 
 <div class="key-stat-row">
 <div class="key-stat">
-<span class="key-stat__number">4</span>
-<span class="key-stat__label">Oscar nominations by age 25</span>
+<span class="key-stat__number">1</span>
+<span class="key-stat__label">Oscar win at 22, with 4 nominations by 25</span>
 </div>
 <div class="key-stat">
 <span class="key-stat__number">2</span>
@@ -298,7 +300,7 @@ Then there is the franchise she once seemed finished with. Lawrence and Josh Hut
 
 In January, she told Amy Poehler that she had also written a comedy she [wanted to direct and star in](https://au.variety.com/2026/film/global/jennifer-lawrence-white-men-women-directors-32137/).
 
-The common denominator is authorship. The earlier career made Lawrence the product: franchise lead, press-tour generator, “cool girl” headline. The 2026 version repeatedly puts her in the producer column and, potentially, the director's chair. She did not disappear into domestic life. She built a secure base and returned with more control over the exposure.
+The common denominator is authorship. The earlier career made Lawrence the product as well as the talent: Oscar winner, franchise lead, “cool girl” headline. The 2026 version repeatedly puts her in the producer column and, potentially, the director's chair. She did not disappear into domestic life. She built a secure base and returned with more control over the exposure.
 
 ## The Closet Doors
 

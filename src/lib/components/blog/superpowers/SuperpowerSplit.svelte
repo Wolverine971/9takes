@@ -1,7 +1,7 @@
 <!-- src/lib/components/blog/superpowers/SuperpowerSplit.svelte -->
 <!--
   One type's superpower and kryptonite side by side, for the Enneagram
-  strengths and weaknesses post. Same emotion color on both panels; the
+  strengths and weaknesses post. Same emotion tint on both panels; the
   kryptonite panel is the shadow version (darker tint, dashed border, muted
   label) so the pair reads as one trait in two lights.
 
@@ -13,7 +13,7 @@
   <SuperpowerSplit type={8} powerScene="..." kryptoniteScene="..." />
 -->
 <script lang="ts">
-	import { EMOTIONS, TEST_TYPES, relationTag, type TestType } from '$lib/enneagramTest/content';
+	import { TEST_TYPES, relationTag, type TestType } from '$lib/enneagramTest/content';
 	import { TYPE_POWERS } from './superpowerData';
 
 	let {
@@ -30,7 +30,7 @@
 		kryptonite?: string;
 	} = $props();
 
-	let color = $derived(EMOTIONS[TEST_TYPES[type].emotion].color);
+	let color = $derived(EMOTION_TINT[TEST_TYPES[type].emotion]);
 	let powerLabel = $derived(power ?? TYPE_POWERS[type].power);
 	let kryptoniteLabel = $derived(kryptonite ?? TYPE_POWERS[type].kryptonite);
 </script>
@@ -70,17 +70,17 @@
 		align-items: baseline;
 		gap: 0.4rem;
 		margin: 0 0 0.5rem;
-		font-size: 0.75rem;
+		font-size: var(--font-size-xs);
 		font-style: normal;
 		font-weight: 700;
 		letter-spacing: 0.06em;
 		line-height: 1.4;
 		text-transform: uppercase;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.sp-split__type {
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--highlight);
 	}
 
 	.sp-split__panels {
@@ -101,46 +101,45 @@
 	.sp-split__panel--power {
 		border: 1px solid color-mix(in srgb, var(--emo) 38%, transparent);
 		border-top: 3px solid var(--emo);
-		background: color-mix(in srgb, var(--emo) 9%, var(--stone-warm));
+		background: color-mix(in srgb, var(--emo) 9%, var(--surface));
 	}
 
-	/* The shadow version: same hue, pulled toward the page's darkest surface,
-	   dashed edge, muted label. --night-mid is darker than --stone-warm in
-	   both themes, so the panel reads as the shade side in light mode too. */
+	/* The shadow version: same tint, pulled down to the page's darkest
+	   surface, dashed edge, muted label. */
 	.sp-split__panel--kryptonite {
 		border: 1px dashed color-mix(in srgb, var(--emo) 42%, transparent);
 		border-top: 3px dashed color-mix(in srgb, var(--emo) 55%, transparent);
-		background: color-mix(in srgb, var(--emo) 5%, var(--night-mid));
+		background: color-mix(in srgb, var(--emo) 5%, var(--bg));
 	}
 
 	.sp-split__eyebrow {
-		font-size: 0.66rem;
+		font-size: var(--font-size-xs);
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: color-mix(in srgb, var(--emo) 68%, var(--ink-bright));
+		color: var(--highlight);
 	}
 
 	.sp-split__panel--kryptonite .sp-split__eyebrow {
-		color: color-mix(in srgb, var(--emo) 40%, var(--ink-dim));
+		color: var(--text-faint);
 	}
 
 	.sp-split__label {
-		font-size: 1.05rem;
+		font-size: var(--font-size-base);
 		font-weight: 800;
 		line-height: 1.25;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.sp-split__panel--kryptonite .sp-split__label {
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.sp-split__scene {
 		margin-top: 0.15rem;
-		font-size: 0.92rem;
+		font-size: var(--font-size-base);
 		line-height: 1.5;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	@media (max-width: 600px) {

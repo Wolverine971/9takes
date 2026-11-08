@@ -66,7 +66,7 @@ faqs:
     answer: 'Alex Karp is an Enneagram Type 4 (The Individualist). His refusal to modulate, authenticity-as-survival, and pattern of turning every personal wound (dyslexia, outsider identity, inability to sit still) into a public contribution all reflect the Type 4 drive to make being different matter.'
     anchor: 'what-is-alex-karps-personality-type'
   - question: "Why can't Alex Karp sit still?"
-    answer: "After a viral clip of Karp fidgeting at the 2025 DealBook Summit, he launched Palantir's Neurodivergent Fellowship paying $110,000 to $200,000 a year. The man who hid his dyslexia for decades turned his inability to sit in a chair into a hiring program."
+    answer: "Karp has never named a cause. The only condition he has disclosed is dyslexia, he calls himself neurodivergent, and before the viral 2025 DealBook Summit clip he had broken his own no-sugar rule with a Mexican Coca-Cola. Restlessness alone points to no type. What points to Type 4 is what he did next: he launched Palantir's Neurodivergent Fellowship, paying $110,000 to $200,000 a year, and turned the fidget into a hiring program."
     anchor: 'why-alex-karp-cant-sit-still'
   - question: "What is Alex Karp's political contradiction?"
     answer: 'Karp calls himself a progressive and a neo-Marxist while running a defense-tech company whose software is used by the U.S. military, ICE, and the IDF. He defends Palantir on operational grounds: its auditable targeting chain in Ukraine compresses decision time from hours to minutes with a reviewable record.'
@@ -226,13 +226,25 @@ To understand the visual: Karp does not look like the CEO of a defense technolog
 
 Onstage, he made big, looping gestures. He fidgeted in his seat. He talked fast and nervously adjusted his chair. He gripped both sides of the chair and leaned forward. A prominent venture capitalist posted the clip with the caption: "Every pre-school teacher in America should be required to watch this video of Alex Karp being completely unable to sit still in his chair."
 
+So why can't he sit still? Pick a suspect.
+
+**The Coke.** A man who has sworn off refined sugar drank a Mexican Coca-Cola, caffeine and all, minutes before a live interview. That alone could do it.
+
+**The engine.** He cross-country skis five hours a week, 90% of it at a glacial pace. "To run like a deer," he told Axios, "you have to spend 90% of your time running like a snail." His security detail is largely Norwegian special forces veterans, because they're the only bodyguards who can keep up with him on the trails. That body idles high. Parking it in an armchair for an hour is asking a lot.
+
+**The pouch.** A good chunk of tech runs on Zyn. Nobody has caught Karp with one, so this suspect walks.
+
+**The wiring.** He's dyslexic, and he counts himself among "the neurally divergent (like myself)." That's as far as he has gone in public, and we're not going further for him.
+
+**Or he was just excited.** He was onstage talking about Palantir, his favorite subject on earth.
+
+Probably some of all five. None of it is a personality type, since any type can drink a Coke. What's Four about Karp is what he did the next morning.
+
 Most CEOs would have ignored it or issued a polished PR statement. Karp's response was pure Karp: while cross-country skiing the next morning, he decided to launch Palantir's "Neurodivergent Fellowship," a recruitment pathway for people who think faster than they can speak and cannot sit still.
 
 "This is not a diversity initiative," the company wrote. The fellowship pays $110,000 to $200,000 a year.
 
-The man who hid his dyslexia for decades turned his inability to sit in a chair into a hiring program.
-
-He cross-country skis five hours a week, 90% of it at a glacial pace. "To run like a deer," he told Axios, "you have to spend 90% of your time running like a snail." His security detail is composed largely of Norwegian special forces veterans — the only bodyguards fit enough to keep up with him on the trails.
+The man who hid his dyslexia for decades turned his inability to sit in a chair into a hiring program. Most executives pay a media coach to sand the fidget off. Karp wrote a job description around it.
 
 ---
 

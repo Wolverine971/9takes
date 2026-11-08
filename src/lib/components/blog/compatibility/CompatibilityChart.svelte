@@ -48,7 +48,7 @@
 						>{row.type}<span class="tname">{COMPATIBILITY_TYPE_NAMES[row.type]}</span></th
 					>
 					{#each row.cells as cell (cell.col)}
-						<td class:same={cell.same}><a href={`#${cell.anchor}`}>{cell.faultLine}</a></td>
+						<td class={{ same: cell.same }}><a href={`#${cell.anchor}`}>{cell.faultLine}</a></td>
 					{/each}
 				</tr>
 			{/each}
@@ -58,7 +58,7 @@
 
 <style>
 	.compat-chart {
-		--blog-link-color: var(--ink-bright);
+		--blog-link-color: var(--text);
 		overflow-x: auto;
 		margin: 1.5rem 0;
 		-webkit-overflow-scrolling: touch;
@@ -71,7 +71,7 @@
 		margin: 0;
 		table-layout: fixed;
 		overflow: visible;
-		font-size: 0.8125rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.3;
 	}
 
@@ -79,8 +79,8 @@
 		caption-side: bottom;
 		padding-top: 0.5rem;
 		text-align: left;
-		font-size: 0.875rem;
-		color: var(--ink-dim);
+		font-size: var(--font-size-sm);
+		color: var(--text-faint);
 	}
 
 	.compat-chart th,
@@ -108,13 +108,13 @@
 
 	.compat-chart .tname {
 		display: block;
-		font-size: 0.6875rem;
+		font-size: var(--font-size-xs);
 		font-weight: 400;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 		hyphens: none;
 	}
 
 	.compat-chart td.same {
-		background-color: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
+		background-color: color-mix(in srgb, var(--accent) 18%, transparent);
 	}
 </style>

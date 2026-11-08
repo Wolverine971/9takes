@@ -646,8 +646,10 @@
 		opacity: 1;
 	}
 
+	/* The composer draws the focus ring; drop the global textarea glow. */
 	.sq textarea:focus {
 		outline: none;
+		box-shadow: none;
 	}
 
 	.sq .sq-composer-footer {

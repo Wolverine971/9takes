@@ -65,7 +65,7 @@ faqs:
     answer: "Around 2014 one of the most recognizable actors in the world quietly tapered off, roughly eight film roles across two decades, and turned to poker and producing through his company Material Pictures. For a Six who had finally banked enough safety, disappearing was not defeat but the whole point: he only ever needed certainty, not the next role, so when scripts stopped delivering it he simply stopped gambling on them."
     anchor: 'why-tobey-maguire-walked-away-from-being-a-movie-star'
   - question: 'Why has Tobey Maguire kept the same friends for thirty years?'
-    answer: "A Type 6 trusts a small circle absolutely and the wider world almost not at all. Maguire met Leonardo DiCaprio as a teenager auditioning for the same jobs, and three decades later they remain the anchor of a famously tight pack; when the three screen Spider-Men reunited, Andrew Garfield signed on saying 'I followed Tobey.' A transient kid who never kept a stable home built one out of people instead of a place."
+    answer: "Maguire's trust takes years to earn, and once earned it holds for decades. He met Leonardo DiCaprio as a teenager auditioning for the same jobs, and three decades later they remain the anchor of a famously tight pack; when the three screen Spider-Men reunited, Andrew Garfield signed on saying 'I followed Tobey.' A transient kid who never kept a stable home built one out of people instead of a place."
     anchor: 'the-friends-tobey-maguire-has-kept-for-thirty-years'
 production_pretext:
   status: draft
@@ -159,7 +159,7 @@ The easy read is that the nice guy was faking, and the poker shark is the real h
 <ul>
 <li><b>Core type:</b> Maguire is a Type 6, the Loyalist. The engine underneath the calm surface is not peace. It is the management of fear.</li>
 <li><b>The childhood:</b> He grew up poor and transient. Food stamps, borrowed groceries, nights on relatives' couches. He built an adult life with the uncertainty deliberately engineered out of it.</li>
-<li><b>The loyalty:</b> He has kept the same tight pack of friends for three decades. A Six trusts a small circle absolutely and the wider world almost not at all.</li>
+<li><b>The loyalty:</b> He has kept the same tight pack of friends for three decades. His trust takes years to earn, and once earned it holds for decades.</li>
 <li><b>The two faces:</b> Warm and grateful when he feels safe. Cold and controlling when he feels exposed. Same man. Two temperatures.</li>
 </ul>
 </div>

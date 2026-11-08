@@ -66,7 +66,7 @@ faqs:
     answer: "Launched in January 2019 with an eighty-person gospel choir, it grew to a three-hour Easter set at Coachella, and Jesus Is King won the Grammy for Best Contemporary Christian Music Album. Then the cycle completed: choir members filed a class action over flat $250 payments and no meals or breaks (settled for $1.35 million), the organization lost its tax-exempt status in 2024, and by mid-2024 the choir was performing without him."
     anchor: 'we-all-will-live-in-turrell-spaces'
   - question: "What did Kanye West's 2026 apology say?"
-    answer: "It ran as a full-page Wall Street Journal ad titled 'To Those I've Hurt' in January 2026. He attributed his behavior to the undiagnosed frontal-lobe injury from the 2002 crash and a 'four-month-long manic episode of psychotic, paranoid and impulsive behavior that destroyed my life,' and committed to 'accountability, treatment, and meaningful change.' Two months later he announced his twelfth album, Bully, and a world tour."
+    answer: "It ran as a full-page Wall Street Journal ad titled 'To Those I've Hurt' in January 2026. He attributed his behavior to the undiagnosed frontal-lobe injury from the 2002 crash and a 'four-month-long manic episode of psychotic, paranoid and impulsive behavior that destroyed my life' in early 2025, and committed to 'accountability, treatment, and meaningful change.' The ADL called it 'long overdue' and said it 'doesn't automatically undo his long history of antisemitism.' Two months later he announced his twelfth album, Bully, and a world tour."
     anchor: 'tokyo-bianca-and-the-next-world'
 twitter: 'kanyewest'
 instagram: 'kanyewest'
@@ -244,11 +244,11 @@ That sentence is a window into the architecture of his mind. For decades, Kanye'
 
 "Previously, I would've looked at humility as a negative. But that humility gave me time to grow."
 
-The breakthrough was real. The growth was real. But the lesson didn't hold. Within two years, the engine was running again, faster, louder, more erratic. The presidential campaign announced from the shower. The increasingly unpredictable public behavior. Each new venture arriving right as the previous one became untenable.
+That was his account of the breakthrough. The lesson didn't hold. Within two years, the engine was running again, faster, louder, more erratic. The presidential campaign announced from the shower. The increasingly unpredictable public behavior. Each new venture arriving right as the previous one became untenable.
 
 The bipolar diagnosis adds another dimension. In his January 2026 Wall Street Journal apology, Kanye connected dots that had been floating for twenty-four years: the 2002 car crash fractured his jaw _and_ injured his right frontal lobe, but "comprehensive scans were not done, neurological exams were limited, and the possibility of a frontal-lobe injury was never raised." He said it wasn't properly diagnosed until 2023.
 
-He described a "four-month-long manic episode of psychotic, paranoid and impulsive behavior that destroyed my life."
+He described a "four-month-long manic episode of psychotic, paranoid and impulsive behavior that destroyed my life," and dated it to early 2025.
 
 The intersection of Type 7 psychology and bipolar disorder creates something almost impossible to navigate. The type already resists slowing down. The mania makes slowing down neurologically impossible. The type already reframes pain into fuel. The mania turns the reframing into delusion. Kanye himself said his prescribed medication "blocked my ability to channel what God wanted me to do," which is exactly what a Seven would say about anything that dampens the signal.
 
@@ -258,6 +258,8 @@ In October 2022, Kanye appeared at Paris Fashion Week wearing a "White Lives Mat
 
 The fallout was total. Adidas, Gap, Balenciaga, Vogue, Universal Music Group, CAA. Every major partnership severed. His net worth collapsed. The ADL documented over thirty antisemitic incidents that directly referenced his statements.
 
+The record did not stop in 2022. Over a weekend in February 2025 he posted on X that he was a Nazi and praised Hitler. That Sunday he ran a Super Bowl ad pointing viewers to Yeezy.com, where the only item left for sale the next morning was a $20 white T-shirt with a black swastika, labeled HH-01. On May 8, 2025, he released a music video for a song titled "Heil Hitler" that samples a Hitler speech.
+
 [Kim Kardashian](/personality-analysis/kim-kardashian), his ex-wife, described the marriage's end in terms that echo the Seven's pattern: "I didn't know what you're going to get when you wake up, and that's a really unsettling feeling." The unpredictability that makes Kanye electrifying in a studio makes him unbearable in a home.
 
 The fatherhood question is the one that cuts deepest. Kanye has four children (North, Saint, Chicago, Psalm) and he has said, publicly and emphatically, "I DON'T WANT TO JUST 'SEE' MY KIDS. I NEED TO RAISE THEM." He started Donda Academy, a private school in Simi Valley named after his mother, because "so many schools are made to set kids up for industries that don't even matter anymore." He fought publicly over North's TikTok account. He sent cease-and-desist letters through lawyers. He said on camera: "I'm their dad. It has to be co-parenting. Men's voices matter."
@@ -266,7 +268,7 @@ And then Kim went on the _Call Her Daddy_ podcast and said: "It's probably been 
 
 That contradiction, the ferocity of the demand versus the absence of the follow-through, is the engine in miniature. He builds the idea of fatherhood the way he builds albums: passionately, publicly, at full volume. But sustaining something that doesn't change, that just requires showing up day after day in the same place for the same people. That's the thing the engine wasn't designed to do.
 
-This is the hardest part of the analysis. Not because the behavior is defensible (it isn't). But because the Enneagram framework illuminates the _mechanism_ without excusing the _outcome_.
+This is the hardest part of the analysis. Not because the behavior is defensible (it isn't). But because the Enneagram framework illuminates the _mechanism_ without excusing the _outcome_. The Seven pattern can describe how the certainty hardens. It can't explain why the target was Jewish people, and he is the one who posted, sold and released it.
 
 A Seven in extreme stress collapses into the worst qualities of Type 1: rigid certainty, moral absolutism, the conviction that they alone see the truth. The flexible mind that once held infinite possibilities narrows to a single fixed point — and defends it with the ferocity of someone who has lost everything else to hold onto.
 
@@ -282,7 +284,9 @@ It fits the pattern so precisely it's almost mechanical. Los Angeles burned him,
 
 But even the new world started showing cracks. Reports of rough patches. Bianca wanting more time in LA. An ultimatum. Couples counseling. Divorce lawyers contacted by both sides, then denied by their representatives. The cycle that applies to everything Kanye builds (intense creation, rapid expansion, slow abandonment) was pressing against the one thing that's supposed to resist cycles: a marriage.
 
-The apology, when it came in January 2026, was delivered the way Kanye delivers everything. As a production. A full-page Wall Street Journal ad titled "To Those I've Hurt." He attributed the behavior to the brain injury from the 2002 crash and a "four-month-long manic episode." He said he was committed to "accountability, treatment, and meaningful change."
+The apology, when it came in January 2026, was delivered the way Kanye delivers everything. As a production. A full-page Wall Street Journal ad titled "To Those I've Hurt." He attributed the behavior to the brain injury from the 2002 crash and a "four-month-long manic episode" in early 2025, the period of the swastika shirts. "I am not a Nazi or an antisemite. I love Jewish people," he wrote. He said he was committed to "accountability, treatment, and meaningful change."
+
+The ADL answered that the apology was "long overdue and doesn't automatically undo his long history of antisemitism," and listed the song, "the hundreds of tweets, the swastikas." Its point was the length of the record, which runs from 2022 through 2025, well past the four months the ad describes. "The truest apology would be for him to not engage in antisemitic behavior in the future," a spokesperson added.
 
 Two months later, he announced _Bully_, his twelfth studio album, and a world tour.
 

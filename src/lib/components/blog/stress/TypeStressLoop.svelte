@@ -3,10 +3,9 @@
 	import type { EnneagramStressLoop } from '$lib/data/enneagramStressLoops';
 
 	let { loop }: { loop: EnneagramStressLoop } = $props();
-	let typeColor = $derived(`var(--type-${loop.type}-color)`);
 </script>
 
-<figure class="type-loop" style:--type-color={typeColor}>
+<figure class="type-loop">
 	<figcaption>
 		<span class="type-badge">Type {loop.type} · {loop.name}</span>
 		<strong>{loop.alarm}</strong>
@@ -72,10 +71,10 @@
 		position: relative;
 		overflow: hidden;
 		margin: 1.5rem 0 3rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
-		background: var(--night-mid);
-		color: var(--ink-bright);
+		background: var(--surface);
+		color: var(--text);
 	}
 
 	.type-loop::before {
@@ -83,14 +82,14 @@
 		position: absolute;
 		inset: 0 auto 0 0;
 		width: 4px;
-		background: var(--type-color);
+		background: var(--accent);
 	}
 
 	figcaption {
 		display: grid;
 		gap: 0.45rem;
 		padding: 1.5rem 1.5rem 1.25rem;
-		background: color-mix(in srgb, var(--type-color) 6%, var(--night-mid));
+		background: color-mix(in srgb, var(--accent) 8%, var(--surface));
 	}
 
 	.type-badge,
@@ -102,8 +101,8 @@
 	.scenario-number,
 	.flow-node > span,
 	.loop-interrupt span {
-		font-family: var(--font-mono);
-		font-size: 0.68rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
@@ -112,10 +111,10 @@
 	.type-badge {
 		width: fit-content;
 		padding: 0.28rem 0.5rem;
-		border: 1px solid color-mix(in srgb, var(--type-color) 40%, var(--stone-edge));
+		border: 1px solid color-mix(in srgb, var(--highlight) 45%, transparent);
 		border-radius: 0.25rem;
-		background: color-mix(in srgb, var(--type-color) 12%, transparent);
-		color: var(--type-color);
+		background: var(--accent-deep);
+		color: var(--highlight);
 	}
 
 	figcaption > strong {
@@ -126,8 +125,8 @@
 
 	figcaption p {
 		margin: 0;
-		color: var(--ink-mid);
-		font-size: 0.95rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-base);
 		line-height: 1.55;
 	}
 
@@ -137,9 +136,9 @@
 		align-items: stretch;
 		gap: 0.75rem;
 		padding: 1.25rem 1.5rem;
-		border-top: 1px solid var(--stone-edge);
-		border-bottom: 1px solid var(--stone-edge);
-		background: var(--night-deep);
+		border-top: 1px solid var(--rule);
+		border-bottom: 1px solid var(--rule);
+		background: var(--bg);
 	}
 
 	.map-node {
@@ -148,23 +147,23 @@
 		gap: 0.45rem;
 		padding: 0.9rem 1rem;
 		border-radius: 0.625rem;
-		background: var(--stone-warm);
+		background: var(--surface);
 	}
 
 	.map-node span {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.map-node--fear span {
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 	}
 
 	.map-node--defense span {
-		color: var(--data-cyan);
+		color: var(--highlight);
 	}
 
 	.map-node strong {
-		font-size: 0.92rem;
+		font-size: var(--font-size-base);
 		line-height: 1.45;
 	}
 
@@ -173,33 +172,33 @@
 		width: 5.25rem;
 		place-content: center;
 		gap: 0.25rem;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		text-align: center;
 	}
 
 	.map-arrow span {
-		font-size: 0.58rem;
+		font-size: var(--font-size-xs);
 		line-height: 1.35;
 	}
 
 	.map-arrow b {
-		font-family: var(--font-mono);
-		font-size: 1.15rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-lg);
 		font-weight: 400;
 	}
 
 	.prevention-rule {
 		margin: 0;
 		padding: 0.9rem 1.5rem;
-		border-bottom: 1px solid var(--stone-edge);
-		color: var(--ink-mid);
-		font-size: 0.9rem;
+		border-bottom: 1px solid var(--rule);
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
 	.prevention-rule span {
 		margin-right: 0.5rem;
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 	}
 
 	.scenario-heading {
@@ -211,11 +210,11 @@
 	}
 
 	.scenario-heading span {
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.scenario-heading small {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 		text-align: right;
 	}
 
@@ -230,13 +229,13 @@
 	}
 
 	.scenario + .scenario {
-		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 72%, transparent);
+		border-top: 1px solid var(--rule);
 	}
 
 	.scenario-number {
 		display: block;
 		margin-bottom: 0.45rem;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.scenario-flow {
@@ -244,29 +243,30 @@
 		overflow: hidden;
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 		gap: 1px;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
-		background: var(--stone-edge);
+		background: var(--rule);
 	}
 
 	.flow-node {
-		--stage-accent: var(--ink-mid);
+		--stage-accent: var(--rule);
 		position: relative;
 		min-width: 0;
 		padding: 0.85rem;
-		background: var(--night-deep);
+		border-top: 2px solid var(--stage-accent);
+		background: var(--bg);
 	}
 
 	.flow-node--fear {
-		--stage-accent: var(--lamp-glow);
+		--stage-accent: color-mix(in srgb, var(--accent) 55%, transparent);
 	}
 
 	.flow-node--defense {
-		--stage-accent: var(--data-cyan);
+		--stage-accent: var(--accent);
 	}
 
 	.flow-node--backfire {
-		--stage-accent: var(--error-text);
+		--stage-accent: var(--highlight);
 	}
 
 	.flow-node:not(:last-child)::after {
@@ -280,10 +280,11 @@
 		height: 0.9rem;
 		place-items: center;
 		border-radius: 50%;
-		background: var(--stone-edge);
-		color: var(--ink-bright);
-		font-family: var(--font-mono);
-		font-size: 0.85rem;
+		background: var(--surface-raised);
+		color: var(--text);
+		box-shadow: 0 0 0 1px var(--rule);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-sm);
 		line-height: 1;
 		transform: translateY(-50%);
 	}
@@ -291,13 +292,13 @@
 	.flow-node > span {
 		display: block;
 		margin-bottom: 0.4rem;
-		color: var(--stage-accent);
+		color: var(--text-faint);
 	}
 
 	.flow-node p {
 		margin: 0;
-		color: var(--ink-mid);
-		font-size: 0.83rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.48;
 		overflow-wrap: anywhere;
 	}
@@ -307,16 +308,16 @@
 		gap: 0.35rem;
 		margin-top: 0.5rem;
 		padding: 1rem 1.5rem 1.2rem;
-		border-top: 1px solid var(--stone-edge);
-		background: color-mix(in srgb, var(--type-color) 5%, var(--night-deep));
+		border-top: 1px solid var(--rule);
+		background: color-mix(in srgb, var(--accent) 8%, var(--bg));
 	}
 
 	.loop-interrupt span {
-		color: var(--type-color);
+		color: var(--highlight);
 	}
 
 	.loop-interrupt strong {
-		font-size: 0.95rem;
+		font-size: var(--font-size-base);
 		line-height: 1.45;
 	}
 
@@ -336,7 +337,7 @@
 		.prevention-rule,
 		.flow-node p,
 		.loop-interrupt strong {
-			font-size: 1rem;
+			font-size: var(--font-size-base);
 		}
 
 		.prevention-map {

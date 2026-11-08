@@ -58,16 +58,16 @@
 		overflow: hidden;
 		margin: 2rem 0 2.5rem;
 		padding: 1.5rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
 		background:
 			radial-gradient(
 				circle at 18% 0%,
-				color-mix(in srgb, var(--lamp-glow) 10%, transparent),
+				color-mix(in srgb, var(--accent) 14%, transparent),
 				transparent 38%
 			),
-			var(--night-mid);
-		color: var(--ink-bright);
+			var(--surface);
+		color: var(--text);
 	}
 
 	figcaption {
@@ -84,8 +84,8 @@
 	}
 
 	figcaption > span:last-child {
-		color: var(--ink-mid);
-		font-size: 0.95rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-base);
 		line-height: 1.55;
 	}
 
@@ -93,15 +93,15 @@
 	.stage-number,
 	.stage-label,
 	.outcome span {
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
+		font-family: var(--font-talk);
+		font-size: var(--font-size-xs);
 		font-weight: 600;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
 	}
 
 	.diagram-kicker {
-		color: var(--lamp-glow);
+		color: var(--text-faint);
 	}
 
 	.loop-track {
@@ -114,25 +114,25 @@
 	}
 
 	.loop-stage {
-		--stage-accent: var(--ink-mid);
+		--stage-accent: var(--rule);
 		position: relative;
 		min-width: 0;
 		padding: 1rem;
 		border-top: 3px solid var(--stage-accent);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--stone-warm) 84%, transparent);
+		background: var(--surface-raised);
 	}
 
 	.loop-stage--fear {
-		--stage-accent: var(--lamp-glow);
+		--stage-accent: color-mix(in srgb, var(--accent) 55%, transparent);
 	}
 
 	.loop-stage--defense {
-		--stage-accent: var(--data-teal);
+		--stage-accent: var(--accent);
 	}
 
 	.loop-stage--backfire {
-		--stage-accent: var(--error-text);
+		--stage-accent: var(--highlight);
 	}
 
 	.loop-stage:not(:last-child)::after {
@@ -141,9 +141,9 @@
 		top: 50%;
 		right: -1.35rem;
 		width: 1.1rem;
-		color: var(--ink-dim);
-		font-family: var(--font-mono);
-		font-size: 1rem;
+		color: var(--text-faint);
+		font-family: var(--font-talk);
+		font-size: var(--font-size-base);
 		text-align: center;
 		transform: translateY(-50%);
 	}
@@ -151,25 +151,25 @@
 	.stage-number {
 		display: block;
 		margin-bottom: 1rem;
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.stage-label {
 		display: block;
 		margin-bottom: 0.4rem;
-		color: var(--stage-accent);
+		color: var(--text-muted);
 	}
 
 	.loop-stage strong {
 		display: block;
-		font-size: 0.95rem;
+		font-size: var(--font-size-base);
 		line-height: 1.35;
 	}
 
 	.loop-stage p {
 		margin: 0.45rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.82rem;
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
 		line-height: 1.5;
 	}
 
@@ -178,9 +178,9 @@
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 		gap: 1px;
 		margin-top: 1.5rem;
-		border: 1px solid var(--stone-edge);
+		border: 1px solid var(--rule);
 		border-radius: 0.625rem;
-		background: var(--stone-edge);
+		background: var(--rule);
 		overflow: hidden;
 	}
 
@@ -188,24 +188,24 @@
 		display: grid;
 		gap: 0.3rem;
 		padding: 0.9rem 1rem;
-		background: var(--night-deep);
+		background: var(--bg);
 	}
 
 	.outcome span {
-		color: var(--ink-dim);
+		color: var(--text-faint);
 	}
 
 	.outcome strong {
-		font-size: 0.9rem;
+		font-size: var(--font-size-sm);
 		line-height: 1.4;
 	}
 
 	.outcome--wanted strong {
-		color: var(--data-cyan);
+		color: var(--text);
 	}
 
 	.outcome--risk strong {
-		color: var(--lamp-light);
+		color: var(--highlight);
 	}
 
 	@media (max-width: 760px) {

@@ -123,7 +123,9 @@
 		color: var(--text-faint);
 	}
 
-	.famous-types__list {
+	/* Anchored to the wrapper: the article's ul/li rules add a 24px indent and
+	   8px item gaps, which collapsed the two-column name lists to one. */
+	.famous-types .famous-types__list {
 		list-style: none;
 		padding: 0;
 		margin: 0;
@@ -133,8 +135,9 @@
 		color: var(--text-muted);
 	}
 
-	.famous-types__list li {
+	.famous-types .famous-types__list li {
 		break-inside: avoid;
+		margin: 0;
 		padding: 0.06rem 0;
 		line-height: 1.3;
 	}
@@ -159,7 +162,7 @@
 			column-count: 2;
 		}
 
-		.famous-types__list {
+		.famous-types .famous-types__list {
 			column-count: 2;
 		}
 	}
@@ -169,7 +172,7 @@
 			column-count: 3;
 		}
 
-		.famous-types__list {
+		.famous-types .famous-types__list {
 			column-count: 2;
 		}
 	}

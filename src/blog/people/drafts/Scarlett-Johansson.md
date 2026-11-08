@@ -298,29 +298,35 @@ Disappearing into a character. The seven-year-old staring into the mirror. The s
 
 ## Disappearing Into Relationships
 
-Type 9s in relationships tend to merge — absorbing the emotions, habits, and priorities of their partner until they lose track of their own. Three marriages might suggest restlessness. For a Nine, it more likely means serial merging. Finding a person, dissolving into them, then realizing somewhere along the way that she's lost her own outline.
+Johansson has been married three times. The first two marriages ended in two different kinds of quiet.
 
-With Ryan Reynolds, she reflected later: "I was not fully aware of the peaks and the valleys. I wasn't prepared to hunker down and do the work." Not blaming the partner. Acknowledging her own drift.
+With [Ryan Reynolds](/personality-analysis/ryan-reynolds), the quiet was distance. They married in 2008, when she was 23, and separated at the end of 2010. Her later account to Cosmopolitan blamed nobody but herself: "I think I was not fully aware of the peaks and valleys. I wasn't prepared to hunker down and do the work. Both of us were extremely busy. We spent so much time apart." The marriage thinned out between film sets.
 
-With Colin Jost, something shifted.
+With French journalist Romain Dauriac, Rose's father, the quiet was a wall. She filed for divorce in March 2017 while the two sides were still negotiating, and his lawyer told ET the filing came as "a total shock and surprise" to his client. Then she issued one statement and closed the door: "I will never, ever be commenting on the dissolution of my marriage." Calm surface, then a sudden move. Four years later she ran the same sequence on Disney.
 
-They met during one of her SNL hosting appearances while Jost was a writer. He later described his first impression: "beautiful, smart, sweet and intimidatingly sophisticated." Didn't date until 2017. Their first date: an Italian restaurant in the East Village. She panicked. Left at 9:36 PM, told the babysitter she felt "so flustered." Jost thought it was over: "I totally thought that was it. You were acting so weird."
+Colin Jost met her in January 2006, his first year as an SNL writer and her first time hosting. In his memoir, _A Very Punchable Face_, he remembered her as "beautiful, smart, sweet, and intimidatingly sophisticated." They didn't date until 2017.
 
-She told him later: "I panicked. I don't know."
+Their first date, at an Italian restaurant in the East Village, nearly ended things. After dinner he suggested a drink with friends. "I hadn't dated basically ever, and so I was just like, 'I have to go now. I need to leave!'" she said on _Today with Jenna & Friends_ in 2025. She got home around 9:36 to relieve the babysitter and told her, "I just felt so flustered." Jost was sure he'd blown it: "I totally thought that was it. You were acting so weird." Her explanation, years later: "I panicked. I don't know."
 
-The flush of genuine connection — not performed, not channeled through a character — throwing a Type 9 into flight mode. That detail is worth more than a hundred quotes about "finding the right person."
+_Hadn't dated basically ever_, with two marriages behind her. She had skipped most of the part where you sit across from someone and decide whether you want him. The first time she had to make that call on purpose, she bolted.
 
-What she realized with Jost:
+Before Jost, she told [Gwyneth Paltrow](/personality-analysis/gwyneth-paltrow)'s Goop podcast in 2023, she "didn't know not only what I wanted, but what I needed from somebody else."
 
-> "I never realized, 'Oh, it's really important for me — like, I need to be with a compassionate person. That's a fundamental characteristic that has to be there.'"
+> "I never realized, oh, it's really important for me, like, I need to be with a compassionate person. That's like a fundamental characteristic that has to be there."
 
-_I never realized._ A Type 9 discovering her own desires as if they belong to someone else. The preferences were always there. Buried under decades of accommodation.
+_I never realized._ A Nine discovering her own needs as if they belonged to someone else.
 
-Jost on what drew him: "I think part of the reason I fell in love with her is she's a great mum. I've known Rose, my stepdaughter, since she was 2. It's weird. You get to actually preview someone as a mum."
+Jost was guarding his own outline too. On [Howard Stern](/personality-analysis/howard-stern)'s show in 2020 he admitted that going public with her scared him: "I worried about my identity with it and also with comedy." His rule: "You have to keep your own identity and do your own thing." A partner who won't dissolve into her world leaves her less room to dissolve into his.
 
-He also revealed: "Games are serious business. She's really upset when I beat her at backgammon, which I do all the time."
+They married in a small ceremony in October 2020, news that broke through a Meals on Wheels America post rather than their own. When their son Cosmo arrived in August 2021, Jost's Instagram announcement ("Ok ok we had a baby") asked for privacy and jokingly named Michael Che their publicist. The shell is still there. Now two people live in it.
 
-Playful competitiveness inside a safe relationship. The stubborn streak channeled into board games instead of conflict.
+The one place it can't hold is the Weekend Update joke swap, where Jost reads jokes Che wrote for him, sight unseen, and Che often aims them at Johansson. "I black out for that period of the night," she told Kelly Clarkson in July 2024. That December she was backstage when Jost announced, "I want to dedicate this next joke to my boo, Scarlett Johansson," and the cameras caught her saying "Oh my god." A month later she described it: "My heart was racing. My eyes were watering."
+
+Blacking out is the Nine's oldest move: go numb instead of fighting. But look where her complaint lands. Che, she joked, is "trying to get us permanently removed." _Us._ The writer gets the blame. The husband reading the lines stays on her side of it.
+
+The 8 wing gets a safer outlet at home. "We're kind of competitive with each other, like, games are serious business," Jost told HELLO! in September 2025. "She's really upset when I beat her at backgammon, which I do all the time." She told Collider in 2025, "My husband's a comedy writer, and I couldn't imagine ever being with somebody who wasn't funny."
+
+Plenty of friction runs through this marriage. What changed is that it has somewhere safe to go, and she stays in the room for it.
 
 ## The Directing Dream Held for 30 Years
 
@@ -364,7 +370,7 @@ At a skincare event in early 2026, someone asked Johansson her clear intention f
 
 Not achievement. Not status. Not more billions at the box office. Just engagement. Presence. The fact that a woman this successful frames _engaging with joy_ as something requiring deliberate intention tells you everything about how Type 9s relate to their own desires. The wanting is there. The access to the wanting is what takes work.
 
-She was seven when she stood on a sidewalk in Greenwich Village after a talent agent chose her brother. She went home and stared into a mirror until she could cry on command. More than three decades later, she's the highest-grossing actor on the planet, still working on the same project: feeling something real and not being afraid of it.
+She was seven when she stood on a sidewalk in Greenwich Village after a talent agent chose her brother. She went home and stared into a mirror until she could cry on command. More than three decades later, she's one of the highest-grossing actors on the planet, still working on the same project: feeling something real and not being afraid of it.
 
 > **Disclaimer:** This analysis is speculative based on publicly available information and may not reflect Scarlett Johansson's actual personality type.
 

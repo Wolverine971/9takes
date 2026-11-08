@@ -228,7 +228,7 @@ What makes Colbert a counterphobic Six, rather than the anxious, retreating kind
 <p>Most people assume anxiety and courage are opposites. For counterphobic Sixes, they're the same mechanism. The anxiety identifies the threat. Then instead of fleeing, the Six charges directly at it. The courage doesn't replace the fear. It's fueled by it. Watch Colbert's face in the seconds before a confrontation. The jaw sets. The eyes steady. That's not calm. That's a man who has decided that the thing scaring him needs to be confronted, not avoided.</p>
 </div>
 
-The [6w7 wing](/enneagram-corner/enneagram-wings-complete-guide), the "Buddy," explains the warmth. Pure Sixes can appear paranoid, withdrawn, rigid. Colbert's Seven wing gives him the social energy, the humor, the ability to transform anxiety into entertainment. The D&D obsession, the Tolkien encyclopedic knowledge, the singing talent that earned him a personal note from Stephen Sondheim saying "You have a perfect voice for musical theater." These are the Seven wing's love of adventure and play.
+The [6w7 wing](/enneagram-corner/enneagram-wings-complete-guide), the "Buddy," explains the warmth. The comedy belongs to the Six as much as the wing. The imagination that runs the bad scenarios also finds the absurd angle in them, and "truthiness" is a skeptic's joke, a word for the gap between what authority feels sure of and what it can prove. The Seven wing adds speed and social appetite. The D&D obsession, the Tolkien encyclopedic knowledge, the singing talent that earned him a personal note from Stephen Sondheim saying "You have a perfect voice for musical theater." These are the Seven wing's love of adventure and play.
 
 But the engine underneath is Six. Always.
 
