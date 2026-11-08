@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "ce5f3dc8ba7ee6b5693d88b420ec5a645fbdb27d4a446b403a5806f8a83f40ea",
+  "evidence_sha256": "b736c378784b50ded962154350aea7ca8f3e2e6a57d4fbd47f4d7de3162ad85a",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-F1",
+      "severity": "blocker",
+      "passage": "\"I like new things all I want to try new things constantly,\" he said in 2026",
+      "problem": "Misattributed quotation. In the cached Shut Up I'm Talking transcript (S07, ~00:42:15-00:44:17) this line belongs to a British co-host describing himself: the same speaker says he 'had this aspiration of being one of the greats', likes 'having a beer with my mates', calls himself 'quite sporadic', and the segment follows the hosts' own COVID-era story ('we came into it at that extraordinary point'); the other host then turns to Ludwig ('to come to honor what you said previously, Ludwig...') and at 00:46:21 asks 'so now for you Lud'. The line is used as Ludwig's first-person evidence for the Seven thesis and is recorded as his in C12. The linked timestamp (t=2627s) also points to the host segment; Ludwig's 'you laugh, you lose' and 'level of success' lines are at ~00:47:21.",
+      "acceptance_test": "The sentence is removed or attributed to the host; C12 no longer credits Ludwig with it; the 'you laugh, you lose'/'level of success' quotes link to ~t=2841s; every other quote taken from S07 00:40:00-00:46:30 is re-checked for speaker using the '>>' turn markers and the surrounding questions, and any host line is dropped."
+    },
+    {
+      "id": "critic-F2",
+      "severity": "major",
+      "passage": "This passage separates the two types best. The Three reading predicts someone who grinds toward a recognized result because the result is who he is. He describes the reverse: the imagined result was enough, and the cure for a stalled goal was a fresh one.",
+      "problem": "The draft's best discriminator omits what makes it ambiguous. The fantasy's content is acclaim ('everyone be like you're the ... best'); in context (S02 ~02:03:54-02:04:25) he frames it as a flaw ('I deluded myself', 'that was the substitute for actually working'); and the 'fresh' goal he names is another superlative status goal, 'the biggest streamer in the world', which he then pursued for years with daily uploads and deadline goals. Swapping a stalled arena for a more winnable status arena is also what a Three reading predicts, so the passage does not 'separate the two types best'.",
+      "acceptance_test": "The section states that the replacement goal was also ranked status ('biggest streamer') and that he described the crumb as self-deception; the claim is downgraded from 'separates the two types best' to evidence that leans Seven, or the article explains, from the source, why the switch reflects stimulation rather than a move to a winnable scoreboard."
+    },
+    {
+      "id": "critic-F3",
+      "severity": "major",
+      "passage": "This profile reads that as wanting the experience big more than the image big. That inference is the hinge of the type call.",
+      "problem": "The thesis ('when the route to a bigger audience and the route to something more interesting have split, he has repeatedly taken the interesting one') treats 'interesting' and 'bigger' as separable, but adverse lines in the opened sources fuse them and are not confronted. In the same Twitch-exit video the freed time was for 'the biggest smash tournament in the world... the biggest prize pool the most entrants ever' (S03 ~00:06:10). In the Offbrand shutdown video he justifies chessboxing because 'this is the biggest event I've ever done has the most eyeballs' and its loss returns as 'extra growth' for him as a creator (S06 ~00:04:01). In 2024 his 'primary motivator is creating a company that will last 10 years after me 20 years after' (S08 ~00:14:12). Those are the very projects cited as the 'interesting' route.",
+      "acceptance_test": "At least the biggest-Smash-tournament line and the chessboxing 'most eyeballs' justification appear near the coin and MrBeast sections, and the hinge paragraph explains why superlative events still read as stimulation rather than status, or the article's confidence/thesis wording is softened accordingly in body, FAQ 1 and FAQ 2."
+    },
+    {
+      "id": "critic-F4",
+      "severity": "major",
+      "passage": "He also explained the failure on camera within days, which an image-protective Three rarely does.",
+      "problem": "The 'publishes failures' discriminator (also in 'The case for Type 3', FAQ 2's logic and the closing settle signal) is overstated. The December 15, 2024 video (S06) largely externalizes the failure: the business model, a shift in creator and audience appetite, 'I'm not a big enough Creator', 'maybe only Kai' could sustain it, a rebuttal that the co-op structure was irrelevant, 'this video is absolutely not to Garner sympathy', and 'at some point I might talk a little bit more about how this happened so suddenly'. The ego/oversight admission came about 19 months later on a friendly podcast. The draft also does not weigh the professional incentive: for a personality streamer, on-camera candor about setbacks is part of the product, so disclosure is weak evidence against an image motive.",
+      "acceptance_test": "The sentence is cut or rewritten to say the 2024 video blamed the business model and market and that the self-blame came in July 2026; the article names the creator-candor incentive as an alternative explanation wherever on-camera disclosure is used as anti-Three evidence; 'keep failures quiet' is no longer presented as a discriminator the record clearly answers."
+    },
+    {
+      "id": "critic-F5",
+      "severity": "major",
+      "passage": "Handing off the spreadsheets to keep the fun is the Seven pattern, and its cost is the kind he named.",
+      "problem": "An attractive causal story that drops the cause he actually gave. In the same S07 passage (~00:55:34) he says the losses reached $3 million 'by the time I found out' because 'the person in charge was kind of hiding the problem and so we didn't know about it till it was too late'. The draft quotes 'oversight on my end for the person in charge to have let it get this bad' but omits the concealment claim, then attributes the cost to a Seven habit of avoiding numbers. His stated mechanism (delegation plus alleged concealment, on top of the 2024 market explanation) is not the same as 'its cost is the kind he named'.",
+      "acceptance_test": "The article reports, as his unverified account and without identifying anyone, that he said the person in charge concealed the losses; the Seven-pattern sentence is softened to an inference that names this competing explanation, or it is cut."
+    },
+    {
+      "id": "critic-F6",
+      "severity": "major",
+      "passage": "A man who says he drinks only socially because of his family history hosted a party where drinking was the format. No type resolves that, and this profile does not try.",
+      "problem": "The contradiction is manufactured. His stated rule (S08 ~01:08) is 'I only drink if other people are drinking', so a group event where everyone drinks is the condition the rule permits, and the rule governs his own drinking, not what he hosts. Framing it as 'The fences have a public exception' and an unresolvable tension uses his father's alcoholism as a rhetorical lever without support, while the consequential adverse question raised by the record (an organizer's responsibility at a drinking-format event where, per Kotaku, it is unclear anyone intervened) gets less attention than the false paradox.",
+      "acceptance_test": "'The fences have a public exception' and the closing two sentences are cut or rewritten so they do not imply his event broke his own rule; if a tension is kept it is stated accurately (for example, impulse rules for himself versus building events around drinking), and the family disclosure appears only as the reason for his rule, as research directed."
+    },
+    {
+      "id": "critic-F7",
+      "severity": "major",
+      "passage": "According to [Wikipedia's account](https://en.wikipedia.org/wiki/Ludwig_Ahgren), critics including Mang0's wife said Ludwig had enabled Mang0's drinking; this profile did not open that criticism at its source.",
+      "problem": "Adverse allegation from a named private person carried secondhand, with the subject's response missing. The Wikipedia sentence cites Sports Illustrated, 'Ludwig Responds to Backlash from Mang0 Ban' (Cale Michael, July 2, 2025, si.com/esports/ludwig-responds-to-backlash-from-mang0-ban), so a primary report of both the criticism and Ludwig's reply is identifiable but was not opened. Printing 'enabled Mang0's drinking' with no response is unfair to him, and naming Mang0's wife on an unchecked relay is unfair to her.",
+      "acceptance_test": "The SI article (or the original posts) is opened and recorded as a source; the article states the criticism with direct attribution and gives Ludwig's response in context; if neither can be opened, the sentence is reduced to 'he also faced criticism over the event' without naming Mang0's wife or characterizing it as enabling."
+    },
+    {
+      "id": "critic-F8",
+      "severity": "major",
+      "passage": "But the MrBeast month was an actual attempt, and in his account he dropped it because it was dull, not because it failed.",
+      "problem": "Overstates the 'cleanest test'. In S07 (~00:58:38) he says he told his team 'we're going to make ... banger videos' and then 'thought about it for like another month' before deciding it 'sucks'. He does not say what was made or how it performed, so the source supports a reconsidered plan, not an executed attempt, and it cannot establish 'not because it failed'. The episode is also undated ('three years ago, four years ago'). The heading 'The month he tried to be MrBeast' and FAQ 2's 'dropped a MrBeast-style push after about a month' carry the same overstatement.",
+      "acceptance_test": "The passage, heading and FAQ describe a plan he reconsidered within about a month, with an approximate date (around 2022-23 by his account); 'not because it failed' is removed unless a source shows what was produced and how it performed; the section no longer calls this the cleanest test unless that evidence is added."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He told YouTube no. YouTube fought for him. He then told Twitch he had decided on YouTube, to see what it would say.",
+      "reason": "Sourced, sequence-accurate opening (checked against S03) that makes the reader feel the open question before any typology appears."
+    },
+    {
+      "passage": "Two motives sit inside that one decision, and they are the two types in this profile. \"I like when the number's bigger\" is a scoreboard. \"Obsessed with stakes\" is an appetite for not knowing how it ends.",
+      "reason": "Distinctive framing built from two verified lines in the same answer (S09); it sets up the rivalry honestly instead of asserting the type."
+    },
+    {
+      "passage": "This is the Three's best moment in the record: Twitch's most successful streamer left partly because Twitch did not seem to admire him. The Seven reading only partly answers it.",
+      "reason": "Confronts the strongest adverse evidence directly, at the point of greatest consequence, without explaining it away."
+    },
+    {
+      "passage": "He may be narrating a plateau as a preference; a Three is good at making a ceiling sound like a choice, and this profile cannot rule that out.",
+      "reason": "Names the most serious skeptical reading of the Seven evidence in plain language; should survive any edit."
+    },
+    {
+      "passage": "What would weaken the Seven call is specific: a moment where the bigger route and the more interesting one split and he takes the bigger one and stays on it, or a failure he keeps quiet.",
+      "reason": "Concrete, falsifiable review trigger that serves five-year durability (the second clause should be adjusted if critic-F4 is accepted)."
+    }
+  ],
+  "assessment": "The draft is unusually willing to state the Three case, and its best passages confront adverse evidence head-on. The weak point is the Seven side's discriminators, checked against the cached transcripts. One quoted Seven line belongs to a podcast host, not Ludwig (blocker). The trophy daydream, the 'interesting over bigger' split, the MrBeast month and 'explains failures on camera' are each presented as cleaner than the sources allow. His 'interesting' projects are framed in superlatives ('biggest smash tournament', 'most eyeballs'). His 2024 shutdown video blamed the market, and the self-blame came in 2026. The MrBeast episode is a plan he reconsidered, not a documented attempt. Offbrand's cost story drops his claim that the manager concealed the losses. The Beerio Kart section invents a contradiction with his drinking rule, and it carries a secondhand allegation without his identifiable response (SI, July 2, 2025). None of this overturns Type 7 as a leading read, but the record supports medium-to-low confidence at best, and the body, FAQs and description should not claim the discriminator is settled. Risk flags kept: sensitive allegations (the Mang0 incident, his father's alcoholism) and contested typing. Similarity advisory: no trip (max 0.093 vs kareem-rahma, a generic 'which motive wins' framing sentence); the arguments are specific to this subject and show no meaningful reuse. Sources checked: cached transcripts S02, S03, S06, S07, S08, S09 and saved pages S01, S12, S16, S17. The SI response article and the wedding stream itself were not opened."
+}

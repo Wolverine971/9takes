@@ -1,0 +1,33 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+The research stage for Ludwig Ahgren is finished. I wrote only `evidence.json` to the run folder, and it passes the repo's own evidence validator as `ready`. Nothing else in the repo changed, and nothing was published. `backlog-queue.json` was already modified before I started.
+
+**The read: Type 7 leading, Type 3 the rival, medium confidence.** He's the novelty-and-stakes guy, but the case against is strong.
+
+- **For 7:**
+  - He chooses interest over status when they conflict. He tried the MrBeast "banger videos" route, dropped it within about a month ("This … sucks"), and says he's "usually less happy" when viewership goes mainstream.
+  - He quits formats once he's bored of them.
+  - Chasing Smash, imagining the trophy felt good enough that he stopped grinding, then he switched goals to becoming the biggest streamer.
+  - "Anytime people … can expect the outcome of something it's immediately more boring."
+  - He talks openly about failing: the Offbrand shutdown video, his gambling addiction, doubts about his own motives.
+- **For 3:**
+  - Through 2022 his self-worth sat in viewer counts: "i like when the number's bigger," expecting to "be like xqc."
+  - Leaving Twitch came down to not feeling "liked respected wanted."
+  - In 2024 he still talked about wanting "the biggest cultural impact" and to "end on a high note."
+- **What the type doesn't explain:**
+  - Heavy rule-making around gambling, drinking and deadlines.
+  - A strong sense of duty to his staff.
+  - A possible 8 wing, which isn't proven.
+
+**How it was researched:** 17 sources, 35 claims. The core is ten primary videos (2021–2026), including a 2h20m conversation with Dr. K and podcasts from 2022, 2024 and July 2026. I fact-checked against CNN, Kotaku, Tubefilter and the wedding/Evo coverage. I pinned every quote against cached transcripts and pages, and none failed the final check. Full transcripts stay in `~/.cache/9takes-research/` because the repo is public.
+
+**Two flags I set:**
+- **Contested typing**, which is the honest call for 7 vs 3.
+- **Sensitive material:**
+  - He has said his father was an alcoholic. Use it only as the reason he gives for his drinking rule.
+  - The 2025 Mario Kart drinking event (Beerio Kart), where Smash pro Mang0 harassed female streamers. Ludwig banned him and was criticized for enabling Mang0's drinking.
+
+Either flag routes the draft to the full six-reviewer panel.
+
+**For the drafting stage:**
+- Don't give a wedding day. Sources only agree on October 2026.
+- No long interview with QTCinderella, Slime or Michael Reeves describing him turned up. The only outside testimony is thin, so that's the gap if you want the profile stronger.

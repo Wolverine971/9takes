@@ -1,0 +1,16 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I wrote `review-subject.json` to the Ludwig Ahgren run directory and it passes the contract's `reviewSchema`. I didn't change any other file or publish anything.
+
+The review has 8 findings (6 major, 2 minor) and 5 protected passages. It keeps both risk flags on: sensitive allegations and contested typing. The draft attributes motives carefully overall. The problems are in spots where the author's interpretation goes further than his own words, and each one makes him look worse than the record does:
+
+- **Drinking contradiction (F01):** the draft sets up a contradiction between his drinking rule and Beerio Kart, using his father's alcoholism to do it. His actual rule is "I only drink if other people are drinking." A group drinking event fits that rule.
+- **Enabling allegation (F02):** the claim that he enabled Mang0's drinking comes from a source nobody opened, and it names Mang0's wife as the accuser. It leaves out two things on record: Mang0's statement that "It's on me and not anyone else," and Ludwig's apology to the people affected.
+- **Cut-off quote (F03):** the draft stops "…approval from a parent and I never got that" too early. In the transcript, the next words show the "parent" is Twitch after the subathon. As cut, it hints at a real parental wound.
+- **Coin flip (F04):** the opening says he went to YouTube "on the deal the coin had rejected." That's wrong: YouTube came back with a new offer after the flip, with fewer streaming hours.
+- **Wedding ending (F05):** the closing line drops his own reason for the remark ("This is what I'll remember when he dies…"). It also ignores his 2023 statement that he no longer fears death.
+- **Offbrand failure (F06):** the draft blames the $3M loss on his hands-off, Seven-style delegation. It leaves out his two stated causes: losses he says were hidden from him, and an events model that took too much effort for too little demand.
+- **Minor:**
+  - "I'm a gambling addict" was a comic bit opening a video mostly about xQc, and the draft presents it straight (F07).
+  - The title, "Keeps Leaving the Bigger Number," clashes with the lead example, where he took the bigger YouTube money (F08).
+
+I checked these against the transcripts and articles the research stage had saved. Two sources I couldn't get: the original criticism from Mang0's wife and the June 22, 2025 stream. The similarity check didn't trip, so there's no finding on reused writing.

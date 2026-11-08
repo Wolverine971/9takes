@@ -1,0 +1,21 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I wrote the fan-role review to `docs/content-analysis/pipeline-logs/2026-11-07_07-00-03-062_ludwig-ahgren/review-fan.json`. It passes the pipeline's review schema, and every quoted passage matches the draft exactly. It has 9 findings (4 major, 5 minor) and 5 protected passages. Both risk flags are confirmed: sensitive allegations and contested typing. No other repo files were touched and nothing was published. My scratch files are in `/tmp`.
+
+The draft quotes him accurately: I checked it against the saved transcripts of four of his videos and interviews, and the wording matched. The problems are places where it misreads stories longtime viewers know well, or leaves out things they'd notice right away.
+
+**Major:**
+- **The coin flip opening gets the deal wrong.** The draft says he "went to YouTube anyway, on the deal the coin had rejected." In the video, the coin was flipped on the original offers, which had equal hours. YouTube then came back with a better one that required far fewer streaming hours. He also called it "a content coin flip," which the draft leaves out.
+- **It never says he went back to Twitch.** He returned in December 2024. Without that, the opening, the body and two FAQs read as out of date. The return is also a natural test of the profile's argument. The Offbrand FAQ has the same problem: it misses Offbrand Games, the game publisher that outlasted the agency.
+- **The wedding-versus-playoff story is reversed.** His own instinct was to go with his team. The "interpersonal relationships is the real value in life" line was guilt arguing against that choice, and his mom told him the decision was already made. He also owns the team. The draft presents it as if he chose the friend.
+- **The gambling section takes a joke literally.** The $100 Mario Party bet is the video's comic opener. The real admission in the same video is a blackjack run from about $1K to $10K, then losing all of it the next day trying to reach $20K. That story literally acts out "I like when the number's bigger."
+
+**Minor:**
+- Two unused lines from his March 2024 interview: he said he'd become "less chance oriented" because he has employees, and he shopped other platforms "just to find out the number."
+- His Smash commentary and years of funding Smash tournaments are missing, so the "trophy in his head" section reads as if he left Smash entirely.
+- The Yard podcast with his friend Slime is never mined or even named, which makes the "no testimony from people close to him" claim overstated. No source supports calling Slime his "best friend."
+- The MrBeast section calls a stated plan he dropped after a month "an actual attempt," and leaves out his continued work with MrBeast.
+- The date of his statement banning Mang0 (June 22 vs. June 23, 2025) conflicts between Kotaku and Wikipedia.
+
+None of this overturns the Type 7 read. But the coin-flip and wedding fixes weaken two passages the draft uses as evidence for the type, so the editor should re-check the 3-vs-7 test after making them.
+
+The run log also warned that the pipeline's Claude sign-in can expire any time before 2026-11-08. Running `claude setup-token` before the next unattended run will keep it from failing.

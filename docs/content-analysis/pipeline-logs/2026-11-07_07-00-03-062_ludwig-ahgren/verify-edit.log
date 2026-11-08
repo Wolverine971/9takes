@@ -1,0 +1,27 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I finished the verify stage for Ludwig Ahgren and wrote one file, `verification-edit.json`, in the run folder. Nothing else in the repo was changed or published. My scratch scripts and the fetched web pages are in `/tmp`.
+
+**Result: pass, and the profile is eligible.** The pipeline's own editorial check finds no blockers. The overall score is **8.5**, exactly the release floor; the unrounded figure is 8.455. I scored each dimension on its own before seeing the total. The total landed on the line; I didn't tune it to get there.
+
+| Dimension | Score | Why it isn't higher |
+|---|---|---|
+| Evidence | 8.6 | Almost no outside testimony about his motives, which the article says openly |
+| Enneagram | 8.1 | The key test (dropping the MrBeast plan) is his own account, and the article admits a Type 3 could tell it the same way |
+| Originality | 8.8 | |
+| Writing | 8.2 | "This profile" appears 14 times, which reads as a tic |
+| Durability | 8.6 | |
+| Hook | 8.8 | |
+| Discoverability | 8.5 | |
+
+**What I checked:**
+- **Quotes:** about 100 checked against the cached transcripts of all nine YouTube videos, including who was speaking. Every one is his actual words, in context. The line the editor cut as a co-host's really was the co-host's.
+- **Web sources:** all 17 sources opened, including Wikipedia, Kotaku, Tubefilter, CNN, TalkEsport, both Sportskeeda articles and Dexerto. They support the article as written, including the Beerio Kart passage, which keeps both responses next to the criticism.
+- **Edits:** all 47 reviewer findings were properly fixed, and all 17 protected passages were either kept or changed for a stated, valid reason.
+
+**Four small issues I logged.** None of them blocks release:
+1. The Iced Coffee Hour is never introduced as a podcast. The editor's notes say it was. I still accepted that fix because the rest of it was done.
+2. "In early 2021" for his burst appendix is inferred; no source gives the date.
+3. A few timestamp links land minutes away from the quote they support. The wording is correct.
+4. The "this profile" repetition.
+
+Because the score sits right on the floor, any later edit that costs a tenth of a point would put it under. Fixing those four items is the cheapest way to add margin before you publish.

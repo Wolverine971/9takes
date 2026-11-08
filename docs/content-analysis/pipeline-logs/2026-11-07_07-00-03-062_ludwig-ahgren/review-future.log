@@ -1,0 +1,18 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I wrote the five-year ("future") review for Ludwig Ahgren to `docs/content-analysis/pipeline-logs/2026-11-07_07-00-03-062_ludwig-ahgren/review-future.json`. It passes the review schema, and every quoted passage matches the draft exactly. Nothing else was changed and nothing was published.
+
+**Verdict:** the profile passes the five-year test. The Type 7 vs Type 3 argument rests on choices dated 2021–2026. Take out the October 2026 wedding and both the argument and the ending still work. The title and description avoid wording tied to his current status. The problems are mostly in how the page would be kept up to date:
+
+1. **Major: the Mang0 / Beerio Kart World Cup material is filed as settled.**
+   - Some of it is still open: whether organizers stepped in during the event, the criticism from Mang0's wife (never read at its source), and whether the Mang0 ban still stands.
+   - Those claims (C29, C46, C47) are marked "stable" with no reminder of what to recheck.
+   - The body sentence says "On a June 22 stream" with no year.
+2. **Minor: a date error in the intro.** It says he built the game show after leaving Twitch. His own November 2021 departure video names Mogul Money as something he had already made.
+3. **Minor: the MrBeast month has no date.** The draft calls it "the cleanest test," and "from the same period" leaves it unclear whether it came before or after the 2024 quotes.
+4. **Minor: some present-tense statements will go stale.** These are "still wants reach" (in the type answer and FAQs), the $1,000 card cap, the ranked-ladder refusal, and "runs Mogul Moves." None has a year or a recheck reminder.
+5. **Minor: the record doesn't carry the draft's best maintenance line.** The prose dates the missing testimony from QTCinderella, Slime and Michael Reeves, and names what would weaken the Type 7 call. Neither becomes a recheck trigger in the evidence file.
+6. **Minor: the marriage FAQ is unmapped.** No claim covers its text. The October 20 photo date comes from a source with an approximate date. The wedding quote's label also has stable and changing reversed: the quote is a fixed past fact, while his marital status is what can change.
+
+I protected five passages: the coin-flip opening, the Smash "crumb" quote, "Effort without a live stake is," the falsifier that names what would weaken the Type 7 call, and the line that says which inference the type call depends on. The similarity check against other profiles didn't trip. The closest match was an ordinary "which motive wins" framing line, not reused argument.
+
+The sensitive-allegations and contested-typing risk flags stay on.

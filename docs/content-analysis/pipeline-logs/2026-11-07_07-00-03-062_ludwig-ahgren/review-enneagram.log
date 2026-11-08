@@ -1,0 +1,24 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I wrote the Enneagram review for the Ludwig Ahgren profile to `docs/content-analysis/pipeline-logs/2026-11-07_07-00-03-062_ludwig-ahgren/review-enneagram.json`. It passes the pipeline's review schema, every quoted passage matches the draft exactly, and nothing else was changed or published.
+
+**Verdict:** Type 7 at medium confidence over Type 3 holds up, and the draft is honest about its rival. The strongest support is the month he tried to copy MrBeast and then dropped it, plus the formats he quit at a cost he named. Several other planks are weaker than the draft makes them.
+
+**Major findings (4):**
+- **E01:** the subathon line "obsessed with stakes" is, in context, about why viewers keep tuning in ("why do I need to tune in"). That serves the subscriber count. The draft uses it as the Type 7 half of its central two-motive framing.
+- **E02:** the "trophy daydream" passage is billed as the best separator between the types. But his replacement goal was "biggest streamer in the world," which is just another No. 1 ranking. Switching to an arena you can win is a standard Type 3 move.
+- **E03:** "explained the failure on camera, which a Three rarely does" is a stereotype. Any creator with staff more or less has to announce a shutdown. His December 2024 video also blamed the market; the self-blame only came in 2026.
+- **E04:** the draft calls "experience big vs. image big" the hinge of the type call but backs it only with its own inference. The same podcast has the direct quote it needs: "I don't care about the brand… making the largest cultural impact."
+
+**Minor findings (4):**
+- **E05:** Type 6 is brought in three times to explain leftover behavior but never tested as a rival. The draft also leaves out his "change is scary" line about Twitch. The Type 8 wing ("suggests to some") isn't attributed to anyone.
+- **E06:** treating "failing is cool" as evidence against Type 3 is a stereotype.
+- **E07:** the "impermanence" quote leaves out the line that follows it, "go live and be consistent… do something daily."
+- **E08:** splitting one self-blaming sentence into "the ego reads like a Three; the oversight reads like a Seven" is too neat.
+
+I marked five passages to keep, including the coin-flip turn, the "crumb" quote, and "Effort without a live stake is."
+
+**Risk flags** for the editor: both sensitive allegations (the Mang0 harassment report, the enabling criticism, his father's alcoholism disclosure) and contested typing. Those justify the full six-reviewer panel.
+
+The similarity check didn't trip; its top match was 0.093 against the trip threshold of 0.04. The Tyla profile uses a similar 7-vs-3 test, but here it rests on Ludwig's own choices, so I don't count it as reuse.
+
+I checked the quotes against the cached transcripts of five sources, and the wording matches. The problems are missing context and how much weight each piece is made to carry.

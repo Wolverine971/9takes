@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "ce5f3dc8ba7ee6b5693d88b420ec5a645fbdb27d4a446b403a5806f8a83f40ea",
+  "evidence_sha256": "b736c378784b50ded962154350aea7ca8f3e2e6a57d4fbd47f4d7de3162ad85a",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Kotaku reported that the Smash pro Mang0 harassed female streamers there, including Maya Higa and ExtraEmily, that his team, Cloud9, dropped him, and that it was unclear whether organizers intervened during the stream.",
+      "problem": "The Beerio Kart World Cup material is a sensitive allegation with open parts: whether organizers intervened is unclear, the enabling criticism from Mang0's wife (C47) was never opened at source, and the Mogul Moves ban (C46) is a standing policy that can be lifted or confirmed. C29, C46 and C47 are all filed as durability 'stable' with empty review_trigger. The standard requires unresolved matters to be recorded as time_sensitive/unresolved with an actionable trigger. A page that will be read in 2031 cannot be maintained if the record says this matter is settled. This is a contract gap on a sensitive claim, not a wording preference.",
+      "acceptance_test": "C29 and C47 are marked 'unresolved' and C46 'time_sensitive', each with a concrete review_trigger, for example: recheck whether Ludwig or Mogul Moves has responded in full to the enabling criticism, whether the Mang0 ban still stands or has been lifted, and whether the original criticism can be opened at its source. Prose that reads as a standing state ('banned Mang0 from Mogul Moves events') keeps its June 22, 2025 anchor, and the year appears in the sentence itself (the draft currently says only 'On a June 22 stream')."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "Since leaving Twitch he has built a game show, a chessboxing championship, a creative agency, and Tip To Tip trips without phones or maps across Japan in 2025 and China in 2026.",
+      "problem": "The game show is Mogul Money. The draft quotes the November 29, 2021 departure video naming 'the Mogul Money game show' as something he had already made, so it predates the move to YouTube. C27 repeats the error ('Since leaving Twitch he has built the Mogul Money game show'). This is an internal contradiction in the orientation paragraph, and it is the kind of chronology slip that makes a durable page look careless.",
+      "acceptance_test": "The orientation sentence no longer puts the game show after the Twitch exit (for example, 'Since 2021 he has built…' or the game show is moved out of the 'since leaving Twitch' list), C27's claim text matches, and Mogul Money's start date is checked against S01 before any date is stated."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "After a visit to [MrBeast](/personality-analysis/mr-beast)'s operation, he told Shut Up I'm Talking, he came home with its philosophy: \"just make banger videos.\"",
+      "problem": "The draft calls this 'the cleanest test', yet the event has no date. The only date is the July 2026 interview where he told the story. The next paragraphs then say 'Two years earlier he had put the same choice into one sentence' (March 2024) and 'A sentence from the same period cuts the other way' (also March 2024). That leaves the reader unsure whether the MrBeast month came before or after the 2024 lines, which matters to the type argument: a 3-style push he dropped before 2024 and one he dropped after are different evidence about whether the pattern holds over time. The standard requires absolute dates. Undated, the discriminator gets harder to place each year.",
+      "acceptance_test": "The section dates the MrBeast visit and month (year at least) from S07 or another opened source. If the source has no date, the prose says plainly that he told it in July 2026 without dating it. 'From the same period' is replaced with an explicit year so the 2024 and 2026 lines are in unambiguous order. C13 records the date or the gap."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "Type 3, the Achiever, is a serious rival: he once measured himself in viewer counts and still wants reach.",
+      "problem": "Several present-tense status claims rest on dated self-reports and will go stale without a date anchor or trigger. 'Still wants reach' (type answer and both type FAQs) comes from March 2024. 'His credit card caps cash withdrawals at $1,000 a day' is a 2024 statement written as a standing fact. 'He has since \"refused to go onto the ranked ladder\"' and 'Losing still stings' come from July 2026. 'Runs the production company Mogul Moves' (Who is Ludwig FAQ) states a current business role. All are filed as 'stable' with no review_trigger. The type answer is the most-read text on the page, so its 'still' will age the fastest.",
+      "acceptance_test": "Each of these present-tense statuses is either tied to its year in the prose (for example, 'as of 2024 he said he wants reach' or 'in 2024 he said his card caps…') or recorded as time_sensitive with a trigger. The 60-word answer and the type FAQs stay accurate if read in 2031 without a new interview, and the Mogul Moves/Offbrand roles carry a review trigger for status changes."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "As of November 7, 2026, this profile's search found no long-form account from QTCinderella, Slime or Michael Reeves of how he decides what to do next.",
+      "problem": "This is the article's best durability move. It dates an absence and names the falsifier. But the evidence record does not carry it: the absence claim is not inventoried, and the thesis claims C35 and C50 have empty review triggers even though confidence is medium and typing is contested. A future refresh has nothing in the record telling it what to look for, so the strong falsifier in the prose ('he takes the bigger one and stays on it, or a failure he keeps quiet') never becomes a maintenance trigger.",
+      "acceptance_test": "The evidence record has a claim for this passage with durability 'unresolved' and a trigger such as 'reopen if QTCinderella, Slime or Michael Reeves give long-form testimony about how he chooses projects'. C35 or C50 carries a trigger restating the falsifier: reopen the type call if he takes a mainstream route over a more interesting one and stays on it, or keeps a failure quiet."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "wedding photos on October 20, 2026.",
+      "problem": "The 'Is Ludwig married?' FAQ (\"Yes. … married in October 2026. He posted wedding photos on October 20, 2026.\") is the page's most time-sensitive surface, three weeks old at drafting. Its exact passage is not mapped to any claim: C30 and C54 point at body sentences, and the October 20 photo date rests on S16, which is itself dated 'approx.'. A bare 'Yes.' is a status assertion with no date. Separately, C52 (the wedding quote) is marked time_sensitive although a quoted remark is a stable historical fact; the status is what changes. The closing image rests on this newest event. Remove it and the final paragraph still lands on the 2023 fear-of-death material, so the five-year test passes. The metadata bookkeeping is what needs fixing.",
+      "acceptance_test": "A claim maps the FAQ answer verbatim with durability time_sensitive and a relationship-status trigger. The October 20 photo date is either confirmed against an opened primary post or softened to 'in late October 2026'. C52 is reclassified as stable (the remark), with the status trigger kept on C30/C54. The closing paragraph still reads as complete with the wedding sentence removed."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He recorded the flip. Heads meant YouTube. It landed on Twitch, and \"right after the coin flip I felt a wave of relief which made me think it was the right decision.\"",
+      "reason": "The hook is a dated, sourced 2021 event that sets up the whole profile and will not age. It does not depend on his current platform or status."
+    },
+    {
+      "passage": "\"I would stop pursuing the very long boring tiresome road of actually doing that thing because it felt good enough to get a little crumb of what that thing was like.\"",
+      "reason": "This is the most distinctive, durable discriminator in the record. It describes a stable way of operating, it is not tied to any career moment, and the draft labels it honestly as joking self-report."
+    },
+    {
+      "passage": "Effort is not his problem. Effort without a live stake is.",
+      "reason": "A precise synthesis that takes on the counterevidence (the daily-upload streak, the Evo prep) instead of hiding it. It is specific to this person, not type boilerplate."
+    },
+    {
+      "passage": "What would weaken the Seven call is specific: a moment where the bigger route and the more interesting one split and he takes the bigger one and stays on it, or a failure he keeps quiet.",
+      "reason": "A concrete, observable falsifier that makes the page easy to reopen in five years. It should survive edits, and should also be copied into the evidence record (see future-05)."
+    },
+    {
+      "passage": "This profile reads that as wanting the experience big more than the image big. That inference is the hinge of the type call.",
+      "reason": "It marks openly where the argument turns on inference, so a future refresh knows which claim to retest."
+    }
+  ],
+  "assessment": "Five-year test: the thesis survives without the latest event. The type argument rests on choices dated 2021–2026 (coin flip, uncapped subathon, Smash daydream, the MrBeast month, dropped formats, the Offbrand collapse), and removing the October 2026 wedding leaves both the argument and the ending intact. Title, meta_title and description use durable framing ('leads', 'still in play') rather than current-status hooks, and most events carry absolute dates. The weak spots are maintenance. The sensitive Beerio Kart/Mang0 matter is filed as settled ('stable', no trigger) when parts of it are unresolved (major). A few present-tense statuses ('still wants reach', the card cap, the ranked-ladder refusal, 'runs Mogul Moves') have no date anchor. The 'cleanest test' (the MrBeast month) is undated and sits ambiguously against the 2024 lines. The good dated absence-of-testimony passage and its falsifier never reach the evidence record as review triggers. One chronology error: Mogul Money predates the Twitch exit, contrary to the orientation sentence. The discriminator leans heavily on a single July 2026 podcast (S07), which is acceptable but worth noting as the main thing a refresh should retest. Similarity advisory not tripped (max 0.093, Kareem Rahma): the matched line is an ordinary 'which motive wins' framing, and the arguments are not reused. Risks carried forward: sensitive_allegations (Mang0 harassment reporting; father's alcoholism disclosure) and contested_typing (7 vs 3 at medium confidence)."
+}

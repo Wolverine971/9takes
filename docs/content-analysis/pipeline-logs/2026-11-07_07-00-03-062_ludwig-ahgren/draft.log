@@ -1,0 +1,29 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I've finished the draft stage for Ludwig Ahgren and written the two requested files to the run folder: `draft.md` and `evidence-draft.json`. Nothing else in the repo changed (`backlog-queue.json` was already modified before I started), and nothing was published. The draft is `published: false` with `type: ['creator', 'streamer']`.
+
+**The angle.** The opening is a sourced moment from November 2021. He let a coin decide whether to stay on Twitch. It landed on Twitch, and he felt relief. He left for YouTube anyway after YouTube fought for him and Twitch told him "we wish you the best." The question the article follows: is he after the bigger number ("I like when the number's bigger") or the open question of what happens next ("I think I'm obsessed with stakes")?
+
+**The type call: Type 7, medium confidence, with Type 3 as the rival.**
+- **For 7:** when the bigger route and the more interesting one split, he takes the interesting one. He imagined winning at Smash so vividly that he quit the grind. He dropped a MrBeast-style push after about a month. He quits formats when they bore him, at a price he names himself. And he explains his failures on camera.
+- **For 3:** his self-worth rode on viewer counts through 2022, and he left Twitch partly because he didn't feel "liked respected wanted." He still talks about "the biggest cultural impact" and ending "on a high note."
+- **Left open:** his rule-making around gambling and drinking reads as much like Type 6 as Type 7. He feels a strong duty to his staff. And he ran a drinking-themed event despite his own drinking rule.
+
+**Checks run:**
+- The repo's draft checker reports no blockers at 3,796 words. That's above the standard's 2,000–3,500 target. I cut it from 4,418 so the edit stage, which usually adds words, has room under the 4,500 limit.
+- The evidence validator passes: 53 claims, 17 sources, every passage found in the draft.
+- I matched all 101 quotes in the draft against the cached transcripts and saved pages, and all of them match.
+
+**Changes from the research notes:**
+- **CNN line rewritten.** "Often points the camera away when talking to people" is CNN's summary of what the academic Jeffrey Hall said, not his words, and his term was "nuisance travelers." The draft now credits it to CNN without quote marks.
+- **Caption errors left out.** One research note said he took the title "lwig," but that's the captions mishearing "Ludwig." "Just boxing" (chessboxing) and "a big in ego" were also garbled, so I paraphrased those lines instead of quoting them.
+- **Unused claim dropped.** I removed the one about money not mattering to him (C33), since the draft doesn't use it.
+- **Sensitive material handled as the research stage asked:**
+  - His father's alcoholism appears only as the reason he gives for his drinking rule.
+  - The Mang0 incident at Beerio Kart is attributed to Kotaku. The criticism that Ludwig enabled Mang0's drinking is credited to Wikipedia's account and flagged as not checked at its original source.
+  - No wedding day is stated.
+
+The run folder now goes to the full six-reviewer panel, because research flagged both the contested typing and the sensitive material.
+
+Before publishing:
+- Recheck the wedding date. Sources only agree on October 2026.
+- Only two outside observers are on record about him. A long interview with QTCinderella, Slime or Michael Reeves would test the read better than anything he says himself.

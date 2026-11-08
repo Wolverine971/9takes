@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "ce5f3dc8ba7ee6b5693d88b420ec5a645fbdb27d4a446b403a5806f8a83f40ea",
+  "evidence_sha256": "b736c378784b50ded962154350aea7ca8f3e2e6a57d4fbd47f4d7de3162ad85a",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Then he went to YouTube anyway, on the deal the coin had rejected.",
+      "problem": "Misstates the best-known story in his career. In the source (S03, about 03:35-06:10) the coin was flipped on the original offers, where \"both platforms had me streaming the same amount of hours.\" After he declined, YouTube \"gave me something when I came back... some insane accidental negotiation tactic they allowed me to stream way less hours a month.\" In March 2024 he said the flip \"landed me a better contract\" (S08, about 33:10). So he took a different, improved deal, not the one the coin rejected. The opening also leaves out his own framing that it was \"a content coin flip\" and \"an insane negotiation tactic.\" Fans know him as a showman, and that framing matters for how much weight the flip can carry. The next section (\"But the reason he gave for overruling the coin was a feeling about being wanted\") repeats the slant by playing down the improved terms he gave as a reason in the same breath.",
+      "acceptance_test": "The opening says YouTube came back with a new offer (far fewer required hours) before he switched, and the phrase \"on the deal the coin had rejected\" is gone. The coin-and-hours section credits the reversal to both the improved terms and the hurt, citing S03 timestamps. Optionally, it quotes \"a content coin flip\" to show the staging."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Since leaving Twitch he has built a game show, a chessboxing championship, a creative agency, and Tip To Tip trips without phones or maps across Japan in 2025 and China in 2026.",
+      "problem": "The profile never says he went back to Twitch. Its own opened Wikipedia source (S01) says his YouTube streaming contract ended November 30, 2024, that he announced a return to Twitch on December 8, 2024, and that he has streamed there since. The hook is about leaving Twitch, and the body quotes him in 2023 saying he'd have been fine on Twitch. Yet this sentence, the rest of the body, and both Twitch-related FAQs (\"He moved to YouTube in November 2021...\") leave readers thinking he is still a YouTube streamer. An informed reader will read the whole page as out of date. The return also tests the thesis: he left partly because Twitch did not seem to want him, then went back three years later. The Offbrand FAQ has the same staleness problem. S01 records Offbrand Games, a game publisher he co-founded with Jason \"Thor\" Hall in June 2024 (Rivals of Aether II), which outlived the agency's December 2024 closure. That makes \"What happened to Offbrand?\" incomplete.",
+      "acceptance_test": "The body and the \"Who is Ludwig Ahgren?\" FAQ state the December 2024 return to Twitch, with the date and an S01 link. The \"Why did Ludwig leave Twitch for YouTube?\" FAQ adds that he returned in December 2024. If his stated reason for returning appears in an opened source, the article uses it; if not, it says the reason was not checked. The Offbrand FAQ tells the closed agency/events business apart from Offbrand Games, or is scoped explicitly to the agency."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "When a high-school friend's wedding clashed with his Valorant team's playoff in 2023, he said \"interpersonal relationships is the real value in life\" and called his mom.",
+      "problem": "Turns the anecdote's meaning around. In S02 (about 01:30:40-01:32:39) the friend is someone he had talked to only a handful of times in eight years. His gut (\"the guy\") said \"you gotta rep the team,\" and the \"interpersonal relationships is the real value in life\" line was the guilt he was arguing against that decision. His mom told him \"decision's been made... just be happy with that decision that you made.\" As written, readers will assume he chose the friend and the value. The source points to the team. Also, \"his Valorant team\" hides that he owns it (\"I'm the owner of one,\" S02 about 00:38:40), which is why the stakes were his. The paragraph then uses this as part of a \"provider streak.\"",
+      "acceptance_test": "The sentence says the relationships line was his second thought against a decision that, by his own account, went to the team, or says plainly that the outcome is unclear. It identifies him as the team's owner. The paragraph no longer counts this anecdote as evidence of a provider or relationships-first streak."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "Five years earlier, he said, he had $100 left in his bank account and bet it on a Mario Party 4 minigame against his friend Slime.",
+      "problem": "Takes a comic cold open at face value. S05 opens with \"I'm going to tell you something that's going to shock all of you,\" and the Mario Party story ends with \"you're welcome... for not gambling your children's future college funds away.\" His audience knows that register as a bit. The real admission in the same video comes later (about 06:07-07:07): playing blackjack with poker winnings, he \"spun up like 1K all the way to like ten thousand dollars,\" then \"the next day I wanted to make my 10 000 into 20. and I lost all of it.\" At about 07:38 he adds that the \"urge to bet... happens to me a lot\" and that he resists because of his employees. That account is better evidence for the appetite-and-fences argument, and it literally acts out \"I like when the number's bigger,\" a point the profile misses. The quoted \"no greater rush\" line also sits inside the bit.",
+      "acceptance_test": "The Mario Party story is either labeled as the video's joking opener or cut. The section quotes the blackjack $1K-to-$10K-to-zero account and the \"happens to me a lot\" line with S05 timestamps. Any use of \"no greater rush\" is framed as part of the comic opening. The inference limits stay."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "His answer is rules.",
+      "problem": "Leaves out two opened-source lines that bear directly on the hook and on the Type 3 case. In March 2024 (S08, about 32:40-34:15) he said he had become \"not risk averse but less chance oriented\" because \"I have my company and it has... 30 employees,\" and that he wants decisions \"built on Max information\" rather than coin flips. That is a dated change to the coin-flip habit the opening introduces as his norm (\"what I normally do\"). In the same interview (about 01:39:30) he said he talked to Kick and Facebook \"just to find out the number which sometimes I selfishly do.\" That is an unprompted piece of scoreboard behavior the Three case should weigh.",
+      "acceptance_test": "The article dates the change in his coin-flip habit to his own 2024 account, either in the coin section or in Fences around the appetite. The Type 3 case or the 2024 contract passage includes the \"find out the number\" line, attributed and dated, with its Seven-compatible reading (curiosity about leverage) stated."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "He wanted, by his own account, to be the best Super Smash Bros. player in the world before he wanted to be the biggest streamer.",
+      "problem": "Leaves out the Smash context every longtime viewer has. S01 identifies him as a known Super Smash Bros. Melee commentator and records him repeatedly funding and organizing Smash events. Examples: the Ludwig Ahgren Championship Series 3 charity tournament (December 2020, after Nintendo's cease-and-desist to The Big House 10, $261,668 raised), a 2022 Las Vegas invitational he said cost $200,000, and the December 2022 Scuffed World Tour. In S03 he says part of his reason for wanting money was a Melee/Ultimate event that would \"cost me probably a million dollars.\" Without this, \"The trophy in his head\" reads as if he walked away from Smash. In fact he swapped competing for commentary and patronage, which is relevant evidence either way (a Seven reframing a stalled goal, or a Three finding a stage he can win). His ASU improv and sketch club (S01) is also missing context for the showman persona the title leans on.",
+      "acceptance_test": "One or two dated, S01-linked sentences establish the commentary and Smash-patron record. The trophy analysis acknowledges that he moved to new roles in Smash rather than leaving the scene, and says which hypothesis that fits."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "As of November 7, 2026, this profile's search found no long-form account from QTCinderella, Slime or Michael Reeves of how he decides what to do next.",
+      "problem": "The profile never names The Yard, the weekly podcast he has co-hosted since July 2021 with Slime (Anthony Bruno), Nick and Aiden (S01). It is the largest on-record body of conversation between Ludwig and the people closest to him. Presenting the testimony gap as absence, when the obvious source was not mined, overstates the limitation. Slime also appears only as \"his friend Slime\" inside a gambling bit before the closing calls him \"his best friend,\" and no opened source supports \"best friend.\"",
+      "acceptance_test": "Slime is introduced on first mention as Anthony \"Slime\" Bruno, longtime friend and co-host of The Yard (S01). The limitation sentence either cites a specific Yard episode that was reviewed or says The Yard was not reviewed. \"Best friend\" is either sourced or replaced with wording the sources support."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "But the MrBeast month was an actual attempt, and in his account he dropped it because it was dull, not because it failed.",
+      "problem": "The section's main evidence is thinner than the prose makes it. In S07 (about 58:06-59:09) the episode is undated (\"maybe three years ago, four years ago, I forget exactly when\"). What he describes is telling his team \"we're going to make... banger videos\" and then thinking about it \"for like another month.\" No specific videos, or change to the channel's output, is identified. It works as a stated change of intent, not a tested attempt, yet the profile calls it \"the cleanest test.\" Fans will also notice what is missing: he kept working with MrBeast. Feastables sponsored his October 2022 Smash invitational, and he appeared in \"50 YouTubers Fight for $1,000,000\" in July 2024 (S01). He moved away from MrBeast's format, not from MrBeast.",
+      "acceptance_test": "The section dates the visit as roughly 2022-2023 by his own account and describes the episode as a stated plan he abandoned within about a month, unless the article identifies specific videos. The \"cleanest test\" wording is softened to match. One sentence notes the continued MrBeast collaborations, so the departure reads as a format choice."
+    },
+    {
+      "id": "fan-09",
+      "severity": "minor",
+      "passage": "On a June 22 stream Ludwig said he had reached out to anyone who might have felt uncomfortable and banned Mang0 from Mogul Moves events",
+      "problem": "The date conflicts across sources the profile already uses. S01 says the event was on June 22, 2025, and that Ludwig condemned Mang0's behavior and confirmed the ban on June 23. The draft puts the statement on a June 22 stream, citing only Kotaku's excerpt, and the evidence record notes that the VOD was not opened. Separately, the draft introduces Mang0 only as \"the Smash pro.\" Readers who know the Melee scene will see that the long relationship between the two, which is what made the ban costly, is missing. The profile should add it only if an opened source supports it.",
+      "acceptance_test": "The statement's date is checked against Kotaku and S01. If the sources still disagree, the sentence uses the date the sources support or describes it neutrally (for example, \"on a stream after the event\"). Any statement about their relationship cites an opened source; otherwise it is left out."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Two motives sit inside that one decision, and they are the two types in this profile. \"I like when the number's bigger\" is a scoreboard. \"Obsessed with stakes\" is an appetite for not knowing how it ends.",
+      "reason": "Sets up both hypotheses from one well-known, checkable moment (the uncapped subathon) without flattering him, and in a way longtime viewers will recognize."
+    },
+    {
+      "passage": "I would stop pursuing the very long boring tiresome road of actually doing that thing because it felt good enough to get a little crumb of what that thing was like.",
+      "reason": "The most revealing self-description in the record, quoted faithfully (checked against S02 at about 02:03:54). Fans will not have seen it framed this way, and it carries the type argument."
+    },
+    {
+      "passage": "He may be narrating a plateau as a preference; a Three is good at making a ceiling sound like a choice, and this profile cannot rule that out.",
+      "reason": "Takes the most obvious skeptical reading of his \"I don't chase mainstream\" line seriously instead of accepting his self-presentation."
+    },
+    {
+      "passage": "A man who says he drinks only socially because of his family history hosted a party where drinking was the format. No type resolves that, and this profile does not try.",
+      "reason": "States a real, uncomfortable contradiction plainly, without excusing him or moralizing."
+    },
+    {
+      "passage": "What would weaken the Seven call is specific: a moment where the bigger route and the more interesting one split and he takes the bigger one and stays on it, or a failure he keeps quiet.",
+      "reason": "Gives an informed reader a concrete, checkable falsifier for future events, such as the Twitch return."
+    }
+  ],
+  "assessment": "Read as an informed longtime viewer. The profile avoids flattery, picks revealing material (the uncapped subathon, the trophy crumb, the Offbrand self-blame) and quotes most of it faithfully. Spot checks against cached transcripts S02, S03, S05 and S08 matched the quoted wording. The problems are distortions of famous source material and gaps a fan would spot at once. The coin-flip opening says he took the deal the coin rejected, but the source shows YouTube came back with a better deal (fewer hours). The 2023 wedding-versus-playoff anecdote is presented as if he chose the friend, when his own account points to the team. The gambling section takes a comic cold open at face value and skips the real $10K blackjack loss in the same video. The page never mentions his December 2024 return to Twitch, which leaves the hook, the body and two FAQs stale and skips a natural test of the thesis. Smash commentary and patronage, The Yard and Slime's role are missing formative context, and the testimony-gap claim overstates absence while The Yard is unmined. None of this overturns Type 7, but fan-01 and fan-03 weaken passages used as type evidence, so the editor should rerun the discriminator after fixing them. The similarity advisory did not trip; its top pair (0.093, kareem-rahma) is generic test-framing wording, and a direct read found no meaningful reuse of argument. Risk flags: sensitive allegations (Mang0 incident, enabling criticism, father's alcoholism disclosure) and contested typing (a live 3 vs. 7 case) are confirmed."
+}

@@ -1,0 +1,328 @@
+{
+ "schema_version": 3,
+ "decisions": [
+  {
+   "finding_id": "subject-F01",
+   "action": "fixed",
+   "reason": "Removed the \"public exception\" framing and the drinking \"contradiction\" sentence; his rule (\"I only drink if other people are drinking I make it a very social thing\") is quoted in full once, as the reason he gave. Organizer responsibility is now a separate event-design question, set apart from his family history and personal rules."
+  },
+  {
+   "finding_id": "subject-F02",
+   "action": "fixed",
+   "reason": "The enabling allegation was still unopened at source, so the edit drops the \"enabling\" characterization and does not name Mang0's wife. It keeps that he \"faced criticism over the incident\" (Wikipedia), next to Mang0's June 25, 2025 statements (\"I take full responsibility for it\", \"It's on me and not anyone else\", Kotaku) and Ludwig's recorded condemnation and apology. Opening the SI July 2, 2025 article is now a research task."
+  },
+  {
+   "finding_id": "subject-F03",
+   "action": "fixed",
+   "reason": "The quote now runs on: \"...I never got that I never got reached out to after the subathon\" (S03 00:05:09), and the sentence before it says he realized he had never felt loved by Twitch. It can no longer be read as a claim about his parents."
+  },
+  {
+   "finding_id": "subject-F04",
+   "action": "fixed",
+   "reason": "Checked against S03: the coin flip was on the original offers, and YouTube came back with fewer-hours terms after he declined. The hook, the description (\"then took a better YouTube offer anyway\") and the Twitch FAQ now give that sequence; \"on the deal the coin had rejected\" is gone. \"The reason he gave\" is now \"several reasons\": hours, money for projects, creative support, not feeling wanted, and fear."
+  },
+  {
+   "finding_id": "subject-F05",
+   "action": "fixed",
+   "reason": "The wedding passage now includes his own reason (\"This is what I'll remember when he dies... I'm living in the flashback\"). The 2023 material includes \"I feel pretty good about death now\", and the closing line is labeled as the profile's interpretation of a comic story, with nothing implying an ongoing fear."
+  },
+  {
+   "finding_id": "subject-F06",
+   "action": "fixed",
+   "reason": "The Offbrand section now gives his stated causes as his account: the December 2024 business-model explanation (S06, S11) and his 2026 claim that the person in charge \"was kind of hiding the problem\" (S07 00:55:34). The delegation link is labeled \"this profile's inference, not his\" and set against those causes. \"Its cost is the kind he named\" is cut."
+  },
+  {
+   "finding_id": "subject-F07",
+   "action": "fixed",
+   "reason": "The opener is now identified as \"the setup for a joke\" in a video mostly about xQc and Twitch gambling rules. \"Addict\" is not treated as clinical."
+  },
+  {
+   "finding_id": "subject-F08",
+   "action": "fixed",
+   "reason": "Title and meta_title now say \"Picks Interesting Over Bigger\"/\"Interesting Over Bigger\", the pattern the body argues at medium confidence. The Twitch move is not counted as walking away from a bigger number."
+  },
+  {
+   "finding_id": "fan-01",
+   "action": "fixed",
+   "reason": "Hook rewritten from S03: YouTube came back with \"they allowed me to stream way less hours a month\". It quotes \"a content coin flip\" and his 2024 summary that the flip \"landed me a better contract\" (S08 00:33:10). The coin section credits both the improved terms and the hurt."
+  },
+  {
+   "finding_id": "fan-02",
+   "action": "fixed",
+   "reason": "Body orientation now states the December 8, 2024 Twitch return (S01). The Twitch and Who-is FAQs include it, and \"What the record cannot show\" says his reasons for returning were not checked. The Offbrand body and FAQ now separate the closed events business from Offbrand Games, which continued."
+  },
+  {
+   "finding_id": "fan-03",
+   "action": "fixed",
+   "reason": "Rechecked S02 01:31:07-01:32:39: his gut said \"you gotta rep the team\", the relationships line was the guilt arguing back, and his mom said the decision had been made. The passage now gives that, identifies him as the team's owner (S02 00:38:34), and no longer uses the anecdote for a provider or relationships-first streak. The Eight-wing line is cut."
+  },
+  {
+   "finding_id": "fan-04",
+   "action": "fixed",
+   "reason": "Mario Party is now framed as the joke opener. The section quotes the blackjack $1K-to-$10K-to-zero account and \"happens to me a lot\" (S05 00:06:07-00:07:38), and ties the loss to \"I like when the number's bigger\". \"No greater rush\" is dropped."
+  },
+  {
+   "finding_id": "fan-05",
+   "action": "fixed",
+   "reason": "Added his March 2024 \"not risk averse but less chance oriented\" (S08 00:33:10) to the coin section, dating the change in the coin-flip habit. Added \"just to find out the number which sometimes I selfishly do\" (S08 01:39:34) to the Three case, with the leverage-curiosity reading stated beside it."
+  },
+  {
+   "finding_id": "fan-06",
+   "action": "fixed",
+   "reason": "The bio now says he stayed in Smash as a commentator and, since at least 2020, a funder of charity and invitational tournaments (S01). The trophy section says he moved to commentary and funding rather than leaving, and that this fits either reading. The ASU improv club was left out for length because it does not bear on the type argument."
+  },
+  {
+   "finding_id": "fan-07",
+   "action": "fixed",
+   "reason": "Slime is introduced at first mention as Anthony \"Slime\" Bruno, longtime friend and co-host of The Yard (S01). The limitation paragraph says The Yard was not reviewed. \"Best friend\" is replaced with sourced wording."
+  },
+  {
+   "finding_id": "fan-08",
+   "action": "fixed",
+   "reason": "The section dates the visit by his own words (\"maybe three years ago, four years ago\", about 2022-23). It calls the episode \"a reconsidered plan, not a tested strategy\", removes \"not because it failed\", and renames the heading \"The MrBeast month\". It notes his continued MrBeast collaboration (July 2024 video, S01). It stays the one named main test, now with these limits stated."
+  },
+  {
+   "finding_id": "fan-09",
+   "action": "fixed",
+   "reason": "The statement is now \"In a livestream Kotaku dates June 22, 2025\", with Wikipedia's June 23 date recorded in C46 and in a research task. Mang0 is identified as \"a longtime Smash Melee pro\" (Kotaku: \"long-time Smash Bros. player\"). No unsourced claim is made about his relationship with Ludwig."
+  },
+  {
+   "finding_id": "critic-F1",
+   "action": "fixed",
+   "reason": "Confirmed in S07: 00:42:15-00:44:17 is a co-host describing himself. \"I like new things all I want to try new things constantly\" is removed and C12 no longer credits Ludwig with it. \"You laugh, you lose\" and \"level of success\" now link to t=2841s. Every other S07 quote was re-checked for speaker against the questions around it (00:07:09, 00:29:34-00:30:34, 00:36:09-00:37:10, 00:44:48, 00:47:21-00:47:52, 00:55:04-00:56:34, 00:58:06-00:59:41); all are Ludwig's. The \"go live and be consistent\" sentence sits across a turn marker and is not quoted."
+  },
+  {
+   "finding_id": "critic-F2",
+   "action": "fixed",
+   "reason": "The trophy section now says the replacement goal was \"the biggest streamer in the world\" (another ranking) and quotes \"I deluded myself\" and \"that was the substitute for actually working\". It is downgraded to \"leans Seven without settling it\", with the source-based reason given (he cites a boring grind, not bad odds)."
+  },
+  {
+   "finding_id": "critic-F3",
+   "action": "fixed",
+   "reason": "Added \"the biggest smash tournament in the world\" to the coin section and the chessboxing \"most eyeballs\" justification to the MrBeast section. The hinge paragraph now says interesting and bigger are not opposites for him and narrows the split to growing his own channel versus the event existing, citing the pay-per-view and \"I don't care about the brand\" passage. Confidence is unchanged at medium; FAQ 2 says \"leads, loosely\"."
+  },
+  {
+   "finding_id": "critic-F4",
+   "action": "fixed",
+   "reason": "The on-camera-failure discriminator is removed everywhere (body, Three case, FAQ logic, falsifier). The type section says once that candor is part of a streamer's job and does not count either way. The Offbrand section says the December 2024 video blamed the business model and market and that the self-blame came in 2026. The falsifier's second clause is now testimony about project choice."
+  },
+  {
+   "finding_id": "critic-F5",
+   "action": "fixed",
+   "reason": "He is now reported as saying the person in charge \"was kind of hiding the problem\", as his unverified account, identifying no one. The Seven-pattern sentence is softened to labeled inference and set against his stated causes."
+  },
+  {
+   "finding_id": "critic-F6",
+   "action": "fixed",
+   "reason": "\"The fences have a public exception\" and the two contradiction sentences are cut. Event design is kept as a separate question; the family disclosure appears once, only as the reason for his rule."
+  },
+  {
+   "finding_id": "critic-F7",
+   "action": "fixed",
+   "reason": "The SI article could not be opened in this stage. The sentence is reduced to \"faced criticism over the incident\" (Wikipedia), without naming Mang0's wife or calling it enabling, and sits beside his recorded condemnation and apology and Mang0's statement taking responsibility. Opening SI is a research task."
+  },
+  {
+   "finding_id": "critic-F8",
+   "action": "fixed",
+   "reason": "Passage, heading (\"The MrBeast month\") and FAQ 2 now call it a plan he reconsidered within about a month, around 2022-23. \"Not because it failed\" is removed. The section says what was made is unknown and calls it a reconsidered plan, not a tested strategy. It stays the named main test because his reason is repeated across 2024 and 2026, and that limit is stated."
+  },
+  {
+   "finding_id": "unfamiliar-01",
+   "action": "fixed",
+   "reason": "The intro now says what the coin flip shows (a better deal whose hours were for projects, tipped by not feeling wanted) and names a documented choice where he gave up the bigger route (the MrBeast plan, dropped within a month). The title now matches the body. No unsourced audience-cost claim is added."
+  },
+  {
+   "finding_id": "unfamiliar-02",
+   "action": "fixed",
+   "reason": "The passage now gives the transcript's outcome (gut said rep the team, guilt argued back, mom said the decision was made). Nothing uses it as relationships-first or provider evidence, and the Eight-wing sentence is cut."
+  },
+  {
+   "finding_id": "unfamiliar-03",
+   "action": "fixed",
+   "reason": "Cut. Event design is now separate from his personal rule, so his quoted rule no longer refutes anything in the article. The family disclosure appears once, as the reason for the rule."
+  },
+  {
+   "finding_id": "unfamiliar-04",
+   "action": "fixed",
+   "reason": "Removed the competing superlatives: \"strongest evidence for Type 3\", \"the Three's best moment\", \"separates the two types best\" and \"the cleanest test\". Only the MrBeast month is named as the main test, and the Three-case summary matches it. Sections now close on new material (the daily rule, the less-chance-oriented change, the effort line, the hinge, his stated Offbrand causes, the falsifier). The repeated \"both fit\" closings were cut or moved inside paragraphs."
+  },
+  {
+   "finding_id": "unfamiliar-05",
+   "action": "fixed",
+   "reason": "Slime is identified at first mention, and \"best friend\" is replaced. The ending now sits under its own H2, \"The flashback\", with his reason and a hedged, labeled sentence tying it to the Seven reading without claiming proof."
+  },
+  {
+   "finding_id": "unfamiliar-06",
+   "action": "fixed",
+   "reason": "Mogul Mail is identified as his channel at first mention. Mogul Moves is \"his production company\". Tip To Tip is \"phone-free road trips with the YouTuber Michael Reeves\". The Iced Coffee Hour is \"the podcast\". The game show name is dropped from the body to avoid the Mogul-name blur. The 30,000 figure stays \"the number that tracked his income\". The wing line is cut. A sourced scale sentence (about 7.1 million YouTube subscribers, November 2026) and his best-known formats are in the bio."
+  },
+  {
+   "finding_id": "unfamiliar-07",
+   "action": "fixed",
+   "reason": "Changed \"do cool … that\" to \"do cool [stuff] that\" (standard bracketed placeholder) and handled \"make the [stuff] i want to make\" the same way. The other ellipses parse."
+  },
+  {
+   "finding_id": "unfamiliar-08",
+   "action": "fixed",
+   "reason": "Candor is now addressed once, in the type section, as part of the job and evidence for neither type. It is removed from the discriminator list and from the gambling and Offbrand sections."
+  },
+  {
+   "finding_id": "enneagram-E01",
+   "action": "fixed",
+   "reason": "The stakes passage now quotes the viewer-side continuation (\"why do i need to tune in\") and labels the line as also a showman's retention logic that served the count. C37 is removed from for_claim_ids, and its inference states the audience context."
+  },
+  {
+   "finding_id": "enneagram-E02",
+   "action": "fixed",
+   "reason": "The trophy passage now says the replacement goal was another number-one ranking, which a Three could predict. It explains what still tilts it (his stated reason is boredom with the grind, not bad odds), concedes it does not settle the question, and no longer calls it the best separator."
+  },
+  {
+   "finding_id": "enneagram-E03",
+   "action": "fixed",
+   "reason": "Openness about failure is no longer a discriminator pillar; the type section treats candor as job-driven. The Offbrand section says the 2024 explanation pointed at the market and the self-blame came in 2026. The falsifier now names a signal platform incentives do not explain (testimony that he picks projects for reach). The evidence discriminator text is updated to match."
+  },
+  {
+   "finding_id": "enneagram-E04",
+   "action": "fixed",
+   "reason": "The hinge paragraph now cites the pay-per-view / \"I don't care about the brand man\" passage (S08 00:13:12, t=792s) as self-report and states its limit (a Three who wanted to seem above image could say it). C75 records the quote."
+  },
+  {
+   "finding_id": "enneagram-E05",
+   "action": "fixed",
+   "reason": "Added a sourced 7-versus-6 discriminator in the coin section: a Six would keep relitigating, while he says \"I just pick the decision… I'm usually pretty quick\" (S02 02:13:18), alongside \"it'll all work out\" and blind confidence. \"Change is scary\" (S09 00:51:13) is acknowledged in the Twitch exit. \"Suggests to some\" and the Eight-wing guess are cut."
+  },
+  {
+   "finding_id": "enneagram-E06",
+   "action": "fixed",
+   "reason": "The \"harder to picture\" line is cut. The passage includes his \"I set goals I worked really hard towards it I did the best I could\" framing and calls it \"a striver's ethic as much as anyone's\", keeping only the pre-written exit as distinctive."
+  },
+  {
+   "finding_id": "enneagram-E07",
+   "action": "fixed",
+   "reason": "The passage now says the effortless-arrival fantasy fits both types. It adds the consistency rule that followed the shrug (\"I'll just do something daily\", S07 00:30:34) and says the fix cuts both ways. Only the clearly first-person line is quoted, because the \"go live and be consistent\" sentence sits across an auto-caption turn marker."
+  },
+  {
+   "finding_id": "enneagram-E08",
+   "action": "fixed",
+   "reason": "Removed the ego/oversight type split. The paragraph now rests on his stepping back from the numbers because they felt \"sweaty and serious\", labeled as consistent with the Seven reading, with any link to the loss marked as inference."
+  },
+  {
+   "finding_id": "future-01",
+   "action": "fixed",
+   "reason": "C29 and C47 are now \"unresolved\" and C46 \"time_sensitive\", each with a concrete trigger: organizer conduct, open the SI article or original posts, whether the ban stands. The prose dates the ban statement with the year (\"Kotaku dates June 22, 2025\")."
+  },
+  {
+   "finding_id": "future-02",
+   "action": "fixed",
+   "reason": "The orientation sentence no longer says \"since leaving Twitch\". The game show is listed without a date, and C27 says Mogul Money predates the November 2021 move. Its start date was not stated because S01 does not give one, and it is listed as a research task."
+  },
+  {
+   "finding_id": "future-03",
+   "action": "fixed",
+   "reason": "The section now quotes his own dating (\"maybe three years ago, four years ago, I forget exactly when\", told July 2026; about 2022-23 in C13/C71). \"From the same period\" is replaced with an explicit \"In March 2024 he had said\", so the 2024 and 2026 lines are in clear order."
+  },
+  {
+   "finding_id": "future-04",
+   "action": "fixed",
+   "reason": "\"Still wants reach\" is removed from the 60-word answer and both type FAQs. The card cap and the ranked-ladder refusal are cut. Remaining present-tense lines carry years (\"In 2024...\", \"In July 2026...\"). \"Runs the production company Mogul Moves\" is removed from the Who-is FAQ. Changing roles (platform, The Yard, Offbrand Games, subscriber count) are time_sensitive claims with triggers (C58-C60, C92-C94)."
+  },
+  {
+   "finding_id": "future-05",
+   "action": "fixed",
+   "reason": "Added C87 for the dated absence of testimony (unresolved; trigger: long-form testimony from QTCinderella, Slime or Reeves, or a review of The Yard). C35 and C50 now carry the falsifier as their review trigger, and C89 records the falsifier passage."
+  },
+  {
+   "finding_id": "future-06",
+   "action": "fixed",
+   "reason": "The married FAQ is now dated (\"Yes, as of November 2026\") and mapped verbatim by C91 (time_sensitive, relationship trigger). The October 20 photo date is removed from the FAQ. C52 is reclassified as stable, with the status trigger kept on C30/C54. The type argument does not depend on the wedding. The closing now sits in its own section and leans on the dated 2023 death remarks as well, so it holds up without the latest event."
+  }
+ ],
+ "protected_passages": [
+  {
+   "passage": "He may be narrating a plateau as a preference; a Three is good at making a ceiling sound like a choice, and this profile cannot rule that out.",
+   "action": "kept",
+   "reason": "Kept verbatim at the main test."
+  },
+  {
+   "passage": "Nearly everything above is Ludwig describing himself, on friendly podcasts and his own channel, often joking. The outside voices are thin.",
+   "action": "kept",
+   "reason": "Kept verbatim."
+  },
+  {
+   "passage": "That is his account, and no one else's is on record here.",
+   "action": "kept",
+   "reason": "Kept verbatim; it now also covers his concealment claim."
+  },
+  {
+   "passage": "It is still self-report, in a joking register.",
+   "action": "kept",
+   "reason": "Kept verbatim in the trophy section."
+  },
+  {
+   "passage": "He also builds exits into his ambitions.",
+   "action": "kept",
+   "reason": "Kept verbatim. The paragraph adds his \"worked really hard\" framing (E06) and treats the pre-written exit as the distinctive part."
+  },
+  {
+   "passage": "Two motives sit inside that one decision, and they are the two types in this profile. \"I like when the number's bigger\" is a scoreboard. \"Obsessed with stakes\" is an appetite for not knowing how it ends.",
+   "action": "changed",
+   "reason": "The first two sentences are verbatim and the framing survives. The third is extended to say he framed stakes as the viewer's appetite, which also served the count (E01), and the paragraph now ends \"the uncapped timer served both\"."
+  },
+  {
+   "passage": "I would stop pursuing the very long boring tiresome road of actually doing that thing because it felt good enough to get a little crumb of what that thing was like.",
+   "action": "kept",
+   "reason": "Quote kept whole; his \"I deluded myself\" framing follows it (critic-F2)."
+  },
+  {
+   "passage": "\"I would stop pursuing the very long boring tiresome road of actually doing that thing because it felt good enough to get a little crumb of what that thing was like.\"",
+   "action": "kept",
+   "reason": "Quote kept whole and verbatim."
+  },
+  {
+   "passage": "A man who says he drinks only socially because of his family history hosted a party where drinking was the format. No type resolves that, and this profile does not try.",
+   "action": "changed",
+   "reason": "Removed because the contradiction is false against his own quoted rule (\"I only drink if other people are drinking...\") and it reused his father's alcoholism next to another man's misconduct (subject-F01, critic-F6, unfamiliar-03). Its contribution, naming an uncomfortable question plainly without moralizing, survives as a separate event-design question."
+  },
+  {
+   "passage": "What would weaken the Seven call is specific: a moment where the bigger route and the more interesting one split and he takes the bigger one and stays on it, or a failure he keeps quiet.",
+   "action": "changed",
+   "reason": "The opening and first signal are kept verbatim. \"A failure he keeps quiet\" is replaced with testimony that he picks projects for reach, because public disclosure is job-driven and does not discriminate (critic-F4, E03). It is also recorded as review triggers (C35, C50, C89)."
+  },
+  {
+   "passage": "He told YouTube no. YouTube fought for him. He then told Twitch he had decided on YouTube, to see what it would say.",
+   "action": "changed",
+   "reason": "The short-declarative scene is kept (\"He told YouTube no. YouTube fought for him...\", \"He told Twitch he had decided on YouTube, to see what it would say.\"). The new-offer step and the full approval quote are inserted for accuracy (subject-F04, fan-01, subject-F03)."
+  },
+  {
+   "passage": "This is the Three's best moment in the record: Twitch's most successful streamer left partly because Twitch did not seem to admire him. The Seven reading only partly answers it.",
+   "action": "changed",
+   "reason": "The superlative crown is replaced (\"Here the Three reading has real force:\") so only one passage is named as the main test (unfamiliar-04). The rest is verbatim, and the direct confrontation with adverse evidence is retained."
+  },
+  {
+   "passage": "Yet the fantasy he describes is not of working harder to be seen. It is of arriving and no longer having to try.",
+   "action": "kept",
+   "reason": "Kept verbatim. The next sentence now says the fantasy fits both types (E07)."
+  },
+  {
+   "passage": "Effort is not his problem. Effort without a live stake is.",
+   "action": "kept",
+   "reason": "Kept verbatim, still backed by the upload streak and Evo."
+  },
+  {
+   "passage": "Then he went to YouTube anyway, on the deal the coin had rejected.",
+   "action": "changed",
+   "reason": "Removed as factually wrong: he took a new, fewer-hours offer made after the flip (S03 00:05:39; S08 00:33:10, \"landed me a better contract\"). The hinge it created is carried by the corrected sequence and the intro's statement of what the flip shows."
+  },
+  {
+   "passage": "He recorded the flip. Heads meant YouTube. It landed on Twitch, and \"right after the coin flip I felt a wave of relief which made me think it was the right decision.\"",
+   "action": "changed",
+   "reason": "The first sentence becomes \"He recorded it, calling it 'a content coin flip.'\" to show the staging (fan-01). The rest is verbatim, and the dated, sourced hook is retained."
+  },
+  {
+   "passage": "This profile reads that as wanting the experience big more than the image big. That inference is the hinge of the type call.",
+   "action": "kept",
+   "reason": "Kept verbatim, now preceded by the direct pay-per-view/brand evidence (E04)."
+  }
+ ],
+ "prior_blockers": []
+}

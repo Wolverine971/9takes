@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "ce5f3dc8ba7ee6b5693d88b420ec5a645fbdb27d4a446b403a5806f8a83f40ea",
+  "evidence_sha256": "b736c378784b50ded962154350aea7ca8f3e2e6a57d4fbd47f4d7de3162ad85a",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-E01",
+      "severity": "major",
+      "passage": "Two motives sit inside that one decision, and they are the two types in this profile. \"I like when the number's bigger\" is a scoreboard. \"Obsessed with stakes\" is an appetite for not knowing how it ends. A Three plays for the number. A Seven plays for the open ending. In 2021 he was playing for both.",
+      "problem": "In context (Colin and Samir, ~32:40) the stakes line is audience-retention logic, not a personal appetite: \"anytime people like can expect the outcome of something it's immediately more boring ... the story's over yeah why do i need to tune in because it's already over.\" He is explaining why viewers keep watching an uncapped timer, which serves the subscriber number. The draft turns a content-design rationale into the Seven half of its central two-motive frame (and C37 is listed in for_claim_ids). The evidence for a Seven motive inside the subathon decision is weaker than presented.",
+      "acceptance_test": "The passage quotes or paraphrases the viewer-side continuation (\"why do i need to tune in\"), and either drops the claim that this line is the Seven motive or labels it as content logic that fits both readings. C37 is removed from type_hypothesis.for_claim_ids or its inference states the audience-retention context."
+    },
+    {
+      "id": "enneagram-E02",
+      "severity": "major",
+      "passage": "This passage separates the two types best. The Three reading predicts someone who grinds toward a recognized result because the result is who he is. He describes the reverse: the imagined result was enough, and the cure for a stalled goal was a fresh one.",
+      "problem": "The fresh goal he names was \"the biggest streamer in the world\" (HealthyGamerGG ~02:08:06), which is another number-one ranking. Leaving an arena where you can't become the best for one where you can is a recognized Three pattern too. The draft calls this the best separator but never deals with the fact that both the old goal and the new one are about rank. The trophy daydream itself, where imagined recognition is the pleasure, could support image as much as anticipation.",
+      "acceptance_test": "Next to the trophy passage the article says that the replacement goal was also a top-ranking goal, explains why the crumb-of-anticipation reading still beats the Three's switch-to-a-winnable-arena reading (or concedes it only partly separates them), and no longer calls it the best separator unless it holds up against that rival reading."
+    },
+    {
+      "id": "enneagram-E03",
+      "severity": "major",
+      "passage": "He also explained the failure on camera within days, which an image-protective Three rarely does.",
+      "problem": "Stereotyped discriminator. For a creator with employees and a public company, announcing a shutdown on his own channel is close to mandatory, and getting ahead of the story is itself image management. The source also undercuts it: the December 2024 video blames the market (\"that's a reflection of what the audience wants\") and the act-now timing. The self-blame about \"ego\" and \"oversight\" came in 2026, after time had passed. The same claim is used at line 203 (\"Saying it on his own channel is not\"), in the line 227 discriminator (\"failures explained on camera\") and in the line 235 weakener (\"a failure he keeps quiet\"), so a stereotype is doing work in the type call.",
+      "acceptance_test": "Being open about failure is no longer one of the discriminator's pillars. Or each use admits that platform and employer incentives explain public disclosure for any type, and says the 2024 explanation pointed at the market while the self-blame came in 2026. The line 235 weakener names a signal that platform incentives do not explain. The evidence record's discriminator text is updated to match."
+    },
+    {
+      "id": "enneagram-E04",
+      "severity": "major",
+      "passage": "This profile reads that as wanting the experience big more than the image big. That inference is the hinge of the type call.",
+      "problem": "The draft says this is the hinge, then supports it only with its own inference, even though the same opened interview has direct evidence on the point. About 13:12-13:42 of The Iced Coffee Hour he says he dislikes pay-per-view although \"it makes a ton of money\" because he wants \"anyone's able to watch it,\" and \"I don't care about the brand man I'm gonna fall off Into Obscurity it's more about ... making the largest cultural impact ... I just make stuff I like.\" That is the sentence that separates wanting the work seen from wanting himself seen. It is also self-report that a Three could say, so it should be weighed, not just added.",
+      "acceptance_test": "The hinge paragraph cites the \"I don't care about the brand\" / pay-per-view passage with a timestamped link, labels it as self-report, and states its limit (an image-aware Three could say it too). Or the paragraph stops calling an unsupported inference the hinge. The evidence record gains a claim for the quote."
+    },
+    {
+      "id": "enneagram-E05",
+      "severity": "minor",
+      "passage": "The rehearsal and the rules look more like a Six's scenario planning than Seven spontaneity, and the provider streak suggests to some an Eight wing. This profile leaves both open.",
+      "problem": "Type 6 comes up three times to explain leftover behavior (the gambling and drinking rules, conversation rehearsal, loneliness as the YouTube con), but it is never tested as a rival. One opened passage the draft leaves out bears directly on it: before the offers changed he was \"100 twitch i'm bleeding purple i like the culture change is scary\" (Colin and Samir ~51:13). Add the coin flips, asking his mom and other creators before deciding, and the fear of going live, and a counterphobic Six is a recognized way to mistype a Seven. The reader is never told what separates 7 from 6. \"Suggests to some\" also points to unnamed people for a speculative wing.",
+      "acceptance_test": "The article gives one sourced 7-versus-6 discriminator in a sentence or two (for example, \"blind confidence\" or \"it'll all work out\" and quitting from boredom, against seeking security or support) and acknowledges \"change is scary\" when it discusses the Twitch exit. \"Suggests to some\" is either attributed or rewritten as the profile's own unproven guess."
+    },
+    {
+      "id": "enneagram-E06",
+      "severity": "minor",
+      "passage": "A Three can set deadlines. A Three who calls failing cool, and plans for it in advance, is harder to picture.",
+      "problem": "Stereotype. \"Failure is fine if you gave it your all\" is a core value of striving culture (fail fast), and in context he frames it with \"I set goals I worked really hard towards it I did the best I could\" and an anime about a defiant striver (HealthyGamerGG ~00:44:13). A healthy or self-aware Three can hold that view. The line presents a weak signal as a discriminator.",
+      "acceptance_test": "The sentence is cut or softened so it no longer implies a Three can't accept failure. If the passage stays, it includes his \"worked really hard\" framing and treats the built-in exit as weak evidence."
+    },
+    {
+      "id": "enneagram-E07",
+      "severity": "minor",
+      "passage": "Yet the fantasy he describes is not of working harder to be seen. It is of arriving and no longer having to try. And what cured the early anxiety, he says, was not a better result but a shrug: \"there's an impermanence to any stream.\"",
+      "problem": "Selective in two ways. First, a fantasy of effortless arrival doesn't separate the types, since expecting success to fall into your lap fits a Three as easily. Second, in the source (Shut Up I'm Talking ~30:04-30:34) the shrug comes with a discipline rule: \"You just have to go live and be consistent ... I'll just do something daily.\" That consistency-for-output fix fits the Three reading as well as the Seven one. Leaving it out makes the passage tilt Seven.",
+      "acceptance_test": "The passage includes the \"go live and be consistent / do something daily\" continuation, and it no longer presents the effortless-arrival fantasy as evidence against Type 3, or it states that the fantasy fits both types."
+    },
+    {
+      "id": "enneagram-E08",
+      "severity": "minor",
+      "passage": "The ego reads like a Three; the oversight reads like a Seven.",
+      "problem": "It is too convenient to give each half of one self-blaming sentence to a different type. Both halves are his own retrospective account, and \"oversight\" (not watching the books) could come from trust, delegation or a busy founder of any type. The neat split looks like an explanation without discriminating anything.",
+      "acceptance_test": "The sentence is removed, or replaced with a claim the following evidence actually supports (that he stepped back from the numbers because they felt \"sweaty and serious\"), labeled as consistent with the Seven reading rather than as one half of a type split."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Then he went to YouTube anyway, on the deal the coin had rejected.",
+      "reason": "A precise, sourced hinge that turns the coin flip into the profile's central question without asserting a motive."
+    },
+    {
+      "passage": "I would stop pursuing the very long boring tiresome road of actually doing that thing because it felt good enough to get a little crumb of what that thing was like.",
+      "reason": "The most distinctive first-person evidence in the record. Even with E02's caveat, it is specific to Ludwig and worth keeping in his words."
+    },
+    {
+      "passage": "He may be narrating a plateau as a preference; a Three is good at making a ceiling sound like a choice, and this profile cannot rule that out.",
+      "reason": "Takes the strongest Three objection head-on, in the article's own voice, right at the main Seven evidence."
+    },
+    {
+      "passage": "Effort is not his problem. Effort without a live stake is.",
+      "reason": "A compact, person-specific line that heads off the lazy-Seven stereotype and is backed by the streak and Evo evidence."
+    },
+    {
+      "passage": "A man who says he drinks only socially because of his family history hosted a party where drinking was the format. No type resolves that, and this profile does not try.",
+      "reason": "Names a contradiction honestly, without forcing it into the type thesis or moralizing."
+    }
+  ],
+  "assessment": "Type 7 at medium confidence over Type 3 is defensible, and the draft is unusually honest about its alternative. It gives a full Three section, admits the hinge is an inference, and admits the evidence is mostly self-report. The discriminator (which way he goes when status and interest split) is the right kind of test. The best support is the MrBeast month (2026 account, corroborated by the 2024 \"my goal was not Mr Beast\" line and the \"sounds kind of miserable\" continuation) and the formats he dropped at a named cost. The other pillars are weaker than the draft says. The subathon \"stakes\" line is about holding viewers, not his own appetite (E01). The Smash-to-streamer switch traded one number-one ranking for another (E02). Publishing his failures is a stereotyped Three-negative that creator incentives explain (E03). The hinge ignores direct self-report the record contains (E04). Type 6 keeps returning as residue without ever being tested (E05). Wings are handled with restraint; the only issue is the unattributed \"to some\" on 8. The similarity advisory did not trip (max 0.093, Kareem Rahma, a generic \"the test is which motive wins\" method sentence). The Tyla profile used a similar interest-versus-audience discriminator for 7 versus 3, but here it rests on Ludwig-specific choices, so I see no meaningful reuse. I checked passages against the cached transcripts for S02, S07, S08, S09 and S06. The quotes I spot-checked match; the problems are about context and how much the evidence is made to carry, not wording. Sensitive allegations (the Mang0 harassment report, the enabling criticism, the father's alcoholism disclosure) and contested typing justify the expanded jury."
+}

@@ -1,0 +1,18 @@
+Warning: this sign-in can end at any time from now until 2026-11-08. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+I wrote the unfamiliar-reader review for the Ludwig Ahgren draft to `docs/content-analysis/pipeline-logs/2026-11-07_07-00-03-062_ludwig-ahgren/review-unfamiliar.json`. It passes the review format check. Every quoted passage matches the draft word for word, and the two fingerprints are copied from the request. Nothing else in the repo was changed and nothing was published; the only other file is a helper script in `/tmp`.
+
+It has 8 findings (4 major, 4 minor) and 5 passages marked to keep.
+
+**Major:**
+1. **The title and the opening story point opposite ways.** The title says he "keeps leaving the bigger number," but in the coin-flip story he took the bigger offer: YouTube paid more and needed fewer hours. A new reader can't tell what the coin flip is meant to show.
+2. **The Valorant/wedding story is told backwards.** I checked the HealthyGamerGG transcript (about 01:30–01:32). "Interpersonal relationships is the real value in life" was the guilt he felt, and it lost: he sided with his team, and his mom backed that choice. The draft implies he put people first, then uses that as evidence for a "provider streak."
+3. **The drinking "contradiction" doesn't hold.** The quoted rule is "I only drink if other people are drinking," which a drinking-themed party doesn't break. Because this touches his family alcoholism disclosure and the Mang0 criticism, it reads as an unsupported hypocrisy charge.
+4. **The middle keeps naming a different "decisive" piece of evidence.** Four passages each call something the strongest, best or cleanest test, and several sections end with "both types fit." It turns into a running score instead of building.
+
+**Minor:**
+5. Nothing in the evidence calls Slime his "best friend." The ending also sits under the "What the record cannot show" heading without being tied back to the profile's question.
+6. Names and jargon go unexplained: Mogul Mail, Mogul Money and Mogul Moves blur together, and Tip To Tip, The Iced Coffee Hour, the 30,000 figure with no unit, and the vague "Eight wing" line all need a word of context.
+7. Some quotes stop making sense where the swearing was cut out ("do cool … that I'm super excited about").
+8. "He explains his failures on camera" is used three times as proof he's a Seven, but talking candidly to camera is his job.
+
+The similarity check flagged nothing. Its closest match, with the Kareem Rahma profile, is only a shared "which motive wins" phrasing, not a reused argument. I kept both risk flags on: sensitive allegations and contested typing.
