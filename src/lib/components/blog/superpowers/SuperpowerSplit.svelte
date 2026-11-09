@@ -14,7 +14,7 @@
 -->
 <script lang="ts">
 	import { TEST_TYPES, relationTag, type TestType } from '$lib/enneagramTest/content';
-	import { TYPE_POWERS } from './superpowerData';
+	import { EMOTION_TINT, TYPE_POWERS } from './superpowerData';
 
 	let {
 		type,

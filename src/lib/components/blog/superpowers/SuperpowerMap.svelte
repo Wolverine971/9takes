@@ -21,7 +21,7 @@
 		RELATION_ORDER,
 		TEST_TYPES
 	} from '$lib/enneagramTest/content';
-	import { INTELLIGENCE, TYPE_POWERS } from './superpowerData';
+	import { EMOTION_TINT, INTELLIGENCE, TYPE_POWERS } from './superpowerData';
 
 	let { caption }: { caption?: string } = $props();
 </script>

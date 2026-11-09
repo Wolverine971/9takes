@@ -66,7 +66,7 @@ faqs:
     answer: 'Alex Karp is an Enneagram Type 4 (The Individualist). His refusal to modulate, authenticity-as-survival, and pattern of turning every personal wound (dyslexia, outsider identity, inability to sit still) into a public contribution all reflect the Type 4 drive to make being different matter.'
     anchor: 'what-is-alex-karps-personality-type'
   - question: "Why can't Alex Karp sit still?"
-    answer: "Karp has never named a cause. The only condition he has disclosed is dyslexia, he calls himself neurodivergent, and before the viral 2025 DealBook Summit clip he had broken his own no-sugar rule with a Mexican Coca-Cola. Restlessness alone points to no type. What points to Type 4 is what he did next: he launched Palantir's Neurodivergent Fellowship, paying $110,000 to $200,000 a year, and turned the fidget into a hiring program."
+    answer: "Take your pick: a Mexican Coca-Cola he drank before the 2025 DealBook Summit despite swearing off sugar, a body trained by five hours of cross-country skiing a week, the dyslexia he has talked about publicly, or plain excitement about Palantir. He has never named a cause beyond dyslexia. The Type 4 part is what he did next: he launched Palantir's Neurodivergent Fellowship, paying $110,000 to $200,000 a year, and turned the fidget into a hiring program."
     anchor: 'why-alex-karp-cant-sit-still'
   - question: "What is Alex Karp's political contradiction?"
     answer: 'Karp calls himself a progressive and a neo-Marxist while running a defense-tech company whose software is used by the U.S. military, ICE, and the IDF. He defends Palantir on operational grounds: its auditable targeting chain in Ukraine compresses decision time from hours to minutes with a reviewable record.'

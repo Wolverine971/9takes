@@ -233,7 +233,7 @@
 			gap: 0.75rem;
 		}
 
-		.podcaster-card {
+		.podcaster-card:not(#no-underline) {
 			display: block;
 			padding: 1rem;
 			border: 1px solid var(--rule);
@@ -246,7 +246,7 @@
 				background-color 160ms ease;
 		}
 
-		.podcaster-card:hover {
+		.podcaster-card:not(#no-underline):hover {
 			border-color: var(--highlight);
 			background: var(--bg);
 		}
@@ -321,7 +321,7 @@
 	}
 
 	@media (prefers-reduced-motion: reduce) {
-		.podcaster-card {
+		.podcaster-card:not(#no-underline) {
 			transition: none;
 		}
 	}

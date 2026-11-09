@@ -192,7 +192,10 @@
 		font-style: italic;
 	}
 
-	.hornevian__cell {
+	/* Whole-card link. The blog prose-link rule (blog.scss, 0-7-1 specificity)
+	   underlines every link in a post; :not(#no-underline) lifts this card above
+	   it without !important, so the card reads as a card, not a run of links. */
+	.hornevian__cell:not(#no-underline) {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -279,7 +282,7 @@
 			font-size: var(--font-size-xs);
 		}
 
-		.hornevian__cell {
+		.hornevian__cell:not(#no-underline) {
 			padding: 0.6rem 0.3rem;
 		}
 

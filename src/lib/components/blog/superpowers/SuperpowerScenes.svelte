@@ -23,7 +23,7 @@
 		typesForEmotion,
 		type TestType
 	} from '$lib/enneagramTest/content';
-	import { SCENES, TYPE_POWERS } from './superpowerData';
+	import { EMOTION_TINT, SCENES, TYPE_POWERS } from './superpowerData';
 
 	const uid = $props.id();
 

@@ -349,6 +349,9 @@
 	}
 
 	.calc__chart-link {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
 		font-size: var(--font-size-sm);
 		line-height: 1.45;
 	}

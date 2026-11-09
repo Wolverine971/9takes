@@ -1,11 +1,24 @@
 {
-	"lastUpdated": "2026-11-08T04:28:55Z",
+	"lastUpdated": "2026-11-08T07:00:06Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
+		{
+			"name": "qtcinderella",
+			"displayName": "QTCinderella",
+			"type": null,
+			"priority": 80,
+			"priorityReason": "Hosts the Streamer Awards Nov 12; married Ludwig (Oct 2026). Pair page with Ludwig for cross-links.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-26",
+			"retryCount": 1,
+			"strategicValue": "streamer-cluster"
+		},
 		{
 			"name": "drew-afualo",
 			"displayName": "Drew Afualo",
@@ -43,19 +56,6 @@
 			"personaTitle": null,
 			"addedToQueue": "2026-10-21",
 			"retryCount": 0
-		},
-		{
-			"name": "qtcinderella",
-			"displayName": "QTCinderella",
-			"type": null,
-			"priority": 80,
-			"priorityReason": "Hosts the Streamer Awards Nov 12; married Ludwig (Oct 2026). Pair page with Ludwig for cross-links.",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-26",
-			"retryCount": 0,
-			"strategicValue": "streamer-cluster"
 		},
 		{
 			"name": "josie-totah",

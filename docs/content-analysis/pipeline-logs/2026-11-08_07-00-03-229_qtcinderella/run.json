@@ -1,0 +1,33 @@
+{
+  "schema_version": 3,
+  "subject": "qtcinderella",
+  "mode": "create",
+  "started_at": "2026-11-08T07:00:03.230Z",
+  "stages": {
+    "research": {
+      "status": "failed",
+      "started_at": "2026-11-08T07:00:03.232Z",
+      "cache_key": "435edf83bbe904d61fe9a0080a22664310123b4622a0ec0f09cefc111ef55278",
+      "input_hashes": {
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "763677e1021826251be7563837797edf2ca1418454301e58b6e2f70b72002c94",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "06672b314cfbc5c8bf73be56fcd68f0479bbba013738ae331ec057605c31ff66",
+        "contract": "cc23b69617977bdf40360bf1b8b08813e8eb1407123707eb60863587c69d7764",
+        "runner": "ca10cd6ca7e34093db03b00c0ce8097e846ec2f8a51a24be8b80873277fc0636"
+      },
+      "model": "CLI default",
+      "error": "Claude exited 1",
+      "finished_at": "2026-11-08T07:00:06.153Z",
+      "duration_seconds": 3
+    }
+  },
+  "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "materialized_sha256": null,
+  "expanded": false,
+  "run_status": "failed",
+  "editorial_status": "pending",
+  "current_stage": "research",
+  "error": "Claude exited 1"
+}
