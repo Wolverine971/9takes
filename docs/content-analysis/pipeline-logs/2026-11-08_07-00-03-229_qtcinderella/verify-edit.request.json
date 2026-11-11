@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "qtcinderella",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/verification-edit.json"
+  },
+  "content_sha256": "5c22c37a2a0b8fc951452d1f815af5be379c7d2f3735e894dd7b36611806f0ac",
+  "evidence_sha256": "2134dc2d4e8d385c75492e222eebc43ed73e2d9995ae2e5d9e34e8212d37630e"
+}

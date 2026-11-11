@@ -1,0 +1,20 @@
+The edit stage is complete: `edit.md`, `evidence-edit.json` and `resolution-edit.json` are written in the run directory, and nothing else was touched or published.
+
+The contract's machine checks pass: no draft blockers, the evidence record validates against the edited text, and every quotation matches the cached source pages. Independent verification is the next stage and has not run.
+
+- **Type call:** still Type 7 at medium confidence with Type 3 as the closest rival, so no thesis change and no new risk flag. Type 6 is now stated as still live instead of dismissed.
+- **Findings:** all 51 are marked fixed, none rejected. Of the 22 distinct protected passages, 17 are kept word for word and 5 are changed with reasons.
+- **Length:** 3,739 words against the draft's 3,746. The jury's required additions pushed the first pass to about 4,900, so the rest of this list is partly the cost of getting back under.
+
+Editorial calls you may want to veto:
+
+- **Title:** now "Josie Totah and the Prop Cigarette: The Case for Enneagram Type 7". Reviewers showed "Careful Everywhere Else" claimed more than the record holds.
+- **Hook:** the opening quote had been cut before "in my parents house", which changed her reason for staying sober. It is now paraphrased accurately and dated to summer 2018.
+- **Closet years:** no longer counted as Type 3 "image management". The "I'm Italian" casting answer moved to the Type 3 section as a parent-coached answer, and her mother's "Okay, let's do it" exchange from the Time essay was added.
+- **Removed outright:** the could-not-cry story and the joy-in-trans-storytelling paragraph, because both fall under the article's own rule against typing her from being trans. The halved dream-roles list was cut because it was being used as evidence against Type 3.
+- **Also cut for length:** the writers'-room, "make memories", "mama" and social-media lines.
+- **Type 3 case:** the discriminator now says plainly that no choice between advancement and enjoyment is on record. Her 2025 "where it might take me" answer is quoted beside the 2024 "fun" one.
+
+Durable source links were also pinned, including the Time essay to a fixed Wayback capture.
+
+One research task is still open because it means editing a file outside this stage: adding an `open` entry for her in `docs/writing-system/people-controversies.json`.

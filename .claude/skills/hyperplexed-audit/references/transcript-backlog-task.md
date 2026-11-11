@@ -4,7 +4,7 @@
 
 > **STATUS 2026-07-01: §1–§3 DONE.** All 7 transcripts pulled (no IP block), playbook §0/§1/§2/§4
 > updated, P16 (spotlight `:has()`) + P17 (forgiving shared indicator) added, P15 extended with the
-> context-aware trailer variant, memory updated. §4 command: see `.claude/commands/hyperplexed-audit.md`.
+> context-aware trailer variant, memory updated. §4 command: see `docs/claude-archive/commands/hyperplexed-audit.md`.
 
 > Self-contained pickup doc. Goal: finish the Hyperplexed source corpus by transcribing the 7
 > deferred Tier-2 effect tutorials, fold what they teach into the
@@ -72,7 +72,7 @@ P-patterns added, memory updated.
 ## 4. Then: build the `/hyperplexed-audit` command (blocked on §1–3)
 
 Decision already made with DJ (2026-07-01): this is a **command** (named user-triggered workflow),
-not a skill — `.claude/commands/hyperplexed-audit.md`. Requirements agreed:
+not a skill — `docs/claude-archive/commands/hyperplexed-audit.md`. Requirements agreed:
 
 - **Input:** a component or page (path or name), e.g. `/hyperplexed-audit BrainDumpModal`.
 - **Flow:** (1) audit the surface region-by-region against playbook §1–§2 (static markup pass,

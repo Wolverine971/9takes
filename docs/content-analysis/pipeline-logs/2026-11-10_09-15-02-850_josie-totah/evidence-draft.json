@@ -1,0 +1,1593 @@
+{
+  "schema_version": 3,
+  "subject": "josie-totah",
+  "status": "ready",
+  "profile_format": "standard",
+  "research_tasks": [
+    "Open Refinery29's 2018 interview 'Josie Totah Didn't \"Come Out\" — She's Always Been Here' (refinery29.com/en-us/josie-totah-transgender-coming-out-jj-totah-interview). It is the only long interview from the weeks after the Time essay and reportedly covers her lowest point as a teenager; the page is script-rendered and the reader proxy was blocked on 2026-11-10.",
+    "Transcribe her Las Culturistas guest episode ('Neighborbanged w/ Josie Totah', iHeart, 2022) with whisper-cli. It is the only unscripted hour with hosts who are not her friends or business partners and is Wikipedia's source for the sorority detail.",
+    "Transcribe the Louisville Public Media video interview (2026-11-04) and Prime Video's Carrie audition-stories video (youtube.com/watch?v=I6XTJ4XFrJ8) to pin the 'I'm going to make him love Tina' and 'I got it in the bag' quotes to audio; S38 is a written summary.",
+    "Find any direct statement about her from Mike Flanagan, Katherine Jakeways, Amy Poehler or Chris Kelly. Every director or showrunner view of her on record except Tracey Wigfield's one sentence is her own report of what they said.",
+    "Verify birthplace and exact birth date from a primary or near-primary source before printing either; opened sources conflict (South Davis, San Francisco, 'near Sacramento') and none gives a day.",
+    "Verify the Forbes '30 Under 30' (2018) and Human Rights Campaign Visibility Award claims against the organizations' own lists.",
+    "When her self-described 'most personal' short film is released, read what she says about why she made it; it is the first work she has framed as opening up and could test the vulnerability-avoidance claim.",
+    "Open the Variety original of the June 2021 Q&A for byline and any passages cut from the Yahoo copy, and InStyle's January 2016 Sundance item and Paper's October 2016 profile (both unreachable on 2026-11-10) for pre-2018 interviewer observation.",
+    "Add an 'open' entry for josie-totah in docs/writing-system/people-controversies.json noting that no major public controversy was found as of 2026-11-10 (only the 2012 'Lil' Dictator' criticism of a production she appeared in at ten)."
+  ],
+  "accuracy_checked_at": "2026-11-10",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://time.com/5371387/josie-totah-transgender/",
+      "title": "My Name Is Josie Totah — And I'm Ready to Be Free",
+      "speaker": "Josie Totah (first-person essay)",
+      "date": "2018-08-20",
+      "locator": "Full essay, opened through the Wayback Machine capture of 2023-08-10 (live URL is dead): 'shoved into a box' paragraph; 'jump on or jump off' paragraph; anxiety paragraph; 'things that scare me' paragraph; faith paragraph; Glee/Lea Michele paragraph; closing 'clean slate' paragraph; editor's note on the photo",
+      "excerpt": "\"But I also feel like I let myself be shoved into a box: “J.J. Totah, gay boy.”\" ... \"I almost felt like I owed it to everybody to be that gay boy. But that has never been the way I think of myself.\" ... \"So, listen up y'all: You can jump on or jump off. Either way this is where I'm heading.\" ... \"Like many trans people, I developed serious anxiety as I hid who I was.\" ... \"There are still things that scare me.\" ... \"And, as a semi-religious person who went to Catholic school, I have come to believe that God made me transgender.\" ... \"I'm going to gun for those roles, be it a transgender female or a cisgender female. Because it's a clean slate — and a new world.\"",
+      "context": "Written at 17, published the week she left for college and about three months after NBC's Champions ended. Time's note says she asked for a production still rather than a personal photo 'that puts emphasis on her current appearance.' She describes her mother as 'immensely supportive and gracious' and reports the exchange 'This is me. I'm transgender. And I need to go through this.' / 'Okay, let's do it.' The essay is a managed public statement, not an unguarded interview; it establishes what she chose to say and how she framed it. Her gender identity itself is not personality evidence; only her handling of the disclosure (timing, tone, design) is used. Draft stage: the article links readers to the Wayback Machine copy (web.archive.org/web/2023/https://time.com/5371387/josie-totah-transgender/), which resolved on 2026-11-10; the live URL returned HTTP 406 to a scripted request.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.davisenterprise.com/news/j-j-totah-making-good-in-hollywood/article_ef19181d-7ef6-5d7f-826f-89cd3b01a443.html",
+      "title": "J.J. Totah: Making good in Hollywood",
+      "speaker": "Josie Totah at age 10, father Suheil Totah and mother Christine Totah, interviewed by Anne Ternus-Bellamy (Davis Enterprise)",
+      "date": "2012-06-18",
+      "locator": "Article body: family background paragraphs; move to Hollywood; 'Lil' Dictator' criticism paragraphs; auditions paragraph; closing quote",
+      "excerpt": "\"where I never fit in.\" ... \"If you live your life worrying about what other people say, you're not going to have the life you want.\" ... \"You have to accept when you don't get it, that something else will come up,\" ... \"And the process is so fun. I love auditioning.\" ... \"my mom is sacrificing her life for me.\" ... \"I've found the place where I belong.\" ... \"It's their opinion,\"",
+      "context": "Earliest interview on record, published under her former professional name. Hometown paper: 'third child of South Davis residents Christine and Suheil Totah'; started at Davis Musical Theatre Company 'before he was even in kindergarten' after watching sister Camille; four stand-up sets at the Hollywood Improv; she and her mother moved to an apartment near Hollywood while father and brother Alex stayed in Davis. Father: the L.A. drives 'created an opportunity for me to bond.' Mother: 'We are doing what any parents would do.' The paper says the AwesomenessTV 'Lil' Dictator' spoof drew YouTube comments calling it racist; the family noted they are Arab-American and she said 'It's their opinion.' A ten-year-old's quotes in a proud local feature: useful for how early the vocabulary appears, weak as evidence of adult motive.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.sfchronicle.com/tv/article/S-F-13-year-old-snags-role-on-Glee-as-it-6117063.php",
+      "title": "S.F. 13-year-old snags role on 'Glee' as it nears end",
+      "speaker": "Josie Totah at age 13 and mother Christine Totah, interviewed by Ryan Kost (San Francisco Chronicle)",
+      "date": "2015-03-05",
+      "locator": "Article body: audition paragraphs; school and family paragraphs; Ryan Murphy paragraph; watch-party paragraph",
+      "excerpt": "\"I just thought, 'I'm doing this for me.'\" ... \"We celebrate each other's happiness and whatever.\" ... \"He's seen every 'American Horror Story' at least five times,\" ... \"He loves 'Glee.' He studies them, you know?\" ... \"we are just a normal family,\" ... \"That means good grades, chores, time with family.\"",
+      "context": "Published under her former professional name. The Glee casting call came the afternoon before; her mother 'sat her son J.J. down and looked him in the eye: You sure about this?' The Chronicle calls her a 'San Francisco native' and quotes her saying she was living in San Francisco at 8, which conflicts with the Davis Enterprise (S02) and her own 'smallish town' account (S13). Christine says she is careful not to let her child 'get so caught up with the Hollywood aspect of it': good grades, chores, family time. Draft stage: 'That means good grades, chores, time with family' is the reporter's sentence summarizing Christine Totah, not a direct quote from her.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://deadline.com/2016/10/jj-totah-star-nbc-comedy-adam-naomi-scott-1201844962/",
+      "title": "JJ Totah To Topline NBC Comedy From Adam & Naomi Scott",
+      "speaker": "Nellie Andreeva (Deadline)",
+      "date": "2016-10-31",
+      "locator": "News item, first three paragraphs",
+      "excerpt": "\"Written by David Monahan and Danielle Hoover, the untitled half-hour comedy centers on 15-year-old JJ (Totah), an uber-confident, label-defying, tour de force\" ... \"Totah serves as producer.\"",
+      "context": "Trade report of the NBC development deal she later describes as selling 'my first script' or 'my first show' at 15 (S12, S24). Deadline credits the script to Monahan and Hoover and lists her as producer and star, so 'sold a script' overstates her writing role on the trade record. The project did not go to series.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.yahoo.com/lifestyle/21-under-21-josie-totah-124000605.html",
+      "title": "21 Under 21: Josie Totah on Being a Role Model For Young Trans People",
+      "speaker": "Josie Totah, interviewed by Teen Vogue (Yahoo syndication of the Teen Vogue piece)",
+      "date": "2018-11-05",
+      "locator": "Article body: 'emotionally and physically' paragraph; Whoopi Goldberg paragraph; closing advice",
+      "excerpt": "\"Not only was I really, really depressed when I was not out to the world, but I just finished my NBC series and I didn't think it was right to come out during that when I was playing a male character. I just wanted to have my strings tied up and have a fresh start and experience my true self with a clean slate.\" ... \"People are going to love what you do and people are going to hate what you do, but you have to keep doing it.\"",
+      "context": "Three months after the Time essay, age 17. The Whoopi Goldberg line is her report of advice given backstage at The View; she repeats the same story to Galore in January 2024 (S28), so it is a retained touchstone. Opened as the Yahoo copy of the Teen Vogue article.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.buzzfeednews.com/article/marcusjones/josie-totah-champions-transgender",
+      "title": "Josie Totah Of NBC's \"Champions\" Says She Is A Transgender Woman",
+      "speaker": "Marcus Jones (BuzzFeed News), embedding tweets by Josie Totah, Mindy Kaling and Judd Apatow",
+      "date": "2018-08-20",
+      "locator": "Embedded tweets after the essay summary",
+      "excerpt": "\"For so long I've been trying to hide who I was. And I did it in fear. In fear that I wouldn't be accepted or loved.\" ... \"You're also so damn talented - I can't wait to write for you again!\"",
+      "context": "Same-day news report. The first excerpt is her own tweet announcing the essay; the second is Mindy Kaling's public reply ('I love you, Josie. I'm so glad you're able to speak your truth and live as your authentic self.'). Kaling's tweet is a public congratulation from an employer, not behavioral testimony.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.today.com/popculture/meet-saved-bell-reboot-star-producer-josie-totah-t201027",
+      "title": "Meet 'Saved by the Bell' reboot star and producer Josie Totah",
+      "speaker": "Josie Totah, interviewed by Alexander Kacala (TODAY)",
+      "date": "2020-11-25",
+      "locator": "Article body: producer paragraphs; 'spotlight' paragraph; deadname paragraph; closing quote",
+      "excerpt": "\"I need to have more stake and more of a larger role in order to tell this story authentically\" ... \"it has forced me to express myself at a much more visceral scale than I ever would have if I hadn't transitioned with people watching,\" ... \"it doesn't make me feel shame. It doesn't make me feel bad. I am proud of who I am and of where I've gotten to.\" ... \"I know that every step of the way was supposed to happen the way it was supposed to happen.\"",
+      "context": "Age 19, Saved by the Bell launch press. NBC News ran the same article on 2020-11-27 (nbcnews.com/feature/nbc-out/...n1249130); it is a syndicated copy, not independent corroboration. On people searching for her earlier appearance she says 'the world can be a sick place.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.etonline.com/breakout-josie-totah-talks-saved-by-the-bell-156931",
+      "title": "Meet Josie Totah: Trailblazer and Breakout Star of 'Saved by the Bell' (Exclusive)",
+      "speaker": "Josie Totah, interviewed by Stacy Lambe (Entertainment Tonight)",
+      "date": "2020-11-25",
+      "locator": "Article body: producer paragraph; episode three rework paragraph; Big Mouth paragraph",
+      "excerpt": "\"I felt that I needed to be [a producer] in order to do the show because we would not have been able to tell an authentic story had I not have that place or a seat at the table.\" ... \"It just seemed weird to me that she would come to Daisy if she had all these friends,\" ... \"And as a lover of comedy and as someone who's pursued a career in that for the past 10 years, it's definitely a landmark moment.\"",
+      "context": "ET reports that 'at times, that meant Totah had to step in and help the writers rework scenes,' giving the episode three example in which she proposed that Lexi fears 'having all these things leaked from her.' She says Wigfield 'was open to whatever I wanted to do.' Her first job was as a background player on Kroll Show; voicing a character on Kroll's Big Mouth is the 'landmark.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.yahoo.com/lifestyle/exclusive-josie-totah-talks-saved-170000238.html",
+      "title": "Exclusive: Josie Totah Talks About The \"Saved by the Bell\" Reboot and Working Behind the Camera as a Producer",
+      "speaker": "Josie Totah, interviewed by Seventeen (Yahoo syndication)",
+      "date": "2020-11-28",
+      "locator": "Q&A answers one to three",
+      "excerpt": "\"I think because of the fact that I got to serve as a producer on the show, I never stopped having conversations with Tracy, our showrunner, and our writers.\" ... \"But also I just want people have a good time and laugh and enjoy it because our show is such a funny, funny show.\"",
+      "context": "Launch-week promotional Q&A. She pairs the representation argument with 'at the end of the day, it is a comedy and it's a well done comedy at that.' Useful mainly as a contemporaneous repeat of the producer account in S07, S08 and S11.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.pride.com/tv/2020/11/23/trans-girls-are-popular-too-josie-totah-proves-it-saved-bell-0",
+      "title": "Trans Girls Are Popular Too—Josie Totah Proves It in Saved by the Bell",
+      "speaker": "Josie Totah, interviewed by Pride.com",
+      "date": "2020-11-23",
+      "locator": "Article body, fourth paragraph",
+      "excerpt": "\"You have all these dreams about who you wish you were and how you wish you could talk or be like, but to protect yourself and due to the nature of our world, you can't access that part of yourself. Getting to unlock all those dreams, all that and a bag of chips honey, on a show like this, is so fun.\"",
+      "context": "She calls Lexi 'a person that I dreamed of. I feel like we all kind of wish you were that girl.' The same idea appears in Variety (S13): 'I think about the craziest stuff I'd want to do in my regular life and just do it on the show.' Roles as a licensed outlet for behavior she restrains off screen.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.televisionacademy.com/features/news/mix/worth-and-wisdom",
+      "title": "Worth and Wisdom",
+      "speaker": "Josie Totah, interviewed for the Television Academy's emmy magazine",
+      "date": "2021-10-28",
+      "locator": "Article body: Nordstrom call; 'one condition' paragraphs",
+      "excerpt": "\"I wasn't willing to do the show had I not been given a producer role,\" ... \"So to pull me away from my education, which is really important to me, it had to be something that was worth it. And it wouldn't have been worth it if I had not had the opportunity to produce.\" ... \"empowered me to take on that role and guided me as a mentor.\" ... \"can also be seen in the Netflix movie Moxie, directed by Amy Poehler\"",
+      "context": "The piece says she was shopping at Nordstrom with her grandmother when her agent called to say Tracey Wigfield had written a role for her, and that she met Wigfield for coffee in downtown Los Angeles. 'She had one condition.' She was 18 when the deal was made and a film major at Chapman University.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.huffingtonpost.co.uk/entry/moxie-film-josie-totah-trans-actor-interview_uk_603cdd95c5b617a7e40f46a6",
+      "title": "Meet Moxie Star Josie Totah – The Actor, Writer And Producer Redefining Trans Representation",
+      "speaker": "Josie Totah, interviewed by HuffPost UK",
+      "date": "2021-03-03",
+      "locator": "Article body: opening quote; name story; producer-credit paragraph",
+      "excerpt": "\"I sold my first script to NBC when I was 15 years old,\" ... \"And ever since then I was like, 'I want to do this for the rest of my life.' So yeah, I see development in my future.\" ... \"It mattered more to me that I was involved and could learn than it saying 'producer Josie Totah' on the call sheet – I didn't care about that,\"",
+      "context": "Age 19. The interviewer describes her as 'a fireball of energy down Zoom.' She says she was named after a grandfather who died the day she was born, was never called by her birth name, and kept the initials: 'now I still have the same initials, JJ, Josie J.' The 'I didn't care about that' line is her own disclaimer and sits beside her having made the credit a condition (S11).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.yahoo.com/entertainment/josie-totah-shapes-path-trans-161556623.html",
+      "title": "Josie Totah Shapes a New Path for Trans Characters in 'Saved by the Bell,' 'Big Mouth' and Beyond",
+      "speaker": "Josie Totah Q&A with Variety, with a quote from showrunner Tracey Wigfield (Yahoo syndication of the Variety piece)",
+      "date": "2021-06-03",
+      "locator": "Introduction (Wigfield quote); Q&A answers on producing, growing up on Disney Channel, parents, hometown, the Time essay, Veep, Pride",
+      "excerpt": "\"Josie is so deeply funny. She understands the rhythm of jokes and just has comedy in her bones.\" ... \"I think about the craziest stuff I'd want to do in my regular life and just do it on the show.\" ... \"I was also very upfront that I wouldn't feel comfortable on a show that featured a trans character if I wasn't a producer.\" ... \"But you shouldn't only be talking about the struggles of trans people, because trans people live joyful lives and have the ability to live joyful lives.\" ... \"I honestly don't think that I deserved it because of how bad of a kid I was [laughs], but they're pretty incredible.\" ... \"That felt passive, and not something that would be helping the universe and so many young trans people.\" ... \"It's resistance in the form of joy, and it's happiness in the form of truthfulness.\" ... \"I wrote the character of Lexi for Josie Totah\" ... \"I'll either be revising a script or breaking a new episode, which is just so much fun.\" ... \"which is important to tell to an extent\"",
+      "context": "Longest single Q&A on record, done 'in between Zoom classes' at 19. On season two producing: 'I'm actually in the writers' room... I'll either be revising a script or breaking a new episode, which is just so much fun.' On parents: 'a \"whenever you're ready\" situation since the very beginning'; 'My mom put me with a therapist who specialized in trans children when I was like 5 or 6 years old'; father 'extremely compassionate, loving and loyal.' On hometown: 'a smallish town in Northern California [near Sacramento]... a very, very predominantly white town.' On the essay: she did not want it to be 'the biggest deal in the world' and it was 'really important to me that cover art wasn't attached... I wanted it to be more about the soul of who I was.' On childhood fame: 'avoiding the public humiliation really stunted my growth. I felt very trapped and isolated.' Bleeding Cool's 2021 item repeats these quotes and is derivative. Opened as the Yahoo copy; the Variety original was not opened. Draft stage: the article's own narration says she 'told Wigfield she would only play the part if she could also sign on as a producer. Wigfield agreed.' She says she goes to the writers' room 'like once a week for the day.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/saved-by-the-bell-bowen-yang-josie-totah-1234962271/",
+      "title": "'Saved by the Bell' Star Josie Totah on Creating Character, Bowen Yangs",
+      "speaker": "Josie Totah, as told to Carita Rizzo (The Hollywood Reporter)",
+      "date": "2021-06-05",
+      "locator": "First-person answers one, three and four",
+      "excerpt": "\"Seeing her meanness being rooted in her fear of vulnerability, and her fear of self-acceptance, makes the character more three-dimensional and more interesting.\" ... \"I was very frank with Tracey. I was in the middle of my sophomore year in college, and in order for me to leave school it had to be a project that felt really right.\" ... \"I think we're all not fully accepting of ourselves a hundred percent until we are literally dead.\"",
+      "context": "Awards-season piece. She describes Lexi's defining flaw with the same phrase, 'fear of vulnerability,' that she applies to herself two years later (S23). 'I didn't really feel inclined to play a trans character that had her story told on the reboot of a fun '90s sitcom.' On reception: 'our show is really fricking funny. I think hearing from the alt-comedy group, the Bowen Yangs of the world, made me so happy, because those are the people that I look up to.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://awardsdaily.com/2021/06/josie-totah-interview",
+      "title": "Josie Totah On How Lexi Subverts the Typical Mean Girl Trope for Peacock's 'Saved by the Bell'",
+      "speaker": "Josie Totah, written Q&A with Awards Daily",
+      "date": "2021-06",
+      "locator": "Q&A answers on representation and season two",
+      "excerpt": "\"Growing up, I never saw a future for myself because there was no one that looked like me or even remotely related to my identity on screen.\" ... \"I'm mainly excited to be with all my good friends eating free meals and running around in six inch heels yelling at everyone—on screen of course.\"",
+      "context": "Written answers (signed 'JT'). The serious answer about isolation is followed directly by a joke about 'fart jokes and all that good stuff': her usual move of closing a heavy answer with a bit.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.tvline.com/interviews/saved-by-the-bell-lexi-transphobia-aisha-bisexual-explained-season-2-1234742263/",
+      "title": "Saved By The Bell's Josie Totah And Alycia Pascual-Peña Discuss Lexi/Aisha Friendship, LGBTQ Visibility In Season 2",
+      "speaker": "Josie Totah and Alycia Pascual-Peña, interviewed by TVLine",
+      "date": "2021-11-27",
+      "locator": "Second and third quoted paragraphs",
+      "excerpt": "\"When you come from a community that is disenfranchised, it can be a sad world to live in. But just being joyful, and you just being happy, that's a form of protest in itself.\"",
+      "context": "Season two press, billed as 'star and producer.' She attributes the 'joy is a form of resistance' line to guest star Chloë and endorses it; it matches her own June 2021 definition of Pride (S13).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.eonline.com/news/1334826/how-josie-totah-became-her-true-self-and-an-lgbtq-icon",
+      "title": "How Josie Totah Became Her True Self and an LGBTQ+ Icon",
+      "speaker": "Josie Totah, interviewed by E! News",
+      "date": "2022-06-21",
+      "locator": "Article body, first and third quoted paragraphs",
+      "excerpt": "\"I'm not able to leave the four walls of my house being the person I felt like I was meant to be and that is such a trapping, traumatizing feeling and it makes life so difficult.\" ... \"It's worth that risk and it's worth all the experiences and s--t that I went through.\"",
+      "context": "Pride-month feature, age 20. She says that at 12 she was told 'You shouldn't go outside with nail polish or with makeup unless you are ready to be fully out.' Confinement language here describes a real external constraint on a closeted child and is not used as type evidence.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://crooked.com/podcast/were-crowning/",
+      "title": "Dare We Say, episode 1: We're Crowning!",
+      "speaker": "Josie Totah with co-hosts Yasmine Hamady and Alycia Pascual-Peña (Crooked Media, speaker-labeled transcript)",
+      "date": "2022-08-11",
+      "locator": "Transcript: cold open urgent-care story; 'how do we know each other' section; 'We created this podcast because' statement; birthday discussion",
+      "excerpt": "\"She said I was exhausted and depressed and she told me to go home.\" ... \"I said, so what can you give me? And she was like, you just need to sleep.\" ... \"I think actors are the most embarrassing thing on planet Earth.\" ... \"Just because I've never really drank, to be honest. And that's just the truth.\" ... \"So like I feel like I'm still like very much a baby because like when I started becoming my full self\" ... \"I vowed to myself that I want to do everything in life with this girl.\" ... \"Like, I grew up, my mom being like, I'm not your friend, I'm your mother.\" ... \"The reason why I have this much energy is because I am on a burst prednisone pack\" ... \"But you are also like trying to finesse this doctor.\" ... \"what did I want? I wanted drugs. When did I want it? I wanted it now.\" ... \"I wish I had more of my teen years, you know?\"",
+      "context": "Her own show, recorded the week she turned 21, three months after graduating from Chapman. She opens by saying she is 'on a burst prednisone pack,' then tells the story as comedy: she felt 'at my death,' left an Anaheim urgent care over a one-hour wait, was tested at her college health center, was told she was exhausted and depressed, and talked the clinician into a steroid by describing her upcoming show in Scotland ('what did I want? I wanted drugs. When did I want it? I wanted it now'). Pascual-Peña interjects 'you are also like trying to finesse this doctor.' Hamady met her in sorority rush at Chapman; Pascual-Peña met her on Moxie, then Saved by the Bell, and the three lived together during the pandemic ('her lovely light brought me to my baby daughter'). The 'I vowed' excerpt is Pascual-Peña speaking. Totah says the hosts talked 'in the car in Alycia's driveway until like four in the morning.' Quotes are from Crooked's published transcript; audio was not re-checked. Co-host testimony comes from close friends and business partners. Draft stage: 'But you are also like trying to finesse this doctor' is Pascual-Peña. The 'teen years' line follows her saying that because she 'wasn't always allowed to be myself' she feels 'like four years old' and asks 'wow am I behind?'. Hamady says she met Totah 'in our sorority rush.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://crooked.com/podcast/do-you-have-pretty-privilege/",
+      "title": "Dare We Say: Do You Have Pretty Privilege?",
+      "speaker": "Josie Totah with co-hosts Yasmine Hamady and Alycia Pascual-Peña (Crooked Media, speaker-labeled transcript)",
+      "date": "2022-08-25",
+      "locator": "Transcript: opening check-in about crying; closing 'court' segment",
+      "excerpt": "\"I think it was just a result of, like, feeling insecure and, like, tired of being scared in this world\" ... \"trying to like run in the bathroom at work just to cry a little bit because I knew I needed to get out, but I could not get it out.\" ... \"when everyone around the room and said, what are they most scared of? And I said myself. And then it was very awkward.\" ... \"music should be playing when I'm doing nothing and when I'm doing it all\" ... \"I cannot go, like, an hour of silence without music, because then I have to confront my own thoughts.\" ... \"And so music always has to be playing.\"",
+      "context": "She mentions being 'really tired at work' that week and says she could not cry there and only could at home in the shower with Oasis and John Mayer playing. The 'most scared of... myself' line is a joke told about the first day of a horror-film class and is delivered for a laugh; she offers it as the reason music 'always has to be playing.' Crooked transcript; audio not re-checked. Draft stage: the transcript marks '[gavel sound]' around her ruling ('Yum wins') and she says she will 'take the bailiff out to dinner tonight'; the bailiff is the show's producer.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://crooked.com/podcast/church-state-and-the-elders/",
+      "title": "Dare We Say: Church, State and the Elders",
+      "speaker": "Josie Totah with co-hosts Yasmine Hamady and Alycia Pascual-Peña (Crooked Media, speaker-labeled transcript)",
+      "date": "2022-09-01",
+      "locator": "Transcript: her Catholic high school answer; closing statement on religion",
+      "excerpt": "\"I always took religion classes in my Catholic high school and I actually like enjoyed it because we like learned about religion as a form of history\" ... \"I think my issue is it's when like you're, you're being forced to think a certain way\" ... \"what we found is that religion can be a beautiful thing, but it also can be dangerous.\"",
+      "context": "She objects to religion used to 'shove people into a box,' the same phrase as the Time essay (S01), and defends her Christian co-host: 'I don't think we should just, like, make it not cool to be Christian anymore.' The episode shows her arguing politics at length (Jefferson's 1802 letter, Burke) in a register her press interviews rarely show. Crooked transcript; audio not re-checked.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://crooked.com/podcast/kids-from-immigrant-families/",
+      "title": "Dare We Say: Kids from Immigrant Families",
+      "speaker": "Josie Totah with co-hosts Yasmine Hamady and Alycia Pascual-Peña (Crooked Media, speaker-labeled transcript)",
+      "date": "2023-03-23",
+      "locator": "Transcript: opening check-in (father's 60th birthday); heritage section; 'I'm Italian' passage",
+      "excerpt": "\"My mom is Lebanese, my dad is Palestinian, and my grandparents had their first son in Ramallah, in Palestine, and then they moved to Chicago.\" ... \"They'd say what is your ethnicity and I would say I'm Italian. And so I didn't start telling people I was Palestinian until I was like until I was like 16, 17 years old, maybe.\" ... \"I think because I was afraid of my own identity being controversial\" ... \"never tell them you're Palestinian\"",
+      "context": "She says that when she moved to L.A. at ten her parents coached her on how to answer the ethnicity question in audition rooms. 'I had this sort of like Americanized upbringing where it was very suburban living and my brother was on the football team. But like at the same time, we had a very distinct sense of where we came from.' She describes her father's 60th birthday party as 'the rowdiest party I've been to' and her mother's hummus as how the neighborhood knew the family. Crooked transcript; audio not re-checked.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://crooked.com/podcast/drinking-with-christian-weissmann/",
+      "title": "Dare We Say: Drinking with Christian Weissmann",
+      "speaker": "Josie Totah with co-hosts and guest Christian Weissmann (Crooked Media, speaker-labeled transcript)",
+      "date": "2023-04-06",
+      "locator": "Transcript: opening check-in (grocery store); her 'how it started' answer about alcohol; high-school party passage",
+      "excerpt": "\"So you can go ahead and do that shit, but you'll ruin your life. And I'll just sit here and watch it happen.\" ... \"at every instance I had to like remember that conversation with my mom. And I think that propelled me into just not being like the biggest drinker\" ... \"A.) I also don't like spending money.\" ... \"So I would just walk around with literally a fake prop movie cigarette and a glass of wine\" ... \"I was so afraid to drink because I didn't want anyone to ruin anything\" ... \"that I didn't drink from. Like Great Gatsby, while everyone was partying, getting drunk at my house.\" ... \"I was like, holy fucking shit, I'm never having alcohol again.\" ... \"I always felt so outside of my body and I felt like drinking would take me so much further.\"",
+      "context": "The first excerpt is her paraphrase of what her mother said when she was invited to a party at about 14: if it got out, 'your career's going to end and then there'll be no reason for you to be here.' She says she hosted the parties the summer after high school but 'was so afraid to drink because I didn't want anyone to ruin anything in in my parents house,' and that going to a grocery store alone was 'a little risky for me.' Crooked transcript; audio not re-checked. Draft stage: the added excerpts are from the same transcript. The prop-cigarette sentence is interrupted by a co-host and resumes 'that I didn't drink from. Like Great Gatsby...'. She gives 'outside of my body' as her own reason for not drinking when younger.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://crooked.com/podcast/dare-we-say-goodbye/",
+      "title": "Dare We Say: Dare We Say Goodbye",
+      "speaker": "Josie Totah with co-hosts Yasmine Hamady and Alycia Pascual-Peña (Crooked Media, speaker-labeled transcript)",
+      "date": "2023-04-27",
+      "locator": "Transcript: origin-of-the-show passage; her statement after returning from the bathroom; 'two way street' explanation for ending",
+      "excerpt": "\"Only because I just feel like I'm so bad with being vulnerable\" ... \"I never wanted to talk about this I don't that's not me.\" ... \"I just want to be an actor that like, sits at home and no one knows anything about. But I have too loud of a mouth.\" ... \"I'd be more comfortable with that because I have a fear of vulnerability.\" ... \"We knew we weren't going to be able to do 150% and we didn't want to give you guys that.\" ... \"your simple existence and just the way that you are able to be so brave and truly yourself.\" ... \"I did go to the bathroom and feel like I wanted to cry.\"",
+      "context": "Final episode, age 21, recorded after a stretch working abroad (she mentions an eight-hour time difference from her co-hosts). She says 'I did go to the bathroom and feel like I wanted to cry,' then comes back to say it on air. On dating talk: 'it's just not me at all. But I do it because I kind of want that... I want someone to tell me about that.' She says she chose Crooked and was 'determined to, like, you know, bring it here.' The last excerpt is Pascual-Peña replying to her. The show ran from August 2022 to April 2023. Crooked transcript; audio not re-checked.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.wonderlandmagazine.com/2023/03/31/josie-totah/",
+      "title": "Josie Totah Talks Saved By The Bell & More",
+      "speaker": "Josie Totah, written Q&A with Wonderland",
+      "date": "2023-03-31",
+      "locator": "Q&A answers on getting into acting, who inspires her, Sundance, college, being trans in the industry, small roles",
+      "excerpt": "\"That and the island I plan to buy by 30.\" ... \"I've always acted. Whether it was in my kitchen pretending to fake fall or spit take or force my brother to stand at the top of the stairs and hold a flashlight pointed at me, I've never not acted.\" ... \"my dad nearly forced me to attend the Sundance Film Festival for a film where I was literally in two scenes.\" ... \"My senior year I was in class Tuesdays and Thursdays from 10am-10pm doing 6 courses and then Monday, Wednesday and Friday I would be filming.\" ... \"So, we have to not only figure out how to play the game but also how to rig it.\" ... \"I'm constantly texting and emailing people I look up to asking for coffee, lunch, or ways we can work together.\" ... \"These are my cards and I'm still going to win.\" ... \"I'm grateful that I haven't grown up being the lead or even the second lead on every project because it's given me the opportunity to sit back and learn.\" ... \"I did however get 7 flat tires in four years\" ... \"Randomly, I would love to be in a period war drama like 1917. But at the same time in a Big Mama's House remake or a Julia Ducournau or Ruben Östlund film.\" ... \"Not for myself but for the thousands of queer people who fight everyday\"",
+      "context": "Written answers, age 21, so polished rather than spontaneous. 'I just recently sold a script that came solely out of cold pitching to a friend at an award show.' After 'I'm still going to win' she adds: 'Not for myself but for the thousands of queer people who fight everyday.' On college: 'I did however get 7 flat tires in four years and received many, many parking tickets. But it was worth it!' She credits Glee for her time management. Dream roles listed in one breath: '1917,' 'a Big Mama's House remake or a Julia Ducournau or Ruben Östlund film.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.filmindependent.org/people/josie-totah-new-wave-actors/",
+      "title": "Josie Totah (Film Independent New Wave biography)",
+      "speaker": "Film Independent (supplied biography)",
+      "date": "2023-06-15",
+      "locator": "Biography paragraphs two and three",
+      "excerpt": "\"Josie also sold a pitch to NBCU, based on her original idea that she co-created with Tracey Wigfield, which was bought in the room.\" ... \"a recurring role in Mr. Mayor on Peacock which Tina Fey wrote specifically for Josie.\"",
+      "context": "Promotional biography, almost certainly supplied by her representatives; it corroborates that the claims were being made in 2023, not that they are independently verified. No outcome for the NBCU pilot was found.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.nylon.com/life/josie-totah-the-buccaneers-interview",
+      "title": "After Playing An 1800s Lesbian, Josie Totah Is A Period-Piece Convert",
+      "speaker": "Josie Totah, interviewed by Nylon",
+      "date": "2023-12-13",
+      "locator": "Introduction; answers on Mabel and on co-writing the episode 8 scene",
+      "excerpt": "\"She kind of has this oppositional defiance where she refuses to conform in a way that I feel like I can relate to, and she's also just a fun time. She keeps the party going.\" ... \"I broke out my computer and started writing a scene.\" ... \"I was scared to do it because I have the utmost respect for Katherine and our writers.\" ... \"So I was journaling this morning and I had a few ideas for the scene…\" ... \"The majority of those ideas got integrated\"",
+      "context": "Age 22. In the first week of pre-production she asked 'Is Mabel going to come out or is she just going to live in hiding?' She wrote the scene after accidentally having coffee at 8 p.m. on a night shoot, showed it to castmates Aubri Ibrag and Kristine Frøseth first, then approached creator Katherine Jakeways 'in a roundabout way' with the journaling line. 'The majority of those ideas got integrated.' The interviewer notes she and Mabel 'keep the party going; they're young and rowdy.' Opening scene: she is at the Plaza and 'it's truly embarrassing that the room-service people know me by name now.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://contentmode.com/?p=17793",
+      "title": "Josie Totah (Content Mode interview)",
+      "speaker": "Josie Totah, written Q&A with Content Mode",
+      "date": "2024-01-07",
+      "locator": "Answers on recharging, privacy, producing, choosing projects, inspiration, resolutions",
+      "excerpt": "\"I really recharge with my friends and family. I love having everyone over to play games and chat till our eyes are all closing shut. I'm working on having more solo self-care days since I know those are important, too.\" ... \"I balance it all with the help of my parents who are my primary sounding board.\" ... \"I examine the three main factors: the material, the people, and the fun.\" ... \"I love to gab and I love to learn about all the idiosyncrasies that make us who we are.\" ... \"I think I'm ready to put into motion all that's been brewing, so at the top of my head my resolution is just to get shit done.\" ... \"I'm no Viola Davis\" ... \"I am lucky anytime a great audition or Zoom comes through my email.\"",
+      "context": "Written answers, age 22. 'I'm no Viola Davis (who I like to imagine hangs each protentional script on a wall like in a war room...). I am lucky anytime a great audition or Zoom comes through my email.' On producers: 'it sounds trivial, but listening is a big one.' On people: 'I can't tell you the number of times I've sat several minutes after getting to my destination with my Uber drivers just chatting.' On a formative trip: 'a trip I took to New York for the summer when I was 15. I really found myself there.' Of her characters: 'Lexi... and I would probably take over the world, but we may kill each other first.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://galoremag.com/josie-totah-is-hollywoods-next-big-act/",
+      "title": "Josie Totah is Hollywood's Next Big Act!",
+      "speaker": "Josie Totah, written Q&A with Galore",
+      "date": "2024-01-11",
+      "locator": "Answers on a fear, creating opportunities, age 15, love, authority, astrology",
+      "excerpt": "\"I have a fear of grocery stores. I can't go alone. I just get so overwhelmed and for some reason my social anxiety just comes out.\" ... \"I love the idea of having creative agency and not just waiting for the phone to ring.\" ... \"I think I was in a really strange limbo at 15; I was at this intersection of life where I was really thriving professionally, but not so much personally.\" ... \"for me, love is safety. Being a safety net for another person unconditionally.\" ... \"I'm quite loud and don't take well to authority. I think they'd have me walk the plank.\" ... \"My moon is in Pisces (depression) and my rising is in Capricorn (workaholic).\" ... \"I also think this is because I don't wear my glasses so I can't really see anything.\"",
+      "context": "Written answers; Galore's page prints her answers without the questions, so the prompts are inferred from the replies. On performing: 'No matter how many years go by, I'm still just as excitedly nervous and scared each time I get to do it.' On role models: her sister, who acted first, and 'my mom who I'm constantly amazed was able to raise us all and still end up in one piece.' The astrology line is a joke but she picked the two labels herself.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://ca.news.yahoo.com/josie-totah-says-she-wont-200000329.html",
+      "title": "Josie Totah Says She Won't Only Play LGBTQ+ Roles: 'I Follow the Story' (Exclusive)",
+      "speaker": "Josie Totah, interviewed by People at SCAD TVFest (Yahoo syndication)",
+      "date": "2024-03-23",
+      "locator": "Second paragraph",
+      "excerpt": "\"I am an actor. I want to work. So it's a combination of wanting to do a job, but also wanting to uplift storytellers who I find fascinating and tell stories that I feel like need to be told,\"",
+      "context": "Red-carpet interview in Atlanta on 2024-02-08, where she received the SCAD TVFest Rising Star Award, age 22.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.numeronetherlands.com/in-conversation-with/in-conversation-with-josie-totah",
+      "title": "In Conversation with Josie Totah",
+      "speaker": "Josie Totah, written Q&A with Numéro Netherlands",
+      "date": "2025-06-25",
+      "locator": "Answers on producing, Poehler and Kaling, choosing projects, Carrie",
+      "excerpt": "\"I really tried to make Tracey Wigfield, the creator, my mentor because I looked up to her so much. It was like writing boot camp getting to sit in the room.\" ... \"I weigh the director and material, but also where it might take me and who I might get to work with. It's the balance of life and the art of it all. I'm also such a believer in work begets work, and I love being on set and just getting to be a part of a bigger community.\"",
+      "context": "Age 23. On Amy Poehler and Mindy Kaling: 'inspirational women who show that you truly can do it all... amazing moms who are multi hyphenates.' On season two: 'It always feels like sophomore year of college going back.' She was filming Carrie at the time.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://ceromagazine.com/articles/josie-totah-buccaneers-mabel-actor-interview",
+      "title": "Josie Totah Lives to Act",
+      "speaker": "Josie Totah, profiled by Cero Magazine",
+      "date": "2025-07-31",
+      "locator": "Opening anecdote; family paragraph; Carrie paragraph; Chapman paragraph; New York paragraph",
+      "excerpt": "\"kind of a mean… let's just say it, she's a bitch,\" ... \"But she's like a really insecure bitch. So there's redemption to be had for her.\" ... \"I was driving two hours to and from set almost every day for four years,\" ... \"But I also think as actors we have a mandate to kind of live our lives to the fullest extent. I didn't go to drama school and I don't practice the craft of acting in a textual, literary way. I just pull from my life,\" ... \"In order to have stuff to pull from, I have to make memories. I did a lot of that in school.\" ... \"That's me, the mama. I'm very much the kind of person who will text the group chat and be like, 'I have a reservation on this day.' It's cute.\" ... \"I love learning. I love being in class.\" ... \"I'm really down for anything\"",
+      "context": "Age 23, interviewed while shooting Carrie in Vancouver; the profile says she moved to New York City 'in January.' The profile opens with her laughing that castmate Alisha Boe 'has no idea I'm wearing her underwear.' The writer's own characterization: 'By nature, she's adventurous—\"I'm really down for anything\"—and nurturing: among her friends, she's the connector.' On Mabel's unsupportive mother: 'I definitely cannot imagine what that would be like, my family is very supportive.' Next she wants 'a slice of life drama' like Lost in Translation or Lady Bird, 'or she'd love to return to comedy in a big way.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.brit.co/the-buccaneers-interview-josh-dylan-alisha-boe-josie-totah-richard-conchita-mabel/",
+      "title": "Josh Dylan, Alisha Boe, & Josie Totah Talk 'The Buccaneers' Cast Love: \"We're Best Friends\"",
+      "speaker": "Alisha Boe and Josh Dylan, with Josie Totah present (Brit + Co joint interview)",
+      "date": "2025-08-06",
+      "locator": "Middle of the article, on-set dynamic quotes",
+      "excerpt": "\"You'd crack a joke right before we have to film and you say the most outlandish stuff, and then you'll just lock in,\" ... \"You lock in really quick,\"",
+      "context": "First excerpt is Alisha Boe to Totah; second is Josh Dylan. Castmates and friends speaking in front of her in a joint promotional interview, so warm by design, but it is specific behavioral testimony: jokes up to the moment of a serious take, then immediate focus.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.thecrimson.com/article/2025/9/1/josie-totah-buccaneers-jessie-mabel-honoria-queer-representation/",
+      "title": "Artist Profile: From 'Saved by the Bell' to 'The Buccaneers,' Josie Totah Is on the Rise",
+      "speaker": "Josie Totah, interviewed by Makenna J. Walko (The Harvard Crimson)",
+      "date": "2025-09-01",
+      "locator": "Opening paragraphs; queer-relationship paragraphs; season two paragraphs; closing advice",
+      "excerpt": "\"I think initially, it was about entertaining and making a scene — not like making a written scene, but just literally making a shocking scene,\" ... \"I loved making people laugh.\" ... \"It is still about entertaining, but I think as I've gotten older, I've gotten more nerdy about it,\" ... \"I wanted to make sure that it was a story of positivity and love, because a lot of queer stories can be traumatic,\" ... \"I feel like she's kind of a mischievous girl who questions authority, and that's something that I definitely do as well,\" ... \"It's okay to not know what you want to do. I think it's more important to know what you like and what you don't like. And I think if you can just follow that and be present with that, you're gonna be A-okay.\"",
+      "context": "Age 24, student-newspaper phone interview. On Mabel in season two she wanted 'someone who had more agency and kind of stood up to people more... Whereas in the first season, she kind of just went with the flow of life.' She says the kiss in front of the other girls 'was definitely something that I brought up to the writers.' She describes Mabel as not respecting 'the customs of that time, which I often don't do as well.' Her agent pitched the show as 'HBO's Girls, but in the 1800s' and 'I was already biting.' The closing advice is addressed to her college self.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://comicbookmovie.com/horror/carrie-interview-alison-thornton-josie-totah-on-toxic-relationship-and-iconic-shower-scene-exclusive-a230226",
+      "title": "Carrie Interview: Alison Thornton & Josie Totah On \"Toxic Relationship\" And Iconic Shower Scene (Exclusive)",
+      "speaker": "Josie Totah and Alison Thornton, interviewed by Comic Book Movie",
+      "date": "2026-10-04",
+      "locator": "Totah's first answer; Thornton's answer on the dynamic",
+      "excerpt": "\"I just think it's so fun to play someone who is so seriously desperate to belong and to fit in.\" ... \"She said that was so funny. And I was like, 'I was dead serious.'\" ... \"Josie is so good in the show and would just make us all laugh with her improv all the time, and just brought things that were not on the page.\" ... \"So it wasn't allowed?\"",
+      "context": "Junket interview days before the Carrie premiere. She taped the audition with 'my best friend Landry.' The last excerpt is Thornton; Totah answers 'So it wasn't allowed?' On the shower scene she says it 'was very intense but conducted with like so much intention.' Creepy Catalog's 2026-10-16 item reuses these quotes and adds nothing independent.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S35",
+      "url": "https://www.yahoo.com/entertainment/tv/articles/inside-carrie-tv-series-wild-185603358.html",
+      "title": "Inside the New \"Carrie\" TV Series' Wild Prom Scene: 'So Many Things Surprised Us' (Exclusive)",
+      "speaker": "Josie Totah and castmates, interviewed by People (Yahoo syndication)",
+      "date": "2026-10-08",
+      "locator": "Paragraph on Flanagan's speech",
+      "excerpt": "\"It left us completely emotional and just reminded us of why we're all a part of this in the first place, and that's Stephen King's amazing novel,\"",
+      "context": "People gives her age as 25 in October 2026 and identifies her as playing Tina. Used for the age and role; the quote is routine promotional praise of Mike Flanagan.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.goldderby.com/tv/2026/summer-h-howell-samantha-sloyan-carrie-cast-prom-sequence-oral-history-prime-video/",
+      "title": "How Mike Flanagan pulled off the Carrie prom: An oral history",
+      "speaker": "Josie Totah and Carrie castmates (Gold Derby oral history)",
+      "date": "2026-10-07",
+      "locator": "Totah's two contributions",
+      "excerpt": "\"I loved FaceTiming my friends and scaring them. It was alarming the amount of people that didn't ask any questions.\" ... \"This is so Josie.\"",
+      "context": "She describes three hours of prosthetic makeup as 'very fun,' 'mostly fun when we were not filming, because I was just in it all day.' The 'This is so Josie' line is her report of how friends reacted, a small sign of her standing reputation for stunts among people who know her.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.interviewmagazine.com/culture/josie-totah-carrie-mike-flanagan-face-card",
+      "title": "Josie Totah Says No to Overconsumption, and Yes to Salmon Sperm Facials",
+      "speaker": "Josie Totah, in conversation with Emily Sandstrom (Interview Magazine)",
+      "date": "2026-10-26",
+      "locator": "Q&A dated Monday October 19, 2026: child-star answer; directing answer; adolescence answers; social media exchange; 'not buying things' exchange; final answer on appearance",
+      "excerpt": "\"I don't think I was ever that big as a kid, or now.\" ... \"It's the most personal thing that I've ever done, which is really nice and cool because I don't usually open up in that way.\" ... \"People were mean to me when I was a teenager, and I was definitely mean back.\" ... \"That gave me a cachet that allowed me to survive.\" ... \"You're not wrong to say that, but I'm embarrassed and ashamed. I'm a poster.\" ... \"I'm known for not buying things, because the idea of owning a lot of stuff gives me anxiety.\" ... \"I will pay a lot of money for a nice dinner. But the idea of owning another thing gives me insane anxiety.\" ... \"I'm just very nomadic in that I'm never really in one place.\" ... \"You have to fucking love yourself because no one else is going to.\" ... \"I do have a relationship with social media, and it's not healthy.\" ... \"I'm 25.\"",
+      "context": "Most recent long interview, age 25; opened via the r.jina.ai reader because the site blocks direct fetches. The introduction says it was done 'after the announcement that the show was getting renewed for a second season.' She says she 'wrote and directed' a short film with her best friend in it and is being 'annoyingly coy' about it. On high school: 'I went to Catholic high school, but then I was also on TV... I definitely was protected by people caring about social status, because if I didn't have that, I'm sure people would have ruined my life.' On social media: 'I do have a relationship with social media, and it's not healthy.' The last excerpt is her quoting her mother; she adds 'But every day, I'm like, \"Is that how I look?\"... I have to re-teach myself that. I don't want to take my culture away from me.' Misery is 'a family movie for my family... sometimes my mom reminds me of her [Kathy Bates].'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S38",
+      "url": "https://www.lpm.org/music/2026-11-04/alison-thornton-and-josie-totah-theres-a-lot-more-to-being-the-mean-girl-than-just-being-mean",
+      "title": "Alison Thornton and Josie Totah: \"There's a lot more to being the mean girl than just being mean\"",
+      "speaker": "Josie Totah and Alison Thornton, interviewed by Kyle Meredith (Louisville Public Media)",
+      "date": "2026-11-04",
+      "locator": "Written summary of a video interview: opening anecdote; audition paragraph; first-rehearsal paragraph; Thornton's improvisation quote",
+      "excerpt": "\"I was told on day one, they told me, you know, Mike doesn't like Tina,\" ... \"That didn't put me down. It put a fire under my butt, and I was like, 'I'm going to make him love Tina.'\" ... \"Honey, this is my role,\" ... \"I got it in the bag.\" ... \"Josie brought so much to Tina that wasn't on the page,\" ... \"Almost in every scene, Josie was improvising and adding things that nobody was expecting. And it was so brilliant to watch.\"",
+      "context": "The last two excerpts are Thornton. Totah reports Flanagan telling her after the first rehearsal, 'I'm so happy you're here. I freaking love this role now'; that is her account of his words, not his. She credits him: he 'gave me so much to play with that he didn't need to, because she's a piece of the puzzle.' Quotes come from LPM's written article; the video itself was not transcribed. No direct statement from Flanagan about Totah was found.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S39",
+      "url": "https://en.wikipedia.org/wiki/Carrie_(TV_series)",
+      "title": "Carrie (TV series), Wikipedia",
+      "speaker": "Wikipedia editors",
+      "date": "2026-11-10 (revision opened)",
+      "locator": "Lead section; Cast; Release",
+      "excerpt": "\"Carrie premiered on October 7, 2026, on Amazon Prime Video.\" ... \"Originally billed as a miniseries, the series was renewed for a second season in October 2026.\" ... \"Chris' friend who seeks her approval\"",
+      "context": "Used only for dates and credits: developed by Mike Flanagan, eight episodes released together on 2026-10-07, renewed in October 2026. The renewal is also stated in Interview's introduction (S37). Whether Tina Blake returns in season two was not established.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S40",
+      "url": "https://en.wikipedia.org/wiki/Josie_Totah",
+      "title": "Josie Totah, Wikipedia",
+      "speaker": "Wikipedia editors",
+      "date": "2026-11-10 (revision opened)",
+      "locator": "Infobox; Career; Personal life; Filmography",
+      "excerpt": "\"Totah attended Chapman University, graduating in 2022. She was a member of a sorority.\" ... \"Totah was nominated for a Critic's Choice Award for Best Supporting Actress in a Comedy Series for this role.\"",
+      "context": "Used as a map of credits and dates only. The article gives a birth year of 2001 with no day or birthplace, citing an August 2021 Instagram post ('finally halfway to 40'). Filmography lists Faces of Death (2026) as Samantha Gravinsky and Carrie (2026) as a main role.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S41",
+      "url": "https://www.apple.com/tv-pr/news/2025/10/apple-tv-announces-season-three-for-celebrated-drama-the-buccaneers-inspired-by-pulitzer-prize-winning-author-edith-whartons-final-novel/",
+      "title": "Apple TV+ announces season three for celebrated drama \"The Buccaneers\"",
+      "speaker": "Apple TV+ press release",
+      "date": "2025-10-08",
+      "locator": "First two paragraphs and cast paragraph",
+      "excerpt": "\"Today, Apple TV+ announced a season three renewal for “The Buccaneers,” the acclaimed drama from The Forge\"",
+      "context": "Confirms the renewal and lists her in the season two cast. The release does not give a season three premiere date or a confirmed returning cast list; the date of the announcement (October 8, 2025) comes from trade coverage surfaced in search and the press-release URL path.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S42",
+      "url": "https://www.thepinknews.com/2026/04/03/trans-actress-former-disney-star-josie-totah-faces-of-death/",
+      "title": "Trans actress and former Disney star Josie Totah stars in new horror movie Faces of Death",
+      "speaker": "PinkNews",
+      "date": "2026-04-03",
+      "locator": "Second and third paragraphs",
+      "excerpt": "\"Faces of Death releases in the US on 10 April.\"",
+      "context": "Used only for the release date of the 2026 Faces of Death remake, which she called 'my first horror/thriller' in 2023 (S24).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S43",
+      "url": "https://www.out.com/celebs/2020/11/18/josie-totah-explains-personal-importance-trans-representation",
+      "title": "Josie Totah Explains the Personal Importance of Trans Representation",
+      "speaker": "Josie Totah in conversation with GLAAD's Anthony Ramos, reported by Mey Rude (Out)",
+      "date": "2020-11-18",
+      "locator": "Quoted paragraphs two to four",
+      "excerpt": "\"For so much of my life I had never met another trans person, up until this past year,\" ... \"that you can live a healthy happy successful life and still be your true self.\"",
+      "context": "Report of a GLAAD video conversation; the video was not opened. Her stated aim for the role is that viewers learn they 'can live a healthy happy successful life,' the positive frame she applies to every project from 2020 on.",
+      "kind": "primary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "She is the third child of Suheil Totah, who is of Palestinian descent, and Christine Totah, who is of Lebanese descent, and grew up in Northern California.",
+      "passage": "She is the third child of Suheil and Christine Totah and grew up in Northern California. \"My mom is Lebanese, my dad is Palestinian,\" she has said.",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S21",
+        "S13"
+      ],
+      "inference": "Biographical frame. The family's Arab-American identity and closeness recur in her own accounts across fourteen years.",
+      "alternative": "Birthplace and exact birth date are not verified. The Davis Enterprise (2012) places the family in South Davis; the San Francisco Chronicle (2015) calls her a San Francisco native; she says 'a smallish town in Northern California' near Sacramento. Many fan bios give Sacramento and August 5; neither was confirmed in an opened source. The podcast premiere dated 2022-08-11 says she turns 21 that week. Do not print a full birth date or a birthplace city without a better source.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "She began performing at Davis Musical Theatre Company before kindergarten, did stand-up at the Hollywood Improv at about ten, and moved to Los Angeles with her mother at about ten while her father and brother stayed in Northern California.",
+      "passage": "She followed her sister Camille into a local musical theater company before kindergarten, did stand-up at the Hollywood Improv at ten, and moved with her mother to an apartment near Hollywood while her father and brother stayed north.",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S24",
+        "S31"
+      ],
+      "inference": "Performing preceded any career plan, and the family reorganized itself around it. Supports her later line that she has 'never not acted.'",
+      "alternative": "Ages differ slightly by source (four years old in Cero; 'before he was even in kindergarten' in the Davis Enterprise). She says a talent manager found her at a stand-up set; the Davis paper says a Disney casting director suggested stand-up first.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "At ten she told her hometown paper 'the process is so fun. I love auditioning,' and said of rejection that 'something else will come up.'",
+      "passage": "\"And the process is so fun. I love auditioning,\" the ten-year-old said. \"You have to accept when you don't get it, that something else will come up,\" she said of rejection.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "The earliest record already pairs enjoyment of the process with a shrug at rejection. Also in the same article but not quoted in the draft: she 'never fit in' at earlier schools and had 'found the place where I belong.' The draft labels a ten-year-old's quotes as weak evidence of adult motive.",
+      "alternative": "A ten-year-old in a proud local feature, with parents present; children repeat what adults coach. 'Belonging' language also fits a Six reading, and fits any child who was an outsider at school for reasons that had nothing to do with temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "She describes her original motive for performing as 'entertaining and making a scene,' specifically 'literally making a shocking scene,' and adds 'I loved making people laugh.'",
+      "passage": "Two years later she gave the Harvard Crimson the motive in plainer terms. \"I think initially, it was about entertaining and making a scene — not like making a written scene, but just literally making a shocking scene,\" she said. \"I loved making people laugh.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S33"
+      ],
+      "inference": "Two accounts two years apart locate the root in disruption, play and laughter rather than in praise, winning or being chosen. This is the core of the Seven reading: stimulation and delight first, career second ('when I ended up being able to monetize it, it became a career').",
+      "alternative": "Wanting the flashlight pointed at you is also attention-seeking in the Three sense. Retrospective origin stories told in promotion are shaped to be charming.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "In October 2016, at 15, she was attached as star and producer to an NBC comedy in development, with the script by David Monahan and Danielle Hoover.",
+      "passage": "At 15 she was attached as star and producer to an NBC comedy",
+      "class": "third_party",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "She was treated as a creative principal unusually young and has said since that development is what she wants 'for the rest of my life.'",
+      "alternative": "She has described this as selling 'my first script' or 'my first show' (S12, S24); Deadline credits other writers, so the draft says only 'attached as star and producer.' The project did not go to series.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "She came out publicly as a transgender woman in a first-person Time essay on August 20, 2018, at 17, writing that she had 'almost felt like I owed it to everybody to be that gay boy.'",
+      "passage": "Through Disney Channel, Glee and Champions, the press and the public took her for a gay boy, and she let them. On August 20, 2018, at 17, she published a first-person essay in Time saying she is a transgender woman. \"I almost felt like I owed it to everybody to be that gay boy,\" she wrote. \"But that has never been the way I think of myself.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S13"
+      ],
+      "inference": "Her gender identity is not personality evidence and must not be used as such. What is usable is the manner: a take-it-or-leave-it tone, a forward-facing ending ('a clean slate — and a new world,' 'I'm going to gun for those roles'), and her admission that for years she had played the role others expected.",
+      "alternative": "The years of playing the expected role are the strongest single datum for a Three reading (adapting the self to the audience), though a closeted child actor had concrete safety and employment reasons to do so. Box and freedom language is what almost anyone would use about leaving the closet.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "She timed the disclosure: she waited until Champions had ended because she did not think it right to come out while playing a male character, and wanted her 'strings tied up' and 'a fresh start.'",
+      "passage": "She waited for Champions to end. \"I didn't think it was right to come out during that when I was playing a male character,\" she told Teen Vogue that fall. \"I just wanted to have my strings tied up and have a fresh start and experience my true self with a clean slate.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Deliberate and planned, which complicates a picture of pure spontaneity. Also on the record but not quoted in the draft: she asked that no personal photo or 'cover art' be attached and wanted the essay to be neither 'the biggest deal in the world' nor 'passive' (S13, S01).",
+      "alternative": "Careful staging of a public moment is as consistent with Three as with a Seven who plans. With parents and representatives involved at 17, the staging may not have been hers alone.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "She has said she developed 'serious anxiety' while hiding who she was and was 'really, really depressed' before coming out.",
+      "passage": "\"I developed serious anxiety as I hid who I was,\" the essay says, and she told Teen Vogue she had been \"really, really depressed.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "inference": "Fear and low mood are on the record in her own words, so the portrait cannot be all sparkle. They are tied by her to a specific circumstance that ended.",
+      "alternative": "Circumstantial distress, not a trait. It should not be read as Six anxiety or Four melancholy without evidence from other contexts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "She says that when she was about 14 and invited to a party with alcohol, her mother warned that it could end her career and said she could go ahead but 'you'll ruin your life. And I'll just sit here and watch it happen.'",
+      "passage": "In Totah's retelling on that April 2023 episode, a paraphrase performed for laughs, her mother said that if it got out her career would end, and then: \"So you can go ahead and do that shit, but you'll ruin your life. And I'll just sit here and watch it happen.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "She credits this conversation with years of restraint and presents her mother as blunt. Other blunt lines she attributes to her mother (S18, S37) are not quoted in the draft.",
+      "alternative": "These are her comic paraphrases of her mother, told for laughs on a podcast and in a beauty column. No statement from Christine Totah after 2015 was found.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "When Tracey Wigfield wrote the role of Lexi for her on Peacock's Saved by the Bell, she made a producer credit a condition of accepting at 18, saying 'I wasn't willing to do the show had I not been given a producer role' and that leaving college 'had to be something that was worth it.'",
+      "passage": "\"I wasn't willing to do the show had I not been given a producer role,\" she told the Television Academy's emmy magazine. \"So to pull me away from my education, which is really important to me, it had to be something that was worth it.\" ([Television Academy, 2021](https://www.televisionacademy.com/features/news/mix/worth-and-wisdom)) Every telling of this is hers. Variety reports only that Wigfield agreed.",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S13"
+      ],
+      "inference": "A costly, specific choice: she was prepared to turn down a lead written for her. She tells it the same way in three further outlets not cited in the draft (S07, S08, S14).",
+      "alternative": "Told consistently in five outlets, but all are her account in promotional interviews; Wigfield confirms writing the role for her and is reported to have agreed, without describing the negotiation. A demand for power at the table also fits an Eight reading, and a title at 18 also fits Three.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "She says the producer title itself did not matter to her: 'I didn't care about that.'",
+      "passage": "She says the title was not the point: \"I didn't care about that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Her stated payoff is participation and learning. The full sentence is 'It mattered more to me that I was involved and could learn than it saying producer Josie Totah on the call sheet – I didn't care about that.'",
+      "alternative": "Disclaiming interest in a title one has insisted on is exactly what an image-conscious person would say. The disclaimer cannot be checked against behavior.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Showrunner Tracey Wigfield said she wrote Lexi for Totah and that 'Josie is so deeply funny. She understands the rhythm of jokes and just has comedy in her bones.'",
+      "passage": "\"I wrote the character of Lexi for Josie Totah,\" showrunner Tracey Wigfield told Variety in 2021. \"Josie is so deeply funny. She understands the rhythm of jokes and just has comedy in her bones.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Named testimony from an employer that her comic instinct is the reason she was hired. The draft says it is praise for talent and says nothing about motive.",
+      "alternative": "Promotional praise from a collaborator with a show to sell; it describes talent, not motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "Across at least five years she has pressed for stories centered on joy: 'trans people live joyful lives' (2021) and wanting Mabel's romance to be 'a story of positivity and love, because a lot of queer stories can be traumatic' (2025), with her own caveat that struggle 'is important to tell to an extent.'",
+      "passage": "On Saved by the Bell, she told Variety in 2021: \"you shouldn't only be talking about the struggles of trans people, because trans people live joyful lives and have the ability to live joyful lives.\" On The Buccaneers, she told the Crimson in 2025: \"I wanted to make sure that it was a story of positivity and love, because a lot of queer stories can be traumatic.\" It is also a common conviction among queer writers her age, and she keeps a caveat: struggle \"is important to tell to an extent.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S33"
+      ],
+      "inference": "The most repeated conviction on her record and the reframing move at the center of the Seven reading. Further instances not quoted in the draft: Pride as 'resistance in the form of joy' (S13), happiness as 'a form of protest in itself' (S16), and her crediting Katherine Jakeways with centering joy on The Buccaneers (S26).",
+      "alternative": "It is also a widely shared position among queer creators of her generation and an effective talking point; Katherine Jakeways is credited by Totah herself with centering joy on The Buccaneers. Her own caveat is on record: struggle is 'important to tell to an extent.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "On The Buccaneers she drafted her character's coming-out scene on her laptop during a night shoot, tried it on two castmates, then approached creator Katherine Jakeways 'in a roundabout way' saying she had been 'journaling'; she says most of her ideas were used.",
+      "passage": "On The Buccaneers she drank coffee by accident at 8 p.m. on a night shoot, and \"I broke out my computer and started writing a scene.\" It was her character's coming-out scene. She tried it on two castmates first. Then, \"in a roundabout way,\" she phoned the show's creator, Katherine Jakeways, with a cover story: \"So I was journaling this morning and I had a few ideas for the scene…\" By her account, \"The majority of those ideas got integrated.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S26"
+      ],
+      "inference": "A pattern of not staying inside the assigned lane. The draft's lead-in sentence rests on her writers' room work on Saved by the Bell (C45); also on the record but not quoted are her reworking of an episode three storyline (S08) and pitching the season two kiss (S33).",
+      "alternative": "Her account only; neither Wigfield nor Jakeways has described these episodes in a source that was opened. The roundabout approach is indirect in a way that argues against an Eight reading and is neutral between Seven and Three.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "She completed a film degree at Chapman University in 2022 while starring in and producing Saved by the Bell, joined a sorority, carried six courses on two days a week in her senior year while filming the other three, and got '7 flat tires in four years.'",
+      "passage": "She stayed enrolled at Chapman while she starred in and produced the show, joined a sorority, and graduated in 2022. Senior year, she told Wonderland, meant six courses packed into Tuesdays and Thursdays and filming on the other three weekdays. The commute cost her \"7 flat tires in four years.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S40",
+        "S18",
+        "S11"
+      ],
+      "inference": "A costly choice. Her stated purpose is in C46 and C47; the ordinary explanations are in C41 and C48.",
+      "alternative": "Finishing a degree under that load is also an achievement feat. Wonderland's wording is 'Tuesdays and Thursdays from 10am-10pm doing 6 courses and then Monday, Wednesday and Friday I would be filming.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "Her stated tests for taking a job in 2024 were 'the material, the people, and the fun,' and she contrasted herself with an imagined strategist: 'I'm no Viola Davis.'",
+      "passage": "Her stated test for a job, in 2024: \"I examine the three main factors: the material, the people, and the fun.\" \"I'm no Viola Davis,\" she had just said, picturing Davis hanging scripts on a war-room wall.",
+      "class": "self_report",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Fun and company are named criteria; prestige, size of role and visibility are not. She contrasts herself with an imagined strategist ('I'm no Viola Davis').",
+      "alternative": "In 2025 she added career logic: 'where it might take me' and 'work begets work' (S30, not quoted in the draft). A working actor at her level has limited choice, which she admits (C49), so stated criteria may flatter necessity.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "In written answers in 2023 she said she plans to buy an island by 30 and insisted 'These are my cards and I'm still going to win,' adding 'Not for myself' in the next sentence.",
+      "passage": "Asked who inspires her to succeed, she named her family, her community, and \"the island I plan to buy by 30.\" \"These are my cards and I'm still going to win,\" she wrote. She attached the win to other people in the next sentence (\"Not for myself\"), but the sentence stands.",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Counterevidence to a purely pleasure-led reading and the best case for Type 3. Also on the record but not quoted in the draft: 'how to play the game but also how to rig it,' 'constantly texting and emailing people I look up to' (S24), and a joking 'Capricorn (workaholic)' label (S28).",
+      "alternative": "The statements cluster in two written Q&As from 2023 and early 2024, when she was between jobs and selling projects, and she attaches the win to her community ('Not for myself'). Entrepreneurial drive is common in Sevens as well.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "She deflates her own standing: 'I think actors are the most embarrassing thing on planet Earth' (2022) and 'I don't think I was ever that big as a kid, or now' (2026).",
+      "passage": "\"I think actors are the most embarrassing thing on planet Earth,\" she said in 2022. \"I don't think I was ever that big as a kid, or now,\" she said in 2026.",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S37"
+      ],
+      "inference": "She does not speak as someone identified with a successful image; she mocks it. This is the second support for the discriminator against Three.",
+      "alternative": "The same lines show how often embarrassment and shame appear in her vocabulary, which is an image-triad signal in its own right. Self-deprecation is also a comedian's professional register.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "In the April 27, 2023 finale of her podcast she said 'I did go to the bathroom and feel like I wanted to cry,' 'I'm so bad with being vulnerable,' and 'I just want to be an actor that like, sits at home and no one knows anything about. But I have too loud of a mouth.'",
+      "passage": "\"I did go to the bathroom and feel like I wanted to cry,\" she said. \"Only because I just feel like I'm so bad with being vulnerable.\" She went on, \"I just want to be an actor that like, sits at home and no one knows anything about. But I have too loud of a mouth.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "The clearest statement of the cost side. She had used the same phrase about her character Lexi in 2021 ('her meanness being rooted in her fear of vulnerability'), and in 2026 said of a personal short film, 'I don't usually open up in that way.'",
+      "alternative": "Fear of vulnerability is claimed by Threes, Sevens and Eights alike and does not discriminate among them. It was said in an emotional goodbye episode among friends.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "She says a college health center clinician in 2022 told her she 'was exhausted and depressed' and to go home.",
+      "passage": "The verdict, as she tells it: \"she said I was exhausted and depressed and she told me to go home.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "With C50 and C51, the nearest thing to observed behavior under strain: she turns the episode into a comic set piece and overrides the advice to stop.",
+      "alternative": "She tells both stories for laughs and may exaggerate. Refusing to rest before a shoot is equally what a driven Three would do, and one episode does not make a pattern.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "She says that at the parties she hosted the summer after high school she was 'so afraid to drink' that she walked around with 'a fake prop movie cigarette and a glass of wine' she did not drink from, 'Like Great Gatsby.'",
+      "passage": "\"I was so afraid to drink because I didn't want anyone to ruin anything,\" she said on her podcast in April 2023, so she worked the room with props. \"So I would just walk around with literally a fake prop movie cigarette and a glass of wine,\" she said, one \"that I didn't drink from. Like Great Gatsby, while everyone was partying, getting drunk at my house.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "The draft's opening image: she hosts the party and keeps herself out of its risk. Any Seven argument has to absorb this restraint.",
+      "alternative": "Career protection from age 13 is a professional incentive, not a trait. It is also evidence for Three (protecting the brand) or Six (caution). The same transcript shows she also says she 'always went to the bar with a fake I.D.' in college (S18), so the draft does not claim abstinence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "In October 2026 she said she will 'pay a lot of money for a nice dinner' but 'the idea of owning another thing gives me insane anxiety.'",
+      "passage": "\"I will pay a lot of money for a nice dinner,\" she told Interview in October 2026. \"But the idea of owning another thing gives me insane anxiety.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S37"
+      ],
+      "inference": "Experiences over possessions and mobility over settling, stated without prompting in a beauty column. It fits a freedom-seeking reading and explains the restraint in C24 as dislike of being weighed down rather than as abstinence.",
+      "alternative": "Single source in a light-hearted product interview. A working actor who lives between New York, Scotland, Vancouver and Los Angeles has practical reasons to own little.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "She describes herself as 'the mama' who books the group's reservations, defines love as 'safety. Being a safety net for another person unconditionally,' and says she is 'working on having more solo self-care days.'",
+      "passage": "\"That's me, the mama. I'm very much the kind of person who will text the group chat and be like, 'I have a reservation on this day.' It's cute,\" she told Cero in 2025. She defined love for Galore as protection: \"for me, love is safety. Being a safety net for another person unconditionally.\" Being alone is the state she has to practice: \"I'm working on having more solo self-care days since I know those are important, too.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S31",
+        "S28",
+        "S27"
+      ],
+      "inference": "High social appetite and a preference for company over solitude, consistent with her saying she and her co-hosts talked until four in the morning. The 'working on' solo time detail suggests being alone is the harder state.",
+      "alternative": "The 'mama' and 'connector' role is also classic Two behavior, and the Cero writer calls her 'nurturing.' Extraversion is not a type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "Castmate Alisha Boe told her in a 2025 joint interview: 'you say the most outlandish stuff, and then you'll just lock in.'",
+      "passage": "Alisha Boe, from The Buccaneers, told her in a joint interview: \"you say the most outlandish stuff, and then you'll just lock in.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "The only behavioral testimony on record, from four people on three projects, agrees on play followed by precision. The 'lock in' detail matters: the fun is not at the expense of the work.",
+      "alternative": "A friend and castmate speaking in a promotional interview, in front of her. Josh Dylan adds 'You lock in really quick' in the same exchange.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "On Carrie she says she was told on day one that 'Mike doesn't like Tina' and responded, 'It put a fire under my butt, and I was like, I'm going to make him love Tina.'",
+      "passage": "\"I was told on day one, they told me, you know, Mike doesn't like Tina,\" she told Louisville Public Media. \"That didn't put me down. It put a fire under my butt, and I was like, 'I'm going to make him love Tina.'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "The search-driving moment, and a compact test: a discouraging signal produces appetite, not doubt, and her method of winning the director over is play (improvised additions) rather than compliance.",
+      "alternative": "Wanting to make a director 'love' her character is approval-seeking and fits Three at least as well. Flanagan's reported change of heart is her account; no statement from him was found. The quotes come from a written summary of a video interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "She said in 2026 that being on television at her Catholic high school 'gave me a cachet that allowed me to survive.'",
+      "passage": "her read on high school in 2026, where being on television protected her: \"That gave me a cachet that allowed me to survive.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S37"
+      ],
+      "inference": "She is unsentimental about her own adolescence and clear-eyed about status as protection. It complicates the 'never fit in' child of 2012.",
+      "alternative": "A frank reading of status as a survival tool is Three-compatible. Single retrospective source, told in a breezy interview about playing a bully.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "She says that from age ten, on her parents' advice, she told casting rooms 'I'm Italian' and did not start saying she was Palestinian until 16 or 17, 'because I was afraid of my own identity being controversial'; in 2026 she said of her Middle Eastern features, 'I don't want to take my culture away from me.'",
+      "passage": "Her parents, she says, told her \"never tell them you're Palestinian.\" So she didn't. \"They'd say what is your ethnicity and I would say I'm Italian. And so I didn't start telling people I was Palestinian until I was like until I was like 16, 17 years old, maybe.\" \"I think because I was afraid of my own identity being controversial,\" she explained in 2023.",
+      "class": "self_report",
+      "source_ids": [
+        "S21"
+      ],
+      "inference": "A second long concealment that she later reversed, parallel to the 'gay boy' role. Both times she managed an audience's expectations for years and then stopped.",
+      "alternative": "Parent-directed and common among Arab-American child actors after 2001, so it reflects circumstance and adult guidance more than temperament. The parallel to image management is the best structural argument for Three.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "She reports 'a fear of grocery stores. I can't go alone... my social anxiety just comes out,' and adds that not wearing her glasses is part of it.",
+      "passage": "\"I have a fear of grocery stores. I can't go alone. I just get so overwhelmed and for some reason my social anxiety just comes out,\" she told Galore, adding that not wearing her glasses is part of it.",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Unexplained by the leading reading and the main support for keeping Six in view. An April 2023 podcast aside (S22), not quoted in the draft, has her calling a solo grocery trip 'a little risky for me.'",
+      "alternative": "Told lightly, and she offers poor eyesight as part of the reason. Recognition in public is a real cost for a former Disney actor. One written Q&A and one aside are thin.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "Her advice to her college self in 2025 was: 'It's okay to not know what you want to do. I think it's more important to know what you like and what you don't like. And I think if you can just follow that and be present with that, you're gonna be A-okay.'",
+      "passage": "> \"It's okay to not know what you want to do. I think it's more important to know what you like and what you don't like. And I think if you can just follow that and be present with that, you're gonna be A-okay.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S33"
+      ],
+      "inference": "An explicit philosophy of steering by appetite rather than by goal. Paired with her remark that her taste 'has changed' and that her dream roles range from a war film to a Big Momma's House remake, it is the most direct statement against a goal-fixed Three reading.",
+      "alternative": "Advice to students is a genre with stock answers. It sits beside an 'island by 30' and 'I'm still going to win' (C19).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "She launched the podcast Dare We Say in August 2022 with Alycia Pascual-Peña, a castmate from Moxie (directed by Amy Poehler), and Yasmine Hamady, whom she met in sorority rush; its final episode is dated April 27, 2023.",
+      "passage": "In August 2022 she launched a podcast, Dare We Say, with two friends: Alycia Pascual-Peña, her castmate in [Amy Poehler](/personality-analysis/amy-poehler)'s Moxie, and Yasmine Hamady, a sorority sister.",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S23",
+        "S11"
+      ],
+      "inference": "Establishes who the co-hosts are and why their testimony is friendly testimony.",
+      "alternative": "The hosts' stated reason for ending it ('we weren't going to be able to do 150%') is not used in the draft. Pascual-Peña was also her Saved by the Bell castmate.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "Carrie premiered on Prime Video on October 7, 2026, with Totah as Tina Blake, the friend of bully Chris Hargensen who seeks her approval.",
+      "passage": "On October 7, 2026, Prime Video released Carrie, with Totah as Tina Blake, the bully's eager second.",
+      "class": "third_party",
+      "source_ids": [
+        "S39",
+        "S37",
+        "S38"
+      ],
+      "inference": "Current-accuracy frame only; none of it carries the type argument.",
+      "alternative": "Whether Tina Blake appears in season two is unknown. 'Eager second' is the draft's paraphrase of Wikipedia's 'Chris' friend who seeks her approval' and Interview's 'approval-hungry sidekick.'",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck when Carrie season two casting or The Buccaneers season three premiere is announced, when the short film is titled or released, and after her birthday each August."
+    },
+    {
+      "id": "C37",
+      "claim": "At ten she starred in AwesomenessTV's 'Lil' Dictator,' a spoof of Sacha Baron Cohen's film that the Davis Enterprise reported drew YouTube comments calling it racist; she and her family answered that they are Arab-American and it was a spoof, and she said 'It's their opinion.'",
+      "passage": "The same article holds the only criticism of her work this profile found. In 2012 she starred in AwesomenessTV's \"Lil' Dictator,\" a web spoof of Sacha Baron Cohen's The Dictator, and the paper reported that some viewers called the videos racist. Her family answered that they are Arab-American and that it was a spoof. \"It's their opinion,\" she said. She was ten, and the series was made and released by adults.",
+      "class": "third_party",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "The only criticism of her work found in the record, and it concerns a child in a production made by adults. Searches on 2026-11-10 found no adult controversy, allegation, backlash or apology involving her.",
+      "alternative": "Absence of coverage is not proof of absence. The criticism was anonymous online comment reported by one local paper, and the adults who made and approved the series bear the responsibility.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck for any public controversy, allegation or apology involving her at each refresh; add or update her entry in docs/writing-system/people-controversies.json."
+    },
+    {
+      "id": "C38",
+      "claim": "She starred in and produced Peacock's Saved by the Bell and was nominated for a Critics Choice Television Award for the role.",
+      "passage": "She starred in and produced Peacock's Saved by the Bell, which brought a Critics Choice nomination",
+      "class": "third_party",
+      "source_ids": [
+        "S40"
+      ],
+      "inference": "Factual metadata for the profile.",
+      "alternative": "Rests on Wikipedia. The SCAD TVFest Rising Star Award (S29) and the Forbes and HRC honors are not used in the draft.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "She describes a comic role as a licensed outlet for behavior she holds back offscreen: of Lexi, 'I think about the craziest stuff I'd want to do in my regular life and just do it on the show' (2021).",
+      "passage": "\"I think about the craziest stuff I'd want to do in my regular life and just do it on the show,\" she told Variety in 2021, about Lexi.",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Puts the wildness in the work and the control in the life. Two further statements not quoted in the draft say the same (S10, 2020; S15, 2021).",
+      "alternative": "Calling a role wish-fulfilment is stock press language, and the 2020 remark is explicitly about what being closeted had cost her, which is circumstance and not temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "Taken together, the record suggests a person organized around keeping life open, lively and enjoyable, who treats work as the best available playground, is highly disciplined in service of it, and tends to step around pain with a joke, a plan or the next thing.",
+      "passage": "Fourteen years of interviews suggest where the appetite goes and what the control is for. The wildness goes into the work. The discipline protects the place where she gets to play.",
+      "class": "interpretation",
+      "source_ids": [
+        "S33",
+        "S24",
+        "S31",
+        "S27",
+        "S37",
+        "S23",
+        "S18",
+        "S22",
+        "S38",
+        "S32",
+        "S13"
+      ],
+      "inference": "This is the author's synthesis of C03, C05, C15 to C18, C20 to C23 and C25 to C28 and is the thesis the type argument rests on. It should be written as an inference from her statements and a small body of friendly testimony.",
+      "alternative": "Nearly all of the evidence is self-report in promotional or friendly settings. An achievement-and-image reading (Type 3) accounts for much of the same record, especially the two long concealments, the hustle language and the embarrassment vocabulary; see the type hypothesis. A large share of her public statements concern being trans, which describes her circumstances and must not be converted into temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "A 2015 San Francisco Chronicle profile summarized her mother's rules as good grades, chores and time with family.",
+      "passage": "Her mother's house rules, per a 2015 San Francisco Chronicle profile, were good grades and chores, so college may never have been optional.",
+      "class": "third_party",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "An ordinary explanation for staying in college: it may have been a family requirement.",
+      "alternative": "The sentence is the reporter's summary, not a quote, and it predates college by three years. No source says college was required.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "She says she has 'never not acted,' recalling fake falls and spit takes in the kitchen and making her brother hold a flashlight on her, and that 'when I ended up being able to monetize it, it became a career.'",
+      "passage": "\"I've always acted,\" she told Wonderland in 2023. \"Whether it was in my kitchen pretending to fake fall or spit take or force my brother to stand at the top of the stairs and hold a flashlight pointed at me, I've never not acted. It just so happened that when I ended up being able to monetize it, it became a career.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Performing preceded any career plan; play first, monetized later.",
+      "alternative": "Written answers in a promotional Q&A; origin stories are shaped to be charming. Wanting the flashlight on you is also attention-seeking in the Three sense.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "The essay's tone was take-it-or-leave-it: 'So, listen up y'all: You can jump on or jump off. Either way this is where I'm heading.'",
+      "passage": "> \"So, listen up y'all: You can jump on or jump off. Either way this is where I'm heading.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Only the manner of the disclosure is used: she announced a direction instead of asking for acceptance.",
+      "alternative": "A managed public statement written at 17 with parents and representatives involved. The same line is the main evidence for a Type 8 reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "When Tracey Wigfield offered her the role of Lexi she was 18, a film major at Chapman University, and was shopping at Nordstrom with her grandmother when her agent called.",
+      "passage": "When Wigfield's offer came, Totah was 18, a film major at Chapman University, shopping at Nordstrom with her grandmother when her agent called.",
+      "class": "third_party",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Scene-setting for the producer condition.",
+      "alternative": "The Television Academy piece does not give her age; 18 is derived from her August 2001 birth and the reboot's 2019 to 2020 development.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "By season two of Saved by the Bell she was in the writers' room about once a week, 'either be revising a script or breaking a new episode, which is just so much fun.'",
+      "passage": "By season two she was in the writers' room weekly, where \"I'll either be revising a script or breaking a new episode, which is just so much fun.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "What she did with the producer seat: participation in the writing, described as fun.",
+      "alternative": "Her account only; no writer or showrunner describes her contribution in the room.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "Her stated reason for keeping a full college life: 'I love learning. I love being in class. But I also think as actors we have a mandate to kind of live our lives to the fullest extent.'",
+      "passage": "> \"I love learning. I love being in class. But I also think as actors we have a mandate to kind of live our lives to the fullest extent.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S31"
+      ],
+      "inference": "The purpose she gives is experience, not credential or advantage. One of the two main supports for the discriminator against Three.",
+      "alternative": "Given in 2025, three years after graduating. See C41 and C48 for ordinary explanations.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "She added: 'In order to have stuff to pull from, I have to make memories.'",
+      "passage": "\"In order to have stuff to pull from, I have to make memories,\" she added.",
+      "class": "self_report",
+      "source_ids": [
+        "S31"
+      ],
+      "inference": "Experience framed as raw material for the work.",
+      "alternative": "Framing life as material for acting is also career logic.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "In August 2022, the week she turned 21, she said that having started 'becoming my full self' about four years earlier she felt behind and wished 'I had more of my teen years.'",
+      "passage": "And in 2022, the week she turned 21, Totah gave a sadder version of wanting experiences. Having come out at 17, she felt behind: \"I wish I had more of my teen years, you know?\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "A circumstantial explanation for wanting a full college life: catching up on a delayed adolescence. The draft says this is circumstance, not temperament.",
+      "alternative": "'Having come out at 17' is the draft's gloss on 'when I started becoming my full self, like, what was that like four years ago now.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "She admits limited choice of work: 'I am lucky anytime a great audition or Zoom comes through my email.'",
+      "passage": "She admits she has had little choice (\"I am lucky anytime a great audition or Zoom comes through my email\")",
+      "class": "self_report",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "A stated limit on reading her job criteria as preference.",
+      "alternative": "Modesty in a written Q&A; she adds that 'with more years and financial security' she has gained autonomy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "She opened her podcast's first episode by saying 'The reason why I have this much energy is because I am on a burst prednisone pack.'",
+      "passage": "\"The reason why I have this much energy is because I am on a burst prednisone pack,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Sets up the urgent-care story as the show's cold open.",
+      "alternative": "Told for laughs; the dose and prescription cannot be checked.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "Told to sleep, she asked 'so what can you give me?'; her co-host said she was 'trying to finesse this doctor,' and she summed up: 'what did I want? I wanted drugs. When did I want it? I wanted it now.'",
+      "passage": "\"But you are also like trying to finesse this doctor,\" Pascual-Peña said. Totah agreed and delivered the punchline: \"what did I want? I wanted drugs. When did I want it? I wanted it now.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "She negotiates for a way to keep going and converts the episode into comedy; the avoidance pattern the Seven reading predicts.",
+      "alternative": "She may exaggerate for the bit. Refusing to rest before a shoot is equally what a driven Three would do, and one episode does not make a pattern.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "Her account of the exchange: 'I said, so what can you give me? And she was like, you just need to sleep.'",
+      "passage": "> \"I said, so what can you give me? And she was like, you just need to sleep.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "The pivot of the story, in her words.",
+      "alternative": "Her paraphrase of a clinician; Crooked's transcript, audio not re-checked.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "In an August 25, 2022 episode she described being unable to cry at work during a hard week: 'I knew I needed to get out, but I could not get it out,' and said it came at home in the shower with Oasis playing.",
+      "passage": "She was \"feeling insecure and, like, tired of being scared in this world,\" and also just exhausted. She kept going to the bathroom at work to cry and couldn't: \"I knew I needed to get out, but I could not get it out.\" It came later, at home, in the shower, with Oasis playing.",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "A specific account of feeling held off until she was alone with music on.",
+      "alternative": "She ties the low week to being marginalized and to exhaustion at work, which is circumstance. She also says she can normally 'cry at any moment.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "She said: 'I cannot go, like, an hour of silence without music, because then I have to confront my own thoughts.'",
+      "passage": "\"I cannot go, like, an hour of silence without music, because then I have to confront my own thoughts.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "A direct statement of filling silence to avoid her own thoughts; strong self-report for the Seven reading.",
+      "alternative": "Said in a comic mock-trial segment and delivered for a laugh.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "She said that on the first day of a horror-film class, asked what scared her most, she answered 'myself,' and concluded 'And so music always has to be playing.'",
+      "passage": "> \"And I said myself. And then it was very awkward.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "The draft's ending: a true-sounding thing said as a bit, followed by music and a dinner plan.",
+      "alternative": "A joke told on her own podcast; the class and the exchange are unverified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "At 21 she said 'I've never really drank, to be honest.'",
+      "passage": "\"I've never really drank, to be honest,\" she said at 21.",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Her own summary of the restraint.",
+      "alternative": "In the same passage she says she went to bars with a fake I.D. throughout college; a co-host adds 'She wasn't ever a drinker.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "Her reported reaction to her mother's warning: 'I was like, holy fucking shit, I'm never having alcohol again.'",
+      "passage": "\"I was like, holy fucking shit, I'm never having alcohol again.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "She traces the restraint to this conversation.",
+      "alternative": "A retrospective comic retelling.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "She gave a second reason for not drinking when younger: 'I always felt so outside of my body and I felt like drinking would take me so much further.'",
+      "passage": "\"I always felt so outside of my body and I felt like drinking would take me so much further.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "A stated reason for restraint that has nothing to do with career or type; it limits how much the restraint can be read as temperament.",
+      "alternative": "This reason is tied to her experience before transition and is circumstance. It is used only to limit the type inference.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "The author's reading of the restraint: she refuses what could cost her the work or weigh her down and pays for experience; she describes herself as 'never really in one place.'",
+      "passage": "She refuses what could cost her the work or weigh her down, and she pays for experience. There are ordinary explanations too: a Disney-era career gave a 14-year-old real reasons to behave, and an actor who is \"never really in one place\" has reasons to own little.",
+      "class": "interpretation",
+      "source_ids": [
+        "S37",
+        "S22",
+        "S18"
+      ],
+      "inference": "Synthesis of C11, C24, C25 and C56 to C58, with the ordinary explanations stated beside it.",
+      "alternative": "Career protection and a travelling job explain the same facts without any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "She said in 2026: 'I do have a relationship with social media, and it's not healthy.'",
+      "passage": "\"I do have a relationship with social media, and it's not healthy.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S37"
+      ],
+      "inference": "Sits against her stated wish to be an actor nobody knows anything about.",
+      "alternative": "A light exchange in a beauty column; the full sentence begins 'But unfortunately, unlike Mikey Madison.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "Castmate Alison Thornton said of Carrie: 'Almost in every scene, Josie was improvising and adding things that nobody was expecting.'",
+      "passage": "Alison Thornton, who plays opposite her in Mike Flanagan's Carrie, said in November 2026, \"Almost in every scene, Josie was improvising and adding things that nobody was expecting.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "Behavioral testimony that her signature on set is unscripted play.",
+      "alternative": "A castmate in a joint promotional interview with Totah present; taken from a written summary of a video interview, not from the audio.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "In a second interview Thornton said Totah 'would just make us all laugh with her improv all the time, and just brought things that were not on the page,' and Totah replied 'So it wasn't allowed?'",
+      "passage": "In another interview Thornton said Totah \"would just make us all laugh with her improv all the time, and just brought things that were not on the page.\" \"So it wasn't allowed?\" Totah cut in.",
+      "class": "third_party",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "A second, independent occasion of the same testimony from the same castmate.",
+      "alternative": "Same witness as C61, again in a junket setting with Totah present.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "Totah says Mike Flanagan warmed to the character after the first rehearsal; no statement from Flanagan about her was found.",
+      "passage": "Totah says Flanagan came around after the first rehearsal. That is her report, and this profile found no statement from Flanagan about her.",
+      "class": "self_report",
+      "source_ids": [
+        "S38"
+      ],
+      "inference": "The draft marks this as her report so the reader does not take it as director testimony.",
+      "alternative": "Her account of his words is 'I'm so happy you're here. I freaking love this role now.'",
+      "durability": "time_sensitive",
+      "review_trigger": "Replace with Flanagan's own words if he describes working with her in any interview or commentary."
+    },
+    {
+      "id": "C64",
+      "claim": "The author's reading: wanting a director to love the character is approval-seeking a Three would share; what points to Seven is that she answered discouragement with play.",
+      "passage": "Wanting to make a director love your character is approval-seeking, and a Three would want it just as much. What points to Seven is the means. She took discouragement as an invitation and answered it with play.",
+      "class": "interpretation",
+      "source_ids": [
+        "S38",
+        "S34"
+      ],
+      "inference": "States the Three alternative beside the Seven reading of the same event.",
+      "alternative": "The method (improvisation) is reported by one castmate; the motive is inferred.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "She is 25 as of November 2026 and has worked as an actor since about age ten, on Disney Channel's Jessie, Glee, NBC's Champions, Saved by the Bell (which she produced) and The Buccaneers.",
+      "passage": "Totah is 25 as of November 2026, an actress, writer and producer who has worked since she was ten: Disney Channel's Jessie, Glee, NBC's Champions, then Lexi, the queen bee of Peacock's Saved by the Bell reboot, which she also produced, and Mabel on Apple TV+'s The Buccaneers.",
+      "class": "third_party",
+      "source_ids": [
+        "S35",
+        "S37",
+        "S31",
+        "S03",
+        "S05",
+        "S40",
+        "S02"
+      ],
+      "inference": "Orientation for a reader who knows her only from Carrie.",
+      "alternative": "The Crimson says she has been on camera since nine; the Davis Enterprise has her working at ten.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update her age after her birthday each August and add major new credits."
+    },
+    {
+      "id": "C66",
+      "claim": "She was born in August 2001; the exact day is not confirmed in an opened source.",
+      "passage": "Josie Totah was born in August 2001 and is 25 as of November 2026.",
+      "class": "third_party",
+      "source_ids": [
+        "S40",
+        "S18",
+        "S35",
+        "S37"
+      ],
+      "inference": "Derived from Wikipedia's 2001 birth year (citing an August 2021 'halfway to 40' post), the August 11, 2022 episode recorded the week she turned 21, and her own 'I'm 25' on October 19, 2026.",
+      "alternative": "Fan bios give August 5 and Sacramento; neither was confirmed, so the draft prints no day and no birthplace city.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the age after each August; add the day only if a primary source confirms it."
+    },
+    {
+      "id": "C67",
+      "claim": "Carrie is an eight-episode series developed by Mike Flanagan; it was renewed for a second season in October 2026, and as of November 10, 2026 her return has not been announced.",
+      "passage": "The series was renewed for a second season that month. As of November 10, 2026, whether Tina returns has not been announced.",
+      "class": "third_party",
+      "source_ids": [
+        "S39",
+        "S37"
+      ],
+      "inference": "Current-accuracy metadata only.",
+      "alternative": "The renewal rests on Wikipedia and Interview's introduction, not on an opened trade report.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck when Carrie season two casting is announced."
+    },
+    {
+      "id": "C68",
+      "claim": "In October 2026 she said she had written and directed a short film, 'the most personal thing that I've ever done... because I don't usually open up in that way.'",
+      "passage": "In October 2026 she told Interview she had written and directed a short film she has not yet introduced: \"It's the most personal thing that I've ever done, which is really nice and cool because I don't usually open up in that way.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S37"
+      ],
+      "inference": "Her own statement that opening up is unusual for her; the film is a future test of the vulnerability-avoidance claim.",
+      "alternative": "She was being 'annoyingly coy'; the film is untitled and unreleased.",
+      "durability": "time_sensitive",
+      "review_trigger": "When the short film is titled or released, read what she says about why she made it and update this passage."
+    },
+    {
+      "id": "C69",
+      "claim": "Her dream roles, listed together in 2023, ranged from 'a period war drama like 1917' to 'a Big Mama's House remake.'",
+      "passage": "Her dream roles, listed in one breath, are \"a period war drama like 1917\" and \"a Big Mama's House remake.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "A wish list with range and no visible image strategy; minor support against a goal-fixed Three reading.",
+      "alternative": "A playful written answer; the same list includes Julia Ducournau and Ruben Östlund films, which are prestige choices.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "The author's Type 3 reading of the two concealments: two managed presentations kept up for years and retired on her own schedule look like image management.",
+      "passage": "Read coldly, two managed presentations kept up for years and retired on her own schedule look like image management, the signature of a Type 3.",
+      "class": "interpretation",
+      "source_ids": [
+        "S21",
+        "S01",
+        "S05"
+      ],
+      "inference": "States the strongest structural argument for the alternative type where the evidence appears.",
+      "alternative": "Both were parent- or industry-directed scripts given to a child with safety and employment reasons, which is circumstance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "The draft's type conclusion: Enneagram Type 7 at medium confidence, with Type 3 the closest rival.",
+      "passage": "Josie Totah's personality type is Enneagram Type 7, the Enthusiast. Sevens are driven to keep life open, lively and enjoyable, and to keep moving past pain. Totah picks jobs for \"the fun,\" mocks her own fame, and turns bad news into a bit. The read is held at medium confidence, with Type 3 the closest rival.",
+      "class": "interpretation",
+      "source_ids": [
+        "S27",
+        "S33",
+        "S31",
+        "S18",
+        "S37",
+        "S38"
+      ],
+      "inference": "The 60-word answer. 'Picks jobs for the fun' rests on C18, 'mocks her own fame' on C20, 'turns bad news into a bit' on C23 and C50 to C52.",
+      "alternative": "Type 3 explains much of the same record; see the type hypothesis. The typing is flagged contested.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "The draft's discriminator: what she picks when advancement and experience pull apart, and what she does with status once she has it.",
+      "passage": "The difference shows in what she picks when advancement and experience pull apart, and in what she does with status once she has it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S27",
+        "S31",
+        "S33",
+        "S18",
+        "S37",
+        "S24"
+      ],
+      "inference": "Mirrors the research discriminator; supported in the draft by C18, C34, C46, C47, C20 and C69.",
+      "alternative": "Every supporting item except castmate testimony is self-report in a genre that rewards a fun persona.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "The draft's handling of Types 8 and 6: each has a claim, weakened by her reported fear and embarrassment and indirect method (8) and by the near absence of second-guessing or worst-case planning in fourteen years of interviews (6).",
+      "passage": "Two other types have a claim. Type 8 has the producer ultimatum and \"jump on or jump off.\" But what she reports feeling, again and again, is fear and embarrassment, and her method with people in charge is to pitch by fib. Type 6 has the anxieties described below and a tight, loyal circle. But no single emotion makes a type, and in fourteen years of interviews there is almost no second-guessing or worst-case planning. Discouragement gives her an appetite.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S11",
+        "S26",
+        "S28",
+        "S38"
+      ],
+      "inference": "Keeps both live alternatives visible without using wings or arrows to explain them away.",
+      "alternative": "The absence of doubt in promotional interviews is weak evidence; press settings do not invite worst-case talk.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "As of November 10, 2026, research found no director or showrunner describing her in their own words apart from Tracey Wigfield, nothing from her parents after 2015, and nothing from siblings, schoolmates or critics.",
+      "passage": "Apart from Wigfield's one sentence, no director or showrunner describes her in their own words. This profile found nothing from her parents after 2015, and nothing from her siblings, from anyone at her high school, or from anyone with a reason to be critical. The testimony that exists is from friends and castmates, in promotional interviews, mostly with her in the room.",
+      "class": "interpretation",
+      "source_ids": [
+        "S13",
+        "S03",
+        "S32",
+        "S34",
+        "S38",
+        "S18"
+      ],
+      "inference": "States the limits of the testimony so the reader can weigh it.",
+      "alternative": "Absence of findings is not proof of absence; unopened sources are listed in research_tasks.",
+      "durability": "time_sensitive",
+      "review_trigger": "Revise when any director, showrunner, family member or critic gives a named account of her."
+    },
+    {
+      "id": "C75",
+      "claim": "The description's summary: castmates say she improvises on set, and she says she hosted her own parties with a prop cigarette and a glass of wine she did not drink.",
+      "passage": "Josie Totah improvises on set, by her castmates' account, yet hosted her own parties with a prop cigarette and a glass of wine she didn't drink.",
+      "class": "third_party",
+      "source_ids": [
+        "S38",
+        "S34",
+        "S22"
+      ],
+      "inference": "Metadata restatement of C61, C62 and C24.",
+      "alternative": "The party detail is her own account.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "Metadata: she has worked since she was ten, including Disney Channel's Jessie, Glee and NBC's Champions; appeared in Moxie, directed by Amy Poehler; and graduated from Chapman University in 2022.",
+      "passage": "She graduated from Chapman University in 2022.",
+      "class": "third_party",
+      "source_ids": [
+        "S40",
+        "S11",
+        "S31"
+      ],
+      "inference": "Factual metadata in the FAQ.",
+      "alternative": "Chapman graduation year rests on Wikipedia and on her May 2022 references to graduating (S18).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "The author's observation that someone who calls herself 'really down for anything' will not run a mundane errand alone, which a freedom motive does not predict.",
+      "passage": "Someone who calls herself \"really down for anything\" will not run a mundane errand by herself, and a freedom motive does not predict that.",
+      "class": "interpretation",
+      "source_ids": [
+        "S31",
+        "S28"
+      ],
+      "inference": "Names behavior the leading type does not explain instead of explaining it away with a wing or arrow.",
+      "alternative": "She partly attributes the grocery-store fear to not wearing her glasses; recognition in public is also a real cost for a former Disney actor.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "After the joke she said 'And so music always has to be playing'; the transcript marks a gavel sound and she said she would take the bailiff, the show's producer, out to dinner.",
+      "passage": "\"And so music always has to be playing,\" she said. The transcript records a gavel. Then she announced she was taking the bailiff out to dinner.",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "Closing detail: the bit ends, the music stays on and a plan follows.",
+      "alternative": "Crooked's transcript, audio not re-checked; the segment is comic.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 7,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C03",
+      "C05",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C20",
+      "C23",
+      "C25",
+      "C26",
+      "C27",
+      "C28",
+      "C34",
+      "C40",
+      "C42",
+      "C46",
+      "C47",
+      "C51",
+      "C54",
+      "C61",
+      "C62",
+      "C69"
+    ],
+    "against": "She is far more controlled than the Seven stereotype: she says she has never really drunk, carried a prop cigarette at her own parties, dislikes spending money, owns almost nothing, and carried six courses alongside filming (C24, C17). She uses winning and hustle language outright: an island by 30, constant cold outreach, 'how to rig' the game, 'I'm still going to win,' a self-applied 'workaholic' label (C19). She sustained two managed presentations for years, the 'gay boy' role she 'almost felt like I owed' people and the 'I'm Italian' answer in audition rooms (C07, C31), staged her coming out with care (C08), and reads high-school status as what let her 'survive' (C30). Embarrassment and shame are frequent words for her (C20), and her reflex with a skeptical director was to make him 'love' her character (C28). All of that is Type 3 material. She also reports social anxiety, a fear of going to grocery stores alone, nerves before every job and love defined as a 'safety net' (C33), which keeps Six in view, and her conditions on Saved by the Bell, her 'loud' defiance of authority and her mother's blunt house style give Eight a real case (C12, C43, C11; her three 'questions authority' statements of 2023 to 2025 in S26, S28 and S33 are not quoted in the draft). Her 'mama' and connector role is Two-like (C26). Circumstance explains a great deal: the confinement and freedom vocabulary comes from being a closeted trans child and is not temperament; restraint protected a Disney-era career; comedy interviews reward a fun-loving persona; and a comedian's self-deprecation is a trade skill. Almost everything is self-report from promotional interviews or from a podcast she hosted with her two closest friends, and the only third-party testimony comes from friends and castmates.",
+    "alternative_type": 3,
+    "alternative_case": "Type 3 (worth through achievement and a well-managed image). She has worked since ten, was attached as producer to an NBC project at 15, made a producer credit the price of a lead role at 18, sold further pitches, and describes relentless networking and a plan to win (C06, C12, C19). She adapted her presentation to what rooms wanted for years, twice (C07, C31), timed and art-directed her most personal disclosure (C08), protected her career from scandal from age 13 (C24), is acutely alert to embarrassment (C20), says she is 'so bad with being vulnerable' (C22), and met a director's indifference by resolving to win him over (C28). Friends describe someone who jokes and then 'locks in' (C27). What weakens it: she repeatedly names fun, people and experience, not advancement, as how she chooses work (C18); she kept a full, costly college life for 'memories' when career logic said to drop it (C17); she belittles her own fame and profession instead of identifying with them (C20); she disclaims the title she fought for (C13); her advice is to follow 'what you like' rather than a goal (C34); her origin story is about making a 'shocking scene' and laughter, not about being admired (C05); and her signature behavior on set, constant unscripted additions, is play rather than polish (C27, C28). Also live: Type 8 (the producer ultimatum, 'jump on or jump off,' 'don't take well to authority,' fear of vulnerability), weakened by how often she reports fear and embarrassment and by her indirect, charm-first way of getting changes made (C16); and Type 6 (specific anxieties, safety language, loyalty to a tight group), weakened by the near absence of doubt, reassurance-seeking or worst-case thinking in fourteen years of interviews.",
+    "discriminator": "What she optimizes for when career advantage and lived experience pull apart, and what she does with status once she has it. A Three reading predicts that choices track advancement and that the successful image is embraced; a Seven reading predicts that choices track enjoyment, variety and freedom, with success treated as a means and lightly mocked. On the record she: kept four years of full college life at Chapman, with two-hour drives and a sorority, and justified it as needing to 'make memories' (C17, 2021 to 2025 statements); lists 'the material, the people, and the fun' as her tests for a job (C18, 2024) and 'the experience' again in 2025; tells students to steer by 'what you like and what you don't like' rather than by a goal (C34, 2025); calls actors 'the most embarrassing thing on planet Earth,' says she was never 'that big,' and is 'ashamed' to be called a poster (C20, 2022 to 2026); says she owns almost nothing and is 'nomadic' (C25, 2026); and is described by castmates on two shows as improvising beyond the script in nearly every scene (C27, C28, 2025 to 2026). Her account of why she performs at all is 'making a shocking scene' and making people laugh (C05). The pain-handling pattern points the same way: joy as an explicit mandate on every project (C15), a depression-and-exhaustion verdict turned into a bit and a steroid request (C23), music always on, and solitude as something she is still 'working on' (C26). Limits: every item except the castmates' testimony is self-report in a genre that rewards a fun persona; the college choice may have been a family requirement; and her hustle statements (C19) are equally explicit. The discriminator would fail if directors or showrunners described her as tracking billing, reviews or status, if her choices after Carrie visibly favored prestige over enjoyment, or if her personal short film shows her dwelling in difficult material instead of stepping around it. Because the call is close and three types have real support, the typing is flagged as contested.",
+    "unexplained": "Her restraint is unusual for the leading type and is only partly explained by career protection: she barely drinks, dislikes spending, and gets anxious at owning things. A self-described loud, down-for-anything person says she cannot go to a grocery store alone. She says she wants to be an actor nobody knows anything about while calling her social media habit unhealthy and hosting a confessional podcast. She spent years inside roles others assigned her and then left both abruptly, and the record does not show what the waiting cost her beyond 'anxiety' and 'depressed.' Her nurturing 'mama' role and her safety-net definition of love do not follow from a freedom-seeking motive. Her bluntness on the podcast about politics and religion is almost absent from her press, so it is unclear which register is closer to how she is offscreen. There is no testimony from her siblings, from anyone at her Catholic high school or sorority other than a co-host, from a director in their own words, or from anyone with reason to be critical, and nothing at all from her parents after 2015."
+  }
+}

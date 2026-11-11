@@ -1,4 +1,8 @@
+<!-- .claude/skills/hyperplexed-audit/references/claude-command.md -->
+> Historical command snapshot. The active workflow is `../SKILL.md`; its current design rules, authorization handling, and verification commands override this snapshot. Do not execute these older instructions.
+
 ---
+
 description: Audit a 9takes UI surface against the HyperPlexed playbook, propose tiered fixes, and apply only approved P-pattern recipes.
 argument-hint: '[component, route, or page - e.g. src/routes/questions/+page.svelte]'
 path: .claude/skills/hyperplexed-audit/references/claude-command.md

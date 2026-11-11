@@ -1,0 +1,41 @@
+The verify stage is done and the Josie Totah profile does not pass: I set it to `insufficient_evidence`, so it holds. `verification-edit.json` is written and validates against the schema; no other repo file was touched and nothing was published.
+
+**Why it holds**
+
+- **The type call isn't established.** The article says Type 7 at medium confidence, but its own argument admits nothing separates Seven from Three: no recorded choice tests it, her 2025 job criteria move toward Three, and Six stays live. She doesn't qualify as an open case (public since 2012, deep record), so this needs new evidence, not rewording.
+- **Her reason for the producer condition is missing.** The two quoted sentences skip the one between them: "The only way for me to tell the most accurate story possible…". She gives the same reason in Variety, The Hollywood Reporter and Wonderland, and the article then uses the condition as Type 3 evidence.
+- **The closing scene misdescribes its source.** The mock trial was about hookup playlists (music during sex), not "whether music should always be on."
+
+**Scores**
+
+| Dimension | Score | Gate |
+| --- | --- | --- |
+| Evidence | 8.0 | 8 |
+| Enneagram | 7.3 | 8 |
+| Originality | 8.3 | n/a |
+| Writing | 8.0 | n/a |
+| Durability | 8.3 | 8 |
+| Hook | 8.8 | n/a |
+| Discoverability | 8.5 | 7 |
+| **Overall** | **8.0** | 8.5 |
+
+**What checked out**
+
+- I re-fetched all 28 cited sources and every quotation in the body and metadata is verbatim, with correct speakers and dates.
+- All 51 jury findings were genuinely fixed and all 22 protected passages are preserved.
+- Metadata matches the body, and my own search found no other controversy and no Flanagan statement about her.
+- One gap: the Carrie quotes come from Louisville Public Media's written summary of a video; I did not transcribe the audio.
+
+There are also seven minor findings in the file (for example, Thornton's improv remark appears in at least three interviews, not two, and the final section opens on an unanchored "Two weeks later").
+
+**What would unblock it**
+
+The file lists seven research tasks. The ones most likely to settle Seven versus Three:
+- Read the other 30 Dare We Say transcripts (only seven of 37 were opened).
+- Transcribe her Las Culturistas episode.
+- Find a director or showrunner describing her in their own words.
+
+Sources from my independent checks:
+- [Digital Trends: Carrie cast interview](https://www.digitaltrends.com/movies/carrie-mike-flanagan-cast-interview-exclusive/)
+- [TV Guide: Carrie feature](https://www.tvguide.com/news/carrie-prime-video-mike-flanagan/)
+- [Louisville Public Media: Mike Flanagan interview](https://www.lpm.org/music/2026-10-29/mike-flanagan-the-world-changes-so-much-but-the-fundamentals-stay-the-same)

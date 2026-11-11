@@ -1,0 +1,14 @@
+The fan review is written to `review-fan.json` in the run folder. It validates against the pipeline's review schema, both hashes match the request, and no other file was touched.
+
+The review raises eight findings (seven major, one minor) and keeps `contested_typing` flagged. The draft isn't flattering, but four of its most quotable moments are cleaner than their sources, and each cut leans toward the Type 7 thesis. I reopened nine of the sources to check; the rest I judged from the evidence record only.
+
+- **Hook quote cut mid-clause:** the transcript says she was afraid to drink because she "didn't want anyone to ruin anything in my parents house." The draft stops at "anything," which turns a teenage host protecting the house into a general fear of losing control.
+- **Closing scene:** her "scared in this world" sentence continues with being marginalized, the category the draft promises not to count. She also says "normally I can cry at any moment," which the draft omits.
+- **Dream roles halved:** the list also names Julia Ducournau and Ruben Östlund films, yet the draft argues the list shows no image strategy.
+- **Grocery store:** "She cannot go to a grocery store alone" is stated as fact, but in the same episode as the hook she describes going alone the night before and says "It was so nice."
+- **Family portrait:** the Time essay's exchange with her mother at 14 ("Okay, let's do it") is missing, so her mother appears only in her blunt register.
+- **Title:** "Careful Everywhere Else" is contradicted by her fake-ID bar nights through college and three years of calling herself loud and bad with authority.
+- **Type 3 argument:** it quotes her 2024 job criteria and omits her 2025 answer, which names "where it might take me" and "work begets work."
+- **Minor:** the 2016 Sundance weekend she calls the turn in her career is absent.
+
+The similarity scan tripped on one stock definitional clause shared with the Dominic Fike page. I compared only the scan's excerpts, not the other drafts, and raised no reuse finding.

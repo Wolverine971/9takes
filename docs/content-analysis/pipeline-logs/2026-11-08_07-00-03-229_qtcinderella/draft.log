@@ -1,0 +1,27 @@
+The draft stage is complete: `draft.md` and `evidence-draft.json` are written in the run directory, and both pass the pipeline's own checks (no draft blockers, evidence validates against the draft). Nothing else in the repo was touched and nothing was published.
+
+**The portrait:** QTCinderella as the host who pays for streaming's biggest night and says the people in the room don't know her. It reads her as Type 2 at medium confidence, with Type 3 argued as a serious rival in its own section.
+
+- **Why 2 leads:** what she says is missing is being understood, not recognition. After a successful Sh*tcamp she cried over tired and left-out guests. When attacked she lists what she gave ("the dinner I paid for").
+- **Why 3 stays live:** her two plainest statements about worth are about success and work ethic, and the draft says so.
+
+**State of the draft:**
+- **Length:** 3,643 words across 8 sections, slightly over the 2,000–3,500 target but inside the 4,500 limit. The edit stage tends to add words, so cuts should come first there.
+- **Quotes:** every quoted line was checked against re-fetched copies of the sources. Three that had been joined or loosely paraphrased were fixed.
+- **Evidence record:** 46 claims, each mapped to an exact passage. I dropped three unused research claims (Mormon upbringing, Disneyland quotes, Polymarket) and added six for material the draft uses.
+- **Review path:** the research-stage risk flags stand, so this goes to the six-role jury.
+
+**Controversies covered:**
+- the 2023 deepfake episode, in which she was a target
+- the November 2025 rigging accusations and her denial
+- the December 2025 show's joke backlash
+- the October 2026 wedding late-guest call-out
+- the 41-minute Twitch ban in February 2024
+
+**Gaps a reviewer will likely raise:**
+- **No named critic on rigging:** the opened sources only cite "viewers", so that paragraph falls short of the standard's named-critic rule. I logged it as a research task.
+- **Dr. K interview:** the 2020 self-worth quote is still relayed through Inven Global; the original stream was not opened.
+- **Birth date:** the draft prints the year only (1994), since the full date rests on Wikipedia alone.
+- **Streamer Awards on November 12:** the show is two days out. The draft treats it as scheduled and the argument does not depend on it, but those claims need a recheck afterward.
+- **Controversies file:** she still has no entries in `people-controversies.json`; I did not edit it, per the stage rules.
+- **Ludwig link:** his profile is unpublished, so the draft mentions him without linking.

@@ -2,6 +2,7 @@
 name: short-form-video-adapter
 description: Adapt a blog, draft, person analysis, or topic into Reels and Shorts concepts with hooks, beat-by-beat scripts, on-screen text, captions, and CTAs. Use when turning long-form 9takes content into short-form video.
 argument-hint: '<person, topic, file path, or URL path>'
+path: .claude/skills/short-form-video-adapter/SKILL.md
 ---
 
 # Short-Form Video Adapter
@@ -27,10 +28,13 @@ Examples:
 
 Load these references before scripting:
 
-- `docs/brand/README.md`
-- `docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md`
-- `docs/instagram/instagram-launch-plan-feb-2026.md`
+- `docs/brand/messaging-hierarchy.md`
+- `docs/brand/cold-light.md`
 - `.claude/commands/distribute-instagram.md`
+
+For a personality-analysis Reel, also read `docs/instagram/personality-series-north-star.md`. Preserve its lore, insider detail, and curiosity goals; do not transplant carousel-specific layout limits into a video script.
+
+The February launch plan and Gen Z cheat sheet are historical examples, not current strategy. Read them only when a comparable example is useful, and reverify their facts, platform assumptions, and brand advice. Use current account strategy and the canonical docs above when they conflict.
 
 If the source is Twitter-native or you need sharper voice calibration, also load:
 

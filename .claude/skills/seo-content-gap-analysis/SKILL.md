@@ -38,10 +38,11 @@ Load these references before analyzing:
 
 **Real Search Console data** — check `docs/data/gsc/latest.json` (see `docs/data/gsc/README.md`). When present, pull the target's actual queries, impressions, CTR, and positions from the dated CSVs and rank recommendations by measured opportunity (striking-distance positions 8–20 first, then low-CTR titles at positions 1–5, then true gaps). When absent or stale (>45 days), say so and label conclusions as inference.
 
-If the target is a recent people draft, also load:
+For people drafts, resolve the editorial contract first:
 
-- `docs/content-analysis/recent-people-drafts-seo-audit-2026-04-03.md`
-- `.claude/commands/blog_content_creator_people_v2.md`
+- New profiles and drafts with `editorial_workflow.version: 3`: read `docs/writing-system/people-profile-standard.md`. Treat FAQs, tables, and other presentation furniture as optional; recommend them only when they answer an evidenced reader need.
+- Existing legacy drafts or an explicit legacy request: preserve their contract and consult `.claude/commands/blog_content_creator_people_v2.md` as needed. Never change a workflow marker to bypass its contract.
+- Dated audits, including `docs/content-analysis/recent-people-drafts-seo-audit-2026-04-03.md`, are historical comparisons. Load one only if it covers this target, and verify its findings against current content and Search Console data.
 
 For the exact output shape, use:
 

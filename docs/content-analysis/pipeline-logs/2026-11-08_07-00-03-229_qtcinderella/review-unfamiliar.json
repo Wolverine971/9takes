@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "ea11975ad3cf13c192e81af9476ef90d6ce29815f32ff13718396297c760c101",
+  "evidence_sha256": "906417a9535adee2142fa7c4299b9290747e6c95ff1caf032c6a34b87f543eef",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Its writer, Kieran Press-Reynolds, made the sharpest argument himself: \"It's hard to believe QT thought her and Fanfan's monologues, which mostly involved things like calling Caseoh fat and cracking Piker shock-collar jokes, would result in a feast of positivity.\" Before the show she had told him, \"A complimentary joke is so much harder to make than like, 'You're a pedophile!'\"",
+      "problem": "This is the one paragraph a newcomer cannot follow, and it carries the December 2025 controversy. It packs six items into one block (a cohost's Diddy joke, online claims, a pre-show complaint, the GQ writer's argument, her pre-show quote, her response) and uses three names the article never introduces (Fanfan, Caseoh, Piker). A reader cannot tell which jokes she told herself and which her cohost told, or who objected. The \"You're a pedophile!\" line arrives with no gloss, so it can be read as a joke told at the show or as an accusation, when the evidence record files it as her pre-show remark about why insult jokes are easier than kind ones.",
+      "acceptance_test": "A reader who knows none of these people can answer three questions from the text alone: what was said on stage and by whom (QTCinderella or her cohost), who objected and on what grounds, and what she said in response. Fanfan is identified as her cohost at first mention; Caseoh and Piker are identified in a few words or the quote is trimmed to what a newcomer can parse. The \"You're a pedophile!\" quote is introduced as her own example of an easy insult joke, given before the show, and cannot be mistaken for a joke told on stage or a claim about anyone. The material is split into at least two paragraphs."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "minor",
+      "passage": "About two weeks earlier, the streamer Deshae Frost had reacted to that year's nominations on his own stream by yelling for her to \"shut the f\\*\\*\\* up,\" as Dexerto printed it.",
+      "problem": "The opening contrast is the hook, but a newcomer reaches it without two facts. The first three paragraphs never say what the Streamer Awards are or that she created them (that waits for paragraph four), and the article never says what Frost was angry about. Her reply congratulates him on a nomination, so a reader is left wondering why a nominee was shouting at the host. The later section says \"The reply to Frost belongs here\" and still does not give his reason.",
+      "acceptance_test": "By the end of the second paragraph the text has said, in a clause, that the Streamer Awards are the annual awards show she created for online streamers. The Frost sentence, or the later return to it, states what he was objecting to as the Dexerto report gives it; if that report does not give his reason, the article says so in plain words. The three-sentence turn that follows (\"Both are things a host does...\") is unchanged."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "In October 2026 the pattern ran small.",
+      "problem": "The sentence promises a pattern and the reader cannot tell which one. The paragraphs before it are about being understood and not being a burden; the wedding episode is about a public complaint and its fallout. The closing gloss (\"a grievance about friends aired in public, then a move to shield the same friends\") ties to neither type and to nothing named earlier. Placed between the centre of the Type 2 reading and the Type 3 case, it reads as a news item and slows the argument at its most important turn. The evidence record's own note says the shared wedding should not be used as type evidence unless her own behavior is the point.",
+      "acceptance_test": "Either the passage names, in one sentence, which earlier pattern this episode repeats and what in her own words shows it, with the stated limit that the audio was not reviewed; or \"the pattern ran small\" is removed and the episode is presented plainly as part of the record that the profile does not use as type evidence. In both cases a reader can say in one sentence why the episode is in the profile, and the record of the episode (her words, the critics' point, ExtraEmily's explanation) is kept."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "On January 30, 2023, the streamer Brandon Ewing, known as Atrioc, apologized on stream after inadvertently showing a browser tab for a website that sold AI-generated sexual deepfakes of women streamers, QTCinderella among them.",
+      "problem": "Ewing is introduced only as \"the streamer\", so a newcomer reads him as a stranger. Later beats depend on him being someone in her world: she weighs forgiving him, praises his work, and skips a party because he was invited. The evidence record describes him as a mutual friend in her partner's circle, but only in an analyst note, and the article never says what he was to her. Without that, the stakes of the forgiveness passage are unclear. The next sentence (\"She was a target of that site.\") also repeats what this one already said.",
+      "acceptance_test": "The section states, with a linked source, what Ewing's relationship to her and Ahgren was before January 2023; if no opened source supports a description, the text says only what the sources show (for example, that they moved in the same circle of streamers) and makes no claim of friendship. A reader can explain why forgiving him and avoiding a party he attended were live questions for her. The duplicated sentence is removed or replaced with new information."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "During the podcast recording the reporter watched, she said these streamers cannot be real friends because they do not know her last name or her birthday. That irritated her cohost Valkyrae, and GQ called the remark hyperbolic.",
+      "problem": "The body never says she co-hosts a podcast or names it; Wine About It appears only in the FAQ and keywords. Up to this point \"cohost\" has meant an awards-show cohost (Higa, then an unnamed cohost in 2025), so \"her cohost Valkyrae\" and the later \"Higa and Valkyrae, are her cohosts\" are ambiguous. Valkyrae first appears in the opening quote with no identification. The wedding passage refers to \"a podcast\" without saying whose. Ahgren is likewise named only by surname when his 2022 Streamer of the Year win comes up some 50 lines after his introduction, where the point of the anecdote is that the winner was her own partner.",
+      "acceptance_test": "The body states once, before this scene, that she co-hosts the podcast Wine About It with Valkyrae, and identifies Valkyrae in a few words at or near first mention. The limits section distinguishes the awards cohost from the podcast cohost. The trophy anecdote says the winner was her partner. The wedding passage says whose podcast carried the remarks, as far as the Dexerto report states it."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "was formally diagnosed after being swatted three times in three months",
+      "problem": "Several terms a general reader may not know are used without a gloss. \"Swatted\" is the most costly: the sniper-rifle quote that follows makes no sense without it, and the passage is the article's reason for setting the Type 6 reading aside. Others are \"a rerun channel\", \"parasocial\", \"clip farm\", and Twitch and X named with no hint of what they are. Each one is small; together they tell a newcomer the piece was written for insiders.",
+      "acceptance_test": "\"Swatted\" is explained in a short clause at first use (a false emergency report that sends armed police to a person's home). Twitch is identified once as a live-streaming platform. \"Rerun channel\" is stated in plain words. Terms that appear only inside her quotations are left as she said them, with a short gloss in the author's sentence where the meaning is needed to follow the point."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "A friend's event, Sh\\*tcon, pulled her back in, and then:",
+      "problem": "Two near-identical event names arrive two paragraphs apart with no link between them. Sh*tcon is a friend's event here; Sh*tcamp is \"the first large event she ran\" in the next section. A newcomer will take them for the same thing or a typo. The \"and then:\" also hides what \"maybe they'll come now\" refers to, so the reader cannot tell which event she is talking about in the quote that connects the childhood parties to the career.",
+      "acceptance_test": "The text says in one sentence what Sh*tcon was (a friend's gathering she attended) and that it led her to organize her own event, Sh*tcamp, so the two names are plainly different things. The \"Maybe they'll come now\" quote is introduced with what she was speaking about, as the Inven Global feature gives it."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Asked by ET in March 2023 about having invested close to a million dollars, she said the bill had tripled:",
+      "problem": "The money is half the article's argument (\"Five editions at a stated loss is still a costly choice\"), yet a reader cannot tell what the show costs. \"Close to a million dollars\" is the interviewer's figure and \"tripled\" has no baseline: it could mean a million that was three times the first year, or three million. The reader also is not told that the million-dollar figure came from the interviewer and not from her.",
+      "acceptance_test": "The sentence says whose figure \"close to a million dollars\" is and what \"tripled\" is measured against, as far as the ET exchange supports it. If the exchange does not give a baseline, the text says costs had tripled by her account and states that no total is given. No figure appears that the opened sources do not contain."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Both are things a host does. One finds the guest who knows nobody a kind neighbor. The other reads the bill out loud.",
+      "reason": "Three plain sentences turn two scenes into the question the whole profile answers. A reader who knows nothing about streaming understands the tension at once."
+    },
+    {
+      "passage": "Running an awards show pays in gratitude and in status at once, so the job cannot separate the two. The test this profile uses is narrower: what she says is still missing after the success, and what she does when she is hurt.",
+      "reason": "It tells a newcomer why the obvious evidence does not settle the type and hands them the rule for reading every later section. This is the clearest piece of orientation in the article."
+    },
+    {
+      "passage": "The number was good, and it settled nothing for her. Her list of failures is about other people: tired guests, a flat last stream, streamers who did not get a turn.",
+      "reason": "It reads the hotel quote for the reader without overstating it, and the next paragraph immediately tests it against perfectionism. A model of observation, then limit."
+    },
+    {
+      "passage": "The woman who knows which guest will be alone at the table says nobody knows her.",
+      "reason": "The central insight in one sentence, built from two details the reader has already seen. It is specific to her and could not sit in another profile."
+    },
+    {
+      "passage": "They come to her parties now, hundreds of them, to tables she arranged. By her own count, the people at those tables do not know her last name or her birthday. She seats them anyway, and puts the one who knows nobody next to someone kind.",
+      "reason": "The ending returns to the opening scene and the childhood parties without restating the thesis or adding a moral. It stops at the story's natural point."
+    }
+  ],
+  "assessment": "Read cold, this works. A reader with no knowledge of streaming finishes knowing who she is, what she built, what it costs her by her own account, and why the same record supports two readings. The type answer comes early, both types are defined in plain words, and the test for choosing between them is stated before the evidence, so the sections build instead of circling. The stakes are clear by the fifth paragraph and the momentum holds through the Sh*tcamp and deepfake sections. The weak points are orientation, not argument. The December 2025 show paragraph is hard to follow and its 'pedophile' quote can be misread (unfamiliar-01, the only major finding). The opening withholds what the awards are and why Frost was shouting; the wedding episode is labelled a pattern the reader cannot identify; Ewing's relationship to her, the podcast, and several insider terms are never explained. Momentum also dips at the end: the limits section is useful, but the trophy-theft item two days before the 2026 show reads as a news update between the limits and the closing image; I leave its durability to the future reviewer. The body never uses the word Enneagram, which is acceptable because the two types are defined where they are introduced. Similarity advisory: available and tripped on two units against the Olivia Dean draft. One is the standard 'reading of public statements, not a diagnosis' line and the other is a one-clause Type 2 definition ('hurt when the giving goes unseen'). Both are ordinary type vocabulary, not reused argument, so I raise no finding. I compared only the matched units quoted in the advisory and did not open the other draft, which is outside the supplied inputs. Judged directly, the argument (seating chart, bill read aloud, unknown surname) is specific to this subject. Risk flags are carried forward unchanged: sensitive allegations (the deepfake episode, her abuse disclosure, the unproven rigging accusation) and contested typing (Type 2 at medium confidence against a serious Type 3 case). I found no new risk. I did not reopen sources; that is outside this role, and the acceptance tests that need a fact are written to depend on what the opened sources support."
+}

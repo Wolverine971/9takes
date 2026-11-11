@@ -1,0 +1,26 @@
+The draft stage for Josie Totah is complete: both output files are written and pass the pipeline's own checks. `draft.md` has no blockers at 3,746 words, and `evidence-draft.json` validates against it with 73 claims and 43 sources.
+
+**The piece**
+- **Angle:** she hosted her own post-high-school parties holding a prop cigarette and a glass of wine she didn't drink, while castmates describe her improvising in almost every scene. The thesis is that the wildness goes into the work and the discipline protects it.
+- **Type:** Enneagram 7 at medium confidence, with a full "Why not Type 3?" section, shorter treatment of 8 and 6, and a section on what the Seven reading leaves out. Contested typing stays flagged, so the six-role jury runs next.
+- **Title:** "Josie Totah: Loud on Set, Careful Everywhere Else (Enneagram Type 7)". Unpublished, `rising-star` cluster tag, production state set to draft.
+
+**Checks run**
+- All 93 quoted fragments in the draft match the cached source text.
+- `pnpm audit:readability` flags nothing, after I varied the repeated "Label: quote" intros it caught.
+- Every direct quote in the body falls inside a claim passage.
+
+**Things you might veto**
+- **Former name:** the article never prints it. The Time quote is trimmed to avoid it, and childhood sources that use he/him are paraphrased. Two source URLs (Davis Enterprise, Deadline) still contain it.
+- **Gender identity:** stated once as fact and explicitly excluded as type evidence; only how she handled the disclosure is used.
+- **Birth details:** no birth date or birthplace is printed, because sources conflict. The page says "born in August 2001" and "Northern California".
+- **Controversy:** the only item is the 2012 "Lil' Dictator" criticism, when she was ten, covered in one plain paragraph.
+- **Time essay link:** it points to the Wayback copy, because the live URL returned an error to a scripted request.
+
+**Open items**
+- **Length:** there are about 750 words of headroom under the 4,500 ceiling, which is roughly what the edit stage tends to add.
+- **Controversies file:** the research task to add an `open` entry for her in `people-controversies.json` is not done, since this stage may only write its two outputs.
+- **Dropped claims:** five research claims the draft doesn't use were removed (C04, C10, C21, C29, C32), and the type hypothesis was revised so it no longer cites C21.
+- **Director testimony:** Flanagan's reaction to her is labelled in the text as her own report; nothing from him was found.
+
+Helper scripts are in `~/.cache/9takes-research/josie-totah/draft-stage/`, outside the repo.

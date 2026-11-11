@@ -9,7 +9,7 @@ path: .claude/skills/svelte-ui-critique/SKILL.md
 
 Use this skill for structured UI review. Default to critique only.
 
-Do not edit product files unless the user explicitly asks for implementation after the critique.
+For an audit-only request, report findings without editing product files. If the user already asked for fixes, carry those fixes through without requiring a second request after the critique.
 
 If `$ARGUMENTS` is empty, ask for one of:
 
@@ -30,10 +30,10 @@ Examples:
 Load the minimum relevant context:
 
 - `CLAUDE.md`
-- `docs/brand/README.md`
-- `docs/design/admin-style-audit.md`
+- `docs/brand/cold-light.md` — canonical visual identity
+- `docs/design-system.md` — current tokens and implementation conventions
 
-If the target is not in admin, also load the most relevant design or CSS guide you can find under `docs/design/` or `docs/development/`.
+Load a matching prior audit only for historical findings. `docs/design/admin-style-audit.md` documents the retired Streetlamp Symposium system; it must not supply current colors, tokens, typography, or theme rules. Current canonical docs take precedence over every historical audit and example.
 
 For the exact output shape, use:
 
@@ -95,7 +95,7 @@ Use the supporting template and adapt it to the target.
 - Findings first. Summary second.
 - Prioritize behavior, hierarchy, and clarity over aesthetic preferences.
 - Distinguish style drift from actual UX risk.
-- For admin surfaces, use `docs/design/admin-style-audit.md` as the baseline.
+- For admin and public surfaces, use Cold Light and the current design system as the baseline.
 - For implementation follow-up, prefer handing off to the `hyperplexed-audit` skill unless the user explicitly wants this skill to continue into edits.
 - Scope split with `hyperplexed-audit`: this skill is a fast, read-only critique pass (hierarchy, mobile, tokens, Svelte 5 fit). Use `hyperplexed-audit` when the task calls for the full HyperPlexed workflow — P-pattern recipes, implementation fixes, and tracker updates.
 

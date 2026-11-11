@@ -1,0 +1,358 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Reopened GQ: the 'find humanity in everyone' line is printed in the closing paragraph as something she said about her drive to pick up the pieces after the show, not as an invitation policy. The paragraph built on it ('Her stated policy toward difficult people', 'That accounts for who was in the room') is gone and the quote was cut. No sentence in the edit states why she invited or kept anyone. The contradiction between her purpose and the jokes is now stated and left unexplained ('The Type 2 reading does not explain that, and this profile leaves it unexplained')."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Reopened Dexerto (December 9, 2025). 'She has not disputed that criticism' is removed. The edit reports what Dexerto reports: a lot of the criticism was \"really valid,\" 'without saying which parts'; the show is \"much bigger than it used to be\" and she has to \"adjust for that\"; and she defended her joke about Rakai's ban as understood in the room but not at home. The 'complimentary joke' line now carries GQ's lead-in ('Asked about her jokes before the show, she said she was working on it, he wrote'). Her and Fanfan's monologues are distinguished from Fanfan's Diddy comparison, and the racism and homophobia claims are attributed to 'unnamed posters' 'in GQ's summary of the feed'."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "The Vice 'I've raised tons of money for charity' statement is no longer quoted or called a list, and 'it repeats the Vice interview' is gone. The deepfake section now says 'Nor does it read her type from that stream', and the Type 3 section says 'Nothing she said about the deepfakes is counted here.' The Type 3 paragraph limits the tears to 'the tears over the 2025 backlash'. The Frost account adds 'She did not uninvite him' (Dexerto: she 'shut down any notion of uninviting Frost')."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Reopened Dexerto (October 22, 2026). 'The pattern ran small', 'grievance', 'The critics' point stands' and Ahgren's 'I hate them until I die' line are all removed. Her own explanation from the October 22 posts is quoted ('This job is weird cause you share your personal life online...'). The critics' reply is reported as theirs ('Viewers replied that the couple had supplied the names'). The passage says the profile 'did not hear the podcast and draws no type conclusion from it' and gives both readings of her post. Her 'set the entire wedding back' line was cut with the rest of the podcast remarks, so nothing characterizes their tone."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The author's verdict ('The complaint is not quite fair to them') is removed. The counterpoint is stated without fault: 'the surname is one she keeps private herself. No source opened here gives her reason', with the swattings and the BBC's account of men at her shop beside it and not claimed as her reason. GQ's 'hyperbolic' and Valkyrae's irritation stay in the preceding paragraph. The closing now reads 'By her own count in December 2025, an exaggeration even to the reporter who heard it'. meta_title is now \"QTCinderella's Enneagram Type: She Says Nobody Knows Her\". The October 2026 'other content creators become your personal life' quote is included as her later description of the same peers."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Reopened GQ. The childhood paragraph now reads: Her parents were \"mostly focused on getting divorced,\" though she also said they \"definitely weren't neglectful.\" The fragment is quoted without the abuse detail that follows it in GQ. Her mother's death is stated once in the biographical paragraph ('Her mother died in 2016.')."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The sentence is kept (the enneagram reviewer protected it) but is now framed as a reading with the plainer one beside it: 'This profile reads it this way. She wants the effort seen and disowns the wish in the same sentence. The plainer reading is that she feels she has no standing to complain about an awards show.' The 'farm sympathy' quote was not added because GQ places it in the swatting passage, not the awards discussion."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Body: 'No report opened for this profile presents evidence of rigging. No vote counts are public either, so neither his claim nor her explanation can be checked from outside', with the panel caveat after it. FAQ: 'No evidence of rigging appears in the reporting reviewed for this profile, and QTCinderella denies it.' One part of the test could not be met as written: on reopening the coverage, the accusers are not only unnamed viewers. Dexerto (November 17, 2025) reports Asmongold accusing her by name of hand-picking nominees, so the body and FAQ name him; the broader 'rigged against right-wing streamers' claim stays attributed to 'some users' via GQ."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "Opened Game Rant (February 12, 2024) directly: she ran the QTEvents channel herself to raise ad revenue, critics alleged a scam, and by her tweet the 41-minute ban followed an old video containing an explicit Omegle clip. The sentence and the word 'improvised' were then cut, which the test allows: a 41-minute platform ban is minor and the article was over the word ceiling. The source is kept as S27 and the episode is listed for the controversy file in research_tasks."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The deepfake section now says 'He was not a stranger to her. GQ later described him as her \"collaborator and friend.\"' (GQ: 'QT's collaborator and friend Brandon Ewing'). The forgiveness paragraph adds the plain non-type explanation: 'He was part of her working circle, so keeping away had a cost and forgiving had a practical use, whatever her type.' The OFFBRAND business tie is not printed because no opened source states it."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The generalization about 'a person guarding an image' is cut. The edit names the norm ('Going live is how streamers answer a crisis, and Ewing's own apology that day was a live stream') and drops 'she goes live' from the Type 2 observations; the deepfake stream carries no type weight. Confidence wording stays medium."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Reopened Inven Global: it calls the Roast of Ludwig 'the first major event in QT's streaming career', so the draft's 'Sh*tcamp ... was the first large event she ran' was wrong and is corrected ('Her first major event, by Inven Global's account, was the Roast of Ludwig, an evening of insult comedy she organized for Ahgren'). The camera detail was cut for length, so the Roast is named in the event chronology instead. The through-line is stated ('her first major event was a roast') and the type read says outright that it does not explain her own jokes, twice ('this profile leaves it unexplained'; 'The insult comedy is explained by none of them')."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "The rigging FAQ now says 'Her partner won the top award at the first show in 2022, and she says she expected backlash for it.' The body section opens 'Doubts about the show's fairness are as old as the show' and states the 2022 win before the November 2025 dispute."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "'Her mother died in 2016.' is in the biographical paragraph with no causal claim. The upbringing is restored from GQ, which the edit stage reopened ('GQ reported that her family was and remains in the Mormon Church, which she left at 18'), and is used as a rival learned-practice explanation in the Type 3 section ('A household and a church that prized service and being good could also teach these habits to a child of any type')."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The edit shows the sequence that built her standing (a roast for Ahgren, then Sh*tcon, Sh*tcamp, the awards) and takes the test's second option for the objection: 'The skeptical view that her standing was borrowed from Ahgren's larger audience is not tested here.' The TSM exit is named in the same paragraph as unreviewed. A fuller sourced account of her 2020 to 2022 audience growth was not added; the article was over the word ceiling, and it is listed in research_tasks."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Roles are dated: 'The two people quoted praising her were her cohosts when they spoke, Higa at the 2022 awards and Valkyrae on the podcast in December 2025.' Wine About It is named in the biographical paragraph ('As of December 2025 she co-hosted the podcast Wine About It with Valkyrae'). The limits sentence now reads 'no named account of her motives, and no critical one, from a former collaborator, a crew member or anyone else who has worked with her', which stays true whatever Higa's later role. Higa's podcast history was not asserted because no opened source states it."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Description now reads 'QTCinderella built the Streamer Awards and has said her peers know only a version of her...' (162 characters): the payment claim and 'streaming's biggest night' are gone. persona_title is now 'The Host Who Seats the Stranger', which rests on the GQ seating scene and not on the financing."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The Type 3 section now gives each observation with its Type 3 answer ('each with a Type 3 answer'): the 2020 account ('But it is one conversation, and \"100%\" is hers too'), the Frost list ('But a list of what she did is also a list of accomplishments'), and admiration versus thanks ('A Three can want thanks too'). The 'understood' quote is kept only outside the discriminator with its context ('That one is about an audience, not friends'). The Sh*tcamp reading is narrowed ('Most of her reasons are a producer's'). The 60-word answer and both type FAQs match the revised argument. Type 4 gets a sourced sentence. Confidence stays medium, not lower, because the newly opened 2020 conversation adds pre-awards evidence for giving-to-belong; the article says why it is not higher."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The sentence is cut. The edit says 'Nor does it read her type from that stream' and 'Nothing she said about the deepfakes is counted here', and 'she does not manage it out of view' is gone from the Type 3 section."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The win is now a plain sentence separate from her tears: 'At the first ceremony, on March 12, 2022, Streamer of the Year went to Ludwig Ahgren, the host's partner.' The edit says how nominees are chosen per an opened source ('Nominees are fan-voted, Dexerto reported'), that 'neither his claim nor her explanation can be checked from outside', and gives a named critic's actual argument, found on reopening the coverage: Asmongold's 'You're lying...' and his claim that she \"exercised editorial control\" to keep viewers and sponsors (Dexerto, November 17, 2025). Her 'There's no benefit to rigging' line was cut, so it no longer stands unexamined. The FAQ matches."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "'That accounts for who was in the room' and 'she has not disputed that criticism' are removed. The edit addresses her own monologue as a contradiction of her stated purpose and leaves it unexplained: 'Her own material that night was insult comedy, and her first major event was a roast. The Type 2 reading does not explain that.' Her December 8 response is reported as Dexerto gives it."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The June 20, 2020 conversation was opened at the edit stage through its automatic captions (source S24, about 97 minutes), and the article links timestamps for each group of quotations. It reports what the conversation says in both directions: support for Type 2 over Type 3 (the cookies, earning care, fitting in with her family) and support for Type 6 (the doubt and reassurance-seeking). 'The full recording was not reviewed' is replaced by an accurate limit: 'was read here from automatic captions and not checked by ear, so a word may be off'. Audio could not be obtained in this stage; pinning against it is the first research task. The Inven Global wording of the two Type 3 quotes is kept and labeled as Inven's."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "persona_title and description no longer state the payment claim (see fan-08). 'She also runs it nearly alone' and the staffing sentence were cut. The sponsor statement sits in the paragraph after the Dexerto (December 23, 2024) link, which lists the show's 2024 sponsors; the body keeps 'by her account, pays for' and 'nobody outside has audited them'."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "'Two party stories recur' is now 'The sources opened for this profile hold two party stories, each told once.' The H2 is retitled with her own words ('\"Maybe they'll come now\"'), and the 60-word answer and type FAQ no longer mention parties nobody came to."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "'In October 2026 the pattern ran small' is removed. The episode is reported as record with no type weight ('draws no type conclusion from it'), Ahgren's line is gone, and both readings of her October 22 post are given: 'shielding friends, or ... blaming the audience for a pile-on the couple started.'"
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "The sponsor report was opened (Dexerto, December 23, 2024; it concerns the 2024 show) and is included with her words: the show was \"almost profitable\" until a sponsor \"pulled out last second\" over a nominee. The prediction-market item (S14, reopened) is excluded with this reason: it is one chat viewer's accusation about third-party betting sites, no opened report says she had any stake, and she answered with a denial and a cease and desist, so printing it would repeat an unsupported charge without adding to the fairness dispute the article already covers through a named critic. It is logged for the controversy file. The trophy-theft item was cut (future-01)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The December 2025 material is now three paragraphs: what was said on stage and by whom ('Both she and her cohost, the streamer Fanfan, delivered monologues built on insult jokes. Fanfan also compared Kai Cenat to Sean Combs...'), who objected (unnamed posters per GQ, then GQ's writer by name), and her response two days later. Caseoh and Hasan Piker are identified as streamers. The 'You're a pedophile!' line is introduced as her own example, given before the show, of why kind jokes are harder."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The first sentence now says the Streamer Awards are 'the annual awards show for online streamers that she created'. Reopened Dexerto: it does not give Frost's reason, and the article says so ('The report does not say what set him off'). The three-sentence turn is unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "'The pattern ran small' is removed. The passage now opens 'By October 2026 she was describing those coworkers differently', so the reader can say why it is here: it is her own later account of the same peers ('other content creators become your personal life'). The record of the episode (her post, the viewers' reply, ExtraEmily's explanation) is kept, and the passage says it carries no type conclusion."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The section says what Ewing was to her with a source ('GQ later described him as her \"collaborator and friend\"'), the forgiveness paragraph explains why distance and forgiveness were live questions ('He was part of her working circle'), and the duplicated sentence 'She was a target of that site' is removed."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Valkyrae is identified at first mention ('Valkyrae is a streamer and her podcast cohost') and the podcast is named in the biographical paragraph. The limits section separates the awards cohost from the podcast cohost. The trophy sentence says the winner was 'the host's partner'. The wedding passage says 'on a podcast'; Dexerto does not name it."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Swatting is explained at first use ('three swattings, false emergency calls that send armed police to a home'), Twitch is 'the live-video platform', X is '(formerly Twitter)', and 'rerun channel' and 'clip farm' are gone with the sentences that used them. 'Parasocial' appears only inside her quotation and is left as she wrote it."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Reopened Inven Global. The two names are now distinct: Sh*tcon is 'a parody of the cancelled TwitchCon convention' organized by a friend, which she attended, and Sh*tcamp is the event 'she pitched at Sh*tcon and ran in September 2021'. The 'maybe they'll come now' quote is introduced with what she was speaking about ('She credited the friend: \"it's really Malena that inspired me to get back into it...\"')."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Reopened ET. The sentence now says whose figure it is and what 'tripled' is measured against: 'an ET interviewer put it to her that she had invested close to a million dollars. She answered only that everything had cost triple the year before'. No total appears that the sources do not contain."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Reopened the source the reviewer named. S24 (the June 20, 2020 Dr. K conversation) is added as an opened source with timestamps, read through the same automatic captions. Two limits remain and are stated in the article and the record: audio could not be obtained in this stage, so quotations are short caption fragments labeled as such ('Quotations from it follow the video's automatic captions'; 'not checked by ear'), and about 40% of the conversation was read closely. 'Has a plain outside cause' is corrected: 'Some of the vigilance has a plain outside cause... But the timeline does not let those events carry all of it. The doubt and the reassurance-seeking were there in June 2020, before the deepfakes.' Type 6 now has its own H2 with its best evidence (C54, C27) and a sourced observation that separates it from Type 2: the reassurance she sought was about being liked, she traced the doubt to not liking herself ('since I don't like myself why would anybody else like me'), and her remedy was to give and not to ask (C55, C52). The limit is stated ('It is a narrow separation... This profile ranks Type 6 about level with Type 3 as a rival'). Type 1 gets a record-based reason. Health details are held to what the argument needs. Editor's judgment, which the verifier should test: because a sourced separator exists the evidence is not marked insufficient, and because the leading type, the confidence and the recorded alternative (Type 3, which her two plainest statements about worth support) are unchanged, major_thesis_change is not flagged. Five of the six reviewers have not seen the 2020 source or the Type 6 section. If the verifier finds Type 6 the stronger rival, the right outcome is a hold for --refresh --expanded-review; that is the second research task."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The self-worth line now sits beside the rest of the exchange: Kanojia's 'superior to others' summary is labeled his ('That formulation is his'), and her answer follows ('no one put pressure on me besides myself'; 'I just wanted to fit in with my own family'). The cookies, earn-care and fit-in passages are in the claim inventory as self_report (C51, C52, C53) with timestamps. The article says what they do to the Type 3 case and to the 2025 line ('sounds less like a scoreboard and more like the cookies'), and weighs the taught standard (family, church) as a learned-practice limit without a childhood-cause claim. 'The full recording was not reviewed' is removed. Not met: pinning against audio, which was unavailable; the article and S24 say the wording is from auto-captions."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The leg is restated as the reviewer proposed: 'she has the admiration a Three works for and does not cite it when she is hurt. What she says is missing is thanks for the giving.' The 'understood' quote is kept only with its audience context, outside the discriminator. The 'Why isn't QTCinderella a Type 3?' FAQ and the type FAQ are rewritten to match."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The 'center of the Type 2 reading' label is dropped. The asymmetry is presented as shared ground ('it does not pick a type. A Three would call \"a version of me\" a persona. A Six would call it caution'), the withheld surname sits beside the safety record, and the Type 2 case now rests on evidence the rivals do not predict: the 2020 cookies and earn-care statements, the make-up of her list to Frost, and low-stakes giving seen by GQ's reporter."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The generalization about people guarding an image is removed from the deepfake section and from the Type 3 section. The fact that she went live expecting to be told not to is kept as record. One deliberate difference from the test: the leg rests on the November 2025 list only, not on both lists, because the subject and critic reviewers showed that the February 2023 statement answered sexual images her family had seen (the edit says 'Nothing she said about the deepfakes is counted here'). The calm-moment gift observation from GQ (C58) and the 2020 statements carry the weight the second list carried."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Reopened GQ. The gift and ambulance observations are added and attributed to GQ's reporter ('helped her brainstorm Christmas gifts', keyboard caps she 'thinks went unused', pulling over for ambulances, 'I think I'm empathetic to a fault'), with claim C58. Their limit is stated: 'A day with a reporter is a performance too, and empathy belongs to no one type.' The 'LLC' and 'no sympathy' lines were left out for length."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The claim is narrowed: 'Most of her reasons are a producer's, and she added, \"I take it really personally because I just want it to be better.\" One reason is about who was left out'. The matching sentence in the Type 3 section ('her measure of failure was other people's night') is removed."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The wedding episode is reported as record with no pattern claim. Companion check done: the Ludwig Ahgren draft uses his own October 20, 2026 stream remark about the wedding, not the late-guest naming, so the two pages do not cite the same act as proof of different types."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "No body or FAQ sentence describes the November 12, 2026 show in future or scheduled tense, and 'after this was written' is gone. The limits section has the dated sentence: 'The record closes on November 10, 2026, before the sixth Streamer Awards, so the \"very hard pivot\" she promised is untested in this profile.' The trophy theft is cut. The post-November-12 update task is kept and covers C17, C29, C31, C41 and C48."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "First use is now dated and linked: 'During that same December 2025 visit she told GQ of the people in it'. meta_title attributes the claim ('She Says Nobody Knows Her'). C28 is time_sensitive with a review trigger. The closing paragraph keeps its image with the date ('By her own count in December 2025, an exaggeration even to the reporter who heard it')."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "persona_title ('The Host Who Seats the Stranger') stays true if the financing changes. The description drops the financing claim and 'biggest night'. The remaining factual metadata claims have inventory entries (C64 for the description, C39 and C40 for the FAQs, C17 and C29 behind the money and rigging FAQs)."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Each flagged sentence is dated or removed: the money FAQ opens 'As of December 2025, by her account, no'; body and FAQ say 'For the 2025 show, winners were decided'; 'She also runs it nearly alone' is cut; 'in December 2025 GQ still called her \"small fry...\"'; 'GQ reported in December 2025 that she was diagnosed'; the loss claim follows her dated statements and reads 'Five editions at a stated loss'; Wine About It is named and dated in the body and FAQ ('As of December 2025 she co-hosted')."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The passage is cut to a short dated record (about 110 words): the naming, her October 22 posts in her own words, the viewers' reply and ExtraEmily's response. Ahgren's quote is gone. It states that no type conclusion is drawn, and removing it leaves the section's argument unchanged."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "C18 was removed with its sentence. C08 is time_sensitive with a trigger. C25 has the trigger 'Recheck if she and Ewing appear together or she revises the statement.' C10 has a trigger to re-pin against audio and reopen the type argument. C28 is time_sensitive. The new caption-based claims (C51 to C55) carry the same audio trigger."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "The ban sentence is cut (Game Rant was opened and is kept as S27 for a later refresh), and the culinary-school and Disneyland details are dropped, so no body fact rests only on a live Wikipedia page. The remaining Wikipedia link supports the birth year and siblings beside GQ."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "Reopened GQ. The cohost is named once in author prose ('her cohost, the streamer Fanfan'), the Diddy comparison gets a clause ('Sean Combs, the music mogul known as Diddy, who was convicted in a federal case that year'), and the GQ quotation is left word for word. One part of the test is not met: GQ does not explain the 'Piker shock-collar jokes' and no opened source does, so the edit identifies Caseoh and Piker as streamers and does not gloss the collar reference. Finding a source for it is in research_tasks. The Combs clause is the editor's general-knowledge gloss and is flagged in C31 for the verifier."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is her account, given twice on the record. This profile reports it in her words and draws no conclusion about her personality from it.",
+      "action": "kept",
+      "reason": "Unchanged. No detail from GQ or from the 2020 conversation was added to the abuse disclosure."
+    },
+    {
+      "passage": "Her forgiveness is her own to give and does not change the record of what happened.",
+      "action": "kept",
+      "reason": "Unchanged; it still closes the forgiveness paragraph."
+    },
+    {
+      "passage": "But the vigilance has a plain outside cause, and anxiety alone does not make a Six.",
+      "action": "changed",
+      "reason": "Now 'Some of the vigilance has a plain outside cause, and anxiety alone does not make a Six.' The sentence still credits her circumstances before her personality, but 'the vigilance' as a whole was contradicted by the 2020 conversation, which shows the doubt and reassurance-seeking before the deepfakes (enneagram-01). The correction follows in the same paragraph."
+    },
+    {
+      "passage": "QTCinderella goes by Blaire and does not publish her surname.",
+      "action": "kept",
+      "reason": "Unchanged. The page still prints no surname, no initial and no full birth date."
+    },
+    {
+      "passage": "Nearly all of the evidence about motive is her own account, given to reporters between 2022 and 2025, often in weeks when she was promoting an event or defending one.",
+      "action": "kept",
+      "reason": "Unchanged. A following sentence names the one exception, the 2020 conversation, and its limit."
+    },
+    {
+      "passage": "Both are things a host does. One finds the guest who knows nobody a kind neighbor. The other reads the bill out loud.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "The complaint is not quite fair to them. She is the one who withholds the surname. But she keeps naming the same absence.",
+      "action": "changed",
+      "reason": "Now 'The counterpoint is already on the page: the surname is one she keeps private herself. No source opened here gives her reason. ... But she keeps naming the same absence.' The contradiction against her own claim is still met in the same paragraph and the claim keeps its evidential value; the author's fairness verdict is removed because it framed a privacy choice as a fault with no source for her reason (subject-05)."
+    },
+    {
+      "passage": "Keeping \"my thing\" is a claim of ownership. Choosing Higa is a gift. A Two or a Three could have made that call.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "A stated mission is also a brand. The girl nobody came to see who now throws the party is a very good origin story for an events business, and she may tell it because it works.",
+      "action": "kept",
+      "reason": "Unchanged, still beside the party anecdotes."
+    },
+    {
+      "passage": "This profile did not review the podcast audio, so the tone of the first remarks is unknown. What the reporting shows is a grievance about friends aired in public, then a move to shield the same friends from the audience. The critics' point stands: the couple supplied the names.",
+      "action": "changed",
+      "reason": "Now 'This profile did not hear the podcast and draws no type conclusion from it. Her post can be read as shielding friends, or as blaming the audience for a pile-on the couple started', with the viewers' reply reported as theirs. The stated limit and the critics' argument are kept. 'Grievance' characterized remarks the profile says it did not hear, and 'The critics' point stands' was an author ruling the standard does not allow (subject-04, critic-08)."
+    },
+    {
+      "passage": "The complaint is not quite fair to them. She is the one who withholds the surname.",
+      "action": "changed",
+      "reason": "Now 'The counterpoint is already on the page: the surname is one she keeps private herself.' The adverse point against her own account is still made directly and in the same paragraph; the verdict wording is removed (subject-05)."
+    },
+    {
+      "passage": "The two people quoted praising her here, Higa and Valkyrae, are her cohosts. They speak to her effort and her planning, not to why she does it.",
+      "action": "changed",
+      "reason": "Now 'The two people quoted praising her were her cohosts when they spoke, Higa at the 2022 awards and Valkyrae on the podcast in December 2025. They speak to her effort and her planning, not to why she does it.' The limit of the testimony is kept; the roles are dated because the present tense overstated what the record shows (fan-07)."
+    },
+    {
+      "passage": "Running an awards show pays in gratitude and in status at once, so the job cannot separate the two. The test this profile uses is narrower: what she says is still missing after the success, and what she does when she is hurt.",
+      "action": "changed",
+      "reason": "The first sentence is unchanged. The second now reads 'The test this profile uses is narrower: what she said the giving was for before there was a show, and what she counts when she is hurt.' The reader is still handed the rule for the sections that follow, but the old test ('what she says is still missing') rested on the 'understood' quotes, which two reviewers showed are about audience reception (critic-01, enneagram-03)."
+    },
+    {
+      "passage": "The number was good, and it settled nothing for her. Her list of failures is about other people: tired guests, a flat last stream, streamers who did not get a turn.",
+      "action": "changed",
+      "reason": "The first sentence is unchanged. The second is replaced by 'Most of her reasons are a producer's, and she added, \"I take it really personally because I just want it to be better.\" One reason is about who was left out'. The observation-then-limit shape is kept; the old sentence overread the quote, since two of her four reasons are about performance (enneagram-07)."
+    },
+    {
+      "passage": "The woman who knows which guest will be alone at the table says nobody knows her.",
+      "action": "kept",
+      "reason": "Unchanged. It now opens the paragraph that says the asymmetry does not pick a type."
+    },
+    {
+      "passage": "They come to her parties now, hundreds of them, to tables she arranged. By her own count, the people at those tables do not know her last name or her birthday. She seats them anyway, and puts the one who knows nobody next to someone kind.",
+      "action": "changed",
+      "reason": "The first and last sentences are unchanged and the ending still returns to the opening scene without a moral. The middle sentence now reads 'By her own count in December 2025, an exaggeration even to the reporter who heard it, the people at those tables do not know her last name or her birthday', because the remark came from one sitting and GQ called it hyperbolic (subject-05, future-02)."
+    },
+    {
+      "passage": "Running an awards show pays in gratitude and in status at once, so the job cannot separate the two.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "She wants the effort seen and disowns the wish in the same sentence.",
+      "action": "kept",
+      "reason": "Unchanged. It is now introduced with 'This profile reads it this way' and followed by the plainer reading (subject-07)."
+    },
+    {
+      "passage": "The number was good, and it settled nothing for her.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "As of November 10, 2026, this profile found no named account of her from a former collaborator, a crew member or a critic who has worked with her.",
+      "action": "changed",
+      "reason": "Now 'As of November 10, 2026, this profile found no named account of her motives, and no critical one, from a former collaborator, a crew member or anyone else who has worked with her.' The absolute date and the checkable limit are kept; the wording is narrowed so it stays true even though Higa, a past cohost, is quoted praising her (fan-07)."
+    }
+  ],
+  "prior_blockers": []
+}

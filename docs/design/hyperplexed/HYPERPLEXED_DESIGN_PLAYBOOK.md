@@ -258,7 +258,7 @@ surfaces, and one intentional signature moment when earned.
 
 **The workflow around this playbook:**
 
-- **`/hyperplexed-audit <surface>`** (`.claude/commands/hyperplexed-audit.md`) — the entry point.
+- **`/hyperplexed-audit <surface>`** (`.claude/skills/hyperplexed-audit/SKILL.md`) — the entry point.
   Runs the whole loop: locate + prior art → region-by-region static audit → tiered findings with
   `→ P#` citations → **stop for DJ's approval** → apply approved fixes → verify → update the
   tracker and audit doc. Prefer invoking this over running an audit ad hoc.

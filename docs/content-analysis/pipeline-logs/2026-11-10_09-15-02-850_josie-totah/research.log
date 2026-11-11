@@ -1,0 +1,22 @@
+The research stage for Josie Totah is complete: `evidence.json` is written, passes the pipeline's schema validation, and every quoted excerpt matched the cached source text (265 fragments checked, 0 misses).
+
+**Outcome:** `status: ready`, standard format, with 43 opened sources (2012–2026) and 40 claims.
+
+- **Leading read:** Type 7, medium confidence. The record points to someone organized around keeping life lively and open, with work as the playground. She names "the fun" as a test for taking a job and kept a full college life "to make memories". She mocks her own fame, and castmates on two shows describe constant improvising.
+- **Strongest alternative:** Type 3. The hustle language is explicit ("I'm still going to win", an island by 30). She also kept up two managed presentations for years and staged her coming out carefully. Types 8 and 6 are noted as weaker live options.
+- **Contested typing is flagged**, so the run goes to the six-role jury. The 7-vs-3 call is close, and the discriminator rests mostly on self-report from promotional interviews.
+- **Gender identity is not used as type evidence.** The record says so explicitly and uses only how she handled the disclosure (timing, tone, staging), per the queue note.
+- **No adult controversy found.** The only criticism on record is of a 2012 web spoof she appeared in at age ten.
+- **Current facts checked 2026-11-10:**
+  - *Carrie* premiered October 7, 2026, and was renewed for a second season.
+  - *The Buccaneers* is renewed for season 3.
+  - *Faces of Death* opened April 10, 2026.
+  - She is 25.
+
+Gaps recorded as research tasks in the file:
+- **Refinery29 2018 interview:** could not be opened; it is the only long interview from just after the Time essay.
+- **Director testimony:** nothing from Mike Flanagan in his own words. The "Mike doesn't like Tina" story is her account, taken from a written summary of a video interview.
+- **Birthplace and exact birth date:** sources conflict (Davis, San Francisco, "near Sacramento"), so the file says not to print either.
+- **Podcast quotes:** these come from Crooked Media's published transcripts; the audio was not re-checked.
+
+Only `evidence.json` was written in the repo. Fetched pages and helper scripts are in `~/.cache/9takes-research/josie-totah/`, outside the public repo.

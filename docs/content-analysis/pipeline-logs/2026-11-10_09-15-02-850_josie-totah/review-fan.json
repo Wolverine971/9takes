@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "559d9e3f9f611878f418fafe1846218fa788e5434db4c900665ce0353d5eea84",
+  "evidence_sha256": "ea130b0a6de17c65a219d5490277117e6f314aad8b7007a0dbe4fbfc5564dd02",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "\"I was so afraid to drink because I didn't want anyone to ruin anything,\" she said on her podcast in April 2023, so she worked the room with props.",
+      "problem": "The hook quote is cut mid-clause. Crooked's transcript (S22, reopened) reads: \"I was so afraid to drink because I didn't want anyone to ruin anything in in my parents house.\" The fear she names is guests wrecking her parents' home while she hosted, an ordinary reason for a teenage host to stay sober. Ending the quotation at \"anything\" with a closing quote mark turns it into a general fear of losing control, and the opening, the persona_title and the thesis line \"The discipline protects the place where she gets to play\" are then built on that reading.",
+      "acceptance_test": "The quotation runs through \"in my parents house\" (or the cut is marked and the house is stated in the author's prose), and the opening no longer implies the sober hosting was about protecting her career or her work. Any control/discipline reading of this scene is labeled as inference and sits beside the plain host-of-the-house explanation."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "She was \"feeling insecure and, like, tired of being scared in this world,\" and also just exhausted. She kept going to the bathroom at work to cry and couldn't: \"I knew I needed to get out, but I could not get it out.\"",
+      "problem": "Two omissions from the same transcript (S19, reopened) change what this closing scene shows. (1) Her sentence continues: \"tired of being scared in this world, that like. Has you know marginalized us and like made us feel like we shouldn't exist.\" She ties the low week to being marginalized, which is exactly the category the draft promised not to count (\"none of that language is counted here\"); the cut hides that. (2) Seconds later she says \"normally I can cry at any moment too. But yesterday...\" So this was an exception she herself flags, not her pattern, and it cuts against both this ending and \"I'm so bad with being vulnerable.\" The \"myself\" line that follows is also delivered as a joke (the transcript marks a laugh), which the section never says outright.",
+      "acceptance_test": "The section states that she attributed the week to feeling marginalized and to exhaustion, quotes or reports \"normally I can cry at any moment too,\" and says in plain words that the horror-class answer was told for a laugh. The section then either stops using the crying episode as Seven evidence or explains why it is not covered by the draft's own exclusion rule."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "Her dream roles, listed in one breath, are \"a period war drama like 1917\" and \"a Big Mama's House remake.\" A wish list built for image would point somewhere. Hers has range.",
+      "problem": "The list is halved. Wonderland (S24, reopened) prints: \"Randomly, I would love to be in a period war drama like 1917. But at the same time in a Big Mama's House remake or a Julia Ducournau or Ruben Östlund film.\" Three of the four items are prestige or festival-auteur choices (two are Palme d'Or winners). Saying the roles \"are\" the first two, then arguing the list shows no image strategy, uses the cut to make the point. This is one of the draft's listed supports for the Type 7 over Type 3 discriminator.",
+      "acceptance_test": "All four items appear, and the inference is rewritten to fit the full list (or the dream-roles point is dropped from the Type 3 argument). No sentence claims the list lacks direction while omitting Ducournau and Östlund."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "She cannot go to a grocery store alone.",
+      "problem": "Stated as present-tense fact in the author's voice, and the record in the draft's own source set contradicts it. On the April 6, 2023 episode (S22, reopened), the same episode the hook comes from, she opens by saying she went to the grocery store alone the night before, \"a little risky for me,\" her first solo trip since returning to the U.S.: \"went to Trader Joe's. It was so nice.\" The January 2024 Galore line answers a light prompt (\"What is one thing people would be surprised to know about you?\") and she adds that she \"always bring[s] a buddy\" and blames her glasses. The honest version is a jokey self-description she has also described pushing past.",
+      "acceptance_test": "The sentence is attributed and dated (what she told Galore in January 2024, in answer to a surprise-fact question), and the April 2023 solo trip she described as \"so nice\" appears beside it. The paragraph's conclusion about what a freedom motive fails to predict is scaled to that evidence."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "Both scripts were handed to a child by adults, with real safety and employment reasons behind them.",
+      "problem": "The essay's best-known scene is missing, and without it the family portrait tilts. In the Time essay (S01, reopened) she says that at 14, watching I Am Jazz with her mother, she said \"This is me. I'm transgender. And I need to go through this,\" her mother answered \"Okay, let's do it,\" and three days later she was at the pediatrician. She calls her mother \"immensely supportive and gracious\"; Variety (S13) adds a therapist at five or six and a \"whenever you're ready\" household. The draft names Christine Totah and shows her only as the source of \"never tell them you're Palestinian,\" house rules that made college non-optional, and \"you'll ruin your life. And I'll just sit here and watch it happen\" (a comic paraphrase). \"Handed to a child by adults\" then reads as if the parents authored the gay-boy presentation too, when the essay says peers, the industry and reporters assumed it and that she \"halfway corrected people.\" The essay also gives its own timing, \"This week, I'm going off to college,\" which the draft replaces with Champions ending alone.",
+      "acceptance_test": "The 14-year-old I Am Jazz exchange and her mother's answer appear with attribution to the essay; the sentence about the two scripts says who supplied each (parents for the ethnicity answer; assumption by peers, industry and press for the other, with her partial correction noted); and the timing passage includes that the essay ran the week she left for college. A reader finishes with both the blunt and the supportive mother on the page."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "Josie Totah: Loud on Set, Careful Everywhere Else (Enneagram Type 7)",
+      "problem": "The title's split is tidier than the record, and the body leaves out the parts that break it. \"I've never really drank\" comes from a passage (S18, reopened) where she says she \"always went to the bar with a fake I.D.\" through college, using her sister's ID, and was kicked out of a bar at graduation: not careful, and not career-protective. Offscreen she calls herself loud three years running: \"I have too loud of a mouth\" (2023, quoted in the draft), \"I'm quite loud and don't take well to authority\" (Galore 2024, reopened), \"oppositional defiance\" (Nylon 2023), \"questions authority... something that I definitely do\" (Crimson 2025), plus \"I was definitely mean back\" (Interview 2026) and \"how bad of a kid I was\" (Variety 2021). None of the authority lines is in the draft, and the Type 8 paragraph is argued from two items only. The real contradiction a follower would recognize is sharper than loud-versus-careful: she says she does not take authority well, yet she kept her parents' audition script for six years, obeyed the alcohol warning, and pitches a showrunner by fib.",
+      "acceptance_test": "Title and thesis no longer claim she is careful \"everywhere else\"; the restraint is limited to what the record shows (alcohol, possessions) and the fake-ID bar nights appear next to \"never really drank.\" At least one of her own authority self-descriptions is quoted, either in the Type 8 paragraph or in the section on what the Seven reading leaves out, with the obey-and-work-around behavior set against it."
+    },
+    {
+      "id": "fan-07",
+      "severity": "major",
+      "passage": "Her stated test for a job, in 2024: \"I examine the three main factors: the material, the people, and the fun.\"",
+      "problem": "The discriminator against Type 3 quotes her 2024 criteria and omits her most recent answer to the same question. Numéro Netherlands, June 2025 (S30, reopened): \"it comes down to two big factors: the project and the experience. I weigh the director and material, but also where it might take me and who I might get to work with... I'm also such a believer in work begets work.\" Advancement is a named criterion there. People, 2024 (S29): \"I am an actor. I want to work.\" Both are in the evidence record and neither is in the article, so the reader sees only the version that favors the leading type.",
+      "acceptance_test": "The 2025 \"where it might take me\" / \"work begets work\" answer is quoted in the Type 3 section with its date, and the paragraph says how the Seven reading survives it (or lowers its claim). The limits paragraph no longer rests on \"stated criteria may flatter necessity\" alone."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "At 15 she was attached as star and producer to an NBC comedy",
+      "problem": "The step she herself calls the turn in her career is missing, so the NBC deal appears from nowhere. Wonderland (S24, reopened): in 2016 \"my dad nearly forced me to attend the Sundance Film Festival for a film where I was literally in two scenes... that weekend changed the trajectory of my career,\" leading to the NBC sale \"with the help of the producer of that film Naomi Scott\" and then her first lead. The film is Other People. It matters to the argument both ways: a father pushing a reluctant 14-year-old toward the career-making room is evidence about who supplied the strategy. Champions is also never explained (the Mindy Kaling series in which she played a gay teenager), which leaves \"when I was playing a male character\" without context; Kaling is in suggestions but not in the body.",
+      "acceptance_test": "One or two sourced sentences give the 2016 Sundance weekend in her words, including her father's push and Naomi Scott's role, and Champions is identified on first mention well enough that a reader understands why its end mattered to the timing of the essay."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "One limit matters more than the rest. Totah is a transgender woman, and being trans is not evidence of any personality type.",
+      "reason": "States the boundary plainly and early. Keep it, and apply it to the sections flagged in fan-02."
+    },
+    {
+      "passage": "Who she is belongs to her. How she said it is fair to read, and she planned it.",
+      "reason": "Separates identity from the handling of a public statement in two short sentences."
+    },
+    {
+      "passage": "She cannot leave the material alone, and she gets her way with a fib about journaling and an open laptop.",
+      "reason": "The Buccaneers journaling story is the most specific behavior on the page and this line reads it without overreach."
+    },
+    {
+      "passage": "That is praise for talent. It says nothing about motive.",
+      "reason": "Refuses to turn an employer's compliment into type evidence; the discipline the rest of the draft should match."
+    },
+    {
+      "passage": "Then there is who has not spoken. Apart from Wigfield's one sentence, no director or showrunner describes her in their own words.",
+      "reason": "Names the gap in the testimony instead of hiding it; accurate to the record."
+    }
+  ],
+  "assessment": "Read as someone who knows the podcast and the Time essay. I reopened S01 (through a reader copy of time.com), S18, S19, S21, S22, S24, S28, S30 and the raw Wikipedia text; the remaining sources were judged from the evidence record only. The draft is not flattering and its limits paragraphs are honest, but four of its most quotable moments are cleaner than their sources: the hook drops \"in my parents house\" (fan-01), the closing scene drops the marginalization clause and \"normally I can cry at any moment\" (fan-02), the dream-role list drops its two auteur names (fan-03), and the grocery-store sentence ignores her own account of going alone (fan-04). Each cut moves the evidence toward the thesis, so they need fixing together, and the opening image and title should be re-checked once they are. Formative context a follower expects is thin: the I Am Jazz exchange with her mother at 14 and the 2016 Sundance weekend are absent, and her mother appears only in her blunt register (fan-05, fan-08). The Type 3 case is argued seriously, though it leaves out her 2025 \"where it might take me\" answer (fan-07); the Type 8 case leaves out three of her own statements about authority (fan-06). Facts I could check held: the ethnicity passage matches the transcript and current Wikipedia text (no Italian ancestry claimed), the mother paraphrase is accurate and labeled, ages and dates are consistent, and the trans-identity boundary is stated well. Similarity: the diagnostic tripped on one definitional clause shared word for word with the Dominic Fike page (\"the three types organized around fear\") and two generic phrases. I compared only the excerpts in the diagnostic, not the other drafts; on that basis the argument here (prop cigarette, producer condition, steroid story, the career-versus-experience test) is specific to her and I am not raising a reuse finding. No sensitive allegation is involved; typing stays contested."
+}

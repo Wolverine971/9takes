@@ -1,0 +1,1070 @@
+{
+  "schema_version": 3,
+  "content_sha256": "b955ceedf49c337bc2dcb6cbfd5cde9fcd7a1bb02f167ec879840fcfcb5d80dc",
+  "evidence_sha256": "da4ad9d82f0760573c75ad8649d3ce39a1c8a17d5af3e1a37a9219e1fe9829af",
+  "status": "insufficient_evidence",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "major",
+      "passage": "Confidence is medium. Type 3 is the closest rival; Type 6 is live.",
+      "problem": "The article states Type 7 at medium confidence, but its own argument and the evidence record say no discriminator separates Seven from Three: 'A choice would settle it... None is on record,' her 2025 criteria 'move toward Three,' what leans Seven is 'small and specific,' and the Carrie episode, the on-set split and the staged essay all fit Three equally. Six is also left live. After the jury's fixes the Three case (working since ten, producer at 15 and 18, 'I'm still going to win,' constant outreach, 'work begets work,' shame vocabulary, status as protection) is at least as well evidenced as the Seven case, which rests on stated preferences from promotional Q&As and on how she tells stories on a comedy podcast. The standard calls for a sourced discriminator the strongest alternative fails, and for a research hold when none exists. She does not qualify as an open case: she has worked publicly since 2012 and has a deep first-person record. This cannot be repaired by rewording.",
+      "acceptance_test": "Research adds at least one sourced, dated item that Type 3 does not explain as well as Type 7, or the reverse: a recorded choice where advancement and enjoyment pulled apart, or a named director, showrunner or producer describing in their own words how she works and what she tracks. The type answer, FAQs and title then state a confidence the body's argument supports. If the new evidence favors Three, the run is refreshed with the expanded jury."
+    },
+    {
+      "id": "verify-02",
+      "severity": "major",
+      "passage": "\"I wasn't willing to do the show had I not been given a producer role,\" she told the Television Academy's emmy magazine. \"So to pull me away from my education, which is really important to me, it had to be something that was worth it.\"",
+      "problem": "The two quoted sentences are separated in the source by her stated reason for the condition, which the article drops: 'The only way for me to tell the most accurate story possible and to do it right was to have more involvement in the show creatively.' She gives the same reason in three other opened sources: Variety ('she also wanted to make sure the show got it right'), The Hollywood Reporter ('The character needed to be authentically represented, and in order for that to be true, I would have to serve a bigger role') and Wonderland. The section then says 'the credit was not the point' without saying what she says the point was, meets it with 'A person who cared a great deal would say the same thing,' and the Type 3 section and FAQ list the condition as ambition evidence. A central anecdote is told without the subject's own explanation, and the missing half is the half that does not favor the Type 3 reading.",
+      "acceptance_test": "The 'One condition' section states her given reason in her attributed words from the Television Academy piece or The Hollywood Reporter, at the point where the condition is told. The skeptical sentence may stay. Where the Type 3 section or the FAQ uses the condition, nothing implies it was unexplained. C12's passage and note are updated to match."
+    },
+    {
+      "id": "verify-03",
+      "severity": "major",
+      "passage": "Two weeks later, at the end of another episode, the hosts held a mock trial, with the show's producer as bailiff, on whether music should always be on. She ruled for music.",
+      "problem": "The trial was not about whether music should always be on. Crooked's episode page and transcript call the segment 'The Ickuation Room' and the topic 'Hookup Playlists... Ick or Yum,' and the two co-hosts argue for and against music during sex. She rules 'Yum wins, music should be playing when I'm doing nothing and when I'm doing it all.' The article's paraphrase misstates what the linked source shows, in the scene the profile closes on and under two quotations the type hypothesis counts (C54, C55). An accurate description also serves the argument better: she turned a debate about hookup playlists into a statement about never sitting in silence.",
+      "acceptance_test": "The sentence names the actual topic in plain words (a mock trial on hookup playlists, or on whether music should play during sex) and gives her ruling in or close to her words. C92's claim and passage are corrected. The quotations and the last three sentences are unchanged."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "Two weeks later, at the end of another episode,",
+      "problem": "The time reference has no anchor. The sentence opens a new section directly after 'That is the record as of November 10, 2026,' and the episode it counts from (August 11, 2022) was last mentioned five sections earlier. A reader cannot tell what it is two weeks after until the citation at the end of the paragraph.",
+      "acceptance_test": "The sentence dates itself, for example by naming August 2022 or 'two weeks after that first episode.'"
+    },
+    {
+      "id": "verify-05",
+      "severity": "minor",
+      "passage": "the story became the first thing her new audience heard, as comedy.",
+      "problem": "The transcript opens with a cold-open riff about the show being 'birthed,' then theme music; the prednisone line and the clinic story come after. It was the first story she told, not the first thing the audience heard.",
+      "acceptance_test": "The wording matches the transcript, for example 'the first story her new audience heard.' 'She opens the first episode wired' is adjusted or left only if it is clear the line follows the theme music."
+    },
+    {
+      "id": "verify-06",
+      "severity": "minor",
+      "passage": "So the restraint is narrow, and circumstance accounts for most of it: a host guarding her parents' house, a child actor told a drink could end her career.",
+      "problem": "In the sentence after the hook quotation she gives a third reason: 'I didn't want to drink when I was younger because I always felt so outside of my body and I felt like drinking would take me so much further.' The edit removed it. She also answers the question the paragraph leaves open, saying the conversation with her mother 'propelled me into just not being like the biggest drinker, even as someone who is currently 21.' Listing two reasons and handing the remainder to Type 6 slightly overstates what is unexplained.",
+      "acceptance_test": "One clause notes that she gave a further reason that falls under the limit stated in the type section and is not counted, without the author interpreting it; or the paragraph reports her own statement that her mother's warning is why she is still not a big drinker. The Type 6 pointer is scaled to match."
+    },
+    {
+      "id": "verify-07",
+      "severity": "minor",
+      "passage": "Thornton is the only witness to the improvising, in [two interviews]",
+      "problem": "Thornton says it in at least three: Digital Trends' Carrie cast interview also has her telling Totah 'you are such an amazing improviser.' The limit the sentence states still holds (one witness, with Totah present), but the count is wrong.",
+      "acceptance_test": "The count is corrected or made open ('in junket interviews'), and the Digital Trends interview is added to the evidence record with C62 updated."
+    },
+    {
+      "id": "verify-08",
+      "severity": "minor",
+      "passage": "She kept writing on a job where no credit asked her to.",
+      "problem": "In the same Nylon answer she says the production had asked her view in the first week of pre-production ('they were like, What do you think?... From then on, it was an open conversation') and that Jakeways replied 'Can you just send it to me?' Without that, 'no credit asked her to' and 'got her way' make an invited contribution read as an uninvited one.",
+      "acceptance_test": "A few words say the show had already asked for her view on the scene, attributed to her account. The fib sentence can stay."
+    },
+    {
+      "id": "verify-09",
+      "severity": "minor",
+      "passage": "\"And the process is so fun. I love auditioning,\" the ten-year-old told her hometown paper. \"You have to accept when you don't get it, that something else will come up,\" she said of rejection.",
+      "problem": "The two quotations are printed in the reverse of their order in the Davis Enterprise, where 'And the process is so fun' follows the rejection sentence. Each is verbatim, but the leading 'And' now continues from nothing.",
+      "acceptance_test": "The quotations appear in source order, or the first begins at 'the process is so fun' without the 'And.'"
+    },
+    {
+      "id": "verify-10",
+      "severity": "minor",
+      "passage": "> \"I love learning. I love being in class. But I also think as actors we have a mandate to kind of live our lives to the fullest extent.\"",
+      "problem": "Her next sentences tie the reason to her work: 'I just pull from my life... In order to have stuff to pull from, I have to make memories,' and Cero frames college as important 'for herself and her work.' The edit cut that continuation. The FAQ then offers the mandate line on the Seven side of the ledger. A reason given in service of the craft is one a Three would give too, and the reader should see that.",
+      "acceptance_test": "The body or the FAQ says in a clause that she tied living fully to having material for acting, so the reason is not presented as pure appetite. The same check is applied to 'tells her hard stories as comedy' in the 60-word answer and type FAQ, which should carry the body's scope (on her comedy podcast) or not claim more than three instances from 2022 and 2023 support."
+    }
+  ],
+  "research_tasks": [
+    "Open the remaining Dare We Say transcripts on crooked.com (37 episodes; seven were read) and search them for decisions where enjoyment and advancement pulled apart: roles or offers she turned down, jobs she took for money or position, and how she talks about competition, billing, reviews and awards. This is the largest unread body of her own unscripted speech.",
+    "Transcribe her Las Culturistas guest episode ('Neighborbanged w/ Josie Totah', 2022) with whisper-cli. It is the only long unscripted conversation with hosts who are not her friends or business partners.",
+    "Find a director, showrunner or producer describing her in their own words beyond Wigfield's one sentence: Tracey Wigfield's 2020-2021 Saved by the Bell press, Katherine Jakeways's 2023-2025 Buccaneers press, Amy Poehler's 2021 Moxie press, Chris Kelly on Other People (2016), Naomi or Adam Scott on the 2016 NBC project, and Mike Flanagan's Carrie interviews and any commentary track. Look for how she handles notes, what she asks for, and whether she tracks billing or status.",
+    "Establish why specific choices were made, each a possible Seven-versus-Three test: the move to New York in January 2025, writing and directing the unannounced short film, taking Faces of Death and Carrie, and what followed the 2016 NBC sale and the script she says she sold by cold pitching.",
+    "Open Refinery29's 2018 interview from the weeks after the Time essay (blocked on November 10, 2026) for her account of the decision and timing in a setting that is not a junket.",
+    "Transcribe Louisville Public Media's video interview of November 4, 2026 to pin the Carrie quotations to audio, and add Digital Trends' Carrie cast interview (digitaltrends.com/movies/carrie-mike-flanagan-cast-interview-exclusive/) to the source list as a third Thornton statement about her improvising.",
+    "Rerun after the next dated catalyst: her first announced project after Carrie, Carrie season two casting, The Buccaneers season three, or the release of her short film and what she says about why she made it."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Davis Enterprise (2012) reads 'The third child of South Davis residents Christine and Suheil Totah' and gives the Lebanese/Palestinian descent; the quoted sentence is verbatim in the March 23, 2023 transcript under her speaker label. The Chronicle calls her a San Francisco native, so 'Northern California' is the accurate level of precision."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Davis Enterprise: four Hollywood Improv routines at ten; she and her mother took 'an apartment near Hollywood' while her father and older brother stayed in Davis. Wonderland: 'I started doing stand-up comedy as a 10-year-old.'"
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "qualified",
+      "reason": "Both sentences are verbatim in the Davis Enterprise, and the rejection sentence is about auditions. The article prints them in the reverse of their source order: the paper has 'You have to accept... something else will come up,' he explains, and then 'And the process is so fun. I love auditioning.' See verify-09."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "Verbatim in the Harvard Crimson, including the em dash. The paper frames it as her initial motive and she adds that at 24 it is 'still about entertaining' but she has 'gotten more nerdy about it'; the article's 'began performing' matches."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "Deadline, October 31, 2016: 'Fifteen-year-old Other People co-star J.J. Totah... is set to headline a TV comedy series' and 'Totah serves as producer.'"
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Every quoted phrase is verbatim in the pinned Wayback capture of the Time essay, which also says people 'would just assume I was gay' and that reporters asked 'how it feels to be a young gay man.' The essay's 'about three years ago when I was a 14-year-old' supports 'at 17.'"
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Time essay: 'This week, I'm going off to college.' Teen Vogue (Yahoo copy, November 5, 2018): 'After the cancellation of the NBC sitcom Champions' and the strings quote verbatim."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Both phrases verbatim: 'Like many trans people, I developed serious anxiety as I hid who I was' (Time) and 'Not only was I really, really depressed when I was not out to the world' (Teen Vogue). The article ties both to a circumstance, as she does."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Verbatim in the April 6, 2023 transcript under her speaker label. She says she was '13 or 14' and has her mother say 'you're 14'; 'about 14' and 'a paraphrase performed for laughs' are fair descriptions of a comic retelling."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "qualified",
+      "reason": "Both quoted sentences are verbatim in the Television Academy piece and Variety does say only 'Wigfield agreed.' But the article drops the sentence that sits between them, her stated reason: 'The only way for me to tell the most accurate story possible and to do it right was to have more involvement in the show creatively.' She gives the same reason in Variety, The Hollywood Reporter and Wonderland. See verify-02."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Verbatim in HuffPost UK (March 3, 2021); the full sentence is 'It mattered more to me that I was involved and could learn than it saying producer Josie Totah on the call sheet,' so 'the credit was not the point' is an accurate paraphrase."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Variety (Yahoo copy): 'I wrote the character of Lexi for Josie Totah,' Wigfield says, and 'just has comedy in her bones.' The article limits it to praise for talent."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "qualified",
+      "reason": "All five quotations are verbatim in Nylon and the two castmates are named there. The article leaves out that the production had invited her view from pre-production ('they were like, What do you think?... From then on, it was an open conversation') and that Jakeways answered 'Can you just send it to me?', so 'no credit asked her to' and 'got her way' read as less invited than her account. See verify-08."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Wonderland: '7 flat tires in four years' and class two days a week while filming three; Wikipedia: graduated 2022, sorority member; the August 11, 2022 transcript confirms the sorority. 'Professionally it cost nothing' is the author's inference and nothing I opened contradicts it."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Verbatim in Content Mode (January 7, 2024), in answer to 'How do you choose your projects.'"
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "Verbatim in Wonderland's written Q&A (March 31, 2023), in the answer about being a trans woman in the industry; 'Not for myself' opens the next sentence as the article says."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "qualified",
+      "reason": "Both lines are verbatim. Both are comic in context: the actors line sits inside the clinic bit and is followed by a marked laugh, and 'I'm embarrassed and ashamed. I'm a poster' is mock offense at the interviewer's 'you're a poster, right?' The article's hedge about a comic's self-mockery covers this, but two jokes are thin support for 'one of her most frequent words.'"
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "All three sentences are verbatim in the April 27, 2023 transcript, directly after an ad break. In context the 'sits at home' line is about sharing her dating life as a trans woman because 'people need to feel represented'; she also says 'I have a fear of vulnerability,' so the article's use is faithful."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Verbatim in the August 11, 2022 transcript; the article keeps 'as she tells it.'"
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "Transcript: 'the summer after high school, it was my house that we we threw everything and I was so afraid to drink because I didn't want anyone to ruin anything in in my parents house,' then the prop cigarette and Gatsby lines verbatim. Her next sentence gives a further reason the article omits; see verify-06."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "Verbatim in Interview (October 26, 2026). She adds 'I'm just very nomadic in that I'm never really in one place,' a practical reason the article does not need."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Verbatim in Galore (January 11, 2024), in answer to 'What does love mean to you?'"
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "Verbatim in Brit + Co (August 6, 2025), said by Alisha Boe to Totah in a joint interview; it describes joking before a take, as the article says."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Verbatim as printed in Louisville Public Media's written piece of November 4, 2026. That piece summarizes a video I did not transcribe, so the wording is LPM's transcription."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "Both sentences verbatim in Interview; she also says 'I wasn't bullied,' which the cachet line explains."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "Transcript of March 23, 2023: 'my parents always said, never tell them you're Palestinian,' 'I always told people I'm Italian,' and the controversial line verbatim. She says '16, 17 years old, maybe. Maybe even 17 years old. 18,' so '16 or 17' is the low end of her own range."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Verbatim in Galore in answer to the surprise question; she adds 'my social anxiety just comes out,' 'I always bring a buddy,' and the glasses."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Verbatim in the Crimson's closing paragraphs as advice to her college self."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "Episode one is dated August 11, 2022 and the finale April 27, 2023 on Crooked's pages; Hamady says they met in sorority rush; Pascual-Peña is her Moxie and Saved by the Bell castmate."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "Wikipedia's Carrie page (opened November 10, 2026): released October 7, 2026 on Prime Video; 'Josie Totah as Christina \"Tina\" Blake, Chris' friend who seeks her approval.'"
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "Davis Enterprise reports the offence taken at the videos, the family's Arab-American answer and 'It's their opinion,' all as the article states. My own search on November 10, 2026 found no other controversy, backlash or apology involving her."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Wikipedia: nominated for a Critics Choice award for supporting actress in a comedy series for Lexi; Numero Netherlands repeats it."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Verbatim in Variety's introduction ('Totah laughs'), about Lexi."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "qualified",
+      "reason": "A fair synthesis as far as it goes, and the article itself says a Three shows the same split. 'Careful about being known' has to sit beside a confessional podcast she co-hosted for nine months, which the article acknowledges later."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "SF Chronicle, March 5, 2015: 'we are just a normal family,' she says. That means good grades, chores, time with family. 'May never have been optional' is marked as the author's inference."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "Verbatim in Wonderland; she continues, 'when I ended up being able to monetize it, it became a career.'"
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Verbatim in the Time essay."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Television Academy: Nordstrom, grandmother, agent's call, film major at Chapman. Age 18 follows from The Hollywood Reporter's 'middle of my sophomore year' and an August 2001 birth."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "qualified",
+      "reason": "Verbatim in Cero (July 31, 2025). Her next sentences tie the reason to acting: 'I just pull from my life... In order to have stuff to pull from, I have to make memories,' and Cero frames it as 'for herself and her work.' The article cut that continuation, which makes the reason read less work-serving than she made it. See verify-10."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Verbatim in the August 11, 2022 transcript, where she also says 'wow am I behind?' and dates becoming 'my full self' to about four years earlier."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Verbatim in Content Mode. In the same answer she says she has 'gained more autonomy' with 'financial security,' which softens 'little choice' slightly."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Verbatim. It is her first line after the theme music, following a short cold-open riff about the show being 'birthed.'"
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Speaker labels confirm Pascual-Peña for the finesse line and Totah for the punchline. The finesse line comes mid-story, before the clinician agrees; the article's order compresses that without changing meaning."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Verbatim under her speaker label."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Verbatim under her speaker label in the August 25, 2022 transcript. It is said during a debate about hookup playlists; see verify-03."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Verbatim, followed by a marked laugh; the article says it was played for laughs."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Both phrases verbatim in the same speech, in that order."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Verbatim; she adds 'I did not have a sip of alcohol at that entire thing.'"
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "qualified",
+      "reason": "The reading is reasonable, but it lists two reasons for the restraint and omits a third she gives in the sentence after the hook quote ('I always felt so outside of my body and I felt like drinking would take me so much further'). She also answers the 'outlasted its reasons' question herself: the conversation with her mother 'propelled me into just not being like the biggest drinker, even as someone who is currently 21.' See verify-06."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Verbatim as printed in Louisville Public Media's written piece, attributed to Thornton, with Totah in the same interview."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "qualified",
+      "reason": "Thornton is the only witness I found as well, but she says it in at least three interviews, not two: Digital Trends' cast interview also has her telling Totah 'you are such an amazing improviser.' See verify-07."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Her quote is verbatim as printed by LPM. I checked LPM's own Flanagan interview of October 29, 2026, Digital Trends' Flanagan-and-cast interview and TV Guide's feature; none has Flanagan describing her."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "A fair reading that concedes the point to Type 3; LPM also prints her 'Honey, this is my role' and 'I got it in the bag.'"
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "People (October 8, 2026): 'Totah, 25'; Interview: 'I'm 25.' Credits confirmed in the Television Academy piece and Wikipedia. The Crimson says she has been on camera since nine; 'since she was ten' follows the Davis Enterprise and Wonderland."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "qualified",
+      "reason": "Wikipedia now gives only the year 2001. August is an inference from opened sources: the August 11, 2022 episode is her 'birthday week' and calls her a Leo, and she was 10 on June 18, 2012, 15 on October 31, 2016 and 17 on August 20, 2018. The inference is sound but no opened source prints the month."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Wikipedia: eight episodes, 'renewed for a second season in October 2026'; Interview's introduction mentions the renewal. No season-two casting for her appears in what I opened."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "Verbatim in Interview; she declines to name the film."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "qualified",
+      "reason": "The three supporting clauses are each sourced. The conclusion is where the support runs short: the article and the evidence record both say no clean behavioral discriminator separates Seven from Three, her most recent stated criteria move toward Three, and Six stays live, so 'Confidence is medium' claims more than the argument delivers. See verify-01."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Accurate to the record I opened: I found no instance of her giving up advancement for enjoyment or the reverse, including in her stated reasons for ending the podcast (schedules and not being able to give it full effort)."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "qualified",
+      "reason": "The Six evidence is fairly listed and the motive test is the right one. The lean rests on three instances, one of them a ten-year-old's quote and one her own framing of the Carrie story, so it is a lean and the article says so."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "Consistent with every source I opened and with my own checks for director statements; dated November 10, 2026 in the text."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Matches the body and the sources: one castmate (Thornton), and her own account of the parties."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Wikipedia: 'graduating in 2022'; the other credits are confirmed in the Television Academy piece and Numero."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Cero embeds 'I'm really down for anything' in the writer's sentence; the errand-as-risk reading matches the April 2023 transcript."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Verbatim; the transcript marks a gavel sound, and she says 'I'm going to go take the bailiff out to dinner tonight... The bailiff is our producer Ari.'"
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Verbatim in the Time essay, including 'Three days later I was meeting with my pediatrician.'"
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "An interpretation with its limits stated; it reads only the timing and tone of the essay and concedes the staging to Type 3."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Verbatim in Wonderland; she goes on 'Not long after I sold my first show to NBC with the help of the producer of that film Naomi Scott.' Deadline confirms the Scotts as executive producers. The sentence 'In 2016, she told Wonderland' can be misread as dating the interview; the next sentence corrects it."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Verbatim in Numero Netherlands (June 25, 2025); the same answer names 'two big factors: the project and the experience.'"
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "An accurate account of the two answers and of which way the later one moves."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "'At every instance' and 'primary sounding board' are verbatim in their sources; Nylon confirms the two castmates and 'I was scared to do it.'"
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Verbatim in the April 6, 2023 transcript: 'It was a little risky for me... I hadn't been to the grocery store alone since I'd been back in America... went to Trader Joe's. It was so nice.' Nine months before the Galore Q&A is correct."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "'I was very frank with Tracey' is verbatim in The Hollywood Reporter (June 5, 2021), in an answer about the storyline and her condition for leaving school; the Galore line is verbatim, from a joking answer about surviving the 1800s. 'About six years' is the low end of her own '16, 17... maybe 18.'"
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "She says 'the summer after high school'; the Time essay of August 20, 2018 says 'This week, I'm going off to college.' An August 2001 birth gives 16 or 17."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Transcript: 'I was at my death,' 'I can't even go to work this day,' and tested 'for literally everything under the sun' at her college's health center."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "Matches her telling: the earlier steroid, the show, Scotland, 'a drama,' then 'We can give you a steroid.' She does not name the show; The Buccaneers is an identification from the Scotland shoot she describes in Nylon and Content Mode, and I find it sound."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "qualified",
+      "reason": "The reading of the story's form is fair and attributed. 'The first thing her new audience heard' is not exact: a cold-open riff about the show being born precedes the theme music, and the clinic story is the first story after it. See verify-05."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Scoped to how she tells stories on a comedy show, with her public disclosure of distress stated beside it; all three instances are in the transcripts."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "qualified",
+      "reason": "The bailiff, the gavel and her ruling are in the transcript, but the trial was not about 'whether music should always be on.' The episode page and transcript call the segment 'The Ickuation Room' and the topic 'Hookup Playlists... Ick or Yum': whether music should play during sex. She then ruled 'music should be playing when I'm doing nothing and when I'm doing it all.' See verify-03."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "qualified",
+      "reason": "A faithful restatement of the body, and it carries the college caveats. It shares the body's weakness: the stated criteria it leans on moved toward Three in 2025. See verify-01."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback capture 20230810074045 of the Time essay, read in full: 'shoved into a box,' 'halfway corrected people,' 'jump on or jump off,' I Am Jazz, anxiety and 'This week, I'm going off to college' paragraphs."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Davis Enterprise article body, June 18, 2012: family and Improv paragraphs, move near Hollywood, Lil' Dictator paragraphs, auditions paragraph."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "SF Chronicle, March 5, 2015: Christine Totah's 'normal family' paragraph ('good grades, chores, time with family')."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Deadline, October 31, 2016: first paragraph and 'Totah serves as producer.'"
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo copy of Teen Vogue, November 5, 2018: second and third paragraphs (Champions cancellation, 'really, really depressed,' strings quote). Original teenvogue.com page not opened."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Television Academy, October 28, 2021: Nordstrom opening and the 'one condition' paragraphs, including the sentence the article omits."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "HuffPost UK, March 3, 2021: producer-credit paragraph."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo copy of Variety, June 3, 2021: introduction (Wigfield quote, 'craziest stuff,' 'Wigfield agreed'). Original variety.com page not opened."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The Hollywood Reporter, June 5, 2021: answer to 'Did you have conversations about not making Lexi's a transition story?'"
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Crooked transcript, August 11, 2022: cold open, clinic story after the theme music, 'how do we know each other,' birthday and bar passages; speaker labels checked."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Crooked transcript, August 25, 2022: episode description ('The Ickuation Room... Hookup Playlists') and the closing segment through the gavel and bailiff line."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Crooked transcript, March 23, 2023: heritage statement and the audition-room passage through 'afraid of my own identity being controversial.'"
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Crooked transcript, April 6, 2023: grocery-store check-in, the mother's warning and 'at every instance' passage, and the high-school party passage with the sentences after it."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Crooked transcript, April 27, 2023: her statement after the ad break through 'fear of vulnerability,' and the reasons for ending the show."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wonderland written Q&A, March 31, 2023, read in full."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Nylon, December 13, 2023: answers on Mabel and on co-writing the Episode 8 scene."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Content Mode, January 7, 2024: answers on privacy ('primary sounding board') and choosing projects."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Galore, January 11, 2024: answers on the surprise fact, love, and surviving the Buccaneers period."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Numero Netherlands, June 25, 2025, read in full; the project-choice answer."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cero, July 31, 2025: Chapman paragraph and New York paragraph."
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Brit + Co, August 6, 2025: the on-set fun section with Boe's and Dylan's quotes."
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Harvard Crimson (URL dated September 1, 2025): opening paragraphs and closing advice."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Comic Book Movie, October 4, 2026: Totah's and Thornton's answers on the Chris and Tina dynamic."
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo copy of People, October 8, 2026: 'says Totah, 25, who plays Tina.'"
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Interview, October 26, 2026: introduction and the adolescence, social media, spending, directing and age exchanges."
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Louisville Public Media written piece, November 4, 2026, read in full. It summarizes a video interview whose audio I did not transcribe; quotations are as LPM prints them."
+    },
+    {
+      "source_id": "S39",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia, Carrie (TV series), revision opened November 10, 2026: lead, cast list, release."
+    },
+    {
+      "source_id": "S40",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia, Josie Totah, revision opened November 10, 2026: lead (born 2001, no month), early life, career, personal life."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "The section covers only the 2018 essay, uses her own words for the public assumption ('halfway corrected people'), says 'The years before the essay say nothing about her temperament,' and the Type 3 section no longer lists the closet years. The limit paragraph is intact and the article now obeys it."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "'Both scripts were handed to a child by adults' is gone. The ethnicity coaching is attributed to her account, the other assumption to 'reporters and the public,' and the I Am Jazz exchange with her mother's 'Okay, let's do it' is in the body, verbatim against the essay."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "No sentence calls the journaling call her method; 'fib' is confined to 'that night' with her stated reason beside it, verbatim in Nylon. The Type 8 paragraph acknowledges 'very frank with Tracey' and cites no fear against Eight. I add a small context note in verify-08, which does not undo the fix."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The interpretive sentence carries 'by her telling'; the body says she woke 'at my death,' too sick to work, and that the clinician 'prescribed' a steroid. 'Tells her hard stories as comedy' rests on three dated instances in the body, and the answer and type FAQ are identical."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "The could-not-cry story is removed, which meets the test's second branch. The August 25, 2022 transcript confirms the editor's reason: she ties that day to being marginalized and says she can normally cry at any moment."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Now 'It does suggest what the jokes may be standing in front of,' a marked inference."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The closing section says in the author's prose that both lines 'were played for laughs' and that a transcript cannot say how much she meant them; quotations unchanged. The topic of the segment is still misdescribed, which I raise separately as verify-03."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "'A shrug at rejection' now follows the audition quotes; the Lil' Dictator paragraph comes after and keeps 'She was ten, and the series was made and released by adults.' The sister's name does not appear."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "The parents'-house reason is given in the author's prose, only the fragment 'so afraid to drink' is quoted, and the fourth paragraph calls the scene 'a teenager guarding her parents' house.' Matches the transcript."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "The episode is removed and the horror-class answer is labelled as played for laughs. Both omitted clauses are in the transcript as the editor says, so removal was the honest branch."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "The dream-roles sentence and its inference are gone; Wonderland's full list confirms the reviewers' reading."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "The grocery remark is attributed to the January 2024 Galore Q&A and its prompt, the April 2023 solo trip sits beside it with 'It was so nice,' and the conclusion is scaled to 'describes a mundane errand as a risk.'"
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "The I Am Jazz exchange is in the body with attribution, each assumption has its source, and the timing paragraph opens 'The essay ran the week she left for college,' which the essay supports."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "The title makes no carefulness claim, the thesis limits her care to alcohol and being known, the fake-I.D. nights sit in the same sentence as 'never really drank,' and 'I'm quite loud and don't take well to authority' is quoted against the obey-and-work-around behavior."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "The June 2025 Numero answer is quoted with its date, the next paragraph says 'The later answer moves toward Three,' and the limits now rest on the absence of a recorded choice."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "The 2016 Sundance weekend is given in her words with her father's push and Naomi Scott's role, and Champions is identified where its end matters."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The discriminator is restated as what she says she weighs, the text says no test case is on record, and the FAQ carries the three college caveats. The fix is honest; what it leaves is a type call without a discriminator, raised as verify-01."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "The 2025 criteria are quoted beside the 2024 list and the answer and FAQ say she 'listed \"the fun\" among her job tests in 2024.'"
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The halved list is gone, the cold-outreach line is quoted with its year and context, embarrassment is weighed for Three, and the polish claim is replaced by 'a comic's self-mockery can manage an image as well as polish does.'"
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Reason paraphrased with the parents' house, fake-I.D. detail present, thesis narrowed, hook dated to summer 2018 and written in the past tense."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "'What points to Seven is the means' is cut; the paragraph says the episode 'does not separate the two types' and notes the improvising enlarged her part."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "The joy-in-storytelling paragraph is removed, so her position on trans and queer representation is not counted anywhere."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "The could-not-cry story is removed, so its imbalance is gone, and the pain-handling claim is worded as 'a pattern in how she tells stories on a comedy show' with her public disclosure of distress beside it. Removal is stricter than the test's first clause and I accept it for the reason given under subject-05."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "The Eight rebuttal acknowledges the frank ultimatum and an authority statement; Type 6 gets its own passage with the caution evidence, a motive test and 'Six remains live.'"
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "The description says 'A Carrie castmate' and the body names Thornton as the only witness. The count of her interviews is low by one; see verify-07."
+    },
+    {
+      "finding_id": "critic-10",
+      "accepted": true,
+      "reason": "'People were mean to me when I was a teenager, and I was definitely mean back' is quoted beside the cachet line; verbatim in Interview."
+    },
+    {
+      "finding_id": "critic-11",
+      "accepted": true,
+      "reason": "The argument from absence is removed and the text says 'The flashlight is also a spotlight, and a Three would have wanted that too.'"
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "The opening states what she feared would be ruined and no quotation is closed mid-sentence; the prop image is unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "One passage now says what circumstance accounts for, that the Seven read 'neither needs it nor explains it,' and what stays open. It agrees with the intro and the Type 6 section. It leaves out a reason she gave; see verify-06."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The body is 3,739 words by checkDraft against 3,746 for the draft. The global self-report limit is argued in full in the type section and the who-has-not-spoken paragraph, with local attributions elsewhere. About half of the sections still end on a limit, which is the edge of the test; I accept it and reflect the remaining drag in the writing score."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "All five orienting fixes are present: 'meaning Flanagan' with the stakes as her account, the reboot named with 'credit' used throughout, The Buccaneers named, the bathroom remark placed in the finale after a break, and the party dated."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Six and Eight each get a one-clause motive and the Eight argument rests on behavior, not reported emotion."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "The limit paragraph now orients the reader ('She came out publicly in 2018, at 17...'). The two hanging quotations are removed, which resolves the stated problem that the reader was left to guess whether they counted. Removing 'outside of my body' has a small cost I raise as verify-06."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "A sentence before the block quote marks the register, the bailiff is identified, and nothing follows the last sentence."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "The title makes no split claim and matches the meta_title's 'The Case for' wording."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "The 2025 answer is quoted beside the 2024 one, the answer and both type FAQs speak of what she says she weighs, and the college passage says 'Professionally it cost nothing.' The test is met; the type argument it leaves is thin, which I score and raise as verify-01."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "The parents'-house reason is paraphrased outside the quotation, the career motive is attached only to her mother's warning, and C24's passage matches the text."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "The thesis says 'A Type 3 would show the same split, so the case is made elsewhere,' and the means argument is cut with the Three reading stated."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The Type 3 section states the motive, weighs her embarrassment vocabulary for it, quotes 'I'm embarrassed and ashamed,' and says no recorded choice separates the types."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "The Six passage names the evidence, gives a motive test with her evidence on each side and says 'Six remains live'; no sentence dismisses Six on what she does not say."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The trimmed list and its inference are removed."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "The paragraph is removed and the pain-handling argument stands without it."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "The H2 is now a quotation specific to her and the triad sentence separates Six from Seven."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Year and age stated and supported by the transcript and the essay; past tense; 'Eight years later'; the fourth paragraph argues the continuity."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "The June 2025 answer is quoted with its date, the answer and FAQ use dated wording, and the 'little choice' sentence says 'In that 2024 answer.'"
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "In evidence-edit.json C71, C72, C73, C83, C86 and C93 are unresolved with concrete triggers and C18, C49 and C82 are time_sensitive; the body sentence stays."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The description and the type_hypothesis text say one castmate; Variety 2021, Nylon 2023 and Brit + Co 2025 put the on-set pattern on record before Carrie."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "The grocery remark and the 'actor nobody knows' line carry dates and past tense, the undated solo-days quote is gone, 'From 2012 to 2026' replaces the count, and C33 is time_sensitive."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "The dream-role sentence is removed."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "The who-has-not-spoken paragraph and the Lil' Dictator sentence carry dates. The Flanagan sentence, a protected passage, is dated only by 'Research ran through November 10, 2026' in the type section; that is enough for a later reader to know when the search ran."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": true,
+      "reason": "The Time link is pinned to capture 20230810074045 in the body and citations, and I read the quoted passages in that capture. S05, S13 and S27 record original or canonical URLs with captures, and a research task covers the uncaptured copies."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Totah is a transgender woman, and being trans is not evidence of any personality type.",
+      "preserved": true,
+      "reason": "Present word for word, and the article now follows it."
+    },
+    {
+      "passage": "Those are the effects of a circumstance, one that ended, and they do not type her.",
+      "preserved": true,
+      "reason": "Present word for word."
+    },
+    {
+      "passage": "Every telling of this is hers. Variety reports only that Wigfield agreed.",
+      "preserved": true,
+      "reason": "Present word for word at the point of use; Variety does say only 'Wigfield agreed.'"
+    },
+    {
+      "passage": "That is her report, and this profile found no statement from Flanagan about her.",
+      "preserved": true,
+      "reason": "Present word for word; my own checks found no Flanagan statement about her either."
+    },
+    {
+      "passage": "The testimony that exists is from friends and castmates, in promotional interviews, mostly with her in the room.",
+      "preserved": true,
+      "reason": "Present word for word, now after a dated sentence."
+    },
+    {
+      "passage": "One limit matters more than the rest. Totah is a transgender woman, and being trans is not evidence of any personality type.",
+      "preserved": true,
+      "reason": "Present word for word, followed by two orienting sentences."
+    },
+    {
+      "passage": "Who she is belongs to her. How she said it is fair to read, and she planned it.",
+      "preserved": true,
+      "reason": "Present word for word."
+    },
+    {
+      "passage": "She cannot leave the material alone, and she gets her way with a fib about journaling and an open laptop.",
+      "preserved": true,
+      "reason": "Changed to 'that night she got her way with a fib about journaling and an open laptop.' The observation survives; the tense change stops one call reading as a habit, which subject-03 required."
+    },
+    {
+      "passage": "That is praise for talent. It says nothing about motive.",
+      "preserved": true,
+      "reason": "Present word for word after the Wigfield quote."
+    },
+    {
+      "passage": "Then there is who has not spoken. Apart from Wigfield's one sentence, no director or showrunner describes her in their own words.",
+      "preserved": true,
+      "reason": "Present word for word."
+    },
+    {
+      "passage": "A person who cared a great deal would say the same thing, and it can't be checked.",
+      "preserved": true,
+      "reason": "Present word for word. It would read more fairly with her stated reason beside it (verify-02), but the sentence itself is kept."
+    },
+    {
+      "passage": "That reason arrived three years after graduation, and there are plainer ones.",
+      "preserved": true,
+      "reason": "Present word for word, and its caveats now reach the FAQ."
+    },
+    {
+      "passage": "The read would weaken if a director or showrunner described her tracking billing, reviews or status, or if her choices after Carrie visibly favored prestige over enjoyment.",
+      "preserved": true,
+      "reason": "Present word for word and tracked by triggers on C71 and C72."
+    },
+    {
+      "passage": "Apart from Wigfield's one sentence, no director or showrunner describes her in their own words. This profile found nothing from her parents after 2015, and nothing from her siblings, from anyone at her high school, or from anyone with a reason to be critical.",
+      "preserved": true,
+      "reason": "Present word for word."
+    },
+    {
+      "passage": "\"So I would just walk around with literally a fake prop movie cigarette and a glass of wine,\" she said, one \"that I didn't drink from. Like Great Gatsby, while everyone was partying, getting drunk at my house.\"",
+      "preserved": true,
+      "reason": "Present word for word as the opening image; verbatim against the transcript."
+    },
+    {
+      "passage": "Told she is depressed and should stop, she negotiates for a way to keep going, and the story becomes the first thing her new audience hears, as comedy.",
+      "preserved": true,
+      "reason": "Changed to add 'by her telling' and the past tense. The reading of the story's form survives, and the attribution is needed because the verdict exists only in her telling."
+    },
+    {
+      "passage": "Threes, Sevens and Eights all claim a fear of vulnerability, so it settles nothing about type. It does say what the jokes are standing in front of.",
+      "preserved": true,
+      "reason": "First sentence word for word; the second now reads 'It does suggest what the jokes may be standing in front of.' The insight survives as a marked inference."
+    },
+    {
+      "passage": "\"And so music always has to be playing,\" she said. The transcript records a gavel. Then she announced she was taking the bailiff out to dinner.",
+      "preserved": true,
+      "reason": "Present word for word as the last lines; all three beats are in the transcript."
+    },
+    {
+      "passage": "Threes, Sevens and Eights all claim a fear of vulnerability, so it settles nothing about type.",
+      "preserved": true,
+      "reason": "Present word for word."
+    },
+    {
+      "passage": "Someone who calls herself \"really down for anything\" will not run a mundane errand by herself, and a freedom motive does not predict that.",
+      "preserved": true,
+      "reason": "Changed to 'also describes a mundane errand as a risk.' 'Will not run' was false as a standing fact, since she described going alone in April 2023. The unexplained behavior is still left unexplained."
+    },
+    {
+      "passage": "A ten-year-old in a proud local feature is weak evidence of adult motive. The vocabulary is already there, though: fun, the next thing, a shrug at disapproval.",
+      "preserved": true,
+      "reason": "Changed in its last word to 'rejection' and moved to follow the audition quotes, so a child's reply to the racism criticism is not read as a trait. The limit and the cross-decade point survive."
+    },
+    {
+      "passage": "Medium confidence is the honest ceiling. Nearly everything below is her own account, given in promotional interviews or on a podcast she hosted with two close friends.",
+      "preserved": true,
+      "reason": "Present word for word. I question whether medium is the right word (verify-01), but the passage is kept as written."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.0,
+      "reason": "I opened all 28 cited sources again and every quotation in the body and metadata is verbatim, with correct speakers, dates and links; attribution is local and the limits of self-report are stated where they bite. Independent testimony is thin and the article says so. It is held at the threshold by context lapses on load-bearing passages: this one tells her producer condition without the reason she gave in the same source, and the closing scene misdescribes what the mock trial was about.",
+      "passage": "\"I wasn't willing to do the show had I not been given a producer role,\" she told the Television Academy's emmy magazine."
+    },
+    "enneagram": {
+      "score": 7.3,
+      "reason": "The alternatives are tested seriously and nothing is patched with wings or arrows, which is well above the weak anchor. But the standard's bar is a sourced discriminator the strongest alternative fails, and this passage says there is none. The 2025 criteria move toward Three, the remaining Seven lean is 'small and specific' stated preference, the Carrie episode and the on-set split are conceded to Three, and Six stays live. The argument is honest and does not yet establish Seven over Three at the stated medium confidence.",
+      "passage": "A choice would settle it: a moment when advancement and enjoyment pulled apart and she gave one up. None is on record. At Chapman she kept both. So the difference has to be read from what she says she weighs, which is weaker evidence than what she does."
+    },
+    "originality": {
+      "score": 8.3,
+      "reason": "The details belong to this person and no one else: the prop cigarette and undrunk wine, the journaling cover story, the clinic negotiation, the grocery store, the gavel. Type boilerplate is confined to one short paragraph. The organizing insight (outlandish where work invites it, careful about alcohol and being known) is modest, and the article concedes it does not separate the types.",
+      "passage": "So she phoned \"in a roundabout way,\" with a cover story: \"So I was journaling this morning and I had a few ideas for the scene…\""
+    },
+    "writing": {
+      "score": 8.0,
+      "reason": "Plain, exact sentences, a strong first scene and an ending that stops on observed detail. The middle loses momentum: about half the sections close by taking back what they showed, the Type 3 section reads as a list of exhibits, and the final section opens on an unanchored 'Two weeks later' that follows a sentence dated November 10, 2026.",
+      "passage": "Two weeks later, at the end of another episode, the hosts held a mock trial, with the show's producer as bailiff, on whether music should always be on."
+    },
+    "durability": {
+      "score": 8.3,
+      "reason": "The hook and the close rest on 2018, 2022 and 2023 material, so removing Carrie leaves the portrait standing. Ages, renewals and absence claims are dated, and the contested claims carry concrete review triggers. The limit is the type call itself, which the article expects to revisit at her next project.",
+      "passage": "That is the record as of November 10, 2026."
+    },
+    "hook": {
+      "score": 8.8,
+      "reason": "A specific, sourced, dated image that sets a real question, followed by a castmate's account eight years later, and the article returns to the glass of wine and pays it off. The plain explanation is given up front instead of withheld.",
+      "passage": "\"So I would just walk around with literally a fake prop movie cigarette and a glass of wine,\" she said, one \"that I didn't drink from. Like Great Gatsby, while everyone was partying, getting drunk at my house.\""
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "Metadata matches the body: the description is accurate to one castmate, six FAQs answer real queries (type, why not 3, who, age, Carrie role, coming out) with working anchors, the type answer sits at the 60-word limit, and the page links the Type 7, 6 and 3 guides and two related profiles. The H1 leads with an image and leaves 'personality type' to the meta_title.",
+      "passage": "Josie Totah's personality type is Enneagram Type 7, the Enthusiast. Sevens keep life lively and open and keep moving past pain."
+    }
+  }
+}

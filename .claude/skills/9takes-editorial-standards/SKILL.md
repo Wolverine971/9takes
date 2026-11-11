@@ -10,15 +10,16 @@ One rulebook for every editorial tool (the `editor` agent, `/deai`, `/copywritin
 
 **People-profile workflow 3 exception:** Commands ending `_people_v3` and drafts marked `editorial_workflow.version: 3` follow `docs/writing-system/people-profile-standard.md` for research, structure, independent review and grading. It permits two independent reviews on ordinary profiles, requires the expanded jury for explicit risk flags, uses a five-year durability test, and makes presentation furniture optional. It replaces the older profile-specific templates and grade/regrade ritual only for v3. People profiles need no action step or body CTA. Authentic quotations retain their punctuation, including em dashes; the author-prose ban still applies. Existing legacy drafts retain the six-perspective gate.
 
-## Canonical messaging (locked 2026-08-13)
+## Canonical messaging (locked 2026-08-13; formula added 2026-11-05)
 
-The five-level hierarchy is frozen. Never invent a new master concept, tagline, or umbrella positioning; new language must clarify one of these jobs:
+The six-level hierarchy is frozen. Never invent a new master concept, tagline, or umbrella positioning; new language must clarify one of these jobs:
 
 1. **Movement belief:** The internet collapses nine perspectives into one winning take.
 2. **Brand promise:** See the emotions behind every take.
 3. **Product ritual:** Answer before the crowd.
 4. **Product explanation:** One question, nine perspectives.
 5. **Personal payoff:** Stop mistaking someone else's alarm for a defect.
+6. **Core formula:** Honesty + Curiosity = Clarity.
 
 **Lead with the human situation** — a recognizable conflict, fear, contradiction, or blind spot. The Enneagram is the map that explains the situation, rarely the protagonist of the opening. ("I wanted her to trust my judgment. She wanted me to slow down." beats "Here is how an 8 communicates with a 7.") Exception: Instagram type-pond captions may open type-first by DJ's standing strategy decision.
 

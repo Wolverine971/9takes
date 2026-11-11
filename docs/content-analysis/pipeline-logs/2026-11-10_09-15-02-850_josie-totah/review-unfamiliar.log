@@ -1,0 +1,19 @@
+The unfamiliar-reader review is written to `review-unfamiliar.json` in the run directory and parses against `reviewSchema`. I wrote no other file and published nothing.
+
+The review has 8 findings (3 major, 5 minor) and 5 protected passages. Risk flags: `contested_typing` is true, matching the article's own framing; the other three are false.
+
+**Major findings**
+- **Hook quote cut short:** "I didn't want anyone to ruin anything" stops before "in my parents house," per the evidence record's note on that podcast episode. A new reader can't tell what would be ruined, and the opening reads as more psychological than the source.
+- **Opening promise underpaid:** the intro promises to show "what the control is for," but the payoff is two hedged sentences. The article never says how the sober-host restraint fits Type 7, while the evidence record lists it as both counterevidence and unexplained.
+- **Momentum and length:** nearly every section ends by taking back its own evidence, and the self-report caveat is argued in full four times plus the FAQ. The body is already about 4,000 words, so the acceptance test asks the edit to cut and not grow.
+
+**Minor findings**
+- **Orientation gaps:** five spots where a newcomer loses the thread, including what "Mike doesn't like Tina" put at stake, "One condition" never naming Saved by the Bell, and "title" used in two senses.
+- **Types 8 and 6:** neither is defined, and the Eight dismissal leans on reported emotions two sentences before "no single emotion makes a type."
+- **Trans-identity limit:** the rule about what isn't counted refers to quotes the reader never sees, and it isn't visibly applied at two later quotes.
+- **Closing "myself" line:** it reads as a sincere confession, but the evidence notes say it was a joke delivered for a laugh.
+- **Title:** "Careful Everywhere Else" overstates what the body shows, and it states the type flatly while the article calls it contested.
+
+On the similarity diagnostic, the tripped pairs are stock type vocabulary shared with the Dominic Fike and Dylan Patel drafts, not reused argument, so I raised no finding.
+
+I did not reopen sources for this role. The hook-quote and closing-joke findings rest on the evidence file's context notes, and the assessment says so.

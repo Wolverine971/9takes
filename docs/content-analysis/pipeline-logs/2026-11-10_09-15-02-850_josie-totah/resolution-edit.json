@@ -1,0 +1,373 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The section is retitled \"Jump on or jump off\" and covers only the 2018 essay; the 'I'm Italian' answer moved to the Type 3 section as a parent-coached casting answer, so her gender is no longer paired with it. 'She let them,' 'The second answer ran just as long,' 'two managed presentations... retired on her own schedule' and 'Add the two answers she kept up for years' are gone (claim C70 deleted). The public assumption is reported in her attributed words from the essay ('I almost felt like I owed it to everybody to be that gay boy'; she had only 'halfway corrected people'), and the section now says 'The years before the essay say nothing about her temperament.' The Type 3 case rests on her chosen record: the producer condition, the 2023 outreach and 'win' language, the casting answer with its stated limits, and the timing and tone of the essay. The trans-is-not-type-evidence paragraph is kept and the evidence record's hypothesis no longer counts the closet years."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. 'Both scripts were handed to a child by adults' is removed. The ethnicity answer is attributed to her parents' coaching in her account ('she says'); the other assumption is attributed to 'reporters and the public' as the essay describes. Her on-record account of her mother's support is added from the Time essay, checked against the pinned capture: at 14 she said 'This is me. I'm transgender. And I need to go through this,' and her mother answered 'Okay, let's do it' (new claim C79). Every statement about what her parents said is still marked as her account."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. 'Her method with people in charge is to pitch by fib' is removed. 'Fib' is confined to the one call ('that night she got her way with a fib') and her stated reason now sits beside it: 'I was scared to do it because I have the utmost respect for Katherine and our writers' (Nylon, reopened). The Type 8 paragraph acknowledges that she was 'very frank with Tracey' and quotes 'I'm quite loud and don't take well to authority'; it argues from the kept audition answer and the indirect approach, cites no fear or embarrassment against Eight, and ends 'unlikely here, not excluded.'"
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. The body now says she woke up 'at my death,' too sick to work, was tested for everything, and that the clinician 'prescribed' the steroid; the next paragraph says 'the drugs are a prescribed steroid.' The interpretive sentence carries 'by her telling' and no longer asserts the depression verdict as fact. 'Turns bad news into a bit' is replaced in the 60-word answer and the type FAQ (identical text) by 'tells her hard stories as comedy,' which the body supports with three dated instances: the clinic story (August 11, 2022), the retelling of her mother's warning labelled 'performed for laughs' (April 2023) and the closing punchline (August 25, 2022)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed by the second branch of the test: the article stops using the episode. I reopened the August 25, 2022 transcript. She ties the day to a world that has 'marginalized us,' to feeling 'not a normal fucking girl' after a director's note, and to exhaustion, and she says 'Okay normally I can cry at any moment too. But yesterday...'. With both omitted clauses restored, every cause falls under the article's own exclusion rule and she calls it an exception, so nothing fair remained to report. The paragraph is cut, claim C53 is removed, and the full wording is recorded in S19's context."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. The sentence now reads 'It does suggest what the jokes may be standing in front of,' a marked inference."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. Before the block quote the closing section now says in the author's prose: 'It is a comic segment, and both lines were played for laughs. A transcript cannot say how much she meant them.' The quotations are unchanged and the last three beats are untouched."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. The line is now 'a shrug at rejection' and it directly follows her remark about auditions; the Lil' Dictator paragraph comes after it, so her reply to that criticism is not used as a personality signal. That paragraph keeps 'She was ten, and the series was made and released by adults.' The sister's first name is gone (the musical-theater clause that named her was cut)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. Checked against Crooked's transcript: 'I was so afraid to drink because I didn't want anyone to ruin anything in in my parents house.' The opening now gives the reason outside quotation marks ('It was her parents' house, which is why the host stayed sober... in case anyone ruined something there') and quotes only the fragment 'so afraid to drink.' The fourth paragraph says the scene 'has a plain explanation: a teenager guarding her parents' house.' The thesis line 'The discipline protects the place where she gets to play' is removed, the title no longer claims carefulness, and the career motive is attached only to her mother's warning. The persona_title is kept because it is a literal description of the sourced image and no longer carries a control reading."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. Both omissions were confirmed in the transcript. Restoring them shows the episode sits inside the article's exclusion rule (she attributes it to being marginalized) and was an exception by her own account, so the edit takes the 'stops using the crying episode as Seven evidence' branch and removes the paragraph instead of reporting a story the article then has to disown. The horror-class answer is now labelled in plain words as 'played for laughs.' Claim C53 is removed; S19's context records the full passage."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed by the alternative the test allows: the dream-roles point is dropped from the Type 3 argument and from the article. No sentence claims the list lacks direction. Claim C69 is removed and S24's context notes the full list."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. The sentence is now dated and attributed ('She defined love for Galore that January... In the same Q&A, asked what would surprise people, she said'), and her April 2023 account of going alone sits beside it ('a little risky for me,' then 'It was so nice,' new claim C85, checked in the transcript). The conclusion is scaled: she 'also describes a mundane errand as a risk.'"
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. The I Am Jazz exchange and her mother's answer are in the body with attribution to the essay (C79). The text says who supplied each assumption: her parents coached the ethnicity answer (her account); 'reporters and the public' assumed the other, and she had only 'halfway corrected people.' The timing passage now begins 'The essay ran the week she left for college.' Her mother appears in both registers."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. The title is now 'Josie Totah and the Prop Cigarette: The Case for Enneagram Type 7' and the thesis limits her care to 'two things: alcohol and being known.' The fake-I.D. bar nights sit in the same sentence as 'never really drank.' 'I'm quite loud and don't take well to authority' is quoted in the Type 8 paragraph with the obey-and-work-around behavior set against it (kept her parents' audition answer for about six years, approached Jakeways sideways). 'I was definitely mean back' is also quoted. The remaining self-descriptions are recorded in the evidence (C86 alternative) and not quoted, to hold the length."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The June 2025 Numéro answer is quoted with its date ('where it might take me,' 'work begets work,' C82). The next paragraph says 'The later answer moves toward Three' and names the small lean that survives. The limits no longer rest on necessity alone: the section states that no choice between advancement and enjoyment is on record."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. The Type 3 section now opens its record with the 2016 Sundance weekend in her words, including her father's push and Naomi Scott's role (C81, Wonderland reopened). Champions is identified as 'the Mindy Kaling comedy in which she played a teenage boy' at the point where its end matters to the timing of the essay; the intro's credit list is left compact."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed. The discriminator is reworded as stated criteria and the text says no test case exists: 'A choice would settle it... None is on record. At Chapman she kept both. So the difference has to be read from what she says she weighs, which is weaker evidence than what she does.' The FAQ now says 'Type 7 leads on what she says she weighs, and no recorded choice tests it' and carries the college caveats (reason given in 2025, three years after graduating; possibly a family expectation; she kept the job too). The frame is specific to her record, which answers the similarity lead."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. The Why-not-Type-3 section quotes the 2025 Numéro criteria, dated, directly after the 2024 list and says what they do to the discriminator. The 60-word answer and type FAQ now say she 'listed \"the fun\" among her job tests in 2024,' not that she picks jobs for the fun. The People line is left in the evidence record; the Numéro answer carries the point."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. The dream-role sentence and its inference are removed. The constant-outreach line is quoted with its date and its context (a question about being a trans woman in the industry). The section says 'Embarrassment is one of her most frequent words' and 'Shame about how one is seen is a Three's home ground,' quoting 'I'm embarrassed and ashamed.' The claim that a Three would polish rather than mock her standing is gone; in its place: 'a comic's self-mockery can manage an image as well as polish does.'"
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. The reason is paraphrased outside quotation marks with the parents'-house detail. The fake-I.D. detail appears where her drinking is discussed. Title and thesis claim only care about alcohol and being known. The hook is dated to the summer of 2018 at 16 or 17 and written in the past tense; 'a glass she won't drink from' is removed."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. 'What points to Seven is the means' is removed. The paragraph now says winning the director over 'with your best skill, in a way that enlarges your part, is what a Three would do too. The episode does not separate the two types,' and quotes her report that Flanagan 'gave me so much to play with that he didn't need to.' The competitive audition lines are recorded in S38's context."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. 'The same reflex shows up as a principle' and the whole joy-in-storytelling paragraph are removed, so her position on trans and queer representation is not counted as avoidance anywhere. Claim C15 is deleted and dropped from the hypothesis's supporting claims. Removal was chosen over restating it as an uncounted conviction because the article's limit already excludes it."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. The could-not-cry story is removed (see subject-05; she calls it an exception and ties it to being marginalized). The pain-handling claim is now worded as 'a pattern in how she tells stories on a comedy show,' with the counterevidence stated beside it: 'The counterweight is that she tells them at all: across her record she has reported anxiety, depression and fear in public.'"
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed. The Eight rebuttal no longer calls the fib her method and acknowledges the frank ultimatum and an authority statement. Type 6 gets its own passage listing the fear around alcohol ('at every instance'), the test-it-on-peers approach, 'primary sounding board,' the safety definition of love and the grocery-store remark. The discriminator is motive ('look for support and prepare, or reframe it and move to the next thing'), the article says her record shows both, and it concludes 'Six remains live.' 'Almost no second-guessing or worst-case planning' is removed."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "Fixed. The description now reads 'A Carrie castmate says Josie Totah improvised in almost every scene,' and the body says 'Thornton is the only witness to the improvising, in two interviews, both with Totah beside her.'"
+    },
+    {
+      "finding_id": "critic-10",
+      "action": "fixed",
+      "reason": "Fixed. 'People were mean to me when I was a teenager, and I was definitely mean back' is quoted in the same sentence as the cachet line, attributed to Interview in 2026."
+    },
+    {
+      "finding_id": "critic-11",
+      "action": "fixed",
+      "reason": "Fixed. 'Neither account mentions being admired or being the best' is removed. The text now says 'The flashlight is also a spotlight, and a Three would have wanted that too.'"
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. The opening states what she feared would be ruined (her parents' house) in the author's prose and quotes only 'so afraid to drink' as a fragment; no quotation is closed mid-sentence as if complete. The prop-cigarette image is unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed. One passage now states how the restraint sits with the read: 'So the restraint is narrow, and circumstance accounts for most of it: a host guarding her parents' house, a child actor told a drink could end her career. The Seven read neither needs it nor explains it. What stays open is why the caution outlasted its reasons, and that question belongs to Type 6, below.' It agrees with the intro ('most of the care as circumstance') and with the Type 6 section."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. The edited body is 3,739 words by checkDraft against 3,746 for the frozen draft, with all jury additions included. To get there the edit cut the crying story, the joy paragraph, the dream roles, the writers'-room, 'make memories,' 'mama,' solo-days and social-media lines, and shortened several quotations. The general self-report limit is argued in full twice (the type section and the who-has-not-spoken paragraph); 'Nearly all of that is her own account' restatements, 'she may be exaggerating... Look at the form, though,' 'There are ordinary explanations too' and 'It is also a common conviction' are gone. Of nine H2 sections, three end on a limit (One condition, Where the wildness goes, and the testimony paragraph that closes the Type 6 section); the others end on evidence or a claim."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. (a) The quote is glossed 'meaning Flanagan,' and the stakes are given as her account: he 'gave me so much to play with that he didn't need to.' (b) 'One condition' names the Saved by the Bell reboot in its first paragraph and the word 'title' is no longer used for either sense ('credit' throughout). (c) The Scotland shoot is identified as The Buccaneers. (d) The bathroom remark is placed 'when she came back from a break in the recording.' (e) The party is dated to the summer of 2018, at 16 or 17."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed. Each alternative gets a one-clause motive ('A Six's motive is security...'; 'Type 8, whose motive is to stay in control of one's own life'). The Eight argument rests on behavior (the kept audition answer, the sideways approach), not on reported emotion, and the 'no single emotion makes a type' sentence is gone, so both are held to one standard."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The limit paragraph now orients the reader: 'She came out publicly in 2018, at 17, and much of what she has said since about hiding, fear and freedom describes what was done to a closeted child. None of that is counted here.' The two later quotations it left hanging ('outside of my body' and 'tired of being scared in this world') are removed from the article, so no uncounted statement is left for the reader to interpret."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. A sentence before the block quote says both lines 'were played for laughs' and that 'A transcript cannot say how much she meant them.' The bailiff is identified earlier in the section ('with the show's producer as bailiff'). The ending keeps its order and its last sentence, with nothing added after it."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed. The title is now 'Josie Totah and the Prop Cigarette: The Case for Enneagram Type 7,' which makes no claim of a clean split and matches the meta_title's 'The Case for' confidence. I used the opening image instead of restating the contrast because the article now says the on-set/off-set contrast fits Type 3 equally (enneagram-03), so a title asserting it would overclaim."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. The 2025 'where it might take me' and 'work begets work' answer is quoted beside the 2024 one. The discriminator sentence, the 60-word answer and both type FAQs present her criteria as what she says she weighs ('listed \"the fun\" among her job tests in 2024'; 'what she says she weighs, and no recorded choice tests it'). The college passage says 'Professionally it cost nothing. She kept the lead, the credit and the degree.' Her stated reasons for The Buccaneers are recorded in S27's context."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed. The reason is paraphrased outside the quotation marks with the parents' house named. The opening calls the scene 'a teenager guarding her parents' house,' and 'Where the wildness goes' attaches the career motive only to her mother's warning ('Its career reason is older than the parties'). Claim C24's passage matches the corrected text and its alternative records the co-host's 'trail of drinks' remark and the prop as an image datum."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. The thesis no longer says the discipline protects her play; it says 'A Type 3 would show the same split, so the case is made elsewhere.' 'What points to Seven is the means' is cut and the Carrie paragraph says the episode 'does not separate the two types,' with the Three reading stated. Appetite with nothing professional at stake is shown with her 2026 statement that she will 'pay a lot of money for a nice dinner' but not own things, placed in the Type 3 section as a small lean."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. The Type 3 section states the motive ('A Three's worth runs through being seen to succeed, and the feeling underneath is shame at being seen as less') and weighs her embarrassment vocabulary as evidence for it, quoting the previously unused 'I'm embarrassed and ashamed' and counting 'afraid of my own identity being controversial.' The self-deprecation point is no longer used against Three. The section then says what separates the types: no choice is on record, so only her stated criteria do, and weakly."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. The Type 6 passage names the long-kept warning, the sounding-board line, peer-testing and her stated fear before calling Jakeways (also restored in the Buccaneers anecdote), the safety language and the grocery store. The Six-versus-Seven discriminator is motive ('look for support and prepare, or reframe it and move to the next thing') with her evidence on each side, and the text says 'Six remains live, and some Sixes also walk straight at what scares them.' No sentence dismisses Six on what she does not say, and the Type 8 sentence no longer treats reported fear as disqualifying."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. The trimmed list and the inference drawn from it are both removed; claim C69 is deleted, so there is no passage left to mismatch."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed. The paragraph is removed; the pain-handling argument now stands on the clinic story and on how she tells stories on a comedy show."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "Fixed. The H2 is now '\"For me, love is safety\"' and holds the Type 6 and Type 8 cases with the unexplained behavior folded in, so the order no longer mirrors the other page. The triad sentence is rewritten to separate Six from Seven for this case: 'A Six looks for something solid to lean on... A Seven moves on to the next plan before this one goes flat.'"
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. The opening states the year and her age ('In the summer of 2018, between high school and college... She was 16 or 17'), confirmed from the transcript's 'the summer after high school' and the essay's 'This week, I'm going off to college' (new claim C87). The scene is in the past tense, the parents' house is named, the Thornton paragraph begins 'Eight years later,' and the fourth paragraph argues the continuity ('But the pairing recurs. From 2012 to 2026...')."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. The June 2025 answer is quoted with its date beside the January 2024 one, followed by 'The later answer moves toward Three.' The 60-word answer and FAQ use dated wording ('in 2024'; 'in 2025 she added'). The 'little choice' sentence carries its date ('In that 2024 answer')."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. In evidence-edit.json C71, C72, C73, C83, C86 and C93 are `unresolved` with triggers naming her next lead, producing or directing project after Carrie, any named director or showrunner account, the release of the short film and her next long interview about choosing work. C18, C49 and C82 are `time_sensitive` with a trigger to recheck her stated criteria. The body sentence stays."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. The description now says one Carrie castmate says she improvised. The type_hypothesis text is corrected to one castmate in two junket interviews, with The Buccaneers castmates describing jokes followed by focus. In the body the on-set pattern is on record before Carrie: Variety 2021 ('just do it on the show'), Nylon 2023 (the Buccaneers scene) and Brit + Co 2025 all precede the Carrie paragraphs."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. The grocery-store remark is dated to the January 2024 Q&A and written in the past tense; the 'actor nobody knows anything about' line is dated April 27, 2023; the undated 'solo self-care days' quote is removed; 'Fourteen years of interviews' is now 'From 2012 to 2026.' C33 is `time_sensitive`."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. The dream-role sentence and the inference are removed (claim C69 deleted)."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed. The who-has-not-spoken paragraph now says 'That is the record as of November 10, 2026.' The Lil' Dictator sentence says 'as of November 2026.' The type section adds 'Research ran through November 10, 2026,' which dates the Flanagan sentence (kept word for word as a protected passage)."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "Fixed. The Time link is pinned to capture 20230810074045 in the body, in `citations` and in S01's url; I re-fetched that capture and confirmed the quoted passages. S05 and S13 now record the original Teen Vogue and Variety URLs with confirmed Wayback captures of those originals; S27 uses the page's canonical URL with a confirmed capture, and the body and citations use it too. A research task is added to create captures for the Yahoo copies and the Crooked transcripts, which had none."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Totah is a transgender woman, and being trans is not evidence of any personality type.",
+      "action": "kept",
+      "reason": "Unchanged, and the rest of the article now obeys it (the closet years, the crying story and the representation stance are no longer counted)."
+    },
+    {
+      "passage": "Those are the effects of a circumstance, one that ended, and they do not type her.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Every telling of this is hers. Variety reports only that Wigfield agreed.",
+      "action": "kept",
+      "reason": "Unchanged, at the point of use."
+    },
+    {
+      "passage": "That is her report, and this profile found no statement from Flanagan about her.",
+      "action": "kept",
+      "reason": "Unchanged; the sentence before it now also quotes her report that he gave her more to play with."
+    },
+    {
+      "passage": "The testimony that exists is from friends and castmates, in promotional interviews, mostly with her in the room.",
+      "action": "kept",
+      "reason": "Unchanged; a dated sentence ('That is the record as of November 10, 2026') was inserted before it for future-07."
+    },
+    {
+      "passage": "One limit matters more than the rest. Totah is a transgender woman, and being trans is not evidence of any personality type.",
+      "action": "kept",
+      "reason": "Unchanged; two orienting sentences follow it."
+    },
+    {
+      "passage": "Who she is belongs to her. How she said it is fair to read, and she planned it.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "She cannot leave the material alone, and she gets her way with a fib about journaling and an open laptop.",
+      "action": "changed",
+      "reason": "Now 'She cannot leave the material alone, and that night she got her way with a fib about journaling and an open laptop.' The past tense and 'that night' confine the fib to the one call, as subject-03 requires; the character observation is intact."
+    },
+    {
+      "passage": "That is praise for talent. It says nothing about motive.",
+      "action": "kept",
+      "reason": "Unchanged; it now follows a shortened Wigfield quote at the head of 'One condition.'"
+    },
+    {
+      "passage": "Then there is who has not spoken. Apart from Wigfield's one sentence, no director or showrunner describes her in their own words.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "A person who cared a great deal would say the same thing, and it can't be checked.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "That reason arrived three years after graduation, and there are plainer ones.",
+      "action": "kept",
+      "reason": "Unchanged, and its caveats now travel into the FAQ."
+    },
+    {
+      "passage": "The read would weaken if a director or showrunner described her tracking billing, reviews or status, or if her choices after Carrie visibly favored prestige over enjoyment.",
+      "action": "kept",
+      "reason": "Unchanged, and now tracked by review triggers on C71 and C72."
+    },
+    {
+      "passage": "Apart from Wigfield's one sentence, no director or showrunner describes her in their own words. This profile found nothing from her parents after 2015, and nothing from her siblings, from anyone at her high school, or from anyone with a reason to be critical.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "\"So I would just walk around with literally a fake prop movie cigarette and a glass of wine,\" she said, one \"that I didn't drink from. Like Great Gatsby, while everyone was partying, getting drunk at my house.\"",
+      "action": "kept",
+      "reason": "Unchanged; it is still the opening image."
+    },
+    {
+      "passage": "Told she is depressed and should stop, she negotiates for a way to keep going, and the story becomes the first thing her new audience hears, as comedy.",
+      "action": "changed",
+      "reason": "Now 'by her telling, she was told she was depressed and should stop, she negotiated for a way to keep going, and the story became the first thing her new audience heard, as comedy.' The attribution is added because the verdict exists only in her comic telling (subject-04); the reading of the story's form is intact."
+    },
+    {
+      "passage": "Threes, Sevens and Eights all claim a fear of vulnerability, so it settles nothing about type. It does say what the jokes are standing in front of.",
+      "action": "changed",
+      "reason": "First sentence unchanged. The second is now 'It does suggest what the jokes may be standing in front of,' marking the author's inference as one (subject-06); the caveat still carries the story forward."
+    },
+    {
+      "passage": "\"And so music always has to be playing,\" she said. The transcript records a gavel. Then she announced she was taking the bailiff out to dinner.",
+      "action": "kept",
+      "reason": "Unchanged; the bailiff is identified earlier in the section."
+    },
+    {
+      "passage": "Threes, Sevens and Eights all claim a fear of vulnerability, so it settles nothing about type.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Someone who calls herself \"really down for anything\" will not run a mundane errand by herself, and a freedom motive does not predict that.",
+      "action": "changed",
+      "reason": "Now 'Someone who told Cero in 2025 she is \"really down for anything\" also describes a mundane errand as a risk, and a freedom motive does not predict that.' 'Will not run' was false as a present-tense fact: she described going alone in April 2023 (fan-04). The behavior is still left unexplained, with no wing or arrow."
+    },
+    {
+      "passage": "A ten-year-old in a proud local feature is weak evidence of adult motive. The vocabulary is already there, though: fun, the next thing, a shrug at disapproval.",
+      "action": "changed",
+      "reason": "Last words now 'a shrug at rejection,' and the sentence follows the audition quotes, so a ten-year-old's reply to the racism criticism is not read as a trait (subject-08). The cross-decade pattern and its stated limit are intact."
+    },
+    {
+      "passage": "Medium confidence is the honest ceiling. Nearly everything below is her own account, given in promotional interviews or on a podcast she hosted with two close friends.",
+      "action": "kept",
+      "reason": "Unchanged."
+    }
+  ],
+  "prior_blockers": []
+}

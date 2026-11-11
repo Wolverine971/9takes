@@ -1,0 +1,1203 @@
+{
+  "schema_version": 3,
+  "subject": "qtcinderella",
+  "status": "ready",
+  "research_tasks": [
+    "The 2020 Dr. K quotations (S24) were checked against the audio at verification on 2026-11-10 by machine transcription and re-matched by script at repair; the article now says so in one sentence. A human listen has not been done. Inven Global's 'at the top' and 'Well, who am I?' are 'the top' and 'well now who am I' in the audio, and the article labels them as Inven's wording.",
+    "Decide whether Type 6 or Type 3 is the stronger rival. The enneagram reviewer judged Type 6 at least as strong; the edit ranks them about level and keeps alternative_type 3. If Type 6 is judged stronger, change alternative_type and rerun with --refresh --expanded-review so the jury sees the 2020 source and the Type 6 section.",
+    "Owner's choice: five of the six reviewers have not seen the 2020 source or the Type 6 section. The verifier read the whole conversation and did not think a new jury was required, but --refresh --expanded-review would give it one.",
+    "Open the Smosh Alike video https://www.youtube.com/watch?v=K3OFzBEZuyM (S22) before stating any PTSD or OCD diagnosis; GQ supports only dissociation and a formal diagnosis after three swattings. Also find her August 8, 2023 tweet and date the swattings (Wikipedia cites a December 27, 2022 Game Rant report); C72 depends on that date.",
+    "After November 12, 2026, update C41, C31, C29, C17 and C48: whether the sixth show ran, who co-hosted, what the promised 'hard pivot' changed, and any new rigging or joke complaints.",
+    "Add entries for QTCinderella to docs/writing-system/people-controversies.json before publishing (none exist as of 2026-11-10; no stage has edited that file): (1) November 2025 nominee-fairness and rigging accusations, Asmongold's argument and her denial, written; (2) December 2025 show jokes backlash, written; (3) January 2023 deepfake episode, in which she was a target, written; (4) October 2026 wedding late-guest call-out, now a one-sentence dated record after the repair cut, so if the owner files it as a required controversy the viewers' point, her reply and ExtraEmily's explanation (all in S18) need restoring; (5) February 2024 QTEvents rerun channel and 41-minute Twitch ban (Game Rant opened, S27; cut from the article as minor); (6) December 2025 prediction-market 'insider trading' accusation by one viewer (S14; excluded from the article).",
+    "Find a second source for the June 6 birth date, or keep using the year only.",
+    "Not opened and worth one attempt each: her explanation of leaving TSM ('never meet your heroes', Dot Esports page returned 410), the NBC News deepfake interview, and a source that explains the 'Piker shock-collar jokes' GQ mentions.",
+    "Look for named testimony that is not from a partner or co-host (a former collaborator, a production crew member, a critic who has worked with her) to test the self-reports about motive. Test the borrowed-standing objection (that her standing came from Ahgren's larger audience) against 2020-2022 sources.",
+    "Companion check done at the edit stage: the Ludwig Ahgren draft uses his own October 20, 2026 stream remark about the wedding, not the late-guest naming; this profile gives the wedding episode no type weight.",
+    "For the next refresh: GQ already supports that Maya Higa was the previous Wine About It cohost and was announced as a 2025 awards cohost.",
+    "Sources S08, S09, S12, S22, S23 and S27 are retained for a later refresh but support no article claim. Cut for length at the repair stage, all still supported by opened sources and available to restore: the BBC 'don't do it' line (S03), the ET 'three pages of notes' (S07), the ET interviewer's 'close to a million dollars' figure (S07), GQ's 'losing money and losing sleep', 'small fry', 'big feelings', 'empathetic to a fault', 'never burdened him', 'my sister would have to answer for me', the second printing of 'Nobody gives a shit...', the farming-simulator example and the pre-show 'too friendly' note (S02), Polygon's 'understood' quote and charity-gala detail (S05), Inven Global's account that the people she could not invite pushed her toward the awards (S04), the CAA signing in the body (still in the FAQ, S20), and most of the wedding episode (S18). Cut at the edit stage: the pre-streaming job history, the GGRecon and ET mission quotes, the BBC 'respond less' quote, the Vice 'my family now knows' statement, the trophy theft, the 'girlboss/businessperson' line, the staffing sentence, the 'find humanity in everyone' quote and the Disneyland and culinary-school details."
+  ],
+  "accuracy_checked_at": "2026-11-10",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://en.wikipedia.org/wiki/QTCinderella",
+      "title": "QTCinderella (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026 (raw wikitext read 2026-11-10; infobox stats dated July 13, 2026)",
+      "locator": "Lead; Early life; Career 2018-2026; Other ventures; Personal life; Health",
+      "excerpt": "Blaire W. was born on June 6, 1994, and grew up in Washington, the youngest of four children.",
+      "context": "Chronology backbone only: Twitch account August 2018, full-time by June 2020, Sh*tCamp September 26, 2021, first Streamer Awards March 12, 2022, deepfake January 30, 2023, later award editions, Master Baker seasons, Gala for Good, Deco Deco (January 2025), CAA (May 2026), engagement July 5/10, 2026, marriage October 2026. It is the only source seen for the full birth date and for culinary school. Not used for motive. Wikipedia prints an initial for her surname; she does not publish her surname and the profile should not go looking for it.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.gq.com/story/qtcinderella-streamer-awards-profile",
+      "title": "The Nonstop, Drama-Filled, Picture-Perfect Life of QTCinderella",
+      "speaker": "QTCinderella, interviewed and observed in person by Kieran Press-Reynolds (GQ); also quotes Valkyrae (Rachell Hofstetter) and Ludwig Ahgren",
+      "date": "2025-12-17",
+      "locator": "Full article, about 4,500 words; quotes located by paragraph: childhood/family paragraph, work-history paragraph, Ahgren paragraph, swatting paragraph, kitchen scene, Wine About It studio scene, closing paragraph",
+      "excerpt": "“My work ethic has been my defining feature in my life,” she says. “It’s the only thing that I’ve ever found valuable in myself.”",
+      "context": "Reported over one day at her Los Angeles home and podcast studio five days before the December 6, 2025 Streamer Awards, with a short coda after the show. The richest single source: childhood, abuse disclosure, work history, the relationship, swatting and dissociation, the rigging allegations, and several first-person statements about worth, friendship and being misread. The writer's own characterizations (\"gatherer\", \"popular loner\", \"Atlas of the streaming world\") are the writer's, not hers, except where quoted. Fetched with plain curl and read in full. Reopened in full at the edit stage (2026-11-10). Context pinned then: 'find humanity in everyone' is printed in the closing paragraph as something she said about her fervor to pick up the pieces after the show (the quote was cut from the article); 'My parents definitely weren't neglectful' precedes the abuse disclosure; the writer calls Ewing 'QT's collaborator and friend'; the pre-show 'complimentary joke' line is introduced with 'she said she was working on it'; the racism and homophobia claims are the writer's summary of unnamed posts; the family 'was and still remains in the Mormon Church, which she left when she was 18'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.bbc.co.uk/news/articles/c3v1dd01x65o",
+      "title": "Twitch star QTCinderella says she wishes she never started streaming",
+      "speaker": "QTCinderella, interviewed by Laura Cress (BBC News technology reporter)",
+      "date": "2025-12-05",
+      "locator": "Full article; opening section and the section headed \"From drama to positivity\"",
+      "excerpt": "\"The biggest thing I wish I could do, if I went back and was able to whisper in my ear, I would say, don't do it.\"",
+      "context": "Interview published the day before the 2025 Streamer Awards. Covers regret about the career, harassment and safety, the craft shop she cannot visit, the November 2025 blacklist accusations and her stated reason for the awards. The BBC says she created the awards in 2021; the first ceremony was held March 12, 2022 (S01, S04). Read in full.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.invenglobal.com/articles/16950/qtcinderella-streamer-awards-shitcamp-twitch-landscape",
+      "title": "\"I want to help people that feel alone\": QTCinderella and her fight to change the Twitch landscape",
+      "speaker": "QTCinderella, interviewed by Inven Global (byline not captured in the fetched text); also quotes Maya Higa and relays a June 20, 2020 Dr. K (Alok Kanojia) stream",
+      "date": "2022-04-12",
+      "locator": "Full feature; opening (Dr. K quote), Roast of Ludwig section, Sh*tcon/Sh*tcamp section, Streamer Awards section, closing section \"A Christmas Concert\"",
+      "excerpt": "“When Sh*tcamp ended, everyone went around the room, we popped champagne, we gave high-fives, they said, ‘Let's go to the club!’ I stayed at the hotel and I cried.",
+      "context": "Long feature one month after the first Streamer Awards, built on an original interview. It also quotes her June 20, 2020 conversation with Dr. K, which the edit stage opened through its automatic captions (S24); the Inven Global wording is kept where the article says 'as Inven Global quoted it'. Reopened in full at the edit stage: the feature calls the Roast of Ludwig 'the first major event in QT's streaming career' and gives her line 'I take it really personally because I just want it to be better.' The feature's tone is admiring; the writer's praise is not evidence. Read in full via r.jina.ai (served from the /datalab/ path of the same article).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.polygon.com/23949548/qtcinderella-interview-twitch-controversy",
+      "title": "For QTCinderella, events are a way to ease the toxicity of the internet",
+      "speaker": "QTCinderella, interviewed by Ana Diaz (Polygon) via voice chat",
+      "date": "2023-11-08",
+      "locator": "Full article; the people-pleaser paragraph and the final three quoted paragraphs",
+      "excerpt": "“It’s the hardest job I’ve ever had. I so desperately wish I could be understood. But you’ll never be understood on the internet.",
+      "context": "Interview after The Gala for Good (October 1, 2023) and TwitchCon. \"Pathological people-pleaser\" appears as the reporter's phrase \"A self-described 'pathological people-pleaser'\": the three words are quoted, the sentence around them is Polygon's. Read in full via r.jina.ai.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.vice.com/en/article/deepfake-qtcinderella-atrioc/",
+      "title": "‘You Feel So Violated’: Streamer QTCinderella Is Speaking Out Against Deepfake Porn Harassment",
+      "speaker": "QTCinderella, interviewed by Samantha Cole (Vice/Motherboard) by phone",
+      "date": "2023-02-13",
+      "locator": "Full article; quotes in the middle third (family, body, assault) and the final three paragraphs (lawyers, nieces)",
+      "excerpt": "“You feel so violated…I was sexually assaulted as a child, and it was the same feeling,” she said.",
+      "context": "Interview two weeks after Brandon \"Atrioc\" Ewing showed a deepfake site on stream. Establishes the sequence (his January 30, 2023 stream apology, his February 1 written apology, the site creator taking the content down), her account of the harassment that followed, and her views on consent and sex work. Read in full.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.etonline.com/qtcinderella-on-handling-online-attacks-and-what-keeps-her-streaming-exclusive-201807",
+      "title": "QTCinderella on Handling Online Attacks and What Keeps Her Streaming (Exclusive)",
+      "speaker": "QTCinderella, Q&A with Entertainment Tonight (byline not captured)",
+      "date": "2023-03-29",
+      "locator": "Q&A; answers 1 (self-criticism), 3 (favorite part), 4 (expenses), 5 (deepfake)",
+      "excerpt": "People don't realize I'm very, very critical. And so, like, the very next day, I rewatched the entire program, and I have three pages of notes of things that I'm changing for next year.",
+      "context": "Short Q&A after the second Streamer Awards (March 11, 2023). The interviewer says she \"invested close to a million dollars\"; she answers that costs tripled and calls the show \"a passion project\". Also her first on-record account of trying to forgive Atrioc. Read in full via r.jina.ai.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.dexerto.com/entertainment/qtcinderella-explains-why-streamer-awards-matter-its-so-much-more-than-a-stupid-frog-trophy-2083184/",
+      "title": "QTCinderella explains why Streamer Awards matter: “It’s so much more than a stupid frog trophy”",
+      "speaker": "QTCinderella, interviewed by Virginia Glaze (Dexerto)",
+      "date": "2023-03-10",
+      "locator": "First half of the article, the two long quoted paragraphs about isolation and the Asmongold anecdote",
+      "excerpt": "“Unfortunately, in this industry, everyone’s so isolated that it leads to a lot of toxicity.",
+      "context": "Pre-show interview the day before the 2023 ceremony. Her stated theory of why the events matter: isolated streamers misread each other, and meeting in person ends feuds. Read via r.jina.ai (first half read closely).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.ggrecon.com/articles/qtcinderella-wants-more-recognition-for-streamers-following-streamer-awards",
+      "title": "QTCinderella Wants More Recognition For Streamers Following The Streamer Awards",
+      "speaker": "Emma Hill (GGRecon), quoting QTCinderella's April 5, 2022 behind-the-scenes YouTube video",
+      "date": "2022-04-07",
+      "locator": "Paragraphs 4-6",
+      "excerpt": "\"With streaming, it's hard to feel a purpose in life because all you're doing is playing video games all day, which I love. But, my favourite things that happened to me would be when people invited me things.\"",
+      "context": "Secondary write-up of her own behind-the-scenes video; the video itself was not opened. The quote reads as transcribed (\"invited me things\" is the outlet's wording). Read via r.jina.ai.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.sportskeeda.com/esports/news-i-m-going-f-king-sue-you-qtcinderella-addresses-community-following-streamer-deepfake-controversy",
+      "title": "\"I'm going to f***king sue you!\" - QTCinderella addresses the community following the streamer deepfake controversy",
+      "speaker": "Aarnesh Shrivastava (Sportskeeda), transcribing QTCinderella's Twitch stream",
+      "date": "2023-01-31",
+      "locator": "Opening three quoted blocks",
+      "excerpt": "\"I wanted to go live because this is what pain looks like. This is what it looks like! Okay? This is what it looks like.",
+      "context": "Contemporaneous transcription of her short stream about the deepfakes. Sportskeeda dates the stream January 31 (GMT); Vice (S06) says it was the same day as Atrioc's January 30 apology; Wikipedia says January 30. The difference looks like time zones. The outlet censors profanity with asterisks; the stream itself was not opened. Read with plain curl.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.sportskeeda.com/us/streamers/news-i-m-forgiver-qtcinderella-says-moved-atrioc-deepfake-controversy-refuses-meet",
+      "title": "“I'm a forgiver” - QTCinderella says she moved on from Atrioc deepfake controversy but refuses to meet him",
+      "speaker": "Shreyan Mukherjee (Sportskeeda), transcribing a QTCinderella stream",
+      "date": "2025-01-07",
+      "locator": "First two quoted blocks",
+      "excerpt": "\"I'm a forgiver and I also think Atrioc put more effort into fixing the problem than anybody would ever who else would put in that situation. But, I haven't personally spent any time with him, yet.",
+      "context": "Stream clip write-up two years after the deepfake episode: she declined a New Year's party once she learned Atrioc was invited, while saying she has forgiven him. The headline's \"refuses to meet him\" is stronger than her words. Read with plain curl.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.sportskeeda.com/esports/qtcinderella-explains-quit-disneyland-job-becoming-streamer",
+      "title": "\"The worst part is the dads” - QTCinderella explains why she quit her Disneyland job before becoming a streamer",
+      "speaker": "Vitasta Singh (Sportskeeda), transcribing QTCinderella on the TMG podcast (episode 256, published about September 8, 2022)",
+      "date": "2022-09-13",
+      "locator": "First two quoted blocks",
+      "excerpt": "\"You have a zone and you can't be out there for too long 'cause you get overheated obviously and kids are aggressive and it's actually not the kids, the worst parts are the dads.",
+      "context": "Secondary relay of a podcast appearance. Sportskeeda calls the show \"TMS Studios podcast\"; YouTube oEmbed for the episode Wikipedia cites confirms the title \"QTCinderella Roasts Us (ft. QTCinderella) | TMG - Episode 256\" on the TMG Studios channel. The episode was not opened (S23). Read with plain curl.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.dexerto.com/twitch/qtcinderella-tearfully-lashes-out-streamer-awards-backlash-3284367/",
+      "title": "QTCinderella tearfully hits back at Streamer Awards backlash as Ludwig & MrBeast chime in",
+      "speaker": "Brad Norton (Dexerto), quoting QTCinderella's stream and her November 18, 2025 X post, plus posts by Ludwig Ahgren, Deshae Frost and MrBeast",
+      "date": "2025-11-18",
+      "locator": "Stream quotes in the first half; embedded X post dated November 18, 2025; section \"Ludwig & MrBeast defend QTCinderella\"",
+      "excerpt": "I’ll try to shut up during the show while all the streamers eat the dinner I paid for, be celebrated at the show I spent months working on, and enjoy their night hanging out with eachother.",
+      "context": "Coverage of the 2025 nomination-reveal backlash: viewers claimed \"problematic\" streamers were blocked, she said they were never nominated because their audiences did not vote, then broke down on stream. The excerpt is from her embedded X post replying to Deshae Frost, who had yelled for her to \"shut the f*** up\". Ludwig's defense is partner testimony, not independent. Read via r.jina.ai. Reopened at the edit stage: the report does not say what Frost objected to and says she 'shut down any notion of uninviting Frost'. Reopened at the repair stage: the 'peers' line is printed after her X reply, introduced as her frustration at backlash from fellow content creators, with no statement of where she said it.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.dexerto.com/twitch/qtcinderella-taking-legal-action-against-polymarket-over-streamer-awards-betting-3289039/",
+      "title": "QTCinderella taking legal action against Polymarket over Streamer Awards betting",
+      "speaker": "Connor Bennett (Dexerto), quoting QTCinderella on stream",
+      "date": "2025-12-02",
+      "locator": "Paragraphs 5-8",
+      "excerpt": "“We have sent them a cease and desist, but thank you for coming into chat and accusing me of things,” she said",
+      "context": "A viewer accused her of \"insider trading\" on prediction markets (Polymarket and Kalshi) that listed Streamer Awards outcomes. She said she has no association with the sites and that lawyers were involved. Outcome not found. Read via r.jina.ai. Reopened at the edit stage. The accusation is one chat viewer's ('insider trading'); the edit excludes the item (see resolution critic-09).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.dexerto.com/twitch/qtcinderella-promises-streamer-awards-changes-as-its-gotten-much-bigger-than-before-3291478/",
+      "title": "QTCinderella promises Streamer Awards changes as it’s gotten “much bigger” than before",
+      "speaker": "Connor Bennett (Dexerto), quoting QTCinderella's December 8, 2025 stream",
+      "date": "2025-12-09",
+      "locator": "Paragraphs 5-10",
+      "excerpt": "“I had this epiphany and I was like ‘momma didn’t raise no quitter’ and next year is going to be a movie, I promise.’",
+      "context": "Her response two days after the 2025 show, which drew complaints about jokes and on-stage incidents. She called much of the criticism \"really valid\" and promised \"a very hard pivot\" for 2026. Read via r.jina.ai. Reopened at the edit stage: Dexerto paraphrases that 'a lot of the criticism' is 'really valid', that the show is 'much bigger than it used to be' and she has to 'adjust for that' with its jokes and bits, and that she defended her joke about Rakai's ban as understood in the room but not at home.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.sportskeeda.com/us/streamers/news-mr-mrs-coworkerwig-hasanabi-streamers-react-ludwig-qtcinderella-s-wedding",
+      "title": "\"mr and mrs coworkerwig\": HasanAbi and more streamers react to Ludwig and QTCinderella's wedding",
+      "speaker": "Aarnesh Shrivastava (Sportskeeda), quoting Ludwig Ahgren's X post and October 20, 2026 stream",
+      "date": "2026-10-21",
+      "locator": "Opening paragraphs",
+      "excerpt": "On October 20, 2026, Twitch and YouTube star Ludwig posted photos of his wedding with Blaire \"QTCinderella\" on social media",
+      "context": "Establishes that wedding photos were posted on October 20, 2026. It does not give the date of the ceremony. Same article used as S16 in the Ludwig Ahgren evidence record. Read with plain curl.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.sportskeeda.com/us/streamers/news-ludwig-qtcinderella-announce-engagement-fans-react",
+      "title": "Ludwig and QTCinderella announce engagement, fans react",
+      "speaker": "Aarnesh Shrivastava (Sportskeeda), quoting X posts by Ludwig Ahgren and QTCinderella and Ludwig's July 10, 2026 stream",
+      "date": "2026-07-11",
+      "locator": "Opening paragraphs and the final quoted block",
+      "excerpt": "\"We will be having the wedding at Maddison Square Garden everyone can come\"",
+      "context": "Engagement announced July 10, 2026. Ludwig describes the proposal: Valkyrae moved a Wine About It recording so he could decorate the house with printed photos from the relationship. Wikipedia dates the proposal itself to July 5. Read with plain curl.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.dexerto.com/twitch/qtcinderella-slams-parasocial-freaks-after-ludwig-reveals-which-streamers-were-late-to-their-wedding-3420953/",
+      "title": "QTCinderella slams “parasocial freaks” after Ludwig reveals which streamers were late to their wedding",
+      "speaker": "Calum Patterson (Dexerto), quoting QTCinderella and Ludwig Ahgren on a podcast, QTCinderella's October 22, 2026 X posts, critics on X, and ExtraEmily",
+      "date": "2026-10-22",
+      "locator": "Whole article",
+      "excerpt": "“This job is weird cause you share your personal life online and then as you become more ingrained in it other content creators become your personal life,” she said.",
+      "context": "After the couple named four streamers who arrived late to the wedding (Ludwig: \"I hate them until I die\"; she: \"they did show up and set the entire wedding back\"), clips spread and fans attacked the guests. She then told fans to stop. The article includes critics pointing out that the couple had named the guests themselves, and ExtraEmily's explanation (wrong address). Read via r.jina.ai. Reopened at the repair stage: the lede says 'the couple publicly called them out'; her reply to critics ('I shared the story on a podcast. An hour long podcast about my wedding. Did you see me clip farm it?') is in the report and is not printed, because the article now carries only a one-sentence dated record.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.dexerto.com/entertainment/streamer-awards-trophies-stolen-ahead-of-2026-ceremony-3423109/",
+      "title": "Streamer Awards trophies stolen ahead of 2026 ceremony",
+      "speaker": "Nathan Warby (Dexerto), quoting QTCinderella's October 29, 2026 X posts",
+      "date": "2026-10-30",
+      "locator": "Paragraphs 3-8",
+      "excerpt": "“This is incredibly embarrassing but this years Streamer Awards trophies were stolen off of one of our producers front porch (LMAO),” she wrote.",
+      "context": "Current-accuracy source: the sixth Streamer Awards are scheduled for November 12, 2026, voting closed October 31, and the trophies were stolen before the show. Read via r.jina.ai. The edit cut the trophy-theft item; the source now supports only that the sixth show had not yet taken place when the record closed.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.hollywoodreporter.com/business/business-news/twitch-streamer-qtcinderella-caa-1236601011/",
+      "title": "Twitch Streamer QTCinderella Signs With CAA (Exclusive)",
+      "speaker": "Etan Vlessing (The Hollywood Reporter)",
+      "date": "2026-05-19",
+      "locator": "Whole article (short)",
+      "excerpt": "Twitch streamer and YouTube content creator QTCinderella has signed with CAA for representation.",
+      "context": "Trade report; reads like agency-supplied background (brand list, \"over 3 million\" followers across platforms, 2025 show passing 1 million concurrent viewers). Used for the signing and date only. Read with plain curl.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://en.wikipedia.org/wiki/The_Streamer_Awards",
+      "title": "The Streamer Awards (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026 (raw wikitext read 2026-11-10)",
+      "locator": "Infobox; ceremonies table",
+      "excerpt": "November 12, 2026",
+      "context": "Used only to cross-check the 2026 ceremony date against S19. The infobox already lists the 2026 show under \"previous\", which is premature as of November 10, 2026, so the page is not reliable on whether the show has happened.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.youtube.com/watch?v=K3OFzBEZuyM",
+      "title": "The day QTCinderella almost died on stream (Smosh Alike)",
+      "speaker": "QTCinderella, interviewed on the Smosh Alike channel",
+      "date": "unknown",
+      "locator": "Not opened",
+      "excerpt": "Not opened. YouTube oEmbed confirms only the title and channel.",
+      "context": "Wikipedia cites this video for her PTSD and OCD diagnoses. A transcript fetch failed in this run, so nothing here is used as evidence. Listed as a research task.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.youtube.com/watch?v=uBxag3QD-l0",
+      "title": "QTCinderella Roasts Us (ft. QTCinderella) | TMG - Episode 256",
+      "speaker": "QTCinderella with Cody Ko and Noel Miller (TMG Studios)",
+      "date": "2022-09 (about September 8, 2022 per S12)",
+      "locator": "Not opened; Wikipedia cites 54m42s",
+      "excerpt": "Not opened. YouTube oEmbed confirms only the title and channel.",
+      "context": "Long-form podcast appearance that S12 quotes about Disneyland. Not opened, so the Disneyland quotes rest on Sportskeeda's transcription.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.youtube.com/watch?v=De245b9hRw0",
+      "title": "Talking with QTCinderella about Confidence | Dr. K Interviews",
+      "speaker": "QTCinderella, interviewed live by Dr. Alok Kanojia (HealthyGamerGG)",
+      "date": "2020-06-20 (date per Inven Global, S04; YouTube upload date not captured)",
+      "locator": "About 97 minutes. Auto-caption timestamps: 02:15 anxiety; 06:39 two thoughts / no right answer; 12:05-12:27 top in my company, self-worth 100%; 13:14 comfort in a plan; 29:46 'I just want them to be happy'; 34:55 baking as a way to fit in, cookies, 'nicer to me'; 35:58 'my cookies are my training wheels'; 59:27 'selfish'; 59:58 'I don't think I deserve anything ... work hard to earn it'; 1:03:28-1:03:48 one percent / 'maybe that's not enough'; 1:10:15-1:10:36 'are you mad at me, do you not like me' / 'they lied'; 1:11:17 'I need reassurance way too much'; 1:11:37-1:11:58 'since I don't like myself why would anybody else like me'; 1:14:16 Kanojia's 'superior to others' formulation; 1:15:19-1:16:21 siblings, cut from the volleyball team, 'fit in with my own family', 'no one put pressure on me besides myself'",
+      "excerpt": "it's always been that that way for me to like have an easy way to fit in if that makes sense like if i go to a party it's like i bring cookies",
+      "context": "Opened at the edit stage on 2026-11-10 through the video's automatic English captions (2,643 caption rows fetched with youtube_transcript_api; YouTube oEmbed confirms title and channel). Audio checked at the verification stage on 2026-11-10: a full local transcription plus a second model on the key windows, and every quoted fragment matched. At the repair stage the 17 quoted fragments still in the article were re-matched by script against that transcription (17 of 17). This is machine transcription, not a human listen. Inven Global's 'at the top' and 'Well, who am I?' are 'the top' and 'well now who am I' in the audio; the article labels those two lines as Inven Global's wording. Captions carry no speaker labels; lines were attributed by turn-taking. Context the article leaves out: she ties the comfort of a plan to her own 'OCD tendencies' (13:26) and 'two thoughts' first comes up about posting photos; both fragments were cut at repair. The conversation also contains health, family and abuse disclosures that the article does not repeat beyond what the type argument needs. The full transcript is cached outside the repository; only fragments and timestamps are recorded here. She says her mother died 'four years ago', consistent with 2016.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.dexerto.com/twitch/qtcinderella-shuts-down-claim-that-streamer-awards-blacklist-problematic-streamers-3284164/",
+      "title": "QTCinderella shuts down claim that Streamer Awards blacklist \"problematic\" streamers",
+      "speaker": "Dexerto (byline not captured), quoting QTCinderella's nominations stream and Asmongold's stream",
+      "date": "2025-11-17",
+      "locator": "Opening section (viewer's question and her answer) and the section headed \"Asmongold offers $100,000 if QTCinderella can prove her point\"",
+      "excerpt": "Asmongold argued QT has \"exercised editorial control,\" or in other words, hand-picked certain nominees in order to \"get as many viewers as possible and maintain as many sponsors as possible.\"",
+      "context": "Opened at the edit stage via r.jina.ai. Gives the viewer's question as she read it ('Are problematic people blackballed from getting nominated?'), her answer ('No! They've just never nominated ... Their audience doesn't show up'), and a named critic's argument: Asmongold's 'You're lying. You know you're lying. Everybody knows you're lying', the editorial-control claim, and a $100,000 charity wager if he could watch the voting. The title is taken from the URL slug and page heading. No vote counts are given.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.dexerto.com/twitch/qtcinderella-reveals-sponsor-pulled-out-of-streamer-awards-last-second-over-one-nominee-3014516/",
+      "title": "QTCinderella reveals sponsor pulled out of Streamer Awards \"last second\" over one nominee",
+      "speaker": "Calum Patterson (Dexerto), quoting QTCinderella on a podcast with Valkyrae and Alythuh",
+      "date": "2024-12-23",
+      "locator": "First six paragraphs and the sponsor list",
+      "excerpt": "\"Well, a sponsor pulled out last second. It was the first year it was almost profitable, but they pulled out last second. I was so sad.\"",
+      "context": "Opened at the edit stage via r.jina.ai. This is the 'sponsor pulled out' report the research tasks listed as unopened; it concerns the December 2024 show, not 2026. Dexerto says the event 'has never been profitable', that she named the sponsor on the podcast but the nominee was edited out, and lists 2024 partners (Mountain Dew, Fortnite, PC Game Pass and others).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://gamerant.com/qtcinderella-got-banned-for-41-minutes/",
+      "title": "QTCinderella Got Banned For 41 Minutes",
+      "speaker": "Jackie Arias (Game Rant)",
+      "date": "2024-02-12",
+      "locator": "Summary box and body paragraphs 2-4",
+      "excerpt": "QTCinderella made a new Twitch channel called QTEvents, where she livestreams her YouTube videos all day, and encouraged her followers to keep the stream open to help her farm ad revenue.",
+      "context": "Opened at the edit stage with a direct fetch. Supports no article claim: the edit cut the 41-minute ban sentence as minor (see resolution subject-09, future-07). Kept for the controversy file and a later refresh. Game Rant says critics claimed she was 'scamming people', that people questioned the fairness of that year's nominations, and that by her tweet the ban followed an old video with an explicit Omegle clip.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.npr.org/2025/07/02/nx-s1-5446128/sean-combs-diddy-trial-guilty-two-counts",
+      "title": "Sean Combs found guilty on two counts, but acquitted on most serious charges",
+      "speaker": "Anastasia Tsioulcas (NPR)",
+      "date": "2025-07-02",
+      "locator": "First paragraph of the report",
+      "excerpt": "A federal jury in Manhattan has found Sean Combs, the hip-hop mogul also known as Diddy or Puff Daddy, guilty on two counts of transportation to engage in prostitution.",
+      "context": "Opened at the repair stage on 2026-11-10 (plain fetch of the article page) to source the one clause that tells a later reader who 'Diddy' is and why the comparison was an insult. The same paragraph says he was found not guilty of racketeering conspiracy and sex trafficking. Supports only 'convicted in a federal case that year' in C31; the article says nothing else about the case, and sentencing was not checked.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "She goes by Blaire and does not publish her surname. She was born in 1994 and grew up in Washington state as the youngest of four. The draft prints the birth year only.",
+      "passage": "QTCinderella goes by Blaire and does not publish her surname. She was born in 1994 and grew up in Washington state, the youngest of four",
+      "class": "observed",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "inference": "Biographical metadata. GQ (31 in December 2025) and the BBC (31 in December 2025) are consistent with a mid-1994 birth; Sportskeeda's \"28-year-old\" in January 2023 also fits.",
+      "alternative": "The full date June 6 rests on Wikipedia alone in this record. Use the year, or the full date only if a second source is found. Do not print or search for a surname.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "She says she \"was raised to be in someone's shadow, just being a supporting actor and second thought.\" She describes parents \"mostly focused on getting divorced\" whom she also calls not neglectful (\"My parents definitely weren't neglectful\"). GQ reports her family was and remains in the Mormon Church, which she left at 18.",
+      "passage": "She says she \"was raised to be in someone's shadow, just being a supporting actor and second thought.\" Her parents were \"mostly focused on getting divorced,\" she told GQ, though she also said they \"definitely weren't neglectful.\" GQ reported that her family was and remains in the Mormon Church, which she left at 18.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S24"
+      ],
+      "inference": "Her own account of a childhood role: unseen, secondary, speaking through someone else. It is the earliest version of the complaint she repeats as an adult about not being known.",
+      "alternative": "A retrospective story told to a profile writer in a hard month. 'definitely weren't neglectful' is quoted as a fragment; in GQ the sentence continues into the abuse disclosure, which the article does not repeat here. No causal childhood-to-type claim is built on it; the upbringing is used only as a learned-practice limit (C63). The repair cut the \"my sister would have to answer for me\" line for length; it remains in GQ (S02).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "She says she was bullied at school. The opened sources hold two party stories, each told once: in sixth grade she made 20 caramel apples for a birthday screening of The Incredibles and no one came (GQ, 2025); as a teenager she threw an Alice in Wonderland murder-mystery dinner and about half the invited guests showed (Inven Global, 2022).",
+      "passage": "The sources opened here hold two party stories, each told once. In sixth grade, she told GQ, she made 20 caramel apples for a birthday screening of The Incredibles and nobody came. In high school, she told Inven Global in 2022, she organized an Alice in Wonderland murder-mystery dinner, and by the outlet's telling only half the invited guests showed. \"I was super bullied in high school. I didn't necessarily fit in,\" she said.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S04"
+      ],
+      "inference": "She herself links the adult events to the parties people skipped (C43). The two stories are different parties at different ages.",
+      "alternative": "It is also a good origin story for an events brand. Each story appears once in the opened record, so 'recurring' is not claimed; only the first is a party nobody came to.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "She has said publicly that she was sexually abused as a child. To Vice in February 2023: \"I was sexually assaulted as a child, and it was the same feeling.\" To GQ in December 2025 she gave more detail (not repeated in the draft) and said: \"The most comfort I've ever found is when I hear other people talk about it.\"",
+      "passage": "In that interview she said the images had brought back an eating disorder and an older injury: \"I was sexually assaulted as a child, and it was the same feeling.\" In December 2025 she told GQ more about that abuse, and why she speaks of it: \"The most comfort I've ever found is when I hear other people talk about it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S06"
+      ],
+      "inference": "A first-person disclosure made twice, on the record, with a stated reason for speaking (others' disclosures comforted her). The person is unnamed and unidentifiable from the sources.",
+      "alternative": "This is her account only. It should be reported in her words, briefly, with no added detail, no speculation about the person, and no claim that it caused her personality.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "GQ reported in December 2025 that she struggles with dissociation and was officially diagnosed after being swatted three times in three months; GQ dates the first swatting only as 'a few years ago'.",
+      "passage": "GQ reported in December 2025 that she was diagnosed with dissociation after being swatted three times in three months.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "Health and safety facts she has put on the record. They are circumstances that would make anyone vigilant, which matters when weighing a Type 6 reading.",
+      "alternative": "GQ gives no dates for the swattings beyond 'a few years ago'. Wikipedia cites a December 27, 2022 Game Rant report on a PTSD statement after swatting; not opened. Not used as type evidence.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck her health statements at each refresh and once the unopened health video (S22) is reviewed; do not extend beyond her own words."
+    },
+    {
+      "id": "C09",
+      "claim": "She created her Twitch account in August 2018 and began streaming that year; on March 12, 2022 she put on the first Streamer Awards, which she produces, hosts and by her account pays for. Her June 2020 notice at her day job now appears only in the C60 passage.",
+      "passage": "She began streaming in 2018 on Twitch, the live-video platform, and on March 12, 2022 put on the first Streamer Awards, which she produces, hosts and, by her account, pays for.",
+      "class": "observed",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "inference": "Chronology. GQ paraphrases her reason for starting: rather than play aimlessly for hours, she could make the game productive by streaming it.",
+      "alternative": "The \"productive\" framing is GQ's paraphrase, not a direct quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "On June 20, 2020 (Inven Global's date), having just given two weeks' notice, she told Dr. K on stream, in Inven Global's rendering: \"Going into Twitch, knowing that I'll never be at the top is very daunting\" and \"I find my self-worth 100% in 'Oh, she is successful.' And now I'm not that. And so it's like, 'Well, who am I?'\"",
+      "passage": "In the 2020 conversation she said, as Inven Global quoted it, \"Going into Twitch, knowing that I'll never be at the top is very daunting.\" And:\n\n> \"I find my self-worth 100% in 'Oh, she is successful.' And now I'm not that. And so it's like, 'Well, who am I?'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S24"
+      ],
+      "inference": "The single clearest statement in the record for the Type 3 alternative: worth located in being seen as successful, and an identity question when the title is gone.",
+      "alternative": "The article keeps Inven Global's wording and says so. In the audio (S24, about 12:05-12:27; checked at verification on 2026-11-10) the lines are 'knowing that i'll never be the top is kind of like very daunting' and 'well now who am i', so Inven tidied the speech slightly. In Inven's text the two lines are separated by 'Because I find… and I've said this to a lot of people, because I felt very defeated quitting my job. Because'; the article prints them as two quotations joined by 'And:', the second set off as a block. It is one moment of fear on the day she quit a corporate job, and the same conversation gives her own account of where the standard came from (C53).",
+      "durability": "stable",
+      "review_trigger": "Reopen the type argument if a human listen to the recording changes any quoted line."
+    },
+    {
+      "id": "C11",
+      "claim": "In December 2025 she told GQ: \"My work ethic has been my defining feature in my life. It's the only thing that I've ever found valuable in myself.\"",
+      "passage": "Five years later: \"My work ethic has been my defining feature in my life,\" she told GQ. \"It's the only thing that I've ever found valuable in myself.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Five years after C10, worth is still tied to output. It supports Type 3, and it is also how a helper who believes she is valued only for what she does for others might talk.",
+      "alternative": "Said in the most exhausted week of her year. \"Work ethic\" is effort, not status; the sentence does not say what the work is for.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "She calls herself a perfectionist (Inven Global, 2022).",
+      "passage": "\"I am a perfectionist,\" she told Inven Global",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "A stable inner critic aimed at her own productions. The article uses it only for the one-sentence Type 1 test (C66).",
+      "alternative": "Fits Type 1 and Type 3 as well as Type 2. It describes how she works, not why. The repair cut the ET line about rewatching the 2023 show and taking \"three pages of notes\" (S07) for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "After the first Sh*tcamp in September 2021, which averaged more than 65,000 viewers by Inven Global's report, she says the others went to a club and \"I stayed at the hotel and I cried... I felt like it was a failure because everyone was tired the last day... I felt like I didn't do good enough. I felt too many people didn't get the opportunity to stream.\"",
+      "passage": "Sh\\*tcamp, which she pitched at Sh\\*tcon and ran in September 2021, was far more ambitious: nearly a week of shared streams with 16 streamers. It averaged more than 65,000 viewers, Inven Global reported. Her account of the last night:\n\n> \"When Sh\\*tcamp ended, everyone went around the room, we popped champagne, we gave high-fives, they said, 'Let's go to the club!' I stayed at the hotel and I cried. I was exhausted. I felt like it was a failure because everyone was tired the last day, and so the last stream wasn't super hype. I felt like I didn't do good enough. I felt too many people didn't get the opportunity to stream.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S01"
+      ],
+      "inference": "After a clear success she called the event a failure. Most of her reasons are a producer's (a flat last stream, not doing 'good enough'); one is about inclusion (people who did not get to stream). The edit narrows the claim to that one item.",
+      "alternative": "A perfectionist's crash or exhaustion fits as well; her next line in Inven Global is 'I take it really personally because I just want it to be better' (C73). For an event producer the guests' night is the product, so this does not separate Type 2 from Type 3 on its own. The repair cut 'drew praise from the creators involved', 'plus guests' and Inven Global's account that the people she could not invite pushed her toward the awards, all for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "She says she stalled during COVID (\"I wasn't providing anything. I didn't feel driven\") and that attending her friend Malena Tudi's Sh*tcon revived her interest, after which she pitched what became Sh*tcamp.",
+      "passage": "Of a stalled stretch during COVID she told Inven Global: \"I wasn't providing anything. I didn't feel driven.\" Then a friend, the streamer Malena Tudi, organized Sh\\*tcon, a parody of the cancelled TwitchCon convention, and she went.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The word she chooses for what was missing is \"providing\". What brought her back was a gathering, and she credits a friend for the idea.",
+      "alternative": "A single word in one interview. A growth-minded creator might say the same about content.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "Across 2022-2025 she gives the same reason for her events. Polygon (November 2023) calls her a self-described \"pathological people-pleaser\". \"For one night of the year, the negativity is silent\" (BBC, December 2025).",
+      "passage": "The stated reason has not changed since. Polygon in November 2023 called her a self-described \"pathological people-pleaser\" ([Polygon](https://www.polygon.com/23949548/qtcinderella-interview-twitch-controversy)). \"For one night of the year, the negativity is silent,\" she told the BBC in December 2025",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S03",
+        "S04"
+      ],
+      "inference": "A consistent stated purpose over four years and five outlets: gathering isolated people, and being the one who invites.",
+      "alternative": "A stated mission is also a brand. The ET 'family reunion' line, the GGRecon-relayed 'invited me things' line and Polygon's charity-gala detail were cut for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "She founded The Streamer Awards; the first ceremony was March 12, 2022. Inven Global reports the original plan was to hold it on xQc's channel with him as cohost, that Pokimane told her \"you need to do this on your channel no matter what\", and that she chose to host with Maya Higa, who said on stage: \"I know my name is all over it, but this is all QT.\" Her stated reason: \"I'm just highlighting another big male streamer and I'm giving them my thing.\"",
+      "passage": "The original plan for the awards, Inven Global reported, was to put the show on the channel of [xQc](/personality-analysis/xqc), then the biggest streamer on Twitch, with him as cohost. She kept it on hers. \"I'm just highlighting another big male streamer and I'm giving them my thing,\" she said, crediting [Pokimane](/personality-analysis/pokimane) with the push. She hosted with Maya Higa instead. Higa closed the first show: \"I know my name is all over it, but this is all QT.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S01"
+      ],
+      "inference": "She kept ownership of the show and used the co-host slot to raise another woman. Both a claim of credit and an act of promotion are in the same decision.",
+      "alternative": "Keeping the show on her own channel is also the ambitious move a Type 3 would make. The decision does not separate the two readings.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "She says the show loses money. In March 2023 she told ET that everything had tripled from the previous year and \"For now, it's just a passion project.\" In December 2024 she said on a podcast that it was \"the first year it was almost profitable\" until a sponsor \"pulled out last second\" because of a nominee she did not name. In December 2025 she told GQ: \"I'm very unhappy to say, I've never made money from the Streamer Awards.\"",
+      "passage": "In March 2023 she told Entertainment Tonight (ET) that costs had tripled in a year and called the show \"just a passion project\" ([ET](https://www.etonline.com/qtcinderella-on-handling-online-attacks-and-what-keeps-her-streaming-exclusive-201807)). In December 2024 she said the show had been \"almost profitable\" until a sponsor \"pulled out last second\" over a nominee she did not name ([Dexerto](https://www.dexerto.com/twitch/qtcinderella-reveals-sponsor-pulled-out-of-streamer-awards-last-second-over-one-nominee-3014516/)). In December 2025 she told GQ: \"I'm very unhappy to say, I've never made money from the Streamer Awards.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S26",
+        "S02"
+      ],
+      "inference": "Five editions of a repeated, costly choice. By her account the return is not money.",
+      "alternative": "Self-reported finances, unaudited. 'Costs had tripled in a year' paraphrases 'Everything this year ended up being tripled than last year ... so did the bill'; 'just a passion project' is a fragment of 'For now, it's just a passion project.' The repair dropped 'for the first time' from the 2024 sentence and cut the ET interviewer's 'close to a million dollars' figure (his attribution to her; she gave no total) and GQ's 'I'm losing money and I'm losing sleep.' The show has had sponsors (S26 lists the 2024 partners) and has made her the most connected person in her industry, a return a Type 3 would value.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after the November 12, 2026 show or if she reports the awards turning a profit."
+    },
+    {
+      "id": "C19",
+      "claim": "Showing GQ the 2025 seating chart five days before the show, she described placing a guest who knew no one beside someone she trusted to be kind: \"you have people that haven't met anybody. Perfect example: Jenn McAllister... So I'm gonna sit her next to Valkyrae, because she's the sweetest muffin in the world.\" GQ describes the chart as organizing hundreds of guests into dinner tables.",
+      "passage": "In early December 2025, five days before the fifth Streamer Awards, the annual awards show for online streamers that she created, QTCinderella sat on a couch in her Los Angeles living room and showed a GQ reporter the seating chart she had built: hundreds of streamers sorted into dinner tables. Some guests, she said, were \"social liquid\" who do well anywhere. \"But then you have people that haven't met anybody. Perfect example: Jenn McAllister,\" she said. \"So I'm gonna sit her next to Valkyrae, because she's the sweetest muffin in the world.\"",
+      "class": "observed",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "A small, concrete instance of where her attention goes while planning: who will feel alone in the room.",
+      "alternative": "One detail from one day; hosts of any type make seating charts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "Polygon reported in November 2023 that she is a self-described \"pathological people-pleaser\".",
+      "passage": "Polygon in November 2023 called her a self-described \"pathological people-pleaser\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Her own label for herself.",
+      "alternative": "Only the three-word phrase is quoted. People-pleasing is common to Types 2, 3, 6 and 9.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "In late January 2023 Brandon \"Atrioc\" Ewing accidentally showed on stream a browser tab for a site selling sexual deepfakes of women streamers, including her. He apologized on stream on January 30 and in writing on February 1, admitting he had bought access. She went live in tears, opening with \"This is probably the stupidest thing I've ever done... I'm sure everyone in the world would tell me not to go live right now\", then: \"I wanted to go live because this is what pain looks like\", and vowed to sue the site's creator. GQ (2025) calls Ewing her \"collaborator and friend\"; Vice says he was close friends and colleagues with many of the women affected.",
+      "passage": "On January 30, 2023, the streamer Brandon Ewing, known as Atrioc, apologized on stream after inadvertently showing a browser tab for a website that sold AI-generated sexual deepfakes of women streamers, QTCinderella among them. He admitted he had bought access to the images, and he posted a longer written apology on February 1 ([Vice, 2023](https://www.vice.com/en/article/deepfake-qtcinderella-atrioc/)). GQ later described him as her \"collaborator and friend.\"\n\nThe same day he apologized, she went live. \"This is probably the stupidest thing I've ever done,\" she began. \"And I'm sure everyone in the world would tell me not to go live right now.\" Then: \"I wanted to go live because this is what pain looks like. This is what it looks like!\"",
+      "class": "observed",
+      "source_ids": [
+        "S10",
+        "S06",
+        "S01",
+        "S02"
+      ],
+      "inference": "On video and in her own words. The edit does not use the stream as type evidence: going live is the profession's normal response to a crisis, and Ewing's apology that day was also a live stream.",
+      "alternative": "Sources differ on January 30 versus 31 for her stream (time zones). Sportskeeda's transcription censors the profanity; the stream itself was not opened at any stage.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "She told Vice in February 2023: \"I really don't want to talk about it. However, I hope that in 10 years when my nieces are more on the internet, she doesn't have to deal with something like this just for existing as a woman on the internet.\"",
+      "passage": "She told Vice she did not want to talk about it, and that she did so hoping her nieces would not face the same thing in 10 years.",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "She did not sue; the site came down. She frames speaking out as something done for younger relatives, at a cost to herself.",
+      "alternative": "Paraphrased at repair to save length. The earlier quotation stopped at 'something like this.' where Vice's sentence runs on ('just for existing as a woman on the internet'), so the paraphrase also removes a quote that ended early. Her stated reason only; it carries no type weight in the article.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "On Atrioc: in March 2023 she said \"I tell people I'm trying to forgive. I'm also healing from it.\" In January 2025 she said \"I'm a forgiver\" while describing skipping a New Year's party after learning he was invited.",
+      "passage": "Within two months she told ET, \"I tell people I'm trying to forgive. I'm also healing from it.\" In January 2025 she said on stream, \"I'm a forgiver,\" and also that she had skipped a New Year's party after learning he was invited",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S11"
+      ],
+      "inference": "Public forgiveness within two months, sustained two years later, with a private distance she is honest about.",
+      "alternative": "He was her collaborator and friend (GQ) inside a small shared circle, so forgiveness had a practical use whatever her type; the article says so. Her forgiveness is hers to give and does not settle anything about his conduct.",
+      "durability": "stable",
+      "review_trigger": "Recheck if she and Ewing appear together or she revises the statement."
+    },
+    {
+      "id": "C27",
+      "claim": "GQ reports that she tries to predict every objection to what she does, and she said: \"I'm just tired of the internet being mad at me.\"",
+      "passage": "In December 2025 GQ reported that she tries to predict every objection to what she does. \"I'm just tired of the internet being mad at me,\" she said.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "She scans for disapproval and changes plans to avoid it. The aim is not being the target of anger.",
+      "alternative": "This is the best post-2020 evidence for Type 6. It also has a plain external cause: she has been swatted, deepfaked and clipped out of context. The repair cut GQ's example (a farming-simulator stream dropped for fear of anger about \"cosplaying jobs\") for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "She told GQ she thinks of fellow streamers as coworkers more than friends: \"Everyone knows a version of me that I push 'Go Live' with. Nobody gives a shit about what's keeping me up at night.\" On Wine About It she said they cannot be real friends because they do not know her last name or her birthday, which irritated co-host Valkyrae. GQ calls the remark hyperbolic.",
+      "passage": "In December 2025 GQ reported that she thinks of fellow streamers more as coworkers than as friends. \"Everyone knows a version of me that I push 'Go Live' with,\" she said.\n\nDuring the Wine About It recording the reporter watched, she said these streamers cannot be real friends because they do not know her last name or her birthday. That irritated Valkyrae, and GQ called the remark hyperbolic.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "She tracks other people's needs and says nobody tracks hers. The edit treats this asymmetry as vivid but shared ground between the candidate types, not as the center of the Type 2 case. The title, the opening question and the closing paragraph rest on this one December 2025 sitting and say so.",
+      "alternative": "She keeps her surname private by her own choice; no opened source gives her reason, and the same record includes three swattings and men turning up at her shop (C71). \"A version of me\" is also how a Type 3 talks about a persona. GQ calls the remark hyperbolic and Valkyrae objected in the room. The repair prints the second half of the GQ quotation ('Nobody gives a shit about what's keeping me up at night') once, in the opening (C75), and the first half here; in GQ the two halves are one quotation split by 'she tells me'.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck if she describes her peer friendships differently in a later interview; by October 22, 2026 she wrote that other creators 'become your personal life' (C37)."
+    },
+    {
+      "id": "C29",
+      "claim": "In November 2025 a viewer asked on her stream whether \"problematic people\" were \"blackballed\" from nominations; she said \"They've just never nominated\" and \"Their audience doesn't show up.\" Asmongold replied on his own stream \"You're lying. You know you're lying. Everybody knows you're lying\" and argued she had \"exercised editorial control\" over nominees to \"get as many viewers as possible and maintain as many sponsors as possible.\" GQ reports that some users said she rigged the awards against right-wing streamers such as Asmongold. The reporting cited presents no evidence of rigging and no vote counts are public. Nominees are fan-voted (Dexerto); for the 2025 show winners were 70% public vote and 30% industry panel (BBC), a panel GQ calls secret.",
+      "passage": "In November 2025, after the nominees for the fifth awards were announced, a viewer asked on her stream whether \"problematic people\" were \"blackballed\" from nominations. \"No! They've just never nominated,\" she said. \"Their audience doesn't show up.\"\n\nWithin hours the streamer [Asmongold](/personality-analysis/asmongold) answered on his own stream: \"You're lying. You know you're lying. Everybody knows you're lying.\" He argued that she had \"exercised editorial control\" over the nominees to \"get as many viewers as possible and maintain as many sponsors as possible\" ([Dexerto](https://www.dexerto.com/twitch/qtcinderella-shuts-down-claim-that-streamer-awards-blacklist-problematic-streamers-3284164/)). GQ reported that some users went further and said she had rigged the awards against right-wing streamers such as him.\n\nThe reporting cited here presents no evidence of rigging. No vote counts are public either, so neither his claim nor her explanation can be checked from outside. Nominees are fan-voted, Dexerto reported. For the 2025 show, winners were decided 70% by public vote and 30% by an industry panel ([BBC](https://www.bbc.co.uk/news/articles/c3v1dd01x65o)) that GQ called secret.",
+      "class": "disputed",
+      "source_ids": [
+        "S25",
+        "S13",
+        "S03",
+        "S02",
+        "S14"
+      ],
+      "inference": "The allegation is unproven and denied, and it now has a named critic's actual argument. Neither his claim nor her explanation can be checked from outside.",
+      "alternative": "The panel is secret, so outsiders cannot check the 30%. 'Nominees are fan-voted' is Dexerto's description (S14); the nomination mechanics are not otherwise documented in the opened sources. Asmongold also offered $100,000 to charity if allowed to watch the voting; cut for length. Her 'There's no benefit to rigging' line (GQ) was cut for length.",
+      "durability": "unresolved",
+      "review_trigger": "Recheck after the November 12, 2026 show for new rigging or blacklist claims and any change to the voting split or panel disclosure."
+    },
+    {
+      "id": "C30",
+      "claim": "At the first Streamer Awards (March 12, 2022) Streamer of the Year went to Ludwig Ahgren, her partner. She told GQ she cried the night before as she glued his name to the trophy, anticipating the backlash.",
+      "passage": "At the first ceremony, on March 12, 2022, Streamer of the Year went to Ludwig Ahgren, the host's partner. She told GQ she cried the night before as she glued his name to the trophy, anticipating the backlash.",
+      "class": "observed",
+      "source_ids": [
+        "S02",
+        "S21"
+      ],
+      "inference": "The oldest ground for doubts about the show's fairness, now stated as a plain fact separate from her account of how it felt.",
+      "alternative": "Her own retelling three years later; unverifiable.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "The December 6, 2025 show drew complaints. GQ describes her and cohost Fanfan's monologues as mostly insult jokes and reports Fanfan's joke comparing Kai Cenat to Diddy (Sean Combs, found guilty on two federal counts on July 2, 2025, per NPR); the writer's summary of the feed afterward includes unnamed claims that the jokes were racist and that streamers acted homophobic. GQ's writer argued it was hard to believe such monologues would produce positivity. Asked earlier about her jokes she said she was working on it: \"A complimentary joke is so much harder to make than like, 'You're a pedophile!'\" On December 8 she called a lot of the criticism \"really valid\" without specifying, said the show is \"much bigger than it used to be\" and she has to \"adjust for that\", defended her joke about Rakai's ban, and promised \"a very hard pivot\" for 2026.",
+      "passage": "The show itself, on December 6, 2025, drew a second round of complaints. Both she and her cohost, the streamer Fanfan, delivered monologues built on insult jokes. Fanfan also compared [Kai Cenat](/personality-analysis/kai-cenat) to Sean Combs, the music mogul known as Diddy, who was convicted in a federal case that year. Afterward, in GQ's summary of the feed, unnamed posters said the jokes were racist and that streamers had acted homophobic.\n\nThe sharpest argument came from GQ's writer, Kieran Press-Reynolds:\n\n> \"It's hard to believe QT thought her and Fanfan's monologues, which mostly involved things like calling Caseoh fat and cracking Piker shock-collar jokes, would result in a feast of positivity.\"\n\nCaseoh and Hasan Piker are streamers. Asked about her jokes before the show, she said she was working on it, he wrote, and gave her own example of why kind ones are harder: \"A complimentary joke is so much harder to make than like, 'You're a pedophile!'\"\n\nTwo days after the show she said on stream that a lot of the criticism was \"really valid,\" Dexerto reported, without saying which parts. She said the show is \"much bigger than it used to be\" and that she has to \"adjust for that\" in its jokes and bits. She defended one of her own jokes, about the streamer Rakai's ban, as one the room understood and viewers at home did not. She promised \"a very hard pivot\" for 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S15",
+        "S02",
+        "S28"
+      ],
+      "inference": "After the worst-received edition she accepted criticism and recommitted to the show within two days.",
+      "alternative": "The clause 'convicted in a federal case that year' is now sourced to NPR (S28, July 2, 2025: guilty on two counts of transportation to engage in prostitution, acquitted of racketeering conspiracy and sex trafficking); the article says nothing more about that case. GQ does not explain the 'Piker shock-collar jokes', so the article does not gloss them. GQ's parenthetical is printed as the writer's sentence set off as a block, with his lead-in ('she said she was working on it') in the following paragraph. The repair cut GQ's pre-show note that some users thought her too friendly with people who make homophobic jokes (unnamed users, relayed by GQ) for length; the 'momma didn't raise no quitter' line was cut earlier.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after November 12, 2026: did the format change, and how was it received?"
+    },
+    {
+      "id": "C32",
+      "claim": "In the kitchen with GQ, five days before the 2025 show, she said: \"I am tired. But I'm too busy to be tired. And it's really hard 'cause I'm not a fucking hero for putting on an award show.\"",
+      "passage": "About two weeks later, in her kitchen, she told GQ: \"I am tired. But I'm too busy to be tired. And it's really hard 'cause I'm not a fucking hero for putting on an award show.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "She wants the effort recognized and in the same breath denies deserving recognition.",
+      "alternative": "One exhausted afternoon. The article gives two readings: she wants the effort seen and disowns the wish, or she feels she has no standing to complain about an awards show. \"Too busy to be tired\" is also a Type 3 sentence. The quote now starts at 'I am tired'; the preceding sentence ('I've been beat up the last month quite a bit…my brain is not feeling good.') was cut for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "People who work with her describe an organizer. Valkyrae (GQ, 2025): \"she's the best organizer, the best planner. She was my dream podcast cohost.\" Maya Higa, closing the first awards on stage (2022): \"I know my name is all over it, but this is all QT.\" (Higa's line sits in the C16 passage.)",
+      "passage": "Valkyrae, in the same article: \"she's the best organizer, the best planner. She was my dream podcast cohost.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S13"
+      ],
+      "inference": "Named testimony from two co-hosts and her partner agrees on effort and planning skill.",
+      "alternative": "All three are close collaborators or family with a stake in her success. None speaks to motive. No critical named testimony from someone who has worked with her was found.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "On her partner she said: \"I'm so used to feeling like I'm the rainy cloud in everyone's room, and he's never been affected by that.\"",
+      "passage": "Of Ahgren she told GQ: \"I'm so used to feeling like I'm the rainy cloud in everyone's room, and he's never been affected by that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "She frames her own moods as a burden on others and names his not being affected as the relief of the relationship.",
+      "alternative": "One quote; fear of being a burden is not exclusive to one type. The repair cut the second half ('Somehow I've never burdened him.') for length; in GQ a sentence sits between the two.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "In October 2026, after the couple publicly called out four streamers for arriving late to their wedding (on a podcast Dexerto does not name) and viewers attacked the guests, she posted on October 22: \"This job is weird cause you share your personal life online and then as you become more ingrained in it other content creators become your personal life.\"",
+      "passage": "On October 22, after the couple called out four late wedding guests on a podcast and viewers went after them, she posted: \"This job is weird cause you share your personal life online and then as you become more ingrained in it other content creators become your personal life.\"",
+      "class": "observed",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Reported as a one-sentence dated record with no type weight. It is on the page for her own later description of peers as part of her personal life, which complicates the December 2025 'coworkers' remark.",
+      "alternative": "'The couple called out' follows Dexerto's lede ('the couple publicly called them out'); by Dexerto, Ahgren spoke the four names and she added that the lateness set the wedding back. The podcast audio was not opened. Cut at repair, on the verifier's suggestion that this paragraph carry less: her 'Stop being parasocial freaks' line, the viewers' reply that the couple had supplied the names, ExtraEmily's wrong-address explanation, and the two readings of her post. Because the sentence no longer reports the critics' point or names a guest, her answer to the critics ('I shared the story on a podcast ... Did you see me clip farm it?') is not printed either. All of it remains in S18.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck if any of the four guests responds further or the couple revisits it."
+    },
+    {
+      "id": "C39",
+      "claim": "She and Ludwig Ahgren began dating in 2020, announced their engagement on July 10, 2026, and married in October 2026; Ludwig posted wedding photos on October 20, 2026.",
+      "passage": "QTCinderella and the streamer Ludwig Ahgren, together since 2020, announced their engagement on July 10, 2026, and married that October.",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S16",
+        "S01",
+        "S02"
+      ],
+      "inference": "Current relationship facts with absolute dates.",
+      "alternative": "The ceremony date itself was not found; Wikipedia dates the proposal to July 5. GQ says she \"hated\" him at first, which belongs with any telling of the origin.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update if the wedding date is confirmed or the relationship status changes."
+    },
+    {
+      "id": "C40",
+      "claim": "She signed with Creative Artists Agency in May 2026 (The Hollywood Reporter, May 19, 2026) and co-hosts the podcast Wine About It (GQ observed a recording with Valkyrae in December 2025; THR lists the podcast).",
+      "passage": "As of December 2025 she co-hosted the podcast Wine About It, and she signed with Creative Artists Agency in May 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S02",
+        "S01"
+      ],
+      "inference": "Current-accuracy facts for metadata and FAQs.",
+      "alternative": "Podcast and store details rest on Wikipedia plus GQ's observation of the Valkyrae-era show.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck representation, podcast co-hosts and store status at each refresh."
+    },
+    {
+      "id": "C41",
+      "claim": "As of November 10, 2026 the sixth Streamer Awards (set for November 12, 2026 per Dexerto, S19) had not taken place, so the changes she promised on December 8, 2025 are untested in this profile.",
+      "passage": "The record closes on November 10, 2026, before the sixth Streamer Awards, so the \"very hard pivot\" she promised is untested.",
+      "class": "observed",
+      "source_ids": [
+        "S19",
+        "S21",
+        "S15"
+      ],
+      "inference": "The profile's argument does not depend on the 2026 show. The trophy-theft item was cut as news with no bearing on the type argument.",
+      "alternative": "Wikipedia's infobox already lists the 2026 show as past; treat as premature.",
+      "durability": "time_sensitive",
+      "review_trigger": "After November 12, 2026: confirm the show took place, the co-host, the reception, and any new controversy."
+    },
+    {
+      "id": "C42",
+      "claim": "Reading of the record: Type 2 leads Type 3 on three observations, each with a stated Type 3 answer. (1) Her 2020 account of giving to fit in and earning care predates the awards, so it is not a host's brand. (2) Attacked by a peer in November 2025, she listed what the streamers would receive, not ratings, rank or awards. (3) She has the admiration a Three works for and does not cite it when hurt; what she says is missing is thanks for the giving.",
+      "passage": "So the lean toward Type 2 over Type 3 rests on three observations, each with a Type 3 answer.\n\nFirst, the 2020 account came before the awards existed, so it cannot be a host's brand. But it is one conversation, and \"100%\" is hers too.\n\nSecond, when a peer attacked her in 2025 she listed what the streamers would receive, not ratings, rank or anything she had won. But a list of what she did is also a list of accomplishments.\n\nThird, she has the admiration a Three works for and does not cite it when she is hurt. What she says is missing is thanks for the giving. A Three can want thanks too.",
+      "class": "interpretation",
+      "source_ids": [
+        "S24",
+        "S13",
+        "S02"
+      ],
+      "inference": "This is the revised discriminator between Type 2 and Type 3. It no longer uses the 'understood' quotes (audience reception) or her reaction to the deepfakes.",
+      "alternative": "One conversation in 2020, and '100%' in 'Oh, she is successful' is also hers. A list of what she did is also a list of accomplishments. A Three can want thanks. A Three with a strong helping streak would leave much of this record, which is why confidence stays medium.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "Reading of the record: her events answer the parties nobody came to. She gives streamers the invitation, the seat and the trophy she says she wanted, and measures the night by whether anyone was left out.",
+      "passage": "She draws the line from the parties to the career herself. Of a stalled stretch during COVID she told Inven Global: \"I wasn't providing anything. I didn't feel driven.\" Then a friend, the streamer Malena Tudi, organized Sh\\*tcon, a parody of the cancelled TwitchCon convention, and she went. She credited the friend: \"it's really Malena that inspired me to get back into it. Maybe they didn't come to my parties when I was 16. But maybe they'll come now.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Connects C04, C13, C15, C19. She makes the link herself in 2022 (\"maybe they'll come now\").",
+      "alternative": "She supplied this narrative, and it flatters her. It does not explain the control, the perfectionism or the money.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "In mid-November 2025 streamer Deshae Frost, reacting to the nominations on his own stream, yelled for her to \"shut the f*** up\" (Dexerto's rendering). She replied on X on November 18, 2025: \"How incredibly kind. Congrats on his nomination. I'll try to shut up during the show while all the streamers eat the dinner I paid for, be celebrated at the show I spent months working on, and enjoy their night hanging out with eachother.\" Frost apologized on stream hours later: \"I was being inconsiderate.\" Dexerto does not say what Frost objected to, and reports that she shut down any notion of uninviting him.",
+      "passage": "About two weeks earlier, the streamer Deshae Frost had reacted to that year's nominations on his own stream by yelling for her to \"shut the f\\*\\*\\* up,\" as Dexerto printed it. The report does not say what set him off. She replied on X (formerly Twitter) on November 18, 2025:\n\n> \"How incredibly kind. Congrats on his nomination. I'll try to shut up during the show while all the streamers eat the dinner I paid for, be celebrated at the show I spent months working on, and enjoy their night hanging out with eachother.\"\n\nFrost apologized on stream hours later: \"I was being inconsiderate.\" She did not uninvite him.",
+      "class": "observed",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "On the record in her own embedded X post. Under attack from a peer she itemizes what she has given. Split out of research claim C29.",
+      "alternative": "The sarcastic post can also be read as ordinary anger. The quote follows the embedded X post, which differs slightly from Dexerto's in-text rendering. \"About two weeks earlier\" is relative to the GQ visit five days before the December 6 show.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "On the day of Ewing's apology she vowed on stream to sue the deepfake site's creator. Two weeks later she told Vice that lawyers she had consulted saw little to be done and that the site had already been taken down.",
+      "passage": "She vowed to sue the site's creator. Two weeks later she told Vice that the lawyers she had consulted saw little more to do, since the site was already down.",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Her account of the legal position, paraphrased from Vice (\"The goal, legally, would be to get the website taken down and we've already got it taken down\").",
+      "alternative": "Secondhand from her lawyers. Wikipedia credits the takedown to Ewing, her and an attorney. Whether any legal action followed later was not found.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "The Type 3 alternative: a worker whose worth has always been her output, who knew she would not top the viewer charts and found the one lane where she could be the best, with the show paying in standing what it costs in cash; on this reading the tears over the 2025 backlash are the cost of an image under attack.",
+      "passage": "On this reading she is a worker whose worth has always been her output. She knew she would never top the viewer charts, so she found the one lane in streaming where she could be the best: producer and host of the industry's central night. The show pays in standing what it costs in cash. The talk of inclusion is a host's brand, and the tears over the 2025 backlash are what an image under attack costs.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S04"
+      ],
+      "inference": "States the alternative_case in reader language so the reader can weigh it against the leading read.",
+      "alternative": "This is the article's construction of the rival reading, not something she or a source says. 'She knew she would never top the viewer charts' rests on her 2020 line (C10). The repair cut GQ's \"small fry compared to the legends\" for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "The show has had sponsors (Dexerto lists the 2024 partners) and by the end of 2025 had brought non-cash returns: a GQ profile and a 2025 audience GQ put at over a million.",
+      "passage": "The show has had sponsors, and by the end of 2025 it had returned things a Three would count as profit: a GQ profile and an audience GQ put at over a million.",
+      "class": "observed",
+      "source_ids": [
+        "S26",
+        "S02"
+      ],
+      "inference": "Counterweight to her self-reported loss: the return may be standing, which a Type 3 would value.",
+      "alternative": "'Things a Three would count as profit' is interpretation. CAA representation followed in May 2026 (C40).",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck sponsors, representation and viewership after the November 12, 2026 show."
+    },
+    {
+      "id": "C49",
+      "claim": "As of November 10, 2026, research found no named account of her motives, and no critical account, from anyone who has worked with her; named praise comes from Higa (awards cohost, 2022), Valkyrae (podcast cohost, December 2025) and her partner.",
+      "passage": "As of November 10, 2026, this profile found no named account of her motives, and no critical one, from a former collaborator, a crew member or anyone else who has worked with her.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S13"
+      ],
+      "inference": "A stated limit of the record, so the reader knows motive evidence is mostly self-report.",
+      "alternative": "Absence of evidence in this research, not proof none exists; years of podcast audio were not reviewed.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck at each refresh for independent named testimony about her motives or working style."
+    },
+    {
+      "id": "C50",
+      "claim": "Her mother died in 2016.",
+      "passage": "Her mother died in 2016.",
+      "class": "observed",
+      "source_ids": [
+        "S02",
+        "S01",
+        "S24"
+      ],
+      "inference": "Biographical chronology; GQ dates it and she tells Dr. K in June 2020 that her mother died four years earlier.",
+      "alternative": "No causal claim is made. The article no longer ties the dissociation sentence to it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "In the 2020 Dr. K conversation she said baking had always been \"an easy way to fit in\": she brings cookies to a party, becomes \"the girl that brought cookies\", and people are \"nicer to me\"; when Kanojia compared such a prop to training wheels she said \"my cookies are my training wheels.\"",
+      "passage": "She told him baking had always been \"an easy way to fit in.\" She brings cookies to a party, she said, becomes \"the girl that brought cookies,\" and people are \"nicer to me.\" When Kanojia compared a prop like that to training wheels on a bike, she finished the thought: \"my cookies are my training wheels.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Her own account, before any event business existed, of giving as the way she secures a place with people. This is the strongest giving-to-belong evidence in the record and is free of the brand confound.",
+      "alternative": "Wording checked against the audio at verification on 2026-11-10 (machine transcription; about 34:55 to 35:58). One conversation at a low point, on a mental-health show, with a psychiatrist steering. A Six who buys safety by being useful could say the same; 'nicer to me' can be read as protection.",
+      "durability": "stable",
+      "review_trigger": "Recheck if a human listen to the recording changes any quoted line."
+    },
+    {
+      "id": "C52",
+      "claim": "In the same conversation she said \"I just want them to be happy\" and allowed that maybe she wanted them to like her; \"I don't want to ask people to care about me\" because \"it's selfish\"; \"I don't think I deserve anything\", she has to \"work hard to earn it\"; and that making others happy gives a little back but \"sometimes maybe that's not enough.\"",
+      "passage": "\"I just want them to be happy,\" she said of other people, and when he asked whether what she wanted was for them to like her, she allowed that maybe it was.\n\nThen the part a Type 2 reading turns on. \"I don't want to ask people to care about me,\" she said, because \"it's selfish.\" And: \"I don't think I deserve anything.\" She has to \"work hard to earn it.\" Making other people happy gave a little back, she said, and \"sometimes maybe that's not enough.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Care described as something earned by giving and not to be asked for: the structure a Type 2 reading predicts and a Type 6 reading (which seeks support) does not.",
+      "alternative": "Wording checked against the audio at verification on 2026-11-10 (machine transcription; 29:46, 59:27 to 1:00:15, 1:03:49). 'Of other people' follows the verifier's finding that 'them' is other people in general, viewers included. 'She allowed that maybe it was' paraphrases 'I think, yeah, maybe, maybe like me'. 'Work hard to earn it' also fits Types 1 and 3.",
+      "durability": "stable",
+      "review_trigger": "Recheck if a human listen to the recording changes any quoted line."
+    },
+    {
+      "id": "C53",
+      "claim": "Kanojia summarized that she valued herself only with clear evidence of being superior to others (his formulation). Asked where that came from, she said no one pressured her: her siblings were varsity athletes, she was cut from the volleyball team, \"no one put pressure on me besides myself\" and \"I just wanted to fit in with my own family.\"",
+      "passage": "Asked where the standard came from, she said nobody had pushed her. Her brothers and sister were varsity athletes and she was cut from the volleyball team: \"no one put pressure on me besides myself,\" and \"I just wanted to fit in with my own family.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "By her own account the drive to be best was a way to belong. That weakens the Type 3 reading of the 'self-worth 100%' line and changes how the 2025 'work ethic' line reads.",
+      "alternative": "Wording checked against the audio at verification on 2026-11-10 (machine transcription; about 1:14:16 to 1:16:21). She goes on to tie not fitting in to her family's religion and to the abuse; the article mentions only the religion, in one clause, and builds no causal claim. A taught standard is a learned-practice explanation that fits any type (C63).",
+      "durability": "stable",
+      "review_trigger": "Recheck if a human listen to the recording changes any quoted line."
+    },
+    {
+      "id": "C54",
+      "claim": "In June 2020, before the deepfakes, she told Dr. K she had dealt with anxiety for about six years, severe at its worst; described asking people \"are you mad at me, do you not like me\" and then deciding \"they lied\"; and said \"I need reassurance way too much.\"",
+      "passage": "In the same 2020 conversation she said she had dealt with anxiety for about six years, severe at its worst. She would ask people \"are you mad at me, do you not like me\" and then decide \"they lied.\" \"I need reassurance way too much,\" she said.",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "The best evidence for Type 6: reassurance sought and then disbelieved, before the events the draft used to explain her vigilance.",
+      "alternative": "Wording checked against the audio at verification on 2026-11-10 (machine transcription; 02:12, 1:10:29 to 1:11:32). She links some of this to anxiety she has been treated for; health details are not type evidence and anxiety alone does not make a Six. The content of the reassurance is about being liked (C55). Cut at repair: 'knowing that there is a plan', which she tied to what she called her own 'OCD tendencies' (13:26), and 'two thoughts going into everything' / 'there's never any right answer', which came up about posting photos online before she widened it.",
+      "durability": "stable",
+      "review_trigger": "Recheck if a human listen to the recording changes any quoted line."
+    },
+    {
+      "id": "C55",
+      "claim": "Asked by Kanojia where she got the idea that people hated her, she traced it to not liking herself: \"since I don't like myself why would anybody else like me.\" The reassurance she described seeking was about being liked.",
+      "passage": "The reassurance she described seeking was about being liked, and when Kanojia asked where she got the idea that people hated her, she traced it to herself: \"since I don't like myself why would anybody else like me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "The separator between Type 2 and Type 6 in this record: the doubt is about her own worth (shame) more than about what or whom can be relied on (fear), and her remedy is to give, not to seek support.",
+      "alternative": "Wording checked against the audio at verification on 2026-11-10 (machine transcription; about 1:11:37 to 1:11:58 and 1:23:46). The separation is narrow and the article says so; a Six can also doubt her own worth.",
+      "durability": "stable",
+      "review_trigger": "Recheck if a human listen to the recording changes any quoted line."
+    },
+    {
+      "id": "C56",
+      "claim": "Reading of the record: Type 6 is a live rival, ranked about level with Type 3. A Six who buys safety by being useful would also bring cookies, and \"nicer to me\" can be read as protection.",
+      "passage": "It is a narrow separation. A Six who buys safety by being useful would also bring cookies, and \"nicer to me\" can be read as protection. Type 6 ranks about level with Type 3 as a rival.",
+      "class": "interpretation",
+      "source_ids": [
+        "S24",
+        "S02"
+      ],
+      "inference": "States the Type 6 case and its limit in reader language. The enneagram reviewer judged Type 6 at least as strong a rival as Type 3 after reading the captions.",
+      "alternative": "The editor's ranking of the two rivals as about level is a judgment the jury has not reviewed; alternative_type stays 3 in this record because her two plainest statements about worth support it and it is the alternative the jury reviewed.",
+      "durability": "unresolved",
+      "review_trigger": "If a refresh or the verifier finds Type 6 the stronger rival, change alternative_type and rerun with --refresh --expanded-review."
+    },
+    {
+      "id": "C57",
+      "claim": "On her November 2025 nominations stream she cried: \"I'm doing my f***ing best over here. I'm just so tired. I'm tired of crying.\" That week, by Dexerto's report, she also said: \"Honestly, I expect the abuse from viewers, but my god does it feel like sh*t from my peers.\"",
+      "passage": "On the November stream she cried. \"I'm doing my f\\*\\*\\*ing best over here. I'm just so tired. I'm tired of crying.\" Of the backlash from fellow streamers in the week she answered Frost, she said, per Dexerto:\n\n> \"Honestly, I expect the abuse from viewers, but my god does it feel like sh\\*t from my peers.\"",
+      "class": "observed",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Hurt aimed at peers more than at viewers. Split out of draft claim C29.",
+      "alternative": "Dexerto does not say where the 'peers' line was said; it prints it after her X reply to Frost, introduced as her frustration at backlash from fellow content creators. The article no longer implies the medium. Dexerto's quotation begins 'What the hell did I do to you?' before 'Honestly'; the article starts at the next sentence. The sarcastic reply to Frost can also be read as ordinary anger.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "GQ's reporter, driving with her to the podcast studio in December 2025, helped brainstorm Christmas gifts for her cohosts; she mentioned custom keyboard caps she once gave friends that she thinks went unused; she pulled over at flashing lights wondering if the person in the ambulance was okay.",
+      "passage": "On the drive to the studio, GQ's reporter helped her brainstorm Christmas gifts for her podcast cohosts. She mentioned custom keyboard caps she once gave friends and thinks went unused. She pulled over for ambulances, wondering whether the person inside was okay.",
+      "class": "observed",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Low-stakes moments seen by a reporter: attention to gifts and to strangers, and a remembered unreturned gift on a calm afternoon, which answers the worry that her ledger appears only under attack.",
+      "alternative": "A day with a reporter is also a performance, and empathy is not exclusive to one type; the article says both. The repair cut her line \"I think I'm empathetic to a fault\" for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "On June 20, 2020 (Inven Global's date), having just given notice at her day job, she spent about an hour and a half on stream with Dr. Alok Kanojia (Dr. K, HealthyGamerGG), almost two years before the first Streamer Awards.",
+      "passage": "On June 20, 2020, by Inven Global's dating, she had just given notice at her day job when she spent about an hour and a half on stream with Dr. Alok Kanojia, the psychiatrist known as Dr. K ([HealthyGamerGG](https://www.youtube.com/watch?v=De245b9hRw0)). The first Streamer Awards were almost two years away.",
+      "class": "observed",
+      "source_ids": [
+        "S04",
+        "S24"
+      ],
+      "inference": "Dates and frames the one long first-person account that predates her events.",
+      "alternative": "The date is Inven Global's; the YouTube upload date was not captured. In the captions she says she put in her two weeks and it 'isn't up yet'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "Inven Global calls the Roast of Ludwig, a roast she organized for her partner, the first major event of her streaming career, and Sh*tcamp a far more ambitious event.",
+      "passage": "Her first major event, by Inven Global's account, was the Roast of Ludwig, an evening of insult comedy she organized for Ahgren.",
+      "class": "observed",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Corrects the draft's 'first large event she ran' and establishes that insult comedy has been part of her hosting from the start.",
+      "alternative": "'An evening of insult comedy' paraphrases Inven's 'a roast (think Dean Martin or Comedy Central)'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "Reading of the record: an upbringing in a family and church with a high bar for being good could teach these habits to a child of any type; in 2020 she tied not fitting in to her family's religion.",
+      "passage": "A family and a church with a high bar for being good could also teach these habits to a child of any type, and in 2020 she tied not fitting in to her family's religion.",
+      "class": "interpretation",
+      "source_ids": [
+        "S24",
+        "S02"
+      ],
+      "inference": "Weighs a learned-practice explanation against the type explanation, as the standard requires.",
+      "alternative": "The repair replaced 'prized service and being good', which the verifier found was the editor's wording, with 'a high bar for being good'. Her own words in the recording: her family was 'very religious and I didn't fit in that way', she 'wasn't exactly holy' or 'perfect', and of her father 'I'll never be good enough to him'. No causal claim about her type is made.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "Metadata: she built (created) the Streamer Awards and has said her peers know only a version of her.",
+      "passage": "QTCinderella built the Streamer Awards and has said her peers know only a version of her.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "Paraphrases 'Everyone knows a version of me that I push Go Live with' (GQ, December 2025).",
+      "alternative": "One December 2025 sitting; GQ calls the related remark hyperbolic. See C28's review trigger.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck with C28 if she describes her peer friendships differently."
+    },
+    {
+      "id": "C66",
+      "claim": "Reading of the record: \"I am a perfectionist\" sounds like a Type 1 inner critic, but her critic is aimed at her productions while what she says she wants from people is to be liked; \"the rainy cloud\" resembles Type 4 but her stated aim in 2020 was to fit in; her insult comedy is unexplained by any candidate.",
+      "passage": "Some of her fits none of the three. \"I am a perfectionist,\" she told Inven Global, which sounds like the inner critic of a [Type 1](/enneagram-corner/enneagram-type-1). But her critic is aimed at her productions, and what she says she wants from people is to be liked, not to be right.\n\n\"The rainy cloud\" is [Type 4](/enneagram-corner/enneagram-type-4) material, but a Four leans into being different, and her stated aim in 2020 was to fit in. The insult comedy is explained by none of them.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S02",
+        "S24"
+      ],
+      "inference": "Gives one record-based reason each for setting Types 1 and 4 behind, and leaves the roast humor unexplained.",
+      "alternative": "Types 1 and 4 are tested in a sentence each, not at length. The repair cut the ET 'three pages of notes' detail and GQ's 'big feelings' fragment for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "Reading of the record: her stated purpose for the awards (\"the negativity is silent\") sits against her own insult-comedy monologue in 2025 and a first major event that was a roast; the Type 2 reading does not explain it.",
+      "passage": "Her stated purpose for the night is that the negativity goes silent. Her own material that night was insult comedy, and her first major event was a roast. The Type 2 reading does not explain that.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S02",
+        "S04"
+      ],
+      "inference": "States the sharpest contradiction in her public persona and declines to explain it with the type.",
+      "alternative": "Roasts among friends can be affectionate in that scene; no opened source gives her account of why she writes them beyond 'working on it' and the December 8 remarks.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "GQ reports she was swatted three times in three months; she told the BBC that men have shown up at her craft shop looking for her, so she rarely visits.",
+      "passage": "The same record includes three swattings, false emergency calls that send armed police to a home, and, by her account to the BBC, men turning up at her craft shop looking for her.",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "inference": "Safety context placed beside the withheld surname, without claiming it as her stated reason.",
+      "alternative": "No opened source gives her reason for keeping her surname private. The swatting gloss follows GQ ('trolls anonymously call SWAT teams to streamers' homes').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "Reading of the record: the swattings and the deepfakes cannot account for all of her vigilance, because the doubt and reassurance-seeking are on the record in June 2020, before the deepfakes; GQ dates her first swatting only as 'a few years ago' (New Year's Eve, year not given).",
+      "passage": "But the timeline does not let those events carry all of it. The doubt and the reassurance-seeking were there in June 2020, before the deepfakes. GQ dates the first swatting only as \"a few years ago.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S24",
+        "S06"
+      ],
+      "inference": "Keeps the outside-cause explanation honest: it covers some of the vigilance but not the part already present in 2020.",
+      "alternative": "GQ's 'a few years ago' (written December 2025) does not settle whether the first swatting came before or after June 2020; Wikipedia cites a December 27, 2022 report, not opened. If a swatting predates June 2020, this sentence needs revising.",
+      "durability": "unresolved",
+      "review_trigger": "Date the three swattings from a contemporaneous report and revise this passage if any predates June 20, 2020."
+    },
+    {
+      "id": "C73",
+      "claim": "In the same Inven Global passage about the end of Sh*tcamp she added: \"I take it really personally because I just want it to be better.\" Most of the reasons she gave for calling the event a failure are a producer's; one, the last line of the quotation above it, is about people who did not get to stream.",
+      "passage": "Most of her reasons are a producer's, and she added, \"I take it really personally because I just want it to be better.\" One reason is about who was left out.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Narrows the Sh*tcamp evidence to the single inclusion item and acknowledges the performance language beside it.",
+      "alternative": "The performance language fits Type 1 or Type 3 at least as well. Added to the inventory at repair because the verifier found this quotation outside every claim passage.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "The quotations from the June 20, 2020 conversation were checked against the recording.",
+      "passage": "The exception is the 2020 conversation, whose quotations were checked against the recording.",
+      "class": "observed",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Replaces the two auto-caption caveats, which the verifier found were no longer true: at verification on 2026-11-10 every 2020 quotation was matched against a full local transcription of the audio plus a second model on the key windows. At repair the 17 quoted 2020 fragments still in the article were re-matched by script against that transcription (17 of 17 found).",
+      "alternative": "The check is machine transcription, not a human listen. The two Type 3 lines follow Inven Global's wording, which differs slightly from the audio ('the top', 'well now who am I'); the article labels them as Inven Global's.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "During GQ's December 2025 visit she said of fellow streamers: \"Nobody gives a shit about what's keeping me up at night.\"",
+      "passage": "During that same December 2025 visit she told [GQ](https://www.gq.com/story/qtcinderella-streamer-awards-profile) of the people in it: \"Nobody gives a shit about what's keeping me up at night.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "The line the title and the opening question rest on, dated and linked at first use. In GQ it follows 'Everyone knows a version of me that I push ‘Go Live’ with,' (C28).",
+      "alternative": "One sitting in the most exhausted week of her year; GQ called her related remark about friends hyperbolic, and by October 2026 she described the same peers as part of her personal life (C37).",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck if she describes her peer friendships differently in a later interview."
+    }
+  ],
+  "type_hypothesis": {
+    "type": 2,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C04",
+      "C13",
+      "C14",
+      "C15",
+      "C17",
+      "C19",
+      "C20",
+      "C28",
+      "C36",
+      "C42",
+      "C43",
+      "C45",
+      "C51",
+      "C52",
+      "C53",
+      "C55",
+      "C57",
+      "C58"
+    ],
+    "against": "Her two most direct statements about worth point at achievement, not connection: in 2020 \"I find my self-worth 100% in 'Oh, she is successful'\" (C10) and in 2025 \"My work ethic... the only thing that I've ever found valuable in myself\" (C11). She calls herself a perfectionist (C12), kept the awards on her own channel rather than hand them to a bigger name (C16), and says she is \"too busy to be tired\" (C32). She says the people around her are coworkers who do not know her (C28), which is more guarded than the usual picture of a Type 2. In 2020, before the deepfakes and before the swattings can be shown to have happened (C72), she described years of anxiety and reassurance sought and then disbelieved (C54), and in 2025 she was predicting every objection (C27): a serious Type 6 case. Much of the warm material comes from interviews promoting events, where a mission statement is also marketing, and a family and church with a high bar for being good could have taught the giving (C63).",
+    "alternative_type": 3,
+    "alternative_case": "Type 3 with a 2 wing: a worker whose worth has always been her output (C10, C11), who left a corporate track fearing she would \"never be at the top\", and who found the one lane in streaming where she could be the best: producer and host of the industry's central night (C47). On this reading the awards are a prestige project; she pays because the show makes her the most connected person in the business and brought a GQ profile and CAA (C48); the inclusion language is a host's brand and the tears over the 2025 backlash are the cost of an image under attack. The 2020 conversation weakens this case: she describes being the best as a way to fit in with her family (C53). A second rival, Type 6, is tested in its own section of the article (C54-C56) and is ranked about level with Type 3; it is not recorded in alternative_type because the schema holds one alternative and Type 3 is the one the jury reviewed.",
+    "discriminator": "Against Type 3: what she said the giving was for before there was a show, and what she counts when hurt. In June 2020, almost two years before the awards, she described baking as a way to fit in and be treated more kindly (C51), said asking people to care was selfish and care had to be earned (C52), and said the drive to be best came from wanting to fit in with her family (C53). Attacked by a peer in November 2025 she listed what the streamers would receive, not ratings, rank or awards (C45, C57), and in a calm moment she remembered a gift that went unused (C58). She has the admiration a Three works for and does not cite it when hurt (C42). Against Type 6: the reassurance she sought was about being liked, she traced the doubt to not liking herself, and her remedy was to give, not to find someone or something to rely on (C55, C52). The edit dropped two draft legs that did not discriminate: the wish to be 'understood' (audience reception; the Polygon quote was cut from the article at repair) and going live in tears (the medium's norm, C22); nothing she said about the deepfakes is used. This holds at medium confidence only: C10 and C11 are real counterevidence, the Type 6 separation is narrow (C56), and nearly all of it rests on one 2020 conversation and one 2025 post.",
+    "unexplained": "Her own insult comedy against a stated purpose of a night without negativity (C68, C31, C61). The perfectionism (C12) looks more like Type 1 and is set aside in one sentence (C66). Her distance from the peers she gathers (\"coworkers\", C28), partly revised by October 2026 (C37). She told the BBC in December 2025 that she would tell her younger self not to start, and continues (S03; cut from the article at repair for length). Whether Type 3 or Type 6 is the closer rival is not settled; the editor ranks them about level and the six-role jury has not reviewed the Type 6 argument or the 2020 source, which only the enneagram reviewer and the verifier opened. Almost all later motive evidence is self-report from 2022-2025 press; the 2020 quotations were checked against a machine transcription of the audio, not by a human listener; years of podcast audio were not opened, and no independent named testimony speaks to why she does what she does."
+  }
+}

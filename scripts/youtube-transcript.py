@@ -8,7 +8,30 @@ import json
 import re
 import subprocess
 import sys
+import tempfile
 from datetime import date
+from pathlib import Path
+
+
+class TranscriptError(Exception):
+    """A failed retrieval must not be represented as an empty transcript."""
+
+
+class TranscriptBlocked(TranscriptError):
+    pass
+
+
+class TranscriptUnavailable(TranscriptError):
+    pass
+
+
+def is_blocked(error):
+    message = str(error).lower()
+    return type(error).__name__ in {"IpBlocked", "RequestBlocked"} or any(
+        marker in message for marker in
+        ("http error 429", "too many requests", "ipblocked", "requestblocked",
+         "sign in to confirm you're not a bot")
+    )
 
 
 def video_id_from(arg):
@@ -21,15 +44,26 @@ def video_id_from(arg):
 
 
 def fetch_metadata(vid):
-    out = subprocess.run(
-        ["yt-dlp", "--dump-single-json", "--no-warnings", "--skip-download",
-         f"https://www.youtube.com/watch?v={vid}"],
-        capture_output=True, text=True,
-    )
+    try:
+        out = subprocess.run(
+            ["yt-dlp", "--dump-single-json", "--no-warnings", "--skip-download",
+             "--no-playlist", "--retries", "0", "--socket-timeout", "30",
+             f"https://www.youtube.com/watch?v={vid}"],
+            capture_output=True, text=True, timeout=90,
+        )
+    except (OSError, subprocess.TimeoutExpired) as error:
+        print(f"[warn] metadata retrieval failed: {error}", file=sys.stderr)
+        return {}
     if out.returncode != 0:
+        if is_blocked(out.stderr):
+            raise TranscriptBlocked("YouTube rate-limited or blocked the metadata request; stop this batch")
         print(f"[warn] yt-dlp failed: {out.stderr.strip()[:500]}", file=sys.stderr)
         return {}
-    return json.loads(out.stdout)
+    try:
+        return json.loads(out.stdout)
+    except json.JSONDecodeError:
+        print("[warn] yt-dlp returned invalid metadata JSON", file=sys.stderr)
+        return {}
 
 
 def hms(seconds):
@@ -39,15 +73,71 @@ def hms(seconds):
     return f"{seconds // 3600}:{(seconds % 3600) // 60:02d}:{seconds % 60:02d}"
 
 
-def fetch_transcript(vid):
-    from youtube_transcript_api import YouTubeTranscriptApi
-    api = YouTubeTranscriptApi()
+def fetch_transcript_fallback(vid, languages):
+    """Try caption files once in an isolated directory; never download the video."""
+    with tempfile.TemporaryDirectory(prefix="youtube-captions-") as temporary:
+        directory = Path(temporary)
+        try:
+            out = subprocess.run(
+                ["yt-dlp", "--skip-download", "--no-playlist", "--write-subs",
+                 "--write-auto-subs", "--sub-langs", ",".join(languages),
+                 "--sub-format", "json3", "--retries", "0", "--socket-timeout", "30",
+                 "-o", str(directory / "%(id)s.%(ext)s"),
+                 f"https://www.youtube.com/watch?v={vid}"],
+                capture_output=True, text=True, timeout=90,
+            )
+        except (OSError, subprocess.TimeoutExpired) as error:
+            raise TranscriptError(f"Caption fallback failed: {error}") from error
+        if out.returncode:
+            if is_blocked(out.stderr):
+                raise TranscriptBlocked("YouTube blocked the caption fallback; stop this batch")
+            raise TranscriptError(f"Caption fallback failed: {out.stderr.strip()[:500]}")
+
+        files = [directory / f"{vid}.{language}.json3" for language in languages]
+        files = [path for path in files if path.is_file()]
+        if not files:
+            raise TranscriptUnavailable(
+                "YouTube returned no caption files matching: " + ", ".join(languages)
+            )
+        malformed = False
+        for path in files:
+            try:
+                data = json.loads(path.read_text())
+                if not isinstance(data, dict) or not isinstance(data.get("events"), list):
+                    malformed = True
+                    continue
+                segments, seen = [], set()
+                for event in data["events"]:
+                    text = " ".join("".join(s.get("utf8", "") for s in event.get("segs", [])).split())
+                    if not text:
+                        continue
+                    start = float(event["tStartMs"]) / 1000
+                    key = (start, text)
+                    if key not in seen:
+                        segments.append({"start": start, "text": text})
+                        seen.add(key)
+                if segments:
+                    return segments
+            except (ValueError, TypeError, KeyError, AttributeError, OSError):
+                malformed = True
+        if malformed:
+            raise TranscriptError("Caption fallback returned malformed JSON3 data")
+        raise TranscriptUnavailable("Matching caption files contain no spoken text")
+
+
+def fetch_transcript(vid, languages=("en", "en-US", "en-GB")):
     try:
-        fetched = api.fetch(vid, languages=["en", "en-US", "en-GB"])
-    except Exception as e:
-        print(f"[warn] transcript fetch failed: {e}", file=sys.stderr)
-        return []
-    return [{"start": s.start, "text": s.text} for s in fetched]
+        from youtube_transcript_api import YouTubeTranscriptApi
+        fetched = YouTubeTranscriptApi().fetch(vid, languages=list(languages))
+        segments = [{"start": s.start, "text": s.text} for s in fetched if s.text.strip()]
+        if segments:
+            return segments
+        print("[warn] transcript API returned no text; trying caption files once", file=sys.stderr)
+    except Exception as error:
+        if is_blocked(error):
+            raise TranscriptBlocked("YouTube blocked transcript retrieval; stop this batch") from error
+        print(f"[warn] transcript API failed; trying caption files once: {error}", file=sys.stderr)
+    return fetch_transcript_fallback(vid, languages)
 
 
 def stamp(t):
@@ -62,20 +152,27 @@ def main():
     p.add_argument("video")
     p.add_argument("-o", "--output")
     p.add_argument("--metadata-only", action="store_true")
+    p.add_argument("--languages", default="en,en-US,en-GB",
+                   help="comma-separated caption language codes in preference order")
     p.add_argument("--timestamps", action="store_true",
                    help="prefix each ~30s block with a timestamp")
     args = p.parse_args()
+    languages = [language.strip() for language in args.languages.split(",") if language.strip()]
+    if not languages or any(not re.fullmatch(r"[A-Za-z0-9-]+", language) for language in languages):
+        p.error("--languages must contain language codes such as en,en-US")
 
     vid = video_id_from(args.video)
     meta = fetch_metadata(vid)
 
     if args.metadata_only:
+        if not meta:
+            raise TranscriptError("Metadata retrieval failed")
         print(json.dumps({k: meta.get(k) for k in
                           ("title", "channel", "upload_date", "duration",
                            "view_count", "chapters", "description")}, indent=2))
         return
 
-    segs = fetch_transcript(vid)
+    segs = fetch_transcript(vid, languages)
 
     upload = meta.get("upload_date") or ""
     if len(upload) == 8:
@@ -151,4 +248,14 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except TranscriptBlocked as error:
+        print(f"[blocked] {error}", file=sys.stderr)
+        sys.exit(3)
+    except TranscriptUnavailable as error:
+        print(f"[unavailable] {error}", file=sys.stderr)
+        sys.exit(2)
+    except TranscriptError as error:
+        print(f"[error] {error}", file=sys.stderr)
+        sys.exit(1)

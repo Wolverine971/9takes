@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-11-08T07:00:06Z",
+	"lastUpdated": "2026-11-10T11:02:36Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "qtcinderella",
-			"displayName": "QTCinderella",
-			"type": null,
-			"priority": 80,
-			"priorityReason": "Hosts the Streamer Awards Nov 12; married Ludwig (Oct 2026). Pair page with Ludwig for cross-links.",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-26",
-			"retryCount": 1,
-			"strategicValue": "streamer-cluster"
-		},
 		{
 			"name": "drew-afualo",
 			"displayName": "Drew Afualo",
@@ -56,19 +43,6 @@
 			"personaTitle": null,
 			"addedToQueue": "2026-10-21",
 			"retryCount": 0
-		},
-		{
-			"name": "josie-totah",
-			"displayName": "Josie Totah",
-			"type": null,
-			"priority": 79,
-			"priorityReason": "Carrie (Prime, Oct 7) #1 for ~a week; Wikipedia 793 Jun -> 18.3K L7; deep record. S2 renewal pending. Gender identity is not personality evidence.",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-26",
-			"retryCount": 0,
-			"strategicValue": "streaming-leads"
 		},
 		{
 			"name": "larry-ellison",
@@ -2975,6 +2949,63 @@
 				"editorial_status": "needs_revision",
 				"blockers": ["verification:revise", "overall_below_8.5:8.4"],
 				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-06_07-00-02-807_jay-z"
+			}
+		},
+		{
+			"name": "qtcinderella",
+			"displayName": "QTCinderella",
+			"type": null,
+			"priority": 80,
+			"priorityReason": "Hosts the Streamer Awards Nov 12; married Ludwig (Oct 2026). Pair page with Ludwig for cross-links.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-26",
+			"retryCount": 2,
+			"strategicValue": "streamer-cluster",
+			"startedAt": "2026-11-10T07:00:00Z",
+			"heldAt": "2026-11-10T09:15:00Z",
+			"needsReview": true,
+			"pipelineResult": {
+				"subject": "qtcinderella",
+				"run_status": "held",
+				"editorial_status": "needs_revision",
+				"blockers": [
+					"verification:revise",
+					"unresolved:reverify-01:The article calls GQ's writer, Kieran Press-Reynolds, 'he'. The author note on the cited GQ page uses 'they' ('They write the weekly digital music column Rabbit Holed for Pitchfork'). No opened source supports 'he'. This is a factual error about a named living person in the reader view. It came in when the edit added GQ's lead-in for subject-02; the frozen draft had 'himself' in the same spot.",
+					"overall_below_8.5:8.4"
+				],
+				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella"
+			}
+		},
+		{
+			"name": "josie-totah",
+			"displayName": "Josie Totah",
+			"type": null,
+			"priority": 79,
+			"priorityReason": "Carrie (Prime, Oct 7) #1 for ~a week; Wikipedia 793 Jun -> 18.3K L7; deep record. S2 renewal pending. Gender identity is not personality evidence.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-26",
+			"retryCount": 0,
+			"strategicValue": "streaming-leads",
+			"startedAt": "2026-11-10T09:15:00Z",
+			"heldAt": "2026-11-10T11:02:36Z",
+			"needsReview": true,
+			"pipelineResult": {
+				"subject": "josie-totah",
+				"run_status": "held",
+				"editorial_status": "insufficient_evidence",
+				"blockers": [
+					"verification:insufficient_evidence",
+					"unresolved:verify-01:The article states Type 7 at medium confidence, but its own argument and the evidence record say no discriminator separates Seven from Three: 'A choice would settle it... None is on record,' her 2025 criteria 'move toward Three,' what leans Seven is 'small and specific,' and the Carrie episode, the on-set split and the staged essay all fit Three equally. Six is also left live. After the jury's fixes the Three case (working since ten, producer at 15 and 18, 'I'm still going to win,' constant outreach, 'work begets work,' shame vocabulary, status as protection) is at least as well evidenced as the Seven case, which rests on stated preferences from promotional Q&As and on how she tells stories on a comedy podcast. The standard calls for a sourced discriminator the strongest alternative fails, and for a research hold when none exists. She does not qualify as an open case: she has worked publicly since 2012 and has a deep first-person record. This cannot be repaired by rewording.",
+					"unresolved:verify-02:The two quoted sentences are separated in the source by her stated reason for the condition, which the article drops: 'The only way for me to tell the most accurate story possible and to do it right was to have more involvement in the show creatively.' She gives the same reason in three other opened sources: Variety ('she also wanted to make sure the show got it right'), The Hollywood Reporter ('The character needed to be authentically represented, and in order for that to be true, I would have to serve a bigger role') and Wonderland. The section then says 'the credit was not the point' without saying what she says the point was, meets it with 'A person who cared a great deal would say the same thing,' and the Type 3 section and FAQ list the condition as ambition evidence. A central anecdote is told without the subject's own explanation, and the missing half is the half that does not favor the Type 3 reading.",
+					"unresolved:verify-03:The trial was not about whether music should always be on. Crooked's episode page and transcript call the segment 'The Ickuation Room' and the topic 'Hookup Playlists... Ick or Yum,' and the two co-hosts argue for and against music during sex. She rules 'Yum wins, music should be playing when I'm doing nothing and when I'm doing it all.' The article's paraphrase misstates what the linked source shows, in the scene the profile closes on and under two quotations the type hypothesis counts (C54, C55). An accurate description also serves the argument better: she turned a debate about hookup playlists into a statement about never sitting in silence.",
+					"overall_below_8.5:8",
+					"enneagram_below_8:7.3"
+				],
+				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-10_09-15-02-850_josie-totah"
 			}
 		}
 	]

@@ -1,0 +1,24 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:The facts hold; the reading experience is what falls short. The reader view is 4,458 words, about 800 more than the reviewed draft and far over the 2,000 to 3,500 target. Most paragraphs are 70 to 140 words with almost no short ones, 'A version of me' is four blocks of 100-plus words in a row, 'The dinner she paid for' runs 685 words without a break, and the page talks about itself ('this profile', 'opened for this profile') 14 times. The second half reads like an audit of the portrait instead of the portrait.",
+    "overall_below_8.5:8.4"
+  ],
+  "quality": {
+    "evidence": 8.5,
+    "enneagram": 8,
+    "originality": 9,
+    "writing": 7.8,
+    "durability": 8.5,
+    "hook": 9,
+    "discoverability": 8.5,
+    "overall": 8.4,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-11-10",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "5c22c37a2a0b8fc951452d1f815af5be379c7d2f3735e894dd7b36611806f0ac"
+  }
+}

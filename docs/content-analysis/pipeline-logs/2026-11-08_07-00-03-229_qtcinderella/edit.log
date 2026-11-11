@@ -1,0 +1,28 @@
+The edit stage is done: all three outputs are written and pass the contract's machine checks (no draft blockers, 4,458 words, evidence validates, all 50 findings and every protected passage adjudicated). Nothing else in the repo was touched and nothing was published.
+
+**The one call you may want to veto.** The Enneagram reviewer's blocker was right: the 2020 Dr. K conversation the draft called its "best test" had never been opened. I read it through its auto-captions and it cuts two ways:
+
+- **It strengthens Type 2 over Type 3.** She describes baking as "an easy way to fit in", says asking people to care is "selfish", and says being the best was a way to fit in with her family.
+- **It makes Type 6 a serious rival.** She describes years of doubt and needing reassurance she then didn't believe, all before the deepfakes.
+
+I kept Type 2 at medium confidence with Type 3 as the recorded alternative, and gave Type 6 its own section, ranked about level with Type 3. Five of six reviewers never saw that source or the Type 6 argument. If you or the verifier think Type 6 is the stronger rival, the right move is a `--refresh --expanded-review` run, not shipping this one. I said so plainly in the resolution.
+
+**What changed on the page**
+- **Type argument rebuilt.** The two legs reviewers knocked down are gone: "wants to be understood" (that was about audiences) and "goes live crying" (that's what streamers do). Nothing about the deepfakes is used as type evidence now.
+- **Rigging section.** Reopening Dexerto turned up a named critic: Asmongold accused her of hand-picking nominees. Her partner's 2022 win is now stated plainly, and the page says no opened report shows evidence of rigging.
+- **Factual fixes.** Her first major event was the Roast of Ludwig, not Sh\*tcamp. Two unsupported lines are gone: "she has not disputed that criticism" and the guest-list motive.
+- **Fairness fixes.** The author verdicts are removed, and her own explanations are added for the December 2025 jokes and the wedding call-out.
+- **Metadata.** Persona title is now "The Host Who Seats the Stranger"; the description and meta title no longer state her funding claim or "nobody knows her" as fact. There is a new Type 6 FAQ.
+
+**Limits to know about**
+- The Dr. K quotes are short caption fragments, not checked against audio; I read about 40% of the conversation closely. The page says they come from captions.
+- I did not reopen the two Sportskeeda stream write-ups; those quotes carry over unchanged from the draft.
+- GQ's "shock-collar jokes" reference is left unexplained because no opened source explains it.
+- I added from memory, without an opened source, that Sean "Diddy" Combs was convicted in a federal case in 2025; it is flagged for the verifier.
+- Nine protected passages were changed rather than kept, each with a reason; the verifier has to agree.
+- The first pass ran to 5,352 words, so I cut the 41-minute Twitch ban, the trophy theft, the Polymarket accusation, the job history and several secondary quotes. Reasons are in the resolution and research tasks.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`

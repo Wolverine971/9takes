@@ -1,0 +1,17 @@
+The future-role review is written to `review-future.json` and parses against `reviewSchema`: 8 findings (3 major, 5 minor) and 5 protected passages. I touched no other repo file and published nothing.
+
+**Verdict on the five-year test:** the thesis holds without Carrie. The Type 7 vs 3 argument draws on statements from 2012 through 2025, the ending rests on a 2022 podcast episode, and nearly every quote carries an absolute date.
+
+**Major findings**
+- **future-01, the hook is undated:** the party scene has no year or age, and the draft turns it into a present-tense trait ("a glass she won't drink from"). The evidence record implies summer 2018, when she was 16 or 17 and preparing to come out — a period the article elsewhere sets aside as circumstance. The year is derived from the record, not a reopened source, so it needs confirming.
+- **future-02, the job-criteria quote is superseded:** the draft treats her 2024 "the material, the people, and the fun" as her standing test. A June 2025 answer already in the evidence record adds "where it might take me" and "work begets work", which leans Type 3, and the draft omits it.
+- **future-03, the type call has no review trigger:** the body says what would weaken the read, but the type conclusion and discriminator claims are marked `stable` with no trigger. Nothing tracks "her choices after Carrie".
+
+**Minor findings**
+- **future-04:** only one castmate (Alison Thornton, in Carrie junket press) says she improvises, so the description's plural "castmates' account" overstates it.
+- **future-05:** several single remarks are written as present-tense facts (the grocery-store fear, wanting to be unknown, "fourteen years of interviews"), and one quote reads as Galore when it is from Content Mode.
+- **future-06:** the dream-roles list is undated (2023) and drops the two prestige-director items from the same sentence.
+- **future-07:** the "this profile found nothing from…" claims carry no as-of date in the body.
+- **future-08:** the Time link is an unpinned Wayback path, and the Yahoo and Content Mode links showed no archive capture in a quick check, which is a lead rather than proof.
+
+Risk flags are unchanged: contested typing stays true and I added none. The similarity trip was a verbatim triad definition shared with the Dominic Fike page, which I treated as ordinary type vocabulary and did not raise. I compared only the matched units in the diagnostic, not the other drafts.

@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "ea11975ad3cf13c192e81af9476ef90d6ce29815f32ff13718396297c760c101",
+  "evidence_sha256": "906417a9535adee2142fa7c4299b9290747e6c95ff1caf032c6a34b87f543eef",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "This profile takes that seriously and still leans Type 2, on three observations. What she says is missing is not recognition, which she has, but being understood.",
+      "problem": "None of the three observations separates Type 2 from Type 3 on the draft's own record, and the rebuttal paragraph answers them only in general terms. (1) Both 'understood' quotes are about how the internet and her critics read her (Polygon: 'you'll never be understood on the internet'; BBC: said about answering critics). That is a wish for accurate public reception, which is close to reputation; the draft treats it as a wish to be known personally. The draft also reads the kitchen quote as 'She wants the effort seen', so 'recognition, which she has' is not settled either. (2) The Sh*tcamp quote includes 'the last stream wasn't super hype' and 'I didn't do good enough', which are performance measures; the Type 3 section restates the episode as 'other people's night' without that hedge. (3) The Frost reply lists money paid and months worked, and the Vice list ends 'I've done so much'. A list of what she has done is also a list of accomplishments; 'what she has given' versus 'what she has won' is the author's wording, resting on two instances. Separately, wanting to be understood, feeling unknown and 'the rainy cloud in everyone's room' are standard Type 4 material, and Type 4 is never mentioned.",
+      "acceptance_test": "For each of the three observations, the article states the specific Type 3 counter-reading next to it: who she wants to be understood by in each quote's own context, the performance language in the Sh*tcamp quote, and the Frost and Vice lists read as accomplishments. It then keeps only what survives, or lowers the stated confidence. The 60-word answer and both type FAQs say the same thing as the revised section. Type 4 gets at least one sourced sentence in the 'fits neither type' paragraph, or the resolution records why it was excluded."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "A person guarding an image does not usually broadcast herself crying against the advice she expects from \"everyone in the world,\" though anyone can break.",
+      "problem": "An unsupported generalization doing type work. For a live streamer, going live is the normal way to address an audience, the stream drew wide sympathy and coverage, and she cries on stream again in November 2025, so tears on camera are part of her public presentation and not an exception to it. The sentence also relies on a stock picture of Type 3 as someone who hides hurt, which the fair-treatment rules warn against. And it draws a type inference from how she reacted on the day she learned she was a target of sexual deepfakes, one paragraph after the draft declines to draw one from the childhood abuse.",
+      "acceptance_test": "The sentence is cut, or it is presented as one reading with the opposite reading (a public statement of pain made to an audience is also a way of shaping how the episode is seen) given equal weight. The type argument, including 'she does not manage it out of view' in the Type 3 section, no longer depends on her reaction to the deepfakes."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "She also said that when Ahgren won Streamer of the Year at the first show, she cried the night before as she glued his name to the trophy, anticipating the backlash.",
+      "problem": "The plainest conflict of interest in the record, that her partner won the top award at a show she created, runs and helps judge through an unnamed panel, appears only inside her own sympathetic account of how it felt. The rest of the rigging paragraph has three gaps. The complaint was about who got nominated, but the draft answers with the 70/30 split for winners and never says how nominees are chosen. Her explanation ('Their audience doesn't show up') is as uncheckable from outside as the accusation, since no vote counts are cited, yet only the accusation is labeled unproven. And no named critic's argument is given, which the controversy rules require and the evidence record flags as missing. Her line 'There's no benefit to rigging' goes unexamined.",
+      "acceptance_test": "The article states in one plain sentence that Ludwig Ahgren, her partner, won Streamer of the Year at the March 12, 2022 show, separate from her account of crying. It says how nominees are selected according to an opened source, or says the opened sources do not explain it. It notes that her explanation is also unverified. It gives one named critic's actual argument (for example what Deshae Frost was objecting to, if Dexerto reports it), or says outright that the opened coverage attributes the claim only to unnamed viewers. The rigging FAQ matches."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "A host who wants everyone at the table is slow to turn anyone away. That accounts for who was in the room.",
+      "problem": "A causal story stated as settled, and it explains the wrong thing. The sharpest criticism the draft quotes is about the monologues she and her cohost delivered (calling a guest fat, shock-collar jokes), not the guest list. Her own roast material sits directly against 'For one night of the year, the negativity is silent' and against the opening picture of a host who seats the lonely guest beside someone kind. The type explanation skips it. In the same paragraph, 'she has not disputed that criticism' is an unsupported negative: the record shows only that she called 'much of the criticism' 'really valid', without saying which parts.",
+      "acceptance_test": "The paragraph addresses her own monologue jokes as a contradiction of her stated purpose and leaves it unexplained if the type does not explain it. 'That accounts for' becomes a hedged reading. 'She has not disputed that criticism' is replaced with what Dexerto reports she said on December 8, 2025, or cut."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "The full recording was not reviewed, and it is the best single test of the Type 3 reading.",
+      "problem": "The article says it skipped the public primary source it calls the best test of the rival type, then publishes a medium-confidence call for the other type. That is a gap in the research, not a limit of the record. The same applies to years of her own podcast and to the health video. A skeptical reader stops trusting the typing at this sentence.",
+      "acceptance_test": "The June 20, 2020 Dr. K conversation is opened (video or transcript), the two quotes in the Type 3 section are pinned with a timestamp, and the article reports what the rest of that conversation says about success versus connection, whichever type it helps. If it cannot be opened, the sentence says why, and the 60-word answer and type FAQ lower their confidence wording to match."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "persona_title: The Host Who Pays for the Party",
+      "problem": "Metadata states as fact what the body hedges. The body says 'by her account, pays for', calls her figures unaudited and notes the show has sponsors. The persona title and the description ('QTCinderella pays for streaming's biggest night') drop the attribution, and 'streaming's biggest night' is an unsourced superlative. The body leans the same way in 'She also runs it nearly alone', a sentence that goes on to mention a contracted production team and sits a few sections before 'a producer's porch'. The sponsor sentence has no source link.",
+      "acceptance_test": "The persona title and description either attribute the payment claim to her or switch to a claim the record supports without her word. 'Streaming's biggest night' is sourced or replaced with a neutral description. 'Nearly alone' is replaced with what GQ described. The sponsor statement links its source."
+    },
+    {
+      "id": "critic-07",
+      "severity": "major",
+      "passage": "Two party stories recur in her interviews.",
+      "problem": "Each story appears once in the opened record: the caramel apples in GQ (2025) and the murder-mystery dinner in Inven Global (2022). 'Recur' is not supported. Only the first is a party nobody came to; half the guests came to the second. Yet the H2, the 60-word answer and the type FAQ all say 'parties nobody came to', in the sentence that carries the Type 2 case.",
+      "acceptance_test": "'Recur' is replaced with an accurate statement (two different stories, each told once in the sources opened). The 60-word answer and the type FAQ no longer say nobody came to more than one party, for example 'parties people skipped'."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "In October 2026 the pattern ran small.",
+      "problem": "The sentence does not say which pattern, and because it follows 'This is the center of the Type 2 reading' it reads as confirmation of the type. Naming the guests was done jointly with Ahgren, a shared act is weak type evidence under the standard, and the evidence record warns against reusing the wedding this way. The podcast was not reviewed. 'A move to shield the same friends' is the kinder of two available readings; the other is that she blamed the audience for a pile-on the couple started.",
+      "acceptance_test": "The article names the pattern it means and says how her part differs from Ahgren's, or it drops the sentence and reports the episode as record without type weight. Both readings of her October 22 post are given."
+    },
+    {
+      "id": "critic-09",
+      "severity": "minor",
+      "passage": "The sixth Streamer Awards are scheduled for November 12, 2026, two days after this was written.",
+      "problem": "The only detail given about the 2026 show is the stolen trophies, a light and sympathetic story. The evidence record lists an unopened Dexerto report that a sponsor pulled out over one nominee, and an opened December 2025 report (S14) of a viewer's insider-trading accusation tied to prediction markets on award outcomes, answered with a cease and desist, which was dropped from the draft. Both bear on the nomination and integrity dispute the article covers, and betting on outcomes matters more when 30% of the result comes from an unnamed panel.",
+      "acceptance_test": "The sponsor report is opened and either included in one plain sentence with her response or recorded in the resolution as not material, with the reason. The prediction-market item is either included in one attributed sentence (an unnamed viewer's accusation, her denial, the cease and desist) or its exclusion is reasoned in the resolution."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Both are things a host does. One finds the guest who knows nobody a kind neighbor. The other reads the bill out loud.",
+      "reason": "States the contradiction the whole profile turns on in three plain sentences, without picking a side."
+    },
+    {
+      "passage": "A stated mission is also a brand. The girl nobody came to see who now throws the party is a very good origin story for an events business, and she may tell it because it works.",
+      "reason": "The draft challenges its own most attractive causal story at the point where it tells it. Keep this next to the party anecdotes."
+    },
+    {
+      "passage": "The complaint is not quite fair to them. She is the one who withholds the surname.",
+      "reason": "Confronts adverse evidence against her own account directly and in the same paragraph as the claim."
+    },
+    {
+      "passage": "That is her account, given twice on the record. This profile reports it in her words and draws no conclusion about her personality from it.",
+      "reason": "Correct handling of a childhood abuse disclosure: attributed, brief, no causal claim."
+    },
+    {
+      "passage": "The two people quoted praising her here, Higa and Valkyrae, are her cohosts. They speak to her effort and her planning, not to why she does it.",
+      "reason": "Names the limit of the testimony and its lack of independence in terms a reader can use."
+    }
+  ],
+  "assessment": "Reviewed as a skeptical reader from the frozen draft and evidence record only; no sources were reopened in this role. The draft is unusually honest about its limits: it flags self-report, unaudited money, the brand value of the origin story, and the Type 3 counterevidence in her own words. The weak point is the discriminator. All three observations offered for Type 2 over Type 3 have a specific Type 3 reading the draft does not state, the 'understood' quotes concern public reception, and Type 4 is never tested, so medium confidence looks generous until the Dr. K recording is opened. Adverse evidence is present but softened in three places: her partner's Streamer of the Year win appears only through her tears, the December 2025 criticism is answered on the guest list instead of her own monologue, and the nominations complaint is answered with the winners' voting split. The rigging dispute still lacks a named critic. Metadata states the payment claim more firmly than the body. Similarity: both tripped pairs with the Olivia Dean draft are the disclaimer sentence and ordinary Type 2 vocabulary. A check of that draft's type section shows the same verdict shape (Type 2, medium, Type 3 as rival) but a different discriminator, so this is not reuse; that draft does test Type 4 and this one does not. Risk flags: sensitive allegations (sexual deepfakes, a childhood abuse disclosure, rigging, racism and homophobia complaints) and contested typing both apply."
+}

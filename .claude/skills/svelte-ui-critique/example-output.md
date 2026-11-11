@@ -1,3 +1,4 @@
+<!-- .claude/skills/svelte-ui-critique/example-output.md -->
 # UI Critique: src/routes/admin/marketing/+page.svelte
 
 ## Findings
@@ -27,7 +28,7 @@
 ## Token / Pattern Notes
 
 - prefer one accent family per panel cluster
-- keep card radii and glow treatments consistent with the admin audit baseline
+- check radii, colors, and emphasis against `docs/brand/cold-light.md` and `docs/design-system.md`
 
 ## Recommended Next Step
 

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "559d9e3f9f611878f418fafe1846218fa788e5434db4c900665ce0353d5eea84",
+  "evidence_sha256": "ea130b0a6de17c65a219d5490277117e6f314aad8b7007a0dbe4fbfc5564dd02",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "The summer after high school, the parties were at Josie Totah's house.",
+      "problem": "The hook scene has no year and no age, and the next paragraphs turn it into a present-tense trait (\"So the cast's improviser is also the one holding a glass she won't drink from\"). The evidence record implies the scene is summer 2018: the Time essay ran \"the week she left for college\" (S01 context) and she was at Chapman 2018 to 2022, so she was 16 or 17. That is the same summer she was preparing to come out, a period the article elsewhere rules out as circumstance (\"Those are the effects of a circumstance, one that ended, and they do not type her\"). S22's fuller wording is \"ruin anything in in my parents house\", which the quote drops. The second half of the contradiction is a castmate in November 2026, so the two halves sit about eight years apart and the opening reads as if they were simultaneous. The newest statement about alcohol in the record is from August 2022.",
+      "acceptance_test": "The opening states the year and her age for the party scene (confirm 2018 and 16 or 17 against S22 and S01 before printing). \"won't drink from\" is put in the past tense, or the same passage cites a dated later statement that shows the restraint continuing. The quote either keeps \"in my parents house\" or the prose says whose house it was. A reader can tell from the first four paragraphs that the party and the Carrie set are years apart, and the article argues the continuity instead of assuming it."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Her stated test for a job, in 2024: \"I examine the three main factors: the material, the people, and the fun.\"",
+      "problem": "This is not her latest statement on how she chooses work. In June 2025 she told Numéro Netherlands (S30): \"I weigh the director and material, but also where it might take me and who I might get to work with\" and \"work begets work\". The evidence record notes it under C18 as \"not quoted in the draft\". The later answer adds career trajectory, which is the Type 3 side of the article's own discriminator. The FAQ then states the 2024 answer as a standing habit (\"she tests jobs for\"), and the 60-word answer says she \"picks jobs for 'the fun.'\" C49's note adds that she said \"with more years and financial security\" she has gained autonomy, so the \"little choice\" caveat is also a moving state. A page meant to last five years is resting its discriminator on a superseded answer.",
+      "acceptance_test": "The Type 3 section quotes or closely paraphrases the June 2025 answer with its date beside the January 2024 one and says plainly what it does to the discriminator. The FAQ answer and the 60-word answer claim no more than the two statements together support (dated wording, not a present-tense habit drawn from 2024 alone). The \"little choice\" sentence carries its date (January 2024)."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "The read would weaken if a director or showrunner described her tracking billing, reviews or status, or if her choices after Carrie visibly favored prestige over enjoyment.",
+      "problem": "The body names what would change a contested typing, but the evidence record does not track it. C71 (type conclusion) and C72 (discriminator) are marked `stable` with an empty `review_trigger`. No claim carries a trigger for \"her choices after Carrie\". C18 (job criteria), C49 (little choice) and C20 (self-deflation while she is, in her words, not \"that big\") are states that change with career stage and are also `stable`. C74 covers named accounts and C68 covers the short film, so two of the body's tests are tracked and the one about her own choices is not. Nothing in the record would prompt a reopen when her leverage changes, which is exactly when the 7 versus 3 question becomes observable.",
+      "acceptance_test": "In evidence-edit.json, C72 (or C71) is `unresolved` or `time_sensitive` with a trigger that names concrete events: her next announced lead, producing or directing project after Carrie, any named director or showrunner account of her, and the release of the short film. C18 and C49 are `time_sensitive` with a trigger to recheck her stated criteria at the next long interview. The body sentence quoted here stays."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "Alison Thornton, who plays opposite her in Mike Flanagan's Carrie, said in November 2026, \"Almost in every scene, Josie was improvising and adding things that nobody was expecting.\"",
+      "problem": "Take Carrie away and no third party says she improvises. Thornton is the only witness, twice (S34, S38), both in junket settings within five weeks of the premiere with Totah present, and S38 is a written summary whose audio is still an open research task. The Buccaneers castmates (S32, 2025) describe a joke before the take and then focus: \"You'd crack a joke right before we have to film\". That is not improvising in scenes. The description's plural (\"improvises on set, by her castmates' account\") and the type_hypothesis line \"described by castmates on two shows as improvising beyond the script in nearly every scene\" both overstate it. The title's \"Loud on Set\" and the hook therefore lean hardest on the newest and least settled testimony.",
+      "acceptance_test": "The description matches the record: one Carrie castmate says she improvised; The Buccaneers castmates describe jokes followed by focus. The type_hypothesis wording in the evidence record is corrected the same way. The opening or \"Where the wildness goes\" shows the on-set pattern was on record before Carrie (Variety 2021, Nylon 2023, Brit + Co 2025), so the claim would still hold if the two Thornton quotes were removed."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "She cannot go to a grocery store alone.",
+      "problem": "\"What the Seven reading leaves out\" states single dated remarks as standing present-tense facts in the author's voice. This sentence rests on one written Q&A from January 2024 (plus an April 2023 aside). \"She wants to be the actor nobody knows anything about\" is from April 2023. \"Being alone is the state she has to practice\" introduces a quote that is from Content Mode (S27, January 2024), but it follows \"She defined love for Galore\", so it reads as Galore and has no date or link. C33 and C26 are `stable`. \"Fourteen years of interviews\" (twice) is a count that only works in 2026.",
+      "acceptance_test": "Each of these sentences carries the year in the sentence and uses past tense for what she said then (for example, that in January 2024 she said she could not go alone). The \"solo self-care days\" quote names Content Mode and its date. \"Fourteen years of interviews\" becomes a dated span (2012 to 2026). C33 is `time_sensitive` or its passage is past tense."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Her dream roles, listed in one breath, are \"a period war drama like 1917\" and \"a Big Mama's House remake.\"",
+      "problem": "The list is from Wonderland in March 2023 and is written as a present-tense fact with no date. The same sentence in S24 continues \"or a Julia Ducournau or Ruben Östlund film\", which are prestige auteur choices, and C69's own note says so. Dropping them is what lets the next lines say \"A wish list built for image would point somewhere. Hers has range.\" By July 2025 (S31) her stated next wish was \"a slice of life drama\" like Lost in Translation or Lady Bird, so the list has already moved once.",
+      "acceptance_test": "The sentence gives the year (2023) and past tense, and either includes the Ducournau and Östlund items or drops the inference that the list shows no image strategy. If the 2025 wish is used, it is dated too."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "This profile found nothing from her parents after 2015, and nothing from her siblings, from anyone at her high school, or from anyone with a reason to be critical.",
+      "problem": "The body's absence claims have no as-of date, though the record dates them (C74: \"As of November 10, 2026\"). The same is true of \"the only criticism of her work this profile found\" and \"this profile found no statement from Flanagan about her.\" These are the statements most likely to become false: a second Carrie season makes a Flanagan comment likely, and C63, C37 and C74 already carry triggers for it. A reader in 2029 cannot tell when the search was done.",
+      "acceptance_test": "The \"who has not spoken\" paragraph says \"as of November 2026\" (or the full date) once, and the Flanagan and Lil' Dictator sentences either carry the same date or clearly point back to it. No absence claim in the body is undated."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "([Time, August 20, 2018](https://web.archive.org/web/2023/https://time.com/5371387/josie-totah-transgender/))",
+      "problem": "Source links are uneven for a five-year page. The body links an unpinned Wayback path (`/web/2023/` redirects to whatever capture is nearest), while frontmatter `citations` lists the live time.com URL that S01 calls dead. Wayback's availability API showed a 200 capture dated 2026-11-02 when checked on 2026-11-10, so the live page may be blocking scripts, not gone. The Wigfield, Variety and Teen Vogue quotes are linked to Yahoo syndication copies (S13, S05), and the job-test quotes to a `?p=` URL at Content Mode (S27). The same API returned no capture for those three URLs. That API can miss captures, so treat it as a lead, but syndicated Yahoo copies are often taken down and the originals were not opened (research task 8).",
+      "acceptance_test": "The Time link is pinned to a full-timestamp capture, and the body link and the `citations` entry agree. For S05, S13 and S27 the source record adds the original publisher URL and either a confirmed archive capture or a research task to create one, so the quotes stay checkable if the linked copy disappears."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"And so music always has to be playing,\" she said. The transcript records a gavel. Then she announced she was taking the bailiff out to dinner.",
+      "reason": "The ending rests on an August 2022 episode, not on Carrie. Removing the latest event leaves the close and its insight intact, which is the five-year test passed."
+    },
+    {
+      "passage": "A ten-year-old in a proud local feature is weak evidence of adult motive. The vocabulary is already there, though: fun, the next thing, a shrug at disapproval.",
+      "reason": "Uses the 2012 source to show a pattern across fourteen years while stating its limit. This is what makes the argument independent of any one press cycle."
+    },
+    {
+      "passage": "Medium confidence is the honest ceiling. Nearly everything below is her own account, given in promotional interviews or on a podcast she hosted with two close friends.",
+      "reason": "States the confidence level and the limits of the record up front. It would stay true even if a later run settled on Type 3."
+    },
+    {
+      "passage": "That reason arrived three years after graduation, and there are plainer ones.",
+      "reason": "Dates the self-report against the event it explains and admits ordinary explanations. This kind of timing honesty should survive the edit."
+    },
+    {
+      "passage": "One limit matters more than the rest. Totah is a transgender woman, and being trans is not evidence of any personality type.",
+      "reason": "A durable rule that keeps circumstance out of the type argument. It should not be softened in the edit."
+    }
+  ],
+  "assessment": "Five-year test: the thesis survives without Carrie. The discriminator draws on statements from 2012, 2018, 2021 to 2025, the ending is from 2022, and nearly every quote carries an absolute date, which is better than most profiles manage. Changing facts (age, Carrie renewal, the short film, Flanagan) are dated and have triggers. The weak points are specific. The hook pairs an undated party scene, which the record implies is summer 2018 at age 16 or 17, with a November 2026 castmate quote and writes the result in the present tense (future-01). The job-criteria evidence stops at 2024 although a June 2025 answer in the record adds career logic (future-02). The contested type call and its discriminator are marked stable with no review trigger, so the article's own falsifiers are not all tracked (future-03). The only third-party account of improvising comes from one Carrie castmate in junket press (future-04). The rest are dating and link-durability repairs. Open-case eligibility does not apply: the format is standard and the record runs fourteen years. Contested typing stays flagged; I add no new risk. Similarity: the diagnostic tripped on \"the three types organized around fear\", a verbatim triad definition shared with the Dominic Fike page, plus two stock phrases. From the matched units these are ordinary type vocabulary and the arguments differ, so I report no reuse finding. Limitation: I compared only the units in the diagnostic and did not open the other drafts. Checks I ran myself were limited to the Wayback availability API for four source URLs; I did not reopen the sources, so future-01's year and age are derived from the evidence record and need confirming."
+}

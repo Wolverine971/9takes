@@ -31,13 +31,13 @@ Examples:
 Load the minimum relevant context:
 
 - `docs/brand/README.md`
-- `docs/writing-system/01-content-creation-workflow.md`
-- `docs/writing-system/02-blog-optimization-framework.md`
+- `docs/brand/messaging-hierarchy.md`
 
-If this is a people-analysis workflow, also load:
+For a people analysis, resolve the editorial contract before loading templates:
 
-- `.claude/commands/blog_content_creator_people_v2.md`
-- `docs/blogs-famous-people/prompts/research-prompt.md`
+- New profiles and drafts with `editorial_workflow.version: 3`: read `docs/writing-system/people-profile-standard.md`. Use its evidence-first structure and durability criteria; do not import v2 furniture quotas, recent-event requirements, or grade/regrade gates.
+- Existing legacy drafts or an explicit legacy request: preserve their contract; read `.claude/commands/blog_content_creator_people_v2.md` and `docs/blogs-famous-people/prompts/research-prompt.md` as needed. Never add or remove a workflow marker just to change the rules.
+- Other content: read the relevant sections of `docs/writing-system/01-content-creation-workflow.md` and `docs/writing-system/02-blog-optimization-framework.md`.
 
 If an evidence log exists, use that before re-researching.
 

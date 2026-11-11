@@ -1,0 +1,23 @@
+The subject-role review is written to `review-subject.json` in the run directory and passes `reviewSchema`. It raises five major and three minor findings; no other file was changed and nothing was published.
+
+The hash difference was a false alarm: the runner hashes the parsed evidence JSON, not the raw file, and the review copies both hashes from the request as instructed.
+
+**Major findings**
+- **subject-01:** The years before she came out are framed as a second false "answer" and counted as Type 3 image management. That breaks the draft's own rule that being trans is not type evidence.
+- **subject-02:** "Both scripts were handed to a child by adults" implies her named parents kept her closeted. No source says that, and her own statements about them say the opposite.
+- **subject-03:** "Pitch by fib" turns one self-told anecdote into a habit of dishonesty with bosses, and omits that she said she was scared to ask out of respect for the show's creator.
+- **subject-04:** The steroid story states a second-hand "depressed" verdict as fact after the draft's own "she may be exaggerating" caveat. "Turns bad news into a bit" in the type answer and FAQ rests on this one episode.
+- **subject-05:** The closing crying story leaves out her statement that she can normally "cry at any moment". This one relies on a note in the evidence record; I did not reopen the transcript, so the wording needs confirming.
+
+**Minor findings**
+- **subject-06:** "What the jokes are standing in front of" asserts a hidden motive without a hedge.
+- **subject-07:** The closing "myself" punchline is left unmarked as a joke.
+- **subject-08:** A ten-year-old's reply to racism criticism of an adult-made series is used as a type signal, and her sister is named.
+
+Each finding has an exact passage and an acceptance test, and none of the fixes requires changing the Type 7 call.
+
+**Risk flags:** `contested_typing` stays true. `sensitive_allegations` stays false, because the only criticism on record is anonymous 2012 comment on a production she appeared in at ten.
+
+**Similarity:** the one tripped pair is the stock triad definition shared word for word with the Dominic Fike draft. I compared the arguments and found no reused reasoning, so there is no finding.
+
+Five passages are protected, all of them places where the draft separates her account from what a third party confirms.

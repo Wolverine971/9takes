@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "559d9e3f9f611878f418fafe1846218fa788e5434db4c900665ce0353d5eea84",
+  "evidence_sha256": "ea130b0a6de17c65a219d5490277117e6f314aad8b7007a0dbe4fbfc5564dd02",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "\"I was so afraid to drink because I didn't want anyone to ruin anything,\" she said on her podcast in April 2023, so she worked the room with props.",
+      "problem": "The hook's first quotation leaves a new reader asking what could be ruined, and the sentence reads as a general dread. The evidence record (S22 context) gives the line as continuing \"in in my parents house\": she stayed sober because the party was at her parents' home. Closing the quote before that phrase presents a cut sentence as complete and makes the opening contradiction sound more psychological than the source does. \"So she worked the room with props\" is then the author's causal link, not hers.",
+      "acceptance_test": "The opening says what she was afraid would be ruined, using the fuller transcript wording or an accurate paraphrase outside the quotation marks, and no quotation is closed mid-sentence as if it ended there. The prop-cigarette image stays, and the hook still works with the plainer reason stated."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "So the restraint has a shape. She refuses what could cost her the work or weigh her down, and she pays for experience.",
+      "problem": "The introduction promises to show \"what the control is for.\" This is the payoff, and it is two sentences that the next sentence qualifies with ordinary explanations. The article never says in type terms how a sober, prop-holding host fits a Seven: the 60-word answer omits the restraint, \"What the Seven reading leaves out\" does not list it, and the evidence record files it under both `against` and `unexplained`. A reader without background finishes unsure whether the opening contradiction supports the read, is neutral, or is the main thing it cannot explain.",
+      "acceptance_test": "One passage (here or in the Type 3 section) states in plain language how the restraint sits with the Seven read: what the read accounts for, what circumstance accounts for, and what stays open. It agrees with the intro's thesis sentence and with the \"leaves out\" section, and adds no certainty the record lacks."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "It is a bit, and she may be exaggerating. A Three with a shoot coming would refuse to rest too. Look at the form, though.",
+      "problem": "Momentum. Almost every section gives its evidence and then closes by taking it back: \"That is praise for talent. It says nothing about motive.\"; \"A person who cared a great deal would say the same thing, and it can't be checked.\"; \"That reason arrived three years after graduation, and there are plainer ones.\"; \"There are ordinary explanations too\"; this passage; \"It is also a common conviction among queer writers her age\". The global self-report limit is also stated in full four times (type section, \"Every telling of this is hers\", the Type 3 limits paragraph, \"Then there is who has not spoken\") and again in the FAQ. Each hedge is honest; together they form a predictable give-then-retract rhythm and by the Type 3 section a new reader has lost track of what the case rests on. The body is already about 4,000 words, above the 2,000 to 3,500 target, so review fixes that add text risk the 4,500 ceiling.",
+      "acceptance_test": "Each quotation keeps its local attribution, but the general self-report limit is argued in full at most twice (the type section and the \"who has not spoken\" paragraph). No more than about half of the body sections end on a retraction; the others end on the evidence or fold the caveat into the sentence that makes the claim. The edited body is no longer than the frozen draft, and preferably under 3,900 words."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "\"I was told on day one, they told me, you know, Mike doesn't like Tina,\" she told Louisville Public Media.",
+      "problem": "Orientation and stakes drop at several points for a reader who knows none of the shows. (a) Here, the article calls Carrie a test of the pattern but never says what \"doesn't like Tina\" put at risk, and \"Mike\" has to be matched to Flanagan from the second paragraph; the evidence (S38) has her calling Tina \"a piece of the puzzle\" he gave her more to play with. (b) \"One condition\" never names Saved by the Bell; it relies on remembering Wigfield from two sections earlier, and \"title\" means the show in \"on a title everyone knew\" and the producer credit in \"She says the title was not the point\" and \"no title asked her to.\" (c) \"the show she was about to shoot in Scotland\" is unnamed. (d) \"I did go to the bathroom and feel like I wanted to cry\" has no setting; S23 says she stepped out during the final recording and came back to say it on air. (e) \"The summer after high school\" has no year, so the reader cannot place the party against the 2018 essay or the Saved by the Bell offer.",
+      "acceptance_test": "Each of the five spots gains a few orienting words and no more: who Mike is and what was at stake for a supporting character, labeled as her account; the show's name in the first paragraph of \"One condition\" with \"title\" used for one thing only; the Scotland show named; the bathroom moment placed in the final recording; a year for the party summer if the record supports one."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "But what she reports feeling, again and again, is fear and embarrassment, and her method with people in charge is to pitch by fib.",
+      "problem": "Types 8 and 6 are never defined, so a new reader cannot judge why they lose. The Eight dismissal leans on the emotions she reports, and two sentences later the Six dismissal says \"no single emotion makes a type.\" The same rule appears to cut in opposite directions inside one paragraph.",
+      "acceptance_test": "Each of the two alternatives gets a one-clause plain statement of its motive. The Eight argument rests on her indirect, charm-first way of getting changes made (or explains why reported fear is not the single-emotion reasoning rejected for Six), so both dismissals apply one standard."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "When she talks about boxes, hiding and freedom, she is describing what was done to a closeted child, so none of that language is counted here.",
+      "problem": "This is where a new reader first learns she is trans, and it arrives as a rule about quotations the article never shows. The rule is then not visibly applied where it matters. \"I always felt so outside of my body\" is offered with only \"it has nothing to do with a career,\" leaving the reader to guess what it means and whether it counts. The closing section quotes \"tired of being scared in this world\" inside the passage that ends the type portrait; the evidence record (C53, C58) marks both as circumstance.",
+      "acceptance_test": "The limit paragraph orients the reader in a clause (she came out publicly in 2018, covered below) instead of pointing at unseen language. At the two later quotations the article says plainly that the statement is not counted as type evidence and that only how she handled the moment is being read, without the author explaining what she meant."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "> \"And I said myself. And then it was very awkward.\"",
+      "problem": "Set as a block quote in the final section, this reads to a newcomer as a sincere confession that caps the portrait. The evidence record (S19 context) says it was a joke about a class, delivered for a laugh. The steroid story gets \"It is a bit, and she may be exaggerating\"; the line the article ends on gets no equivalent signal beyond the mock trial around it. \"The bailiff\" in the last sentence is also unidentified (the show's producer, per C78).",
+      "acceptance_test": "A short phrase tells the reader the line was played for laughs and leaves open whether she meant it; the bailiff is identified in a few words. The ending keeps its order and its last sentence, and adds no interpretation after it."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Josie Totah: Loud on Set, Careful Everywhere Else (Enneagram Type 7)",
+      "problem": "The title promises a clean split the body does not show. Off set she co-hosts a confessional podcast, says \"I have too loud of a mouth,\" and talks a clinician into steroids on air. The body's actual claim is narrower: the control guards the work. The title also states the type flatly while the article calls the typing contested and medium confidence; the meta_title (\"The Case for Enneagram 7\") is the better-calibrated line.",
+      "acceptance_test": "The title describes the contrast the body supports (wild in the work, careful where the work or her freedom is at risk) and carries the same level of confidence as the meta_title and the 60-word answer."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"So I would just walk around with literally a fake prop movie cigarette and a glass of wine,\" she said, one \"that I didn't drink from. Like Great Gatsby, while everyone was partying, getting drunk at my house.\"",
+      "reason": "A specific, sourced image that orients a stranger in one sentence and sets the question the article answers. Keep it as the opening image even when the surrounding context is repaired."
+    },
+    {
+      "passage": "She cannot leave the material alone, and she gets her way with a fib about journaling and an open laptop.",
+      "reason": "Turns the Buccaneers anecdote into a character observation in plain words, and later carries the argument against Type 8."
+    },
+    {
+      "passage": "Told she is depressed and should stop, she negotiates for a way to keep going, and the story becomes the first thing her new audience hears, as comedy.",
+      "reason": "The clearest statement of the pattern, drawn from the form of the story, not from a claim about motive. A reader with no background understands the Seven read here."
+    },
+    {
+      "passage": "Threes, Sevens and Eights all claim a fear of vulnerability, so it settles nothing about type. It does say what the jokes are standing in front of.",
+      "reason": "Declines an easy typing point and still gives the reader an insight. A model for how a caveat can carry the story forward."
+    },
+    {
+      "passage": "\"And so music always has to be playing,\" she said. The transcript records a gavel. Then she announced she was taking the bailiff out to dinner.",
+      "reason": "The ending stops on observed detail with no summary or moral, and it mirrors the pattern the article describes. Identify the bailiff if needed, but keep the three beats."
+    }
+  ],
+  "assessment": "Read cold, the draft orients fast: the prop cigarette, the castmate's improv line and a one-paragraph career summary tell a stranger who she is and what question is on the table, and the type answer follows directly. A newcomer leaves knowing several things worth knowing (the \"I'm Italian\" answer, the producer condition, the journaling fib, the steroid cold open) and understands why Type 3 is a serious rival. Three things weaken that experience. The hook quotation is cut before the phrase that explains it, which the evidence record itself shows. The opening promise about what the control is for is paid off in two hedged sentences and never tied to the type. And the article's honesty about self-report hardens into a section-ending tic that slows the middle of an already long piece (about 4,000 body words); fixes should cut, not add. The rest are small orientation gaps. Similarity diagnostic: the tripped pairs are an identical triad definition (\"the three types organized around fear\") and stock phrases (\"in promotional interviews,\" \"options open\") shared with Dominic Fike and Dylan Patel. Compared as arguments, they are ordinary type vocabulary and a source-limit sentence; the thesis, anecdotes and discriminator here are specific to this subject. No reuse finding is raised, though the triad sentence could be reworded at no cost. Limits of this review: I read only the frozen draft and evidence record and did not reopen sources, so the transcript wording in unfamiliar-01 and the joke context in unfamiliar-07 rest on the evidence file's context notes. The typing is contested on the article's own terms, so that risk flag stays set."
+}

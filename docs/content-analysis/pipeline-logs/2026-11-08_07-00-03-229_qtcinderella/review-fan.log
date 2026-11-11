@@ -1,0 +1,24 @@
+The fan review is written to `docs/content-analysis/pipeline-logs/2026-11-08_07-00-03-229_qtcinderella/review-fan.json`. It passes `reviewSchema`, and every finding and protected passage is exact text from the draft. No other repo file was touched and nothing was published.
+
+**Verdict:** the draft gets the well-known material right and doesn't flatter her, but three context gaps touch the type argument. I raised 3 major and 5 minor findings.
+
+**Major**
+- **fan-01:** Atrioc is introduced as a stranger. He was inside her and Ludwig's circle, which is the first case of the "hurt by peers" pattern and a plain social reason for the forgiveness.
+- **fan-02:** Going live in tears is used as evidence against Type 3. In streaming that is the default crisis response (Atrioc did the same that day), so that discriminator is weaker than the draft presents it.
+- **fan-03:** Her roast humor is reduced to the 2025 show, and the Roast of Ludwig is left unnamed. The Type 2 read explains the guest list but not her own jokes. "First large event she ran" for Sh\*tcamp is also unsupported by the evidence.
+
+**Minor**
+- **fan-04:** The rigging FAQ leaves out Ludwig's 2022 Streamer of the Year win.
+- **fan-05:** Her mother's 2016 death is buried in the Type 6 paragraph, and the Mormon upbringing was dropped without a stated reason.
+- **fan-06:** The 2020–2022 rise is skipped, along with the objection that her standing is borrowed from Ludwig.
+- **fan-07:** Cohost roles are undated, and Wine About It is never named in the body.
+- **fan-08:** The description states "pays for streaming's biggest night" as fact, while the body attributes and hedges it.
+
+**Risk flags:** sensitive allegations and contested typing are both set to true, matching the evidence record.
+
+**Limits:**
+- Three points rest on my recollection, not on sources, and are labelled that way in the file: the Atrioc–Ludwig business tie, Maya Higa leaving the podcast, and the Roast coming before Sh\*tcamp.
+- This role did not reopen sources.
+- For the similarity check I only had the matched sentences, not the Olivia Dean draft. The two tripped pairs are the not-a-diagnosis disclaimer and a Type 2 definition clause, so I raised no reuse finding.
+
+Five passages are protected, including the "reads the bill out loud" turn and the wedding-podcast limits paragraph.
