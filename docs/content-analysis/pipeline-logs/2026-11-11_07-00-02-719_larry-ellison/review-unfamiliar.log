@@ -1,0 +1,22 @@
+The unfamiliar-reader review is written to `review-unfamiliar.json` in the run directory and passes the `reviewSchema` check. Every finding and protected passage matches the draft text exactly. No other files were touched and nothing was published.
+
+**Verdict:** the first two thirds work well for a reader who has never heard of Ellison; the last third loses them. I filed nine findings, one over the eight-finding target, because each is a concrete clarity gap.
+
+**Major (3)**
+- **No orientation:** the body never says what Oracle sells, how big Ellison is, or why Bill Gates was the rival.
+- **Trash episode has no purpose:** the reader isn't told why Oracle wanted a Microsoft-funded group's trash, so "a public service" and the critic's reply can't be weighed.
+- **Last third becomes a list:** the Trump fundraiser, the November 2020 call, Lanai, Twitter, the $40.4 billion guarantee, the lawsuit and the co-CEO change mostly lack a sentence on what they show about him. Names go unexplained (True the Vote, why CNN is involved, three versions of the company name), and the "lifelong Democrat" to Trump fundraiser shift is stated and dropped.
+
+**Minor (6)**
+- Mark Hurd's role and exit aren't explained, and the "HP disputed his account of the board's vote" sentence refers to an account the reader never sees.
+- The forged email in the Adelyn Lee case is never described.
+- "His mother" and "his sister" are ambiguous after the adoption detail.
+- The storm section never says he was on the boat.
+- The sailboat divorce is the only example under the bolded Type 8 vs Type 3 discriminator, and it doesn't obviously show it.
+- The ending relies on "Rosebud" without explaining it, and says he agrees with his sister "in both tellings" when the CBS quote shown stops before he does. The agreeing sentence is in the evidence record, just not in the draft.
+
+**Protected (5):** the "admired in one telling, respected in the other" hook, the "run a company out of business all by myself" quote, the "hands on the controls" line, the close of the storm section, and the decision to leave the childhood fear memory unexplained.
+
+**Risk flags:** sensitive allegations and contested typing are both set to true, matching the research record. The similarity check did not trip (max 0.024 against a 0.04 threshold), and I found no reused arguments.
+
+I did not reopen sources for this role; quote checks were against the excerpts in the evidence record only. The run directory also contains a `FAILED_AT_STAGE` marker, which I left alone.

@@ -514,7 +514,7 @@ Understanding these patterns is just the start. Here's how to put this knowledge
 
 2. **Develop translations for common misunderstandings.** When a Two asks "Do you need anything?", they're often saying "I need connection." When an Eight pushes back forcefully, they're saying "I need to know this is solid." And when apologies fall flat, it's usually because you're apologizing in your language, not theirs. (See <a href="/enneagram-corner/how-to-apologize-like-a-pro">how to apologize to each type</a>.)
 
-3. **Map your conflict cycle.** Most relationship conflicts follow predictable patterns based on type combinations. A Seven-Four couple might repeatedly experience the Seven trying to "fix" the Four's emotions while the Four feels dismissed. Naming these patterns helps break them.
+3. **Map your conflict cycle.** Most <a href="/how-to-guides/definitive-guide-to-relationship-conflict-part-1">relationship conflicts</a> follow predictable patterns based on type combinations. A Seven-Four couple might repeatedly experience the Seven trying to "fix" the Four's emotions while the Four feels dismissed. Naming these patterns helps break them.
 
 4. **Practice type-stretching.** Intentionally practice communication styles that don't come naturally to your type. Ones can practice expressing emotions without judgment. Fives can practice sharing thoughts in real-time before they're fully formed.
 

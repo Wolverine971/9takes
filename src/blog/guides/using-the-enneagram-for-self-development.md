@@ -53,7 +53,7 @@ Start noticing when your type's patterns emerge in real-time. "Oh, there's my Ty
 
 Explore your type's stress and growth arrows. When I'm stressed, my Type 4 tendencies morph into Type 2's people-pleasing. Knowing this helps me catch it before I'm exhausted from trying to meet everyone's needs.
 
-Get curious about your subtype (self-preservation, social, or sexual/one-to-one). These add crucial nuance to your basic type. A self-preservation Type 7 looks very different from a social Type 7!
+Get curious about [your subtype](/enneagram-corner/enneagram-instinctual-subtypes) (self-preservation, social, or sexual/one-to-one). These add crucial nuance to your basic type. A self-preservation Type 7 looks very different from a social Type 7!
 
 </section>
 <section class="section-content">

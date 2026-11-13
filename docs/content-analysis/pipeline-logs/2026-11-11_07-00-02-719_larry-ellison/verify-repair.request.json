@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "larry-ellison",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/candidate-repair.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/evidence-repair.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/resolution-repair.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/checks-repair.json"
+  },
+  "outputs": {
+    "verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/verification-repair.json"
+  },
+  "content_sha256": "1cff64350947eb5cb8e3fac2ae891f8d5bbed5e8fa4b5c6914627af93395a5e1",
+  "evidence_sha256": "5bdf17e1e51482aa5ebbe06c6762132643b327ae5e78c16a5dadd578f31d943d"
+}

@@ -1,0 +1,388 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "The Lee paragraph now says, attributed to Kalat (S11), what the email purported to show ('Larry, I've terminated Adelyn per your request', apparently from her supervisor Craig Ramsey), that Ramsey denied sending it, and the prosecution's basis (car-phone records and the email headers), before Rockhill's counter-argument. The conviction, Ellison's denial and the protected sentence on what the conviction did not decide all remain, and no adjective is applied to Lee. The 'decided not to veto' line comes from the unopened Softwar through Kalat, so it is left to a research task, as the acceptance test allows (C111, C112, C69)."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Opened the Delaware Court of Chancery opinion of November 24, 2004 and added it as S35. The article states the summary judgment with its date, quotes 'no rational trier of fact could find', and gives the reason for the sale that the opinion records (his adviser's advice on 22 million expiring options), since the opened news reports carry no statement from Ellison. Tabacco's argument and the settlement terms stay; the no-admission sentence is limited to the two reports (C73, C113, C114, C72)."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Opened TheWrap's August 2022 report (S40), which quotes Ellison's April 2020 Forbes interview. The article now quotes his response with its timing, including 'I was not here', and the sentence 'The report records no response from him' is gone. The Forbes original was not opened, so C118 and C119 are marked unresolved with a pre-release task."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Removed 'Oracle did not respond to the Post', which is not in the opened Engadget text, and corrected the S17 source note that carried it. Added Engadget's statement that he had 'seemingly never expressed doubts about the 2020 election results publicly', attributed. 'It records nothing he said.' stays. Opening the Post report is now an explicit pre-release research task."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The 2024 quotation now includes the police-supervision sentence that precedes it. The 2002 passage includes 'Can such intelligence be abused? Absolutely. Everything can be' and his reason, that the government 'has a damn good record of using information'. The framing claims only 'Three statements across 22 years'; 'has spent more than two decades arguing' and 'something he has always liked' are cut. McAllister's commercial objection stays."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The Bloomberg original could not be opened, so the paragraph was cut back as the acceptance test's second option: the purchase, the stated plan, and The Nation's argument attributed to its author, Matthew Vickers, with the early goodwill it records and the fact that it carries no response from Ellison. The third-hand resident charge, the sentence apologising for the sourcing and the 'environment he can completely control' inference are removed. Opening Bloomberg and the New York Times Magazine is a pre-release task (C121)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The ending no longer says he 'still gives the first answer'. It quotes his own 2002 conclusion in full ('Of course she's right ... my relationship with my children is especially important to me', C125), says no family member's account is part of the profile, and limits its claim to observed public conduct: criticized he does not retreat, afraid he works and takes the controls."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Added a dated paragraph on his giving built from his own 2010 Giving Pledge letter, opened and added as S36, with no vouching for motive ('That is his stated intent. This profile did not audit the giving.'). The Playboy and USC lines were left out for length; the letter is the primary document. No criticism of how he gives is stated because none was opened (C122)."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "Heading changed to 'The trash investigation he defended in public'. The body says the firm Oracle hired was caught trying to buy a Microsoft-funded trade association's trash, puts his statement that he did not know the method beside the first description, and replaces 'conceded nothing' with 'He disclaimed the method, called it unsavory but legal, and defended the purpose without apology.' The summary line now reads 'buying a trade group's garbage'."
+    },
+    {
+      "finding_id": "subject-10",
+      "action": "fixed",
+      "reason": "Body and FAQ now say Sayonara was the first boat across the line or first to finish, linked to the race article opened as S41. The 'didn't listen carefully enough' remark was removed from both body and FAQ, so a collective remark is no longer presented as a personal admission (C65)."
+    },
+    {
+      "finding_id": "subject-11",
+      "action": "fixed",
+      "reason": "Added Ellison's own guess at his father's reason, quoted from CBS and introduced as a guess ('He offered a guess at the reason'). The protected caveat that Louis Ellison's side is not on the record remains (C93)."
+    },
+    {
+      "finding_id": "subject-12",
+      "action": "fixed",
+      "reason": "The guarantee is now described as an answer to the board's objection that the money sat in a revocable family trust, with Fortune's father-and-son framing named beside the pattern reading. 'A public doubt about his word' and 'no explanation' are cut. In the Musk passage 'unhedged' is dropped and the $2 billion 'or more' recommendation is stated; the exhibit wording is a research task (C26, C83, C123, C25)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The misreading is removed. The section now quotes 'Bill Clinton is like me in that regard' and the 'Yes and no' answer to whether achievements fill the void, and says: 'He applied the description to himself, and it counts for Type 3 at face value.' No second-person or leading-question discount remains (C14, C99)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "(i) The surveillance section opens with the 1997 passage on his father, who 'never questioned the government's policies', and says his three statements sit 'close to the position he says he defined himself against'. (ii) It states, from the Academy's biography, that an early Oracle contract was a database for the CIA with the code name Oracle, placed beside McAllister's objection. (iii) The commercial explanation is said to reach 'back further' than 2002. 'Read through the type, the contradiction shrinks' is cut; the type reading is offered beside the commercial one (C115, C117, C77)."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Confirmed the partnership in two opened sources, Education Week 1999 (S37) and The Nation 1999 (S42): Knowledge Universe was founded in 1996 by the Milken brothers and Ellison with a combined $500 million. The article names it where the Milken remark is used and again in the second-reading paragraph ('Milken was a business partner as well as a friend'). C17 no longer says the remark gained him nothing and is removed from the type-supporting claims. Wikipedia's $250 million share for Ellison was not confirmed and is not stated (C98)."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "The Type 3 section now carries the rank evidence: Fortune's sentence that passing Gates 'may matter even more to Ellison' and his own 'what really means a lot to me is Oracle passing Microsoft', followed by the plain statement that wanting to be number one fits a Three at least as well as an Eight. The 'rich, or first, or famous' sentence is limited to the two founding accounts (C102, C103)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The PeopleSoft bid is stated with its opening date (June 6, 2003) and outcome (about $10.3 billion in December 2004) from The Register's history, opened as S39, and the 'personal vanity' answer is placed in that context with CBS's attributed forecast about jobs. No job-cut figure is given because none was opened. The guarantee is compared with PeopleSoft and the trash-conference analogy is dropped (C100, C101)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The storm section now says, from the Playboy interview, that he answered 'Absolutely' when asked if it made him more cautious, and, from the Academy's biography, that his team won the America's Cup in 2010 and defended it in 2013 on San Francisco Bay at his insistence. It does not say whether he sailed Sydney to Hobart again. The 2013 penalty and the Simpson death are left out because no source for either was opened; a research task records the decision. Body and knows_about now agree (C107, C108)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The article now states that he learned at 12 he was adopted, that the mother in the six-year-old memory was his adoptive mother, and that she died during his second year at Illinois and he left, sourced to the Academy's biography with no causal claim. The protected 'It is better left unexplained' passage is unchanged (C92, C04)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "rejected",
+      "reason": "Left out, using the option the finding's own acceptance test provides. The Castle Rock story is Ellison's 2016 reconstruction, in a prepared speech, of a 1995 conversation with a friend who had died, and no second account was opened; the research task to check it against Isaacson stays open. The body is at the release word limit after the jury's other additions. The story is recorded in the evidence record's 'unexplained' field as a counter-instance to the control reading."
+    },
+    {
+      "finding_id": "fan-09",
+      "action": "fixed",
+      "reason": "Body and FAQ say Sayonara was the first boat across the line or first to finish, checked against the race article opened as S41, which gives the handicap win to AFR Midnight Rambler. Neither implies an overall win. The paragraph that paraphrased his 1995 result was cut (C65)."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The work sentences before and after the block quote are now quoted ('It drives me to work very hard'; 'I can't stop working'), and the text says overwork as the answer to fear of failure is what a Three would say and that a One or a Six could have spoken the control clause. The control clause is argued as a discriminator only because control is also his founding reason, given twice. The Type 3 or Type 8 FAQ now says fear of failure makes him work very hard, which fits a Three (C94, C95)."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The sentence is removed. The section reports 'Bill Clinton is like me in that regard' and the 'Yes and no' answer, and states that the 'respected' telling was a reply about earned love. Context discounts are applied by one rule: the founding accounts are called 'polished for an audience' and the control self-reports are said to 'get the same weight' as the Type 3 ones (C14, C99)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The trade is no longer asserted. The text says 'no source here shows what any of it cost him', quotes his own 'magic in business' line and says that by his account it is how he wins, gives the span as 1997 to 2010, and restates what the episodes show: 'criticized, he restates his purpose and attacks'. The 60-word answer, the first FAQ, the description and the meta title now say he names control as his motive and does not retreat under criticism. Confidence stays medium, and C47 and C58 are marked unresolved."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "'He could look better or concede nothing, and he conceded nothing' and the blame-the-contractor counterfactual are removed. The section says he disclaimed the method, called it unsavory but legal and defended the purpose without apology, and reports the garbage offer as a joke by The Register's account. The adjacent paragraphs no longer disagree."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Opened Education Week (S37) and The Nation (S42) and added both; the 1996 partnership is stated and the remark is no longer counted as approval given up for nothing. 'Nobody ... had asked' is replaced with what the transcript shows: he came to Milken while 'listing people fame had let him meet' (C17, C98)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The paragraph now says the board called the financing 'illusory' because of a revocable family trust, that he provided the guarantee and agreed not to revoke the trust, and 'He supplied what the other side said was missing.' The trash-conference analogy and 'no explanation' are cut, the guarantee is called 'not evidence of type', C26 is out of the type-supporting claims, and the heading is now 'What he kept and what he backed'."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "'Unhedged' and 'large' are deleted, and the passage reports Musk's $2 billion 'or more' suggestion and the $1 billion outcome, attributed to Fortune's summary of the court-disclosed texts. It is kept only as the one private message in the record, with its limit stated in the same sentence ('at no cost to him'), because another reviewer protected its contribution; it no longer claims a reflex or a cost. Exhibit wording is a review trigger on C25."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The Type 3 section includes Fortune's sentence about the wealth rank, attributed and dated, and Ellison's statement about Oracle passing Microsoft, and says the Type 8 reading has no better claim on them. The founding sentence now reads 'Neither account mentions wanting to be rich, or first, or famous' (C102, C103)."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "The cost section now states what happened: staff 'habitually overstated revenues', a first loss in 1990 and an 80 percent fall in market value (S27). Research found and opened a September 1993 report (S38) that Oracle paid $24 million to settle shareholder suits and agreed to a $100,000 SEC fine without admitting or denying the charges; both are in the article with that label, and the claim is marked unresolved pending the SEC release. The concession quote points to those facts. The controversy registry cannot be edited in this stage, so the new entry is a research task (C109, C110)."
+    },
+    {
+      "finding_id": "critic-10",
+      "action": "fixed",
+      "reason": "The 'lifelong Democrat' fragment is cut, the second option in the acceptance test, so the 2020 fundraiser is no longer set against a partial quotation."
+    },
+    {
+      "finding_id": "critic-11",
+      "action": "fixed",
+      "reason": "The section states the CIA contract with its source and says 'The commercial explanation covers all of it and reaches back further.' The 2024 quotation includes the police-supervision sentence. The type reading is offered beside the commercial one ('sits beside that one and does not replace it'), and 'accounts for 22 years of consistency' is cut."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "A new paragraph before the type heading says he co-founded Oracle in 1977, was its only chief executive for 37 years, that its database software is what large organizations use to store their records, that it made him one of the richest people in the world, and that Gates's Microsoft was the one software company bigger than his. No net-worth figure is added. The sister story still opens the piece (C52, C89)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The section now opens with what Oracle said it was trying to prove, from Ellison's 2002 account: advocacy groups were arguing that hurting Microsoft would hurt America, he suspected Microsoft was paying them, and he hired investigators to prove it. The Register confirms the trade association was Microsoft-funded. The backdrop is labelled as his account (C96, C56)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Every controversy stays, and the last third is regrouped under headings that match their contents ('The questioner of authority who trusts the government'; 'Politics, an island and the money'; 'What he kept and what he backed'). Each paragraph now ties to the portrait or says what the record does not show ('The remarks hold no apology and no retreat'; 'It records nothing he said'; 'a plan and a critique, not a motive'; 'not evidence of type'). The party-shift fragment is cut. True the Vote is identified, Warner Bros. Discovery is identified as the owner of CNN, the complaint's CNN allegation is stated, and the rename to Skydance is stated once."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The Hurd reference now names his role (Hewlett-Packard's chief executive, Ellison's friend) and the circumstances as S14 reports them (expense-account abuses found by an inquiry that cleared him of violating HP's harassment policy). The dangling sentence about a disputed board vote is dropped (C24)."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "A reader can now say what the email claimed, who it was attributed to and why the jury rejected it, all attributed to Kalat's account. The protected sentence keeps the stated limit that the available accounts tell the story mostly from Oracle's side. No new characterisation of Lee or Ellison is added (C111, C112)."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The memory now says 'his adoptive mother, the only mother he then knew of'. The opening says of the sister that neither interview names her; the opened sources say nothing more about her relation, so no detail is added."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The section says 'He was aboard his 80-foot yacht Sayonara' and quotes him from the CNN documentary: 'We were at our absolute limits in this storm.' The protected closing two sentences stay (C27, C106)."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The sailboat example and the heading it sat under are removed. The deciding paragraph now states the discriminator on its own terms (evidence that does not depend on an audience) and names the evidence directly beneath it: the motive given in four conversations and one private message."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "action": "fixed",
+      "reason": "The ending says Rosebud is 'the dying word of the tycoon in Citizen Kane' and that Jobs did not say what he meant. The CBS telling in the opening now includes his follow-on sentence ('It took me a little while to realize that all of us want to be loved'), so 'In both tellings' matches text the reader has seen (C88)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The cost claim is withdrawn: the text says no source shows what the episodes cost him. The Type 3 section states the brand-consistent reading in full (a Three courts the audience whose admiration he wants, and his admires a fighter who never apologizes) and concedes 'On public conduct, then, the two readings cannot be separated.' The answer rests on evidence that does not depend on an audience, with its thinness stated. The 60-word answer, FAQ 2 and the description match the surviving discriminator (C47, C58)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "One rule now applies to both sets of self-reports: the control statements are called 'self-reports, polished like the Type 3 ones, and they get the same weight'. The Clinton comparison is treated as self-application. The Type 3 case names the shifting key word and the elevator remark as image evidence without using the allegation as proof of type. The embellishment sentence stays conditional, and the research task no longer calls Wilson's record 'documented', since neither book was opened."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The first-wife exhibit and the heading it sat under are removed, and C05 is deleted from the record. The discriminator no longer rests on that story. The 2016 founding line from the same speech is still cited, as one of four self-reports that the text calls polished and weighs like the Type 3 ones."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "After the triad sentence the article states that he does not name anger and does name fear of failure, gives two sourced instances of the fight (the 1997 Gulf War answer about competitors and the 2010 'idiots' email), labels the Type 8 account of his fear as an inference, and concedes that 'on core emotion alone the evidence is thin'. The control quote is no longer called specific to an Eight: 'a One or a Six could have spoken the control clause' (C90, C24, C91)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Type 6 is now tested beside Type 3 with a behavioural discriminator, where his trust goes when the stakes are his own, supported by the airport curfew he 'routinely ignored' and beat in court (C104). The surveillance section drops 'the contradiction shrinks' and 'always liked', and says this is where the record leans most toward Type 6. The article says the question stays open (C105)."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The Type 7 paragraph is cut, the second option in the acceptance test, so the tenure argument no longer appears and nothing conflicts with the reading of the 1,000-year vow. Type 7 remains in the evidence record's alternative case with a motive-level note."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The guarantee is presented as backing for his son's bid with the deal-mechanics reading given first, 'a wealthy parent of any type might have signed', and the explicit statement that it 'is not evidence of type'. The equivalence with the trash press conference is removed and the heading no longer asserts sameness."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The gloss is marked as the author's ('This profile's reading of the difference, not his'), the opening says the two lives separate when he is criticized, afraid or unobserved, which is what the type sections test, and the ending says what the word difference does not settle: 'the word never settled, and the record does not settle which he wanted more.'"
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The passage names both books with their dates and says they 'were not read for this profile', without implying they are unobtainable. The body states the effect of a documented embellishment record: 'an argument built on self-report weakens and Type 3 gains.' C47 and C58 are now 'unresolved' with a review trigger naming both books and the questions to answer."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The guarantee is a dated late episode with its limits stated (it met the board's objection, it was the price of the deal, the Fortune framing) and is called 'consistent with the pattern' and 'not evidence of type'. 'No explanation' is cut. Deleting the paragraph would leave the section's argument and the ending intact, and C26 is removed from type_hypothesis.for_claim_ids."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The FAQ answer now carries the same attribution as the body ('according to a published transcript'). C50, C13 and C25 each carry a review trigger matching their open research task. The USC video check is listed as a pre-release task."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The Lanai aside is removed and the paragraph is cut back to what the opened source itself argues. The 'before publishing' conditions for the Post report, the Lanai originals, the Robbins docket, the Forbes interview and the USC video are now explicit PRE-RELEASE research tasks, and the claim triggers are reworded as refresh triggers. The body no longer comments on the adequacy of its own Lanai sourcing. It keeps two plain scope statements: the two unread biographies, which future-01 asks it to name, and that the giving itself was not audited."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The heading is now 'What he kept and what he backed' and the FAQ anchor follows it. 'Larry Ellison, then 81' stays in the body tied to December 22, 2025."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The FAQ question is now 'What is Larry Ellison's role at Oracle?' and the answer keeps 'As of November 2026'. The trigger on C34 adds death and any change in his Oracle stake, and the triggers on C85 and C126 add death; C59 was deleted with its passage. The body paragraph states the 2014 fact and what it shows ('which part of the job he would hand over'), with the co-CEO names left to the FAQ."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "'At 59' and 'Two years earlier' are removed. The opening cites a CBS profile 'published in February 2004' and a telling Playboy 'had published' in September 2002. The air date check is a trigger on C13."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "Both uses of 'four decades' are gone: the testimony is dated '1995 to 2024' and the three episodes '1997 to 2010'. 'He keeps paying' is cut with the cost claim."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is one side of a relationship, told as a joke decades later. Louis Ellison's side is not on the record, so it stays a story Ellison tells and not a proven cause.",
+      "action": "kept",
+      "reason": "Unchanged. The paragraph before it now adds his own guess at his father's reason, which leaves the caveat intact."
+    },
+    {
+      "passage": "A six-year-old afraid his mother will not come home fits every type equally. It is better left unexplained.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Each episode has a second reading. Milken was a wealthy, well-connected ally. Hiring Hurd was a coup against a competitor. A man with an outlaw's reputation can gain from owning a scandal loudly. Any one of these could be calculation.",
+      "action": "changed",
+      "reason": "Corrected a detail the opened sources contradict. Milken was a business partner (Knowledge Universe, 1996), not only 'a wealthy, well-connected ally', and Oracle's hiring of Hurd is not in the opened report, so the sentence now reads 'The Hurd email was a shot at a competitor's board.' The passage's contribution is retained and strengthened: it still states the self-interested reading of each act before the inference, and adds that no source shows what the acts cost him."
+    },
+    {
+      "passage": "An Eight's need for control explains how a workplace, a marriage or a stock sale ends up arranged around one man's judgment. It is an explanation of the pattern and no defense of any instance of it.",
+      "action": "changed",
+      "reason": "One phrase changed: 'a stock sale' became 'a sales culture'. With the Delaware court's finding now on the page, the stock sale is no longer presented as an instance of the pattern, and the 1990 accounting episode is. The explain-without-excusing sentence that follows is unchanged."
+    },
+    {
+      "passage": "It records nothing he said.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Admired in one telling, respected in the other. It could be a slip of memory forty years on. It is also the open question about him.",
+      "action": "kept",
+      "reason": "Unchanged. The gloss that follows is now marked as the profile's reading."
+    },
+    {
+      "passage": "His answer to fear is to get his hands on the controls. He says nothing there about how failure would look.",
+      "action": "changed",
+      "reason": "Now 'His answer to fear is to work harder and to get his hands on the controls. He says nothing there about how failure would look.' The first sentence omitted the overwork that opens and closes the quoted answer (critic-01). The reading still stays inside what he said and still states the discriminator in plain language."
+    },
+    {
+      "passage": "The line most attached to Ellison is that \"it is not sufficient that I succeed; everyone else must fail.\" He says it isn't his.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "An Eight at ease can be gentle, so some of this fits. A six-year-old afraid his mother will not come home fits every type equally. It is better left unexplained.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "None of this is conclusive. Grove knew him, and his remark is the best outside evidence that the persona is managed.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "The conviction concerned the forged email. It did not rule on everything about a relationship between a chief executive and an employee, and the available accounts tell the story mostly from Oracle's side.",
+      "action": "kept",
+      "reason": "Unchanged. The paragraph before it now describes the email and the prosecution's evidence."
+    },
+    {
+      "passage": "His conclusion: \"I can run a company out of business all by myself. So I thought, next time, if the company was going to go down, I was going to be out front.\"",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "It is a joke. It also reads as an accurate self-portrait: a man who met a real limit, respected it, and still left himself an opening.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "The Type 3 case is strong, and most of it comes from Ellison.",
+      "action": "kept",
+      "reason": "Unchanged, and the case that follows is argued at greater strength."
+    },
+    {
+      "passage": "If the outlaw is a role, then the trash press conference and the Milken remark are performances too, and the Eight turns out to be a Three with unusual branding.",
+      "action": "kept",
+      "reason": "Unchanged. The next paragraph now answers it directly."
+    },
+    {
+      "passage": "But it was a private message, and it shows the same reflex as the public ones: quick, large, unhedged backing for someone inside his circle.",
+      "action": "changed",
+      "reason": "Now 'It was a private message with no audience expected, and it shows quick backing for someone inside his circle, at no cost to him.' The source contradicts 'large' and 'unhedged': Musk suggested $2 billion or more and Ellison put in $1 billion (critic-07, subject-12). The contribution is retained: it is still presented as the one piece of evidence where no audience was expected, and it now sits in the Type 3 section under the evidence that does not depend on an audience, as the reviewer asked."
+    },
+    {
+      "passage": "He concedes fault more easily than the stereotype allows.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Twenty-one years apart, before and after the fortune, the motive he gives is the same.",
+      "action": "changed",
+      "reason": "Now 'Twenty-one years apart, the motive he gives is the same.' 'Before and after the fortune' was inaccurate: by the 1995 oral history Oracle had about $2 billion in sales and he was already very rich. The dated comparison of 1995 and 2016 is retained."
+    },
+    {
+      "passage": "These are claims in a complaint. As of November 2026, no ruling on them had been found for this profile.",
+      "action": "kept",
+      "reason": "Unchanged."
+    }
+  ],
+  "prior_blockers": []
+}

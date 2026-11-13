@@ -1,0 +1,19 @@
+The enneagram review is written to `review-enneagram.json` in the run folder. It passes the review schema, every quoted passage matches the frozen draft exactly, and both hashes match the request. No other file was changed and nothing was published.
+
+**Verdict:** Type 8 at medium confidence is a defensible leading read, but the test that is supposed to separate it from Type 3 does not yet do that job. I raised five major and three minor findings; none of them asks for a retype.
+
+Major findings:
+- **Cost never shown:** the draft says his defiant choices "reliably cost him approval", but no source on the page records approval lost. A Three whose brand is the unapologetic winner would make the same moves.
+- **Uneven weighing of his own words:** statements favoring Type 8 are taken at face value, while statements favoring Type 3 are discounted as prompted or performed.
+- **Lead exhibit is not a costly choice:** the first-wife sailboat story is a commencement-speech moral, the divorce was her decision, and the evidence record itself says it fits a Three.
+- **Anger promised, fear delivered:** the page defines Type 8 by anger, then shows Ellison naming fear as his engine without confronting the mismatch.
+- **Type 6 never tested:** the surveillance section uses the type to dissolve its one real contradiction, and the fear, order and trust-in-government cluster points at a Six the draft never mentions.
+
+Minor findings:
+- The Type 7 dismissal is a stereotype that conflicts with the draft's own reading of the storm vow.
+- The $40.4 billion guarantee is counted as "the same move" when approval and control do not conflict there.
+- The opening maps "respected" onto Type 8 as if that were Ellison's meaning, not the author's.
+
+I protected five passages, including the Grove "Three with unusual branding" steelman and the private Musk text. The text is the only evidence on the page of the pattern holding with no audience.
+
+Risk flags are unchanged from research: sensitive allegations and contested typing both true. The similarity check did not trip, though its comparison set excludes the sibling founder pages (Jobs, Gates, Musk, Bezos) where a control-centered argument is most likely to recur. I did not reopen sources, as the role only covers the supplied draft and evidence.

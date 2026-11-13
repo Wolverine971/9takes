@@ -1,0 +1,26 @@
+The draft stage is complete: `draft.md` and `evidence-draft.json` are written to the run directory, and both pass the contract checks (`checkDraft` returns no blockers; `validateEvidence` returns `ready`). No other repo files were touched and nothing was published.
+
+**The portrait**
+- **Type call:** Type 8 at medium confidence, with Type 3 as the strongest alternative and a short Type 7 note.
+- **Hook:** Ellison tells the same story about his sister two ways. On CBS in 2004 the choice was "admired or be loved"; in Playboy in 2002 it was "loved or respected". The two versions are kept separate, and the gap between them frames the 8-versus-3 question.
+- **Central argument:** when approval and control pull apart, he takes control and absorbs the disapproval. The main evidence is the 2000 Microsoft-trash press conference, the Milken and Hurd defences, and the founding motive he gave in both 1995 and 2016.
+- **Length and shape:** 3,747 words by the contract counter, nine H2 sections, a 53-word type answer, six FAQs.
+- **Frontmatter:** `published: false`, `type: ['techie', 'big-tech-founder']`, `production_pretext` in draft state with no blockers.
+
+**Evidence record**
+- 78 claims, each mapped to an exact passage in the draft; all 34 sources retained.
+- Every quoted string in the body was checked against the cached source texts; none failed.
+- Multi-quote research claims were split so each direct quote has its own entry (new IDs C46–C87).
+- The type hypothesis was revised to drop references to removed claims; C50 was added to its supporting list.
+
+**What I left out, and why**
+- **Net worth, later marriages, children, philanthropy, the 1995 Apple plan, the Musk Skydance investment:** each rests on a weak or single source. The draft stops at "married three times by 2002".
+- **Lanai's "98 percent" figure:** I could not confirm it in an opened source, so the draft says "most of the island".
+- **One USC line** ("completely control my work environment") is not in USC's own report; the draft attributes it to a published transcript and the record flags it for a check against the video.
+
+**Still open for later stages**
+- All seven controversies are covered in the draft, but they are not yet added to `docs/writing-system/people-controversies.json`, since this stage may only write its two outputs. It is logged in `research_tasks`.
+- The November 2020 call, the Robbins v. Ellison suit and Lanai resident testimony carry `unresolved` or `time_sensitive` flags with review triggers.
+- Both biographies remain unread, which is why confidence stays at medium.
+- The readability audit's one remaining flag is the word "paramount", which is the company name.
+- At 3,747 words the draft sits above the standard's 3,500 target and leaves about 750 words of headroom under the 4,500 ceiling.

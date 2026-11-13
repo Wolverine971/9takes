@@ -1,0 +1,19 @@
+The `future` review for Larry Ellison is written to `review-future.json` and passes the review schema. Hashes match the request and every finding and protected passage is an exact match in the draft. No other files were modified and nothing was published.
+
+**Verdict on the five-year test:** the core passes. Strip everything after 2016 and the Type 8 argument still stands, because it rests on dated self-report (1995–2016) and three dated choices (1997, 2000, 2010). The hook and ending use the sister story and "Rosebud", not a news peg.
+
+**Four major findings:**
+- **Unread biographies (`future-01`):** the typing is the least stable claim on the page but is marked stable with no review trigger. *Softwar* and Wilson's biography are obtainable, and the record itself expects Wilson to document embellishment, which would strengthen the Type 3 case.
+- **The $40.4B guarantee (`future-02`):** the draft treats the newest, least settled episode as equal to the 2000 trash press conference. A financing guarantee that wins a deal is not an approval-versus-control choice, and "no explanation" rests on one report recording no comment.
+- **USC quote (`future-03`):** "completely control my work environment" carries half of the "same reason for decades" claim. It rests on a third-party transcript that USC's own report does not confirm, and the FAQ drops the attribution the body keeps.
+- **"Before publishing" triggers (`future-04`):** the Lanai and November 2020 call claims carry conditions to open the original sources before publishing, stored where no gate enforces them. The body also apologises for its own Lanai sourcing.
+
+**Four minor findings:**
+- **Age in heading (`future-05`):** the "At 81" heading and its FAQ anchor are already out of date; he turned 82 in August 2026.
+- **"Now" FAQ (`future-06`):** the Oracle-role question says "now", and its triggers do not cover death.
+- **Hook dating (`future-07`):** "at 59" and "two years earlier" derive from an unconfirmed CBS air date.
+- **"Four decades" (`future-08`):** the dated evidence spans about 28 years.
+
+Five passages are protected, including the hook and the dated wording on the pending lawsuit. Risk flags carry forward sensitive allegations and contested typing. The similarity check did not trip (max 0.024 against a 0.04 threshold).
+
+I did not reopen sources, since that is outside this role, so events after mid-2026 are taken from the evidence record as given. The note that Wilson's book catalogues embellished stories is my recollection, flagged as unverified in the finding.

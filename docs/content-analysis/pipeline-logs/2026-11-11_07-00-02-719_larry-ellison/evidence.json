@@ -1,0 +1,1096 @@
+{
+	"schema_version": 3,
+	"subject": "larry-ellison",
+	"status": "ready",
+	"research_tasks": [
+		"Read Softwar (Matthew Symonds, 2003, with Ellison's own footnotes) and The Difference Between God and Larry Ellison (Mike Wilson, 1997) in a licensed copy. Both are lending-restricted online and were not opened. Look for: first wife Adda Quinn's and co-founders' testimony; Wilson's documented record of embellishment, which would strengthen the Type 3 case; and Ellison's footnoted replies about his father and his need to win.",
+		"Before quoting the 2016 USC speech beyond the lines confirmed in USC's own report (S06), check wording against USC's official video. S05 is a third-party transcript.",
+		"Open the Washington Post report of May 2022 and the underlying court filing on the November 14, 2020 call, and check whether Ellison has ever commented. Until then describe it as reported by the Post from a third party's email.",
+		"Check the Delaware Chancery docket for Robbins v. Ellison (filed July 2026) for its status after the October 6, 2026 closing.",
+		"Open the New York Times Magazine feature on Lanai (September 2014) and Bloomberg's later reporting for named resident testimony on both sides. The only opened Lanai source (The Nation) is advocacy.",
+		"Confirm marriages, dates and children against a major news source; Wikipedia is the only source so far. Do not state a number of children without one.",
+		"Find independent corroboration of the 1995 plan to buy Apple (Walter Isaacson's Steve Jobs) before using the Castle Rock story as more than Ellison's own account.",
+		"Look for first-person testimony from people close to him who are not rivals or ousted executives: Safra Catz, Ed Oates, David or Megan Ellison, long-time sailing crew. Current third-party evidence skews hostile.",
+		"Take the exact Musk-Ellison text messages from the Twitter v. Musk court exhibit; outlets quote them differently.",
+		"Confirm the original broadcast date of the 60 Minutes II segment (web article dated February 23, 2004) and the original source of 'Privacy is an illusion' (reported as said on MSNBC's Hardball).",
+		"Open the Giving Pledge letter (2010), Ellison's July 2025 statement and the New York Times report on the Ellison Institute of Technology before writing about philanthropy.",
+		"Resolve whether David Ellison is CEO or co-CEO (with Ynon Kreiz) of Skydance; S21 and S22 differ.",
+		"At drafting, add these to docs/writing-system/people-controversies.json as open: Adelyn Lee suit and conviction (1993-1997); detectives and Microsoft trash (2000); insider-trading suit and settlement (2001-2005); Trump fundraiser, employee protest and November 2020 call (2020-2022); surveillance remarks (2002-2024); Lanai (2012 onward); Robbins v. Ellison (2026).",
+		"Cluster tag: the record supports filing under Tech & business with 'big-tech-founder'."
+	],
+	"accuracy_checked_at": "2026-11-11",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://web.archive.org/web/2020/https://americanhistory.si.edu/comphist/le1.html",
+			"title": "Smithsonian Oral and Video Histories: Excerpts from an Oral History Interview with Lawrence Ellison",
+			"speaker": "Larry Ellison (interviewed by Daniel Morrow, Computerworld Smithsonian Awards Program)",
+			"date": "1995-10-24",
+			"locator": "Sections 'A South Side Boy', 'Looking East', 'Building Oracle' (Genghis Khan story), 'A Good Place to Work', 'The Creative Act', 'On Heroes'",
+			"excerpt": "\"When I started Oracle, what I wanted to do was to create an environment where I would enjoy working. That was my primary goal.\" ... \"I thought, well, I don't need leadership to do that. I can run a company out of business all by myself. So I thought, next time, if the company was going to go down, I was going to be out front.\" ... \"If I had only realized that I was an engineer and a builder by nature.\" ... \"So I was a lousy student, but a good builder.\"",
+			"context": "Edited oral-history transcript (about 12,400 words) recorded when Ellison was 51 and Oracle had about $2 billion in sales. The live americanhistory.si.edu page returned a service-unavailable error on 2026-11-11, so the archived copy was opened and read in full. The transcript is labelled 'Excerpts' and was edited by Thomas J. Campanella, so wording is an edited record of speech. The Genghis Khan passage is Ellison retelling a Japanese executive's words and complaining that the New York Times printed the line as his own. Typos in the original ('tired to', 'aduthood') should not be reproduced as his speech.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S02",
+			"url": "https://achievement.org/achiever/larry-j-ellison/#interview",
+			"title": "Larry J. Ellison interview: Prophet of Software (Academy of Achievement)",
+			"speaker": "Larry Ellison (Academy of Achievement interviewer unnamed)",
+			"date": "1997-05-22",
+			"locator": "Interview tab, dated 'Baltimore, Maryland May 22, 1997'. Questions: 'Looking back on your childhood...', 'How did this affect you?', 'You seem to thrive on a certain kind of balance...', 'Have you ever been deeply afraid?', 'What about fear of failure?', 'People have accused you of launching some brutal attacks...'",
+			"excerpt": "\"I think most overachievers are driven, not so much by the pursuit of success, but by the fear of failure. Unless failure gets very close and very nearby that fear doesn't reach profound levels, but it drives us. It drives me to work very hard. It drives me to make sure that my life is orderly, that I'm in control of my company, or in control of the airplane or boat or what-have-you, so that I'm not at risk of failure.\" ... \"When fashion and the pursuit of love is in conflict with reason, too often fashion and the pursuit of love usually win. In my case, it didn't.\"",
+			"context": "Long edited interview (about 6,000 words) given at the 1997 Academy of Achievement program, when Ellison was 52. Page opened and read in full; the interview text sits in the page HTML under the Interview tab. The widely shared pull-quote 'Great achievers are driven...' is the Academy's display version; the transcript says 'most overachievers'. The interview mentions 'a very nasty boat race, from Sidney to Hobart' with a 14-hour storm; given the May 1997 date this cannot be the fatal December 1998 race and probably refers to his 1995 win. The page was last revised September 11, 2025.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S03",
+			"url": "https://davidsheff.com/larry-ellison",
+			"title": "Playboy Interview: Larry Ellison",
+			"speaker": "Larry Ellison (interviewed by David Sheff for Playboy); introduction by Playboy editors and Sheff",
+			"date": "2002-09",
+			"locator": "Sheff's own site, headed 'This article was originally published in September 2002'. Introduction (Hardball, Siebel and Conway quotes, Adelyn Lee summary); Q&A exchanges on the garbage investigation, Bill Gates and Netscape, firings in 1991, the Sydney-Hobart race, the Lee accusation, his adoptive father, his sister's question, birth family, non-conformity, the Internet bet, marriage",
+			"excerpt": "\"In theory, parents grant their children unconditional love. Other love has to be earned. If you don't get unconditional love early on, you have a great void in your life. Depending on how you adapt, you can get very good at trying to earn the love of others.\" ... \"Without love from your parents, the love of others becomes a large part of your life. You either learn how to get it or you try to get it through your achievements.\" ... \"I didn't know they were going to go through Bill's garbage, but that doesn't bother me at all.\" ... \"I shouldn't seek to control her anymore than I would want her to control me.\"",
+			"context": "Full-length magazine interview (about 9,000 words) conducted at Oracle headquarters when Ellison was 58, republished on the interviewer's site. Opened and read in full. Some Playboy questions are missing from the republished text, so a few answers appear without their prompt. The line 'Privacy is an illusion' and the Siebel and Conway quotes come from the editors' introduction, not from Ellison's answers in this interview, and are secondhand. The interview says he had been married three times and was engaged to Melanie Craft.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S04",
+			"url": "https://www.cbsnews.com/news/the-worlds-most-competitive-man",
+			"title": "The World's Most Competitive Man (60 Minutes II)",
+			"speaker": "Larry Ellison and Ray Lane (interviewed by Charlie Rose, CBS News)",
+			"date": "2004-02-23",
+			"locator": "CBS News web write-up of the broadcast segment, full article. Passages: 'addicted to winning', the sister's question, 'never amount to anything', 'all the disadvantages required for success', Ray Lane on Oracle culture, 'personal vanity', Golden Gate Bridge exchange",
+			"excerpt": "\"When I was a kid, my sister walked into my room and said, 'Larry, which is more important to you – to be admired or be loved?' And I said, 'Well, for me personally? To be admired.' She looks at me, smiles, 'Wrong,' and walks out. It took me a little while to realize that all of us want to be loved.\" ... \"It was an alternative greeting as opposed to, 'Hi, how are you?' or, 'How did it go at school today,'\" ... \"I admit to it, mea culpa. An awful lot of it is personal vanity.\"",
+			"context": "Network web article summarizing a broadcast interview when Ellison was 59, during Oracle's hostile bid for PeopleSoft. Opened and read in full. The page date is February 23, 2004; the exact air date was not confirmed. The article paraphrases as well as quotes: in the sentence about his father, only the words 'never amount to anything' are inside quotation marks. Ray Lane speaks as an executive Ellison pushed out in 2000 and is not a neutral witness. CBS calls the Genghis Khan line his 'favorite saying'; Ellison's answer in the same article attributes it to a Japanese executive.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S05",
+			"url": "https://singjupost.com/full-transcript-larry-ellisons-speech-at-usc-commencement-2016/",
+			"title": "Full Transcript: Larry Ellison's Speech at USC Commencement 2016",
+			"speaker": "Larry Ellison (commencement address, University of Southern California); transcript by The Singju Post",
+			"date": "2016-05-13",
+			"locator": "Full speech transcript. Passages: pre-med and dropping out at 21; first wife and the sailboat; 'A huge burden of fear had been lifted'; 'completely control my work environment'; the 1995 Castle Rock walk with Steve Jobs; 'give nearly all of it away'",
+			"excerpt": "\"I put together a plan to start my own company. That way I could completely control my work environment.\" ... \"For the first time, I was certain that I was going to survive in this world. A huge burden of fear had been lifted.\" ... \"I attempted to create an environment that I could completely control. Instead I was running a company with thousands and thousands of people that was growing so fast that it was impossible for anyone to control.\"",
+			"context": "Prepared speech delivered at age 71 to USC graduates, in a week when he announced a $200 million gift to USC. The transcript is a third-party transcription (page dated September 25, 2024); USC's own transcript page returned a 404. Key lines are confirmed by USC's same-day news report (S06). A commencement address is a polished self-narrative written for an audience, not spontaneous testimony. The Jobs dialogue is Ellison's reconstruction 21 years after the walk; Jobs had died in 2011.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S06",
+			"url": "https://today.usc.edu/?p=36328",
+			"title": "Oracle's Larry Ellison urges graduates to pursue their own dreams as USC marks 133rd commencement",
+			"speaker": "USC News (reporting and quoting Larry Ellison)",
+			"date": "2016-05-13",
+			"locator": "News report, first ten paragraphs quoting the speech",
+			"excerpt": "\"Once again, I was unable to live up to expectations of others,\" ... \"But this time, I was not disappointed in myself for failing to be the person they thought I should be. Their dreams and my dreams were different. I would never confuse the two of them again.\"",
+			"context": "The university's own same-day report of the address. Opened. It independently confirms the wording of several lines in the third-party transcript (S05), including 'Whatever the underlying reasons, I was unable to make myself into the person that I thought I should be'. It is not independent of the speech itself.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S07",
+			"url": "https://fortune.com/2000/11/13/the-next-richest-man-in-the-world",
+			"title": "The next richest man in the world",
+			"speaker": "Andy Serwer, Fortune (quoting Larry Ellison, Steve Jobs, Andy Grove and unnamed Oracle executives)",
+			"date": "2000-11-13",
+			"locator": "Archive republication of the Nov. 13, 2000 cover story. Opening scene in Ray Lane's former office; the dumpster passage; the 'Rosebud' paragraph; the biography and 'pirate ship' paragraphs; the Andy Grove quote",
+			"excerpt": "\"When Apple founder and CEO Steve Jobs (whom Ellison repeatedly refers to as his best friend) is asked what he thinks is the driving motivation of his pal, he chuckles, thinks for a moment, and then whispers into the phone: \"Rosebud.\"\" ... \"He works very hard at his bad-boy image,\" says Ellison's pal, former Intel C E O Andy Grove.",
+			"context": "Contemporaneous magazine profile reported when Ellison was 56 and briefly close to passing Bill Gates in wealth. Opened; the archive copy ends partway through the original article and contains OCR spacing errors ('C E O'). Jobs's one-word answer is a joke that points at a lost childhood and is not an explanation. Descriptions such as 'His own CFO calls him a dictator' and 'going through wives and top executives like pairs of boots' are Serwer's wording. The 'unsavory, yucky' line about the detectives is Ellison's.",
+			"kind": "testimony",
+			"access": "opened"
+		},
+		{
+			"id": "S08",
+			"url": "https://www.theregister.com/2000/06/29/ellison_offers_gates_all/",
+			"title": "Ellison offers Gates all his rubbish",
+			"speaker": "Thomas C. Greene, The Register (quoting Larry Ellison at a press conference)",
+			"date": "2000-06-29",
+			"locator": "News report of Ellison's June 28, 2000 press conference, first four paragraphs",
+			"excerpt": "\"All we did was to try to take information that was hidden and bring it into the light,\" Ellison said. \"That's a public service.\" ... \"We will ship our garbage to Redmond, and they can go through it. We believe in full disclosure.\"",
+			"context": "Next-day report of the press conference Ellison held after it emerged that Oracle's hired firm, Investigative Group International, had tried to buy the office trash of the Microsoft-funded Association for Competitive Technology. Opened. The Register writes in a sardonic house style and notes that Oracle funded its own advocacy groups. The original New York Times and Wall Street Journal reports were not opened.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S09",
+			"url": "https://transcripts.cnn.com/show/sm/date/2001-06-10/segment/14",
+			"title": "CNN Sunday Morning: Recounting Sydney/Hobart Yacht Race Hurricane",
+			"speaker": "Larry Ellison and G. Bruce Knecht (interviewed by Miles O'Brien, CNN)",
+			"date": "2001-06-10",
+			"locator": "Rush transcript, full segment. Ellison's answers on why he entered, the satellite picture, fear, and 'Hillary and Everest'",
+			"excerpt": "\"I was a much better sailor in 1998 than I was in 1995 and I wanted to see how much better I really was in another Sydney/Hobart.\" ... \"Unfortunately, the weather got worse faster than I got better.\" ... \"It's not because it's there. It's because we're there and we're curious if we can do it.\" ... \"Fear doesn't really accomplish very much.\"",
+			"context": "Live television interview two and a half years after the December 1998 race in which six sailors died. Opened and read in full. CNN marks it a rush transcript that may contain errors; the host says 'Hillary and Everest' and Ellison repeats it, though the famous line is George Mallory's. Knecht, author of The Proving Ground, appears beside him and is an independent reporter of the race.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S10",
+			"url": "https://transcripts.cnn.com/show/cp/date/2002-01-01/segment/01",
+			"title": "CNN Presents: The Proving Ground",
+			"speaker": "Larry Ellison and other race survivors (CNN documentary narration and interviews)",
+			"date": "2002-01-01",
+			"locator": "Rush transcript of the documentary. Ellison's passages on reassuring his fiancee, the waves, the finish, and the closing reflection",
+			"excerpt": "\"We had a lead in the race, and no one cared. But everyone cared about the morning, about the sunrise and how incredibly beautiful it was.\" ... \"I guess we didn't listen carefully enough to the warnings that were there. I don't think it was arrogance so much as curiosity.\" ... \"We were at our absolute limits in this storm.\"",
+			"context": "Documentary transcript built from interviews with survivors, rescuers and forecasters. Opened; Ellison's passages were read in context. It is a rush transcript and the documentary edits interviews into a narrative, so the order of his remarks is the producers'. Other survivors' accounts in the same film describe the deaths on smaller yachts; Sayonara lost no one.",
+			"kind": "primary",
+			"access": "opened"
+		},
+		{
+			"id": "S11",
+			"url": "https://thinkbrg.com/insights/publications/nervous-system-forged-email-carphone-woman-who-lost-job",
+			"title": "Nervous System: The Strange Case of the Forged Email, the Carphone, and the Woman Who Lost Her Job",
+			"speaker": "David Kalat, BRG / Legaltech News",
+			"date": "2022-11-02",
+			"locator": "Full article: the affair, the April 1993 firing, the disputed email, the $100,000 settlement, the 1996 charges and the January 1997 trial",
+			"excerpt": "\"She sued the company for wrongful termination, alleging she was let go in retaliation for refusing sex to Ellison.\" ... \"Oracle settled the case. Lee got $100,000, a tiny fraction of the billion dollars she had been seeking\" ... \"Wasserman charged her with multiple felonies, including perjury, preparing false evidence, and altering computer data. Lee pled not guilty. The trial began in January 1997.\" ... \"The jury took less than a day to find Lee guilty on two counts of perjury and two counts of falsifying documents. She was sentenced to a year in jail and ordered to repay the $100,000.\"",
+			"context": "Retrospective by a digital-forensics consultant written for a legal-technology column, 25 years after the trial. Opened. It relies partly on Matthew Symonds's Softwar for the email texts and gives Ellison's side more fully than Adelyn Lee's. Contemporaneous court records and 1997 San Francisco Chronicle coverage were not opened. It reports the defence theory that Ellison or someone acting for him planted the email. Ellison's own 2002 account (S03) says she 'later went to jail for a year for perjury and for falsifying evidence'.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S12",
+			"url": "https://www.computerworld.com/article/1588006/ellison-to-settle-insider-trading-suit.html",
+			"title": "Ellison to settle insider trading suit",
+			"speaker": "Computerworld / IDG News Service (quoting plaintiffs' lawyer Joseph Tabacco)",
+			"date": "2005-09-13",
+			"locator": "News report, full text",
+			"excerpt": "\"The lawsuit charges that Ellison engaged in insider trading by selling nearly US$900 million in Oracle stock in January 2001, just weeks before the company announced that it would not meet earning expectations for its third fiscal quarter of 2001.\" ... \"Last year a Delaware court found that Oracle's CEO and Jeffrey Henley, formerly Oracle's chief financial officer, were not guilty of insider trading in the matter.\"",
+			"context": "Trade-press report of the tentative settlement of the California derivative suit. Opened. The only named source is the plaintiffs' lawyer; Oracle declined to comment. 'Not guilty' is the reporter's loose phrase for a civil ruling in Delaware in Ellison's favour.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S13",
+			"url": "https://www.infoworld.com/article/2220877/court-oks-ellison-22-million-shareholder-settlement.html",
+			"title": "Court OKs Ellison $22 million shareholder settlement",
+			"speaker": "InfoWorld / IDG News Service (quoting Joseph Tabacco)",
+			"date": "2005-11-22",
+			"locator": "News report, full text",
+			"excerpt": "\"The settlement also requires Ellison to donate $100 million in Oracle's name to charity and to acknowledge that changes were made to Oracle's insider trading policies as a result of the lawsuit\" ... \"Judge Schwartz rejected the original settlement at a hearing Sept. 26 because he questioned Oracle's role in paying those fees.\"",
+			"context": "Follow-up report on court approval. Opened. Same wire service and same plaintiffs' lawyer as S12, so it is not independent corroboration. Oracle spokespeople did not return calls. The article does not report any admission of wrongdoing.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S14",
+			"url": "https://www.nbcnews.com/id/wbna38637696",
+			"title": "Oracle's Ellison blasts HP board for Hurd's exit",
+			"speaker": "Reuters via NBC News (quoting Larry Ellison's email to the New York Times)",
+			"date": "2010-08-10",
+			"locator": "Wire report, first eight paragraphs",
+			"excerpt": "\"The HP board just made the worst personnel decision since the idiots on the Apple board fired Steve Jobs many years ago,\" Ellison wrote. ... \"Publishing known false sexual harassment claims is not good corporate governance; it's cowardly corporate political correctness.\"",
+			"context": "Wire report of an email Ellison sent to the New York Times and Oracle then gave to Reuters, days after Hewlett-Packard forced out chief executive Mark Hurd, described as his close friend. Opened. HP disputed Ellison's account of the board vote. The harassment claim against Hurd was not substantiated by HP's board; the expense findings were HP's stated reason. Oracle hired Hurd the following month.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S15",
+			"url": "https://www.theregister.com/2013/08/13/larry_ellison_on_google_and_nsa",
+			"title": "Larry Ellison: Google is ABSOLUTELY EVIL, but NSA is ESSENTIAL",
+			"speaker": "Neil McAllister, The Register (quoting Larry Ellison on CBS This Morning with Charlie Rose)",
+			"date": "2013-08-13",
+			"locator": "News report of the broadcast interview; NSA and Google passages",
+			"excerpt": "\"It's great, it's essential. President Obama thinks it's essential. It's essential if we want to minimize the kind of strikes that we just had in Boston. It's absolutely essential.\" ... \"We just think they took our stuff and that was wrong. I think what they did was absolutely evil,\"",
+			"context": "Same-day report of a CBS This Morning interview aired August 13, 2013, weeks after the Snowden disclosures. Opened. The Register notes that the NSA is an Oracle customer. The CBS video itself was not viewed, so wording rests on this report.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S16",
+			"url": "https://fortune.com/2022/09/30/elon-musk-twitter-trial-text-messages-jack-dorsey-larry-ellison-joe-rogan/",
+			"title": "Elon Musk's texts reveal the billionaires, CEOs and celebrities who urged him to buy Twitter",
+			"speaker": "Fortune (reporting text messages disclosed in Twitter v. Musk)",
+			"date": "2022-09-30",
+			"locator": "Section on funding requests: the April 20, 2022 exchange between Musk and Ellison",
+			"excerpt": "\"Just over an hour later, Ellison responded saying \"of course,\" saying he'd front \"whatever you recommend\" to Musk.\" ... \"(Ellison eventually settled on $1 billion in funding for the Twitter deal.)\"",
+			"context": "News summary of text messages made public in Delaware Chancery discovery. Opened. Fortune quotes fragments; the full exhibit was not opened. Search summaries of other outlets, which were not opened, give his first reply as beginning with a figure of a billion and report a later message committing $2 billion, so the exact messages should be taken from the court exhibit before quoting.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S17",
+			"url": "https://www.engadget.com/oracle-ceo-larry-ellison-joined-call-about-contesting-trumps-election-loss-002304636.html",
+			"title": "Oracle founder Larry Ellison joined call about contesting Trump's election loss",
+			"speaker": "Engadget (summarizing Washington Post reporting on court filings in Fair Fight v. True the Vote)",
+			"date": "2022-05-21",
+			"locator": "News report, full text",
+			"excerpt": "\"Jim was on a call this evening with Jay Sekulow, Lindsey O. Graham, Sean Hannity, and Larry Ellison,\" True the Vote's founder, Catherine Engelbrecht, wrote to a donor, according to court filings reviewed by the Post. ... \"He has seemingly never expressed doubts about the 2020 election results publicly.\"",
+			"context": "Secondary summary of a Washington Post report. Opened. The underlying evidence is a third party's email describing a November 14, 2020 call; it does not record anything Ellison said on the call. The Post article and the court filing were not opened. Oracle did not respond to the Post.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S18",
+			"url": "https://fortune.com/2020/02/20/oracle-walkout-larry-ellison-trump-fundraiser/",
+			"title": "Some Oracle employees stop work in protest of Larry Ellison's pro-Trump politics",
+			"speaker": "Fortune / Bloomberg (citing people familiar with the protest)",
+			"date": "2020-02-21",
+			"locator": "News report, first five paragraphs",
+			"excerpt": "\"People left their desks Thursday at Oracle offices around the world to protest Chairman Larry Ellison's fundraiser a day earlier for President Donald Trump, according to people familiar with the matter. The protest, called No Ethics/No Work, involved about 300 employees\"",
+			"context": "Report of the February 20, 2020 employee protest that followed a Trump re-election fundraiser at Ellison's Rancho Mirage estate. Opened. Protest numbers come from unnamed organizers; the petition was public and its 8,000 signatures could not be verified as employees. The article records no response from Ellison.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S19",
+			"url": "https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9",
+			"title": "Billionaire Larry Ellison says a vast AI-fueled surveillance system can ensure 'citizens will be on their best behavior'",
+			"speaker": "Kenneth Niemeyer, Business Insider (quoting Larry Ellison at an Oracle financial analyst meeting)",
+			"date": "2024-09-15",
+			"locator": "News report, opening paragraphs (text visible before the subscriber wall)",
+			"excerpt": "\"Every police officer is going to be supervised at all times, and if there's a problem, AI will report that problem and report it to the appropriate person. Citizens will be on their best behavior because we are constantly recording and reporting everything that's going on.\"",
+			"context": "Report of remarks Ellison made to investors at Oracle's September 2024 financial analyst meeting, at age 80. The opening paragraphs with the quotation were readable; the rest is behind a subscriber wall. The reporter's framing ('gleefully', 'surveillance dystopia') is editorial. Oracle's own recording of the meeting was not opened, so the fuller context of the remark (police body cameras and school safety) is not verified here.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S20",
+			"url": "https://www.fortune.com/2025/12/22/larry-ellison-personal-guarantee-paramount-skydance-warner-bros-netflix-deal-son-david",
+			"title": "Billionaire Larry Ellison comes to his son's rescue, agreeing to personally guarantee over $40 billion to finance Paramount's bid for Warner Bros.",
+			"speaker": "Dave Smith, Fortune (quoting Paramount Skydance statement)",
+			"date": "2025-12-22",
+			"locator": "News report, full text",
+			"excerpt": "\"Larry Ellison has agreed to provide an irrevocable personal guarantee of $40.4 billion of the equity financing for the offer and any damages claims against Paramount,\" ... \"Last week, WBD directors dismissed Paramount's funding as \"illusory,\" citing concerns that the capital was tied to a \"revocable family trust\"",
+			"context": "News report on the company statement issued December 22, 2025 during Paramount Skydance's hostile bid for Warner Bros. Discovery. Opened. The quoted words are the company's, not Ellison's; he made no public comment in the article. 'Comes to his son's rescue' is the headline writer's framing.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S21",
+			"url": "https://www.nbcnews.com/business/media/paramount-warner-bros-skydance-closes-rcna601833",
+			"title": "Paramount completes $110B Warner Bros. merger to form Skydance",
+			"speaker": "Reuters via NBC News",
+			"date": "2026-10-06",
+			"locator": "News report, first six paragraphs",
+			"excerpt": "\"Paramount Skydance on Tuesday completed its blockbuster $110 billion takeover of Warner Bros. Discovery creating a Hollywood heavyweight called Skydance and handing CEO David Ellison control of one of the world's largest entertainment companies.\"",
+			"context": "Wire report of the closing on October 6, 2026. Opened. It concerns David Ellison's company; Larry Ellison appears as founder's father and financial backer. Used only to confirm the current state of the deal.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S22",
+			"url": "https://www.cnbc.com/2026/10/22/elon-musk-skydance-investment.html",
+			"title": "Elon Musk invests about $1 billion in Skydance",
+			"speaker": "CNBC (citing a person familiar with the matter; first reported by Semafor)",
+			"date": "2026-10-22",
+			"locator": "News report, key points and first eight paragraphs",
+			"excerpt": "\"The Oracle co-founder invested $1 billion in Musk's 2022 deal to purchase Twitter, now called X. Larry Ellison also invested in Tesla in 2018 and served on the company's board of directors.\" ... \"The elder Ellison also personally guaranteed more than $40 billion of equity financing in Paramount's offer to take over WBD.\"",
+			"context": "News report resting on one unnamed source; neither Musk nor Skydance had confirmed the investment. Opened. It names David Ellison and Ynon Kreiz as co-CEOs of Skydance, while the Reuters closing report (S21) calls David Ellison CEO.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S23",
+			"url": "https://variety.com/2026/film/news/david-larry-ellison-sued-paramount-side-deal-trump-warner-bros-1236812034/",
+			"title": "David and Larry Ellison Sued by Paramount Investor Alleging 'Illegal' Side Deal With Donald Trump to Secure U.S. Approval for Warner Bros. Takeover",
+			"speaker": "Todd Spangler, Variety (quoting the complaint and a Paramount spokesperson)",
+			"date": "2026-07-15",
+			"locator": "News report, first six paragraphs",
+			"excerpt": "\"According to the suit, the Ellisons allegedly promised \"illegal private benefits to President Trump in order to remove federal regulatory barriers.\"\" ... \"no commitments from either David or Larry Ellison have been made to any government body, State AG, or federal agency regarding the future of CNN or any other news property, other than the goal to deliver truth-based journalism.\"",
+			"context": "Report of a shareholder derivative complaint (Robbins v. Ellison) filed in Delaware Chancery Court in July 2026. Opened. These are unproven allegations in a complaint, with the company's denial. The outcome of the suit was not found; the merger closed on October 6, 2026 after settlements with states and a writers' union.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S24",
+			"url": "https://www.thenation.com/article/economy/larry-ellison-skydance-paramount-hawaii-lanai/",
+			"title": "How Larry Ellison's Acquisition Binge Began in Hawaii",
+			"speaker": "The Nation (citing Bloomberg and Lanai resident Solomon Pili Kaho'ohalahala)",
+			"date": "2026-03-12",
+			"locator": "Opinionated feature; paragraphs on the 2012 purchase, Pulama Lanai, housing costs and ecology",
+			"excerpt": "\"One resident, Solomon Pili Kaho’ohalahala, told Bloomberg that since Ellison took charge of things in Lānaʻi, he’d done little to control the invasive deer population or protect the coral reefs.\"",
+			"context": "A critical feature in a magazine of the political left, published during the Warner Bros. bid. Opened. It is argument as much as reporting ('lord and master of his own fiefdom') and relies on Bloomberg and Lanai Today for resident testimony. It also records early goodwill, including a reopened community pool. Its purchase figure ($350 million) differs from the Academy of Achievement's 'as high as $500 million'. The 2014 New York Times Magazine feature (S31) could not be opened.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S25",
+			"url": "https://www.thestar.com.my/tech/tech-news/2025/09/22/oracle-appoints-insiders-clay-magouyrk-and-mike-sicilia-as-co-ceos",
+			"title": "Oracle names insiders Clay Magouyrk, Mike Sicilia as co-CEOs in surprise move",
+			"speaker": "Reuters via The Star",
+			"date": "2025-09-22",
+			"locator": "Wire report, first seven paragraphs",
+			"excerpt": "\"Oracle on Monday named insiders Clay Magouyrk and Mike Sicilia as co-CEOs, replacing Safra Catz\" ... \"The bottom line is that with Larry remaining at CTO and Safra as Executive Vice Chair, we expect a smooth transition in the near-term.\"",
+			"context": "Wire report of Oracle's leadership change on September 22, 2025. Opened. Used for current roles only.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S26",
+			"url": "https://www.forbesafrica.com/billionaires/2026/11/03/larry-ellisons-net-worth-falls-11-billion-as-oracle-shares-plummet-to-four-month-low",
+			"title": "Larry Ellison's Net Worth Falls $11 Billion As Oracle Shares Plummet To Four-Month Low",
+			"speaker": "Forbes (republished by Forbes Africa)",
+			"date": "2026-11-03",
+			"locator": "News report, first three paragraphs",
+			"excerpt": "\"Ellison's fortune fell $11 billion to $160 billion shortly after 2:30 p.m. EDT., though the drop did not affect his No. 8 ranking on Forbes' real-time billionaires list\"",
+			"context": "Market news item dated November 2-3, 2026, republished from Forbes. Opened. Net-worth estimates move daily and differ between Forbes and Bloomberg. Used only as the most recent dated wealth figure found during the accuracy check.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S27",
+			"url": "https://achievement.org/achiever/larry-j-ellison/#biography",
+			"title": "Larry J. Ellison biography (Academy of Achievement)",
+			"speaker": "American Academy of Achievement (staff-written biography)",
+			"date": "2025-09-11",
+			"locator": "Biography tab: early life, college, Oracle founding, 1990 loss, sailing, Lanai, 2014 CEO handover, 2025 wealth and Paramount paragraphs",
+			"excerpt": "\"At nine months, he contracted pneumonia, and his unmarried 19-year-old mother gave him to her aunt and uncle in Chicago to raise.\" ... \"Until he was twelve years old he did not know that he was adopted.\" ... \"In 2014, he relinquished the role of CEO, entrusting the post to two longtime associates.\" ... \"In September 2025, Ellison surpassed Elon Musk to become the world's richest person\"",
+			"context": "Institutional biography on the same page as S02, 'last revised on September 11, 2025'. Opened. It is admiring in tone and not independent of Ellison's own account of his childhood. It lists the date of birth as August 17, 1944. Its statement that Paramount's July 2025 merger happened 'under Larry Ellison's leadership and influence' is the Academy's characterization.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S28",
+			"url": "https://en.wikipedia.org/wiki/Larry_Ellison",
+			"title": "Larry Ellison (Wikipedia)",
+			"speaker": "Wikipedia contributors",
+			"date": "2026-11-11",
+			"locator": "Infobox (spouses); 'Early life and education'; 'Political activities'; 'Personal life: Marriages'",
+			"excerpt": "\"Ellison has been married six times\" ... \"Ellison was married to Barbara Boothe from 1983 to 1986.\" ... \"On December 18, 2003, Ellison married Melanie Craft, a romance novelist, at his Woodside estate.\"",
+			"context": "Tertiary reference, opened on 2026-11-11 and used only as a lead for dates of marriages and names, which were not confirmed in a primary or major news source during this stage. Its statement about the number of children with his current wife looked unreliable and is not used.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S29",
+			"url": "https://www.theregister.com/1998/12/29/ellisons_sayonara_wins_boat_race/",
+			"title": "Ellison's Sayonara wins boat race",
+			"speaker": "The Register (staff)",
+			"date": "1998-12-29",
+			"locator": "Short news item, full text",
+			"excerpt": "\"And Ellison told reporters that the race, which Sayonara won for the second time, was life-threatening and dangerous, with his only goal to get him and his crew back in one piece. He is unlikely to compete in the race again.\"",
+			"context": "Brief contemporaneous news item from the day Sayonara finished. Opened. It paraphrases Ellison and has no direct quotation.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S30",
+			"url": "https://techcrunch.com/2013/06/29/why-oracle-and-salesforce-once-bitter-rivals-are-now-on-cloud-nine",
+			"title": "Why Oracle And Salesforce, Once Bitter Rivals, Are Now On Cloud Nine",
+			"speaker": "Rip Empson and Ingrid Lunden, TechCrunch",
+			"date": "2013-06-29",
+			"locator": "Section 'Besties or frenemies?'",
+			"excerpt": "\"Larry Ellison was Marc Benioff's mentor when he was an eager executive at Oracle — for 13 years, mind you, in which he became Oracle's youngest VP — before he took off to found Salesforce.\" ... \"the Oracle CEO went on to help get Salesforce.com off the ground as an early investor\"",
+			"context": "Trade-press analysis of the 2013 Oracle-Salesforce partnership. Opened. It characterizes the mentor relationship in the reporters' words; no direct Benioff quotation about Ellison was verified in an opened source.",
+			"kind": "secondary",
+			"access": "opened"
+		},
+		{
+			"id": "S31",
+			"url": "https://www.nytimes.com/2014/09/28/magazine/larry-ellison-island-hawaii.html",
+			"title": "Larry Ellison Bought an Island in Hawaii. Now What?",
+			"speaker": "Jon Mooallem, The New York Times Magazine",
+			"date": "2014-09-28",
+			"locator": "Not opened",
+			"excerpt": "Not opened. Search summaries indicate named Lanai residents both praising and criticizing the purchase.",
+			"context": "Paywalled; the reader proxy and archive copies returned no article text. Listed as the main independent source still needed for resident testimony about Lanai.",
+			"kind": "secondary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S32",
+			"url": "https://archive.org/details/softwar00matt",
+			"title": "Softwar: An Intimate Portrait of Larry Ellison and Oracle",
+			"speaker": "Matthew Symonds, with commentary by Larry Ellison (Simon & Schuster)",
+			"date": "2003",
+			"locator": "Not opened",
+			"excerpt": "Not opened. Cited by S11 for the texts of the disputed 1993 emails.",
+			"context": "Lending-restricted on the Internet Archive; the full text was not accessed. It is the fullest authorized account, with Ellison's own footnotes, and is the main book source still needed.",
+			"kind": "primary",
+			"access": "unavailable"
+		},
+		{
+			"id": "S33",
+			"url": "https://archive.org/details/differencebetwee00mike",
+			"title": "The Difference Between God and Larry Ellison: Inside Oracle Corporation",
+			"speaker": "Mike Wilson (William Morrow)",
+			"date": "1997",
+			"locator": "Not opened",
+			"excerpt": "Not opened. Fortune (S07) cites it for the statement that Ellison was considered smart but bridled under authority.",
+			"context": "Lending-restricted on the Internet Archive; the full text was not accessed. It is the main unauthorized biography and the likeliest source of testimony from his first wife, co-founders and early employees.",
+			"kind": "testimony",
+			"access": "unavailable"
+		},
+		{
+			"id": "S34",
+			"url": "https://fortune.com/2025/09/23/oracle-founder-larry-ellison-pledged-give-away-95-percent-of-393b-fortune-leadership-changes-mystery/",
+			"title": "Oracle founder Larry Ellison has pledged to give away 95% of his $393B fortune—but sudden leadership changes fuel a mystery",
+			"speaker": "Ashley Lutz, Fortune (summarizing New York Times reporting)",
+			"date": "2025-09-23",
+			"locator": "Explainer, first six paragraphs",
+			"excerpt": "\"Ellison pledged to donate 95% of his wealth as part of the Giving Pledge in 2010. Since then, he's distanced himself from traditional nonprofits and says he's opting to give away wealth on his own terms.\"",
+			"context": "Explainer that states it was drafted with generative AI and checked by an editor; it summarizes a New York Times report on the Ellison Institute of Technology that was not opened. Opened, but treated as a weak secondary source: use only for the 2010 pledge and the direction of his giving, and confirm details against the Giving Pledge letter and the Times before drafting.",
+			"kind": "secondary",
+			"access": "opened"
+		}
+	],
+	"claims": [
+		{
+			"id": "C01",
+			"claim": "Lawrence Joseph Ellison was born in New York City on August 17, 1944 to an unmarried 19-year-old mother. At nine months he was given to her aunt and uncle in Chicago, who raised him on the South Side. He says he did not learn he was adopted until he was twelve.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S27",
+				"S04",
+				"S01"
+			],
+			"inference": "Biographical frame. The birth year is in his own words ('I was born in 1944', 1995); the full date is the Academy's. The adoption story is his own account, repeated consistently in 1997 and 2004.",
+			"alternative": "No independent record of the adoption was opened. The Academy says the Bronx; he says 'New York City' and 'the lower east side of Manhattan'. Use 'New York City'.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C02",
+			"claim": "Ellison says his adoptive father, Louis Ellison, routinely told him he would 'never amount to anything', which he described as 'an alternative greeting'. Asked whether it gave him drive, he answered: 'I had all the disadvantages required for success.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S04",
+				"S03",
+				"S07"
+			],
+			"inference": "Establishes what he says about the relationship, in a joking register, at age 59. He repeats the 'disadvantages' line in 2002, crediting Tim Rice.",
+			"alternative": "Only Ellison's side exists in opened sources; Louis Ellison died before any of these interviews. Whether the father's dismissal caused his drive is his biographers' theory, which he partly accepts and partly deflects. Do not write it as a proven childhood wound.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C03",
+			"claim": "Ellison says his personality has not 'changed much since I was five years old' and names its key feature as 'questioning conventional wisdom, doubting the experts, and questioning authority'. He attributes little to adoption and 'an awful lot' to his father, an immigrant who 'never questioned authority', and calls the authoritarian figures at home and school 'wonderful examples of how not to be'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "His own account of the root of his character puts resistance to authority first, before ambition or image. This is the earliest and most stable theme in the record.",
+			"alternative": "A successful 52-year-old describing his childhood is building a founding myth, and a lifelong record of questioning authority is a flattering one. In 2004 he adds that the same trait got him 'in trouble' in school, the Boy Scouts and on teams, which is at least consistent.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C04",
+			"claim": "Ellison left the University of Illinois and then the University of Chicago without a degree, drove to Berkeley at 21, and taught himself programming: 'I never took a computer science class in my life.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S01",
+				"S05",
+				"S27"
+			],
+			"inference": "Factual career frame. The Academy adds that he left Illinois when his adoptive mother died during finals.",
+			"alternative": "His accounts of what he was studying differ: in 1995 he says he saw himself as a scientist in theoretical physics or mathematics; in 2016 he says pre-med. Both describe trying to be what he 'should be'. Do not state a major.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C05",
+			"claim": "In 2016 Ellison described two early failures to meet other people's expectations: his family wanted a doctor, and his first wife divorced him for lacking ambition after he wanted to buy a sailboat. Of the second he said: 'Their dreams and my dreams were different. I would never confuse the two of them again.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S05",
+				"S06"
+			],
+			"inference": "He frames the turning point of his twenties as refusing to live by others' expectations. The same idea appears in 1995: 'seeing yourself and seeing the world as it should be, rather than as it really is'.",
+			"alternative": "This is a prepared speech with a moral for graduates. His first wife's account was not opened. A young man who reshaped himself to be the doctor others wanted, and felt like a failure when he could not, also fits a Type 3 beginning.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C06",
+			"claim": "Ellison says that when he had a programming job and more money than he needed, 'For the first time, I was certain that I was going to survive in this world. A huge burden of fear had been lifted.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S05"
+			],
+			"inference": "Suggests the early fear was about survival and self-sufficiency, not reputation. It dates the relief to economic independence in his twenties, before any success.",
+			"alternative": "One sentence in a speech 45 years after the fact. It could equally describe a Type 6 or 7 relief at security.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C07",
+			"claim": "Ellison has given the same reason for founding Oracle across 21 years: to control his own working conditions. In 1995: 'next time, if the company was going to go down, I was going to be out front.' In 2016: 'That way I could completely control my work environment.' He says he never expected the company to pass 50 people.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S01",
+				"S05"
+			],
+			"inference": "The stated motive for the central act of his life is autonomy and control of his environment, said before and after he became one of the richest people alive. He does not say he started the company to be rich, admired or first.",
+			"alternative": "Founders often retell their motives modestly. In 1995 he also says the goal was a place of 'mutual respect and mutual affection', a warmer motive than control. The two accounts agree on leaving bosses he thought less capable.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C08",
+			"claim": "Asked about fear of failure in 1997, Ellison said it 'drives me to make sure that my life is orderly, that I'm in control of my company, or in control of the airplane or boat or what-have-you, so that I'm not at risk of failure', and that when he feels close to failure 'I can't stop working'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "He names fear of failure as his driver, then describes his answer to it as taking control. The response to the fear is the discriminating detail: control of the thing, not management of how it looks.",
+			"alternative": "Fear of failure as the stated engine is classic Type 3 language, and overwork under threat fits a 3 as well. This passage supports both readings and is the hinge of the 8-versus-3 question.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C09",
+			"claim": "Ellison explains his risk-taking the same way in 1997, 2001, 2002 and 2004: people climb mountains not 'because it was there' but because they are curious about their own limits. In 1997 he said work, flying, sailing and chess were 'all in pursuit of the same thing: self-discovery, the discovery of my own limits'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S09",
+				"S03",
+				"S04"
+			],
+			"inference": "A stable self-explanation over seven years and four interviewers: competition is a test of the self against something hard. It is about capacity, not applause.",
+			"alternative": "A rehearsed line can harden into a public persona. Wanting to know 'if he could be the first' (2002) keeps rank in the picture. A Type 7 appetite for intense experience would produce similar words.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C10",
+			"claim": "Ellison describes business competition in the language of combat. In 1997 he compared his job to the Gulf War command: 'It was the job of our armed forces to defeat the enemy. It is my job to go out into the marketplace and win', adding that if he were 'not aggressive enough' he 'should be gotten rid of'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S03"
+			],
+			"inference": "He treats aggression toward rivals as a duty and expects to be judged on it. In 2002 he softened the analogy: business is 'much less important than a war'.",
+			"alternative": "Hard-edged competitive talk was Oracle's sales posture and served the company commercially. It may be performance for employees and the press.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C11",
+			"claim": "The line 'It is not sufficient that I succeed; everyone else must fail' is widely attributed to Ellison. He says a Japanese executive said it to him, citing Genghis Khan, that he retold the story at Oracle, and that the New York Times printed it as his own 'out of context'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S01",
+				"S04"
+			],
+			"inference": "A fidelity caution for the draft and a small piece of evidence: he took the lesson (pursue market share relentlessly) while disowning the sentence. CBS in 2004 still called it his 'favorite saying'.",
+			"alternative": "He admired the idea enough to repeat it for years, so the distinction between quoting and endorsing is thin. The original Times article was not opened.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C12",
+			"claim": "In 2004 Ellison said 'I'm addicted to winning. The more you win, the more you want to win', and of the America's Cup, on which CBS reported he had spent $100 million: 'It's not worth that much to lose the America's Cup.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S04"
+			],
+			"inference": "Winning itself, and the pain of losing, is a stated appetite. Both an 8 and a 3 would say this; the second line shows loss aversion more than a wish to be seen.",
+			"alternative": "Said on camera for a segment titled around his competitiveness. He was playing the part he was cast in.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C13",
+			"claim": "Ellison has told the same story twice about his sister asking which mattered more to him. In 2004 the choice was 'to be admired or be loved' and he chose admired; in 2002 it was 'to be loved or to be respected' and he chose respected. Both times he says she told him he was wrong, and in 2002 he added: 'I'm concealing the fact that it's really more important to be loved.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S04",
+				"S03"
+			],
+			"inference": "Strong evidence for the Type 3 alternative in the 'admired' telling, and for an 8-style guard over tenderness in the 'respected' telling. The two wordings matter and must not be merged.",
+			"alternative": "The story is from his mid-teens, retold 40 years later with two different key words. It shows how he narrates himself, not what he felt at 15.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C14",
+			"claim": "In 2002 Ellison said that without unconditional love from parents 'you have a great void in your life', that 'you can get very good at trying to earn the love of others', and that 'You either learn how to get it or you try to get it through your achievements.' He compared himself to Bill Clinton and Winston Churchill.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "The clearest Type 3 statement in the record: achievement as a way to earn love. Any Type 8 reading has to account for it.",
+			"alternative": "He was answering a leading question about proving his father wrong and speaks partly in the second person. He names two routes (charm or achievement) without saying which is his. His sister is a psychologist, and the framing may be borrowed.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C15",
+			"claim": "Asked in 2004 who he is winning for, Ellison said: 'I admit to it, mea culpa. An awful lot of it is personal vanity', then returned to curiosity about 'how far I can go, how far Oracle can go. They're inextricably linked.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S04"
+			],
+			"inference": "He concedes vanity plainly, which supports the Type 3 alternative, and fuses his own limits with the company's.",
+			"alternative": "A disarming admission on television can itself be a way of controlling the interview.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C16",
+			"claim": "Ellison describes non-conformity as costly and deliberate. In 1997: 'When fashion and the pursuit of love is in conflict with reason, too often fashion and the pursuit of love usually win. In my case, it didn't.' In 2002: 'Not conforming caused terrible problems for me at school, but it was magic in business', and he notes he wore suits when Silicon Valley wore jeans.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S03"
+			],
+			"inference": "He says he chose his own judgment over being liked and accepted the price. This is the reverse of the image-adapting move that defines Type 3, and it is the core of the discriminator.",
+			"alternative": "Not caring what people think is itself an image, and a $7,000 suit (Fortune's detail) is a status signal. Andy Grove said he 'works very hard at his bad-boy image' (C21).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C17",
+			"claim": "In 1997, unprompted, Ellison defended Michael Milken, who had served prison time for securities violations: 'It's not terribly fashionable to be a supporter of Michael Milken, but I'm honored to have him as my friend.'",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "A concrete instance of C16: he volunteers an unpopular loyalty in an interview meant to inspire students. It costs approval and gains nothing obvious.",
+			"alternative": "Milken was a wealthy, well-connected ally in cancer philanthropy, so the loyalty had benefits. One remark is thin on its own; it matters as part of the pattern in C24 to C26.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C18",
+			"claim": "In June 2000, after Oracle's hired detectives were caught trying to buy the trash of a Microsoft-funded trade group, Ellison held a press conference, called the investigation 'a public service', and offered: 'We will ship our garbage to Redmond, and they can go through it.' He later called the method 'Unsavory, yucky—kind of. But legal', and in 2002 said: 'I didn't know they were going to go through Bill's garbage, but that doesn't bother me at all.'",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S08",
+				"S07",
+				"S03"
+			],
+			"inference": "Faced with an embarrassing disclosure, he neither denied nor distanced himself. He claimed it, went on offence and repeated the defence for two years. This is the clearest observed case of choosing the fight over reputation.",
+			"alternative": "Owning a scandal loudly can be shrewd reputation management for a self-styled outlaw, and the story hurt Microsoft too. Oracle also funded advocacy groups of its own, which he did not mention.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C19",
+			"claim": "Oracle posted its first loss in 1990 and nearly failed. Ellison replaced almost the whole management team, calling it 'the most difficult thing I had to do in business'. In 2002 he said of the 500 layoffs 'I couldn't come to work. It was traumatic', and of himself: 'I wasn't a very good CEO.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S03",
+				"S27"
+			],
+			"inference": "When the company was failing he took direct charge and removed people he felt loyal to. He also admits fault in plain words, which complicates the picture of a man who cannot concede error.",
+			"alternative": "Both statements were made years later from a position of recovery. The Academy says Oracle's sales staff had 'habitually overstated revenues'; Ellison's own role in that culture is not examined in opened sources.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C20",
+			"claim": "Ellison says that when he moved Oracle's products to the Internet in the 1990s, 'half of the senior executives wanted me to lose my job because I was putting the company at risk'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "He presents himself as overriding his own leadership on a bet-the-company call. If accurate, it shows him holding a position against internal opposition, not seeking consensus.",
+			"alternative": "Uncorroborated and self-flattering. No executive's account of this episode was opened.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C21",
+			"claim": "People who worked with or knew Ellison described him in 2000 as intense and deliberately provocative. Andy Grove: 'He works very hard at his bad-boy image.' A former executive: 'It's not like he's necessarily a bad guy. He's just very, very intense.' Asked what drives him, Steve Jobs whispered: 'Rosebud.'",
+			"passage": "",
+			"class": "third_party",
+			"source_ids": [
+				"S07"
+			],
+			"inference": "Independent testimony from two friends and a former subordinate. Grove's remark is the best third-party evidence that the persona is managed, which supports Type 3. Jobs's answer points to a lost childhood without explaining it.",
+			"alternative": "These are one-line remarks in a single profile. Grove was teasing a friend. 'Rosebud' is a joke that readers can take in several directions.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C22",
+			"claim": "Ray Lane, Oracle's president until Ellison pushed him out in 2000, described the culture in 2004: 'Culture is win at any cost. It wasn't good enough for a salesman to make their quota. They had to make 200 percent of their quota.' Rivals Thomas Siebel and Craig Conway, both former Oracle executives, were quoted in 2002 saying Ellison tries to 'destroy' his best people and alienates everybody.",
+			"passage": "",
+			"class": "third_party",
+			"source_ids": [
+				"S04",
+				"S03"
+			],
+			"inference": "Named testimony about how his drive lands on others: the cost of the pattern is paid by subordinates. Fortune reported in 2000 that he sat for the interview in Lane's former office.",
+			"alternative": "All three men had been forced out or were competing against him, and the Siebel and Conway lines are quoted secondhand in the Playboy introduction. Ellison answers in the same interview: 'I don't know anyone who likes to lay off or fire people'.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C23",
+			"claim": "Ellison says that in mid-1995 he arranged financing to buy Apple and 'immediately make Steve CEO', and that when Jobs refused in favour of his own slower plan, he answered: 'Steve, you created Apple. It's your company and it's your call. I'll do whatever you want me to do.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S05"
+			],
+			"inference": "His own account shows two things: an instinct to take control of a situation on a friend's behalf, and deference to one of the few people he treated as an equal. He also reports asking how they would 'make any money'.",
+			"alternative": "Only Ellison's telling, 21 years later, in a speech, after Jobs's death. Walter Isaacson's biography of Jobs was not opened to check it.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C24",
+			"claim": "In August 2010, after Hewlett-Packard forced out his friend Mark Hurd, Ellison emailed the New York Times: 'The HP board just made the worst personnel decision since the idiots on the Apple board fired Steve Jobs many years ago.' Oracle hired Hurd the next month.",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S14"
+			],
+			"inference": "He publicly attacked a major business partner's board to defend a friend in disgrace, then put him on the payroll. It is a second instance of loud loyalty that carries reputational and commercial risk.",
+			"alternative": "Hiring HP's former chief was also a competitive coup for Oracle. HP disputed his account of the board vote, and he called the harassment claim 'known false' without showing how he knew.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C25",
+			"claim": "When Elon Musk texted in April 2022 asking whether he would join the Twitter purchase, Ellison replied 'of course' and offered 'whatever you recommend'. He put in $1 billion. He had invested in Tesla in 2018 and joined its board.",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S16",
+				"S22"
+			],
+			"inference": "A private message, not meant for publication, shows the same reflex as his public loyalties: immediate, large, unconditional backing for someone in his circle.",
+			"alternative": "For a man of his wealth, $1 billion was a small share and an investment, not a gift. Exact wording of the texts varies between outlets and should come from the court exhibit.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C26",
+			"claim": "On December 22, 2025, after Warner Bros. Discovery's board called the Ellison family financing 'illusory', Paramount Skydance announced that Larry Ellison had given 'an irrevocable personal guarantee of $40.4 billion' for his son David's bid. The takeover closed on October 6, 2026, at about $110 billion, and the combined company is named Skydance.",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S20",
+				"S21",
+				"S22"
+			],
+			"inference": "At 81 he answered a public doubt about his family's word by putting roughly a sixth of his fortune behind it, personally and irrevocably. It fits the pattern of meeting a challenge with force and of protecting his own.",
+			"alternative": "It was also the price of winning a contested deal, and it serves family wealth and influence. The statement was the company's; he said nothing publicly. The reported Musk investment of about $1 billion in Skydance rests on one unnamed source.",
+			"durability": "time_sensitive",
+			"review_trigger": "Recheck Skydance's ownership, leadership titles (CEO versus co-CEOs), debt and any change in Larry Ellison's guarantee or stake before publishing and at each refresh."
+		},
+		{
+			"id": "C27",
+			"claim": "Ellison's yacht Sayonara won the December 1998 Sydney to Hobart race, in which a storm killed six sailors on other boats. He says he entered to 'see how much better I really was', and told his fiancee beforehand the race 'wasn't actually dangerous'. Afterwards he said 'I'm not going to do this race again if I live to be 1,000', and reflected: 'I don't think it was arrogance so much as curiosity.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S09",
+				"S10",
+				"S03",
+				"S29"
+			],
+			"inference": "The episode tests C09 at real cost. He admits he did not listen to warnings, describes the crew as past caring about the lead, and gave the race up. It shows a limit he respected once he met it.",
+			"alternative": "He was one participant among 115 boats and bore no responsibility for the deaths. His wording of the vow differs between sources ('1,000'); crew accounts in The Proving Ground were not opened.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C28",
+			"claim": "In 1993 former Oracle employee Adelyn Lee, who had dated Ellison, sued for wrongful termination, alleging she was fired for refusing him sex. Oracle settled for $100,000. Prosecutors then charged Lee over an email presented as evidence. At a trial that began in January 1997 her lawyer argued that Ellison or someone acting for him had planted the email; the jury found her guilty on two counts of perjury and two of falsifying documents, and she was sentenced to a year in jail and ordered to repay the $100,000. In 2002 he called the accusation worse than nearly dying in the 1998 storm and called her 'evil'.",
+			"passage": "",
+			"class": "disputed",
+			"source_ids": [
+				"S11",
+				"S03"
+			],
+			"inference": "A sensitive allegation that must appear on the page with its outcome stated plainly. His response shows what wounded him most: being seen as a predator ('I'll never forget riding up the elevator at Oracle alone with a woman—the way she looked at me') and being disbelieved.",
+			"alternative": "The conviction concerned the forged email; it did not adjudicate every part of the relationship between a chief executive and a junior employee. The opened sources tell the story mostly from Oracle's side, and court records and 1997 news coverage were not opened. Lee pleaded not guilty and her defence blamed Ellison for the email; the jury rejected that.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C29",
+			"claim": "Ellison sold nearly $900 million of Oracle stock in January 2001, weeks before Oracle said it would miss earnings. A derivative suit alleging insider trading was settled in 2005: he agreed to give $100 million to charity in Oracle's name and pay about $22 million in plaintiffs' legal fees. A Delaware court had earlier ruled in his favour on the same trades.",
+			"passage": "",
+			"class": "disputed",
+			"source_ids": [
+				"S12",
+				"S13"
+			],
+			"inference": "A major controversy with a clear public record: alleged, contested, settled without a reported admission. It belongs in the controversy section, not the type argument.",
+			"alternative": "Both reports rely on the plaintiffs' lawyer and the same wire service. Whether the settlement included any admission, and the outcome of the separate federal class action, were not checked.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C30",
+			"claim": "Ellison has argued for state data-gathering for more than two decades. In 2002 he pushed a national ID standard and said 'I would rather trust our government to protect us than rely on blind luck.' In 2013 he said of NSA surveillance: 'It's great, it's essential.' In September 2024 he told investors: 'Citizens will be on their best behavior because we are constantly recording and reporting everything that's going on.'",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S03",
+				"S15",
+				"S19"
+			],
+			"inference": "A 22-year position held through three waves of criticism. It sits oddly beside his creed of questioning authority, and shows that what he resists is authority over him, not strong authority as such. Order and control are goods in his eyes.",
+			"alternative": "Intelligence and police agencies are Oracle customers, so the stance is also commercial. The 2024 quotation comes from a partly paywalled report, and the fuller context of the talk was not opened.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C31",
+			"claim": "Ellison called himself 'a lifelong Democrat' in 2002. On February 19, 2020 a fundraiser for President Trump was held at his Rancho Mirage estate; about 300 Oracle employees stopped work in protest the next day. In May 2022 the Washington Post reported, from an email in court filings, that he had joined a November 14, 2020 call with Trump allies about contesting the election result.",
+			"passage": "",
+			"class": "third_party",
+			"source_ids": [
+				"S03",
+				"S18",
+				"S17",
+				"S28"
+			],
+			"inference": "Current-accuracy and controversy record. The opened report records no public response from him to the employee protest, which is consistent with C16.",
+			"alternative": "The evidence for the 2020 call is a third party's email naming him; nothing shows what he said or why he was on it, and he has not commented. Wikipedia says he was not present at the fundraiser. The Post article itself was not opened.",
+			"durability": "unresolved",
+			"review_trigger": "Before publishing, open the Washington Post report and check whether Ellison or Oracle has ever commented on the November 2020 call."
+		},
+		{
+			"id": "C32",
+			"claim": "In July 2026 a Paramount shareholder sued Larry and David Ellison in Delaware, alleging they promised 'illegal private benefits to President Trump' to clear the Warner Bros. deal. A Paramount spokesperson said 'no commitments from either David or Larry Ellison have been made to any government body' about CNN or any news property. The merger closed in October 2026.",
+			"passage": "",
+			"class": "disputed",
+			"source_ids": [
+				"S23",
+				"S21"
+			],
+			"inference": "A live, serious and unproven allegation that the page must state with its denial if it covers the Skydance deal at all.",
+			"alternative": "A complaint is one side's claims. The suit's status after closing was not found.",
+			"durability": "unresolved",
+			"review_trigger": "Check the docket for Robbins v. Ellison (Delaware Court of Chancery) for dismissal, settlement or ruling before publishing and at each refresh."
+		},
+		{
+			"id": "C33",
+			"claim": "Ellison bought about 98 percent of the Hawaiian island of Lanai in 2012 and said he would make it 'the first economically viable, 100 percent green community'. Critics, including resident Solomon Pili Kaho'ohalahala as cited by The Nation, say that promise has not been met and that his company dominates the island's housing and jobs.",
+			"passage": "",
+			"class": "third_party",
+			"source_ids": [
+				"S27",
+				"S24",
+				"S28"
+			],
+			"inference": "Ownership of nearly a whole inhabited island is the largest example of C07: building an environment he controls. The residents' complaints are the cost side.",
+			"alternative": "The Nation piece is advocacy and secondhand on residents; it also notes early goodwill. Purchase price is reported as $350 million and as high as $500 million. The New York Times Magazine feature with named residents on both sides could not be opened.",
+			"durability": "time_sensitive",
+			"review_trigger": "Open the 2014 New York Times Magazine and later Bloomberg reporting on Lanai before drafting this section; recheck Ellison's residency, which Wikipedia reports moved to Florida in 2026."
+		},
+		{
+			"id": "C34",
+			"claim": "Ellison was Oracle's chief executive from its founding in 1977 until 2014 and has remained chairman and chief technology officer since. Oracle named Clay Magouyrk and Mike Sicilia co-CEOs on September 22, 2025, with Ellison staying on as chairman and CTO. The Academy put his stake at 40 percent as of May 2024; Fortune put it at 41 percent in September 2025.",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S27",
+				"S25",
+				"S34"
+			],
+			"inference": "He gave up the title at 70 but not the chair, the technology role or the controlling stake, which fits a man for whom control matters more than the title.",
+			"alternative": "Founders with large stakes commonly stay on as chairman; this alone does not separate types.",
+			"durability": "time_sensitive",
+			"review_trigger": "Recheck Ellison's Oracle titles and stake at each refresh and on any report of retirement, illness or succession."
+		},
+		{
+			"id": "C35",
+			"claim": "Ellison briefly became the world's richest person in September 2025. On November 2, 2026 Forbes put his fortune at about $160 billion, eighth on its real-time list, after a fall in Oracle shares.",
+			"passage": "",
+			"class": "observed",
+			"source_ids": [
+				"S27",
+				"S26"
+			],
+			"inference": "Dated wealth facts for metadata and context. They should not carry the argument.",
+			"alternative": "Figures change daily and differ by source. In 2002 he called his few weeks as richest man 'kind of irrelevant' next to Oracle passing Microsoft.",
+			"durability": "time_sensitive",
+			"review_trigger": "Update or remove wealth figures and rank at each refresh; never state a rank without a date."
+		},
+		{
+			"id": "C36",
+			"claim": "Ellison has been married six times, according to Wikipedia: Adda Quinn, Nancy Wheeler Jenkins, Barbara Boothe (mother of David and Megan Ellison), Melanie Craft, Nikita Kahn, and Jolin Zhu, his current wife. In 2002 he described himself as 'a veteran of three marriages' and engaged to Craft.",
+			"passage": "",
+			"class": "third_party",
+			"source_ids": [
+				"S28",
+				"S03",
+				"S27"
+			],
+			"inference": "Factual metadata. The number and names rest on a tertiary source and need a primary or major news check before use.",
+			"alternative": "Dates and the count of children are not confirmed. The Academy confirms Jolin Zhu as his wife as of November 2024.",
+			"durability": "time_sensitive",
+			"review_trigger": "Confirm marriages and children against a major news source before drafting; recheck marital status at each refresh."
+		},
+		{
+			"id": "C37",
+			"claim": "Asked in 2002 what three marriages had taught him, Ellison said: 'I had an irrational standard of behavior for myself. If she didn't conform to the same standard, I would become annoyed', and 'I shouldn't seek to control her anymore than I would want her to control me.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "He names control as his own failing in intimate life and frames the remedy as mutual autonomy. This carries the control theme from work into relationships in his own words.",
+			"alternative": "Said while engaged, to a magazine. Two further marriages ended after it. None of his former wives' accounts were opened.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C38",
+			"claim": "Ellison has described giving as self-interest and as something he will do his own way. In 1997: 'think of altruism — giving — as a strategy for happiness.' In 2016: 'In the end, the only practical option is to give nearly all of it away.' He signed the Giving Pledge in 2010 and, according to Fortune, now directs his giving mainly through his own Ellison Institute of Technology.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S02",
+				"S05",
+				"S34"
+			],
+			"inference": "Even generosity is framed as a rational strategy under his own direction, not a duty or a bid for approval.",
+			"alternative": "The Fortune explainer is a weak source. Reported turmoil at the institute, and questions about whether he will fund it as promised, come from a New York Times report that was not opened.",
+			"durability": "time_sensitive",
+			"review_trigger": "Open the Giving Pledge letter, Ellison's July 2025 statement and the New York Times report on the Ellison Institute of Technology before writing about his philanthropy."
+		},
+		{
+			"id": "C39",
+			"claim": "Ellison says visiting Kyoto 'stunned' him and that Japanese culture seems to 'intelligently pursue tranquility'. He built a Woodside estate modeled on a Japanese village, and admired Japan for being 'at once the most aggressive culture on Earth and the most polite'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S01",
+				"S04"
+			],
+			"inference": "A long-running aesthetic and contemplative strain that the combative portrait does not explain, and a hint of what he seeks outside the fight: quiet, order and beauty on his own grounds.",
+			"alternative": "A grand house is also display. His reading of Japan is a visitor's generalization and should be attributed, not endorsed.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C40",
+			"claim": "Asked in 1997 whether he had ever been deeply afraid, Ellison said only once: at about six, when his mother came home late from work and he was 'making deals with God, if he would return her to me'. He said a storm at sea never produced 'the same kind of deep fear that I felt as a child'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S02"
+			],
+			"inference": "The one fear he admits is the loss of the person who loved him, not failure or danger. It suggests the vulnerable point under the control.",
+			"alternative": "A single memory offered in an interview. It should be quoted as his recollection and not turned into a causal childhood story.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C41",
+			"claim": "Ellison says he mistook himself for a scientist when he was 'an engineer and a builder by nature', and that when building something 'I was relentless. I could not stop thinking about a problem that had to be solved in order to build something. I was obsessive.' He adds: 'I was a lousy student, but a good builder.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S01"
+			],
+			"inference": "His drive attaches to making and controlling a thing, not to knowledge for its own sake or to credentials.",
+			"alternative": "Retrospective self-description. A Type 3 could equally describe finding the arena where effort finally paid off.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C42",
+			"claim": "Ellison's stated heroes are men who 'stood alone' against their own side: Churchill, 'ridiculed by his own party', and MacArthur, whose staff 'kept criticizing his strategy'. He complains that the media 'destroy anyone who gets larger than life', and in 1997 called Napoleon 'a man who definitely needed better PR'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S01",
+				"S02"
+			],
+			"inference": "The figures he identifies with are commanders vindicated after isolation. The Napoleon remark shows he also thinks about how great men are portrayed, which touches the image question.",
+			"alternative": "Admiring Churchill is common among executives of his generation and proves little by itself.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C43",
+			"claim": "Ellison frames his feud with Microsoft as a response to bullying. He says he and Bill Gates 'used to be friends' and that 'I began to intensely dislike him when I learned about his behavior toward Netscape.' He adds: 'When we compete with Microsoft, however, it's gloves off because of the way that they have operated.'",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "He casts himself as punishing a stronger party that broke the rules against a weaker one, a justice-through-force story typical of Type 8 self-understanding.",
+			"alternative": "Microsoft was his largest competitor and the antitrust case helped Oracle. Moral outrage and commercial interest pointed the same way. He was also racing Gates for the title of richest man (S07).",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C44",
+			"claim": "Ellison says finding his birth family taught him 'that I didn't belong to them. I belonged to the family that raised me. It eliminated all ambiguity', and that the search 'was not nearly as emotional as I expected'.",
+			"passage": "",
+			"class": "self_report",
+			"source_ids": [
+				"S03"
+			],
+			"inference": "He treats his origins as a question to be settled and closed, and reports little feeling about it. This limits how much weight the adoption can bear in the portrait.",
+			"alternative": "A brief answer. Wikipedia says he met his birth mother at 48; Fortune in 2000 says he met her only once. Neither detail was confirmed.",
+			"durability": "stable",
+			"review_trigger": ""
+		},
+		{
+			"id": "C45",
+			"claim": "Marc Benioff worked under Ellison at Oracle for 13 years, and Ellison was an early investor in Salesforce before the two became public rivals and then partners in 2013.",
+			"passage": "",
+			"class": "third_party",
+			"source_ids": [
+				"S30"
+			],
+			"inference": "Background for the mentor-turned-rival pattern also seen with Siebel and Conway.",
+			"alternative": "TechCrunch characterizes the relationship; no direct Benioff statement was verified in an opened source.",
+			"durability": "stable",
+			"review_trigger": ""
+		}
+	],
+	"type_hypothesis": {
+		"type": 8,
+		"confidence": "medium",
+		"for_claim_ids": [
+			"C03",
+			"C07",
+			"C08",
+			"C10",
+			"C16",
+			"C17",
+			"C18",
+			"C20",
+			"C24",
+			"C25",
+			"C26",
+			"C30",
+			"C37",
+			"C43"
+		],
+		"against": "The strongest evidence against Type 8 is in Ellison's own words. He says people deprived of unconditional love 'try to get it through your achievements' and compares himself to Bill Clinton (C14). In one telling he chose being 'admired' over being loved (C13). He admits 'An awful lot of it is personal vanity' (C15) and names fear of failure, not anger or injustice, as what drives him (C08). He reshaped himself in his teens and twenties to be the doctor or scientist others expected (C05, C04). Andy Grove, a friend, said he 'works very hard at his bad-boy image' (C21), and his remark that Napoleon 'needed better PR' shows he thinks about portrayal (C42). His long race with Bill Gates for rank and wealth (S07) is about standing as much as power. He also concedes fault more readily than the stereotype of an Eight allows ('I wasn't a very good CEO', C19), reports grief at firing people, and has a quiet, aesthetic side (C39). His support for state surveillance (C30) is not the anti-authority stance usually expected of an Eight.",
+		"alternative_type": 3,
+		"alternative_case": "Type 3, the achiever: a boy told daily he would 'never amount to anything' (C02) who learned that love has to be earned and set out to earn it through achievement (C14), who wants to be admired (C13), admits vanity (C15), is 'addicted to winning' (C12), measured himself against Bill Gates for the title of richest man, dresses and builds for effect, and cultivates a persona that keeps him in the headlines (C21). On this reading the fear of failure (C08) is the fear of being worthless, the overwork is the Three's answer to it, and the outlaw image is still an image. Type 7 was also considered, on the strength of his appetite for adventure, variety and pleasure, his optimism, his six marriages and his reframing of pain ('all the disadvantages required for success'). It ranks third: he stayed with one company for nearly fifty years, returns to hard things after they hurt him, and describes risk as a test of limits and control, not as escape.",
+		"discriminator": "What he does when being admired and being in control pull in different directions. A Three typically adjusts to protect how he is seen. Across four decades Ellison repeatedly chose the unpopular position and absorbed the cost. He says that when 'fashion and the pursuit of love' conflicted with his own judgment, in his case they lost (C16). He volunteered loyalty to Michael Milken as 'not terribly fashionable' (C17). Caught hiring detectives to obtain a rival's trash, he held a press conference, called it 'a public service' and said two years later that it 'doesn't bother me at all' (C18). He publicly called a partner's board 'idiots' to defend a disgraced friend (C24). He held the same pro-surveillance position through backlash in 2002, 2013 and 2024 (C30) and no public reply to an employee protest over his politics is on record in the opened report (C31). The motive he gives for founding Oracle, in 1995 and again in 2016, is control of his own environment (C07), and his stated answer to fear of failure is to be 'in control of my company, or in control of the airplane or boat' (C08). He kept the chair, the technology role and about 40 percent of Oracle after giving up the chief executive title (C34), and at 81 met a public doubt about his family's financing with a personal, irrevocable $40.4 billion guarantee (C26). Limits: a provocateur's reputation can itself be a brand, and Grove's remark says his was worked at. Several of these acts also served Oracle commercially. Both biographies and the testimony of intimates are still unread, so the embellishment record that would most favour Type 3 has not been weighed. Confidence is therefore medium.",
+		"unexplained": "Several things do not sit neatly in a Type 8 reading. The one deep fear he admits is a six-year-old's dread that his mother would not come home (C40), and he says outright that he conceals how much being loved matters (C13). He gives fear of failure, not strength, as his engine (C08). He is drawn to tranquility, gardens and Japanese restraint (C39), and an interviewer who expected a bully found him 'warm and self-effacing' (S03). He deferred completely to Steve Jobs (C23). He champions surveillance by the state while describing himself as a lifelong questioner of authority (C30, C03). His accounts of his early ambitions differ between scientist and doctor (C04), and his telling of his sister's question changes between 'admired' and 'respected' (C13). Whether the swagger is the man or a role he plays well is not settled by the opened record."
+	}
+}

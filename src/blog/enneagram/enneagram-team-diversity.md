@@ -39,7 +39,7 @@ Groupthink isn't a failure of effort. It's the default outcome when you let team
 
 ## The Enneagram Triads: Three Ways Teams Break Down
 
-The Enneagram groups types into triads. Each triad reveals a different dimension of how people operate. Understanding these explains why certain people clash (or click) instantly.
+The Enneagram [groups types into triads](/enneagram-corner/enneagram-social-styles). Each triad reveals a different dimension of how people operate. Understanding these explains why certain people clash (or click) instantly.
 
 ### How People Take Up Space
 
@@ -53,7 +53,7 @@ Some people walk into a meeting and immediately start talking. Others wait to be
 
 ### How People Handle Conflict
 
-When problems arise, people default to different modes:
+When problems arise, [people default to different modes](/enneagram-corner/enneagram-harmonic-approaches):
 
 - **Logic Mode (1, 3, 5)**: "Let's analyze this objectively. What are the facts?"
 - **Emotional Mode (4, 6, 8)**: "I need to be heard. I need you to understand why this matters."

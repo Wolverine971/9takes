@@ -1,0 +1,1277 @@
+{
+  "schema_version": 3,
+  "content_sha256": "badc1a030e3bdab72b41d58d0118c33e22fc85915648899d65d4da2ae1ce114a",
+  "evidence_sha256": "f30c32d72459c3ef89b195e53dd7b562c637b66e316ecf4b86fdfaf16e249d50",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "major",
+      "passage": "If either documents a habit of embellishing his story, an argument built on self-report weakens and Type 3 gains.",
+      "problem": "The page treats as a hypothetical something three openable sources already report. Reviews of Mike Wilson's 1997 biography, opened on 2026-11-12, say what the book documents. Kirkus: he 'seems to specialize in reinventing himself. By all accounts, he grew up on middle-class South Shore Drive, but he has told reporters that he lived in the South Side ghetto', and he would 'imply he had an advanced degree in physics'. Publishers Weekly: Wilson 'does a solid job of punching holes in the myths', including that he 'didn't grow up on the streets of Chicago, as he has led some to believe, nor does he have a college degree, let alone the graduate degrees attributed to him'. Computergram (October 20, 1997) relays a childhood friend's account that he 'made up delightful and often plausible details', stories that 'glorified Larry Ellison', and an ex-employee's 'Larry always had a problem with tenses'. By the article's own sentence this weakens an argument built on self-report and helps Type 3, and invented self-flattering stories are image evidence in their own right. The Type 8 lead currently rests on four self-reports. The record (type_hypothesis.against, C47, C58) does not weigh any of this, and research task 1 calls it 'expected by a reviewer from memory, not verified'.",
+      "acceptance_test": "The three reviews (kirkusreviews.com/book-reviews/mike-wilson/the-difference-between-god-and-larry-ellison, publishersweekly.com/9780688149253, techmonitor.ai/?p=186352), or the book itself, are opened and added as sources. The conditional sentence is replaced by a plain, attributed statement of what reviewers say Wilson documents, worded as their report of the book and not as the profile's own finding. The Why-not-Type-3 section counts it for Type 3, and type_hypothesis.against and a new claim carry it. The text then says in one or two sentences why Type 8 still leads at medium confidence with that evidence weighed, or lowers the confidence, or changes the lead. If the lead type changes, hold for --refresh --expanded-review. The 60-word answer, FAQs 1 and 2 and the description match the result. The body stays at or under 4,500 words by the contract counter: cut before adding."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "Mike Wilson's unauthorized _The Difference Between God and Larry Ellison_ (1997)",
+      "problem": "No opened source calls the book unauthorized, and two opened reviews point the other way: Kirkus calls it 'An authorized biography' and Publishers Weekly says Ellison 'agreed to be interviewed for the book'. The source note for S33 repeats 'unauthorized'.",
+      "acceptance_test": "'Unauthorized' is removed from the body and the S33 note, or replaced with what an opened source supports (for example, that Ellison gave Wilson interviews)."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "The Hurd email was a shot at a competitor's board.",
+      "problem": "The edit introduced this sentence. The cited Reuters report (S14) says 'Oracle ... is a major partner of HP' and 'now also competes with HP in the server market'. Calling HP only a competitor makes the calculating reading look cleaner than the source allows; attacking a major partner's board carried commercial risk.",
+      "acceptance_test": "The sentence says HP was both a major partner and, since the Sun purchase, a competitor, or drops the characterisation."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "It is also the failing he named in 2002, after three marriages: \"I shouldn't seek to control her anymore than I would want her to control me.\"",
+      "problem": "The quotation is exact, but the two sentences before it in S03 say what kind of control he meant: 'I had an irrational standard of behavior for myself. If she didn't conform to the same standard, I would become annoyed.' That is holding a partner to his own standard. It is one of the four self-reports the Type 8 case counts, and the omitted lines read at least as much like a One or a Three as an Eight.",
+      "acceptance_test": "The passage quotes or accurately paraphrases the 'irrational standard of behavior for myself' sentences, and the text does not present the marriage remark as evidence of an Eight's control without that context."
+    },
+    {
+      "id": "verify-05",
+      "severity": "minor",
+      "passage": "In 1997 he named the core of his personality as \"questioning conventional wisdom, doubting the experts, and questioning authority.\"",
+      "problem": "His words in S02 are narrower: 'The most important aspect of my personality, as far as determining my success goes, has been my questioning conventional wisdom...' He is naming the trait that explains his success. A related overreach opens the surveillance section, 'Ellison says the authority he first questioned was his father's faith in the state'; he says his father never questioned the government and did not want him to question authority, and names teachers alongside him.",
+      "acceptance_test": "Both lead-ins claim no more than the 1997 text: the trait he credits for his success, and a father who never questioned the government and did not want him to question authority."
+    },
+    {
+      "id": "verify-06",
+      "severity": "minor",
+      "passage": "An Eight's need for control explains how a workplace, a marriage or a sales culture ends up arranged around one man's judgment.",
+      "problem": "Controversy coverage is not yet registered or complete. docs/writing-system/people-controversies.json has no larry-ellison entries, so pnpm controversies:check cannot gate this page. Two known episodes are absent from the page: Oracle's 2016 purchase of NetSuite for $9.3 billion while Ellison owned about 35 to 40 percent of it (Wikipedia's Larry Ellison and NetSuite articles, opened 2026-11-12, describe the conflict and the special committees; the shareholder suit and its outcome in his favor are from the verifier's memory and were not opened), and the 2013 America's Cup penalty against Oracle Team USA, which a reviewer raised from memory. The NetSuite deal bears directly on this section's subject.",
+      "acceptance_test": "The nine controversies on the page are added to the registry and flipped to required. NetSuite and the 2013 penalty are added as open, each with an opened source; when written, each gets one plain paragraph with its outcome label and his side's response."
+    },
+    {
+      "id": "verify-07",
+      "severity": "minor",
+      "passage": "In 1993 Adelyn Lee, a former Oracle employee in her twenties who had dated Ellison, sued for wrongful termination",
+      "problem": "Kalat (S11) dates the firing to April 1993 and does not date the filing of the suit. The sentence attaches 1993 to the lawsuit.",
+      "acceptance_test": "The sentence says she was fired in April 1993 and then sued, or gives the filing year from an opened source."
+    },
+    {
+      "id": "verify-08",
+      "severity": "minor",
+      "passage": "\"I said President Trump could use the property. I was not here.\"",
+      "problem": "Checks the record lists as PRE-RELEASE are still open after this verification. Tried on 2026-11-12: the Forbes interview could not be opened (The Register's April 14, 2020 report confirms the 'one president ... devil' sentences but not 'I was not here'); USC's official speech page returned 404, so the 2016 control line still rests on a third-party transcript; a search found no ruling in Robbins v. Ellison. Not attempted: the Washington Post report on the November 2020 call, and the Bloomberg and New York Times Magazine pieces on Lanai. Nothing enforces these before publication.",
+      "acceptance_test": "Before publishing, each PRE-RELEASE task in evidence-edit.json is either closed with a named, opened source or the owner records a decision to publish with the current attributions ('quoted by TheWrap', 'a published transcript', 'Engadget's summary'), which are accurate as written."
+    }
+  ],
+  "research_tasks": [],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Reopened S02 and S27. The 1997 interview has 'I was born in New York City. My mother was 19, she wasn't married' and adoption by his maternal aunt and uncle in Chicago at nine months; S01 has 'I was born in 1944'. The article frames it as his own account."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Reopened S04. CBS has him recalling he'd 'never amount to anything' and the 'alternative greeting' line, 'recalls Ellison, laughing'. Only the three words are inside CBS's quotation marks, and the article quotes only those."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "qualified",
+      "reason": "Quotation is verbatim in S02, but he calls it 'the most important aspect of my personality, as far as determining my success goes'. The article's 'named the core of his personality' drops that qualifier (finding verify-05)."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Reopened S27: 'During the final exams in his second year, Larry Ellison's adoptive mother died, and he dropped out of school.' Attributed to the Academy's biography in the text, with no causal claim."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Reopened S01 through the Wayback copy. The passage is verbatim and follows his account of two chief executives who 'both ran their companies out of business'. In context his stated aim is an environment 'where we would enjoy what we did'; reading 'out front' as control is the article's paraphrase and is fair."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Reopened S02. The control sentence is verbatim and sits between 'It drives me to work very hard' and 'I can't stop working', both of which the article now quotes."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Reopened S02, S09, S03 and S04. The 1997 line is verbatim; the same curiosity-about-limits explanation appears on CNN in 2001 ('we're curious if we can do it'), in Playboy in 2002 and on CBS in 2004."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Reopened S01 and S04. In 1995 he attributes the line to a Japanese executive citing Genghis Khan and says a New York Times reporter 'took the whole thing out of context'. CBS in 2004 calls it his favorite saying and has him retelling the Japan story, which supports the FAQ."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Reopened S04. The quotation is verbatim, including the en dash. The page is dated February 23, 2004; the air date is unconfirmed and the article cites only the web publication."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Reopened S03. Both sentences are verbatim and contiguous, in reply to a question about proving his adoptive father wrong. 'Bill Clinton is like me in that regard' is first person."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "Reopened S04. Verbatim, and CBS places it straight after describing the PeopleSoft bid, which is the context the article gives."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "Reopened S03. Verbatim; he goes on to say the only way to succeed in business is to find where conventional wisdom is wrong, which matches the article's 'it is how he wins'."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Reopened S02. Verbatim, in a passage listing people celebrity let him meet, straight after Walter Cronkite. The interview does not mention Knowledge Universe, so 'He did not mention' is accurate."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Reopened S08. Verbatim, and The Register reports it with 'he joked'. The press conference was 'Wednesday', which was June 28, 2000."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "Reopened S03 and S27. 'I wasn't a very good CEO' answers a question about 1991 'when the company crashed'; S27 records the first losses in 1990."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "Reopened S07. Verbatim, attributed to 'Ellison's pal, former Intel CEO Andy Grove' in a paragraph of Silicon Valley gossip about him."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "Reopened S04 and S07. Lane's words are verbatim; CBS says he was second-in-command for eight years and 'was pushed out by Ellison'. Fortune in November 2000 calls him the ex-president and his departure contentious, which supports '2000'."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "Reopened S14. The fragment is verbatim from the emailed statement. Reuters says the board found Hurd had not violated the harassment policy and that the probe 'turned up expense account abuses'. See verify-03 on the separate 'competitor's board' sentence."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "qualified",
+      "reason": "Reopened S16. Fortune's summary supports 'of course', 'whatever you recommend', Musk's $2 billion 'or more' and the $1 billion outcome. Fortune quotes fragments and the court exhibit was not opened, so wording rests on a summary; the article attributes it to Fortune."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Reopened S20 and S22. Fortune quotes the company statement on the 'irrevocable personal guarantee of $40.4 billion' and the promise not to revoke the trust, dated Monday December 22, 2025. He was 81 by the frontmatter birth date."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "Reopened S10, S09 and S29. He says 'we were on 80-foot boats'; the documentary and The Register both record six dead, on other yachts."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "qualified",
+      "reason": "Reopened S11. Kalat supports the wrongful-termination suit, the allegation and the $100,000 settlement, and calls her 'twenty-something'. He dates the firing to April 1993, not the filing, so 'In 1993 ... sued' is slightly more than the source fixes (finding verify-07)."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "Reopened S12 and S13. Both report the sale of nearly $900 million in January 2001, weeks before the earnings warning, and the derivative suit filed in March 2001."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "Reopened S03. Verbatim, at the end of his answer on a national identification system, after he grants the information can be abused."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "Reopened S18. The Bloomberg report of Thursday February 20, 2020 describes the fundraiser 'a day earlier' at his Rancho Mirage home and 'about 300 employees' in the No Ethics/No Work protest, sourced to a participant."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Reopened S23. Variety quotes the complaint's words exactly and says the suit was filed in Delaware Chancery Court on Tuesday July 14, 2026. A search on 2026-11-12 found no ruling."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Reopened S27. Verbatim; the biography says he purchased 98 percent of the island in 2012."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Reopened S27 and S25. S27: 'In 2014, he relinquished the role of CEO' and holds executive chairman and chief technology officer. A Forbes caption of November 3, 2026 (S26) still gives both titles."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "qualified",
+      "reason": "Reopened S03. Verbatim, in answer to 'What have you learned?' after 'As a veteran of three marriages'. The sentences before it say the control was holding a partner to 'an irrational standard of behavior for myself', which the article omits (finding verify-04)."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Reopened S02. Both fragments are verbatim: 'I might have been six', his mother came home very late from work, 'making deals with God'."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "Reopened S03. The wording is verbatim: sister a psychologist, 'I was in my midteens', 'to be loved or to be respected', 'I got really annoyed with her', 'I'm concealing the fact that it's really more important to be loved.'"
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "qualified",
+      "reason": "The two halves are supported as worded: control is the motive he gives in S01, S02, S03 and S05, and S08, S14 and S40 show him restating his purpose under criticism. As a type thesis it leans on self-report whose reliability the research did not weigh. Three opened reviews of Wilson's biography report invented self-flattering details (finding verify-01)."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Reopened S27: 'Date of Birth August 17, 1944'. S01 has 'I was born in 1944'."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Reopened S02: 'I was born in New York City.' S27 says the Bronx, which is consistent."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "qualified",
+      "reason": "Reopened S05. The sentence is in the third-party transcript, after 'I put together a plan to start my own company.' USC's same-day report (S06) does not quote it and USC's official speech page returned 404 on 2026-11-12. The article and FAQ attribute it to 'a published transcript'."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Reopened S27: founded in 1977 with Miner and Oates; 'For the company's first 37 years, he was Oracle's only chief executive officer.'"
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Reopened S02. Verbatim, opening his answer to 'What about fear of failure?'. The Academy's display quote says 'Great achievers'; the article uses the transcript wording."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Reopened S07. Verbatim, in parentheses after Fortune describes the private detectives and Microsoft's dumpsters."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Reopened S03. Verbatim, in answer to a question about hiring private detectives."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Reopened S08: the firm 'was caught trying to buy from dustmen the office rubbish of the Association for Competitive Technology, a Microsoft-funded industry front group', revealed earlier that month."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Reopened S08: 'Oracle has financed its own stable of front groups', with three named. 'Pointed out what the full-disclosure line left out' is the article's framing of that sentence."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "qualified",
+      "reason": "The article's own account of its discriminator is accurate: four dated self-reports of control and one private text, with the thinness stated. It is not yet tested against the reported record that he embellished his own story, which the article says would favor Type 3 (finding verify-01)."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Reopened S10. Verbatim, after the narrator says Sayonara had crossed Bass Strait and the crew had heard the tragedy behind them."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Reopened S03. Both sentences are verbatim, straight after 'Absolutely.'"
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "qualified",
+      "reason": "Reopened S41 and S29. Wikipedia separates Sayonara's outright (line honours) finish from AFR Midnight Rambler's handicap win; The Register says only 'wins'. The organizing club's results table was not opened."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Reopened S03. The introduction presents Sheff's report in quotation marks: 'Most surprising, he was warm and self-effacing.'"
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Reopened S11 and S03. Kalat gives the verdict, the year in jail and the $100,000 repayment; Ellison's own account in S03 matches on jail and perjury."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "Reopened S11: Rockhill 'conjectured that Ellison himself, or someone working on his instructions, had planted the email specifically to undermine Lee's credibility'."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "Reopened S03. Verbatim, in his account of the accusation."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "Reopened S03: 'I'll never forget riding up the elevator at Oracle alone with a woman—the way she looked at me.' The paraphrase is accurate and the article uses it as image evidence, not as evidence about the allegation."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Reopened S12 and S13. Both attribute the $30.76 average and the $16.98 next-day price to Tabacco. The Delaware opinion (S35) independently gives the $30.76 average."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Reopened S12 and S13. $100 million to charity in Oracle's name and $22 million in plaintiffs' fees; neither report records an admission. Both are the same wire service quoting the plaintiffs' lawyer."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "Reopened S35. The opinion is dated November 24, 2004 and says 'Ellison and Henley are entitled to summary judgment.' It is signed 'STRINE, Vice Chancellor'."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "Reopened S15. Verbatim, 'said of the domestic spying', from the CBS This Morning interview as The Register reported it. The broadcast itself was not viewed."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Reopened S19. Verbatim in the paragraphs visible before the subscriber wall, following 'We're going to have supervision'."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Reopened S15: 'the US government is a key market for Oracle. The NSA is a customer'. 'So the conviction is also a sales position' is the article's gloss on that remark."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "qualified",
+      "reason": "An interpretation, labelled as a type reading that 'sits beside' the commercial one. The sources support its parts (S02 on authority figures, S03 on trusting government); the joining inference is the article's and it says so."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Reopened S18: the workers 'argued the chairman's public support for Trump violated Oracle's diversity, inclusion and ethics policies'."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "qualified",
+      "reason": "Reopened S17. Engadget supports the date, the participants and the Engelbrecht email, and the email records nothing he said. It is a summary of a Washington Post report and court filing that were not opened; the article attributes it that way."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Reopened S21. Reuters, October 6, 2026: the takeover was completed, 'creating a Hollywood heavyweight called Skydance'."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Reopened S20: directors 'dismissed Paramount's funding as \"illusory,\" citing concerns that the capital was tied to a \"revocable family trust\"'."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "Reopened S23. The fragment is verbatim from the Paramount spokesperson's statement, which continues 'State AG, or federal agency regarding the future of CNN or any other news property'."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Reopened S25 and S27, and checked S26: a Forbes caption dated November 3, 2026 reads 'Oracle co-founder, CTO and Executive Chairman Larry Ellison'. Reuters dates the co-CEO appointments to Monday September 22, 2025."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Reopened S07. Verbatim: Jobs 'chuckles, thinks for a moment, and then whispers into the phone: \"Rosebud.\"' Fortune says Ellison repeatedly called him his best friend."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "Both halves trace to S02 ('I think most overachievers are driven ... by the fear of failure ... It drives me') and S03 ('it's really more important to be loved')."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Reopened S04. Verbatim, directly after the sister story."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "Reopened S04, S07 and S27. CBS calls Oracle the world's second-biggest software maker behind Microsoft and says he was briefly the world's richest man. No rank or figure is stated in the article."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Reopened S02. Verbatim, in answer to 'People have accused you of launching some brutal attacks on your competition. Is that an okay thing to do?'"
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "qualified",
+      "reason": "An inference and labelled as one in the text, which also concedes that 'on core emotion alone the evidence is thin'. No source shows the conversion of fear into force; S02 shows only that he names fear and then control."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "Reopened S02 and S04: 'I believed until I was twelve years old that I was not adopted'; CBS says his father told him at 12."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Reopened S04. Verbatim up to 'as it had in school'; CBS's sentence continues with the Boy Scouts and athletic teams, and the article closes the quotation before that."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Reopened S02. Verbatim, and it is the first thing he says fear drives him to do."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Reopened S02. Verbatim, and it is the last sentence of the answer."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Reopened S03 and S08. Both sentences are verbatim; he names the Independent Institute and its 'hurts Microsoft hurts America' line. The article labels the backdrop as his account."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Reopened S08. Verbatim, with 'That's a public service.'"
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "Reopened S37 and S42, two separate 1999 reports. Both give 1996 and a combined $500 million from Michael Milken, Lowell Milken and Ellison. No split is stated in the article."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Reopened S03. 'Playboy: Does it work? Do the achievements fill the void? Ellison: Yes and no. My sister is a psychologist...'"
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Reopened S39: 'It all kicked off on 6 June 2003'; Oracle 'eventually agreed to pay $26.50 per share', valuing PeopleSoft 'at about $10.3bn', in the article dated December 13, 2004."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Reopened S04. Verbatim and attributed to CBS as a forecast."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "Reopened S07. Verbatim; 'this goal' is supplanting Gates as the richest man in the world, as the article says."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Reopened S03. 'It's kind of irrelevant' answers what being the richest man meant to him; 'But what really means a lot to me is Oracle passing Microsoft' follows."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Reopened S03. The introduction refers to 'his court victory overturning what he called the airport's \"wacky\" curfew laws, which he routinely ignored'. It adds that he moved the jet to another airport anyway, which the article leaves out."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "qualified",
+      "reason": "An interpretation, tested on behaviour (S03's curfew, S02's control answer) and left open in the text. The curfew is one reported episode from an editors' introduction, so the Six-versus-Eight test is thin and the article says the question stays open."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Reopened S10. Verbatim, in his description of the waves."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "Reopened S03: 'Playboy: Did the experience make you more cautious? Ellison: Absolutely.'"
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "Reopened S27: 2010 win in Spain; 'At Ellison's insistence, the 2013 contest was held in San Francisco Bay'. Attributed to the Academy's biography."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Reopened S27. Verbatim phrase; 'in 1990 the company posted its first losses. Oracle's market capitalization fell by 80 percent'."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "qualified",
+      "reason": "Reopened S38 through a reader proxy. The one-paragraph item of September 27, 1993 supports the $100,000 fine, no admission or denial, and the $24 million shareholder settlement (then subject to court approval). It is the only source, and the charges it describes are against the company, as the article says."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "Reopened S11. The email text is verbatim (Kalat's version ends 'cdr.'), and 'The supervisor insisted he had never sent the message.'"
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Reopened S11: phone logs showed a call from his car when the email was sent, and the headers showed 'an IP address located near Lee's home'. 'They showed' reports the prosecution's evidence as Kalat gives it."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "Reopened S35. Verbatim: 'I conclude that no rational trier of fact could find that: 1) Ellison or Henley possessed material, nonpublic financial information as of the time of their trades; or 2) ... acted with scienter'."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "Reopened S35: 'Simon had advised Ellison that he should exercise 22 million Oracle options that would reach their ten year expiration date in August 2001.'"
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Reopened S02. Both fragments are verbatim. He says his father 'didn't really want me to question authority'; the article's lead-in that this was 'the authority he first questioned' is a slightly stronger paraphrase."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "Reopened S03. Both fragments are verbatim and in the order the article gives them."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "Reopened S27: a two-year contract to build a database for the CIA; 'The project's code name: Oracle.' CBS (S04) calls the CIA Oracle's first customer."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "qualified",
+      "reason": "Reopened S40. Verbatim as TheWrap quotes the April 2020 Forbes interview. The Forbes original could not be opened on 2026-11-12 and no second outlet with this sentence was found, so it rests on one secondhand report, as the article says."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Reopened S40, and corroborated in a second outlet: The Register's report of April 14, 2020 on the Forbes interview carries the same two sentences. Both quote Forbes, which was not opened."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Reopened S17. Verbatim apart from the tense of the first word, which sits outside the quotation marks."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Reopened S24 and read in full. Vickers argues the green plans were 'for nought' and that Ellison 'accelerated Lanai's conversion into a luxury tourism destination' while 'locals are fighting to make ends meet'. The piece records the reopened pool and carries no response from him."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "Reopened S36. Verbatim from the letter on the Giving Pledge site, including 'virtually all of my assets'."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "Reopened S20. The headline reads 'comes to his son's rescue'; the article quotes the last four words."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Reopened S23: per the lawsuit, the side deal included 'the opportunity to improperly funnel cash' to the president by settling his legal claims against CNN."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "Reopened S03. Verbatim, directly after 'I'm concealing the fact that it's really more important to be loved.'"
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "Reopened S25: 'Oracle on Monday named insiders Clay Magouyrk and Mike Sicilia as co-CEOs', with 'Larry remaining at CTO'."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "qualified",
+      "reason": "Reopened S35 for the summary judgment. 'Not in any ruling this profile found' is accurate for the opened record, but S12 says a federal securities class action over the same trades was still pending in 2005 and its outcome was not established."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "Reopened S03 and S27: 'Absolutely' on becoming more cautious; America's Cup wins in 2010 and 2013."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback copy fetched 2026-11-12 (the id_ raw path was rate-limited, the plain capture loaded). Read 'Building Oracle' for the Genghis Khan story and 'A Good Place to Work' for the 'out front' passage; 'I was born in 1944' in 'A South Side Boy'."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Page fetched 2026-11-12; interview text is in the HTML. Read the questions on childhood, 'How did this affect you?', balance of work and play, 'Have you ever been deeply afraid?', 'What about fear of failure?' and the question on attacks on competitors."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the introduction (curfew, Sheff's report, garbage summary) and the exchanges on the detectives, national ID, richest man, the 1998 race, the Lee accusation, his adoptive father and sister, non-conformity, the 1991 crash and marriage."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12 and read in full. Byline Rebecca Leung, dated February 23, 2004; correspondent Charlie Rose."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Section 'Silicon Valley and the Birth of Oracle' has 'That way I could completely control my work environment.' Third-party transcript; USC's official speech page returned 404."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. The quoted lines about living up to others' expectations are present. It does not quote the 'control my work environment' line. Not cited by any claim."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the opening scene in Ray Lane's former office, the dumpster parenthesis, the wealth-rank and 'Rosebud' paragraph and the Grove quote."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12 and read in full. Published Thursday June 29, 2000; the press conference was 'Wednesday'."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Rush transcript, aired June 10, 2001. Read his answers on why he entered, 'Hillary and Everest', and fear."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Rush transcript, encore aired January 1, 2002. Read his passages on the waves ('absolute limits', '80-foot boats') and the finish, and the narration giving six dead."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12 and read in full. Dated November 2, 2022. It relies on Softwar for the email texts and gives Ellison's side more fully than Lee's, as the article says."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12 and read in full. Robert McMillan, September 13, 2005. 'Not guilty' is the reporter's loose phrase for the Delaware civil ruling; the article does not repeat it."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12 and read in full. Elizabeth Montalbano, November 22, 2005. Same wire service and same plaintiffs' lawyer as S12."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Reuters via NBC News, August 10, 2010; read the first paragraphs and the passage calling Oracle 'a major partner of HP' that 'now also competes with HP in the server market'."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the NSA passage and McAllister's aside on the government as a key market and the NSA as a customer."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the 'Larry Ellison' section on the April 20, 2022 exchange."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12 and read in full. Amrita Khalid, May 20, 2022. It contains no statement about Oracle or Ellison being asked for comment."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Nico Grant, Bloomberg, February 20, 2020; read the first five paragraphs."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. The opening paragraphs with the full quotation are visible before the subscriber wall; the rest was not read."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Dave Smith, December 22, 2025; read the headline and the paragraphs on the board's objection and the company statement."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Reuters via NBC News, October 6, 2026; read the first six paragraphs."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the paragraphs on Larry Ellison's history with Musk and the co-CEO line."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Todd Spangler, July 15, 2026; read the paragraphs on the complaint and the Paramount statement."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12 and read in full. By Matthew Vickers. Openly polemical; the article labels it as argument."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Reuters via The Star; read the first seven paragraphs."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Caption dated November 3, 2026 gives his titles as CTO and Executive Chairman. Not cited by any claim."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S02, fetched 2026-11-12. Read the Biography tab: birth, adoption, college, founding, 1990 loss, America's Cup, Lanai and the 2014 handover. 'Last revised on September 11, 2025'."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Tertiary; not cited by any claim. Checked only for the NetSuite and Tesla passages used in finding verify-06."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12 and read in full. A short item that says Sayonara 'won' and also that it 'was not caught in the storms', which the CNN transcripts contradict; the article does not rely on that."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12; the quoted mentor and early-investor lines are present. Not cited by any claim."
+    },
+    {
+      "source_id": "S31",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not opened. Paywalled; listed in the record as unavailable and not cited by any claim."
+    },
+    {
+      "source_id": "S32",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not opened. Lending-restricted; not cited by any claim. Kalat (S11) quotes it secondhand."
+    },
+    {
+      "source_id": "S33",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not opened. Lending-restricted; not cited by any claim. Three reviews of it were opened for this check (finding verify-01)."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12; the quoted lines are present. An AI-drafted explainer, not cited by any claim."
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Justia returned 403 to a direct request; the full opinion text loaded through a reader proxy on 2026-11-12. Read the opening summary and section K on Philip Simon's advice and the January 2001 trades."
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12 and read in full. The letter text is on the pledger page."
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the Knowledge Universe fact box and the opening paragraph."
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct request returned 403; the one-paragraph item loaded through a reader proxy on 2026-11-12 and was read in full. Dated September 27, 1993."
+    },
+    {
+      "source_id": "S39",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the timeline from June 6, 2003 and the closing paragraphs on the $26.50 offer."
+    },
+    {
+      "source_id": "S40",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the paragraphs on the February 2020 fundraiser and the Forbes quotations."
+    },
+    {
+      "source_id": "S41",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the lead and results paragraph and the list of the six who died."
+    },
+    {
+      "source_id": "S42",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-11-12. Read the paragraph on the founding of Knowledge Universe."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "The Lee paragraph now gives the email's text, who it was attributed to, Ramsey's denial and the prosecution's car-phone and header evidence before Rockhill's argument, all matching Kalat (S11). No adjective is applied to Lee. Leaving the 'decided not to veto' email for the research task is allowed by the test."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "The opinion was opened (S35) and I reopened it: the date, the 'no rational trier of fact' wording and the 22 million options all match. Tabacco's argument and the settlement terms remain."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "His response is now quoted with its timing and 'I was not here'. The editor opened TheWrap instead of the two outlets the test named; I opened The Register's April 14, 2020 report, which carries the 'one president' sentences, so the substance holds. 'I was not here' still rests on TheWrap alone (verify-08)."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The unsupported sentence is gone, Engadget's 'seemingly never expressed doubts' line is added with attribution, and 'It records nothing he said.' stays. I re-read S17 and it has no comment-request statement."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Both quotations now carry the reasoning he gave: the police-supervision sentence in 2024 and 'Can such intelligence be abused?' plus the 'damn good record' line in 2002, in source order. The framing claims only three statements across 22 years."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The third-hand resident charge, the self-apology and the 'environment he can completely control' inference are removed. What remains matches The Nation piece I read: the plan, Vickers's argument, early goodwill and no response."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The ending quotes his 2002 conclusion in full from S03, says no family account is part of the profile and makes no claim about what he privately prefers."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "A dated paragraph on giving is built from his own 2010 letter (S36, verbatim) and vouches for nothing."
+    },
+    {
+      "finding_id": "subject-09",
+      "accepted": true,
+      "reason": "Heading and summary lines now match The Register: a firm Oracle hired was caught trying to buy a trade association's trash, and his statement that he did not know the method sits beside the first description."
+    },
+    {
+      "finding_id": "subject-10",
+      "accepted": true,
+      "reason": "Body and FAQ say first across the line or first to finish, and the collective 'we didn't listen' remark is gone from both."
+    },
+    {
+      "finding_id": "subject-11",
+      "accepted": true,
+      "reason": "His guess at his father's reason is quoted from CBS and introduced as a guess. The caveat about Louis Ellison's side remains."
+    },
+    {
+      "finding_id": "subject-12",
+      "accepted": true,
+      "reason": "The guarantee is described as an answer to the revocable-trust objection, Fortune's father-and-son framing is named, and the Musk passage states the $2 billion suggestion and drops 'unhedged'."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "The misreading is removed. The section quotes 'Bill Clinton is like me in that regard' and the 'Yes and no' answer and counts the passage for Type 3 at face value, which matches S03."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "The section opens on the 1997 father passage, states the CIA contract from S27 beside McAllister's objection, and says the commercial explanation reaches back further. All three check against the sources."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "The partnership is confirmed in two opened 1999 reports and named where the Milken remark is used and in the second-reading paragraph. The unconfirmed $250 million share is not stated."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "The rank evidence is in the Type 3 section with Fortune's sentence and his own Playboy line, both verbatim, and the founding sentence is limited to the two accounts."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "PeopleSoft is stated with its dates and price from The Register and the vanity answer sits in that context. No job-cut figure is given."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "'Absolutely' and the America's Cup wins are added from S03 and S27. Leaving out the 2013 penalty for want of an opened source is allowed by the test; I carry it forward in verify-06."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Age 12, the adoptive mother and her death during his second year are stated with sources and no causal claim."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Rejection accepted. The acceptance test allows leaving the Castle Rock story out with a recorded reason, and the reason holds: it is his own 2016 reconstruction with no second account opened, and the body is 37 words under the limit."
+    },
+    {
+      "finding_id": "fan-09",
+      "accepted": true,
+      "reason": "Same repair as subject-10, checked against S41."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The work sentences on both sides of the block quote are now quoted and the text says overwork is what a Three would say. The FAQ matches."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "The second-person discount is gone and one rule is stated for both sets of self-reports ('polished like the Type 3 ones, and they get the same weight')."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The cost claim is withdrawn in so many words, the span is 1997 to 2010, and the answer, FAQ and description now say only what the record shows."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "'Conceded nothing' and the blame-the-contractor counterfactual are gone; the summary matches S03, S07 and S08, including 'joking by The Register's account'."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Education Week and The Nation were opened and I reopened both. 'Nobody had asked' is replaced by what the transcript shows."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "The paragraph follows Fortune: the board's revocable-trust objection, the guarantee, the promise not to revoke. The analogy and 'no explanation' are cut and the guarantee is called not evidence of type."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "'Unhedged' and 'large' are gone and the $2 billion suggestion and $1 billion outcome are stated. The text still lists it under what keeps Type 8 ahead while conceding it cost him nothing; that is a weak use, plainly labelled, and another reviewer protected it."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Same repair as fan-04; the founding sentence now reads 'Neither account mentions'."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "The 1990 facts and the 1993 settlements are in the cost section with their labels, and the concession quote points at them. The registry entry could not be written in the edit stage; it is carried in verify-06."
+    },
+    {
+      "finding_id": "critic-10",
+      "accepted": true,
+      "reason": "The 'lifelong Democrat' fragment is cut, which the test allows."
+    },
+    {
+      "finding_id": "critic-11",
+      "accepted": true,
+      "reason": "The CIA contract is stated with its source, the police sentence is restored and the type reading 'sits beside' the commercial one."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "A new paragraph before the type heading says what Oracle makes, that it made him one of the richest people in the world and why Microsoft was the rival, with no net-worth figure."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "The section opens with what he says Oracle was trying to prove, labelled as his account and matching S03."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The last third is regrouped under headings that match their contents, each paragraph says what it shows or does not, True the Vote and CNN's owner are identified, and the rename is stated once."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Hurd's role and the circumstances of his exit are given as Reuters reports them and the dangling board-vote sentence is gone."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Same repair as subject-01; a reader can now state both sides from the page."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "'His adoptive mother, the only mother he then knew of' and 'whom neither interview names' are both accurate to S02, S03 and S04."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "'He was aboard his 80-foot yacht Sayonara' and the 'absolute limits' quotation are both in S10."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "The sailboat exhibit and its heading are removed and the deciding paragraph names its evidence directly."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "accepted": true,
+      "reason": "Rosebud is explained in one clause without claiming to know what Jobs meant, and the CBS follow-on sentence is now in the opening."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "The cost claim is withdrawn, the brand-consistent Type 3 reading is stated in full and the text concedes that public conduct cannot separate the two."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "The fix meets the test as written: one rule for both sets of self-reports, Clinton as self-application, the elevator remark and the shifting word named as image evidence. The embellishment sentence matched what the record knew at edit time. It no longer matches what can be opened; see verify-01."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "The first-wife exhibit and its heading are removed and the discriminator no longer rests on it."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The text says he names fear and not anger, gives two sourced instances of the fight, labels the Type 8 account as an inference and concedes the core-emotion evidence is thin."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Type 6 is tested on behaviour with the curfew, 'the contradiction shrinks' and 'always liked' are cut, and the question is left open."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The Type 7 paragraph is cut, which the test allows."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "The deal-mechanics reading comes first, 'a wealthy parent of any type might have signed', and the heading no longer asserts sameness."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "The gloss is marked as the profile's reading and the ending says what the word difference does not settle."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "The fix meets the test's second option: the books are named as unread, the effect of an embellishment record is stated and C47 and C58 are unresolved with triggers. The verifier's own check then found that record reported in three openable reviews; that is raised separately as verify-01."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "The guarantee is a dated late episode with its limits stated and C26 is out of the type-supporting claims."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "The FAQ now carries 'according to a published transcript' and C50, C13 and C25 have triggers."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The aside is removed, the Lanai paragraph is cut back to the opened source and the pre-release conditions are explicit research tasks."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "The heading and anchor carry no age; 'then 81' stays tied to December 22, 2025."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "The FAQ question drops 'now', the answer keeps its date and the body paragraph is reduced to the 2014 fact."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "'At 59' and 'Two years earlier' are gone; the opening uses only the two publication dates."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": true,
+      "reason": "Both uses of 'four decades' are replaced with year ranges that match the dated evidence."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "That is one side of a relationship, told as a joke decades later. Louis Ellison's side is not on the record, so it stays a story Ellison tells and not a proven cause.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "A six-year-old afraid his mother will not come home fits every type equally. It is better left unexplained.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "Each episode has a second reading. Milken was a wealthy, well-connected ally. Hiring Hurd was a coup against a competitor. A man with an outlaw's reputation can gain from owning a scandal loudly. Any one of these could be calculation.",
+      "preserved": true,
+      "reason": "Changed for accuracy and the contribution is kept: each act still gets its self-interested reading before the inference. 'Business partner as well as a friend' is supported by S37 and S42. The replacement Hurd sentence calls HP only 'a competitor'; Reuters calls it a major partner too (verify-03)."
+    },
+    {
+      "passage": "An Eight's need for control explains how a workplace, a marriage or a stock sale ends up arranged around one man's judgment. It is an explanation of the pattern and no defense of any instance of it.",
+      "preserved": true,
+      "reason": "One phrase changed, 'a stock sale' to 'a sales culture', which is right now that the Delaware finding is on the page. The explain-without-excusing sentence is unchanged."
+    },
+    {
+      "passage": "It records nothing he said.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "Admired in one telling, respected in the other. It could be a slip of memory forty years on. It is also the open question about him.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "His answer to fear is to get his hands on the controls. He says nothing there about how failure would look.",
+      "preserved": true,
+      "reason": "Changed to add 'to work harder and', which the source requires: the answer opens and closes on work. The plain-language statement of the discriminator is kept."
+    },
+    {
+      "passage": "The line most attached to Ellison is that \"it is not sufficient that I succeed; everyone else must fail.\" He says it isn't his.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "An Eight at ease can be gentle, so some of this fits. A six-year-old afraid his mother will not come home fits every type equally. It is better left unexplained.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "None of this is conclusive. Grove knew him, and his remark is the best outside evidence that the persona is managed.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "The conviction concerned the forged email. It did not rule on everything about a relationship between a chief executive and an employee, and the available accounts tell the story mostly from Oracle's side.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "His conclusion: \"I can run a company out of business all by myself. So I thought, next time, if the company was going to go down, I was going to be out front.\"",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "It is a joke. It also reads as an accurate self-portrait: a man who met a real limit, respected it, and still left himself an opening.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "The Type 3 case is strong, and most of it comes from Ellison.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "If the outlaw is a role, then the trash press conference and the Milken remark are performances too, and the Eight turns out to be a Three with unusual branding.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "But it was a private message, and it shows the same reflex as the public ones: quick, large, unhedged backing for someone inside his circle.",
+      "preserved": true,
+      "reason": "Changed because Fortune contradicts 'large' and 'unhedged'. It is still presented as the one piece of evidence where no audience was expected."
+    },
+    {
+      "passage": "He concedes fault more easily than the stereotype allows.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    },
+    {
+      "passage": "Twenty-one years apart, before and after the fortune, the motive he gives is the same.",
+      "preserved": true,
+      "reason": "'Before and after the fortune' was removed because Oracle already had about $2 billion in sales when he gave the 1995 account. The dated 1995 and 2016 comparison is kept."
+    },
+    {
+      "passage": "These are claims in a complaint. As of November 2026, no ruling on them had been found for this profile.",
+      "preserved": true,
+      "reason": "Present word for word in the candidate."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.1,
+      "reason": "Every quotation in the body and FAQs was found word for word in its source when I reopened 34 cited sources, and context is faithful: the hinge answer now shows the work sentences on both sides, and the court finding is quoted from the opinion. Self-report, third-party report and inference are kept apart in the prose. What holds it near the anchor and not above: almost all of it is his own testimony, several sensitive items rest on one secondary source (Kalat, TheWrap, Engadget, one trade item), and the research did not weigh an openly reported record that he embellished his own story (verify-01).",
+      "passage": "Most of the evidence is Ellison's own testimony from 1995 to 2024, which is exactly what a managed image would manage."
+    },
+    "enneagram": {
+      "score": 7.6,
+      "reason": "The reasoning is careful: Type 3 is argued at full strength in his own words, the brand-consistent objection is conceded, Type 6 is tested on behaviour, the core-emotion gap is admitted and no wing or arrow is used as a rescue. But the argument ends without a discriminator the alternative fails. The text says public conduct cannot separate the two and that no source shows a cost, so the lead rests on four self-reports, and the strongest outside evidence for the rival, the reported habit of inventing self-flattering details, is left as an 'if'. Against the anchor it has the tested alternative but not the repeated costly choices or the failed discriminator.",
+      "passage": "What keeps Type 8 ahead is evidence that does not depend on an audience, and there is less of it than a confident typing would want."
+    },
+    "originality": {
+      "score": 8.8,
+      "reason": "The spine is specific to him and I have not seen it elsewhere: the same story told with 'admired' in one interview and 'respected' in another, both verified. The Genghis Khan correction, the father whose faith in government he says he rejected and then echoed, and the thousand-year vow are details that change how a reader sees him. Type boilerplate is limited to one short paragraph.",
+      "passage": "Admired in one telling, respected in the other. It could be a slip of memory forty years on. It is also the open question about him."
+    },
+    "writing": {
+      "score": 8.0,
+      "reason": "Plain, exact sentences and a strong first two thirds; the storm section is the best scene and the ending returns to the opening without forcing a verdict. The last third is a run of dated controversy paragraphs that read as a record more than a portrait, scope statements about the profile itself recur, and at 4,463 words it sits at the release ceiling, about a thousand over the target.",
+      "passage": "It is a joke. It also reads as an accurate self-portrait: a man who met a real limit, respected it, and still left himself an opening."
+    },
+    "durability": {
+      "score": 8.2,
+      "reason": "Remove everything after 2016 and the portrait stands: it rests on dated self-report from 1995 to 2016 and three dated episodes. Changing facts carry absolute dates and triggers, and the pending suit is labelled as a complaint with an as-of date. The risks are that the final section holds four paragraphs of 2025 and 2026 deal news, five pre-release checks are open, and the type call could move on evidence that is old and already published.",
+      "passage": "These are claims in a complaint. As of November 2026, no ruling on them had been found for this profile."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "Opens on a sourced, specific discrepancy in his own telling of one story, sets it up in three short paragraphs, and the article pays it off by testing the difference and returning to it in the last lines.",
+      "passage": "Larry Ellison has told the same story about his sister at least twice, and the key word changes."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "The type heading is followed by a plain answer under 60 words, seven FAQs answer real searches (type, 3 versus 8, why he started Oracle, the Genghis Khan line, insider trading, the 1998 race, his role) with anchors that match the headings, and metadata agrees with the body. Internal links go to three related people and three type pages. The meta title does not say Enneagram, and the type FAQs will need to follow any repair to the type argument.",
+      "passage": "Larry Ellison is best read as an <a href=\"/enneagram-corner/enneagram-type-8\">Enneagram Type 8</a>, the Challenger, at medium confidence."
+    }
+  }
+}

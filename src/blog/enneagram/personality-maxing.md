@@ -227,7 +227,7 @@ This reveals the _conditions_ that unlock your superpowers.
 
 Now the harder part. But the more important one.
 
-Just as you have predictable strengths, you have predictable stress responses. The Enneagram calls this your "arrow of disintegration" or "stress point."
+Just as you have predictable strengths, you have [predictable stress responses](/enneagram-corner/enneagram-types-in-stress). The Enneagram calls this your "arrow of disintegration" or "stress point."
 
 But let's use better language: **these are your triggers.**
 

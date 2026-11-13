@@ -1,0 +1,38 @@
+{
+  "schema_version": 3,
+  "subject": "drew-afualo",
+  "mode": "create",
+  "started_at": "2026-11-13T07:00:11.497Z",
+  "stages": {
+    "research": {
+      "status": "failed",
+      "started_at": "2026-11-13T10:17:52.526Z",
+      "cache_key": "f7f4b735c7cd685400c2795f418309b3ca2331ad9ce1825f938aac5501e4c6af",
+      "input_hashes": {
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "project_settings": "92ec65632b0a8936eec4ac5881689468eba9793005b06fc148d83566d8c403df",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "2309b5e30b61bcd1b9c31ccf0f3c6c4f8645c94d034e018f7d162cf7858217a6",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "06672b314cfbc5c8bf73be56fcd68f0479bbba013738ae331ec057605c31ff66",
+        "contract": "cc23b69617977bdf40360bf1b8b08813e8eb1407123707eb60863587c69d7764",
+        "runner": "ca10cd6ca7e34093db03b00c0ce8097e846ec2f8a51a24be8b80873277fc0636"
+      },
+      "model": "CLI default",
+      "error": "Stage timed out",
+      "finished_at": "2026-11-13T11:23:29.466Z",
+      "duration_seconds": 3937
+    }
+  },
+  "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "materialized_sha256": null,
+  "expanded": false,
+  "run_status": "failed",
+  "editorial_status": "pending",
+  "current_stage": "research",
+  "error": "Stage timed out",
+  "completed": false,
+  "person": "drew-afualo",
+  "draft_path": "/Users/djwayne/9takes/src/blog/people/drafts/drew-afualo.md",
+  "log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-13_07-00-11-493_drew-afualo"
+}

@@ -95,7 +95,7 @@ Your neighboring types dramatically shape how your 3 energy expresses.
 
 ### The Three Subtypes: Three Very Different Achievers
 
-Here's where it gets interesting. The three instinctual subtypes of Type 3 look dramatically different from each other—to the point where they can mistype as completely different numbers.
+Here's where it gets interesting. The [three instinctual subtypes](/enneagram-corner/enneagram-instinctual-subtypes) of Type 3 look dramatically different from each other—to the point where they can mistype as completely different numbers.
 
 **Self-Preservation 3 ("Security")**: The counter-type. SP-3s are the least image-conscious 3s. They achieve through hard work and efficiency rather than self-promotion. They want to _be_ good, not just look good. Often mistaken for Type 1s: workaholic perfectionists who finish tasks before anyone notices the need. They have "vanity for having no vanity." Their drive comes from material insecurity: get the promotion, accumulate enough money, buy the big house, _then_ they'll finally feel secure. They hate being seen as show-offs and actively hide accomplishments.
 

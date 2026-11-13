@@ -368,7 +368,7 @@ If anything, your perception makes it worse. You see through the facade AND stil
 
 ## The Three Flavors of Four
 
-Not all Fours look alike. Your instinctual subtype shapes how your core patterns show up.
+Not all Fours look alike. Your [instinctual subtype](/enneagram-corner/enneagram-instinctual-subtypes) shapes how your core patterns show up.
 
 **Self-Preservation Four: "Tenacity"**
 

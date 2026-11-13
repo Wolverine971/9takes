@@ -121,7 +121,7 @@ None of this was planned. It was emergent. And the reason it worked is that thes
 
 There's a reason people say "I feel like I know Joe Rogan" in a way they never said about a news anchor.
 
-Psychologists call them parasocial relationships: one-sided connections in which an audience member feels close to a media figure. Podcasts can strengthen that bond through recurring voices, self-disclosure, and the intimacy of headphone listening. A preregistered survey of 306 adults found that parasocial bonds with podcast hosts were associated with listeners' sense of relatedness, but it did not show that listening is equivalent to friendship or that podcasts cause loneliness. ([Tobin & Guadagno, 2022](https://doi.org/10.1371/journal.pone.0265806))
+Psychologists call them [parasocial relationships](/pop-culture/parasocial-relationships-enneagram-type): one-sided connections in which an audience member feels close to a media figure. Podcasts can strengthen that bond through recurring voices, self-disclosure, and the intimacy of headphone listening. A preregistered survey of 306 adults found that parasocial bonds with podcast hosts were associated with listeners' sense of relatedness, but it did not show that listening is equivalent to friendship or that podcasts cause loneliness. ([Tobin & Guadagno, 2022](https://doi.org/10.1371/journal.pone.0265806))
 
 Over dozens of episodes, listeners build a more detailed mental model of a podcast host than they have of most people in their actual lives. They know how the host responds to conflict, what makes them uncomfortable, how they treat people they disagree with.
 

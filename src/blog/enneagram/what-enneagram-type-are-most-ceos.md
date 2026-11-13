@@ -331,7 +331,7 @@ Data pulled October 7, 2026, from the 451 published profiles on 9takes. The busi
 **Investors (15)**
 
 - Type 1: Michael Seibel
-- Type 3: Chamath Palihapitiya, [Jason Calacanis](/personality-analysis/jason-calacanis)
+- Type 3: [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya), [Jason Calacanis](/personality-analysis/jason-calacanis)
 - Type 5: Marc Andreessen, Ray Dalio, Warren Buffett
 - Type 6: Ben Horowitz, Dalton Caldwell, David Sacks, Garry Tan, Joe Lonsdale, Peter Thiel
 - Type 7: Cathie Wood, Paul Graham, Reid Hoffman
@@ -342,7 +342,7 @@ Data pulled October 7, 2026, from the 451 published profiles on 9takes. The busi
 - Type 2: Simon Sinek
 - Type 3: [David Beckham](/personality-analysis/david-beckham), Jared Kushner, Kris Jenner, Taylor Swift, Tony Robbins, Tyler Perry, Vivek Ramaswamy
 - Type 4: [Emma Chamberlain](/personality-analysis/emma-chamberlain)
-- Type 5: Lex Fridman, [Tyler Cowen](/personality-analysis/tyler-cowen)
+- Type 5: [Lex Fridman](/personality-analysis/lex-fridman), [Tyler Cowen](/personality-analysis/tyler-cowen)
 - Type 7: Kate Hudson, [Kyle Forgeard](/personality-analysis/kyle-forgeard), Ryan Reynolds
 - Type 8: [Kara Swisher](/personality-analysis/kara-swisher), Scott Galloway
 - Type 9: Nate Bargatze

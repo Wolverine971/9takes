@@ -368,7 +368,7 @@ When conflict becomes "me vs. you," someone has to lose. That pushes you into po
 
 Are you truly hearing your partner, or are you just waiting for your turn to speak?
 
-Active listening means your goal is to understand, not to prepare a rebuttal. If you're building your response while they talk, you're already in defense mode.
+[Active listening](/how-to-guides/ultimate-guide-to-active-listening) means your goal is to understand, not to prepare a rebuttal. If you're building your response while they talk, you're already in defense mode.
 
 **Signs you're not truly listening:**
 

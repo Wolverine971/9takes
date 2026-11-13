@@ -1,0 +1,197 @@
+{
+  "target": {
+    "person": "larry-ellison",
+    "type": "8",
+    "units": 9,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-11-11_07-00-02-719_larry-ellison/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "jay-z",
+      "date": "2026-11-06",
+      "units": 7
+    },
+    {
+      "person": "charlize-theron",
+      "date": "2026-08-17",
+      "units": 32
+    },
+    {
+      "person": "Duke-Dennis",
+      "date": "2026-08-15",
+      "units": 42
+    },
+    {
+      "person": "Khabib-Nurmagomedov",
+      "date": "2026-08-13",
+      "units": 39
+    },
+    {
+      "person": "Nara-Smith",
+      "date": "2026-08-04",
+      "units": 47
+    },
+    {
+      "person": "Tyler1",
+      "date": "2026-07-29",
+      "units": 16
+    },
+    {
+      "person": "gordon-ramsay",
+      "date": "2026-07-08",
+      "units": 40
+    },
+    {
+      "person": "nicki-minaj",
+      "date": "2026-06-29",
+      "units": 24
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2223,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.005,
+    "max": 0.024
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Khabib-Nurmagomedov",
+      "date": "2026-08-13",
+      "units": 39,
+      "maxScore": 0.024
+    },
+    {
+      "person": "Duke-Dennis",
+      "date": "2026-08-15",
+      "units": 42,
+      "maxScore": 0.023
+    },
+    {
+      "person": "charlize-theron",
+      "date": "2026-08-17",
+      "units": 32,
+      "maxScore": 0.017
+    },
+    {
+      "person": "gordon-ramsay",
+      "date": "2026-07-08",
+      "units": 40,
+      "maxScore": 0.017
+    },
+    {
+      "person": "nicki-minaj",
+      "date": "2026-06-29",
+      "units": 24,
+      "maxScore": 0.009
+    },
+    {
+      "person": "Tyler1",
+      "date": "2026-07-29",
+      "units": 16,
+      "maxScore": 0.009
+    },
+    {
+      "person": "Nara-Smith",
+      "date": "2026-08-04",
+      "units": 47,
+      "maxScore": 0.007
+    },
+    {
+      "person": "jay-z",
+      "date": "2026-11-06",
+      "units": 7,
+      "maxScore": 0.005
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.024,
+      "other_person": "Khabib-Nurmagomedov",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is an interpretation of public evidence",
+      "other": "[diagnosis] this is real talk.\" That sentence structure is a personality type."
+    },
+    {
+      "score": 0.023,
+      "other_person": "Duke-Dennis",
+      "shared_phrases": [],
+      "target": "[diagnosis] Eights settle the autonomy question by taking charge of their surroundings before anyone else can.",
+      "other": "[diagnosis] years before anyone would have called it a diagnosis."
+    },
+    {
+      "score": 0.019,
+      "other_person": "Khabib-Nurmagomedov",
+      "shared_phrases": [],
+      "target": "[diagnosis] Two biographies that could shift the picture",
+      "other": "[diagnosis] But the textbook Type 8 spends a lifetime dismantling every authority that could stand over them."
+    },
+    {
+      "score": 0.017,
+      "other_person": "charlize-theron",
+      "shared_phrases": [],
+      "target": "[diagnosis] Matthew Symonds's Softwar and Mike Wilson's The Difference Between God and Larry Ellison",
+      "other": "[counter-typing] and Theron keeps taking hers apart in public"
+    },
+    {
+      "score": 0.017,
+      "other_person": "gordon-ramsay",
+      "shared_phrases": [],
+      "target": "[diagnosis] Matthew Symonds's Softwar and Mike Wilson's The Difference Between God and Larry Ellison",
+      "other": "[diagnosis] Most people see Gordon Ramsay as an angry chef."
+    },
+    {
+      "score": 0.016,
+      "other_person": "gordon-ramsay",
+      "shared_phrases": [],
+      "target": "[diagnosis] Matthew Symonds's Softwar and Mike Wilson's The Difference Between God and Larry Ellison",
+      "other": "[diagnosis] The difference is partly editing — the US producers amplify confrontation with dramatic scoring and quick cuts."
+    },
+    {
+      "score": 0.013,
+      "other_person": "Khabib-Nurmagomedov",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is an interpretation of public evidence",
+      "other": "[diagnosis] this is a man who describes fight week as war and means it as a compliment to the opponent. 2 rounds judges scored against Khabib across his entire 13-fight UFC career (GiveMeSport"
+    },
+    {
+      "score": 0.012,
+      "other_person": "charlize-theron",
+      "shared_phrases": [],
+      "target": "[diagnosis] Matthew Symonds's Softwar and Mike Wilson's The Difference Between God and Larry Ellison",
+      "other": "[diagnosis] and Theron spent the years after her Oscar buying the machinery that issues it. ---"
+    },
+    {
+      "score": 0.01,
+      "other_person": "Khabib-Nurmagomedov",
+      "shared_phrases": [],
+      "target": "[diagnosis] Most of the evidence here is Ellison's own testimony across four decades",
+      "other": "[diagnosis] Khabib's English was a few months old."
+    },
+    {
+      "score": 0.009,
+      "other_person": "nicki-minaj",
+      "shared_phrases": [],
+      "target": "[diagnosis] Most of the evidence here is Ellison's own testimony across four decades",
+      "other": "[diagnosis] Nicki's career reads like that survival logic in motion."
+    },
+    {
+      "score": 0.009,
+      "other_person": "Tyler1",
+      "shared_phrases": [],
+      "target": "[diagnosis] the three types organized around anger and autonomy.",
+      "other": "[diagnosis] and he organized the next phase of his career around becoming eligible to return."
+    },
+    {
+      "score": 0.008,
+      "other_person": "Tyler1",
+      "shared_phrases": [],
+      "target": "[diagnosis] the three types organized around anger and autonomy.",
+      "other": "[diagnosis] Type 8 remains the best fit because his achievements repeatedly serve autonomy."
+    }
+  ]
+}

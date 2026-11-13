@@ -1,0 +1,28 @@
+The Larry Ellison repair candidate does not pass verification: status is `revise`, overall 8.1 against the 8.5 floor, and the Type 8 argument scores 7.4 against a floor of 8. Since the one repair has already been used, this run becomes a hold. `verification-repair.json` is written and parses against the contract schema; no other repo file was touched.
+
+**What held up**
+- All 84 quotations on the page match their sources word for word. I re-fetched all 36 sources the claims rely on and read the context around each.
+- The Delaware ruling checks out against the court's own PDF; the Justia link the page cites returns 403.
+- Metadata, FAQs and anchors agree with the body, and all 19 protected passages are preserved or changed for a sourced reason.
+
+**Why it fails**
+The repair swapped in a new reason for Type 8 over Type 3 after the six-reviewer jury had finished, and that reason is asserted without evidence. The page says pushing out Ray Lane and humiliating opponents "add no admiration" and buy control "at the expense of admiration." Two things cut against that and are missing from the page:
+
+- **Lane was the one getting the credit.** Three reports from July 3, 2000 (The Register, Reuters via Wired, Computerworld) say he resigned with no reason given, was "widely credited" with Oracle's recovery, and that Ellison took his titles. Removing the credited deputy is just as much what a Three would do.
+- **The biographer reads him as a Three.** The same review that supplies "he had to humiliate them" gives Wilson's theme that Ellison "wants desperately to be loved, even idolized." The page uses the line that helps Type 8 and leaves that out.
+
+This is the same gap three reviewers flagged before the repair (critic-03, enneagram-01, enneagram-03), so I marked those three decisions as not accepted. The type call may still be right; the page just hasn't shown it.
+
+**Other scores:** evidence 8.2, originality 8.8, writing 7.8, durability 8.3, hook 9.0, discoverability 8.6.
+
+**Minor findings (not blocking)**
+- "Cost him nothing" describes a $1 billion investment.
+- The airport-curfew example omits that he moved the jet anyway after winning in court.
+- The 2013 America's Cup win is stated without the cheating penalty; NetSuite is absent.
+- The controversy registry has no Ellison entries.
+- The five pre-release source checks are still open.
+- The merger closing date has no claim behind it in the evidence record.
+
+**Next step:** the file lists eight research tasks. The key ones are adding the three Lane reports, testing the unused third-party evidence already in the opened sources (Siebel, Conway, the "dictator" line), then running `--refresh --expanded-review` so the revised argument gets a full jury.
+
+One disclosure: while reading the run directory I saw the previous verification's scores, which the stage instructions say not to inspect. I scored from my own source checks, but my numbers landed close to those, so treat them as not fully blind.

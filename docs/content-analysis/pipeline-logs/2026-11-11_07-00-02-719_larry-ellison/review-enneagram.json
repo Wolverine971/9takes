@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "9244ac5c2c6400c02e6b286ae89991440775e7f5bf5b053ee9d8546389b1d0c9",
+  "evidence_sha256": "fe923b780164ac909171d585bea1bc9e23de015890066bd185f09c13452a0430",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Across four decades, though, the thing these choices reliably cost him is approval, and he keeps paying.",
+      "problem": "The discriminator depends on these choices costing him approval, and the article never shows the cost. No source on the page records approval lost over Milken, the trash press conference or the Hurd email, and the dated episodes run 1997 to 2010, not four decades. The Three being ruled out is a stereotype who courts everyone. A Three adapts to the audience whose admiration he wants, and for the man CBS titled 'The World's Most Competitive Man' that audience rewards the unapologetic fighter. Each cited act feeds that image, so a Three with a winner's brand would make the same three moves. As written, the test separates Ellison from a people-pleaser, not from the alternative the article names. Grove's remark is left standing as an unanswered objection.",
+      "acceptance_test": "For each episode offered as proof, the text names whose approval was at stake and cites something showing it was lost, or the episode is no longer counted as a cost. The Type 3 section states the brand-consistent reading (defiance is what his audience admires) and answers it with evidence that does not depend on an audience, or says plainly that it cannot. The record already holds candidates: the court-disclosed private Musk text, no recorded reply to his own employees' 2020 protest, and giving up the chief executive title while keeping control. The 60-word answer, FAQ 2 and the description match whatever discriminator survives."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "**The void passage is less of a confession than it looks.** He was answering a leading question and speaking in the second person. He named two routes to earned love, charm or achievement, without saying which was his.",
+      "problem": "Self-report is weighed by two standards. Statements that favor Type 8 are taken at face value, including a prepared commencement line the article calls 'the detail that matters most for typing him' and his own claim that fashion and love lost 'in my case'. Statements that favor Type 3 are discounted on form: leading question, second person, television. The discount is also weaker than stated, because the same answer ends with him comparing himself to Clinton and Churchill, which the article reports three paragraphs earlier. Two pieces of first-person image evidence already on the page are never weighed in the type argument: he says being looked at as a predator was worse than nearly dying at sea, and his key story changes its key word between tellings. The evidence record's research tasks call Mike Wilson's embellishment record 'documented', while the article presents it as a hypothetical ('if they show a habit').",
+      "acceptance_test": "The same discount (prompted, polished, said for an audience) is applied to the Type 8 self-reports and the Type 3 self-reports, or the text says why one set deserves more weight. The Clinton and Churchill comparison is treated as self-application. The Type 3 case names the elevator remark and the shifting self-narration as evidence it has to carry, without using the Lee allegation as proof of type. The embellishment sentence matches what the evidence record actually knows about Wilson's book."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "**The direction of the costly choices.** A Three under pressure usually adjusts to protect how he is seen. Ellison's record shows the reverse, and he says so. In the USC speech he described his first wife divorcing him after he wanted to buy a sailboat, which she took as proof he lacked ambition.",
+      "problem": "The only exhibit under the heading that carries the discriminator is not a costly choice. It is a moral from a prepared commencement speech, the divorce was her decision, and nothing in it sets approval against control. The same speech supplies the Type 3 case two paragraphs earlier (the family wanted a doctor and he failed to become one). The evidence record itself says of this passage that a young man who reshaped himself to be what others wanted 'also fits a Type 3 beginning', and USC's report has him saying he was 'unable to live up to expectations of others'. A Three who stops living other people's dreams tells exactly this story. 'He says so' rests the behavioral claim on self-description.",
+      "acceptance_test": "The exhibit under this heading is an observed choice with a dated source in which looking good and staying in charge pointed different ways. The first-wife story, if kept, is presented as his own retrospective account with the Type 3 reading of it stated beside the Type 8 one."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "Type 8 belongs to the Enneagram's body triad, the three types organized around anger and autonomy.",
+      "problem": "The article names anger as the type's core emotion and then never shows it in Ellison. The engine he names himself is fear (head triad language), and his other self-explanation is the love void (heart triad language). The evidence record lists this under evidence against Type 8 ('fear of failure, not anger or injustice'), and the article does not confront it. The hinge reading of the control quote does not close the gap: he says control keeps him from 'risk of failure', which is control against failing, not control against being dominated by other people. A Three, a One or a Six could say that sentence. Material for the anger case is in the record but is used only as examples of unpopularity: the 'idiots' email, the 'gloves off' feud with Gates, Lane's ouster, the 'brutal attacks' question in the 1997 interview. So is the most Eight-specific pattern available, his minimizing of fear as an adult (C40: a storm at sea never produced 'the same kind of deep fear that I felt as a child'; S09: 'Fear doesn't really accomplish very much').",
+      "acceptance_test": "After the triad sentence, the article shows with at least two sourced instances how anger or againstness operates in him, and states directly that what he names as his engine is fear and how the Type 8 reading accounts for that. Alternatively it concedes that the core-emotion evidence is thin and counts that toward medium confidence. The control quote is no longer described as specific to an Eight unless the text shows the control is aimed at other people's power over him."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "Read through the type, the contradiction shrinks. What Ellison has resisted since childhood is authority over him. Order enforced by systems he builds is something he has always liked.",
+      "problem": "The type is used to dissolve the one contradiction that tests it. The state systems he endorses are not ones he controls: 'I would rather trust our government to protect us' is trust in an authority above him, and NSA collection covers him too. 'Always liked' has no source. The article also never mentions Type 6, although its own evidence forms the usual counterphobic Six cluster: fear named as the engine, order and control as the remedy 'so that I'm not at risk', 'doubting the experts, and questioning authority' as his lifelong core trait, trust in government protection over 'blind luck', and loud loyalty to friends in disgrace. Type 7 gets a paragraph and Type 6 gets none. An Enneagram-literate reader will ask.",
+      "acceptance_test": "Type 6 is tested beside Types 3 and 7 with a sourced behavioral discriminator (for example, how he acts toward allies and authorities when the stakes are his own), not by the mere absence of anxiety, which the standard rules out. The surveillance section either drops the claim that the type shrinks the contradiction or shows that the order he favors is order he controls. 'Always liked' is sourced or cut."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "But a Seven keeps options open, and Ellison stayed with one company for nearly fifty years.",
+      "problem": "Stereotyped dismissal. Tenure as founder and controlling shareholder is not evidence against Type 7 (the evidence record says as much under C59), and long-tenured founder Sevens are common. The article then undercuts its own test: the storm section ends by praising him because he 'still left himself an opening'. The evidence record holds a better discriminator that the draft does not use: he returns to hard things after they hurt him and describes risk as a test of limits and control, not as escape.",
+      "acceptance_test": "The Type 7 dismissal rests on a motive-level difference supported by a cited passage, such as going toward the painful limit instead of reframing away from it, or the paragraph is cut. It no longer conflicts with the reading of the 1,000-year vow."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "It is the trash press conference at a different scale: a public doubt about his word, answered with force and no explanation.",
+      "problem": "The pattern is padded with an instance that is not one. In the guarantee, approval and control do not conflict, so it cannot illustrate the discriminator. A personal guarantee given after the target board called the financing 'illusory' is deal mechanics, and a wealthy father of any type backing his son's bid would sign it. That makes it a shared act, which the standard treats as weak type evidence. 'Force' reads character into a financing term, and 'no explanation' is only the absence of a comment in one report of a company statement. The next sentence concedes the point but leaves the equivalence, and the section heading ('the same move'), in place.",
+      "acceptance_test": "The guarantee is presented as backing for his own people with the deal-mechanics reading given equal weight, and is not equated with the trash press conference or counted as an instance of choosing control over approval. The heading does not assert sameness that the section then qualifies."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "A man who needs to be admired arranges his life around how he looks to other people. A man who needs to be respected arranges it so that nobody can push him around.",
+      "problem": "The frame for the whole typing question maps 'respected' onto the Eight's autonomy, and that mapping is the author's, not Ellison's. Respect is as much a Three word (and a One or Five word) as an Eight word. Both tellings set standing against love and end with him conceding that love matters more. The closing section then merges the two words into 'standing', so the word difference the opening calls 'the open question about him' is never resolved, and it is not the control-versus-approval question the article actually argues.",
+      "acceptance_test": "The gloss on 'respected' is marked as the author's reading. The question the opening poses is the one the type sections test and the ending answers, or the ending says what the admired/respected difference does and does not settle."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The Type 3 case is strong, and most of it comes from Ellison.",
+      "reason": "Opens the alternative at full strength in the subject's own words instead of a token rival. Keep the alternative argued at this weight."
+    },
+    {
+      "passage": "If the outlaw is a role, then the trash press conference and the Milken remark are performances too, and the Eight turns out to be a Three with unusual branding.",
+      "reason": "States the real threat to the thesis more sharply than most type pages manage. Any repair to the discriminator should answer this sentence, not remove it."
+    },
+    {
+      "passage": "A six-year-old afraid his mother will not come home fits every type equally. It is better left unexplained.",
+      "reason": "Refuses to turn a single childhood memory into a wound theory or an arrow story. This restraint is the standard working as intended."
+    },
+    {
+      "passage": "But it was a private message, and it shows the same reflex as the public ones: quick, large, unhedged backing for someone inside his circle.",
+      "reason": "The only evidence on the page of the pattern holding where no audience was expected, which is what the managed-persona objection needs answered. It deserves more weight in the Type 3 argument, not less."
+    },
+    {
+      "passage": "He concedes fault more easily than the stereotype allows.",
+      "reason": "Lets the person contradict the Eight caricature and keeps the section on what the type does not explain honest. No wing or arrow is invoked to absorb it."
+    }
+  ],
+  "assessment": "Type 8 at medium confidence is a defensible leading read, and the draft does several things well: it names no wing, uses no stress or growth arrow to rescue a contradiction, argues Type 3 from Ellison's own words, and keeps a section for what the type does not explain. The weakness is the discriminator. 'Takes control and absorbs the disapproval' is a behavior, and the draft tests it against a Three who courts everyone. A Three whose brand is the unapologetic winner would make the same moves, the cost in approval is asserted and never shown, and the lead exhibit is a commencement-speech moral that the evidence record itself says fits a Three. Self-report is discounted when it favors Type 3 and accepted when it favors Type 8. The triad sentence promises anger, and the page delivers fear in his own words without confronting the mismatch. The same fear, order and authority cluster makes Type 6 a live question the draft never raises. None of this requires a retype. The record already contains better Type 8 material than the draft uses: private conduct with no audience, his minimizing of adult fear, and control kept after the title was given up. If the repairs cannot produce a discriminator that beats a brand-conscious Three, the honest outcome is lower stated confidence, not more instances. Similarity diagnostic: not tripped, top score 0.024 at the noise-floor maximum with no shared phrases, and the matched units are unrelated sentences. The argument is specific to this subject. Limitation: the comparison set is eight recent drafts and does not include the sibling founder pages (Jobs, Gates, Musk, Bezos) where a control-centered case is most likely to recur. I did not open them, and I did not reopen sources. Record-based points above rely on the excerpts and notes in evidence-draft.json."
+}

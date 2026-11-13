@@ -100,7 +100,7 @@ How it is measured matters too. Forensic and clinical assessments often use Robe
 
 ### Why there is no scientific Enneagram crosswalk
 
-A 2021 systematic review examined 104 independent Enneagram samples and found mixed evidence for reliability and validity. Some findings partially aligned with Enneagram theory, while factor analyses often found fewer than nine factors, no reviewed work derived the nine types through clustering, and evidence for secondary concepts such as wings and intertype movement was limited. ([Hook et al., 2021](https://doi.org/10.1002/jclp.23097))
+A 2021 systematic review examined 104 independent Enneagram samples and found [mixed evidence for reliability and validity](/enneagram-corner/mental-health/enneagram-science-mental-health). Some findings partially aligned with Enneagram theory, while factor analyses often found fewer than nine factors, no reviewed work derived the nine types through clustering, and evidence for secondary concepts such as wings and intertype movement was limited. ([Hook et al., 2021](https://doi.org/10.1002/jclp.23097))
 
 The review did not establish a Dark Triad mapping. A broader search for research connecting the two frameworks did not identify a validated type-by-trait crosswalk.
 
