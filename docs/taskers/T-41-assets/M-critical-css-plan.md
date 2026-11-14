@@ -2,7 +2,7 @@
 
 # T-41 item M: Critical CSS plan (proposal, not implemented)
 
-**Status:** Re-measured 2026-11-14 after the Cold Light redesign; the ranking below the next section is superseded by it. Steps 0, 1 and 3 of the 10-03 plan shipped. Original status: proposal for DJ, 2026-10-03.
+**Status:** Step 1 of the 2026-11-14 sequence shipped in `004cb20d5` (phone-size AVIF heroes and portraits); steps 2 and 3 not started. Re-measured 2026-11-14 after the Cold Light redesign; the ranking below that section is superseded by it. Steps 0, 1 and 3 of the 10-03 plan shipped. Original status: proposal for DJ, 2026-10-03.
 
 ## 2026-11-14 re-measurement (after Cold Light)
 
@@ -42,7 +42,37 @@ Corpus audit (2026-11-14): 159 published MDsvex posts, 158 with a hero file. Her
 ### Rebuilt sequence (2026-11-14)
 
 1. **Honest hero variants (class fix).** Real resized variants for every blog hero and portrait, a truthful `srcset`/`sizes` in `PopCard` and the personality portrait, `blog-image-variants.mjs` writing the same set, and a lint gate so a heavy or variant-less hero cannot ship. Watch the build budget (`runtimeAssetBytes`) when adding files to `static/`.
-2. **Font loading.** Fewer font bytes before the hero lands (fewer files or a variable Archivo, the first-screen fonts first). Any dropped weight is a design call for DJ.
+   **Shipped 2026-11-14 (`004cb20d5`).** As built: phones get an AVIF through `<picture><source media type="image/avif">`, at 800 px for blog heroes (viewport up to 480 px) and 640 px for portraits (up to 968 px); wider screens and browsers without AVIF load the full WebP as before. Variants live in `static/variants/` (798 files, 17 MB; hero median 28 KB, portrait median 17 KB) with a hash manifest, `pnpm gen:image-variants` writes them, `prebuild` runs it, and `pnpm lint` fails on a missing, stale or orphaned variant. They have their own 32 MiB budget line, so they do not use up the runtime-media ratchet. The old `srcset="s-x 218w, x 560w"` was dropped from the priority hero. Not done: the full-size files themselves are still oversized for desktop (a 2,912 px WebP for a 598 px slot), and the lazy `PopCard` path and `SmallPopCard` keep the old srcset.
+
+   **Live result (2026-11-14, after the `004cb20d5` deploy, same probe, `baseline`, median of 5; before = the same morning's run):**
+
+   | Page                 | LCP before | LCP after |   Hero bytes |
+   | -------------------- | ---------: | --------: | -----------: |
+   | Top post             |      2.4 s |     1.7 s |  83 to 40 KB |
+   | ADHD post            |      4.0 s |     1.7 s | 157 to 21 KB |
+   | Compatibility matrix |      5.6 s |     2.0 s | 464 to 73 KB |
+   | How-to guide         |      3.5 s |     1.6 s | 131 to 14 KB |
+   | Pop culture          |      5.8 s |     1.7 s | 425 to 39 KB |
+   | Zendaya              |      2.1 s |     1.9 s |  72 to 22 KB |
+   | Homepage (control)   |      1.6 s |     1.6 s |    unchanged |
+
+   Every measured page is now under 2.5 s, and on most of them LCP equals first paint: the hero now lands as the page paints, so first paint (CSS and fonts, steps 2 and 3) is the remaining lever. The earlier ceiling run puts both together at about 1.3 to 1.6 s. Field check due about 2026-11-28 (mobile LCP, two weeks against the two before).
+
+2. **Font loading: measured 2026-11-14, nothing to ship on its own.** Live, after step 1, median of 5 (`html-control` vs variants of the same served HTML):
+
+   | Page                 | LCP now | Fonts free | Preload all fonts | CSS free | CSS + fonts free |
+   | -------------------- | ------: | ---------: | ----------------: | -------: | ---------------: |
+   | Top post             |   1.7 s |      1.7 s |             2.0 s |    1.9 s |            1.5 s |
+   | Compatibility matrix |   1.8 s |      1.9 s |             2.3 s |    2.7 s |            2.4 s |
+   | Zendaya              |   1.9 s |      1.9 s |             2.4 s |    2.1 s |            1.5 s |
+   | Sky Bri              |   1.8 s |      1.8 s |             2.3 s |    2.1 s |            1.5 s |
+   | Question page (H1)   |   1.8 s |      1.9 s |             2.3 s |    0.5 s |            0.5 s |
+   | Enneagram test (P)   |   1.3 s |      1.3 s |             1.6 s |    0.4 s |            0.3 s |
+   | Homepage             |   1.7 s |      1.6 s |             2.2 s |    2.0 s |            1.4 s |
+   - Fonts cost nothing today: they are requested only after the stylesheets finish, by which time the hero is in. Font preloads make every page 0.3 to 0.5 s slower, because they take bandwidth from the render-blocking CSS. Do not add them.
+   - Fonts start to matter only once CSS stops blocking (step 3): then they compete with the hero, and image pages land at about 1.5 s with both fixed versus 1.9 to 2.7 s with CSS alone. So font work belongs inside step 3 (load only the first-screen faces early, defer the rest), not before it.
+   - **Found and fixed instead:** the statue at the top of the nine Enneagram type pages (`EnneagramTypeDossier`) was `loading="lazy"` and 72 KB, LCP 3.7 s. It now takes a `priority` prop (set by `enneagram-corner/[slug]`) and an AVIF (`static/variants/dossier/`, 49 KB). Live what-if with eager loading alone: 3.7 s to 2.2 s on type 9 and type 5.
+
 3. **Critical CSS** only if a 0.3 s first paint is wanted for its own sake; it is no longer an LCP fix. Risks below are unchanged.
 
 Not measured this round: Google field data (PageSpeed API over quota on 11-14) and Lighthouse scores.

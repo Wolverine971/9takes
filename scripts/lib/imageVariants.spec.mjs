@@ -10,6 +10,7 @@ import {
 	BLOG_HERO_PHONE,
 	PORTRAIT_PHONE,
 	blogHeroPhoneSrc,
+	dossierImageAvifSrc,
 	portraitPhoneSrc
 } from '../../src/lib/imageVariants.js';
 import {
@@ -35,6 +36,10 @@ describe('variant URLs', () => {
 	it('mirrors the hero and portrait paths under /variants', () => {
 		expect(blogHeroPhoneSrc('greek-statue')).toBe('/variants/blogs/800/greek-statue.avif');
 		expect(blogHeroPhoneSrc(' ')).toBe('');
+		expect(dossierImageAvifSrc('/greek_pantheon.webp')).toBe(
+			'/variants/dossier/greek_pantheon.avif'
+		);
+		expect(dossierImageAvifSrc('/other.webp')).toBe('');
 		expect(blogHeroPhoneSrc(undefined)).toBe('');
 		expect(portraitPhoneSrc('/types/6s/Zendaya.webp')).toBe('/variants/types/640/6s/Zendaya.avif');
 		expect(portraitPhoneSrc('/types/9s/Marcus-Aurelius.webp?v=20260830')).toBe(
@@ -78,6 +83,7 @@ describe('plan, generate and check', () => {
 		write('static/types/6s/Zendaya.webp', await image(1080, '#888888'));
 		write('static/types/6s/s-Zendaya.webp', await image(480, '#888888'));
 		write('static/types/dave-approval.webp', await image(300, '#ffffff'));
+		write('static/greek_pantheon.webp', await image(900, '#666666'));
 	});
 
 	afterEach(() => fs.rmSync(root, { recursive: true, force: true }));
@@ -85,13 +91,14 @@ describe('plan, generate and check', () => {
 	it('plans one variant per referenced hero and per full portrait', () => {
 		expect(planVariants(root).map((item) => [item.source, item.output])).toEqual([
 			['static/blogs/hero.webp', 'static/variants/blogs/800/hero.avif'],
+			['static/greek_pantheon.webp', 'static/variants/dossier/greek_pantheon.avif'],
 			['static/types/6s/Zendaya.webp', 'static/variants/types/640/6s/Zendaya.avif']
 		]);
 	});
 
 	it('writes resized AVIFs once, then has nothing to do', async () => {
 		const first = await generateVariants(root);
-		expect(first.written.map((item) => item.reason)).toEqual(['missing', 'missing']);
+		expect(first.written.map((item) => item.reason)).toEqual(['missing', 'missing', 'missing']);
 
 		const hero = await sharp(path.join(root, 'static/variants/blogs/800/hero.avif')).metadata();
 		expect([hero.format, hero.width]).toEqual(['heif', 800]);
@@ -100,9 +107,13 @@ describe('plan, generate and check', () => {
 		).metadata();
 		expect(portrait.width).toBe(640);
 
-		expect(Object.keys(JSON.parse(fs.readFileSync(path.join(root, MANIFEST_PATH), 'utf8')))).toEqual(
-			['static/variants/blogs/800/hero.avif', 'static/variants/types/640/6s/Zendaya.avif']
-		);
+		expect(
+			Object.keys(JSON.parse(fs.readFileSync(path.join(root, MANIFEST_PATH), 'utf8')))
+		).toEqual([
+			'static/variants/blogs/800/hero.avif',
+			'static/variants/dossier/greek_pantheon.avif',
+			'static/variants/types/640/6s/Zendaya.avif'
+		]);
 		expect((await generateVariants(root)).written).toEqual([]);
 		expect(diffVariants(root)).toEqual({ todo: [], orphans: [], heavy: [] });
 	});
@@ -127,8 +138,11 @@ describe('plan, generate and check', () => {
 			'static/variants/types/640/6s/Zendaya.avif'
 		]);
 		expect(fs.existsSync(path.join(root, 'static/variants/types/640/6s/Zendaya.avif'))).toBe(false);
-		expect(Object.keys(JSON.parse(fs.readFileSync(path.join(root, MANIFEST_PATH), 'utf8')))).toEqual(
-			['static/variants/blogs/800/hero.avif']
-		);
+		expect(
+			Object.keys(JSON.parse(fs.readFileSync(path.join(root, MANIFEST_PATH), 'utf8')))
+		).toEqual([
+			'static/variants/blogs/800/hero.avif',
+			'static/variants/dossier/greek_pantheon.avif'
+		]);
 	});
 });

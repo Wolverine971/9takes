@@ -445,6 +445,7 @@ Run via `pnpm <alias>` where available:
 | `pnpm seo:normalize-internal-personality-links`     | Rewrite internal personality links                                     |
 | `pnpm label-paths`                                  | Annotate files with path comments                                      |
 | `node scripts/blog-image-variants.mjs <slug> <img>` | Build blog image variant set from a ChatGPT-generated image (free)     |
+| `pnpm gen:image-variants` / `check:image-variants`  | Phone-size AVIF of every hero + portrait (`static/variants/`); commit  |
 | `pnpm brand:card -- --list` / `--preset <id>`       | Render on-brand IG/X/OG cards (statement, question, person, slide)     |
 | `pnpm gen:brand-og`                                 | Re-render every link-preview card into `static/brand/og/`              |
 | `pnpm gen:brand-kit`                                | Regenerate `docs/brand/brand-assets.md` from `src/lib/brand/`          |

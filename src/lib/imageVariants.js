@@ -31,6 +31,29 @@ export const PORTRAIT_PHONE = Object.freeze({
 });
 
 /**
+ * The statue in the Enneagram type dossier (top of /enneagram-corner/enneagram-type-N). It
+ * renders as a portrait crop of a landscape file, so phones need the full width: the variant
+ * only changes the format (72 KB WebP to about 45 KB AVIF), for every viewport.
+ */
+export const TYPE_DOSSIER_IMAGE = Object.freeze({
+	src: '/greek_pantheon.webp',
+	source: 'static/greek_pantheon.webp',
+	output: 'static/variants/dossier/greek_pantheon.avif',
+	width: 1456,
+	quality: 54
+});
+
+/**
+ * @param {string | null | undefined} imageSrc The dossier's `imageSrc`.
+ * @returns {string} The AVIF variant URL, or '' for an image without one.
+ */
+export function dossierImageAvifSrc(imageSrc) {
+	return imageSrc === TYPE_DOSSIER_IMAGE.src
+		? `/${TYPE_DOSSIER_IMAGE.output.slice('static/'.length)}`
+		: '';
+}
+
+/**
  * @param {string | null | undefined} pic The post's `pic` frontmatter value.
  * @returns {string} `/variants/blogs/800/{pic}.avif`, or '' without a pic.
  */

@@ -62,7 +62,8 @@
 
 	{#if dossierProfile}
 		<div class="featured-dossier">
-			<EnneagramTypeDossier {...dossierProfile} />
+			<!-- First thing on the type pages: its statue is the page's LCP. -->
+			<EnneagramTypeDossier {...dossierProfile} priority />
 		</div>
 	{:else if data?.frontmatter?.pic}
 		<div class="featured-image">

@@ -8,7 +8,11 @@ import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 
-import { BLOG_HERO_PHONE, PORTRAIT_PHONE } from '../../src/lib/imageVariants.js';
+import {
+	BLOG_HERO_PHONE,
+	PORTRAIT_PHONE,
+	TYPE_DOSSIER_IMAGE
+} from '../../src/lib/imageVariants.js';
 
 export const MANIFEST_PATH = 'scripts/image-variants.manifest.json';
 export const VARIANTS_ROOT = 'static/variants';
@@ -39,7 +43,7 @@ const toPosix = (file) => file.split(path.sep).join('/');
 
 /**
  * Every variant that should exist: one per hero a post's frontmatter names (drafts
- * included, so previews match production) and one per full portrait.
+ * included, so previews match production), one per full portrait, and the type dossier image.
  * @returns {{ source: string, output: string, width: number, quality: number, kind: string }[]}
  */
 export function planVariants(root = process.cwd()) {
@@ -73,6 +77,16 @@ export function planVariants(root = process.cwd()) {
 				quality: PORTRAIT_PHONE.quality
 			});
 		}
+	}
+
+	if (fs.existsSync(path.join(root, TYPE_DOSSIER_IMAGE.source))) {
+		plan.set(TYPE_DOSSIER_IMAGE.source, {
+			kind: 'type-dossier',
+			source: TYPE_DOSSIER_IMAGE.source,
+			output: TYPE_DOSSIER_IMAGE.output,
+			width: TYPE_DOSSIER_IMAGE.width,
+			quality: TYPE_DOSSIER_IMAGE.quality
+		});
 	}
 
 	return [...plan.values()].sort((a, b) => a.output.localeCompare(b.output));

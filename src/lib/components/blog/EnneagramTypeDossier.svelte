@@ -1,5 +1,7 @@
 <!-- src/lib/components/blog/EnneagramTypeDossier.svelte -->
 <script lang="ts">
+	import { dossierImageAvifSrc } from '$lib/imageVariants.js';
+
 	type DossierStat = { label: string; value: number };
 
 	type CoreEmotion = 'Anger' | 'Fear' | 'Shame';
@@ -29,7 +31,8 @@
 		ctaHref = '#full-breakdown',
 		ctaLabel = 'Read the full breakdown',
 		showCta = false,
-		lastObserved = ''
+		lastObserved = '',
+		priority = false
 	}: {
 		number?: string;
 		type?: number;
@@ -52,7 +55,11 @@
 		ctaLabel?: string;
 		showCta?: boolean;
 		lastObserved?: string;
+		/** Above the fold (the type pages): load the statue eagerly at high priority. */
+		priority?: boolean;
 	} = $props();
+
+	const avifSrc = $derived(dossierImageAvifSrc(imageSrc));
 
 	const specimenAttributes = $derived(
 		specimenLine
@@ -87,13 +94,19 @@
 		<div class="dossier-body">
 			<div class="dossier-subject">
 				<div class="subject-stack">
-					<img
-						src={imageSrc}
-						alt={resolvedImageAlt}
-						class="dossier-image"
-						loading="lazy"
-						decoding="async"
-					/>
+					<picture class="dossier-picture">
+						{#if avifSrc}
+							<source type="image/avif" srcset={avifSrc} />
+						{/if}
+						<img
+							src={imageSrc}
+							alt={resolvedImageAlt}
+							class="dossier-image"
+							loading={priority ? 'eager' : 'lazy'}
+							fetchpriority={priority ? 'high' : undefined}
+							decoding="async"
+						/>
+					</picture>
 					<div class="dossier-image-vignette" aria-hidden="true"></div>
 					<div class="corner corner--tl" aria-hidden="true"></div>
 					<div class="corner corner--tr" aria-hidden="true"></div>
@@ -264,6 +277,11 @@
 		background: var(--bg);
 		overflow: hidden;
 		border-radius: 10px;
+	}
+
+	/* Only a format switch: the img still sizes against the stack. */
+	.dossier-picture {
+		display: contents;
 	}
 
 	.dossier-image {

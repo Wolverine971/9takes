@@ -10,6 +10,17 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-11-14 - Four strategy pulls: pushback is one person, replies never arrive, the Bing gap is Bing x Corner only, and non-search has never produced a lead
+
+All numbers come from read-only `scripts/db-query.sh` pulls, with admins (all admin-linked fingerprints, including DJ's), removed rows, and bot emails excluded. The window is whatever history each table holds: takes all history; visits from 2026-02-22 (`visitor_day_activity`, `visitor_first_touch`).
+
+- **Type pushback (Q4):** 1 of 204 lifetime human contributors defends their own type. That one contributor wrote 18 of their 23 takes as pushback, which is 7.7% of all 297 human takes and 13 of 29 `blog_comments` ever, across 22 visit days. The other contributors have a median of 1 take and 1 visit day. 3 others pushed back once on a typing or on writing quality, and none of them returned. The top contributor's last visit was 09-22. Their last 3 takes (09-20) are still `pending` on the host desk.
+- **Replies (Q5):** 14 contributors ever got an admin reply. 13 of them were anonymous, with no channel to hear about it. `reply_notification_outbox` has 0 rows ever, and none of the 446 `notifications` were emailed. The host desk has 1 posted and 42 pending. Return >24 h after the first take: replied 2/8 vs not 14/88 since 02-22 (p=0.62). The only delivered reply (in-app, logged in) got a thank-you reply back. That's n=1.
+- **Bing (Q6):** leads (real signup, registration, or beta card) by distinct person, 02-22..11-13: Bing 8/1,721 (0.46%) vs Google 15/8,836 (0.17%), 2.7x, p=0.04 before correcting for picking Bing out of 4 search families. Corner landings: 5/978 vs 4/3,652 (4.7x). Celebrity landings: 1/460 vs 7/4,141 (1.3x, p=0.57). DuckDuckGo plus other search combined: 3/4,264. The 11-09 "5/629" counted one person twice; it is 4 distinct people. Takes show no Bing gap (0.35% vs 0.37%).
+- **Non-search (Q9):** Reddit (utm campaign 08-31) gave 2 takes and 0 leads. Direct gave 11 takes, 1 real signup, and 1 beta card. ChatGPT-tagged, Perplexity, Claude, Gemini, Instagram, X, Facebook, Meta, and LinkedIn gave 0 of every outcome. About 230 engaged humans arrived from social or AI in 9 months. Email gave 1 registration (02-16), mislabelled `search/google` because its referrer was `mail.google.com`.
+- **Beta card and talk notes (Q8):** 2 real card submits and 1 talk note. No booking or client row exists for any of them, and `consulting_sessions` has 0 rows. The 11-05 Bing lead (`read_like_this`, Corner Type 5 page) has returned on 6 of 7 days since. The 10-08 `details` submit (direct to `/book-session`, 30 s) never returned. The 10-02 talk note flagged a typing inconsistency and was never answered.
+- **Next step:** DJ's personal follow-ups (beta lead, top contributor win-back, the talk note) come before any new build. The opt-in reply channel stays the top product bet.
+
 ### 2026-11-14 - Spam-update follow-up (T-41 item A closeout): still no hit five weeks on, all 3 Soft 404 pages are back in the index
 
 **Verdict: closed. The September 2026 spam update never touched the celebrity pages, and the three Soft 404 pages from the 10-25 readout are all "Submitted and indexed" again. Nothing to flag for DJ.** Source: Search Console API, `dataState: 'all'`, pulled 2026-11-14 (scratch script, auth copied from `scripts/fetch-gsc-data.mjs`, which was not edited). This is the "re-inspect all three after 11-01" follow-up owed by the 10-25 entry.

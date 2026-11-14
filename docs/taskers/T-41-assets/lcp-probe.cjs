@@ -20,6 +20,8 @@
 //                        file-weight stand-in for a right-sized variant (added 2026-11-14)
 //   no-phone-source      strips the phone AVIF <source> and preload, i.e. the page before the
 //                        phone image variants shipped; compare against html-control
+//   preload-fonts        adds a font preload for every woff2 the page uses, ahead of the
+//                        stylesheets; compare against html-control
 // Variants combine with `+`, e.g. VARIANTS='hero-small+css-free'.
 //
 // The site's own /api/analytics, /api/track and /api/cta-event calls are blocked, so probe
@@ -36,6 +38,26 @@ const PATHS = process.argv.slice(2).filter((a) => a.startsWith('/'));
 const RUNS = Number(process.env.RUNS || 5);
 const VARIANTS = (process.env.VARIANTS || 'baseline,css-free,fonts-free,hero-eager').split(',');
 const cache = {};
+// preload-fonts: the woff2 files each path requests, in request order (filled by a quick
+// unthrottled load before that path's runs)
+const fontUrlsByPath = {};
+
+async function collectFontUrls(browser, path) {
+	const ctx = await browser.newContext({ viewport: { width: 412, height: 823 }, isMobile: true });
+	const page = await ctx.newPage();
+	const urls = [];
+	page.on('request', (r) => {
+		if (/\.woff2(\?|$)/.test(r.url()) && !urls.includes(r.url())) urls.push(r.url());
+	});
+	await page.route(/googletagmanager|posthog|google-analytics|vercel-insights|recaptcha/, (r) =>
+		r.abort()
+	);
+	await page.route(/\/api\/(analytics|track|cta-event)\//, (r) => r.abort());
+	await page.goto(BASE + path, { waitUntil: 'load', timeout: 120000 });
+	await page.waitForTimeout(1500);
+	await ctx.close();
+	return urls;
+}
 
 async function fetchCached(url) {
 	if (!cache[url]) cache[url] = Buffer.from(await (await fetch(url)).arrayBuffer());
@@ -76,6 +98,7 @@ async function measure(browser, path, variant) {
 	// skips the throttle in both), and differ only in which hero file the page asks for.
 	if (
 		variant.includes('html-control') ||
+		variant.includes('preload-fonts') ||
 		variant.includes('hero-small') ||
 		variant.includes('no-phone-source')
 	) {
@@ -84,6 +107,16 @@ async function measure(browser, path, variant) {
 			async (r) => {
 				const resp = await r.fetch();
 				let html = await resp.text();
+				if (variant.includes('preload-fonts')) {
+					// what a <link rel=preload as=font> for each font the page uses would do
+					const tags = (fontUrlsByPath[path] || [])
+						.map(
+							(u) =>
+								`<link rel="preload" as="font" type="font/woff2" href="${u.replace(BASE, '')}" crossorigin>`
+						)
+						.join('');
+					html = html.replace(/<link [^>]*rel="stylesheet"/, (m) => tags + m);
+				}
 				if (variant.includes('no-phone-source')) {
 					// the page as it was before the phone AVIF variants (2026-11-14)
 					html = html
@@ -186,6 +219,8 @@ async function measure(browser, path, variant) {
 	for (const path of PATHS.length
 		? PATHS
 		: ['/enneagram-corner/enneagram-and-mental-illness', '/personality-analysis/zendaya']) {
+		if (VARIANTS.some((v) => v.includes('preload-fonts')))
+			fontUrlsByPath[path] = await collectFontUrls(browser, path);
 		for (const variant of VARIANTS) {
 			const runs = [];
 			for (let i = 0; i < RUNS; i++) runs.push(await measure(browser, path, variant));
