@@ -1,4 +1,5 @@
 <!-- .claude/skills/svelte-ui-critique/example-output.md -->
+
 # UI Critique: src/routes/admin/marketing/+page.svelte
 
 ## Findings

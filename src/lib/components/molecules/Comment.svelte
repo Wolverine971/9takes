@@ -964,7 +964,7 @@
 	}
 	.comment-card--own {
 		border: 1px solid color-mix(in srgb, var(--highlight) 24%, transparent);
-		border-radius: 12px;
+		border-radius: var(--border-radius-lg);
 		background: color-mix(in srgb, var(--highlight) 7%, transparent);
 	}
 
@@ -1109,7 +1109,7 @@
 		min-height: 44px;
 		padding: 0 10px;
 		border: 0;
-		border-radius: 8px;
+		border-radius: var(--border-radius-md);
 		background: none;
 		color: var(--text-faint);
 		font-size: var(--font-size-sm);
@@ -1135,7 +1135,7 @@
 		justify-content: center;
 		width: 44px;
 		height: 44px;
-		border-radius: 8px;
+		border-radius: var(--border-radius-md);
 		color: var(--text-faint);
 		transition:
 			color 0.2s,
@@ -1180,7 +1180,7 @@
 		width: 100%;
 		padding: 8px 12px;
 		border: 0;
-		border-radius: 6px;
+		border-radius: var(--border-radius-md);
 		background: none;
 		color: var(--text-muted);
 		font-size: var(--font-size-sm);
@@ -1340,7 +1340,7 @@
 		min-height: 44px;
 		padding: 0 8px 0 2px;
 		border: 0;
-		border-radius: 8px;
+		border-radius: var(--border-radius-md);
 		background: transparent;
 		color: var(--highlight);
 		font-size: var(--font-size-sm);
@@ -1430,7 +1430,7 @@
 		margin-bottom: 24px;
 		padding: 14px 16px;
 		border: 1px solid color-mix(in srgb, var(--highlight) 24%, transparent);
-		border-radius: 12px;
+		border-radius: var(--border-radius-lg);
 		background: color-mix(in srgb, var(--highlight) 8%, transparent);
 		color: var(--text);
 	}

@@ -1,4 +1,5 @@
 <!-- docs/outreach/2026-10-09-enneagram-monthly-preparation.md -->
+
 # Enneagram Monthly article preparation
 
 Prepared for DJ Wayne on October 9, 2026. Updated after checking the original pitch and sent correspondence in dj@9takes.com Gmail, then incorporating Jack's 2:50 PM reply supplied by DJ. The article has not yet been submitted.

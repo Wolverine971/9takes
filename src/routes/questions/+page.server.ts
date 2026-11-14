@@ -126,7 +126,6 @@ export const load: PageServerLoad = async (event) => {
 		}
 
 		// Use optimized RPC function that combines the question list + high-level counts.
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const pageDataResult = await (supabase.rpc as any)('get_questions_page_data', {
 			p_user_id: session?.user?.id ?? undefined,
 			p_limit: QUESTIONS_PER_PAGE,
@@ -233,7 +232,6 @@ export const actions: Actions = {
 			const page = parseInt(body.page as string) || 2;
 			const categoryId = body.categoryId ? parseInt(body.categoryId as string) : null;
 
-			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			const { data: rawPageData, error: loadError } = await (supabase.rpc as any)(
 				'get_questions_page_data',
 				{

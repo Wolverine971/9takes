@@ -1095,7 +1095,7 @@
 		max-height: 20rem;
 		padding: 1rem;
 		border: 1px solid var(--accent);
-		border-radius: 0.75rem;
+		border-radius: var(--border-radius-md);
 		background: var(--bg);
 		color: var(--text);
 		font: inherit;

@@ -1,4 +1,5 @@
 <!-- docs/daily-briefs/2026-10-18_marketing-status.md -->
+
 # 9takes Marketing and Conversion Investigation — October 18, 2026
 
 Traffic is holding up. Participation and return visits after contributing are the problems. The evidence points to an ineffective celebrity prompt, an extra step between the homepage exercise and a real post, and unanswered contributions. There is no evidence in this investigation of a new site-wide signup or commenting outage; successful production submissions were not tested with synthetic accounts or public posts.

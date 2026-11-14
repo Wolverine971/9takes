@@ -1,4 +1,5 @@
 <!-- .claude/skills/hyperplexed-audit/references/claude-command.md -->
+
 > Historical command snapshot. The active workflow is `../SKILL.md`; its current design rules, authorization handling, and verification commands override this snapshot. Do not execute these older instructions.
 
 ---

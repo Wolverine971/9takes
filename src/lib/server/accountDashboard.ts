@@ -26,7 +26,6 @@ import {
  * are plain strings and the generated Supabase types cannot narrow them. Same
  * `supabase as any` idiom already used in src/routes/users/[externalId].
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type DynamicClient = any;
 
 /** Type keys as used across the app (see getCommentTypeKey in the question page). */
@@ -696,9 +695,7 @@ export async function loadNotifications(
 ): Promise<NotificationFeed> {
 	try {
 		const [feed, unread] = await Promise.all([
-			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			(supabase.rpc as any)('get_notification_feed', { p_limit: limit }),
-			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			(supabase.rpc as any)('get_unread_notification_count')
 		]);
 

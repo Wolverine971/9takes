@@ -27,7 +27,9 @@ const {
 const HERE = __dirname;
 const SLUG = 'what-famous-peoples-types-can-and-cant-tell-us';
 // HTML comments (path labels, notes to self) never reach the document.
-const md = fs.readFileSync(path.join(HERE, `${SLUG}.md`), 'utf8').replace(/<!--[\s\S]*?-->\n?/g, '');
+const md = fs
+	.readFileSync(path.join(HERE, `${SLUG}.md`), 'utf8')
+	.replace(/<!--[\s\S]*?-->\n?/g, '');
 
 const BODY_FONT = 'Georgia';
 const HEAD_FONT = 'Arial';
@@ -35,9 +37,9 @@ const HEAD_FONT = 'Arial';
 // Curly quotes and apostrophes for print.
 function smart(text) {
 	return text
-		.replace(/(^|[\s(\[])"/g, '$1“')
+		.replace(/(^|[\s([])"/g, '$1“')
 		.replace(/"/g, '”')
-		.replace(/(^|[\s(\[])'/g, '$1‘')
+		.replace(/(^|[\s([])'/g, '$1‘')
 		.replace(/'/g, '’');
 }
 

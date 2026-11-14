@@ -39,7 +39,6 @@ export const load: PageServerLoad = async (event) => {
 	const supabase = event.locals.supabase;
 	// Demo mode resolves table names at runtime, so the generated Supabase types
 	// cannot narrow them. Same idiom as src/routes/users/[externalId].
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const db = supabase as any;
 
 	const { data: user, error: findUserError } = await db
@@ -175,7 +174,6 @@ export const actions: Actions = {
 		const body = Object.fromEntries(await request.formData());
 		const flag = (key: string) => body[key] === 'true' || body[key] === 'on';
 
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const { error: rpcError } = await (locals.supabase.rpc as any)(
 			'update_notification_preferences',
 			{

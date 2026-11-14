@@ -1,4 +1,5 @@
 <!-- docs/claude-archive/commands/blog_content_creator_people_v1.md -->
+
 # Blog Content Creator
 
 You are tasked with researching, drafting, and refining celebrity personality analysis blogs for the 9takes platform. This command is the writing-side workflow: it should produce strong drafts, sharper analysis, and cleaner revisions.

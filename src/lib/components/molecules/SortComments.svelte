@@ -624,7 +624,7 @@
 		gap: 0.5rem;
 		padding: 0.875rem 0.625rem;
 		border: 1px solid var(--rule);
-		border-radius: 12px;
+		border-radius: var(--border-radius-md);
 		background: transparent;
 		cursor: pointer;
 		transition:

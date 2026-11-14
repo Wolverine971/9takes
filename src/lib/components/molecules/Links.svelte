@@ -104,7 +104,7 @@
 		margin: 0 1rem 1rem;
 		padding: 1.1rem;
 		border: 1px dashed color-mix(in srgb, var(--highlight) 24%, transparent);
-		border-radius: 12px;
+		border-radius: var(--border-radius-lg);
 		color: var(--text-muted);
 		font-size: var(--font-size-sm);
 		text-align: center;

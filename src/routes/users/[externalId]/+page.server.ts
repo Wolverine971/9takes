@@ -22,7 +22,6 @@ type SubscriptionWithQuestion = SubscriptionRow & {
 };
 
 /** @type {import('./$types').PageLoad} */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const load: PageServerLoad = async (event) => {
 	const { demo_time, user: viewer } = await event.parent();
 	const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';

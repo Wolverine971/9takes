@@ -19,7 +19,6 @@ export const GET: RequestHandler = async ({ locals, setHeaders }) => {
 		return json({ unread: 0 });
 	}
 
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { data, error } = await (locals.supabase.rpc as any)('get_unread_notification_count');
 
 	if (error) {

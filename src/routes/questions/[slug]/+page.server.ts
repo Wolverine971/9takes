@@ -792,7 +792,6 @@ function resolveSessionBoundUserId(
 }
 
 async function addLike(db: any, parent_id: string, user_id: string) {
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { data: record, error: addLikeError } = await (db.from('comment_like') as any)
 		.insert({ comment_id: parseInt(parent_id), user_id })
 		.select('id, comment_id, user_id')
@@ -803,7 +802,6 @@ async function addLike(db: any, parent_id: string, user_id: string) {
 		throw error(500, { message: 'Failed to add like' });
 	}
 
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	// Like counts are maintained atomically by the database trigger.
 	return record;
 }
@@ -820,13 +818,11 @@ async function removeLike(db: any, parent_id: string, user_id: string, demo_time
 		throw error(500, { message: 'Failed to remove like' });
 	}
 
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	// Like counts are maintained atomically by the database trigger.
 	return null;
 }
 
 async function addSubscription(db: any, parent_id: string, user_id: string, demo_time: boolean) {
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { data: subscriptionRecord, error: addSubscriptionError } = await (
 		db.from(demo_time ? 'subscriptions_demo' : 'subscriptions') as any
 	)
@@ -862,7 +858,6 @@ async function incrementLinkClicks(linkId: string) {
 	if (!Number.isSafeInteger(id) || id <= 0) return;
 	// links is service-role only (it holds URLs lifted from takes). Under the
 	// anon client this UPDATE matched nothing (no anon UPDATE policy).
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { error: incrementError } = await (getSupabaseAdminClient().rpc as any)(
 		'increment_clicks',
 		{ link_id: id }
@@ -881,7 +876,6 @@ async function flagComment(
 	reasonId: string,
 	description: string
 ) {
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { error: flagCommentError } = await (db.from('flagged_comments') as any).insert({
 		flagged_by: userId,
 		comment_id: parseInt(commentId),
@@ -896,7 +890,6 @@ async function flagComment(
 }
 
 async function updateQuestionImageById(db: any, questionId: number, imgPath: string) {
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { error: updateError } = await (db.from('questions') as any)
 		.update({ img_url: imgPath })
 		.eq('id', questionId);

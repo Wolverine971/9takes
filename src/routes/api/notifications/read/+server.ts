@@ -28,7 +28,6 @@ export const POST: RequestHandler = async ({ locals, request }) => {
 		ids = null;
 	}
 
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { data, error } = await (locals.supabase.rpc as any)('mark_notifications_read', {
 		p_ids: ids
 	});

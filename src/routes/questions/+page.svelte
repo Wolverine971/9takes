@@ -654,7 +654,7 @@
 		gap: 22px;
 		padding: clamp(22px, 3vw, 36px);
 		border: 1px solid color-mix(in srgb, var(--highlight) 24%, transparent);
-		border-radius: 18px;
+		border-radius: var(--border-radius-lg);
 		background:
 			radial-gradient(
 				120% 90% at 0% 0%,
@@ -903,7 +903,7 @@
 		margin-top: 12px;
 		padding: 16px;
 		border: 1px solid var(--rule);
-		border-radius: 14px;
+		border-radius: var(--border-radius-lg);
 		background: var(--surface);
 	}
 	.filters__panel-head {
@@ -999,7 +999,7 @@
 	button:focus-visible {
 		outline: 2px solid var(--focus, var(--highlight));
 		outline-offset: 3px;
-		border-radius: 6px;
+		border-radius: var(--border-radius-md);
 	}
 
 	/* ---------- Phone ---------- */

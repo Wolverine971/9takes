@@ -1,4 +1,5 @@
 <!-- docs/outreach/enneagram-monthly/what-famous-peoples-types-can-and-cant-tell-us.md -->
+
 # What Famous People's Types Can and Can't Tell Us
 
 _Patterns in 453 public-figure typings, and the limits that come with them_

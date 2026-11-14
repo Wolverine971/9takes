@@ -85,6 +85,8 @@ export default [
 			'public/**',
 			'static/**',
 			'logs/**',
+			// Local Playwright captures and compiled previews are generated output.
+			'output/**',
 			'test-results/**',
 			'Freshies12/**',
 			'Freshies13/**',

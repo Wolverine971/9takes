@@ -2837,7 +2837,7 @@
 		height: min(85dvh, calc(100dvh - 2rem));
 		display: flex;
 		flex-direction: column;
-		background: var(--stone-warm);
+		background: var(--surface);
 		overflow: hidden;
 	}
 
@@ -2853,7 +2853,7 @@
 	.person-modal-header h2 {
 		margin: 0;
 		font-size: 1.375rem;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.person-modal-kicker {
@@ -2862,13 +2862,13 @@
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--lamp-glow);
+		color: var(--highlight);
 	}
 
 	.person-modal-email {
 		margin: 0.375rem 0 0;
 		font-size: 0.875rem;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	:global(.person-modal-close) {
@@ -2896,8 +2896,8 @@
 		gap: 0.375rem;
 		padding: 0.25rem 0.625rem;
 		border-radius: 999px;
-		background: var(--stone-mid);
-		color: var(--ink-mid);
+		background: var(--surface-raised);
+		color: var(--text-muted);
 		font-size: 0.75rem;
 		font-weight: 500;
 	}
@@ -2912,7 +2912,7 @@
 		border: 1px solid var(--stone-edge);
 		border-radius: 1rem;
 		padding: 1rem;
-		background: color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
+		background: color-mix(in srgb, var(--surface) 90%, var(--bg));
 	}
 
 	.detail-card-wide {
@@ -2922,7 +2922,7 @@
 	.detail-card h3 {
 		margin: 0 0 0.875rem;
 		font-size: 0.95rem;
-		color: var(--ink-bright);
+		color: var(--text);
 	}
 
 	.detail-card-header {
@@ -2962,14 +2962,14 @@
 		font-weight: 700;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.detail-list dd {
 		margin: 0;
 		font-size: 0.875rem;
 		line-height: 1.5;
-		color: var(--ink-bright);
+		color: var(--text);
 		word-break: break-word;
 	}
 
@@ -2980,7 +2980,7 @@
 	.detail-empty {
 		margin: 0;
 		font-size: 0.875rem;
-		color: var(--ink-mid);
+		color: var(--text-muted);
 	}
 
 	.person-modal-footer {
