@@ -1,7 +1,8 @@
 <!-- src/lib/components/marketing/home/LiveQuestionCard.svelte -->
 <!--
-  The homepage's one place to answer: the live question with a composer that posts a real
-  take through POST /api/homepage/answer. Give-first: before the visitor posts, the card shows
+  The answer-first card: a live question with a composer that posts a real take. Built for the
+  homepage (POST /api/homepage/answer) and reused on the Enneagram test result page, which
+  passes its own endpoint and surface. Give-first: before the visitor posts, the card shows
   the take count, which types answered and blurred placeholder rows, never take text. After a
   post (or for a visitor who already answered) it shows their take and the unlocked answers.
 -->
@@ -25,7 +26,38 @@
 	} from '$lib/components/questions/ReplyOptInTray.svelte';
 	import { trackHomePractice } from './homeAnalytics';
 
-	let { live, types = null }: { live: LiveTake | null; types?: LiveTakeTypes | null } = $props();
+	type Props = {
+		live: LiveTake | null;
+		types?: LiveTakeTypes | null;
+		/** Where the card sits. Anything but the homepage must pass its own `endpoint`. */
+		surface?: 'homepage' | 'enneagram_test';
+		/** POST target that accepts { slug, comment, fingerprint } and returns LiveTakePostResult. */
+		endpoint?: string;
+		/** Path reported to analytics. Set it when the page URL carries a private token. */
+		sourcePath?: string;
+		/** The small label above the question. */
+		label?: string;
+		/** The composer's label. */
+		composeLabel?: string;
+		onstart?: () => void;
+		onpost?: (result: LiveTakePostResult) => void;
+	};
+
+	let {
+		live,
+		types = null,
+		surface = 'homepage',
+		endpoint,
+		sourcePath,
+		label = 'Open question',
+		composeLabel = 'Your take',
+		onstart,
+		onpost
+	}: Props = $props();
+
+	// The homepage reports its own gate impression and practice events from the browser.
+	// Other surfaces record gate_shown in their server load and get callbacks instead.
+	let onHomepage = $derived(surface === 'homepage');
 
 	// Blurred stand-ins for locked takes. Never real text: the gate decides who reads takes.
 	const LOCKED_TEXT = [
@@ -87,7 +119,7 @@
 	}
 
 	function reportGateImpression() {
-		if (!live || posted || gateReported) return;
+		if (!onHomepage || !live || posted || gateReported) return;
 		gateReported = true;
 		void fetch(resolve('/api/nine/impression'), {
 			method: 'POST',
@@ -106,7 +138,8 @@
 		postError = '';
 		if (started || !answer.trim()) return;
 		started = true;
-		trackHomePractice('started', live?.slug);
+		if (onHomepage) trackHomePractice('started', live?.slug);
+		else onstart?.();
 	}
 
 	function replyOptInWasDismissed(): boolean {
@@ -135,7 +168,7 @@
 				questionId: take.questionId,
 				questionUrl: take.slug,
 				commentId: result.commentId,
-				surface: 'homepage',
+				surface,
 				isFirstCommentEver: true
 			}
 		};
@@ -148,14 +181,14 @@
 			questionId: take.questionId,
 			questionUrl: take.slug,
 			commentKind: 'answer' as const,
-			surface: 'homepage' as const,
-			sourcePath: window.location.pathname,
+			surface,
+			sourcePath: sourcePath ?? window.location.pathname,
 			isAnonymous: !take.signedIn
 		};
 		let failureStage: CommentFailureStage = 'request';
 		let errorCategory: CommentFailureCategory = 'network_error';
 		try {
-			const response = await fetch(resolve('/api/homepage/answer'), {
+			const response = await fetch(endpoint ?? resolve('/api/homepage/answer'), {
 				method: 'POST',
 				headers: { 'content-type': 'application/json' },
 				body: JSON.stringify({
@@ -207,7 +240,7 @@
 		postError = '';
 		submittedAnswer = answer.trim();
 		reportGateImpression();
-		trackHomePractice('live_post_clicked', live.slug);
+		if (onHomepage) trackHomePractice('live_post_clicked', live.slug);
 		postState = 'posting';
 		const result = await submitTake(live);
 		if (!result) {
@@ -215,6 +248,7 @@
 			return;
 		}
 		postResult = result;
+		onpost?.(result);
 		offerReplyOptIn(live, result);
 		postState = 'posted';
 		await tick();
@@ -241,7 +275,7 @@
 {:else}
 	<div class="live ph-no-capture" id="answer" {@attach qualifiedVisibility(reportGateImpression)}>
 		<div class="live-meta">
-			<span class="pill-open">Open question</span>
+			<span class="pill-open">{label}</span>
 			{#if responses > 0}
 				<span class="count"
 					>{plural(responses, 'take', 'takes')}{newest ? ` · newest ${newest}` : ''}</span
@@ -252,7 +286,7 @@
 
 		{#if !posted}
 			<form class="compose" onsubmit={postTake} novalidate>
-				<label for="live-take">Your take</label>
+				<label for="live-take">{composeLabel}</label>
 				<textarea
 					id="live-take"
 					bind:this={composer}

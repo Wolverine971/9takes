@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-11-12 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
+_Generated: 2026-11-13 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
 _Search data: GSC 2026-08-10 → 2026-11-08 (pulled 2026-11-10)_
 
 **Scope.** Link counts cover **live posts only**: files a route actually serves with `published: true`
@@ -123,7 +123,7 @@ nearly every person, but those are not contextual links).
 | [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) | 3,609 | 22 | 6.4 | 0 | 4 |
 | [David Friedberg](/personality-analysis/david-friedberg) | 3,585 | 16 | 8.7 | 2 | 3 |
 | [Cillian Murphy](/personality-analysis/cillian-murphy) | 3,448 | 18 | 9.5 | 0 | 2 |
-| [Lana Del Rey](/personality-analysis/lana-del-rey) | 3,283 | 16 | 8.2 | 1 | 10 |
+| [Lana Del Rey](/personality-analysis/lana-del-rey) | 3,283 | 16 | 8.2 | 1 | 9 |
 | [Ella Langley](/personality-analysis/ella-langley) | 3,050 | 27 | 8.4 | 0 | 2 |
 | [Meghan Markle](/personality-analysis/meghan-markle) | 2,987 | 33 | 6.5 | 0 | 4 |
 | [Kai Cenat](/personality-analysis/kai-cenat) | 2,948 | 6 | 7.4 | 1 | 10 |
@@ -133,7 +133,7 @@ nearly every person, but those are not contextual links).
 ## People pages that need links
 
 A people page "needs links" with 2 or fewer contextual links in (blog posts + other people pages).
-**201 of 464** people pages need links; 62 have none.
+**201 of 464** people pages need links; 61 have none.
 Unlinked mentions on other people pages are queued in `link-opportunities.md` §4.
 
 | Person | Impressions | Position | Blog links in | People links in |

@@ -8,13 +8,16 @@ import {
 	NOTIFY_EMAIL_CAP,
 	assignQuestionsToTypes,
 	buildFriendReadEmail,
+	buildResultEmail,
 	createTestResult,
 	friendReadInputSchema,
 	generateToken,
 	getReadContext,
 	getTestResult,
+	getTestResultTypes,
 	isReadToken,
 	isResultToken,
+	sendTestResultEmail,
 	submitFriendRead,
 	testResultInputSchema,
 	testResultUpdateSchema,
@@ -146,6 +149,18 @@ describe('schemas', () => {
 			'me@example.com'
 		);
 		expect(testResultUpdateSchema.safeParse({ notifyEmail: '' }).success).toBe(true);
+	});
+
+	it('sends the result only with an email, and saves to a profile on its own', () => {
+		expect(testResultUpdateSchema.safeParse({ sendResult: true }).success).toBe(false);
+		expect(testResultUpdateSchema.safeParse({ notifyEmail: '', sendResult: true }).success).toBe(
+			false
+		);
+		expect(
+			testResultUpdateSchema.safeParse({ notifyEmail: 'me@example.com', sendResult: true }).success
+		).toBe(true);
+		expect(testResultUpdateSchema.safeParse({ saveToProfile: true }).success).toBe(true);
+		expect(testResultUpdateSchema.safeParse({ saveToProfile: false }).success).toBe(false);
 	});
 });
 
@@ -358,5 +373,99 @@ describe('assignQuestionsToTypes', () => {
 
 	it('returns nothing when there are no questions', () => {
 		expect(assignQuestionsToTypes([6], {}, [])).toEqual({});
+	});
+});
+
+describe('sendTestResultEmail', () => {
+	const token = 'r'.repeat(24);
+	const sentOk = { success: true, providerAttempted: true, retrySafe: false };
+
+	function row(overrides: Record<string, unknown> = {}) {
+		return {
+			id: 7,
+			result_token: token,
+			types: [4],
+			notify_email: 'Me@Example.com',
+			notify_sent_count: 0,
+			...overrides
+		};
+	}
+
+	it('emails the private link once and counts it against the per-result cap', async () => {
+		const { db, queries } = fakeDb((query) => (query.action === 'select' ? { data: row() } : {}));
+		const send = vi.fn().mockResolvedValue(sentOk);
+		const outcome = await sendTestResultEmail(db, token, {
+			send,
+			suppressedEmails: async () => new Set()
+		});
+
+		expect(outcome).toBe('sent');
+		expect(send).toHaveBeenCalledWith(
+			expect.objectContaining({
+				to: 'me@example.com',
+				subject: 'Your Enneagram result: most likely a 4',
+				emailKind: 'transactional'
+			})
+		);
+		expect(queries.find((q) => q.action === 'update')?.payload).toEqual({ notify_sent_count: 1 });
+	});
+
+	it('sends nothing to suppressed, capped, missing, or unknown results', async () => {
+		for (const [data, suppressed, expected] of [
+			[row(), new Set(['me@example.com']), 'suppressed'],
+			[row({ notify_sent_count: NOTIFY_EMAIL_CAP }), new Set<string>(), 'capped'],
+			[row({ notify_email: null }), new Set<string>(), 'no_email'],
+			[null, new Set<string>(), 'no_email']
+		] as const) {
+			const { db, queries } = fakeDb(() => ({ data }));
+			const send = vi.fn();
+			const outcome = await sendTestResultEmail(db, token, {
+				send,
+				suppressedEmails: async () => suppressed
+			});
+			expect(outcome).toBe(expected);
+			expect(send).not.toHaveBeenCalled();
+			expect(queries.some((q) => q.action === 'update')).toBe(false);
+		}
+	});
+
+	it('reports a failed send without counting it', async () => {
+		const { db, queries } = fakeDb((query) => (query.action === 'select' ? { data: row() } : {}));
+		const send = vi.fn().mockResolvedValue({ success: false, error: 'smtp down' });
+		expect(
+			await sendTestResultEmail(db, token, { send, suppressedEmails: async () => new Set() })
+		).toBe('failed');
+		expect(queries.some((q) => q.action === 'update')).toBe(false);
+	});
+});
+
+describe('buildResultEmail', () => {
+	it('names one type and links only to the private result and the stop link', () => {
+		const email = buildResultEmail({ resultToken: 'r'.repeat(24), types: [8] });
+		expect(email.subject).toBe('Your Enneagram result: most likely an 8');
+		expect(email.htmlContent).toContain('landed on an 8 (The Challenger).');
+		expect(email.htmlContent).toContain(`href="${email.resultUrl}"`);
+		expect(email.resultUrl).toBe(`https://9takes.com/enneagram-test/result/${'r'.repeat(24)}`);
+		expect(email.plainTextContent).toContain('3. Read the Type 8 page.');
+		expect(email.stopUrl).toContain('/api/enneagram-test/stop/');
+	});
+
+	it('keeps a two-type result as two types', () => {
+		const email = buildResultEmail({ resultToken: 'r'.repeat(24), types: [5, 6] });
+		expect(email.subject).toBe('Your Enneagram result: between a 5 and a 6');
+		expect(email.plainTextContent).toContain(
+			'landed between a 5 (The Investigator) and a 6 (The Loyalist).'
+		);
+		expect(email.plainTextContent).toContain('1. Answer one question as a 5 or a 6,');
+	});
+});
+
+describe('getTestResultTypes', () => {
+	it('returns the picks for a real token and null otherwise', async () => {
+		const { db } = fakeDb(() => ({ data: { types: [5, 6] } }));
+		expect(await getTestResultTypes(db, 'r'.repeat(24))).toEqual([5, 6]);
+		expect(await getTestResultTypes(db, 'nope')).toBeNull();
+		const { db: empty } = fakeDb(() => ({ data: null }));
+		expect(await getTestResultTypes(empty, 'r'.repeat(24))).toBeNull();
 	});
 });

@@ -1,9 +1,9 @@
 // src/lib/server/enneagramTest.ts
 //
 // Server side of the 9takes Enneagram test (T-42): saving a finished result,
-// the friend-read loop ("ask someone who knows you"), the opt-in email when a
-// friend answers, and picking a live question for the "answer as your type"
-// exit. Tables: enneagram_test_results, enneagram_test_reads
+// the friend-read loop ("ask someone who knows you"), the opt-in emails (the
+// private result link, and a note when a friend answers), and picking a live
+// question for the "answer as your type" card on the result page. Tables: enneagram_test_results, enneagram_test_reads
 // (supabase/migrations/20261006120000_enneagram_test.sql).
 //
 // Privacy: results are anonymous. A friend's link carries only the read
@@ -27,8 +27,11 @@ import { logger } from '$lib/utils/logger';
 
 const BASE_URL = 'https://9takes.com';
 
-/** Most friend-read emails one result can trigger. */
+/** Most emails (the result link plus friend reads) one result can trigger. */
 export const NOTIFY_EMAIL_CAP = 20;
+
+/** Give-first events from the result page are attributed here, never to the private result URL. */
+export const TEST_RESULT_GATE_PATH = '/enneagram-test/result';
 
 export const RESULT_TOKEN_PATTERN = /^[A-Za-z0-9_-]{20,64}$/;
 export const READ_TOKEN_PATTERN = /^[A-Za-z0-9_-]{10,64}$/;
@@ -90,13 +93,21 @@ export const testResultUpdateSchema = z
 		displayName: cleanText(40).optional(),
 		notifyEmail: z
 			.union([z.literal(''), z.string().trim().toLowerCase().email().max(254)])
-			.optional()
+			.optional(),
+		/** With a notifyEmail: also send the private result link to that address. */
+		sendResult: z.boolean().optional(),
+		/** Signed-in test-takers: copy a single-type result onto their profile. */
+		saveToProfile: z.literal(true).optional()
 	})
 	.strict()
 	.refine(
-		(value) => value.displayName !== undefined || value.notifyEmail !== undefined,
+		(value) =>
+			value.displayName !== undefined ||
+			value.notifyEmail !== undefined ||
+			value.saveToProfile === true,
 		'Nothing to update'
-	);
+	)
+	.refine((value) => !value.sendResult || Boolean(value.notifyEmail), 'An email is required');
 
 export const friendReadInputSchema = z
 	.object({
@@ -264,6 +275,142 @@ export async function updateTestResult(
 /** The "Stop these emails" link. Returns false if no such result. */
 export function stopTestNotifications(db: Db, resultToken: string): Promise<boolean> {
 	return updateTestResult(db, resultToken, { notifyEmail: '' });
+}
+
+// ---------------------------------------------------------------------------
+// "Email me this result"
+// ---------------------------------------------------------------------------
+
+export type ResultEmailDependencies = {
+	send?: (options: SendEmailOptions) => Promise<SendEmailResult>;
+	suppressedEmails?: (db: Db, emails: string[]) => Promise<Set<string>>;
+};
+
+export type ResultEmailOutcome = 'sent' | 'capped' | 'suppressed' | 'no_email' | 'failed';
+
+/**
+ * Send the private result link to the address the test-taker just saved. Counts
+ * against the same per-result cap as friend-read emails, so one result token can
+ * never be used to send more than NOTIFY_EMAIL_CAP emails in total.
+ */
+export async function sendTestResultEmail(
+	db: Db,
+	resultToken: string,
+	dependencies: ResultEmailDependencies = {}
+): Promise<ResultEmailOutcome> {
+	if (!isResultToken(resultToken)) return 'no_email';
+
+	const { data: row, error } = await db
+		.from('enneagram_test_results')
+		.select('id, result_token, types, notify_email, notify_sent_count')
+		.eq('result_token', resultToken)
+		.maybeSingle();
+	if (error) throw new Error(error.message ?? 'Failed to load test result');
+	const result = row as ResultRow | null;
+	const email = normalizeEmail(result?.notify_email);
+	const types = toTypes(result?.types);
+	if (!result || !email || !types.length) return 'no_email';
+	if ((result.notify_sent_count ?? 0) >= NOTIFY_EMAIL_CAP) return 'capped';
+
+	try {
+		const suppressed = await (dependencies.suppressedEmails ?? getSuppressedEmailSet)(db, [email]);
+		if (suppressed.has(email)) return 'suppressed';
+
+		const message = buildResultEmail({ resultToken: result.result_token, types });
+		const sent = await (dependencies.send ?? sendEmail)({
+			to: email,
+			subject: message.subject,
+			preheader: message.preheader,
+			htmlContent: message.htmlContent,
+			plainTextContent: message.plainTextContent,
+			unsubscribeUrl: message.stopUrl,
+			includeFooter: false,
+			emailKind: 'transactional'
+		});
+		if (!sent.success) {
+			logger.warn('Enneagram test result email failed', { error: sent.error });
+			return 'failed';
+		}
+
+		await db
+			.from('enneagram_test_results')
+			.update({ notify_sent_count: (result.notify_sent_count ?? 0) + 1 })
+			.eq('id', result.id);
+		return 'sent';
+	} catch (sendError) {
+		// The address is saved either way; the email is a courtesy.
+		logger.error('Enneagram test result email errored', sendError as Error);
+		return 'failed';
+	}
+}
+
+/** "a 4 (The Individualist)", "a 5 (The Investigator) or a 6 (The Loyalist)". */
+function namedTypeList(types: readonly TestType[]): string {
+	return types.map((type) => `${withArticle(type)} (${TEST_TYPES[type].name})`).join(' or ');
+}
+
+export function buildResultEmail(input: { resultToken: string; types: TestType[] }) {
+	const single = input.types.length === 1;
+	const yours = typeListWithArticles(input.types);
+	const named = namedTypeList(input.types);
+	const resultUrl = testResultUrl(input.resultToken);
+	const stopUrl = `${BASE_URL}/api/enneagram-test/stop/${encodeURIComponent(input.resultToken)}`;
+	const subject = single
+		? `Your Enneagram result: most likely ${yours}`
+		: `Your Enneagram result: between ${input.types.map(withArticle).join(' and ')}`;
+	const landed = single
+		? `You took the 9takes Enneagram test and landed on ${named}.`
+		: `You took the 9takes Enneagram test and landed between ${input.types
+				.map((type) => `${withArticle(type)} (${TEST_TYPES[type].name})`)
+				.join(' and ')}.`;
+	const steps = [
+		`Answer one question as ${yours}, then see how the other types answered it.`,
+		'Send your link to someone who knows you. They pick for you before they see your answer.',
+		single
+			? `Read the Type ${input.types[0]} page.`
+			: `Read the Type ${input.types[0]} and Type ${input.types[1]} pages side by side.`
+	];
+
+	const htmlContent = `<p>${escapeHtml(landed)}</p>
+<p>Your result lives at a private link. Only someone with the link can open it, so keep this email.</p>
+<p><a class="button" href="${resultUrl}">Open my result</a></p>
+<p>Three things to do from there:</p>
+<ol>${steps.map((step) => `<li>${escapeHtml(step)}</li>`).join('')}</ol>
+<p style="font-size: 13px; color: #69707a;">You’re getting this because you asked us to email your test result. We’ll also tell you when someone answers your link. <a href="${stopUrl}">Stop these emails</a>.</p>`;
+
+	const plainTextContent = `${landed}
+
+Your result lives at a private link. Only someone with the link can open it, so keep this email.
+
+Open my result: ${resultUrl}
+
+Three things to do from there:
+${steps.map((step, index) => `${index + 1}. ${step}`).join('\n')}
+
+You’re getting this because you asked us to email your test result. We’ll also tell you when someone answers your link.
+Stop these emails: ${stopUrl}`;
+
+	return {
+		subject,
+		preheader: 'Your private link, plus three things to do with it.',
+		htmlContent,
+		plainTextContent,
+		resultUrl,
+		stopUrl
+	};
+}
+
+/** The picks behind a result token, for endpoints that act on a result. */
+export async function getTestResultTypes(db: Db, resultToken: string): Promise<TestType[] | null> {
+	if (!isResultToken(resultToken)) return null;
+	const { data, error } = await db
+		.from('enneagram_test_results')
+		.select('types')
+		.eq('result_token', resultToken)
+		.maybeSingle();
+	if (error) throw new Error(error.message ?? 'Failed to load test result');
+	if (!data) return null;
+	return toTypes((data as { types: unknown }).types);
 }
 
 // ---------------------------------------------------------------------------

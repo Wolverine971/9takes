@@ -71,10 +71,14 @@
 				</ul>
 				<p class="type-test">
 					Not sure of your type? <a
-						href={resolve('/enneagram-corner')}
+						href={resolve('/enneagram-test')}
 						data-track="link"
-						data-placement="band_types">Explore the nine</a
+						data-placement="band_test">Take the free test</a
 					>
+					or
+					<a href={resolve('/enneagram-corner')} data-track="link" data-placement="band_types"
+						>explore the nine</a
+					>.
 				</p>
 			</div>
 			<LiveQuestionCard {live} types={liveTypes} />

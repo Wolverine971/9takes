@@ -20,6 +20,8 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
+	import TestNudge from '$lib/components/blog/TestNudge.svelte';
+	import KeepThisPageInvite from '$lib/components/blog/KeepThisPageInvite.svelte';
 	import ExperimentalTherapyInvite from '$lib/components/blog/ExperimentalTherapyInvite.svelte';
 	import { getAuthShell } from '$lib/authShell.svelte';
 
@@ -77,6 +79,9 @@
 
 	<TableOfContents content={tocContent} headings={data.frontmatter.headings} />
 
+	<!-- The full test CTA is below the article, where about one reader in five scrolls. -->
+	<TestNudge placement="corner_top" />
+
 	<div class="article-body">
 		<Article />
 	</div>
@@ -105,6 +110,10 @@
      It replaced the newsletter side card here on 2026-10-04. -->
 {#key data.slug}
 	<ExperimentalTherapyInvite surface="enneagram" articleSelector=".article-body" />
+	<!-- "Email me this page", a third of the way in. Signed-in readers have an account already. -->
+	{#if !authShell.user}
+		<KeepThisPageInvite articleSelector=".article-body" />
+	{/if}
 {/key}
 
 <style lang="scss">

@@ -6,6 +6,8 @@
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import EnneagramTypeIntro from '$lib/components/blog/EnneagramTypeIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import TestNudge from '$lib/components/blog/TestNudge.svelte';
+	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
 	import EnneagramTypeBottom from '$lib/components/blog/EnneagramTypeBottom.svelte';
 	import CorpusStatCallout from '$lib/components/blog/callouts/CorpusStatCallout.svelte';
 	import {
@@ -430,6 +432,12 @@
 	<article class="enneagram-type-page">
 		<EnneagramTypeIntro type={data.slug} />
 
+		<TestNudge
+			lead={`Think you might be a ${data.slug}?`}
+			linkLabel="Check with the free test"
+			placement="type_hub_top"
+		/>
+
 		{#if corpusInsight}
 			<CorpusStatCallout
 				claim={corpusInsight.claim}
@@ -565,6 +573,12 @@
 		</section>
 
 		<EnneagramTypeBottom type={data.slug} />
+
+		<TestYourTypeCTA
+			heading={`Are you a Type ${data.slug} too?`}
+			body="Take the free 9takes Enneagram test. It starts with the emotion that runs you, takes 5 to 10 minutes, needs no email, and lets someone who knows you check your result."
+			compact
+		/>
 
 		<nav class="sibling-types" aria-label="Other Enneagram types">
 			<h2>Explore the Other Enneagram Types</h2>

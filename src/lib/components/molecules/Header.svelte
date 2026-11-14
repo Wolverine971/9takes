@@ -57,6 +57,7 @@
 		| '/community'
 		| '/corpus-stats'
 		| '/enneagram-corner'
+		| '/enneagram-test'
 		| '/how-to-guides'
 		| '/personality-analysis'
 		| '/pop-culture'
@@ -87,6 +88,11 @@
 			label: 'Questions',
 			description: 'Community prompts and perspective threads',
 			featured: true
+		},
+		{
+			href: '/enneagram-test',
+			label: 'Enneagram Test',
+			description: 'Find your type in 5 to 10 minutes, no email'
 		},
 		{
 			href: '/personality-analysis',

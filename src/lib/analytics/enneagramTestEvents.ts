@@ -1,7 +1,9 @@
 // src/lib/analytics/enneagramTestEvents.ts
 //
 // PostHog events for the Enneagram test (T-42). Funnel: test_started →
-// test_result_shown → test_exit_clicked, plus the friend loop:
+// test_result_shown → test_exit_clicked, the result page's own actions
+// (test_result_emailed, test_take_started → test_take_posted,
+// test_saved_to_profile), plus the friend loop:
 // friend_link_shared → friend_link_opened → friend_read_submitted →
 // friend_started_own_test.
 //
@@ -10,7 +12,7 @@
 import { capture } from '$lib/analytics/posthog';
 
 export type TestStep = 'groundwork' | 'emotion' | 'strength' | 'ways' | 'types' | 'tiebreak';
-export type TestExit = 'question' | 'type_page' | 'friend';
+export type TestExit = 'question' | 'type_page' | 'famous_people' | 'friend';
 export type FriendShareMethod = 'share' | 'copy' | 'text' | 'email';
 
 export function captureTestStarted(source: 'direct' | 'friend_link' = 'direct'): Promise<void> {
@@ -50,6 +52,35 @@ export function captureFriendLinkShared(method: FriendShareMethod): Promise<void
 
 export function captureTestNotifyOptIn(): Promise<void> {
 	return capture('test_notify_opt_in', { surface: 'enneagram_test' });
+}
+
+/** "Email me my result" on the result page. `sent` is false when the address saved but no email went out. */
+export function captureTestResultEmailed(input: { split: boolean; sent: boolean }): Promise<void> {
+	return capture('test_result_emailed', {
+		surface: 'enneagram_test',
+		split: input.split,
+		sent: input.sent
+	});
+}
+
+/** The answer-first card on the result page: first keystroke, then a posted take. */
+export function captureTestTakeStarted(split: boolean): Promise<void> {
+	return capture('test_take_started', { surface: 'enneagram_test', split });
+}
+
+export function captureTestTakePosted(input: {
+	split: boolean;
+	alreadyAnswered: boolean;
+}): Promise<void> {
+	return capture('test_take_posted', {
+		surface: 'enneagram_test',
+		split: input.split,
+		already_answered: input.alreadyAnswered
+	});
+}
+
+export function captureTestSavedToProfile(): Promise<void> {
+	return capture('test_saved_to_profile', { surface: 'enneagram_test' });
 }
 
 export function captureFriendLinkOpened(): Promise<void> {

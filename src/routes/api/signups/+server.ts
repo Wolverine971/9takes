@@ -41,7 +41,18 @@ type SignupPayload = {
 	honeypot: string;
 	timeToken: number | null;
 	analytics: unknown;
+	/** "Email me this page": the article the reader wants sent to them. */
+	savedPath: string | null;
 };
+
+// A same-site article path only: no query string, fragment, host or dot segments.
+const SAVED_PATH_RE = /^\/[a-z0-9][a-z0-9/_-]{0,299}$/i;
+
+function readSavedPath(value: unknown): string | null {
+	return typeof value === 'string' && SAVED_PATH_RE.test(value) && !value.includes('//')
+		? value
+		: null;
+}
 
 function toRecipient(email: string, sourceId: string): EmailRecipient {
 	const normalized = normalizeEmail(email);
@@ -61,9 +72,11 @@ async function readSignupPayload(request: Request): Promise<SignupPayload> {
 			form_extra?: unknown;
 			_timeToken?: unknown;
 			analytics?: unknown;
+			saved_path?: unknown;
 		};
 		return {
 			analytics: body.analytics,
+			savedPath: readSavedPath(body.saved_path),
 			email: typeof body.email === 'string' ? body.email : '',
 			honeypot: typeof body.form_extra === 'string' ? body.form_extra : '',
 			timeToken:
@@ -83,6 +96,7 @@ async function readSignupPayload(request: Request): Promise<SignupPayload> {
 
 	return {
 		analytics: form.get('analytics'),
+		savedPath: readSavedPath(form.get('saved_path')),
 		email: typeof raw === 'string' ? raw : '',
 		honeypot: typeof honeypot === 'string' ? honeypot : '',
 		timeToken: Number.isFinite(timeToken) ? timeToken : null
@@ -317,9 +331,11 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 	try {
 		const result = await sendEmailWithTracking(adminSupabase, {
 			recipient: toRecipient(normalizedEmail, String(insertedSignup.id)),
-			subject: 'You are in for 9takes updates',
-			preheader: 'A practical place to start: answer before reading the room.',
-			htmlContent: signupWelcomeEmail(),
+			subject: payload.savedPath ? 'The page you saved on 9takes' : 'You are in for 9takes updates',
+			preheader: payload.savedPath
+				? 'Your link, plus one practical place to start.'
+				: 'A practical place to start: answer before reading the room.',
+			htmlContent: signupWelcomeEmail(payload.savedPath),
 			sentBy: null,
 			includeFooter: true,
 			emailKind: 'marketing',

@@ -9,6 +9,8 @@
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import TestNudge from '$lib/components/blog/TestNudge.svelte';
+	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
 	import { getAuthShell } from '$lib/authShell.svelte';
 
 	interface Props {
@@ -63,8 +65,12 @@
 
 	<TableOfContents content={tocContent} headings={data.frontmatter.headings} />
 
+	<TestNudge placement="mental_health_top" />
+
 	<Article />
 </article>
+
+<TestYourTypeCTA compact />
 
 <hr class="section-divider" />
 

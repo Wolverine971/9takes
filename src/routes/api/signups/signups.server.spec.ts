@@ -50,14 +50,22 @@ vi.mock('$lib/server/posthogCapture', () => ({
 }));
 
 import { POST } from './+server';
+import { signupWelcomeEmail } from '../../../emails';
 
 function buildRequest(
 	email: string,
-	options: { honeypot?: string; timeToken?: string; userAgent?: string; analytics?: unknown } = {}
+	options: {
+		honeypot?: string;
+		timeToken?: string;
+		userAgent?: string;
+		analytics?: unknown;
+		savedPath?: string;
+	} = {}
 ) {
 	const formData = new FormData();
 	formData.append('email', email);
 	if (options.analytics) formData.append('analytics', JSON.stringify(options.analytics));
+	if (options.savedPath !== undefined) formData.append('saved_path', options.savedPath);
 	if (options.honeypot !== undefined) {
 		formData.append('form_extra', options.honeypot);
 	}
@@ -118,7 +126,13 @@ function buildSignupTable(options?: {
 
 function buildEvent(
 	email = 'NewUser@Example.com',
-	options: { honeypot?: string; timeToken?: string; userAgent?: string; analytics?: unknown } = {}
+	options: {
+		honeypot?: string;
+		timeToken?: string;
+		userAgent?: string;
+		analytics?: unknown;
+		savedPath?: string;
+	} = {}
 ) {
 	return {
 		request: buildRequest(email, options),
@@ -193,6 +207,45 @@ describe('POST /api/signups', () => {
 				subject: 'You are in for 9takes updates'
 			})
 		);
+	});
+
+	it('emails the page a reader asked to keep, and only a plain same-site path', async () => {
+		buildSignupTable({ insertedId: 457 });
+		await POST(
+			buildEvent(undefined, {
+				savedPath: '/enneagram-corner/enneagram-compatibility-matrix'
+			}) as any
+		);
+		expect(signupWelcomeEmail).toHaveBeenLastCalledWith(
+			'/enneagram-corner/enneagram-compatibility-matrix'
+		);
+		expect(sendEmailWithTrackingMock).toHaveBeenLastCalledWith(
+			adminSupabaseMock,
+			expect.objectContaining({ subject: 'The page you saved on 9takes' })
+		);
+
+		for (const savedPath of [
+			'//evil.example/phish',
+			'https://evil.example',
+			'/enneagram-corner/x?next=//evil.example',
+			'/a/../admin',
+			'/enneagram-corner//evil.example'
+		]) {
+			vi.clearAllMocks();
+			getNewsletterSignupProtectionStateMock.mockResolvedValue({
+				authAbuse: false,
+				rateLimited: false,
+				reason: null
+			});
+			sendEmailWithTrackingMock.mockResolvedValue({ success: true });
+			buildSignupTable({ insertedId: 458 });
+			await POST(buildEvent(undefined, { savedPath }) as any);
+			expect(signupWelcomeEmail).toHaveBeenLastCalledWith(null);
+			expect(sendEmailWithTrackingMock).toHaveBeenLastCalledWith(
+				adminSupabaseMock,
+				expect.objectContaining({ subject: 'You are in for 9takes updates' })
+			);
+		}
 	});
 
 	it('does not insert when the normalized email already exists', async () => {

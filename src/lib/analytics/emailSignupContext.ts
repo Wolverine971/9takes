@@ -5,7 +5,9 @@ export const EMAIL_SIGNUP_SURFACES = [
 	'email_signup',
 	'email_invite',
 	'enneagram_sidebar',
-	'blog_purpose'
+	'blog_purpose',
+	'enneagram_test_result',
+	'keep_this_page'
 ] as const;
 
 export type EmailSignupSurface = (typeof EMAIL_SIGNUP_SURFACES)[number];

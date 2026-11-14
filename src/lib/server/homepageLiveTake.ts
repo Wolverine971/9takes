@@ -113,14 +113,26 @@ export async function getUnlockedLiveTakes(
  * unlocked answers. Everyone else gets the locked card (no answers) and a
  * human-only `gate_shown` event. Any failure falls back to the practice homepage.
  */
-export async function loadHomepageLiveTake(event: LiveTakeEvent): Promise<LiveTake | null> {
+export function loadHomepageLiveTake(event: LiveTakeEvent): Promise<LiveTake | null> {
+	return loadLiveTake(event, { slug: LIVE_TAKE_SLUG, gatePath: event.url.pathname });
+}
+
+/**
+ * The same card for any question a surface embeds (the homepage, the Enneagram
+ * test result). `gatePath` is what `gate_shown` is attributed to; pass a fixed
+ * path when the page URL carries a private token.
+ */
+export async function loadLiveTake(
+	event: LiveTakeEvent,
+	options: { slug: string; gatePath: string }
+): Promise<LiveTake | null> {
 	try {
 		const [isDemoTime, question] = await Promise.all([
 			loadRouteDemoTime(event.locals.supabase),
-			getLiveQuestion(event.locals.supabase)
+			getLiveQuestion(event.locals.supabase, options.slug)
 		]);
-		// Demo mode moves the question page onto demo tables; the homepage never
-		// mixes them, so it falls back to the practice-only homepage.
+		// Demo mode moves the question page onto demo tables; embedded cards never
+		// mix them, so the surface falls back to its no-question state.
 		if (isDemoTime === true || !question) return null;
 
 		const viewer: LiveViewer = {
@@ -138,7 +150,7 @@ export async function loadHomepageLiveTake(event: LiveTakeEvent): Promise<LiveTa
 					fingerprint: viewer.fingerprint,
 					eventType: 'gate_shown',
 					questionId: question.id,
-					path: event.url.pathname,
+					path: options.gatePath,
 					userId: viewer.userId,
 					userAgent
 				}),
@@ -166,7 +178,8 @@ export async function loadHomepageLiveTake(event: LiveTakeEvent): Promise<LiveTa
 			answers: unlocked?.answers ?? []
 		};
 	} catch (loadError) {
-		logger.warn('Homepage live take unavailable; showing the practice homepage', {
+		logger.warn('Live take unavailable; showing the fallback', {
+			slug: options.slug,
 			error: String(loadError)
 		});
 		return null;

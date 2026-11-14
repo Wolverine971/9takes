@@ -190,6 +190,8 @@ export async function recordUserTake(input: {
 	resonantType: number | null;
 	fingerprint: string | null;
 	userId: string | null;
+	/** The type the person picked for themselves (the Enneagram test), when known. */
+	selfReportedType?: number | null;
 }): Promise<void> {
 	try {
 		const supabase = getSupabaseAdminClient();
@@ -199,7 +201,8 @@ export async function recordUserTake(input: {
 			take: input.take.slice(0, 2000),
 			resonant_type: input.resonantType,
 			fingerprint: input.fingerprint,
-			user_id: input.userId
+			user_id: input.userId,
+			...(input.selfReportedType ? { self_reported_type: input.selfReportedType } : {})
 		});
 	} catch {
 		/* swallow: corpus capture is best-effort */

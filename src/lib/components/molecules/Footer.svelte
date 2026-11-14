@@ -10,6 +10,7 @@
 	const mainLinks = [
 		{ href: '/', label: 'Home' },
 		{ href: '/questions', label: 'Questions' },
+		{ href: '/enneagram-test', label: 'Enneagram Test' },
 		{ href: '/manifesto', label: 'Manifesto' },
 		{ href: '/about', label: 'About' },
 		{ href: '/corpus-stats', label: 'Corpus Stats' }

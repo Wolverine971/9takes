@@ -473,7 +473,22 @@ export const signupEmail = () => {
   </html>`;
 };
 
-export const signupWelcomeEmail = () => {
+/**
+ * The newsletter welcome. `savedPath` is set when the reader asked for a page
+ * to be emailed to them ("Email me this page"): the link they asked for leads,
+ * and the usual welcome follows. Callers pass a validated same-site path only.
+ */
+export const signupWelcomeEmail = (savedPath: string | null = null) => {
+	if (savedPath) {
+		const savedUrl = `https://9takes.com${savedPath}`;
+		return `<h1>Here is the page you saved</h1>
+<p><a class="button" href="${savedUrl}">Open the page</a></p>
+<p>Or copy the link: <a href="${savedUrl}">${savedUrl}</a></p>
+<p>You are also on the 9takes update list now. Expect an occasional note, not a daily one.</p>
+<p>The useful part of 9takes is simple: answer a real question before you read everyone else's take, then compare what you saw with what they saw.</p>
+<p><a href="https://9takes.com/questions">Browse current questions</a>, or <a href="https://9takes.com/enneagram-test">take the free Enneagram test</a> if you are not sure of your type yet.</p>
+<p>DJ<br />9takes.com</p>`;
+	}
 	return `<h1>Start with one honest answer</h1>
 <p>You are on the 9takes update list.</p>
 <p>The useful part of 9takes is simple: answer a real question before you read everyone else's take, then compare what you saw with what they saw.</p>

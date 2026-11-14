@@ -32,6 +32,7 @@
 	import { SectionKicker, Spinner } from '$lib/components/atoms';
 	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
 	import NineChorus from '$lib/components/blog/NineChorus.svelte';
+	import TestNudge from '$lib/components/blog/TestNudge.svelte';
 	import { enneagramTypeProfiles } from '$lib/data/enneagramTypeProfiles';
 
 	// Only import critical components for initial render
@@ -551,6 +552,11 @@
 				sidePosition="right"
 				renderMode="accordion-only"
 				accordionOpen={false}
+			/>
+			<!-- One quiet line to the test; the Chorus further down stays the main ask. -->
+			<TestNudge
+				lead={`Wondering if you share ${postDisplayName}’s type?`}
+				placement="celebrity_top"
 			/>
 		</div>
 	</aside>
