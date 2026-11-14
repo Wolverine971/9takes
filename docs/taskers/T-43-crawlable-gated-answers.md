@@ -6,7 +6,7 @@
 **Owner:** DJ
 **Created:** 2026-10-06
 **Status:** BUILT 2026-10-07 (uncommitted) on DJ's revised decision: Google sees an AI **summary** of how people answered, never the verbatim takes. Ship order: apply migration, deploy, backfill. See "What was actually done". Fork 1 is moot (no one's words are exposed); fork 2 stays settled (zero-answer wall for humans). **Revised 2026-10-09:** humans never see the gist, before or after answering; it is Googlebot-only. See "Update 2026-10-09".
-**Related:** `docs/seo/2026-10-06-keyword-and-outreach-map.md` (Decision 1); `docs/question-page-seo-recommendations-2026-04-07.md`; `src/lib/server/personalityIsrContract.spec.ts` (contract-test pattern); `src/lib/server/contentAccessGuard.ts`.
+**Related:** `docs/seo/2026-10-06-keyword-and-outreach-map.md` (Decision 1); `docs/seo/question-page-seo-recommendations-2026-04-07.md`; `src/lib/server/personalityIsrContract.spec.ts` (contract-test pattern); `src/lib/server/contentAccessGuard.ts`.
 
 ---
 
@@ -162,7 +162,7 @@ DiscussionForumPosting: https://developers.google.com/search/docs/appearance/str
 ### 2.2 Existing JSON-LD (`src/routes/questions/[slug]/+page.svelte`)
 
 - `:613-704` builds an `@graph` of `DiscussionForumPosting` (`#post`, `commentCount`, author "Anonymous 9takes member", no `comment`), `WebPage` (`#webpage`, `mainEntity` → `#post`) and `BreadcrumbList`. `SEOHead` emits it at `:827-836`.
-- The comment block at `:620-631` states the give-first guardrail ("never put answer markup around gated comments"), which comes from `docs/question-page-seo-recommendations-2026-04-07.md:107-127`. The paywall flags don't violate it because they add no answer markup, but the comment should be updated.
+- The comment block at `:620-631` states the give-first guardrail ("never put answer markup around gated comments"), which comes from `docs/seo/question-page-seo-recommendations-2026-04-07.md:107-127`. The paywall flags don't violate it because they add no answer markup, but the comment should be updated.
 - Robots meta is `index, follow, max-image-preview:large, max-snippet:-1, …` (`src/lib/components/SEOHead.svelte:72-73`).
 - Visible gate copy: `"COMMENTS HIDDEN UNTIL YOU ANSWER"` (`+page.svelte:922-929`); the locked shell is at `QuestionContent.svelte:238-318`.
 

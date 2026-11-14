@@ -6,7 +6,7 @@
 **Status:** active
 **Owner:** DJ
 **Decisions locked 2026-09-22:** weekly Nine format (not just a daily queue) · unbranded participant on Reddit · Reddit first
-**Related:** `scripts/find-threads.mjs`, `venues.json`, `run-log.md`, `reddit/README.md`, `docs/taskers/T-22-reddit-situation-discovery-flow.md`
+**Related:** `scripts/find-threads.mjs`, `venues.json`, `run-log.md`, `docs/reddit/post-drafts/README.md`, `docs/taskers/T-22-reddit-situation-discovery-flow.md`
 
 ---
 
@@ -27,14 +27,14 @@ Judge everything here on **takes produced**, not sessions.
 
 ---
 
-## 1. Why the existing `reddit/` drafts are parked
+## 1. Why the existing `docs/reddit/post-drafts/` drafts are parked
 
-The eight drafts in `reddit/` are well written and correctly cautious. They are also structurally unable to move the number:
+The eight drafts in `docs/reddit/post-drafts/` are well written and correctly cautious. They are also structurally unable to move the number:
 
 - Five target founder subs (r/SideProject, r/indiehackers, r/startups, r/alphaandbetausers). Founders evaluate products; they do not leave takes.
 - The other three are deliberately link-free karma posts with no mechanism that produces a visit.
 
-`reddit/01-enneagram-organic-discussion.md` is the exception and gets reused below as the Monday post. The rest stay on ice until the loop is proven.
+`docs/reddit/post-drafts/01-enneagram-organic-discussion.md` is the exception and gets reused below as the Monday post. The rest stay on ice until the loop is proven.
 
 ---
 
@@ -42,12 +42,12 @@ The eight drafts in `reddit/` are well written and correctly cautious. They are 
 
 One cycle per week. The whole point is to give a stranger a **reason to come back**, which the site has never had.
 
-| Day         | Action                                                                                                                                                                                                                                                  |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Monday**  | Post one question organically in r/Enneagram (tier 2, flair: Type Discussion). No link, ever, including later edits. `reddit/01-enneagram-organic-discussion.md` is the template. Post the same question on X, no link — the tweet _is_ the demo.       |
-| **Tue–Thu** | Reply to every answerer, naming the emotional logic under their answer. This is the Mirror Moment performed live. On X this is the whole game: a reply plus your reply back is worth roughly 150x a like, and small accounts get discovered in replies. |
-| **Friday**  | Publish the nine-way spread as a live 9takes question page, in your own words. Post the X thread version crediting repliers by handle.                                                                                                                  |
-| **Any day** | One tier-1 Reddit comment from `pnpm nine:find`. One per day. Not a batch.                                                                                                                                                                              |
+| Day         | Action                                                                                                                                                                                                                                                             |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Monday**  | Post one question organically in r/Enneagram (tier 2, flair: Type Discussion). No link, ever, including later edits. `docs/reddit/post-drafts/01-enneagram-organic-discussion.md` is the template. Post the same question on X, no link — the tweet _is_ the demo. |
+| **Tue–Thu** | Reply to every answerer, naming the emotional logic under their answer. This is the Mirror Moment performed live. On X this is the whole game: a reply plus your reply back is worth roughly 150x a like, and small accounts get discovered in replies.            |
+| **Friday**  | Publish the nine-way spread as a live 9takes question page, in your own words. Post the X thread version crediting repliers by handle.                                                                                                                             |
+| **Any day** | One tier-1 Reddit comment from `pnpm nine:find`. One per day. Not a batch.                                                                                                                                                                                         |
 
 ### The Friday artifact, without stealing anyone's words
 

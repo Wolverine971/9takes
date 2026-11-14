@@ -6,7 +6,7 @@
 **Owner:** DJ
 **Created:** 2026-08-13
 **Status:** Ready for read-only discovery. Posting, messaging, and outreach are not authorized.
-**Related:** `docs/taskers/T-21-situations-and-interpretations-product-research.md`, `reddit/README.md`, `docs/growth/growth-log.md`, `docs/quora/question-log.md`
+**Related:** `docs/taskers/T-21-situations-and-interpretations-product-research.md`, `docs/reddit/post-drafts/README.md`, `docs/growth/growth-log.md`, `docs/quora/question-log.md`
 
 ## 0. What and why
 
@@ -28,7 +28,7 @@ This task is read-only. Do not post, comment, vote, follow, message, join commun
 1. `CLAUDE.md`
 2. `docs/taskers/README.md`
 3. `docs/taskers/T-21-situations-and-interpretations-product-research.md`
-4. `reddit/README.md`
+4. `docs/reddit/post-drafts/README.md`
 5. Newest relevant entries in `docs/growth/growth-log.md`
 6. Existing question categories, question prompts, and strategic-question experiments
 7. `docs/quora/question-log.md` for prior audience-language patterns and duplication avoidance

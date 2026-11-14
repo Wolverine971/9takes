@@ -42,7 +42,7 @@ pnpm clean             # Remove .svelte-kit build output
 - **Styling**: TailwindCSS 3 + SCSS, Flowbite-Svelte components
 - **Content**: MDsvex for Markdown blogs (with rehype-slug, remark-abbr, remark-github)
 - **Search**: Elasticsearch (questions), Supabase FTS (blogs)
-- **Email**: Gmail API (service account), custom sequence engine in `src/lib/email/`
+- **Email**: Gmail API (service account) for transactional mail; Resend for marketing sends when `EMAIL_MARKETING_PROVIDER=resend` (delivery events land via `api/webhooks/resend/`); custom sequence engine in `src/lib/email/`
 - **Payments**: Stripe (`src/routes/stripe/`)
 - **Analytics**: In-house page analytics + web-vitals, optional Vercel Analytics
 - **Images**: `sharp`, `@sveltejs/enhanced-img`, `html-to-image`, `html2canvas`, `jspdf`
@@ -65,6 +65,7 @@ src/
 │   ├── book-session/          # Coaching waitlist signup
 │   ├── account/               # User profile, unsubscribe
 │   ├── intake/[token]/        # Token-gated consulting intake forms
+│   ├── host-desk/[token]/     # One-tap host reply page (signed link from the daily digest email)
 │   ├── followme/              # Follow-me landing/redirect
 │   ├── admin/                 # Admin panel (see table below)
 │   ├── api/                   # Server endpoints (see API section)
@@ -93,16 +94,16 @@ src/
 ├── blog/                      # Markdown content files
 │   ├── community/            # Community posts
 │   ├── enneagram/            # Enneagram educational content
-│   ├── generational/         # Generational personality content
+│   ├── generational/         # Stub (template.md only)
 │   ├── guides/               # How-to guides
-│   ├── historical/           # Historical figures content
-│   ├── life-situations/      # Life situation perspectives
-│   ├── life-style/           # Lifestyle content
-│   ├── overview/             # Enneagram overview content
+│   ├── historical/           # Stub (template.md only)
+│   ├── life-situations/      # Life situation perspectives (1 unpublished draft)
+│   ├── life-style/           # Stub (template.md only)
+│   ├── overview/             # Stub (template.md only)
 │   ├── people/               # Famous people (drafts only; published live in DB)
 │   ├── pop-culture/          # Pop culture analysis
-│   ├── situational/          # Situational content
-│   └── topical/              # Topical content
+│   ├── situational/          # Stub (template.md only)
+│   └── topical/              # Topical content (1 unpublished draft)
 ├── scss/                      # Global SCSS styles
 ├── hooks.server.ts            # Supabase SSR client + session wiring
 └── app.scss / app.html        # Global styles + document shell
@@ -150,65 +151,78 @@ All other blog routes use `import.meta.glob` to load markdown files at build tim
 
 ## Admin Panel (`/admin/*`)
 
-| Route                                      | Purpose                                                 |
-| ------------------------------------------ | ------------------------------------------------------- |
-| `/admin`                                   | Dashboard - stats, charts, demo mode toggle, ES reindex |
-| `/admin/analytics`                         | Site analytics and metrics                              |
-| `/admin/asset-generators`                  | Hub for poster / question-print / zine generators       |
-| `/admin/asset-generators/poster-generator` | Social media image generation                           |
-| `/admin/asset-generators/question-print`   | Printable question cards                                |
-| `/admin/asset-generators/zine-creator`     | Zine asset generator                                    |
-| `/admin/blog-diff`                         | Blog content diff viewer                                |
-| `/admin/categories`                        | Question category CRUD + hierarchy                      |
-| `/admin/comments`                          | Comment moderation                                      |
-| `/admin/consulting`                        | Coaching clients, sessions, resources                   |
-| `/admin/content-board`                     | Famous people blog management (create, edit, publish)   |
-| `/admin/drafts`                            | Blog draft management                                   |
-| `/admin/email-dashboard`                   | Email campaign management (draft, schedule, send)       |
-| `/admin/enneagram-campaign`                | Enneagram-type-targeted email campaign builder          |
-| `/admin/links`                             | Link management (+ map-powered `[slug]`)                |
-| `/admin/marketing`                         | Marketing tools and templates                           |
-| `/admin/messages`                          | Message management                                      |
-| `/admin/poster-generator`                  | Legacy poster generator (prefer asset-generators)       |
-| `/admin/question-distribution`             | Question distribution review/tools                      |
-| `/admin/questions`                         | Question moderation and hierarchy                       |
-| `/admin/reactivation-sequence`             | Reactivation email sequence editor                      |
-| `/admin/search`                            | Search index management                                 |
-| `/admin/transactional-emails`              | Transactional template preview + ad-hoc admin sends     |
-| `/admin/users`                             | User management                                         |
-| `/admin/welcome-sequence`                  | Welcome email sequence editor                           |
-| `/admin/zine-creator`                      | Zine creator (standalone)                               |
+| Route                                      | Purpose                                                       |
+| ------------------------------------------ | ------------------------------------------------------------- |
+| `/admin`                                   | Dashboard - stats, charts, demo mode toggle, ES reindex       |
+| `/admin/analytics`                         | Site analytics and metrics                                    |
+| `/admin/asset-generators`                  | Hub for poster / question-print / zine generators             |
+| `/admin/asset-generators/poster-generator` | Social media image generation                                 |
+| `/admin/asset-generators/question-print`   | Printable question cards                                      |
+| `/admin/asset-generators/zine-creator`     | Zine asset generator                                          |
+| `/admin/blog-diff`                         | Blog content diff viewer                                      |
+| `/admin/categories`                        | Question category CRUD + hierarchy                            |
+| `/admin/comments`                          | Comment moderation                                            |
+| `/admin/consulting`                        | Coaching clients, sessions, resources                         |
+| `/admin/content-board`                     | Famous people blog management (create, edit, publish)         |
+| `/admin/drafts`                            | Blog draft management                                         |
+| `/admin/email-campaigns`                   | Enneagram type-prompt campaign sends + stopped enrollments    |
+| `/admin/email-dashboard`                   | Email campaign management (draft, schedule, send)             |
+| `/admin/enneagram-campaign`                | Enneagram-type-targeted email campaign builder                |
+| `/admin/host-desk`                         | Host reply desk: pending drafted replies, history, run digest |
+| `/admin/links`                             | Link management (+ map-powered `[slug]`)                      |
+| `/admin/marketing`                         | Marketing tools and templates                                 |
+| `/admin/messages`                          | Message management                                            |
+| `/admin/poster-generator`                  | Legacy poster generator (prefer asset-generators)             |
+| `/admin/question-distribution`             | Question distribution review/tools                            |
+| `/admin/questions`                         | Question moderation and hierarchy                             |
+| `/admin/reactivation-sequence`             | Reactivation email sequence editor                            |
+| `/admin/search`                            | Search index management                                       |
+| `/admin/transactional-emails`              | Transactional template preview + ad-hoc admin sends           |
+| `/admin/users`                             | User management                                               |
+| `/admin/welcome-sequence`                  | Welcome email sequence editor                                 |
+| `/admin/zine-creator`                      | Zine creator (standalone)                                     |
 
 Admin access is enforced by `src/lib/server/adminAuth.ts` and layout `+layout.server.ts` guards.
 
 ## API Routes (`src/routes/api/*`)
 
-| Path                                    | Purpose                                        |
-| --------------------------------------- | ---------------------------------------------- |
-| `api/adder/`                            | Internal content/row adders                    |
-| `api/admin/`                            | Admin-only endpoints                           |
-| `api/analytics/`                        | Page analytics ingest + retrieval              |
-| `api/auth-shell/`                       | Client auth-shell state (user + admin flag)    |
-| `api/blog/`                             | Blog read/write helpers                        |
-| `api/blog-versions/`                    | Famous-people version history                  |
-| `api/cron/process-reply-notifications/` | Cron: deliver reply-notification emails        |
-| `api/cron/process-sequences/`           | Cron: advance email drip sequences             |
-| `api/cron/send-scheduled-emails/`       | Cron: send scheduled campaign emails           |
-| `api/cron/tag-chorus-questions/`        | Cron: async tagging for chorus questions       |
-| `api/email/re-permission/`              | Reactivation re-permission yes/no links        |
-| `api/nine/mirror/`                      | Chorus mirror endpoint (nine takes)            |
-| `api/notifications/`                    | Notification read/unread state                 |
-| `api/person-suggestions/`               | Public POST: famous-person suggestions         |
-| `api/questions/typeahead/`              | Authenticated question typeahead (ES-backed)   |
-| `api/questions/upload-image/`           | Question image upload                          |
-| `api/reply-notifications/`              | Reply-notification return + unsubscribe links  |
-| `api/search/`                           | Universal search endpoint                      |
-| `api/signups/`                          | Public POST: waitlist/email signups            |
-| `api/track/`                            | Event tracking (analytics pings, etc.)         |
-| `api/transcribe/`                       | Audio transcription (OpenRouter, rate-limited) |
-| `api/update-questions/`                 | Webhook-auth'd question bulk update            |
+| Path                                          | Purpose                                                               |
+| --------------------------------------------- | --------------------------------------------------------------------- |
+| `api/adder/`                                  | Internal content/row adders                                           |
+| `api/admin/`                                  | Admin-only endpoints                                                  |
+| `api/analytics/`                              | Page analytics ingest + retrieval                                     |
+| `api/auth-shell/`                             | Client auth-shell state (user + admin flag)                           |
+| `api/blog/`                                   | Blog read/write helpers                                               |
+| `api/beta-signup/`                            | Public POST: beta card email form (JSON; ISR pages drop form actions) |
+| `api/blog-versions/`                          | Famous-people version history                                         |
+| `api/comments/views/`                         | Comment view tracking                                                 |
+| `api/cron/host-digest/`                       | Cron: daily host digest (new human takes + drafted replies)           |
+| `api/cron/postprocess-questions/`             | Cron: drain questions whose tags/format/AI takes never ran            |
+| `api/cron/process-email-events/`              | Cron: reprocess email provider (Resend) delivery events               |
+| `api/cron/process-reply-notifications/`       | Cron: deliver reply-notification emails                               |
+| `api/cron/question-summaries/`                | Cron: refresh "The gist so far" summaries (T-43)                      |
+| `api/cron/process-sequences/`                 | Cron: advance email drip sequences                                    |
+| `api/cron/send-scheduled-emails/`             | Cron: send scheduled campaign emails                                  |
+| `api/cron/tag-chorus-questions/`              | Cron: async tagging for chorus questions                              |
+| `api/cta-event/`                              | CTA impression/tap events for copy experiments                        |
+| `api/email/re-permission/`                    | Reactivation re-permission yes/no links                               |
+| `api/enneagram-test/`                         | Enneagram test (T-42): save results, result/friend-link tokens, reads |
+| `api/homepage/`                               | Live-take homepage: anonymous answer + community feed                 |
+| `api/nine/mirror/`                            | Chorus mirror endpoint (nine takes)                                   |
+| `api/notifications/`                          | Notification read/unread state                                        |
+| `api/person-suggestions/`                     | Public POST: famous-person suggestions                                |
+| `api/personality-analysis/[slug]/discussion/` | Per-visitor half of an ISR-cached personality page                    |
+| `api/questions/typeahead/`                    | Authenticated question typeahead (ES-backed)                          |
+| `api/questions/upload-image/`                 | Question image upload                                                 |
+| `api/reply-notifications/`                    | Reply-notification return + unsubscribe links                         |
+| `api/search/`                                 | Universal search endpoint                                             |
+| `api/signups/`                                | Public POST: waitlist/email signups                                   |
+| `api/track/`                                  | Event tracking (analytics pings, etc.)                                |
+| `api/transcribe/`                             | Audio transcription (OpenRouter, rate-limited)                        |
+| `api/update-questions/`                       | Webhook-auth'd question bulk update                                   |
+| `api/webhooks/resend/`                        | Resend delivery-event webhook (Svix-signed)                           |
 
-Cron endpoints verify `CRON_SECRET`. The webhook endpoint verifies `PRIVATE_WEBHOOK_AUTH`.
+Cron endpoints verify `CRON_SECRET`. The update-questions webhook verifies `PRIVATE_WEBHOOK_AUTH`; the Resend webhook verifies `RESEND_WEBHOOK_SECRET`.
 
 ## Key Database Tables
 
@@ -377,6 +391,14 @@ PRIVATE_gmail_private_key=             # Gmail API service account key
 PRIVATE_GOOGLE_MAPS_API_KEY=
 PRIVATE_WEBHOOK_AUTH=                  # Shared secret for update-questions webhook
 CRON_SECRET=                           # Bearer for cron endpoints
+EMAIL_MARKETING_PROVIDER=              # "resend" routes marketing sends through Resend (else Gmail)
+RESEND_API_KEY=
+RESEND_MARKETING_FROM=
+RESEND_WEBHOOK_SECRET=                 # Verifies api/webhooks/resend
+EMAIL_FOOTER_ADDRESS=                  # Physical address in marketing email footers
+PRIVATE_BETA_BOOKING_URL=              # Beta card booking link
+TRANSCRIPTION_OPENROUTER_MODEL=        # Model override for api/transcribe
+BYPASS_TOKEN=                          # Vercel ISR bypass token (32+ chars)
 RECAPTCHA_SECRET_KEY=
 # Stripe keys consumed in src/routes/stripe/_stripe.ts
 ```
@@ -451,5 +473,6 @@ Run via `pnpm <alias>` where available:
 - Rate limiting: 5 comments per 60 seconds per fingerprint
 - Auth: `event.locals.session` + `event.locals.supabase`; admin guarded by `adminAuth`
 - Demo mode: Toggle via admin dashboard; read from `admin_settings`
-- Personality analysis slug pages return `Cache-Control: private, no-store` because responses are personalized
+- Personality analysis slug pages are ISR-cached (24h expiration, identical HTML for every visitor); the per-visitor half loads from `api/personality-analysis/[slug]/discussion/`. A failed query throws 503, never 404, because ISR would store and replay a 404
+- The repo is **public**. Third-party transcripts, pipeline logs and perspective reviews are git-ignored (see `.gitignore`); cache new full transcripts in `~/.cache/9takes-research/<slug>/` and keep only short quote fragments + URLs in tracked files
 - Cron endpoints **must** validate `CRON_SECRET` before doing work

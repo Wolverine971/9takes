@@ -4,7 +4,7 @@
 
 **Status:** queued
 **Lane:** Education / social
-**Source:** `docs/brand/9takes-manifesto.md`, `docs/positioning/enneagram-how-to-think-about-it.md`.
+**Source:** `docs/brand/9takes-manifesto.md`, `docs/brand/positioning/enneagram-how-to-think-about-it.md`.
 
 ## Hook
 

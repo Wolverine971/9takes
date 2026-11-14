@@ -60,7 +60,7 @@ The brand voice/positioning docs are coherent and current. The design system is 
 
 1. **Founder story** — nowhere documented. No origin story, no why-Enneagram, no DJ profile/type doc. Only pitch-template self-intros in the outreach positioning doc. This is the biggest brand gap.
 2. **Canonical vision doc** — the one-sentence vision lives inside `docs/planning/2026-annual-strategy.md`. Needs a standalone `docs/VISION.md` combining vision + why-Enneagram + founder story + what 9takes refuses to become (Neil Strauss's red-line doc from the council session).
-3. **Coaching decision doc** — `docs/monetization/2026-05-02_decode-a-person-offering.md` pivoted to 1:1 sessions on 2026-05-03 and left pricing/length/deliverable/intake-flow as open questions. Nothing since. "Personality maxing" and "Meflow" appear in zero docs or code.
+3. **Coaching decision doc** — `docs/growth/monetization/2026-05-02_decode-a-person-offering.md` pivoted to 1:1 sessions on 2026-05-03 and left pricing/length/deliverable/intake-flow as open questions. Nothing since. "Personality maxing" and "Meflow" appear in zero docs or code.
 4. **Spec implementation status** — `docs/specs/` and `docs/development/` files have no SHIPPED/IN-PROGRESS/BACKLOG markers.
 5. **3–5 year horizon** — planning stops at Dec 2026.
 

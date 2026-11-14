@@ -1,7 +1,11 @@
+<!-- .codex/skills/hyperplexed-audit/references/claude-command.md -->
+> Historical command snapshot. The active workflow is `../SKILL.md`; its current design rules, authorization handling, and verification commands override this snapshot. Do not execute these older instructions.
+
 ---
+
 description: Audit a 9takes UI surface against the HyperPlexed playbook, propose tiered fixes, and apply only approved P-pattern recipes.
 argument-hint: '[component, route, or page - e.g. src/routes/questions/+page.svelte]'
-path: .codex/skills/hyperplexed-audit/references/claude-command.md
+path: .claude/skills/hyperplexed-audit/references/claude-command.md
 ---
 
 # HyperPlexed Audit - 9takes
@@ -16,10 +20,10 @@ You are auditing one 9takes surface with HyperPlexed's eye: alignment first, dec
 | `docs/design/hyperplexed/HYPERPLEXED_FIX_PATTERNS.md`                                 | The recipes: cite every finding as `-> P#`; add P-numbers when a fix is new and reusable |
 | `docs/design/hyperplexed/HYPERPLEXED_AUDIT_TRACKER.md`                                | The rollup: one row per surface, shipped/deferred work, verification state               |
 | `docs/design/hyperplexed/*_AUDIT_*.md`                                                | Prior HyperPlexed audits; check first and stack findings instead of duplicating          |
-| `docs/design-system.md`                                                               | 9takes V5 source of truth: Streetlamp Symposium, tokens, radius, shadows, atoms          |
+| `docs/design-system.md`                                                               | 9takes source of truth: Cold Light tokens (`docs/brand/cold-light.md`), radius, atoms    |
 | `docs/design/2026-06-09-design-audit.md` and `docs/design/2026-06-11-mobile-audit.md` | Broad prior audits; cross-reference overlapping findings                                 |
 
-If those docs are missing, fall back to `.codex/skills/hyperplexed-audit/references/` for the original playbook, fix patterns, tracker shape, examples, and transcripts.
+If those docs are missing, fall back to `.claude/skills/hyperplexed-audit/references/` for the original playbook, fix patterns, tracker shape, examples, and transcripts.
 
 ## If Invoked Without A Target
 

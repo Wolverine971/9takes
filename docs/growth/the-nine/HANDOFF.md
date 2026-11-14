@@ -31,7 +31,7 @@ Everything in this table was queried against **production** on 2026-09-22 via `.
 | New unique visitors/week                     | 4,593 (Sep 14) · 4,211 (Sep 7) · 4,482 (Aug 31) · 4,368 (Aug 24) |
 | `/questions` visits, last 30 days            | 198                                                              |
 
-**Channel state, from repo docs rather than live APIs — verify before citing:** X `@9takesdotcom` was at 35 followers / 319 tweets / <1% engagement as of the Dec 2025 baseline in `docs/twitter/execution/metrics-tracker.md`, and the tooling has been dormant since ~May 2026. Reddit: one linked test ran on 2026-08-31 in r/alphaandbetausers (`utm_campaign=alpha_beta_answer_first_20260831`). It brought ~8 real visitors to one question page and produced 2 takes, both low-effort ("Pooopin", "Manage their emotions!!!"). Details are in `docs/growth/growth-log.md`. None of the other `reddit/` drafts have been posted. The lesson: a direct link to a question page does get Reddit visitors to answer, but founder subs send low-quality answers.
+**Channel state, from repo docs rather than live APIs — verify before citing:** X `@9takesdotcom` was at 35 followers / 319 tweets / <1% engagement as of the Dec 2025 baseline in `docs/twitter/execution/metrics-tracker.md`, and the tooling has been dormant since ~May 2026. Reddit: one linked test ran on 2026-08-31 in r/alphaandbetausers (`utm_campaign=alpha_beta_answer_first_20260831`). It brought ~8 real visitors to one question page and produced 2 takes, both low-effort ("Pooopin", "Manage their emotions!!!"). Details are in `docs/growth/growth-log.md`. None of the other `docs/reddit/post-drafts/` drafts have been posted. The lesson: a direct link to a question page does get Reddit visitors to answer, but founder subs send low-quality answers.
 
 ---
 
@@ -100,7 +100,7 @@ Every Reddit touch is link-free, so the only way from Reddit to 9takes is a clic
 
 1. **Tagged bio link up** (README §5, step 2).
 2. **First comment, found by hand**, in r/AmIOverreacting or r/Advice (see approval rule in §6). Reply under the top comment or pick a thread 1–6h old; late top-level comments on 400-comment threads get buried.
-3. **First weekly Nine cycle**: Monday question in r/Enneagram (`reddit/01` needs DJ's real example in the last line), replies Tue–Thu, Friday artifact. Publish the Friday synthesis as page content, never as nine separate comments.
+3. **First weekly Nine cycle**: Monday question in r/Enneagram (`docs/reddit/post-drafts/01` needs DJ's real example in the last line), replies Tue–Thu, Friday artifact. Publish the Friday synthesis as page content, never as nine separate comments.
 4. **Log it** in `run-log.md`, append-only. Run `scorecard.sql` at day 14 and day 30.
 5. **Deprioritized:** the LLM matcher upgrade. Under the unbranded protocol, the matched 9takes question isn't used anywhere, so it's off the critical path.
 
@@ -129,7 +129,7 @@ Every Reddit touch is link-free, so the only way from Reddit to 9takes is a clic
 - **Reddit blocks this environment.** `about.json`, `search.json`, `old.reddit.com`, and WebFetch against reddit.com all return Blocked or HTML. There is no unauthenticated path. Do not spend time debugging curl. OAuth credentials now need Reddit's manual approval (see §5), so treat live `nine:find` as unavailable.
 - **`docs/twitter/` is a 40k-word trap.** It is thorough and it produced 35 followers. Do not add to it. The failure mode in this repo has never been strategy.
 - **Do not build a queue.** X tooling built Dec 2025 and went dormant; Instagram ran seven sessions of queued comments and posted **zero**. The harness prints one action per day for exactly this reason. If you find yourself generating a batch of 20 drafts, stop — that is the known failure pattern repeating.
-- **`reddit/`'s eight existing drafts are parked on purpose.** Five target founder subs (r/SideProject, r/indiehackers, r/startups, r/alphaandbetausers) whose audience evaluates products rather than leaving takes; the other three are deliberately link-free with no mechanism to produce a visit. Only `reddit/01-enneagram-organic-discussion.md` survives, promoted to the Monday question. Do not resurrect the rest without a reason.
+- **`docs/reddit/post-drafts/`'s eight existing drafts are parked on purpose.** Five target founder subs (r/SideProject, r/indiehackers, r/startups, r/alphaandbetausers) whose audience evaluates products rather than leaving takes; the other three are deliberately link-free with no mechanism to produce a visit. Only `docs/reddit/post-drafts/01-enneagram-organic-discussion.md` survives, promoted to the Monday question. Do not resurrect the rest without a reason.
 - **X penalises links 50–90%.** Do not plan X content around driving clicks. The tweet is the demo; the link lives in bio. A reply plus DJ's reply back is worth ~150x a like — replies are the whole game from a cold start.
 - **Reddit norms in 2026** are ~95/5 not 90/10, ~2 weeks of participation before any mention, and smaller specific subs beat giant ones. The governing test for any comment: _would this still be upvoted if you deleted every product mention?_ If no, don't post it.
 

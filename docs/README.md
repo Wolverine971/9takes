@@ -52,24 +52,45 @@ statistics:
 
 ## Folder Reference
 
-| Folder                                        | Purpose                                                 |
-| --------------------------------------------- | ------------------------------------------------------- |
-| `audits/`                                     | Current and recent audits worth reading before new work |
-| `archives/`                                   | Historical reference only; not active instructions      |
-| `brand/`                                      | Voice, positioning, founder story, asset guidance       |
-| `design/`                                     | Design audits, migration notes, HyperPlexed work        |
-| `development/`                                | Engineering specs, taskers, technical reports           |
-| `content-analysis/`                           | SEO, quality, pipeline, and content refresh analysis    |
-| `content-generation/`                         | Writing resources, prompts, and creation systems        |
-| `content-research/`                           | Active research notes for posts and people              |
-| `blog-automation/`                            | People-profile automation inventory and queue state     |
-| `distribution-assets/`                        | Ready-to-use launch packets and source images           |
-| `outreach/`                                   | Outreach systems, campaigns, and message drafts         |
-| `instagram/`, `twitter/`, `quora/`, `reddit/` | Channel-specific strategy and execution logs            |
-| `planning/`                                   | Strategy, taskers, and implementation plans             |
-| `project-docs/`                               | Project context and onboarding docs                     |
-| `seo/`                                        | SEO research, briefs, buckets, and handoffs             |
-| `templates/`                                  | Reusable planning and audit templates                   |
+| Folder                                        | Purpose                                                                     |
+| --------------------------------------------- | --------------------------------------------------------------------------- |
+| `audits/`                                     | Current and recent audits worth reading before new work                     |
+| `archives/`                                   | Historical reference only; not active instructions                          |
+| `brand/`                                      | Voice, positioning, founder story, asset guidance                           |
+| `design/`                                     | Design audits, migration notes, HyperPlexed work                            |
+| `development/`                                | Engineering specs, taskers, technical reports                               |
+| `content-analysis/`                           | SEO, quality, pipeline, and content refresh analysis                        |
+| `content-generation/`                         | Writing resources, prompts, and creation systems                            |
+| `content-research/`                           | Active research notes for posts and people                                  |
+| `blog-automation/`                            | People-profile automation inventory and queue state                         |
+| `distribution-assets/`                        | Ready-to-use launch packets and source images                               |
+| `outreach/`                                   | Outreach systems, campaigns, and message drafts                             |
+| `instagram/`, `twitter/`, `quora/`, `reddit/` | Channel-specific strategy and execution logs                                |
+| `planning/`                                   | Strategy, taskers, and implementation plans                                 |
+| `project-docs/`                               | Project context and onboarding docs                                         |
+| `seo/`                                        | SEO research, briefs, buckets, and handoffs                                 |
+| `templates/`                                  | Reusable planning and audit templates                                       |
+| `ai-image-gen/`                               | Carousel system specs, playbooks and grab queue                             |
+| `analytics/`                                  | Older (Dec 2025) search and analytics reviews                               |
+| `blog-blueprints/`                            | Output folder for the `/blueprint` command                                  |
+| `blog-enrichment/`                            | Blog enrichment pilot notes and tracker                                     |
+| `blog-sidecars/`                              | Social cut-downs, review notes and source material moved out of `src/blog/` |
+| `claude-archive/`                             | Retired Claude command definitions                                          |
+| `content-strategy/`                           | Dated search-cleanup plans, update queues, series plans                     |
+| `content-workflows/`                          | Blog workflow map used by `/blueprint`                                      |
+| `council/`                                    | Council (advisor persona) architecture, dossiers, sessions                  |
+| `crosslinks/`                                 | `gen:crosslinks` baseline, log, and Jev link-audit output                   |
+| `email-sequences/`                            | Email campaign readiness, copy reviews, reactivation specs                  |
+| `growth/`                                     | Growth log, audits, host desk, founding circle, monetization                |
+| `polls/`                                      | Poll command reference                                                      |
+| `portfolio/`                                  | Portfolio material (Wayne Strategies)                                       |
+| `product/`                                    | Product specs, roadmaps, brainstorms, therapy beta                          |
+| `security/`                                   | Security audits, credential rotation, spam classification                   |
+| `taskers/`                                    | Numbered task briefs (T-NN) for agents                                      |
+| `visual-style/`                               | Visual style explorations                                                   |
+| `worldbuilding/`                              | Worldbuilding maps, archetypes, content queue                               |
+| `data/`                                       | Generated data: corpus stats, GSC exports, avoid lists, backfills           |
+| `writing-system/`                             | Content creation workflow and quality framework                             |
 
 ## Documentation Rules
 
@@ -79,5 +100,9 @@ statistics:
 - Update links when moving files. Use relative links for internal docs.
 - Add dates to operational claims. If a metric is stale, say so.
 - Keep generated files marked as generated; do not edit them by hand.
+- The repo is public. Never commit full third-party transcripts or article copies;
+  cache them in `~/.cache/9takes-research/<slug>/` and keep fragments + URLs here.
+  Transcript folders, `content-analysis/pipeline-logs/` and
+  `content-analysis/perspective-reviews/` are git-ignored.
 
-Last updated: 2026-07-06.
+Last updated: 2026-11-13.

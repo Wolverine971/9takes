@@ -25,7 +25,7 @@ Options:
   --anchor-y <px>     Eye-center y in the original cutout
   --target-x <px>     Face-center x on the final canvas (default: 540)
   --target-y <px>     Eye-center y on the final canvas (default: 490)
-  --template <path>   Overlay PNG (default: face-line-template.png)
+  --template <path>   Overlay PNG (default: scripts/assets/face-line-template.png)
 `);
 }
 
@@ -51,7 +51,7 @@ function parseArgs(argv) {
 		anchorY: null,
 		targetX: 540,
 		targetY: 490,
-		template: path.join(REPO_ROOT, 'face-line-template.png')
+		template: path.join(REPO_ROOT, 'scripts/assets/face-line-template.png')
 	};
 
 	for (let index = 2; index < argv.length; index += 1) {

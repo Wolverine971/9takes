@@ -758,7 +758,7 @@ Use the existing `getRelatedBlogs` / `getCrossLinkSuggestions` utilities (`src/l
 - `/Users/djwayne/9takes/docs/seo/enneagram-corner-seo.md`
 - `/Users/djwayne/9takes/docs/seo/personality-analysis-categories-seo.md`
 - `/Users/djwayne/9takes/docs/audits/seo-audit-9takes-2026-04-07.md`
-- `/Users/djwayne/9takes/docs/question-page-seo-recommendations-2026-04-07.md`
+- `/Users/djwayne/9takes/docs/seo/question-page-seo-recommendations-2026-04-07.md`
 - `/Users/djwayne/9takes/docs/data/corpus-stats.md`
 - `/Users/djwayne/9takes/docs/archives/domain-authority-feb-2026/00-master-index.md`
 - `/Users/djwayne/9takes/docs/archives/domain-authority-feb-2026/01-enneagram-core.md`

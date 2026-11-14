@@ -5,7 +5,7 @@
 **Status:** v0 draft, created 2026-07-08 from the local 9takes docs harvest. Ratified items marked ✅. Open items marked 🔶.
 **Source framework:** Caleb Ralston's "7 Elements of Worldbuilding" workflow; local workflow copy: [WORLDBUILDING_TEMPLATE.md](WORLDBUILDING_TEMPLATE.md).
 **Reference quality bar:** [reference-buildos/BUILDOS_WORLDBUILDING_MAP.md](reference-buildos/BUILDOS_WORLDBUILDING_MAP.md).
-**Primary 9takes sources:** `docs/brand/brand-positioning.md`, `docs/brand/9takes-manifesto.md`, `docs/brand/founder-story.md`, `docs/product/the-chorus-vision.md`, `docs/product/the-mirror-moment.md`, `docs/positioning/enneagram-how-to-think-about-it.md`, `docs/project-docs/questions-context-pack.md`, `src/blog/community/inspiration-for-9takes.md`, `src/blog/community/reddit-deep-connections-limitations.md`.
+**Primary 9takes sources:** `docs/brand/brand-positioning.md`, `docs/brand/9takes-manifesto.md`, `docs/brand/founder-story.md`, `docs/product/the-chorus-vision.md`, `docs/product/the-mirror-moment.md`, `docs/brand/positioning/enneagram-how-to-think-about-it.md`, `docs/project-docs/questions-context-pack.md`, `src/blog/community/inspiration-for-9takes.md`, `src/blog/community/reddit-deep-connections-limitations.md`.
 
 ---
 

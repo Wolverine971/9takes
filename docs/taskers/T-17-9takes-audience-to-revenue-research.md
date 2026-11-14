@@ -6,7 +6,7 @@
 **Owner:** DJ
 **Created:** 2026-08-02
 **Status:** Ready for research
-**Related:** `docs/growth/growth-log.md`, `docs/monetization/2026-05-02_decode-a-person-offering.md`, `docs/monetization/2026-05-04_decode-session-pilot-plan.md`, `docs/data/gsc/latest.json`
+**Related:** `docs/growth/growth-log.md`, `docs/growth/monetization/2026-05-02_decode-a-person-offering.md`, `docs/growth/monetization/2026-05-04_decode-session-pilot-plan.md`, `docs/data/gsc/latest.json`
 
 ## 0. What and why
 
@@ -86,8 +86,8 @@ Read these completely before researching or recommending work:
 1. `CLAUDE.md`
 2. `docs/taskers/README.md`
 3. `docs/growth/growth-log.md`, starting with the newest entries
-4. `docs/monetization/2026-05-02_decode-a-person-offering.md`
-5. `docs/monetization/2026-05-04_decode-session-pilot-plan.md`
+4. `docs/growth/monetization/2026-05-02_decode-a-person-offering.md`
+5. `docs/growth/monetization/2026-05-04_decode-session-pilot-plan.md`
 6. `docs/data/gsc/latest.json` and the three CSV files it names
 7. `src/routes/book-session/+page.svelte`
 8. `src/routes/book-session/+page.server.ts`

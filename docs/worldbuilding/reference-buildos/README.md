@@ -16,4 +16,4 @@ Brand worldbuilding program based on Caleb Ralston's "7 Elements of Worldbuildin
 
 **Writer corpus hub:** the archetype above is the _voice_ tier; the full writer research/persona/execution corpus (spanning `segments/`, `visual-assets/`, `growth/`) is indexed at [`../../segments/writer-corpus.md`](../../segments/writer-corpus.md). Start there for anything writer-facing.
 
-Follow-on tracker: `tasker/18-worldbuilding-program.md`. Cross-project kickoffs live in the 9takes and Tacemus repos (`docs/worldbuilding-kickoff-2026-07-02.md` in each).
+Follow-on tracker: `tasker/18-worldbuilding-program.md`. Cross-project kickoffs live in the 9takes and Tacemus repos (`docs/worldbuilding/worldbuilding-kickoff-2026-07-02.md` in each).

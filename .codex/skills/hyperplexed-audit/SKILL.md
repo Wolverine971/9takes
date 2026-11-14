@@ -10,7 +10,7 @@ Use this skill to run the migrated `/hyperplexed-audit` flow. The goal is not a 
 
 ## Load Context
 
-For 9takes, prefer the live repo docs because the tracker and local recipes can change:
+For 9takes, read `docs/brand/cold-light.md` and `docs/design-system.md` first. They override historical token and theme examples. Then load relevant live repo docs because the tracker and local recipes can change:
 
 - `docs/design/hyperplexed/HYPERPLEXED_DESIGN_PLAYBOOK.md`
 - `docs/design/hyperplexed/HYPERPLEXED_FIX_PATTERNS.md`
@@ -25,7 +25,6 @@ If those repo docs are missing or the task is outside 9takes, read the bundled e
 - `references/playbook.md` for the original rubric and source video index
 - `references/fix-patterns.md` for the original reusable recipe shape
 - `references/audit-tracker.md` for tracker structure and backlog modeling
-- `references/claude-command.md` for the bundled Claude Code command
 - `references/audit-examples/` only when an example audit format is needed
 - `references/transcripts/` only when grounding a new heuristic or effect in the source corpus
 
@@ -41,7 +40,7 @@ If those repo docs are missing or the task is outside 9takes, read the bundled e
    - Hierarchy by type, not extra containers
    - Decluttered paths, filters, drawers, and scroll regions
    - Overflow handling for user-supplied strings
-   - 9takes V5 token/radius/shadow fit
+   - Current Cold Light token/radius/shadow fit
    - Icon consistency, imagery, and scrims
    - Motion, reduced-motion gating, keyboard access, primitives
    - At most one earned signature delight per surface
@@ -67,7 +66,7 @@ Every finding must cite a pattern such as `-> P1`, `-> P6+P1`, or `-> new P?` if
 
 ## Applying Fixes
 
-Apply only fixes the user approved in the audit phase. Use the P-recipes directly where they exist:
+Apply fixes within the user's authorized scope, including implementation requested before the audit. Use the P-recipes where they still fit the current design system:
 
 - P1 overflow-safe rows
 - P2 two-radius rule
@@ -84,7 +83,7 @@ Apply only fixes the user approved in the audit phase. Use the P-recipes directl
 - P13 primitives for interactive controls
 - P14-P18 signature effects
 
-Respect 9takes conventions: Streetlamp Symposium V5 tokens, Svelte 5 runes in modern files, Tailwind + SCSS, Flowbite only where already established, `Button`/`Modal`/`Callout` atoms where appropriate, and no raw color-name classes or off-scale radii. Do not edit canonical primitives unless the user explicitly asks.
+Respect 9takes conventions: Cold Light tokens (`docs/brand/cold-light.md`; dark only), Svelte 5 runes in modern files, Tailwind + SCSS, Flowbite only where already established, `Button`/`Modal`/`Callout` atoms where appropriate, and no raw color-name classes or off-scale radii. Do not edit canonical primitives unless the user explicitly asks.
 
 If an approved fix creates a reusable pattern and a second surface will plausibly need it, add the next P-number to `HYPERPLEXED_FIX_PATTERNS.md` with the same finding/recipe shape, include reduced-motion behavior, and cite it from the audit.
 

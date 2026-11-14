@@ -6,7 +6,7 @@
 **Owner:** DJ
 **Created:** 2026-08-13
 **Status:** Ready for audit. No external launch or implementation authorized.
-**Related:** `docs/taskers/T-17-9takes-audience-to-revenue-research.md`, `docs/monetization/2026-05-02_decode-a-person-offering.md`, `docs/monetization/2026-05-04_decode-session-pilot-plan.md`, `src/routes/book-session/`, `src/lib/components/blog/callouts/BookSessionCTA.svelte`, `docs/growth/growth-log.md`
+**Related:** `docs/taskers/T-17-9takes-audience-to-revenue-research.md`, `docs/growth/monetization/2026-05-02_decode-a-person-offering.md`, `docs/growth/monetization/2026-05-04_decode-session-pilot-plan.md`, `src/routes/book-session/`, `src/lib/components/blog/callouts/BookSessionCTA.svelte`, `docs/growth/growth-log.md`
 
 ## 0. What and why
 
@@ -25,8 +25,8 @@ This is a focused current-flow audit. Do not repeat the full market research alr
 1. `CLAUDE.md`
 2. `docs/taskers/README.md`
 3. `docs/taskers/T-17-9takes-audience-to-revenue-research.md`
-4. `docs/monetization/2026-05-02_decode-a-person-offering.md`
-5. `docs/monetization/2026-05-04_decode-session-pilot-plan.md`
+4. `docs/growth/monetization/2026-05-02_decode-a-person-offering.md`
+5. `docs/growth/monetization/2026-05-04_decode-session-pilot-plan.md`
 6. Newest entries in `docs/growth/growth-log.md`
 7. Freshest GSC pages and page-query exports
 8. `src/routes/book-session/+page.svelte`

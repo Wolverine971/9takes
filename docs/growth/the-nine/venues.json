@@ -48,7 +48,7 @@
 			"subreddit": "Enneagram",
 			"tier": 2,
 			"linkPolicy": "profile-only",
-			"notes": "173k members. Home turf and the venue for the Monday Nine question. reddit/01-enneagram-organic-discussion.md is already written for this sub and is link-free by design. Flair: Type Discussion."
+			"notes": "173k members. Home turf and the venue for the Monday Nine question. docs/reddit/post-drafts/01-enneagram-organic-discussion.md is already written for this sub and is link-free by design. Flair: Type Discussion."
 		},
 		{
 			"subreddit": "mbti",
@@ -66,7 +66,7 @@
 			"subreddit": "SideProject",
 			"tier": 3,
 			"linkPolicy": "allowed",
-			"notes": "DEPRIORITIZED. reddit/04-sideproject-weekly-thread.md targets this. Founders evaluate products here; they do not leave takes. Keep on ice until the Nine loop is proven."
+			"notes": "DEPRIORITIZED. docs/reddit/post-drafts/04-sideproject-weekly-thread.md targets this. Founders evaluate products here; they do not leave takes. Keep on ice until the Nine loop is proven."
 		},
 		{
 			"subreddit": "indiehackers",

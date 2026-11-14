@@ -80,7 +80,7 @@ Paraphrased notes:
 
 ## Retrieval record
 
-Read before retrieval: `scripts/youtube-transcript.py`, `youtube-transcripts-people/README.md`, `docs/youtube-transcript-cloud.md`, and the creator command's transcript stage. The README's raw-dump convention was superseded here by the task's explicit instruction to keep full copyrighted transcripts out of authored deliverables. No canonical research/draft, pipeline files, queue, database, or publication state was changed.
+Read before retrieval: `scripts/youtube-transcript.py`, `youtube-transcripts-people/README.md`, `docs/development/youtube-transcript-cloud.md`, and the creator command's transcript stage. The README's raw-dump convention was superseded here by the task's explicit instruction to keep full copyrighted transcripts out of authored deliverables. No canonical research/draft, pipeline files, queue, database, or publication state was changed.
 
 All attempts occurred on 2026-09-09:
 

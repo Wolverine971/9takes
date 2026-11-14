@@ -34,6 +34,6 @@
 ## Per-project seeds
 
 - **BuildOS** — done; see the map.
-- **9takes** — Enneagram Q&A/community ("Reddit based on the Enneagram"). Unfair advantage: the founder's domain obsession IS the product (the Enneagram scraper lore literally starts here), and DJ's E8 identity is native material. Kickoff: `docs/worldbuilding-kickoff-2026-07-02.md`; current map: `docs/worldbuilding/9TAKES_WORLDBUILDING_MAP.md`.
+- **9takes** — Enneagram Q&A/community ("Reddit based on the Enneagram"). Unfair advantage: the founder's domain obsession IS the product (the Enneagram scraper lore literally starts here), and DJ's E8 identity is native material. Kickoff: `docs/worldbuilding/worldbuilding-kickoff-2026-07-02.md`; current map: `docs/worldbuilding/9TAKES_WORLDBUILDING_MAP.md`.
 - **Tacemus** — DJ's web-dev + copywriting consulting arm. Relationship framing from DJ: **"BuildOS is the tool; Tacemus is me working individually with clients."** Blog ambitions. Repo already contains `anti-slop-copywriting-guide.md` (a redefined-terms/enemy goldmine). Kickoff: `/Users/djwayne/tacemus/docs/worldbuilding-kickoff-2026-07-02.md`.
 - **DJ personal brand** — separate lane from all products (see `tasker/12-personal-brand-throughline.md`); the interests collage idea is parked here.

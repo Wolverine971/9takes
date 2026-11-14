@@ -127,7 +127,7 @@ Zero em-dashes. No quality-comment markers. Valid YAML in FAQ frontmatter.
 
 Do not retitle toward keywords. Tested corpus-wide, keyword titles convert worse.
 
-**Note:** `src/blog/people/drafts/Sam-Altman-research.md` and `sam-altman-new-yorker-research.md` already exist on disk, plus `docs/sam-altman-new-yorker-integration-analysis.md`. Read them before starting new research; a previous pass may have already collected what you need.
+**Note:** `src/blog/people/drafts/Sam-Altman-research.md` and `sam-altman-new-yorker-research.md` already exist on disk, plus `docs/content-research/sam-altman-new-yorker-integration-analysis.md`. Read them before starting new research; a previous pass may have already collected what you need.
 
 ---
 

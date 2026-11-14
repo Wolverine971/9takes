@@ -14,7 +14,7 @@ Per the master cluster map Section 5, the Q&A platform is leaking authority both
 
 ## Source docs to read first
 
-- `docs/question-page-seo-recommendations-2026-04-07.md` (THE original audit; most recs still open)
+- `docs/seo/question-page-seo-recommendations-2026-04-07.md` (THE original audit; most recs still open)
 - `docs/seo/master-topic-cluster-map-2026-05-06.md` Section 5 (search-intent ladder + bridges)
 - `docs/seo/2026-05-06-research-synthesis.md` (Convergence #6)
 - `docs/seo/corpus-inventory-gaps-2026-05-06.md` Pillar 7 (question categories)
