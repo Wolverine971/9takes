@@ -36,3 +36,22 @@ tmp/
 /output/
 # Blog pipeline run lock (scripts/run-blog-pipeline.mjs); never commit
 docs/content-analysis/pipeline-logs/.pipeline.lock/
+
+# The repo is PUBLIC. Third-party transcripts, research dumps and pipeline run output
+# stay on disk but never get committed (untracked 2026-11-13). Cache new full
+# transcripts in ~/.cache/9takes-research/<slug>/; in-repo notes get fragments + URLs.
+/youtube-transcripts/
+/youtube-transcripts-people/
+/youtube-transcript-research/
+docs/research/transcripts/
+docs/content-analysis/research/transcripts/
+docs/content-analysis/youtube-transcripts-people/
+.claude/skills/hyperplexed-audit/references/transcripts/
+.codex/skills/hyperplexed-audit/references/transcripts/
+docs/content-analysis/pipeline-logs/
+docs/content-analysis/perspective-reviews/
+
+# Local working output (portrait dumps, email-asset renders, spreadsheet exports)
+/artifacts/
+/Freshies*/
+/outputs/
