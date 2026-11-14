@@ -91,7 +91,7 @@
 		"@babel/types": "^7.29.8",
 		"@eslint/js": "^10.0.1",
 		"@playwright/test": "^1.63.0",
-		"@sveltejs/adapter-vercel": "^6.3.4",
+		"@sveltejs/adapter-vercel": "^6.3.5",
 		"@sveltejs/enhanced-img": "^0.11.0",
 		"@sveltejs/kit": "^2.70.3",
 		"@sveltejs/vite-plugin-svelte": "^7.3.0",
