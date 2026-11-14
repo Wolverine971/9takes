@@ -12,6 +12,7 @@
 		PERSON_SOCIAL_CARD_HEIGHT,
 		PERSON_SOCIAL_CARD_WIDTH
 	} from '$lib/utils/socialImage';
+	import { PORTRAIT_PHONE, portraitPhoneSrc } from '$lib/imageVariants.js';
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import { buildPersonPageJsonLd } from '$lib/utils/personJsonLd';
 	import { buildPersonIdentifiers, buildPersonSameAsUrls } from '$lib/utils/schema';
@@ -38,6 +39,7 @@
 	let shareImagePath = $derived(
 		buildPersonalityImagePath(data?.enneagram, data?.person || data?.slug)
 	);
+	let phoneImagePath = $derived(portraitPhoneSrc(shareImagePath));
 	let portraitUrl = $derived(buildPersonalityImageUrl(data?.enneagram, data?.person || data?.slug));
 	// JSON-LD keeps the square portrait (the person's image); link previews get the 1200x630
 	// Cold Light person card built from it.
@@ -136,8 +138,27 @@
 	<meta name="author" content="DJ Wayne" />
 
 	<!-- Preload LCP image for faster paint -->
+	<!-- Each viewport preloads the file its <picture> will pick (see the [slug] page), so a
+	     phone never downloads both. A browser without AVIF ignores the first link. -->
 	{#if shareImagePath}
-		<link rel="preload" as="image" href={shareImagePath} fetchpriority="high" type="image/webp" />
+		{#if phoneImagePath}
+			<link
+				rel="preload"
+				as="image"
+				href={phoneImagePath}
+				fetchpriority="high"
+				type="image/avif"
+				media={PORTRAIT_PHONE.media}
+			/>
+		{/if}
+		<link
+			rel="preload"
+			as="image"
+			href={shareImagePath}
+			fetchpriority="high"
+			type="image/webp"
+			media={phoneImagePath ? PORTRAIT_PHONE.desktopMedia : undefined}
+		/>
 	{/if}
 
 	<!-- Existing meta tags -->

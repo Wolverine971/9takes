@@ -6,6 +6,7 @@
   Spec: docs/design-system.md §4–§6.
 -->
 <script lang="ts">
+	import { blogHeroPhoneSrc } from '$lib/imageVariants.js';
 	import TableOfContents, { trackArticleHtml } from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
@@ -68,6 +69,7 @@
 			<PopCard
 				priority
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
+				phoneImage={blogHeroPhoneSrc(data?.frontmatter?.pic)}
 				showIcon={false}
 				displayText=""
 				altText={data?.frontmatter?.title || 'Enneagram article illustration'}

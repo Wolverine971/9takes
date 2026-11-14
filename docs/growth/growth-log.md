@@ -10,6 +10,25 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-11-14 - Spam-update follow-up (T-41 item A closeout): still no hit five weeks on, all 3 Soft 404 pages are back in the index
+
+**Verdict: closed. The September 2026 spam update never touched the celebrity pages, and the three Soft 404 pages from the 10-25 readout are all "Submitted and indexed" again. Nothing to flag for DJ.** Source: Search Console API, `dataState: 'all'`, pulled 2026-11-14 (scratch script, auth copied from `scripts/fetch-gsc-data.mjs`, which was not edited). This is the "re-inspect all three after 11-01" follow-up owed by the 10-25 entry.
+
+| `/personality-analysis/*` | Clicks per day | Impressions per day | Avg position |
+| ------------------------- | -------------: | ------------------: | -----------: |
+| Before, 09-10..09-23      |           31.8 |               6,865 |          8.6 |
+| Rollout, 09-24..10-08     |     28.9 (-9%) |         6,645 (-3%) |          8.7 |
+| After, 10-09..10-23       |    40.8 (+28%) |         6,989 (+2%) |          8.4 |
+| 10-24..11-06              |    38.8 (+22%) |        7,786 (+13%) |          8.5 |
+| 11-07..11-11 (5 days)     |    43.2 (+36%) |        7,695 (+12%) |          8.1 |
+
+Percentages are against the before window. The rest of the site moved the same way (clicks per day 21.9, 18.3, 26.7, 28.2, 34.2), so the rollout dip was sitewide and has fully reversed.
+
+- **Sitewide clicks: October closed at 1,901**, up from September's 1,505 and a new high. November 1-12 is 863, on pace for about 2,150.
+- **Soft 404 re-inspection (URL Inspection API):** `depression-patterns-by-enneagram-type` is indexed, last crawl 11-11; `kylie-jenner` and `how-each-enneagram-flexes` are indexed, last crawl 10-25 (the day of the Request Indexing). All three: verdict PASS, self-canonical, indexing allowed.
+- **Depression page traffic held through the Soft 404 window:** clicks per day 1.2 (10-09..10-24), 1.0 (10-25..11-03), 1.4 (11-04..11-12); impressions per day 162, 137, 135 (fragment URLs included). The classification cleared before it cost clicks. The 10-25 QuickAnswer rewrite (`9b6890bc7`) went live the same day as the recrawl request, so which of the two cleared it is not separable.
+- **Noindex re-check:** top 40 pages by clicks for 10-15..11-13 plus the three above, 42 of 42 "Submitted and indexed", 0 "Excluded by 'noindex' tag". The deploy-skew fix is holding.
+
 ### 2026-11-09 - Weekly growth audit: the coaching loop turned end to end for the first time (Bing reader -> test -> account -> beta-card waitlist), but takes fell 9 -> 4, the homepage went 0 for 38, and returning contributors were 0 for a seventh week
 
 Headline source **`admin_engagement_trends_weekly_v2(26)`** via `scripts/db-query.sh`, run 11-09 morning ET ([snapshot](audits/2026-11-09-v2-snapshot.csv), which matches the live RPC). "This week" = **11-02..11-08** (Monday start, America/New_York; UTC 11-02 05:00 .. 11-09 05:00). The 11-09 row is partial and reads 0 (rollup lag).

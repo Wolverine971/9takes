@@ -26,6 +26,7 @@
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+	import { PORTRAIT_PHONE, portraitPhoneSrc } from '$lib/imageVariants.js';
 	import { getAuthShell } from '$lib/authShell.svelte';
 	import type { PublicBlogCommentRow } from '../../api/personality-analysis/[slug]/discussion/+server';
 	import { buildArticleFlow } from '$lib/utils/articleChorusSlot';
@@ -189,6 +190,7 @@
 	const postImagePath = $derived(
 		buildPersonalityImagePath(postMeta.enneagram, postMeta.person || postMeta.slug)
 	);
+	const postPhoneImagePath = $derived(portraitPhoneSrc(postImagePath));
 
 	// ------------------------------------------------------------------
 	// V5 case-file header — derived data lines.
@@ -505,14 +507,25 @@
 			<aside class="case-file-portrait">
 				<div class="portrait-frame personality-portrait-well">
 					{#if postImagePath}
-						<img
-							src={postImagePath}
-							alt={`Portrait of ${postDisplayName}`}
-							class="portrait-image personality-portrait-image"
-							loading="eager"
-							fetchpriority="high"
-							decoding="async"
-						/>
+						<!-- Phones get a 640px AVIF of the portrait; without AVIF support, or on the
+						     two-column layout, the <source> is skipped and the full WebP loads. -->
+						<picture class="portrait-picture">
+							{#if postPhoneImagePath}
+								<source
+									media={PORTRAIT_PHONE.media}
+									type="image/avif"
+									srcset={postPhoneImagePath}
+								/>
+							{/if}
+							<img
+								src={postImagePath}
+								alt={`Portrait of ${postDisplayName}`}
+								class="portrait-image personality-portrait-image"
+								loading="eager"
+								fetchpriority="high"
+								decoding="async"
+							/>
+						</picture>
 					{:else}
 						<div class="portrait-stub">
 							<span class="mono">[PORTRAIT]</span>
@@ -1076,6 +1089,11 @@
 		border-radius: 10px;
 		background: var(--personality-portrait-well);
 		border: 1px solid var(--rule);
+	}
+
+	// Only a source switch: the img still sizes against the frame.
+	.portrait-picture {
+		display: contents;
 	}
 
 	.portrait-image {

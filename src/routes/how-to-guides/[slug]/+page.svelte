@@ -5,6 +5,7 @@
   Mechanical pass: Svelte 5 runes + V5 tokens. Visual redesign is follow-up work.
 -->
 <script lang="ts">
+	import { blogHeroPhoneSrc } from '$lib/imageVariants.js';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 
@@ -73,6 +74,7 @@
 			<PopCard
 				priority
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
+				phoneImage={blogHeroPhoneSrc(data?.frontmatter?.pic)}
 				showIcon={false}
 				displayText=""
 				altText={data?.frontmatter?.title || 'Guide illustration'}

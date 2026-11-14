@@ -11,6 +11,7 @@ import {
 	checkDraft,
 	editorialHash,
 	evidenceSchema,
+	QUALITY_GATES,
 	getEditorialPublishStatus,
 	requiredRoles,
 	sha256,
@@ -316,7 +317,7 @@ describe('shared v3 editorial eligibility', () => {
 		if (issue === 'unresolved review') b.verification.decision_checks[0].accepted = false;
 		if (issue === 'lost protected passage') b.verification.protected_checks[0].preserved = false;
 		if (issue === 'metadata disagreement') b.verification.metadata_consistent = false;
-		if (issue === 'weak durability') b.verification.scores.durability.score = 7;
+		if (issue === 'weak durability') b.verification.scores.durability.score = 6.5;
 		if (issue === 'stale evidence') b.evidence.sources[0].excerpt += ' Changed.';
 		if (issue === 'creator blocker')
 			b.baseline = matter.stringify('Old draft', {
@@ -441,12 +442,134 @@ describe('offline pipeline execution and checkpoint safety', () => {
 			fs.access(path.join(root, 'docs/content-analysis/pipeline-logs/.pipeline.lock'))
 		).rejects.toThrow();
 		events.length = 0;
-		const run = await runPipeline(parseArgs(['example person', '--resume']), {
+		// A longer timeout on resume must not throw away the finished research stage.
+		const run = await runPipeline(
+			parseArgs(['example person', '--resume', '--stage-timeout-seconds=3600']),
+			{ root, execute: fakeExecutor(events) }
+		);
+		expect(run.exitCode).toBe(0);
+		expect(events[0]).toBe('draft');
+	});
+	it('releases on integrity checks with the score as a floor at 8.0', () => {
+		const pass = bundle();
+		for (const key of Object.keys(pass.verification.scores))
+			pass.verification.scores[key].score = 8.2;
+		expect(assessEditorial(pass)).toMatchObject({ eligible: true, quality: { overall: 8.2 } });
+		const low = bundle();
+		for (const key of Object.keys(low.verification.scores))
+			low.verification.scores[key].score = 7.9;
+		expect(assessEditorial(low).blockers).toContain('overall_below_8:7.9');
+	});
+	it('re-verifies a held draft the owner edited by hand with one repair and one verification', async () => {
+		const root = await workspace(),
+			events: string[] = [];
+		const held = await runPipeline(parseArgs(['Example-Person']), {
+			root,
+			execute: fakeExecutor(events, (id, record) => {
+				if (id.startsWith('verify')) {
+					record.status = 'revise';
+					record.metadata_consistent = false;
+				}
+			})
+		});
+		expect(held.exitCode).toBe(2);
+		const file = path.join(root, 'src/blog/people/drafts/Example-Person.md');
+		const ownerLine = 'The owner added this sentence by hand after the hold.';
+		const parsed = matter(await fs.readFile(file, 'utf8'));
+		await fs.writeFile(file, matter.stringify(`${parsed.content}\n\n${ownerLine}\n`, parsed.data));
+		// A resume refuses a hand-edited draft and points at the re-verify path.
+		await expect(
+			runPipeline(parseArgs(['Example-Person', '--resume']), { root, execute: fakeExecutor([]) })
+		).rejects.toThrow('--reverify');
+		events.length = 0;
+		const run = await runPipeline(parseArgs(['Example-Person', '--reverify']), {
 			root,
 			execute: fakeExecutor(events)
 		});
 		expect(run.exitCode).toBe(0);
-		expect(events[0]).toBe('draft');
+		expect(events).toEqual(['repair', 'verify-repair']);
+		expect(run.state).toMatchObject({ mode: 'reverify', owner_edited: true });
+		expect(await fs.readFile(file, 'utf8')).toContain(ownerLine);
+		expect((await getEditorialPublishStatus(file, root)).valid).toBe(true);
+	});
+	it('refuses to re-verify when the type changed after the jury review', async () => {
+		const root = await workspace();
+		await runPipeline(parseArgs(['Example-Person']), { root, execute: fakeExecutor([]) });
+		const file = path.join(root, 'src/blog/people/drafts/Example-Person.md');
+		const parsed = matter(await fs.readFile(file, 'utf8'));
+		parsed.data.enneagram = 3;
+		await fs.writeFile(file, matter.stringify(parsed.content, parsed.data));
+		await expect(
+			runPipeline(parseArgs(['Example-Person', '--reverify']), { root, execute: fakeExecutor([]) })
+		).rejects.toThrow('--refresh --expanded-review');
+	});
+	it('reassesses a held run under changed release rules without a model call', async () => {
+		const root = await workspace(),
+			events: string[] = [];
+		const previous = QUALITY_GATES.standard.overall;
+		const file = path.join(root, 'src/blog/people/drafts/Example-Person.md');
+		try {
+			// Fixture scores are 9; a 9.5 floor stands in for the old 8.5 line.
+			QUALITY_GATES.standard.overall = 9.5;
+			const held = await runPipeline(parseArgs(['Example-Person']), {
+				root,
+				execute: fakeExecutor(events)
+			});
+			expect(held.exitCode).toBe(2);
+			expect(held.state.blockers).toEqual(['overall_below_9.5:9']);
+		} finally {
+			QUALITY_GATES.standard.overall = previous;
+		}
+		events.length = 0;
+		const before = await fs.readFile(file, 'utf8');
+		const dry = await runPipeline(parseArgs(['Example-Person', '--reassess', '--dry-run']), {
+			root,
+			execute: fakeExecutor(events)
+		});
+		expect(dry.exitCode).toBe(0);
+		expect(await fs.readFile(file, 'utf8')).toBe(before);
+		const run = await runPipeline(parseArgs(['Example-Person', '--reassess']), {
+			root,
+			execute: fakeExecutor(events)
+		});
+		expect(run.exitCode).toBe(0);
+		expect(events).toEqual([]);
+		expect((await getEditorialPublishStatus(file, root)).valid).toBe(true);
+		expect(matter(await fs.readFile(file, 'utf8')).data.content_quality.needs_review).toBe(false);
+	});
+	it("hands a fresh run the last run's evidence and findings", async () => {
+		const root = await workspace();
+		const held = await runPipeline(parseArgs(['Example-Person']), {
+			root,
+			execute: fakeExecutor([], (id, record) => {
+				if (id.startsWith('verify')) {
+					record.status = 'revise';
+					record.findings = [
+						{
+							id: 'verify-1',
+							severity: 'major',
+							passage,
+							problem: 'The quote is trimmed.',
+							acceptance_test: 'Restore the full sentence.'
+						}
+					];
+				}
+			})
+		});
+		expect(held.exitCode).toBe(2);
+		const run = await runPipeline(parseArgs(['Example-Person', '--refresh']), {
+			root,
+			execute: fakeExecutor([])
+		});
+		const request = JSON.parse(
+			await fs.readFile(path.join(run.dir, 'research.request.json'), 'utf8')
+		);
+		expect(Object.keys(request.inputs)).toEqual(
+			expect.arrayContaining(['prior_evidence', 'prior_findings'])
+		);
+		const findings = JSON.parse(await fs.readFile(request.inputs.prior_findings, 'utf8'));
+		expect(findings.verifier_findings[0].problem).toBe('The quote is trimmed.');
+		expect(request.source_cache_dir).toContain(path.join('example-person', 'sources'));
 	});
 	it('holds insufficient research without writing a draft or starting dependent stages', async () => {
 		const root = await workspace(),
@@ -477,7 +600,12 @@ describe('offline pipeline execution and checkpoint safety', () => {
 		});
 		const run = await runPipeline(parseArgs(['Example-Person']), { root, execute });
 		expect(run.exitCode).toBe(2);
-		expect(events.filter((e) => e.startsWith('review-'))).toHaveLength(6);
+		// The evidence reviewer sits on the full jury too, so sources are reopened before the edit.
+		expect(events.filter((e) => e.startsWith('review-')).sort()).toEqual(
+			['critic', 'enneagram', 'evidence', 'fan', 'future', 'subject', 'unfamiliar'].map(
+				(role) => `review-${role}`
+			)
+		);
 		expect(events.filter((e) => e === 'repair')).toHaveLength(1);
 		expect(events.filter((e) => e.startsWith('verify'))).toHaveLength(2);
 		await expect(fs.access(path.join(run.dir, 'release.json'))).rejects.toThrow();
@@ -564,6 +692,39 @@ describe('offline pipeline execution and checkpoint safety', () => {
 					timeoutSeconds: 1
 				})
 			).rejects.toThrow('ENOENT');
+		} finally {
+			if (previous === undefined) delete process.env.BLOG_PIPELINE_CLAUDE;
+			else process.env.BLOG_PIPELINE_CLAUDE = previous;
+		}
+	});
+	it('resumes the session to write outputs after a timeout and records model, turns and cost', async () => {
+		const root = await workspace();
+		const executable = path.join(root, 'fake-claude');
+		const result = JSON.stringify({
+			type: 'result',
+			subtype: 'success',
+			is_error: false,
+			num_turns: 3,
+			total_cost_usd: 0.5,
+			modelUsage: { 'test-model': {} }
+		});
+		await fs.writeFile(
+			executable,
+			`#!/bin/sh\ncase "$*" in\n  *--resume*) echo '${result}'; exit 0;;\n  *) sleep 30;;\nesac\n`
+		);
+		await fs.chmod(executable, 0o755);
+		const previous = process.env.BLOG_PIPELINE_CLAUDE;
+		try {
+			process.env.BLOG_PIPELINE_CLAUDE = executable;
+			const meta = await executeClaude('request.json', path.join(root, 'stage.log'), {
+				root,
+				maxTurns: 5,
+				timeoutSeconds: 2
+			});
+			expect(meta).toEqual({ model: 'test-model', turns: 3, cost_usd: 0.5, wrapped_up: 'timeout' });
+			expect(await fs.readFile(path.join(root, 'stage.log'), 'utf8')).toContain(
+				'Time limit reached'
+			);
 		} finally {
 			if (previous === undefined) delete process.env.BLOG_PIPELINE_CLAUDE;
 			else process.env.BLOG_PIPELINE_CLAUDE = previous;

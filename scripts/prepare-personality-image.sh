@@ -71,6 +71,8 @@ echo "  $thumbnail_output"
 if [[ "$output_root" == "$repo_root/static/types" ]]; then
 	(
 		cd "$repo_root"
+		# Phone-sized AVIF of the new portrait (static/variants/, outside the portrait baseline).
+		node scripts/gen-image-variants.mjs
 		node scripts/check-build-budgets.mjs --accept-portrait-baseline
 	)
 fi

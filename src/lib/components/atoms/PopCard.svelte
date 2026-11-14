@@ -5,6 +5,7 @@
 	import { prefersReducedMotion } from 'svelte/motion';
 	import { browser } from '$app/environment';
 	import type { Attachment } from 'svelte/attachments';
+	import { BLOG_HERO_PHONE } from '$lib/imageVariants.js';
 
 	interface Props {
 		image?: string;
@@ -21,6 +22,11 @@
 		lazyLoad?: boolean;
 		/** Set to true for LCP images to add fetchpriority="high" */
 		priority?: boolean;
+		/**
+		 * Phone-sized AVIF of `image` for a `priority` hero (`blogHeroPhoneSrc(pic)`). Phones
+		 * load it instead of the full file; everything else still loads `image`.
+		 */
+		phoneImage?: string;
 	}
 
 	// Component props with default values
@@ -37,7 +43,8 @@
 		imageTreatment = 'default',
 		// LCP optimization props
 		lazyLoad = true,
-		priority = false
+		priority = false,
+		phoneImage = ''
 	}: Props = $props();
 
 	// Constants and state variables
@@ -250,21 +257,26 @@
 >
 	<!-- Responsive image with proper loading attributes -->
 	{#if priority}
-		<!-- LCP/Hero image - no transition, eager loading, high priority -->
-		<img
-			src={image}
-			srcset="{imageSrc} 218w, {image} 560w"
-			loading="eager"
-			fetchpriority="high"
-			decoding="async"
-			sizes="(max-width: 560px) 218px, 560px"
-			class="image-card__img"
-			class:image-card__img--home={showIcon}
-			class:image-card__img--profile={!showIcon}
-			class:image-card__img--tinted={tint && showDescription && enneagramType}
-			class:personality-portrait-image={imageTreatment === 'personality'}
-			alt={altText || displayText}
-		/>
+		<!-- LCP/Hero image - no transition, eager loading, high priority. No srcset: the old
+		     "s-x 218w, x 560w" list described neither file, so phones always took the full one.
+		     The <source> hands phones a real 800px AVIF; without AVIF support it is skipped. -->
+		<picture class="image-card__picture">
+			{#if phoneImage}
+				<source media={BLOG_HERO_PHONE.media} type="image/avif" srcset={phoneImage} />
+			{/if}
+			<img
+				src={image}
+				loading="eager"
+				fetchpriority="high"
+				decoding="async"
+				class="image-card__img"
+				class:image-card__img--home={showIcon}
+				class:image-card__img--profile={!showIcon}
+				class:image-card__img--tinted={tint && showDescription && enneagramType}
+				class:personality-portrait-image={imageTreatment === 'personality'}
+				alt={altText || displayText}
+			/>
+		</picture>
 	{:else}
 		<!-- Regular image with lazy loading and transition -->
 		<img
@@ -452,6 +464,12 @@
 		background-size: 100% 9px;
 		animation: pan-overlay 22s infinite linear;
 		pointer-events: none;
+	}
+
+	// The hero's <picture> is only a source switch; the img keeps positioning itself
+	// against the card.
+	.image-card__picture {
+		display: contents;
 	}
 
 	.image-card__img {

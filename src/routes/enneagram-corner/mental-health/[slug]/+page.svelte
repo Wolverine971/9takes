@@ -1,5 +1,6 @@
 <!-- src/routes/enneagram-corner/mental-health/[slug]/+page.svelte -->
 <script lang="ts">
+	import { blogHeroPhoneSrc } from '$lib/imageVariants.js';
 	import TableOfContents, { trackArticleHtml } from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import type { PageData } from './$types';
@@ -54,6 +55,7 @@
 			<PopCard
 				priority
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
+				phoneImage={blogHeroPhoneSrc(data?.frontmatter?.pic)}
 				showIcon={false}
 				displayText=""
 				altText={data?.frontmatter?.title || 'Mental health guide illustration'}

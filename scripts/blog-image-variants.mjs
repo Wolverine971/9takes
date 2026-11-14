@@ -2,6 +2,8 @@
 // Turn an image DJ generated in ChatGPT into the 9takes blog image variant set:
 // source-assets/blogs/{slug}.png (master), static/blogs/{slug}.webp (full, longest edge 1200, q82),
 // and static/blogs/s-{slug}.webp (480px thumbnail, q72). No API calls, no cost.
+// Then refreshes the phone-sized AVIF variants (static/variants/, pnpm gen:image-variants),
+// which picks the new hero up once a post's `pic` names it.
 //
 // Usage:
 //   node scripts/blog-image-variants.mjs <slug> <path/to/chatgpt-image.png|jpg|webp>
@@ -11,6 +13,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
+
+import { generateVariants } from './lib/imageVariants.mjs';
 
 const ROOT = process.cwd();
 const SOURCE_DIR = path.join(ROOT, 'source-assets', 'blogs');
@@ -47,4 +51,11 @@ const kb = (f) => `${(fs.statSync(f).size / 1024).toFixed(0)}KB`;
 console.log(`[variants] source ${meta.width}x${meta.height}`);
 console.log(
 	`[variants] wrote: ${slug}.png ${kb(pngPath)} | ${slug}.webp ${kb(path.join(DELIVERY_DIR, `${slug}.webp`))} | s-${slug}.webp ${kb(path.join(DELIVERY_DIR, `s-${slug}.webp`))}`
+);
+
+// The phone variant is planned from frontmatter, so it appears on this run only if a post
+// already names the slug; otherwise `pnpm gen:image-variants` (or the next build) writes it.
+const variants = await generateVariants();
+console.log(
+	`[variants] phone AVIFs: ${variants.written.length} written, ${variants.removed.length} removed`
 );

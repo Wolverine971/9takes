@@ -18,13 +18,19 @@ export const DIMENSIONS = {
 	durability: 0.15,
 	hook: 0.05
 };
-// Release floors by profile format. An open case (early-career subject whose
-// record cannot yet separate the leading type from its alternatives) is scored
-// against its own anchors and floors; source/claim integrity gates never relax.
+// Release floors by profile format. Source, claim and finding checks decide a
+// release; the score is a floor, not the target. Until 2026-11-13 a standard
+// profile needed 8.5 overall and 8 on evidence/Enneagram/durability, and 80 of 83
+// verifier scores landed between 7.9 and 8.6, so the line held articles that had
+// cleared every integrity check. DJ's call: advisory above 8.0. An open case
+// (early-career subject whose record cannot yet separate the leading type from
+// its alternatives) is scored against its own anchors. Integrity gates never relax.
 export const QUALITY_GATES = {
-	standard: { overall: 8.5, discoverability: 7, evidence: 8, enneagram: 8, durability: 8 },
+	standard: { overall: 8, discoverability: 7, evidence: 7.5, enneagram: 7, durability: 7 },
 	open_case: { overall: 8, discoverability: 7, evidence: 7.5, enneagram: 7, durability: 7 }
 };
+/** Below this a passing score is flagged for a human glance; it does not block. */
+export const ADVISORY_OVERALL = 8.5;
 /** @param {{profile_format?: string} | null | undefined} record */
 export const profileFormat = (record) =>
 	record?.profile_format === 'open_case' ? 'open_case' : 'standard';

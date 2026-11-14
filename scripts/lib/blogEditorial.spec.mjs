@@ -212,10 +212,10 @@ describe('open-case quality', () => {
 		expect('profile_format' in calculateQuality(verification)).toBe(false);
 	});
 
-	it('loosens grade floors for open cases only', () => {
-		expect(QUALITY_GATES.standard.overall).toBe(8.5);
-		expect(QUALITY_GATES.open_case.overall).toBeLessThan(QUALITY_GATES.standard.overall);
-		expect(QUALITY_GATES.open_case.discoverability).toBe(QUALITY_GATES.standard.discoverability);
+	it('treats the score as a floor at 8.0 for both formats', () => {
+		// 2026-11-13: integrity checks decide a release; the score is advisory above 8.0.
+		expect(QUALITY_GATES.standard.overall).toBe(8);
+		expect(QUALITY_GATES.open_case).toEqual(QUALITY_GATES.standard);
 	});
 
 	it('detects the format from evidence or content_quality', () => {

@@ -17,6 +17,8 @@
 #   ./scripts/nightly-blog-cron.sh             # normal nightly run
 #   ./scripts/nightly-blog-cron.sh --dry-run   # preflight + selection only;
 #                                              # no queue writes, no pipeline
+#   ./scripts/nightly-blog-cron.sh --force     # run even if a launch failed in
+#                                              # the last 6 hours
 #
 # Scheduling: OpenClaw cron job "9takes Daily Blog Creator" runs this via a
 # command payload (sh -lc, no agent turn). Manage with `openclaw cron`.
@@ -49,7 +51,15 @@ TELEGRAM_TOKEN_FILE="${TELEGRAM_TOKEN_FILE:-$HOME/.openclaw/credentials/telegram
 TELEGRAM_CHAT_ID="${TELEGRAM_CHAT_ID:--1003724832638}"
 NOW_ISO="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 DRY_RUN=0
-[[ "${1:-}" == "--dry-run" ]] && DRY_RUN=1
+FORCE=0
+for arg in "$@"; do
+  [[ "$arg" == "--dry-run" ]] && DRY_RUN=1
+  [[ "$arg" == "--force" ]] && FORCE=1
+done
+# Alerts that could not be delivered (network down) wait here and ride along
+# with the next one that gets through. On 2026-11-13 four failure alerts in one
+# night were lost this way.
+UNDELIVERED="$LOG_DIR/undelivered-alerts.log"
 
 # shellcheck source=scripts/lib/person-draft-path.sh
 source "$REPO/scripts/lib/person-draft-path.sh"
@@ -83,10 +93,20 @@ notify() {
   [[ -f "$TELEGRAM_TOKEN_FILE" ]] || { log WARN "No Telegram token file at $TELEGRAM_TOKEN_FILE — alert logged only"; return 0; }
   local token
   token="$(tr -d '[:space:]' < "$TELEGRAM_TOKEN_FILE")"
-  curl -s -m 20 "https://api.telegram.org/bot${token}/sendMessage" \
+  if [[ -s "$UNDELIVERED" ]]; then
+    text="${text}
+
+Earlier alerts that did not reach you:
+$(tail -n 10 "$UNDELIVERED")"
+  fi
+  if curl -sf -m 20 "https://api.telegram.org/bot${token}/sendMessage" \
     --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
-    --data-urlencode "text=${text}" > /dev/null 2>&1 \
-    || log WARN "Telegram send failed (message logged above)"
+    --data-urlencode "text=${text}" > /dev/null 2>&1; then
+    rm -f "$UNDELIVERED"
+  else
+    log WARN "Telegram send failed; alert saved to $UNDELIVERED for the next delivery"
+    echo "[$(date '+%m-%d %H:%M')] $1" >> "$UNDELIVERED"
+  fi
 }
 
 # Atomic queue write: jq program + args, validate before replacing.
@@ -121,6 +141,20 @@ if [[ "$(jq -r '.pause' "$OVERRIDE")" == "true" ]]; then
   log INFO "AUTOMATION PAUSED: $(jq -r '.reason // "no reason given"' "$OVERRIDE")"
   log INFO "Nightly blog cron finished"
   exit 0
+fi
+
+# ── Preflight 1b: one failed launch per night ───────────────────────────────
+# The scheduler re-runs this job when it exits non-zero. On 2026-11-13 that
+# spent all three of one person's attempts in four hours, each hanging in
+# research for an hour. A failed launch now waits 6 hours before the next one.
+last_failed="$(jq -r '.lastFailedLaunchAt // empty' "$QUEUE")"
+if [[ -n "$last_failed" && "$FORCE" -eq 0 && -z "$(jq -r '.forceNext // empty' "$OVERRIDE")" ]]; then
+  last_failed_ts="$(date -j -u -f "%Y-%m-%dT%H:%M:%SZ" "$last_failed" +%s 2>/dev/null || echo 0)"
+  if (( $(date +%s) - last_failed_ts < 6*3600 )); then
+    log INFO "COOLDOWN: a launch failed at $last_failed; next attempt after 6 hours (--force overrides)"
+    log INFO "Nightly blog cron finished"
+    exit 0
+  fi
 fi
 
 # ── Preflight 2: inProgress reconciliation ─────────────────────────────────
@@ -276,9 +310,55 @@ if [[ "$pipeline_exit" -eq 2 && "$(jq -r '.run_status // empty' <<< "$pipeline_s
   log INFO "Nightly blog cron finished"
   exit 0
 fi
+# Exit 3: the runner's preflight found the network or the Claude CLI down and
+# attempted nothing. That is not the person's failure, so no retry is charged
+# and no cooldown starts; the scheduler's next run tries again.
+if [[ "$pipeline_exit" -eq 3 ]]; then
+  queue_update --arg now "$NOW_ISO" \
+    '.queue = ([.inProgress | del(.startedAt)] + .queue) | .inProgress = null | .lastUpdated = $now'
+  log ERROR "PREFLIGHT FAILED: network or Claude CLI is down; $person stays first in the queue, no retry charged"
+  notify "⚠️ 9takes nightly blog: network or Claude CLI was down, nothing was attempted. $display_name stays first in the queue."
+  log INFO "Nightly blog cron finished"
+  exit 1
+fi
+
+# Return the person to the front of the queue for a resume, or give up after 3.
+requeue_or_fail() {
+  local reason="$1"
+  local retry_count new_retry
+  retry_count="$(jq -r '.inProgress.retryCount // 0' "$QUEUE")"
+  new_retry=$(( retry_count + 1 ))
+  if (( new_retry >= 3 )); then
+    queue_update --arg now "$NOW_ISO" --argjson rc "$new_retry" --arg reason "$reason" \
+      '.failed = ((.failed // []) + [.inProgress + {failedAt: $now, retryCount: $rc, error: $reason}])
+        | .inProgress = null | .lastUpdated = $now | .lastFailedLaunchAt = $now'
+    log ERROR "MOVED TO FAILED: $person after $new_retry attempts ($reason)"
+    notify "❌ 9takes nightly blog: $display_name FAILED permanently ($new_retry attempts: $reason). Check pipeline logs."
+  else
+    queue_update --arg now "$NOW_ISO" --argjson rc "$new_retry" \
+      '.queue = ([.inProgress | .retryCount = $rc | del(.startedAt)] + .queue)
+        | .inProgress = null | .lastUpdated = $now | .lastFailedLaunchAt = $now'
+    log ERROR "RETRY $new_retry/3: $person returned to queue ($reason)"
+    notify "⚠️ 9takes nightly blog: $display_name stopped ($reason). Attempt $new_retry of 3; the next run resumes where it stopped."
+  fi
+}
+
 draft="$DRAFTS/$person.md"
 if set_resolved_draft "$person"; then
   draft="$RESOLVED_DRAFT"
+fi
+latest_log_dir="$(ls -dt "$REPO/docs/content-analysis/pipeline-logs/"*"_$person" 2>/dev/null | head -1)"
+failed_stage=""
+if [[ -n "$latest_log_dir" && -f "$latest_log_dir/FAILED_AT_STAGE" ]]; then
+  failed_stage="$(head -c 200 "$latest_log_dir/FAILED_AT_STAGE" | tr '\n' ' ')"
+fi
+# A crash after the draft exists (edit, verify or repair stage) used to be filed
+# as "completed, needs review" and never resumed, though a resume picks up at
+# the failed stage. Five of the first eleven crashes were this kind.
+if [[ "$pipeline_exit" -eq 1 && -f "$draft" ]]; then
+  requeue_or_fail "crashed at ${failed_stage:-an unknown stage}"
+  log INFO "Nightly blog cron finished"
+  exit 1
 fi
 if [[ -f "$draft" ]]; then
   draft_subject="$(basename "$draft" .md)"
@@ -286,9 +366,15 @@ if [[ -f "$draft" ]]; then
   letter="$(awk '/^---$/{fm++;next} fm==1 && /^content_quality:/{cq=1;next} fm==1 && cq && $0!~/^[[:space:]]/{cq=0} fm==1 && cq && $1=="letter:"{gsub(/['"'"']/,"",$2); print $2; exit}' "$draft")"
   disc="$(awk '/^---$/{fm++;next} fm==1 && /^content_quality:/{cq=1;next} fm==1 && cq && $0!~/^[[:space:]]/{cq=0} fm==1 && cq && $1=="discoverability:"{gsub(/[^0-9.]/,"",$2); print $2; exit}' "$draft")"
   needs_review="false"
-  # No grade, or a low one, means a human should look before anything downstream.
-  if [[ -z "$overall" ]] || awk -v o="${overall:-0}" 'BEGIN { exit !(o < 8.5) }'; then
+  # No grade, or one under the release floor, means a human should look before
+  # anything downstream. Between 8.0 and 8.5 the article is released (the score is
+  # advisory there since 2026-11-13) and the alert asks for a read.
+  if [[ -z "$overall" ]] || awk -v o="${overall:-0}" 'BEGIN { exit !(o < 8.0) }'; then
     needs_review="true"
+  fi
+  score_note=""
+  if [[ -n "$overall" ]] && awk -v o="$overall" 'BEGIN { exit !(o < 8.5) }'; then
+    score_note=" Score is under 8.5: give it a read first."
   fi
   publish_check_json="$(node "$REPO/scripts/personBlogParser.js" "$draft_subject" --publish-check --json 2>> "$LOG")"
   publish_check_exit=$?
@@ -310,7 +396,6 @@ if [[ -f "$draft" ]]; then
   else
     log INFO "DRAFT READY FOR PUBLISH: all local release gates passed"
   fi
-  latest_log_dir="$(ls -dt "$REPO/docs/content-analysis/pipeline-logs/"*"_$person" 2>/dev/null | head -1)"
   if [[ -n "$latest_log_dir" && -f "$latest_log_dir/FAILED_AT_STAGE" ]]; then
     needs_review="true"
     log WARN "Pipeline left a FAILED_AT_STAGE sentinel: $(cat "$latest_log_dir/FAILED_AT_STAGE")"
@@ -327,27 +412,17 @@ if [[ -f "$draft" ]]; then
   override_update '.rateLimit.currentWeekCount = (.rateLimit.currentWeekCount + 1)'
   if [[ "$publish_ready" == "true" ]]; then
     log SUCCESS "Draft completed and publish-ready: $display_name — grade ${overall:-ungraded} (${letter:-?})"
-    notify "✅ 9takes nightly blog: $display_name (Type $etype) — draft is PUBLISH READY, grade ${overall:-ungraded} (${letter:-?}), disc ${disc:-?}, ${duration_min} min."
+    notify "✅ 9takes nightly blog: $display_name (Type $etype) — draft is PUBLISH READY, grade ${overall:-ungraded} (${letter:-?}), disc ${disc:-?}, ${duration_min} min.${score_note}"
+  elif [[ "$(jq -r 'map(select(startswith("missing_full_image") or startswith("missing_thumbnail_image") | not)) | length' <<< "$publish_blockers")" == "0" ]]; then
+    waiting="$(node "$REPO/scripts/people-ready-list.mjs" --count 2>> "$LOG" || echo "?")"
+    log SUCCESS "Draft passed; waiting on a portrait: $display_name — grade ${overall:-ungraded} (${letter:-?})"
+    notify "✅ 9takes nightly blog: $display_name (Type $etype) PASSED, grade ${overall:-ungraded}, ${duration_min} min. It needs only your portrait.${score_note} Then: ./scripts/prepare-personality-image.sh <portrait.png> <type> $draft_subject && node scripts/personBlogParser.js $draft_subject --publish. Waiting on you in total: ${waiting} (pnpm people:ready)."
   else
     log WARN "Draft completed but publish-blocked: $display_name — grade ${overall:-ungraded} (${letter:-?})"
     notify "⚠️ 9takes nightly blog: $display_name (Type $etype) — draft complete but PUBLISH BLOCKED: $(jq -r 'join("; ")' <<< "$publish_blockers")"
   fi
 else
-  retry_count="$(jq -r '.inProgress.retryCount // 0' "$QUEUE")"
-  new_retry=$(( retry_count + 1 ))
-  if (( new_retry >= 3 )); then
-    queue_update --arg now "$NOW_ISO" --argjson rc "$new_retry" \
-      '.failed = ((.failed // []) + [.inProgress + {failedAt: $now, retryCount: $rc, error: "no draft after pipeline run"}])
-        | .inProgress = null | .lastUpdated = $now'
-    log ERROR "MOVED TO FAILED: $person after $new_retry attempts (no draft)"
-    notify "❌ 9takes nightly blog: $display_name FAILED permanently ($new_retry attempts, no draft). Check pipeline logs."
-  else
-    queue_update --arg now "$NOW_ISO" --argjson rc "$new_retry" \
-      '.queue = ([.inProgress | .retryCount = $rc | del(.startedAt)] + .queue)
-        | .inProgress = null | .lastUpdated = $now'
-    log ERROR "RETRY $new_retry/3: $person returned to queue (no draft)"
-    notify "⚠️ 9takes nightly blog: $display_name produced no draft (exit=$pipeline_exit). Retry $new_retry/3 tomorrow."
-  fi
+  requeue_or_fail "no draft, exit=$pipeline_exit${failed_stage:+, $failed_stage}"
   log INFO "Nightly blog cron finished"
   exit 1
 fi

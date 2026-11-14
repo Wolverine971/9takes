@@ -23,6 +23,7 @@ const staticBudgetKeys = new Set([
 	'largestRuntimeAssetBytes',
 	'portraitAssetBytes',
 	'portraitAssetFiles',
+	'imageVariantBytes',
 	'blogPngMastersInStatic'
 ]);
 const RUNTIME_ASSET_EXTENSIONS = new Set([
@@ -111,9 +112,17 @@ const assetPolicy = JSON.parse(readFileSync(ASSET_POLICY_PATH, 'utf8'));
 const runtimeAssets = walkFiles(STATIC_DIR).filter((file) =>
 	RUNTIME_ASSET_EXTENSIONS.has(path.extname(file).toLowerCase())
 );
-const runtimeAssetRows = runtimeAssets
+// static/variants/ holds phone-sized AVIFs derived from the heroes and portraits counted
+// below (scripts/gen-image-variants.mjs). They are bounded by their sources, so they get a
+// ceiling of their own instead of eating the hand-added-media ratchet: otherwise every new
+// portrait's variant would use up runtime headroom that --accept-portrait-baseline never
+// gives back.
+const VARIANTS_PREFIX = `static${path.sep}variants${path.sep}`;
+const allAssetRows = runtimeAssets
 	.map((file) => ({ path: path.relative(ROOT, file), bytes: statSync(file).size }))
 	.sort((a, b) => b.bytes - a.bytes);
+const variantAssetRows = allAssetRows.filter((asset) => asset.path.startsWith(VARIANTS_PREFIX));
+const runtimeAssetRows = allAssetRows.filter((asset) => !asset.path.startsWith(VARIANTS_PREFIX));
 const portraitAssetRows = runtimeAssetRows.filter((asset) =>
 	asset.path.startsWith(`static${path.sep}types${path.sep}`)
 );
@@ -130,6 +139,7 @@ const metrics = {
 	largestRuntimeAssetBytes: runtimeAssetRows[0]?.bytes ?? 0,
 	portraitAssetBytes: portraitAssetRows.reduce((total, asset) => total + asset.bytes, 0),
 	portraitAssetFiles: portraitAssetRows.length,
+	imageVariantBytes: variantAssetRows.reduce((total, asset) => total + asset.bytes, 0),
 	blogPngMastersInStatic
 };
 
@@ -167,6 +177,7 @@ const labels = {
 	largestRuntimeAssetBytes: 'Largest runtime asset',
 	portraitAssetBytes: 'Protected portrait library',
 	portraitAssetFiles: 'Protected portrait files',
+	imageVariantBytes: 'Derived phone image variants (ceiling)',
 	blogPngMastersInStatic: 'Paired blog PNG masters in static'
 };
 const byteMetrics = new Set([
@@ -174,7 +185,8 @@ const byteMetrics = new Set([
 	'clientOutputHardLimitBytes',
 	'runtimeAssetBytes',
 	'largestRuntimeAssetBytes',
-	'portraitAssetBytes'
+	'portraitAssetBytes',
+	'imageVariantBytes'
 ]);
 const failures = [];
 const reviewedLargeAssetPaths = new Set(assetPolicy.reviewedLargeAssets.map((entry) => entry.path));

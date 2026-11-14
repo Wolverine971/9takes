@@ -1,5 +1,6 @@
 <!-- src/routes/pop-culture/[slug]/+page.svelte -->
 <script lang="ts">
+	import { blogHeroPhoneSrc } from '$lib/imageVariants.js';
 	import TableOfContents, { trackArticleHtml } from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import PopCardGroup from '$lib/components/atoms/PopCardGroup.svelte';
@@ -91,6 +92,7 @@
 			<PopCard
 				priority
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
+				phoneImage={blogHeroPhoneSrc(data?.frontmatter?.pic)}
 				showIcon={false}
 				displayText=""
 				altText={data?.frontmatter?.title || ''}

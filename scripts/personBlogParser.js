@@ -187,10 +187,12 @@ const PEOPLE_DRAFTS_DIR = 'src/blog/people/drafts';
 const PUBLISH_MIN_CONTENT_GRADE = 8.5;
 /** Open cases carry their own release floor (see QUALITY_GATES in lib/blogEditorial.js).
  * @param {ContentQuality | null | undefined} quality */
-const publishMinContentGrade = (quality) =>
+const publishMinContentGrade = (quality, workflowV3 = false) =>
 	quality?.profile_format === 'open_case'
 		? QUALITY_GATES.open_case.overall
-		: PUBLISH_MIN_CONTENT_GRADE;
+		: workflowV3
+			? QUALITY_GATES.standard.overall
+			: PUBLISH_MIN_CONTENT_GRADE;
 // Audit 2026-06-10: v1 grades clustered 8.5-9.4 and were discoverability-blind. Publishing
 // requires a rubric-v2 grade and the v2 discoverability gate (>=7). Re-grade with /grade_blog.
 const PUBLISH_REQUIRED_RUBRIC_VERSION = 2;
@@ -1107,9 +1109,9 @@ export async function readPublishCandidate(filePath) {
 		blockers.push('missing_content_quality');
 	} else if (!entry._has_valid_content_quality || qualityOverall === null) {
 		blockers.push('invalid_content_quality');
-	} else if (qualityOverall < publishMinContentGrade(entry.content_quality)) {
+	} else if (qualityOverall < publishMinContentGrade(entry.content_quality, workflowV3)) {
 		blockers.push(
-			`content_quality_below_${publishMinContentGrade(entry.content_quality)}:${qualityOverall}`
+			`content_quality_below_${publishMinContentGrade(entry.content_quality, workflowV3)}:${qualityOverall}`
 		);
 	} else {
 		const rubricVersion = entry.content_quality?.rubric_version ?? null;

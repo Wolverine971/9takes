@@ -5,7 +5,7 @@
 **For:** the agent assigned to close out the follow-ups from the 2026-09-30 "why isn't 9takes growing" audit and the fix round that shipped on 2026-10-02 and 2026-10-03.
 **Owner:** DJ
 **Created:** 2026-10-03
-**Status:** In progress (2026-10-03). B, D, E, F, H, I, J, K, L and M step 0 shipped in `d0984dab1` and verified live. A (10-10) and C (10-17) are date-gated; O waits on A. G drafts and M/N proposals are with DJ. Items are independent unless noted. Section 4 is DJ-only: do not do those.
+**Status:** Agent work complete (verified 2026-11-14). A through L and O are done or closed; G was superseded; N2 was resolved by the real test (T-42). Open with DJ: M steps 1 to 5, and N1 (now low value, see its status). Earlier status (2026-10-03): B, D, E, F, H, I, J, K, L and M step 0 shipped in `d0984dab1` and verified live. Items are independent unless noted. Section 4 is DJ-only: do not do those.
 **Related:** commits `6f34ad64b` (fix set), `3dfa99ef8` (live-take homepage + mid-article celebrity question), `e4fe1d896` (T-38 Trump retype + host-desk replies); `docs/growth/growth-log.md` (entries `### 2026-09-28` and later); `docs/seo/personality-isr.md`; `docs/design/hyperplexed/HOMEPAGE_AUDIT_2026-09-26.md`; `supabase/migrations/20261002120000_admin_engagement_trends_weekly_v2.sql`.
 
 ---
@@ -51,7 +51,7 @@ Most of that is now fixed and live (section 2). This tasker is what is left.
 
 #### A. Spam-update and noindex readout (run on or after 2026-10-10)
 
-**Status (2026-10-25):** Done. No spam-update hit: celebrity-page impressions -3% during the rollout and +2% after, clicks +28% after; rest of site moved the same way. 433 pages inspected, 0 "Excluded by noindex". Found 3 "Soft 404" pages, led by `depression-patterns-by-enneagram-type`. Readout and numbers: `docs/growth/growth-log.md` entry `### 2026-10-25`.
+**Status (2026-10-25):** Done. No spam-update hit: celebrity-page impressions -3% during the rollout and +2% after, clicks +28% after; rest of site moved the same way. 433 pages inspected, 0 "Excluded by noindex". Found 3 "Soft 404" pages, led by `depression-patterns-by-enneagram-type`. Readout and numbers: `docs/growth/growth-log.md` entry `### 2026-10-25`. **Follow-up (2026-11-14):** all 3 Soft 404 pages re-inspected and back to "Submitted and indexed"; celebrity-page clicks +22% to +36% over the pre-rollout window; 42 top pages re-checked, 0 noindex. See growth-log entry `### 2026-11-14`.
 
 - **Why:** Google's September 2026 spam update rolls out 2026-09-24 to about 2026-10-08, and early reports say it targets templated, AI-assisted programmatic pages. The 450 celebrity pages share one template. Also, the deploy-skew fix needs confirmation in Google's own data.
 - **Do:** copy the auth from `scripts/fetch-gsc-data.mjs` (do not edit it) into a scratch script. Pull daily clicks and impressions for `/personality-analysis/*` with `dataState: 'all'`. Compare 2026-09-24 to 2026-10-08 against the two weeks before. Then use the URL Inspection API on the top 25 pages by clicks and list any whose coverage says "Excluded by 'noindex' tag" with a last crawl after 2026-09-28.
@@ -67,7 +67,7 @@ Most of that is now fixed and live (section 2). This tasker is what is left.
 
 #### C. Two-week readout of the 2026-10-03 surfaces (run on or after 2026-10-17)
 
-**Status (2026-10-03):** Not started. Date-gated: run on or after 2026-10-17.
+**Status (2026-10-19):** Done. Readout is in the `docs/growth/growth-log.md` weekly audit entry for the 10-12 week ("T-41 C two-week readout"). Celebrity q567 went 0, 1, 0 (233 readers, 1 take): lost. Homepage two-step went 3, 0: lost, replaced by the one-step version on 10-18.
 
 - **Why:** the live-take homepage and the mid-article celebrity question are the two bets that should bring contributions back.
 - **Do:** read-only SQL via `./scripts/db-query.sh`. For each week since 2026-10-03: `give_first_funnel_events` `gate_shown` and `contribution` by `path` (`/` versus `/personality-analysis/%`), distinct fingerprints, and contributions per gate. Join to `comments` for real takes (exclude removed and admin). Also report host-digest runs (`select created_at, level, message from app_error_events where source='host_digest' order by id desc`) and how many takes got a DJ reply within 24 hours.
@@ -99,7 +99,7 @@ Add `'homepage'` to `ReplyOptInSurface` in `src/lib/analytics/replyOptInEvents.t
 
 #### G. Draft the nine takes for q118 and q203 (DJ approves before seeding)
 
-**Status (2026-10-03):** Drafts with DJ: `docs/taskers/T-41-assets/G-nine-takes/` (both pass `seed-strategic-question.mjs --dry-run`; nothing seeded). README has the seed and revalidate commands.
+**Status (2026-11-14):** Superseded, never seeded (`nine_takes` still holds q567 only). q118 went live on 10-18 with bundled AI-labeled examples in code (`src/lib/data/chorusStarter.ts`), and DJ rotated the default to the first-impression question on 11-02, so no seed is needed. Earlier status (2026-10-03): Drafts with DJ: `docs/taskers/T-41-assets/G-nine-takes/` (both pass `seed-strategic-question.mjs --dry-run`; nothing seeded). README has the seed and revalidate commands.
 
 - **Why:** every celebrity page currently asks q567, because `/api/nine/mirror` only accepts answers on questions with nine stored takes, and q567 is the only one in the proven pool that has them. `provenChorusQuestions.ts` rotates q118 (`what-were-you-like-as-a-kid-in-3-words`) and q203 (`whats-criteria-considering-someone-friend`) in automatically once they're seeded.
 - **Do:** read `scripts/seed-strategic-question.mjs` and the existing q567 row in `nine_takes`, then draft seed files for q118 and q203 that follow the same voice rules. **Do not run the seed.** Hand DJ the drafts.
@@ -155,7 +155,7 @@ The 144 KB root stylesheet plus the 33 KB `blog.css` block rendering on every pa
 
 #### N. SEO proposals (propose, do not execute)
 
-**Status (2026-10-03):** Proposals with DJ: `docs/taskers/T-41-assets/N-seo-proposals.md`. N1: restore only `enneagram-communication-tips`. N2: `/enneagram-test` has no test on it; lean fix (CTA copy + comparison post) vs ambitious (a real test).
+**Status (2026-11-14):** N2 resolved: the real test shipped (T-42) and `/enneagram-test` is live as "Free Enneagram Test". N1 was not acted on and the window it described has closed: Google processed the 301, the tips URL went from 12 clicks in September to 3 in October to 0 impressions in November 1-12, and the "things to say to an enneagram [type]" queries fell from 159 impressions in September to 9. The target guide's average position improved from 40.0 to 9.9 over the same months. Restoring the tips post would now mean re-earning the ranking, not keeping it. Earlier status (2026-10-03): Proposals with DJ: `docs/taskers/T-41-assets/N-seo-proposals.md`. N1: restore only `enneagram-communication-tips`. N2: `/enneagram-test` has no test on it; lean fix (CTA copy + comparison post) vs ambitious (a real test).
 
 1. Commit `20ecb0a57` (2026-08-02) 301'd `enneagram-communication-tips` (position 10.8) and `communication-styles` (16.4) into `relationship-communication-guide`, which ranks at 40.9. Google has not transferred the rankings. Recommend: restore, strengthen the target, or leave it.
 2. `/enneagram-test` gets 0–4 impressions a month, while "best free enneagram test" style queries (300–460 impressions a week) only find 9takes on page 2 through comparison posts. Recommend a fix.

@@ -7,6 +7,7 @@
   Spec: docs/design-system.md §4–§6.
 -->
 <script lang="ts">
+	import { blogHeroPhoneSrc } from '$lib/imageVariants.js';
 	import type { PageData } from './$types';
 	import type { Component } from 'svelte';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
@@ -43,6 +44,7 @@
 			<PopCard
 				priority
 				image={`/blogs/${data.frontmatter.pic}.webp`}
+				phoneImage={blogHeroPhoneSrc(data.frontmatter.pic)}
 				aspectRatio={data.frontmatter.image_aspect_ratio ?? '10 / 16'}
 				showIcon={false}
 				tint={false}
