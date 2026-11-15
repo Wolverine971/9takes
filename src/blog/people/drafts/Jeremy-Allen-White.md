@@ -250,7 +250,7 @@ The process gives him a practical solution to the Type 4 question of authenticit
 
 ## What the Calvin Klein billboard actually meant to him
 
-The first Calvin Klein campaign made White a public body on an architectural scale. The old version of this article claimed he hated the experience. His own account is more interesting.
+The first Calvin Klein campaign made White a public body on an architectural scale. It would be easy to assume he hated the experience. His own account is more interesting.
 
 In _GQ_ on August 27, 2024, White said he felt deeply insecure before the first shoot. Acting taught him to forget the camera. Fashion photography required him to treat the camera as a partner. He could not hide inside Carmy, Lip, or Kerry. The subject was Jeremy Allen White in underwear.
 

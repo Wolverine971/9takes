@@ -95,6 +95,14 @@ const config = {
 		paths: {
 			relative: false
 		},
+		// Ship each page's CSS inside the HTML instead of as 6 to 14 render-blocking files. On
+		// a slow phone the page could not paint until those files arrived (1.3 to 1.9 s, while
+		// the HTML itself was in at about 0.35 s); inlined, the same bytes ride in the HTML
+		// (+20 to 31 KB compressed). The cascade is unchanged: SvelteKit merges the files in
+		// their link order and keeps the links, disabled, so client-side navigation does not
+		// load them again. Measured 2026-11-14: docs/taskers/T-41-assets/M-critical-css-plan.md.
+		// Kill switch: set INLINE_PAGE_CSS=0 in the build environment and redeploy.
+		inlineStyleThreshold: process.env.INLINE_PAGE_CSS === '0' ? 0 : Infinity,
 		csp: {
 			mode: 'hash',
 			directives: {

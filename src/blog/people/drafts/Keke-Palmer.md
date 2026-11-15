@@ -71,8 +71,8 @@ faqs:
     answer: "Lauren Palmer, the girl from Robbins, Illinois, built 'Keke Palmer' at nine years old as armor to survive the entertainment industry — 'That's the name the world wanted. So, that's what they got.' Her 2025 visual album Just Keke marks what she calls her 'awareness era': 'I'm not the puppet. I'm the puppet master.' The suit is still there, but she designed it herself now and chooses when to put it on."
     anchor: 'im-not-the-puppet-im-the-puppet-master'
 twitter: '@KekePalmer'
-instagram: '@kabornejakeke'
-tiktok: '@kabornejakeke'
+instagram: '@keke'
+tiktok: '@kekepalmer'
 path: src/blog/people/drafts/Keke-Palmer.md
 content_quality:
   hook: 9

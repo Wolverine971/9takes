@@ -66,9 +66,9 @@ faqs:
   - question: 'Is Trisha Paytas on Broadway?'
     answer: "Yes. By November 2025 she was performing eight shows a week as Maxine Dean in Beetlejuice: The Musical at The Palace Theatre, after an SNL appearance, a benefit show at the St. James alongside Sutton Foster and Ben Platt, and signing with CAA. On opening night the audience brought the show to a standstill with entrance applause — a rare honor for a Broadway debut."
     anchor: 'from-blndsundoll4mj-to-beetlejuice'
-twitter: 'taborsgonewild'
+twitter: 'trishapaytas'
 instagram: 'trishapaytas'
-tiktok: '@taborsgonewild'
+tiktok: '@trishlikefish88'
 content_quality:
   hook: 9
   enneagram: 9

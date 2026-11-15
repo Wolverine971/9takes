@@ -36,7 +36,7 @@ faqs:
   - question: 'What does this Nelk Boys analysis focus on?'
     answer: "The analysis focuses on the biographical and career patterns behind the Nelk Boys' public persona."
     anchor: 'what-does-this-nelk-boys-analysis-focus-on'
-twitter: 'https://twitter.com/nelaborhood'
+twitter: 'https://twitter.com/nelkboys'
 instagram: 'https://instagram.com/nelkboys'
 tiktok: 'https://tiktok.com/@nelkboys'
 path: src/blog/people/drafts/Nelk-Boys.md

@@ -15,7 +15,7 @@ type: ['techie', 'big-tech-founder']
 person: 'mark-zuckerberg'
 suggestions: ['Elon-Musk', 'Bill-Gates', 'Jensen-Huang', 'Jeff-Bezos', 'Steve-Jobs']
 wikipedia: 'https://en.wikipedia.org/wiki/Mark_Zuckerberg'
-twitter: 'faborisefacebook'
+twitter: 'finkd'
 instagram: 'zuck'
 tiktok: ''
 content_quality:

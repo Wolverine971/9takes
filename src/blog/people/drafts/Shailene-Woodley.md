@@ -64,7 +64,7 @@ faqs:
   - question: 'What happened between Shailene Woodley and Aaron Rodgers?'
     answer: "They met in 2020, moved in together within months, and she confirmed the engagement on The Tonight Show in February 2021; by February 2022 it was over. She called the aftermath 'the darkest, hardest time in my life' and processed it while filming Three Women — 'a big pain bubble for eight months.' Her summary: 'It was not right. But it was beautiful.'"
     anchor: 'i-fell-in-love-over-and-over-with-unavailability'
-twitter: 'shaborz'
+twitter: 'shailenewoodley'
 instagram: 'shailenewoodley'
 tiktok: ''
 content_quality:

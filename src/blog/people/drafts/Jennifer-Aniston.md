@@ -62,7 +62,7 @@ faqs:
     answer: "She carried the belief she was stupid through her entire adolescence. The diagnosis came in her early twenties, almost by accident, during an eye exam where she read a paragraph through Buddy Holly-style red-and-blue glasses and got three of ten quiz questions right. The relief — 'all of my childhood trauma-dies, tragedies, dramas were explained' — was immediate. She didn't tell anyone publicly for years."
     anchor: 'the-girl-who-thought-she-was-stupid'
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Aniston'
-twitter: 'https://twitter.com/jaboretsky'
+twitter: ''
 instagram: 'https://www.instagram.com/jenniferaniston'
 tiktok: ''
 content_quality:

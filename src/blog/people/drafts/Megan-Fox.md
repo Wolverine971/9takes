@@ -64,7 +64,7 @@ faqs:
   - question: 'What happened between Megan Fox and Machine Gun Kelly?'
     answer: "She called him 'my twin soul' — the relationship featured an engagement ring designed to draw blood if removed, drinking each other's blood 'for ritual purposes only,' and an ayahuasca ceremony Fox described as going to 'hell for eternity.' Within eighteen months came a miscarriage, a broken engagement, a pregnancy announcement, and a confirmed breakup. Their daughter, Saga Blade, was born March 27, 2025, and they co-parent separately."
     anchor: 'why-megan-foxs-relationships-keep-following-the-same-pattern'
-twitter: 'meabornsept1986'
+twitter: 'meganfox'
 instagram: 'meganfox'
 tiktok: ''
 content_quality:

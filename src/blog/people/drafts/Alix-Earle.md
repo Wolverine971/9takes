@@ -79,7 +79,7 @@ faqs:
   - question: "What does Alix Earle's anxiety reveal about her personality?"
     answer: "Alix has been on Lexapro since high school and has described racing thoughts, disordered eating history, and body dysmorphia in unusually specific detail. That presentation is exactly how a Type 9 under stress shows up: disintegrating to Type 6, with worst-case spirals and second-guessing rather than a 7's chase-the-next-thing energy. A career built on millions of opinions about her body and face is a Nine's worst-case operating environment, which is why the medication is infrastructure, not a footnote."
     anchor: 'what-alix-earle-says-about-her-anxiety'
-twitter: 'alaborr'
+twitter: ''
 instagram: 'alixearle'
 tiktok: 'alixearle'
 production_pretext:

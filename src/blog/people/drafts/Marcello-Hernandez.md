@@ -72,7 +72,7 @@ faqs:
   - question: "What is Marcello Hernández's Netflix special American Boy about?"
     answer: "Filmed in front of a hometown Miami crowd, American Boy mines the paradox of being the first American in an immigrant family — contrasting Bob Saget's gentle Full House parenting with his Cuban mother's approach, including a household where she wouldn't let him be depressed or have ADD because she couldn't afford for her son to fall apart. The closing bit drops the comedy voice: he looks into the camera and says, 'We'll be back.'"
     anchor: 'the-american-boy'
-twitter: 'marcaboricua'
+twitter: 'marcellohdz'
 instagram: 'marcellohdz'
 tiktok: 'marcellohdz'
 path: src/blog/people/drafts/Marcello-Hernandez.md

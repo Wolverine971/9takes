@@ -15,7 +15,7 @@ type: ['techie', 'big-tech-founder']
 person: 'satya-nadella'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Jensen-Huang', 'Sundar-Pichai', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Satya_Nadella'
-twitter: '@sataborasu'
+twitter: '@satyanadella'
 instagram: ''
 tiktok: ''
 wikidata_qid: 'Q7426870'

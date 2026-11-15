@@ -309,7 +309,7 @@ Harry called the result a whitewash. The court's reasoning deserves more weight 
 
 ## The UK security fight is still unresolved
 
-The old version of this profile said Harry was expected to regain publicly funded police protection after a new threat assessment. That conclusion ran ahead of the public record.
+It is tempting to say Harry is about to regain publicly funded police protection after a new threat assessment. The public record doesn't support that yet.
 
 What is established is narrower. RAVEC withdrew Harry and Meghan's automatic protection after they stopped working as royals in 2020, replacing it with arrangements considered case by case for UK visits. Harry challenged that process. In May 2025, the Court of Appeal [dismissed his appeal](https://www.judiciary.uk/wp-content/uploads/2025/05/Sussex-v-Secretary-of-State-for-the-Home-Department-press-summary.pdf).
 

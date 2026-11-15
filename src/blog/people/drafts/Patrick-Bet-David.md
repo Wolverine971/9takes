@@ -327,7 +327,7 @@ The social instinct appears strongest. His scoreboards are public, his ambitions
 
 Type 3 connects to Nine and Six. Under strain, Three can slide toward Nine's numbing, disengagement, and loss of direction. Bet-David's unfocused party years offer the clearest biographical example, though no public anecdote can prove an internal state. Growth toward Six looks like loyalty, shared responsibility, and commitment to something larger than personal applause. His devotion to his father, his long partnership with Jennifer, and the durable team around the podcast show that capacity.
 
-The previous version of this article described a "line to Eight." That was incorrect. Three has no connecting line to Eight. His Eight-like force is better understood through the assertive stance shared by Types 3, 7, and 8, plus a career that rewards confrontation.
+Type 3 has no connecting line to Eight. His Eight-like force is better understood through the assertive stance shared by Types 3, 7, and 8, plus a career that rewards confrontation.
 
 ### Could Patrick Bet-David be a Type 8?
 

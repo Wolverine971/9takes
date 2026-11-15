@@ -61,7 +61,7 @@ faqs:
     answer: "Carina Zavline most likely fits Enneagram Type 3, the Achiever, with moderate confidence. Her public record shows a talent for identifying the scorecard in each room: attitude on Germany's Next Top Model, versatility in commercial modeling, and credits and self-tapes when she moved into acting. The clearest evidence is her willingness to admit that a million-follower identity did not count as proof in a new profession."
     anchor: 'what-is-carina-zavlines-personality-type'
   - question: "Why did Carina Zavline leave Germany's Next Top Model?"
-    answer: "Carina Zavline was eliminated in the quarterfinals of Germany's Next Top Model in 2017 after struggling in an emotional photo shoot and receiving criticism for a stiff runway walk. Heidi Klum softened the exit by saying she believed Carina would find her way without the show. The elimination was not because Carina was already too successful, as an earlier version of this article incorrectly claimed."
+    answer: "Carina Zavline was eliminated in the quarterfinals of Germany's Next Top Model in 2017 after struggling in an emotional photo shoot and receiving criticism for a stiff runway walk. Heidi Klum softened the exit by saying she believed Carina would find her way without the show."
     anchor: 'why-carina-zavline-was-called-miss-arrogance-on-gntm'
   - question: 'What did Carina Zavline do after GNTM?'
     answer: 'Carina converted her GNTM visibility into commercial modeling and creator work. She won the Opel campaign while on the show, later worked with beauty and fashion brands, studied acting at the Lee Strasberg Theatre and Film Institute, and booked a role in Beyond Belief: Fact or Fiction. By July 2026, third-party analytics placed her Instagram audience at roughly 1.3 million followers.'
@@ -209,7 +209,7 @@ Carina later told [GALA in 2017](https://www.gala.de/lifestyle/film-tv-musik/-ge
 
 Both things can be true. Carina supplied television with bold material, and television sharpened that material into a character viewers could judge quickly. Her confidence carried real provocation. The edit gave it a cleaner villain shape.
 
-The original version of this article then made the same kind of simplification in her favor. It claimed the show eliminated Carina because she was already ready for the real world. That is inaccurate.
+The same simplification is easy to make in her favor, as if the show let her go because she was already ready for the real world. That isn't what happened.
 
 The quarterfinal record is less flattering and more useful. Carina struggled to produce an emotional photograph, then delivered a runway walk that judge Thomas Hayo compared to a soldier's: “She walks like a soldier. I don't find that graceful.” Heidi Klum sent her home. Only afterward did Klum offer reassurance: “You'll be able to find your way without me. I'm not worried.” [BILD's 2017 episode recap records the criticism and the exit](https://www.bild.de/unterhaltung/tv/germanys-next-topmodel/gntm-51700820.bild.html).
 
@@ -239,9 +239,9 @@ By 2023 the adjustment had become more humbling. Carina understood that reach wa
 
 The glossy feed can hide how much rehearsal came first. An [ICONIC Management profile from 2023](https://mediaslide-europe.storage.googleapis.com/iconic/documents/3270/1691504061-f7c49fe9e076edeb66e65201e6106395.pdf) describes eleven years of professional Latin and ballroom dance, communications studies at LMU Munich and Sciences Po in Paris, and fluency in five languages. It also says she began studying acting at the Lee Strasberg Theatre and Film Institute in Los Angeles in 2021.
 
-That agency document corrects another false claim in the previous draft. Carina was described here as self-managed and unwilling to trust anyone else with her brand. ICONIC explicitly listed her representation and named her agent. Her success may still involve strong personal control, but there is no basis for turning that into a story about refusing management.
+The same document settles a common assumption about her: that she is self-managed and unwilling to trust anyone else with her brand. ICONIC explicitly listed her representation and named her agent. Her success may still involve strong personal control, but there is no basis for turning that into a story about refusing management.
 
-Her commercial career kept expanding after GNTM. The agency profile lists beauty work with Dior, Charlotte Tilbury, and Estée Lauder group brands, a KILIAN ambassadorship beginning in 2018, and a GUESS ambassadorship beginning in 2020. Those claims come from her representative's marketing material, so they deserve that context. They still provide a clearer record than the old article's vague assertion that she simply built everything alone.
+Her commercial career kept expanding after GNTM. The agency profile lists beauty work with Dior, Charlotte Tilbury, and Estée Lauder group brands, a KILIAN ambassadorship beginning in 2018, and a GUESS ambassadorship beginning in 2020. Those claims come from her representative's marketing material, so they deserve that context. They still provide a clearer record than the vague idea that she simply built everything alone.
 
 The reach is real. [HypeAuditor reported roughly 1.3 million followers](https://hypeauditor.com/instagram/carina/) for her current handle, @carina, in July 2026. The work behind that number spans performance, fashion, beauty, travel, and the constant maintenance of a public-facing identity.
 

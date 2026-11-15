@@ -65,7 +65,7 @@ faqs:
   - question: 'What is Room Under the Stairs?'
     answer: "Zayn's 2024 album — a genuine left turn that abandoned pop for acoustic, country-influenced sounds recorded alone at his Pennsylvania home in what he calls a 'shoe cupboard.' It reached #3 on the UK Albums Chart and #15 on the Billboard 200, and led to his first-ever headlining tour, which he credited to fatherhood: 'I want her to know that her dad can overcome his fears.'"
     anchor: 'the-shoe-cupboard-where-zayn-malik-stopped-performing'
-twitter: 'zaaborsu'
+twitter: 'zaynmalik'
 instagram: 'zayn'
 tiktok: 'zayn'
 production_pretext:

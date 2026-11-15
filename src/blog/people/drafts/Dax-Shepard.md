@@ -25,8 +25,8 @@ occupation:
   - 'Comedian'
   - 'Filmmaker'
   - 'Podcaster'
-twitter: 'daborgs'
-instagram: 'daborgs'
+twitter: ''
+instagram: 'daxshepard'
 tiktok: ''
 knows_about:
   - 'Long-form interviewing'

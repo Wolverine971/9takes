@@ -62,8 +62,8 @@ faqs:
   - question: 'How does Andrew Callaghan get extremists to open up on camera?'
     answer: "His technique is to interview like a toddler: ask the simplest possible question, nod just enough to keep the subject going without agreeing, and let silence do the work. In This Place Rules he let QAnon believer Dave Todeschini talk for hours before producing sex offender records at a Culver's restaurant."
     anchor: 'how-andrew-callaghan-gets-extremists-to-talk'
-twitter: 'allaboratory'
-instagram: 'channel5'
+twitter: ''
+instagram: 'andreww.me'
 tiktok: ''
 path: src/blog/people/drafts/Andrew-Callaghan.md
 content_quality:

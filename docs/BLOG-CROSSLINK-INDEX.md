@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-11-13 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
+_Generated: 2026-11-14 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
 _Search data: GSC 2026-08-10 → 2026-11-08 (pulled 2026-11-10)_
 
 **Scope.** Link counts cover **live posts only**: files a route actually serves with `published: true`
@@ -195,7 +195,7 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 | draft | 23 | Routable, `published` is false |
 | redirected | 8 | Unpublished and the route 301s the slug to a newer post |
 | no-frontmatter | 2 | Routable folder but no frontmatter (notes); 404s |
-| excluded | 49 | Social variants and notes the route globs skip (`.instagram/.twitter/.reddit/.review`, `-twitter`) |
+| excluded | 1 | Social variants and notes the route globs skip (`.instagram/.twitter/.reddit/.review`, `-twitter`) |
 | not-routable | 10 | Folders no route serves (templates, research notes) |
 
 ### Drafts

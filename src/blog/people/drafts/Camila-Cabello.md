@@ -70,8 +70,8 @@ faqs:
   - question: 'How did Camila Cabello come to the United States?'
     answer: 'When she was six or seven, her mother packed a backpack with a Winnie the Pooh journal and a doll, told her they were going to Disney World, and crossed the Mexican border into the U.S. instead. Her mother went from architect in Cuba to working at Marshalls, and more than a year later her father swam the Rio Grande to reunite with the family.'
     anchor: 'the-disney-world-lie'
-twitter: 'Camaborello'
-instagram: 'camaborello'
+twitter: 'Camila_Cabello'
+instagram: 'camila_cabello'
 tiktok: 'camilacabello'
 content_quality:
   hook: 9

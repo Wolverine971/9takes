@@ -58,9 +58,9 @@ faqs:
   - question: 'What is Sky Bri like in real life?'
     answer: "'People see me as this crazy f**king sex robot demon. But in my everyday life, I'm pretty normal.' She streams Fortnite on Twitch, collects Legos, lives in LA with two dogs and a cat, and hosts an OFTV show about things she loves. Before the persona, she was a Lancaster, Pennsylvania kid with social anxiety so severe she dropped out of high school and later worked the register at Target."
     anchor: 'the-ordinary-life-hidden-behind-sky-bris-persona'
-twitter: '@skaborr'
+twitter: '@skybri_'
 instagram: 'https://instagram.com/realskybri'
-tiktok: '@realskybri'
+tiktok: '@skybribaby'
 content_quality:
   hook: 9
   enneagram: 9

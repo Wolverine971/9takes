@@ -113,7 +113,7 @@ That's the tension that drives everything. A woman whose entire career has been 
 <li><b>Forged by loss:</b> Her father's sudden death when she was five shaped a worldview where safety is never guaranteed and strength is the only reliable currency.</li>
 <li><b>Closeted truth-teller:</b> Forced to hide her identity for years, she vowed upon coming out to never hide anything again, and turned that vow into a journalistic philosophy.</li>
 <li><b>Confrontation as care:</b> The same directness that makes billionaires sweat is how she expresses love, loyalty, and accountability.</li>
-<li><b>The Tempesta paradox:</b> Beneath the most feared journalist in tech is someone who lists "difficulty forming attachments" and "dying young" among her deepest fears.</li>
+<li><b>The Tempesta paradox:</b> Beneath the most feared journalist in tech is someone who lists "abandonment" and "dying young" among her deepest fears.</li>
 </ul>
 </div>
 </details>
@@ -224,7 +224,7 @@ The family life is the part Swisher guards most carefully. "Though everyone thin
 
 In October 2011, on a 14-hour flight to Hong Kong for the AllThingsD Asia conference, Swisher suffered a stroke; most coverage at the time called it a mini-stroke. A small hole in her heart that no one knew about allowed a clot to travel to her brain. She was 48, healthy, with none of the typical risk factors.
 
-She recovered completely. But in a WNYC segment called "10 Things That Scare Me," she listed harm to her children, dying young, and — most revealingly — "difficulty forming attachments." She acknowledged that the fear of loss has shaped her capacity for closeness. But the fear that stayed was the stroke's echo. Not the medical event itself. The moment she realized she might leave her children the way her father left her.
+She recovered completely. But in a WNYC segment called "10 Things That Scare Me," she listed harm to her children, dying young, and, most revealingly, "abandonment." She explained it plainly: "you have a hard time developing attachments. That's why I had children, I think, because I wanted to stop that cycle." But the fear that stayed was the stroke's echo. Not the medical event itself. The moment she realized she might leave her children the way her father left her.
 
 Her father died of a cerebral hemorrhage. She nearly died of a cerebral clot. The same organ, the same mechanism, one generation apart. She has never, in any interview I've found, drawn this connection explicitly. But it's the kind of rhyme that a person who learned at five that "life can change on a dime" would feel in her body before she could name it.
 
@@ -284,7 +284,7 @@ The key word is _intelligent_. She doesn't tolerate the performance of disagreem
 
 ## Why Kara Swisher Still Charges at Threats
 
-There's a moment in the WNYC "10 Things That Scare Me" segment that doesn't get quoted as often as the ones about her father or her stroke. She talks about a confrontation with a large raccoon. She faced it down instead of retreating, and then realized her tendency to charge at threats reflects "insufficient caution." Her tenth fear: _not being scared enough_.
+There's a moment in the WNYC "10 Things That Scare Me" segment that doesn't get quoted as often as the ones about her father or her stroke. She talks about a confrontation with a large raccoon. She faced it down instead of retreating, then admitted she should probably care a little more about danger than she does. Her tenth fear: _not being scared enough_.
 
 This is the crack in the armor most people miss. Eights know their own wiring. They know the confrontation instinct can be a liability as easily as a superpower. Swisher knows she doesn't flinch when she should. She knows the word Tempesta is both compliment and diagnosis.
 

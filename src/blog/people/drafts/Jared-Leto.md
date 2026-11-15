@@ -289,7 +289,7 @@ That moment is the most himself the camera has ever caught him.
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwaaborern/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
       "dateModified": "2026-02-18",
       "datePublished": "2025-03-10",

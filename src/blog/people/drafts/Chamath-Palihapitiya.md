@@ -15,7 +15,7 @@ type: ['techie', 'investor']
 person: 'chamath-palihapitiya'
 suggestions: ['David-Sacks', 'Jason-Calacanis', 'David-Friedberg', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'
-twitter: 'chaaborhee'
+twitter: 'chamath'
 instagram: ''
 tiktok: ''
 wikidata_qid: 'Q16734050'

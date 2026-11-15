@@ -68,7 +68,7 @@ faqs:
   - question: "What is Lupita Nyong'o's book Sulwe about?"
     answer: "Sulwe is a children's book about a girl 'the color of midnight' learning to love herself — the story Lupita needed as the child in Nairobi who prayed nightly to wake up lighter-skinned. It became a New York Times bestseller. She could have written a memoir about colorism; she wrote a picture book for other children instead."
     anchor: 'the-color-of-midnight'
-twitter: 'Lupaborgnino'
+twitter: 'Lupita_Nyongo'
 instagram: 'lupitanyongo'
 tiktok: ''
 content_quality:

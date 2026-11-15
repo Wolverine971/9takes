@@ -189,7 +189,7 @@ Tara's simplest definition of the Mindset came in the Our Era interview: "It's n
 
 Her DJing makes the slogan more complicated. She told the same magazine that she had always wanted to control the music in any room, and admitted that the impulse was controlling. She also said she did not care what everyone else liked because she wanted to play what she wanted. This is not a portrait of someone dissolving into other people's preferences. It is a person claiming authorship over the room.
 
-The career followed. In February 2026, [TheWrap reported](https://www.thewrap.com/industry-news/business/tara-yummy-signs-with-wme/) that WME signed her in all areas while she toured North America. After this page's previous editorial cutoff, she released [*OUTRO* with Spencer Light on February 24](https://open.spotify.com/album/0Ux4HtBF4fEWlYiIVlpsWr) and [*B34M* on June 26](https://open.spotify.com/album/4c2unOMXJosFZpsErJOpe3). Those releases move her from selecting other people's music toward putting out tracks under her own name. That is meaningful Type 3 counterevidence: achievement and expansion are not just decorative wings on a Helper story.
+The career followed. In February 2026, [TheWrap reported](https://www.thewrap.com/industry-news/business/tara-yummy-signs-with-wme/) that WME signed her in all areas while she toured North America. Later that year she released [*OUTRO* with Spencer Light on February 24](https://open.spotify.com/album/0Ux4HtBF4fEWlYiIVlpsWr) and [*B34M* on June 26](https://open.spotify.com/album/4c2unOMXJosFZpsErJOpe3). Those releases move her from selecting other people's music toward putting out tracks under her own name. That is meaningful Type 3 counterevidence: achievement and expansion are not just decorative wings on a Helper story.
 
 Then the tour documentary shows the cost. After one set, Tara said she felt guilty when she did not give everything. Exhausted and worried about mistakes, she returned to the audience: [people can be cruel, she said, and she wanted everyone to have a good time](https://www.youtube.com/watch?v=Wk3Rlq1LWck&t=3947s). Moments later, after fans told her they had fun, she answered that this was all that mattered.
 
@@ -216,8 +216,6 @@ Her reaction to rapid growth is also revealing. Tara told Cake that after years 
 The clearest arc is not from caring to indifference. It is from gaining access through connection to demanding control over what access costs.
 
 ### Why She Says She Left Dropouts
-
-The old version of this article claimed Tara chose intimacy over reach when she left the Dropouts podcast. Tara did not say that, and the claim went beyond the evidence.
 
 In her own July 2024 video, [*I Left Dropouts*](https://www.youtube.com/watch?v=kiFuwog_zSA&t=156s), she said the podcast sometimes pulled her into vulnerability and hot-take games that did not fit the lighthearted videos she wanted to make. She compared hot takes to bringing politics to Thanksgiving. She also said she wanted to share her own narrative and preferred to be in control of it.
 

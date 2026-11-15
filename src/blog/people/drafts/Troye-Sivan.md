@@ -94,7 +94,7 @@ faqs:
   - question: 'What does Tsu Lange Yor mean?'
     answer: "Tsu Lange Yor means 'to long years' in Yiddish. In a November 2023 RUSSH interview, co-founder Steele Mellet described the name as a tribute to their great-grandmother. Troye connected the fragrance and lifestyle brand to homesickness on tour and his interest in interiors."
     anchor: 'why-troye-sivan-named-his-brand-after-a-yiddish-toast'
-twitter: 'traborjam'
+twitter: 'troyesivan'
 instagram: 'troyesivan'
 tiktok: 'troyesivan'
 path: src/blog/people/drafts/Troye-Sivan.md

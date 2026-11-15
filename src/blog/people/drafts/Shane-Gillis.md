@@ -65,7 +65,7 @@ faqs:
   - question: 'How big is Shane Gillis now?'
     answer: "His special Beautiful Dogs hit Netflix's Top 10 in five countries; Tires, the show he co-created and self-funded before Netflix picked it up, has been renewed through season three; and Matt and Shane's Secret Podcast is the most subscribed-to podcast on Patreon. In 2024 he set all-time comedy ticket records at arenas in Toronto, Philadelphia, and San Antonio, and in July 2026 he plays Lincoln Financial Field for over 60,000 people — twenty minutes from where he used to bomb at open mics."
     anchor: 'what-he-built'
-twitter: 'shaabornsale'
+twitter: 'shanemgillis'
 instagram: 'shanemgillis'
 tiktok: ''
 path: src/blog/people/drafts/Shane-Gillis.md

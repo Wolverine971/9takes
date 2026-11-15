@@ -98,7 +98,7 @@ FEEDBACK (2026-02-18):
 - TO REACH A (9.0): (1) Add 3-4 more direct quotes — pull from livestream transcripts, Smosh appearances, or the Cameo intro. (2) Tighten the "Where She Is Now" section — the Apple TV, Smosh, Cameo list reads like a resume; either cut it to two sentences or find a quote that gives it narrative weight. (3) The ending paragraph is strong but would hit harder without the preceding catalog of achievements — consider cutting straight from the parent paragraph to the final "The realest thing about Ashby Florence" closer.
 -->
 
-<p class="firstLetter">September 3, 2025. Ashby Florence stands at the Delacorte Theater in Central Park wearing a letter jacket and a Sharpie-drawn goatee, interviewing Lin-Manuel Miranda at the Hamilton film premiere. One month earlier she was doing print production on Walking Dead comics at Skybound Entertainment. Twenty years earlier her dad was driving her from Virginia to this same city for Broadway auditions that never went anywhere.</p>
+<p class="firstLetter">September 3, 2025. Ashby Florence stands at the Delacorte Theater in Central Park wearing a letter jacket and a Sharpie-drawn goatee, interviewing Lin-Manuel Miranda at the Hamilton film premiere. One month earlier she was doing print production on Walking Dead comics at Skybound Entertainment. Years earlier she was skipping school to drive from Virginia to this same city for Broadway auditions that never went anywhere.</p>
 
 Same city. Same dream. Completely different door.
 
@@ -167,7 +167,7 @@ Ben, a Chapman University film school graduate and aspiring director, brings ind
 
 Ashby Florence was born November 22, 2000, raised in Virginia. Her parents went all-in on her performing dream. "I trained seven days a week to make it in the entertainment industry," she told Betches. "I would skip school to drive to New York to audition for Broadway shows and stay up late with my mom filming self-tapes after dinner."
 
-Three days a week at a pre-professional program after school. Weekends at intensive acting camps. Both parents fully committed — mom enabling the absences, dad doing the Virginia-to-New-York drives. In 2015, a fourteen-year-old Ashby made a Hamilton piggy bank. The show wasn't just something she admired. It lived in her hands.
+Three days a week at a pre-professional program after school. Weekends at intensive acting camps. Her family was fully committed: the missed school days, the drives to New York, the late-night self-tapes with her mom. In 2015, a fourteen-year-old Ashby made a Hamilton piggy bank. The show wasn't just something she admired. It lived in her hands.
 
 The entertainment industry said no. Repeatedly. Despite the training, the sacrifice, the childhood built around a single ambition, the traditional path never opened.
 
@@ -217,7 +217,7 @@ For a Type 7 who spent her childhood watching doors close despite doing everythi
 
 By late 2025, the TikTok following had hit 2.5 million, Smosh was booking her regularly (Try Not To Laugh, Board AF, Bit City — she played "Walter White"), and she'd moved from the margins of entertainment to its center in under six months. She told Fourthwall: "People crave realness in a, frankly, fake world."
 
-The parents who drove their kid from Virginia to New York for auditions that never went anywhere haven't spoken publicly about the blowup. But consider the arithmetic: they invested years of drives, missed school days, late-night self-tapes, and intensive camps into a dream that stalled for the entirety of their daughter's adolescence. Then a Sharpie goatee and a fever did what all of it couldn't. For the Type 7, the reframe is clean — "the scenic route got me there." For the parents, the emotional math is probably more complicated.
+Years of drives, missed school days, late-night self-tapes, and intensive camps went into a dream that stalled for her whole adolescence. Then a Sharpie goatee and a fever did what all of it couldn't. For a Type 7, the reframe is clean: "the scenic route got me there."
 
 The realest thing about Ashby Florence is the contradiction she can't quite see: a woman who describes herself as insecure, who says her favorite character to play is "myself," who trained her entire life to perform — and broke through the moment she stopped performing and just played. She's still learning the one role nobody else can understudy.
 

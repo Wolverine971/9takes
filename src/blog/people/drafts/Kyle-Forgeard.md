@@ -46,7 +46,7 @@ faqs:
   - question: 'Why is Kyle Forgeard typed as an Enneagram Type 7?'
     answer: 'Kyle shows the classic Type 7 pattern of using stimulation to outrun pain. He dropped out of Ryerson because the structure was slower than he was, drove 36 hours to LA on fumes at 20, turned arrests into content, launched an NFT before he had an operating plan for it, and partied his liver to 2/10 before agreeing to slow down. The "Full Send" philosophy is the Seven appetite given a brand name. His move toward Type 1 discipline after the health crisis (two-a-day training, public bloodwork, a 101-mile ultramarathon) is the Seven''s textbook integration path. The 8 wing shows up in his refusal to depend on any platform he doesn''t own.'
     anchor: 'why-is-kyle-forgeard-typed-as-an-enneagram-type-7'
-twitter: 'https://twitter.com/kaborForgeard'
+twitter: 'https://twitter.com/KyleForgeard'
 instagram: 'https://instagram.com/kyle'
 tiktok: 'https://tiktok.com/@kyleforgeard'
 path: src/blog/people/drafts/Kyle-Forgeard.md

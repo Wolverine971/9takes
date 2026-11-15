@@ -78,9 +78,9 @@ faqs:
   - question: 'Why is Pokimane typed as an Enneagram Type 6?'
     answer: 'Every defining choice in her career maps to the Loyalist pattern: trust-testing institutions before committing, walking away from $3M to $10M offers that compromise security, capping donations to neutralize parasocial leverage, and writing 11-page receipts documents when allies turn. The counterphobic edge (running toward threats rather than away) and the safety-net architecture (OfflineTV, RTS, the snack company, the podcast) confirm a 6w7 with self-preservation dominance.'
     anchor: 'why-is-pokimane-typed-as-an-enneagram-type-6'
-twitter: 'pokaborat'
-instagram: 'pokimane'
-tiktok: 'pokimane'
+twitter: 'pokimanelol'
+instagram: 'imane'
+tiktok: 'poki'
 path: src/blog/people/drafts/Pokimane.md
 content_quality:
   hook: 9
