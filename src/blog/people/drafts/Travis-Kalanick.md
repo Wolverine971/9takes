@@ -1,6 +1,6 @@
 ---
 title: "Travis Kalanick: An Enneagram Type 8 Analysis of Tech's Most Polarizing Founder"
-meta_title: 'Why Travis Kalanick Destroyed the Thing He Built (The Pattern No One Sees)'
+meta_title: "Travis Kalanick: The Drive That Built and Divided Uber"
 persona_title: "Tech's Armored Disruptor"
 description: 'Travis Kalanick built Uber into a $70B empire then lost it all. The Enneagram reveals the pattern behind his rise, his fall, and his silent comeback.'
 author: 'DJ Wayne'

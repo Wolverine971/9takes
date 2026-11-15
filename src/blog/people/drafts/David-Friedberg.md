@@ -1,6 +1,6 @@
 ---
 title: 'David Friedberg: The Mind That Follows Data Past Its Own Heart'
-meta_title: "Why David Friedberg Sold His Climate Company to 'The Most Evil Company in the World'"
+meta_title: "David Friedberg: Why He Sold His Climate Company to Monsanto"
 persona_title: "Silicon Valley's Quiet Systems Builder"
 description: "David Friedberg's father called Monsanto evil. His son sold them a billion-dollar company anyway. Inside the mind of the All-In podcast's Sultan of Science."
 author: 'DJ Wayne'

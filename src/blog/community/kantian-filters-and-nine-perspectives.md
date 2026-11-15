@@ -1,5 +1,6 @@
 ---
 title: 'Kant Said Reality Is Filtered. The Enneagram Shows the Other 8 Filters.'
+meta_title: 'Kant, the Enneagram, and Nine Ways to See the World'
 description: 'A viral lecture on evil, power, and philosophy accidentally made the best case for why perspective-taking matters more than ever.'
 author: 'DJ Wayne'
 date: '2026-03-04'
@@ -61,6 +62,8 @@ Ask 9 personality types "how do you handle conflict at work?" and you don't get 
 - A Type 2 (shame/feeling) says: "I check in with both sides privately. People can't hear solutions when they feel unheard."
 
 Same question. Three completely different phenomenal worlds. Kant would recognize what's happening here instantly.
+
+Try it with a real moment: [What did someone say to you that you still can't decide how to read?](/questions/what-did-someone-say-to-you-that-you-still-can) Share your first interpretation, then compare the other perspectives.
 
 ## The Lecture Explains Why Evil Wins. 9takes Asks a Different Question.
 

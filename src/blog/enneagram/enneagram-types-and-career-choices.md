@@ -430,6 +430,8 @@ Pick the question that catches your attention and answer it with something from 
 
 Take that answer to your manager and ask for a specific change. Agree on when to check how it went. You will have something more useful to judge than another job title.
 
+If you are still unsure what you value in work, start with the people you admire: [Who do you look up to, and why?](/questions/who-do-you-look-up-to-and-why) Naming what you respect in someone else can help you describe what you want from your own career.
+
 For more, read [how each Enneagram type works in a team](/enneagram-corner/enneagram-types-working-in-teams).
 
 ## Frequently asked questions

@@ -1,6 +1,6 @@
 ---
 title: "Tim Robinson: The Anxious Mind Behind Comedy's Most Committed Characters"
-meta_title: "Why Tim Robinson Can't Stop Doubling Down (The Psychology Behind the Cringe)"
+meta_title: "Tim Robinson: The Psychology Behind the Cringe"
 persona_title: "Comedy's Cringe Cartographer"
 description: 'Tim Robinson second-guesses every interaction. His characters never second-guess anything. That gap is where the comedy lives.'
 author: 'DJ Wayne'

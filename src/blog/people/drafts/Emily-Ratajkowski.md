@@ -1,6 +1,6 @@
 ---
 title: 'Emily Ratajkowski: The Unapologetic Type 8 Who Writes Her Own Rules'
-meta_title: 'Why Emily Ratajkowski Is So Confrontational (Her Enneagram Explains It)'
+meta_title: "Emily Ratajkowski: The Personality Behind the Confrontation"
 persona_title: 'The Intellectual Provocateur'
 description: 'Inside EmRata''s Type 8 mind: from art-world childhood to confronting power. Why she''s "aggressive" toward powerful men.'
 author: 'DJ Wayne'

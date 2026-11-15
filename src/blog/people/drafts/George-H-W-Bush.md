@@ -1,7 +1,7 @@
 ---
 title: 'George H.W. Bush: The Loyalist Who Built Coalitions and Served His Country'
 persona_title: "America's Steady Coalition Builder"
-meta_title: "Why George H.W. Bush Couldn't Stop Building Alliances (Type 6 Psychology)"
+meta_title: "George H.W. Bush: Type 6 Loyalty and Building Alliances"
 description: "Discover how George H.W. Bush's Type 6 personality shaped his WWII heroism, CIA leadership, and the coalition-building that defined his presidency."
 author: 'DJ Wayne'
 date: '2023-03-09'

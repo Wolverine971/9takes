@@ -1,7 +1,7 @@
 ---
 title: "Why Pokimane Can't Stop Building Safety Nets"
 persona_title: "Streaming's Fortress Builder"
-meta_title: "Why Pokimane Can't Stop Building Safety Nets (The Pattern Behind Her Empire)"
+meta_title: "Why Pokimane Can't Stop Building Safety Nets"
 description: "She punched a kid at four and cried on a livestream at twenty-four. Inside Pokimane's personality: she doesn't fear enemies — she fears allies who turn."
 author: 'DJ Wayne'
 date: '2025-06-25'

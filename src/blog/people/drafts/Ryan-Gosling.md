@@ -1,6 +1,6 @@
 ---
 title: "Ryan Gosling's Personality Type: The Quiet Man Who Became Everyone's Projection"
-meta_title: "Why Ryan Gosling Keeps Disappearing Into Other People (It's Not Acting)"
+meta_title: "Why Ryan Gosling Keeps Disappearing Into Other People"
 persona_title: 'The Movie Star Everyone Projects Onto'
 description: "Inside Ryan Gosling's psychology: how a bullied kid who couldn't read became the blank screen the internet projected its fantasies onto."
 author: 'DJ Wayne'

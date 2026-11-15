@@ -1,5 +1,6 @@
 ---
 title: "Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety Pattern)"
+meta_title: 'Enneagram and Anxiety: Patterns Across All 9 Types'
 description: "Think anxiety is just a Type 6 thing? Wrong. Every Enneagram type has a unique anxiety pattern that sabotages them differently. Discover your type's hidden anxiety triggers and the exact coping strategies that actually work for your personality."
 author: 'DJ Wayne'
 date: '2025-08-25'

@@ -1,6 +1,6 @@
 ---
 title: 'Natalie Portman: The Armor She Built at Thirteen'
-meta_title: 'Why Natalie Portman Built a Fortress of Seriousness (And What It Cost Her)'
+meta_title: "Why Natalie Portman Built a Fortress of Seriousness"
 persona_title: "Hollywood's Self-Made Shield"
 description: "A 13-year-old built an intellectual fortress because seriousness was the only thing that kept her safe. The armor worked. Until it didn't."
 author: 'DJ Wayne'

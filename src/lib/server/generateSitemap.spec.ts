@@ -129,6 +129,40 @@ describe('buildStaticPages', () => {
 			pages.find((page) => page.loc === 'https://9takes.com/questions/categories')
 		).toBeUndefined();
 	});
+
+	it('includes posting and privacy with its own content date', async () => {
+		const { buildStaticPages } = await loadModuleWithGitDates({
+			'src/routes/posting-and-privacy/+page.svelte': '2026-11-01'
+		});
+		const pages = buildStaticPages({ posts: [], peoplePosts: [], questions: [] });
+		expect(pages.find((page) => page.loc === 'https://9takes.com/posting-and-privacy')).toEqual({
+			loc: 'https://9takes.com/posting-and-privacy',
+			lastmod: '2026-11-01'
+		});
+	});
+});
+
+describe('getQuestions', () => {
+	it('includes uncategorized public questions and excludes moderated questions', async () => {
+		const { getQuestions } = await loadModuleWithGitDates({});
+		const rows = [
+			{ id: 1, tagged: true, flagged: false, removed: false },
+			{ id: 572, tagged: false, flagged: false, removed: false },
+			{ id: 3, tagged: true, flagged: true, removed: false },
+			{ id: 4, tagged: true, flagged: false, removed: true }
+		];
+		let selected = [...rows];
+		const query = {
+			select: () => query,
+			eq: (field: keyof (typeof rows)[number], value: unknown) => {
+				selected = selected.filter((row) => row[field] === value);
+				return query;
+			},
+			order: async () => ({ data: selected, error: null })
+		};
+		const db = { from: () => query } as unknown as Parameters<typeof getQuestions>[0];
+		expect((await getQuestions(db)).map((question) => question.id)).toEqual([1, 572]);
+	});
 });
 
 describe('buildQuestionCategoryEntries', () => {

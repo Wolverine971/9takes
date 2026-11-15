@@ -1,6 +1,6 @@
 ---
 title: 'John Lennon: The Wound Behind the Anthem'
-meta_title: "The Real John Lennon: Why the Peace Prophet Couldn't Stop the War Inside"
+meta_title: "John Lennon: The Conflict Behind the Peace Advocate"
 persona_title: "Rock's Wounded Prophet"
 description: "John Lennon sang peace to the world but couldn't find it himself. Inside the abandonment wound that made him a genius and a ghost."
 author: 'DJ Wayne'

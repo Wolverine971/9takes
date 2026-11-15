@@ -272,7 +272,9 @@
 					<p class="empty-state-body">
 						No questions in this category yet. Try a subcategory above, or be the first to ask one.
 					</p>
-					<Button size="md" variant="primary" href="/questions/create">Ask a question →</Button>
+					<Button size="md" variant="primary" href={data.user ? '/questions/create' : '/login'}>
+						{data.user ? 'Ask a question →' : 'Sign in to ask a question →'}
+					</Button>
 				</div>
 			{:else}
 				<ul class="question-list">

@@ -1,6 +1,6 @@
 ---
 title: "Ronald Reagan: The Type 9 Who Was Everyone's Friend and Nobody's"
-meta_title: "Inside Ronald Reagan's Mind: The Calm Psychology Behind The Great Communicator"
+meta_title: "Ronald Reagan: The Psychology of the Great Communicator"
 description: "He joked with surgeons while a bullet sat near his heart. Inside Ronald Reagan's personality: an unshakable calm even his own children couldn't reach."
 persona_title: "America's Smiling Sphinx"
 author: 'DJ Wayne'

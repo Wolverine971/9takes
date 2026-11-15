@@ -56,6 +56,9 @@
 	// ------------------------------------------------------------------
 	// SEO + structured-data — preserved verbatim from the previous page.
 	// ------------------------------------------------------------------
+	const pageTitle = 'Enneagram Community Q&A: Nine Perspectives | 9takes';
+	const pageDescription =
+		'Answer before the crowd in an anonymous Enneagram Q&A. Share your take to reveal how all nine personality types see the same question.';
 	const questionsFaqs = [
 		{
 			question: 'How can I ask questions anonymously on 9takes?',
@@ -80,9 +83,8 @@
 			{
 				'@type': 'CollectionPage',
 				'@id': 'https://9takes.com/questions#webpage',
-				name: 'Ask Questions Anonymously & Get Answers | 9takes',
-				description:
-					"Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types.",
+				name: pageTitle,
+				description: pageDescription,
 				url: 'https://9takes.com/questions',
 				inLanguage: 'en-US',
 				isPartOf: {
@@ -259,8 +261,8 @@
 </script>
 
 <SEOHead
-	title="Enneagram Community Q&A: One Question, Nine Perspectives | 9takes"
-	description="An anonymous Enneagram community Q&A. Answer before the crowd: other answers stay hidden until you post yours, then see how all nine types read the same question."
+	title={pageTitle}
+	description={pageDescription}
 	canonical="https://9takes.com/questions"
 	twitterCardType="summary_large_image"
 	ogImage={ogImageUrl('questions')}

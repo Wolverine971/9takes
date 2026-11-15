@@ -1,6 +1,6 @@
 ---
 title: 'Jeff Bezos: The Challenger Who Built Tomorrow'
-meta_title: 'Why Jeff Bezos Stays Silent When It Matters Most (His Personality Explained)'
+meta_title: "Jeff Bezos: The Personality Behind His Strategic Silence"
 description: 'What drives Jeff Bezos to build 10,000-year clocks and stay silent during FBI raids? Discover how his Type 8 personality shapes his $266B empire.'
 persona_title: 'The Challenger Who Thinks in Centuries'
 author: 'DJ Wayne'

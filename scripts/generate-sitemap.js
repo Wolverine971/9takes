@@ -98,6 +98,7 @@ const ROUTE_FILES = {
 		'src/routes/blog/+layout.svelte'
 	],
 	about: ['src/routes/about/+page.svelte', 'src/routes/about/+page.server.ts'],
+	postingAndPrivacy: ['src/routes/posting-and-privacy/+page.svelte'],
 	manifesto: [
 		'src/routes/manifesto/+page.svelte',
 		'src/routes/manifesto/+page.server.ts',
@@ -472,6 +473,13 @@ export function buildStaticPages({ posts, peoplePosts, questions }) {
 			loc: `${SITE_URL}/about`,
 			lastmod: resolveStaticLastmod({
 				routePaths: ROUTE_FILES.about,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/posting-and-privacy`,
+			lastmod: resolveStaticLastmod({
+				routePaths: ROUTE_FILES.postingAndPrivacy,
 				siteFallbackLastmod
 			})
 		},
@@ -883,14 +891,14 @@ async function getAllPosts() {
 /**
  * @returns {Promise<QuestionRow[]>}
  */
-async function getQuestions() {
-	const supabase = getSupabase();
+export async function getQuestions(supabase = getSupabase()) {
 	const { data, error } = await supabase
 		.from('questions')
 		.select('id, url, updated_at, created_at')
 		.eq('flagged', false)
 		.eq('removed', false)
-		.eq('tagged', true)
+		// Categorization is asynchronous; an active public question is indexable
+		// before it has category tags. Keep moderation filters, not the tag gate.
 		.order('updated_at');
 
 	if (error) {

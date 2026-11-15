@@ -1,6 +1,6 @@
 ---
 title: 'Satya Nadella: The Fortress That Learned to Feel'
-meta_title: "Inside Satya Nadella's Mind: The Obsession Behind Microsoft's $3 Trillion Revival"
+meta_title: "Satya Nadella: The Mind Behind Microsoft's Revival"
 persona_title: "Microsoft's Silent Architect"
 description: "How Satya Nadella's quiet intellect and hard-won empathy transformed Microsoft from a stagnant giant into the world's most valuable company."
 author: 'DJ Wayne'

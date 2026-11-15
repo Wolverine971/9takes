@@ -1,6 +1,6 @@
 ---
 title: 'Julius Caesar: The Man Who Conquered His Way Out of Debt and Into Eternity'
-meta_title: "Why Julius Caesar Couldn't Stop (The Psychology Behind History's Most Ambitious Man)"
+meta_title: "Julius Caesar: The Psychology of Relentless Ambition"
 persona_title: "History's Relentless Conqueror"
 description: "Explore Julius Caesar's psychology through the Enneagram. From crushing debt to divine honors, discover the pattern behind history's most ambitious man."
 author: 'DJ Wayne'

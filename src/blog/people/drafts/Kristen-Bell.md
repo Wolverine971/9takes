@@ -1,6 +1,6 @@
 ---
 title: 'Kristen Bell: The Helper Who Built a Remedy Box'
-meta_title: "Inside Kristen Bell's Anxiety Map and the Psychology Nobody Talks About"
+meta_title: "Kristen Bell: Anxiety, Empathy, and Her Personality"
 description: 'How Kristen Bell turned panic attacks and codependency into remedy boxes and radical boundary-setting. A Type 2 personality decoded.'
 persona_title: "Hollywood's Remedy-Box Helper"
 author: 'DJ Wayne'

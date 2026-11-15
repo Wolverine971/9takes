@@ -1,6 +1,6 @@
 ---
 title: 'Millie Bobby Brown: The Girl Who Was Always Too Much of What She Is'
-meta_title: "Why Millie Bobby Brown Can't Stop Giving (Even When It Costs Her Everything)"
+meta_title: "Millie Bobby Brown: The Cost of Always Giving"
 persona_title: "Hollywood's Youngest Rescuer"
 description: "At ten, too mature. At twenty-one, aging too fast. Millie Bobby Brown is always too much of what she naturally is — and she can't stop giving anyway."
 author: 'DJ Wayne'

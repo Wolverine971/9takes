@@ -1,6 +1,6 @@
 ---
 title: "Dwayne 'The Rock' Johnson: The Performance That Became a Person"
-meta_title: "The Real Dwayne Johnson: What The Rock's Personality Reveals About His Deepest Fear"
+meta_title: "Dwayne Johnson: The Personality Behind The Rock"
 persona_title: "Hollywood's Armored Shapeshifter"
 description: 'Inside the psychology of Dwayne Johnson, from stolen Snickers bars to a Golden Globe nomination. The performance was always the point.'
 author: 'DJ Wayne'

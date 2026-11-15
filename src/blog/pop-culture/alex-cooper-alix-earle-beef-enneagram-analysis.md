@@ -1,6 +1,6 @@
 ---
 title: 'Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline Always Explodes'
-meta_title: 'Alex Cooper and Alix Earle Beef Explained Through Personality Psychology'
+meta_title: 'Alex Cooper and Alix Earle: The Psychology of Their Rift'
 description: "A Type 7 who can't stop moving forward. A Type 9 who learned to leave the room. The Unwell Network breakup isn't drama — it's what happens when an Enthusiast tries to build an empire on a Peacemaker who never wanted to fight."
 author: 'DJ Wayne'
 date: '2026-05-13'

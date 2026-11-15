@@ -1,6 +1,6 @@
 ---
 title: "Dr. Phil McGraw: The Psychology Behind America's Most Confrontational Therapist"
-meta_title: 'Why Dr. Phil Had to Control Everyone (The Childhood That Explains Everything)'
+meta_title: "Dr. Phil: The Personality Behind His Need for Control"
 persona_title: "Television's Tough-Love Patriarch"
 description: "Inside Dr. Phil's Enneagram Type 8 personality—from sleeping in cardboard boxes to building a $400M empire on confrontation."
 author: 'DJ Wayne'

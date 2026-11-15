@@ -1,6 +1,6 @@
 ---
 title: 'Nancy Pelosi: The Enneagram Type 3 Who Kept the Favor File'
-meta_title: "Nancy Pelosi's Hidden Psychology: The Shy Girl Who Became America's Most Feared Politician"
+meta_title: "Nancy Pelosi: From Shyness to Political Power"
 persona_title: "Politics' Velvet Sledgehammer"
 description: "Inside the psychology of Nancy Pelosi — from her Baltimore favor file to the Speaker's gavel. The shy girl who became America's most effective power broker."
 author: 'DJ Wayne'

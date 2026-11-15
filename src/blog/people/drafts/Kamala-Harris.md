@@ -1,6 +1,6 @@
 ---
 title: "Kamala Harris: The Prosecutor Who Wouldn't Bend and the Politician Who Couldn't Stop"
-meta_title: "Why Kamala Harris Can't Stop Performing (Even When It Costs Her Everything)"
+meta_title: "Kamala Harris: The Tension Between Performance and Identity"
 persona_title: "Politics' Relentless Reinventor"
 description: "The prosecutor who wouldn't bend became the politician who couldn't stop adapting. Inside Kamala Harris's Type 3 personality."
 author: 'DJ Wayne'

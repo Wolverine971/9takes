@@ -1,6 +1,6 @@
 ---
 title: 'Kourtney Kardashian: The Eldest Daughter Who Built a Fortress and Then Burned It Down'
-meta_title: 'Why Kourtney Kardashian Quit Everything (Her Enneagram Reveals the Pattern)'
+meta_title: "Kourtney Kardashian: The Personality Behind Her Boundaries"
 persona_title: "Reality's Reluctant Reformer"
 description: "How Kourtney Kardashian's Type 1 psychology explains her wellness obsession, family wars, and the IVF decision that broke her own rules."
 author: 'DJ Wayne'

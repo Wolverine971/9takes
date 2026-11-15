@@ -130,7 +130,9 @@
 			</p>
 			<div class="hero-ctas">
 				<Button size="md" variant="primary" href="/questions">Browse open questions →</Button>
-				<Button size="md" variant="ghost" href="/questions/create">Ask a question</Button>
+				<Button size="md" variant="ghost" href={data.user ? '/questions/create' : '/login'}>
+					{data.user ? 'Ask a question' : 'Sign in to ask a question'}
+				</Button>
 			</div>
 		</div>
 	</section>

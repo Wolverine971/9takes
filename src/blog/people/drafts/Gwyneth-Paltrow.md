@@ -1,7 +1,7 @@
 ---
 title: 'Gwyneth Paltrow: The Perfectionist Who Built an Empire on Doing Things Right'
 persona_title: "Wellness's Relentless Reformer"
-meta_title: "Inside Gwyneth Paltrow's Relentless Drive to Fix Everything (Including You)"
+meta_title: "Gwyneth Paltrow: The Relentless Drive to Fix Everything"
 description: "She calls her suppressed rage the 'evil shadow.' Gwyneth Paltrow built Goop, conscious uncoupling, and a wellness empire from one compulsion: be good, or be nothing."
 author: 'DJ Wayne'
 date: '2025-12-04'

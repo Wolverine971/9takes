@@ -1,7 +1,7 @@
 ---
 title: "Tim Dillon: Why He Says What Everyone's Afraid to Think"
 persona_title: "Comedy's Panic Prophet"
-meta_title: "Tim Dillon's Psychology Decoded: The Pattern Behind His Fearless Comedy"
+meta_title: "Tim Dillon: The Psychology Behind His Fearless Comedy"
 description: "From closeted cocaine addict to comedy's sharpest critic. Decode how Tim Dillon's Type 7 psychology turns chaos into comedy gold."
 author: 'DJ Wayne'
 date: '2026-01-07'

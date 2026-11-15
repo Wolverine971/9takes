@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-11-14",
+	"generatedAt": "2026-11-15",
 	"gsc": {
 		"runDate": "2026-11-10",
 		"window": {
@@ -13,7 +13,7 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 265,
+		"candidates": 266,
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 17,
@@ -447,7 +447,7 @@
 				"impressions": 1560,
 				"outCount": 9
 			},
-			"line": 159,
+			"line": 160,
 			"anchor": "disorder",
 			"phrase": "disorders",
 			"phraseKind": "gsc",

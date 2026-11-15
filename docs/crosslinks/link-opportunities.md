@@ -1,7 +1,7 @@
 # Link Opportunities
 
-_Generated: 2026-11-14 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-08-10 → 2026-11-08. 144 candidate links found (+121 weaker ones offered only for gate debt); 329 suppressed in `docs/crosslinks/skipped.json`._
+_Generated: 2026-11-15 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Search data: GSC 2026-08-10 → 2026-11-08. 146 candidate links found (+120 weaker ones offered only for gate debt); 329 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -30,7 +30,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 1.6 | `/enneagram-corner/astrology-and-the-enneagram` (L91) | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` | "next thing" | …ou're a [Type 7](/enneagram-corner/enneagram-type-7). If freedom means nobody tells you what to do, look at [Type 8](/enneagram-corner/enn… |
 | 1.57 | `/enneagram-corner/mental-health/enneagram-parenting-mental-health` (L358) | `/enneagram-corner/enneagram-and-adhd-which-types-struggle-most` | "ADHD" | - Signs of ADHD that interfere with functioning |
 | 1.56 | `/enneagram-corner/enneagram-dating-guide-for-men` (L72) | `/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types` | "apps" | > **Dating mostly on apps?** This guide's companion is built for that. The [Online Dating Companion Guide](/enneagram-corner/enneagram-onli… |
-| 1.49 | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` (L159) | `/enneagram-corner/enneagram-and-mental-illness` | "disorder" | …for meaning in them) has the strongest association with anxiety across multiple disorder categories (Aldao et al., 2010). Neuroimaging res… |
+| 1.49 | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` (L160) | `/enneagram-corner/enneagram-and-mental-illness` | "disorder" | …for meaning in them) has the strongest association with anxiety across multiple disorder categories (Aldao et al., 2010). Neuroimaging res… |
 | 1.47 | `/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist` (L401) | `/enneagram-corner/mental-health/enneagram-science-mental-health` | "Hook" | - Hook, J. N., Hall, T. W., Davis, D. E., Van Tongeren, D. R., & Conner, M. (2021). [The Enneagram: A systematic review of the literature a… |
 | 1.34 | `/enneagram-corner/enneagram-influences` (L30) | `/enneagram-corner/enneagram-and-religion` | "spiritual" | …system emerged from the collision of Sufi mysticism, Greek philosophy, Armenian spiritual teachers, Chilean psychiatrists, and American ps… |
 | 1.34 | `/pop-culture/podcaster-personality-map` (L144) | `/pop-culture/comedy-kings-enneagram-analysis` | "Theo Von" | **Theo Von** channels his Type 7 energy into absurdist storytelling that can turn a painful memory into a Southern Gothic riff. The joke ra… |

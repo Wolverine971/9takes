@@ -1,6 +1,6 @@
 ---
 title: 'Chris Williamson: The Self-Improvement Host Still Searching for the Self'
-meta_title: "Why Chris Williamson Can't Stop Optimizing His Life (The Pattern Behind It)"
+meta_title: "Why Chris Williamson Can't Stop Optimizing His Life"
 persona_title: "Podcasting's Relentless Optimizer"
 description: 'As a kid, Chris Williamson studied which shoulder classmates carried their bags on. That same psychology now runs 900+ podcast episodes — and himself.'
 author: 'DJ Wayne'

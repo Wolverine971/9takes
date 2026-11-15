@@ -1,6 +1,6 @@
 ---
 title: 'Trisha Paytas: The Most Public Search for a Self'
-meta_title: "Why Trisha Paytas Can't Stop Reinventing Herself (It's Not What You Think)"
+meta_title: "Why Trisha Paytas Can't Stop Reinventing Herself"
 persona_title: "Internet's Unfinished Portrait"
 description: 'Inside Trisha Paytas and her identity crisis that became an empire. An Enneagram Type 4 analysis of the most exposed woman online.'
 author: 'DJ Wayne'

@@ -1,6 +1,6 @@
 ---
 title: "Halsey: The Psychology of Pop Music's Most Defiant Survivor"
-meta_title: "Why Halsey Can't Stop Fighting — Even When Her Own Body Turns Against Her"
+meta_title: "Halsey: The Drive to Fight for Herself"
 persona_title: "Pop's Armored Heart"
 description: "How childhood chaos, homelessness, and chronic illness forged Halsey into music's fiercest protector — and why surrender became her hardest battle."
 author: 'DJ Wayne'

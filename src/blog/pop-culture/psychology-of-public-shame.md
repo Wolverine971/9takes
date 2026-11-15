@@ -1,6 +1,6 @@
 ---
 title: 'The Anatomy of Public Shame: What We''re Actually Doing When We "Cancel" Strangers'
-meta_title: 'The Psychology of Public Shame: How Modern Cancel Rituals Actually Work'
+meta_title: 'The Psychology of Public Shame and Cancel Culture'
 description: "Public shame is older than the internet. The substrate changed, the mechanism didn''t. Five psychological forces — parasocial mourning, splitting, identity laundering, the permanent archive, and outsourced moral attention — explain why we cancel strangers, why the rituals never produce justice, and what growing past them actually requires."
 author: 'DJ Wayne'
 date: '2026-05-14'

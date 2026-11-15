@@ -1,6 +1,6 @@
 ---
 title: "David Sacks: The Counter-Phobic Loyalist Behind Silicon Valley's Sharpest Mind"
-meta_title: "Why David Sacks Can't Stop Scanning for Threats (It Explains Everything)"
+meta_title: "Why David Sacks Can't Stop Scanning for Threats"
 persona_title: "Silicon Valley's Vigilant Architect"
 description: "The All-In podcast's 'Rain Man' isn't cold — he's afraid. How Enneagram Type 6 explains David Sacks's frameworks, feuds, and fierce loyalties."
 author: 'DJ Wayne'

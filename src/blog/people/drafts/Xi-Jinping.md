@@ -1,6 +1,6 @@
 ---
 title: "Xi Jinping: The Sent-Down Youth Who Became China's Supreme Leader"
-meta_title: "Inside Xi Jinping's Mind: How Trauma Forged the World's Most Powerful Autocrat"
+meta_title: "Xi Jinping: The Personality Behind His Pursuit of Control"
 description: 'Why does Xi Jinping consolidate power so ruthlessly? His Type 8 psychology reveals how Cultural Revolution trauma created a leader who will never be powerless again.'
 author: 'DJ Wayne'
 date: '2025-06-25'

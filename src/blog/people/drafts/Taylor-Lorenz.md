@@ -1,6 +1,6 @@
 ---
 title: 'Taylor Lorenz: The Enneagram Type 6 Who Burned Down Every Institution She Tried to Trust'
-meta_title: "Why Taylor Lorenz Can't Stop Testing the System (The Psychology No One Talks About)"
+meta_title: "Why Taylor Lorenz Can't Stop Testing the System"
 persona_title: "Media's Counterphobic Alarm System"
 description: "Taylor Lorenz isn't a restless thrill-seeker — she's a counterphobic Type 6 who runs on fear, and her career is an ongoing test of who she can trust."
 author: 'DJ Wayne'

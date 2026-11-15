@@ -1,6 +1,6 @@
 ---
 title: "Kanye West: The Mind That Can't Stop Building Worlds"
-meta_title: 'Why Kanye West Destroys Everything He Creates (The Psychology No One Talks About)'
+meta_title: "Kanye West: Creation, Destruction, and the Need to Be Seen"
 persona_title: "Genius's Restless Architect"
 description: "Inside Kanye's mind: how a near-fatal car crash created an engine that turns pain into art, and why that engine can't be turned off."
 author: 'DJ Wayne'

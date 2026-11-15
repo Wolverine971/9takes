@@ -18,7 +18,7 @@
 	const pageUrl = `${siteUrl}/enneagram-test`;
 	const pageTitle = 'Free Enneagram Test (No Email, 5 to 10 Minutes) | 9takes';
 	const pageDescription =
-		'A free Enneagram test that starts with emotion, not behavior. About 5 to 10 minutes, no email, and your result shows on screen. Then ask someone who knows you to check it.';
+		'Find your Enneagram type with a free, emotion-first test. Takes 5 to 10 minutes, no email needed. See your result, then invite a friend to check it.';
 
 	const faqs = [
 		{

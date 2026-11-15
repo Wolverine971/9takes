@@ -1,5 +1,6 @@
 ---
 title: "The Enneagram and Mental Illness: Understand Each Type's Predispositions"
+meta_title: 'Enneagram and Mental Illness: Patterns and Limits'
 description: "Explore each Enneagram type's mental health risks and shadow side in this guide on personality predispositions and coping mechanisms."
 author: 'DJ Wayne'
 date: '2023-12-08'

@@ -1,6 +1,6 @@
 ---
 title: 'The Disruptors: Why Type 8s Break Industries and Type 5s Decode Them'
-meta_title: 'Elon Musk, Jeff Bezos, Travis Kalanick & Reed Hastings Enneagram Types Compared'
+meta_title: 'Musk, Bezos, Kalanick & Hastings: Enneagram Types Compared'
 description: 'Three Type 8s and a Type 5 who destroyed entire industries. The 8s did it through force. The 5 did it through first principles. One of them got ousted. The personality type explains which one.'
 author: 'DJ Wayne'
 date: '2026-03-21'

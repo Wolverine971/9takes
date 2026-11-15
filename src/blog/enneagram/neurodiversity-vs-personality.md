@@ -1,5 +1,6 @@
 ---
 title: 'Neurodiversity vs. Personality: Stop Looking for Labels, Start Looking Inward'
+meta_title: 'Neurodiversity vs. Personality: Beyond the Labels'
 description: 'Half of Gen Z has self-diagnosed from social media. How to tell a clinical condition from a personality pattern, and why the Enneagram maps what a label cannot.'
 author: 'DJ Wayne'
 date: '2025-05-22'

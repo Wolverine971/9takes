@@ -1,6 +1,6 @@
 ---
 title: 'Zoë Kravitz: The Coolest Armor in Hollywood and the Anxious Theater Kid Underneath'
-meta_title: "Why Zoë Kravitz's 'Cool Girl' Image Hides Something Much More Interesting"
+meta_title: "Zoë Kravitz: The Personality Behind the Cool Girl Image"
 persona_title: "Hollywood's Beautiful Decoy"
 description: 'Inside the psychology of Zoë Kravitz — how a child who belonged nowhere built the coolest exterior in Hollywood to survive.'
 author: 'DJ Wayne'

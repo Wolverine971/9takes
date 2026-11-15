@@ -1,6 +1,6 @@
 ---
 title: 'Emma Stone: An Enneagram Type 7 Analysis'
-meta_title: "Inside Emma Stone's Mind: Why Anxiety Made Her Hollywood's Best Actress"
+meta_title: "Emma Stone: How Anxiety Shaped Her Acting"
 persona_title: "Hollywood's Restless Alchemist"
 description: 'How Emma Stone turned crippling childhood anxiety into two Oscars, and why becoming other people is the only thing that quiets her mind.'
 author: 'DJ Wayne'

@@ -1,6 +1,6 @@
 ---
 title: 'Malcolm Gladwell: The Observer Who Explained the World'
-meta_title: "The Man Who Decoded Misperception for Millions Can't Ask a Stranger for Help"
+meta_title: "Malcolm Gladwell: Understanding Others, Struggling to Ask"
 persona_title: "Ideas' Silent Architect"
 description: "Inside the Type 5 mind that explains misperception to millions while keeping the world at maximum distance. Malcolm Gladwell's Enneagram analysis."
 author: 'DJ Wayne'

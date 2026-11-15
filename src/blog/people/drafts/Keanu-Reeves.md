@@ -1,6 +1,6 @@
 ---
 title: 'Keanu Reeves: The Enneagram Type 9 Who Disappeared Into Immortality'
-meta_title: "Why Keanu Reeves Can't Stop Giving Himself Away (The Psychology No One Talks About)"
+meta_title: "Why Keanu Reeves Can't Stop Giving Himself Away"
 persona_title: "Hollywood's Gentle Vanishing Act"
 description: 'Inside the psychology of Keanu Reeves: how a lifetime of loss, self-erasure, and quiet generosity created the most beloved man in Hollywood.'
 author: 'DJ Wayne'

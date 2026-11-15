@@ -1,6 +1,6 @@
 ---
 title: "Jared Leto: The Man Who Can't Stop Disappearing"
-meta_title: "Inside Jared Leto's Mind: The Boy Who Lost His Father and Never Stopped Becoming Someone Else"
+meta_title: "Jared Leto: The Drive to Keep Becoming Someone Else"
 description: "Jared Leto lost his father at 8 and never stopped trying on new identities. Oscar roles, platinum records, tech bets — the personality he can't play is his own."
 persona_title: 'The Man With No Default Setting'
 author: 'DJ Wayne'

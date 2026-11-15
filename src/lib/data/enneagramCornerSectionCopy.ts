@@ -65,7 +65,7 @@ export const CORNER_SECTION_COPY: Record<string, CornerSectionCopy> = {
 	'nine-types': {
 		title: '9 Types of Human Nature (And How to Read Each One)',
 		titleQuiet: '(And How to Read Each One)',
-		seoTitle: 'The 9 Enneagram Types Explained: Core Fears, Desires & Patterns | 9takes',
+		seoTitle: '9 Enneagram Types: Core Fears, Desires & Patterns | 9takes',
 		description:
 			'Each type operates on a different emotional frequency. Learn the core fears, desires, and blind spots driving behavior, yours and everyone around you.',
 		pic: 'greek-statues-working-in-teams',
@@ -147,7 +147,7 @@ export const CORNER_SECTION_COPY: Record<string, CornerSectionCopy> = {
 	relationships: {
 		title: 'Why They Do That (A Relationship Decoder)',
 		titleQuiet: '(A Relationship Decoder)',
-		seoTitle: 'Enneagram Relationship Guide: Communication, Conflict & Connection | 9takes',
+		seoTitle: 'Enneagram Relationships: Communication & Conflict | 9takes',
 		description:
 			'Stop taking it personally. Their reactions reflect their type, not you. Learn to read relationship dynamics and communicate in ways that actually land.',
 		pic: 'greek-statues-having-an-intimate-conversation',

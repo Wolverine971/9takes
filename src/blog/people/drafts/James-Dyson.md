@@ -1,6 +1,6 @@
 ---
 title: 'James Dyson: The Enneagram Behind 5,127 Failures and One Obsession'
-meta_title: "Why James Dyson Can't Stop Fixing Things (The Psychology Behind the Obsession)"
+meta_title: "Why James Dyson Can't Stop Fixing Things"
 persona_title: "Engineering's Relentless Reformer"
 description: "Inside the mind of James Dyson: how losing his father at 9 created a lifelong compulsion to fix what's broken, told through the Enneagram."
 author: 'DJ Wayne'

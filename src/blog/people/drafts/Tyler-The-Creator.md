@@ -1,6 +1,6 @@
 ---
 title: "Tyler, The Creator: Why He Can't Stop Reinventing Himself"
-meta_title: "Tyler The Creator's Psychology Explained: The Wound That Became His Art"
+meta_title: "Tyler, the Creator: Turning Identity and Pain Into Art"
 description: "Tyler made fake albums at 7 before recording a single note. Decades later, his father wound fuels Grammy-winning reinvention. Here's the pattern driving it all."
 author: 'DJ Wayne'
 date: '2026-03-30'

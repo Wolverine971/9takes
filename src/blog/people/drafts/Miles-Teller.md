@@ -1,6 +1,6 @@
 ---
 title: "Miles Teller's Enneagram Type 3 Personality: The Scars That Tell a Secret"
-meta_title: "Why Miles Teller Can't Stop Performing (Even When It Costs Him Everything)"
+meta_title: "Miles Teller: The Drive to Keep Performing"
 persona_title: "Hollywood's Scarred Charmer"
 description: "He almost died at 20. Then a magazine called him 'a dick' and that hurt worse. Inside Miles Teller's Type 3 personality and the mask he couldn't take off."
 author: 'DJ Wayne'

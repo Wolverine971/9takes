@@ -1,6 +1,6 @@
 ---
 title: 'Morgan Wallen: An Enneagram Type 6 Analysis'
-meta_title: "Why Morgan Wallen Can't Stop Blowing Up His Own Life (The Pattern Nobody Sees)"
+meta_title: "Morgan Wallen: The Pattern Behind Success and Self-Sabotage"
 persona_title: "Nashville's Counterphobic Watchdog"
 description: 'Morgan Wallen assumes the worst in everyone he meets. The Enneagram explains why — and what it costs him.'
 author: 'DJ Wayne'

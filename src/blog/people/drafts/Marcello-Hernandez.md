@@ -1,6 +1,6 @@
 ---
 title: 'Marcello Hernández: The Comedy of a First-Generation Son'
-meta_title: "Why Marcello Hernández Can't Stop Moving (The Psychology Behind the Chaos)"
+meta_title: "Marcello Hernández: The Psychology Behind His Restless Energy"
 persona_title: "SNL's Joyful Parachute"
 description: "Inside Marcello Hernández's psychology: how an immigrant mom's trauma, a COVID depression, and a quit soccer career built comedy's happiest escape artist."
 author: 'DJ Wayne'

@@ -1,6 +1,6 @@
 ---
 title: 'Pedro Pascal: The Most Anxious Man in Every Room He Protects'
-meta_title: "Why Pedro Pascal Can't Stop Protecting Everyone (Even When He's Terrified)"
+meta_title: "Why Pedro Pascal Can't Stop Protecting Everyone"
 persona_title: "Hollywood's Anxious Guardian"
 description: "How Pedro Pascal's lifelong anxiety, fierce loyalty, and protective instinct reveal the psychology behind everyone's favorite father figure."
 author: 'DJ Wayne'

@@ -1,6 +1,6 @@
 ---
 title: "Zara Larsson: The Achiever Who Won't Play the Game"
-meta_title: "Why Zara Larsson Keeps Sabotaging Her Own Success (It's Not What You Think)"
+meta_title: "Zara Larsson: The Tension Between Success and Speaking Up"
 persona_title: "Pop's Unfiltered Achiever"
 description: 'Inside the contradiction driving Zara Larsson: she wants to be number one more than anything but refuses to perform a version of herself that gets her there.'
 author: 'DJ Wayne'

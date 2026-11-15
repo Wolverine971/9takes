@@ -1,6 +1,6 @@
 ---
 title: 'Leonardo da Vinci: The Mind That Could Not Stop'
-meta_title: 'Leonardo da Vinci Enneagram: Why the Type 5 Mind Never Finished Anything'
+meta_title: "Leonardo da Vinci: A Type 5 Mind Full of Unfinished Work"
 persona_title: "History's Insatiable Observer"
 description: 'Leonardo da Vinci understood more than anyone alive. So why did he leave almost everything unfinished? The Enneagram explains the paradox.'
 author: 'DJ Wayne'

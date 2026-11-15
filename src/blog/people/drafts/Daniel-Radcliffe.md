@@ -156,7 +156,7 @@ Most actors in that scenario would have visited, called, sent flowers, kept a po
 
 A Type 6 in his loyalty pattern does not feel like he is being generous when he stays close to someone like Holmes. He feels like he is keeping a debt that no one is checking on. *Of course* he stays. The Six's question — *how do I know if I can trust this* — gets answered, slowly, by watching how he himself behaves in moments that nobody is recording.
 
-There is the same pattern, expressed differently, in his break with [J.K. Rowling](/personality-analysis/j.k.-rowling).
+There is the same pattern, expressed differently, in his break with [J.K. Rowling](/personality-analysis/jk-rowling).
 
 In 2020, when Rowling began posting about gender identity in a way the trans community read as hostile, Radcliffe wrote a statement for [The Trevor Project](https://www.thetrevorproject.org/), where he had been a working volunteer for over a decade. "Transgender women are women. Any statement to the contrary erases the identity and dignity of transgender people." He did not frame it as a personal feud. He framed it as a conflict between two loyalties.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Reed Hastings: The Challenger Who Controls by Letting Go'
-meta_title: "Reed Hastings's Hidden Control System: The Psychology Behind Netflix's 'Freedom'"
+meta_title: "Reed Hastings: Control Behind Netflix's Freedom"
 persona_title: "Entertainment's Unapologetic Disruptor"
 description: "How Reed Hastings turned a fear of bureaucracy into Netflix, a billion-dollar education crusade, and a management philosophy the world can't stop copying"
 author: 'DJ Wayne'

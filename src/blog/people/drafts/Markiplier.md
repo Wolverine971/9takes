@@ -1,6 +1,6 @@
 ---
 title: "Markiplier: The Entertainer Who Can't Stop Making Art About Dying"
-meta_title: 'Why Markiplier Keeps Creating Art About Death (The Pattern No One Talks About)'
+meta_title: "Why Markiplier Keeps Creating Art About Death"
 persona_title: "YouTube's Loudest Mourner"
 description: "Inside Markiplier's psychology: how a shy kid who lost his father at 18 built a $38M empire on maximum volume — then kept making art about endings."
 author: 'DJ Wayne'

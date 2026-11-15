@@ -1,6 +1,6 @@
 ---
 title: "Dave Portnoy: The Enneagram Type 8 Behind Barstool's Empire"
-meta_title: "Inside Dave Portnoy's Mind: The Man Who Can't Stop Fighting for Control"
+meta_title: "Dave Portnoy: The Drive to Fight for Control"
 persona_title: "Media's Unapologetic Brawler"
 description: "Explore how Dave Portnoy's Enneagram Type 8 personality drives his empire, feuds, fierce loyalty, and the contradictions that define him."
 author: 'DJ Wayne'

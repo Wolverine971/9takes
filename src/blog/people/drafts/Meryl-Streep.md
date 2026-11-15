@@ -1,6 +1,6 @@
 ---
 title: "Meryl Streep: The Enneagram Type 2 Who Became Everyone Because She Couldn't Bear Being Herself"
-meta_title: 'Why Meryl Streep Disappears Into Characters (The Psychology No One Talks About)'
+meta_title: "Why Meryl Streep Disappears Into Characters"
 persona_title: "Hollywood's Devoted Shapeshifter"
 description: "Meryl Streep's Type 2 personality explains why the greatest actress alive built her genius on becoming other people."
 author: 'DJ Wayne'

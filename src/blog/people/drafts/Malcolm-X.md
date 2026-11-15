@@ -1,7 +1,7 @@
 ---
 title: 'Malcolm X: The Armor That Could Expand'
 persona_title: "Justice's Incorruptible Fire"
-meta_title: "Malcolm X's Psychology: Why the Most 'Rigid' Leader Kept Changing His Mind"
+meta_title: "Malcolm X: Conviction and the Courage to Change His Mind"
 description: "Everyone remembers Malcolm X's fire. The more remarkable thing was his flexibility. A Type 8 Enneagram analysis of the psychology behind both."
 author: 'DJ Wayne'
 date: '2026-01-17'

@@ -1,24 +1,11 @@
 {
-  "lastUpdated": "2026-11-14T07:41:41Z",
+  "lastUpdated": "2026-11-15T08:08:08Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
     "completionRate": "74.8%"
   },
   "queue": [
-    {
-      "name": "aspyn-ovard",
-      "displayName": "Aspyn Ovard",
-      "type": null,
-      "priority": 85,
-      "priorityReason": "DJ request 2026-11-13 (reader text asking for Bobbi Althoff, Aspyn Ovard and Salomé). Cast of Hulu The Secret Lives of Mormon Wives: Orange County, premiered Nov 12 2026. Wikipedia 371/day in October -> 11,788 on premiere day. Deep first-person record: YouTube since her teens, Girlscamp podcast (Mar 2025), 2024 divorce from Parker Ferris, came out as queer, now in a throuple with Bri and Billy Davis. Baptized LDS, calls her upbringing Mormon-adjacent. Us Weekly reports she discusses a daughter's serious illness on the show: a minor's medical history is not personality evidence, handle with care. Sexuality and relationship structure are not type evidence either. Pairs with the refreshed bobbi-althoff page and taylor-frankie-paul.",
-      "estimatedTraffic": "high",
-      "searchVolume": "high",
-      "personaTitle": null,
-      "addedToQueue": "2026-11-13",
-      "retryCount": 0,
-      "strategicValue": "mormon-wives-oc-cluster"
-    },
     {
       "name": "drew-afualo",
       "displayName": "Drew Afualo",
@@ -88,6 +75,31 @@
     }
   ],
   "completed": [
+    {
+      "name": "aspyn-ovard",
+      "displayName": "Aspyn Ovard",
+      "type": null,
+      "priority": 85,
+      "priorityReason": "DJ request 2026-11-13 (reader text asking for Bobbi Althoff, Aspyn Ovard and Salomé). Cast of Hulu The Secret Lives of Mormon Wives: Orange County, premiered Nov 12 2026. Wikipedia 371/day in October -> 11,788 on premiere day. Deep first-person record: YouTube since her teens, Girlscamp podcast (Mar 2025), 2024 divorce from Parker Ferris, came out as queer, now in a throuple with Bri and Billy Davis. Baptized LDS, calls her upbringing Mormon-adjacent. Us Weekly reports she discusses a daughter's serious illness on the show: a minor's medical history is not personality evidence, handle with care. Sexuality and relationship structure are not type evidence either. Pairs with the refreshed bobbi-althoff page and taylor-frankie-paul.",
+      "estimatedTraffic": "high",
+      "searchVolume": "high",
+      "personaTitle": null,
+      "addedToQueue": "2026-11-13",
+      "retryCount": 0,
+      "strategicValue": "mormon-wives-oc-cluster",
+      "startedAt": "2026-11-15T07:00:00Z",
+      "completedAt": "2026-11-15T08:08:08Z",
+      "contentGrade": "8.2",
+      "letter": "B",
+      "discoverability": "8.5",
+      "duration": "~68 min",
+      "needsReview": true,
+      "publishReady": false,
+      "publishBlockers": [
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ]
+    },
     {
       "name": "ludwig-ahgren",
       "displayName": "Ludwig Ahgren",

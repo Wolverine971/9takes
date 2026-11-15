@@ -1,6 +1,6 @@
 ---
 title: 'Blake Lively: Inside the Most Curated Life in Hollywood'
-meta_title: "Inside Blake Lively's Mind: The Control Pattern That Explains Everything"
+meta_title: "Blake Lively: The Personality Behind the Need for Control"
 persona_title: 'The Immaculately Curated'
 description: "Even Taylor Swift couldn't reach her through the performance. Blake Lively's 20-year curation habit finally cracked in public."
 author: 'DJ Wayne'

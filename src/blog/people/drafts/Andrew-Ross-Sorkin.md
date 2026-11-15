@@ -1,6 +1,6 @@
 ---
 title: 'Andrew Ross Sorkin: An In-Depth Enneagram Type 6 Analysis'
-meta_title: 'Andrew Ross Sorkin Enneagram: Why the Type 6 Loyalist Distrusts the System He Covers'
+meta_title: "Andrew Ross Sorkin: A Type 6 Who Questions the System"
 persona_title: "Wall Street's Loyal Skeptic"
 description: 'Why Andrew Ross Sorkin wakes at 4:25 a.m. afraid of what he missed. An Enneagram Type 6 read on DealBook, Too Big to Fail, and the system he distrusts.'
 author: 'DJ Wayne'

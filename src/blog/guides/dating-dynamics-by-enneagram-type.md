@@ -1,5 +1,6 @@
 ---
 title: 'Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage Love (and the Fix)'
+meta_title: 'Dating by Enneagram Type: 9 Patterns That Sabotage Love'
 description: 'A type-by-type dating guide: what you are drawn to, how you sabotage connection, and a 30-day plan to build healthier love.'
 author: 'DJ Wayne'
 date: '2025-09-14'
@@ -794,11 +795,11 @@ You have two choices:
 
 **Here's what to do right now:**
 
-1. **Identify your type** (if unsure, take our [Enneagram assessment](https://9takes.com/questions))
+1. **Identify your type** (if unsure, take our [free Enneagram test](/enneagram-test))
 2. **Start your type's Week 1 plan today**
 3. **Share this guide with your partner/dates**
 4. **Track your progress daily**
-5. **Join our community for support**
+5. **Compare perspectives**: [How do you figure out who is right for you?](/questions/how-do-you-figure-out-who-is-right)
 
 Remember: Every relationship you've had was practice for the one that lasts. Now you have the manual.
 

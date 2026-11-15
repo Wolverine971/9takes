@@ -1,6 +1,6 @@
 ---
 title: 'US Presidents by Enneagram Type: The Psychology of the Oval Office'
-meta_title: 'US Presidents Enneagram Types: Lincoln, Obama, Trump Iran War, Biden & More'
+meta_title: "US Presidents' Enneagram Types: Lincoln, Obama, Trump & More"
 description: "America doesn't elect policies—it elects personality types. From Lincoln's stubborn calm to Trump's wartime image management, here's how the Enneagram explains every presidency."
 author: 'DJ Wayne'
 date: '2026-06-22'

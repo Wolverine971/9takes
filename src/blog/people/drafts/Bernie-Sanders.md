@@ -1,6 +1,6 @@
 ---
 title: "Bernie Sanders: An Enneagram Type 1 Analysis of America's Moral Metronome"
-meta_title: "Why Bernie Sanders Has Given the Same Speech for 40 Years (It's Not Stubbornness)"
+meta_title: "Bernie Sanders: The Conviction Behind the Same Speech"
 persona_title: "Politics' Unsilenceable Conscience"
 description: 'Inside the moral engine that has driven Bernie Sanders for 60 years- from a Brooklyn apartment to the Senate floor'
 author: 'DJ Wayne'
