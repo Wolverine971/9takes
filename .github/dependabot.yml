@@ -7,6 +7,10 @@ updates:
       interval: weekly
     open-pull-requests-limit: 5
     ignore:
+      # SvelteKit v3 requires migrating configuration, imports, and routing APIs.
+      # Keep v2 updates enabled until that migration is tested as a whole.
+      - dependency-name: '@sveltejs/kit'
+        update-types: ['version-update:semver-major']
       # Tailwind v4 is a rewrite (CSS-first config, separate @tailwindcss/postcss
       # plugin) — a bot bump can't build. Migrate deliberately, not via Dependabot.
       - dependency-name: tailwindcss
