@@ -1,0 +1,95 @@
+{
+  "portraits": [
+    {
+      "person": "jay-z",
+      "author": "Photo Courtesy of NYS Senate Media Services",
+      "source": "https://commons.wikimedia.org/wiki/File:Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_(cropped).webp",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding.",
+      "adaptationLicense": "CC BY 2.0",
+      "images": [
+        "/types/8s/jay-z.webp",
+        "/types/8s/s-jay-z.webp"
+      ]
+    },
+    {
+      "person": "paul-bettany",
+      "author": "PhilipRomano",
+      "source": "https://commons.wikimedia.org/wiki/File:PaulBettany-byPhilipRomano.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding.",
+      "adaptationLicense": "CC BY-SA 4.0",
+      "images": [
+        "/types/6s/paul-bettany.webp",
+        "/types/6s/s-paul-bettany.webp"
+      ]
+    },
+    {
+      "person": "hunter-schafer",
+      "author": "Harald Krichel",
+      "source": "https://commons.wikimedia.org/wiki/File:Hunter_Schafer-64188.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding.",
+      "adaptationLicense": "CC BY-SA 4.0",
+      "images": [
+        "/types/4s/hunter-schafer.webp",
+        "/types/4s/s-hunter-schafer.webp"
+      ]
+    },
+    {
+      "person": "anthony-ippolito",
+      "author": "Gabriel Hutchinson",
+      "source": "https://commons.wikimedia.org/wiki/File:Anthony_Ippolito_at_TIFF_2026_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding.",
+      "adaptationLicense": "CC BY-SA 4.0",
+      "images": [
+        "/types/6s/anthony-ippolito.webp",
+        "/types/6s/s-anthony-ippolito.webp"
+      ]
+    },
+    {
+      "person": "ludwig-ahgren",
+      "author": "State Farm",
+      "source": "https://commons.wikimedia.org/wiki/File:Ludwig_and_Typical_Gamer_(52900893088).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "modifications": "Background removal using generated alpha intersected with native Apple Vision alpha over unchanged original photographed RGB; eye leveling; grayscale conversion; crop and scale; unchanged violet template; WebP encoding. Adaptation provided under the source license.",
+      "adaptationLicense": "CC BY 2.0",
+      "images": [
+        "/types/7s/ludwig-ahgren.webp",
+        "/types/7s/s-ludwig-ahgren.webp"
+      ]
+    },
+    {
+      "person": "james-talarico",
+      "author": "Senator Jon Ossoff’s office",
+      "source": "https://commons.wikimedia.org/wiki/File:Jon_Ossoff_meets_James_Talarico.jpg",
+      "license": "Public domain (U.S. Congress)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Congress",
+      "modifications": "Background removal using generated alpha intersected with native Apple Vision alpha over unchanged original photographed RGB; eye leveling; grayscale conversion; crop and scale; unchanged violet template; WebP encoding. Adaptation provided under the source license.",
+      "adaptationLicense": "Public domain (U.S. Congress)",
+      "images": [
+        "/types/1s/james-talarico.webp",
+        "/types/1s/s-james-talarico.webp"
+      ]
+    },
+    {
+      "person": "geoffrey-hinton",
+      "author": "John Sears",
+      "source": "https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modifications": "Background removal using generated alpha intersected with native Apple Vision alpha over unchanged original photographed RGB; eye leveling; grayscale conversion; crop and scale; unchanged violet template; WebP encoding. Adaptation provided under the source license.",
+      "adaptationLicense": "CC BY-SA 4.0",
+      "images": [
+        "/types/1s/geoffrey-hinton.webp",
+        "/types/1s/s-geoffrey-hinton.webp"
+      ]
+    }
+  ]
+}

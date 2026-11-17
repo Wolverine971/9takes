@@ -1,0 +1,65 @@
+{
+	"approvedBy": "DJ Wayne",
+	"approvedOn": "2026-11-17",
+	"visualApproval": "These look good",
+	"installed": [
+		{
+			"file": "static/types/8s/jay-z.webp",
+			"sha256": "714bc9813580d4c0d1ba04c96ca7a4023ee9f76d040bb6f707f4c52017c020b3"
+		},
+		{
+			"file": "static/types/8s/s-jay-z.webp",
+			"sha256": "f86c9f72ca191857eed8c0a4138083276d75efabc7d0ee7ddde1518cab89d7ce"
+		},
+		{
+			"file": "static/types/6s/paul-bettany.webp",
+			"sha256": "3f98e217398a4922cb0b8bd0a38b4a2d595971cdda7e5b0cf5e8e24aea5aa27a"
+		},
+		{
+			"file": "static/types/6s/s-paul-bettany.webp",
+			"sha256": "5df97e3b7cabb7451478ea2fa1ee31213b66a2e3e7d99ddcd9d9aabcf0c40815"
+		},
+		{
+			"file": "static/types/4s/hunter-schafer.webp",
+			"sha256": "2ca468c935af41a8cac6cebace8ff49cf7391a1ee358c25505034af72382da97"
+		},
+		{
+			"file": "static/types/4s/s-hunter-schafer.webp",
+			"sha256": "6efa467fd7032e46b67bb9e31be24c04ae2ecc38abac20cda970e4d3f7f336f0"
+		},
+		{
+			"file": "static/types/6s/anthony-ippolito.webp",
+			"sha256": "4807f353f6d1ecfe1cf421e0d9873d8fa804872a7d900ed867a3e98376add08e"
+		},
+		{
+			"file": "static/types/6s/s-anthony-ippolito.webp",
+			"sha256": "b33f7195915a57d0f0a86b96173b34d67e8a3c9591082244e22fd067350c7db1"
+		},
+		{
+			"file": "static/types/7s/ludwig-ahgren.webp",
+			"sha256": "554ac68207664cf651536604c9271849e66354e3abe937b76b653195e07f83ca"
+		},
+		{
+			"file": "static/types/7s/s-ludwig-ahgren.webp",
+			"sha256": "92d085f148bf044761c6d72819dac3dbfb291167574784f013273a469c339cbb"
+		},
+		{
+			"file": "static/types/1s/james-talarico.webp",
+			"sha256": "9a47369a01b18e8fa6c650f7399e5e108def7952372ab69033502c64fc75de92"
+		},
+		{
+			"file": "static/types/1s/s-james-talarico.webp",
+			"sha256": "21c9e7f57010f929699a7812bf4319a9682f1b218a56d67cfedf2bf7b7f1f47c"
+		},
+		{
+			"file": "static/types/1s/geoffrey-hinton.webp",
+			"sha256": "084b5f15f8778a6da39c1b9c2c34b5e550d0cbf0d6abc9e8e082c0c126102221"
+		},
+		{
+			"file": "static/types/1s/s-geoffrey-hinton.webp",
+			"sha256": "af05abb64cb28b3a758131a5cc3517aa637742e2b0f392ca53f443eeabab3b59"
+		}
+	],
+	"metadata": "Source credit and license embedded as XMP; approved image pixels unchanged.",
+	"held": "Portraits with publicationRightsPending and duplicate Mark-Fischbach were not installed."
+}

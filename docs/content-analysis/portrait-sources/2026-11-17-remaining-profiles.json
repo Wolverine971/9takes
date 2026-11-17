@@ -1,0 +1,1688 @@
+{
+  "date": "2026-11-17",
+  "status": "prepared_for_user_review",
+  "published": false,
+  "installedInStaticTypes": false,
+  "counts": {
+    "portraits": 16,
+    "newlyProcessed": 14,
+    "reusedEarlierMasters": 2,
+    "webpFiles": 32,
+    "publicationRightsPending": 11
+  },
+  "selection": {
+    "audit": "output/portrait-preflight/2026-11-17-rest/audit.json",
+    "scope": "Remaining typed personality-profile drafts without production portrait pairs, excluding the three portraits already approved in this conversation. Two existing staged masters were recovered and exported using current types and exact draft filenames. Olivia Dean was reprocessed from a fuller photograph.",
+    "previouslyApproved": [
+      "ludwig-ahgren",
+      "james-talarico",
+      "geoffrey-hinton"
+    ],
+    "excludedUntypedSeedDrafts": [
+      "Anthony-Hopkins",
+      "Antonio-Banderas",
+      "Nelk-Boys",
+      "William-Shakespeare"
+    ],
+    "existingPortraitMismatch": {
+      "slug": "Druski",
+      "currentType": 3,
+      "existingAssetType": 8,
+      "action": "Not regenerated: existing full and thumbnail portraits found under type 8."
+    }
+  },
+  "workflow": {
+    "method": "Non-generative photograph masking and deterministic compositing",
+    "imageGenerationAttempt": "Built-in image service rejected the public-figure batch before returning images; no generated images were used. Continued with the repository Apple Vision photograph workflow.",
+    "faceReconstruction": false
+  },
+  "template": {
+    "path": "scripts/assets/face-line-template.png",
+    "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+    "unchanged": true,
+    "canvas": 1080,
+    "eyeLineY": 490,
+    "faceCenterX": 540,
+    "fullyOpaquePixels": 22457
+  },
+  "theme": {
+    "source": "src/scss/index.scss",
+    "typeColors": {
+      "1": "#6366f1",
+      "2": "#f472b6",
+      "3": "#f59e0b",
+      "4": "#a855f7",
+      "5": "#0ea5e9",
+      "6": "#22c55e",
+      "7": "#fbbf24",
+      "8": "#dc2626",
+      "9": "#34d399"
+    },
+    "productionWell": "#171338",
+    "productionFilter": "contrast(1.06) brightness(0.94) saturate(0.82)",
+    "lightEdgeCheckWell": "#f6f3fb"
+  },
+  "portraits": [
+    {
+      "slug": "salome-andrea",
+      "filename": "salome-andrea",
+      "name": "Salomé Andrea",
+      "type": 9,
+      "color": "#34d399",
+      "typeName": "Peacemaker",
+      "draftDate": "2026-11-17",
+      "blog": "src/blog/people/drafts/salome-andrea.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://openthreadnews.com/influencers/salome-andrea/",
+        "imageUrl": "https://openthreadnews.com/wp-content/uploads/2026/11/salome-andrea-get-real-house-portrait-otn.jpg",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/salome-event-source",
+        "sha256": "8c8b509daf466a7e05b14224a5edf42e8c20806c94d82c724b73591c906cfb98",
+        "width": 500,
+        "height": 500,
+        "credit": "Hulu Get Real House event portrait via OpenThread News; photographer unconfirmed",
+        "license": "Event photo; publication rights not established",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": 1.485895096837455
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/salome-andrea-composition-cutout.png",
+        "height": 1046,
+        "anchorX": 263.42009344697,
+        "anchorY": 112.3815662108891,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/salome-andrea.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "302da56aabb59fcfe43e2876ae37d9d07cdd862e1d98eaf9f28c061600c1d639"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/9s/salome-andrea.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 32122,
+          "alpha": true,
+          "sha256": "bca7f242f5ccadac6cdd84f12470b9018c08d2d634e3a38c75ab68390226429a"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/9s/s-salome-andrea.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10832,
+          "alpha": true,
+          "sha256": "84027d3fe79698d6912d1d9c1c8c7c12e38cac5063fdd89a4e3741054aefdbcb"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 9,
+          "slug": "salome-andrea",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/9s/salome-andrea.webp",
+            "bytes": 32122,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/9s/s-salome-andrea.webp",
+            "bytes": 10832,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=9&portraitSlug=salome-andrea#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/9s/salome-andrea.webp",
+        "static/types/9s/s-salome-andrea.webp"
+      ]
+    },
+    {
+      "slug": "aspyn-ovard",
+      "filename": "aspyn-ovard",
+      "name": "Aspyn Ovard",
+      "type": 8,
+      "color": "#dc2626",
+      "typeName": "Challenger",
+      "draftDate": "2026-11-15",
+      "blog": "src/blog/people/drafts/aspyn-ovard.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://www.promiflash.de/thema/aspyn-ovard/",
+        "imageUrl": "https://content4.promiflash.de/article-images/square1024/aspyn-ovard-laechelt.jpg",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/aspyn-event-source",
+        "sha256": "0de4d76a06954da9ccb91a22719c83d406209466c50fcad66b610731836c9ae8",
+        "width": 1024,
+        "height": 1024,
+        "credit": "Getty Images, via Promiflash; individual photographer not confirmed",
+        "license": "Copyrighted editorial / promotional photograph; publication permission not established",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": 3.262399228955644
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/aspyn-ovard-composition-cutout.png",
+        "height": 1095,
+        "anchorX": 573.1763433068991,
+        "anchorY": 339.48072582719743,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/aspyn-ovard.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "974da1b89f12f3c0fe4237088a209fc1cf12ed535f84d0530229221ed8610572"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/8s/aspyn-ovard.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 39234,
+          "alpha": true,
+          "sha256": "2d9320502741312411ed97998f78eb0c9682252463d25b89d54dc0de732efa15"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/8s/s-aspyn-ovard.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12410,
+          "alpha": true,
+          "sha256": "79c0543f45099e6b4eb9f843a2b7636f01aebb424893fc0f09d339126273e0a2"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 8,
+          "slug": "aspyn-ovard",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/8s/aspyn-ovard.webp",
+            "bytes": 39234,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/8s/s-aspyn-ovard.webp",
+            "bytes": 12410,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=8&portraitSlug=aspyn-ovard#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/8s/aspyn-ovard.webp",
+        "static/types/8s/s-aspyn-ovard.webp"
+      ]
+    },
+    {
+      "slug": "larry-ellison",
+      "filename": "larry-ellison",
+      "name": "Larry Ellison",
+      "type": 8,
+      "color": "#dc2626",
+      "typeName": "Challenger",
+      "draftDate": "2026-11-12",
+      "blog": "src/blog/people/drafts/larry-ellison.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://www.oracle.com/corporate/executives/larry-ellison/",
+        "imageUrl": "https://www.oracle.com/a/ocom/img/cimg1x1sm-larry-ellison.webp",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/larry-official-source",
+        "sha256": "0126a354f9f8483b3028f069e39250e2a234190898b09e60f459d3b30ad96cf9",
+        "width": 608,
+        "height": 608,
+        "credit": "Oracle official executive portrait; individual photographer not identified",
+        "license": "Copyrighted editorial / promotional photograph; publication permission not established",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": -0.5189160394063352
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/larry-ellison-composition-cutout.png",
+        "height": 992,
+        "anchorX": 298.40808033943176,
+        "anchorY": 254.3100445081286,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/larry-ellison.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "b7853f4f984020c99804fa2f136fcbaefd008d5467fbf71b63aa0d42aad371b3"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/8s/larry-ellison.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 55440,
+          "alpha": true,
+          "sha256": "45eba651e22bb4eb8b3587cc0f98bff67e09831f1a7d0246da7538fc5d6e35e1"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/8s/s-larry-ellison.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16968,
+          "alpha": true,
+          "sha256": "f3db943be49f5669ffd05e3c543db061adfb13fdb3bf42f7af0c00d317d1c6c0"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 8,
+          "slug": "larry-ellison",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/8s/larry-ellison.webp",
+            "bytes": 55440,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/8s/s-larry-ellison.webp",
+            "bytes": 16968,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=8&portraitSlug=larry-ellison#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/8s/larry-ellison.webp",
+        "static/types/8s/s-larry-ellison.webp"
+      ]
+    },
+    {
+      "slug": "josie-totah",
+      "filename": "josie-totah",
+      "name": "Josie Totah",
+      "type": 7,
+      "color": "#fbbf24",
+      "typeName": "Enthusiast",
+      "draftDate": "2026-11-10",
+      "blog": "src/blog/people/drafts/josie-totah.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://www.imdb.com/name/nm4796309/mediaviewer/rm644016128/",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZDY4MGJjMWItZDQ0My00NjZmLThiZWUtZmY5ZDk3Mjg3YzBkXkEyXkFqcGc%40._V1_.jpg",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/josie-totah-source",
+        "sha256": "6a6f566b2f53add8f6daf4784bf99865efc09db576f5015b125accac48973614",
+        "width": 2451,
+        "height": 2854,
+        "credit": "IMDb promotional headshot; photographer not identified",
+        "license": "Promotional portrait; publication rights not established",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": 3.0466044550925275
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/josie-totah-composition-cutout.png",
+        "height": 1044,
+        "anchorX": 1491.5612957924604,
+        "anchorY": 1205.4290786650508,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/josie-totah.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "a6df2a49dcbe1b58adf5c10a46ce28f8bcd31d6f198a53127b043a008b993ff0"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/7s/josie-totah.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 80120,
+          "alpha": true,
+          "sha256": "dc99b4c97ce5a31ad8ef0da1feb7085029f4cca03194c51d7a4d73afd3300e94"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/7s/s-josie-totah.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13624,
+          "alpha": true,
+          "sha256": "eb496a0ec56d50d918eb2ca39977f7e35218821b7561026b72f5df057c38799e"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 7,
+          "slug": "josie-totah",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/7s/josie-totah.webp",
+            "bytes": 80120,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/7s/s-josie-totah.webp",
+            "bytes": 13624,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=7&portraitSlug=josie-totah#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/7s/josie-totah.webp",
+        "static/types/7s/s-josie-totah.webp"
+      ]
+    },
+    {
+      "slug": "qtcinderella",
+      "filename": "qtcinderella",
+      "name": "QTCinderella",
+      "type": 2,
+      "color": "#f472b6",
+      "typeName": "Helper",
+      "draftDate": "2026-11-10",
+      "blog": "src/blog/people/drafts/qtcinderella.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://www.gq.com/story/qtcinderella-streamer-awards-profile",
+        "imageUrl": "https://media.gq.com/photos/6941be1a180decc51b3eefdd/master/w_1500/site%20social-GQ-QTCinderella-Twitch-Streamer-Claire-Farin-December-2025.jpg",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/qt-gq-source",
+        "sha256": "9231be3667138c8c5f8db47e69b3b3f87a21a0f9a01b68ea309ae7f89d2b1342",
+        "width": 1500,
+        "height": 995,
+        "credit": "Claire Farin at Actual Objects / GQ",
+        "license": "Copyrighted editorial / promotional photograph; publication permission not established",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": 1.8337986847807364
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/qtcinderella-composition-cutout.png",
+        "height": 990,
+        "anchorX": 754.0271476954222,
+        "anchorY": 362.67242648878727,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1.02,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/qtcinderella.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "36e4fcc0e34173571088c297bf6325972c556bd3ef8ee73525761f4a1fee0c32"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/2s/qtcinderella.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 66106,
+          "alpha": true,
+          "sha256": "f33c28aebd0a7619e380cf855dfeaa335188d82cac40747dc65193672dbdbfb7"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/2s/s-qtcinderella.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 14114,
+          "alpha": true,
+          "sha256": "b1c52f96ef3c118e639eac36ebfc29777a79fc3b381a8e5af74687342f9edc94"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 2,
+          "slug": "qtcinderella",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/2s/qtcinderella.webp",
+            "bytes": 66106,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/2s/s-qtcinderella.webp",
+            "bytes": 14114,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=2&portraitSlug=qtcinderella#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/2s/qtcinderella.webp",
+        "static/types/2s/s-qtcinderella.webp"
+      ]
+    },
+    {
+      "slug": "jay-z",
+      "filename": "jay-z",
+      "name": "Jay-Z",
+      "type": 8,
+      "color": "#dc2626",
+      "typeName": "Challenger",
+      "draftDate": "2026-11-06",
+      "blog": "src/blog/people/drafts/jay-z.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_(cropped).webp",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_%28cropped%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/jay-z-source",
+        "sha256": "9cce8d616f026eedbad375024a58e4b0b5b11ab7ff0c769f6a8bd25eefcce178",
+        "width": 387,
+        "height": 529,
+        "credit": "Photo Courtesy of NYS Senate Media Services",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "publicationRightsPending": false,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": 0.5324724912817868
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/jay-z-composition-cutout.png",
+        "height": 1064,
+        "anchorX": 202.05887699127197,
+        "anchorY": 153.51785650829925,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/jay-z.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "83791c0363465a4f6966e53ae36aad212d1bb9d706eedbf9b90c905a3bc9deda"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/8s/jay-z.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 52578,
+          "alpha": true,
+          "sha256": "133be481c4f8412708723223dda1c13fa8403bcd0e81af3c33756b534c3b2882"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/8s/s-jay-z.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16252,
+          "alpha": true,
+          "sha256": "1c328140be7baad352a59296ed091cf562036b65878fb4a87dc239332dc56d51"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 8,
+          "slug": "jay-z",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/8s/jay-z.webp",
+            "bytes": 52578,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/8s/s-jay-z.webp",
+            "bytes": 16252,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=8&portraitSlug=jay-z#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/8s/jay-z.webp",
+        "static/types/8s/s-jay-z.webp"
+      ]
+    },
+    {
+      "slug": "chris-olah",
+      "filename": "chris-olah",
+      "name": "Chris Olah",
+      "type": 4,
+      "color": "#a855f7",
+      "typeName": "Individualist",
+      "draftDate": "2026-11-05",
+      "blog": "src/blog/people/drafts/chris-olah.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://www.anthropic.com/company/leadership",
+        "imageUrl": "https://assets.claude.com/fcc30d635acba82820bde8e6c8153c360a99bc26.jpg",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/chris-olah-source",
+        "sha256": "6b5ba6d6b4f9e8a801ec58bfc0bb8ae6862c7bb18837ed332f4851e6839021f5",
+        "width": 640,
+        "height": 800,
+        "credit": "Anthropic official leadership portrait; photographer not identified",
+        "license": "Official portrait; publication rights not established",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": -4.9075919436321085
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/chris-olah-composition-cutout.png",
+        "height": 1102,
+        "anchorX": 384.82848316431046,
+        "anchorY": 270.07783596076126,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/chris-olah.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "d2b86cc76b67a67b26d35034c1a09759cce097004d27b8e2b32666380f682684"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/4s/chris-olah.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 53404,
+          "alpha": true,
+          "sha256": "b7925731d2ade3cce54a6095c863193bf6b6577e22324d4351a7ac93f03cbe73"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/4s/s-chris-olah.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13578,
+          "alpha": true,
+          "sha256": "455b9bf693914bf9461a8157c41ddd82b9ff0107929ea7338467540de2dc4ad3"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 4,
+          "slug": "chris-olah",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/4s/chris-olah.webp",
+            "bytes": 53404,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/4s/s-chris-olah.webp",
+            "bytes": 13578,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=4&portraitSlug=chris-olah#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/4s/chris-olah.webp",
+        "static/types/4s/s-chris-olah.webp"
+      ]
+    },
+    {
+      "slug": "tom-rhys-harries",
+      "filename": "tom-rhys-harries",
+      "name": "Tom Rhys Harries",
+      "type": 6,
+      "color": "#22c55e",
+      "typeName": "Loyalist",
+      "draftDate": "2026-11-03",
+      "blog": "src/blog/people/drafts/tom-rhys-harries.md",
+      "reusedEarlierMaster": true,
+      "source": {
+        "page": "https://24smi.org/celebrity/378260-tom-ris-kharris.html",
+        "imageUrl": "https://24smi.org/public/media/celebrity/2024/12/04/11bhpawbikei-tom-ris-kharris.jpg",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/tom-rhys-harries-front.jpg",
+        "sha256": "96997f6ea54930519d1f0d7bd04b341e1cc65099b9c1b4f25348af339ec538be",
+        "width": 1080,
+        "height": 1042,
+        "credit": "24SMI distribution; photographer not identified",
+        "license": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication.",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Previously staged Apple Vision photographic cutout",
+        "generatedRgbUsed": false
+      },
+      "composition": {
+        "slug": "tom-rhys-harries",
+        "name": "Tom Rhys Harries",
+        "filename": "Tom-Rhys-Harries",
+        "type": null,
+        "file": "tom-rhys-harries-front.jpg",
+        "input": "output/portrait-processed/2026-10-07-queue-rest/tom-rhys-harries-cutout.png",
+        "crop": "output/portrait-processed/2026-10-07-queue-rest/tom-rhys-harries-crop.png",
+        "bottom": 1042,
+        "height": 991,
+        "anchorX": 510.87129056453705,
+        "anchorY": 372.18492760719215,
+        "erode": 3,
+        "brightness": 1,
+        "contrast": 1.04,
+        "rotation": 0,
+        "targetX": 540,
+        "targetY": 490,
+        "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/tom-rhys-harries-landmarks.json",
+        "estimatedHairTop": 150.26138720905107,
+        "estimatedBottom": 1141.6949201690413,
+        "master": "output/portrait-processed/2026-10-07-queue-rest/Tom-Rhys-Harries-master.png"
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/tom-rhys-harries.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "c7bee83b589a41b2c154ecf462aa2f931a863e4d592ca939ad5e90870477d8dc"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/6s/tom-rhys-harries.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 51328,
+          "alpha": true,
+          "sha256": "b10214f6c90495fb361278393357bd26c58bb7ae5bc96cb50118b5bd569f19cb"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/6s/s-tom-rhys-harries.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 11784,
+          "alpha": true,
+          "sha256": "2b1055f36de9ae8d1132b6c32da39c9e3b0bf69ba2974050e84f52f267cd317a"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 6,
+          "slug": "tom-rhys-harries",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/6s/tom-rhys-harries.webp",
+            "bytes": 51328,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/6s/s-tom-rhys-harries.webp",
+            "bytes": 11784,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=tom-rhys-harries#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/6s/tom-rhys-harries.webp",
+        "static/types/6s/s-tom-rhys-harries.webp"
+      ]
+    },
+    {
+      "slug": "dominic-fike",
+      "filename": "dominic-fike",
+      "name": "Dominic Fike",
+      "type": 7,
+      "color": "#fbbf24",
+      "typeName": "Enthusiast",
+      "draftDate": "2026-10-31",
+      "blog": "src/blog/people/drafts/dominic-fike.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://capitalfm.africa/dominic-fike-returns-with-new-single-white-keys/",
+        "imageUrl": "https://www.capitalfm.co.ke/lifestyle/files/2026/02/Press-Photo_creditLucasCreighton2-scaled.jpg",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/dominic-press-source",
+        "sha256": "95f2f9c5f3a4a2c49e1ebf5e1d022b47d4f454dedd19d49ec283d32d906604ae",
+        "width": 2048,
+        "height": 2560,
+        "credit": "Lucas Creighton / Columbia Records press photograph, via Capital FM",
+        "license": "Copyrighted editorial / promotional photograph; publication permission not established",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": -14.357009759592263
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/dominic-fike-composition-cutout.png",
+        "height": 1086,
+        "anchorX": 1317.5459086298943,
+        "anchorY": 657.5956885029843,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/dominic-fike.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "0e3b03d70784faee1cdb999655943e78dc5d93efd5d74eb1ced5f1a8644b5f9a"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/7s/dominic-fike.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 59124,
+          "alpha": true,
+          "sha256": "a2fb8c10a04cec997d96d840b4cdd5df364e943d03a94b20d5f8857c2d8cdeb4"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/7s/s-dominic-fike.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 14378,
+          "alpha": true,
+          "sha256": "0863207c3ebe9af040c1ac29d454c25c44e365ec446705d875391857b6a2572f"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 7,
+          "slug": "dominic-fike",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/7s/dominic-fike.webp",
+            "bytes": 59124,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/7s/s-dominic-fike.webp",
+            "bytes": 14378,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=7&portraitSlug=dominic-fike#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/7s/dominic-fike.webp",
+        "static/types/7s/s-dominic-fike.webp"
+      ]
+    },
+    {
+      "slug": "paul-bettany",
+      "filename": "paul-bettany",
+      "name": "Paul Bettany",
+      "type": 6,
+      "color": "#22c55e",
+      "typeName": "Loyalist",
+      "draftDate": "2026-10-30",
+      "blog": "src/blog/people/drafts/paul-bettany.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:PaulBettany-byPhilipRomano.jpg",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/PaulBettany-byPhilipRomano.jpg/1920px-PaulBettany-byPhilipRomano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/paul-bettany-source",
+        "sha256": "0237cf3387a0b8dc32e7568c02b15f983b159a7516ec96e0de843ba4e46cd7b3",
+        "width": 1920,
+        "height": 2886,
+        "credit": "PhilipRomano",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "publicationRightsPending": false,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": 5.63435409114539
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/paul-bettany-composition-cutout.png",
+        "height": 1076,
+        "anchorX": 957.9454831182957,
+        "anchorY": 947.4224421036621,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/paul-bettany.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "737836bef5af65958d2e7fa037e052405af8a120471a9568271de4423b5985a3"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/6s/paul-bettany.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 41820,
+          "alpha": true,
+          "sha256": "a3a870b82e3a790016ead6718430d29d05f5dd1ef4114c7b8c27ad1060a6aa34"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/6s/s-paul-bettany.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10684,
+          "alpha": true,
+          "sha256": "7a75de995b937bdb93f3c7645281fbeafcae11aa4f64fab8b96155fbad1329fa"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 6,
+          "slug": "paul-bettany",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/6s/paul-bettany.webp",
+            "bytes": 41820,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/6s/s-paul-bettany.webp",
+            "bytes": 10684,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=paul-bettany#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/6s/paul-bettany.webp",
+        "static/types/6s/s-paul-bettany.webp"
+      ]
+    },
+    {
+      "slug": "hunter-schafer",
+      "filename": "hunter-schafer",
+      "name": "Hunter Schafer",
+      "type": 4,
+      "color": "#a855f7",
+      "typeName": "Individualist",
+      "draftDate": "2026-10-29",
+      "blog": "src/blog/people/drafts/hunter-schafer.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Hunter_Schafer-64188.jpg",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Hunter_Schafer-64188.jpg/1920px-Hunter_Schafer-64188.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/hunter-schafer-source",
+        "sha256": "b02e42e02d46962660cee0a3c82c23cb5ebefaed431f9e225267522205f09a63",
+        "width": 1920,
+        "height": 2429,
+        "credit": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "publicationRightsPending": false,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Intersection of Apple Vision foreground-instance and accurate person-segmentation masks, applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": 0.06819244885262676,
+        "alphaRefinement": "Two local, non-generative masks intersected to remove background fragments in hair"
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/hunter-schafer-composition-cutout.png",
+        "height": 1232,
+        "anchorX": 1007.7589474618435,
+        "anchorY": 646.5983543986299,
+        "erode": 6,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/hunter-schafer.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "2ac3aa153c982e8693fee87708cf6c8c28bdfff79918670674b64b8f067e1b6c"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/4s/hunter-schafer.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 125282,
+          "alpha": true,
+          "sha256": "976a26d3e16f77dbcf53137003b54803d72196c346417f7c0d94d25f1439070c"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/4s/s-hunter-schafer.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 30184,
+          "alpha": true,
+          "sha256": "5d43a37c86c77dad756579427fc71d94d8c1c41249e6eb4dd3d4604643fe270a"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 4,
+          "slug": "hunter-schafer",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/4s/hunter-schafer.webp",
+            "bytes": 125282,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/4s/s-hunter-schafer.webp",
+            "bytes": 30184,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=4&portraitSlug=hunter-schafer#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/4s/hunter-schafer.webp",
+        "static/types/4s/s-hunter-schafer.webp"
+      ]
+    },
+    {
+      "slug": "anthony-ippolito",
+      "filename": "anthony-ippolito",
+      "name": "Anthony Ippolito",
+      "type": 6,
+      "color": "#22c55e",
+      "typeName": "Loyalist",
+      "draftDate": "2026-10-28",
+      "blog": "src/blog/people/drafts/anthony-ippolito.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Anthony_Ippolito_at_TIFF_2026_03.jpg",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Anthony_Ippolito_at_TIFF_2026_03.jpg/1920px-Anthony_Ippolito_at_TIFF_2026_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/anthony-ippolito-source",
+        "sha256": "9956f1fc888ead1ee88a2068f25ebb24f86eb3199cf4c2c5c98e21cf155a389a",
+        "width": 1920,
+        "height": 2688,
+        "credit": "Gabriel Hutchinson",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "publicationRightsPending": false,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": -2.7459458085715354
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/anthony-ippolito-composition-cutout.png",
+        "height": 1143,
+        "anchorX": 743.0635963082314,
+        "anchorY": 483.5754270479518,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1.05,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/anthony-ippolito.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "e7332d1fc5be74e6c3cbdc9cc9b37d88bda4879fb51c08934c94cd4ffe83a50b"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/6s/anthony-ippolito.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 56776,
+          "alpha": true,
+          "sha256": "95598d8b677d2ca866ae8f09d8fa3f6ac1ab6ac5d305103268fb3fc2e40e066a"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/6s/s-anthony-ippolito.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13170,
+          "alpha": true,
+          "sha256": "dc3d9c4c0b8baada2b77ab5435cf8c7e64dc9dd919c435d6fb5c44253cdd21c0"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 6,
+          "slug": "anthony-ippolito",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/6s/anthony-ippolito.webp",
+            "bytes": 56776,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/6s/s-anthony-ippolito.webp",
+            "bytes": 13170,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=6&portraitSlug=anthony-ippolito#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/6s/anthony-ippolito.webp",
+        "static/types/6s/s-anthony-ippolito.webp"
+      ]
+    },
+    {
+      "slug": "kareem-rahma",
+      "filename": "kareem-rahma",
+      "name": "Kareem Rahma",
+      "type": 7,
+      "color": "#fbbf24",
+      "typeName": "Enthusiast",
+      "draftDate": "2026-10-25",
+      "blog": "src/blog/people/drafts/kareem-rahma.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://time.com/collections/time100-creators-2025/7299143/kareem-rahma/",
+        "imageUrl": "https://gcp-na-images.contentstack.com/v3/assets/bltea6093859af6183b/blt391e8eeca3d28c21/6998c81ba97fc0396aa7481e/TIME100-Creators-2025-Kareem-Rahma-073.jpg?branch=production",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/kareem-time-source",
+        "sha256": "3da64256460c09c8a9f35d67d01d72af5291bb41fbe824a64c7d7be22daf0d26",
+        "width": 1080,
+        "height": 1350,
+        "credit": "Jason Mendez — Amazon MGM Studios/Getty Images, via TIME",
+        "license": "Editorial photo; publication rights not established",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": -14.433428134788747
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/kareem-rahma-composition-cutout.png",
+        "height": 1140,
+        "anchorX": 605.3832042813301,
+        "anchorY": 439.0543624332064,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/kareem-rahma.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "ae94f6f5107a061db897e0a6d4aaf6eec855ae781435eca48a846429ee2eb0b6"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/7s/kareem-rahma.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 50978,
+          "alpha": true,
+          "sha256": "d0160840f96e595f76b0b647f27dfdfd41e58458756c47c56ebb3ebfae9d915e"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/7s/s-kareem-rahma.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 15246,
+          "alpha": true,
+          "sha256": "7fda3ec832f62fa28045b8ffa9dccb48a4d4c753f44faf7467c9249887bf900a"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 7,
+          "slug": "kareem-rahma",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/7s/kareem-rahma.webp",
+            "bytes": 50978,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/7s/s-kareem-rahma.webp",
+            "bytes": 15246,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=7&portraitSlug=kareem-rahma#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/7s/kareem-rahma.webp",
+        "static/types/7s/s-kareem-rahma.webp"
+      ]
+    },
+    {
+      "slug": "dan-ives",
+      "filename": "dan-ives",
+      "name": "Dan Ives",
+      "type": 7,
+      "color": "#fbbf24",
+      "typeName": "Enthusiast",
+      "draftDate": "2026-10-24",
+      "blog": "src/blog/people/drafts/dan-ives.md",
+      "reusedEarlierMaster": true,
+      "source": {
+        "page": "https://globaleconomicsummit.ie/speakers/daniel-ives/",
+        "imageUrl": "https://globaleconomicsummit.ie/wp-content/uploads/2023/11/Daniel-Ives-Managing-Director-Equity-Research-at-Wedbush-Securities-768x1024.jpeg",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/dan-ives-source.jpeg",
+        "sha256": "c0b1b3ef50fae20a06c3b6be96ad27a4925f4d86684784dc8b32f8658b5f9290",
+        "width": 768,
+        "height": 1024,
+        "credit": "Photographer not identified; Global Economic Summit speaker portrait",
+        "license": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication.",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Previously staged Apple Vision photographic cutout",
+        "generatedRgbUsed": false
+      },
+      "composition": {
+        "slug": "dan-ives",
+        "name": "Dan-Ives",
+        "input": "output/portrait-processed/2026-10-07-queue/dan-ives-cutout.png",
+        "height": 1050,
+        "anchorX": 430,
+        "anchorY": 357.43,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/dan-ives.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "b38c0bf3b9e8c8ed8277e9dde9377b5da729c9543a9a1efe3cd34efa17f741c0"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/7s/dan-ives.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 61774,
+          "alpha": true,
+          "sha256": "db5c44eb15279e74c44ec8b140115d99258daebf3fe640168a546fa528778126"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/7s/s-dan-ives.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12906,
+          "alpha": true,
+          "sha256": "29833272cef35bb02aec463041c2da6f130737d842701caf9abb23169052adf6"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 7,
+          "slug": "dan-ives",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/7s/dan-ives.webp",
+            "bytes": 61774,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/7s/s-dan-ives.webp",
+            "bytes": 12906,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=7&portraitSlug=dan-ives#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/7s/dan-ives.webp",
+        "static/types/7s/s-dan-ives.webp"
+      ]
+    },
+    {
+      "slug": "olivia-dean",
+      "filename": "olivia-dean",
+      "name": "Olivia Dean",
+      "type": 2,
+      "color": "#f472b6",
+      "typeName": "Helper",
+      "draftDate": "2026-10-23",
+      "blog": "src/blog/people/drafts/olivia-dean.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://www.teenvogue.com/story/freckles-are-the-cutest-beauty-trend-at-the-grammys-2026-see-photos",
+        "imageUrl": "https://assets.teenvogue.com/photos/698012bbb39902f666840a7d/master/w_1600%2Cc_limit/2258913770",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/olivia-grammy-source",
+        "sha256": "a626d9ff45bc120bc0d731d8cc787f29202467bd80b26c9b1f2ea7c508a0e590",
+        "width": 1600,
+        "height": 1067,
+        "credit": "Gilbert Flores / Getty Images, via Teen Vogue",
+        "license": "Copyrighted editorial / promotional photograph; publication permission not established",
+        "licenseUrl": null,
+        "publicationRightsPending": true,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Intersection of Apple Vision foreground-instance and accurate person-segmentation masks, applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": -3.040346881124061,
+        "alphaRefinement": "Two local, non-generative masks intersected to remove background fragments in hair"
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/olivia-dean-composition-cutout.png",
+        "height": 1152,
+        "anchorX": 568.085814639926,
+        "anchorY": 364.09761668484293,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/olivia-dean.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "204b7f9b03591691218789e98ac26e7e0fdbc6a2ddd1b1886d415c3ea33283ac"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/2s/olivia-dean.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 82682,
+          "alpha": true,
+          "sha256": "5f217c17240c10767902ce88aee95a9cc4800e46b704cf9d1fa37f341906aeb1"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/2s/s-olivia-dean.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 24290,
+          "alpha": true,
+          "sha256": "40ab7c88ec22e3efde23bfdfbe107576585590191ca31b5a63de19866c52a9a8"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 2,
+          "slug": "olivia-dean",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/2s/olivia-dean.webp",
+            "bytes": 82682,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/2s/s-olivia-dean.webp",
+            "bytes": 24290,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=2&portraitSlug=olivia-dean#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/2s/olivia-dean.webp",
+        "static/types/2s/s-olivia-dean.webp"
+      ]
+    },
+    {
+      "slug": "Mark-Fischbach",
+      "filename": "Mark-Fischbach",
+      "name": "Markiplier",
+      "type": 1,
+      "color": "#6366f1",
+      "typeName": "Perfectionist",
+      "draftDate": "2026-10-11",
+      "blog": "src/blog/people/drafts/Mark-Fischbach.md",
+      "reusedEarlierMaster": false,
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Markiplier_in_Markiplier_Covered_Me_In_His_Glue_at_01_15.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Markiplier_in_Markiplier_Covered_Me_In_His_Glue_at_01_15.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "localOriginal": "output/portrait-sources/2026-11-17-rest/Mark-Fischbach-source",
+        "sha256": "b4727efa2d883801ead3098a8e14331cd106c5cf62d6c866d7c175e9fd6c53cb",
+        "width": 891,
+        "height": 1076,
+        "credit": "Ethan Nestor",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "publicationRightsPending": false,
+        "modifications": "Photographic background removed with local Apple Vision masks; original photographed face retained, no generated facial pixels; eye leveling where needed; crop, scale, grayscale, contrast, alpha-edge cleanup; exact unchanged purple template overlaid; WebP encoding."
+      },
+      "segmentation": {
+        "method": "Apple Vision foreground mask applied to original RGB",
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": false,
+        "rotationClockwiseDegrees": -9.36601513608518
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-rest/Mark-Fischbach-composition-cutout.png",
+        "height": 1185,
+        "anchorX": 533.7822090089321,
+        "anchorY": 390.9163334851127,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "master": {
+        "path": "output/portrait-preflight/2026-11-17-rest/masters/Mark-Fischbach.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "64a00dc0bdfd26693478d0b2729a7ce5db77a072d6da3b1b9ad13c9372e0a604"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/1s/Mark-Fischbach.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 38350,
+          "alpha": true,
+          "sha256": "ea0a5c30208429b953370c22aac0523b66bf9903ac7c24646b59dac7823daae2"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-rest/types/1s/s-Mark-Fischbach.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13142,
+          "alpha": true,
+          "sha256": "c5d9fdbfcb8ce183b43711b489aa031888ce924099aa77abe0567d9caa26532c"
+        }
+      },
+      "validation": {
+        "preflight": {
+          "ok": true,
+          "type": 1,
+          "slug": "Mark-Fischbach",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/1s/Mark-Fischbach.webp",
+            "bytes": 38350,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-rest/types/1s/s-Mark-Fischbach.webp",
+            "bytes": 13142,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=1&portraitSlug=Mark-Fischbach#portrait-preflight"
+        },
+        "opaqueTemplatePixelsPreserved": 22457,
+        "visualReview": "Completed: full master, 480px thumbnail, square profile picture, 4:5 card, light/dark background and desktop/mobile gallery"
+      },
+      "expectedInstallPaths": [
+        "static/types/1s/Mark-Fischbach.webp",
+        "static/types/1s/s-Mark-Fischbach.webp"
+      ]
+    }
+  ],
+  "browserReview": {
+    "status": "pass",
+    "desktop": {
+      "width": 1320,
+      "height": 1000,
+      "columns": 4,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "brokenImages": 0
+    },
+    "controls": [
+      "light/dark background",
+      "alignment guides",
+      "source photo comparison",
+      "name search",
+      "Enneagram type filter"
+    ],
+    "consoleErrors": 0,
+    "screenshots": [
+      "preview-desktop.jpg",
+      "preview-light-guides.jpg",
+      "preview-mobile.jpg"
+    ]
+  }
+}

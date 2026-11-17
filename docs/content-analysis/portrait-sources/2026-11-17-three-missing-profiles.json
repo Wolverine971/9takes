@@ -1,0 +1,380 @@
+{
+  "date": "2026-11-17",
+  "status": "prepared_for_user_review",
+  "published": false,
+  "installedInStaticTypes": false,
+  "selection": {
+    "source": "Local editorial release audit and publisher image resolver",
+    "reason": "Three recent editorially-ready drafts with neither full portrait nor thumbnail; broad filename audit found no alternate or previously staged portraits.",
+    "missingProof": [
+      {
+        "person": "ludwig-ahgren",
+        "type": 7,
+        "fullPath": "/Users/djwayne/9takes/static/types/7s/ludwig-ahgren.webp",
+        "thumbnailPath": "/Users/djwayne/9takes/static/types/7s/s-ludwig-ahgren.webp",
+        "fullExists": false,
+        "thumbnailExists": false
+      },
+      {
+        "person": "geoffrey-hinton",
+        "type": 1,
+        "fullPath": "/Users/djwayne/9takes/static/types/1s/geoffrey-hinton.webp",
+        "thumbnailPath": "/Users/djwayne/9takes/static/types/1s/s-geoffrey-hinton.webp",
+        "fullExists": false,
+        "thumbnailExists": false
+      },
+      {
+        "person": "james-talarico",
+        "type": 1,
+        "fullPath": "/Users/djwayne/9takes/static/types/1s/james-talarico.webp",
+        "thumbnailPath": "/Users/djwayne/9takes/static/types/1s/s-james-talarico.webp",
+        "fullExists": false,
+        "thumbnailExists": false
+      }
+    ]
+  },
+  "template": {
+    "path": "scripts/assets/face-line-template.png",
+    "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+    "unchanged": true,
+    "canvas": 1080,
+    "eyeLineY": 490
+  },
+  "theme": {
+    "productionWell": "#171338",
+    "productionFilter": "contrast(1.06) brightness(0.94) saturate(0.82)",
+    "lightEdgeCheckWell": "#f6f3fb"
+  },
+  "portraits": [
+    {
+      "slug": "ludwig",
+      "name": "Ludwig Ahgren",
+      "filename": "ludwig-ahgren",
+      "type": 7,
+      "color": "#fbbf24",
+      "typeName": "Enthusiast",
+      "date": "2026-11-07",
+      "sourceFile": "ludwig-selected.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ludwig_and_Typical_Gamer_(52900893088).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Ludwig_and_Typical_Gamer_(52900893088).jpg",
+      "credit": "State Farm",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceCrop": {
+        "left": 1740,
+        "top": 1150,
+        "width": 800,
+        "height": 1000
+      },
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Ludwig_and_Typical_Gamer_(52900893088).jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Ludwig_and_Typical_Gamer_(52900893088).jpg",
+        "credit": "State Farm",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "path": "output/portrait-sources/2026-11-17-missing/ludwig-selected.jpg",
+        "sha256": "1805d9ffefdba2b8f0cb828a627621ebff2f02161cbd8b512db989012a8659b3",
+        "modifications": "Background removal using generated alpha intersected with native Apple Vision alpha over unchanged original photographed RGB; eye leveling; grayscale conversion; crop and scale; unchanged violet template; WebP encoding. Adaptation provided under the source license."
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-missing/ludwig-composition-cutout.png",
+        "height": 1142,
+        "anchorX": 533.6947206482291,
+        "anchorY": 335.31373149735543,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": -40
+      },
+      "segmentation": {
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": true,
+        "nativeAlphaConstraint": true,
+        "alphaRegistration": {
+          "method": "eye_landmark_similarity",
+          "scale": 1.3809667079384922,
+          "angleRadians": -0.0040542993938669225
+        },
+        "rotationClockwiseDegrees": 19.90224938376649
+      },
+      "prompt": "Remove the background from this existing real photograph, isolating the single seated man in the white patterned shirt. Return a transparent PNG with exactly the original canvas dimensions, aspect ratio, subject position, and subject scale. Preserve the complete visible hair, ears, neck, shoulders and clothing. Preserve the original face, expression, pose, skin texture, hair and clothing pixels. No face reconstruction, retouching, beautification, sharpening, invented details, relighting, repositioning, or replacement clothing. Keep clean natural hair and shoulder edges. Remove the environment only. Do not add any purple mark, text, border, outline, glow, shadow, or background. This is strictly an alpha-mask/background-removal edit of the attached photograph.",
+      "master": {
+        "path": "output/portrait-processed/2026-11-17-missing/ludwig-ahgren-master.png",
+        "sha256": "d5fd66e8aa5d0050a48bb578596c4e2b5efb7d6c87d289e4b0fed0303aaf58f7"
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "preflight": {
+          "ok": true,
+          "type": 7,
+          "slug": "ludwig-ahgren",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-missing/types/7s/ludwig-ahgren.webp",
+            "bytes": 44260,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-missing/types/7s/s-ludwig-ahgren.webp",
+            "bytes": 16260,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=7&portraitSlug=ludwig-ahgren#portrait-preflight"
+        },
+        "visualReview": "Reviewed full portrait, 480px thumbnail, 4:5 people-card crop, dark and light transparency edges, fixed eye-line guides, original-photo comparison, and desktop/mobile layouts."
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-missing/types/7s/ludwig-ahgren.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 44260,
+          "alpha": true,
+          "sha256": "54ba5644b3ae4319a3a1867ef902c48ba8aed2e63e373b5d4ae8318fd931347f"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-missing/types/7s/s-ludwig-ahgren.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16260,
+          "alpha": true,
+          "sha256": "cb2b840b36aeab5fde6401a6f48db0939b425658dd542c09f2453227fe86550f"
+        }
+      }
+    },
+    {
+      "slug": "james",
+      "name": "James Talarico",
+      "filename": "james-talarico",
+      "type": 1,
+      "color": "#6366f1",
+      "typeName": "Reformer",
+      "date": "2026-11-05",
+      "sourceFile": "james-selected.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jon_Ossoff_meets_James_Talarico.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jon_Ossoff_meets_James_Talarico.jpg",
+      "credit": "Senator Jon Ossoff’s office",
+      "license": "Public domain (U.S. Congress)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Congress",
+      "sourceCrop": {
+        "left": 730,
+        "top": 60,
+        "width": 650,
+        "height": 900
+      },
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Jon_Ossoff_meets_James_Talarico.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jon_Ossoff_meets_James_Talarico.jpg",
+        "credit": "Senator Jon Ossoff’s office",
+        "license": "Public domain (U.S. Congress)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Congress",
+        "path": "output/portrait-sources/2026-11-17-missing/james-selected.jpg",
+        "sha256": "5b89cbba185bb2ab08e1797c80f5606c2537230dfa7ca2ca409b9f7858fdf7a8",
+        "modifications": "Background removal using generated alpha intersected with native Apple Vision alpha over unchanged original photographed RGB; eye leveling; grayscale conversion; crop and scale; unchanged violet template; WebP encoding. Adaptation provided under the source license."
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-missing/james-composition-cutout.png",
+        "height": 1058,
+        "anchorX": 294.6756355687976,
+        "anchorY": 226.39296182124505,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": -25
+      },
+      "segmentation": {
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": true,
+        "nativeAlphaConstraint": true,
+        "alphaRegistration": {
+          "method": "eye_landmark_similarity",
+          "scale": 1.6387324378288035,
+          "angleRadians": 0.007465633645018094
+        },
+        "rotationClockwiseDegrees": 5.491958720171369
+      },
+      "prompt": "Remove the background from this existing real photograph, isolating only James Talarico, the smiling man centered in a dark suit with an open white shirt; remove the partial other man and handshake at the left edge. Return a transparent PNG with exactly the original canvas dimensions, aspect ratio, subject position, and subject scale. Preserve the complete visible hair, ears, neck, shoulders and clothing. Preserve the original face, expression, pose, skin texture, hair and clothing pixels. No face reconstruction, retouching, beautification, sharpening, invented details, relighting, repositioning, or replacement clothing. Keep clean natural hair and shoulder edges. Remove the environment only. Do not add any purple mark, text, border, outline, glow, shadow, or background. This is strictly an alpha-mask/background-removal edit of the attached photograph.",
+      "master": {
+        "path": "output/portrait-processed/2026-11-17-missing/james-talarico-master.png",
+        "sha256": "fcae465e60ef507d628754d4552457aa716374929d77907d611ad7effa08ad77"
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "preflight": {
+          "ok": true,
+          "type": 1,
+          "slug": "james-talarico",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-missing/types/1s/james-talarico.webp",
+            "bytes": 42160,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-missing/types/1s/s-james-talarico.webp",
+            "bytes": 13696,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=1&portraitSlug=james-talarico#portrait-preflight"
+        },
+        "visualReview": "Reviewed full portrait, 480px thumbnail, 4:5 people-card crop, dark and light transparency edges, fixed eye-line guides, original-photo comparison, and desktop/mobile layouts."
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-missing/types/1s/james-talarico.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 42160,
+          "alpha": true,
+          "sha256": "0622bcc26ee685dc4892fc8cce5ba38d245d134183bb0f443e9fbf5b5cef3c7e"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-missing/types/1s/s-james-talarico.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13696,
+          "alpha": true,
+          "sha256": "9ff05762104b70e5240c83b1afd2362c5e86548766683997431e1ae319094324"
+        }
+      }
+    },
+    {
+      "slug": "geoffrey",
+      "name": "Geoffrey Hinton",
+      "filename": "geoffrey-hinton",
+      "type": 1,
+      "color": "#6366f1",
+      "typeName": "Reformer",
+      "date": "2026-11-04",
+      "sourceFile": "geoffrey-source.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_2.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_2.jpg/1920px-Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_2.jpg",
+      "credit": "John Sears",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceCrop": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 2150
+      },
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_2.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_2.jpg/1920px-Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_2.jpg",
+        "credit": "John Sears",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "path": "output/portrait-sources/2026-11-17-missing/geoffrey-source.jpg",
+        "sha256": "5eb31438a4ca49ef24ed0c85a81517171d1c30f080fa289f4ec087a292c4f2b6",
+        "modifications": "Background removal using generated alpha intersected with native Apple Vision alpha over unchanged original photographed RGB; eye leveling; grayscale conversion; crop and scale; unchanged violet template; WebP encoding. Adaptation provided under the source license."
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-missing/geoffrey-composition-cutout.png",
+        "height": 1113,
+        "anchorX": 1067.8885734379292,
+        "anchorY": 854.3658244888641,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "segmentation": {
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": true,
+        "nativeAlphaConstraint": true,
+        "alphaRegistration": {
+          "method": "eye_landmark_similarity",
+          "scale": 0.6250306034367614,
+          "angleRadians": 0.0011847386775565572
+        },
+        "rotationClockwiseDegrees": -4.3868082171324065
+      },
+      "prompt": "Remove the background from this existing real photograph, isolating only Geoffrey Hinton, the silver-haired man in a dark suit and patterned tie; remove the chair, background lettering, and microphone outside his body silhouette. Return a transparent PNG with exactly the original canvas dimensions, aspect ratio, subject position, and subject scale. Preserve the complete visible hair, ears, neck, shoulders and clothing. Preserve the original face, expression, pose, skin texture, hair and clothing pixels. No face reconstruction, retouching, beautification, sharpening, invented details, relighting, repositioning, or replacement clothing. Keep clean natural hair and shoulder edges. Remove the environment only. Do not add any purple mark, text, border, outline, glow, shadow, or background. This is strictly an alpha-mask/background-removal edit of the attached photograph.",
+      "master": {
+        "path": "output/portrait-processed/2026-11-17-missing/geoffrey-hinton-master.png",
+        "sha256": "f7a83144582d16cc74756964950e3f605040f433bcece87ac6142d95cf9ca8a9"
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "preflight": {
+          "ok": true,
+          "type": 1,
+          "slug": "geoffrey-hinton",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-missing/types/1s/geoffrey-hinton.webp",
+            "bytes": 76086,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-missing/types/1s/s-geoffrey-hinton.webp",
+            "bytes": 16076,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=1&portraitSlug=geoffrey-hinton#portrait-preflight"
+        },
+        "visualReview": "Reviewed full portrait, 480px thumbnail, 4:5 people-card crop, dark and light transparency edges, fixed eye-line guides, original-photo comparison, and desktop/mobile layouts."
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-missing/types/1s/geoffrey-hinton.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 76086,
+          "alpha": true,
+          "sha256": "f7551e53cc436aa54bbe538393aeb202ac3765e60a5159115646ceb799b757d1"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-missing/types/1s/s-geoffrey-hinton.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16076,
+          "alpha": true,
+          "sha256": "f7c3e4bfc1ed347c5d0c1f66fc805ed76e25dc4a5c6d95094c5ad74cd646af86"
+        }
+      }
+    }
+  ],
+  "review": {
+    "url": "http://127.0.0.1:8919/",
+    "darkScreenshot": "output/portrait-preflight/2026-11-17-missing/preview-dark.jpg",
+    "lightAlignmentScreenshot": "output/portrait-preflight/2026-11-17-missing/preview-light-guides.jpg",
+    "mobileScreenshot": "output/portrait-preflight/2026-11-17-missing/preview-mobile.jpg",
+    "desktopWidth": 1320,
+    "mobileWidth": 390,
+    "brokenImages": 0,
+    "horizontalOverflow": false,
+    "consoleErrors": 0,
+    "sourceComparisonChecked": true
+  }
+}
