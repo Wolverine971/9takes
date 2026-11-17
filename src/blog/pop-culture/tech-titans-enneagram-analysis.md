@@ -74,9 +74,9 @@ This series maps those patterns. Not as gossip. As intelligence.
 | [Sergey Brin](/personality-analysis/sergey-brin)                   | Type 5 - Investigator  | Google                  | Restless technical play           |
 | [Sam Bankman-Fried](/personality-analysis/sam-bankman-fried)       | Type 5 - Investigator  | FTX                     | Systems without ethics            |
 | [Jack Dorsey](/personality-analysis/jack-dorsey)                   | Type 5 - Investigator  | Twitter, Block          | Minimalist systems                |
-| [Dario Amodei](/personality-analysis/dario-amodei)                 | Type 5 - Investigator  | Anthropic               | Rigorous safety                   |
 | [Peter Thiel](/personality-analysis/peter-thiel)                   | Type 6 - Loyalist      | Palantir, Founders Fund | Contrarian threat detection       |
 | [David Sacks](/personality-analysis/david-sacks)                   | Type 6 - Loyalist      | Craft Ventures          | Loyalty networks                  |
+| [Dario Amodei](/personality-analysis/dario-amodei)                 | Type 6 - Loyalist      | Anthropic               | Safety through binding rules      |
 | [Jeff Bezos](/personality-analysis/jeff-bezos)                     | Type 8 - Challenger    | Amazon                  | Dominance through logistics       |
 | [Reed Hastings](/personality-analysis/reed-hastings)               | Type 8 - Challenger    | Netflix                 | Confrontational disruption        |
 | [Travis Kalanick](/personality-analysis/travis-kalanick)           | Type 8 - Challenger    | Uber                    | Unrestrained aggression           |
@@ -86,9 +86,9 @@ This series maps those patterns. Not as gossip. As intelligence.
 
 ### 1. [The AI Wars: Who Gets to Build God?](/pop-culture/tech-titans-ai-wars)
 
-**Cast**: Sam Altman (Type 4) vs Dario Amodei (Type 5) vs Elon Musk (Type 5)
+**Cast**: Sam Altman (Type 4) vs Dario Amodei (Type 6) vs Elon Musk (Type 5)
 
-The most consequential technology in human history is being built by three men who fundamentally cannot agree, not because they see different data, but because they ARE different people. A Type 4 who needs to be the one who does it. A Type 5 who needs to contain it. Another Type 5 who needs to own it. The Altman-Amodei split at OpenAI may be the most important personality collision in tech history.
+The most consequential technology in human history is being built by three men who fundamentally cannot agree, not because they see different data, but because they ARE different people. A Type 4 who needs to be the one who does it. A Type 6 who needs to make it safe. A Type 5 who needs to own it. The Altman-Amodei split at OpenAI may be the most important personality collision in tech history.
 
 ### 2. [The Platform Emperors: How Personality Types Shape the Products Billions Use](/pop-culture/tech-titans-platform-emperors)
 
@@ -136,13 +136,13 @@ Fraud is not a personality type. It is what happens when a founder's type runs w
 
 Here's what emerges when you map the expanded set:
 
-**Type 5s run the cognitive layer.** Musk, Zuckerberg, Nadella, Gates, Page, Brin, Dorsey, SBF, and Amodei all treat the world as a system to decode. The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate. The people building the future are often the people most detached from the present.
+**Type 5s run the cognitive layer.** Musk, Zuckerberg, Nadella, Gates, Page, Brin, Dorsey, and SBF all treat the world as a system to decode. The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate. The people building the future are often the people most detached from the present.
 
 **Type 3s sell the future into existence.** Huang, Chesky, Holmes, and Neumann all show the achievement engine at different levels of integration. With a real product, the 3 makes a market believe. Without one, the 3 makes the costume keep performing after the substance runs out.
 
 **Type 8s disrupt everything.** The three biggest industry disruptions (retail, entertainment, transportation) were all led by 8s. When you need to break something, you need a type that doesn't flinch.
 
-**Type 6s fund everything.** The two most influential tech investors/advisors (Thiel, Sacks) are both 6s. The types most attuned to threat and loyalty are the ones deciding which futures get funded.
+**Type 6s fund everything.** The two most influential tech investors/advisors (Thiel, Sacks) are both 6s. The types most attuned to threat and loyalty are the ones deciding which futures get funded. Amodei is the 6 who builds instead of funding, and he built Anthropic around rules that bind his own company.
 
 **Types 2, 7, and most of 9 are absent.** The helpers, the enthusiasts, and the peacemakers are almost entirely missing from tech leadership. The industry selects for analytical and dominant types, and the products reflect it.
 
@@ -155,6 +155,6 @@ Understanding these types isn't gossip. It's the operating manual for how the fu
 - **The All-In Podcast as Enneagram Lab**: Sacks (6), Chamath (3), Calacanis (3), Friedberg (5). Four types debating the future of tech in real-time. Their recurring disagreements map perfectly to their personality types.
 - **Tech Wives and Partners**: Priscilla Chan (Zuckerberg), Lauren Sanchez (Bezos), [Grimes](/personality-analysis/grimes) (Musk). Do tech titans' relationship patterns reveal their type dynamics?
 - **The Loneliness of the Tech Titan**: Altman, Musk, and Zuckerberg all describe feeling misunderstood. Is that a function of power, personality type, or both?
-- **AI Alignment as a Personality Problem**: Safety strategies differ because the PEOPLE proposing them differ. A 4's safety is "the right person leads." A 5's safety is "deep understanding first." An 8's safety is "I need leverage."
+- **AI Alignment as a Personality Problem**: Safety strategies differ because the PEOPLE proposing them differ. A 4's safety is "the right person leads." A 5's safety is "deep understanding first." A 6's safety is "rules that bind everyone, us included." An 8's safety is "I need leverage."
 - **[Musk vs Altman in Court](/pop-culture/musk-vs-altman-trial-personality-dynamics)**: A Type 5 and a Type 4 fought over OpenAI's founding promise. The jury only decided that Musk waited too long to sue.
 - **The Missing Types**: Where are the 2s, 7s, and most 9s in tech leadership? Their absence shapes what gets built and, more importantly, what doesn't.

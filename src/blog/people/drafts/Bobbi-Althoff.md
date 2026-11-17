@@ -37,7 +37,7 @@ keywords:
   - 'Bobbi Althoff enneagram'
   - 'Bobbi Althoff type 4'
   - 'Bobbi Althoff personality'
-  - 'Bobbi Althoff 4w5'
+  - 'Bobbi Althoff 4w3'
   - 'Individualist enneagram'
   - 'Bobbi Althoff Drake interview'
   - 'Really Good Podcast'
@@ -68,15 +68,21 @@ citations:
   - 'https://variety.com/2026/tv/reviews/the-secret-lives-of-mormon-wives-orange-county-review-hulu-1236938899/'
   - 'https://www.elitedaily.com/entertainment/bobbi-althoff-mccall-dapron-slomw-oc-cut-scenes-interview'
   - 'https://www.usmagazine.com/entertainment/news/bobbi-althoff-reveals-what-was-cut-from-mormon-wives-oc/'
+  - 'https://www.xxlmag.com/drake-bobbi-althoff-horrible-parenting-interview/'
+  - 'https://www.xxlmag.com/drake-interview-bobbi-althoff/'
+  - 'https://capitalxtra.com/news/why-did-drake-unfollow-bobbi-althoff/'
+  - 'https://www.cinemablend.com/streaming-news/secret-lives-of-mormon-wives-oc-bobbi-althoff-very-real-why-joined-show'
+  - 'https://www.tmz.com/2026/05/10/bobbi-althoff-netflix-is-a-joke/'
+  - 'https://www.bustle.com/entertainment/the-really-good-podcast-bobbi-althoff-drake-interview-viral'
 faqs:
   - question: "What is Bobbi Althoff's personality type?"
-    answer: "Bobbi Althoff is an Enneagram Type 4 (The Individualist), most likely a 4w5. The core emotion is shame, and her own vocabulary carries it. She told Rainn Wilson in 2024 that she 'hated who I was as a person' and believed she would 'never find my place in this world.' Her deadpan podcast character is built from the traits she was ashamed of, which is the Type 4 move of turning a felt defect into an identity."
+    answer: "Bobbi Althoff is an Enneagram Type 4 (The Individualist) with a Three wing (4w3). The core emotion is shame, and her own vocabulary carries it. She told Rainn Wilson in 2024 that she 'hated who I was as a person' and believed she would 'never find my place in this world.' Her deadpan podcast character is built from the traits she was ashamed of, which is the Type 4 move of turning a felt defect into an identity."
     anchor: 'what-is-bobbi-althoffs-personality-type'
   - question: 'Why is Bobbi Althoff so awkward on her podcast?'
     answer: "It is a character, and she says so. She told Rolling Stone in 2024 that 'Podcast Bobbi owns her discomfort,' and told Rainn Wilson the character is 'a way of coping' with feeling that she does not fit in any room. She says she had not watched Between Two Ferns or Chicken Shop Date before starting. Her models were The Office and Modern Family. Off camera she describes social anxiety."
     anchor: 'the-persona-as-transformation'
   - question: 'What happened between Bobbi Althoff and Drake?'
-    answer: "Their July 2023 in-bed interview went viral, then came down in August 2023, and the two unfollowed each other. Her marriage was ending at the same time (the divorce filing lists a July 4, 2023 separation), and affair rumors followed, which she denied. On September 2, 2025 they reconciled on her podcast Not This Again. Drake said, 'You made me feel like our interview was the reason your life was bad.' She said she had let the comments convince her the interview 'was the end of my life.'"
+    answer: "Their July 2023 in-bed interview went viral. In August 2023 she posted a stone-faced clip from his Los Angeles concert captioned 'Really in my element here @ this guys concert,' the two unfollowed each other, and the interview came down. Drake later dated their 'tiff' to that concert. Her marriage was ending at the same time (the divorce filing lists a July 4, 2023 separation), and affair rumors followed, which she denied. On September 2, 2025 they reconciled on her podcast Not This Again. Drake said, 'You made me feel like our interview was the reason your life was bad.' She said she had let the comments convince her the interview 'was the end of my life.'"
     anchor: 'the-drake-interview-that-changed-everything'
   - question: 'Did Bobbi Althoff really attempt suicide at 14?'
     answer: "Yes, by her own account. On Rainn Wilson's Soul Boom podcast in December 2024 she said her mother found her 'hours later' in her bedroom and her parents took her to the hospital. She spent a week in intensive care and then lived with her brother for a time. She says her daughters are the reason she stays: 'Well, you can't do that to them.' If you are struggling, call or text 988 in the US."
@@ -105,6 +111,8 @@ production_pretext:
 
 She built the woman who did that. On Rainn Wilson's _Soul Boom_ podcast in December 2024 she said that before TikTok she "hated who I was as a person," and that the deadpan interviewer came from leaning into the parts of herself she was most ashamed of.
 
+So the awkwardness is a character, and she says so. "Podcast Bobbi owns her discomfort," she told Rolling Stone in 2024. Off camera, by her own account, she's the quiet one in the corner.
+
 The trade has a condition. The character works when Bobbi holds the edit. Onstage in 2024 and on a Hulu reality show in 2026, somebody else held it, and both times the anxious person the character was built to protect is the one who showed up.
 
 <details>
@@ -115,7 +123,8 @@ The trade has a condition. The character works when Bobbi holds the edit. Onstag
 <li>The deadpan character is that shame turned inside out. She stopped hiding the awkwardness and made it the act.</li>
 <li>The mood runs deep and started early: depression from childhood, a suicide attempt at 14, and postpartum depression after both daughters.</li>
 <li>Her complaint about <em>Mormon Wives: Orange County</em> was a Four's complaint: the footage that explained her got cut.</li>
-<li>What complicates the read: she takes comfort in being ordinary, and her anxiety and worst-case thinking could point to Type 6.</li>
+<li>The Three wing shows in the hustle: a $300 bounty for guests, a cold DM to Drake, and a reality show she joined, in her words, for "more exposure to make more money."</li>
+<li>What complicates the read: her social anxiety and worst-case thinking could point to Type 6.</li>
 </ul>
 </div>
 </details>
@@ -124,13 +133,15 @@ The trade has a condition. The character works when Bobbi holds the edit. Onstag
 
 ### Bobbi Althoff is an Enneagram Type 4 (The Individualist)
 
-Bobbi Althoff is an [Enneagram Type 4](/enneagram-corner/enneagram-type-4), most likely a 4w5. Fours sit in the heart triad, where the core emotion is shame, and they answer it by building an identity out of whatever makes them feel defective. Her deadpan character is made from the traits she says she used to hide.
+Bobbi Althoff is an [Enneagram Type 4](/enneagram-corner/enneagram-type-4), with a Three wing (4w3). Fours sit in the heart triad, where the core emotion is shame, and they answer it by building an identity out of whatever makes them feel defective. Her deadpan character is made from the traits she says she used to hide.
 
 The evidence is in her vocabulary. Across interviews she reaches for the same handful of words: ashamed, embarrassed, humiliated, outcast. On the _Soul Boom_ podcast in 2024 she said that for most of her life "I tried to hide everything," from growing up poor to going to community college.
 
 A Type 3 feels the same shame and keeps hiding. Bobbi stopped hiding and put the flaw on camera. "It's taking the things that I was once so ashamed of and embracing them," she told Rainn Wilson in that 2024 podcast interview.
 
-Her version of the type is a quiet one. The humor is dry and withholding, and the silence on her show is something she controls. A louder Four would cry on camera for effect. Bobbi's character barely blinks.
+Her version of the type is quiet on camera and ambitious off it. The humor is dry and withholding, and the silence on her show is something she controls. A louder Four would cry on camera for effect. Bobbi's character barely blinks.
+
+The Three wing is the part that wants the act to win. She paid a bounty for her first guests, cold-messaged Drake, and pitched Netflix a stand-up set she had never done. The character looks like it doesn't care. The woman running it cares a lot about whether it works.
 
 ## The making of a deadpan queen: Bobbi's turbulent childhood
 
@@ -190,11 +201,21 @@ Vox's Alex Abad-Santos described the result as "unfazed, dry, bored in an ironic
 
 ### July 2023: in bed with Drake
 
-The episode worked because of the mismatch. One of the most famous rappers alive did his usual charm, and the woman beside him answered like she was waiting for a bus. Clips spread across TikTok within days. Shaquille O'Neal and Mark Cuban were on the show within months.
+The episode worked because of the mismatch. One of the most famous rappers alive did his usual charm, and the woman beside him answered like she was waiting for a bus. She told him she had "never heard a Drake song." Near the end she mentioned she had flown in on her daughter's first birthday.
+
+"You missed your daughter's first birthday to be here? Dark," Drake said. "A regret that you'll never be able to undo. Horrible parenting."
+
+She asked him where his son was.
+
+"Somewhere safe, and it's not his birthday."
+
+When he offered to buy her flight home, she asked if it would be nonstop. Drake assumed she was finally quoting one of his songs. "No. What song?" she said. Clips spread across TikTok within days. Shaquille O'Neal and Mark Cuban were on the show within months.
 
 ### The deletion
 
-In August 2023 the interview vanished from her channel and the two unfollowed each other. Neither explained it.
+In August 2023 she went to Drake's It's All a Blur tour stop in Los Angeles and posted a clip of herself standing stone-faced while her friends danced around her. The caption: "Really in my element here @ this guys concert."
+
+Within days the two had unfollowed each other and the interview was gone from her channel. Neither explained it.
 
 Her marriage was ending in the same weeks. When Cory filed for divorce in February 2024, the paperwork listed their separation date as July 4, 2023. The internet connected the two events and decided she had slept with Drake. She denied it flatly on Instagram in July 2024: "I have never slept with someone I interviewed."
 
@@ -202,17 +223,19 @@ Her marriage was ending in the same weeks. When Cory filed for divorce in Februa
 
 On September 2, 2025, Bobbi launched a new show, _Not This Again_, with Drake as the first guest. She asked him why he had hated her.
 
-"I never hated you, Bobbi," he said. "I think that I took a lot of the weight and blame at that time when you needed to get a little active on somebody." Then he gave the reason the video came down.
+"I never hated you, Bobbi," he said. "I think that I took a lot of the weight and blame at that time when you needed to get a little active on somebody." He traced their "tiff" to the night she came to his Los Angeles show, then gave the reason the video came down.
 
 > "You made me feel like our interview was the reason your life was bad. So I just said I'm gonna get rid of the interview and you won't ever have to see it again a day in your life."
 
 She conceded the point. "I think I let a lot of those comments influence me when that interview happened, to be like, 'Oh maybe this was the end of my life,'" she said. "But actually it was single-handedly probably the best thing to ever happen to me and my kids."
 
-Read the exchange plainly.
+Here is what the record shows.
 
-Her marriage was over by the separation date on the filing. Strangers told her the interview had wrecked her family, she half believed them, and she turned on the person standing closest. Drake deleted his own viral moment so she would feel better. That was a real cost to someone else, and it took her two years to say so.
+The concert clip was the character doing its job: unimpressed, in the room of the man who had just made her famous. It was a bit. It was also aimed at him, at his own show, in the month her marriage ended. Everything after that comes from Drake's side. He says she made him feel the interview had wrecked her life, and that he pulled it so she wouldn't have to look at it.
 
-This is the unflattering side of a Four under pressure. When the shame gets loud it needs somewhere to land, and it lands on whoever is nearby.
+She didn't dispute it. She conceded it, two years later, in front of him.
+
+That is the unflattering side of a Four under pressure. When the shame gets loud it looks for a cause outside, and the nearest one was the interview and the man in it.
 
 ## The persona as transformation
 
@@ -236,7 +259,9 @@ Both can be true. A character built on withholding is hard to project to the bac
 
 The second limit is who the character gets pointed at. In October 2023 a preview clip showed her warmly fixing Scarlett Johansson's hair, and critics on X argued that the frozen routine was reserved for her Black guests. Newsweek covered the reaction as a debate about race. Rolling Stone noted she was also "criticized for taking up interview opportunities Black hip-hop journalists could have done better."
 
-Her standing defense is that the guests are collaborators. "100% of my guests so far have been in on the joke," she told Variety. That settles whether she ambushes people. Why the joke ran colder with some guests than with others is a separate question, and the Variety interview doesn't take it up.
+Her standing defense is that the guests are collaborators. "100% of my guests so far have been in on the joke," she told Variety. That answers whether she ambushes people. The critics were asking who got the warm version, and on that point they have the better case. Her defense doesn't touch it.
+
+Her own history explains the pattern without excusing it. This is a woman who says she won't walk into a room unless she feels invited, and in 2023 she walked into hip-hop's biggest rooms as an outsider: Drake, then Lil Yachty, YG and Offset. The character is what she wears where she feels she doesn't belong. When it slipped, it slipped for a white movie star, and viewers noticed who got the armor and who got the warmth.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Bobbi Althoff</summary>
@@ -244,13 +269,23 @@ Her standing defense is that the guests are collaborators. "100% of my guests so
 
 <p><em>For Enneagram readers going deep on Bobbi Althoff. Skip it if you're here for the story.</em></p>
 
-### Bobbi Althoff's wing: 4w5
+### Why not Type 6 or Type 3?
 
-She reads as a 4w5, the Four with a Five <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 4w3 would push toward glamour and a polished personal myth. Bobbi's signature is colder: silence, a blank stare, and the sense that she is watching the room from one step outside it. The Five wing also explains how she can describe the worst day of her life in an even voice.
+Type 6 is the strongest rival. She has social anxiety, scans faces for reactions, and admits to worst-case spirals about her daughters being at their father's house during a disaster. Poking at powerful celebrities could pass for a counterphobic Six testing authority. What tips it back is the emotion underneath. A Six's stories are about danger and trust. Hers are about being embarrassing.
+
+Type 3 has a case in the hustle, and it's the reason her wing is Three. But a Three hides the flaw to win. Bobbi built the act out of the flaw. And when _Mormon Wives_ aired, her complaint wasn't screen time. It was that the explanation of who she is got cut.
+
+### Bobbi Althoff's wing: 4w3
+
+She reads as a 4w3, the Four with a Three <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. The Three wing wants the work to win, and Bobbi hustles. She offered strangers $300 to connect her to a celebrity, cold-messaged Drake, pitched Netflix a stand-up set she had never done, and signed on to a reality show. Her "not PR answer" for joining Hulu was exposure and money. Her farewell to the podcast thanked it for the house and the car.
+
+When _Not This Again_ underperformed, she called it "a little embarrassing." That is shame about a scoreboard, which is the Three wing talking.
+
+The case for 4w5 is the deadpan itself: the blank stare, and the sense that she's watching the room from one step outside it. But that's the character. The woman playing it keeps pitching new rooms.
 
 ### Instinctual subtype: social first
 
-Her wound is social. The language is about lunch tables, rooms she wasn't invited into, and being an outcast, which fits a social-dominant <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>. Self-preservation shows up second, in the small rooms she prefers to work in and in how plainly she talks about money. Her 2025 farewell to the podcast thanked it for the house and the car.
+Her wound is social. The language is about lunch tables, rooms she wasn't invited into, and being an outcast, which fits a social-dominant <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>. Self-preservation shows up second, in the small rooms she prefers to work in and in how plainly she talks about money.
 
 ### Stress and growth arrows
 
@@ -258,13 +293,7 @@ Under stress a Four moves toward Two and starts managing other people's feelings
 
 In growth a Four moves toward One, which looks like structure. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in her choices since the divorce: therapy, quitting drinking, a rule against reading comment sections, and a cast agreement to stay out of online feuds with each other.
 
-### Why not Type 6 or Type 5?
-
-Type 6 is the strongest rival. She has social anxiety, scans faces for reactions, and admits to worst-case spirals about her daughters being at their father's house during a disaster. Poking at powerful celebrities could pass for a counterphobic Six testing authority. What tips it back is the emotion underneath. A Six's stories are about danger and trust. Hers are about being embarrassing.
-
-Type 5 has a case in the distance and the observer's stance. A Five guards privacy and competence, though, and Bobbi publishes her most humiliating material on purpose.
-
-One line cuts against Four outright. She told Wilson that "no one's unique" and that "there's a million more of you," and described that realization as what got her out of her own head. Fours are supposed to cling to being unlike everyone else. Her relief at being ordinary suggests the pull was always toward belonging, with specialness as the consolation prize.
+The clearest growth sign is a line that sounds anti-Four. She told Wilson that "no one's unique" and that "there's a million more of you," and called that realization what got her out of her own head. For a Four, that is the breakthrough: learning you are not uniquely broken.
 
 </div>
 </details>
@@ -303,17 +332,23 @@ Then she walked toward the two formats where she has the least control.
 
 She pitched Netflix a stand-up set for its comedy festival in May 2026, having never done stand-up. "I'm not equipped for this whatsoever," she told Elle beforehand. She did it anyway, two years after a tour partner called her stiff.
 
-And she joined Hulu's _The Secret Lives of Mormon Wives: Orange County_, the California spinoff of the Utah series that starred [Taylor Frankie Paul](/personality-analysis/taylor-frankie-paul). It premiered on November 12, 2026.
+The one part of _Bobbi Althoff Tries Standup_ that went public was a crowd bit. TMZ's video shows her running a twerk-off for a $500 prize, with a castmate jumping in from the audience. It's a fair workaround for the problem Funny Marco named. When a withholding character can't fill a theater, give the room something else to watch.
+
+TMZ's video also caught a camera crew in the wings. Even the stand-up set she had pitched herself ended up as footage in someone else's show.
+
+She joined Hulu's _The Secret Lives of Mormon Wives: Orange County_, the California spinoff of the Utah series that starred [Taylor Frankie Paul](/personality-analysis/taylor-frankie-paul). It premiered on November 12, 2026.
 
 ### Is she even Mormon?
 
 No, and she said so before it aired. "I am not Mormon," she posted in September 2026, "but I do have a Mormon brother. And I grew up going to Mormon church, like, twice." Variety's review noted that her brother converted as an adult and guessed she was cast for her online following.
 
+She didn't pretend otherwise. Asked by ET why she joined, she gave two answers: "My PR answer would be, like, friendships, and my not PR answer would be more exposure to make more money."
+
 Executive producer Jeff Jenkins framed her as the skeptic, telling TheWrap that "Bobbi is anti-religion." Her own description of what she believes is softer: "something bigger than me that can hear my thoughts."
 
 ### What she said after watching it
 
-Her most visible storyline was a feud with castmate McCall DaPron, a practicing member of the church, that sharpened after DaPron criticized her comedy set. Bobbi's read on it afterward, to Elite Daily: "I judged her early on and had my guard up because I thought she thought I was weird. I was projecting my insecurities on her."
+Her most visible storyline was a feud with castmate McCall DaPron, a practicing member of the church. It sharpened after DaPron criticized that stand-up set, so the night she was most exposed became the engine of her plot. Bobbi's read on it afterward, to Elite Daily: "I judged her early on and had my guard up because I thought she thought I was weird. I was projecting my insecurities on her."
 
 That is the Drake pattern again, on a shorter clock. With Drake it took her two years to name. With DaPron it took one season, and she now says she wants to help with "McCall's redemption arc."
 
@@ -329,7 +364,15 @@ Another personality would have complained about screen time, and she did call he
 
 She told Us Weekly in November 2026 that she hopes a second season helps "people understand me better." Then she added the line no edit could improve: "But I'm not even sure I understand myself."
 
-At 14 she wrote a note so that everyone would finally know how she felt. At 29 she is still working on that sentence. Now she has two daughters, a therapist, and an audience that keeps showing up to hear it.
+<!-- REVISION LEDGER 2026-11-17 (DJ-approved feedback pass)
+Wing: 4w5 -> 4w3 (DJ call). Evidence: $300 bounty, cold DM to Drake, Netflix stand-up pitch, ET "not PR answer ... more exposure to make more money" (via CinemaBlend 2026-05-15), podcast farewell thanking it for house + car, "a little embarrassing" on Not This Again. Keywords + FAQ updated. "Why not" now first in the Rabbit Hole; Type 5 rival swapped for Type 3.
+"No one's unique" moved from counter-evidence to the growth-arrow (Four -> One) paragraph.
+Drake: added 2023 exchanges (XXL 2023-07-20: birthday/"Dark"/"Horrible parenting"/"Somewhere safe"; "No. What song?" nonstop; Bustle: "never heard a Drake song"). Deletion now sourced to the Aug 2023 concert clip, caption "Really in my element here @ this guys concert" (Capital Xtra), which Drake tied to the "tiff" (Billboard CA 2025-09-02). Verdict rewritten: concert clip = what she did; the rest is Drake's account, which she conceded. Dropped "real cost to someone else".
+Race: committed. Critics have the better case on who got the warm version; her Variety defense answers a different charge. RS AU (2025-09-03) for Lil Yachty/YG/Offset.
+Stand-up payoff: TMZ 2026-05-10 (twerk-off, $500 prize, castmate Madison Bontempo, camera crew in the wings); Elite Daily 2026-11-13 ties DaPron feud to her criticizing the set. No review of the set found.
+Intro: "Podcast Bobbi owns her discomfort" moved up to answer the meta-title question early.
+Close: cut the "At 14 she wrote a note..." paragraph; ends on "But I'm not even sure I understand myself."
+-->
 
 <!-- REFRESH LEDGER 2026-11-13
 Trigger: Hulu's The Secret Lives of Mormon Wives: Orange County premiered 2026-11-12 with Althoff in the cast; page last touched 2025-12-09. DJ asked for a currency + writing-quality check.

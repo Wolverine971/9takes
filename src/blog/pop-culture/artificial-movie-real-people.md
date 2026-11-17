@@ -27,9 +27,9 @@ picGroup:
   - image: '/types/5s/Elon-Musk.webp'
     text: 'Elon Musk'
     enneagramType: 5
-  - image: '/types/5s/Dario-Amodei.webp'
+  - image: '/types/6s/Dario-Amodei.webp'
     text: 'Dario Amodei'
-    enneagramType: 5
+    enneagramType: 6
 path: src/blog/pop-culture/artificial-movie-real-people.md
 ---
 
@@ -79,7 +79,7 @@ path: src/blog/pop-culture/artificial-movie-real-people.md
           "name": "What Enneagram types are the real people in Artificial?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "9takes reads Sam Altman as a Type 4, Mira Murati as a Type 9, and Elon Musk and Dario Amodei as Type 5s. Its Ilya Sutskever profile favors Type 5 at medium confidence, with Type 6 as the strongest alternative. Those typings come from each person's own words and documented actions, never from an actor's performance. 9takes has not published analyses of Greg Brockman or Geoffrey Hinton."
+            "text": "9takes reads Sam Altman as a Type 4, Mira Murati as a Type 9, Elon Musk as a Type 5, and Dario Amodei as a Type 6. Its Ilya Sutskever profile favors Type 5 at medium confidence, with Type 6 as the strongest alternative. Those typings come from each person's own words and documented actions, never from an actor's performance. 9takes has not published analyses of Greg Brockman or Geoffrey Hinton."
           }
         }
       ]
@@ -119,7 +119,7 @@ The film builds its story around those two men. Here is everyone involved, and w
 | Cooper Hoffman                                           | Greg Brockman, president and board chair, who quit                             | Not yet typed                                                     |
 | Ike Barinholtz                                           | Elon Musk, co-founder and early funder                                         | [Type 5](/personality-analysis/elon-musk)                         |
 | Mark Rylance                                             | Geoffrey Hinton, Sutskever's doctoral advisor                                  | Not yet typed                                                     |
-| Not yet listed                                           | Dario Amodei, who left OpenAI in 2020 and founded Anthropic                    | [Type 5](/personality-analysis/dario-amodei)                      |
+| Not yet listed                                           | Dario Amodei, who left OpenAI in 2020 and founded Anthropic                    | [Type 6](/personality-analysis/dario-amodei)                      |
 
 The cast also includes Jason Schwartzman, Chris O'Dowd, Fedor Fedotov, Cooper Koch, Billie Lourd, Zosia Mamet, Angus Imrie, Nicholas Hamilton, Thaddea Graham, Will Angus, and Will Price. Public listings haven't matched most of them to characters.
 
@@ -221,7 +221,7 @@ In May 2023, Hinton left Google so he could "talk about the dangers of AI withou
 
 ### Dario Amodei walked out over safety
 
-In December 2020, three years before the firing, OpenAI's VP of research Dario Amodei left over how seriously the company was treating safety. Several colleagues followed, including his sister Daniela, and in 2021 they founded Anthropic. In Deadline's summary of the film, he is one of the early supporters who "fall away." 9takes reads him as [another Type 5](/personality-analysis/dario-amodei).
+In December 2020, three years before the firing, OpenAI's VP of research Dario Amodei left over how seriously the company was treating safety. Several colleagues followed, including his sister Daniela, and in 2021 they founded Anthropic. In Deadline's summary of the film, he is one of the early supporters who "fall away." 9takes reads him as a [Type 6](/personality-analysis/dario-amodei), the Loyalist: he argues from inside until trust breaks, then leaves with people he has tested.
 
 Anthropic shows up in the board crisis too. Toner had co-written a paper that cast Anthropic's safety approach more favorably than OpenAI's. She later alleged that Altman "started lying to other board members in order to try and push me off the board" over it. OpenAI's new board rejected her account.
 
@@ -249,6 +249,6 @@ Then read the real people before the movie tells you who they are:
 - [Mira Murati, Type 9](/personality-analysis/mira-murati): the weekend she ran OpenAI and the company she built after
 - [Elon Musk, Type 5](/personality-analysis/elon-musk): the co-founder who left, sued, and lost on the calendar
 - [Satya Nadella, Type 5](/personality-analysis/satya-nadella): the investor who had a plan for either outcome
-- [Dario Amodei, Type 5](/personality-analysis/dario-amodei): the first researcher to walk out over safety
+- [Dario Amodei, Type 6](/personality-analysis/dario-amodei): the first researcher to walk out over safety
 - [Andrew Garfield, Type 4](/personality-analysis/andrew-garfield): the actor playing Altman, read from his own record
 - [The AI Wars](/pop-culture/tech-titans-ai-wars): how four founders' types shape the race itself

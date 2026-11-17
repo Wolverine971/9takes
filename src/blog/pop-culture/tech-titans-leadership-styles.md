@@ -150,7 +150,7 @@ That's not just corporate drama. That's the archetypal Type 4 narrative: the mis
 
 4s create intensity around themselves. Sometimes that intensity inspires. Sometimes it becomes a liability. The drama isn't incidental to 4 leadership. It's _structural_. A 4's need for significance generates conflict because significance requires stakes, and stakes require adversaries.
 
-Compare Altman's exit to [Dario Amodei](/personality-analysis/dario-amodei)'s. Same organization. Amodei faced his own breaking point at OpenAI and quietly built Anthropic without a press cycle. A 5 doesn't need the narrative. A 4 can't survive without it.
+Compare Altman's exit to [Dario Amodei](/personality-analysis/dario-amodei)'s. Same organization. Amodei's breaking point at OpenAI was trust, and once it broke he left, taking six colleagues with him, his sister among them, to build Anthropic. A 6 leaves with his people. A 4 can't leave the center of the story.
 
 ### The Rarest Type in Tech Leadership
 
@@ -162,7 +162,7 @@ This rarity matters. When a 4 leads a technology company, the company develops a
 
 ### Musk, Zuckerberg, Nadella, Gates, Dorsey
 
-Five of the leaders profiled here are Type 5s, the largest single-type cluster in this analysis, and that's before counting [Larry Page](/personality-analysis/larry-page) and [Sergey Brin](/personality-analysis/sergey-brin) (both 5s, the founders Pichai inherited Google from) or [Dario Amodei](/personality-analysis/dario-amodei), who left OpenAI to quietly build Anthropic without a press cycle. The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate. Across every company builder 9takes has profiled, Fives are [the most over-represented type among CEOs](/enneagram-corner/what-enneagram-type-are-most-ceos).
+Five of the leaders profiled here are Type 5s, the largest single-type cluster in this analysis, and that's before counting [Larry Page](/personality-analysis/larry-page) and [Sergey Brin](/personality-analysis/sergey-brin) (both 5s, the founders Pichai inherited Google from). The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate. Across every company builder 9takes has profiled, Fives are [the most over-represented type among CEOs](/enneagram-corner/what-enneagram-type-are-most-ceos).
 
 This isn't coincidence. The industry was BUILT by people whose core drive is understanding and mastering systems. The entire culture of Silicon Valley reflects 5 values: intellectual rigor, systems-thinking, emotional detachment, first-principles reasoning. If you're a 5, tech is the one industry where your personality type IS the culture.
 
@@ -206,7 +206,7 @@ The collapse case is [Sam Bankman-Fried](/personality-analysis/sam-bankman-fried
 
 ### Jensen Huang, Peter Thiel, and David Sacks
 
-Type 6 leaders build for the threat they assume is already approaching. [Jensen Huang](/personality-analysis/jensen-huang) carries that vigilance into the CEO chair; [Peter Thiel](/personality-analysis/peter-thiel) and [David Sacks](/personality-analysis/david-sacks) deploy it through capital, networks, and political influence.
+Type 6 leaders build for the threat they assume is already approaching. [Jensen Huang](/personality-analysis/jensen-huang) carries that vigilance into the CEO chair; [Peter Thiel](/personality-analysis/peter-thiel) and [David Sacks](/personality-analysis/david-sacks) deploy it through capital, networks, and political influence. [Dario Amodei](/personality-analysis/dario-amodei) builds it into Anthropic: rules that bind his own company, and a co-founder group he left OpenAI with.
 
 Huang still describes NVIDIA as perpetually close to failure. His flat information system, dozens of direct reports, and constant sampling of employee "top five" emails are designed to keep bad news from being filtered out before it reaches him. Selling GPUs to competing AI labs is not merely achievement optimization. It is a Type 6 hedge: NVIDIA does not need to guess the winner if every plausible winner depends on its infrastructure.
 

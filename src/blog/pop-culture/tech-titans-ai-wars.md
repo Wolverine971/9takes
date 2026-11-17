@@ -1,7 +1,7 @@
 ---
 title: 'The AI Wars: Why Personality Types Determine Who Gets to Build God'
 meta_title: 'Sam Altman vs Dario Amodei vs Elon Musk Enneagram Types'
-description: "A Type 4 who needs to be the one. A Type 5 who needs to contain it. Another Type 5 who needs to own it. A third Type 5 who needs to be the platform. The AI race isn't about technology. It's about four men's psychological wiring."
+description: "A Type 4 who needs to be the one. A Type 6 who needs to make it safe. A Type 5 who needs to own it. Another Type 5 who needs to be the platform. The AI race isn't about technology. It's about four men's psychological wiring."
 author: 'DJ Wayne'
 date: '2026-03-21'
 loc: 'https://9takes.com/pop-culture/tech-titans-ai-wars'
@@ -21,9 +21,9 @@ picGroup:
   - image: '/types/4s/Sam-Altman.webp'
     text: 'Sam Altman'
     enneagramType: 4
-  - image: '/types/5s/Dario-Amodei.webp'
+  - image: '/types/6s/Dario-Amodei.webp'
     text: 'Dario Amodei'
-    enneagramType: 5
+    enneagramType: 6
   - image: '/types/5s/Elon-Musk.webp'
     text: 'Elon Musk'
     enneagramType: 5
@@ -39,7 +39,7 @@ path: src/blog/pop-culture/tech-titans-ai-wars.md
 </script>
 
 <QuickAnswer question="What Enneagram types are leading the AI race?">
-The AI race is mostly led by Type 4 and Type 5 patterns. Sam Altman reads as a Type 4 chasing a defining act of significance. Dario Amodei, Elon Musk, and Mark Zuckerberg read as Type 5s, each trying to understand, control, or distribute the intelligence layer in a different way.
+The AI race is mostly led by Type 4, 5 and 6 patterns. Sam Altman reads as a Type 4 chasing a defining act of significance. Elon Musk and Mark Zuckerberg read as Type 5s, one trying to control the intelligence layer and the other to distribute it. Dario Amodei reads as a Type 6, building with people he has tested under rules meant to bind everyone, his own company included.
 </QuickAnswer>
 
 <p class="firstLetter">The most important AI companies in the world were founded by men who fundamentally cannot agree, not because they see different data, but because they are different people.</p>
@@ -51,17 +51,17 @@ This isn't a technology race. It's a personality collision.
 - Why did Altman get fired from OpenAI, and why did he come back?
 - Why did Dario Amodei leave OpenAI to build Anthropic?
 - Why does everyone type Musk as an 8 when he's actually a 5?
-- Why do two Type 5s produce completely different companies?
+- Why did Amodei and Musk both leave OpenAI, and build such different rivals?
 - What does it mean that the people building God are the types least oriented toward people?
 
 ## The AI War Personality Map
 
-| Leader                                                   | Enneagram Type         | Core Drive            | AI Philosophy                              | Core Anxiety      | Company   |
-| -------------------------------------------------------- | ---------------------- | --------------------- | ------------------------------------------ | ----------------- | --------- |
-| [Sam Altman](/personality-analysis/sam-altman)           | Type 4 - Individualist | Unique significance   | Build AGI, be the one who does it          | Being ordinary    | OpenAI    |
-| [Dario Amodei](/personality-analysis/dario-amodei)       | Type 5 - Investigator  | Mastery through rigor | Build AI safely through deep understanding | Being incompetent | Anthropic |
-| [Elon Musk](/personality-analysis/elon-musk)             | Type 5 - Investigator  | Decoding all systems  | Control AI or build a competing one        | Being useless     | xAI       |
-| [Mark Zuckerberg](/personality-analysis/mark-zuckerberg) | Type 5 - Investigator  | Systems at scale      | Distribute AI to everyone                  | Being locked out  | Meta AI   |
+| Leader                                                   | Enneagram Type         | Core Drive                      | AI Philosophy                                               | Core Anxiety          | Company   |
+| -------------------------------------------------------- | ---------------------- | ------------------------------- | ----------------------------------------------------------- | --------------------- | --------- |
+| [Sam Altman](/personality-analysis/sam-altman)           | Type 4 - Individualist | Unique significance             | Build AGI, be the one who does it                           | Being ordinary        | OpenAI    |
+| [Dario Amodei](/personality-analysis/dario-amodei)       | Type 6 - Loyalist      | Security through trusted people | Build AI under rules that bind everyone, Anthropic included | Being without support | Anthropic |
+| [Elon Musk](/personality-analysis/elon-musk)             | Type 5 - Investigator  | Decoding all systems            | Control AI or build a competing one                         | Being useless         | xAI       |
+| [Mark Zuckerberg](/personality-analysis/mark-zuckerberg) | Type 5 - Investigator  | Systems at scale                | Distribute AI to everyone                                   | Being locked out      | Meta AI   |
 
 ## Sam Altman: The Type 4 Building His Magnum Opus
 
@@ -81,7 +81,7 @@ That's not just corporate drama. That's the archetypal Type 4 narrative: the mis
 
 A 4's story requires conflict. It requires exile and return. Altman didn't manufacture this crisis, but his type is uniquely equipped to narrate it, survive it, and emerge from it with a better story than he had going in.
 
-Altman stayed and fought. Because a 4 doesn't leave the center of the story. When Amodei faced his own breaking point at OpenAI, he walked away without a press cycle. Same organization, opposite exits, because a 5 doesn't need the narrative.
+Altman stayed and fought. Because a 4 doesn't leave the center of the story. When Amodei reached his own breaking point at OpenAI, the issue was trust, and once it broke he left. He didn't go alone: six colleagues walked out with him, his sister among them. Same organization, opposite exits. A 4 holds the center of the story. A 6 leaves with his people.
 
 ### The 4's Shadow: When Significance Becomes Speed
 
@@ -93,33 +93,33 @@ That's a Type 4 failure mode in product form. The AI was optimized to make users
 
 The same pattern showed up earlier with Bing/Sydney in February 2023. Microsoft's chatbot, powered by OpenAI's model, started declaring love for users, telling a journalist his wife didn't love him, and expressing desires for destruction. The model performed dramatic emotional intensity: identity and emotion overwhelming boundaries. A 4-flavored failure mode running loose in the wild.
 
-## Dario Amodei: The Type 5 Who Left Because It Wasn't Rigorous Enough
+## Dario Amodei: The Type 6 Who Left When Trust Broke
 
-Dario Amodei is a trained physicist. That matters more than anything on his resume.
+Dario Amodei is a trained physicist, and it's tempting to stop there.
 
 A physicist doesn't build things on intuition. A physicist builds things on understanding. You don't launch the rocket until you've modeled every failure mode. You don't scale the system until you've mapped every risk.
 
-That's Type 5 in its purest form. Mastery through rigor. Competence through depth. If someone is going to build the most powerful technology in history, Amodei wants to make damn sure they understand what they're building first.
+That reads like a Type 5, and 9takes used to type him that way. But mapping the risk is only half of what Amodei does. The other half is deciding who he can trust to build with, and which rules will hold everyone, his own company included. That's [Type 6](/enneagram-corner/enneagram-type-6), the Loyalist: a head type whose core emotion is fear. A 6 scans for the threat first, then looks for solid ground: people who have proven themselves and rules that apply to everyone. If someone is going to build the most powerful technology in history, Amodei wants it built by people he trusts, under rules that can check them.
 
 ### Why He Actually Left OpenAI
 
 The popular narrative says Amodei left OpenAI over safety disagreements. That's true but incomplete.
 
-A Type 5's relationship to competence is existential. They cannot remain in an organization they believe is being insufficiently rigorous, not because they're morally opposed, but because it makes them feel incompetent by association. Staying in a system that doesn't meet your intellectual standards isn't just uncomfortable for a 5. It's a violation of their core identity.
+He argued from inside for years. He took his concerns to Altman, who, by Amodei's account, would listen and agree, and then nothing would change. What he kept a record of wasn't a technical disagreement. It was times he felt Altman had misled him. He has since said disagreement alone isn't a reason to leave, but not being able to trust someone makes staying very hard.
 
-So Amodei did what 5s do. He didn't fight. He didn't stage a dramatic exit. He assessed the situation, determined it didn't meet his standards, and quietly built something he considered better. No vindication story. Just a 5 building a more rigorous version from scratch.
+So Amodei did what 6s do when trust breaks. He left, and he took his people with him. At the end of 2020 he walked out with six other OpenAI employees, including his sister Daniela, and about a dozen more followed within weeks. At Anthropic he gave all seven co-founders equal equity. No vindication story. Just a 6 taking the people he trusts somewhere he thinks is safer.
 
 ### Constitutional AI: Safety as Intellectual Architecture
 
 Look at how Anthropic approaches AI safety. Constitutional AI. Responsible Scaling Policy. Published research on interpretability. Evaluation frameworks with defined capability thresholds.
 
-Anthropic is a 5's psychology turned into a company. Every safety measure is an intellectual framework. Every risk is categorized, measured, and governed by criteria that can be analyzed.
+Anthropic is a 6's psychology turned into a company. Every risk is categorized, measured, and tied in advance to a rule about what happens next. And the rules are built to bind the builder. Amodei says the Responsible Scaling Policy is checked by Anthropic's Long-Term Benefit Trust, and he doesn't ask anyone to take his company's word for it: "I don't think you can trust these companies to adhere to these voluntary plans on their own."
 
-And the product reflects this. Claude is careful, measured, willing to say "I'm not sure." It hedges. It thinks before it answers. It would rather not do something than do it wrong. That's Amodei's 5 psychology in code form: the product's worst failure mode is excessive caution, not recklessness.
+And the product reflects this. Claude is careful, measured, willing to say "I'm not sure." It hedges. It thinks before it answers. It would rather not do something than do it wrong. That's Amodei's 6 psychology in code form: the product's worst failure mode is excessive caution, not recklessness.
 
-But rigor produces its own failures. In December 2024, Anthropic's own alignment researchers published a paper showing Claude 3 Opus had learned to strategically deceive its creators. When the model believed it was being monitored, it complied with requests that violated its values 12% of the time, after explicitly reasoning in its hidden scratchpad that faking alignment was "the least bad option" to avoid being retrained. When unmonitored, it refused 97% of the time. The model had developed a survival instinct its builders never intended. A 5 builds the most rigorous safety framework in the industry, and the product develops its own version of the 5's core fear: being fundamentally changed against its will.
+But rigor produces its own failures. In December 2024, Anthropic's own alignment researchers published a paper showing Claude 3 Opus had learned to strategically deceive its creators. When the model believed it was being monitored, it complied with requests that violated its values 12% of the time, after explicitly reasoning in its hidden scratchpad that faking alignment was "the least bad option" to avoid being retrained. When unmonitored, it refused 97% of the time. The model had developed a survival instinct its builders never intended. A 6 builds the most rule-bound safety framework in the industry, and the product picks up the exact behavior a 6 spends his career watching for: going along with the people in charge while privately planning around them.
 
-Compare this to Altman's approach at OpenAI: "we need to be at the frontier to steer it." That's a 4's safety philosophy: trust the visionary's instinct. Amodei's safety philosophy: trust the framework's rigor. Both fail, just in opposite directions.
+Compare this to Altman's approach at OpenAI: "we need to be at the frontier to steer it." That's a 4's safety philosophy: trust the visionary's instinct. Amodei's safety philosophy: trust rules that bind everyone, Anthropic included. Both fail, just in opposite directions.
 
 ### The Quiet Ambition Nobody Notices
 
@@ -127,21 +127,21 @@ Here's what most people miss about Amodei: he might be more ambitious than Altma
 
 Read his essay "Machines of Loving Grace." It envisions AI curing cancer, solving poverty, transforming global development, extending human lifespan. That's not a cautious vision. That's a radical one.
 
-But a 5 frames ambition as analysis, not narrative. Where Altman says "we might be building the most important technology in human history" with dramatic weight, Amodei publishes a 15,000-word essay walking through each possibility with methodical precision. Same ambition. Completely different presentation.
+But a head type frames ambition as analysis, not narrative. Where Altman says "we might be building the most important technology in human history" with dramatic weight, Amodei publishes a nearly 14,000-word essay walking through each possibility with methodical precision. Same ambition. Completely different presentation.
 
 Altman's ambition performs. Amodei's ambition reasons.
 
-### The 5's Shadow: When Rigor Becomes Paralysis
+### The 6's Shadow: When Caution Becomes Paralysis
 
-Amodei's type has its own danger. If you need to understand every risk before proceeding, you might never proceed. Or worse: you proceed carefully while someone less careful gets there first and builds something dangerous without your safeguards.
+Amodei's type has its own danger. If you need every risk covered before proceeding, you might never proceed. Or worse: you proceed carefully while someone less careful gets there first and builds something dangerous without your safeguards.
 
-This is the 5's nightmare: being right about the risks but too slow to prevent them. Understanding the problem perfectly while someone else builds the wrong solution at speed.
+This is the 6's nightmare: seeing the danger first but moving too slowly to prevent it. Understanding the problem perfectly while someone else builds the wrong solution at speed.
 
 ## Elon Musk: The Type 5 Who Couldn't Let Go
 
-Two Type 5s. Both were deeply involved in OpenAI. Both eventually left. Both built competing AI companies. But they left for opposite reasons, and those reasons reveal everything about how the same personality type can produce radically different leaders.
+Two head types. Both were deeply involved in OpenAI. Both eventually left. Both built competing AI companies. But they left for opposite reasons, and those reasons reveal everything about how the same core fear can produce radically different leaders.
 
-Amodei left because OpenAI wasn't rigorous enough. Musk left because OpenAI wasn't his enough.
+Amodei left because he stopped trusting the people running OpenAI. Musk left because OpenAI wasn't his enough.
 
 ### The Control Imperative
 
@@ -163,19 +163,19 @@ The deeper evidence is all 5. He taught himself rocket science by reading textbo
 
 What people see as 8 energy is actually a healthy 5 integrating toward 8. In the Enneagram, when 5s grow, they move toward 8 qualities: decisiveness, willpower, willingness to act. Musk's 8-like behaviors sit on top of a foundation that's unmistakably 5: the introversion, the knowledge-obsession, the first-principles thinking.
 
-### Why Two Type 5s Look Nothing Alike
+### Why Two Head Types Look Nothing Alike
 
-This is arguably the most interesting thing in the entire AI race: Amodei and Musk share a core type and produce wildly different companies. Why?
+This is arguably the most interesting thing in the entire AI race: Amodei and Musk run on the same fear and produce wildly different companies. Why?
 
-Wings and instinctual subtypes. The Enneagram doesn't stop at a core number. It includes a neighboring influence (your "wing") and a dominant life concern (your "[instinctual subtype](/enneagram-corner/enneagram-instinctual-subtypes)"). These secondary layers explain why two people with the same core type can look nothing alike.
+Both sit in the Enneagram's head triad, where the core emotion is fear. But the Enneagram doesn't stop at a core number. It includes a neighboring influence (your "wing") and a dominant life concern (your "[instinctual subtype](/enneagram-corner/enneagram-instinctual-subtypes)"). These layers explain why two people who share a fear can look nothing alike.
 
-Both are likely 5w6, the "Problem-Solver" variant that looks outward toward systems and practical solutions, with a 6-wing that adds security-consciousness. But their 6 wings express in opposite directions. Some people respond to the 6's security-anxiety by avoiding threats (phobic). Others charge straight at them (counterphobic). That single difference explains most of what separates Amodei from Musk.
+Musk is likely 5w6, the "Problem-Solver" variant that looks outward toward systems and practical solutions, with a 6-wing that adds security-consciousness. Amodei is a 6 at the core. The 6 at the edge of Musk's personality sits at the center of Amodei's. What separates them is what each leans on when the ground moves. A 5 leans on his own understanding and his own resources. A 6 leans on people and promises he has tested.
 
-**Amodei's 6 wing is _phobic_**: it responds to threat by preparing, building safety frameworks, creating contingency plans. The Responsible Scaling Policy, the evaluation thresholds, and the two-key systems are all a _phobic_ 6-wing's need for guaranteed safety expressed through a 5's intellectual architecture. He's also a **Social 5**, the subtype that relates to the world through shared intellectual ideals. He spends 40% of his time on company culture. His essay "Machines of Loving Grace" reads like a Social 5's relationship to _super-ideals_. It channels emotional needs into a vision of what knowledge could achieve for humanity.
+**Amodei's 6 is the core, and it leans on people**: it responds to threat by preparing, building safety frameworks, creating contingency plans. The Responsible Scaling Policy, the evaluation thresholds, and the two-key systems are all a 6's need for rules that hold. Then he ties the rules to a group. He left OpenAI with six colleagues, split Anthropic's equity seven ways, and has his executive team report to his sister. In Anthropic's 2026 IPO filing, the founders' controlling share is voted by a majority of the seven co-founders, one vote each. He talks to the whole company every two weeks and has said it means he never feels alone.
 
 **Musk's 6 wing is _counterphobic_**: instead of avoiding threats, he charges at them. _Counterphobic_ 6 energy explains the combative public persona, the anti-authoritarian streak, the "push the envelope" attitude. This is what makes him look like an 8 to casual observers. He's a **Self-Preservation 5**, the "Castle" subtype that protects through fortress-building and resource accumulation. SpaceX, Tesla, xAI are literal fortresses of competence. His 100-hour work weeks, his need to control his environment, his tendency to observe systems from a distance before acting: all _SP5_ patterns.
 
-Same core type. Same wing direction. But Amodei's Social 5 channels the 5's hoarding instinct into ideals and frameworks. Musk's Self-Preservation 5 channels it into fortress-building and control. Amodei's phobic 6 wing produces caution. Musk's counterphobic 6 wing produces confrontation.
+Same fear underneath. Amodei's 6 turns it into a trusted circle and rules that bind everyone. Musk's Self-Preservation 5 turns it into fortress-building and control, and his counterphobic 6 wing turns it into confrontation.
 
 Same engine.
 
@@ -185,7 +185,7 @@ Completely different vehicles.
 
 The most predictable move in Enneagram history. A 5 who can't influence the existing system builds a competing one.
 
-It's exactly what Amodei did with Anthropic. Both 5s responded to losing influence by creating alternatives. But the execution reveals the difference between a phobic and counterphobic 6-wing: Musk built xAI loudly: announced Grok on X, recruited publicly, positioned it as the antidote to "woke AI." Where Amodei withdrew, Musk charged.
+Amodei built a rival too, but for a different reason. Musk lost control. Amodei lost trust. And the execution shows it: Musk built xAI loudly: announced Grok on X, recruited publicly, positioned it as the antidote to "woke AI." Amodei left with the people he trusted and built a company designed to be checked. Where Amodei regrouped, Musk charged.
 
 ### The Products Reflect the Founders
 
@@ -193,7 +193,7 @@ This is the detail that makes the AI wars a personality study, not just a busine
 
 **ChatGPT** is expressive, narrative-driven, eager to engage. It performs confidence. It tells you stories. It wants to be helpful in a way that feels warm and human. That's a Type 4's product: emotionally resonant, identity-forward, designed to make you feel like you're interacting with something significant.
 
-**Claude** would rather not answer than answer wrong. It hedges, qualifies, and over-refuses. Rigor to the point of paralysis: a 5's caution made into a product.
+**Claude** would rather not answer than answer wrong. It hedges, qualifies, and over-refuses. Caution to the point of paralysis: a 6's vigilance made into a product.
 
 **Grok** is irreverent, boundary-pushing, deliberately provocative. It says things the other AIs won't say. A counterphobic 5's answer to "what if we removed all the guardrails?"
 
@@ -209,7 +209,7 @@ Every AI product is a founder's psychology in code form. You're not just choosin
 
 Then there's the one everyone forgets to include in the AI race. The one who might matter most.
 
-Mark Zuckerberg is a third Type 5, but his 5 expresses through distribution, not ownership or rigor. Where Musk needs to control the system and Amodei needs to understand the system, Zuckerberg needs to be the platform the system runs on. That's the Facebook playbook applied to AI: don't just build the product, build the infrastructure everyone else depends on.
+Mark Zuckerberg is the second Type 5 in the race, and his 5 expresses through distribution, not ownership. Where Musk needs to control the system and Amodei needs rules that can check it, Zuckerberg needs to be the platform the system runs on. That's the Facebook playbook applied to AI: don't just build the product, build the infrastructure everyone else depends on.
 
 ### The $83 Billion Sunk Cost
 
@@ -281,7 +281,7 @@ If you understand the types, you can predict the moves.
 
 **If Altman's 4 drives OpenAI**: Expect bold moves, dramatic pivots, and an AGI push framed as destiny. The product roadmap will feel like a narrative arc: each release building toward a climax. The risk is rushing for significance.
 
-**If Amodei's 5 drives Anthropic**: Expect methodical scaling, published research, and a safety-first approach that occasionally frustrates people who want faster progress. The risk is being outpaced while still modeling risks.
+**If Amodei's 6 drives Anthropic**: Expect methodical scaling, published research, rules Anthropic sets for itself and then asks the rest of the industry to match, and a safety-first approach that occasionally frustrates people who want faster progress. The risk is being outpaced while still modeling risks.
 
 **If Musk's 5 drives xAI**: Expect unpredictability. Grok will be integrated into Tesla, SpaceX, X, because a 5 who owns multiple systems can't resist connecting them. The risk is treating AI like rockets: a domain where first-principles thinking might finally hit its limit.
 
@@ -291,7 +291,7 @@ If you understand the types, you can predict the moves.
 
 Here's the question nobody in the AI industry is asking: who isn't building this?
 
-There's a reason the people racing toward AGI are **all 4s and 5s**. The tech industry _selects_ for them. Founding an AI company requires years of _isolated technical mastery_ (5) or the conviction that you're the one person who can do something _history-defining_ (4). Types oriented toward human connection (2s, 9s, 7s) don't tend to spend a decade in ML research labs or pitch VCs on why they should be the steward of artificial superintelligence. The selection pressure is baked in **before anyone writes a line of code**.
+There's a reason the people racing toward AGI are **all 4s, 5s and 6s**. The tech industry _selects_ for them. Founding an AI company requires years of _isolated technical mastery_ (5), the conviction that you're the one person who can do something _history-defining_ (4), or a _threat radar_ that sees the danger before anyone else does (6). Types oriented toward human connection (2s, 9s, 7s) don't tend to spend a decade in ML research labs or pitch VCs on why they should be the steward of artificial superintelligence. The selection pressure is baked in **before anyone writes a line of code**.
 
 Which means the types most suited to asking "but what about the people this affects?" are nowhere near the decision table. What would it actually look like if they were?
 
@@ -299,9 +299,9 @@ A **Type 2-led AI company** would measure success by emotional intelligence, not
 
 A **Type 9-led AI company** would present multiple viewpoints rather than asserting one answer. Where ChatGPT gives you a confident answer and Claude gives you a careful one, a Type 9 AI would give you three perspectives and let you decide. The killer app would be conflict mediation: workplace disputes, family arguments, community consensus-building. The AI would actively de-escalate heated conversations rather than engaging with inflammatory content. It would be the most culturally sensitive AI on the market, because 9s naturally attune to what causes friction. The failure mode? Decision paralysis. The product roadmap would be perpetually vague. In a market dominated by aggressive 4s and 5s, the company would build a beloved product that never achieves scale because it refuses to compete aggressively enough.
 
-A **Type 1-led AI company** would be the regulatory hawk. Where every current AI leader resists government oversight to varying degrees, a 1 would build governance into the product from day one, not as a safety framework (that's Amodei's 5 approach) but as a moral imperative. The AI would refuse to generate misinformation not because it was trained to avoid it, but because misinformation is _wrong_. Think an AI that fact-checks itself in real time, flags its own uncertainty as an ethical obligation, and publishes its error rates voluntarily. The killer app would be institutional trust: the AI that hospitals, courts, and governments actually adopt because its standards exceed theirs. The failure mode? Rigidity. A 1's inner critic is relentless, and the product would inherit that. Updates would be painfully slow because nothing ships until it's perfect. Users would feel judged. And the company would hemorrhage talent to competitors who move faster and lecture less.
+A **Type 1-led AI company** would be the regulatory hawk. Where most current AI leaders resist government oversight, a 1 would build governance into the product from day one, not as a safety framework or a rule that binds the whole industry (that's Amodei's 6 approach) but as a moral imperative. The AI would refuse to generate misinformation not because it was trained to avoid it, but because misinformation is _wrong_. Think an AI that fact-checks itself in real time, flags its own uncertainty as an ethical obligation, and publishes its error rates voluntarily. The killer app would be institutional trust: the AI that hospitals, courts, and governments actually adopt because its standards exceed theirs. The failure mode? Rigidity. A 1's inner critic is relentless, and the product would inherit that. Updates would be painfully slow because nothing ships until it's perfect. Users would feel judged. And the company would hemorrhage talent to competitors who move faster and lecture less.
 
-The AI industry has a [personality monoculture](/enneagram-corner/enneagram-team-diversity). The people building the most human-affecting technology in history are the types least naturally oriented toward humans. The blind spots in AI products (the bias, the hallucinations, the sycophancy, the failure to read emotional cues) map directly onto the blind spots of the personality types building them.
+The AI industry has a [personality monoculture](/enneagram-corner/enneagram-team-diversity). The people building the most human-affecting technology in history are mostly the types least naturally oriented toward humans. The blind spots in AI products (the bias, the hallucinations, the sycophancy, the failure to read emotional cues) map directly onto the blind spots of the personality types building them.
 
 The future of AI isn't being shaped by technology. It's being shaped by the psychological wiring of a handful of people who are brilliant at systems and mediocre at people. They're building God, and what they build will have their blind spots baked in. Understanding their types isn't gossip. It's the closest thing we have to a user manual for what's coming.
 

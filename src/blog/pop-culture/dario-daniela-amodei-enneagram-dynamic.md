@@ -17,7 +17,7 @@ popCulture:
 blog: true
 previewHtml: ''
 picGroup:
-  - image: '/types/5s/Dario-Amodei.webp'
+  - image: '/types/6s/Dario-Amodei.webp'
     text: 'Dario Amodei'
     enneagramType: 6
   - image: '/types/1s/Daniela-Amodei.webp'

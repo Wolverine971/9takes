@@ -126,13 +126,13 @@
 		{
 			"id": "2023-actual-truth-post",
 			"label": "2023 'actual truth' antisemitism post and advertiser exodus",
-			"status": "open",
+			"status": "required",
 			"mustMention": ["actual truth"]
 		},
 		{
 			"id": "2025-inauguration-gesture",
 			"label": "January 2025 inauguration-rally gesture",
-			"status": "open",
+			"status": "required",
 			"mustMention": ["gesture|salute"]
 		},
 		{
