@@ -2,8 +2,8 @@
 //
 // Generates editorial candidates for the personality-analysis Chorus: one
 // evergreen question per person plus the nine takes that answer it. Candidate
-// runs are read-only. An exact human-reviewed question and --publish are both
-// required before it writes the question and takes to the database. Nothing is
+// runs are read-only. --publish requires exact human-reviewed copy or explicit
+// --auto-approve, which uses the independent veto editor. Nothing is
 // generated live on page view.
 // See docs/product/the-chorus-vision.md.
 //
@@ -52,6 +52,10 @@ const REVIEWED_QUESTION = args
 	.find((a) => a.startsWith('--question='))
 	?.slice('--question='.length);
 const PUBLISH = args.includes('--publish');
+// DJ authorized unattended, quality-gated questions for the daily publisher on
+// 2026-11-17. Manual --question still publishes the exact approved wording.
+const AUTO_APPROVE = args.includes('--auto-approve');
+const INCLUDE_UNPUBLISHED = args.includes('--include-unpublished');
 const LIMIT = Number(args.find((a) => a.startsWith('--limit='))?.split('=')[1]) || Infinity;
 // Restrict a batch run to an explicit set, so a partially-completed backfill can
 // be resumed without regenerating the people already done.
@@ -64,9 +68,15 @@ const ONLY = (args.find((a) => a.startsWith('--only='))?.slice('--only='.length)
 const AVOID_FILE = args.find((a) => a.startsWith('--avoid-file='))?.slice('--avoid-file='.length);
 const CONCURRENCY = Number(process.env.CHORUS_CONCURRENCY) || 3;
 
-if (PUBLISH && (!SLUG || !REVIEWED_QUESTION?.trim())) {
-	throw new Error('--publish requires one --slug and the exact human-reviewed --question copy');
+if (PUBLISH && (!SLUG || (!REVIEWED_QUESTION?.trim() && !AUTO_APPROVE))) {
+	throw new Error(
+		'--publish requires one --slug and either approved --question copy or --auto-approve'
+	);
 }
+if (AUTO_APPROVE && (!PUBLISH || !SLUG || REVIEWED_QUESTION))
+	throw new Error('--auto-approve requires --publish and one --slug, without --question');
+if (INCLUDE_UNPUBLISHED && !SLUG)
+	throw new Error('--include-unpublished requires one explicit --slug');
 if (REVIEWED_QUESTION && !SLUG) {
 	throw new Error('--question requires exactly one --slug');
 }
@@ -194,7 +204,7 @@ function buildQuestionReviewUserPrompt(candidates, scenes) {
 function buildTakesSystemPrompt() {
 	return `You write the nine distinct answer perspectives for 9takes.
 
-The exact public question has already been approved by a human editor. Do not revise it.
+The exact public question has already passed the required editorial approval. Do not revise it.
 
 Write one answer per Enneagram emotional logic (types 1 through 9). Reference:
 ${TYPE_REFERENCE}
@@ -406,8 +416,12 @@ async function generateTakes(question) {
 }
 
 async function generate(person, reviewedQuestion = null, avoidQuestions = []) {
-	if (!reviewedQuestion)
-		return { ...(await generateQuestion(person, avoidQuestions)), takes: null };
+	if (!reviewedQuestion) {
+		const result = await generateQuestion(person, avoidQuestions);
+		if (avoidQuestions.some((q) => q.toLowerCase().trim() === result.question.toLowerCase().trim()))
+			throw new Error('question duplicates an existing published question');
+		return { ...result, takes: AUTO_APPROVE ? await generateTakes(result.question) : null };
+	}
 
 	const question = reviewedQuestion.trim();
 	assertQuestionQuality(question);
@@ -449,6 +463,9 @@ async function ensureQuestion(person, questionText, authorId) {
 		editorial_review_version: 3,
 		editorial_standard: 'response_first_v1',
 		editorial_reviewed_at: new Date().toISOString(),
+		editorial_approval_method: AUTO_APPROVE
+			? 'automated_independent_veto_review'
+			: 'human_exact_copy',
 		editorial_model: QUESTION_MODEL,
 		editorial_review_model: REVIEW_MODEL,
 		takes_model: TAKES_MODEL
@@ -461,10 +478,11 @@ async function ensureQuestion(person, questionText, authorId) {
 			.eq('url', person.chorus_question_url)
 			.maybeSingle();
 		if (existing) {
-			if (PUBLISH && REVIEWED_QUESTION) {
-				await supabase
+			if (PUBLISH && (REVIEWED_QUESTION || AUTO_APPROVE)) {
+				const { error: updateError } = await supabase
 					.from('questions')
 					.update({
+						question: questionText,
 						question_formatted: questionText,
 						data: { ...(existing.data || {}), ...payloadData },
 						flagged: false,
@@ -472,6 +490,7 @@ async function ensureQuestion(person, questionText, authorId) {
 						updated_at: new Date().toISOString()
 					})
 					.eq('id', existing.id);
+				if (updateError) throw new Error(`question update: ${updateError.message}`);
 			}
 			return { id: existing.id, url: existing.url };
 		}
@@ -556,8 +575,8 @@ async function getAuthorId() {
 async function main() {
 	let query = supabase
 		.from('blogs_famous_people')
-		.select('person, enneagram, chorus_question, chorus_question_url')
-		.eq('published', true);
+		.select('person, enneagram, chorus_question, chorus_question_url');
+	if (!INCLUDE_UNPUBLISHED) query = query.eq('published', true);
 
 	if (SLUG) query = query.eq('person', SLUG);
 
@@ -609,7 +628,10 @@ async function main() {
 			(PUBLISH ? ' [publishing reviewed copy]' : ' [dry run; no database writes]') +
 			(authorId ? '' : ' [no author profile found; questions would be authorless]')
 	);
-	if (!people.length) return;
+	if (!people.length) {
+		if (SLUG) throw new Error(`No eligible profile found for ${SLUG}`);
+		return;
+	}
 
 	let ok = 0;
 	let failed = 0;
@@ -748,6 +770,7 @@ async function main() {
 	}
 
 	console.log(`\nDone. ${ok} succeeded, ${failed} failed.`);
+	if (failed) process.exitCode = 1;
 }
 
 main().catch((e) => {

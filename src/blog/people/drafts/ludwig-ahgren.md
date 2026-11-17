@@ -7,12 +7,12 @@ description: >-
   offer anyway. Why Type 7 leads his personality read, and why Type 3 is in
   play.
 author: DJ Wayne
-date: '2026-11-07'
-lastmod: '2026-11-07'
+date: '2026-11-17'
+lastmod: '2026-11-17'
 loc: 'https://9takes.com/personality-analysis/ludwig-ahgren'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type:
   - creator

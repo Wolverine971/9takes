@@ -4,6 +4,8 @@
 
 You are tasked with publishing one ready celebrity personality analysis draft for 9takes. This command is intentionally operational: it does not rewrite the article, re-type the person, or fix substantive editorial gaps.
 
+**Daily automation authorization (2026-11-17):** DJ explicitly requested two new people per day and approved automated quality checks for future discussion questions. The scheduled workflow is `scripts/daily-blog-publisher.sh`, documented in `docs/blog-automation/daily-publisher.md`. Its independent question review replaces the exact-copy human approval step below for this daily workflow only. The two initial questions in `docs/blog-automation/daily-publisher.json` were individually approved by DJ. All article, source, portrait, and release gates remain required.
+
 **Workflow 3:** For a draft marked `editorial_workflow.version: 3`, the parser's shared editorial release gate replaces legacy six-perspective and grade-stability prerequisites. Do not run `/grade_blog` on a v3 candidate or strip its workflow marker. Run `node scripts/blog-editorial-check.mjs <draft-path> --release` for local diagnostics; use `scripts/run-blog-pipeline.sh <Person> --resume` or `--refresh` to resolve blockers. All other publishing responsibilities remain in force.
 
 ## Input

@@ -7,12 +7,12 @@ description: >-
   she judges her work by its artistic truth, not reception. The case for
   Enneagram Type 4.
 author: DJ Wayne
-date: '2026-10-29'
+date: '2026-11-17'
 loc: 'https://9takes.com/personality-analysis/hunter-schafer'
-lastmod: '2026-10-29'
+lastmod: '2026-11-17'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type:
   - movieStar

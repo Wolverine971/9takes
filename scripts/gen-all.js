@@ -13,6 +13,7 @@ import { execFileSync, spawnSync } from 'child_process';
 import { existsSync } from 'fs';
 
 const FULL = process.argv.includes('--all') || process.argv.includes('--full');
+const GENERATORS_ONLY = process.argv.includes('--generators-only');
 const MAIN_BRANCH = process.env.GEN_ALL_BASE_BRANCH || 'main';
 
 // Generators that read source content and emit complete artifacts. These are
@@ -110,7 +111,7 @@ function formatAndLabel() {
 }
 
 function main() {
-	formatAndLabel();
+	if (!GENERATORS_ONLY) formatAndLabel();
 
 	console.log('\n▶ Running generators\n');
 	for (const script of GENERATORS) {

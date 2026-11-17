@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"dailyLimit": 2,
+	"timeZone": "America/New_York",
+	"scheduledHour": 6,
+	"automatedQuestionApproval": true,
+	"authorizedBy": "DJ Wayne",
+	"authorizedOn": "2026-11-17",
+	"authorization": "Publish two people per day. Approve both proposed questions; use automated quality checks for future questions.",
+	"approvedQuestions": {
+		"hunter-schafer": "What’s something you love that you avoid mentioning around certain people?",
+		"ludwig-ahgren": "What’s the smallest thing you’ve turned into a competition?"
+	}
+}
