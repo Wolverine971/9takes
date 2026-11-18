@@ -11,7 +11,7 @@ description: >-
 author: DJ Wayne
 date: '2026-03-23'
 loc: 'https://9takes.com/personality-analysis/dario-amodei'
-lastmod: '2026-03-23'
+lastmod: '2026-11-17'
 changefreq: monthly
 priority: '0.6'
 published: true

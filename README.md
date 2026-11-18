@@ -78,6 +78,8 @@ Corpus-wide numbers (type distribution, over-/under-representation by domain, pi
 - **Unit**: Vitest. Specs live next to the code they test (`src/lib/server/*.spec.ts`, `src/routes/**/*.spec.ts`). Run `pnpm test` (single run) or `pnpm test:unit` (watch).
 - **Smoke**: Playwright specs in `e2e/`. Run `pnpm test:smoke`.
 
+See [test cleanup and priorities](docs/development/testing-priorities.md) for coverage gaps and guidance on writing useful tests.
+
 ## Deployment
 
 The repo deploys on Vercel via `@sveltejs/adapter-vercel`. `pnpm build:vercel` runs the personality-image-map, corpus-stats, sitemap, and llms.txt generators before building, so they stay in sync in production. `pnpm build` also enforces build budgets (`scripts/check-build-budgets.mjs`).

@@ -180,6 +180,20 @@ What the holding back is about, and what gets her past it, is the open question.
 
 Research for this profile closed on October 12, 2026. "The record" below means the sources opened by that date. Three 2024 features, in Ebony, Hemispheres and the Courier News of central New Jersey, could not be opened, so every statement about what the record lacks is a statement about what was read.
 
+<details>
+<summary class="accordion">TL;DR: Why Maleah Joi Moon reads as an Enneagram Type 6 (open case)</summary>
+<div class="panel">
+<ul>
+<li>Type 6 leads, held loosely, with Type 4 nearly level. The read rests on what she does with fear: she turns toward people she trusts and lets them get her past a refusal.</li>
+<li>She first turned down the <em>Hell's Kitchen</em> audition because "this project felt too big for me." Her high school director, Timothy Walton, told her, by her account, "Go do that. Shut up." The role won her a Tony at 21.</li>
+<li>When she fell apart during tech week, she "had people praying over me, got through it." Two years later, asked about leading Netflix's <em>A Different World</em>, she said, "I was held the entire time."</li>
+<li>Type 4 is the closest rival: her steadiest subject is being seen as herself, down to the septum piercing she calls "my statement to the world that Maleah Moon is also a person." Types 3 and 9 are still live, and the wary half of a Six never shows up on record.</li>
+<li>A fuller account of why she left <em>Hell's Kitchen</em> would help most. Leaving because the footing no longer felt secure points to Six, and leaving because the part had stopped being hers to say something with points to Four.</li>
+<li>She was 24 as of October 2026, and almost every interview came from promoting two projects. She has also described years of recovering from depression, which can look like temperament from the outside. This is a leading read, not a verdict.</li>
+</ul>
+</div>
+</details>
+
 ## What is Maleah Joi Moon's personality type?
 
 Leading read: Enneagram Type 6, held loosely, at low confidence. Type 4 is nearly level, and Types 3 and 9 are still live. In two stories she tells, a trusted person gets her past a refusal. She also calls her work self-expression. By her own account those years were a recovery from illness. The record cannot yet separate them.

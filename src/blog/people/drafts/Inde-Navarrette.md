@@ -173,6 +173,20 @@ The film made her famous. Made for between $750,000 and $1 million, depending on
 
 The two things she told Barker are the puzzle of her public record. The confession names a fear and hands it to someone she trusts. The refusal protects something, and she has explained it two ways: to keep the performance true, and to avoid being judged too early. Is she guarding her safety, or the impression that she can do the job? Her record, nearly all of it from a press and awards campaign that began in May 2026, can't yet answer that. So this is an open case.
 
+<details>
+<summary class="accordion">TL;DR: Why Inde Navarrette reads as an Enneagram Type 6 (open case)</summary>
+<div class="panel">
+<ul>
+<li>Type 6 leads, nearly tied with Type 3. Six leads on timing: she names a fear and secures against it before anything goes wrong. When she got the <em>Obsession</em> part, "my heart sank to my butt. I realized I had to work on my anxiety."</li>
+<li>She builds the net in advance. Asked about Oscar buzz, she described "a safety net of if it doesn't happen, it doesn't mean that I didn't do a good job," and she deleted many of her old Twitch streams before anyone had judged them.</li>
+<li>As the film broke out, she and her mother limited what she saw online because "I really want to make sure that I'm protecting myself first." When Big Sean messaged her, her first thought was "Oh, no," and she handed the phone to her boyfriend to read it first.</li>
+<li>Type 3 is close because what she fears is mostly a verdict on her work: "am I doing a good job?" Seven is live on her appetite for thrills, and Four on her wish that her work feel like it's "coming from me."</li>
+<li>The Oscar nominations on January 21, 2027, could separate them. Passed over, falling back on her net and her people points to Six, and setting out to overturn the verdict points to Three.</li>
+<li>Nearly all of her record comes from a press and awards campaign that began in May 2026. This is a leading read, not a verdict.</li>
+</ul>
+</div>
+</details>
+
 ## What is Inde Navarrette's personality type?
 
 Leading read: Enneagram Type 6, at low confidence and nearly tied with Type 3; Types 7 and 4 are also live. Six leads on timing: she names a fear and secures against it before anything happens. Three is close on content: what she fears is mostly a verdict on her work. Her young record can't yet separate them.

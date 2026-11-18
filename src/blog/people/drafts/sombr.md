@@ -171,6 +171,20 @@ By his account he writes and produces alone at home, then finishes songs with hi
 
 He named himself for a mood. "Sombr" holds his initials, SMB, and it "kind of made sense for how I was feeling," he told 1883. Yet the same record shows a boy studying the social media algorithm in his early teens, a songwriter who tests choruses online before finishing them, and a signed, hitless teenager afraid of being dropped and of being "a disappointment." So the question under the Garden contrast is this: when what feels true and what works pull apart, which does he follow? His star career dates from spring 2025, and nearly every first-person source comes from a promotional cycle, so this is an open case.
 
+<details>
+<summary class="accordion">TL;DR: Why Sombr reads as an Enneagram Type 3 (open case)</summary>
+<div class="panel">
+<ul>
+<li>Type 3 leads, held loosely. He has measured himself by audience response since his early teens, when he "started producing and studying the social media algorithm while writing my own music."</li>
+<li>He tests songs on the crowd first. "I don't finish songs," he told Switched On Pop; he posts a chorus, and "if I like the response," he finishes it.</li>
+<li>Signed at 17 and hitless for almost 20 songs, he feared the verdict: "If you don't do numbers within a certain amount of time, you get dropped." He also said, "I didn't even realize that I was good at music until other people told me that I was good."</li>
+<li>Type 4 is the live alternative. He named himself for a sad mood and says "Back to Friends" came when he decided, "I'm going to make what I feel like making." Six explains his fear of letting people down, and Seven the touring high.</li>
+<li>The second album would settle most of it. One explained by what tested well favors Three, and a strange record defended as true whatever the numbers favors Four.</li>
+<li>His star career dates from spring 2025, and nearly every first-person source comes from a promotional cycle. This is a leading read, not a verdict.</li>
+</ul>
+</div>
+</details>
+
 ## What is Sombr's personality type?
 
 Leading read: Enneagram Type 3, held loosely, at low confidence. Type 4 is the live alternative; Types 6 and 7 are in play. He has studied audience response since his early teens, yet he named himself for a sad mood and says his songs come from what he feels. A record dating from his 2025 breakout can't yet separate them.

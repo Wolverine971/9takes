@@ -179,12 +179,34 @@ describe('/personality-analysis/[slug] load', () => {
 		await expect(loadPage(event)).rejects.toMatchObject({ status: 404 });
 	});
 
-	it('still answers 404 for an unpublished person', async () => {
+	it('answers 404 for an unpublished person even when an admin visits', async () => {
 		const { event } = setup({
 			person: { data: { ...PUBLISHED_PERSON, published: false }, error: null }
 		});
+		Object.assign(event.locals, { session: { user: { id: 'admin-1', admin: true } } });
 
 		await expect(loadPage(event)).rejects.toMatchObject({ status: 404 });
+	});
+
+	it('builds the shared page without reading or returning visitor state', async () => {
+		const { event } = setup({ person: { data: PUBLISHED_PERSON, error: null } });
+		const readVisitorState = vi.fn(() => {
+			throw new Error('The shared page must not read visitor state');
+		});
+		for (const key of ['session', 'user', 'safeGetSession']) {
+			Object.defineProperty(event.locals, key, { get: readVisitorState, enumerable: true });
+		}
+		for (const key of ['cookies', 'request', 'getClientAddress']) {
+			Object.defineProperty(event, key, { get: readVisitorState, enumerable: true });
+		}
+
+		const result = await loadPage(event);
+
+		expect(result.post.slug).toBe('zendaya');
+		expect(readVisitorState).not.toHaveBeenCalled();
+		for (const key of ['user', 'flags', 'comments', 'userHasAnswered']) {
+			expect(result).not.toHaveProperty(key);
+		}
 	});
 
 	it('picks one row, published first, so a duplicate person row cannot error', async () => {

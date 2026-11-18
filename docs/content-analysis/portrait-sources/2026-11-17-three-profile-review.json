@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-17",
+  "status": "prepared_for_user_review",
+  "published": false,
+  "installedInStaticTypes": false,
+  "selection": {
+    "source": "https://9takes.com/personality-analysis",
+    "reason": "First three profiles in the live Just added rail; latest publication dates confirmed against local frontmatter."
+  },
+  "template": {
+    "path": "scripts/assets/face-line-template.png",
+    "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+    "unchanged": true,
+    "canvas": 1080,
+    "eyeLineY": 490
+  },
+  "theme": {
+    "productionWell": "#171338",
+    "productionFilter": "contrast(1.06) brightness(0.94) saturate(0.82)",
+    "lightEdgeCheckWell": "#f6f3fb"
+  },
+  "portraits": [
+    {
+      "slug": "naval",
+      "name": "Naval Ravikant",
+      "filename": "Naval-Ravikant",
+      "type": 5,
+      "color": "#0ea5e9",
+      "typeName": "Investigator",
+      "date": "2026-11-01",
+      "sourceFile": "naval2019.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naval2019.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Naval2019.png",
+      "credit": "Edmund Hillary Fellowship",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Naval2019.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Naval2019.png",
+        "credit": "Edmund Hillary Fellowship",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "path": "output/portrait-sources/2026-11-17-review/naval2019.png",
+        "sha256": "c4a1fa35191d46f89bfb618159422f62e961b84c2da0b567dbb3366a50b26b67",
+        "modifications": "Background removal using generated alpha over original photographed RGB; eye leveling; grayscale conversion; crop and scale; unchanged violet template; WebP encoding. Adaptation provided under the source license."
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-review/naval-composition-cutout.png",
+        "height": 1110,
+        "anchorX": 630.0835287363245,
+        "anchorY": 443.10400708510826,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 16
+      },
+      "segmentation": {
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": true,
+        "nativeAlphaConstraint": true,
+        "alphaRegistration": {
+          "method": "eye_landmark_similarity",
+          "scale": 1.1752377205262576,
+          "angleRadians": -0.004114816971361512
+        },
+        "rotationClockwiseDegrees": 8.180983788070641
+      },
+      "prompt": "Use case: background-extraction. Edit target: this real photograph of Naval Ravikant. Remove only the background, preserving the photographed person exactly. Preserve the exact original canvas aspect ratio, subject position and scale. Keep complete hair, ears, face, neck, shoulders, clothing and arms. Preserve facial features, expression, pose, lighting and original photographic texture. Do not reconstruct or retouch the face, beautify, sharpen, smooth, recolor, add anatomy, crop, rotate, expand, or move the person. Use genuine alpha transparency, with clean natural hair and clothing edges, no background fringe, no halo, no shadows, no graphics and no purple line. Remove the outdoor field, sky, trees and fence only. Keep his lavalier microphone and blue shirt. Preserve the fine gray hair without a pale outline.",
+      "master": {
+        "path": "output/portrait-processed/2026-11-17-review/Naval-Ravikant-master.png",
+        "sha256": "26197e6bf967f706c054732e8e27a79938dfac12477719bae486009ce421cc42"
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "preflight": {
+          "ok": true,
+          "type": 5,
+          "slug": "Naval-Ravikant",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-review/types/5s/Naval-Ravikant.webp",
+            "bytes": 49788,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-review/types/5s/s-Naval-Ravikant.webp",
+            "bytes": 16144,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=5&portraitSlug=Naval-Ravikant#portrait-preflight"
+        },
+        "visualReview": "Passed square portrait, 480px thumbnail, 4:5 card, dark/light background and 390px mobile review. Template centered at x=540, y=490 with subject placement fitted beneath it."
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-review/types/5s/Naval-Ravikant.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 49788,
+          "alpha": true,
+          "sha256": "b52407be304cf1bc949c132dce38c8b713f8e55ce8cddb7366c8c41c6f039f28"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-review/types/5s/s-Naval-Ravikant.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16144,
+          "alpha": true,
+          "sha256": "4e77168355ce41896c5e01d877680cf202f349adf6f0ee96e0cc6ea0040ac1d9"
+        }
+      },
+      "qualityNote": "The licensed interview still is softer than the two event photographs; no generated facial pixels or artificial sharpening were used."
+    },
+    {
+      "slug": "chris",
+      "name": "Chris Pratt",
+      "filename": "Chris-Pratt",
+      "type": 7,
+      "color": "#fbbf24",
+      "typeName": "Enthusiast",
+      "date": "2026-10-29",
+      "sourceFile": "chris-front.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_(28584294981).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Chris_Pratt_%2828584294981%29.jpg/3840px-Chris_Pratt_%2828584294981%29.jpg",
+      "credit": "Gage Skidmore",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceCrop": {
+        "left": 560,
+        "top": 0,
+        "width": 2680,
+        "height": 2560
+      },
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_(28584294981).jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Chris_Pratt_%2828584294981%29.jpg/3840px-Chris_Pratt_%2828584294981%29.jpg",
+        "credit": "Gage Skidmore",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "path": "output/portrait-sources/2026-11-17-review/chris-front.jpg",
+        "sha256": "4be0bf578b6c79c68da31406c1d9a341b69e98290067cda82969422868a7cb56",
+        "modifications": "Background removal using generated alpha over original photographed RGB; eye leveling; grayscale conversion; crop and scale; unchanged violet template; WebP encoding. Adaptation provided under the source license."
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-review/chris-composition-cutout.png",
+        "height": 1184,
+        "anchorX": 1571.489010143564,
+        "anchorY": 934.993506481171,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 28
+      },
+      "segmentation": {
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": true,
+        "nativeAlphaConstraint": false,
+        "alphaRegistration": {
+          "method": "eye_landmark_similarity",
+          "scale": 0.48346890249388585,
+          "angleRadians": -0.0017701555437662497
+        },
+        "rotationClockwiseDegrees": -4.108706424371733
+      },
+      "prompt": "Use case: background-extraction. Edit target: this real photograph of Chris Pratt by Gage Skidmore. Remove only the convention backdrop, lettering, chair, and all fragments of other people at the edges. Preserve Chris himself exactly as photographed: entire hairstyle, ears, beard, face and expression, neck, both full natural shoulders, arms, black T-shirt and necklace. Preserve the original canvas aspect ratio, subject position and scale. Do not retouch, reconstruct, enhance or repaint the face or clothing. Do not crop, extend, rotate or recenter the person. Genuine alpha transparency with clean natural hair and clothing edges, no fringe or halos. No new objects, shadows, text, purple mark or graphics.",
+      "master": {
+        "path": "output/portrait-processed/2026-11-17-review/Chris-Pratt-master.png",
+        "sha256": "de0b8b7a703694655095a20416a05f3143def6fdd7c774492975c5b3cd885a1b"
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "preflight": {
+          "ok": true,
+          "type": 7,
+          "slug": "Chris-Pratt",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-review/types/7s/Chris-Pratt.webp",
+            "bytes": 68458,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-review/types/7s/s-Chris-Pratt.webp",
+            "bytes": 17472,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=7&portraitSlug=Chris-Pratt#portrait-preflight"
+        },
+        "visualReview": "Passed square portrait, 480px thumbnail, 4:5 card, dark/light background and 390px mobile review. Template centered at x=540, y=490 with subject placement fitted beneath it."
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-review/types/7s/Chris-Pratt.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 68458,
+          "alpha": true,
+          "sha256": "26c27efa96726c0d49552cb711be7da29f42cb24cb963881ece161cab36c2951"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-review/types/7s/s-Chris-Pratt.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 17472,
+          "alpha": true,
+          "sha256": "a005917086aaeaf7b372bfccbe77449b79e6949c130507c22ddd0680fae74d3f"
+        }
+      }
+    },
+    {
+      "slug": "stella",
+      "name": "Stella Lefty",
+      "filename": "Stella-Lefty",
+      "type": 9,
+      "color": "#34d399",
+      "typeName": "Peacemaker",
+      "date": "2026-10-28",
+      "sourceFile": "stella-front.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Stella_Lefty_@_Moroccan_Lounge_05_06_2025_(54847648025).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Stella_Lefty_%40_Moroccan_Lounge_05_06_2025_%2854847648025%29.jpg/1920px-Stella_Lefty_%40_Moroccan_Lounge_05_06_2025_%2854847648025%29.jpg",
+      "credit": "Justin Higuchi",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Stella_Lefty_@_Moroccan_Lounge_05_06_2025_(54847648025).jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Stella_Lefty_%40_Moroccan_Lounge_05_06_2025_%2854847648025%29.jpg/1920px-Stella_Lefty_%40_Moroccan_Lounge_05_06_2025_%2854847648025%29.jpg",
+        "credit": "Justin Higuchi",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "path": "output/portrait-sources/2026-11-17-review/stella-front.jpg",
+        "sha256": "4e96a5f91e041e5bdba1514a4da162f2e45ca083cffdedf7ee975c1e6a760aff",
+        "modifications": "Background removal using generated alpha over original photographed RGB; eye leveling; grayscale conversion; crop and scale; unchanged violet template; WebP encoding. Adaptation provided under the source license."
+      },
+      "composition": {
+        "input": "output/portrait-processed/2026-11-17-review/stella-composition-cutout.png",
+        "height": 1080,
+        "anchorX": 966.087052538546,
+        "anchorY": 674.9917700603609,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490,
+        "offsetX": 0
+      },
+      "segmentation": {
+        "sourceRgbPreserved": true,
+        "generatedRgbUsed": false,
+        "generatedAlphaUsed": true,
+        "nativeAlphaConstraint": false,
+        "alphaRegistration": {
+          "method": "eye_landmark_similarity",
+          "scale": 0.5913740497592583,
+          "angleRadians": -0.00372937175263644
+        },
+        "rotationClockwiseDegrees": -0.3508018155454272
+      },
+      "prompt": "Use case: background-extraction. Edit target: this real concert photograph of Stella Lefty by Justin Higuchi. Remove the stage background, lighting fixtures, audience heads and audience hands in the foreground. Preserve Stella herself exactly as photographed, including entire hairstyle, expressive open-mouth singing face, ears, neck, both shoulders, collared sleeveless top, necklaces, bracelets, her own hands and the microphone she holds. Preserve her original photographed face, texture, stage lighting, pose, position and scale, and preserve original canvas aspect ratio. Do not reconstruct the face or invent missing anatomy behind the foreground crowd. Keep occluded areas transparent. No retouching, beautification, smoothing, enhancement, cropping, recentering or rotation. Genuine alpha transparency with clean natural edges, no fringe or halos. No new background, shadows, text, purple line or graphics.",
+      "master": {
+        "path": "output/portrait-processed/2026-11-17-review/Stella-Lefty-master.png",
+        "sha256": "864b5ddc9a45bd63289f5be00d7f5dba920df459045a9a777b92a4eb152390ee"
+      },
+      "validation": {
+        "opaqueTemplatePixelsPreserved": 22457,
+        "preflight": {
+          "ok": true,
+          "type": 9,
+          "slug": "Stella-Lefty",
+          "full": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-review/types/9s/Stella-Lefty.webp",
+            "bytes": 97180,
+            "format": "webp",
+            "width": 1080,
+            "height": 1080,
+            "hasAlpha": true
+          },
+          "thumbnail": {
+            "path": "/Users/djwayne/9takes/output/portrait-preflight/2026-11-17-review/types/9s/s-Stella-Lefty.webp",
+            "bytes": 21350,
+            "format": "webp",
+            "width": 480,
+            "height": 480,
+            "hasAlpha": true
+          },
+          "errors": [],
+          "warnings": [],
+          "previewUrl": "http://127.0.0.1:5173/styleguide?portraitType=9&portraitSlug=Stella-Lefty#portrait-preflight"
+        },
+        "visualReview": "Passed square portrait, 480px thumbnail, 4:5 card, dark/light background and 390px mobile review. Template centered at x=540, y=490 with subject placement fitted beneath it."
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-11-17-review/types/9s/Stella-Lefty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 97180,
+          "alpha": true,
+          "sha256": "57251232cdfc8560665a7344eb3777974287a26fb7b2a396d823b25b83df141d"
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-11-17-review/types/9s/s-Stella-Lefty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 21350,
+          "alpha": true,
+          "sha256": "4d9be4f511a5da4283f09263668c60050759319673ea3ba14dd0869ecaaf6088"
+        }
+      }
+    }
+  ],
+  "review": {
+    "url": "http://127.0.0.1:8918/",
+    "localPage": "output/portrait-preflight/2026-11-17-review/index.html",
+    "screenshots": {
+      "dark": "output/portrait-preflight/2026-11-17-review/preview-dark.jpg",
+      "light": "output/portrait-preflight/2026-11-17-review/preview-light.jpg",
+      "guides": "output/portrait-preflight/2026-11-17-review/preview-guides.jpg",
+      "mobile": "output/portrait-preflight/2026-11-17-review/preview-mobile.jpg"
+    },
+    "browserChecks": {
+      "desktopWidth": 1280,
+      "mobileWidth": 390,
+      "brokenImages": 0,
+      "horizontalOverflow": false,
+      "consoleErrors": 0,
+      "beforeAfterControl": true,
+      "lightBackgroundControl": true,
+      "alignmentGuides": true
+    }
+  }
+}

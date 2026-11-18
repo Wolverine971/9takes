@@ -104,6 +104,7 @@
 	let showBackButton = $derived(
 		!isHomePage && !isCategoryPage && !isAdminPage && !isQuestionSlugPage
 	);
+	// Below 900px the back arrow moves into the header, beside the search field.
 
 	// Track swipe gestures for mobile
 	let touchStartX = 0;
@@ -698,7 +699,9 @@
 		<Toast />
 
 		{#if showBackButton && !shouldUseOwnedChrome}
-			<BackNavigation wide={shouldUseOwnedShell} />
+			<div class="hidden min-[900px]:block">
+				<BackNavigation wide={shouldUseOwnedShell} />
+			</div>
 		{/if}
 
 		<main

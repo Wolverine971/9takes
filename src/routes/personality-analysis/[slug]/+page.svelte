@@ -54,7 +54,6 @@
 	import ArticleSources from '$lib/components/blog/ArticleSources.svelte';
 	import EvidenceFigure from '$lib/components/blog/EvidenceFigure.svelte';
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
-	import OpenCaseNote from '$lib/components/blog/OpenCaseNote.svelte';
 
 	let { data }: { data: PageData } = $props();
 
@@ -209,9 +208,6 @@
 	// otherwise a proven live question (chosen in +page.server.ts). Identical
 	// for every visitor, so it can live in the ISR copy.
 	const chorus = $derived(data.chorus ?? null);
-	// Open case: a thin-record profile (pipeline-set profile_format). Adds the
-	// header marker and the closing format note; standard profiles are untouched.
-	const isOpenCase = $derived(data.isOpenCase === true);
 	// The article author chooses the dossier's exact location with an
 	// <EnneagramTypeDossier /> element in the source markdown. Without that
 	// explicit slot, the article renders uninterrupted and no dossier appears.
@@ -229,20 +225,7 @@
 		}));
 	});
 	const typeName = $derived(typeMeta?.name ?? '');
-	const typeNameUpper = $derived(typeName ? typeName.toUpperCase() : '');
 	const personaTitle = $derived(toStringValue(postMeta.persona_title).trim());
-
-	// Deterministic 4-digit dossier number — predictable per-slug so the
-	// catalog feels real. Same person → same №.
-	function fileNumber(seed: string): string {
-		let h = 0;
-		for (let i = 0; i < seed.length; i++) {
-			h = (h * 31 + seed.charCodeAt(i)) | 0;
-		}
-		return String(Math.abs(h) % 10000).padStart(4, '0');
-	}
-
-	const dossierNum = $derived(fileNumber(postMeta.slug || postMeta.person || ''));
 
 	function formatTimeRequired(value: string | null | undefined): string {
 		if (!value) return '';
@@ -459,26 +442,10 @@
 
 		<div class="case-file-inner">
 			<div class="case-file-text">
-				<div class="case-file-kicker" class:case-file-kicker--open-case={isOpenCase}>
-					<SectionKicker
-						num={dossierNum}
-						label={`TYPE ${typeNum ?? '—'} · ${typeNameUpper || 'CASE FILE'}`}
-					/>
-					<!-- Thin-record profile: the type above is the leading read, not a
-					     verdict. Jumps to the closing note that explains the format. -->
-					{#if isOpenCase}
-						<a
-							class="case-file-status"
-							href="#open-case"
-							aria-label="Open case: see how this profile works"
-						>
-							<span class="case-file-status-ring" aria-hidden="true"></span>
-							Open case
-							<span class="case-file-status-arrow" aria-hidden="true">↓</span>
-						</a>
-					{/if}
-				</div>
-
+				<!-- The page leads with the person's name. The type label and the
+				     open-case marker that sat above it are gone (DJ, 2026-11-17): the
+				     type is the article's answer, and open-case pages say so in their
+				     TL;DR box. -->
 				<h1 id="case-file-name" class="case-file-name">{caseFileTitle}</h1>
 
 				<!-- The persona title lives on the portrait caption only; repeating it
@@ -537,8 +504,6 @@
 					<div class="portrait-corner portrait-corner--bl" aria-hidden="true"></div>
 					<div class="portrait-corner portrait-corner--br" aria-hidden="true"></div>
 					<div class="portrait-mono">
-						<!-- <span class="mono">9TAKES · CASE FILE №.{dossierNum}</span> -->
-
 						{#if personaTitle || typeName}
 							<span class="mono">
 								{#if personaTitle}
@@ -632,10 +597,6 @@
 			<!-- Short articles with no clean mid-article break keep the Chorus here. -->
 			{#if !articleFlow.hasChorusSlot}
 				{@render chorusBlock()}
-			{/if}
-
-			{#if isOpenCase}
-				<OpenCaseNote personName={postDisplayName} />
 			{/if}
 
 			<AuthorBio />
@@ -896,9 +857,15 @@
 		gap: 48px;
 		align-items: center;
 
+		/* One column: the portrait is the centerpiece, so it sits right under
+		   the name. .case-file-text dissolves into this flex column so its
+		   children can be reordered around the portrait; DOM order (and the
+		   reading order for screen readers) stays name → text → portrait. */
 		@media (max-width: 968px) {
-			grid-template-columns: 1fr;
-			gap: 28px;
+			display: flex;
+			flex-direction: column;
+			align-items: stretch;
+			gap: 16px;
 		}
 	}
 
@@ -908,65 +875,18 @@
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
-	}
 
-	.case-file-kicker {
-		margin-bottom: 4px;
-	}
+		@media (max-width: 968px) {
+			display: contents;
 
-	/* Open-case profiles only: the type kicker and its status marker share a
-	   row and wrap together on narrow screens. */
-	.case-file-kicker--open-case {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 8px 12px;
-	}
+			> * {
+				order: 3;
+			}
 
-	/* "Open case" marker — a case-file status stamp in the kicker's label voice,
-	   not a warning: dashed lavender outline, hollow ring for "still open". */
-	.case-file-status {
-		display: inline-flex;
-		align-items: center;
-		gap: 7px;
-		min-height: 26px;
-		padding: 3px 9px 3px 8px;
-		font-family: var(--font-talk);
-		font-size: var(--font-size-xs);
-		font-weight: 600;
-		line-height: 1;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-		white-space: nowrap;
-		text-decoration: none;
-		color: var(--highlight);
-		background: transparent;
-		border: 1px dashed color-mix(in srgb, var(--highlight) 60%, transparent);
-		border-radius: 4px;
-		transition:
-			background-color 0.18s ease,
-			border-color 0.18s ease;
-
-		/* Focus ring comes from the global `a:focus-visible` rule. */
-		&:hover {
-			background: color-mix(in srgb, var(--accent) 18%, transparent);
-			border-style: solid;
-			border-color: var(--highlight);
+			> .case-file-name {
+				order: 1;
+			}
 		}
-	}
-
-	.case-file-status-ring {
-		width: 8px;
-		height: 8px;
-		flex-shrink: 0;
-		border: 1.5px solid currentColor;
-		border-radius: 50%;
-	}
-
-	.case-file-status-arrow {
-		color: var(--text-faint);
-		font-weight: 500;
-		letter-spacing: 0;
 	}
 
 	/* The loud line: the name in Anton. The quiet line under it is the
@@ -1070,11 +990,10 @@
 		max-width: 100%;
 
 		@media (max-width: 968px) {
-			/* The analytical promise leads on small screens; the portrait follows. */
-			width: min(100%, 280px);
-			max-width: 280px;
-			margin: 0 auto;
-			justify-self: center;
+			order: 2;
+			width: min(100%, 560px);
+			max-width: 560px;
+			margin: 8px auto;
 		}
 	}
 
@@ -1750,9 +1669,12 @@
 			font-size: clamp(2.75rem, 13vw, 3.5rem);
 		}
 
+		/* Phones: the portrait runs almost edge to edge, 10px from each side
+		   of the screen (the section gutter is 24px). */
 		.case-file-portrait {
-			width: min(100%, 280px);
-			max-width: 280px;
+			width: calc(100% + #{2 * ($gutter-sm - 10px)});
+			max-width: none;
+			margin-inline: calc(-1 * #{$gutter-sm - 10px});
 		}
 
 		.breakdown {

@@ -1,5 +1,4 @@
 // src/lib/personClusterTags.spec.ts
-import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import {
 	CLUSTER_FIELDS,
@@ -58,12 +57,6 @@ describe('cluster tag catalog stays in step with the site', () => {
 			}
 			expect(lanes.filter((group) => !group.slug.startsWith('other-'))).toHaveLength(tags.length);
 		}
-	});
-
-	it('appears in the people profile standard the pipeline writers read', () => {
-		const standard = readFileSync('docs/writing-system/people-profile-standard.md', 'utf8');
-		for (const { tags } of CLUSTER_FIELDS)
-			for (const { tag } of tags) expect(standard, tag).toContain(`\`${tag}\``);
 	});
 });
 

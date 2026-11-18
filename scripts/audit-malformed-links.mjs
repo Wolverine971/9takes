@@ -14,6 +14,8 @@
 //   node scripts/audit-malformed-links.mjs --limit 50      # sample
 //   node scripts/audit-malformed-links.mjs --base http://localhost:5173
 
+import { pathToFileURL } from 'node:url';
+
 const DEFAULT_BASE = 'https://9takes.com';
 const CONCURRENCY = 10;
 
@@ -110,7 +112,9 @@ async function main() {
 	if (!hits.length) console.log('No malformed internal links found.');
 }
 
-main().catch((error) => {
-	console.error(error);
-	process.exit(1);
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+	main().catch((error) => {
+		console.error(error);
+		process.exit(1);
+	});
+}

@@ -6,7 +6,7 @@ description: "Bobbi Althoff's personality, from the Drake interview to Mormon Wi
 author: 'DJ Wayne'
 date: '2025-12-09'
 loc: 'https://9takes.com/personality-analysis/bobbi-althoff'
-lastmod: '2025-12-09'
+lastmod: '2026-11-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

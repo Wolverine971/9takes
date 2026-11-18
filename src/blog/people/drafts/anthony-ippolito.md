@@ -174,6 +174,20 @@ Yet the move that made his career is one nobody invited, and he remembers making
 
 So which is he: a man who quiets fear by preparing until he feels ready, or a man making sure the right people see him? As of October 2026, almost everything he has said in public comes from red carpets, festival junkets and short written Q&As. That record can't yet tell those motives apart, which makes this an open case.
 
+<details>
+<summary class="accordion">TL;DR: Why Anthony Ippolito reads as an Enneagram Type 6 (open case)</summary>
+<div class="panel">
+<ul>
+<li>Type 6 leads at low confidence, with Type 3 nearly level. The read rests on how he meets a daunting job: he names the difficulty, then studies until he has footing.</li>
+<li>Playing a young Al Pacino in <em>The Offer</em> was "pretty terrifying, it makes you want to throw up," he said in 2022, and he answered it by looking into "as much old footage as I could find."</li>
+<li>On Stallone in <em>I Play Rocky</em>, he started the same way: "You start by saying, I don't know how to do this, and it's daunting." Starting from not knowing sits more naturally with a Six than with a Three guarding an image of competence.</li>
+<li>Type 3 fits his biggest move just as well. Before casting began, he taped himself as Stallone unasked, because "I just really had to try to get in the door." Types 9 and 1 are still in play.</li>
+<li>His own retelling of that tape, in long-form interviews after the wide release, would help separate them. Getting noticed points to Three; preparing until he felt ready and not letting down people who trusted him points to Six.</li>
+<li>Almost everything he has said in public comes from red carpets and festival junkets. This is a leading read, not a verdict.</li>
+</ul>
+</div>
+</details>
+
 ## What is Anthony Ippolito's personality type?
 
 Leading read: Enneagram Type 6, and it is a low-confidence call. As of October 2026, Type 3 is nearly level, and Types 9 and 1 are still in play. In both icon roles he named the difficulty and answered it with research. The Stallone self-tape fits Three just as well, and the record is too young to choose.

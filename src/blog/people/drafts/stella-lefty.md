@@ -176,6 +176,20 @@ The backlash arrived with the hit. Her father, Eric Lefkofsky, co-founded Groupo
 
 The question here is narrower. Lefty describes going along with other people's direction and reversing later, and her reasons fit more than one personality type. Every interview found for this profile dates from March to August 2026, inside one promotional campaign. So this Enneagram profile is an open case: a leading read held loosely, three live alternatives, and the signals that would decide between them.
 
+<details>
+<summary class="accordion">TL;DR: Why Stella Lefty reads as an Enneagram Type 9 (open case)</summary>
+<div class="panel">
+<ul>
+<li>Type 9 leads, held loosely. Her pattern: she goes along with other people's direction first and reverses later, once she finds out what she wanted.</li>
+<li>She spent about a year in Los Angeles making pop because, she told SongwriterUniverse, "that's what they all wanted me to do." In December 2025 she went back to country-leaning songs, and "Boston" reached No. 2 on the Hot 100.</li>
+<li>When commenters heard Noah Kahan's "Stick Season" in "Boston," she conceded readily: "I want to do whatever accommodates him." Kahan is credited as a writer.</li>
+<li>Type 6 is the closest rival, because the reasons she gives for the pop year are a Six's: "But I'm not Southern. I always worried, 'Do I have to be?'" Types 7 and 3 are still live.</li>
+<li>Her unscripted account of going along would help settle it. Not registering what she wanted points to Nine, and doubting her own judgment and wanting backing points to Six.</li>
+<li>Every interview found dates from March to August 2026, inside one promotional campaign. This is a leading read, not a verdict.</li>
+</ul>
+</div>
+</details>
+
 ## What is Stella Lefty's personality type?
 
 Leading read: Type 9, held loosely, at low confidence. Type 6 is the closest rival, and Types 7 and 3 are still live. In interviews from March to August 2026 she describes going along with other people's direction and reversing later, once at length and once briefly. Her stated reasons fit more than one type.

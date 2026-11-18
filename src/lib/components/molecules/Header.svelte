@@ -10,9 +10,10 @@
 	import { getAuthShell } from '$lib/authShell.svelte';
 	import { useNotificationCount } from '$lib/notificationCount.svelte';
 	import { clickOutside } from '$lib/attachments/clickOutside';
+	import { getBackNavParent } from '$lib/utils/backNavigation';
 	// Phase 3 (2026-05-04): inline SVGs migrated to @lucide/svelte per design-system.md
 	// rollout-plan Phase 3. Stroke widths normalized to Lucide defaults (1.5).
-	import { CircleUserRound, ChevronDown, Bell } from '@lucide/svelte';
+	import { CircleUserRound, ChevronDown, Bell, ArrowLeft } from '@lucide/svelte';
 
 	const authShell = getAuthShell();
 	const notificationCount = useNotificationCount();
@@ -135,8 +136,24 @@
 		)
 	);
 
-	afterNavigate(() => {
+	// Mobile back arrow, beside the search field (the desktop back bar hides
+	// under 900px). It steps back through in-site history when there is some;
+	// a visitor who landed here from search goes to the parent page instead of
+	// being sent back to Google.
+	let backParent = $derived(getBackNavParent(page.url.pathname));
+	let hasInSiteHistory = false;
+
+	function handleMobileBack(event: MouseEvent) {
+		if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
+		if (hasInSiteHistory) {
+			event.preventDefault();
+			history.back();
+		}
+	}
+
+	afterNavigate(({ from }) => {
 		isLibraryOpen = false;
+		if (from) hasInSiteHistory = true;
 	});
 
 	function toggleLibrary() {
@@ -221,6 +238,17 @@
 		</div>
 
 		<div class="mobile-search-row">
+			{#if backParent}
+				<a
+					href={backParent.url}
+					class="mobile-back"
+					aria-label={`Go back to ${backParent.name}`}
+					title="Back"
+					onclick={handleMobileBack}
+				>
+					<ArrowLeft size={22} strokeWidth={1.75} aria-hidden="true" />
+				</a>
+			{/if}
 			<div class="search-slot">
 				<HeaderSearch mobile={true} placeholder="Search 9takes" />
 			</div>
@@ -688,6 +716,49 @@
 
 	.mobile-search-row {
 		margin-top: 0.75rem;
+	}
+
+	/* Back arrow shares the search row. Focusing the search makes it yield:
+	   the arrow slides out and the field takes the whole row. */
+	.mobile-back {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		flex: 0 0 auto;
+		width: 2.75rem;
+		height: 2.75rem;
+		margin-right: 0.5rem;
+		border-radius: 999px;
+		color: var(--text-muted);
+		text-decoration: none;
+		overflow: hidden;
+		transition:
+			width 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+			margin 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+			opacity 0.2s ease,
+			transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+			color 0.18s ease,
+			background-color 0.18s ease;
+	}
+
+	.mobile-back:hover,
+	.mobile-back:active {
+		color: var(--highlight);
+		background: color-mix(in srgb, var(--accent) 16%, transparent);
+	}
+
+	.mobile-search-row:has(:global(input:focus)) .mobile-back {
+		width: 0;
+		margin-right: 0;
+		opacity: 0;
+		transform: translateX(-0.75rem);
+		pointer-events: none;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.mobile-back {
+			transition: none;
+		}
 	}
 
 	@media (max-width: 1180px) {

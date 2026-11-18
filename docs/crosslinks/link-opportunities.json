@@ -13,7 +13,7 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 266,
+		"candidates": 267,
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 17,
@@ -285,7 +285,7 @@
 				"impressions": 293,
 				"outCount": 85
 			},
-			"line": 309,
+			"line": 312,
 			"anchor": "Elizabeth",
 			"phrase": "elizabeth",
 			"phraseKind": "gsc",
@@ -1313,7 +1313,7 @@
 				"impressions": 293,
 				"outCount": 85
 			},
-			"line": 346,
+			"line": 349,
 			"anchor": "Kate Hudson",
 			"phrase": "Kate Hudson",
 			"phraseKind": "name",
@@ -1394,7 +1394,7 @@
 				"impressions": 293,
 				"outCount": 85
 			},
-			"line": 131,
+			"line": 134,
 			"anchor": "Ryan Reynolds",
 			"phrase": "Ryan Reynolds",
 			"phraseKind": "name",
@@ -1529,7 +1529,7 @@
 				"impressions": 293,
 				"outCount": 85
 			},
-			"line": 347,
+			"line": 350,
 			"anchor": "Scott Galloway",
 			"phrase": "Scott Galloway",
 			"phraseKind": "name",

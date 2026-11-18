@@ -507,7 +507,8 @@
 		transition:
 			border-color 0.18s ease,
 			box-shadow 0.18s ease,
-			transform 0.18s ease;
+			transform 0.18s ease,
+			min-height 0.28s cubic-bezier(0.22, 1, 0.36, 1);
 	}
 
 	.header-search.is-focused .search-field {
@@ -738,6 +739,18 @@
 
 	.mobile .search-field {
 		min-height: 2.85rem;
+	}
+
+	/* Mobile focus: the pill grows a little taller while the header's back
+	   arrow slides away, so the field visibly opens up for typing. */
+	.mobile.is-focused .search-field {
+		min-height: 3.15rem;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.search-field {
+			transition: none;
+		}
 	}
 
 	.mobile input {

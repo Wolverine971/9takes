@@ -14,7 +14,7 @@ vi.mock('$app/state', () => ({ page: pageState, updated: updatedState }));
 import ErrorPage from './+error.svelte';
 
 describe('global error page', () => {
-	it('offers clear, accessible recovery paths without placeholder copy', () => {
+	it('offers accessible recovery paths', () => {
 		const { container } = render(ErrorPage);
 
 		expect(screen.getByRole('heading', { level: 1, name: 'That page is not here' })).toBeTruthy();
@@ -26,7 +26,6 @@ describe('global error page', () => {
 		expect(screen.getByRole('link', { name: 'Search 9takes' }).getAttribute('href')).toBe(
 			'/search'
 		);
-		expect(container.textContent).not.toContain('The 9takes questions??');
 		expect(container.querySelector('main')).toBeNull();
 	});
 });

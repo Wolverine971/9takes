@@ -165,6 +165,20 @@ _Monster_, Ryan Murphy and Ian Brennan's Netflix anthology, premiered on Septemb
 
 Since the premiere, people have been looking her up. They find a mostly promotional record that begins in January 2024, with a gap running through it: colleagues describe composure, while she names fear beside the excitement. This is an open case: a leading read held loosely, the alternatives beside it, and what would decide between them.
 
+<details>
+<summary class="accordion">TL;DR: Why Ella Beatty reads as an Enneagram Type 6 (open case)</summary>
+<div class="panel">
+<ul>
+<li>Type 6 leads, at low confidence. The word she keeps choosing is responsibility, and she meets it by securing the ground first: "I felt a huge responsibility to the part, to the anthology, to the real person."</li>
+<li>Cast as the lead in Netflix's <em>Monster: The Lizzie Borden Story</em>, she was "over the moon and also really scared." Then she "listened to every single podcast and video that's ever been published in the world."</li>
+<li>Taking over on Broadway in <em>Appropriate</em> after about two days of table work, she "came in off book, so that would never be an issue." Trusting herself to handle what she worries about is, she said, "something I'm still really trying to do."</li>
+<li>Type 9 is the main rival: she credits luck and other people, and wants "to be able to disappear into roles." Types 2 and 3 are still in play.</li>
+<li>Her answer to the critics would help separate them. IndieWire's Travers called her "perpetually blank"; doubting herself and preparing harder would point to Six, and letting it pass would point to Nine.</li>
+<li>Her public record starts in January 2024 and is mostly promotional. Her two longest conversations were with friends. This is a leading read, not a verdict.</li>
+</ul>
+</div>
+</details>
+
 ## What is Ella Beatty's personality type?
 
 Leading read: Enneagram Type 6, held loosely at low confidence. Type 9 is the main alternative; Types 2 and 3 remain in play. She talks about responsibility (to her castmates, her family's legacy, the real Lizzie Borden) and meets it by showing up off book. Her public record starts in 2024, so nothing yet separates these reads.

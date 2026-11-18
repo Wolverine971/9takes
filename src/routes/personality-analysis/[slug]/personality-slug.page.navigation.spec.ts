@@ -141,7 +141,9 @@ describe('personality page client-side navigation', () => {
 		await settle();
 
 		expect(container.querySelector('#case-file-name')?.textContent).toContain('Beta Person');
-		expect(container.querySelector('.case-file-kicker')?.textContent).toContain('TYPE 4');
+		expect(container.querySelector('.portrait-mono')?.textContent).toContain(
+			'PERSONA OF BETA-PERSON'
+		);
 		expect(container.querySelector('.toc-link')?.getAttribute('href')).toBe('#beta-person-one');
 		expect(container.textContent).toContain('Beta-Person first question?');
 		expect(container.textContent).not.toContain('Alpha');

@@ -172,6 +172,19 @@ So which is the real Salomé: the calm, soft-focus feed, or the woman confrontin
 
 Both. That's what makes her a Nine.
 
+<details>
+<summary class="accordion">TL;DR: Why Salomé Andrea is an Enneagram Type 9</summary>
+<div class="panel">
+<ul>
+<li>Her core emotion is anger, kept out of sight. She goes along easily, files the irritation away, and lets it build until it comes out all at once.</li>
+<li>Much of her early life got decided around her. Of her 2012 wedding she said, "I just had zero opinion," and photography, the hobby she loved, became her husband Aaron's career.</li>
+<li>She named the buildup herself on <em>The Secret Lives of Mormon Wives: Orange County</em>: "a lot of resentment on my end was building." Their fights, she said, "spiraled and snowballed into something so big."</li>
+<li>After the separation she went back because she missed her "family unit," and on the show she said "committed" before she named a "breaking point." The pull back toward calm is the Nine's.</li>
+<li>Type 6 is the real rival, on her postpartum anxiety and the trust audit after the screenshot. The call stays Nine because her own account of the marriage is about resentment built over years of going along, and a Six's marriage breaks down through suspicion.</li>
+</ul>
+</div>
+</details>
+
 ## What is Salomé Andrea's personality type?
 
 Salomé Andrea is an Enneagram Type 9, the Peacemaker. She goes along easily and keeps her anger out of sight until it has built into resentment, which she named on _Mormon Wives: OC_. Then she works her way back to calm and to the family she missed.

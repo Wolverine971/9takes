@@ -29,6 +29,10 @@ describe('EmailComposeModal', () => {
 
 		const composeDialog = await screen.findByRole('dialog', { name: 'Compose Email' });
 		const subject = screen.getByRole('textbox', { name: /Subject/ });
+		const content = screen.getByRole('textbox', { name: 'Content · HTML' });
+
+		// Check the rendered placeholder, independent of Svelte's generated JS format.
+		expect(content.getAttribute('placeholder')).toContain('{{ name }}');
 
 		await waitFor(() => expect(document.activeElement).toBe(subject));
 		expect(document.body.style.overflow).toBe('hidden');

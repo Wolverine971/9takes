@@ -1,7 +1,7 @@
 // src/lib/components/blog/enneagramSidebarCopy.spec.ts
 import { describe, expect, it } from 'vitest';
 
-import { getEnneagramSidebarContext, getEnneagramSidebarCopy } from './enneagramSidebarCopy';
+import { getEnneagramSidebarContext } from './enneagramSidebarCopy';
 
 describe('getEnneagramSidebarContext', () => {
 	it('maps personality analysis paths', () => {
@@ -25,15 +25,5 @@ describe('getEnneagramSidebarContext', () => {
 
 	it('falls back to generic for unrelated pages', () => {
 		expect(getEnneagramSidebarContext('/questions')).toBe('generic');
-	});
-});
-
-describe('getEnneagramSidebarCopy', () => {
-	it('returns section-specific copy', () => {
-		expect(getEnneagramSidebarCopy('/pop-culture/brad-pitt')).toEqual({
-			title: 'Get new culture reads',
-			copy: 'Celebrity typings and internet-culture reads through the Enneagram lens.',
-			buttonLabel: 'Send it to me'
-		});
 	});
 });

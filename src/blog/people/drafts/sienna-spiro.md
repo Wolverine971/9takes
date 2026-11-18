@@ -163,6 +163,7 @@ content_quality:
   needs_review: true
   content_sha256: 12a6e30a6d2df0131b508df8578f7a0a06128b2a45acf1bb975be6bb5df66731
   profile_format: open_case
+path: src/blog/people/drafts/sienna-spiro.md
 ---
 
 At 10, Sienna Spiro wrote her first song. "Lady in the Mirror" was about being bullied at school when, as she told [NYLON](https://www.nylon.com/entertainment/sienna-spiro-interview-visitor-debut-album-die-on-this-hill-tiktok-new-tour) in June 2026, "no one really believed me that it was happening." "The song was about how the only person who really knows what's going on is me, the person in the mirror." Then she sang it at a school assembly, in front of the children who had bullied her.
@@ -174,6 +175,20 @@ She gave NYLON one more detail. At those assemblies, "anytime someone was singin
 Spiro, a Londoner born on September 28, 2005, started posting singing videos on TikTok in 2021 and released her first single in May 2024, [Wikipedia](https://en.wikipedia.org/wiki/Sienna_Spiro) records. Her breakthrough, "Die on This Hill," came out on [October 10, 2025](https://www.officialcharts.com/chart-news/who-is-sienna-spiro-as-her-soulful-single-die-on-this-hill-heads-for-first-top-40/) and, once TikTok seized on its bridge, reached No. 9 in the UK and No. 19 on the Billboard Hot 100. Her debut album, _Visitor_, followed on July 3, 2026, and "Great Expectation" had just spent a third week at No. 1 in the UK when she won Best New Artist at the MTV VMAs on September 27, 2026, [Billboard](https://www.billboard.com/music/awards/sienna-spiro-great-expectation-vmas-performance-1236348758/) reported. Her sound is soulful, '60s-style balladry; in March 2026, [Variety](https://variety.com/2026/music/concert-reviews/sienna-spiro-troubadour-debut-british-voice-concert-review-1236679904/)'s Chris Willman wrote that "Spiro sounds like a sequel to [Adele](/personality-analysis/adele)."
 
 What drives her is the open question. She calls herself "naturally sad," which sounds like a Four. But she named her album after feeling like a visitor in other people's lives, and when she defines that feeling, it usually comes back to being kept only while she keeps showing up for people. Asked why in March 2026, she said she made herself needed; elsewhere she has tied it to her ADHD. Her interview record, nearly all from promoting an EP and an album in 2025 and 2026, can't yet show which explanation goes deepest, so this is an open case: a leading read held loosely, the live alternatives beside it, and the signals that would decide between them.
+
+<details>
+<summary class="accordion">TL;DR: Why Sienna Spiro reads as an Enneagram Type 2 (open case)</summary>
+<div class="panel">
+<ul>
+<li>Type 2 leads, at low confidence. She describes earning her place by being needed: "I always felt like I was never really wanted around. So, I had to make myself like needed."</li>
+<li>She took the "therapist role" for her friends "because I never thought people would want me otherwise if they didn't need me," and called that "the biggest theme throughout my whole life."</li>
+<li>She still described it in 2026. If she doesn't show up for someone in the expected way, "you're expired to them," and "I sometimes mirror the people around me to be kept around." The helping is the one habit she never describes dropping.</li>
+<li>Type 4 is close. She calls herself "naturally sad" and says singing is "the way I felt like a real person." Type 3 is still live on her drive, but what she says she fears is being unwanted more than failing.</li>
+<li>A friendship that cools after fame would settle it best, told by the friend. Still giving and feeling used points to Two; pulling back to grieve and write about being temporary points to Four.</li>
+<li>Nearly every interview comes from promoting an EP and an album, and melancholy and candor are her genre's currency. This is a leading read, not a verdict.</li>
+</ul>
+</div>
+</details>
 
 ## What is Sienna Spiro's personality type?
 

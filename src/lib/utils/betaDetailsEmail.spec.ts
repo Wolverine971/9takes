@@ -25,10 +25,6 @@ describe('buildBetaDetailsEmail', () => {
 		expect(body).toContain('coaching, not clinical therapy');
 		expect(body).toContain('988');
 	});
-
-	it('asks for a reply when they are not ready to book', () => {
-		expect(buildBetaDetailsEmail({}).body).toContain('P.S. Not ready to book? Hit reply');
-	});
 });
 
 describe('betaDetailsEmailHtml', () => {

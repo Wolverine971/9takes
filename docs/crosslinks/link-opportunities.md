@@ -1,7 +1,7 @@
 # Link Opportunities
 
 _Generated: 2026-11-17 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-08-10 → 2026-11-08. 146 candidate links found (+120 weaker ones offered only for gate debt); 329 suppressed in `docs/crosslinks/skipped.json`._
+_Search data: GSC 2026-08-10 → 2026-11-08. 147 candidate links found (+120 weaker ones offered only for gate debt); 329 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -24,7 +24,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 3.09 | `/community/inspiration-for-9takes` (L29) | `/enneagram-corner/what-is-a-love-language` | "different things" | Not literally. We both speak English. But we were using the same words to mean completely different things. And every attempt to "fix" our … |
 | 2.57 | `/pop-culture/breaking-points-enneagram-analysis` (L201) | `/enneagram-corner/enneagram-compatibility-matrix` | "type pairing" | …Morning Joe. Does the chemistry of every successful media duo map to a specific type pairing? See our [Podcaster Personality Map](/pop-cul… |
 | 2.48 | `/community/software-and-hardware-of-the-mind` (L114) | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` | "personality systems" | All personality systems attempt to explain the dimensions by which we are similar and different. The most popular scientific model—the <a c… |
-| 1.83 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L309) | `/pop-culture/tech-titans-enneagram-analysis` | "Elizabeth" | - Type 3: Adam Neumann, Alexandr Wang, Bernard Arnault, Brian Chesky, Elizabeth Holmes |
+| 1.83 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L312) | `/pop-culture/tech-titans-enneagram-analysis` | "Elizabeth" | - Type 3: Adam Neumann, Alexandr Wang, Bernard Arnault, Brian Chesky, Elizabeth Holmes |
 | 1.74 | `/pop-culture/what-enneagram-type-are-most-musicians` (L169) | `/enneagram-corner/enneagram-types-and-career-choices` | "careers" | …ysis/post-malone), and [Selena Gomez](/personality-analysis/selena-gomez) build careers on being welcome in every room they enter. The out… |
 | 1.72 | `/community/societal-ticking-time-bombs` (L360) | `/enneagram-corner/enneagram-and-adhd-which-types-struggle-most` | "ADHD" | And look what's happening with ADHD. Diagnoses among US children rose sharply -- [from 6.1% in 1997 to 10.2% in 2016](https://pmc.ncbi.nlm.… |
 | 1.6 | `/enneagram-corner/astrology-and-the-enneagram` (L91) | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` | "next thing" | …ou're a [Type 7](/enneagram-corner/enneagram-type-7). If freedom means nobody tells you what to do, look at [Type 8](/enneagram-corner/enn… |
@@ -67,15 +67,15 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 4.69 | `/pop-culture/podcaster-personality-map` (L80) | `/personality-analysis/joe-rogan` | "Joe Rogan" | **Joe Rogan. [Dave Portnoy](/personality-analysis/dave-portnoy). [Sam Parr](/personality-analysis/sam-parr).** |
 | 4.47 | `/enneagram-corner/enneagram-leadership` (L171) | `/personality-analysis/steve-jobs` | "Steve Jobs" | **Reality Check:** Has your mood determined a meeting's outcome this week? Steve Jobs built Apple into a trillion-dollar company, but his e… |
 | 4.17 | `/enneagram-corner/enneagram-leadership` (L639) | `/personality-analysis/jeff-bezos` | "Jeff Bezos" | **Example:** Jeff Bezos (Amazon) |
-| 3.9 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L346) | `/personality-analysis/kate-hudson` | "Kate Hudson" | - Type 7: Kate Hudson, [Kyle Forgeard](/personality-analysis/kyle-forgeard), Ryan Reynolds |
+| 3.9 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L349) | `/personality-analysis/kate-hudson` | "Kate Hudson" | - Type 7: Kate Hudson, [Kyle Forgeard](/personality-analysis/kyle-forgeard), Ryan Reynolds |
 | 3.85 | `/community/societal-ticking-time-bombs` (L374) | `/personality-analysis/sam-parr` | "Sam Parr" | The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he… |
 | 3.21 | `/enneagram-corner/enneagram-leadership` (L276) | `/personality-analysis/satya-nadella` | "Satya Nadella" | …itting on a decision right now? One you have been sitting on for days or weeks? Satya Nadella transformed Microsoft with a consensus-build… |
-| 2.94 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L131) | `/personality-analysis/ryan-reynolds` | "Ryan Reynolds" | …broad on purpose. It holds Jeff Bezos. It also holds Taylor Swift, who runs a very large business, and Ryan Reynolds, who sold a gin brand… |
+| 2.94 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L134) | `/personality-analysis/ryan-reynolds` | "Ryan Reynolds" | …broad on purpose. It holds Jeff Bezos. It also holds Taylor Swift, who runs a very large business, and Ryan Reynolds, who sold a gin brand… |
 | 2.87 | `/pop-culture/twitter-x-personality-types-toxic` (L225) | `/personality-analysis/elon-musk` | "Elon Musk" | **Did X become more toxic after Elon Musk bought Twitter?** |
 | 2.86 | `/community/societal-ticking-time-bombs` (L374) | `/personality-analysis/shaan-puri` | "Shaan Puri" | The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he… |
 | 2.57 | `/enneagram-corner/enneagram-wings-complete-guide` (L240) | `/personality-analysis/bill-gates` | "Bill Gates" | **Public-figure interpretations:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), [Mark Zuckerberg](/personality-ana… |
 | 1.36 | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` (L417) | `/personality-analysis/scott-galloway` | "Scott Galloway" | … such as abandoning their original no-guests rule. One split played out live on Scott Galloway's podcast: Jordi called integrating gamblin… |
-| 0.72 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L347) | `/personality-analysis/scott-galloway` | "Scott Galloway" | - Type 8: [Kara Swisher](/personality-analysis/kara-swisher), Scott Galloway |
+| 0.72 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L350) | `/personality-analysis/scott-galloway` | "Scott Galloway" | - Type 8: [Kara Swisher](/personality-analysis/kara-swisher), Scott Galloway |
 | 0.61 | `/pop-culture/podcast-bros-enneagram-analysis` (L346) | `/personality-analysis/andrew-schulz` | "Andrew Schulz" | - **The Second Generation**: A wave of newer hosts—Andrew Schulz, Theo Von, Danny Jones—are building audiences using the infrastructure the… |
 
 ## 4. People → people (personality-analysis → personality-analysis)

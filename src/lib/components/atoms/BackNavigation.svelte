@@ -2,11 +2,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { browser } from '$app/environment';
-
-	interface NavStep {
-		name: string;
-		url: string;
-	}
+	import { getBackNavSteps } from '$lib/utils/backNavigation';
 
 	interface Props {
 		wide?: boolean;
@@ -14,35 +10,13 @@
 
 	let { wide = false }: Props = $props();
 
-	function getHref(index: number, steps: string[]): string {
-		return '/' + steps.slice(0, index).join('/');
-	}
-
-	function buildNavSteps(pathname: string): NavStep[] {
-		if (!pathname) return [];
-
-		const isAdminRoute = pathname.includes('/admin');
-		const pathSegments = pathname.split('/').filter((segment) => {
-			if (!segment) return false;
-			if (['users', 'unsubscribe', 'type', 'subtopic'].includes(segment)) {
-				return isAdminRoute;
-			}
-			return true;
-		});
-
-		return pathSegments.slice(0, -1).map((segment, i) => ({
-			name: segment === 'questions' ? 'Questions' : segment.replace(/-/g, ' '),
-			url: getHref(i + 1, pathSegments)
-		}));
-	}
-
 	function goBack() {
 		if (browser) {
 			window.history.back();
 		}
 	}
 
-	let navSteps = $derived(page.url.pathname ? buildNavSteps(page.url.pathname) : []);
+	let navSteps = $derived(getBackNavSteps(page.url.pathname));
 
 	// Get the previous page from navSteps
 	let previousPage = $derived(navSteps.length > 0 ? navSteps[navSteps.length - 1] : null);

@@ -1,10 +1,21 @@
 // scripts/audit-malformed-links.spec.mjs
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { findMalformedHrefs } from './audit-malformed-links.mjs';
 
 const reasons = (html) => findMalformedHrefs(html).map((hit) => hit.reason);
 
 describe('findMalformedHrefs', () => {
+	it('can be imported without crawling the live site', async () => {
+		vi.resetModules();
+		const fetch = vi.spyOn(globalThis, 'fetch').mockResolvedValue(new Response('<urlset />'));
+		try {
+			await import('./audit-malformed-links.mjs');
+			expect(fetch).not.toHaveBeenCalled();
+		} finally {
+			fetch.mockRestore();
+		}
+	});
+
 	it('flags external URLs that lost their domain', () => {
 		// The shape that filled the GSC 404 bucket: a YouTube link rendered as a
 		// site-relative path, which can only ever 404 on 9takes.com.

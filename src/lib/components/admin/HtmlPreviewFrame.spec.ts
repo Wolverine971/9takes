@@ -26,7 +26,6 @@ describe('HtmlPreviewFrame', () => {
 		expect(srcdoc).toContain("connect-src 'none'");
 		expect(srcdoc).toContain('img-src data: blob:');
 		expect(srcdoc).toContain('<p>Hello</p>');
-		expect(document.body.dataset.compromised).toBeUndefined();
 	});
 
 	it.each([

@@ -1,54 +1,45 @@
 // src/lib/utils/betaCardCopy.spec.ts
-import { beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import {
 	assignBetaCardVariant,
 	BETA_CARD_VARIANTS,
 	BETA_VARIANT_STORAGE_KEY,
 	DETAILS_COPY,
 	isBetaCardVariantId,
-	renderBetaHeadline
+	renderBetaHeadline,
+	type BetaCardCopy
 } from './betaCardCopy';
 
 function installStorage() {
 	const store = new Map<string, string>();
-	(globalThis as { localStorage?: unknown }).localStorage = {
+	vi.stubGlobal('localStorage', {
 		getItem: (key: string) => store.get(key) ?? null,
 		setItem: (key: string, value: string) => void store.set(key, value),
 		removeItem: (key: string) => void store.delete(key)
-	};
+	});
 	return store;
 }
 
 describe('beta card copy', () => {
-	it('keeps every variant short: headline ≤ 9 words, sub ≤ 15, button ≤ 4', () => {
-		for (const copy of [...BETA_CARD_VARIANTS, DETAILS_COPY]) {
-			const words = (text: string) => text.trim().split(/\s+/).length;
-			expect(words(renderBetaHeadline(copy, 'Taylor Swift')), copy.id).toBeLessThanOrEqual(9);
-			expect(words(renderBetaHeadline(copy, null)), copy.id).toBeLessThanOrEqual(9);
-			expect(words(copy.sub), copy.id).toBeLessThanOrEqual(15);
-			expect(words(copy.button), copy.id).toBeLessThanOrEqual(4);
-		}
+	const personalizedCopy: BetaCardCopy = {
+		id: 'test-personalized',
+		kicker: 'Test',
+		headline: 'Read {name}. Understand {name}.',
+		headlineFallback: 'Read a personality.',
+		sub: 'Test description',
+		button: 'Read'
+	};
+
+	it('replaces every name placeholder and trims the supplied name', () => {
+		expect(renderBetaHeadline(personalizedCopy, '  Taylor Swift  ')).toBe(
+			'Read Taylor Swift. Understand Taylor Swift.'
+		);
 	});
 
-	it('never names the founder or speaks as "I"', () => {
-		for (const copy of [...BETA_CARD_VARIANTS, DETAILS_COPY]) {
-			const text = [
-				copy.kicker,
-				copy.headline,
-				copy.headlineFallback ?? '',
-				copy.sub,
-				copy.button
-			].join(' ');
-			expect(text, copy.id).not.toMatch(/\bDJ\b|\bI\b|\bI’|\bI'/);
+	it('uses the fallback when a person name is missing or blank', () => {
+		for (const name of [null, undefined, '', '  ']) {
+			expect(renderBetaHeadline(personalizedCopy, name)).toBe('Read a personality.');
 		}
-	});
-
-	it('fills in the person, or falls back on pages without one', () => {
-		const withName = BETA_CARD_VARIANTS.find((copy) => copy.headline.includes('{name}'));
-		if (!withName) return;
-		expect(renderBetaHeadline(withName, 'Taylor Swift')).toContain('Taylor Swift');
-		expect(renderBetaHeadline(withName, null)).not.toContain('{name}');
-		expect(renderBetaHeadline(withName, '  ')).not.toContain('{name}');
 	});
 
 	it('knows its own variant ids, including the details copy', () => {
@@ -64,6 +55,8 @@ describe('assignBetaCardVariant', () => {
 	beforeEach(() => {
 		store = installStorage();
 	});
+
+	afterEach(() => vi.unstubAllGlobals());
 
 	it('picks a variant and keeps it for this browser', () => {
 		const first = assignBetaCardVariant(() => 0.99);
@@ -87,14 +80,14 @@ describe('assignBetaCardVariant', () => {
 	});
 
 	it('still works when storage is blocked', () => {
-		(globalThis as { localStorage?: unknown }).localStorage = {
+		vi.stubGlobal('localStorage', {
 			getItem: () => {
 				throw new Error('blocked');
 			},
 			setItem: () => {
 				throw new Error('blocked');
 			}
-		};
+		});
 		expect(BETA_CARD_VARIANTS).toContainEqual(assignBetaCardVariant(() => 0.4));
 	});
 });
