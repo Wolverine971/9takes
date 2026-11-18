@@ -9,12 +9,12 @@ description: >-
   Google's defense the same day. The case for Enneagram 1, and why 5 is the
   rival.
 author: DJ Wayne
-date: '2026-11-04'
+date: '2026-11-18'
 loc: 'https://9takes.com/personality-analysis/geoffrey-hinton'
-lastmod: '2026-11-04'
+lastmod: '2026-11-18'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '1'
 type:
   - techie

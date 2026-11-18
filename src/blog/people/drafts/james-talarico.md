@@ -8,12 +8,12 @@ description: >-
   James Talarico quit a 2021 Democratic walkout early under fire from his own
   party, then won a U.S. Senate seat in Texas. The case for Type 1 over Type 3.
 author: DJ Wayne
-date: '2026-11-05'
+date: '2026-11-18'
 loc: 'https://9takes.com/personality-analysis/james-talarico'
-lastmod: '2026-11-05'
+lastmod: '2026-11-18'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '1'
 type:
   - politician

@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -950,7 +950,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/aaron-pierre</loc>
@@ -1500,7 +1500,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2000,6 +2000,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/geoffrey-hinton</loc>
+    <lastmod>2026-11-18</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/1s/geoffrey-hinton.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/george-h-w-bush</loc>
     <lastmod>2025-12-04</lastmod>
     <image:image>
@@ -2284,6 +2291,13 @@
     <lastmod>2026-04-17</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/1s/James-Dyson.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/james-talarico</loc>
+    <lastmod>2026-11-18</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/1s/james-talarico.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -4136,7 +4150,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/1</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>
@@ -4527,7 +4541,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/advice-18-year-old-wants-go-college-doesnt-know-wants</loc>
@@ -4742,8 +4756,16 @@
     <lastmod>2026-10-26</lastmod>
   </url>
   <url>
+    <loc>https://9takes.com/questions/what-did-your-face-do-the-last-time-a-friend</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
     <loc>https://9takes.com/questions/what-do-people-get-wrong-about-you-when-they-first-meet-you</loc>
     <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/what-do-you-do-with-your-phone-when-a-friend</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/what-do-you-provide-so-that-you-never-have-to-ask</loc>

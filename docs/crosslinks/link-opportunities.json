@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-11-17",
+	"generatedAt": "2026-11-18",
 	"gsc": {
 		"runDate": "2026-11-10",
 		"window": {
@@ -13,11 +13,11 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 267,
+		"candidates": 268,
 		"gateDebt": 0,
 		"topBlog": 40,
-		"peopleBridge": 17,
-		"peopleToPeople": 0,
+		"peopleBridge": 18,
+		"peopleToPeople": 3,
 		"skipped": 329
 	},
 	"gateDebt": [],
@@ -1510,6 +1510,33 @@
 			"excerpt": "… such as abandoning their original no-guests rule. One split played out live on Scott Galloway's podcast: Jordi called integrating gambling into Meta indefensible, and John immediately opened a distinction between wantin…"
 		},
 		{
+			"id": "/pop-culture/artificial-movie-real-people -> /personality-analysis/geoffrey-hinton",
+			"score": 1.05,
+			"target": {
+				"url": "/personality-analysis/geoffrey-hinton",
+				"title": "Geoffrey Hinton",
+				"kind": "person",
+				"section": "people",
+				"impressions": 0,
+				"clicks": 0,
+				"position": null,
+				"inbound": 0
+			},
+			"source": {
+				"url": "/pop-culture/artificial-movie-real-people",
+				"file": "src/blog/pop-culture/artificial-movie-real-people.md",
+				"section": "pop-culture",
+				"impressions": 0,
+				"outCount": 11
+			},
+			"line": 108,
+			"anchor": "Geoffrey Hinton",
+			"phrase": "Geoffrey Hinton",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…gins twenty years before that Friday, with a 17-year-old Sutskever walking into Geoffrey Hinton's office in Toronto. And it picks a hero and a villain. Awards Radar calls Borisov's Sutskever \"the moral center of the film…"
+		},
+		{
 			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /personality-analysis/scott-galloway",
 			"score": 0.72,
 			"target": {
@@ -1564,5 +1591,63 @@
 			"excerpt": "- **The Second Generation**: A wave of newer hosts—Andrew Schulz, Theo Von, Danny Jones—are building audiences using the infrastructure the original podcast bros created but with different personality types and different…"
 		}
 	],
-	"peopleToPeople": []
+	"peopleToPeople": [
+		{
+			"id": "/personality-analysis/marc-andreessen -> /personality-analysis/geoffrey-hinton",
+			"source": {
+				"url": "/personality-analysis/marc-andreessen",
+				"file": "src/blog/people/drafts/Marc-Andreessen.md",
+				"outCount": 5
+			},
+			"target": {
+				"url": "/personality-analysis/geoffrey-hinton",
+				"name": "Geoffrey Hinton",
+				"inCount": 0,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 329,
+			"anchor": "Geoffrey Hinton",
+			"excerpt": "Geoffrey Hinton resigned from Google in May 2023 specifically to warn about AI risk. He is not a doomer by background. He is the man whose 2012 work made the deep-learning revolution Andreessen now invests in possible. Hinton's argument is that the systems his own students built may, on their current trajectory, become impossible to align with human intent. Yoshua Bengio, who shared the 2018 Turing Award with Hinton, has signed open letters calling for development pauses on frontier systems and has said in interviews that he changed his views and now estimates a non-trivial probability of catastrophic outcomes within a decade. These are not bureaucrats afraid of progress. They are the field's founders, looking at what they built, saying out loud that they may have been wrong about what it would do.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/sam-altman -> /personality-analysis/geoffrey-hinton",
+			"source": {
+				"url": "/personality-analysis/sam-altman",
+				"file": "src/blog/people/drafts/Sam-Altman.md",
+				"outCount": 9
+			},
+			"target": {
+				"url": "/personality-analysis/geoffrey-hinton",
+				"name": "Geoffrey Hinton",
+				"inCount": 0,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 406,
+			"anchor": "Geoffrey Hinton",
+			"excerpt": "Geoffrey Hinton, Stuart Russell, Nobel economists Oliver Hart and Joseph Stiglitz, and dozens of other prominent figures [signed an open letter](https://time.com/7279977/openai-for-profit-letter-elon-musk/) urging state attorneys general to block the conversion. Hinton said in a statement [reported by CNBC](https://www.nbcnewyork.com/news/business/money-report/ex-openai-staffers-urge-states-not-to-approve-chatgpt-makers-restructuring-effort/6236345/): \"I would like them to execute that mission instead of enriching their investors.\" California AG Rob Bonta and Delaware AG Kathy Jennings both opened investigations. The final deal forced OpenAI to grant the nonprofit foundation roughly $130 billion in value, but the safety-first governance was gone.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/ilya-sutskever -> /personality-analysis/geoffrey-hinton",
+			"source": {
+				"url": "/personality-analysis/ilya-sutskever",
+				"file": "src/blog/people/drafts/ilya-sutskever.md",
+				"outCount": 9
+			},
+			"target": {
+				"url": "/personality-analysis/geoffrey-hinton",
+				"name": "Geoffrey Hinton",
+				"inCount": 0,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 176,
+			"anchor": "Geoffrey Hinton",
+			"excerpt": "Geoffrey Hinton tells a story about the first time he met him. A young student knocked on his University of Toronto office door and said he was cooking fries over the summer but would rather be working in Hinton's lab. Make an appointment, Hinton said. \"How about now.\" Hinton handed him the Nature paper on backpropagation. A week later the student came back and said he hadn't understood it, and Hinton was disappointed: \"it's only the chain rule.\" \"Oh no, no, I understood that,\" the student said. \"I just don't understand why you don't give the gradient to a sensible function optimizer,\" a question Hinton says \"took us quite a few years to think about.\" ([Geoffrey Hinton, Sana AI Summit, 2024](https://www.youtube.com/watch?v=4W5askrV-wY))",
+			"typeClaim": null
+		}
+	]
 }

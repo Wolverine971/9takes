@@ -1,7 +1,7 @@
 # Link Opportunities
 
-_Generated: 2026-11-17 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-08-10 → 2026-11-08. 147 candidate links found (+120 weaker ones offered only for gate debt); 329 suppressed in `docs/crosslinks/skipped.json`._
+_Generated: 2026-11-18 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Search data: GSC 2026-08-10 → 2026-11-08. 148 candidate links found (+120 weaker ones offered only for gate debt); 329 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -75,6 +75,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 2.86 | `/community/societal-ticking-time-bombs` (L374) | `/personality-analysis/shaan-puri` | "Shaan Puri" | The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he… |
 | 2.57 | `/enneagram-corner/enneagram-wings-complete-guide` (L240) | `/personality-analysis/bill-gates` | "Bill Gates" | **Public-figure interpretations:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), [Mark Zuckerberg](/personality-ana… |
 | 1.36 | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` (L417) | `/personality-analysis/scott-galloway` | "Scott Galloway" | … such as abandoning their original no-guests rule. One split played out live on Scott Galloway's podcast: Jordi called integrating gamblin… |
+| 1.05 | `/pop-culture/artificial-movie-real-people` (L108) | `/personality-analysis/geoffrey-hinton` | "Geoffrey Hinton" | …gins twenty years before that Friday, with a 17-year-old Sutskever walking into Geoffrey Hinton's office in Toronto. And it picks a hero a… |
 | 0.72 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L350) | `/personality-analysis/scott-galloway` | "Scott Galloway" | - Type 8: [Kara Swisher](/personality-analysis/kara-swisher), Scott Galloway |
 | 0.61 | `/pop-culture/podcast-bros-enneagram-analysis` (L346) | `/personality-analysis/andrew-schulz` | "Andrew Schulz" | - **The Second Generation**: A wave of newer hosts—Andrew Schulz, Theo Von, Danny Jones—are building audiences using the infrastructure the… |
 
@@ -83,6 +84,10 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-0 unlinked mentions found; top 0 after caps.
+3 unlinked mentions found; top 3 after caps.
 
-_None found._
+| Target (in, impressions) | Source (line) | Anchor | Sentence |
+|---|---|---|---|
+| `/personality-analysis/geoffrey-hinton` (0, 0) | `src/blog/people/drafts/Marc-Andreessen.md` (L329) | "Geoffrey Hinton" | Geoffrey Hinton resigned from Google in May 2023 specifically to warn about AI risk. He is not a doomer by background. He is the man whose … |
+| `/personality-analysis/geoffrey-hinton` (0, 0) | `src/blog/people/drafts/Sam-Altman.md` (L406) | "Geoffrey Hinton" | Geoffrey Hinton, Stuart Russell, Nobel economists Oliver Hart and Joseph Stiglitz, and dozens of other prominent figures [signed an open le… |
+| `/personality-analysis/geoffrey-hinton` (0, 0) | `src/blog/people/drafts/ilya-sutskever.md` (L176) | "Geoffrey Hinton" | Geoffrey Hinton tells a story about the first time he met him. A young student knocked on his University of Toronto office door and said he… |
