@@ -540,7 +540,7 @@ Sixes often test as other types, especially early in their Enneagram journey.
 
 **Mistyped as Type 8:** Counterphobic Sixes often look like 8s. Challenging authority, appearing fearless, confronting threats head-on. The difference: Eights feel inherently powerful. Counterphobic Sixes overcompensate for feeling inherently vulnerable. If you're aggressive because you genuinely don't feel fear, you might be an 8. If you're aggressive _because_ you feel fear and refuse to submit to it, you're likely a counterphobic 6.
 
-**6 Anxiety vs. Generalized Anxiety Disorder:** Type 6 anxiety has a specific flavor. It centers on trust, loyalty, authority, and worst-case scenarios involving betrayal or abandonment. GAD is more free-floating, attaching to anything and everything. Sixes can also have GAD, but the Enneagram pattern points to relationship and trust-based fear, not generalized worry about health, finances, or random catastrophes.
+**6 Anxiety vs. Generalized Anxiety Disorder:** Type 6 anxiety has a specific flavor. It centers on trust, loyalty, authority, and worst-case scenarios involving betrayal or abandonment. GAD is more free-floating, attaching to anything and everything. [Sixes can also have GAD](/enneagram-corner/enneagram-and-mental-illness), but the Enneagram pattern points to relationship and trust-based fear, not generalized worry about health, finances, or random catastrophes.
 
 <a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard

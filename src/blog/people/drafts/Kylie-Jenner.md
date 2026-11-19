@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder']
+type: ['fashion', 'tvPersonality', 'entrepreneur', 'lifestyleInfluencer', 'beauty-founder', 'reality-tv', 'lifestyle-builder']
+niche_reviewed: true
 person: 'kylie-jenner'
 suggestions:
   [

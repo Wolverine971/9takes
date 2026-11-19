@@ -51,6 +51,7 @@ export function createJevClient({
 	apiKey,
 	model = JEV_MODEL,
 	cacheDir = null,
+	isCacheable = () => true,
 	concurrency = 8,
 	maxRetries = 5,
 	fetchImpl = fetch
@@ -111,10 +112,12 @@ export function createJevClient({
 		}
 		const file = cachePath(body);
 		if (file && fs.existsSync(file)) {
-			stats.cached++;
 			const hit = JSON.parse(fs.readFileSync(file, 'utf8'));
-			stats.answerCost += hit.usage?.cost ?? 0;
-			return { ...hit, cached: true };
+			if (isCacheable(hit, questions)) {
+				stats.cached++;
+				stats.answerCost += hit.usage?.cost ?? 0;
+				return { ...hit, cached: true };
+			}
 		}
 		await acquire();
 		try {
@@ -123,7 +126,11 @@ export function createJevClient({
 			stats.inputTokens += result.usage?.input_tokens ?? 0;
 			stats.cost += result.usage?.cost ?? 0;
 			stats.answerCost += result.usage?.cost ?? 0;
-			if (file) fs.writeFileSync(file, JSON.stringify(result));
+			if (file && isCacheable(result, questions)) {
+				const temporary = `${file}.${crypto.randomUUID()}.tmp`;
+				fs.writeFileSync(temporary, JSON.stringify(result));
+				fs.renameSync(temporary, file);
+			}
 			return { ...result, cached: false };
 		} catch (error) {
 			stats.failures++;

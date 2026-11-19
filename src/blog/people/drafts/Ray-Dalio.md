@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['entrepreneur', 'author', 'business-operator']
+type: ['business', 'author', 'investor', 'strategy-writer']
+niche_reviewed: true
 person: 'ray-dalio'
 suggestions: ['Bill-Gates', 'Peter-Thiel', 'Warren-Buffett', 'Jamie-Dimon']
 wikipedia: 'https://en.wikipedia.org/wiki/Ray_Dalio'

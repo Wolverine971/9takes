@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['musician', 'creator', 'music-crossover']
+type: ['musician', 'creator', 'record-producer', 'podcaster']
+niche_reviewed: true
 person: 'rick-rubin'
 suggestions: ['Neil-Strauss', 'Tim-Ferriss', 'Adele', 'Kanye', 'Malcolm-Gladwell']
 wikipedia: 'https://en.wikipedia.org/wiki/Rick_Rubin'

@@ -196,6 +196,7 @@ export const isV3 = (data) => data?.editorial_workflow?.version === WORKFLOW_VER
 // `path` is the repo-location label `pnpm label-paths` writes into frontmatter.
 // Hashing it let every label-paths run invalidate all pending releases (2026-10-26).
 const BOOKKEEPING = new Set([
+	'niche_reviewed',
 	'content_quality',
 	'editorial_workflow',
 	'production_pretext',

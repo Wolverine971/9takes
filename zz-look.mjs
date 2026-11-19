@@ -1,0 +1,11 @@
+import { chromium } from '@playwright/test';
+const [,, url, out, y] = process.argv;
+const browser = await chromium.launch();
+const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+await page.goto(url, { waitUntil: 'networkidle', timeout: 120000 });
+await page.evaluate((y) => window.scrollTo(0, +y), y || 0);
+await page.waitForTimeout(500);
+await page.screenshot({ path: out });
+const info = await page.evaluate(() => [...document.querySelectorAll('aside, [class*="sidebar"], [class*="toc"]')].slice(0, 6).map((n) => { const r = n.getBoundingClientRect(); return `${n.tagName}.${(n.className.baseVal ?? n.className).toString().split(' ')[0]} L${Math.round(r.left)} W${Math.round(r.width)} pos ${getComputedStyle(n).position}`; }).join('\n'));
+console.log(info);
+await browser.close();

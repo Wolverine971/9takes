@@ -3,13 +3,14 @@
 import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import type { Database } from '../../../../../database.types';
+import { getReviewedPersonTypes } from '$lib/reviewedPersonTypes';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import { getTypeCorpusInsight } from '$lib/server/typeCorpusStats';
 import personalityFame from '$lib/generated/personalityFame.json';
 import { sortPeopleByFame, type FameViews } from './typeHubOrder';
-import { groupPeopleByNiche, type TypeHubGroup } from './typeHubGroups';
+import { getTypeHubRoleLabels, groupPeopleByNiche } from './typeHubGroups';
 import { descriptionHook, findTitlePatterns } from './typeHubPatterns';
-import { buildVennLayout } from './typeHubVenn';
+import { buildVennLayout, findCrossovers } from './typeHubVenn';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type PersonPost = Pick<
@@ -37,47 +38,54 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const posts: PersonPost[] = (personData ?? []).map(
-		({ persona_title, description, ...entry }) => ({
+	const posts: PersonPost[] = (personData ?? []).map(({ persona_title, description, ...entry }) => {
+		const slug = normalizePersonalitySlug(entry.person);
+		return {
 			...entry,
-			slug: normalizePersonalitySlug(entry.person),
+			slug,
+			type: getReviewedPersonTypes(slug, entry.type),
 			personaTitle: persona_title?.trim() || null,
 			hook: descriptionHook(description)
-		})
-	);
+		};
+	});
 
 	// Best-known first (Wikipedia pageview snapshot), then newest first for anyone
 	// without fame data. The FAQ's "famous Type N" names read from this order too.
 	const publishedPosts = sortPeopleByFame(posts, personalityFame.views as FameViews);
 	// Every field gets its own circle on the map, however small.
 	const peopleGroups = groupPeopleByNiche(publishedPosts, slug, { minFieldSize: 1 });
+	const memberships = findCrossovers(peopleGroups);
 	const patterns = findTitlePatterns(publishedPosts);
 	// Landscape map for wide screens, portrait for phones.
 	const venn = {
-		wide: buildVennLayout(peopleGroups, 'wide'),
-		tall: buildVennLayout(peopleGroups, 'tall')
+		wide: buildVennLayout(peopleGroups, 'wide', memberships),
+		tall: buildVennLayout(peopleGroups, 'tall', memberships)
 	};
 
 	const corpusInsight = getTypeCorpusInsight(slug);
 
-	// `type` only feeds the grouping; the page doesn't need it.
-	const people = publishedPosts.map(({ type: _type, ...person }) => person);
+	// Share each card across its field, lane and flat list in the page payload.
+	const people = publishedPosts.map((post) => {
+		const { type: _type, ...person } = post;
+		return {
+			...person,
+			roles: getTypeHubRoleLabels(post),
+			secondaryFields: memberships.get(person.slug) ?? []
+		};
+	});
+	const cards = new Map(people.map((person) => [person.slug, person]));
+	const cardFor = (person: PersonPost) => cards.get(person.slug)!;
 
 	return {
 		people,
-		peopleGroups: peopleGroups.map(stripGroupTypes),
+		peopleGroups: peopleGroups.map((group) => ({
+			...group,
+			people: group.people.map(cardFor),
+			lanes: group.lanes.map((lane) => ({ ...lane, people: lane.people.map(cardFor) }))
+		})),
 		patterns,
 		venn,
 		slug,
 		corpusInsight
 	};
 };
-
-function stripGroupTypes<T extends { type?: unknown }>(group: TypeHubGroup<T>) {
-	const strip = ({ type: _type, ...person }: T) => person;
-	return {
-		...group,
-		people: group.people.map(strip),
-		lanes: group.lanes.map((lane) => ({ ...lane, people: lane.people.map(strip) }))
-	};
-}

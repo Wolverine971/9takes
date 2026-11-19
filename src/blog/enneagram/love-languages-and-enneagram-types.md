@@ -371,7 +371,7 @@ A 4w3 wants personalized gifts that signal taste. A 4w5 wants them to signal dep
 
 ### Your instinctual variant changes the intensity
 
-The three instincts—self-preservation (sp), social (so), and sexual/one-to-one (sx)—filter every love language.
+The [three instincts](/enneagram-corner/enneagram-instinctual-subtypes)—self-preservation (sp), social (so), and sexual/one-to-one (sx)—filter every love language.
 
 - **Self-preservation (sp):** Love shows up as material security and daily comfort. The sp Type 4 wants cozy-nest Quality Time. The sp Type 7 wants shared resources and a well-stocked kitchen. Love is _safety you can stand on_.
 - **Social (so):** Love shows up in belonging and shared context. The so Type 3 wants gifts that carry status. The so Type 9 wants to be introduced as "my partner" at parties and meant. Love is _being chosen in public_.

@@ -11,6 +11,7 @@
 // Run: pnpm audit:cluster-tags  (after pnpm gen:famous-types for fresh data)
 
 import fs from 'node:fs';
+import reviewed from '../src/lib/generated/reviewedPersonTypes.json' with { type: 'json' };
 import { getMissingClusterField, getPrimaryField } from '../src/lib/personClusterTags.js';
 
 const src = fs.readFileSync('src/lib/components/molecules/famousTypes.ts', 'utf8');
@@ -29,7 +30,9 @@ while ((m = entryRegex.exec(src)) !== null) {
 	if (seen.has(slug)) continue;
 	seen.add(slug);
 	if (m[2] !== 'true') continue;
-	const types = (m[3].match(/'([^']+)'/g) || []).map((s) => s.replace(/'/g, ''));
+	const types =
+		/** @type {Record<string, string[]>} */ (reviewed)[slug] ??
+		(m[3].match(/'([^']+)'/g) || []).map((s) => s.replace(/'/g, ''));
 	const field = getMissingClusterField(types, slug);
 	if (getPrimaryField(types, slug) === 'other') orphans.push({ slug, types });
 	else if (field) missing.push({ slug, field, types });

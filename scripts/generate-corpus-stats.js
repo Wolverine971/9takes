@@ -14,6 +14,9 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
 import dotenv from 'dotenv';
+import reviewedTypes from '../src/lib/generated/reviewedPersonTypes.json' with { type: 'json' };
+import { CLUSTER_FIELDS } from '../src/lib/personClusterTags.js';
+import { normalizePersonalitySlug } from './lib/personalitySeo.js';
 
 dotenv.config();
 
@@ -56,43 +59,37 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 // links to. If you add / rename a category on the site, update this list
 // and regenerate. Only domains with ≥ MIN_DOMAIN_SIZE profiles are
 // reported to avoid small-sample noise.
-const DOMAIN_MAP = [
-	{
-		slug: 'film-tv',
-		label: 'Film & TV',
-		rawTypes: ['movieStar', 'newMovieStar', 'celebrity']
-	},
-	{
-		slug: 'creator-media',
-		label: 'Creators & Internet Personalities',
-		rawTypes: ['creator', 'influencer', 'tiktoker', 'lifestyleInfluencer', 'journalist']
-	},
-	{
-		slug: 'music',
-		label: 'Musicians & Artists',
-		rawTypes: ['musician']
-	},
-	{
-		slug: 'politics-public',
-		label: 'Politics & Public Figures',
-		rawTypes: ['politician', 'historical', 'activist']
-	},
-	{
-		slug: 'tech-business',
-		label: 'Tech, Founders & Business',
-		rawTypes: ['techie', 'entrepreneur', 'business']
-	},
-	{
-		slug: 'comedy',
-		label: 'Comedians',
-		rawTypes: ['comedian']
-	},
-	{
-		slug: 'authors-thinkers',
-		label: 'Authors & Thinkers',
-		rawTypes: ['author', 'psychology', 'essay']
-	}
-];
+const DOMAIN_LABELS = {
+	'film-tv': 'Film & TV',
+	'creator-media': 'Creators & Internet Personalities',
+	music: 'Musicians & Artists',
+	'politics-public': 'Politics & Public Figures',
+	technology: 'Technology',
+	business: 'Business & Entrepreneurship',
+	fashion: 'Fashion, Beauty & Luxury',
+	comedy: 'Comedians',
+	'authors-thinkers': 'Authors & Thinkers'
+};
+const DOMAIN_MAP = CLUSTER_FIELDS.map(({ field, rawTypes, excludeSlugs }) => ({
+	slug: field,
+	label: DOMAIN_LABELS[field],
+	rawTypes,
+	excludeSlugs: excludeSlugs.map(normalizePersonalitySlug)
+}));
+// The combined dataset is cited by existing pages. Keep its totals available,
+// while the per-type rankings use the individual occupations.
+const COMBINED_DOMAIN = {
+	slug: 'tech-business',
+	label: 'Tech, Founders & Business',
+	rawTypes: ['techie', 'business', 'entrepreneur', 'investor'],
+	excludeSlugs: []
+};
+function inDomain(row, domain) {
+	return (
+		!domain.excludeSlugs.includes(normalizePersonalitySlug(row.person)) &&
+		row.types.some((type) => domain.rawTypes.includes(type))
+	);
+}
 const CATEGORY_URL = (slug) => `/personality-analysis/categories/${slug}`;
 const MIN_DOMAIN_SIZE = 10;
 const OVER_REP_THRESHOLD_PP = 3; // only surface deltas ≥ 3 percentage points
@@ -179,7 +176,8 @@ function normalizeRows(rows) {
 		.map((r) => ({
 			person: r.person,
 			enneagram: parseInt(r.enneagram, 10),
-			types: Array.isArray(r.type) ? r.type : [],
+			types:
+				reviewedTypes[normalizePersonalitySlug(r.person)] ?? (Array.isArray(r.type) ? r.type : []),
 			published: r.published === true,
 			lastmod: r.lastmod,
 			first_published_at: r.first_published_at,
@@ -210,8 +208,9 @@ function joinList(items) {
 
 function buildDomainStats(published, baselineShares) {
 	const domains = {};
-	for (const { slug, label, rawTypes } of DOMAIN_MAP) {
-		const matches = published.filter((r) => r.types.some((t) => rawTypes.includes(t)));
+	for (const domain of [...DOMAIN_MAP, COMBINED_DOMAIN]) {
+		const { slug, label, rawTypes } = domain;
+		const matches = published.filter((row) => inDomain(row, domain));
 		if (matches.length < MIN_DOMAIN_SIZE) continue;
 
 		const { counts, shares } = typeDistribution(matches);
@@ -308,9 +307,9 @@ function buildPerTypeDomains(published) {
 	const perType = {};
 	for (let t = 1; t <= 9; t++) {
 		const matches = published.filter((r) => r.enneagram === t);
-		const ranked = DOMAIN_MAP.map(({ slug, label, rawTypes }) => {
-			const count = matches.filter((r) => r.types.some((x) => rawTypes.includes(x))).length;
-			return { slug, label, count };
+		const ranked = DOMAIN_MAP.map((domain) => {
+			const count = matches.filter((row) => inDomain(row, domain)).length;
+			return { slug: domain.slug, label: domain.label, count };
 		})
 			.filter((d) => d.count > 0)
 			.sort((a, b) => b.count - a.count);

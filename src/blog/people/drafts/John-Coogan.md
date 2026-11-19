@@ -12,7 +12,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
+type: ['creator', 'entrepreneur', 'youtuber', 'podcaster', 'educational-youtuber', 'business-operator']
+niche_reviewed: true
 person: 'john-coogan'
 suggestions: ['Jordi-Hays', 'Shaan-Puri', 'Tim-Ferriss', 'Sam-Altman']
 wikipedia: ''

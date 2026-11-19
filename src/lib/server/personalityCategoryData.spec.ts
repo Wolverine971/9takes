@@ -78,6 +78,18 @@ describe('getPersonalityCategoryGroups', () => {
 		).toBe('Unknown-Creator');
 	});
 
+	it('lists additional podcast hosts without counting their portrait twice', () => {
+		const host = makePerson('host', ['creator', 'podcaster']);
+		const educator = makePerson('educator', ['creator', 'educational-youtuber', 'podcaster']);
+		const groups = getPersonalityCategoryGroups('creator-media', [host, educator], {
+			includeSecondary: true
+		});
+		const podcasts = groups.find((lane) => lane.slug === 'podcasters-interviewers');
+		expect(podcasts?.people).toEqual([host]);
+		expect(podcasts?.alsoInLane).toEqual([{ slug: educator.slug, name: educator.name }]);
+		expect(groups.flatMap((lane) => lane.people)).toHaveLength(2);
+	});
+
 	it('clusters film-tv people into screen-specific sections', () => {
 		const groups = getPersonalityCategoryGroups('film-tv', [
 			makePerson('Amy-Poehler', ['comedian', 'celebrity', 'movieStar'], {
@@ -124,7 +136,7 @@ describe('getPersonalityCategoryGroups', () => {
 				categorySlugs: ['music'],
 				primaryCategorySlug: 'music'
 			}),
-			makePerson('Addison-Rae', ['creator', 'musician', 'tiktoker'], {
+			makePerson('Jack-Black', ['comedian', 'musician'], {
 				categorySlugs: ['music'],
 				primaryCategorySlug: 'music'
 			})
@@ -137,6 +149,27 @@ describe('getPersonalityCategoryGroups', () => {
 			'singer-songwriters-roots',
 			'crossovers-multi-hyphenates'
 		]);
+	});
+
+	it('assigns reviewed music roles without inferring a crossover from fame or a platform', () => {
+		const groups = getPersonalityCategoryGroups('music', [
+			makePerson('Ice-Spice', ['musician', 'celebrity', 'rapper']),
+			makePerson('Dua-Lipa', ['musician', 'dance-pop']),
+			makePerson('Teyana-Taylor', ['musician', 'movieStar', 'rnb-artist']),
+			makePerson('Kacey-Musgraves', ['musician', 'country-artist']),
+			makePerson('Rick-Rubin', ['musician', 'creator', 'record-producer']),
+			makePerson('Unclassified-Artist', ['musician', 'celebrity', 'creator'])
+		]);
+		const lanes = Object.fromEntries(groups.map((group) => [group.people[0].slug, group.label]));
+
+		expect(lanes).toEqual({
+			'Ice-Spice': 'Hip-hop & rap',
+			'Dua-Lipa': 'Dance-pop',
+			'Teyana-Taylor': 'R&B & soul',
+			'Kacey-Musgraves': 'Country & Americana',
+			'Rick-Rubin': 'Record producers',
+			'Unclassified-Artist': 'Other Music Personalities'
+		});
 	});
 
 	it('clusters politics people across modern, historical, activist, royal, spouse, and cultural lanes', () => {

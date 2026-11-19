@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['techie', 'entrepreneur', 'investor']
+type: ['entrepreneur', 'techie', 'investor', 'frontier-builder']
+niche_reviewed: true
 person: 'Joe-Lonsdale'
 suggestions: ['Peter-Thiel', 'Ben-Horowitz', 'David-Sacks', 'Garry-Tan']
 wikipedia: 'https://en.wikipedia.org/wiki/Joe_Lonsdale'

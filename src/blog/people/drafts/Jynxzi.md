@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator', 'streamer']
+type: ['creator', 'youtuber', 'streamer', 'podcaster']
+niche_reviewed: true
 person: 'jynxzi'
 suggestions: ['CaseOh', 'Kai-Cenat', 'IShowSpeed', 'Ninja', 'Tfue']
 wikipedia: 'https://en.wikipedia.org/wiki/Jynxzi'

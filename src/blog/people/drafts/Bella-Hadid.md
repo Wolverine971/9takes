@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['lifestyleInfluencer', 'lifestyle-builder']
+type: ['fashion', 'lifestyleInfluencer', 'model', 'lifestyle-builder']
+niche_reviewed: true
 person: 'bella-hadid'
 suggestions: ['Billie-Eilish', 'Hailey-Bieber', 'Selena-Gomez', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Bella_Hadid'

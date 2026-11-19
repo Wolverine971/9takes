@@ -42,24 +42,35 @@
 	let focusedGroup = $derived(
 		data.peopleGroups.find((group) => group.slug === focusedField) ?? null
 	);
-	// Crossovers filed elsewhere who also sit in the zoomed field's overlaps.
+	// Field membership is shared across layouts, even when a portrait has no room in a lens.
 	let focusedCrossovers = $derived.by(() => {
-		if (!focusedField) return [];
-		const homeSlugs = new Set(focusedGroup?.people.map((person) => person.slug));
-		const byField = new Map<string, PanelPerson[]>();
-		for (const overlap of data.venn.wide.overlaps) {
-			if (overlap.a !== focusedField && overlap.b !== focusedField) continue;
-			for (const face of overlap.faces) {
-				const person = peopleBySlug.get(face.slug);
-				if (!person || homeSlugs.has(face.slug)) continue;
-				const home = overlap.a === focusedField ? overlap.b : overlap.a;
-				byField.set(home, [...(byField.get(home) ?? []), person]);
-			}
+		const field = focusedField;
+		if (!field) return [];
+		return data.peopleGroups
+			.map((group) => ({
+				field: group.slug,
+				label: group.shortLabel,
+				people: group.people.filter((person) => person.secondaryFields.includes(field))
+			}))
+			.filter((group) => group.people.length > 0);
+	});
+	let alsoInLane = $derived.by(() => {
+		const field = focusedGroup;
+		const matches = new Map<string, PanelPerson[]>();
+		if (!field) return matches;
+		const home = new Set(field.people.map((person) => person.slug));
+		const members = data.people.filter(
+			(person) => home.has(person.slug) || person.secondaryFields.includes(field.slug)
+		);
+		for (const lane of field.lanes) {
+			if (!lane.label) continue;
+			const primary = new Set(lane.people.map((person) => person.slug));
+			matches.set(
+				lane.slug,
+				members.filter((person) => !primary.has(person.slug) && person.roles.includes(lane.label))
+			);
 		}
-		return [...byField.entries()].map(([field, people]) => {
-			const group = data.peopleGroups.find((candidate) => candidate.slug === field);
-			return { field, label: group?.shortLabel ?? field, people };
-		});
+		return matches;
 	});
 
 	// For the "what you're looking at" line under the map.
@@ -127,6 +138,8 @@
 	let activeTocId = $state('');
 	let readingEl = $state<HTMLElement | null>(null);
 	let railsOn = $state(false);
+	let leftRailEl = $state<HTMLElement | null>(null);
+	let rightRailEl = $state<HTMLElement | null>(null);
 
 	function collectHeadings(article: HTMLElement) {
 		const used = new Set<string>();
@@ -150,8 +163,12 @@
 	function updateRails() {
 		if (!readingEl) return;
 		const box = readingEl.getBoundingClientRect();
-		const viewport = window.innerHeight;
-		railsOn = box.top < viewport * 0.55 && box.bottom > viewport * 0.5;
+		// Rails pin at `top: 7rem`. Show them only once the reading column has
+		// scrolled up to that line (so the map is fully above them and they never
+		// sit over its faces), and hide them before the column runs out under them.
+		const railTop = 7 * parseFloat(getComputedStyle(document.documentElement).fontSize || '16');
+		const railHeight = Math.max(leftRailEl?.offsetHeight ?? 0, rightRailEl?.offsetHeight ?? 0);
+		railsOn = box.top <= railTop && box.bottom >= railTop + railHeight + 24;
 		let current = '';
 		for (const item of tocItems) {
 			const target = document.getElementById(item.id);
@@ -689,7 +706,7 @@
 					</header>
 					<div class="lanes">
 						{#each focusedGroup.lanes as lane (lane.slug)}
-							{@render laneCards(lane.label, lane.people, lane.slug)}
+							{@render laneCards(lane.label, lane.people, lane.slug, alsoInLane.get(lane.slug))}
 						{/each}
 						{#each focusedCrossovers as shared (shared.field)}
 							{@render laneCards(
@@ -703,7 +720,12 @@
 			{/if}
 		</section>
 
-		{#snippet laneCards(label: string, lanePeople: PanelPerson[], key: string)}
+		{#snippet laneCards(
+			label: string,
+			lanePeople: PanelPerson[],
+			key: string,
+			also: PanelPerson[] = []
+		)}
 			<div class="lane" data-lane={key}>
 				{#if label}
 					<h3 class="lane-label">{label}</h3>
@@ -712,6 +734,9 @@
 					{#each lanePeople as person (person.slug)}
 						{@const fullPath = buildPersonalityImagePath(person.enneagram, person.slug, 'full')}
 						{@const isLit = litSlugs.has(person.slug)}
+						{@const roles = person.roles.filter(
+							(role) => role !== label && role !== focusedGroup?.shortLabel
+						)}
 						<li class={['face', activePattern && (isLit ? 'face-lit' : 'face-dim')]}>
 							<a href={buildPersonalityAnalysisPath(person.slug)} class="face-link">
 								<span class="portrait personality-portrait-well">
@@ -738,6 +763,9 @@
 								<span class="face-name" style:--tag={transitionTag(person)}>
 									{formatPersonalityDisplayName(person.slug)}
 								</span>
+								{#if roles.length}
+									<span class="face-roles">{roles.join(' · ')}</span>
+								{/if}
 								{#if person.personaTitle}
 									<span class="persona">
 										{#each titleParts(person.personaTitle, activeWord) as part, partIndex (partIndex)}
@@ -749,6 +777,20 @@
 						</li>
 					{/each}
 				</ul>
+				{#if also.length}
+					<div class="shared-lane-members">
+						<span>Also in this group</span>
+						<ul aria-label={`Also in ${label}`}>
+							{#each also as person (person.slug)}
+								<li>
+									<a href={buildPersonalityAnalysisPath(person.slug)}
+										>{formatPersonalityDisplayName(person.slug)}</a
+									>
+								</li>
+							{/each}
+						</ul>
+					</div>
+				{/if}
 			</div>
 		{/snippet}
 
@@ -883,7 +925,11 @@
 		     Enneagram Corner posts. position: fixed, because .app-wrapper's overflow
 		     makes position: sticky a no-op on this site. -->
 		{#if tocItems.length > 0}
-			<aside class={['rail', 'rail-left', railsOn && 'rail-on']} aria-label="On this page">
+			<aside
+				class={['rail', 'rail-left', railsOn && 'rail-on']}
+				aria-label="On this page"
+				bind:this={leftRailEl}
+			>
 				<p class="rail-title">On this page</p>
 				<ul class="rail-toc">
 					{#each tocItems as item (item.id)}
@@ -899,6 +945,7 @@
 		{#if neighbors.length > 0}
 			<aside
 				class={['rail', 'rail-right', railsOn && 'rail-on']}
+				bind:this={rightRailEl}
 				aria-label={`Types next to Type ${data.slug}`}
 			>
 				<p class="rail-title">Type {data.slug}'s neighbors</p>
@@ -1278,6 +1325,32 @@
 		color: color-mix(in srgb, var(--group-accent) 55%, var(--text-muted));
 	}
 
+	.shared-lane-members {
+		margin-top: 0.75rem;
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
+
+		ul {
+			display: inline;
+			list-style: none;
+			margin: 0 0 0 0.35rem;
+			padding: 0;
+		}
+
+		li {
+			display: inline;
+		}
+
+		li + li::before {
+			content: ', ';
+		}
+
+		a {
+			color: var(--text);
+			text-underline-offset: 0.16em;
+		}
+	}
+
 	/* ---------- Faces ---------- */
 	.faces {
 		--face-gap: 0.875rem;
@@ -1349,6 +1422,12 @@
 		font-weight: 600;
 		line-height: 1.25;
 		color: var(--text);
+	}
+
+	.face-roles {
+		font-size: var(--font-size-xs);
+		line-height: 1.35;
+		color: var(--text-muted);
 	}
 
 	.persona {
@@ -1682,6 +1761,7 @@
 	}
 
 	/* ---------- Pinned rails (wide screens only) ---------- */
+	/* Solid cards, so nothing behind them shows through. */
 	.rail {
 		position: fixed;
 		top: 7rem;
@@ -1689,6 +1769,11 @@
 		width: var(--rail-width);
 		max-height: calc(100vh - 9rem);
 		overflow-y: auto;
+		padding: 1rem 1rem 1.125rem;
+		background: var(--surface);
+		border: 1px solid color-mix(in srgb, var(--highlight) 16%, var(--surface));
+		border-radius: 1rem;
+		box-shadow: 0 12px 32px color-mix(in srgb, var(--bg) 75%, transparent);
 		opacity: 0;
 		visibility: hidden;
 		transition:
@@ -1774,7 +1859,7 @@
 			font-size: var(--font-size-sm);
 			color: var(--text-muted);
 			text-decoration: none;
-			background: var(--surface);
+			background: var(--bg);
 			border: 1px solid var(--rule);
 			border-radius: 0.625rem;
 

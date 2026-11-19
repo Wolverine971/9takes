@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['techie', 'investor']
+type: ['entrepreneur', 'techie', 'investor', 'startup-advisor']
+niche_reviewed: true
 person: 'michael-seibel'
 suggestions: ['Garry-Tan', 'Dalton-Caldwell', 'Paul-Graham', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Michael_Seibel'

@@ -1,10 +1,7 @@
 <!-- src/lib/components/molecules/FamousTypes.svelte -->
 <script lang="ts">
-	import {
-		getPersonalityCategoryBySlug,
-		getPersonalityCategorySlugs,
-		type PersonalityCategorySlug
-	} from '$lib/personalityCategories';
+	import { GROUP_DEFINITIONS, getTypeHubGroupSlug } from '$lib/personNiches';
+	import { getReviewedPersonTypes } from '$lib/reviewedPersonTypes';
 	import { famousTypes, type FamousTypePerson } from '$lib/components/molecules/famousTypes';
 	import {
 		buildPersonalityAnalysisPath,
@@ -13,52 +10,16 @@
 
 	let { type }: { type: number } = $props();
 
-	type FamousTypeGroup = {
-		slug: PersonalityCategorySlug | 'other';
-		label: string;
-		people: FamousTypePerson[];
-	};
-
-	const CATEGORY_ORDER: PersonalityCategorySlug[] = [
-		'creator-media',
-		'music',
-		'comedy',
-		'film-tv',
-		'politics-public',
-		'tech-business',
-		'authors-thinkers'
-	];
-
-	const FALLBACK_GROUP: Pick<FamousTypeGroup, 'slug' | 'label'> = {
-		slug: 'other',
-		label: 'Other Public Figures'
-	};
-
-	function getDisplayCategory(person: FamousTypePerson): PersonalityCategorySlug | null {
-		const slugs = getPersonalityCategorySlugs(person.types ?? [], person.name);
-		return CATEGORY_ORDER.find((slug) => slugs.includes(slug)) ?? null;
-	}
-
-	function groupFamousPeople(people: FamousTypePerson[] = []): FamousTypeGroup[] {
-		// eslint-disable-next-line svelte/prefer-svelte-reactivity -- local grouping scratch map
-		const grouped = new Map<FamousTypeGroup['slug'], FamousTypeGroup>();
-
-		for (const person of people) {
-			const slug = getDisplayCategory(person) ?? FALLBACK_GROUP.slug;
-			const category = slug === 'other' ? null : getPersonalityCategoryBySlug(slug);
-			const label = category?.label ?? FALLBACK_GROUP.label;
-
-			if (!grouped.has(slug)) {
-				grouped.set(slug, { slug, label, people: [] });
-			}
-
-			grouped.get(slug)?.people.push(person);
-		}
-
-		return [...grouped.values()].sort((a, b) => {
-			const aIndex = a.slug === 'other' ? Number.POSITIVE_INFINITY : CATEGORY_ORDER.indexOf(a.slug);
-			const bIndex = b.slug === 'other' ? Number.POSITIVE_INFINITY : CATEGORY_ORDER.indexOf(b.slug);
-			return aIndex - bIndex;
+	function groupFamousPeople(people: FamousTypePerson[]) {
+		const byField = Map.groupBy(people, (person) =>
+			getTypeHubGroupSlug({
+				slug: person.name,
+				type: getReviewedPersonTypes(person.name, person.types)
+			})
+		);
+		return GROUP_DEFINITIONS.flatMap(({ slug, label }) => {
+			const people = byField.get(slug);
+			return people ? [{ slug, label, people }] : [];
 		});
 	}
 

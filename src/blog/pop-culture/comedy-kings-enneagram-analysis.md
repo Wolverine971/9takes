@@ -103,7 +103,7 @@ Watch the mechanism in real time. A 7 tells you about the worst year of their li
 
 The engine is a gift. It's also a cliff.
 
-Type 7s avoid pain, keep their options open, and stay in constant motion, because stillness is where the bad stuff catches up. So they overbook. They overstimulate. They reach for one more drink, one more trip, one more project to hold the quiet at bay. The same restless energy that fills arenas and drops three podcast episodes a week is the energy that fuels the burnout, the relapse, the 3 a.m. inability to be alone in a silent room.
+Type 7s avoid pain, [keep their options open](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7), and stay in constant motion, because stillness is where the bad stuff catches up. So they overbook. They overstimulate. They reach for one more drink, one more trip, one more project to hold the quiet at bay. The same restless energy that fills arenas and drops three podcast episodes a week is the energy that fuels the burnout, the relapse, the 3 a.m. inability to be alone in a silent room.
 
 Speed is the strategy. Speed is also the trap.
 

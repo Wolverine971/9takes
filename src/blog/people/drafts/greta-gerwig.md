@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['movieStar', 'director', 'screen-icon']
+type: ['director', 'movieStar', 'filmmaker', 'screen-icon']
+niche_reviewed: true
 person: 'Greta-Gerwig'
 suggestions: ['Saoirse-Ronan', 'Margot-Robbie', 'Timothee-Chalamet', 'Ryan-Gosling']
 wikipedia: 'https://en.wikipedia.org/wiki/Greta_Gerwig'

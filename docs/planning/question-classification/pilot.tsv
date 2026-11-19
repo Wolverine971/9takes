@@ -1,0 +1,28 @@
+id	expected_paths	excluded_paths	control_question
+104	dating	elections
+107		*
+109	marriage	parenting
+110	parenting	sports
+113	college	parenting
+119		workplace
+120	business	family
+133	books	education
+134	media	diplomacy
+136	career	parenting
+151	family,communication	parenting
+153	education,tech	family
+154	community	career
+156	ideology	romance
+164	stress	sports
+174	friends,family,communication	workplace
+180	career,politics	diplomacy
+198	routine	elections
+203	friends	romance
+430	meaning	ideology
+515		sports,career
+570	enneagram	elections
+574	family_roles	career
+family_sports	parenting,youth_sports	fandom	How do you handle it when your child wants to quit soccer but you want them to keep playing?
+sports_as_scenery	family,communication	sports	My dad called me from a soccer game to apologize for missing my wedding. How do I tell him I am still hurt?
+sports_only	fandom	family	What do you enjoy most about watching your favorite soccer team play?
+sports_pressure	parent_pressure,youth_pressure	fandom	How much pressure should parents put on their children to win at competitive sports?

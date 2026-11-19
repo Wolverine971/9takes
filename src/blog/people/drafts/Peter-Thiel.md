@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['techie', 'investor']
+type: ['entrepreneur', 'techie', 'investor', 'big-tech-founder']
+niche_reviewed: true
 person: 'peter-thiel'
 suggestions: ['Elon-Musk', 'David-Sacks', 'Jensen-Huang', 'Sam-Altman', 'Mark-Zuckerberg', 'Joe-Lonsdale']
 wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'

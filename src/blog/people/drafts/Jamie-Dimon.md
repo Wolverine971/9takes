@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['entrepreneur', 'business-operator']
+type: ['business', 'business-operator']
+niche_reviewed: true
 person: 'jamie-dimon'
 suggestions: ['Jeff-Bezos', 'Alex-Karp', 'Reed-Hastings', 'Ray-Dalio', 'Warren-Buffett']
 wikipedia: 'https://en.wikipedia.org/wiki/Jamie_Dimon'

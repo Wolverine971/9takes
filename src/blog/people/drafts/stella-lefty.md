@@ -19,9 +19,7 @@ enneagram: '9'
 type:
   - musician
   - singer-songwriter
-  - rising-star
-  - celebrity
-  - music-crossover
+niche_reviewed: true
 person: stella-lefty
 suggestions:
   - Noah-Kahan

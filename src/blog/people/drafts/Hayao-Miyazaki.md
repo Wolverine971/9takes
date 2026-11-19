@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '1'
-type: ['other']
+type: ['director', 'filmmaker']
+niche_reviewed: true
 person: 'hayao-miyazaki'
 suggestions: ['Steve-Jobs', 'J.K.-Rowling', 'George-RR-Martin', 'Stephen-King']
 wikipedia: 'https://en.wikipedia.org/wiki/Hayao_Miyazaki'

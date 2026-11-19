@@ -35,13 +35,17 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 
 	const allPeople = mapPersonalityCategoryRows((data ?? []) as PersonalityCategoryRow[]);
 	const people = sortPeopleForCategory(
-		allPeople.filter((person) => person.categorySlugs.includes(category.slug))
+		allPeople.filter((person) =>
+			category.slug === 'tech-business'
+				? person.categorySlugs.some((slug) => slug === 'technology' || slug === 'business')
+				: person.categorySlugs.includes(category.slug)
+		)
 	);
 	const featured = people.slice(0, 4);
 	const latestUpdate = getLatestCategoryDate(people);
 	const earliestPublish = getEarliestCategoryDate(people);
 	const distribution = getEnneagramDistribution(people);
-	const groups = getPersonalityCategoryGroups(category.slug, people);
+	const groups = getPersonalityCategoryGroups(category.slug, people, { includeSecondary: true });
 	const corpusStats = getPersonalityCategoryStats(category.slug);
 
 	const relatedCategories = category.related

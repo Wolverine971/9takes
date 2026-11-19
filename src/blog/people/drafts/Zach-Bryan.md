@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['musician', 'singer-songwriter']
+type: ['musician', 'country-artist']
+niche_reviewed: true
 person: 'zach-bryan'
 suggestions: ['Morgan-Wallen', 'Noah-Kahan', 'Jelly-Roll', 'Kacey-Musgraves']
 wikipedia: 'https://en.wikipedia.org/wiki/Zach_Bryan'

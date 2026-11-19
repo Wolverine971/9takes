@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
-type: ['techie', 'entrepreneur', 'author', 'investor']
+type: ['entrepreneur', 'techie', 'author', 'investor', 'big-tech-founder']
+niche_reviewed: true
 person: 'Naval-Ravikant'
 suggestions: ['Tim-Ferriss', 'Peter-Thiel', 'Marc-Andreessen', 'Paul-Graham']
 wikipedia: 'https://en.wikipedia.org/wiki/Naval_Ravikant'

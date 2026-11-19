@@ -433,7 +433,7 @@
 					{#each data.groups as group (group.slug)}
 						<a href={`#${group.slug}`} class="cluster-link">
 							<span>{group.label}</span>
-							<strong>{group.people.length}</strong>
+							<strong>{group.people.length + group.alsoInLane.length}</strong>
 						</a>
 					{/each}
 				</div>
@@ -510,7 +510,7 @@
 										<SectionKicker
 											tone="dim"
 											class="section-tag"
-											label={`${group.people.length} PROFILES`}
+											label={`${group.people.length + group.alsoInLane.length} PROFILES`}
 										/>
 										<h3>{group.label}</h3>
 									</div>
@@ -543,6 +543,17 @@
 										</a>
 									{/each}
 								</div>
+								{#if group.alsoInLane.length}
+									<p class="shared-members">
+										Also in this group
+										{#each group.alsoInLane as person, index (person.slug)}
+											<a href={buildPersonalityAnalysisPath(person.slug)}>{person.name}</a>{index <
+											group.alsoInLane.length - 1
+												? ', '
+												: ''}
+										{/each}
+									</p>
+								{/if}
 							</section>
 						{/each}
 					</div>
@@ -1070,6 +1081,11 @@
 		background: var(--surface-card-strong);
 		border: 1px solid var(--accent-border);
 		box-shadow: var(--shadow-sm);
+	}
+
+	.shared-members {
+		margin: 1rem 0 0;
+		color: var(--text-muted);
 	}
 
 	.group-head {

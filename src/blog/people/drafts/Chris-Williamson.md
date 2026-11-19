@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator', 'podcaster']
+type: ['creator', 'youtuber', 'podcaster']
+niche_reviewed: true
 person: 'chris-williamson'
 suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Shawn-Ryan', 'Steven-Bartlett']
 wikipedia: 'https://en.wikipedia.org/wiki/Chris_Williamson_(TV_personality)'

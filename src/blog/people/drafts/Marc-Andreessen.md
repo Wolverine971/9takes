@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
-type: ['techie', 'investor']
+type: ['entrepreneur', 'techie', 'investor', 'big-tech-founder']
+niche_reviewed: true
 person: 'marc-andreessen'
 suggestions: ['Peter-Thiel', 'Reid-Hoffman', 'Sam-Altman', 'Kara-Swisher']
 wikipedia: 'https://en.wikipedia.org/wiki/Marc_Andreessen'
@@ -326,7 +327,7 @@ But neuroticism isn't the absence of emotion. Low neuroticism is the absence of 
 
 The Techno-Optimist Manifesto names its enemies by category: "existential risk," "trust and safety," "tech ethics," "sustainability," "stakeholder capitalism." Each of those categories has actual people behind it. Some of those people responded.
 
-Geoffrey Hinton resigned from Google in May 2023 specifically to warn about AI risk. He is not a doomer by background. He is the man whose 2012 work made the deep-learning revolution Andreessen now invests in possible. Hinton's argument is that the systems his own students built may, on their current trajectory, become impossible to align with human intent. Yoshua Bengio, who shared the 2018 Turing Award with Hinton, has signed open letters calling for development pauses on frontier systems and has said in interviews that he changed his views and now estimates a non-trivial probability of catastrophic outcomes within a decade. These are not bureaucrats afraid of progress. They are the field's founders, looking at what they built, saying out loud that they may have been wrong about what it would do.
+[Geoffrey Hinton](/personality-analysis/geoffrey-hinton) resigned from Google in May 2023 specifically to warn about AI risk. He is not a doomer by background. He is the man whose 2012 work made the deep-learning revolution Andreessen now invests in possible. Hinton's argument is that the systems his own students built may, on their current trajectory, become impossible to align with human intent. Yoshua Bengio, who shared the 2018 Turing Award with Hinton, has signed open letters calling for development pauses on frontier systems and has said in interviews that he changed his views and now estimates a non-trivial probability of catastrophic outcomes within a decade. These are not bureaucrats afraid of progress. They are the field's founders, looking at what they built, saying out loud that they may have been wrong about what it would do.
 
 The manifesto answers them in advance. Risk-management, alignment research, and AI safety appear alongside ESG and stakeholder capitalism on the list of forces of stagnation. The argument is structural: any concession to caution lets the regulators in, and the regulators are captured. Anil Dash, responding directly, called the manifesto an attempt to "redefine the criticism of tech as the bad guys in a sci-fi novel." The historian Adam Tooze called it a curiously incoherent text that confuses libertarian growth ideology with civilizational survival. Émile Torres, who has built an academic project around critiques of techno-utopian movements, has argued that the manifesto is the clearest articulation yet of what they call the TESCREAL bundle, and that the bundle's appeal to "expansion" historically licenses serious harm.
 

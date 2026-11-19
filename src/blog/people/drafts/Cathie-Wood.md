@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
-type: ['entrepreneur', 'techie', 'business-operator']
+type: ['business', 'investor']
+niche_reviewed: true
 person: 'cathie-wood'
 suggestions: ['Reid-Hoffman', 'Chamath-Palihapitiya', 'Ben-Horowitz', 'David-Sacks']
 wikipedia: 'https://en.wikipedia.org/wiki/Cathie_Wood'

@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['celebrity', 'celebrity-image']
+type: ['creator', 'author', 'entrepreneur', 'podcaster', 'strategy-writer']
+niche_reviewed: true
 person: 'jocko-willink'
 suggestions: ['Joe-Rogan', 'Shawn-Ryan', 'Tim-Ferriss', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/Jocko_Willink'

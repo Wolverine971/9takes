@@ -15,6 +15,8 @@ type:
   - entrepreneur
   - techie
   - business-operator
+  - big-tech-founder
+niche_reviewed: true
 person: elizabeth-holmes
 suggestions:
   - Steve-Jobs

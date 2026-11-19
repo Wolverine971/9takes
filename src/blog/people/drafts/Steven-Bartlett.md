@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['entrepreneur', 'creator', 'business-creator', 'business-operator']
+type: ['creator', 'entrepreneur', 'podcaster', 'business-operator']
+niche_reviewed: true
 person: 'steven-bartlett'
 suggestions: ['Alex-Hormozi', 'Gary-Vee', 'Tony-Robbins', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Steven_Bartlett_(businessman)'

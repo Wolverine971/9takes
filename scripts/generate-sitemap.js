@@ -8,6 +8,8 @@ import { createClient } from '@supabase/supabase-js';
 import pkg from 'fast-glob';
 import dotenv from 'dotenv';
 import matter from 'gray-matter';
+import reviewedTypes from '../src/lib/generated/reviewedPersonTypes.json' with { type: 'json' };
+import { CLUSTER_FIELDS } from '../src/lib/personClusterTags.js';
 import {
 	buildPersonalityImagePath,
 	normalizePersonalityAnalysisUrl,
@@ -78,16 +80,8 @@ const ENNEAGRAM_SUBTOPIC_SLUGS = [
 ];
 
 const PERSONALITY_CATEGORY_DEFINITIONS = [
-	{ slug: 'film-tv', rawTypes: ['movieStar', 'newMovieStar', 'celebrity'] },
-	{
-		slug: 'creator-media',
-		rawTypes: ['creator', 'influencer', 'tiktoker', 'lifestyleInfluencer', 'journalist']
-	},
-	{ slug: 'music', rawTypes: ['musician'] },
-	{ slug: 'politics-public', rawTypes: ['politician', 'historical', 'activist'] },
-	{ slug: 'tech-business', rawTypes: ['techie', 'entrepreneur', 'business'] },
-	{ slug: 'comedy', rawTypes: ['comedian'] },
-	{ slug: 'authors-thinkers', rawTypes: ['author', 'psychology', 'essay'] }
+	...CLUSTER_FIELDS.map(({ field, rawTypes }) => ({ slug: field, rawTypes })),
+	{ slug: 'tech-business', rawTypes: ['techie', 'entrepreneur', 'business', 'investor'] }
 ];
 
 const ROUTE_FILES = {
@@ -916,7 +910,7 @@ async function getFamousPeople() {
 	const supabase = getSupabase();
 	const { data, error } = await supabase
 		.from('blogs_famous_people')
-		.select('person, loc, lastmod, date, enneagram')
+		.select('person, loc, lastmod, date, enneagram, type')
 		.eq('published', true)
 		.order('lastmod')
 		.order('person');
@@ -930,7 +924,11 @@ async function getFamousPeople() {
 		const row = /** @type {ContentPost} */ (person);
 		return {
 			...row,
-			slug: normalizePersonalitySlug(row.person)
+			slug: normalizePersonalitySlug(row.person),
+			type:
+				/** @type {Record<string, string[]>} */ (reviewedTypes)[
+					normalizePersonalitySlug(row.person)
+				] ?? row.type
 		};
 	});
 }

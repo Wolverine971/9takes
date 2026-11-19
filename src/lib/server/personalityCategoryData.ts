@@ -4,14 +4,18 @@ import {
 	formatPersonName,
 	getPersonalityCategorySlugs,
 	getPrimaryPersonalityCategorySlug,
-	normalizePeopleTypes,
 	type PersonalityCategorySlug
 } from '$lib/personalityCategories';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
-import { CLUSTER_FIELDS } from '$lib/personClusterTags.js';
+import { getReviewedPersonTypes } from '$lib/reviewedPersonTypes';
+import {
+	CLUSTER_FIELDS,
+	MUSIC_CLUSTER_TAGS,
+	getLegacyMusicClusterTag
+} from '$lib/personClusterTags.js';
 
-const CLUSTER_TAG_BY_LANE = new Map(
-	CLUSTER_FIELDS.flatMap(({ tags }) => tags.map(({ lane, tag }) => [lane, tag] as const))
+const CLUSTER_LANE_BY_TAG = new Map(
+	CLUSTER_FIELDS.flatMap(({ tags }) => tags.map(({ lane, tag }) => [tag, lane] as const))
 );
 
 export type PersonalityCategoryRow = Pick<
@@ -52,6 +56,7 @@ export interface PersonalityCategoryGroup {
 	label: string;
 	description: string;
 	people: PersonalityCategoryPerson[];
+	alsoInLane: Pick<PersonalityCategoryPerson, 'slug' | 'name'>[];
 }
 
 interface PersonalityCategoryGroupDefinition {
@@ -59,6 +64,19 @@ interface PersonalityCategoryGroupDefinition {
 	label: string;
 	description: string;
 	matches: (person: PersonalityCategoryPerson) => boolean;
+}
+
+// Most new lanes use the catalog's tag, label and description directly.
+// Older lanes can additionally recognize profiles from before cluster tags existed.
+function taggedLanes(field: string, ...selected: string[]): PersonalityCategoryGroupDefinition[] {
+	return CLUSTER_FIELDS.find((entry) => entry.field === field)!
+		.tags.filter((tag) => !selected.length || selected.includes(tag.tag))
+		.map((tag) => ({
+			slug: tag.lane,
+			label: tag.short,
+			description: tag.meaning,
+			matches: (person) => hasClusterTag(person, tag.tag)
+		}));
 }
 
 export function extractContentQualityScore(value: Json | null): number | null {
@@ -102,7 +120,7 @@ export function mapPersonalityCategoryRow(
 	if (!row.person) return null;
 
 	const normalizedSlug = normalizePersonalitySlug(row.person);
-	const types = normalizePeopleTypes(row.type);
+	const types = getReviewedPersonTypes(normalizedSlug, row.type);
 	const categorySlugs = getPersonalityCategorySlugs(types, normalizedSlug);
 
 	return {
@@ -304,11 +322,16 @@ const CREATOR_MEDIA_LIFESTYLE_SLUGS = createNormalizedSlugSet([
 const CREATOR_MEDIA_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 	{
 		slug: 'podcasters-interviewers',
-		label: 'Podcasters & Interviewers',
-		description:
-			'Long-form hosts built around conversation, chemistry, and the ability to keep attention for an hour instead of a clip.',
+		label: 'Podcasters & Interview Hosts',
+		description: 'Hosts of podcasts, video interview series, and online talk shows.',
 		matches: (person) =>
 			hasClusterTag(person, 'podcaster') || personInSlugSet(person, CREATOR_MEDIA_PODCASTER_SLUGS)
+	},
+	{
+		slug: 'educational-youtubers',
+		label: 'Educational YouTubers',
+		description: 'Video creators who teach through tutorials, demonstrations, and explainers.',
+		matches: (person) => hasClusterTag(person, 'educational-youtuber')
 	},
 	{
 		slug: 'news-commentary',
@@ -387,6 +410,19 @@ const FILM_TV_SCREEN_ACTOR_SLUGS = createNormalizedSlugSet([
 ]);
 
 const FILM_TV_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
+	...taggedLanes('film-tv', 'tv-host'),
+	{
+		slug: 'reality-tv',
+		label: 'Reality TV',
+		description: 'Cast members and hosts of unscripted television series.',
+		matches: (person) => hasClusterTag(person, 'reality-tv')
+	},
+	{
+		slug: 'filmmakers',
+		label: 'Filmmakers',
+		description: 'Directors, screenwriters, and producers whose work shapes the films on screen.',
+		matches: (person) => hasClusterTag(person, 'filmmaker') || hasClusterTag(person, 'director')
+	},
 	{
 		slug: 'tv-comedy-crossovers',
 		label: 'TV, Hosts & Comedy Crossovers',
@@ -424,102 +460,14 @@ const FILM_TV_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 	}
 ];
 
-const MUSIC_POP_STAR_SLUGS = createNormalizedSlugSet([
-	'Ariana-Grande',
-	'Beyonce-Knowles',
-	'Billie-Eilish',
-	'Harry-Styles',
-	'Miley-Cyrus',
-	'Olivia-Rodrigo',
-	'Rihanna',
-	'Sabrina-Carpenter',
-	'Taylor-Swift',
-	'Troye-Sivan',
-	'Zayn-Malik'
-]);
-
-const MUSIC_RAP_GENRE_SLUGS = createNormalizedSlugSet([
-	'Bad-Bunny',
-	'Drake',
-	'Doechii',
-	'Doja-Cat',
-	'Eminem',
-	'Post-Malone',
-	'Travis-Scott',
-	'Tyler-The-Creator'
-]);
-
-const MUSIC_ALTERNATIVE_SLUGS = createNormalizedSlugSet([
-	'Chappell-Roan',
-	'Charli-xcx',
-	'Grimes',
-	'Halsey'
-]);
-
-const MUSIC_SINGER_SONGWRITER_SLUGS = createNormalizedSlugSet([
-	'Benson-Boone',
-	'Dolly-Parton',
-	'Hozier',
-	'Jelly-Roll',
-	'John-Mayer'
-]);
-
-const MUSIC_CROSSOVER_SLUGS = createNormalizedSlugSet([
-	'Addison-Rae',
-	'Jack-Black',
-	'Jared-Leto',
-	'Keke-Palmer',
-	'Madison-Beer'
-]);
-
-const MUSIC_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
-	{
-		slug: 'pop-stars-hitmakers',
-		label: 'Pop Stars & Global Hitmakers',
-		description:
-			'High-visibility stars whose psychology plays out through image management, chart pressure, and the need to stay culturally central.',
-		matches: (person) =>
-			hasClusterTag(person, 'pop-star') || personInSlugSet(person, MUSIC_POP_STAR_SLUGS)
-	},
-	{
-		slug: 'rappers-genre-disruptors',
-		label: 'Rappers & Genre Disruptors',
-		description:
-			'Artists whose public persona is inseparable from force, edge, provocation, reinvention, and the need to dominate a lane.',
-		matches: (person) =>
-			hasClusterTag(person, 'rapper') || personInSlugSet(person, MUSIC_RAP_GENRE_SLUGS)
-	},
-	{
-		slug: 'alternative-art-pop-voices',
-		label: 'Alternative & Art-Pop Voices',
-		description:
-			'Performers who turn alienation, experimentation, aesthetics, or outsider identity into the center of the project.',
-		matches: (person) =>
-			hasClusterTag(person, 'alternative-artist') ||
-			personInSlugSet(person, MUSIC_ALTERNATIVE_SLUGS)
-	},
-	{
-		slug: 'singer-songwriters-roots',
-		label: 'Singer-Songwriters & Roots Performers',
-		description:
-			'Writers and emotionally direct performers where the draw is voice, confession, craft, and a stronger sense of personal songwriting.',
-		matches: (person) =>
-			hasClusterTag(person, 'singer-songwriter') ||
-			personInSlugSet(person, MUSIC_SINGER_SONGWRITER_SLUGS)
-	},
-	{
-		slug: 'crossovers-multi-hyphenates',
-		label: 'Crossovers & Multi-Hyphenates',
-		description:
-			'People whose music career overlaps heavily with acting, creator culture, celebrity branding, or another public lane.',
-		matches: (person) =>
-			hasClusterTag(person, 'music-crossover') ||
-			personInSlugSet(person, MUSIC_CROSSOVER_SLUGS) ||
-			person.types.includes('creator') ||
-			person.types.includes('celebrity') ||
-			person.types.includes('lifestyleInfluencer')
-	}
-];
+const MUSIC_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = MUSIC_CLUSTER_TAGS.map(
+	({ tag, lane, short, meaning }) => ({
+		slug: lane,
+		label: short,
+		description: meaning,
+		matches: (person) => getLegacyMusicClusterTag(person.slug) === tag
+	})
+);
 
 const POLITICS_MODERN_LEADERS_SLUGS = createNormalizedSlugSet([
 	'Barack-Obama',
@@ -594,6 +542,7 @@ const POLITICS_HISTORICAL_ARTISTS_SLUGS = createNormalizedSlugSet([
 ]);
 
 const POLITICS_PUBLIC_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
+	...taggedLanes('politics-public', 'political-family'),
 	{
 		slug: 'modern-heads-of-state-world-leaders',
 		label: 'Modern Heads of State & World Leaders',
@@ -717,9 +666,10 @@ const TECH_INTERPRETER_SLUGS = createNormalizedSlugSet([
 ]);
 
 const TECH_BUSINESS_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
+	...taggedLanes('technology', 'startup-advisor'),
 	{
 		slug: 'big-tech-founders-ceos',
-		label: 'Big Tech Founders & CEOs',
+		label: 'Tech founders & executives',
 		description:
 			'Company-defining builders managing scale, products, public scrutiny, and the pressure of running systems that affect millions.',
 		matches: (person) =>
@@ -742,8 +692,20 @@ const TECH_BUSINESS_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 			hasClusterTag(person, 'frontier-builder') || personInSlugSet(person, TECH_FRONTIER_SLUGS)
 	},
 	{
+		slug: 'inventors-engineers',
+		label: 'Inventors & engineers',
+		description: 'People who design, engineer and bring new products to market.',
+		matches: (person) => hasClusterTag(person, 'inventor')
+	},
+	{
+		slug: 'talent-managers',
+		label: 'Talent managers',
+		description: 'Managers who represent performers and develop their careers.',
+		matches: (person) => hasClusterTag(person, 'talent-manager')
+	},
+	{
 		slug: 'operators-business-builders',
-		label: 'Operators & Business Builders',
+		label: 'Founders & operators',
 		description:
 			'Entrepreneurial personalities focused on execution, sales, operating systems, and turning a personal philosophy into a business engine.',
 		matches: (person) =>
@@ -841,6 +803,7 @@ const AUTHOR_STRATEGY_SLUGS = createNormalizedSlugSet([
 const AUTHOR_INTERPRETER_SLUGS = createNormalizedSlugSet(['Kara-Swisher', 'Scott-Galloway']);
 
 const AUTHOR_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
+	...taggedLanes('authors-thinkers', 'memoirist', 'science-writer'),
 	{
 		slug: 'novelists-world-builders',
 		label: 'Novelists & World-Builders',
@@ -874,10 +837,12 @@ const AUTHOR_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 function buildCategoryGroups(
 	people: PersonalityCategoryPerson[],
 	definitions: PersonalityCategoryGroupDefinition[],
-	fallback: Pick<PersonalityCategoryGroup, 'slug' | 'label' | 'description'>
+	fallback: Pick<PersonalityCategoryGroup, 'slug' | 'label' | 'description'>,
+	includeSecondary: boolean
 ): PersonalityCategoryGroup[] {
 	const grouped = new Map<string, PersonalityCategoryPerson[]>();
 	const unassigned: PersonalityCategoryPerson[] = [];
+	const secondary = new Map<string, PersonalityCategoryGroup['alsoInLane']>();
 
 	for (const definition of definitions) {
 		grouped.set(definition.slug, []);
@@ -887,11 +852,19 @@ function buildCategoryGroups(
 		// An explicit cluster tag decides the lane. Broad fallbacks (movieStar,
 		// celebrity, politician...) only place people who have no tag for this field,
 		// so a 'celebrity-image' movie star isn't pulled into Screen Icons first.
+		const lanes = person.types
+			.map((tag) => CLUSTER_LANE_BY_TAG.get(normalizeClusterTagKey(tag)))
+			.filter((lane): lane is string => lane !== undefined && grouped.has(lane));
 		const definition =
-			definitions.find((candidate) => {
-				const tag = CLUSTER_TAG_BY_LANE.get(candidate.slug);
-				return tag !== undefined && hasClusterTag(person, tag);
-			}) ?? definitions.find((candidate) => candidate.matches(person));
+			definitions.find((candidate) => candidate.slug === lanes[0]) ??
+			definitions.find((candidate) => candidate.matches(person));
+		if (includeSecondary) {
+			for (const lane of new Set(lanes.slice(1))) {
+				const members = secondary.get(lane) ?? [];
+				members.push({ slug: person.slug, name: person.name });
+				secondary.set(lane, members);
+			}
+		}
 
 		if (!definition) {
 			unassigned.push(person);
@@ -906,18 +879,27 @@ function buildCategoryGroups(
 			slug: definition.slug,
 			label: definition.label,
 			description: definition.description,
-			people: sortPeopleForCategory(grouped.get(definition.slug) ?? [])
+			people: sortPeopleForCategory(grouped.get(definition.slug) ?? []),
+			alsoInLane: secondary.get(definition.slug) ?? []
 		}))
-		.filter((group) => group.people.length > 0);
+		.filter((group) => group.people.length > 0 || group.alsoInLane.length > 0);
 
 	if (unassigned.length > 0) {
 		results.push({
 			...fallback,
-			people: sortPeopleForCategory(unassigned)
+			people: sortPeopleForCategory(unassigned),
+			alsoInLane: []
 		});
 	}
 
 	return results;
+}
+
+function lanesForField(field: 'technology' | 'business') {
+	const slugs = new Set(
+		CLUSTER_FIELDS.find((entry) => entry.field === field)!.tags.map((tag) => tag.lane)
+	);
+	return TECH_BUSINESS_GROUP_DEFINITIONS.filter((lane) => slugs.has(lane.slug));
 }
 
 const CATEGORY_GROUP_CONFIGS: Record<
@@ -963,6 +945,22 @@ const CATEGORY_GROUP_CONFIGS: Record<
 				'Useful profiles tied to politics or public life that still need a more specific lane as the library grows.'
 		}
 	},
+	technology: {
+		definitions: lanesForField('technology'),
+		fallback: {
+			slug: 'other-technology',
+			label: 'Other technology figures',
+			description: 'More people working in technology.'
+		}
+	},
+	business: {
+		definitions: lanesForField('business'),
+		fallback: {
+			slug: 'other-business',
+			label: 'Other business figures',
+			description: 'More people working in business.'
+		}
+	},
 	'tech-business': {
 		definitions: TECH_BUSINESS_GROUP_DEFINITIONS,
 		fallback: {
@@ -970,6 +968,14 @@ const CATEGORY_GROUP_CONFIGS: Record<
 			label: 'Other Tech & Business Figures',
 			description:
 				'Profiles that clearly belong in this category, but do not yet fit one of the tighter founder, investor, or operator lanes.'
+		}
+	},
+	fashion: {
+		definitions: taggedLanes('fashion'),
+		fallback: {
+			slug: 'other-fashion',
+			label: 'Other fashion figures',
+			description: 'More people working in fashion and beauty.'
 		}
 	},
 	comedy: {
@@ -994,8 +1000,9 @@ const CATEGORY_GROUP_CONFIGS: Record<
 
 export function getPersonalityCategoryGroups(
 	categorySlug: PersonalityCategorySlug,
-	people: PersonalityCategoryPerson[]
+	people: PersonalityCategoryPerson[],
+	{ includeSecondary = false } = {}
 ): PersonalityCategoryGroup[] {
 	const config = CATEGORY_GROUP_CONFIGS[categorySlug];
-	return buildCategoryGroups(people, config.definitions, config.fallback);
+	return buildCategoryGroups(people, config.definitions, config.fallback, includeSecondary);
 }

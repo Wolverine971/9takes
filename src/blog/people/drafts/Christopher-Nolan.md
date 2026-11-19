@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['celebrity', 'director', 'celebrity-image']
+type: ['director', 'filmmaker']
+niche_reviewed: true
 person: 'Christopher-Nolan'
 suggestions: ['josh-hartnett', 'Cillian-Murphy', 'Christian-Bale', 'Matt-Damon', 'Anne-Hathaway']
 wikipedia: 'https://en.wikipedia.org/wiki/Christopher_Nolan'

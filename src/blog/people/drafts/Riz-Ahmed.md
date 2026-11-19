@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['movieStar', 'musician', 'screen-icon']
+type: ['movieStar', 'musician', 'screen-icon', 'rapper']
+niche_reviewed: true
 person: 'riz-ahmed'
 suggestions: ['Zayn-Malik', 'Oscar-Isaac', 'Pedro-Pascal', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Riz_Ahmed'

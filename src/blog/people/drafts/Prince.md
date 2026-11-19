@@ -13,7 +13,8 @@ published: true
 enneagram: '4'
 type:
   - musician
-  - pop-star
+  - rnb-artist
+niche_reviewed: true
 person: prince
 suggestions:
   - elton-john

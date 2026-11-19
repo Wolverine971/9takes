@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['celebrity', 'celebrity-image']
+type: ['athlete']
+niche_reviewed: true
 person: 'lamine-yamal'
 suggestions: ['Lionel-Messi', 'Cristiano-Ronaldo', 'Bad-Bunny', 'Kai-Cenat']
 wikipedia: 'https://en.wikipedia.org/wiki/Lamine_Yamal'

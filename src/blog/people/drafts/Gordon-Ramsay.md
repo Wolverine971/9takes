@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['celebrity', 'celebrity-image']
+type: ['tvPersonality', 'entrepreneur', 'reality-tv']
+niche_reviewed: true
 person: 'gordon-ramsay'
 suggestions: ['Jocko-Willink', 'Beyonce', 'Joe-Rogan', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Gordon_Ramsay'

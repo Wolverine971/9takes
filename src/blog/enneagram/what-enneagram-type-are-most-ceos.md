@@ -131,7 +131,7 @@ Among the people who built or ran a company, the most common type is the one lea
 
 ## Who we counted, and who we left out
 
-Our business category is broad on purpose. It holds Jeff Bezos. It also holds Taylor Swift, who runs a very large business, and Ryan Reynolds, who sold a gin brand and a phone company. Counting all 80 as "CEOs" would answer a different question.
+Our business category is broad on purpose. It holds Jeff Bezos. It also holds Taylor Swift, who runs a very large business, and [Ryan Reynolds](/personality-analysis/ryan-reynolds), who sold a gin brand and a phone company. Counting all 80 as "CEOs" would answer a different question.
 
 So we split them into five groups by primary public role, the thing each person is mainly known for:
 
@@ -346,7 +346,7 @@ Data pulled October 7, 2026, from the 451 published profiles on 9takes. Dario Am
 - Type 3: [David Beckham](/personality-analysis/david-beckham), Jared Kushner, Kris Jenner, Taylor Swift, Tony Robbins, Tyler Perry, Vivek Ramaswamy
 - Type 4: [Emma Chamberlain](/personality-analysis/emma-chamberlain)
 - Type 5: [Lex Fridman](/personality-analysis/lex-fridman), [Tyler Cowen](/personality-analysis/tyler-cowen)
-- Type 7: Kate Hudson, [Kyle Forgeard](/personality-analysis/kyle-forgeard), Ryan Reynolds
+- Type 7: [Kate Hudson](/personality-analysis/kate-hudson), [Kyle Forgeard](/personality-analysis/kyle-forgeard), Ryan Reynolds
 - Type 8: [Kara Swisher](/personality-analysis/kara-swisher), Scott Galloway
 - Type 9: Nate Bargatze
 

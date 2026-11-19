@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
+type: ['musician', 'country-artist']
+niche_reviewed: true
 person: 'kacey-musgraves'
 suggestions: ['Adele', 'Lana-Del-Rey', 'Hozier', 'Dolly-Parton']
 wikipedia: 'https://en.wikipedia.org/wiki/Kacey_Musgraves'

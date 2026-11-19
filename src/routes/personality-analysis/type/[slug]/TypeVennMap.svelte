@@ -7,7 +7,8 @@
   names appear once they're big enough to read.
 -->
 <script lang="ts">
-	import { FIELD_LABEL_UNITS, LABEL_ARC_SHARE, type VennLayout } from './typeHubVenn';
+	import type { VennLayout } from './typeHubVenn';
+	import { FIELD_LABEL_UNITS, LABEL_ARC_SHARE } from './typeHubVennLabels';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityImagePath,

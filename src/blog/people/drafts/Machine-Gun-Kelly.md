@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['musician', 'music-crossover']
+type: ['musician', 'rock-artist']
+niche_reviewed: true
 person: 'machine-gun-kelly'
 suggestions: ['Megan-Fox', 'Eminem', 'Halsey', 'Jelly-Roll']
 wikipedia: 'https://en.wikipedia.org/wiki/Machine_Gun_Kelly_(musician)'

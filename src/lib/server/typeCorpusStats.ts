@@ -105,6 +105,8 @@ function pickDomainOverrep(stats: CorpusStatsInput, typeKey: string): DomainStat
 	let best: { domain: DomainStat; delta: number } | null = null;
 
 	for (const domain of Object.values(stats.domains)) {
+		if (domain.slug === 'tech-business' && stats.domains.technology && stats.domains.business)
+			continue;
 		const delta = domain.diff_vs_baseline_pp[typeKey];
 		const count = domain.counts_by_type[typeKey];
 		if (typeof delta !== 'number' || typeof count !== 'number') continue;

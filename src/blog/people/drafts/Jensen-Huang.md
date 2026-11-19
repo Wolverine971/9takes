@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['techie', 'entrepreneur', 'business-operator']
+type: ['techie', 'entrepreneur', 'big-tech-founder']
+niche_reviewed: true
 person: 'jensen-huang'
 suggestions: ['peter-thiel', 'elon-musk', 'sam-altman', 'mark-zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jensen_Huang'

@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['techie', 'entrepreneur', 'business-operator']
+type: ['entrepreneur', 'techie', 'business-operator', 'big-tech-founder']
+niche_reviewed: true
 person: 'sam-bankman-fried'
 suggestions: ['Sam-Altman', 'Elon-Musk', 'Mark-Zuckerberg', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Sam_Bankman-Fried'

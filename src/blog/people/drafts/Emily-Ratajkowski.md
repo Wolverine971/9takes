@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['celebrity', 'celebrity-image']
+type: ['fashion', 'creator', 'model', 'podcaster']
+niche_reviewed: true
 person: 'emily-ratajkowski'
 suggestions: ['Kim-Kardashian', 'Bella-Hadid', 'Hailey-Bieber', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'

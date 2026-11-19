@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['lifestyleInfluencer', 'lifestyle-builder']
+type: ['fashion', 'entrepreneur', 'lifestyleInfluencer', 'beauty-founder', 'model', 'lifestyle-builder']
+niche_reviewed: true
 person: 'hailey-bieber'
 suggestions: ['Justin-Bieber', 'Selena-Gomez', 'Kim-Kardashian', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Hailey_Bieber'

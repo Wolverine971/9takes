@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['comedian', 'stand-up']
+type: ['comedian', 'creator', 'stand-up', 'podcaster']
+niche_reviewed: true
 person: 'theo-von'
 suggestions: ['Joe-Rogan', 'Shane-Gillis', 'Kevin-Hart', 'Tim-Dillon', 'Ella-Langley']
 wikipedia: 'https://en.wikipedia.org/wiki/Theo_Von'

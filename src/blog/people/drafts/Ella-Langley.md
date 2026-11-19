@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
+type: ['musician', 'country-artist']
+niche_reviewed: true
 person: 'ella-langley'
 suggestions: ['Dolly-Parton', 'Jelly-Roll', 'Theo-Von', 'Post-Malone']
 wikipedia: 'https://en.wikipedia.org/wiki/Ella_Langley'

@@ -1,6 +1,13 @@
 // src/routes/personality-analysis/type/[slug]/typeHubGroups.spec.ts
 import { describe, expect, it } from 'vitest';
-import { getTypeHubGroupSlug, groupPeopleByNiche } from './typeHubGroups';
+import {
+	fieldsForPerson,
+	getTypeHubGroupSlug,
+	getTypeHubRoleLabels,
+	groupPeopleByNiche
+} from './typeHubGroups';
+import { getReviewedPersonTypes } from '$lib/reviewedPersonTypes';
+import { famousTypes } from '$lib/components/molecules/famousTypes';
 
 describe('groupPeopleByNiche', () => {
 	it('groups by occupation while preserving fame order within each group', () => {
@@ -56,7 +63,7 @@ describe('groupPeopleByNiche', () => {
 		expect(getTypeHubGroupSlug({ slug: 'new-singer', type: 'Musician, pop-star' })).toBe('music');
 		expect(
 			getTypeHubGroupSlug({ slug: 'new-founder', type: { 0: 'Techie', 1: 'entrepreneur' } })
-		).toBe('tech-business');
+		).toBe('technology');
 		expect(getTypeHubGroupSlug({ slug: 'brene-brown', type: ['creator', 'author'] })).toBe(
 			'authors-thinkers'
 		);
@@ -157,16 +164,64 @@ describe('field lanes', () => {
 		expect(film.lanes.map((lane) => [lane.label, lane.people.map((p) => p.slug)])).toEqual([
 			['Screen icons', ['jon-bernthal', 'shia-labeouf', 'tom-hardy']],
 			['Beyond acting', ['paris-hilton', 'gordon-ramsay']],
-			// A lane with one face joins the unlabeled rest instead of standing alone.
-			['', ['new-face']]
+			// A specific role remains visible even with one profile.
+			['Rising stars', ['new-face']]
 		]);
 		expect(film.lanes.flatMap((lane) => lane.people)).toHaveLength(film.people.length);
 	});
 
-	it('keeps one unlabeled row when fewer than two lanes would have two faces', () => {
+	it('keeps a smaller named lane discoverable', () => {
 		const people = filmField.slice(0, 4);
 		const [film] = groupPeopleByNiche(people);
 
-		expect(film.lanes).toEqual([{ slug: 'all', label: '', people }]);
+		expect(film.lanes.map((lane) => [lane.label, lane.people.length])).toEqual([
+			['Screen icons', 3],
+			['Beyond acting', 1]
+		]);
+	});
+});
+
+describe('reviewed Type 3 placements', () => {
+	const people = famousTypes[3]
+		.filter((person) => person.link)
+		.map((person) => ({
+			slug: person.name,
+			type: getReviewedPersonTypes(person.name, person.types)
+		}));
+	const groups = groupPeopleByNiche(people, '3', { minFieldSize: 1 });
+
+	it.each([
+		['alexandr-wang', 'business', 'operators-business-builders'],
+		['tyler-perry', 'film-tv', 'filmmakers'],
+		['kris-jenner', 'film-tv', 'reality-tv'],
+		['bernard-arnault', 'fashion', 'fashion-executives'],
+		['ice-spice', 'music', 'rappers-genre-disruptors'],
+		['drake', 'music', 'rappers-genre-disruptors'],
+		['jordi-hays', 'creator-media', 'podcasters-interviewers'],
+		['ali-abdaal', 'creator-media', 'educational-youtubers'],
+		['logan-paul', 'creator-media', 'viral-entertainers']
+	])('%s is listed under %s / %s', (slug, field, lane) => {
+		const home = groups.find((group) => group.slug === field);
+		expect(home?.lanes.find((item) => item.slug === lane)?.people.map((p) => p.slug)).toContain(
+			slug
+		);
+	});
+
+	it('preserves technology, entrepreneurship and podcast work as secondary occupations', () => {
+		const person = (slug: string) => people.find((p) => p.slug === slug)!;
+		expect(fieldsForPerson(person('alexandr-wang'))).toEqual(['business', 'technology']);
+		expect(fieldsForPerson(person('jordi-hays'))).toContain('business');
+		for (const slug of [
+			'ali-abdaal',
+			'logan-paul',
+			'jordi-hays',
+			'amelia-dimoldenberg',
+			'chris-williamson'
+		]) {
+			expect(getTypeHubRoleLabels(person(slug))).toContain('Podcasters & interview hosts');
+		}
+		const homeSlugs = groups.flatMap((group) => group.people.map((p) => p.slug));
+		expect(homeSlugs).toHaveLength(people.length);
+		expect(new Set(homeSlugs).size).toBe(people.length);
 	});
 });

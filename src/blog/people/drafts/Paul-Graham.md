@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['techie', 'investor']
+type: ['entrepreneur', 'techie', 'author', 'investor', 'startup-advisor']
+niche_reviewed: true
 person: 'paul-graham'
 suggestions: ['Sam-Altman', 'Michael-Seibel', 'Dalton-Caldwell', 'Garry-Tan', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'

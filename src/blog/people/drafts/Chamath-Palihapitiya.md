@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['techie', 'investor']
+type: ['business', 'techie', 'creator', 'investor', 'podcaster', 'big-tech-founder']
+niche_reviewed: true
 person: 'chamath-palihapitiya'
 suggestions: ['David-Sacks', 'Jason-Calacanis', 'David-Friedberg', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'

@@ -1645,6 +1645,86 @@
 			"id": "/enneagram-corner/enneagram-strengths-and-weaknesses -> /enneagram-corner/enneagram-books-websites-podcasts",
 			"reason": "'bells' word match",
 			"date": "2026-11-12"
+		},
+		{
+			"id": "/community/personality-frameworks-map-not-territory -> /enneagram-corner/what-is-a-love-language",
+			"reason": "'different things' word match (MBTI vs Big Five)",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/community/inspiration-for-9takes -> /enneagram-corner/what-is-a-love-language",
+			"reason": "'different things' word match (miscommunication story)",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-influences -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'spiritual teachers' in origin history, not the religion question",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/pop-culture/the-office-enneagram-types -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'host' word match (Michael Scott 2w3)",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/pop-culture/parasocial-relationships-enneagram-type -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'hosts' word match (generic podcast hosts)",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-medication-mental-health -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "'bipolar disorder' in when-to-see-a-psychiatrist line",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/enneagram-corner/toxic-traits-of-each-enneagram-type -> /enneagram-corner/enneagram-instinctual-subtypes",
+			"reason": "'self-preservation' used in the ordinary sense",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/how-to-guides/how-to-psychoanalyze-people -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"reason": "'Evil' word match in a list item",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/community/be-gentle-when-youre-right -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"reason": "'evil' inside a quoted tease",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/community/questions-are-the-engine-of-moral-awakening -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"reason": "'Good and Evil' is the Genesis tree",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'couples' = Gottman newlywed study, not type compatibility",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/how-to-guides/definitive-guide-to-relationship-conflict-part-1 -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'couples' = conflict research, not type compatibility",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-self-development -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'spiritual bypassing' is not the religion page's topic",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/pop-culture/artificial-movie-real-people -> /pop-culture/podcaster-personality-map",
+			"reason": "sentence is about Altman; Lex Fridman incidental",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/community/societal-ticking-time-bombs -> /enneagram-corner/mental-health/enneagram-science-mental-health",
+			"reason": "'hooks' word match",
+			"date": "2026-11-19"
+		},
+		{
+			"id": "/personality-analysis/paul-bettany -> /personality-analysis/amber-heard",
+			"reason": "Depp/Heard trial-texts context (legal accusation)",
+			"date": "2026-11-19"
 		}
 	]
 }

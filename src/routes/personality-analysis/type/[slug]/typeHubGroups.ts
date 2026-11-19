@@ -1,20 +1,23 @@
 // src/routes/personality-analysis/type/[slug]/typeHubGroups.ts
 import {
-	PERSONALITY_CATEGORY_DEFINITIONS,
 	PERSONALITY_CATEGORY_SLUGS,
 	normalizePeopleTypes,
 	type PersonalityCategorySlug
 } from '$lib/personalityCategories';
-import { getClusterLaneShortLabel, getPrimaryField } from '$lib/personClusterTags.js';
+import { CLUSTER_FIELDS, getClusterLaneShortLabel } from '$lib/personClusterTags.js';
 import {
 	getPersonalityCategoryGroups,
 	type PersonalityCategoryPerson
 } from '$lib/server/personalityCategoryData';
 
-type GroupablePerson = {
-	slug: string;
-	type?: unknown;
-};
+import {
+	GROUP_DEFINITIONS,
+	getTypeHubGroupSlug,
+	fieldsForPerson,
+	type GroupablePerson
+} from '$lib/personNiches';
+
+export { fieldsForPerson, getTypeHubGroupSlug } from '$lib/personNiches';
 
 export type TypeHubLane<T> = {
 	slug: string;
@@ -37,65 +40,47 @@ export type TypeHubGroup<T> = {
 	fieldLabels?: Record<string, string>;
 };
 
-type GroupDefinition = { slug: string; label: string; shortLabel: string; accent: string | null };
-
-const GROUP_DEFINITIONS: GroupDefinition[] = [
-	...PERSONALITY_CATEGORY_DEFINITIONS.map(({ slug, label, shortLabel, accent }) => ({
-		slug,
-		label,
-		shortLabel,
-		accent
-	})),
-	{ slug: 'athletes', label: 'Athletes & Sports', shortLabel: 'Athletes', accent: '#fb923c' },
-	{ slug: 'history', label: 'History-Makers', shortLabel: 'History', accent: '#c4b5fd' },
-	{ slug: 'other', label: 'Other Public Figures', shortLabel: 'Other', accent: null }
-];
-
 const DEFINITION_BY_SLUG = new Map(GROUP_DEFINITIONS.map((d) => [d.slug, d]));
 
 /** A field with fewer people than this folds into the catch-all group at the end. */
 export const MIN_FIELD_SIZE = 3;
 export const MORE_GROUP_SLUG = 'more';
 
-// Lanes reuse the category pages' sub-groups (personalityCategoryData.ts), which
-// read each person's cluster tags ('screen-icon', 'pop-star', ...). A field splits
-// only when at least two lanes would each hold two or more people; smaller lanes
-// and untagged people fold into one unlabeled group after the named lanes.
-const MIN_LANE_SIZE = 2;
-const MIN_NAMED_LANES = 2;
 const LEFTOVER_LANE = { slug: 'rest', label: '' };
 const SINGLE_LANE = { slug: 'all', label: '' };
 
-// The shared short labels are written for the category pages; a couple read as
-// jargon next to faces, so the hub says what they mean.
 const HUB_LANE_LABELS: Record<string, string> = {
 	'celebrity-image-public-fascination': 'Beyond acting',
-	'historical-leaders-power-holders': 'Rulers & generals',
-	'historical-scientists-thinkers': 'Scientists & thinkers',
-	'historical-artists-writers': 'Artists & writers'
+	'historical-leaders-power-holders': 'Rulers & generals'
 };
 
-// Which category's lane matchers split a group. History reuses the politics
-// matchers, whose historical lanes (leaders, scientists, artists) are its lanes.
 const LANE_SOURCE: Record<string, PersonalityCategorySlug> = { history: 'politics-public' };
 
-function hasType(types: string[], wanted: string): boolean {
-	return types.some((type) => type.replace(/[^a-z0-9]/gi, '').toLowerCase() === wanted);
-}
+const key = (value: string) => value.replace(/[^a-z0-9]/gi, '').toLowerCase();
+const CLUSTER_BY_TAG = new Map(
+	CLUSTER_FIELDS.flatMap(({ field, tags }) =>
+		tags.map((tag) => [key(tag.tag), { ...tag, field }] as const)
+	)
+);
 
-/**
- * The hub's filing rule: the shared primary field (personClusterTags.js), except an
- * athlete always sits with the athletes, and a historical figure whose field would
- * be politics (or nothing) sits in History instead of next to sitting presidents.
- */
-export function getTypeHubGroupSlug(person: GroupablePerson): string {
+/** Labels retained on a card even when that role is outside its primary lane. */
+export function getTypeHubRoleLabels(person: GroupablePerson): string[] {
 	const types = normalizePeopleTypes(person.type);
-	if (hasType(types, 'athlete')) return 'athletes';
-	const field = getPrimaryField(types, person.slug);
-	if (hasType(types, 'historical') && (field === 'politics-public' || field === 'other')) {
-		return 'history';
+	const labels = new Set<string>();
+	const fields = fieldsForPerson(person);
+	for (const type of types) {
+		const tag = CLUSTER_BY_TAG.get(key(type));
+		if (tag) {
+			// A generic celebrity-image tag was often added to famous musicians.
+			if (tag.tag === 'celebrity-image' && !fields.includes('film-tv')) continue;
+			labels.add(laneLabel(tag.lane));
+		} else if (key(type) === 'youtuber' && !types.includes('educational-youtuber')) {
+			labels.add('YouTube');
+		} else if (key(type) === 'entrepreneur' && !types.includes('business-operator')) {
+			labels.add('Entrepreneur');
+		}
 	}
-	return field;
+	return [...labels];
 }
 
 function isCategorySlug(slug: string): slug is PersonalityCategorySlug {
@@ -148,8 +133,8 @@ export function buildLanes<T extends GroupablePerson>(
 		members.set(laneSlug, [...(members.get(laneSlug) ?? []), person]);
 	}
 
-	const named = [...members.entries()].filter(([, lane]) => lane.length >= MIN_LANE_SIZE);
-	if (named.length < MIN_NAMED_LANES) return [{ ...SINGLE_LANE, people }];
+	const named = [...members.entries()];
+	if (!named.length) return [{ ...SINGLE_LANE, people }];
 
 	const fameIndex = new Map(people.map((person, index) => [person.slug, index]));
 	const firstIndex = (lane: T[]) => fameIndex.get(lane[0].slug) ?? 0;

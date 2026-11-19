@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['celebrity', 'musician', 'celebrity-image', 'music-crossover']
+type: ['movieStar', 'musician', 'screen-icon', 'pop-star']
+niche_reviewed: true
 person: 'hilary-duff'
 suggestions: ['Paris-Hilton', 'Olivia-Rodrigo', 'Sabrina-Carpenter', 'Millie-Bobby-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/Hilary_Duff'

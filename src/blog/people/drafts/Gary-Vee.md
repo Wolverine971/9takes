@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['business', 'business-operator']
+type: ['business', 'creator', 'business-operator', 'business-creator', 'podcaster']
+niche_reviewed: true
 person: 'gary-vee'
 suggestions: ['Tony-Robbins', 'Alex-Hormozi', 'Leila-Hormozi', 'Joe-Rogan', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Gary_Vaynerchuk'

@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator', 'business-creator']
+type: ['creator', 'youtuber', 'entrepreneur', 'educational-youtuber', 'podcaster', 'business-creator']
+niche_reviewed: true
 person: 'ali-abdaal'
 suggestions: ['Steven-Bartlett', 'Alex-Hormozi', 'Tim-Ferriss', 'Gary-Vee']
 wikipedia: ''

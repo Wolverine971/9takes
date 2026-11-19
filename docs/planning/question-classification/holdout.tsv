@@ -1,0 +1,20 @@
+id	expected_paths	excluded_paths	control_question
+85		*
+117	education	parenting
+118	life_story	parenting
+137	fear	health
+143	identity	sports
+144	growth	career
+146	life_story	parenting
+152	romance,communication	friends
+155		*
+157	tech	romance
+165	business	diplomacy
+167	ideology	elections
+173	marriage	parenting
+205	parenting	environment
+207	routine	parenting
+572	communication	sports
+576		sports
+577	friends,media	tech
+579	workplace	sports

@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['techie', 'investor']
+type: ['business', 'techie', 'investor', 'startup-advisor']
+niche_reviewed: true
 person: 'garry-tan'
 suggestions: ['Michael-Seibel', 'Dalton-Caldwell', 'Paul-Graham', 'Peter-Thiel', 'David-Sacks']
 wikipedia: 'https://en.wikipedia.org/wiki/Garry_Tan'

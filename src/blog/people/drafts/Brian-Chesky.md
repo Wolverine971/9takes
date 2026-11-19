@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['techie', 'entrepreneur', 'business-operator']
+type: ['techie', 'entrepreneur', 'big-tech-founder', 'business-operator']
+niche_reviewed: true
 person: 'brian-chesky'
 suggestions: ['Steve-Jobs', 'Sam-Altman', 'Paul-Graham', 'Chamath-Palihapitiya']
 wikipedia: 'https://en.wikipedia.org/wiki/Brian_Chesky'

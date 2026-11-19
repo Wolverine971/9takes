@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['musician', 'singer-songwriter']
+type: ['musician', 'country-artist']
+niche_reviewed: true
 person: 'jelly-roll'
 suggestions: ['Post-Malone', 'Snoop-Dogg', 'Dolly-Parton', 'Eminem', 'Dave-Chappelle', 'Ella-Langley', 'Alex-Warren']
 wikipedia: 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'

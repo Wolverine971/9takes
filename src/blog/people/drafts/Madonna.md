@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['musician', 'pop-star']
+type: ['musician', 'dance-pop']
+niche_reviewed: true
 person: 'madonna'
 suggestions: ['Lady-Gaga', 'Taylor-Swift', 'Prince', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Madonna'

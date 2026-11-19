@@ -216,7 +216,7 @@
 		<section class="section">
 			<div class="section-head">
 				<h2>Core categories</h2>
-				<p>The seven largest lanes. Together they cover the bulk of the library.</p>
+				<p>Browse profiles by the field where each person made their name.</p>
 			</div>
 
 			<div class="category-grid">

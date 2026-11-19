@@ -1,7 +1,7 @@
 // src/routes/personality-analysis/type/[slug]/typeHubVenn.spec.ts
 import { describe, expect, it } from 'vitest';
 import { groupPeopleByNiche } from './typeHubGroups';
-import { buildVennLayout, fieldsForPerson, findCrossovers, type VennLayout } from './typeHubVenn';
+import { buildVennLayout, findCrossovers, type VennLayout } from './typeHubVenn';
 
 const people = [
 	{ slug: 'jon-bernthal', type: ['movieStar', 'screen-icon'] },
@@ -40,31 +40,54 @@ function allFaces(layout: VennLayout) {
 	];
 }
 
-describe('fieldsForPerson', () => {
-	it('maps tags to hub fields in authored order, ignoring the broad celebrity tag', () => {
-		expect(fieldsForPerson({ slug: 'a', type: ['celebrity', 'athlete', 'creator'] })).toEqual([
-			'athletes',
-			'creator-media'
-		]);
-		expect(fieldsForPerson({ slug: 'b', type: ['historical', 'author'] })).toEqual([
-			'history',
-			'authors-thinkers'
-		]);
-		expect(fieldsForPerson({ slug: 'c', type: ['celebrity', 'celebrity-image'] })).toEqual([]);
-	});
-});
-
 describe('findCrossovers', () => {
-	it('pairs each crossover with their second shown field', () => {
-		const groups = groupPeopleByNiche(people, '8', { minFieldSize: 1 });
-		const crossovers = findCrossovers(groups);
-		expect(crossovers.get('andrew-tate')).toBe('creator-media');
-		expect(crossovers.get('joe-rogan')).toBe('comedy');
-		expect(crossovers.get('amy-poehler')).toBe('film-tv');
-		expect(crossovers.get('ernest-hemingway')).toBe('history');
-		expect(crossovers.has('mr-beast')).toBe(false);
-		// Nobody crosses into or out of the catch-all group.
-		expect(crossovers.has('dr-phil')).toBe(false);
+	it('keeps every shown secondary field in order and ignores broad fame tags', () => {
+		const groups = groupPeopleByNiche(
+			[
+				{ slug: 'actor-and-host', type: ['movieStar', 'creator', 'musician'] },
+				{ slug: 'singer', type: ['musician', 'celebrity'] },
+				{ slug: 'host', type: ['creator'] },
+				{ slug: 'novelist', type: ['historical', 'author'] },
+				{ slug: 'historian-subject', type: ['historical'] }
+			],
+			'3',
+			{ minFieldSize: 1 }
+		);
+		const fields = findCrossovers(groups);
+		expect(fields.get('actor-and-host')).toEqual(['creator-media', 'music']);
+		expect(fields.get('novelist')).toEqual(['history']);
+		expect(fields.has('singer')).toBe(false);
+	});
+
+	it('never treats the catch-all as a field in common', () => {
+		const groups = groupPeopleByNiche([
+			{ slug: 'actor-and-musician', type: ['movieStar', 'musician'] },
+			{ slug: 'singer-one', type: ['musician'] },
+			{ slug: 'singer-two', type: ['musician'] },
+			{ slug: 'singer-three', type: ['musician'] }
+		]);
+		expect(groups.map((group) => group.slug)).toEqual(['music', 'more']);
+		expect(findCrossovers(groups).size).toBe(0);
+	});
+
+	it('retains people in the field list when an overlap fills up', () => {
+		const actors = Array.from({ length: 24 }, (_, index) => ({
+			slug: `actor-${index}`,
+			type: ['movieStar', 'musician']
+		}));
+		const groups = groupPeopleByNiche([...actors, { slug: 'singer', type: ['musician'] }], '3', {
+			minFieldSize: 1
+		});
+		const memberships = findCrossovers(groups);
+		for (const shape of ['wide', 'tall'] as const) {
+			const layout = buildVennLayout(groups, shape, memberships);
+			expect(layout.overlaps.flatMap((overlap) => overlap.faces).length).toBeLessThan(
+				actors.length
+			);
+			expect([...memberships.keys()]).toEqual(actors.map((person) => person.slug));
+			expect([...memberships.values()].every((fields) => fields.includes('music'))).toBe(true);
+			expect(allFaces(layout)).toHaveLength(actors.length + 1);
+		}
 	});
 });
 

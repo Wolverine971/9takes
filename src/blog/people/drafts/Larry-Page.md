@@ -12,7 +12,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['techie', 'entrepreneur', 'business-operator']
+type: ['techie', 'entrepreneur', 'big-tech-founder']
+niche_reviewed: true
 person: 'larry-page'
 suggestions: ['Sundar-Pichai', 'Elon-Musk', 'Mark-Zuckerberg', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Larry_Page'

@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['other']
+type: ['tvPersonality', 'author', 'psychology', 'tv-host', 'strategy-writer']
+niche_reviewed: true
 person: 'dr-phil'
 suggestions: ['Oprah-Winfrey', 'Joe-Rogan', 'Jordan-Peterson', 'Andrew-Tate']
 wikipedia: 'https://en.wikipedia.org/wiki/Phil_McGraw'

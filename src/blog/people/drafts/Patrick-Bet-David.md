@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
+type: ['creator', 'entrepreneur', 'youtuber', 'podcaster', 'business-creator', 'business-operator']
+niche_reviewed: true
 person: 'patrick-bet-david'
 suggestions: ['Alex-Hormozi', 'Scott-Galloway', 'Stephen-A-Smith', 'Sam-Parr', 'Gary-Vee']
 wikipedia: 'https://en.wikipedia.org/wiki/Patrick_Bet-David'

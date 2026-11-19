@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
+type: ['creator', 'entrepreneur', 'podcaster', 'business-creator', 'business-operator']
+niche_reviewed: true
 person: 'shaan-puri'
 suggestions: ['Sam-Parr', 'Alex-Lieberman', 'John-Coogan', 'Mr-Beast', 'Naval-Ravikant']
 wikipedia: ''

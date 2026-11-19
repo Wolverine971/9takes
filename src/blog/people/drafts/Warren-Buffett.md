@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
-type: ['entrepreneur', 'business-operator']
+type: ['business', 'investor']
+niche_reviewed: true
 person: 'warren-buffett'
 suggestions: ['Steve-Jobs', 'Jeff-Bezos', 'Elon-Musk', 'Bill-Gates']
 wikipedia: 'https://en.wikipedia.org/wiki/Warren_Buffett'

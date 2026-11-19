@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['creator', 'lifestyle-builder']
+type: ['creator', 'influencer', 'podcaster']
+niche_reviewed: true
 person: 'bobbi-althoff'
 suggestions: ['Drake', 'Alex-Cooper', 'Aubrey-Plaza', 'Taylor-Frankie-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Bobbi_Althoff'

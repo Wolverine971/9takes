@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['celebrity', 'musician', 'movieStar', 'screen-icon', 'music-crossover']
+type: ['musician', 'movieStar', 'pop-star', 'screen-icon']
+niche_reviewed: true
 person: 'jennifer-lopez'
 suggestions: ['Kim-Kardashian', 'Paris-Hilton', 'Taylor-Swift', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Lopez'

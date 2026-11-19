@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
+type: ['musician', 'singer-songwriter']
+niche_reviewed: true
 person: 'gracie-abrams'
 suggestions: ['Lana-Del-Rey', 'Olivia-Rodrigo', 'Taylor-Swift', 'Paul-Mescal', 'Sabrina-Carpenter', 'Phoebe-Bridgers']
 wikipedia: 'https://en.wikipedia.org/wiki/Gracie_Abrams'

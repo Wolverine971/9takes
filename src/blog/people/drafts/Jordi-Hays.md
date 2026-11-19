@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
+type: ['creator', 'entrepreneur', 'podcaster', 'business-operator']
+niche_reviewed: true
 person: 'jordi-hays'
 suggestions: ['John-Coogan', 'Chamath-Palihapitiya', 'Alex-Hormozi', 'Gary-Vee']
 wikipedia: ''

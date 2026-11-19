@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
-type: ['techie', 'entrepreneur', 'investor']
+type: ['entrepreneur', 'techie', 'creator', 'investor', 'podcaster', 'big-tech-founder']
+niche_reviewed: true
 person: 'david-friedberg'
 suggestions: ['Chamath-Palihapitiya', 'David-Sacks', 'Jason-Calacanis', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Friedberg'

@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['techie', 'entrepreneur', 'business-operator']
+type: ['techie', 'entrepreneur', 'big-tech-founder']
+niche_reviewed: true
 person: 'sergey-brin'
 suggestions: ['Larry-Page', 'Sundar-Pichai', 'Sam-Altman', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Sergey_Brin'

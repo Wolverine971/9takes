@@ -1,4 +1,5 @@
 // src/lib/personalityCategories.ts
+import { getPrimaryField } from './personClusterTags.js';
 import {
 	formatPersonalityDisplayName,
 	normalizePersonalitySlug
@@ -9,12 +10,14 @@ export const PERSONALITY_CATEGORY_SLUGS = [
 	'creator-media',
 	'music',
 	'politics-public',
-	'tech-business',
+	'technology',
+	'business',
+	'fashion',
 	'comedy',
 	'authors-thinkers'
 ] as const;
 
-export type PersonalityCategorySlug = (typeof PERSONALITY_CATEGORY_SLUGS)[number];
+export type PersonalityCategorySlug = (typeof PERSONALITY_CATEGORY_SLUGS)[number] | 'tech-business';
 
 export interface PersonalityCategoryDefinition {
 	slug: PersonalityCategorySlug;
@@ -52,17 +55,63 @@ export interface PersonalityCategoryDefinition {
 	excludeSlugs?: string[];
 }
 
+// Existing links to the former combined category still open its collection.
+const LEGACY_TECH_BUSINESS: PersonalityCategoryDefinition = {
+	slug: 'tech-business',
+	label: 'Tech, Founders & Business',
+	shortLabel: 'Tech & Business',
+	summary:
+		'Founders, CEOs, investors, and operators whose psychology shapes products, companies, and strategy.',
+	intro:
+		'Founders and operators reveal how personality handles leverage, risk, optimization, control, long-term strategy, and the pressure to turn identity into systems.',
+	groupingDescription:
+		'Splits the category into big-tech CEOs, investors, frontier builders, operators, and tech interpreters.',
+	seoTitle: 'Founder & CEO Enneagram Types: Tech & Business | 9takes',
+	seoDescription:
+		'Founder personality types, decoded: tech CEOs, investors, and operators through the Enneagram. Compare how each type handles ambition, control, and risk.',
+	seoKeywords: [
+		'founder personality types',
+		'tech ceo enneagram',
+		'startup founder personality analysis',
+		'investor enneagram',
+		'business leader personality types'
+	],
+	seoIntro:
+		'Founder personality types reveal how leverage, control, and long-term strategy actually operate. The tech CEO Enneagram lens on this page covers public-company chiefs, frontier builders in AI and defense, operators, investors, and tech-media interpreters — high-agency people whose psychology gets compounded by capital, distribution, and time. Comparing startup founder personality analysis side by side with public-company operators makes one thing obvious: the same trait that builds a company can wreck the next stage of it. Investor Enneagram profiles add the capital-allocator angle — pattern matching, conviction, contrarianism, and risk tolerance — so you can see how money and operating styles map differently. Read this category for business leader personality types whose decisions ripple far beyond the org chart.',
+	seoFaqs: [
+		{
+			question: 'What people are included in Tech, Founders & Business?',
+			answer:
+				'The category covers tech founders, public-company CEOs, investors, operators, frontier builders, and business personalities whose psychology shapes systems, products, and strategy.'
+		},
+		{
+			question: 'Why compare founders and operators together?',
+			answer:
+				'Putting builders, capital allocators, and operators side by side makes it easier to compare how different personalities handle leverage, risk, power, and long-term control.'
+		},
+		{
+			question: 'How is the tech category subdivided?',
+			answer:
+				'It separates big-tech founders and CEOs, investors and strategists, frontier builders in AI or defense, operators and business builders, and tech-media interpreters.'
+		}
+	],
+	accent: '#34d399',
+	accentSoft: 'rgba(52, 211, 153, 0.18)',
+	rawTypes: ['techie', 'entrepreneur', 'business'],
+	related: ['technology', 'business', 'fashion']
+};
+
 export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] = [
 	{
 		slug: 'film-tv',
 		label: 'Film & TV',
 		shortLabel: 'Film & TV',
 		summary:
-			'Actors, TV personalities, celebrities, and crossover figures whose public identity is built on performance and image.',
+			'Actors, filmmakers, reality TV personalities, and hosts working across film and television.',
 		intro:
 			'Actors, television personalities, and celebrity figures reveal how personality handles image pressure, reinvention, romantic projection, and the tension between public myth and private self.',
 		groupingDescription:
-			'Split into screen icons, rising stars, TV/comedy crossovers, and celebrity-image figures so actors are not mixed together with pure fame personalities.',
+			'Browse filmmakers, reality TV personalities, leading actors, rising stars, and hosts.',
 		seoTitle: 'Actor & Celebrity Enneagram Types: Film & TV | 9takes',
 		seoDescription:
 			'Film and TV personality types, decoded: actors, celebrities, and rising stars through the Enneagram. See how image pressure and fame shape each type.',
@@ -79,7 +128,7 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			{
 				question: 'What is included in the Film & TV category?',
 				answer:
-					'This category groups actors, television personalities, celebrities, and breakout performers analyzed through the Enneagram. It separates screen icons, rising stars, comedy/TV crossovers, and pure celebrity-image figures.'
+					'This category includes actors, filmmakers, reality TV personalities, hosts, and celebrities. You can compare directors and producers, leading actors, breakout performers, or the cast of a reality series.'
 			},
 			{
 				question: 'Why compare actors and celebrities by category?',
@@ -94,7 +143,7 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		],
 		accent: '#f59e0b',
 		accentSoft: 'rgba(245, 158, 11, 0.18)',
-		rawTypes: ['movieStar', 'newMovieStar', 'celebrity'],
+		rawTypes: ['movieStar', 'newMovieStar', 'celebrity', 'tvPersonality', 'director'],
 		related: ['music', 'creator-media', 'comedy']
 	},
 	{
@@ -106,7 +155,7 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		intro:
 			'Internet personalities make status, attention, audience trust, and identity management visible in real time. This category is where personality meets algorithms, parasociality, and platform economics.',
 		groupingDescription:
-			'Split into podcasters, commentators, business/self-improvement creators, streamers, viral entertainers, and lifestyle brand builders.',
+			'Browse podcast and interview hosts, educational YouTubers, commentators, business creators, streamers, online entertainers, and lifestyle creators.',
 		seoTitle: 'Creator Enneagram Types: YouTubers & Podcasters | 9takes',
 		seoDescription:
 			'Creator personality analysis for YouTubers, podcasters, streamers, and influencers. See how internet fame and platform pressure shape each Enneagram type.',
@@ -133,28 +182,34 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			{
 				question: 'How is the creator category organized?',
 				answer:
-					'It is split into podcasters, commentary personalities, business and self-improvement creators, streamers, viral entertainers, and lifestyle-driven internet figures.'
+					'The groups cover podcast and interview hosts, educational YouTubers, news and commentary, business and self-improvement, streaming, entertainment, and lifestyle.'
 			}
 		],
 		accent: '#38bdf8',
 		accentSoft: 'rgba(56, 189, 248, 0.18)',
-		rawTypes: ['creator', 'influencer', 'tiktoker', 'lifestyleInfluencer', 'journalist'],
-		related: ['tech-business', 'music', 'film-tv'],
+		rawTypes: [
+			'creator',
+			'influencer',
+			'tiktoker',
+			'lifestyleInfluencer',
+			'journalist',
+			'youtuber'
+		],
+		related: ['business', 'music', 'film-tv'],
 		excludeSlugs: ['Brene-Brown', 'Dolly-Parton', 'Neil-Strauss']
 	},
 	{
 		slug: 'music',
 		label: 'Musicians & Artists',
 		shortLabel: 'Music',
-		summary:
-			'Pop stars, rappers, singer-songwriters, and crossover performers whose psychology shows up through style, voice, ambition, and artistic identity.',
+		summary: 'Singers, rappers, songwriters and record producers, grouped by the music they make.',
 		intro:
 			'Musicians are often where personality becomes the most theatrical: authenticity versus performance, creative obsession versus commercial pressure, vulnerability versus persona.',
 		groupingDescription:
-			'Split into pop stars, rappers, alternative voices, singer-songwriters, and crossovers so the music page feels like real lanes instead of one pile.',
+			'Browse by genre or by the artist’s work as a songwriter, producer or screen performer.',
 		seoTitle: 'Musician Enneagram Types: Singers & Rappers | 9takes',
 		seoDescription:
-			'Musician personality analysis through the Enneagram, including pop stars, rappers, alternative artists, singer-songwriters, and crossover performers.',
+			'Explore musician Enneagram profiles across pop, rap, R&B, rock, country and alternative music, alongside singer-songwriters and record producers.',
 		seoKeywords: [
 			'musician personality types',
 			'singer enneagram types',
@@ -168,7 +223,7 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			{
 				question: 'What kinds of artists are in the music category?',
 				answer:
-					'The music page includes pop stars, rappers, alternative artists, singer-songwriters, and crossover performers whose public identity is tied to music.'
+					'The music page includes recording artists, band members, singer-songwriters and producers. Some also work in film, television or online entertainment.'
 			},
 			{
 				question: 'Why compare musicians by Enneagram type?',
@@ -178,7 +233,7 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			{
 				question: 'How is the music category subdivided?',
 				answer:
-					'It breaks the library into pop stars, rappers and genre disruptors, alternative voices, singer-songwriters, and multi-hyphenate crossover figures.'
+					'You can browse pop, dance-pop, hip-hop and rap, R&B and soul, rock, alternative and art pop, or country and Americana. There are also groups for singer-songwriters, record producers and performers who work across music and screen media.'
 			}
 		],
 		accent: '#f472b6',
@@ -227,53 +282,91 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		],
 		accent: '#fb7185',
 		accentSoft: 'rgba(251, 113, 133, 0.18)',
-		rawTypes: ['politician', 'historical', 'activist'],
-		related: ['tech-business', 'creator-media', 'film-tv'],
+		rawTypes: ['politician', 'historical', 'activist', 'politicalFamily'],
+		related: ['business', 'creator-media', 'film-tv'],
 		excludeSlugs: ['Shailene-Woodley', 'Lupita-Nyongo']
 	},
 	{
-		slug: 'tech-business',
-		label: 'Tech, Founders & Business',
-		shortLabel: 'Tech & Business',
-		summary:
-			'Founders, CEOs, investors, and operators whose psychology shapes products, companies, and strategy.',
+		slug: 'technology',
+		label: 'Technology',
+		shortLabel: 'Technology',
+		summary: 'Inventors, researchers and executives who build and explain technology.',
 		intro:
-			'Founders and operators reveal how personality handles leverage, risk, optimization, control, long-term strategy, and the pressure to turn identity into systems.',
+			'Explore the people behind the tools, platforms and research labs that changed how others work.',
 		groupingDescription:
-			'Splits the category into big-tech CEOs, investors, frontier builders, operators, and tech interpreters.',
-		seoTitle: 'Founder & CEO Enneagram Types: Tech & Business | 9takes',
+			'Browse technology executives, AI researchers and builders, inventors, and people who cover the industry.',
+		seoTitle: 'Technology Leaders & Inventors by Enneagram Type | 9takes',
 		seoDescription:
-			'Founder personality types, decoded: tech CEOs, investors, and operators through the Enneagram. Compare how each type handles ambition, control, and risk.',
-		seoKeywords: [
-			'founder personality types',
-			'tech ceo enneagram',
-			'startup founder personality analysis',
-			'investor enneagram',
-			'business leader personality types'
-		],
+			'Explore Enneagram profiles of technology founders, AI researchers, engineers and industry commentators. Compare how they lead teams and make decisions.',
+		seoKeywords: ['tech founder enneagram', 'technology personality types'],
 		seoIntro:
-			'Founder personality types reveal how leverage, control, and long-term strategy actually operate. The tech CEO Enneagram lens on this page covers public-company chiefs, frontier builders in AI and defense, operators, investors, and tech-media interpreters — high-agency people whose psychology gets compounded by capital, distribution, and time. Comparing startup founder personality analysis side by side with public-company operators makes one thing obvious: the same trait that builds a company can wreck the next stage of it. Investor Enneagram profiles add the capital-allocator angle — pattern matching, conviction, contrarianism, and risk tolerance — so you can see how money and operating styles map differently. Read this category for business leader personality types whose decisions ripple far beyond the org chart.',
+			'Steve Jobs had strong opinions about how a product should feel in someone’s hands. Geoffrey Hinton spent decades pursuing a research idea before it became the basis for widely used tools. Read their profiles alongside other people in technology to compare the decisions that shaped their work.',
 		seoFaqs: [
 			{
-				question: 'What people are included in Tech, Founders & Business?',
+				question: 'Where can I find technology entrepreneurs?',
 				answer:
-					'The category covers tech founders, public-company CEOs, investors, operators, frontier builders, and business personalities whose psychology shapes systems, products, and strategy.'
-			},
+					'People who founded a technology company can appear in both Technology and Business. Their type map highlights the field they are best known for.'
+			}
+		],
+		accent: '#38bdf8',
+		accentSoft: 'rgba(56, 189, 248, 0.18)',
+		rawTypes: ['techie'],
+		related: ['business', 'creator-media', 'authors-thinkers']
+	},
+	{
+		slug: 'business',
+		label: 'Business & Entrepreneurship',
+		shortLabel: 'Business',
+		summary: 'Founders, executives, investors and talent managers.',
+		intro: 'Compare the people who start companies, allocate capital and manage careers.',
+		groupingDescription: 'Browse founders and operators, investors and talent managers.',
+		seoTitle: 'Entrepreneurs & Investors by Enneagram Type | 9takes',
+		seoDescription:
+			'Compare Enneagram profiles of entrepreneurs, investors and executives. Browse the people who start companies, allocate capital and manage talent.',
+		seoKeywords: ['entrepreneur enneagram', 'investor personality types'],
+		seoIntro:
+			'Starting a company, running one and deciding whether to invest in it involve different judgments. These profiles follow those decisions through specific careers, from Alexandr Wang building Scale AI to Warren Buffett choosing which businesses to own.',
+		seoFaqs: [
 			{
-				question: 'Why compare founders and operators together?',
+				question: 'Can a filmmaker or a podcaster also appear in Business?',
 				answer:
-					'Putting builders, capital allocators, and operators side by side makes it easier to compare how different personalities handle leverage, risk, power, and long-term control.'
-			},
-			{
-				question: 'How is the tech category subdivided?',
-				answer:
-					'It separates big-tech founders and CEOs, investors and strategists, frontier builders in AI or defense, operators and business builders, and tech-media interpreters.'
+					'Yes. A studio founder or a host who built a company can appear here and in the collection for their creative work.'
 			}
 		],
 		accent: '#34d399',
 		accentSoft: 'rgba(52, 211, 153, 0.18)',
-		rawTypes: ['techie', 'entrepreneur', 'business'],
-		related: ['creator-media', 'politics-public', 'authors-thinkers']
+		rawTypes: ['entrepreneur', 'business', 'investor'],
+		related: ['technology', 'fashion', 'creator-media']
+	},
+	{
+		slug: 'fashion',
+		label: 'Fashion, Beauty & Luxury',
+		shortLabel: 'Fashion & beauty',
+		summary: 'Models, editors and entrepreneurs who shape what people wear and buy.',
+		intro:
+			'A runway model, a magazine editor and the head of a luxury house each have a different say in what comes into fashion. Explore how they make those decisions.',
+		groupingDescription: 'Browse models, fashion editors, beauty founders and luxury executives.',
+		seoTitle: 'Fashion & Beauty Enneagram Types | 9takes',
+		seoDescription:
+			'Explore Enneagram profiles of fashion models, editors, beauty founders and luxury executives. See how they build careers around taste and public image.',
+		seoKeywords: [
+			'fashion personality types',
+			'fashion model enneagram',
+			'beauty founder personality'
+		],
+		seoIntro:
+			'Gigi Hadid built her career in front of the camera. Anna Wintour selected the people and collections that appeared on the page. Bernard Arnault built a group of luxury houses. Their profiles offer different views of the same industry, from how a model handles scrutiny to how an executive decides whose taste to trust.',
+		seoFaqs: [
+			{
+				question: 'Which careers are included in fashion and beauty?',
+				answer:
+					'This collection includes runway and editorial models, fashion editors, beauty founders and executives who lead luxury brands.'
+			}
+		],
+		accent: '#f472b6',
+		accentSoft: 'rgba(244, 114, 182, 0.18)',
+		rawTypes: ['fashion'],
+		related: ['film-tv', 'creator-media', 'business']
 	},
 	{
 		slug: 'comedy',
@@ -361,7 +454,7 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		accent: '#818cf8',
 		accentSoft: 'rgba(129, 140, 248, 0.18)',
 		rawTypes: ['author', 'psychology', 'essay'],
-		related: ['tech-business', 'politics-public', 'creator-media']
+		related: ['business', 'politics-public', 'creator-media']
 	}
 ] as const;
 
@@ -370,32 +463,42 @@ export const PRIMARY_PERSONALITY_CATEGORY_SLUGS: PersonalityCategorySlug[] = [
 	'creator-media',
 	'music',
 	'politics-public',
-	'tech-business'
+	'technology',
+	'business'
 ];
 
 export const SECONDARY_PERSONALITY_CATEGORY_SLUGS: PersonalityCategorySlug[] = [
+	'fashion',
 	'comedy',
 	'authors-thinkers'
 ];
 
 const PERSONALITY_CATEGORY_MAP = new Map(
-	PERSONALITY_CATEGORY_DEFINITIONS.map((category) => [category.slug, category])
+	[...PERSONALITY_CATEGORY_DEFINITIONS, LEGACY_TECH_BUSINESS].map((category) => [
+		category.slug,
+		category
+	])
 );
 
 const RAW_TYPE_LABELS: Record<string, string> = {
+	fashion: 'Fashion & beauty',
 	creator: 'Creator',
 	influencer: 'Influencer',
 	tiktoker: 'TikToker',
+	youtuber: 'YouTuber',
 	journalist: 'Journalist',
 	lifestyleInfluencer: 'Lifestyle Influencer',
 	entrepreneur: 'Entrepreneur',
 	techie: 'Tech',
 	business: 'Business',
 	politician: 'Politician',
+	politicalFamily: 'Political family',
 	historical: 'Historical Figure',
 	activist: 'Activist',
 	musician: 'Musician',
 	movieStar: 'Movie Star',
+	tvPersonality: 'TV personality',
+	director: 'Director',
 	newMovieStar: 'Rising Movie Star',
 	celebrity: 'Celebrity',
 	comedian: 'Comedian',
@@ -467,7 +570,9 @@ export function getPrimaryPersonalityCategorySlug(
 	types: string[],
 	personSlug?: string | null
 ): PersonalityCategorySlug | null {
-	return getPersonalityCategorySlugs(types, personSlug)[0] ?? null;
+	const categories = getPersonalityCategorySlugs(types, personSlug);
+	const field = getPrimaryField(types, personSlug ?? '');
+	return categories.find((slug) => slug === field) ?? categories[0] ?? null;
 }
 
 export function formatPersonalityRawType(type: string): string {

@@ -13,11 +13,11 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 268,
+		"candidates": 259,
 		"gateDebt": 0,
 		"topBlog": 40,
-		"peopleBridge": 18,
-		"peopleToPeople": 6,
+		"peopleBridge": 15,
+		"peopleToPeople": 4,
 		"skipped": 329
 	},
 	"gateDebt": [],
@@ -283,7 +283,7 @@
 				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
 				"section": "enneagram-corner",
 				"impressions": 293,
-				"outCount": 85
+				"outCount": 87
 			},
 			"line": 312,
 			"anchor": "Elizabeth",
@@ -347,33 +347,6 @@
 			"excerpt": "And look what's happening with ADHD. Diagnoses among US children rose sharply -- [from 6.1% in 1997 to 10.2% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6324288/). Everyone treats this as a crisis. But a [2024 pape…"
 		},
 		{
-			"id": "/enneagram-corner/astrology-and-the-enneagram -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-			"score": 1.6,
-			"target": {
-				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 170,
-				"clicks": 1,
-				"position": 19.6,
-				"inbound": 15
-			},
-			"source": {
-				"url": "/enneagram-corner/astrology-and-the-enneagram",
-				"file": "src/blog/enneagram/astrology-and-the-enneagram.md",
-				"section": "enneagram-corner",
-				"impressions": 12004,
-				"outCount": 16
-			},
-			"line": 91,
-			"anchor": "next thing",
-			"phrase": "next thing",
-			"phraseKind": "title",
-			"mentionScore": 2,
-			"excerpt": "…ou're a [Type 7](/enneagram-corner/enneagram-type-7). If freedom means nobody tells you what to do, look at [Type 8](/enneagram-corner/enneagram-type-8). The tell: 7s run toward the next thing. 8s refuse to be held back."
-		},
-		{
 			"id": "/enneagram-corner/mental-health/enneagram-parenting-mental-health -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
 			"score": 1.57,
 			"target": {
@@ -428,8 +401,35 @@
 			"excerpt": "> **Dating mostly on apps?** This guide's companion is built for that. The [Online Dating Companion Guide](/enneagram-corner/enneagram-online-dating-guide) covers profiles, photos, opening messages, and the first five mi…"
 		},
 		{
+			"id": "/enneagram-corner/astrology-and-the-enneagram -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+			"score": 1.55,
+			"target": {
+				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 170,
+				"clicks": 1,
+				"position": 19.6,
+				"inbound": 16
+			},
+			"source": {
+				"url": "/enneagram-corner/astrology-and-the-enneagram",
+				"file": "src/blog/enneagram/astrology-and-the-enneagram.md",
+				"section": "enneagram-corner",
+				"impressions": 12004,
+				"outCount": 16
+			},
+			"line": 91,
+			"anchor": "next thing",
+			"phrase": "next thing",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "…ou're a [Type 7](/enneagram-corner/enneagram-type-7). If freedom means nobody tells you what to do, look at [Type 8](/enneagram-corner/enneagram-type-8). The tell: 7s run toward the next thing. 8s refuse to be held back."
+		},
+		{
 			"id": "/enneagram-corner/mental-health/enneagram-anxiety-complete-guide -> /enneagram-corner/enneagram-and-mental-illness",
-			"score": 1.49,
+			"score": 1.47,
 			"target": {
 				"url": "/enneagram-corner/enneagram-and-mental-illness",
 				"title": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
@@ -438,7 +438,7 @@
 				"impressions": 12500,
 				"clicks": 290,
 				"position": 8.7,
-				"inbound": 25
+				"inbound": 26
 			},
 			"source": {
 				"url": "/enneagram-corner/mental-health/enneagram-anxiety-complete-guide",
@@ -509,33 +509,6 @@
 			"excerpt": "…system emerged from the collision of Sufi mysticism, Greek philosophy, Armenian spiritual teachers, Chilean psychiatrists, and American psychologists. Each tradition added layers to something none of them invented alone."
 		},
 		{
-			"id": "/pop-culture/podcaster-personality-map -> /pop-culture/comedy-kings-enneagram-analysis",
-			"score": 1.34,
-			"target": {
-				"url": "/pop-culture/comedy-kings-enneagram-analysis",
-				"title": "Comedy Kings: Why the Funniest Men Alive Are Wired Completely Differently",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 38,
-				"clicks": 0,
-				"position": 7.6,
-				"inbound": 5
-			},
-			"source": {
-				"url": "/pop-culture/podcaster-personality-map",
-				"file": "src/blog/pop-culture/podcaster-personality-map.md",
-				"section": "pop-culture",
-				"impressions": 68,
-				"outCount": 16
-			},
-			"line": 144,
-			"anchor": "Theo Von",
-			"phrase": "theo von",
-			"phraseKind": "title",
-			"mentionScore": 2,
-			"excerpt": "**Theo Von** channels his Type 7 energy into absurdist storytelling that can turn a painful memory into a Southern Gothic riff. The joke rarely erases the discomfort; it gives him and the audience enough motion to stay w…"
-		},
-		{
 			"id": "/pop-culture/the-office-enneagram-types -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
 			"score": 1.34,
 			"target": {
@@ -563,60 +536,6 @@
 			"excerpt": "…e. A 2w1 is the orderly, dutiful helper. That's Phyllis. A 2w3 is the helper as host and headliner, the one who needs the room watching while he gives. The 3 wing is where Michael's stage hunger lives: the improv class, …"
 		},
 		{
-			"id": "/enneagram-corner/mental-health/enneagram-medication-mental-health -> /enneagram-corner/enneagram-and-mental-illness",
-			"score": 1.32,
-			"target": {
-				"url": "/enneagram-corner/enneagram-and-mental-illness",
-				"title": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 12500,
-				"clicks": 290,
-				"position": 8.7,
-				"inbound": 25
-			},
-			"source": {
-				"url": "/enneagram-corner/mental-health/enneagram-medication-mental-health",
-				"file": "src/blog/enneagram/mental-health/enneagram-medication-mental-health.md",
-				"section": "enneagram-corner",
-				"impressions": 291,
-				"outCount": 10
-			},
-			"line": 741,
-			"anchor": "disorder",
-			"phrase": "disorders",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "**When you need a psychiatrist specifically**: Complex cases, multiple medications, treatment-resistant depression, bipolar disorder, or if your PCP isn't comfortable prescribing."
-		},
-		{
-			"id": "/pop-culture/comedy-kings-enneagram-analysis -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-			"score": 1.32,
-			"target": {
-				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 170,
-				"clicks": 1,
-				"position": 19.6,
-				"inbound": 15
-			},
-			"source": {
-				"url": "/pop-culture/comedy-kings-enneagram-analysis",
-				"file": "src/blog/pop-culture/comedy-kings-enneagram-analysis.md",
-				"section": "pop-culture",
-				"impressions": 38,
-				"outCount": 17
-			},
-			"line": 106,
-			"anchor": "options open",
-			"phrase": "options open",
-			"phraseKind": "title",
-			"mentionScore": 2,
-			"excerpt": "Type 7s avoid pain, keep their options open, and stay in constant motion, because stillness is where the bad stuff catches up. So they overbook. They overstimulate. They reach for one more drink, one more trip, one more …"
-		},
-		{
 			"id": "/enneagram-corner/toxic-traits-of-each-enneagram-type -> /enneagram-corner/enneagram-instinctual-subtypes",
 			"score": 1.31,
 			"target": {
@@ -627,7 +546,7 @@
 				"impressions": 13556,
 				"clicks": 75,
 				"position": 10.7,
-				"inbound": 165
+				"inbound": 167
 			},
 			"source": {
 				"url": "/enneagram-corner/toxic-traits-of-each-enneagram-type",
@@ -698,6 +617,33 @@
 			"excerpt": "**A possible pattern:** Returning to reliable podcast hosts, creators with predictable schedules, or public figures who seem consistent over time."
 		},
 		{
+			"id": "/enneagram-corner/mental-health/enneagram-medication-mental-health -> /enneagram-corner/enneagram-and-mental-illness",
+			"score": 1.3,
+			"target": {
+				"url": "/enneagram-corner/enneagram-and-mental-illness",
+				"title": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 12500,
+				"clicks": 290,
+				"position": 8.7,
+				"inbound": 26
+			},
+			"source": {
+				"url": "/enneagram-corner/mental-health/enneagram-medication-mental-health",
+				"file": "src/blog/enneagram/mental-health/enneagram-medication-mental-health.md",
+				"section": "enneagram-corner",
+				"impressions": 291,
+				"outCount": 10
+			},
+			"line": 741,
+			"anchor": "disorder",
+			"phrase": "disorders",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "**When you need a psychiatrist specifically**: Complex cases, multiple medications, treatment-resistant depression, bipolar disorder, or if your PCP isn't comfortable prescribing."
+		},
+		{
 			"id": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten -> /enneagram-corner/enneagram-compatibility-matrix",
 			"score": 1.3,
 			"target": {
@@ -752,33 +698,6 @@
 			"excerpt": "…led Jewlicious. He argued with her for months, arguments she later called \"heated but friendly.\" He teased her (\"You know, for an evil something something, you sure do crack me up\"), and he went straight at the doctrine."
 		},
 		{
-			"id": "/enneagram-corner/enneagram-leadership -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-			"score": 1.3,
-			"target": {
-				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
-				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 170,
-				"clicks": 1,
-				"position": 19.6,
-				"inbound": 15
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-leadership",
-				"file": "src/blog/enneagram/enneagram-leadership.md",
-				"section": "enneagram-corner",
-				"impressions": 557,
-				"outCount": 11
-			},
-			"line": 337,
-			"anchor": "next thing",
-			"phrase": "next thing",
-			"phraseKind": "title",
-			"mentionScore": 2,
-			"excerpt": "**The Fix:** Enforce a \"one thing complete before next thing starts\" rule."
-		},
-		{
 			"id": "/how-to-guides/definitive-guide-to-relationship-conflict-part-1 -> /enneagram-corner/enneagram-compatibility-matrix",
 			"score": 1.29,
 			"target": {
@@ -806,31 +725,31 @@
 			"excerpt": "… study published in the Journal of Social and Personal Relationships found that couples who engaged in healthy conflict reported greater intimacy and relationship satisfaction than those who avoided disagreements altoget…"
 		},
 		{
-			"id": "/enneagram-corner/love-languages-and-enneagram-types -> /enneagram-corner/enneagram-instinctual-subtypes",
-			"score": 1.27,
+			"id": "/enneagram-corner/enneagram-leadership -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+			"score": 1.26,
 			"target": {
-				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
-				"title": "Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type",
+				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
 				"kind": "blog",
 				"section": "enneagram-corner",
-				"impressions": 13556,
-				"clicks": 75,
-				"position": 10.7,
-				"inbound": 165
+				"impressions": 170,
+				"clicks": 1,
+				"position": 19.6,
+				"inbound": 16
 			},
 			"source": {
-				"url": "/enneagram-corner/love-languages-and-enneagram-types",
-				"file": "src/blog/enneagram/love-languages-and-enneagram-types.md",
+				"url": "/enneagram-corner/enneagram-leadership",
+				"file": "src/blog/enneagram/enneagram-leadership.md",
 				"section": "enneagram-corner",
-				"impressions": 3926,
-				"outCount": 16
+				"impressions": 557,
+				"outCount": 11
 			},
-			"line": 374,
-			"anchor": "self-preservation",
-			"phrase": "self-preservation",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "The three instincts—self-preservation (sp), social (so), and sexual/one-to-one (sx)—filter every love language."
+			"line": 337,
+			"anchor": "next thing",
+			"phrase": "next thing",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "**The Fix:** Enforce a \"one thing complete before next thing starts\" rule."
 		},
 		{
 			"id": "/community/questions-are-the-engine-of-moral-awakening -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
@@ -941,85 +860,31 @@
 			"excerpt": "…ted that it felt \"sorta like reading your own eulogy while you're still alive.\" Months later, he told Lex Fridman it had been \"the most painful professional experience of my life, and chaotic and shameful and upsetting.\""
 		},
 		{
-			"id": "/pop-culture/masculinity-strength-and-the-enneagram -> /enneagram-corner/first-impression-enneagram-playbook",
-			"score": 1.22,
+			"id": "/enneagram-corner/enneagram-type-7 -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+			"score": 1.23,
 			"target": {
-				"url": "/enneagram-corner/first-impression-enneagram-playbook",
-				"title": "Enneagram First Impressions: What Each Type Is Scanning For",
+				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
 				"kind": "blog",
 				"section": "enneagram-corner",
-				"impressions": 21,
-				"clicks": 0,
-				"position": 13,
-				"inbound": 5
+				"impressions": 170,
+				"clicks": 1,
+				"position": 19.6,
+				"inbound": 16
 			},
 			"source": {
-				"url": "/pop-culture/masculinity-strength-and-the-enneagram",
-				"file": "src/blog/pop-culture/masculinity-strength-and-the-enneagram.md",
-				"section": "pop-culture",
-				"impressions": 0,
-				"outCount": 8
+				"url": "/enneagram-corner/enneagram-type-7",
+				"file": "src/blog/enneagram/enneagram-type-7.md",
+				"section": "enneagram-corner",
+				"impressions": 422,
+				"outCount": 12
 			},
-			"line": 34,
-			"anchor": "first impressions",
-			"phrase": "first impression",
+			"line": 341,
+			"anchor": "next thing",
+			"phrase": "next thing",
 			"phraseKind": "title",
 			"mentionScore": 2,
-			"excerpt": "Appearance can shape first impressions. Rejection can hurt. [Dating apps](/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types) can intensify comparison. A message like \"looks never matter\" will not…"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-type-5 -> /enneagram-corner/enneagram-instinctual-subtypes",
-			"score": 1.21,
-			"target": {
-				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
-				"title": "Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 13556,
-				"clicks": 75,
-				"position": 10.7,
-				"inbound": 165
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-type-5",
-				"file": "src/blog/enneagram/enneagram-type-5.md",
-				"section": "enneagram-corner",
-				"impressions": 1895,
-				"outCount": 13
-			},
-			"line": 247,
-			"anchor": "Self-Preservation",
-			"phrase": "self-preservation",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "**Self-Preservation Fives** are the extreme minimalists. They reduce needs to reduce vulnerability. Smaller apartment means lower rent means less work required means more time for what matters. They stockpile: books, too…"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-type-6 -> /enneagram-corner/enneagram-and-mental-illness",
-			"score": 1.19,
-			"target": {
-				"url": "/enneagram-corner/enneagram-and-mental-illness",
-				"title": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 12500,
-				"clicks": 290,
-				"position": 8.7,
-				"inbound": 25
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-type-6",
-				"file": "src/blog/enneagram/enneagram-type-6.md",
-				"section": "enneagram-corner",
-				"impressions": 1531,
-				"outCount": 26
-			},
-			"line": 543,
-			"anchor": "Disorder",
-			"phrase": "disorders",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "**6 Anxiety vs. Generalized Anxiety Disorder:** Type 6 anxiety has a specific flavor. It centers on trust, loyalty, authority, and worst-case scenarios involving betrayal or abandonment. GAD is more free-floating, attach…"
+			"excerpt": "…e satisfaction you get from depth isn't the same as the rush of something new. It's quieter. It lasts longer. And paradoxically, when you stop needing the next thing so urgently, the present moment gets more interesting."
 		},
 		{
 			"id": "/enneagram-corner/enneagram-books-websites-podcasts -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
@@ -1047,6 +912,60 @@
 			"phraseKind": "gsc",
 			"mentionScore": 1.5,
 			"excerpt": "…es signal from noise. We've vetted books, websites, podcasts, YouTube channels, apps, certification programs, and teachers across every experience level, from \"just curious\" to \"ready for deep [shadow work](/enneagram-co…"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-2 -> /enneagram-corner/enneagram-instinctual-subtypes",
+			"score": 1.14,
+			"target": {
+				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
+				"title": "Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 13556,
+				"clicks": 75,
+				"position": 10.7,
+				"inbound": 167
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-type-2",
+				"file": "src/blog/enneagram/enneagram-type-2.md",
+				"section": "enneagram-corner",
+				"impressions": 951,
+				"outCount": 16
+			},
+			"line": 317,
+			"anchor": "self-preservation",
+			"phrase": "self-preservation",
+			"phraseKind": "curated",
+			"mentionScore": 3,
+			"excerpt": "**The self-preservation Two (the countertype):** The Two who has never cooked you a casserole. This Two attracts care instead of providing it: charming, youthful, endearing, subtly needful, wanting to be loved just for b…"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-8 -> /enneagram-corner/enneagram-instinctual-subtypes",
+			"score": 1.14,
+			"target": {
+				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
+				"title": "Enneagram Instinctual Subtypes: Why You Don't Fully Match Your Type",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 13556,
+				"clicks": 75,
+				"position": 10.7,
+				"inbound": 167
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-type-8",
+				"file": "src/blog/enneagram/enneagram-type-8.md",
+				"section": "enneagram-corner",
+				"impressions": 883,
+				"outCount": 14
+			},
+			"line": 182,
+			"anchor": "Self-preservation",
+			"phrase": "self-preservation",
+			"phraseKind": "curated",
+			"mentionScore": 3,
+			"excerpt": "**Self-preservation 8**: The fortress-builder. Least expressive of the 8s. You don't announce what you need; you go get it. The internal motto is \"I will handle it myself,\" and the self-containment can read almost like a…"
 		},
 		{
 			"id": "/community/societal-ticking-time-bombs -> /enneagram-corner/mental-health/enneagram-science-mental-health",
@@ -1101,6 +1020,87 @@
 			"phraseKind": "title",
 			"mentionScore": 2,
 			"excerpt": "**How They Sabotage Team Dynamics**"
+		},
+		{
+			"id": "/enneagram-corner/attachment-styles-and-enneagram-types -> /enneagram-corner/enneagram-personal-growth",
+			"score": 1.08,
+			"target": {
+				"url": "/enneagram-corner/enneagram-personal-growth",
+				"title": "Enneagram for Personal Growth: The Advice That Fixed You Can Break Them",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 826,
+				"clicks": 0,
+				"position": 24,
+				"inbound": 18
+			},
+			"source": {
+				"url": "/enneagram-corner/attachment-styles-and-enneagram-types",
+				"file": "src/blog/enneagram/attachment-styles-and-enneagram-types.md",
+				"section": "enneagram-corner",
+				"impressions": 5244,
+				"outCount": 16
+			},
+			"line": 40,
+			"anchor": "different fixes",
+			"phrase": "different fixe",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "One anxious person smothers. Another tests. One gives until they collapse. Another interrogates until the other person leaves. Same label, different behavior, and different fixes."
+		},
+		{
+			"id": "/how-to-guides/dating-dynamics-by-enneagram-type -> /enneagram-corner/enneagram-types-at-party",
+			"score": 1.05,
+			"target": {
+				"url": "/enneagram-corner/enneagram-types-at-party",
+				"title": "The Party Test: What Your Social Style Reveals About Your Type",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 395,
+				"clicks": 3,
+				"position": 10.8,
+				"inbound": 27
+			},
+			"source": {
+				"url": "/how-to-guides/dating-dynamics-by-enneagram-type",
+				"file": "src/blog/guides/dating-dynamics-by-enneagram-type.md",
+				"section": "how-to-guides",
+				"impressions": 496,
+				"outCount": 5
+			},
+			"line": 153,
+			"anchor": "games",
+			"phrase": "games",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "- Dance badly, finger paint, play video games"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-faqs -> /enneagram-corner/enneagram-and-religion",
+			"score": 1.04,
+			"target": {
+				"url": "/enneagram-corner/enneagram-and-religion",
+				"title": "Is the Enneagram Religious? (The Truth About Its Spiritual Origins)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 1462,
+				"clicks": 13,
+				"position": 23.7,
+				"inbound": 4
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-faqs",
+				"file": "src/blog/enneagram/enneagram-faqs.md",
+				"section": "enneagram-corner",
+				"impressions": 2,
+				"outCount": 17
+			},
+			"line": 484,
+			"anchor": "Spiritual",
+			"phrase": "spirituality",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "**4. Spiritual bypassing:** Using type knowledge to avoid doing actual work"
 		}
 	],
 	"peopleBridge": [
@@ -1122,7 +1122,7 @@
 				"file": "src/blog/pop-culture/podcaster-personality-map.md",
 				"section": "pop-culture",
 				"impressions": 68,
-				"outCount": 16
+				"outCount": 17
 			},
 			"line": 62,
 			"anchor": "Alex Cooper",
@@ -1203,7 +1203,7 @@
 				"file": "src/blog/pop-culture/podcaster-personality-map.md",
 				"section": "pop-culture",
 				"impressions": 68,
-				"outCount": 16
+				"outCount": 17
 			},
 			"line": 128,
 			"anchor": "Dax Shepard",
@@ -1230,7 +1230,7 @@
 				"file": "src/blog/pop-culture/podcaster-personality-map.md",
 				"section": "pop-culture",
 				"impressions": 68,
-				"outCount": 16
+				"outCount": 17
 			},
 			"line": 80,
 			"anchor": "Joe Rogan",
@@ -1294,33 +1294,6 @@
 			"excerpt": "**Example:** Jeff Bezos (Amazon)"
 		},
 		{
-			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /personality-analysis/kate-hudson",
-			"score": 3.9,
-			"target": {
-				"url": "/personality-analysis/kate-hudson",
-				"title": "Kate Hudson",
-				"kind": "person",
-				"section": "people",
-				"impressions": 69,
-				"clicks": 0,
-				"position": 6.8,
-				"inbound": 0
-			},
-			"source": {
-				"url": "/enneagram-corner/what-enneagram-type-are-most-ceos",
-				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
-				"section": "enneagram-corner",
-				"impressions": 293,
-				"outCount": 85
-			},
-			"line": 349,
-			"anchor": "Kate Hudson",
-			"phrase": "Kate Hudson",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "- Type 7: Kate Hudson, [Kyle Forgeard](/personality-analysis/kyle-forgeard), Ryan Reynolds"
-		},
-		{
 			"id": "/community/societal-ticking-time-bombs -> /personality-analysis/sam-parr",
 			"score": 3.85,
 			"target": {
@@ -1373,33 +1346,6 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "…itting on a decision right now? One you have been sitting on for days or weeks? Satya Nadella transformed Microsoft with a consensus-building approach, but he also learned when to stop gathering input and decide. Harmony…"
-		},
-		{
-			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /personality-analysis/ryan-reynolds",
-			"score": 2.94,
-			"target": {
-				"url": "/personality-analysis/ryan-reynolds",
-				"title": "Ryan Reynolds",
-				"kind": "person",
-				"section": "people",
-				"impressions": 17,
-				"clicks": 0,
-				"position": 7.6,
-				"inbound": 0
-			},
-			"source": {
-				"url": "/enneagram-corner/what-enneagram-type-are-most-ceos",
-				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
-				"section": "enneagram-corner",
-				"impressions": 293,
-				"outCount": 85
-			},
-			"line": 134,
-			"anchor": "Ryan Reynolds",
-			"phrase": "Ryan Reynolds",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "…broad on purpose. It holds Jeff Bezos. It also holds Taylor Swift, who runs a very large business, and Ryan Reynolds, who sold a gin brand and a phone company. Counting all 80 as \"CEOs\" would answer a different question."
 		},
 		{
 			"id": "/pop-culture/twitter-x-personality-types-toxic -> /personality-analysis/elon-musk",
@@ -1554,7 +1500,7 @@
 				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
 				"section": "enneagram-corner",
 				"impressions": 293,
-				"outCount": 85
+				"outCount": 87
 			},
 			"line": 350,
 			"anchor": "Scott Galloway",
@@ -1562,33 +1508,6 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "- Type 8: [Kara Swisher](/personality-analysis/kara-swisher), Scott Galloway"
-		},
-		{
-			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/andrew-schulz",
-			"score": 0.61,
-			"target": {
-				"url": "/personality-analysis/andrew-schulz",
-				"title": "Andrew Schulz",
-				"kind": "person",
-				"section": "people",
-				"impressions": 0,
-				"clicks": 0,
-				"position": null,
-				"inbound": 2
-			},
-			"source": {
-				"url": "/pop-culture/podcast-bros-enneagram-analysis",
-				"file": "src/blog/pop-culture/podcast-bros-enneagram-analysis.md",
-				"section": "pop-culture",
-				"impressions": 0,
-				"outCount": 13
-			},
-			"line": 346,
-			"anchor": "Andrew Schulz",
-			"phrase": "Andrew Schulz",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "- **The Second Generation**: A wave of newer hosts—Andrew Schulz, Theo Von, Danny Jones—are building audiences using the infrastructure the original podcast bros created but with different personality types and different…"
 		}
 	],
 	"peopleToPeople": [
@@ -1609,63 +1528,6 @@
 			"line": 283,
 			"anchor": "Hunter Biden",
 			"excerpt": "In July 2025, Channel 5 posted a three-hour interview with Hunter Biden that made national news. Biden tore into George Clooney and the Democrats who pushed his father out, and repeated a claim, which he credited to the writer Michael Wolff, that Jeffrey Epstein introduced Melania to Donald Trump.",
-			"typeClaim": null
-		},
-		{
-			"id": "/personality-analysis/marc-andreessen -> /personality-analysis/geoffrey-hinton",
-			"source": {
-				"url": "/personality-analysis/marc-andreessen",
-				"file": "src/blog/people/drafts/Marc-Andreessen.md",
-				"outCount": 5
-			},
-			"target": {
-				"url": "/personality-analysis/geoffrey-hinton",
-				"name": "Geoffrey Hinton",
-				"inCount": 0,
-				"impressions": 0,
-				"position": null
-			},
-			"line": 329,
-			"anchor": "Geoffrey Hinton",
-			"excerpt": "Geoffrey Hinton resigned from Google in May 2023 specifically to warn about AI risk. He is not a doomer by background. He is the man whose 2012 work made the deep-learning revolution Andreessen now invests in possible. Hinton's argument is that the systems his own students built may, on their current trajectory, become impossible to align with human intent. Yoshua Bengio, who shared the 2018 Turing Award with Hinton, has signed open letters calling for development pauses on frontier systems and has said in interviews that he changed his views and now estimates a non-trivial probability of catastrophic outcomes within a decade. These are not bureaucrats afraid of progress. They are the field's founders, looking at what they built, saying out loud that they may have been wrong about what it would do.",
-			"typeClaim": null
-		},
-		{
-			"id": "/personality-analysis/sam-altman -> /personality-analysis/geoffrey-hinton",
-			"source": {
-				"url": "/personality-analysis/sam-altman",
-				"file": "src/blog/people/drafts/Sam-Altman.md",
-				"outCount": 9
-			},
-			"target": {
-				"url": "/personality-analysis/geoffrey-hinton",
-				"name": "Geoffrey Hinton",
-				"inCount": 0,
-				"impressions": 0,
-				"position": null
-			},
-			"line": 406,
-			"anchor": "Geoffrey Hinton",
-			"excerpt": "Geoffrey Hinton, Stuart Russell, Nobel economists Oliver Hart and Joseph Stiglitz, and dozens of other prominent figures [signed an open letter](https://time.com/7279977/openai-for-profit-letter-elon-musk/) urging state attorneys general to block the conversion. Hinton said in a statement [reported by CNBC](https://www.nbcnewyork.com/news/business/money-report/ex-openai-staffers-urge-states-not-to-approve-chatgpt-makers-restructuring-effort/6236345/): \"I would like them to execute that mission instead of enriching their investors.\" California AG Rob Bonta and Delaware AG Kathy Jennings both opened investigations. The final deal forced OpenAI to grant the nonprofit foundation roughly $130 billion in value, but the safety-first governance was gone.",
-			"typeClaim": null
-		},
-		{
-			"id": "/personality-analysis/ilya-sutskever -> /personality-analysis/geoffrey-hinton",
-			"source": {
-				"url": "/personality-analysis/ilya-sutskever",
-				"file": "src/blog/people/drafts/ilya-sutskever.md",
-				"outCount": 9
-			},
-			"target": {
-				"url": "/personality-analysis/geoffrey-hinton",
-				"name": "Geoffrey Hinton",
-				"inCount": 0,
-				"impressions": 0,
-				"position": null
-			},
-			"line": 176,
-			"anchor": "Geoffrey Hinton",
-			"excerpt": "Geoffrey Hinton tells a story about the first time he met him. A young student knocked on his University of Toronto office door and said he was cooking fries over the summer but would rather be working in Hinton's lab. Make an appointment, Hinton said. \"How about now.\" Hinton handed him the Nature paper on backpropagation. A week later the student came back and said he hadn't understood it, and Hinton was disappointed: \"it's only the chain rule.\" \"Oh no, no, I understood that,\" the student said. \"I just don't understand why you don't give the gradient to a sensible function optimizer,\" a question Hinton says \"took us quite a few years to think about.\" ([Geoffrey Hinton, Sana AI Summit, 2024](https://www.youtube.com/watch?v=4W5askrV-wY))",
 			"typeClaim": null
 		},
 		{
@@ -1704,6 +1566,25 @@
 			"line": 292,
 			"anchor": "Amber Heard",
 			"excerpt": "Bettany co-starred with [Johnny Depp](/personality-analysis/johnny-depp) in _The Tourist_ (2010) and _Mortdecai_ (2015). In 2013, while they were working together and Depp was dating the actor Amber Heard, the two men exchanged texts later read aloud in Depp's 2020 UK libel case against the publisher of The Sun, which had called him a \"wife beater.\" The court dismissed his claim that the label was libelous ([The Independent](https://news.yahoo.com/paul-bettany-johnny-depp-amber-heard-texts-strange-unpleasant-172446766.html), via Yahoo). Depp wrote, \"Let's burn Amber!!!\" Bettany replied, as [Insider](https://news.yahoo.com/paul-bettany-says-embarrassing-texts-111303945.html) printed it, \"Having thought it through I don't think we should burn Amber — she's delightful company and easy on the eye, plus I'm not sure she's a witch. We could of course try the English course of action in these predicaments — we do a drowning test. Thoughts?\"",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/sam-altman -> /personality-analysis/geoffrey-hinton",
+			"source": {
+				"url": "/personality-analysis/sam-altman",
+				"file": "src/blog/people/drafts/Sam-Altman.md",
+				"outCount": 9
+			},
+			"target": {
+				"url": "/personality-analysis/geoffrey-hinton",
+				"name": "Geoffrey Hinton",
+				"inCount": 2,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 406,
+			"anchor": "Geoffrey Hinton",
+			"excerpt": "Geoffrey Hinton, Stuart Russell, Nobel economists Oliver Hart and Joseph Stiglitz, and dozens of other prominent figures [signed an open letter](https://time.com/7279977/openai-for-profit-letter-elon-musk/) urging state attorneys general to block the conversion. Hinton said in a statement [reported by CNBC](https://www.nbcnewyork.com/news/business/money-report/ex-openai-staffers-urge-states-not-to-approve-chatgpt-makers-restructuring-effort/6236345/): \"I would like them to execute that mission instead of enriching their investors.\" California AG Rob Bonta and Delaware AG Kathy Jennings both opened investigations. The final deal forced OpenAI to grant the nonprofit foundation roughly $130 billion in value, but the safety-first governance was gone.",
 			"typeClaim": null
 		}
 	]

@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['historical', 'author', 'historical-scientist']
+type: ['historical', 'author', 'historical-scientist', 'science-writer']
+niche_reviewed: true
 person: 'stephen-hawking'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Albert-Einstein', 'Noam-Chomsky']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_Hawking'

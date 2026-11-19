@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['techie', 'investor']
+type: ['business', 'techie', 'creator', 'investor', 'podcaster', 'startup-advisor']
+niche_reviewed: true
 person: 'jason-calacanis'
 suggestions: ['David-Sacks', 'Chamath-Palihapitiya', 'David-Friedberg', 'Elon-Musk', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jason_Calacanis'

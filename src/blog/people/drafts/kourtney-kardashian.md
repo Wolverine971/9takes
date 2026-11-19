@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['celebrity', 'celebrity-image']
+type: ['tvPersonality', 'entrepreneur', 'reality-tv']
+niche_reviewed: true
 person: 'kourtney-kardashian'
 suggestions: ['kim-kardashian', 'khloe-kardashian', 'kylie-jenner', 'paris-hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Kourtney_Kardashian'

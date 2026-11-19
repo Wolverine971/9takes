@@ -1,6 +1,12 @@
 // scripts/cluster-tags.spec.mjs
 import { describe, expect, it } from 'vitest';
 import matter from 'gray-matter';
+import { readReviewedPersonTypes } from './generate-person-niches.mjs';
+import reviewedTypes from '../src/lib/generated/reviewedPersonTypes.json' with { type: 'json' };
+
+it('ships the reviewed profile tags exactly as authored', () => {
+	expect(reviewedTypes).toEqual(readReviewedPersonTypes());
+});
 import { appendTypeTag } from './add-cluster-tags.mjs';
 import { planClusterTagUpdate } from './push-cluster-tags.mjs';
 

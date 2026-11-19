@@ -12,7 +12,8 @@ enneagram: '9'
 person: 'selena-gomez'
 date: '2026-06-11'
 published: true
-type: ['musician', 'pop-star', 'screen-icon']
+type: ['musician', 'movieStar', 'pop-star', 'screen-icon']
+niche_reviewed: true
 suggestions:
   ['demi-lovato', 'miley-cyrus', 'justin-bieber', 'taylor-swift', 'britney-spears', 'benny-blanco']
 wikipedia: 'https://en.wikipedia.org/wiki/Selena_Gomez'

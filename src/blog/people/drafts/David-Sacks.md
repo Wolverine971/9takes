@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['techie', 'investor']
+type: ['business', 'techie', 'creator', 'investor', 'podcaster', 'big-tech-founder']
+niche_reviewed: true
 person: 'david-sacks'
 suggestions:
   ['Peter-Thiel', 'Elon-Musk', 'Jason-Calacanis', 'Chamath-Palihapitiya', 'David-Friedberg']

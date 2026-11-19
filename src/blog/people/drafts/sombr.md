@@ -16,8 +16,7 @@ enneagram: '3'
 type:
   - musician
   - singer-songwriter
-  - rising-star
-  - celebrity
+niche_reviewed: true
 person: sombr
 suggestions:
   - Taylor-Swift

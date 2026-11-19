@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['techie', 'entrepreneur', 'business-operator']
+type: ['techie', 'entrepreneur', 'big-tech-founder']
+niche_reviewed: true
 person: 'steve-jobs'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Tim-Cook', 'Mark-Zuckerberg', 'Noah-Wyle']
 wikipedia: 'https://en.wikipedia.org/wiki/Steve_Jobs'

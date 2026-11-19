@@ -27,7 +27,7 @@ describe('personalitySimilarity', () => {
 
 		expect(rawMatch.sharedTypes).toEqual(['creator']);
 		expect(rawMatch.score).toBeGreaterThan(categoryMatch.score);
-		expect(categoryMatch.sharedCategories).toEqual(['tech-business']);
+		expect(categoryMatch.sharedCategories).toEqual(['business']);
 	});
 
 	it('ranks same-category founders ahead of unrelated creators', () => {

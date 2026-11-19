@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['author', 'celebrity']
+type: ['politicalFamily', 'author', 'political-family', 'memoirist']
+niche_reviewed: true
 person: 'Hunter-Biden'
 suggestions: ['Joe-Biden', 'Andrew-Callaghan', 'Shawn-Ryan', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Hunter_Biden'

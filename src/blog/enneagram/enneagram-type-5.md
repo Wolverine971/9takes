@@ -244,7 +244,7 @@ So they build one inside their own minds. They discover that while people can in
 
 Not all Fives build the same fortress:
 
-**Self-Preservation Fives** are the extreme minimalists. They reduce needs to reduce vulnerability. Smaller apartment means lower rent means less work required means more time for what matters. They stockpile: books, tools, supplies, knowledge. They calculate precisely how little they need to survive and feel genuinely uncomfortable with excess. Their fortress is literal: a carefully controlled physical space where everything has its place and no one enters uninvited.
+**[Self-Preservation Fives](/enneagram-corner/enneagram-instinctual-subtypes)** are the extreme minimalists. They reduce needs to reduce vulnerability. Smaller apartment means lower rent means less work required means more time for what matters. They stockpile: books, tools, supplies, knowledge. They calculate precisely how little they need to survive and feel genuinely uncomfortable with excess. Their fortress is literal: a carefully controlled physical space where everything has its place and no one enters uninvited.
 
 **Sexual (One-to-One) Fives** are the most confusing variant because they can appear almost un-Five-like in intimate relationships. They seek one person who can know their inner world completely. With that person, they become surprisingly open. Even intense. But the contrast is stark: warmth and disclosure with their chosen person, near-total reserve with everyone else. They are not looking for many connections. They are looking for the one connection that makes all others unnecessary.
 

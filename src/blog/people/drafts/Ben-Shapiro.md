@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '1'
-type: ['celebrity', 'politician', 'celebrity-image', 'campaign-politician']
+type: ['creator', 'journalist', 'author', 'news-commentator', 'podcaster']
+niche_reviewed: true
 person: 'ben-shapiro'
 suggestions: ['Jordan-Peterson', 'Tucker-Carlson', 'Bernie-Sanders', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Ben_Shapiro'

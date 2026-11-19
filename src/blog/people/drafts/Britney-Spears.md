@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
+type: ['musician', 'tvPersonality', 'dance-pop', 'reality-tv']
+niche_reviewed: true
 person: 'britney-spears'
 suggestions: ['Paris-Hilton', 'Demi-Lovato', 'Hilary-Duff', 'Selena-Gomez']
 wikipedia: 'https://en.wikipedia.org/wiki/Britney_Spears'

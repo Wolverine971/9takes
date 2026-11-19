@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['celebrity', 'celebrity-image']
+type: ['tvPersonality', 'entrepreneur', 'reality-tv']
+niche_reviewed: true
 person: 'paris-hilton'
 suggestions: ['Kim-Kardashian', 'Kylie-Jenner', 'Marilyn-Monroe', 'Taylor-Swift', 'Britney-Spears']
 wikipedia: ''

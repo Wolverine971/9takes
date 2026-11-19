@@ -16,9 +16,8 @@
 // fit, so one crowded overlap doesn't bloat every circle.
 
 import { pack, hierarchy } from 'd3';
-import { CLUSTER_FIELDS } from '$lib/personClusterTags.js';
-import { normalizePeopleTypes } from '$lib/personalityCategories';
-import type { TypeHubGroup } from './typeHubGroups';
+import { fieldsForPerson, MORE_GROUP_SLUG, type TypeHubGroup } from './typeHubGroups';
+import { FIELD_LABEL_UNITS, LABEL_ARC_SHARE } from './typeHubVennLabels';
 
 type VennPerson = { slug: string; type?: unknown };
 
@@ -73,51 +72,21 @@ const EDGE_PAD = 12;
 const MAX_EXTRA_RING = FACE_R / 2;
 const ITERATIONS = 900;
 
-const BROAD = new Set(['celebrity']);
-
-function key(value: string): string {
-	return value.replace(/[^a-z0-9]/gi, '').toLowerCase();
-}
-
-/**
- * Every hub field a person's own tags point at, in authored order. 'celebrity' is
- * too broad to make anyone a crossover; 'historical' means History, 'athlete' means
- * Athletes.
- */
-export function fieldsForPerson(person: VennPerson): string[] {
-	const fields: string[] = [];
-	const personKey = key(person.slug);
-	for (const raw of normalizePeopleTypes(person.type)) {
-		const k = key(raw);
-		if (BROAD.has(k)) continue;
-		const field =
-			k === 'athlete'
-				? 'athletes'
-				: k === 'historical'
-					? 'history'
-					: (CLUSTER_FIELDS.find(
-							({ rawTypes, excludeSlugs }) =>
-								rawTypes.some((type) => key(type) === k) &&
-								!excludeSlugs.some((slug) => key(slug) === personKey)
-						)?.field ?? null);
-		if (field && !fields.includes(field)) fields.push(field);
-	}
-	return fields;
-}
-
-/** person slug -> the second shown field they belong in (first in authored order). */
+/** Every other displayed field each person belongs to, in editorial order. */
 export function findCrossovers<T extends VennPerson>(
-	groups: TypeHubGroup<T>[]
-): Map<string, string> {
-	const shown = new Set(groups.map((group) => group.slug).filter((slug) => slug !== 'other'));
-	const crossovers = new Map<string, string>();
+	groups: Pick<TypeHubGroup<T>, 'slug' | 'people'>[]
+): Map<string, string[]> {
+	const shown = new Set(
+		groups.map((group) => group.slug).filter((slug) => slug !== MORE_GROUP_SLUG)
+	);
+	const crossovers = new Map<string, string[]>();
 	for (const group of groups) {
 		if (!shown.has(group.slug)) continue;
 		for (const person of group.people) {
-			const second = fieldsForPerson(person).find(
+			const secondary = fieldsForPerson(person).filter(
 				(field) => field !== group.slug && shown.has(field)
 			);
-			if (second) crossovers.set(person.slug, second);
+			if (secondary.length) crossovers.set(person.slug, secondary);
 		}
 	}
 	return crossovers;
@@ -300,13 +269,19 @@ type GroupLike<T> = Pick<
  */
 export function buildVennLayout<T extends VennPerson>(
 	groups: GroupLike<T>[],
-	shape: VennShape = 'wide'
+	shape: VennShape = 'wide',
+	memberships = findCrossovers(groups)
 ): VennLayout {
 	if (groups.length === 0) {
 		return { width: 0, height: 0, faceR: FACE_R, fields: [], overlaps: [] };
 	}
 
-	const crossovers = findCrossovers(groups as TypeHubGroup<T>[]);
+	// A portrait fits in at most one lens. Packing can drop a pair without
+	// changing the memberships used by the field list.
+	const crossovers = new Map<string, string>();
+	for (const [slug, fields] of memberships) {
+		if (fields.length) crossovers.set(slug, fields[0]);
+	}
 	const homeOf = new Map<string, string>();
 	for (const group of groups)
 		for (const person of group.people) homeOf.set(person.slug, group.slug);
@@ -393,12 +368,8 @@ export function buildVennLayout<T extends VennPerson>(
 	}
 }
 
-/** Label text size on the rim, in layout units (the page can scale it up on phones). */
-export const FIELD_LABEL_UNITS = 15;
 /** What the label grows to on a phone-width tall map, for choosing where it fits. */
 const TALL_LABEL_UNITS = 32;
-/** A rim label shrinks until it covers at most this share of its circle's edge. */
-export const LABEL_ARC_SHARE = 0.3;
 
 // Top first, then working down both sides, then the bottom.
 const LABEL_ANGLES = [

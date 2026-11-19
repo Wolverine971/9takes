@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['techie', 'investor']
+type: ['entrepreneur', 'techie', 'investor', 'startup-advisor']
+niche_reviewed: true
 person: 'dalton-caldwell'
 suggestions: ['Garry-Tan', 'Michael-Seibel', 'Paul-Graham', 'Sam-Altman', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Dalton_Caldwell'

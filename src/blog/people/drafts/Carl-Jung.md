@@ -12,6 +12,7 @@ priority: '0.6'
 published: true
 enneagram: '5'
 type: ['historical', 'author', 'psychology', 'strategy-writer']
+niche_reviewed: true
 person: 'Carl-Jung'
 suggestions: ['Friedrich-Nietzsche', 'Jordan-Peterson', 'Albert-Einstein', 'Nikola-Tesla']
 wikipedia: 'https://en.wikipedia.org/wiki/Carl_Jung'

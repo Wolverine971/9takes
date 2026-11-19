@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
+type: ['musician', 'tvPersonality', 'pop-star', 'reality-tv']
+niche_reviewed: true
 person: 'katy-perry'
 suggestions: ['Justin-Trudeau', 'Doja-Cat', 'Taylor-Swift', 'Alex-Cooper', 'Benson-Boone']
 wikipedia: 'https://en.wikipedia.org/wiki/Katy_Perry'

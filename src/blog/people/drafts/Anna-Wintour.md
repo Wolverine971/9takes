@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '1'
-type: ['celebrity', 'entrepreneur', 'celebrity-image', 'business-operator']
+type: ['fashion', 'journalist', 'business', 'fashion-editor', 'fashion-executive']
+niche_reviewed: true
 person: 'anna-wintour'
 suggestions: ['Bernard-Arnault', 'Blake-Lively', 'Hillary-Clinton', 'Tim-Cook']
 wikipedia: 'https://en.wikipedia.org/wiki/Anna_Wintour'

@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician', 'singer-songwriter']
+type: ['musician', 'rnb-artist']
+niche_reviewed: true
 person: 'sza'
 suggestions: ['Adele', 'Billie-Eilish', 'Olivia-Rodrigo', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/SZA'

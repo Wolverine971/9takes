@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['celebrity', 'celebrity-image']
+type: ['fashion', 'tvPersonality', 'model', 'reality-tv']
+niche_reviewed: true
 person: 'kendall-jenner'
 suggestions: ['Kylie-Jenner', 'Gigi-Hadid', 'Kim-Kardashian', 'Hailey-Bieber', 'Zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Kendall_Jenner'

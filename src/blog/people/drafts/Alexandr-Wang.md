@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['techie', 'entrepreneur', 'frontier-builder']
+type: ['entrepreneur', 'techie', 'business-operator', 'frontier-builder']
+niche_reviewed: true
 person: 'alexandr-wang'
 suggestions: ['Mark-Zuckerberg', 'Sam-Altman', 'Dario-Amodei', 'Palmer-Luckey']
 wikipedia: 'https://en.wikipedia.org/wiki/Alexandr_Wang'

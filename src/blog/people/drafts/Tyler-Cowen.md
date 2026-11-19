@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
-type: ['techie', 'author', 'tech-interpreter']
+type: ['author', 'creator', 'business-interpreter', 'podcaster']
+niche_reviewed: true
 person: 'tyler-cowen'
 suggestions: ['Elon-Musk', 'Lex-Fridman', 'Malcolm-Gladwell', 'Tim-Ferriss']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyler_Cowen'

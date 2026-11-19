@@ -141,7 +141,7 @@ That empire-building pattern becomes more visible in the [Alex Cooper and Alix E
 
 ### Theo Von — Absurdist Storytelling
 
-**Theo Von** channels his Type 7 energy into absurdist storytelling that can turn a painful memory into a Southern Gothic riff. The joke rarely erases the discomfort; it gives him and the audience enough motion to stay with it. His show works through quick association, tonal surprise, and the possibility that an apparently stray story will land on an emotional truth.
+**Theo Von** channels his Type 7 energy into absurdist storytelling that can [turn a painful memory](/pop-culture/comedy-kings-enneagram-analysis) into a Southern Gothic riff. The joke rarely erases the discomfort; it gives him and the audience enough motion to stay with it. His show works through quick association, tonal surprise, and the possibility that an apparently stray story will land on an emotional truth.
 
 ### Dax Shepard — Radical Honesty
 

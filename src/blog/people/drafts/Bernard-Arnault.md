@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['entrepreneur', 'business-operator']
+type: ['fashion', 'business', 'fashion-executive', 'business-operator']
+niche_reviewed: true
 person: 'bernard-arnault'
 suggestions: ['Anna-Wintour', 'Donald-Trump', 'Hailey-Bieber', 'Cristiano-Ronaldo', 'Jennifer-Lopez']
 wikipedia: 'https://en.wikipedia.org/wiki/Bernard_Arnault'

@@ -16,8 +16,11 @@ published: true
 enneagram: '3'
 type:
   - creator
+  - youtuber
   - entrepreneur
-  - business-creator
+  - viral-entertainer
+  - podcaster
+niche_reviewed: true
 person: dhar-mann
 suggestions:
   - mr-beast

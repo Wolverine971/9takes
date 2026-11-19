@@ -1,4 +1,5 @@
 // src/routes/personality-analysis/[slug]/+page.server.ts
+import { getReviewedPersonTypes } from '$lib/reviewedPersonTypes';
 import type { PageServerLoad } from './$types';
 import { dev } from '$app/environment';
 import { error, redirect } from '@sveltejs/kit';
@@ -14,7 +15,7 @@ import {
 	normalizePersonalitySlug
 } from '$lib/utils/personalityAnalysis';
 import {
-	getPersonalityCategorySlugs,
+	getPrimaryPersonalityCategorySlug,
 	getPersonalityCategoryBySlug,
 	normalizePeopleTypes
 } from '$lib/personalityCategories';
@@ -66,7 +67,12 @@ type ChorusQuestionRow = {
 // render-blocking enrichment queries.
 const SIMILARITY_REFRESH_TIMEOUT_MS = 10_000;
 const SIMILARITY_REFRESH_RETRY_MS = 60 * 1000;
-const PERSONALITY_SIMILARITY_SNAPSHOT = personalitySimilaritySnapshot as PersonalitySimilarityRow[];
+function withReviewedTypes(row: PersonalitySimilarityRow): PersonalitySimilarityRow {
+	return { ...row, type: getReviewedPersonTypes(row.person, row.type) };
+}
+const PERSONALITY_SIMILARITY_SNAPSHOT = (
+	personalitySimilaritySnapshot as PersonalitySimilarityRow[]
+).map(withReviewedTypes);
 
 /**
  * Served from Vercel's ISR cache: one stored copy per path, shared by every
@@ -175,12 +181,12 @@ export const load: PageServerLoad = async (event) => {
 	const legacySlug = personData.person ?? requestedSlug;
 	const canonicalSlug = normalizePersonalitySlug(legacySlug);
 
+	const postTypes = getReviewedPersonTypes(canonicalSlug, personData.type);
 	const bridgeLinks = buildPersonalityBridgeLinks({
 		enneagram: personData.enneagram,
-		types: personData.type,
+		types: postTypes,
 		personSlug: canonicalSlug
 	});
-	const postTypes = normalizePeopleTypes(personData.type);
 	const enneagramNum = parseEnneagramNumber(personData.enneagram);
 	const [{ content, placeholders, headings }, relatedPosts, publishedRows, publicChorus] =
 		await Promise.all([
@@ -202,6 +208,7 @@ export const load: PageServerLoad = async (event) => {
 	return {
 		post: {
 			...personData,
+			type: postTypes,
 			// The person's own question, only while it is public. What the page
 			// actually renders (own or proven fallback) is `chorus` below.
 			chorus_question: publicChorus.own.question,
@@ -484,8 +491,7 @@ function buildPersonalityBridgeLinks({
 	}
 
 	const normalizedTypes = normalizePeopleTypes(types);
-	const categorySlugs = getPersonalityCategorySlugs(normalizedTypes, personSlug);
-	const primaryCategorySlug = categorySlugs[0];
+	const primaryCategorySlug = getPrimaryPersonalityCategorySlug(normalizedTypes, personSlug);
 
 	if (primaryCategorySlug) {
 		const category = getPersonalityCategoryBySlug(primaryCategorySlug);
@@ -649,7 +655,7 @@ function refreshPersonalitySimilarityRows(
 					return keepSimilarityRowsAfterFailedRefresh(similarityRowsError);
 				}
 
-				const value = (data ?? []) as PersonalitySimilarityRow[];
+				const value = (data ?? []).map(withReviewedTypes);
 				similarityRowsCache = {
 					value,
 					expiresAt: Date.now() + RELATED_POSTS_CACHE_TTL_MS

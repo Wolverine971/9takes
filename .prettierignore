@@ -36,6 +36,7 @@ src/lib/components/molecules/famousTypes.ts
 src/lib/data/corpus-stats.json
 src/lib/generated/personalityImageSlugMap.json
 src/lib/generated/personalitySimilaritySnapshot.json
+src/lib/generated/reviewedPersonTypes.json
 src/blog/people/drafts
 # Frozen perspective-review evidence must stay byte-identical to the draft the
 # jury read; formatting it silently breaks the snapshot's contract hash.

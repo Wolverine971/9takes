@@ -9,6 +9,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { isClusterTag, getLegacyMusicClusterTag } from '../src/lib/personClusterTags.js';
 
 const DRAFTS_DIR = 'src/blog/people/drafts';
 const DRY_RUN = process.argv.includes('--dry-run');
@@ -115,45 +116,6 @@ const CREATOR_MEDIA_LIFESTYLE_SLUGS = set([
 	'Kylie-Jenner',
 	'Madison-Beer',
 	'Tara-Yummy'
-]);
-
-const MUSIC_POP_STAR_SLUGS = set([
-	'Ariana-Grande',
-	'Beyonce-Knowles',
-	'Billie-Eilish',
-	'Harry-Styles',
-	'Miley-Cyrus',
-	'Olivia-Rodrigo',
-	'Rihanna',
-	'Sabrina-Carpenter',
-	'Taylor-Swift',
-	'Troye-Sivan',
-	'Zayn-Malik'
-]);
-const MUSIC_RAP_GENRE_SLUGS = set([
-	'Bad-Bunny',
-	'Drake',
-	'Doechii',
-	'Doja-Cat',
-	'Eminem',
-	'Post-Malone',
-	'Travis-Scott',
-	'Tyler-The-Creator'
-]);
-const MUSIC_ALTERNATIVE_SLUGS = set(['Chappell-Roan', 'Charli-xcx', 'Grimes', 'Halsey']);
-const MUSIC_SINGER_SONGWRITER_SLUGS = set([
-	'Benson-Boone',
-	'Dolly-Parton',
-	'Hozier',
-	'Jelly-Roll',
-	'John-Mayer'
-]);
-const MUSIC_CROSSOVER_SLUGS = set([
-	'Addison-Rae',
-	'Jack-Black',
-	'Jared-Leto',
-	'Keke-Palmer',
-	'Madison-Beer'
 ]);
 
 const POLITICS_MODERN_LEADERS_SLUGS = set([
@@ -308,45 +270,6 @@ function loadAuthorSlugSets() {
 }
 const AUTHOR_SETS = loadAuthorSlugSets();
 
-// All recognized cluster tags (used to skip already-tagged files)
-const CLUSTER_TAGS = new Set([
-	'screen-icon',
-	'rising-star',
-	'tv-comedy-crossover',
-	'celebrity-image',
-	'podcaster',
-	'news-commentator',
-	'business-creator',
-	'streamer',
-	'viral-entertainer',
-	'lifestyle-builder',
-	'pop-star',
-	'rapper',
-	'alternative-artist',
-	'singer-songwriter',
-	'music-crossover',
-	'modern-leader',
-	'historical-leader',
-	'movement-leader',
-	'royalty',
-	'political-spouse',
-	'campaign-politician',
-	'historical-scientist',
-	'historical-artist',
-	'big-tech-founder',
-	'investor',
-	'frontier-builder',
-	'business-operator',
-	'tech-interpreter',
-	'stand-up',
-	'sketch-comic',
-	'satire-host',
-	'internet-comic',
-	'novelist',
-	'strategy-writer',
-	'business-interpreter'
-]);
-
 function deriveClusterTags(slug, types) {
 	const s = slug;
 	const out = [];
@@ -386,19 +309,9 @@ function deriveClusterTags(slug, types) {
 			out.push('lifestyle-builder');
 	}
 
-	// music
 	if (has(types, 'musician')) {
-		if (inSet(MUSIC_POP_STAR_SLUGS, s)) out.push('pop-star');
-		else if (inSet(MUSIC_RAP_GENRE_SLUGS, s)) out.push('rapper');
-		else if (inSet(MUSIC_ALTERNATIVE_SLUGS, s)) out.push('alternative-artist');
-		else if (inSet(MUSIC_SINGER_SONGWRITER_SLUGS, s)) out.push('singer-songwriter');
-		else if (
-			inSet(MUSIC_CROSSOVER_SLUGS, s) ||
-			has(types, 'creator') ||
-			has(types, 'celebrity') ||
-			has(types, 'lifestyleInfluencer')
-		)
-			out.push('music-crossover');
+		const musicTag = getLegacyMusicClusterTag(slug);
+		if (musicTag) out.push(musicTag);
 	}
 
 	// politics-public
@@ -469,7 +382,7 @@ for (const file of files) {
 		.map((s) => s.trim().replace(/['"]/g, ''))
 		.filter(Boolean);
 
-	if (types.some((t) => CLUSTER_TAGS.has(t))) {
+	if (types.some(isClusterTag)) {
 		skipped++;
 		continue;
 	}

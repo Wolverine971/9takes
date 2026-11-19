@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
-type: ['celebrity', 'author', 'celebrity-image']
+type: ['tvPersonality', 'author', 'tv-host', 'memoirist']
+niche_reviewed: true
 person: 'anthony-bourdain'
 suggestions: ['Theo-Von', 'Kevin-Hart', 'Andrew-Callaghan', 'Robin-Williams']
 wikipedia: 'https://en.wikipedia.org/wiki/Anthony_Bourdain'

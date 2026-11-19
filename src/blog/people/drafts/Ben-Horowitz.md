@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['techie', 'entrepreneur', 'author', 'business-operator']
+type: ['business', 'techie', 'author', 'investor', 'big-tech-founder']
+niche_reviewed: true
 person: 'ben-horowitz'
 suggestions: ['Marc-Andreessen', 'Peter-Thiel', 'Paul-Graham', 'Reid-Hoffman']
 wikipedia: 'https://en.wikipedia.org/wiki/Ben_Horowitz'

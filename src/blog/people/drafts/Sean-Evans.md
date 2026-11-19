@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['creator', 'viral-entertainer']
+type: ['creator', 'youtuber', 'podcaster']
+niche_reviewed: true
 person: 'sean-evans'
 suggestions: ['Keke-Palmer', 'Conan-OBrien', 'Amelia-Dimoldenberg', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Sean_Evans_(interviewer)'

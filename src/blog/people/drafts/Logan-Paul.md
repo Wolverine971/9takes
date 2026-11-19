@@ -11,7 +11,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator', 'viral-entertainer']
+type: ['creator', 'youtuber', 'entrepreneur', 'viral-entertainer', 'podcaster']
+niche_reviewed: true
 person: 'logan-paul'
 suggestions: ['Jake-Paul', 'Kai-Cenat', 'IShowSpeed', 'Mr-Beast']
 wikipedia: 'https://en.wikipedia.org/wiki/Logan_Paul'
