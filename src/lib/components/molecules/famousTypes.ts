@@ -304,6 +304,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'olivia-munn', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Counterphobic Sentinel', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'paapa-essiedu', link: true, hasImage: true, lastmod: '2026-10-27', personaTitle: 'The Actor Who Kept Expecting to Be Found Out', contentGrade: 8.6, types: ['movieStar', 'celebrity', 'rising-star'] },
 		{ name: 'patrick-mahomes', link: true, hasImage: true, lastmod: '2026-09-08', personaTitle: 'Football\'s Prepared Improviser', contentGrade: 8.6, types: ['celebrity', 'athlete'] },
+		{ name: 'paul-bettany', link: true, hasImage: true, lastmod: '2026-11-19', personaTitle: 'The Actor Who Boards Up the Windows', contentGrade: 8.5, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'pedro-pascal', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Hollywood\'s Anxious Guardian', contentGrade: 9.4, types: ['movieStar', 'screen-icon'] },
 		{ name: 'penelope-cruz', link: true, hasImage: true, lastmod: '2026-06-02', personaTitle: 'Cinema\'s Trembling Loyalist', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'peter-thiel', link: true, hasImage: true, lastmod: '2026-03-02', personaTitle: 'Silicon Valley\'s Vigilant Contrarian', contentGrade: 9.7, types: ['techie', 'investor'] },

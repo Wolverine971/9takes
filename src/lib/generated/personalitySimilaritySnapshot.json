@@ -340,6 +340,7 @@
 	{"person":"paris-hilton","enneagram":"3","lastmod":"2026-02-19","date":null,"type":["celebrity","celebrity-image"],"published":true,"content_quality":{"overall":9}},
 	{"person":"patrick-bet-david","enneagram":"3","lastmod":"2026-04-07","date":null,"type":["creator","entrepreneur","business-creator","business-operator"],"published":true,"content_quality":{"overall":8.9}},
 	{"person":"patrick-mahomes","enneagram":"6","lastmod":"2026-09-08","date":null,"type":["celebrity","athlete"],"published":true,"content_quality":{"overall":8.6}},
+	{"person":"paul-bettany","enneagram":"6","lastmod":"2026-11-19","date":null,"type":["movieStar","celebrity","screen-icon"],"published":true,"content_quality":{"overall":8.5}},
 	{"person":"paul-graham","enneagram":"7","lastmod":"2026-02-20","date":null,"type":["techie","investor"],"published":true,"content_quality":{"overall":8.7}},
 	{"person":"paul-mescal","enneagram":"4","lastmod":"2026-05-02","date":null,"type":["movieStar","newMovieStar","rising-star"],"published":true,"content_quality":{"overall":8.9}},
 	{"person":"paul-rudd","enneagram":"9","lastmod":"2026-01-23","date":null,"type":["movieStar","screen-icon"],"published":true,"content_quality":{"overall":7.8}},

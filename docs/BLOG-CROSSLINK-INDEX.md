@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-11-18 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
+_Generated: 2026-11-19 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
 _Search data: GSC 2026-08-10 → 2026-11-08 (pulled 2026-11-10)_
 
 **Scope.** Link counts cover **live posts only**: files a route actually serves with `published: true`
@@ -19,7 +19,7 @@ Link ideas to act on: [`docs/crosslinks/link-opportunities.md`](crosslinks/link-
 | Metric | Count |
 |---|---|
 | Live blog posts | 150 (+ 9 type pages) |
-| Published people pages | 468 |
+| Published people pages | 469 |
 | Completely isolated (0 in, 0 out) | 0 |
 | 0 incoming | 0 |
 | 0 outgoing | 0 |
@@ -100,7 +100,7 @@ Live posts with 3 or fewer outgoing links, sorted by impressions. Readers land h
 People pages by search impressions and how many **blog posts** link to them in prose
 (the FamousTypes block on type pages and the `/personality-analysis/categories/*` listings link
 nearly every person, but those are not contextual links).
-214 of 468 people pages have at least one blog link.
+214 of 469 people pages have at least one blog link.
 
 | Person | Impressions | Clicks | Position | Blog links in | People links in |
 |---|---|---|---|---|---|
@@ -133,7 +133,7 @@ nearly every person, but those are not contextual links).
 ## People pages that need links
 
 A people page "needs links" with 2 or fewer contextual links in (blog posts + other people pages).
-**205 of 468** people pages need links; 64 have none.
+**206 of 469** people pages need links; 65 have none.
 Unlinked mentions on other people pages are queued in `link-opportunities.md` §4.
 
 | Person | Impressions | Position | Blog links in | People links in |
@@ -173,12 +173,12 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 | 213 | 17 | 1,870 | `/enneagram-corner/enneagram-types-in-stress` |
 | 195 | 41 | 7,552 | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 165 | 16 | 13,556 | `/enneagram-corner/enneagram-instinctual-subtypes` |
-| 159 | 15 | 2,678 | `/enneagram-corner/enneagram-type-3` |
-| 144 | 26 | 1,531 | `/enneagram-corner/enneagram-type-6` |
+| 160 | 15 | 2,678 | `/enneagram-corner/enneagram-type-3` |
+| 145 | 26 | 1,531 | `/enneagram-corner/enneagram-type-6` |
 | 140 | 12 | 422 | `/enneagram-corner/enneagram-type-7` |
-| 136 | 16 | 2,356 | `/enneagram-corner/enneagram-type-4` |
+| 137 | 16 | 2,356 | `/enneagram-corner/enneagram-type-4` |
 | 132 | 18 | 2,547 | `/enneagram-corner/enneagram-type-9` |
-| 128 | 13 | 1,895 | `/enneagram-corner/enneagram-type-5` |
+| 129 | 13 | 1,895 | `/enneagram-corner/enneagram-type-5` |
 | 123 | 14 | 883 | `/enneagram-corner/enneagram-type-8` |
 | 109 | 13 | 365 | `/enneagram-corner/enneagram-type-1` |
 | 106 | 16 | 951 | `/enneagram-corner/enneagram-type-2` |
@@ -279,20 +279,20 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 3,919 | 7.1 | 21 (21/0) | 21 (21/0) | How Each Enneagram Type Manipulates (And How to Spot It) | `/enneagram-corner/how-each-enneagram-type-manipulates` |
 | 3,473 | 36.5 | 24 (24/0) | 40 (40/0) | What's My Enneagram Type? (The 5-Minute Answer You Actually Need) | `/enneagram-corner/enneagram-tldr` |
 | 2,848 | 10.6 | 7 (7/0) | 4 (4/0) | Best Free Enneagram Tests (2026): An Honest Comparison | `/enneagram-corner/enneagram-test-comparison-2026` |
-| 2,678 | 27.0 | 159 (55/104) | 15 (15/0) | Enneagram Type 3: Achiever - Success Becomes Identity | `/enneagram-corner/enneagram-type-3` |
+| 2,678 | 27.0 | 160 (55/105) | 15 (15/0) | Enneagram Type 3: Achiever - Success Becomes Identity | `/enneagram-corner/enneagram-type-3` |
 | 2,675 | 7.1 | 5 (5/0) | 13 (13/0) | Which Enneagram Type Is Most Likely to Be a Narcissist? (Every Type H… | `/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist` |
 | 2,547 | 33.0 | 132 (55/77) | 18 (18/0) | Enneagram Type 9: Peacemaker - Finding Your Voice | `/enneagram-corner/enneagram-type-9` |
 | 2,507 | 8.5 | 4 (4/0) | 20 (20/0) | Your Enneagram Guide to Toxic Traits in a Relationship (and the Early… | `/enneagram-corner/toxic-traits-relationships-warning-signs` |
 | 2,496 | 9.2 | 19 (19/0) | 6 (6/0) | Is the Enneagram Scientifically Valid? What Research Says | `/enneagram-corner/mental-health/enneagram-science-mental-health` |
-| 2,356 | 38.7 | 136 (50/86) | 16 (16/0) | Enneagram Type 4: Individualist - The Missing Piece | `/enneagram-corner/enneagram-type-4` |
+| 2,356 | 38.7 | 137 (50/87) | 16 (16/0) | Enneagram Type 4: Individualist - The Missing Piece | `/enneagram-corner/enneagram-type-4` |
 | 2,257 | 31.3 | 63 (51/12) | 25 (25/0) | Relationship Communication Guide: The Enneagram Key | `/enneagram-corner/relationship-communication-guide` |
 | 2,066 | 12.6 | 9 (8/1) | 13 (13/0) | Enneagram Careers: Find the Working Conditions That Fit You | `/enneagram-corner/enneagram-types-and-career-choices` |
 | 2,034 | 8.5 | 15 (15/0) | 6 (6/0) | The Enneagram's Place in Personality Science: An Honest Audit | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` |
-| 1,895 | 11.8 | 128 (55/73) | 13 (13/0) | Enneagram Type 5: Observer - Inside the Fortress Mind | `/enneagram-corner/enneagram-type-5` |
+| 1,895 | 11.8 | 129 (55/74) | 13 (13/0) | Enneagram Type 5: Observer - Inside the Fortress Mind | `/enneagram-corner/enneagram-type-5` |
 | 1,892 | 8.1 | 12 (7/5) | 15 (15/0) | Enneagram and Addiction: Why Each Type Self-Medicates Differently | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` |
 | 1,870 | 18.2 | 213 (71/142) | 17 (17/0) | Enneagram Types in Stress: Stress Points, Arrows, and the Loop Undern… | `/enneagram-corner/enneagram-types-in-stress` |
 | 1,560 | 11.1 | 30 (15/15) | 9 (9/0) | Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety P… | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` |
-| 1,531 | 51.9 | 144 (52/92) | 26 (15/11) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
+| 1,531 | 51.9 | 145 (52/93) | 26 (15/11) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
 | 1,472 | 51.6 | 5 (5/0) | 19 (19/0) | The 9 Coworker Types: Each Enneagram as Boss, Peer, Report | `/enneagram-corner/enneagram-types-working-in-teams` |
 | 1,462 | 23.7 | 4 (4/0) | 3 (3/0) | Is the Enneagram Religious? (The Truth About Its Spiritual Origins) | `/enneagram-corner/enneagram-and-religion` |
 | 1,404 | 6.7 | 26 (26/0) | 17 (17/0) | Why They Ghosted You (Based on Their Enneagram Type) | `/enneagram-corner/enneagram-types-being-ghosted` |

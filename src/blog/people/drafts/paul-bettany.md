@@ -6,12 +6,12 @@ description: >-
   Paul Bettany calls life "precarious" and spent years earning against it. Why
   his choices read as Enneagram Type 6, with Type 4 a close rival.
 author: DJ Wayne
-date: '2026-10-30'
+date: '2026-11-19'
 loc: 'https://9takes.com/personality-analysis/paul-bettany'
-lastmod: '2026-10-30'
+lastmod: '2026-11-19'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type:
   - movieStar

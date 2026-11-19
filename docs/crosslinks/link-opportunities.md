@@ -1,6 +1,6 @@
 # Link Opportunities
 
-_Generated: 2026-11-18 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Generated: 2026-11-19 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
 _Search data: GSC 2026-08-10 → 2026-11-08. 148 candidate links found (+120 weaker ones offered only for gate debt); 329 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
@@ -84,7 +84,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-5 unlinked mentions found; top 5 after caps.
+6 unlinked mentions found; top 6 after caps.
 
 | Target (in, impressions) | Source (line) | Anchor | Sentence |
 |---|---|---|---|
@@ -93,3 +93,4 @@ These pages live in the database: edit the draft, then sync (see `/crosslink-que
 | `/personality-analysis/geoffrey-hinton` (0, 0) | `src/blog/people/drafts/Sam-Altman.md` (L406) | "Geoffrey Hinton" | Geoffrey Hinton, Stuart Russell, Nobel economists Oliver Hart and Joseph Stiglitz, and dozens of other prominent figures [signed an open le… |
 | `/personality-analysis/geoffrey-hinton` (0, 0) | `src/blog/people/drafts/ilya-sutskever.md` (L176) | "Geoffrey Hinton" | Geoffrey Hinton tells a story about the first time he met him. A young student knocked on his University of Toronto office door and said he… |
 | `/personality-analysis/clavicular` (1, 1,705) | `src/blog/people/drafts/Andrew-Callaghan.md` (L293) | "Clavicular" | In March 2026 came a clip that showed his limits. On a Kick livestream, the looksmaxxing streamer Clavicular asked whether he was satisfied… |
+| `/personality-analysis/amber-heard` (1, 537) | `src/blog/people/drafts/paul-bettany.md` (L292) | "Amber Heard" | Bettany co-starred with [Johnny Depp](/personality-analysis/johnny-depp) in _The Tourist_ (2010) and _Mortdecai_ (2015). In 2013, while the… |

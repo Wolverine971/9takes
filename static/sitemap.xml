@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -950,7 +950,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/aaron-pierre</loc>
@@ -1500,7 +1500,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -3372,6 +3372,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/paul-bettany</loc>
+    <lastmod>2026-11-19</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/paul-bettany.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/paul-graham</loc>
     <lastmod>2026-02-20</lastmod>
     <image:image>
@@ -4154,35 +4161,35 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/victoria-justice</loc>
@@ -4541,7 +4548,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/advice-18-year-old-wants-go-college-doesnt-know-wants</loc>
@@ -4758,6 +4765,10 @@
   <url>
     <loc>https://9takes.com/questions/what-did-your-face-do-the-last-time-a-friend</loc>
     <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/what-did-your-face-do-when-a-coworker-repeated-your</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/what-do-people-get-wrong-about-you-when-they-first-meet-you</loc>

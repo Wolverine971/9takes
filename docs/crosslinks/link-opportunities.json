@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-11-18",
+	"generatedAt": "2026-11-19",
 	"gsc": {
 		"runDate": "2026-11-10",
 		"window": {
@@ -17,7 +17,7 @@
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 18,
-		"peopleToPeople": 5,
+		"peopleToPeople": 6,
 		"skipped": 329
 	},
 	"gateDebt": [],
@@ -1685,6 +1685,25 @@
 			"line": 293,
 			"anchor": "Clavicular",
 			"excerpt": "In March 2026 came a clip that showed his limits. On a Kick livestream, the looksmaxxing streamer Clavicular asked whether he was satisfied with everything he saw in the mirror. \"Yeah, more or less,\" Callaghan said. Clavicular ended the interview. Callaghan's text afterward: \"I low key mogged him.\"",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/paul-bettany -> /personality-analysis/amber-heard",
+			"source": {
+				"url": "/personality-analysis/paul-bettany",
+				"file": "src/blog/people/drafts/paul-bettany.md",
+				"outCount": 6
+			},
+			"target": {
+				"url": "/personality-analysis/amber-heard",
+				"name": "Amber Heard",
+				"inCount": 1,
+				"impressions": 537,
+				"position": 9.4
+			},
+			"line": 292,
+			"anchor": "Amber Heard",
+			"excerpt": "Bettany co-starred with [Johnny Depp](/personality-analysis/johnny-depp) in _The Tourist_ (2010) and _Mortdecai_ (2015). In 2013, while they were working together and Depp was dating the actor Amber Heard, the two men exchanged texts later read aloud in Depp's 2020 UK libel case against the publisher of The Sun, which had called him a \"wife beater.\" The court dismissed his claim that the label was libelous ([The Independent](https://news.yahoo.com/paul-bettany-johnny-depp-amber-heard-texts-strange-unpleasant-172446766.html), via Yahoo). Depp wrote, \"Let's burn Amber!!!\" Bettany replied, as [Insider](https://news.yahoo.com/paul-bettany-says-embarrassing-texts-111303945.html) printed it, \"Having thought it through I don't think we should burn Amber — she's delightful company and easy on the eye, plus I'm not sure she's a witch. We could of course try the English course of action in these predicaments — we do a drowning test. Thoughts?\"",
 			"typeClaim": null
 		}
 	]
