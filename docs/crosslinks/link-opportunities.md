@@ -84,10 +84,12 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-3 unlinked mentions found; top 3 after caps.
+5 unlinked mentions found; top 5 after caps.
 
 | Target (in, impressions) | Source (line) | Anchor | Sentence |
 |---|---|---|---|
+| `/personality-analysis/hunter-biden` (0, 14) | `src/blog/people/drafts/Andrew-Callaghan.md` (L283) | "Hunter Biden" | In July 2025, Channel 5 posted a three-hour interview with Hunter Biden that made national news. Biden tore into George Clooney and the Dem… |
 | `/personality-analysis/geoffrey-hinton` (0, 0) | `src/blog/people/drafts/Marc-Andreessen.md` (L329) | "Geoffrey Hinton" | Geoffrey Hinton resigned from Google in May 2023 specifically to warn about AI risk. He is not a doomer by background. He is the man whose … |
 | `/personality-analysis/geoffrey-hinton` (0, 0) | `src/blog/people/drafts/Sam-Altman.md` (L406) | "Geoffrey Hinton" | Geoffrey Hinton, Stuart Russell, Nobel economists Oliver Hart and Joseph Stiglitz, and dozens of other prominent figures [signed an open le… |
 | `/personality-analysis/geoffrey-hinton` (0, 0) | `src/blog/people/drafts/ilya-sutskever.md` (L176) | "Geoffrey Hinton" | Geoffrey Hinton tells a story about the first time he met him. A young student knocked on his University of Toronto office door and said he… |
+| `/personality-analysis/clavicular` (1, 1,705) | `src/blog/people/drafts/Andrew-Callaghan.md` (L293) | "Clavicular" | In March 2026 came a clip that showed his limits. On a Kick livestream, the looksmaxxing streamer Clavicular asked whether he was satisfied… |

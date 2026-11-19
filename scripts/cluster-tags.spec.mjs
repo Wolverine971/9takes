@@ -50,4 +50,23 @@ describe('planClusterTagUpdate', () => {
 		).toBeNull();
 		expect(planClusterTagUpdate(['musician', 'rapper'], ['musician', 'pop-star'])).toBeNull();
 	});
+
+	it('takes added field types only when --allow-add names them', () => {
+		const allow = new Set(['athlete']);
+		expect(
+			planClusterTagUpdate(
+				['celebrity', 'celebrity-image'],
+				['celebrity', 'athlete', 'celebrity-image'],
+				allow
+			)
+		).toEqual(['celebrity', 'athlete', 'celebrity-image']);
+		// Other added field types, dropped or reordered live entries still block.
+		expect(planClusterTagUpdate(['creator'], ['creator', 'musician', 'athlete'], allow)).toBeNull();
+		expect(
+			planClusterTagUpdate(['creator', 'celebrity'], ['athlete', 'creator'], allow)
+		).toBeNull();
+		expect(
+			planClusterTagUpdate(['movieStar', 'celebrity'], ['celebrity', 'movieStar', 'athlete'], allow)
+		).toBeNull();
+	});
 });

@@ -1,6 +1,6 @@
 ---
 title: 'Leonardo DiCaprio: The Fear Behind the Freedom'
-meta_title: "Inside Leonardo DiCaprio's Mind: The Fear Behind the Freedom"
+meta_title: 'Leonardo DiCaprio Enneagram Type 7: Fear Behind the Freedom'
 persona_title: "Hollywood's Restless Escape Artist"
 description: 'Leonardo DiCaprio grew up staring at a painting of paradise and ruin. His Type 7 personality explains why freedom, not fame, drives everything he does.'
 author: 'DJ Wayne'
@@ -49,275 +49,310 @@ citations:
   - 'https://en.wikipedia.org/wiki/Leonardo_DiCaprio'
   - 'https://www.wikidata.org/wiki/Q38111'
   - 'https://www.imdb.com/name/nm0000138/'
+  - 'https://www.hellomagazine.com/celebrities/871864/leonardo-dicaprio-addresses-reason-behind-covering-face-in-public'
+  - 'https://www.avclub.com/leonardo-dicaprio-paul-thomas-anderson-interview-each-other-32'
+  - 'https://au.variety.com/2025/film/features/leonardo-dicaprio-jennifer-lawrence-titanic-scorsese-31211'
+  - 'https://au.variety.com/2025/film/news/leonardo-dicaprio-regrets-boogie-nights-offer-26437'
+  - 'https://gulfnews.com/entertainment/oscars-2026-full-winners-list-one-battle-after-another-sweeps-the-night-michael-b-jordan-takes-best-actor-1.500475761'
+  - 'https://www.hellomagazine.com/celebrities/889633/leonardo-dicaprio-and-model-girlfriend-make-couple-debut-at-the-oscars-2026/'
+  - 'https://www.hola.com/us/celebrities/20260226886420/vittoria-ceretti-leonardo-dicaprio-mom-museum-day-london/'
+  - 'https://www.gq.com/story/leonardo-dicaprio-revolutionary-road-kate-winslet'
+  - 'https://www.looper.com/966239/the-worst-things-leonardo-dicaprio-has-done-for-his-roles'
+  - 'https://faroutmagazine.co.uk/leonardo-dicaprio-movie-role-stayed-the-most/'
+  - 'https://wtop.com/news/2015/12/thrill-seeker-leonardo-dicaprio-has-nine-lives-and-already-used-a-few'
+  - 'https://www.hola.com/us/celebrities/oscars/2016021716734/leonardo-dicaprio-family-plans'
+  - 'https://www.foxnews.com/world/brazil-president-rips-leonardo-dicaprio-amazon-deforestation-tweet-yacht-lecturing'
 faqs:
   - question: "What is Leonardo DiCaprio's personality type?"
-    answer: "Leonardo DiCaprio is an Enneagram Type 7 (The Enthusiast). The pattern shows in his refusal of every franchise — Batman, Spider-Man, Star Wars — to protect his freedom of movement, his deliberate disappearance after Titanic made him the most famous person on earth, the near-death adventures that earned him friends' vote as 'the person they least want to do extreme adventures with,' and his own admission: 'I don't have emotions about a lot of things... I guess I do get excited a lot.'"
+    answer: "Leonardo DiCaprio is an Enneagram Type 7, the Enthusiast. Sevens live in the head triad, where the core emotion is fear, and they manage it by staying in motion. The pattern shows in his reported refusals of Batman, Spider-Man and Star Wars, his deliberate disappearance after Titanic, near-death adventures that led friends to call him the person they least want to do extreme adventures with, and his own rule from 2025: 'just disappear as much as you possibly can.'"
     anchor: 'what-is-leonardo-dicaprios-personality-type'
   - question: 'Why did Leonardo DiCaprio turn down Spider-Man and other franchises?'
-    answer: "He turned down Batman, Spider-Man, and Star Wars, each time saying 'I didn't feel ready,' and chose Gangs of New York with Scorsese over Spider-Man — then recommended his friend Tobey Maguire for the role instead. The through-line isn't quality but freedom: multi-picture deals lock an actor in, and every career decision DiCaprio makes protects his ability to move."
+    answer: "He reportedly passed on Batman, Spider-Man and Star Wars, chose Gangs of New York with Scorsese over Spider-Man, and his friend Tobey Maguire got the role. The through-line is freedom. Multi-picture deals lock an actor in, and DiCaprio's career decisions keep protecting his ability to move."
     anchor: 'why-leonardo-dicaprio-turned-down-every-franchise'
   - question: 'Does Leonardo DiCaprio have OCD?'
-    answer: "Yes — he was diagnosed with obsessive-compulsive disorder as a child, with compulsions like stepping on sidewalk cracks and walking through doorways multiple times. 'Sometimes it took me 10 minutes to get to the set because I'd be pacing back and forth, stepping on gum stains,' he has said, describing how he'd talk himself down: 'OK, you're being ridiculous. Nothing bad is going to happen.'"
+    answer: "His own accounts conflict. During The Aviator press in 2004 he described childhood compulsions like stepping on cracks and walking back a block to step on the same one. In 2008 he told GQ: 'I never actually had OCD. I know I did say that at some point, but I didn't.' He has said playing Howard Hughes brought the habits back for months, and that Hughes stayed with him longer than any other role."
     anchor: 'does-leonardo-dicaprio-have-ocd'
   - question: 'Why does Leonardo DiCaprio only date younger women?'
-    answer: "He has never publicly addressed the pattern, though the data is public: Gisele Bündchen, Bar Refaeli, Toni Garrn, and Camila Morrone all began dating him around age 20, and nearly every relationship ended as the woman approached her mid-twenties. The analysis maps it to the Type 7 fear of limitation — each new relationship is a clean slate, each ending prevents being locked in. His current partner, Vittoria Ceretti, is the oldest known partner he's dated."
+    answer: "He has never publicly addressed the pattern. Gisele Bündchen, Bar Refaeli, Toni Garrn and Camila Morrone all began dating him around age 20, and most of those relationships ended before the woman turned 26. The analysis maps it to the Type 7 fear of being locked in. The pattern has since bent: he has been with model Vittoria Ceretti, born in 1998, since 2023, and in March 2026 he brought her to the Oscars, the first time he has attended an awards show with a partner."
     anchor: 'emotionally-thirty-two'
+  - question: 'Did Leonardo DiCaprio win an Oscar for One Battle After Another?'
+    answer: "No. DiCaprio was nominated for Best Actor at the 2026 Academy Awards for playing Bob Ferguson, a burned-out former revolutionary raising a teenage daughter, and lost to Michael B. Jordan for Sinners. The film won Best Picture, one of its six Oscars. His only acting Oscar remains The Revenant (2016)."
+    anchor: 'one-battle-after-another'
   - question: "Is Leonardo DiCaprio's environmental activism contradictory?"
-    answer: "Both sides of the contradiction are real. His foundation has distributed over $100 million across 46 countries, and researchers at San Diego State found his 2016 Oscar climate speech produced the largest measured increase in public climate engagement ever recorded. He has also taken six roundtrip private jet flights in six weeks and chartered a mega-yacht from a UAE oil tycoon — prompting Brazil's president Bolsonaro to tell him to give up the yacht before lecturing the world."
+    answer: "Both sides of the contradiction are real. His foundation has distributed over $100 million across 46 countries, and San Diego State researchers found his 2016 Oscar climate speech produced the largest spike in online climate engagement they had measured. He has also taken six private jet trips in six weeks and vacationed on a superyacht, which prompted Brazil's president Jair Bolsonaro to tell him in 2022 to give up his yacht before lecturing the world."
     anchor: 'the-third-panel'
 twitter: ''
 instagram: 'leonardodicaprio'
 tiktok: ''
 path: src/blog/people/drafts/Leonardo-DiCaprio.md
-content_quality:
-  hook: 9
-  enneagram: 9
-  evidence: 9
-  writing: 9
-  originality: 9
-  overall: 9.0
-  letter: A
-  graded_at: '2026-02-19'
 ---
 
-<!-- QUALITY GRADE: A (9.0)
-Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+<!-- REFRESH LEDGER 2026-11-18
+Trigger: DJ read the live page against a fan's expectations (session 2026-11-18). Page stopped at 2023; missed 2025-26 run; factual errors; no rival-type section.
+Baseline: 4,475 words (lint body count) -> 4,148
 
-FEEDBACK (2026-02-19):
-- The Bosch painting hook is one of the best in the collection. A triptych of paradise, excess, and ruin hung above an infant's crib — and the man grows up to alternate between Hollywood excess and climate activism while processing a childhood on a drug-dealer corner. The metaphor drives the entire piece and the ending returns to it: "Every garden has a third panel."
-- The Type 7 analysis is deeply structural: franchise refusals as freedom-protection, OCD as the stress arrow to Type 1, growth toward Type 5 through the Scorsese "cinema education." The piece explains something genuinely non-obvious: why the most expressive actor alive says "I don't have emotions about a lot of things." The Seven's operating system — excitement as the acceptable channel — cracks open the paradox.
-- Evidence is exceptional: Rolling Stone, Esquire, Wired, Interview Magazine, Newsweek, USA Weekend. Collaborator testimony from Cameron, Scorsese, Winslet, Robbie, Hallström, Iñárritu, De Niro, P.T. Anderson. Specific details: raw bison liver, crushed glass standing ovation, shark in diving cage, both parachutes failing, "Lenny Williams" headshot torn up.
-- Prose is some of the best in the collection. "He was five years old when a man in a trenchcoat, carrying needles and crack, cornered him on the street." "The name stayed Leonardo DiCaprio." "A Seven doesn't stop because the danger got real. He stops when the experience gets boring."
-- The dating pattern section handles sensitive material with analytical precision rather than gossip — mapping it cleanly to Type 7 fear of limitation without moralizing.
-- TO REACH A+: (1) The counter-typing could be slightly more explicit — a brief "isn't he a 3?" paragraph would strengthen the typing defense, since mega-successful actors are often assumed to be Threes. (2) The "Prince of the City" nightclub section is interesting but could be tighter — it's the one section that drifts slightly from the psychological thesis.
+ADMITTED
+  T1 One Battle After Another (Sept 2025; Best Picture 2026; DiCaprio nominated Best Actor, lost to Michael B. Jordan). First father role, from a man who asked in 2016 "do I want to bring children into a world like this?" New closing section.
+  T1 Vittoria Ceretti at the 2026 Oscars (first partner at an awards show) + Feb 2026 London gallery outing with his mother. Breaks the dating pattern the page used as Type 7 evidence; the section now reads it as movement.
+  T1 GQ 2008 "I never actually had OCD" retraction. The page asserted a childhood diagnosis; corrected and the stress-arrow argument rebuilt on observed behavior plus the Aviator account.
+  T2 TIME Entertainer of the Year (Dec 2025) quotes: now the epigraph and the disappearance bullet, dated.
+  T2 Esquire Aug 2025 "Thirty-two" answer: kept, sourced via AV Club; dropped the unverified PTA reply line.
+  T2 Boogie Nights regret (Esquire 2025): a clause in the One Battle section.
+  T2 Catch Me If You Can, The Aviator, OUATIH, Don't Look Up, Gatsby, Revolutionary Road: clauses/short passages where the argument needs them.
+
+REJECTED
+  T3 Oscars red-carpet coverage, award-season gossip, Jennifer Lawrence "teenage daughter" joke read as shade (kept only her plain "I really loved seeing you be a dad" line).
+
+CUT / CORRECTED
+  Epigraph "I've always been wild..." (no traceable source)
+  "I don't have emotions about a lot of things..." (only source is a quote aggregator, popmonk via Wikiquote; no outlet or year)
+  Guardian "almost no hint of his actual personality" (could not find the article)
+  "Anderson's response: your emotional maturity is 32" (not in the AV Club transcript excerpt)
+  "I undoubtedly agreed that we have to practice what we preach" as a reply to Bolsonaro (no DiCaprio reply found)
+  "Not once ... has he played a romantic lead" (false: Revolutionary Road, The Great Gatsby)
+  "Seven films" with Scorsese -> six features plus the 2015 short The Audition
+  Titanic fame at "twenty-two" -> 23
+  Prince of the City section cut to one paragraph; Don's Plum kept as one sentence
+  Galapagos/Edward Norton dive and shark/parachute sub-quotes (accounts conflict)
+  "I didn't feel ready" franchise quote (no source)
+  Hidden in Plain Sight section folded into the close
+
+Spine: unchanged (Bosch triptych; fear under the appetite)
+Type read: unchanged, complicated by the OCD retraction and the Ceretti relationship. Why not Type 3 / Type 6 added to the Rabbit Hole.
 -->
 
-> "I've always been wild... I can't say it any more simply than that. But acting is the only time when I truly maintain the spontaneity that I want to be present at all times."
+> "I think my simple philosophy is only get out there and do something when you have something to say, or you have something to show for it. Otherwise, just disappear as much as you possibly can."
+>
+> Leonardo DiCaprio, interviewed for [TIME's 2025 Entertainer of the Year](https://www.hellomagazine.com/celebrities/871864/leonardo-dicaprio-addresses-reason-behind-covering-face-in-public)
 
 > **Disclaimer:** This analysis of Leonardo DiCaprio's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
 
 <p class="firstLetter">Leonardo DiCaprio's father hung a reproduction of Hieronymus Bosch's <i>The Garden of Earthly Delights</i> above his infant son's crib.</p>
 
-The triptych shows three panels: paradise, human excess, and a hellscape of ruin. DiCaprio stared at it every night before sleep. He couldn't have understood the imagery then. But decades later, when he opened his climate documentary _Before the Flood_ sitting across from Pope Francis, he returned to that painting as the organizing metaphor for his entire worldview. Paradise. Indulgence. Collapse.
+The triptych shows three panels: paradise, human excess, and a hellscape of ruin. DiCaprio stared at it every night before sleep. He couldn't have understood the imagery then. Decades later, when he opened his climate documentary _Before the Flood_, he returned to that painting as the organizing metaphor for his worldview. Paradise. Indulgence. Collapse.
 
-That painting above the crib tells you something essential about Leonardo DiCaprio — not because of what it means, but because of who put it there. His father, George, an underground comix distributor who collaborated with Robert Crumb and co-wrote Timothy Leary's _Neurocomics_. His mother, Irmelin, a German immigrant born in a World War II bomb shelter. They raised their only son in one of the roughest neighborhoods in Los Angeles, surrounded by prostitution and heroin, and somehow gave him both a terror of the world and an insatiable appetite for it.
+The painting tells you less through what it means than through who put it there. His father, George, was an underground comix distributor who worked with Robert Crumb and co-wrote Timothy Leary's _Neurocomics_. His mother, Irmelin, was a German immigrant born in a World War II bomb shelter. They raised their only son in one of the roughest neighborhoods in Los Angeles, surrounded by prostitution and heroin, and somehow gave him both a terror of the world and an insatiable appetite for it.
 
-That combination — the terror and the appetite — is the engine of everything Leonardo DiCaprio has ever done.
+That combination, the terror and the appetite, is the engine of everything Leonardo DiCaprio has done since.
 
 <details>
 <summary class="accordion">TL;DR: Why Leonardo DiCaprio is an Enneagram Type 7</summary>
 <div class="panel">
 <ul>
-<li><b>The restless escape artist:</b> Turned down Batman, Spider-Man, and Star Wars — not for bigger paychecks, but because franchise work felt like a cage. Every career decision protects freedom of movement.</li>
-<li><b>Hunger born from confinement:</b> Grew up in poverty on a drug-dealer corner, got robbed at five, survived childhood OCD. The relentless pursuit of experience is the flip side of a childhood spent feeling trapped.</li>
-<li><b>The seven who does the work:</b> Ate raw bison liver, spent a week with disabled children at 18, crushed a glass and kept acting. His preparation is obsessive, his commitment absolute — as long as he chose the project.</li>
-<li><b>Nine lives, all spent voluntarily:</b> Survived a shark in his diving cage, two parachute failures, and a plane engine explosion. His friends named him "the person they least want to do extreme adventures with." He keeps going.</li>
+<li><b>The restless escape artist:</b> Reportedly passed on Batman, Spider-Man and Star Wars because franchise work felt like a cage. His career decisions keep protecting his freedom of movement.</li>
+<li><b>Hunger born from fear:</b> Grew up broke on a drug-dealer corner and got robbed at five. The relentless pursuit of experience is the flip side of a childhood spent feeling unsafe.</li>
+<li><b>The Seven who does the work:</b> Ate raw bison liver, spent a week with disabled children at 18, crushed a glass and kept acting. His preparation is obsessive, as long as he chose the project.</li>
+<li><b>Nine lives, all spent voluntarily:</b> A shark in his diving cage, a failed parachute, a plane engine on fire. His friends call him "the person they least want to do extreme adventures with."</li>
+<li><b>Slowing down at fifty:</b> In 2025 he played his first real father, in <i>One Battle After Another</i>, and in 2026 he brought a partner to the Oscars for the first time.</li>
 </ul>
 </div>
 </details>
 
 ## The Corner of Hollywood and Western
 
-DiCaprio was born November 11, 1974, in Los Angeles. His parents divorced when he was roughly a year old — but they did something unusual. They rented adjacent bungalows with a shared backyard in Echo Park so their son could move freely between both homes. Even when the marriage was over, the connective space remained.
+DiCaprio was born November 11, 1974, in Los Angeles. His parents split when he was about a year old, and then they did something unusual. They rented adjacent bungalows with a shared backyard in Echo Park so their son could move freely between both homes. The marriage ended. The open path between the houses stayed.
 
-His mother, who worked multiple jobs as a legal secretary, could only afford housing on one of the worst blocks in Hollywood.
+His mother, working as a legal secretary, could only afford housing on one of the worst blocks in Hollywood.
 
-"My mother and I lived at Hollywood and Western — a drug dealer and prostitute corner," he told _Rolling Stone_. "It was pretty terrifying. I got beat up a lot. I saw people having sex in the alleys."
+"My mother and I lived at Hollywood and Western, a drug dealer and prostitute corner," he told _Rolling Stone_. "It was pretty terrifying. I got beat up a lot. I saw people having sex in the alleys."
 
-He was five years old when a man in a trenchcoat, carrying needles and crack, cornered him on the street. He was robbed around the same age. For the first decade of his life, his playground was, in his words, "like a junkyard with crack addicts around the corner."
+He was robbed around the age of five. For the first decade of his life, his playground was, in his words, "like a junkyard with crack addicts around the corner."
 
-These are not the stories most movie stars tell. Celebrities from difficult backgrounds usually frame their childhood as something they overcame. DiCaprio frames his as something that _shaped_ him.
+Most movie stars frame a childhood like that as something they overcame. DiCaprio frames his as something that shaped him. The drugs were everywhere later, in the Hollywood party scene of his twenties, and he has said he never touched them. The boy on the corner had already seen what they do.
 
-"Seeing the devastation on my block, seeing heroin addicts, made me think twice about ever getting involved in drugs." The drugs were everywhere later — in the Hollywood party scene of his twenties, they were inescapable. He never touched them. The boy on the corner had already seen what they do.
+His parents insulated him emotionally even when they couldn't insulate him physically. "My parents, who were split up, were so good at keeping my environment strong and keeping everything around me not focused on the fact that we were poor," he has said. "They got me culture." His mother drove him across the city every day to a better school. She took him to museums. Even broke, his world was bigger than the block.
 
-But the poverty and the danger did something else, something less obvious. His parents — separated, bohemian, broke — insulated him emotionally even when they couldn't insulate him physically.
-
-"My parents, who were split up, were so good at keeping my environment strong and keeping everything around me not focused on the fact that we were poor. They got me culture."
-
-His mother drove him up to four hours round-trip every day to attend a better school on the other side of the city. She took him to museums. She made sure that even if they were broke, his world was bigger than the block.
-
-That tension — brutal environment, protected inner life — is the template for everything that follows.
+Brutal environment, protected inner life. That is the template for everything that follows.
 
 ## George DiCaprio's Son
 
-George DiCaprio was a figure from another century. An Italian-American from Flushing, Queens, he became an underground comix writer, editor, and distributor, working with artists like Robert Crumb, Harvey Pekar, and Gilbert Shelton. His titles included _Greaser Comics_, _Forbidden Knowledge_, and _Cocaine Comix_. He co-wrote Timothy Leary's 1979 comic _Neurocomics_. Leary later presided over George's second wedding.
+George DiCaprio was a figure from another century. An Italian-American from Flushing, Queens, he became an underground comix writer, editor and distributor, working with Robert Crumb, Harvey Pekar and Gilbert Shelton. He co-wrote Leary's 1979 comic _Neurocomics_. Leary later presided over George's second wedding.
 
-Leonardo has described his parents as "bohemians in every sense of the word."
+Leonardo has called his parents "bohemians in every sense of the word." George took him to poetry readings, comic fairs and hippie parades. At about three, the boy tap-danced on a hippie concert stage for hundreds of people.
 
-"In my youth, I was exposed to the wildest hippie subculture, along with the comics _Fabulous Freak Brothers_, _Zap_ and _Weirdo_," he told _USA Weekend_ in 2010. George took him to poetry readings, comic fairs, and hippie parades where they'd cover themselves in mud. At about three years old, George put Leonardo on stage at a hippie concert, where the boy tap-danced for hundreds of people.
+George's most lasting piece of advice: "Go out there, son, and whatever you do, I don't care if you're successful or not, just have an interesting life."
 
-George's most lasting piece of advice: "Go out there, son, and whatever you do, I don't care if you're successful or not, just have an interesting life. Just be happy to put your pants on in the morning."
+That advice imprinted. Interesting over safe became the career's operating rule.
 
-That advice imprinted. DiCaprio built his career around exactly that philosophy: choosing interesting over safe, turning down franchise blockbusters, seeking out the most demanding directors alive. George's fingerprints are everywhere.
-
-Even the name. Irmelin was pregnant and visiting the Uffizi Gallery in Florence when she felt the baby kick for the first time while looking at a [Leonardo da Vinci](/personality-analysis/leonardo-da-vinci) painting. George declared: "His name must be Leonardo."
-
-Years later, when a thirteen-year-old Leonardo was struggling to find representation, an agent told him his name was "too ethnic" and would never get him hired. The agent created a stage name: "Lenny Williams." When George DiCaprio saw a headshot with "Lenny Williams" printed on it, he tore it up. "Over my dead body."
+Even the name came from that family's appetite for art. Irmelin was pregnant and standing in front of a [Leonardo da Vinci](/personality-analysis/leonardo-da-vinci) painting at the Uffizi in Florence when she felt the baby kick for the first time. Years later, when an agent told the thirteen-year-old his name was "too ethnic" and put "Lenny Williams" on his headshots, George tore one up.
 
 The name stayed Leonardo DiCaprio.
 
 ## "The Noodle"
 
-The performing instinct showed up before he could read. At two, Leonardo walked onstage at a performance festival and danced for the crowd unprompted. At five, he appeared on the children's show _Romper Room_ and got removed from the set for running up to the camera, smacking it, doing flips.
+The performing instinct showed up before he could read. At five, he appeared on the children's show _Romper Room_ and was removed from the set for running up to the camera and smacking it.
 
-He was also a serious breakdancer, earning the nickname "The Noodle" for his pop-locking. Placed second in a breakdancing competition in Germany at eleven. Nearly quit acting to go pro. Performed during lunchtime at his grade school. The kid couldn't hold still, and that restless energy never left him. It just found bigger stages.
+He was also a serious breakdancer, nicknamed "The Noodle" for his pop-locking, and he nearly chose dancing over acting. The kid couldn't hold still. The restless energy never left him. It just found bigger stages.
 
-What pivoted him toward acting was money. His stepbrother Adam Farrar landed a television commercial that earned $50,000. For a kid from Hollywood and Western, that was transformative. He asked his parents if he could try. He did about twenty commercials — Matchbox cars, Kraft Singles, Bubble Yum, Apple Jacks — and then started going on auditions for film and television work.
+What pivoted him toward acting was money. His stepbrother Adam Farrar landed a commercial that paid $50,000, which was transformative for a kid from Hollywood and Western. Leonardo did about twenty commercials and then went on roughly a hundred auditions before getting a break.
 
-He went on roughly a hundred auditions before getting a break.
+At twelve, riding in his mother's car, he spotted [Tobey Maguire](/personality-analysis/tobey-maguire) on the street, another kid actor he vaguely knew. "I literally jumped out of the car," he told _Esquire_. "When I want someone to be my friend, I just make them my friend."
 
-At twelve, riding in his mother's car, he spotted [Tobey Maguire](/personality-analysis/tobey-maguire) on the street — another kid actor he vaguely knew. "I literally jumped out of the car," he told _Esquire_. "I was like, 'Tobey! Tobey! Hey! Hey!' And he was like, 'Oh, yeah — I know you. You're... that guy.' But I just made him my pal. When I want someone to be my friend, I just make them my friend."
-
-That friendship has lasted over thirty-five years. Years later, when DiCaprio was offered the role of Spider-Man, he turned it down and recommended Maguire instead.
+That friendship has lasted more than thirty-five years.
 
 ## A Hundred Little Attributes
 
-At eighteen, DiCaprio got the role of Arnie Grape in _What's Eating Gilbert Grape_ — a young man with an intellectual disability. He prepared by spending a week at a center for children with special needs, watching them for hours, taking notes on every gesture, speech pattern, and habit.
+At eighteen, DiCaprio landed the role of Arnie Grape in _What's Eating Gilbert Grape_, a young man with an intellectual disability. He prepared by spending a week at a center for children with special needs, taking notes on every gesture, speech pattern and habit.
 
-"I remember coming to him with this checklist," he said of his first meeting with director Lasse Hallström, "and it was like a hundred different little attributes that I learned from hanging out with these kids, and I said, 'Will you just show me what you want me to do?'"
+"I remember coming to him with this checklist," he said of his first meeting with director Lasse Hallström, "and it was like a hundred different little attributes that I learned from hanging out with these kids."
 
-Hallström didn't need to show him much. The performance earned DiCaprio his first Oscar nomination at nineteen and revealed the method he'd use for the next three decades: obsessive preparation, then total spontaneity. "It was incredibly freeing because... we paid attention to the script, but it was so loose. Everything was so incredibly loose and so improvisational, and I really just lived in my own world."
+The performance earned him his first Oscar nomination at nineteen and revealed the method he would use for three decades: obsessive preparation, then total spontaneity on set.
 
-That pattern, meticulous research followed by absolute freedom on set, repeats in every major role.
+On _Django Unchained_, he crushed a small glass with his palm during the dinner table scene. His hand poured blood onto the table. He stayed in character, and Tarantino used the take. On _The Revenant_, he ate raw bison liver even though he was vegetarian, because the jelly prop didn't look real enough.
 
-For _Django Unchained_, he accidentally crushed a small stemmed glass with his palm during the dinner table scene. His hand was bleeding profusely. He stayed in character. "My hand started really pouring blood all over the table. I wanted to keep going. It was more interesting to watch Quentin's and Jamie's reaction off-camera than to look at my hand." Tarantino used the take. When he called cut, the room erupted in a standing ovation.
-
-For _The Revenant_, he ate raw bison liver even though he was vegetarian. The props department had made a faux liver from jelly, but DiCaprio worried it didn't look real enough. "Kind of like a balloon," he described it, "it's got a membrane and then you bite into it and then something horrific bursts into your mouth." He nearly vomited. Director Alejandro González Iñárritu said: "Without it, he may not have gotten to the truth."
-
-What drives this level of commitment? Not ambition in the conventional sense. DiCaprio doesn't take roles to prove himself superior. He takes roles that terrify him. He avoids scripts where he immediately knows how to play the character and gravitates toward the ones where he has no idea how to begin.
+He doesn't take roles to prove he's the best in the room. He takes the ones that scare him, the scripts where he has no idea how to begin.
 
 ## What is Leonardo DiCaprio's personality type?
 
 ### Leonardo DiCaprio is an Enneagram Type 7
 
-[Enneagram Type 7](/enneagram-corner/enneagram-type-7), sometimes called "The Enthusiast," runs on a core fear of being trapped in pain, deprivation, or limitation. Sevens learned early, usually from a childhood experience of loss or confinement, that the world can take away what you love without warning. They responded by becoming insatiable: seeking variety, experience, freedom, and stimulation as a hedge against suffering. The underlying logic: if I keep moving, the pain can't catch me.
+Leonardo DiCaprio is an Enneagram Type 7, the Enthusiast. Sevens sit in the head triad, where the core emotion is fear, and they handle it by staying in motion: more options, more experiences, no cages. His career runs on that move, from the franchises he refused to the risks he keeps taking.
 
-The evidence for DiCaprio as a Type 7 is structural, not anecdotal:
+Head types meet the world by anticipating it. Gut types like Eights push against it, and heart types like Threes perform for it. Among the head types, Fives retreat to think and Sixes look for something safe to trust. [Type 7](/enneagram-corner/enneagram-type-7) does something else with the fear. It outruns it.
 
-- **Turned down every franchise.** Batman. Spider-Man. Star Wars. Each time, he said the same thing: "I didn't feel ready." He chose _Gangs of New York_ with Scorsese over _Spider-Man_. The pattern isn't about quality — it's about freedom. Franchises lock you in. Multi-picture deals are cages.
-- **The strategic disappearance.** After Titanic made him the most famous person on Earth at twenty-two, he deliberately vanished. "The best way to have a long career is to get out of people's face." A Seven doesn't run from fame itself — they run from the constraint fame imposes on their options.
-- **OCD as the Seven's shadow.** DiCaprio was diagnosed with obsessive-compulsive disorder as a child. His compulsions included stepping on sidewalk cracks and walking through doorways multiple times. "Sometimes it took me 10 minutes to get to the set because I'd be pacing back and forth, stepping on gum stains." He'd walk twenty feet back to step on a piece of old chewing gum, then talk himself down: "OK, you're being ridiculous. Nothing bad is going to happen."
+The mechanism goes like this. A Seven learns early that the world can take things away without warning. They respond by keeping every door open, planning the next adventure before this one ends, and steering away from anything that locks them in. Under heavy stress, they snap toward the rigid control of Type 1. At their best, they slow down and go deep like Type 5.
 
-  The OCD reveals the anxiety engine underneath the Seven's pursuit of experience. Under stress, Sevens move toward the rigid, critical patterns of [Type 1](/enneagram-corner/enneagram-type-1). DiCaprio's compulsions, his obsessive role preparation, and his hatred of phoniness all carry that fingerprint. At nineteen, he told _Interview Magazine_: "Whenever I notice myself doing something just to please somebody else, I try to stop it."
+Here is how each step shows up in DiCaprio's record.
 
-- **A man who keeps almost dying.** He told _Wired_: "If a cat has nine lives, I think I've used a few." A great white shark broke into his diving cage in South Africa, snapping "five or six times an arm's length away from my head." On a tandem skydive, both parachutes failed. "You're probably going to break your legs on the way down, because we're going too fast now." On a flight to Russia, an engine exploded into a fireball, and the pilots shut everything down: "You're just sitting there gliding with absolutely no sound." In the Galapagos, he ran out of oxygen chasing spotted eagle rays and had to be rescued by Edward Norton.
+- **He keeps the doors open.** He reportedly passed on Batman, Spider-Man and Star Wars, and chose _Gangs of New York_ with Scorsese over _Spider-Man_. Franchises lock you in for years. He picked roles he could walk away from.
+- **He disappears on purpose.** After Titanic, he pulled back from public life and has stayed pulled back for almost thirty years. In December 2025 he gave [TIME](https://www.hellomagazine.com/celebrities/871864/leonardo-dicaprio-addresses-reason-behind-covering-face-in-public) the reasoning: "I was like, 'OK, how do I have a long career? Because I love what I do, and I feel like the best way to have a long career is to get out of people's face.'" He keeps fame at a distance so it can't box him in.
+- **He plays the escape artist.** In _Catch Me If You Can_ (2002), he was Frank Abagnale Jr., a teenager who runs from his parents' divorce and becomes a pilot, a doctor and a lawyer before anyone catches him. Of all his roles, that one is the clearest picture of the type: a boy who handles fear by becoming someone new every week.
+- **He keeps almost dying.** "If a cat has nine lives, I think I've used a few," he told [_Wired_ in December 2015](https://wtop.com/news/2015/12/thrill-seeker-leonardo-dicaprio-has-nine-lives-and-already-used-a-few). A great white shark got into his diving cage in South Africa. His parachute failed on a tandem skydive. A plane engine caught fire on a flight to Russia. He told _Wired_ that his friends have named him "the person they least want to do extreme adventures with."
 
-  His friends have named him "the person they least want to do extreme adventures with." He keeps going. A Seven doesn't stop because the danger got real. He stops when the experience gets boring.
+None of that stopped him. A Seven doesn't stop because the danger got real. He stops when the experience gets boring.
 
-In growth, Sevens integrate toward [Type 5](/enneagram-corner/enneagram-type-5), becoming more focused, observant, and capable of sustained depth. DiCaprio's arc from wild childhood breakdancer to an actor who spends months in preparation, who debates cinema with Scorsese for weeks before a single camera rolls, who has built a $100 million environmental infrastructure: this is a Seven who learned to channel the restless energy rather than scatter it.
+### The cracks in the sidewalk
+
+The stress side of the pattern is where his own accounts get tangled.
+
+In a December 2004 interview for _The Aviator_, [quoted by Far Out](https://faroutmagazine.co.uk/leonardo-dicaprio-movie-role-stayed-the-most/), he described an obsessive childhood: "stepping on cracks on the way to school and having to walk back a block and step on that same crack." Playing Howard Hughes, a man consumed by compulsions, brought the habits back. "I was going around stepping on cracks," he said later. "At airports I had to step on every stain that I saw."
+
+Then, in 2008, he walked part of it back. "I never actually had OCD," he told [_GQ_](https://www.gq.com/story/leonardo-dicaprio-revolutionary-road-kate-winslet). "I know I did say that at some point, but I didn't."
+
+So this analysis doesn't treat a diagnosis as fact. What the record shows is a man whose anxiety comes out as ritual and control when the pressure is high. That is the Seven's stress line to [Type 1](/enneagram-corner/enneagram-type-1): the free spirit who suddenly can't leave the house until the steps are done right. Hughes, [he has said](https://faroutmagazine.co.uk/leonardo-dicaprio-movie-role-stayed-the-most/), "stayed with me the most. Especially with this stuff having to do with obsessive-compulsive disorder." It is also the only one of his films he says he rewatches.
+
+The growth line runs to [Type 5](/enneagram-corner/enneagram-type-5): focused, observant, capable of sustained depth. That describes the actor who spends months in preparation and who describes his work with Scorsese as a kind of cinema education.
 
 ## "Oh, I Don't Read"
 
-James Cameron agreed to meet with DiCaprio for Titanic. Before the actor even walked in, Cameron noticed "all the women in the entire office were in the meeting. They all wanted to meet Leo. It was hysterical."
+James Cameron agreed to meet DiCaprio for _Titanic_. Before the actor walked in, Cameron noticed "all the women in the entire office were in the meeting. They all wanted to meet Leo."
 
-Days later, DiCaprio showed up for the screen test and told Cameron: "Oh, I don't read."
+At the screen test, DiCaprio told him: "Oh, I don't read."
 
-Cameron shook his hand, thanked him for coming, and started to show him out. When DiCaprio realized the role was slipping away, he said: "Wait, wait, wait. You mean, if I don't read, I don't get the part just like that?"
+Cameron thanked him and started to show him out. When DiCaprio realized the part was slipping away, he read. Cameron later described it: "Every ounce of his entire being was just so negative, right up until I said, 'Action.' Then he turned into Jack."
 
-Cameron told him the film was "like a giant movie that is going to take two years of my life" and he wasn't going to mess up the casting. DiCaprio would have to read or leave.
+_Titanic_ came out in December 1997, a month after his 23rd birthday, and made him the most famous young man on the planet. He told _Newsweek_ the experience was "both life-changing and disheartening."
 
-Then something shifted. Cameron:
+His response was quick. He stopped making the movies Leomania wanted. He played con men, a mentally ill billionaire, an undercover cop, a slave owner, a corrupt stockbroker, a frontiersman left for dead. When he did play romantic leads, in _Revolutionary Road_ (2008) and _The Great Gatsby_ (2013), they were men whose love stories collapse. Gatsby is the most Seven of them: a man who throws enormous parties to win back a feeling he can't get back.
 
-"Every ounce of his entire being was just so negative — right up until I said, 'Action.' Then he turned into Jack. Kate lit up, and dark clouds had opened up with a ray of sun coming down and lighting up Jack. I'm like, 'All right. He's the guy.'"
-
-Titanic made him the biggest movie star on the planet. "Leomania" rivaled Beatlemania; teenage girls screamed at him in the streets. He described it to _Newsweek_ as "both life-changing and disheartening."
-
-His response was strategic and immediate. He stopped making conventional movies. He chose characters who are con men, mentally ill billionaires, undercover cops, slave owners, corrupt stockbrokers, frontiersmen left for dead, and complicit murderers. Not once, in nearly thirty years since Titanic, has he played a romantic lead.
-
-"My simple philosophy is only get out there and do something when you have something to say, or you have something to show for it. Otherwise, just disappear as much as you possibly can."
-
-## The Prince of the City
-
-But before the disappearance came the explosion.
-
-In the summer of 1998, journalist Nancy Jo Sales followed DiCaprio and his crew through New York's nightclub circuit for a _New York Magazine_ cover story called "Leo, Prince of the City." The piece introduced the world to the group tabloids would call the "Pussy Posse" — DiCaprio, Tobey Maguire, David Blaine, Lukas Haas, Kevin Connolly, and a rotating cast of others. They dominated clubs like Jet 19, Shine, and Veruka. They set off stink bombs at Sky Bar. They threw garbage off the Brooklyn Promenade.
-
-This was DiCaprio at twenty-three: the most famous person alive, running through New York like a kid who'd just discovered the city had no walls. Strip clubs, nightclubs, models. But the energy was recognizably Seven: more about volume of experience than any particular vice.
-
-He didn't drink to excess. He never touched drugs. He just wanted to be everywhere, with everyone, doing everything — the opposite of the boy stuck on the corner of Hollywood and Western.
-
-The era produced one genuine scandal. In 1996, director R.D. Robb had assembled several of DiCaprio's friends to shoot what was pitched as a short improvisational film. Robb eventually cut the footage into a feature called _Don's Plum_. The improvised dialogue was reportedly so raw that DiCaprio and Maguire sued to block its release. The case settled: the film was banned in the United States and Canada, where it remains unavailable.
-
-By his early thirties, the Posse had quietly dissolved into adult life. Maguire married. Others had children. DiCaprio channeled the restless energy into environmental advocacy and increasingly serious film work. The transformation wasn't dramatic — it was more like a river finding its proper channel. The impulse to consume experience didn't change. The venue did.
+The one stretch that looked like pure appetite came first. In 1998, _New York_ magazine followed DiCaprio, Maguire and their friends through the city's clubs for a cover story called "Leo, Prince of the City." The energy was more about volume of experience than any particular vice, a kid from the corner discovering the city had no walls. The era's one real scandal was _Don's Plum_, an improvised film shot with his friends in 1996. DiCaprio and Maguire sued, and the film was kept from release in the United States and Canada. By his thirties, the posse had grown up, and the restless energy had found other channels.
 
 ## The Scorsese Education
 
-[Robert De Niro](/personality-analysis/robert-de-niro) made the introduction. After working with eighteen-year-old DiCaprio on _This Boy's Life_, he called Scorsese: "He's very good, you gotta do work with him someday." Scorsese noted that De Niro rarely made such recommendations.
+[Robert De Niro](/personality-analysis/robert-de-niro) made the introduction. After working with the teenage DiCaprio on _This Boy's Life_, he told Scorsese: "He's very good, you gotta do work with him someday."
 
-Seven films and two decades later, the partnership defines both their careers.
+Six feature films later, plus the 2015 short _The Audition_, the partnership defines both their careers.
 
-"Leo has a similar sensibility to me," Scorsese has said. "I'm 30 years older than him, but I think we see the world the same way."
+Their process shows a Seven at his best. They "debate for months" about films and screenplays before cameras roll, with Scorsese sharing reference films and silent-era acting techniques. For a type built on speed, that is deep, patient work.
 
-Their pre-production process reveals how a Seven operates at his best. DiCaprio described it as a "cinema education": they "debate for months" about films and screenplays, with Scorsese sharing reference films, discussing silent film acting techniques, building a shared vocabulary before cameras roll. The opposite of impulsive. A Seven who learned that depth is its own kind of freedom.
+On _The Wolf of Wall Street_, the freedom came back. DiCaprio called it "the most free and exciting and spontaneous and hilarious film production I've ever been a part of." Scorsese described the escalation: "I pushed him, he pushed me. Then I pushed him more, then he pushed me, and suddenly everything was wild." The audition for [Margot Robbie](/personality-analysis/margot-robbie)'s role became legend when she slapped DiCaprio instead of kissing him. After a long silence, he and Scorsese burst out laughing. She got the part.
 
-On _The Wolf of Wall Street_, something broke open. DiCaprio described it as "the most free and exciting and spontaneous and hilarious film production I've ever been a part of." Scorsese described a creative escalation: "He came up with wonderful stuff that was outrageous. I pushed him, he pushed me. Then I pushed him more, then he pushed me, and suddenly everything was wild." DiCaprio's verdict: "I've never seen Martin Scorsese that happy on a set in my life."
+Then came _Killers of the Flower Moon_ (2023). DiCaprio was cast as FBI agent Tom White, the hero. He told Scorsese it wasn't working: "We weren't immersed in the Osage story." He asked to play Ernest Burkhart instead, a weak, manipulable man complicit in the murder of his wife's family. The script was overhauled.
 
-The audition for [Margot Robbie](/personality-analysis/margot-robbie)'s role in that film is one of Hollywood's great stories. When the scene called for her to kiss DiCaprio, she slapped him instead. Dead silence for what Robbie described as "an eternity, but was probably three seconds." Then DiCaprio and Scorsese burst out laughing. She got the part.
-
-Then came _Killers of the Flower Moon_ (2023). DiCaprio was originally cast as FBI agent Tom White, the hero investigator. He told Scorsese it wasn't working: "It just didn't feel like it got to the heart of it. We weren't immersed in the Osage story." He asked to play Ernest Burkhart instead — a dim, manipulable man complicit in the systematic murder of Osage people for their oil wealth. The entire script was overhauled.
-
-Ernest Burkhart is DiCaprio's least glamorous, least sympathetic role. He wore prosthetic teeth, a false nose, and scleral lenses to make his eyes look bloodshot. He described the character as "incredibly unredeemable" and spoke of the challenge of playing a man who might have loved his Osage wife even as he participated in killing her family: "They still loved each other."
-
-In every previous Scorsese collaboration, DiCaprio played magnetic men, even when they were monsters. Jordan Belfort was repulsive but electric. Calvin Candie was evil but charismatic. Ernest Burkhart is neither. He's a moral idiot. A man being used. For a Seven, a type that thrives on charisma and forward momentum, choosing to play a character defined by passivity and stupidity is a remarkable act of integration. The restless energy turned inward.
+Burkhart is his least glamorous role. Prosthetic teeth, a false nose, bloodshot lenses. In earlier Scorsese films, DiCaprio played magnetic men even when they were monsters. Burkhart is a man being used. For a Seven, whose charm is his engine, choosing to play passivity and stupidity is a remarkable act of integration.
 
 ## The Third Panel
 
-The Bosch painting above the crib was not a coincidence. It was a blueprint.
+The Bosch painting above the crib turned out to be a blueprint.
 
-In 2014, standing before the United Nations as a newly appointed Messenger of Peace, DiCaprio opened with a disarming admission: "I stand before you not as an expert but as a concerned citizen." Then he pivoted: "As an actor, I pretend for a living. I play fictitious characters, often solving fictitious problems. I believe that mankind has looked at climate change in that same way, as if it were fiction."
+In 2014, standing before the United Nations as a newly appointed Messenger of Peace, DiCaprio opened with an admission: "I stand before you not as an expert but as a concerned citizen." Then: "As an actor, I pretend for a living. I play fictitious characters, often solving fictitious problems. I believe that mankind has looked at climate change in that same way, as if it were fiction."
 
-A pause. "All that I have seen and learned on this journey has absolutely terrified me."
+And later: "I pretend for a living but you do not."
 
-Then the line that cut through the room: "I pretend for a living but you do not."
+Two years later, he finally won the Oscar for _The Revenant_. Five acting nominations across twenty-two years, and an internet's worth of memes about his losses. He thanked [Tom Hardy](/personality-analysis/tom-hardy) and Iñárritu, then used the most-watched seconds of his career to say: "Climate change is real. It is happening right now." San Diego State researchers later found the speech produced the largest spike in online climate engagement they had measured.
 
-Two years later, he finally won the Oscar. Five acting nominations, twenty-two years, an internet's worth of memes about his losses. The moment arrived. He thanked [Tom Hardy](/personality-analysis/tom-hardy) and Inarritu, then used the most-watched seconds of his career to say: "Climate change is real. It is happening right now. It's the most urgent threat facing our entire species and we need to work collectively together and stop procrastinating."
+The work is real. He started his foundation at twenty-four. It has distributed over $100 million across 46 countries. He sits on the boards of WWF, NRDC and Re:wild. In 2021 he took the climate panic onto the screen in _Don't Look Up_, playing an astronomer who tries to warn the world about a comet and watches it turn his warning into content.
 
-Researchers at San Diego State University later determined that this single speech resulted in the largest increase in public engagement with climate change ever measured — more impact than the Paris climate negotiations or Earth Day.
+So is the contradiction. Leaked Sony emails reportedly showed six private jet trips in six weeks in 2014. He vacations on superyachts. In July 2022, Brazil's president Jair Bolsonaro answered one of his Amazon posts with: "I could tell you, again, to give up your yacht before lecturing the world, but I know progressives: you want to change the entire world but never yourselves." DiCaprio didn't publicly reply.
 
-The environmental record is not a side project. He founded his foundation at twenty-four. It has distributed over $100 million in grants across 46 countries and 200 projects. He sits on the boards of WWF, the Natural Resources Defense Council, and Re:wild. The infrastructure is real.
-
-So is the contradiction. Six roundtrip private jet flights in six weeks. A mega-yacht chartered from a UAE oil tycoon. Brazilian President Jair Bolsonaro delivered the most cutting public response: "I could tell you, again, to give up your yacht before lecturing the world, but I know progressives: you want to change the entire world but never yourselves."
-
-DiCaprio's defense was half acknowledgment, half deflection: "I undoubtedly agreed that we have to practice what we preach."
-
-The contradiction is not ignorance. It is compartmentalization, and compartmentalization is what Sevens do best. They hold two contradictory realities simultaneously because their operating system was built to avoid pain, not to resolve it. The boy who grew up staring at Bosch's vision of earthly ruin now lives inside the middle panel, the garden of human excess. He knows it. He keeps working to prevent the third.
+The contradiction reads as compartmentalization, and compartmentalization is what Sevens do best. They hold two realities at once because their operating system was built to avoid pain rather than resolve it. The boy who stared at Bosch's ruin now lives inside the middle panel, the garden of excess. He knows it. He keeps working to prevent the third.
 
 ## Emotionally Thirty-Two
 
 The same compartmentalization runs his personal life.
 
-In his 2025 _Esquire_ interview, Paul Thomas Anderson asked DiCaprio how old he feels.
+In a 2025 _Esquire_ interview, [Paul Thomas Anderson asked him](https://www.avclub.com/leonardo-dicaprio-paul-thomas-anderson-interview-each-other-32) to answer as quickly as he could: if you didn't know your age, how old would you be?
 
-"Thirty-two," he said immediately.
+"Thirty-two."
 
-Anderson's response: "Your age is 50, but your emotional maturity is 32."
+He was fifty.
 
-DiCaprio didn't push back.
+Then there is the dating pattern, the most discussed fact about his private life. Gisele Bündchen, Bar Refaeli, Toni Garrn and Camila Morrone all began dating him around twenty. Most of the relationships ended before the woman turned twenty-six. When he and Morrone split in 2022, months after she turned 25, a chart of his partners' ages went viral. He has never addressed it.
 
-Then there is the dating pattern, the most discussed fact about his private life. The data is public: Gisele Bundchen at 20, Bar Refaeli at 20, Toni Garrn at 20, Camila Morrone at 20. Nearly every relationship ended when the woman approached her mid-twenties. When Morrone turned 25 in June 2022 and the split followed weeks later, a Reddit infographic mapping his partners' ages against his own went viral. The pattern became a punchline, but the psychology behind it is worth examining.
+Whatever produces the pattern, it fits the Seven's fear of being locked in. Each new relationship is a clean slate. Each ending keeps the doors open.
 
-DiCaprio has never publicly addressed it. He doesn't have to. Whatever psychological architecture produces the pattern, it maps cleanly onto the Type 7 fear of limitation. Each new relationship is a clean slate. Each ending prevents the thing Sevens fear most: being locked in.
+Then the pattern bent. He has been with Italian model Vittoria Ceretti, born in 1998, since 2023. In February 2026 she joined him and his mother on [a gallery outing in London](https://www.hola.com/us/celebrities/20260226886420/vittoria-ceretti-leonardo-dicaprio-mom-museum-day-london/). In March, he brought her to the Oscars and [sat with her inside the Dolby Theatre](https://www.hellomagazine.com/celebrities/889633/leonardo-dicaprio-and-model-girlfriend-make-couple-debut-at-the-oscars-2026/), the first time he had attended an awards show with a partner. For a man whose whole public strategy is disappearing, that is a visible choice. It doesn't prove a new man. It is the first evidence in twenty-five years that the clean-slate pattern isn't fixed.
 
-Italian model Vittoria Ceretti, born in 1998 and linked to him since 2023, is the oldest known partner he's dated. Whether this represents a shift or an exception remains to be seen.
+The loyalty was always there, just in other places. Maguire for over thirty-five years. Scorsese across two decades. Kate Winslet: "He's my friend, my really close friend. We're bonded for life." At the 2015 BAFTAs, he pointed to his mother in the audience: "This woman drove me three hours a day to a different school to show me a different opportunity."
 
-But what's more revealing than the dating pattern is what DiCaprio said about his emotional range.
+The fear underneath all of it showed up most clearly in a role. In _Once Upon a Time in Hollywood_ (2019), his Rick Dalton blows his lines, storms into his trailer and screams at himself in the mirror. Rick is a fading actor terrified that the town has moved on without him. It's the closest DiCaprio has come to playing the thing a Seven runs from: getting stuck while the party goes on somewhere else.
 
-"I don't have emotions about a lot of things. I rarely get angry, I rarely cry. I guess I do get excited a lot, but I don't get sad and enormously happy." Then: "I think a lot of people who talk about all that crap are lying."
+## One Battle After Another
 
-Consider what that means. One of the most expressive actors alive, a man who made millions weep in Titanic, who channeled Howard Hughes's psychological collapse with terrifying precision, who ate raw bison liver because the prop didn't feel _true enough_, says he doesn't really feel most emotions. He feels excitement. The rest is kept narrow.
+For thirty years, DiCaprio said his biggest career regret was turning down Paul Thomas Anderson's _Boogie Nights_. In 2025, he finally made a film with Anderson.
 
-That is the Seven's operating system in its purest form. Excitement is the acceptable channel. Joy, grief, rage, tenderness: those frequencies carry risk. Feel deeply, get hurt deeply. Better to stay in the register that keeps things moving.
+_One Battle After Another_ cast him as Bob Ferguson, a former revolutionary who has spent sixteen years hiding, stoned and paranoid, raising his daughter Willa. In Variety's Actors on Actors series, DiCaprio described the character as "a guy who was a revolutionary trying to assimilate himself in the modern world, with a daughter that he didn't connect to, giving up on life."
 
-And yet. He has maintained a friendship with Tobey Maguire for over thirty-five years. He has worked with Martin Scorsese across seven films and two decades. Kate Winslet has been a close friend for nearly thirty years: "He's my friend, my really close friend. We're bonded for life." He brings his mother to nearly every major ceremony. At the 2015 BAFTAs, he said: "I would not be standing up here if it wasn't for this person... I didn't grow up in a life of privilege. I grew up in a very rough neighborhood in East Los Angeles. This woman drove me three hours a day to a different school to show me a different opportunity."
+Read that through the type. Bob is a Seven who has crashed. The adventure is over, the freedom has curdled into hiding, and the only thing that can get him off the couch is a child who needs him. [Jennifer Lawrence](/personality-analysis/jennifer-lawrence) told him in that same interview: "I really loved seeing you be a dad."
 
-The man who avoids romantic permanence is capable of profound, lifelong loyalty. Just not in the domain where the world watches closest.
+TIME named him its 2025 Entertainer of the Year. In March 2026, the film won Best Picture, one of six Oscars it took home. DiCaprio was nominated for Best Actor and lost to [Michael B. Jordan](/personality-analysis/michael-b-jordan) for _Sinners_. A decade earlier, losing an Oscar was the most famous running joke of his career. This time the loss came inside a Best Picture win.
 
-## Hidden in Plain Sight
+In 2016, _Rolling Stone_ asked if he wanted to start a family. "Do you mean do I want to bring children into a world like this?" he answered. "If it happens, it happens."
 
-Off-set, DiCaprio reads "anything and everything he can get his hands on," according to Scorsese. He collects Basquiats, Banksys, Picassos, and Dalis, alongside dinosaur fossils, vintage action figures, and rare comics. He rides a Citi Bike around New York. He surfs. Every Halloween, he arrives at parties around 2 AM wearing not a costume but a mask: sometimes a wolf, sometimes a monster, sometimes the face of a hundred-year-old man. He stays until dawn, hidden among people who know exactly who he is.
+Nearly ten years later, he played a man who did, and the whole movie is about what that father will survive to protect her.
 
-A journalist from _The Guardian_ who spent time with him observed that DiCaprio is "polite, charming, makes jokes, engages eye contact" but "manages to give almost no hint whatsoever of his actual personality."
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Type 7 vs. Type 3 and Type 6, wing and arrows for Leonardo DiCaprio</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system. The rest of the analysis stands on its own.</em></p>
 
-He has never married. Never had children. When asked about fatherhood, his answer was bleak: "Do you mean do I want to bring children into a world like this?"
+### Why not Type 3?
 
-He grew up on a corner where everybody showed you exactly who they were. He decided, very early, never to return the favor. And the painting his father hung above his crib, paradise, excess, ruin, still hangs somewhere in his memory. Every garden has a third panel.
+Mega-successful actors get typed as Threes by default, and DiCaprio's record gives that case real ammunition.
+
+He chased an Oscar for twenty-two years, and the _Revenant_ campaign was relentless: the raw liver, the freezing rivers, the press tour built around what he endured. He manages his image with unusual discipline, from the caps and masks in public to his rule about only showing up when he has "something to show for it." That is how a Three protects a brand.
+
+Here is why the call is still Seven.
+
+**Which emotion is steering?** Threes live in the heart triad, where shame is the core emotion, and they adjust themselves to what wins. DiCaprio's choices run the other way. He reportedly walked away from the franchise roles that would have made him the biggest star in the world, and he gave up the FBI hero in _Killers of the Flower Moon_ to play its weakest man. A Three guarding an image keeps the hero part.
+
+**What is the privacy for?** A Three hides to protect the image. DiCaprio says he hides to protect the long career he loves, and he spends the free time underwater with sharks and in the air with bad parachutes. Nobody is watching those. They are for the experience.
+
+The Oscar chase is the strongest evidence against this call, and it is real. A Seven can want a trophy badly. What tips it is everything he turned down to stay free.
+
+### Why not Type 6?
+
+Sixes are the Seven's neighbor in the head triad, and the anxiety is right there: the childhood rituals, the fear of the street, the decades-long loyalty to a few people. He leaned on Scorsese as a mentor for twenty years.
+
+The difference is what each type does with fear. A Six checks the ground before stepping and looks for someone safe to trust. DiCaprio jumps out of the plane, gets back in the shark cage, and chooses the director who scares him. The loyalty is real, and it is the clearest sign of a 6 wing.
+
+### Leonardo DiCaprio's Wing: 7w6
+
+The 6 wing explains what a pure Seven wouldn't: friendships that last thirty-five years, a mother at nearly every ceremony, the anxious rituals under stress. A 7w8 would push harder and protect less. DiCaprio's appetite is generous and tied to a small crew he never leaves.
+
+Our guide to <a href="/enneagram-corner/enneagram-wings-complete-guide">Enneagram wings</a> explains what each adjacent type adds.
+
+### Stress and Growth Arrows
+
+Under stress, Sevens go to Type 1: rigid, controlling, ritual-bound. The cracks in the sidewalk and the Hughes months fit here. In growth, Sevens go to Type 5: focused and deep. The months of Scorsese preparation, Ernest Burkhart and Bob Ferguson fit here.
+
+### What would change the Type 7 case
+
+Evidence that he picked roles for status over interest, that the risk-taking was staged for an audience, or that the privacy is about shame rather than freedom. None of that shows up in the public record so far.
+
+</div>
+</details>
+
+He grew up on a corner where everybody showed you exactly who they were. He decided early never to return the favor.
+
+The painting his father hung above his crib still frames the story: paradise, excess, ruin. For most of his life he has lived in the middle panel and warned the world about the third. Playing a father for the first time, he finally looked like a man thinking about who comes after.

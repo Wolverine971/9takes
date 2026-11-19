@@ -141,19 +141,28 @@
 	// a visitor who landed here from search goes to the parent page instead of
 	// being sent back to Google.
 	let backParent = $derived(getBackNavParent(page.url.pathname));
-	let hasInSiteHistory = false;
+	// How many in-site history entries sit behind the current one. Back/forward
+	// moves it by the popstate delta, so after stepping back to the landing page
+	// it reaches 0 again and the arrow stops handing visitors back to Google.
+	let inSiteDepth = 0;
 
 	function handleMobileBack(event: MouseEvent) {
 		if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
-		if (hasInSiteHistory) {
+		if (inSiteDepth > 0) {
 			event.preventDefault();
 			history.back();
 		}
 	}
 
-	afterNavigate(({ from }) => {
+	afterNavigate((navigation) => {
 		isLibraryOpen = false;
-		if (from) hasInSiteHistory = true;
+		if (navigation.type === 'enter') {
+			inSiteDepth = 0;
+		} else if (navigation.type === 'popstate') {
+			inSiteDepth = Math.max(0, inSiteDepth + navigation.delta);
+		} else if (navigation.from) {
+			inSiteDepth += 1;
+		}
 	});
 
 	function toggleLibrary() {
@@ -747,7 +756,9 @@
 		background: color-mix(in srgb, var(--accent) 16%, transparent);
 	}
 
-	.mobile-search-row:has(:global(input:focus)) .mobile-back {
+	/* Also stays out while results are open: tapping a result blurs the input
+	   first, and the arrow sliding back in would shift the list under the tap. */
+	.mobile-search-row:has(:global(input:focus), :global(.results-panel)) .mobile-back {
 		width: 0;
 		margin-right: 0;
 		opacity: 0;

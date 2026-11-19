@@ -171,16 +171,16 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 | In | Out | Impressions | Page |
 |---|---|---|---|
 | 213 | 17 | 1,870 | `/enneagram-corner/enneagram-types-in-stress` |
-| 194 | 41 | 7,552 | `/enneagram-corner/enneagram-wings-complete-guide` |
+| 195 | 41 | 7,552 | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 165 | 16 | 13,556 | `/enneagram-corner/enneagram-instinctual-subtypes` |
 | 159 | 15 | 2,678 | `/enneagram-corner/enneagram-type-3` |
-| 143 | 26 | 1,531 | `/enneagram-corner/enneagram-type-6` |
+| 144 | 26 | 1,531 | `/enneagram-corner/enneagram-type-6` |
 | 140 | 12 | 422 | `/enneagram-corner/enneagram-type-7` |
-| 135 | 16 | 2,356 | `/enneagram-corner/enneagram-type-4` |
-| 131 | 18 | 2,547 | `/enneagram-corner/enneagram-type-9` |
+| 136 | 16 | 2,356 | `/enneagram-corner/enneagram-type-4` |
+| 132 | 18 | 2,547 | `/enneagram-corner/enneagram-type-9` |
 | 128 | 13 | 1,895 | `/enneagram-corner/enneagram-type-5` |
 | 123 | 14 | 883 | `/enneagram-corner/enneagram-type-8` |
-| 110 | 13 | 365 | `/enneagram-corner/enneagram-type-1` |
+| 109 | 13 | 365 | `/enneagram-corner/enneagram-type-1` |
 | 106 | 16 | 951 | `/enneagram-corner/enneagram-type-2` |
 | 63 | 25 | 2,257 | `/enneagram-corner/relationship-communication-guide` |
 | 56 | 14 | 171 | `/enneagram-corner/enneagram-connecting-lines` |
@@ -266,7 +266,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 12,500 | 8.7 | 25 (22/3) | 22 (22/0) | The Enneagram and Mental Illness: Understand Each Type's Predispositi… | `/enneagram-corner/enneagram-and-mental-illness` |
 | 12,004 | 6.9 | 9 (9/0) | 16 (16/0) | What Enneagram Type Is Your Zodiac Sign? The Complete Correlation Cha… | `/enneagram-corner/astrology-and-the-enneagram` |
 | 10,468 | 11.5 | 21 (21/0) | 8 (8/0) | The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Dec… | `/enneagram-corner/enneagram-compatibility-matrix` |
-| 7,552 | 8.7 | 194 (15/179) | 41 (7/34) | Enneagram Wings: Compare All 18 Combinations and Find Your Pattern | `/enneagram-corner/enneagram-wings-complete-guide` |
+| 7,552 | 8.7 | 195 (15/180) | 41 (7/34) | Enneagram Wings: Compare All 18 Combinations and Find Your Pattern | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 6,647 | 9.3 | 20 (20/0) | 19 (19/0) | Toxic Traits of Each Enneagram Type (and Which One Is the Worst) | `/enneagram-corner/toxic-traits-of-each-enneagram-type` |
 | 5,699 | 7.2 | 26 (14/12) | 3 (3/0) | Depression Patterns by Enneagram Type | `/enneagram-corner/depression-patterns-by-enneagram-type` |
 | 5,324 | 7.7 | 5 (5/0) | 9 (9/0) | How Common Is Each Enneagram Type? (Rarest to Most Common, and Why th… | `/enneagram-corner/how-common-is-each-enneagram-type` |
@@ -281,10 +281,10 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 2,848 | 10.6 | 7 (7/0) | 4 (4/0) | Best Free Enneagram Tests (2026): An Honest Comparison | `/enneagram-corner/enneagram-test-comparison-2026` |
 | 2,678 | 27.0 | 159 (55/104) | 15 (15/0) | Enneagram Type 3: Achiever - Success Becomes Identity | `/enneagram-corner/enneagram-type-3` |
 | 2,675 | 7.1 | 5 (5/0) | 13 (13/0) | Which Enneagram Type Is Most Likely to Be a Narcissist? (Every Type H… | `/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist` |
-| 2,547 | 33.0 | 131 (55/76) | 18 (18/0) | Enneagram Type 9: Peacemaker - Finding Your Voice | `/enneagram-corner/enneagram-type-9` |
+| 2,547 | 33.0 | 132 (55/77) | 18 (18/0) | Enneagram Type 9: Peacemaker - Finding Your Voice | `/enneagram-corner/enneagram-type-9` |
 | 2,507 | 8.5 | 4 (4/0) | 20 (20/0) | Your Enneagram Guide to Toxic Traits in a Relationship (and the Early… | `/enneagram-corner/toxic-traits-relationships-warning-signs` |
 | 2,496 | 9.2 | 19 (19/0) | 6 (6/0) | Is the Enneagram Scientifically Valid? What Research Says | `/enneagram-corner/mental-health/enneagram-science-mental-health` |
-| 2,356 | 38.7 | 135 (50/85) | 16 (16/0) | Enneagram Type 4: Individualist - The Missing Piece | `/enneagram-corner/enneagram-type-4` |
+| 2,356 | 38.7 | 136 (50/86) | 16 (16/0) | Enneagram Type 4: Individualist - The Missing Piece | `/enneagram-corner/enneagram-type-4` |
 | 2,257 | 31.3 | 63 (51/12) | 25 (25/0) | Relationship Communication Guide: The Enneagram Key | `/enneagram-corner/relationship-communication-guide` |
 | 2,066 | 12.6 | 9 (8/1) | 13 (13/0) | Enneagram Careers: Find the Working Conditions That Fit You | `/enneagram-corner/enneagram-types-and-career-choices` |
 | 2,034 | 8.5 | 15 (15/0) | 6 (6/0) | The Enneagram's Place in Personality Science: An Honest Audit | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` |
@@ -292,7 +292,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 1,892 | 8.1 | 12 (7/5) | 15 (15/0) | Enneagram and Addiction: Why Each Type Self-Medicates Differently | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` |
 | 1,870 | 18.2 | 213 (71/142) | 17 (17/0) | Enneagram Types in Stress: Stress Points, Arrows, and the Loop Undern… | `/enneagram-corner/enneagram-types-in-stress` |
 | 1,560 | 11.1 | 30 (15/15) | 9 (9/0) | Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety P… | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` |
-| 1,531 | 51.9 | 143 (52/91) | 26 (15/11) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
+| 1,531 | 51.9 | 144 (52/92) | 26 (15/11) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
 | 1,472 | 51.6 | 5 (5/0) | 19 (19/0) | The 9 Coworker Types: Each Enneagram as Boss, Peer, Report | `/enneagram-corner/enneagram-types-working-in-teams` |
 | 1,462 | 23.7 | 4 (4/0) | 3 (3/0) | Is the Enneagram Religious? (The Truth About Its Spiritual Origins) | `/enneagram-corner/enneagram-and-religion` |
 | 1,404 | 6.7 | 26 (26/0) | 17 (17/0) | Why They Ghosted You (Based on Their Enneagram Type) | `/enneagram-corner/enneagram-types-being-ghosted` |
@@ -327,7 +327,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 405 | 16.2 | 3 (3/0) | 10 (10/0) | How Each Enneagram Type Resists Therapy | `/enneagram-corner/mental-health/enneagram-therapy-resistance-guide` |
 | 400 | 8.5 | 12 (12/0) | 19 (19/0) | Enneagram Types on a First Date: What to Expect | `/enneagram-corner/enneagram-types-on-a-first-date` |
 | 395 | 10.8 | 27 (27/0) | 21 (21/0) | The Party Test: What Your Social Style Reveals About Your Type | `/enneagram-corner/enneagram-types-at-party` |
-| 365 | 13.3 | 110 (49/61) | 13 (13/0) | Enneagram Type 1: Perfectionist - The Inner Courtroom | `/enneagram-corner/enneagram-type-1` |
+| 365 | 13.3 | 109 (49/60) | 13 (13/0) | Enneagram Type 1: Perfectionist - The Inner Courtroom | `/enneagram-corner/enneagram-type-1` |
 | 362 | 11.4 | 3 (3/0) | 17 (17/0) | How All 9 Enneagram Types Flex (And What They Need) | `/enneagram-corner/how-each-enneagram-flexes` |
 | 354 | 13.4 | 3 (3/0) | 5 (5/0) | How Each Enneagram Type Unwinds: Your Stress-Relief Formula | `/enneagram-corner/how-each-enneagram-type-unwinds` |
 | 351 | 24.8 | 7 (7/0) | 16 (16/0) | Enneagram vs Myers-Briggs: Which Actually Explains You Better? | `/enneagram-corner/enneagram-vs-meyers-briggs` |

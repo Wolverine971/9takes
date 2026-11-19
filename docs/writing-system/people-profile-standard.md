@@ -172,7 +172,7 @@ Every source, claim, attribution and quotation rule applies unchanged. Thin is a
 - Keep `## What is <Name>'s personality type?` with a plain-language answer of at most 60 words stating the leading read, its confidence and the live alternative(s), e.g. "Leading read: Type 6, held loosely. Type 3 is the live alternative…".
 - Target roughly 1,200–2,500 words. Do not pad a thin record. The mechanical 1,200-word and four-H2 floors still apply.
 - Titles, descriptions and FAQs must not overstate. Use "leading read" or "open case" language, not "is a Type X". The type FAQ mirrors the 60-word answer.
-- Do not describe the site's open-case badge or explainer note; the page adds both automatically.
+- Include a TL;DR box (required for open cases, unlike standard profiles) on its own lines just before the `## What is <Name>'s personality type?` H2, in the site's accordion format: `<details>` / `<summary class="accordion">TL;DR: Why <Name> reads as an Enneagram Type N (open case)</summary>` / `<div class="panel"><ul><li>…</li></ul></div>` / `</details>`. Use 4–6 bullets drawn only from the draft: the leading read and its core motive, the strongest evidence, the live alternative(s), what would settle it, and a last bullet saying the record is young, so this is a leading read, not a verdict. Use HTML (`<em>`), not Markdown, inside the box. The page shows no open-case badge or closing note (removed 2026-11-17), so this box is where the reader learns the case is open. The release gate blocks an open case without it (`open_case_missing_tldr`).
 
 **Scoring an open case.** The verifier uses these anchors in place of the standard Enneagram and durability anchors:
 
@@ -180,9 +180,9 @@ Every source, claim, attribution and quotation rule applies unchanged. Thin is a
 - **Durability 8 (open case):** Every changing fact is dated. The settle signals and `next_review` make the page easy to reopen. What the page says is known would stay true even if a later run settles on the alternative.
 - **Evidence:** accuracy and attribution standards are unchanged. Penalize overreach, not thinness itself.
 
-Open-case release floors are the same numbers as a standard profile (overall ≥8.0, discoverability ≥7, evidence ≥7.5, Enneagram ≥7, durability ≥7; `QUALITY_GATES.open_case` in `scripts/lib/blogEditorial.js`), scored against the open-case anchors above. The five-year-test flag is not required for an open case; `open_case_eligible` is. Coverage, metadata consistency, alternative-type, claim and source integrity checks are unchanged. The release records `content_quality.profile_format: open_case`, which drives the site's open-case badge and explainer.
+Open-case release floors are the same numbers as a standard profile (overall ≥8.0, discoverability ≥7, evidence ≥7.5, Enneagram ≥7, durability ≥7; `QUALITY_GATES.open_case` in `scripts/lib/blogEditorial.js`), scored against the open-case anchors above. The five-year-test flag is not required for an open case; `open_case_eligible` is. Coverage, metadata consistency, alternative-type, claim and source integrity checks are unchanged. The release records `content_quality.profile_format: open_case`; the page renders no badge or explainer from it, so the TL;DR box carries that message.
 
-**Closing a case.** When a later `--refresh` finds a defensible discriminator, research returns to `profile_format: "standard"` and the profile graduates to a normal one (the badge disappears with the new release). Use `--refresh --expanded-review` whenever the leading type changes.
+**Closing a case.** When a later `--refresh` finds a defensible discriminator, research returns to `profile_format: "standard"` and the profile graduates to a normal one (rewrite the TL;DR to commit to the type). Use `--refresh --expanded-review` whenever the leading type changes.
 
 ## Running, resuming and rollback
 

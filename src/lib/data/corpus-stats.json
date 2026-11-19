@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T11:03:35.665Z",
+  "generated_at": "2026-11-19T00:19:46.511Z",
   "totals": {
     "published": 468,
     "unpublished_drafts": 106
@@ -262,7 +262,7 @@
         "entrepreneur",
         "business"
       ],
-      "total": 84,
+      "total": 85,
       "counts_by_type": {
         "1": 7,
         "2": 1,
@@ -270,43 +270,43 @@
         "4": 4,
         "5": 20,
         "6": 9,
-        "7": 11,
+        "7": 12,
         "8": 8,
         "9": 3
       },
       "share_by_type": {
-        "1": 0.0833,
-        "2": 0.0119,
-        "3": 0.25,
-        "4": 0.0476,
-        "5": 0.2381,
-        "6": 0.1071,
-        "7": 0.131,
-        "8": 0.0952,
-        "9": 0.0357
+        "1": 0.0824,
+        "2": 0.0118,
+        "3": 0.2471,
+        "4": 0.0471,
+        "5": 0.2353,
+        "6": 0.1059,
+        "7": 0.1412,
+        "8": 0.0941,
+        "9": 0.0353
       },
       "diff_vs_baseline_pp": {
-        "1": 1.71,
-        "2": -5.01,
-        "3": 7.05,
-        "4": -9.55,
-        "5": 15.48,
-        "6": -2.11,
-        "7": -0.37,
-        "8": -0.73,
-        "9": -6.47
+        "1": 1.61,
+        "2": -5.02,
+        "3": 6.76,
+        "4": -9.61,
+        "5": 15.2,
+        "6": -2.23,
+        "7": 0.66,
+        "8": -0.84,
+        "9": -6.51
       },
       "top_over_represented": {
         "type": 5,
-        "share": 0.2381,
+        "share": 0.2353,
         "count": 20,
-        "delta_pp": 15.48
+        "delta_pp": 15.2
       },
       "top_under_represented": {
         "type": 4,
-        "share": 0.0476,
+        "share": 0.0471,
         "count": 4,
-        "delta_pp": -9.55
+        "delta_pp": -9.61
       }
     },
     "comedy": {
@@ -660,8 +660,8 @@
     "in_draft": 106,
     "draft_min_content_chars": 2000,
     "published_last_30_days": 15,
-    "published_last_90_days": 35,
-    "avg_new_per_month": 11.7
+    "published_last_90_days": 34,
+    "avg_new_per_month": 11.3
   },
   "freshness": {
     "updated_last_30_days": 15,
@@ -676,9 +676,9 @@
     "Among 104 profiles in the Creators & Internet Personalities category on 9takes, Type 7 (Enthusiast) is over-represented at 23.1% — +9.62 percentage points above the corpus baseline.",
     "Among 86 profiles in the Musicians & Artists category on 9takes, Type 4 (Individualist) is over-represented at 36.0% — +21.73 percentage points above the corpus baseline.",
     "Among 63 profiles in the Politics & Public Figures category on 9takes, Type 2 (Helper) is over-represented at 15.9% — +9.68 percentage points above the corpus baseline.",
-    "Among 84 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.48 percentage points above the corpus baseline.",
+    "Among 85 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.5% — +15.2 percentage points above the corpus baseline.",
     "Among 36 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 41.7% — +28.21 percentage points above the corpus baseline.",
     "Among 27 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 33.3% — +25 percentage points above the corpus baseline.",
-    "106 more profiles exist as unpublished drafts on 9takes, and ~11.7 new profiles were published per month over the last 90 days."
+    "106 more profiles exist as unpublished drafts on 9takes, and ~11.3 new profiles were published per month over the last 90 days."
   ]
 }

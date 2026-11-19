@@ -17,7 +17,7 @@
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 18,
-		"peopleToPeople": 3,
+		"peopleToPeople": 5,
 		"skipped": 329
 	},
 	"gateDebt": [],
@@ -1593,6 +1593,25 @@
 	],
 	"peopleToPeople": [
 		{
+			"id": "/personality-analysis/andrew-callaghan -> /personality-analysis/hunter-biden",
+			"source": {
+				"url": "/personality-analysis/andrew-callaghan",
+				"file": "src/blog/people/drafts/Andrew-Callaghan.md",
+				"outCount": 7
+			},
+			"target": {
+				"url": "/personality-analysis/hunter-biden",
+				"name": "Hunter Biden",
+				"inCount": 0,
+				"impressions": 14,
+				"position": 5.4
+			},
+			"line": 283,
+			"anchor": "Hunter Biden",
+			"excerpt": "In July 2025, Channel 5 posted a three-hour interview with Hunter Biden that made national news. Biden tore into George Clooney and the Democrats who pushed his father out, and repeated a claim, which he credited to the writer Michael Wolff, that Jeffrey Epstein introduced Melania to Donald Trump.",
+			"typeClaim": null
+		},
+		{
 			"id": "/personality-analysis/marc-andreessen -> /personality-analysis/geoffrey-hinton",
 			"source": {
 				"url": "/personality-analysis/marc-andreessen",
@@ -1647,6 +1666,25 @@
 			"line": 176,
 			"anchor": "Geoffrey Hinton",
 			"excerpt": "Geoffrey Hinton tells a story about the first time he met him. A young student knocked on his University of Toronto office door and said he was cooking fries over the summer but would rather be working in Hinton's lab. Make an appointment, Hinton said. \"How about now.\" Hinton handed him the Nature paper on backpropagation. A week later the student came back and said he hadn't understood it, and Hinton was disappointed: \"it's only the chain rule.\" \"Oh no, no, I understood that,\" the student said. \"I just don't understand why you don't give the gradient to a sensible function optimizer,\" a question Hinton says \"took us quite a few years to think about.\" ([Geoffrey Hinton, Sana AI Summit, 2024](https://www.youtube.com/watch?v=4W5askrV-wY))",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/andrew-callaghan -> /personality-analysis/clavicular",
+			"source": {
+				"url": "/personality-analysis/andrew-callaghan",
+				"file": "src/blog/people/drafts/Andrew-Callaghan.md",
+				"outCount": 7
+			},
+			"target": {
+				"url": "/personality-analysis/clavicular",
+				"name": "Clavicular",
+				"inCount": 1,
+				"impressions": 1705,
+				"position": 12.7
+			},
+			"line": 293,
+			"anchor": "Clavicular",
+			"excerpt": "In March 2026 came a clip that showed his limits. On a Kick livestream, the looksmaxxing streamer Clavicular asked whether he was satisfied with everything he saw in the mirror. \"Yeah, more or less,\" Callaghan said. Clavicular ended the interview. Callaghan's text afterward: \"I low key mogged him.\"",
 			"typeClaim": null
 		}
 	]

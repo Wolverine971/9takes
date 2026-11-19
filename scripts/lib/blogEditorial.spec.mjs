@@ -7,6 +7,7 @@ import {
 	editorialHash,
 	evidenceSchema,
 	matchesEditorialHash,
+	openCaseShapeBlockers,
 	profileFormat,
 	validateEvidence
 } from './blogEditorial.js';
@@ -222,5 +223,29 @@ describe('open-case quality', () => {
 		expect(profileFormat({ profile_format: 'open_case' })).toBe('open_case');
 		expect(profileFormat({})).toBe('standard');
 		expect(profileFormat(null)).toBe('standard');
+	});
+});
+
+describe('openCaseShapeBlockers', () => {
+	const tldr =
+		'<details>\n<summary class="accordion">TL;DR: Why X reads as an Enneagram Type 6 (open case)</summary>\n<div class="panel"><ul><li>a</li></ul></div>\n</details>';
+	const settle = '## What would settle it\n\nText.';
+
+	it('passes an open case with a TL;DR box and a settle section', () => {
+		expect(openCaseShapeBlockers(`---\ntitle: x\n---\n\nIntro.\n\n${tldr}\n\n${settle}`)).toEqual(
+			[]
+		);
+	});
+
+	it('blocks an open case with no TL;DR box', () => {
+		expect(openCaseShapeBlockers(`---\ntitle: x\n---\n\nIntro.\n\n${settle}`)).toEqual([
+			'open_case_missing_tldr'
+		]);
+	});
+
+	it('blocks an open case with no settle section', () => {
+		expect(openCaseShapeBlockers(`---\ntitle: x\n---\n\n${tldr}`)).toEqual([
+			'open_case_missing_settle_section'
+		]);
 	});
 });

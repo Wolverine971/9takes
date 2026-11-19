@@ -348,6 +348,23 @@ export function validateEvidence(raw, subject, markdown) {
 	return evidence;
 }
 /** @param {string} markdown @returns {string[]} */
+/**
+ * Page furniture an open case must carry. The profile page no longer adds an
+ * open-case badge or closing note (DJ, 2026-11-17), so the draft's own TL;DR box
+ * is where the reader learns this is a leading read, not a verdict.
+ * @param {string} markdown
+ * @returns {string[]}
+ */
+export function openCaseShapeBlockers(markdown) {
+	const body = matter(markdown, {}).content;
+	/** @type {string[]} */
+	const blockers = [];
+	if (!/^##\s+What would settle it\b/im.test(body))
+		blockers.push('open_case_missing_settle_section');
+	if (!/<summary class="accordion">\s*TL;DR\b/i.test(body)) blockers.push('open_case_missing_tldr');
+	return blockers;
+}
+
 export function priorBlockers(markdown) {
 	const p = matter(markdown, {}).data.production_pretext;
 	if (!p) return [];
@@ -473,7 +490,7 @@ export function calculateQuality(verification, format = 'standard') {
 		caps_applied: [],
 		needs_review: verification.status !== 'pass',
 		content_sha256: verification.content_sha256,
-		// Synced to the DB; the profile page reads it to render the open-case badge/note.
+		// Synced to the DB (isOpenCase in the page load); the page itself renders no badge.
 		...(format === 'open_case' ? { profile_format: 'open_case' } : {})
 	};
 }
@@ -559,8 +576,7 @@ export function assessEditorial({
 		if (format === 'open_case') {
 			if (verification.open_case_eligible !== true)
 				blockers.push('verification:open_case_eligible');
-			if (!/^##\s+What would settle it\b/im.test(matter(markdown, {}).content))
-				blockers.push('open_case_missing_settle_section');
+			blockers.push(...openCaseShapeBlockers(markdown));
 		}
 		for (const f of verification.findings)
 			if (f.severity !== 'minor') blockers.push(`unresolved:${f.id}:${f.problem}`);

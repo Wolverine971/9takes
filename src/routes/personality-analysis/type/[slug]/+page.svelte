@@ -6,7 +6,6 @@
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import EnneagramTypeIntro from '$lib/components/blog/EnneagramTypeIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
-	import TestNudge from '$lib/components/blog/TestNudge.svelte';
 	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
 	import EnneagramTypeBottom from '$lib/components/blog/EnneagramTypeBottom.svelte';
 	import CorpusStatCallout from '$lib/components/blog/callouts/CorpusStatCallout.svelte';
@@ -16,8 +15,164 @@
 		buildPersonalityImageUrl,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
+	import { portraitPhoneSrc } from '$lib/imageVariants.js';
+	import TypeVennMap from './TypeVennMap.svelte';
+	import { untrack } from 'svelte';
 
 	let { data }: { data: PageData } = $props();
+
+	// The pattern strip: one word at a time lights up every person whose persona
+	// title uses it, across every field.
+	let activeWord = $state<string | null>(null);
+	let activePattern = $derived(
+		data.patterns.find((pattern) => pattern.word === activeWord) ?? null
+	);
+	let litSlugs = $derived(new Set(activePattern?.slugs ?? []));
+
+	function togglePattern(word: string) {
+		activeWord = activeWord === word ? null : word;
+	}
+
+	type PanelPerson = PageData['people'][number];
+
+	let peopleBySlug = $derived(new Map(data.people.map((person) => [person.slug, person])));
+
+	// The zoomed field: the map zooms in and the panel below lists who's in it.
+	let focusedField = $state<string | null>(null);
+	let focusedGroup = $derived(
+		data.peopleGroups.find((group) => group.slug === focusedField) ?? null
+	);
+	// Crossovers filed elsewhere who also sit in the zoomed field's overlaps.
+	let focusedCrossovers = $derived.by(() => {
+		if (!focusedField) return [];
+		const homeSlugs = new Set(focusedGroup?.people.map((person) => person.slug));
+		const byField = new Map<string, PanelPerson[]>();
+		for (const overlap of data.venn.wide.overlaps) {
+			if (overlap.a !== focusedField && overlap.b !== focusedField) continue;
+			for (const face of overlap.faces) {
+				const person = peopleBySlug.get(face.slug);
+				if (!person || homeSlugs.has(face.slug)) continue;
+				const home = overlap.a === focusedField ? overlap.b : overlap.a;
+				byField.set(home, [...(byField.get(home) ?? []), person]);
+			}
+		}
+		return [...byField.entries()].map(([field, people]) => {
+			const group = data.peopleGroups.find((candidate) => candidate.slug === field);
+			return { field, label: group?.shortLabel ?? field, people };
+		});
+	});
+
+	// For the "what you're looking at" line under the map.
+	let biggestField = $derived(
+		data.peopleGroups.find((group) => group.slug !== 'more')?.label ?? ''
+	);
+	let patternWords = $derived(
+		data.patterns
+			.slice(0, 3)
+			.map((pattern) => pattern.label)
+			.join(', ')
+	);
+	let mapReading = $derived(
+		[
+			`Each circle is a field where Type ${data.slug}s made their name, sized by how many we've analyzed there${biggestField ? `, and most land in ${biggestField}` : ''}.`,
+			'Faces where two circles overlap belong to both.',
+			patternWords
+				? `The words at the top (${patternWords}) are the ones our analyses keep reaching for when they describe a Type ${data.slug}.`
+				: '',
+			'Different worlds, same engine underneath:'
+		]
+			.filter(Boolean)
+			.join(' ')
+	);
+
+	// Wings are the numbers either side; the lines are where the type moves in
+	// growth and under stress (the standard Enneagram arrows).
+	const GROWTH: Record<string, string> = {
+		'1': '7',
+		'2': '4',
+		'3': '6',
+		'4': '1',
+		'5': '8',
+		'6': '9',
+		'7': '5',
+		'8': '2',
+		'9': '3'
+	};
+	const STRESS: Record<string, string> = {
+		'1': '4',
+		'2': '8',
+		'3': '9',
+		'4': '2',
+		'5': '7',
+		'6': '3',
+		'7': '1',
+		'8': '5',
+		'9': '6'
+	};
+	let neighbors = $derived.by(() => {
+		const n = Number(data.slug);
+		if (!Number.isInteger(n) || n < 1 || n > 9) return [];
+		const wrap = (value: number) => String(((value + 8) % 9) + 1);
+		return [
+			{ key: 'wing-low', role: 'Wing', type: wrap(n - 1) },
+			{ key: 'wing-high', role: 'Wing', type: wrap(n + 1) },
+			{ key: 'growth', role: 'Grows toward', type: GROWTH[data.slug] },
+			{ key: 'stress', role: 'Under stress', type: STRESS[data.slug] }
+		];
+	});
+	let neighborRole = $derived(new Map(neighbors.map((neighbor) => [neighbor.type, neighbor.role])));
+
+	// "On this page": the map, then every h2 in the reading column.
+	let tocItems = $state<{ id: string; text: string }[]>([]);
+	let activeTocId = $state('');
+	let readingEl = $state<HTMLElement | null>(null);
+	let railsOn = $state(false);
+
+	function collectHeadings(article: HTMLElement) {
+		const used = new Set<string>();
+		const items = [{ id: 'type-map', text: `The Type ${data.slug} map` }];
+		for (const heading of article.querySelectorAll('h2')) {
+			if (!heading.id) {
+				let id = (heading.textContent ?? '')
+					.toLowerCase()
+					.replace(/[^a-z0-9]+/g, '-')
+					.replace(/^-|-$/g, '');
+				while (used.has(id) || document.getElementById(id)) id += '-x';
+				heading.id = id;
+			}
+			used.add(heading.id);
+			items.push({ id: heading.id, text: (heading.textContent ?? '').trim() });
+		}
+		tocItems = items;
+		untrack(updateRails);
+	}
+
+	function updateRails() {
+		if (!readingEl) return;
+		const box = readingEl.getBoundingClientRect();
+		const viewport = window.innerHeight;
+		railsOn = box.top < viewport * 0.55 && box.bottom > viewport * 0.5;
+		let current = '';
+		for (const item of tocItems) {
+			const target = document.getElementById(item.id);
+			if (target && target.getBoundingClientRect().top < 160) current = item.id;
+		}
+		activeTocId = current;
+	}
+
+	function focusField(slug: string | null) {
+		focusedField = slug;
+	}
+
+	/** Splits a persona title so the active pattern word can be marked. */
+	function titleParts(title: string, word: string | null): { text: string; hit: boolean }[] {
+		if (!word) return [{ text: title, hit: false }];
+		const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+		return title
+			.split(new RegExp(`(\\b${escaped}\\b)`, 'i'))
+			.filter(Boolean)
+			.map((text) => ({ text, hit: text.toLowerCase() === word }));
+	}
 
 	type EnneagramTypeMeta = {
 		name: string;
@@ -385,6 +540,8 @@
 	let canonicalUrl = $derived(typeUrl);
 </script>
 
+<svelte:window onscroll={updateRails} onresize={updateRails} />
+
 <svelte:head>
 	{@html `<script type="application/ld+json">${serializeJsonLd(structuredData)}</script>`}
 </svelte:head>
@@ -410,247 +567,382 @@
 />
 
 <div class="page-wrapper" style={`--type-accent: var(--type-${data.slug}-color);`}>
-	<nav class="breadcrumbs" aria-label="Breadcrumb">
-		<ol>
-			<li><a href="/">Home</a></li>
-			<li><a href="/personality-analysis">Personality Analysis</a></li>
-			<li aria-current="page">Type {data.slug}: {typeInfo.name}</li>
-		</ol>
-	</nav>
+	<header class="hub-head">
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
+			<ol>
+				<li><a href="/">Home</a></li>
+				<li><a href="/personality-analysis">Personality Analysis</a></li>
+				<li aria-current="page">Type {data.slug}</li>
+			</ol>
+		</nav>
 
-	<header class="hero">
-		<div class="type-badge">
-			<span class="type-num">{data.slug}</span>
+		<div class="head-grid">
+			<div class="title-row">
+				<span class="type-badge" aria-hidden="true">{data.slug}</span>
+				<div class="title-copy">
+					<h1>
+						Famous Enneagram Type {data.slug}s<span class="h1-sep">:</span>
+						<span class="h1-name">{typeInfo.name}</span>
+					</h1>
+					<p class="lede">
+						{#if peopleCount > 0}
+							<strong>{peopleCount} people</strong>, grouped by where they made their name.
+						{/if}
+						{typeInfo.tagline}.
+					</p>
+				</div>
+			</div>
+
+			{#if data.patterns.length > 0}
+				<div class="pattern-strip">
+					<p class="strip-label" id="pattern-label">
+						What keeps showing up in Type {data.slug}s
+					</p>
+					<div class="pattern-chips" role="group" aria-labelledby="pattern-label">
+						{#each data.patterns as pattern (pattern.word)}
+							<button
+								type="button"
+								class="pattern-chip"
+								aria-pressed={activeWord === pattern.word}
+								onclick={() => togglePattern(pattern.word)}
+							>
+								{pattern.label}
+								<span class="chip-count">{pattern.count}</span>
+							</button>
+						{/each}
+					</div>
+				</div>
+			{/if}
 		</div>
-		<h1>Famous Enneagram Type {data.slug}s: {typeInfo.name}</h1>
-		<p class="tagline">{typeInfo.tagline}</p>
-		{#if typeInfo.summary}
-			<p class="hero-summary">{typeInfo.summary}</p>
+
+		{#if data.peopleGroups.length > 1}
+			<div class="field-nav" role="group" aria-label={`Zoom into a field of Type ${data.slug}s`}>
+				<ul>
+					{#each data.peopleGroups as group (group.slug)}
+						<li>
+							<button
+								type="button"
+								aria-pressed={focusedField === group.slug}
+								onclick={() => focusField(focusedField === group.slug ? null : group.slug)}
+								style:--group-accent={group.accent ?? 'var(--text-faint)'}
+							>
+								<span class="field-dot" aria-hidden="true"></span>
+								{group.shortLabel}
+							</button>
+						</li>
+					{/each}
+				</ul>
+			</div>
 		{/if}
 	</header>
 
-	<article class="enneagram-type-page">
-		<EnneagramTypeIntro type={data.slug} />
-
-		<TestNudge
-			lead={`Think you might be a ${data.slug}?`}
-			linkLabel="Check with the free test"
-			placement="type_hub_top"
-		/>
-
-		{#if corpusInsight}
-			<CorpusStatCallout
-				claim={corpusInsight.claim}
-				eyebrow={`9takes Corpus Stat: ${corpusInsight.sampleLabel}`}
-				domainLabel={corpusInsight.domainLabel}
-				domainUrl={corpusInsight.domainUrl}
-				corpusAnchorUrl={corpusInsight.corpusAnchorUrl}
-				domainTotal={corpusInsight.sampleSize}
-				sharePct={corpusInsight.sharePct}
-				deltaPpFormatted={corpusInsight.deltaPpFormatted}
-				generatedAt={corpusInsight.generatedAt}
-			/>
-		{/if}
-
-		<section class="famous-people" aria-labelledby="famous-heading">
-			<div class="section-header">
-				<h2 id="famous-heading">Famous Type {data.slug}s: {typeInfo.name} Examples</h2>
-				<span class="people-count">{peopleCount} personalities</span>
-			</div>
-			{#if peopleCount > 0}
-				<p class="groups-intro">
-					Explore Type {data.slug} personalities by field to see how the same motivations show up in different
-					worlds.
-				</p>
-				{#if data.peopleGroups.length > 1}
-					<nav class="group-nav" aria-label={`Browse Type ${data.slug} personalities by field`}>
-						<ul>
-							{#each data.peopleGroups as group (group.slug)}
-								<li>
-									<a href={`#people-${group.slug}`}>
-										{group.label} <span class="group-nav-count">{group.people.length}</span>
-									</a>
-								</li>
-							{/each}
-						</ul>
-					</nav>
-				{/if}
-				<div class="spotlight-wall">
-					{#each data.peopleGroups as group (group.slug)}
-						{@const lead = group.people[0]}
-						{@const crowdCount = group.people.length - 1}
-						<article
-							class="spotlight-card"
-							aria-labelledby={`people-${group.slug}`}
-							style:--group-accent={group.accent ?? 'var(--lamp-glow)'}
-						>
-							<div class="spotlight-head">
-								<!-- Duplicate of the name link; kept out of tab order and screen readers. -->
-								<a
-									href={buildPersonalityAnalysisPath(lead.slug)}
-									class="lead-portrait personality-portrait-well"
-									tabindex="-1"
-									aria-hidden="true"
-								>
-									{#if lead.enneagram}
-										<img
-											loading="lazy"
-											class="personality-portrait-image"
-											src={buildPersonalityImagePath(lead.enneagram, lead.slug, 'thumbnail')}
-											alt={portraitAlt(lead.slug)}
-											width="104"
-											height="104"
-										/>
-									{/if}
-								</a>
-								<div class="spotlight-meta">
-									<h3 id={`people-${group.slug}`} class="group-label">
-										<span class="group-dot" aria-hidden="true"></span>
-										{group.label}
-										<span class="group-count">{group.people.length}</span>
-									</h3>
-									<a
-										href={buildPersonalityAnalysisPath(lead.slug)}
-										class="lead-name"
-										style:--tag={transitionTag(lead)}
-									>
-										{formatPersonalityDisplayName(lead.slug)}
-									</a>
-									<p class="lead-more">
-										{crowdCount > 0 ? `+ ${crowdCount} more` : 'The only one profiled so far'}
-									</p>
-								</div>
-							</div>
-							{#each group.lanes as lane (lane.slug)}
-								<div class="lane">
-									{#if lane.label}
-										<h4 class="lane-label">{lane.label}</h4>
-									{/if}
-									<div class="crowd" aria-hidden="true">
-										{#each lane.people as person (person.slug)}
-											<a
-												href={buildPersonalityAnalysisPath(person.slug)}
-												class="crowd-face personality-portrait-well"
-												tabindex="-1"
-												title={formatPersonalityDisplayName(person.slug)}
-											>
-												{#if person.enneagram}
-													<img
-														loading="lazy"
-														class="personality-portrait-image"
-														src={buildPersonalityImagePath(
-															person.enneagram,
-															person.slug,
-															'thumbnail'
-														)}
-														alt={portraitAlt(person.slug)}
-														width="52"
-														height="52"
-													/>
-												{/if}
-											</a>
-										{/each}
-									</div>
-									<p class="crowd-names">
-										{#each lane.people as person, index (person.slug)}
-											<a
-												href={buildPersonalityAnalysisPath(person.slug)}
-												style:--tag={transitionTag(person)}
-												>{formatPersonalityDisplayName(person.slug)}</a
-											>{#if index < lane.people.length - 1}<span class="name-sep" aria-hidden="true"
-													>{'\u00a0· '}</span
-												>{/if}
-										{/each}
-									</p>
-								</div>
-							{/each}
-						</article>
-					{/each}
-				</div>
+	<div class="hub-body">
+		<section
+			class="famous-people"
+			id="type-map"
+			aria-label={`Famous Type ${data.slug}s mapped by field`}
+		>
+			{#if peopleCount === 0}
+				<p class="empty">More Type {data.slug} personality profiles are on the way.</p>
 			{:else}
-				<p class="groups-intro">More Type {data.slug} personality profiles are on the way.</p>
+				<p class="map-hint"><span class="hint-action">Tap a circle to zoom in.</span></p>
+				<div class="map map-wide">
+					<TypeVennMap
+						layout={data.venn.wide}
+						people={peopleBySlug}
+						focused={focusedField}
+						lit={activePattern ? litSlugs : null}
+						typeLabel={`Type ${data.slug} (${typeInfo.name})`}
+						listHref="#niche-panel"
+						onfocus={focusField}
+					/>
+				</div>
+				<div class="map map-tall">
+					<TypeVennMap
+						layout={data.venn.tall}
+						people={peopleBySlug}
+						focused={focusedField}
+						lit={activePattern ? litSlugs : null}
+						typeLabel={`Type ${data.slug} (${typeInfo.name})`}
+						listHref="#niche-panel"
+						onfocus={focusField}
+					/>
+				</div>
+			{/if}
+
+			{#if focusedGroup}
+				{@const lead = focusedGroup.people[0]}
+				<section
+					class="niche-panel"
+					id="niche-panel"
+					aria-labelledby="niche-heading"
+					style:--group-accent={focusedGroup.accent ?? 'var(--text-faint)'}
+				>
+					<header class="field-head">
+						<h2 id="niche-heading">
+							<span class="field-dot" aria-hidden="true"></span>
+							{focusedGroup.label}
+						</h2>
+						{#if lead?.hook && focusedGroup.people.length > 1}
+							<a class="field-hook" href={buildPersonalityAnalysisPath(lead.slug)}>{lead.hook}</a>
+						{/if}
+					</header>
+					<div class="lanes">
+						{#each focusedGroup.lanes as lane (lane.slug)}
+							{@render laneCards(lane.label, lane.people, lane.slug)}
+						{/each}
+						{#each focusedCrossovers as shared (shared.field)}
+							{@render laneCards(
+								`Shared with ${shared.label}`,
+								shared.people,
+								`shared-${shared.field}`
+							)}
+						{/each}
+					</div>
+				</section>
 			{/if}
 		</section>
 
-		<EnneagramTypeBottom type={data.slug} />
-
-		<TestYourTypeCTA
-			heading={`Are you a Type ${data.slug} too?`}
-			body="Take the free 9takes Enneagram test. It starts with the emotion that runs you, takes 5 to 10 minutes, needs no email, and lets someone who knows you check your result."
-			compact
-		/>
-
-		<nav class="sibling-types" aria-label="Other Enneagram types">
-			<h2>Explore the Other Enneagram Types</h2>
-			<ul>
-				{#each SIBLING_TYPES as siblingSlug (siblingSlug)}
-					{@const meta = enneagramTypes[siblingSlug]}
-					{#if siblingSlug === data.slug}
-						<li
-							class="current"
-							aria-current="page"
-							style={`--sibling-accent: var(--type-${siblingSlug}-color);`}
-						>
-							<span class="sibling-num">{siblingSlug}</span>
-							<span class="sibling-name">{meta.name}</span>
-						</li>
-					{:else}
-						<li style={`--sibling-accent: var(--type-${siblingSlug}-color);`}>
-							<a href={`/personality-analysis/type/${siblingSlug}`}>
-								<span class="sibling-num">{siblingSlug}</span>
-								<span class="sibling-name">{meta.name}</span>
+		{#snippet laneCards(label: string, lanePeople: PanelPerson[], key: string)}
+			<div class="lane" data-lane={key}>
+				{#if label}
+					<h3 class="lane-label">{label}</h3>
+				{/if}
+				<ul class="faces">
+					{#each lanePeople as person (person.slug)}
+						{@const fullPath = buildPersonalityImagePath(person.enneagram, person.slug, 'full')}
+						{@const isLit = litSlugs.has(person.slug)}
+						<li class={['face', activePattern && (isLit ? 'face-lit' : 'face-dim')]}>
+							<a href={buildPersonalityAnalysisPath(person.slug)} class="face-link">
+								<span class="portrait personality-portrait-well">
+									{#if person.enneagram}
+										<picture>
+											{#if portraitPhoneSrc(fullPath)}
+												<source type="image/avif" srcset={portraitPhoneSrc(fullPath)} />
+											{/if}
+											<img
+												class="personality-portrait-image"
+												src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
+												alt={portraitAlt(person.slug)}
+												width="240"
+												height="240"
+												loading="lazy"
+												decoding="async"
+											/>
+										</picture>
+									{/if}
+									{#if person.hook}
+										<span class="hook" aria-hidden="true">{person.hook}</span>
+									{/if}
+								</span>
+								<span class="face-name" style:--tag={transitionTag(person)}>
+									{formatPersonalityDisplayName(person.slug)}
+								</span>
+								{#if person.personaTitle}
+									<span class="persona">
+										{#each titleParts(person.personaTitle, activeWord) as part, partIndex (partIndex)}
+											{#if part.hit}<mark>{part.text}</mark>{:else}{part.text}{/if}
+										{/each}
+									</span>
+								{/if}
 							</a>
 						</li>
-					{/if}
-				{/each}
-			</ul>
-			<p class="sibling-all">
-				<a href="/personality-analysis#enneagram-celebrities"
-					>See all nine side by side: Enneagram celebrities by type <span aria-hidden="true"
-						>&rarr;</span
-					></a
-				>
-			</p>
-		</nav>
+					{/each}
+				</ul>
+			</div>
+		{/snippet}
 
-		{#if corpusInsight || !data?.user}
-			<footer>
-				{#if corpusInsight}
-					<p class="corpus-links">
-						Want the raw numbers? See the
-						<a href="/corpus-stats#enneagram-distribution"
-							>full type distribution across {corpusInsight.corpusPublished} profiles</a
-						>
-						or the
-						<a href="/corpus-stats#per-type-domains"
-							>per-type domain breakdown for Type {data.slug}</a
-						>.
-					</p>
-				{/if}
-				{#if !data?.user}
-					<div class="email-signup">
-						<EmailSignup />
-					</div>
-				{/if}
-			</footer>
+		{#if activePattern}
+			<div class="pattern-status" role="status">
+				<span>
+					<strong>{activePattern.label}</strong>
+					· {activePattern.count} Type {data.slug}s
+				</span>
+				<button type="button" onclick={() => (activeWord = null)} aria-label="Clear highlight">
+					Clear
+				</button>
+			</div>
 		{/if}
-	</article>
+
+		<div class="hub-reading" bind:this={readingEl}>
+			<article class="type-explainer" aria-labelledby="explainer-heading" {@attach collectHeadings}>
+				<header class="explainer-head">
+					<div class="explainer-intro">
+						<p class="explainer-eyebrow">The pattern behind the faces</p>
+						<h2 id="explainer-heading">What makes someone a Type {data.slug}</h2>
+						{#if peopleCount > 0}
+							<p class="explainer-read">{mapReading}</p>
+						{/if}
+					</div>
+					<div class="explainer-core">
+						<dl class="core-pair">
+							<div>
+								<dt>Core fear</dt>
+								<dd>{typeInfo.coreFear}</dd>
+							</div>
+							<div>
+								<dt>Core desire</dt>
+								<dd>{typeInfo.coreDesire}</dd>
+							</div>
+						</dl>
+						{#if typeInfo.summary}
+							<p class="explainer-summary">{typeInfo.summary}</p>
+						{/if}
+					</div>
+				</header>
+
+				<div class="explainer-body">
+					<EnneagramTypeIntro type={data.slug} />
+
+					<div class="cta-slot">
+						<TestYourTypeCTA
+							heading={`Are you a Type ${data.slug} too?`}
+							body="Take the free 9takes Enneagram test. It starts with the emotion that runs you, takes 5 to 10 minutes, needs no email, and lets someone who knows you check your result."
+							compact
+						/>
+					</div>
+
+					{#if corpusInsight}
+						<CorpusStatCallout
+							claim={corpusInsight.claim}
+							eyebrow={`9takes Corpus Stat: ${corpusInsight.sampleLabel}`}
+							domainLabel={corpusInsight.domainLabel}
+							domainUrl={corpusInsight.domainUrl}
+							corpusAnchorUrl={corpusInsight.corpusAnchorUrl}
+							domainTotal={corpusInsight.sampleSize}
+							sharePct={corpusInsight.sharePct}
+							deltaPpFormatted={corpusInsight.deltaPpFormatted}
+							generatedAt={corpusInsight.generatedAt}
+						/>
+					{/if}
+
+					<EnneagramTypeBottom type={data.slug} />
+				</div>
+			</article>
+
+			<nav class="sibling-types" aria-label="Other Enneagram types">
+				<h2>See who lands in the other eight types</h2>
+				<ul>
+					{#each SIBLING_TYPES as siblingSlug (siblingSlug)}
+						{@const meta = enneagramTypes[siblingSlug]}
+						{#if siblingSlug === data.slug}
+							<li
+								class="current"
+								aria-current="page"
+								style={`--sibling-accent: var(--type-${siblingSlug}-color);`}
+							>
+								<span class="sibling-num">{siblingSlug}</span>
+								<span class="sibling-name">{meta.name}</span>
+							</li>
+						{:else}
+							<li style={`--sibling-accent: var(--type-${siblingSlug}-color);`}>
+								<a href={`/personality-analysis/type/${siblingSlug}`}>
+									<span class="sibling-num">{siblingSlug}</span>
+									<span class="sibling-name">{meta.name}</span>
+									{#if neighborRole.get(siblingSlug)}
+										<span class="sibling-tag">{neighborRole.get(siblingSlug)}</span>
+									{/if}
+								</a>
+							</li>
+						{/if}
+					{/each}
+				</ul>
+				<p class="sibling-all">
+					<a href="/personality-analysis#enneagram-celebrities"
+						>See all nine side by side: Enneagram celebrities by type <span aria-hidden="true"
+							>&rarr;</span
+						></a
+					>
+				</p>
+			</nav>
+
+			{#if corpusInsight || !data?.user}
+				<footer>
+					{#if corpusInsight}
+						<p class="corpus-links">
+							Want the raw numbers? See the
+							<a href="/corpus-stats#enneagram-distribution"
+								>full type distribution across {corpusInsight.corpusPublished} profiles</a
+							>
+							or the
+							<a href="/corpus-stats#per-type-domains"
+								>per-type domain breakdown for Type {data.slug}</a
+							>.
+						</p>
+					{/if}
+					{#if !data?.user}
+						<div class="email-signup">
+							<EmailSignup />
+						</div>
+					{/if}
+				</footer>
+			{/if}
+		</div>
+
+		<!-- Wide screens: pinned rails beside the reading column, the same pattern as
+		     Enneagram Corner posts. position: fixed, because .app-wrapper's overflow
+		     makes position: sticky a no-op on this site. -->
+		{#if tocItems.length > 0}
+			<aside class={['rail', 'rail-left', railsOn && 'rail-on']} aria-label="On this page">
+				<p class="rail-title">On this page</p>
+				<ul class="rail-toc">
+					{#each tocItems as item (item.id)}
+						<li>
+							<a href={`#${item.id}`} class={[activeTocId === item.id && 'is-active']}
+								>{item.text}</a
+							>
+						</li>
+					{/each}
+				</ul>
+			</aside>
+		{/if}
+		{#if neighbors.length > 0}
+			<aside
+				class={['rail', 'rail-right', railsOn && 'rail-on']}
+				aria-label={`Types next to Type ${data.slug}`}
+			>
+				<p class="rail-title">Type {data.slug}'s neighbors</p>
+				<ul class="rail-neighbors">
+					{#each neighbors as neighbor (neighbor.key)}
+						<li style={`--sibling-accent: var(--type-${neighbor.type}-color);`}>
+							<span class="neighbor-role">{neighbor.role}</span>
+							<a href={`/personality-analysis/type/${neighbor.type}`}>
+								<span class="sibling-num">{neighbor.type}</span>
+								{enneagramTypes[neighbor.type].name}
+							</a>
+						</li>
+					{/each}
+				</ul>
+			</aside>
+		{/if}
+	</div>
 </div>
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme - Type Page */
+	/* Two widths, both centred, matching the person pages: the header and map use
+	   the 1280px band; everything below the map reads in one 760px column (the
+	   person-page measure). Wide screens add pinned rails either side of it. */
 	.page-wrapper {
+		--hub-width: 1280px;
+		--hub-gutter: 1.5rem;
+		--prose-width: 47.5rem;
+		--rail-width: 13rem;
+		--rail-gap: 2.5rem;
 		min-height: 100vh;
-		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
+		background: var(--bg);
 	}
 
-	/* Breadcrumbs */
-	.breadcrumbs {
-		max-width: 1200px;
+	/* ---------- Header: compact, so the faces start in the first screen ---------- */
+	.hub-head {
+		max-width: calc(var(--hub-width) + 2 * var(--hub-gutter));
 		margin: 0 auto;
-		padding: 1rem 1.5rem 0;
-		font-size: 0.8125rem;
-		color: var(--ink-dim);
+		padding: 0.875rem var(--hub-gutter) 0;
+	}
+
+	.breadcrumbs {
+		font-size: var(--font-size-xs);
+		color: var(--text-faint);
+		position: relative;
 
 		ol {
 			list-style: none;
@@ -667,365 +959,518 @@
 
 			&:not(:last-child)::after {
 				content: '/';
-				margin: 0 0.5rem;
-				color: var(--ink-dim);
+				margin: 0 0.4rem;
 				opacity: 0.6;
 			}
 
 			&[aria-current='page'] {
-				color: var(--lamp-glow);
-				font-weight: 500;
+				color: var(--text-muted);
 			}
 		}
 
 		a {
-			color: var(--ink-dim);
+			color: var(--text-faint);
 			text-decoration: none;
-			transition: color 0.2s ease;
 
 			&:hover {
-				color: var(--lamp-glow);
+				color: var(--highlight);
 			}
 		}
 	}
 
-	/* Hero Section */
-	.hero {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 1.5rem 1.5rem 2rem;
-		text-align: center;
-		position: relative;
+	@media (min-width: 960px) {
+		.head-grid {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+			gap: 2.5rem;
+			align-items: end;
+		}
+
+		.head-grid .pattern-strip {
+			margin-top: 0;
+		}
 	}
 
-	.hero::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 400px;
-		height: 200px;
-		background: radial-gradient(
-			ellipse,
-			color-mix(in srgb, var(--lamp-glow) 15%, transparent) 0%,
-			transparent 70%
-		);
-		pointer-events: none;
+	.title-row {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		margin-top: 0.875rem;
+		position: relative;
 	}
 
 	.type-badge {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 4rem;
-		height: 4rem;
-		background: color-mix(in srgb, var(--type-accent) 18%, var(--stone-warm));
-		border: 1px solid color-mix(in srgb, var(--type-accent) 58%, var(--stone-edge));
+		flex-shrink: 0;
+		width: 3.5rem;
+		height: 3.5rem;
+		font-size: 1.875rem;
+		font-weight: 800;
+		color: color-mix(in srgb, var(--type-accent) 72%, var(--text));
+		background: color-mix(in srgb, var(--type-accent) 18%, var(--surface));
+		border: 1px solid color-mix(in srgb, var(--type-accent) 58%, var(--rule));
 		border-radius: 1rem;
-		margin-bottom: 1rem;
-		box-shadow: none;
-		position: relative;
 	}
 
-	.type-num {
-		font-size: 2rem;
+	h1 {
+		margin: 0;
+		font-size: clamp(1.375rem, 3.4vw, 2.125rem);
+		line-height: 1.15;
 		font-weight: 700;
-		color: color-mix(in srgb, var(--type-accent) 72%, var(--ink-bright));
-	}
-
-	.hero h1 {
-		font-size: 2rem;
-		font-weight: 700;
-		line-height: 1.2;
-		margin: 0 0 0.5rem;
 		letter-spacing: -0.02em;
+		color: var(--text);
+	}
+
+	.h1-sep {
+		color: var(--text-faint);
+	}
+
+	.h1-name {
+		color: color-mix(in srgb, var(--type-accent) 60%, var(--text));
+	}
+
+	.lede {
+		margin: 0.3rem 0 0;
+		font-size: var(--font-size-base);
+		line-height: 1.45;
+		color: var(--text-muted);
+
+		strong {
+			color: var(--text);
+			font-weight: 600;
+		}
+	}
+
+	/* ---------- Pattern strip ---------- */
+	.pattern-strip {
+		margin-top: 1.125rem;
 		position: relative;
-		color: var(--ink-bright);
 	}
 
-	.tagline {
-		font-size: 1rem;
-		color: var(--ink-dim);
-		margin: 0;
-		font-weight: 500;
+	.strip-label {
+		margin: 0 0 0.5rem;
+		font-size: var(--font-size-xs);
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-faint);
 	}
 
-	.hero-summary {
-		max-width: 640px;
-		margin: 1rem auto 0;
-		font-size: 0.9375rem;
-		line-height: 1.55;
-		color: var(--ink-mid);
-	}
-
-	/* Main Content */
-	.enneagram-type-page {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 0 1.5rem 4rem;
-	}
-
-	/* Section Header */
-	.section-header {
+	.pattern-chips {
 		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		margin-bottom: 1.5rem;
-		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--stone-edge);
 		flex-wrap: wrap;
-		gap: 0.75rem;
+		gap: 0.5rem;
 	}
 
-	h2 {
-		font-size: 1.5rem;
+	.pattern-chip {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.45rem;
+		padding: 0.4rem 0.8rem;
+		font: inherit;
+		font-size: var(--font-size-base);
 		font-weight: 600;
-		color: var(--ink-bright);
-		margin: 0;
-	}
-
-	.people-count {
-		font-size: 0.875rem;
-		color: var(--lamp-glow);
-		font-weight: 500;
-		padding: 0.375rem 0.75rem;
-		background: var(--lamp-soft);
+		color: var(--text);
+		background: var(--surface);
+		border: 1px solid var(--rule);
 		border-radius: 9999px;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
-	}
+		cursor: pointer;
+		transition:
+			border-color 0.15s ease,
+			background-color 0.15s ease;
 
-	.famous-people {
-		margin-bottom: 3rem;
-	}
-
-	.groups-intro {
-		margin: 0 0 1.25rem;
-		color: var(--ink-mid);
-		font-size: 0.9375rem;
-		line-height: 1.6;
-	}
-
-	.group-nav {
-		margin-bottom: 2rem;
-
-		ul {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 0.5rem;
-			list-style: none;
-			margin: 0;
-			padding: 0;
+		&:hover {
+			border-color: color-mix(in srgb, var(--type-accent) 55%, var(--rule));
 		}
 
-		a {
-			display: inline-flex;
-			align-items: center;
-			gap: 0.625rem;
-			min-height: 44px;
-			padding: 0.5rem 0.875rem;
-			border: 1px solid var(--stone-edge);
-			border-radius: 0.625rem;
-			background: var(--stone-warm);
-			color: var(--ink-bright);
-			font-size: 0.8125rem;
-			font-weight: 500;
-			text-decoration: none;
+		&:focus-visible {
+			outline: 2px solid var(--type-accent);
+			outline-offset: 2px;
 		}
 
-		a:hover {
+		&[aria-pressed='true'] {
+			background: color-mix(in srgb, var(--type-accent) 26%, var(--surface));
 			border-color: var(--type-accent);
 		}
 	}
 
-	.group-nav-count {
-		color: var(--ink-dim);
-		font-size: 0.8125rem;
-		font-variant-numeric: tabular-nums;
+	.chip-count {
+		font-size: var(--font-size-xs);
+		font-weight: 700;
+		color: color-mix(in srgb, var(--type-accent) 70%, var(--text));
 	}
 
-	.group-nav a:focus-visible,
-	.spotlight-card a:focus-visible {
-		outline: 2px solid var(--type-accent);
-		outline-offset: 3px;
-	}
+	/* ---------- Field jump nav: one scrolling row ---------- */
+	.field-nav {
+		margin: 1rem calc(-1 * var(--hub-gutter)) 0;
+		position: relative;
 
-	/* Spotlight wall: one card per field, packed into masonry columns. Each card
-	   leads with the field's best-known person; everyone else gathers below as a
-	   crowd of faces plus name links, split into lanes when the tags support it. */
-	.spotlight-wall {
-		columns: 340px;
-		column-gap: 1rem;
-	}
+		ul {
+			display: flex;
+			gap: 0.375rem;
+			list-style: none;
+			margin: 0;
+			padding: 0 var(--hub-gutter) 0.25rem;
+			overflow-x: auto;
+			scrollbar-width: none;
 
-	.spotlight-card {
-		break-inside: avoid;
-		display: flex;
-		flex-direction: column;
-		gap: 0.875rem;
-		margin: 0 0 1rem;
-		padding: 1rem;
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-	}
-
-	.spotlight-head {
-		display: flex;
-		align-items: center;
-		gap: 0.875rem;
-	}
-
-	.lead-portrait {
-		flex-shrink: 0;
-		display: block;
-		width: 6.5rem;
-		height: 6.5rem;
-		overflow: hidden;
-		border-radius: 0.625rem;
-		box-shadow: 0 0 0 2px var(--group-accent);
-
-		img {
-			display: block;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-			transition: transform 0.3s ease;
+			&::-webkit-scrollbar {
+				display: none;
+			}
 		}
 
-		&:hover img {
-			transform: scale(1.05);
-		}
-	}
+		button {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.4rem;
+			padding: 0.3rem 0.7rem;
+			white-space: nowrap;
+			font: inherit;
+			font-size: var(--font-size-sm);
+			color: var(--text-muted);
+			background: transparent;
+			border: 1px solid var(--rule);
+			border-radius: 9999px;
+			cursor: pointer;
 
-	.spotlight-meta {
-		min-width: 0;
-		display: flex;
-		flex-direction: column;
-		gap: 0.25rem;
-	}
+			&:hover,
+			&:focus-visible {
+				color: var(--text);
+				border-color: color-mix(in srgb, var(--group-accent) 55%, var(--rule));
+			}
 
-	.group-label {
-		margin: 0;
-		color: var(--ink-mid);
-		font-size: 0.6875rem;
-		font-weight: 600;
-		letter-spacing: 0.08em;
-		line-height: 1.4;
-		text-transform: uppercase;
-		scroll-margin-top: 7rem;
-	}
+			&:focus-visible {
+				outline: 2px solid var(--focus);
+				outline-offset: 2px;
+			}
 
-	.group-dot {
-		display: inline-block;
-		width: 0.5rem;
-		height: 0.5rem;
-		margin-right: 0.375rem;
-		border-radius: 9999px;
-		background: var(--group-accent);
-		vertical-align: 0.05em;
-	}
-
-	.group-count {
-		margin-left: 0.25rem;
-		color: var(--ink-dim);
-		font-variant-numeric: tabular-nums;
-		white-space: nowrap;
-	}
-
-	.lead-name {
-		color: var(--ink-bright);
-		font-size: 1.125rem;
-		font-weight: 600;
-		line-height: 1.25;
-		text-decoration: none;
-
-		&:hover {
-			color: var(--lamp-glow);
-		}
-	}
-
-	.lead-more {
-		margin: 0;
-		color: var(--ink-dim);
-		font-size: 0.8125rem;
-	}
-
-	.lane {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	.lane-label {
-		margin: 0;
-		color: var(--ink-dim);
-		font-size: 0.6875rem;
-		font-weight: 600;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-	}
-
-	.crowd {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem;
-	}
-
-	.crowd-face {
-		display: block;
-		width: 3.25rem;
-		height: 3.25rem;
-		overflow: hidden;
-		border-radius: 9999px;
-		box-shadow: 0 0 0 1px var(--stone-edge);
-		transition:
-			box-shadow 0.2s ease,
-			transform 0.2s ease;
-
-		img {
-			display: block;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-
-		&:hover {
-			box-shadow: 0 0 0 2px var(--group-accent);
-			transform: translateY(-2px);
-		}
-	}
-
-	.crowd-names {
-		margin: 0;
-		color: var(--ink-dim);
-		font-size: 0.8125rem;
-		line-height: 1.65;
-
-		a {
-			color: var(--ink-mid);
-			text-decoration: none;
-
-			&:hover {
-				color: var(--lamp-glow);
-				text-decoration: underline;
-				text-underline-offset: 3px;
+			&[aria-pressed='true'] {
+				color: var(--text);
+				background: color-mix(in srgb, var(--group-accent) 18%, transparent);
+				border-color: var(--group-accent);
 			}
 		}
 	}
 
-	/* Sibling type navigation */
+	.field-dot {
+		width: 0.5rem;
+		height: 0.5rem;
+		flex-shrink: 0;
+		border-radius: 50%;
+		background: var(--group-accent);
+	}
+
+	/* ---------- Body ---------- */
+	.hub-body {
+		max-width: calc(var(--hub-width) + 2 * var(--hub-gutter));
+		margin: 0 auto;
+		padding: 0 var(--hub-gutter) 4rem;
+	}
+
+	.empty {
+		margin: 2rem 0;
+		color: var(--text-muted);
+	}
+
+	/* The site's global section and article padding would nudge these off the
+	   shared column edge. */
+	.famous-people,
+	.niche-panel {
+		padding: 0;
+	}
+
+	.map-hint {
+		margin: 1.25rem 0 0.75rem;
+		font-size: var(--font-size-sm);
+		line-height: 1.5;
+		color: var(--text-faint);
+	}
+
+	.hint-action {
+		color: var(--text-muted);
+		font-weight: 600;
+	}
+
+	/* One map per shape: landscape for wide screens, portrait for phones. */
+	.map-tall {
+		display: none;
+	}
+
+	@media (max-width: 719px) {
+		.map-wide {
+			display: none;
+		}
+
+		.map-tall {
+			display: block;
+		}
+	}
+
+	.niche-panel {
+		margin-top: 1.75rem;
+		scroll-margin-top: 5rem;
+	}
+
+	.field-head {
+		display: grid;
+		grid-template-columns: auto auto 1fr;
+		align-items: center;
+		column-gap: 0.625rem;
+		row-gap: 0.25rem;
+		padding-bottom: 0.625rem;
+		margin-bottom: 0.875rem;
+		border-bottom: 1px solid color-mix(in srgb, var(--group-accent) 30%, var(--rule));
+
+		h2 {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			margin: 0;
+			font-size: var(--font-size-xl);
+			font-weight: 700;
+			color: var(--text);
+		}
+
+		.field-dot {
+			width: 0.625rem;
+			height: 0.625rem;
+		}
+	}
+
+	.field-hook {
+		grid-column: 1 / -1;
+		font-family: var(--font-voice);
+		font-size: var(--font-size-base);
+		font-style: italic;
+		line-height: 1.45;
+		color: var(--text-muted);
+		text-decoration: none;
+
+		&:hover,
+		&:focus-visible {
+			color: var(--text);
+			text-decoration: underline;
+			text-underline-offset: 3px;
+		}
+	}
+
+	/* Lanes flow side by side on wide screens, so a lane of three doesn't leave a
+	   row of empty space; a long lane wraps inside itself. */
+	.lanes {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1.5rem 2.25rem;
+	}
+
+	.lane {
+		flex: 0 1 auto;
+		max-width: 100%;
+	}
+
+	.lane-label {
+		margin: 0 0 0.5rem;
+		font-size: var(--font-size-xs);
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: color-mix(in srgb, var(--group-accent) 55%, var(--text-muted));
+	}
+
+	/* ---------- Faces ---------- */
+	.faces {
+		--face-gap: 0.875rem;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem var(--face-gap);
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.face {
+		width: 8.5rem;
+		min-width: 0;
+		transition:
+			opacity 0.2s ease,
+			filter 0.2s ease;
+	}
+
+	.face-dim {
+		opacity: 0.22;
+		filter: grayscale(1);
+	}
+
+	.face-link {
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
+		color: inherit;
+		text-decoration: none;
+
+		&:focus-visible {
+			outline: 2px solid var(--type-accent);
+			outline-offset: 3px;
+			border-radius: 0.625rem;
+		}
+	}
+
+	.portrait {
+		position: relative;
+		display: block;
+		aspect-ratio: 1;
+		overflow: hidden;
+		border-radius: 0.625rem;
+		border: 1px solid var(--rule);
+		margin-bottom: 0.3rem;
+		transition: border-color 0.2s ease;
+
+		picture,
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+
+		img {
+			object-fit: cover;
+			transition: transform 0.3s ease;
+		}
+	}
+
+	.face-lit .portrait {
+		border-color: var(--type-accent);
+		box-shadow: 0 0 0 1px var(--type-accent);
+	}
+
+	.face-name {
+		font-size: var(--font-size-base);
+		font-weight: 600;
+		line-height: 1.25;
+		color: var(--text);
+	}
+
+	.persona {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		font-size: var(--font-size-sm);
+		line-height: 1.35;
+		color: var(--text-faint);
+
+		mark {
+			color: var(--text);
+			font-weight: 700;
+			background: color-mix(in srgb, var(--type-accent) 30%, transparent);
+			border-radius: 0.25rem;
+			padding: 0 0.15em;
+		}
+	}
+
+	/* The "why" hook rides over the portrait on hover; touch screens skip it and
+	   get the field-level hook under each heading instead. */
+	.hook {
+		display: none;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.hook {
+			display: block;
+			position: absolute;
+			inset: auto 0 0 0;
+			padding: 2rem 0.625rem 0.625rem;
+			font-size: var(--font-size-xs);
+			line-height: 1.35;
+			color: var(--text);
+			background: linear-gradient(
+				to top,
+				color-mix(in srgb, var(--bg) 94%, transparent) 55%,
+				transparent
+			);
+			opacity: 0;
+			transform: translateY(0.375rem);
+			transition:
+				opacity 0.2s ease,
+				transform 0.2s ease;
+		}
+
+		.face-link:hover,
+		.face-link:focus-visible {
+			.hook {
+				opacity: 1;
+				transform: none;
+			}
+
+			.portrait {
+				border-color: color-mix(in srgb, var(--group-accent) 70%, var(--rule));
+			}
+
+			.portrait img {
+				transform: scale(1.04);
+			}
+		}
+	}
+
+	/* ---------- Active pattern status ---------- */
+	.pattern-status {
+		position: fixed;
+		left: 50%;
+		bottom: 1rem;
+		z-index: 40;
+		transform: translateX(-50%);
+		display: flex;
+		align-items: center;
+		gap: 0.875rem;
+		padding: 0.5rem 0.5rem 0.5rem 1rem;
+		max-width: calc(100vw - 2rem);
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
+		white-space: nowrap;
+		background: var(--surface);
+		border: 1px solid var(--type-accent);
+		border-radius: 9999px;
+		box-shadow: 0 10px 30px color-mix(in srgb, var(--bg) 80%, transparent);
+
+		strong {
+			color: var(--text);
+		}
+
+		button {
+			padding: 0.3rem 0.75rem;
+			font: inherit;
+			font-size: var(--font-size-sm);
+			font-weight: 600;
+			color: var(--text);
+			background: color-mix(in srgb, var(--type-accent) 22%, var(--bg));
+			border: 1px solid var(--rule);
+			border-radius: 9999px;
+			cursor: pointer;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.face,
+		.portrait img,
+		.hook {
+			transition: none;
+		}
+	}
+
+	/* ---------- Sibling types ---------- */
 	.sibling-types {
-		margin: 3rem 0 2rem;
+		margin: 2.5rem 0 0;
 		padding: 1.5rem;
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
+		background: var(--surface);
+		border: 1px solid var(--rule);
 		border-radius: 1rem;
 
 		h2 {
-			font-size: 1.125rem;
-			margin-bottom: 1rem;
-			color: var(--ink-bright);
+			font-size: var(--font-size-lg);
+			margin: 0 0 1rem;
+			color: var(--text);
 		}
 
 		ul {
@@ -1033,38 +1478,40 @@
 			padding: 0;
 			margin: 0;
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(3, minmax(0, 1fr));
 			gap: 0.5rem;
 		}
 
 		li {
 			display: flex;
+			min-width: 0;
 
 			a,
 			&.current {
+				min-width: 0;
 				display: flex;
 				align-items: center;
 				gap: 0.625rem;
 				padding: 0.625rem 0.75rem;
 				border-radius: 0.625rem;
 				width: 100%;
-				border: 1px solid var(--stone-edge);
-				background: var(--night-deep);
+				border: 1px solid var(--rule);
+				background: var(--bg);
 				text-decoration: none;
-				color: var(--ink-mid);
-				font-size: 0.875rem;
-				transition: all 0.2s ease;
+				color: var(--text-muted);
+				font-size: var(--font-size-sm);
+				transition: border-color 0.2s ease;
 			}
 
 			a:hover {
-				border-color: color-mix(in srgb, var(--sibling-accent) 48%, var(--stone-edge));
-				color: var(--ink-bright);
+				border-color: color-mix(in srgb, var(--sibling-accent) 48%, var(--rule));
+				color: var(--text);
 			}
 
 			&.current {
-				background: color-mix(in srgb, var(--sibling-accent) 10%, var(--night-deep));
-				border-color: color-mix(in srgb, var(--sibling-accent) 48%, var(--stone-edge));
-				color: var(--ink-bright);
+				background: color-mix(in srgb, var(--sibling-accent) 10%, var(--bg));
+				border-color: color-mix(in srgb, var(--sibling-accent) 48%, var(--rule));
+				color: var(--text);
 				font-weight: 600;
 			}
 		}
@@ -1075,12 +1522,12 @@
 			height: 1.5rem;
 			align-items: center;
 			justify-content: center;
-			background: color-mix(in srgb, var(--sibling-accent) 18%, var(--stone-warm));
-			border: 1px solid color-mix(in srgb, var(--sibling-accent) 58%, var(--stone-edge));
-			color: color-mix(in srgb, var(--sibling-accent) 72%, var(--ink-bright));
+			background: color-mix(in srgb, var(--sibling-accent) 18%, var(--surface));
+			border: 1px solid color-mix(in srgb, var(--sibling-accent) 58%, var(--rule));
+			color: color-mix(in srgb, var(--sibling-accent) 72%, var(--text));
 			border-radius: 0.25rem;
 			font-weight: 700;
-			font-size: 0.75rem;
+			font-size: var(--font-size-xs);
 			flex-shrink: 0;
 		}
 
@@ -1090,12 +1537,23 @@
 			text-overflow: ellipsis;
 		}
 
+		/* Wing / growth / stress marker, so phones (no rails) still get it. */
+		.sibling-tag {
+			margin-left: auto;
+			padding-left: 0.5rem;
+			flex-shrink: 0;
+			font-size: var(--font-size-xs);
+			font-weight: 600;
+			color: var(--text-faint);
+			white-space: nowrap;
+		}
+
 		.sibling-all {
 			margin: 1rem 0 0;
-			font-size: 0.9375rem;
+			font-size: var(--font-size-base);
 
 			a {
-				color: var(--lamp-glow);
+				color: var(--highlight);
 				font-weight: 600;
 				text-decoration: none;
 
@@ -1108,44 +1566,108 @@
 		}
 	}
 
+	/* ---------- Explainer (kept for search; below the people) ---------- */
+	.type-explainer {
+		margin: 2.5rem 0 0;
+		/* The site's global article padding would push this off the shared edge. */
+		padding: 0;
+	}
+
+	/* Everything below the map reads in one centred column. */
+	.hub-reading {
+		max-width: var(--prose-width);
+		margin: 0 auto;
+	}
+
+	/* The test card centres itself at 720px; here it fills the reading column. */
+	.cta-slot :global(.test-cta) {
+		max-width: none;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.explainer-eyebrow {
+		margin: 0 0 0.375rem;
+		font-size: var(--font-size-xs);
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: color-mix(in srgb, var(--type-accent) 60%, var(--text-muted));
+	}
+
+	.explainer-head {
+		margin-bottom: 1.5rem;
+
+		h2 {
+			margin: 0;
+			font-size: 1.5rem;
+			font-weight: 700;
+			color: var(--text);
+		}
+	}
+
+	.explainer-read {
+		margin: 0.75rem 0 0;
+		font-size: var(--font-size-base);
+		line-height: 1.65;
+		color: var(--text-muted);
+	}
+
+	.explainer-summary {
+		margin: 0.75rem 0 0;
+		font-size: var(--font-size-base);
+		line-height: 1.6;
+		color: var(--text-muted);
+	}
+
+	.core-pair {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0.75rem;
+		margin: 1.25rem 0 0;
+
+		div {
+			padding: 0.875rem 1rem;
+			background: var(--surface);
+			border: 1px solid var(--rule);
+			border-radius: 0.625rem;
+		}
+
+		dt {
+			font-size: var(--font-size-xs);
+			font-weight: 700;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--text-faint);
+		}
+
+		dd {
+			margin: 0.25rem 0 0;
+			font-size: var(--font-size-base);
+			line-height: 1.45;
+			color: var(--text);
+		}
+	}
+
 	footer {
 		text-align: center;
 		margin-top: 3rem;
 		padding: 2.5rem 2rem;
-		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+		background: linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%);
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, transparent);
-		color: var(--ink-bright);
-		position: relative;
-		overflow: hidden;
-
-		&::before {
-			content: '';
-			position: absolute;
-			top: -50%;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 300px;
-			height: 150px;
-			background: radial-gradient(
-				ellipse,
-				color-mix(in srgb, var(--lamp-glow) 8%, transparent) 0%,
-				transparent 70%
-			);
-			pointer-events: none;
-		}
+		border: 1px solid color-mix(in srgb, var(--highlight) 20%, transparent);
+		color: var(--text);
 	}
 
 	.corpus-links {
 		margin: 0 auto 1.5rem;
 		max-width: 640px;
-		font-size: 0.875rem;
-		color: var(--ink-mid);
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
 		line-height: 1.6;
-		position: relative;
 
 		a {
-			color: var(--lamp-glow);
+			color: var(--highlight);
 			text-decoration: none;
 
 			&:hover {
@@ -1157,90 +1679,219 @@
 	.email-signup {
 		max-width: 500px;
 		margin: 0 auto;
-		position: relative;
 	}
 
-	/* Responsive */
+	/* ---------- Pinned rails (wide screens only) ---------- */
+	.rail {
+		position: fixed;
+		top: 7rem;
+		z-index: 5;
+		width: var(--rail-width);
+		max-height: calc(100vh - 9rem);
+		overflow-y: auto;
+		opacity: 0;
+		visibility: hidden;
+		transition:
+			opacity 0.25s ease,
+			visibility 0.25s ease;
+	}
+
+	.rail-on {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	/* The reading column is centred in the viewport, so each rail sits a fixed
+	   distance from the middle. */
+	.rail-left {
+		left: calc(50% - var(--prose-width) / 2 - var(--rail-gap) - var(--rail-width));
+	}
+
+	.rail-right {
+		right: calc(50% - var(--prose-width) / 2 - var(--rail-gap) - var(--rail-width));
+	}
+
+	@media (max-width: 1299px) {
+		.rail {
+			display: none;
+		}
+	}
+
+	.rail-title {
+		margin: 0 0 0.75rem;
+		font-size: var(--font-size-xs);
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-faint);
+	}
+
+	.rail-toc {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border-left: 1px solid var(--rule);
+
+		a {
+			display: block;
+			margin-left: -1px;
+			padding: 0.35rem 0 0.35rem 0.875rem;
+			font-size: var(--font-size-sm);
+			line-height: 1.35;
+			color: var(--text-muted);
+			text-decoration: none;
+			border-left: 2px solid transparent;
+
+			&:hover,
+			&:focus-visible {
+				color: var(--text);
+			}
+
+			&.is-active {
+				color: var(--text);
+				border-left-color: var(--type-accent);
+			}
+		}
+	}
+
+	.rail-neighbors {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		gap: 0.625rem;
+
+		li {
+			display: grid;
+			gap: 0.25rem;
+		}
+
+		a {
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0.5rem 0.625rem;
+			font-size: var(--font-size-sm);
+			color: var(--text-muted);
+			text-decoration: none;
+			background: var(--surface);
+			border: 1px solid var(--rule);
+			border-radius: 0.625rem;
+
+			&:hover,
+			&:focus-visible {
+				color: var(--text);
+				border-color: color-mix(in srgb, var(--sibling-accent) 48%, var(--rule));
+			}
+		}
+
+		.sibling-num {
+			display: inline-flex;
+			width: 1.5rem;
+			height: 1.5rem;
+			align-items: center;
+			justify-content: center;
+			flex-shrink: 0;
+			font-size: var(--font-size-xs);
+			font-weight: 700;
+			color: color-mix(in srgb, var(--sibling-accent) 72%, var(--text));
+			background: color-mix(in srgb, var(--sibling-accent) 18%, var(--surface));
+			border: 1px solid color-mix(in srgb, var(--sibling-accent) 58%, var(--rule));
+			border-radius: 0.25rem;
+		}
+	}
+
+	.neighbor-role {
+		font-size: var(--font-size-xs);
+		font-weight: 600;
+		color: var(--text-faint);
+	}
+
+	/* ---------- Responsive ---------- */
 	@media (max-width: 768px) {
-		.hero {
-			padding: 1.25rem 1rem 1.5rem;
+		.page-wrapper {
+			--hub-gutter: 1rem;
 		}
 
-		.type-badge {
-			width: 3.5rem;
-			height: 3.5rem;
+		.hub-head {
+			padding-top: 0.75rem;
 		}
 
-		.type-num {
-			font-size: 1.75rem;
+		.hub-body {
+			padding-bottom: 3rem;
 		}
 
-		.hero h1 {
-			font-size: 1.5rem;
-		}
-
-		.tagline {
-			font-size: 0.875rem;
-		}
-
-		.hero-summary {
-			font-size: 0.875rem;
-		}
-
-		.enneagram-type-page {
-			padding: 0 1rem 3rem;
-		}
-
-		h2 {
-			font-size: 1.25rem;
+		.sibling-types ul {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
 		footer {
-			padding: 2rem 1.5rem;
-			border-radius: 0.625rem;
+			padding: 2rem 1.25rem;
 		}
 	}
 
-	@media (max-width: 480px) {
-		.hero {
-			padding: 1rem 1rem 1.25rem;
+	@media (max-width: 560px) {
+		/* The breadcrumb trail stays in the JSON-LD; on a phone the faces get the space. */
+		.breadcrumbs {
+			display: none;
+		}
+
+		.title-row {
+			gap: 0.75rem;
+			margin-top: 0.625rem;
 		}
 
 		.type-badge {
-			width: 3rem;
-			height: 3rem;
+			width: 2.75rem;
+			height: 2.75rem;
+			font-size: 1.5rem;
 			border-radius: 0.625rem;
 		}
 
-		.type-num {
-			font-size: 1.5rem;
+		.lede {
+			font-size: var(--font-size-sm);
 		}
 
-		.hero h1 {
-			font-size: 1.25rem;
+		.pattern-strip {
+			margin-top: 0.875rem;
 		}
 
-		.section-header {
-			flex-direction: column;
-			align-items: flex-start;
+		.pattern-chip {
+			padding: 0.3rem 0.65rem;
+			font-size: var(--font-size-sm);
 		}
 
-		.spotlight-card {
-			padding: 0.875rem;
+		.field-head h2 {
+			font-size: var(--font-size-lg);
 		}
 
-		.lead-portrait {
-			width: 5.5rem;
-			height: 5.5rem;
+		.lane {
+			flex-basis: 100%;
 		}
 
-		.lead-name {
-			font-size: 1.0625rem;
+		.faces {
+			--face-gap: 0.625rem;
+			row-gap: 0.875rem;
 		}
 
-		footer {
-			padding: 1.5rem 1.25rem;
-			margin-top: 2rem;
+		.face {
+			width: calc((100% - 2 * var(--face-gap)) / 3);
+		}
+
+		.face-name {
+			font-size: var(--font-size-sm);
+		}
+
+		.persona {
+			font-size: var(--font-size-xs);
+		}
+
+		.core-pair {
+			grid-template-columns: 1fr;
+		}
+
+		.sibling-types ul {
+			grid-template-columns: minmax(0, 1fr);
 		}
 	}
 </style>

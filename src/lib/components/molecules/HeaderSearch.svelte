@@ -743,8 +743,9 @@
 
 	/* Mobile focus: the pill grows a little taller while the header's back
 	   arrow slides away, so the field visibly opens up for typing. */
-	.mobile.is-focused .search-field {
-		min-height: 3.15rem;
+	.mobile.is-focused .search-field,
+	.mobile:has(.results-panel) .search-field {
+		min-height: 3.4rem;
 	}
 
 	@media (prefers-reduced-motion: reduce) {

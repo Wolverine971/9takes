@@ -5,11 +5,13 @@
 // personBlogParser.js and its RPC never patch, so this is the one narrow way in:
 // a row is updated only when the draft's `type` equals the live one plus cluster
 // tags. Any other difference (a field type added, removed or reordered) is skipped
-// and reported for a person to decide.
+// and reported for a person to decide, unless --allow-add names the field types
+// a draft may add (the draft must still keep every live entry, in order).
 //
 // Usage:
 //   node scripts/push-cluster-tags.mjs                          # preview
 //   node scripts/push-cluster-tags.mjs --write --backup=<file>  # apply; saves live arrays first
+//   node scripts/push-cluster-tags.mjs --allow-add=athlete      # also take drafts that add `athlete`
 // Pages are ISR-cached, so live pages can lag up to 24h.
 
 import { promises as fs } from 'node:fs';
@@ -28,17 +30,22 @@ const asTypes = (value) =>
 	Array.isArray(value) ? value.filter((item) => typeof item === 'string') : [];
 
 /**
- * The array to store, or null when live and local differ beyond added cluster tags.
+ * The array to store, or null when live and local differ beyond added cluster tags
+ * (and added field types named in `allowAdd`).
  * @param {string[]} live
  * @param {string[]} local
+ * @param {ReadonlySet<string>} [allowAdd] field types a draft may add
  */
-export function planClusterTagUpdate(live, local) {
+export function planClusterTagUpdate(live, local, allowAdd = new Set()) {
 	const fieldTypes = (/** @type {string[]} */ list) => list.filter((t) => !isClusterTag(t));
-	if (!isDeepStrictEqual(fieldTypes(live), fieldTypes(local))) return null;
+	const liveFields = fieldTypes(live);
+	const localFields = fieldTypes(local).filter((t) => liveFields.includes(t) || !allowAdd.has(t));
+	if (!isDeepStrictEqual(liveFields, localFields)) return null;
+	const addedFields = fieldTypes(local).length - liveFields.length;
 	const liveTags = live.filter(isClusterTag);
 	const localTags = local.filter(isClusterTag);
 	if (!liveTags.every((tag) => localTags.includes(tag))) return null;
-	return localTags.length > liveTags.length ? local : null;
+	return localTags.length > liveTags.length || addedFields > 0 ? local : null;
 }
 
 async function main() {
@@ -46,6 +53,12 @@ async function main() {
 	const write = process.argv.includes('--write');
 	const backup = process.argv.find((arg) => arg.startsWith('--backup='))?.slice(9);
 	if (write && !backup) throw new Error('--write needs --backup=<file> for the live arrays');
+	const allowAdd = new Set(
+		(process.argv.find((arg) => arg.startsWith('--allow-add='))?.slice(12) ?? '')
+			.split(',')
+			.map((t) => t.trim())
+			.filter(Boolean)
+	);
 	const url = process.env.SUPABASE_URL || process.env.PUBLIC_SUPABASE_URL;
 	const key = process.env.SUPABASE_SERVICE_KEY;
 	if (!url || !key) throw new Error('Missing SUPABASE_URL or SUPABASE_SERVICE_KEY');
@@ -70,7 +83,7 @@ async function main() {
 		const draft = local.get(normalizePersonalitySlug(row.person));
 		if (!draft) continue;
 		const live = asTypes(row.type);
-		const next = planClusterTagUpdate(live, draft);
+		const next = planClusterTagUpdate(live, draft, allowAdd);
 		if (next)
 			updates.push({ id: row.id, person: row.person, published: row.published, live, next });
 		else if (

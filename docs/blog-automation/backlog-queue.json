@@ -1,26 +1,11 @@
 {
-	"lastUpdated": "2026-11-17T08:02:23Z",
+	"lastUpdated": "2026-11-18T08:07:37Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "drew-afualo",
-			"displayName": "Drew Afualo",
-			"type": null,
-			"priority": 68,
-			"priorityReason": "Rolling Stone Most Influential Creators 2026 #14; NYT-bestselling author and podcast host with a deep first-person record. Wikipedia ~340/day last 30; averaged ~1,430/day Aug 1-26 (cause not verified - check before drafting). Public pivot away from the 'attack dog' persona is the arc. Evergreen - runs after the surge picks.",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-11",
-			"retryCount": 0,
-			"strategicValue": "creator-economy-cluster",
-			"startedAt": "2026-11-13T10:17:48Z",
-			"recoveryNote": "Returned to queue 2026-11-13: all three attempts failed during a network outage, not on the subject."
-		},
 		{
 			"name": "quenlin-blackwell",
 			"displayName": "Quenlin Blackwell",
@@ -62,6 +47,29 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "drew-afualo",
+			"displayName": "Drew Afualo",
+			"type": null,
+			"priority": 68,
+			"priorityReason": "Rolling Stone Most Influential Creators 2026 #14; NYT-bestselling author and podcast host with a deep first-person record. Wikipedia ~340/day last 30; averaged ~1,430/day Aug 1-26 (cause not verified - check before drafting). Public pivot away from the 'attack dog' persona is the arc. Evergreen - runs after the surge picks.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-11",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster",
+			"startedAt": "2026-11-18T07:00:00Z",
+			"recoveryNote": "Returned to queue 2026-11-13: all three attempts failed during a network outage, not on the subject.",
+			"completedAt": "2026-11-18T08:07:37Z",
+			"contentGrade": "8.3",
+			"letter": "B",
+			"discoverability": "8",
+			"duration": "~67 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": ["missing_full_image", "missing_thumbnail_image"]
+		},
 		{
 			"name": "salome-andrea",
 			"displayName": "Salomé Andrea",
