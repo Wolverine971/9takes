@@ -1,6 +1,6 @@
 <!-- src/lib/components/molecules/FamousTypes.svelte -->
 <script lang="ts">
-	import { GROUP_DEFINITIONS, getTypeHubGroupSlug } from '$lib/personNiches';
+	import { TAXONOMY_FIELDS, homePathFor } from '$lib/peopleTaxonomy';
 	import { getReviewedPersonTypes } from '$lib/reviewedPersonTypes';
 	import { famousTypes, type FamousTypePerson } from '$lib/components/molecules/famousTypes';
 	import {
@@ -11,13 +11,19 @@
 	let { type }: { type: number } = $props();
 
 	function groupFamousPeople(people: FamousTypePerson[]) {
-		const byField = Map.groupBy(people, (person) =>
-			getTypeHubGroupSlug({
-				slug: person.name,
-				type: getReviewedPersonTypes(person.name, person.types)
-			})
+		// v3 taxonomy: one group per home field, in taxonomy order; unlabeled people last.
+		const byField = Map.groupBy(
+			people,
+			(person) =>
+				homePathFor({
+					slug: person.name,
+					type: getReviewedPersonTypes(person.name, person.types)
+				})?.[0] ?? 'other'
 		);
-		return GROUP_DEFINITIONS.flatMap(({ slug, label }) => {
+		return [
+			...TAXONOMY_FIELDS.map(({ key, label }) => ({ slug: key, label })),
+			{ slug: 'other', label: 'Other Public Figures' }
+		].flatMap(({ slug, label }) => {
 			const people = byField.get(slug);
 			return people ? [{ slug, label, people }] : [];
 		});
