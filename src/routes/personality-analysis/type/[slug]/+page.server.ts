@@ -52,8 +52,8 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 	// Best-known first (Wikipedia pageview snapshot), then newest first for anyone
 	// without fame data. The FAQ's "famous Type N" names read from this order too.
 	const publishedPosts = sortPeopleByFame(posts, personalityFame.views as FameViews);
-	// Every field gets its own circle on the map, however small.
-	const peopleGroups = groupPeopleByNiche(publishedPosts, slug, { minFieldSize: 1 });
+	// Fields with 3+ people here get a circle; smaller ones sit as labeled lanes in "More".
+	const peopleGroups = groupPeopleByNiche(publishedPosts, slug);
 	const memberships = findCrossovers(peopleGroups);
 	const patterns = findTitlePatterns(publishedPosts);
 	// Landscape map for wide screens, portrait for phones.

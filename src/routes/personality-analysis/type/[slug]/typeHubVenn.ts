@@ -16,7 +16,8 @@
 // fit, so one crowded overlap doesn't bloat every circle.
 
 import { pack, hierarchy } from 'd3';
-import { fieldsForPerson, MORE_GROUP_SLUG, type TypeHubGroup } from './typeHubGroups';
+import { alsoFieldsFor } from '$lib/peopleTaxonomy';
+import { MORE_GROUP_SLUG, type TypeHubGroup } from './typeHubGroups';
 import { FIELD_LABEL_UNITS, LABEL_ARC_SHARE } from './typeHubVennLabels';
 
 type VennPerson = { slug: string; type?: unknown };
@@ -74,7 +75,8 @@ const ITERATIONS = 900;
 
 /** Every other displayed field each person belongs to, in editorial order. */
 export function findCrossovers<T extends VennPerson>(
-	groups: Pick<TypeHubGroup<T>, 'slug' | 'people'>[]
+	groups: Pick<TypeHubGroup<T>, 'slug' | 'people'>[],
+	secondFields: (person: T) => string[] = (person) => alsoFieldsFor(person.slug)
 ): Map<string, string[]> {
 	const shown = new Set(
 		groups.map((group) => group.slug).filter((slug) => slug !== MORE_GROUP_SLUG)
@@ -83,7 +85,7 @@ export function findCrossovers<T extends VennPerson>(
 	for (const group of groups) {
 		if (!shown.has(group.slug)) continue;
 		for (const person of group.people) {
-			const secondary = fieldsForPerson(person).filter(
+			const secondary = secondFields(person).filter(
 				(field) => field !== group.slug && shown.has(field)
 			);
 			if (secondary.length) crossovers.set(person.slug, secondary);

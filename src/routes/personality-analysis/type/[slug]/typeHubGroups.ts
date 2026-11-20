@@ -1,27 +1,27 @@
 // src/routes/personality-analysis/type/[slug]/typeHubGroups.ts
+// Groups one type's people by the v3 people taxonomy (Field → Niche → optional Sub).
+// Jev labels facts per person; this file decides what opens on a page:
+//  - a field gets its own circle only with MIN_FIELD_SIZE+ people on this page,
+//  - inside it a niche (or a sub-niche) becomes a lane only with MIN_LANE_SIZE+ people,
+//  - a lane bigger than BIG_LANE splits by generation (each part still MIN_LANE_SIZE+),
+//  - small fields fold into one "More" circle, each still labeled with its field.
 import {
-	PERSONALITY_CATEGORY_SLUGS,
-	normalizePeopleTypes,
-	type PersonalityCategorySlug
-} from '$lib/personalityCategories';
-import { CLUSTER_FIELDS, getClusterLaneShortLabel } from '$lib/personClusterTags.js';
-import {
-	getPersonalityCategoryGroups,
-	type PersonalityCategoryPerson
-} from '$lib/server/personalityCategoryData';
-
-import {
-	GROUP_DEFINITIONS,
-	getTypeHubGroupSlug,
-	fieldsForPerson,
-	type GroupablePerson
-} from '$lib/personNiches';
-
-export { fieldsForPerson, getTypeHubGroupSlug } from '$lib/personNiches';
+	FIELD_BY_KEY,
+	FIELD_ORDER,
+	GENERATIONS,
+	alsoFieldsFor,
+	generationOf,
+	getPersonClassification,
+	homePathFor,
+	nicheOf,
+	pathLabel,
+	subOf
+} from '$lib/peopleTaxonomy';
+import type { GroupablePerson } from '$lib/personNiches';
 
 export type TypeHubLane<T> = {
 	slug: string;
-	/** Empty when the field has no lanes worth naming (one unlabeled row). */
+	/** Empty when the lane has no name worth showing (leftovers, or a single lane). */
 	label: string;
 	people: T[];
 };
@@ -40,174 +40,250 @@ export type TypeHubGroup<T> = {
 	fieldLabels?: Record<string, string>;
 };
 
-const DEFINITION_BY_SLUG = new Map(GROUP_DEFINITIONS.map((d) => [d.slug, d]));
-
-/** A field with fewer people than this folds into the catch-all group at the end. */
-export const MIN_FIELD_SIZE = 3;
-export const MORE_GROUP_SLUG = 'more';
-
-const LEFTOVER_LANE = { slug: 'rest', label: '' };
-const SINGLE_LANE = { slug: 'all', label: '' };
-
-const HUB_LANE_LABELS: Record<string, string> = {
-	'celebrity-image-public-fascination': 'Beyond acting',
-	'historical-leaders-power-holders': 'Rulers & generals'
+/** What the grouping needs to know about one person. */
+export type HubPlacement = {
+	/** [field, niche?, sub?] or null when nobody has labeled them yet. */
+	home: readonly string[] | null;
+	/** Fields of sustained second careers (never the home field). */
+	alsoFields: string[];
+	born: number | null;
 };
 
-const LANE_SOURCE: Record<string, PersonalityCategorySlug> = { history: 'politics-public' };
+export type Placer = (person: GroupablePerson) => HubPlacement;
 
-const key = (value: string) => value.replace(/[^a-z0-9]/gi, '').toLowerCase();
-const CLUSTER_BY_TAG = new Map(
-	CLUSTER_FIELDS.flatMap(({ field, tags }) =>
-		tags.map((tag) => [key(tag.tag), { ...tag, field }] as const)
-	)
-);
+export const placePerson: Placer = (person) => ({
+	home: homePathFor(person),
+	alsoFields: alsoFieldsFor(person.slug),
+	born: getPersonClassification(person.slug)?.born ?? null
+});
 
-/** Labels retained on a card even when that role is outside its primary lane. */
+/** A field with fewer people than this folds into the "More" group at the end. */
+export const MIN_FIELD_SIZE = 3;
+/** A niche or sub-niche needs this many people on the page to get its own lane. */
+export const MIN_LANE_SIZE = 3;
+/** A lane with more people than this splits by generation. */
+export const BIG_LANE = 10;
+export const MORE_GROUP_SLUG = 'more';
+
+const REST_LANE = 'rest';
+
+type Options = {
+	minFieldSize?: number;
+	minLaneSize?: number;
+	bigLane?: number;
+	place?: Placer;
+};
+
+const GENERATION_SHORT: Record<string, string> = {
+	history: 'Pre-1901',
+	greatest: 'Greatest Gen',
+	silent: 'Silent Gen',
+	boomers: 'Boomers',
+	'gen-x': 'Gen X',
+	millennials: 'Millennials',
+	'gen-z': 'Gen Z',
+	'gen-alpha': 'Gen Alpha'
+};
+
+/** Card labels for a person's second careers ("Pro wrestling", "Stand-up"). */
 export function getTypeHubRoleLabels(person: GroupablePerson): string[] {
-	const types = normalizePeopleTypes(person.type);
-	const labels = new Set<string>();
-	const fields = fieldsForPerson(person);
-	for (const type of types) {
-		const tag = CLUSTER_BY_TAG.get(key(type));
-		if (tag) {
-			// A generic celebrity-image tag was often added to famous musicians.
-			if (tag.tag === 'celebrity-image' && !fields.includes('film-tv')) continue;
-			labels.add(laneLabel(tag.lane));
-		} else if (key(type) === 'youtuber' && !types.includes('educational-youtuber')) {
-			labels.add('YouTube');
-		} else if (key(type) === 'entrepreneur' && !types.includes('business-operator')) {
-			labels.add('Entrepreneur');
-		}
-	}
-	return [...labels];
-}
-
-function isCategorySlug(slug: string): slug is PersonalityCategorySlug {
-	return (PERSONALITY_CATEGORY_SLUGS as readonly string[]).includes(slug);
-}
-
-// The lane matchers only read slug + types; the rest is filler for the shared type.
-function toLaneCandidate(person: GroupablePerson): PersonalityCategoryPerson {
-	return {
-		slug: person.slug,
-		name: person.slug,
-		enneagram: null,
-		title: null,
-		description: null,
-		personaTitle: null,
-		lastmod: null,
-		date: null,
-		types: normalizePeopleTypes(person.type),
-		categorySlugs: [],
-		primaryCategorySlug: null,
-		contentQualityScore: null
-	};
-}
-
-function laneLabel(slug: string): string {
-	return HUB_LANE_LABELS[slug] ?? getClusterLaneShortLabel(slug) ?? slug;
-}
-
-/** Splits a field into lanes, keeping fame order. Every person lands in one lane. */
-export function buildLanes<T extends GroupablePerson>(
-	groupSlug: string,
-	people: T[]
-): TypeHubLane<T>[] {
-	if (people.length === 0) return [];
-
-	const source = LANE_SOURCE[groupSlug] ?? groupSlug;
-	const laneOf = new Map<string, string>();
-	if (isCategorySlug(source)) {
-		for (const lane of getPersonalityCategoryGroups(source, people.map(toLaneCandidate))) {
-			// Category fallbacks ('other-*') are leftovers, not lanes.
-			if (lane.slug.startsWith('other-')) continue;
-			for (const person of lane.people) laneOf.set(person.slug, lane.slug);
-		}
-	}
-
-	const members = new Map<string, T[]>();
-	for (const person of people) {
-		const laneSlug = laneOf.get(person.slug);
-		if (!laneSlug) continue;
-		members.set(laneSlug, [...(members.get(laneSlug) ?? []), person]);
-	}
-
-	const named = [...members.entries()];
-	if (!named.length) return [{ ...SINGLE_LANE, people }];
-
-	const fameIndex = new Map(people.map((person, index) => [person.slug, index]));
-	const firstIndex = (lane: T[]) => fameIndex.get(lane[0].slug) ?? 0;
-	const lanes = named
-		.sort(([, a], [, b]) => b.length - a.length || firstIndex(a) - firstIndex(b))
-		.map(([slug, lane]) => ({ slug, label: laneLabel(slug), people: lane }));
-
-	const placed = new Set(lanes.flatMap((lane) => lane.people.map((person) => person.slug)));
-	const rest = people.filter((person) => !placed.has(person.slug));
-	if (rest.length > 0) lanes.push({ ...LEFTOVER_LANE, people: rest });
-
-	return lanes;
+	const classification = getPersonClassification(person.slug);
+	if (!classification) return [];
+	const home = classification.home?.[0];
+	return [
+		...new Set(
+			classification.also.filter(({ path }) => path[0] !== home).map(({ path }) => pathLabel(path))
+		)
+	].filter(Boolean);
 }
 
 /**
- * One group per field, largest first. Fields under MIN_FIELD_SIZE (and anyone with
- * no recognizable field) fold into one catch-all group at the end, so a single
- * comedian doesn't get a whole section. Incoming fame order is kept everywhere.
+ * Splits a big lane by generation, oldest first. Generations under minSize merge into
+ * their smaller neighbour; people without a birth year join the biggest part.
+ */
+export function splitByGeneration<T extends GroupablePerson>(
+	lane: TypeHubLane<T>,
+	bornOf: (person: T) => number | null,
+	minSize: number
+): TypeHubLane<T>[] {
+	type Bucket = { keys: string[]; people: T[] };
+	const byKey = new Map<string, T[]>();
+	const unknown: T[] = [];
+	for (const person of lane.people) {
+		const generation = generationOf(bornOf(person));
+		if (!generation) unknown.push(person);
+		else byKey.set(generation.key, [...(byKey.get(generation.key) ?? []), person]);
+	}
+	let buckets: Bucket[] = GENERATIONS.filter(({ key }) => byKey.has(key)).map(({ key }) => ({
+		keys: [key],
+		people: byKey.get(key)!
+	}));
+	if (buckets.length < 2) return [lane];
+
+	const size = (bucket: Bucket) => bucket.people.length;
+	for (;;) {
+		const small = buckets.findIndex((bucket) => size(bucket) < minSize);
+		if (small === -1 || buckets.length < 2) break;
+		const left = buckets[small - 1];
+		const right = buckets[small + 1];
+		const into = !left
+			? small + 1
+			: !right
+				? small - 1
+				: size(left) <= size(right)
+					? small - 1
+					: small + 1;
+		const [a, b] = [Math.min(small, into), Math.max(small, into)];
+		const merged = {
+			keys: [...buckets[a].keys, ...buckets[b].keys],
+			people: [...buckets[a].people, ...buckets[b].people]
+		};
+		buckets = [...buckets.slice(0, a), merged, ...buckets.slice(b + 1)];
+	}
+	if (buckets.length < 2) return [lane];
+
+	if (unknown.length) {
+		const biggest = buckets.reduce((best, bucket) => (size(bucket) > size(best) ? bucket : best));
+		biggest.people.push(...unknown);
+	}
+	const order = new Map(lane.people.map((person, index) => [person.slug, index]));
+	return buckets.map(({ keys, people }) => {
+		const first = GENERATION_SHORT[keys[0]];
+		const last = GENERATION_SHORT[keys[keys.length - 1]];
+		const generation = keys.length === 1 ? first : `${first}–${last}`;
+		return {
+			slug: `${lane.slug}-${keys.join('-')}`,
+			label: lane.label ? `${lane.label} · ${generation}` : generation,
+			people: [...people].sort((x, y) => order.get(x.slug)! - order.get(y.slug)!)
+		};
+	});
+}
+
+/** Lanes inside one field: niches (or sub-niches) with minLaneSize+ people, then leftovers. */
+export function buildFieldLanes<T extends GroupablePerson>(
+	people: T[],
+	placements: Map<string, HubPlacement>,
+	{ minLaneSize = MIN_LANE_SIZE, bigLane = BIG_LANE }: Pick<Options, 'minLaneSize' | 'bigLane'> = {}
+): TypeHubLane<T>[] {
+	if (people.length === 0) return [];
+	const pathOf = (person: T) => placements.get(person.slug)?.home ?? [];
+
+	const byNiche = new Map<string, T[]>();
+	for (const person of people) {
+		const niche = pathOf(person)[1];
+		if (niche) byNiche.set(niche, [...(byNiche.get(niche) ?? []), person]);
+	}
+
+	const named: TypeHubLane<T>[] = [];
+	for (const [niche, members] of byNiche) {
+		if (members.length < minLaneSize) continue;
+		const nicheLabel = nicheOf(pathOf(members[0]))?.label ?? niche;
+		const bySub = new Map<string, T[]>();
+		for (const person of members) {
+			const sub = pathOf(person)[2];
+			if (sub && subOf(pathOf(person))) bySub.set(sub, [...(bySub.get(sub) ?? []), person]);
+		}
+		const openSubs = [...bySub.entries()].filter(([, group]) => group.length >= minLaneSize);
+		const inSubs = new Set(openSubs.flatMap(([, group]) => group.map((person) => person.slug)));
+		const remainder = members.filter((person) => !inSubs.has(person.slug));
+		// Open sub-niches only when nobody is stranded in a lane of one or two.
+		if (openSubs.length && (remainder.length === 0 || remainder.length >= minLaneSize)) {
+			for (const [sub, group] of openSubs) {
+				named.push({ slug: `${niche}-${sub}`, label: pathLabel(pathOf(group[0])), people: group });
+			}
+			if (remainder.length) named.push({ slug: niche, label: nicheLabel, people: remainder });
+		} else {
+			named.push({ slug: niche, label: nicheLabel, people: members });
+		}
+	}
+
+	const fameIndex = new Map(people.map((person, index) => [person.slug, index]));
+	const first = (lane: TypeHubLane<T>) => fameIndex.get(lane.people[0].slug) ?? 0;
+	named.sort((a, b) => b.people.length - a.people.length || first(a) - first(b));
+
+	const placed = new Set(named.flatMap((lane) => lane.people.map((person) => person.slug)));
+	const rest = people.filter((person) => !placed.has(person.slug));
+	const lanes: TypeHubLane<T>[] = named.length
+		? [...named, ...(rest.length ? [{ slug: REST_LANE, label: '', people: rest }] : [])]
+		: [{ slug: 'all', label: '', people }];
+
+	const bornOf = (person: T) => placements.get(person.slug)?.born ?? null;
+	return lanes.flatMap((lane) =>
+		lane.people.length > bigLane ? splitByGeneration(lane, bornOf, minLaneSize) : [lane]
+	);
+}
+
+/**
+ * One group per field, largest first. Fields under minFieldSize (and anyone with no
+ * label yet) fold into one "More" group at the end, where each field keeps its own
+ * labeled lane. Incoming fame order is kept everywhere.
  */
 export function groupPeopleByNiche<T extends GroupablePerson>(
 	people: T[],
 	typeNumber?: string,
-	{ minFieldSize = MIN_FIELD_SIZE }: { minFieldSize?: number } = {}
+	{
+		minFieldSize = MIN_FIELD_SIZE,
+		minLaneSize = MIN_LANE_SIZE,
+		bigLane = BIG_LANE,
+		place = placePerson
+	}: Options = {}
 ): TypeHubGroup<T>[] {
-	const grouped = new Map<string, T[]>();
+	const placements = new Map(people.map((person) => [person.slug, place(person)]));
+	const byField = new Map<string, T[]>();
+	const unplaced: T[] = [];
 	for (const person of people) {
-		const slug = getTypeHubGroupSlug(person);
-		grouped.set(slug, [...(grouped.get(slug) ?? []), person]);
+		const field = placements.get(person.slug)?.home?.[0];
+		if (field && FIELD_BY_KEY.has(field))
+			byField.set(field, [...(byField.get(field) ?? []), person]);
+		else unplaced.push(person);
 	}
 
-	const fields = GROUP_DEFINITIONS.map((definition, order) => ({
-		definition,
-		order,
-		members: grouped.get(definition.slug) ?? []
-	})).filter(({ members }) => members.length > 0);
+	const fields = [...byField.entries()]
+		.map(([key, members]) => ({ field: FIELD_BY_KEY.get(key)!, members }))
+		.sort(
+			(a, b) =>
+				b.members.length - a.members.length ||
+				(FIELD_ORDER.get(a.field.key) ?? 0) - (FIELD_ORDER.get(b.field.key) ?? 0)
+		);
 
-	const isFolded = ({ definition, members }: (typeof fields)[number]) =>
-		definition.slug === 'other' || members.length < minFieldSize;
-
-	const kept = fields
-		.filter((field) => !isFolded(field))
-		.sort((a, b) => b.members.length - a.members.length || a.order - b.order)
-		.map(({ definition, members }) => ({
-			...definition,
+	const kept: TypeHubGroup<T>[] = fields
+		.filter(({ members }) => members.length >= minFieldSize)
+		.map(({ field, members }) => ({
+			slug: field.key,
+			label: field.label,
+			shortLabel: field.shortLabel,
+			accent: field.accent,
 			people: members,
-			lanes: buildLanes(definition.slug, members)
+			lanes: buildFieldLanes(members, placements, { minLaneSize, bigLane })
 		}));
 
-	const folded = fields.filter(isFolded);
-	if (folded.length === 0) return kept;
+	const folded = fields.filter(({ members }) => members.length < minFieldSize);
+	if (folded.length === 0 && unplaced.length === 0) return kept;
 
-	const foldedPeople = new Set(folded.flatMap(({ members }) => members));
+	const foldedPeople = new Set([...folded.flatMap(({ members }) => members), ...unplaced]);
 	// Keep fame order across the folded fields.
 	const morePeople = people.filter((person) => foldedPeople.has(person));
 	const fieldLabels: Record<string, string> = {};
-	for (const { definition, members } of folded) {
-		for (const person of members) {
-			if (definition.slug !== 'other') fieldLabels[person.slug] = definition.shortLabel;
-		}
+	for (const { field, members } of folded) {
+		for (const person of members) fieldLabels[person.slug] = field.shortLabel;
 	}
+	const lanes: TypeHubLane<T>[] = folded.map(({ field, members }) => ({
+		slug: `${MORE_GROUP_SLUG}-${field.key}`,
+		label: field.shortLabel,
+		people: members
+	}));
+	if (unplaced.length) lanes.push({ slug: REST_LANE, label: '', people: unplaced });
 
-	const onlyOther = folded.length === 1 && folded[0].definition.slug === 'other';
-	const label = kept.length === 0 ? 'Everyone' : typeNumber ? `More Type ${typeNumber}s` : 'More';
+	const everyone = kept.length === 0;
 	return [
 		...kept,
 		{
 			slug: MORE_GROUP_SLUG,
-			label:
-				onlyOther && kept.length > 0 ? (DEFINITION_BY_SLUG.get('other')?.label ?? label) : label,
-			shortLabel: kept.length === 0 ? 'Everyone' : onlyOther ? 'Other' : 'More',
+			label: everyone ? 'Everyone' : typeNumber ? `More Type ${typeNumber}s` : 'More',
+			shortLabel: everyone ? 'Everyone' : 'More',
 			accent: null,
 			people: morePeople,
-			lanes: [{ ...SINGLE_LANE, people: morePeople }],
+			lanes,
 			fieldLabels
 		}
 	];

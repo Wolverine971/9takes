@@ -1,0 +1,6540 @@
+{
+	"aaron-pierre": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2021, "The Underground Railroad"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for The Underground Railroad, Old Guy, and Mufasa.",
+		"source": "agent-draft"
+	},
+	"abraham-lincoln": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1858, "Lincoln-Douglas debates"],
+		"born": 1809,
+		"era": {
+			"period": "19th-century American politics",
+			"place": "United States"
+		},
+		"confidence": "high",
+		"why": "16th US president who led the Union through the Civil War.",
+		"source": "agent-draft"
+	},
+	"adam-neumann": {
+		"home": ["business", "founders"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive", "notorious"],
+		"breakout": [2019, "WeWork IPO collapse"],
+		"born": 1979,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founded WeWork, the coworking real-estate company that collapsed before its IPO.",
+		"source": "agent-draft"
+	},
+	"adam-sandler": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["comedy", "stand-up"],
+				"evidence": "comedy albums and stand-up specials"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "writer"],
+		"breakout": [1990, "Saturday Night Live"],
+		"born": 1966,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor-comedian of Happy Gilmore, The Wedding Singer, and Uncut Gems.",
+		"source": "agent-draft"
+	},
+	"addison-rae": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["creators", "lifestyle"],
+				"evidence": "TikTok dance and lifestyle audience"
+			}
+		],
+		"platforms": ["tiktok", "youtube"],
+		"roles": [],
+		"breakout": [2019, "TikTok dance videos"],
+		"born": 2000,
+		"era": null,
+		"confidence": "medium",
+		"why": "Wikipedia leads with social media, but the 2025 album Addison now dominates her fame (override).",
+		"source": "agent-draft"
+	},
+	"adela": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": ["youtube"],
+		"roles": ["songwriter"],
+		"breakout": [2022, "Dream Academy and Slovak pop debut"],
+		"born": 2003,
+		"era": null,
+		"confidence": "low",
+		"why": "Slovak pop singer-songwriter and dancer from Dream Academy to PRIMA.",
+		"source": "agent-draft"
+	},
+	"adele": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2008, "Chasing Pavements and 19"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Singer-songwriter behind 21, 25, and 30.",
+		"source": "agent-draft"
+	},
+	"adin-ross": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["kick", "twitch", "youtube"],
+		"roles": [],
+		"breakout": [2020, "NBA 2K and Fortnite streams"],
+		"born": 2000,
+		"era": null,
+		"confidence": "high",
+		"why": "Live streamer known for Twitch and Kick celebrity streams.",
+		"source": "agent-draft"
+	},
+	"agatha-christie": {
+		"home": ["ideas", "novelists-poets"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1920, "The Mysterious Affair at Styles"],
+		"born": 1890,
+		"era": {
+			"period": "Golden Age of detective fiction",
+			"place": "United Kingdom"
+		},
+		"confidence": "high",
+		"why": "Detective novelist behind Poirot, Miss Marple, and And Then There Were None.",
+		"source": "agent-draft"
+	},
+	"albert-einstein": {
+		"home": ["ideas", "scientists", "physical"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1905, "Annus mirabilis papers, special relativity"],
+		"born": 1879,
+		"era": {
+			"period": "Early 20th-century physics",
+			"place": "Germany and Switzerland"
+		},
+		"confidence": "high",
+		"why": "Theoretical physicist behind relativity and the photoelectric effect.",
+		"source": "agent-draft"
+	},
+	"alex-cooper": {
+		"home": ["media", "podcasters"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Unwell Hydration and Unwell Network"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host", "founder", "producer"],
+		"breakout": [2018, "Call Her Daddy podcast"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Host of Call Her Daddy and founder of the Unwell network.",
+		"source": "agent-draft"
+	},
+	"alex-hormozi": {
+		"home": ["business", "business-creators"],
+		"also": [],
+		"platforms": ["youtube", "podcast", "instagram", "tiktok"],
+		"roles": ["founder", "investor", "writer"],
+		"breakout": [2021, "Viral business content and Acquisition.com"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Sells business advice through content, books, and Acquisition.com.",
+		"source": "agent-draft"
+	},
+	"alex-karp": {
+		"home": ["tech", "founders", "hardware-defense"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2020, "Palantir public listing"],
+		"born": 1967,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founder and CEO of Palantir, a defense and government software company.",
+		"source": "agent-draft"
+	},
+	"alex-lieberman": {
+		"home": ["business", "founders"],
+		"also": [],
+		"platforms": ["podcast", "x"],
+		"roles": ["founder", "host"],
+		"breakout": [2015, "Morning Brew newsletter"],
+		"born": null,
+		"era": null,
+		"confidence": "medium",
+		"why": "Co-founded Morning Brew, then built business-media content on top of it.",
+		"source": "agent-draft"
+	},
+	"alex-warren": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["creators", "vlogs-stunts"],
+				"evidence": "Hype House YouTube and TikTok vlogs"
+			}
+		],
+		"platforms": ["youtube", "tiktok"],
+		"roles": ["songwriter"],
+		"breakout": [2020, "Hype House TikTok and YouTube"],
+		"born": 2000,
+		"era": null,
+		"confidence": "medium",
+		"why": "Wikipedia leads with creator, but his 2025 hit Ordinary now defines his fame (override).",
+		"source": "agent-draft"
+	},
+	"alexandr-wang": {
+		"home": ["tech", "founders", "ai"],
+		"also": [],
+		"platforms": ["x"],
+		"roles": ["founder", "executive"],
+		"breakout": [2021, "Scale AI valuation surge"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Founded Scale AI and became Meta Chief AI Officer.",
+		"source": "agent-draft"
+	},
+	"alexandria-ocasio-cortez": {
+		"home": ["politics", "politicians"],
+		"also": [],
+		"platforms": [],
+		"roles": ["activist"],
+		"breakout": [2018, "Upset primary win over Joe Crowley"],
+		"born": 1989,
+		"era": null,
+		"confidence": "high",
+		"why": "US Representative from New York.",
+		"source": "agent-draft"
+	},
+	"alexis-bledel": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2000, "Gilmore Girls"],
+		"born": 1981,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Gilmore Girls and The Handmaid's Tale.",
+		"source": "agent-draft"
+	},
+	"ali-abdaal": {
+		"home": ["creators", "education"],
+		"also": [
+			{
+				"path": ["self-help", "productivity"],
+				"evidence": "Feel-Good Productivity book and courses"
+			}
+		],
+		"platforms": ["youtube", "podcast"],
+		"roles": ["founder", "writer", "host"],
+		"breakout": [2018, "Medical student study-tips YouTube"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "YouTuber known for productivity and study videos.",
+		"source": "agent-draft"
+	},
+	"alix-earle": {
+		"home": ["creators", "lifestyle"],
+		"also": [],
+		"platforms": ["tiktok", "podcast", "instagram"],
+		"roles": ["host"],
+		"breakout": [2022, "TikTok get-ready-with-me videos"],
+		"born": 2000,
+		"era": null,
+		"confidence": "high",
+		"why": "TikTok lifestyle creator and host of the Hot Mess podcast.",
+		"source": "agent-draft"
+	},
+	"alysa-liu": {
+		"home": ["sports", "olympic"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2019, "Youngest US figure skating champion"],
+		"born": 2005,
+		"era": null,
+		"confidence": "high",
+		"why": "Olympic figure skater and US national champion.",
+		"source": "agent-draft"
+	},
+	"amber-heard": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "activist", "notorious"],
+		"breakout": [2008, "Pineapple Express"],
+		"born": 1986,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of Aquaman, public through the Depp v. Heard trial.",
+		"source": "agent-draft"
+	},
+	"amelia-dimoldenberg": {
+		"home": ["media", "podcasters"],
+		"also": [
+			{
+				"path": ["comedy", "internet-comedy"],
+				"evidence": "Chicken Shop Date deadpan comedy"
+			}
+		],
+		"platforms": ["youtube"],
+		"roles": ["host", "producer"],
+		"breakout": [2018, "Chicken Shop Date"],
+		"born": 1994,
+		"era": null,
+		"confidence": "medium",
+		"why": "Interview host behind the Chicken Shop Date YouTube series.",
+		"source": "agent-draft"
+	},
+	"amy-poehler": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["comedy", "sketch-sitcom"],
+				"evidence": "SNL Weekend Update and UCB founding"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["producer", "writer", "director", "host"],
+		"breakout": [2001, "Saturday Night Live"],
+		"born": 1971,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Parks and Recreation and Inside Out.",
+		"source": "agent-draft"
+	},
+	"ana-de-armas": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2017, "Blade Runner 2049"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of Knives Out, No Time to Die, and Blonde.",
+		"source": "agent-draft"
+	},
+	"andrew-callaghan": {
+		"home": ["media", "journalists"],
+		"also": [
+			{
+				"path": ["screen", "directors"],
+				"evidence": "This Place Rules documentary for HBO"
+			}
+		],
+		"platforms": ["youtube", "podcast"],
+		"roles": ["host", "producer", "director", "writer"],
+		"breakout": [2020, "All Gas No Brakes interviews"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Journalist behind Channel 5 News and All Gas No Brakes.",
+		"source": "agent-draft"
+	},
+	"andrew-garfield": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2010, "The Social Network"],
+		"born": 1983,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of The Social Network, Spider-Man, and Tick, Tick... Boom!",
+		"source": "agent-draft"
+	},
+	"andrew-huberman": {
+		"home": ["self-help", "health"],
+		"also": [
+			{
+				"path": ["ideas", "scientists", "life-medicine"],
+				"evidence": "Stanford neurobiology research"
+			},
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Huberman Lab podcast"
+			}
+		],
+		"platforms": ["podcast", "youtube", "instagram"],
+		"roles": ["host"],
+		"breakout": [2021, "Huberman Lab podcast"],
+		"born": 1975,
+		"era": null,
+		"confidence": "medium",
+		"why": "Neuroscientist whose Huberman Lab podcast made him a health-advice figure (override).",
+		"source": "agent-draft"
+	},
+	"andrew-ross-sorkin": {
+		"home": ["media", "business-media"],
+		"also": [
+			{
+				"path": ["screen", "directors"],
+				"evidence": "co-created Showtime Billions"
+			}
+		],
+		"platforms": ["x"],
+		"roles": ["host", "writer", "producer"],
+		"breakout": [2009, "Too Big to Fail"],
+		"born": 1977,
+		"era": null,
+		"confidence": "high",
+		"why": "Financial journalist, DealBook founder, and CNBC and NYT voice.",
+		"source": "agent-draft"
+	},
+	"andrew-schulz": {
+		"home": ["comedy", "stand-up"],
+		"also": [],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host", "writer"],
+		"breakout": [2015, "Wild 'N Out and stand-up specials"],
+		"born": 1983,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian and co-host of the Flagrant podcast.",
+		"source": "agent-draft"
+	},
+	"andrew-tate": {
+		"home": ["self-help", "masculinity"],
+		"also": [
+			{
+				"path": ["sports", "combat"],
+				"evidence": "kickboxing career and titles"
+			}
+		],
+		"platforms": ["x", "youtube", "tiktok"],
+		"roles": ["founder", "notorious"],
+		"breakout": [2022, "Viral masculinity content and Hustler's University"],
+		"born": 1986,
+		"era": null,
+		"confidence": "medium",
+		"why": "Sells masculinity and money advice online; kickboxer before that.",
+		"source": "agent-draft"
+	},
+	"anna-kendrick": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2012, "Pitch Perfect"],
+		"born": 1985,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of Up in the Air, Pitch Perfect, and Trolls.",
+		"source": "agent-draft"
+	},
+	"anna-wintour": {
+		"home": ["style", "editors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["executive"],
+		"breakout": [1988, "Vogue editor-in-chief"],
+		"born": 1949,
+		"era": null,
+		"confidence": "high",
+		"why": "Editor-in-chief of Vogue and Condé Nast artistic director.",
+		"source": "agent-draft"
+	},
+	"anne-hathaway": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2001, "The Princess Diaries"],
+		"born": 1982,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actress of Les Miserables and The Devil Wears Prada.",
+		"source": "agent-draft"
+	},
+	"anthony-bourdain": {
+		"home": ["style", "chefs"],
+		"also": [
+			{
+				"path": ["media", "tv-hosts"],
+				"evidence": "No Reservations and Parts Unknown"
+			},
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "Kitchen Confidential and travel books"
+			}
+		],
+		"platforms": [],
+		"roles": ["host", "writer"],
+		"breakout": [2000, "Kitchen Confidential"],
+		"born": 1956,
+		"era": null,
+		"confidence": "medium",
+		"why": "Chef-turned-author whose Kitchen Confidential led to Parts Unknown.",
+		"source": "agent-draft"
+	},
+	"anya-taylor-joy": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2015, "The Witch"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of The Queen's Gambit, Furiosa, and The Witch.",
+		"source": "agent-draft"
+	},
+	"ariana-grande": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Victorious and Wicked"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2010, "Nickelodeon Victorious"],
+		"born": 1993,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer behind Thank U, Next and Sweetener.",
+		"source": "agent-draft"
+	},
+	"arnold-schwarzenegger": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["politics", "politicians"],
+				"evidence": "Governor of California 2003-2011"
+			}
+		],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1977, "Pumping Iron"],
+		"born": 1947,
+		"era": null,
+		"confidence": "high",
+		"why": "Action star of The Terminator and Conan, ex-bodybuilder and governor.",
+		"source": "agent-draft"
+	},
+	"ashby": {
+		"home": ["comedy", "internet-comedy"],
+		"also": [],
+		"platforms": ["tiktok", "youtube"],
+		"roles": [],
+		"breakout": [2020, "Viral TikTok character comedy"],
+		"born": 2000,
+		"era": null,
+		"confidence": "low",
+		"why": "TikTok comedian known for viral character skits like Hamilton and the Lorax.",
+		"source": "agent-draft"
+	},
+	"asmongold": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["twitch", "youtube"],
+		"roles": [],
+		"breakout": [2014, "World of Warcraft Twitch streams"],
+		"born": 1990,
+		"era": null,
+		"confidence": "high",
+		"why": "Twitch and YouTube streamer known for gaming commentary.",
+		"source": "agent-draft"
+	},
+	"aubrey-plaza": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2009, "Parks and Recreation"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of Parks and Recreation, Ingrid Goes West, and The White Lotus.",
+		"source": "agent-draft"
+	},
+	"austin-butler": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2022, "Elvis"],
+		"born": 1991,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor who broke out as Elvis Presley.",
+		"source": "agent-draft"
+	},
+	"bad-bunny": {
+		"home": ["music", "latin"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2016, "Soy Peor"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Latin trap and reggaeton star behind Un Verano Sin Ti.",
+		"source": "agent-draft"
+	},
+	"barack-obama": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "Dreams from My Father, A Promised Land"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [2004, "2004 DNC keynote speech"],
+		"born": 1961,
+		"era": null,
+		"confidence": "high",
+		"why": "44th US president.",
+		"source": "agent-draft"
+	},
+	"bella-hadid": {
+		"home": ["style", "models"],
+		"also": [],
+		"platforms": ["instagram"],
+		"roles": ["model"],
+		"breakout": [2014, "Runway and Vogue campaigns"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "Supermodel on major runways and magazine covers.",
+		"source": "agent-draft"
+	},
+	"bella-poarch": {
+		"home": ["creators", "lifestyle"],
+		"also": [
+			{
+				"path": ["music", "pop"],
+				"evidence": "Build a Bitch and Dolls EP"
+			}
+		],
+		"platforms": ["tiktok", "youtube"],
+		"roles": [],
+		"breakout": [2020, "M to the B TikTok"],
+		"born": 1997,
+		"era": null,
+		"confidence": "medium",
+		"why": "TikTok star known for lip-sync videos, later a singer.",
+		"source": "agent-draft"
+	},
+	"ben-affleck": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["director", "producer", "writer"],
+		"breakout": [1997, "Good Will Hunting"],
+		"born": 1972,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actor, writer, and director of Argo.",
+		"source": "agent-draft"
+	},
+	"ben-horowitz": {
+		"home": ["tech", "investors"],
+		"also": [],
+		"platforms": ["x"],
+		"roles": ["investor", "founder", "writer"],
+		"breakout": [2009, "Andreessen Horowitz founding"],
+		"born": 1966,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founder of venture firm Andreessen Horowitz.",
+		"source": "agent-draft"
+	},
+	"ben-shapiro": {
+		"home": ["media", "pundits"],
+		"also": [],
+		"platforms": ["youtube", "podcast"],
+		"roles": ["host", "founder", "writer"],
+		"breakout": [2016, "Campus speeches and Daily Wire"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Conservative commentator, Daily Wire co-founder, and podcast host.",
+		"source": "agent-draft"
+	},
+	"benny-blanco": {
+		"home": ["music", "electronic"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "songwriter"],
+		"breakout": [2010, "Tik Tok production for Ke$ha"],
+		"born": 1988,
+		"era": null,
+		"confidence": "medium",
+		"why": "Pop producer and songwriter behind Maroon 5, Justin Bieber, and Rihanna hits.",
+		"source": "agent-draft"
+	},
+	"benson-boone": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": ["tiktok"],
+		"roles": ["songwriter"],
+		"breakout": [2024, "Beautiful Things"],
+		"born": 2002,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer of Beautiful Things.",
+		"source": "agent-draft"
+	},
+	"bernard-arnault": {
+		"home": ["style", "luxury"],
+		"also": [],
+		"platforms": [],
+		"roles": ["executive", "founder"],
+		"breakout": [1989, "LVMH takeover"],
+		"born": 1949,
+		"era": null,
+		"confidence": "high",
+		"why": "Chairman and CEO of luxury conglomerate LVMH.",
+		"source": "agent-draft"
+	},
+	"bernie-sanders": {
+		"home": ["politics", "politicians"],
+		"also": [],
+		"platforms": [],
+		"roles": ["activist"],
+		"breakout": [2016, "2016 presidential primary campaign"],
+		"born": 1941,
+		"era": null,
+		"confidence": "high",
+		"why": "US Senator from Vermont and two-time presidential candidate.",
+		"source": "agent-draft"
+	},
+	"bert-kreischer": {
+		"home": ["comedy", "stand-up"],
+		"also": [],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [1997, "Rolling Stone top party school story"],
+		"born": 1972,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian and host of 2 Bears, 1 Cave.",
+		"source": "agent-draft"
+	},
+	"beyonce-knowles": {
+		"home": ["music", "rnb"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [1997, "Destiny's Child debut"],
+		"born": 1981,
+		"era": null,
+		"confidence": "medium",
+		"why": "Singer behind Lemonade and Renaissance, from Destiny's Child.",
+		"source": "agent-draft"
+	},
+	"bill-burr": {
+		"home": ["comedy", "stand-up"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "F Is for Family and Old Dads"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["host", "writer"],
+		"breakout": [2010, "Let It Go stand-up special"],
+		"born": 1968,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian and host of Monday Morning Podcast.",
+		"source": "agent-draft"
+	},
+	"bill-clinton": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "My Life and co-written thrillers"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1992, "1992 presidential election"],
+		"born": 1946,
+		"era": null,
+		"confidence": "high",
+		"why": "42nd US president.",
+		"source": "agent-draft"
+	},
+	"bill-gates": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [
+			{
+				"path": ["politics", "philanthropy"],
+				"evidence": "Gates Foundation global health work"
+			},
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "How to Avoid a Climate Disaster, memoir"
+			}
+		],
+		"platforms": [],
+		"roles": ["founder", "executive", "investor", "writer"],
+		"breakout": [1981, "Microsoft and the IBM MS-DOS deal"],
+		"born": 1955,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founded Microsoft, now known for Gates Foundation philanthropy.",
+		"source": "agent-draft"
+	},
+	"billie-eilish": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2016, "Ocean Eyes"],
+		"born": 2001,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer-songwriter behind When We All Fall Asleep.",
+		"source": "agent-draft"
+	},
+	"blake-lively": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "founder"],
+		"breakout": [2007, "Gossip Girl"],
+		"born": 1987,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of Gossip Girl, The Age of Adaline, and It Ends With Us.",
+		"source": "agent-draft"
+	},
+	"bob-dylan": {
+		"home": ["music", "indie"],
+		"also": [
+			{
+				"path": ["ideas", "novelists-poets"],
+				"evidence": "Nobel Prize in Literature, Chronicles"
+			},
+			{
+				"path": ["ideas", "artists"],
+				"evidence": "exhibited paintings and metalwork"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter", "writer"],
+		"breakout": [1963, "Blowin' in the Wind"],
+		"born": 1941,
+		"era": null,
+		"confidence": "high",
+		"why": "Folk-rock singer-songwriter and Nobel laureate.",
+		"source": "agent-draft"
+	},
+	"bobbi-althoff": {
+		"home": ["media", "podcasters"],
+		"also": [],
+		"platforms": ["tiktok", "podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2023, "The Really Good Podcast"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Interview host of The Really Good Podcast.",
+		"source": "agent-draft"
+	},
+	"bobby-lee": {
+		"home": ["comedy", "stand-up"],
+		"also": [],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [1999, "MADtv"],
+		"born": 1971,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian and co-host of TigerBelly.",
+		"source": "agent-draft"
+	},
+	"brad-pitt": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1991, "Thelma & Louise"],
+		"born": 1963,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actor and Plan B producer.",
+		"source": "agent-draft"
+	},
+	"bradley-martyn": {
+		"home": ["creators", "fitness"],
+		"also": [],
+		"platforms": ["youtube", "podcast"],
+		"roles": ["coach", "founder", "host"],
+		"breakout": [2017, "Gym vlogs on YouTube"],
+		"born": 1989,
+		"era": null,
+		"confidence": "medium",
+		"why": "Fitness YouTuber and gym owner of Zoo Culture.",
+		"source": "agent-draft"
+	},
+	"brian-chesky": {
+		"home": ["tech", "founders", "startups"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2008, "Airbnb founding"],
+		"born": 1981,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founder and CEO of Airbnb.",
+		"source": "agent-draft"
+	},
+	"britney-spears": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1998, "...Baby One More Time"],
+		"born": 1981,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop star behind ...Baby One More Time and Toxic.",
+		"source": "agent-draft"
+	},
+	"brittany-broski": {
+		"home": ["comedy", "internet-comedy"],
+		"also": [],
+		"platforms": ["tiktok", "youtube", "podcast"],
+		"roles": ["host"],
+		"breakout": [2019, "Kombucha Girl meme"],
+		"born": 1997,
+		"era": null,
+		"confidence": "medium",
+		"why": "Internet comedian known for the Kombucha Girl meme and Royal Court.",
+		"source": "agent-draft"
+	},
+	"brooke-monk": {
+		"home": ["creators", "lifestyle"],
+		"also": [],
+		"platforms": ["tiktok", "youtube"],
+		"roles": [],
+		"breakout": [2020, "TikTok comedy and lifestyle videos"],
+		"born": 2003,
+		"era": null,
+		"confidence": "medium",
+		"why": "TikTok and YouTube lifestyle creator.",
+		"source": "agent-draft"
+	},
+	"bryan-johnson": {
+		"home": ["self-help", "health"],
+		"also": [
+			{
+				"path": ["tech", "founders", "startups"],
+				"evidence": "Braintree founder, sold to PayPal"
+			}
+		],
+		"platforms": ["x", "youtube"],
+		"roles": ["founder", "investor"],
+		"breakout": [2023, "Blueprint anti-aging regimen"],
+		"born": 1977,
+		"era": null,
+		"confidence": "medium",
+		"why": "Wikipedia leads with entrepreneur, but Blueprint longevity now dominates his fame (override).",
+		"source": "agent-draft"
+	},
+	"caitlin-clark": {
+		"home": ["sports", "basketball"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2023, "NCAA scoring record at Iowa"],
+		"born": 2002,
+		"era": null,
+		"confidence": "high",
+		"why": "Indiana Fever guard and NCAA all-time scoring leader.",
+		"source": "agent-draft"
+	},
+	"caleb-hearon": {
+		"home": ["comedy", "internet-comedy"],
+		"also": [],
+		"platforms": ["podcast", "tiktok", "youtube"],
+		"roles": ["host"],
+		"breakout": [2022, "Viral sketch videos"],
+		"born": 1995,
+		"era": null,
+		"confidence": "medium",
+		"why": "Comedian known for viral videos and the So True podcast.",
+		"source": "agent-draft"
+	},
+	"callum-turner": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2018, "Fantastic Beasts: The Crimes of Grindelwald"],
+		"born": 1990,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of Masters of the Air, Fantastic Beasts, and Emma.",
+		"source": "agent-draft"
+	},
+	"cardi-b": {
+		"home": ["music", "hip-hop"],
+		"also": [
+			{
+				"path": ["famous", "reality-tv"],
+				"evidence": "Love & Hip Hop: New York"
+			}
+		],
+		"platforms": ["instagram"],
+		"roles": ["songwriter"],
+		"breakout": [2015, "Love & Hip Hop: New York"],
+		"born": 1992,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper of Bodak Yellow and WAP.",
+		"source": "agent-draft"
+	},
+	"carina-zavline": {
+		"home": ["style", "models"],
+		"also": [],
+		"platforms": ["instagram", "tiktok"],
+		"roles": ["model"],
+		"breakout": [2019, "Instagram modeling following"],
+		"born": 1997,
+		"era": null,
+		"confidence": "low",
+		"why": "German model and influencer with a modeling and dance background.",
+		"source": "agent-draft"
+	},
+	"carl-jung": {
+		"home": ["ideas", "scientists", "social-science"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1912, "Psychology of the Unconscious"],
+		"born": 1875,
+		"era": {
+			"period": "Early 20th-century psychoanalysis",
+			"place": "Switzerland"
+		},
+		"confidence": "high",
+		"why": "Swiss psychiatrist who founded analytical psychology.",
+		"source": "agent-draft"
+	},
+	"caseoh": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["twitch", "youtube"],
+		"roles": [],
+		"breakout": [2022, "Twitch gaming streams"],
+		"born": 1998,
+		"era": null,
+		"confidence": "high",
+		"why": "Twitch and YouTube game streamer.",
+		"source": "agent-draft"
+	},
+	"casey-neistat": {
+		"home": ["creators", "vlogs-stunts"],
+		"also": [
+			{
+				"path": ["screen", "directors"],
+				"evidence": "HBO Neistat Brothers series and short films"
+			}
+		],
+		"platforms": ["youtube"],
+		"roles": ["founder", "director", "producer"],
+		"breakout": [2012, "Make It Count Nike video"],
+		"born": 1981,
+		"era": null,
+		"confidence": "high",
+		"why": "YouTube vlogger and filmmaker known for daily vlogs.",
+		"source": "agent-draft"
+	},
+	"cathie-wood": {
+		"home": ["business", "finance"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "investor", "executive"],
+		"breakout": [2020, "ARK Innovation fund surge"],
+		"born": 1955,
+		"era": null,
+		"confidence": "high",
+		"why": "Founder and CEO of ARK Invest.",
+		"source": "agent-draft"
+	},
+	"chamath-palihapitiya": {
+		"home": ["tech", "investors"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "All-In podcast co-host"
+			}
+		],
+		"platforms": ["podcast", "youtube", "x"],
+		"roles": ["investor", "founder", "host"],
+		"breakout": [2017, "Facebook remarks and Social Capital"],
+		"born": 1976,
+		"era": null,
+		"confidence": "medium",
+		"why": "Venture capitalist and founder of Social Capital.",
+		"source": "agent-draft"
+	},
+	"chappell-roan": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2024, "Good Luck, Babe!"],
+		"born": 1998,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer of The Rise and Fall of a Midwest Princess.",
+		"source": "agent-draft"
+	},
+	"charli-damelio": {
+		"home": ["creators", "lifestyle"],
+		"also": [
+			{
+				"path": ["famous", "reality-tv"],
+				"evidence": "The D'Amelio Show on Hulu"
+			}
+		],
+		"platforms": ["tiktok", "youtube"],
+		"roles": [],
+		"breakout": [2019, "TikTok dance videos"],
+		"born": 2004,
+		"era": null,
+		"confidence": "high",
+		"why": "TikTok dancer who became the platform's most-followed creator.",
+		"source": "agent-draft"
+	},
+	"charli-xcx": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2012, "I Love It (Icona Pop)"],
+		"born": 1992,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop artist behind Brat and Boom Clap.",
+		"source": "agent-draft"
+	},
+	"charlie-puth": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": ["youtube", "tiktok"],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2015, "See You Again"],
+		"born": 1991,
+		"era": null,
+		"confidence": "high",
+		"why": "Singer-producer of See You Again and Attention.",
+		"source": "agent-draft"
+	},
+	"chelsea-handler": {
+		"home": ["comedy", "late-night"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "bestselling comic memoirs"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["host", "writer", "producer", "activist"],
+		"breakout": [2007, "Chelsea Lately"],
+		"born": 1975,
+		"era": null,
+		"confidence": "medium",
+		"why": "Comedian who hosted E! talk show Chelsea Lately and Netflix's Chelsea.",
+		"source": "agent-draft"
+	},
+	"chris-hemsworth": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2011, "Thor"],
+		"born": 1983,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor best known as Thor in Marvel films.",
+		"source": "agent-draft"
+	},
+	"chris-pratt": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2009, "Parks and Recreation"],
+		"born": 1979,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of Parks and Recreation, Guardians of the Galaxy, and Jurassic World.",
+		"source": "agent-draft"
+	},
+	"chris-williamson": {
+		"home": ["media", "podcasters"],
+		"also": [],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2019, "Modern Wisdom podcast"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Host of the Modern Wisdom podcast.",
+		"source": "agent-draft"
+	},
+	"christian-bale": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1987, "Empire of the Sun"],
+		"born": 1974,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actor of The Dark Knight and The Fighter.",
+		"source": "agent-draft"
+	},
+	"christopher-nolan": {
+		"home": ["screen", "directors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["director", "producer", "writer"],
+		"breakout": [2000, "Memento"],
+		"born": 1970,
+		"era": null,
+		"confidence": "high",
+		"why": "Director of Inception, The Dark Knight, and Oppenheimer.",
+		"source": "agent-draft"
+	},
+	"cillian-murphy": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2002, "28 Days Later"],
+		"born": 1976,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of Peaky Blinders and Oppenheimer.",
+		"source": "agent-draft"
+	},
+	"clavicular": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["kick", "x", "tiktok"],
+		"roles": [],
+		"breakout": [2025, "Looksmaxxing Kick streams"],
+		"born": 2005,
+		"era": null,
+		"confidence": "medium",
+		"why": "Kick streamer known for looksmaxxing content.",
+		"source": "agent-draft"
+	},
+	"conan-obrien": {
+		"home": ["comedy", "late-night"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Conan O'Brien Needs a Friend podcast"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host", "writer", "producer"],
+		"breakout": [1993, "Late Night with Conan O'Brien"],
+		"born": 1963,
+		"era": null,
+		"confidence": "high",
+		"why": "Late-night host of Late Night, The Tonight Show, and Conan.",
+		"source": "agent-draft"
+	},
+	"conor-mcgregor": {
+		"home": ["sports", "combat", "mma"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Proper No. Twelve whiskey, sold for ~$600M"
+			}
+		],
+		"platforms": [],
+		"roles": ["founder", "notorious"],
+		"breakout": [2013, "UFC debut and featherweight title run"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Two-division UFC champion.",
+		"source": "agent-draft"
+	},
+	"corinna-kopf": {
+		"home": ["creators", "adult"],
+		"also": [],
+		"platforms": ["twitch", "youtube", "onlyfans", "instagram", "kick"],
+		"roles": [],
+		"breakout": [2018, "Instagram and Twitch stardom"],
+		"born": 1995,
+		"era": null,
+		"confidence": "medium",
+		"why": "Twitch streamer and OnlyFans creator whose OnlyFans earnings became her headline.",
+		"source": "agent-draft"
+	},
+	"cristiano-ronaldo": {
+		"home": ["sports", "soccer"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2004, "Manchester United star, Euro 2004 run"],
+		"born": 1985,
+		"era": null,
+		"confidence": "high",
+		"why": "Portuguese forward and record-setting goalscorer.",
+		"source": "agent-draft"
+	},
+	"dakota-johnson": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2015, "Fifty Shades of Grey"],
+		"born": 1989,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Fifty Shades of Grey and Materialists.",
+		"source": "agent-draft"
+	},
+	"dalton-caldwell": {
+		"home": ["tech", "investors"],
+		"also": [],
+		"platforms": ["x"],
+		"roles": ["investor", "founder"],
+		"breakout": [2012, "App.net launch"],
+		"born": 1980,
+		"era": null,
+		"confidence": "medium",
+		"why": "Y Combinator partner and investor, earlier founder of imeem and App.net.",
+		"source": "agent-draft"
+	},
+	"dario-amodei": {
+		"home": ["tech", "founders", "ai"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2021, "Co-founded Anthropic"],
+		"born": 1983,
+		"era": null,
+		"confidence": "medium",
+		"why": "Co-founder and CEO of Anthropic; AI researcher background makes ai-research close.",
+		"source": "agent-draft"
+	},
+	"dave-chappelle": {
+		"home": ["comedy", "stand-up"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer", "producer"],
+		"breakout": [2003, "Chappelle's Show"],
+		"born": 1973,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian and creator of Chappelle's Show.",
+		"source": "agent-draft"
+	},
+	"dave-portnoy": {
+		"home": ["media", "sports-media"],
+		"also": [
+			{
+				"path": ["style", "food-creators"],
+				"evidence": "One Bite pizza reviews"
+			}
+		],
+		"platforms": ["youtube", "podcast", "x"],
+		"roles": ["founder", "host", "writer"],
+		"breakout": [2003, "Founded Barstool Sports"],
+		"born": 1977,
+		"era": null,
+		"confidence": "medium",
+		"why": "Founder of Barstool Sports and its sports-and-culture media empire.",
+		"source": "agent-draft"
+	},
+	"david-beckham": {
+		"home": ["sports", "soccer"],
+		"also": [
+			{
+				"path": ["business", "moguls"],
+				"evidence": "Inter Miami co-owner, DB Ventures"
+			}
+		],
+		"platforms": ["instagram"],
+		"roles": ["investor"],
+		"breakout": [1996, "Halfway-line goal for Manchester United"],
+		"born": 1975,
+		"era": null,
+		"confidence": "high",
+		"why": "England captain and Manchester United and Real Madrid midfielder.",
+		"source": "agent-draft"
+	},
+	"david-corenswet": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2025, "Superman in Superman"],
+		"born": 1993,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor cast as Superman in James Gunn's 2025 film.",
+		"source": "agent-draft"
+	},
+	"david-dobrik": {
+		"home": ["creators", "vlogs-stunts"],
+		"also": [],
+		"platforms": ["youtube", "vine", "instagram", "podcast"],
+		"roles": ["founder", "host"],
+		"breakout": [2015, "Vine comedy videos"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "YouTube vlogger whose vlog squad videos drew millions of views.",
+		"source": "agent-draft"
+	},
+	"david-friedberg": {
+		"home": ["tech", "founders", "startups"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "All-In podcast co-host"
+			}
+		],
+		"platforms": ["podcast", "youtube", "x"],
+		"roles": ["founder", "investor", "executive"],
+		"breakout": [2013, "Climate Corporation sold to Monsanto"],
+		"born": 1980,
+		"era": null,
+		"confidence": "medium",
+		"why": "Founder of The Climate Corporation and Ohalo, now also known via All-In.",
+		"source": "agent-draft"
+	},
+	"david-goggins": {
+		"home": ["self-help", "motivation"],
+		"also": [
+			{
+				"path": ["sports", "olympic"],
+				"evidence": "Ultramarathon and pull-up records"
+			}
+		],
+		"platforms": ["instagram", "podcast"],
+		"roles": ["writer"],
+		"breakout": [2018, "Can't Hurt Me"],
+		"born": 1975,
+		"era": null,
+		"confidence": "medium",
+		"why": "Ultramarathoner and former SEAL known for his motivational books and speeches.",
+		"source": "agent-draft"
+	},
+	"david-sacks": {
+		"home": ["tech", "investors"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "All-In podcast co-host"
+			},
+			{
+				"path": ["politics", "politicians"],
+				"evidence": "White House AI and crypto czar, 2025"
+			}
+		],
+		"platforms": ["podcast", "x"],
+		"roles": ["investor", "founder", "producer"],
+		"breakout": [2012, "Yammer sold to Microsoft"],
+		"born": 1972,
+		"era": null,
+		"confidence": "medium",
+		"why": "Venture capitalist and Yammer founder, former PayPal COO.",
+		"source": "agent-draft"
+	},
+	"dax-shepard": {
+		"home": ["media", "podcasters"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Punk'd, Parenthood, Without a Paddle"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host", "producer", "director"],
+		"breakout": [2019, "Armchair Expert podcast"],
+		"born": 1975,
+		"era": null,
+		"confidence": "medium",
+		"why": "Host of Armchair Expert; override of actor-first lead since the podcast now dominates his fame.",
+		"source": "agent-draft"
+	},
+	"demi-lovato": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Camp Rock, Sonny with a Chance"
+			}
+		],
+		"platforms": ["youtube"],
+		"roles": ["songwriter"],
+		"breakout": [2008, "Camp Rock"],
+		"born": 1992,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer of Heart Attack and Sorry Not Sorry.",
+		"source": "agent-draft"
+	},
+	"demis-hassabis": {
+		"home": ["tech", "ai-research"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2016, "AlphaGo beats Lee Sedol"],
+		"born": 1976,
+		"era": null,
+		"confidence": "high",
+		"why": "Neuroscientist and DeepMind CEO behind AlphaGo and AlphaFold.",
+		"source": "agent-draft"
+	},
+	"denzel-washington": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "director"],
+		"breakout": [1989, "Glory"],
+		"born": 1954,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actor of Glory, Training Day and Malcolm X.",
+		"source": "agent-draft"
+	},
+	"dhar-mann": {
+		"home": ["self-help", "motivation"],
+		"also": [],
+		"platforms": ["youtube", "instagram", "tiktok", "podcast"],
+		"roles": ["founder", "producer", "writer", "host"],
+		"breakout": [2018, "Viral Dhar Mann moral-lesson videos"],
+		"born": null,
+		"era": null,
+		"confidence": "low",
+		"why": "Founder of Dhar Mann Studios, scripted moral-lesson videos; creators and self-help both fit.",
+		"source": "agent-draft"
+	},
+	"dixie-damelio": {
+		"home": ["creators", "lifestyle"],
+		"also": [
+			{
+				"path": ["music", "pop"],
+				"evidence": "Be Happy, debut album"
+			}
+		],
+		"platforms": ["tiktok", "youtube", "instagram"],
+		"roles": [],
+		"breakout": [2019, "TikTok lip-sync and dance videos"],
+		"born": 2001,
+		"era": null,
+		"confidence": "medium",
+		"why": "TikTok personality, once the platform's most followed.",
+		"source": "agent-draft"
+	},
+	"doechii": {
+		"home": ["music", "hip-hop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2022, "Persuasive going viral"],
+		"born": 1998,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper whose mixtape Alligator Bites Never Heal won a Grammy.",
+		"source": "agent-draft"
+	},
+	"doja-cat": {
+		"home": ["music", "hip-hop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2018, "Mooo!"],
+		"born": 1995,
+		"era": null,
+		"confidence": "medium",
+		"why": "Rapper-singer of Say So and Planet Her; hip-hop and pop are close.",
+		"source": "agent-draft"
+	},
+	"dolly-parton": {
+		"home": ["music", "country"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "9 to 5, Steel Magnolias"
+			},
+			{
+				"path": ["business", "moguls"],
+				"evidence": "Dollywood theme park"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter", "founder"],
+		"breakout": [1967, "Porter Wagoner Show duets"],
+		"born": 1946,
+		"era": null,
+		"confidence": "high",
+		"why": "Country singer-songwriter of Jolene and 9 to 5.",
+		"source": "agent-draft"
+	},
+	"donald-trump": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [
+			{
+				"path": ["business", "moguls"],
+				"evidence": "Trump Organization real estate"
+			},
+			{
+				"path": ["media", "tv-hosts"],
+				"evidence": "The Apprentice host"
+			}
+		],
+		"platforms": ["x"],
+		"roles": ["executive", "host", "writer"],
+		"breakout": [1987, "Trump Tower and The Art of the Deal"],
+		"born": 1946,
+		"era": null,
+		"confidence": "high",
+		"why": "45th and 47th U.S. president.",
+		"source": "agent-draft"
+	},
+	"dr-phil": {
+		"home": ["media", "tv-hosts"],
+		"also": [
+			{
+				"path": ["self-help", "relationships"],
+				"evidence": "Life Strategies, Love Smart books"
+			}
+		],
+		"platforms": [],
+		"roles": ["host", "writer", "producer"],
+		"breakout": [1998, "Regular guest on Oprah"],
+		"born": 1950,
+		"era": null,
+		"confidence": "medium",
+		"why": "Host of Dr. Phil, a daytime advice talk show.",
+		"source": "agent-draft"
+	},
+	"drake": {
+		"home": ["music", "hip-hop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Degrassi: The Next Generation"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2009, "So Far Gone mixtape"],
+		"born": 1986,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper-singer with record-setting streaming numbers.",
+		"source": "agent-draft"
+	},
+	"druski": {
+		"home": ["comedy", "internet-comedy"],
+		"also": [],
+		"platforms": ["instagram", "youtube", "tiktok"],
+		"roles": [],
+		"breakout": [2019, "Instagram skit videos"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Internet comedian known for Coulda Been Records and character skits.",
+		"source": "agent-draft"
+	},
+	"dua-lipa": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2017, "New Rules"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer of New Rules and Future Nostalgia.",
+		"source": "agent-draft"
+	},
+	"duke-dennis": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["youtube", "twitch"],
+		"roles": [],
+		"breakout": [2022, "Streams and collabs with Kai Cenat"],
+		"born": 1994,
+		"era": null,
+		"confidence": "medium",
+		"why": "YouTuber and streamer known for gaming and IRL streams.",
+		"source": "agent-draft"
+	},
+	"dwayne-johnson": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["sports", "combat", "pro-wrestling"],
+				"evidence": "WWE champion as The Rock"
+			}
+		],
+		"platforms": ["instagram"],
+		"roles": ["producer", "founder"],
+		"breakout": [1998, "The Rock in the WWF"],
+		"born": 1972,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of Fast & Furious and Moana, formerly wrestler The Rock.",
+		"source": "agent-draft"
+	},
+	"ed-sheeran": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2011, "The A Team"],
+		"born": 1991,
+		"era": null,
+		"confidence": "medium",
+		"why": "Singer-songwriter of Shape of You; pop and indie singer-songwriter are close.",
+		"source": "agent-draft"
+	},
+	"eddie-murphy": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["comedy", "stand-up"],
+				"evidence": "Delirious and Raw concert films"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "writer"],
+		"breakout": [1980, "Saturday Night Live"],
+		"born": 1961,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of Beverly Hills Cop and Shrek whose film career dominates.",
+		"source": "agent-draft"
+	},
+	"elizabeth-holmes": {
+		"home": ["tech", "founders", "startups"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive", "notorious"],
+		"breakout": [2014, "Theranos $9B valuation, Forbes cover"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Founder of Theranos, convicted of fraud.",
+		"source": "agent-draft"
+	},
+	"ella-beatty": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2021, "Early screen roles, daughter of Beatty and Bening"],
+		"born": 2000,
+		"era": null,
+		"confidence": "low",
+		"why": "Young actress with limited public work so far.",
+		"source": "agent-draft"
+	},
+	"ella-langley": {
+		"home": ["music", "country"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2024, "You Look Like You Love Me"],
+		"born": 1999,
+		"era": null,
+		"confidence": "high",
+		"why": "Country singer-songwriter of Never Say Never and Choosin' Texas.",
+		"source": "agent-draft"
+	},
+	"ellen-degeneres": {
+		"home": ["media", "tv-hosts"],
+		"also": [
+			{
+				"path": ["comedy", "sketch-sitcom"],
+				"evidence": "Ellen sitcom and stand-up specials"
+			},
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Dory in Finding Nemo"
+			}
+		],
+		"platforms": [],
+		"roles": ["host", "producer", "writer"],
+		"breakout": [1986, "Tonight Show stand-up debut"],
+		"born": 1958,
+		"era": null,
+		"confidence": "medium",
+		"why": "Host of The Ellen DeGeneres Show; comedy lead in Wikipedia but talk show dominates.",
+		"source": "agent-draft"
+	},
+	"elon-musk": {
+		"home": ["tech", "founders", "hardware-defense"],
+		"also": [
+			{
+				"path": ["politics", "politicians"],
+				"evidence": "DOGE leader, 2024-25 election role"
+			}
+		],
+		"platforms": ["x"],
+		"roles": ["founder", "executive", "investor"],
+		"breakout": [2008, "Tesla Roadster and Falcon 1"],
+		"born": 1971,
+		"era": null,
+		"confidence": "high",
+		"why": "CEO of Tesla and SpaceX, owner of X.",
+		"source": "agent-draft"
+	},
+	"elton-john": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [1970, "Your Song"],
+		"born": 1947,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop-rock pianist and singer of Rocket Man.",
+		"source": "agent-draft"
+	},
+	"emily-ratajkowski": {
+		"home": ["style", "models"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "My Body essay collection"
+			},
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Gone Girl, We Are Your Friends"
+			}
+		],
+		"platforms": ["instagram", "podcast", "tiktok"],
+		"roles": ["model", "writer", "host"],
+		"breakout": [2013, "Blurred Lines music video"],
+		"born": 1991,
+		"era": null,
+		"confidence": "high",
+		"why": "Model who became known through the Blurred Lines video.",
+		"source": "agent-draft"
+	},
+	"eminem": {
+		"home": ["music", "hip-hop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [1999, "The Slim Shady LP"],
+		"born": 1972,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper of The Marshall Mathers LP and Lose Yourself.",
+		"source": "agent-draft"
+	},
+	"emma-chamberlain": {
+		"home": ["creators", "vlogs-stunts"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Chamberlain Coffee company"
+			}
+		],
+		"platforms": ["youtube", "podcast", "instagram"],
+		"roles": ["founder", "host"],
+		"breakout": [2017, "YouTube vlogs"],
+		"born": 2001,
+		"era": null,
+		"confidence": "medium",
+		"why": "YouTuber who defined the modern YouTube vlog.",
+		"source": "agent-draft"
+	},
+	"emma-myers": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2022, "Wednesday as Enid Sinclair"],
+		"born": 2002,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Wednesday and Family Switch.",
+		"source": "agent-draft"
+	},
+	"emma-stone": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2010, "Easy A"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actress of La La Land and Poor Things.",
+		"source": "agent-draft"
+	},
+	"emma-watson": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["politics", "activists"],
+				"evidence": "UN Women HeForShe campaign"
+			}
+		],
+		"platforms": [],
+		"roles": ["activist"],
+		"breakout": [2001, "Harry Potter and the Philosopher's Stone"],
+		"born": 1990,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress who played Hermione Granger in the Harry Potter films.",
+		"source": "agent-draft"
+	},
+	"ernest-hemingway": {
+		"home": ["ideas", "novelists-poets"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1926, "The Sun Also Rises"],
+		"born": 1899,
+		"era": {
+			"period": "Lost Generation and modernism",
+			"place": "United States and Paris"
+		},
+		"confidence": "high",
+		"why": "Novelist of The Old Man and the Sea and A Farewell to Arms.",
+		"source": "agent-draft"
+	},
+	"frank-lloyd-wright": {
+		"home": ["ideas", "design"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1910, "Robie House and Prairie School"],
+		"born": 1867,
+		"era": {
+			"period": "Prairie School and American modernism",
+			"place": "United States"
+		},
+		"confidence": "high",
+		"why": "Architect of Fallingwater and the Guggenheim Museum.",
+		"source": "agent-draft"
+	},
+	"freddie-mercury": {
+		"home": ["music", "rock"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [1975, "Bohemian Rhapsody"],
+		"born": 1946,
+		"era": null,
+		"confidence": "high",
+		"why": "Queen frontman and singer of Bohemian Rhapsody.",
+		"source": "agent-draft"
+	},
+	"frida-kahlo": {
+		"home": ["ideas", "artists"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1938, "First New York solo exhibition"],
+		"born": 1907,
+		"era": {
+			"period": "Mexican modernism",
+			"place": "Mexico"
+		},
+		"confidence": "high",
+		"why": "Mexican painter famed for her self-portraits.",
+		"source": "agent-draft"
+	},
+	"friedrich-nietzsche": {
+		"home": ["ideas", "philosophers"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1883, "Thus Spoke Zarathustra"],
+		"born": 1844,
+		"era": {
+			"period": "19th-century German philosophy",
+			"place": "Germany"
+		},
+		"confidence": "high",
+		"why": "Philosopher of Beyond Good and Evil and Zarathustra.",
+		"source": "agent-draft"
+	},
+	"garry-tan": {
+		"home": ["tech", "investors"],
+		"also": [],
+		"platforms": ["x", "youtube"],
+		"roles": ["investor", "founder", "executive"],
+		"breakout": [2008, "Co-founded Posterous"],
+		"born": 1981,
+		"era": null,
+		"confidence": "medium",
+		"why": "President and CEO of Y Combinator, earlier founder of Posterous.",
+		"source": "agent-draft"
+	},
+	"gary-vee": {
+		"home": ["business", "business-creators"],
+		"also": [],
+		"platforms": ["youtube", "instagram", "tiktok", "podcast", "x"],
+		"roles": ["founder", "writer", "investor", "host"],
+		"breakout": [2006, "Wine Library TV"],
+		"born": 1975,
+		"era": null,
+		"confidence": "high",
+		"why": "Marketing entrepreneur who built a business-advice audience and VaynerMedia.",
+		"source": "agent-draft"
+	},
+	"gavin-newsom": {
+		"home": ["politics", "politicians"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "PlumpJack wineries and hospitality"
+			}
+		],
+		"platforms": ["podcast", "x"],
+		"roles": ["founder", "host", "writer"],
+		"breakout": [2004, "San Francisco same-sex marriage licenses"],
+		"born": 1967,
+		"era": null,
+		"confidence": "high",
+		"why": "Governor of California.",
+		"source": "agent-draft"
+	},
+	"geoffrey-hinton": {
+		"home": ["tech", "ai-research"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2012, "AlexNet deep learning breakthrough"],
+		"born": 1947,
+		"era": null,
+		"confidence": "high",
+		"why": "Computer scientist and Nobel laureate called the godfather of deep learning.",
+		"source": "agent-draft"
+	},
+	"george-h-w-bush": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1980, "Reagan running mate"],
+		"born": 1924,
+		"era": null,
+		"confidence": "high",
+		"why": "41st U.S. president.",
+		"source": "agent-draft"
+	},
+	"george-rr-martin": {
+		"home": ["ideas", "novelists-poets"],
+		"also": [
+			{
+				"path": ["screen", "directors"],
+				"evidence": "Twilight Zone writing, Game of Thrones producer"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer", "producer"],
+		"breakout": [1996, "A Game of Thrones novel"],
+		"born": 1948,
+		"era": null,
+		"confidence": "high",
+		"why": "Fantasy novelist of A Song of Ice and Fire.",
+		"source": "agent-draft"
+	},
+	"george-w-bush": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [
+			{
+				"path": ["ideas", "artists"],
+				"evidence": "Portraits of Courage painting books"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1994, "Elected governor of Texas"],
+		"born": 1946,
+		"era": null,
+		"confidence": "high",
+		"why": "43rd U.S. president.",
+		"source": "agent-draft"
+	},
+	"gigi-hadid": {
+		"home": ["style", "models"],
+		"also": [],
+		"platforms": ["instagram"],
+		"roles": ["model"],
+		"breakout": [2014, "Sports Illustrated Swimsuit and Guess campaign"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "Runway and campaign model.",
+		"source": "agent-draft"
+	},
+	"gordon-ramsay": {
+		"home": ["style", "chefs"],
+		"also": [
+			{
+				"path": ["media", "tv-hosts"],
+				"evidence": "Hell's Kitchen, MasterChef, Kitchen Nightmares"
+			}
+		],
+		"platforms": ["youtube", "tiktok"],
+		"roles": ["host", "founder", "writer"],
+		"breakout": [1999, "Boiling Point documentary"],
+		"born": 1966,
+		"era": null,
+		"confidence": "high",
+		"why": "Michelin-starred chef and restaurateur.",
+		"source": "agent-draft"
+	},
+	"gracie-abrams": {
+		"home": ["music", "indie"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2020, "Minor EP"],
+		"born": 1999,
+		"era": null,
+		"confidence": "high",
+		"why": "Singer-songwriter of The Secret of Us.",
+		"source": "agent-draft"
+	},
+	"greta-gerwig": {
+		"home": ["screen", "directors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["director", "writer", "producer"],
+		"breakout": [2017, "Lady Bird"],
+		"born": 1983,
+		"era": null,
+		"confidence": "high",
+		"why": "Director of Lady Bird, Little Women and Barbie.",
+		"source": "agent-draft"
+	},
+	"greta-thunberg": {
+		"home": ["politics", "activists"],
+		"also": [],
+		"platforms": ["instagram", "x"],
+		"roles": ["activist", "writer"],
+		"breakout": [2018, "School strike for climate"],
+		"born": 2003,
+		"era": null,
+		"confidence": "high",
+		"why": "Climate activist who began the Fridays for Future school strikes.",
+		"source": "agent-draft"
+	},
+	"grimes": {
+		"home": ["music", "electronic"],
+		"also": [],
+		"platforms": ["x"],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2012, "Visions album and Oblivion"],
+		"born": 1988,
+		"era": null,
+		"confidence": "medium",
+		"why": "Self-producing electronic and art-pop musician of Visions.",
+		"source": "agent-draft"
+	},
+	"gwyneth-paltrow": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["style", "home"],
+				"evidence": "Goop lifestyle brand"
+			}
+		],
+		"platforms": ["instagram", "podcast"],
+		"roles": ["founder", "producer"],
+		"breakout": [1998, "Shakespeare in Love"],
+		"born": 1972,
+		"era": null,
+		"confidence": "medium",
+		"why": "Oscar-winning actress of Shakespeare in Love and Iron Man.",
+		"source": "agent-draft"
+	},
+	"hailee-steinfeld": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["music", "pop"],
+				"evidence": "Starving, Love Myself"
+			}
+		],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2010, "True Grit"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of True Grit, Pitch Perfect 2 and Hawkeye.",
+		"source": "agent-draft"
+	},
+	"hailey-bieber": {
+		"home": ["style", "beauty"],
+		"also": [],
+		"platforms": ["instagram", "tiktok"],
+		"roles": ["model", "founder"],
+		"breakout": [2018, "Model, Justin Bieber marriage"],
+		"born": 1996,
+		"era": null,
+		"confidence": "low",
+		"why": "Founder of Rhode skincare, sold in 2025; override of model lead since the brand now headlines.",
+		"source": "agent-draft"
+	},
+	"halsey": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2015, "Badlands"],
+		"born": 1994,
+		"era": null,
+		"confidence": "medium",
+		"why": "Singer-songwriter of Badlands and Without Me.",
+		"source": "agent-draft"
+	},
+	"harrison-ford": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1977, "Star Wars"],
+		"born": 1942,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor who played Han Solo and Indiana Jones.",
+		"source": "agent-draft"
+	},
+	"harry-styles": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2010, "One Direction on The X Factor"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Solo pop star and former One Direction member.",
+		"source": "agent-draft"
+	},
+	"hasan-piker": {
+		"home": ["media", "pundits"],
+		"also": [],
+		"platforms": ["twitch", "youtube"],
+		"roles": ["host"],
+		"breakout": [2016, "The Young Turks and Twitch streams"],
+		"born": 1991,
+		"era": null,
+		"confidence": "medium",
+		"why": "Political commentator and Twitch streamer.",
+		"source": "agent-draft"
+	},
+	"hayao-miyazaki": {
+		"home": ["screen", "directors"],
+		"also": [
+			{
+				"path": ["ideas", "comics"],
+				"evidence": "Nausicaa manga"
+			}
+		],
+		"platforms": [],
+		"roles": ["director", "writer", "founder", "producer"],
+		"breakout": [1984, "Nausicaa of the Valley of the Wind"],
+		"born": 1941,
+		"era": null,
+		"confidence": "high",
+		"why": "Animator-director of Spirited Away and co-founder of Studio Ghibli.",
+		"source": "agent-draft"
+	},
+	"henry-cavill": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2013, "Man of Steel"],
+		"born": 1983,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor who played Superman and Geralt in The Witcher.",
+		"source": "agent-draft"
+	},
+	"hilary-duff": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["music", "pop"],
+				"evidence": "Metamorphosis, Hilary Duff albums"
+			}
+		],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2001, "Lizzie McGuire"],
+		"born": 1987,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of Lizzie McGuire and How I Met Your Father.",
+		"source": "agent-draft"
+	},
+	"hillary-clinton": {
+		"home": ["politics", "politicians"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "Living History, What Happened"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1992, "First Lady of the United States"],
+		"born": 1947,
+		"era": null,
+		"confidence": "high",
+		"why": "Senator, secretary of state and 2016 presidential nominee.",
+		"source": "agent-draft"
+	},
+	"howard-stern": {
+		"home": ["media", "podcasters"],
+		"also": [],
+		"platforms": [],
+		"roles": ["host", "writer"],
+		"breakout": [1986, "Howard Stern Show on WXRK"],
+		"born": 1954,
+		"era": null,
+		"confidence": "medium",
+		"why": "Radio host of The Howard Stern Show.",
+		"source": "agent-draft"
+	},
+	"hozier": {
+		"home": ["music", "indie"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2013, "Take Me to Church"],
+		"born": 1990,
+		"era": null,
+		"confidence": "high",
+		"why": "Singer-songwriter of Take Me to Church.",
+		"source": "agent-draft"
+	},
+	"hugh-jackman": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2000, "X-Men as Wolverine"],
+		"born": 1968,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of Wolverine and The Greatest Showman.",
+		"source": "agent-draft"
+	},
+	"hunter-biden": {
+		"home": ["politics", "first-families"],
+		"also": [
+			{
+				"path": ["ideas", "artists"],
+				"evidence": "Painter selling art"
+			}
+		],
+		"platforms": [],
+		"roles": ["notorious", "writer"],
+		"breakout": [2019, "Burisma board seat controversy"],
+		"born": 1970,
+		"era": null,
+		"confidence": "high",
+		"why": "Son of President Joe Biden, known through legal and political controversies.",
+		"source": "agent-draft"
+	},
+	"hunter-schafer": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["style", "models"],
+				"evidence": "Dior, Prada campaigns"
+			}
+		],
+		"platforms": ["instagram"],
+		"roles": ["model"],
+		"breakout": [2019, "Euphoria as Jules"],
+		"born": 1998,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Euphoria.",
+		"source": "agent-draft"
+	},
+	"ibai-llanos": {
+		"home": ["creators", "streamers"],
+		"also": [
+			{
+				"path": ["sports", "mind-sports"],
+				"evidence": "Esports caster, KOI co-founder"
+			}
+		],
+		"platforms": ["twitch", "youtube", "x"],
+		"roles": ["founder", "host", "producer"],
+		"breakout": [2018, "League of Legends casting to Twitch stardom"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "Spanish Twitch streamer and La Velada del Ano organizer.",
+		"source": "agent-draft"
+	},
+	"ice-spice": {
+		"home": ["music", "hip-hop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2022, "Munch (Feelin' U)"],
+		"born": 2000,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper of Munch and Like..?",
+		"source": "agent-draft"
+	},
+	"ilona-maher": {
+		"home": ["sports", "olympic"],
+		"also": [
+			{
+				"path": ["creators", "lifestyle"],
+				"evidence": "TikTok body-positivity content"
+			}
+		],
+		"platforms": ["tiktok", "instagram"],
+		"roles": [],
+		"breakout": [2024, "Paris Olympics bronze medal"],
+		"born": 1996,
+		"era": null,
+		"confidence": "medium",
+		"why": "Rugby sevens Olympic bronze medalist.",
+		"source": "agent-draft"
+	},
+	"ilya-sutskever": {
+		"home": ["tech", "ai-research"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2012, "AlexNet deep learning breakthrough"],
+		"born": 1986,
+		"era": null,
+		"confidence": "high",
+		"why": "AI researcher, OpenAI co-founder and Safe Superintelligence CEO.",
+		"source": "agent-draft"
+	},
+	"inde-navarrette": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2023, "Early television roles"],
+		"born": null,
+		"era": null,
+		"confidence": "low",
+		"why": "Young actress with limited public work so far.",
+		"source": "agent-draft"
+	},
+	"ishowspeed": {
+		"home": ["creators", "streamers"],
+		"also": [
+			{
+				"path": ["music", "hip-hop"],
+				"evidence": "Shake and World Cup single"
+			}
+		],
+		"platforms": ["youtube", "tiktok"],
+		"roles": [],
+		"breakout": [2021, "FIFA rage streams"],
+		"born": 2005,
+		"era": null,
+		"confidence": "high",
+		"why": "YouTuber and streamer known for high-energy gaming and IRL streams.",
+		"source": "agent-draft"
+	},
+	"jack-antonoff": {
+		"home": ["music", "electronic"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "songwriter"],
+		"breakout": [2012, "fun. We Are Young"],
+		"born": 1984,
+		"era": null,
+		"confidence": "medium",
+		"why": "Record producer for Taylor Swift and Lorde, frontman of Bleachers.",
+		"source": "agent-draft"
+	},
+	"jack-black": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["music", "rock"],
+				"evidence": "Tenacious D band and albums"
+			}
+		],
+		"platforms": ["youtube"],
+		"roles": ["songwriter"],
+		"breakout": [2003, "School of Rock"],
+		"born": 1969,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of School of Rock and Kung Fu Panda.",
+		"source": "agent-draft"
+	},
+	"jack-dorsey": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": ["x"],
+		"roles": ["founder", "executive", "investor"],
+		"breakout": [2006, "Co-founded Twitter"],
+		"born": 1976,
+		"era": null,
+		"confidence": "high",
+		"why": "Twitter co-founder and Block CEO.",
+		"source": "agent-draft"
+	},
+	"jackie-kennedy": {
+		"home": ["politics", "first-families"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1961, "Televised White House tour"],
+		"born": 1929,
+		"era": null,
+		"confidence": "high",
+		"why": "First Lady during the Kennedy administration.",
+		"source": "agent-draft"
+	},
+	"jacob-elordi": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2018, "The Kissing Booth"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of Euphoria, Saltburn and Frankenstein.",
+		"source": "agent-draft"
+	},
+	"jake-gyllenhaal": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2005, "Brokeback Mountain"],
+		"born": 1980,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of Donnie Darko and Brokeback Mountain.",
+		"source": "agent-draft"
+	},
+	"jake-paul": {
+		"home": ["sports", "combat", "boxing"],
+		"also": [
+			{
+				"path": ["creators", "vlogs-stunts"],
+				"evidence": "YouTube and Vine videos, Team 10"
+			}
+		],
+		"platforms": ["youtube", "vine", "tiktok"],
+		"roles": ["founder"],
+		"breakout": [2014, "Vine comedy videos"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Professional boxer who built his fame as an internet personality.",
+		"source": "agent-draft"
+	},
+	"jake-shane": {
+		"home": ["comedy", "internet-comedy"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Therapuss podcast host"
+			}
+		],
+		"platforms": ["tiktok", "podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2021, "TikTok comedy videos"],
+		"born": 1999,
+		"era": null,
+		"confidence": "medium",
+		"why": "TikTok comedian and host of Therapuss.",
+		"source": "agent-draft"
+	},
+	"james-charles": {
+		"home": ["creators", "lifestyle"],
+		"also": [],
+		"platforms": ["youtube", "instagram", "tiktok"],
+		"roles": ["notorious"],
+		"breakout": [2016, "First male CoverGirl ambassador"],
+		"born": 1999,
+		"era": null,
+		"confidence": "high",
+		"why": "Makeup artist and beauty YouTuber.",
+		"source": "agent-draft"
+	},
+	"james-dyson": {
+		"home": ["tech", "engineers"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Dyson appliance company"
+			}
+		],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [1993, "Dyson DC01 bagless vacuum"],
+		"born": 1947,
+		"era": null,
+		"confidence": "medium",
+		"why": "Inventor of the bagless vacuum cleaner.",
+		"source": "agent-draft"
+	},
+	"james-talarico": {
+		"home": ["politics", "politicians"],
+		"also": [],
+		"platforms": ["podcast", "x", "tiktok"],
+		"roles": [],
+		"breakout": [2025, "Viral podcast interviews and Senate run"],
+		"born": 1989,
+		"era": null,
+		"confidence": "high",
+		"why": "Texas state representative and U.S. Senate candidate.",
+		"source": "agent-draft"
+	},
+	"jamie-dimon": {
+		"home": ["business", "executives"],
+		"also": [],
+		"platforms": [],
+		"roles": ["executive"],
+		"breakout": [2008, "JPMorgan CEO through 2008 financial crisis"],
+		"born": 1956,
+		"era": null,
+		"confidence": "high",
+		"why": "Chairman and CEO of JPMorgan Chase, steering it through the 2008 crisis.",
+		"source": "agent-draft"
+	},
+	"jared-kushner": {
+		"home": ["politics", "first-families"],
+		"also": [
+			{
+				"path": ["business", "finance"],
+				"evidence": "Affinity Partners private equity firm"
+			}
+		],
+		"platforms": [],
+		"roles": ["investor"],
+		"breakout": [2016, "Trump campaign and White House senior adviser"],
+		"born": 1981,
+		"era": null,
+		"confidence": "medium",
+		"why": "Trump son-in-law and White House senior adviser behind the Abraham Accords.",
+		"source": "agent-draft"
+	},
+	"jared-leto": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["music", "rock"],
+				"evidence": "Frontman of Thirty Seconds to Mars"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [1999, "Fight Club"],
+		"born": 1971,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actor in Requiem for a Dream and Dallas Buyers Club.",
+		"source": "agent-draft"
+	},
+	"jason-calacanis": {
+		"home": ["tech", "investors"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Hosts This Week in Startups"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["investor", "host", "founder"],
+		"breakout": [2005, "Sold Weblogs Inc to AOL"],
+		"born": 1970,
+		"era": null,
+		"confidence": "medium",
+		"why": "Angel investor in Uber and others, founder of Launch.",
+		"source": "agent-draft"
+	},
+	"jason-sudeikis": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["comedy", "sketch-sitcom"],
+				"evidence": "Nine seasons on Saturday Night Live"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer", "producer"],
+		"breakout": [2005, "Saturday Night Live cast member"],
+		"born": 1975,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor best known as co-creator and star of Ted Lasso.",
+		"source": "agent-draft"
+	},
+	"jd-vance": {
+		"home": ["politics", "politicians"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [2016, "Hillbilly Elegy bestselling memoir"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "U.S. Senator and Vice President of the United States.",
+		"source": "agent-draft"
+	},
+	"jeff-bezos": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive", "investor"],
+		"breakout": [1999, "Amazon, Time Person of the Year"],
+		"born": 1964,
+		"era": null,
+		"confidence": "high",
+		"why": "Founded Amazon and built it into a global internet giant.",
+		"source": "agent-draft"
+	},
+	"jelly-roll": {
+		"home": ["music", "country"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2023, "Son of a Sinner country breakout"],
+		"born": 1984,
+		"era": null,
+		"confidence": "medium",
+		"why": "Country singer-songwriter; lead says rapper but country success since 2023 dominates.",
+		"source": "agent-draft"
+	},
+	"jenna-ortega": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2022, "Wednesday (Netflix)"],
+		"born": 2002,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress starring as Wednesday Addams in Netflix's Wednesday.",
+		"source": "agent-draft"
+	},
+	"jennifer-garner": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2001, "Alias"],
+		"born": 1972,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Alias and 13 Going on 30.",
+		"source": "agent-draft"
+	},
+	"jennifer-lawrence": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2012, "The Hunger Games"],
+		"born": 1990,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actress of The Hunger Games and Silver Linings Playbook.",
+		"source": "agent-draft"
+	},
+	"jennifer-lopez": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Selena, Out of Sight, Hustlers"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1997, "Selena film"],
+		"born": 1969,
+		"era": null,
+		"confidence": "medium",
+		"why": "Pop singer with hits like On the Floor alongside a major film career.",
+		"source": "agent-draft"
+	},
+	"jensen-huang": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2023, "Nvidia AI boom"],
+		"born": 1963,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founder and CEO of Nvidia, the AI chip giant.",
+		"source": "agent-draft"
+	},
+	"jeremy-allen-white": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2022, "The Bear"],
+		"born": 1991,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor starring as Carmy in FX's The Bear.",
+		"source": "agent-draft"
+	},
+	"jimmy-carter": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "Authored over thirty books"
+			}
+		],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1976, "Elected president"],
+		"born": 1924,
+		"era": null,
+		"confidence": "high",
+		"why": "39th U.S. president, later a Nobel Peace Prize winner.",
+		"source": "agent-draft"
+	},
+	"jimmy-fallon": {
+		"home": ["comedy", "late-night"],
+		"also": [],
+		"platforms": [],
+		"roles": ["host", "producer"],
+		"breakout": [1998, "Saturday Night Live cast"],
+		"born": 1974,
+		"era": null,
+		"confidence": "high",
+		"why": "Host of The Tonight Show and former SNL cast member.",
+		"source": "agent-draft"
+	},
+	"jk-rowling": {
+		"home": ["ideas", "novelists-poets"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1997, "Harry Potter and the Philosopher's Stone"],
+		"born": 1965,
+		"era": null,
+		"confidence": "high",
+		"why": "Author of the Harry Potter series.",
+		"source": "agent-draft"
+	},
+	"joaquin-phoenix": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2000, "Gladiator"],
+		"born": 1974,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actor of Joker and Walk the Line.",
+		"source": "agent-draft"
+	},
+	"jocko-willink": {
+		"home": ["self-help", "motivation"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Jocko Podcast"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["writer", "host", "coach"],
+		"breakout": [2015, "Extreme Ownership"],
+		"born": 1971,
+		"era": null,
+		"confidence": "medium",
+		"why": "Retired Navy SEAL known for Extreme Ownership and his discipline-focused podcast.",
+		"source": "agent-draft"
+	},
+	"joe-biden": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1972, "Elected U.S. Senator"],
+		"born": 1942,
+		"era": null,
+		"confidence": "high",
+		"why": "46th U.S. president after decades as Senator and Vice President.",
+		"source": "agent-draft"
+	},
+	"joe-lonsdale": {
+		"home": ["tech", "investors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "investor"],
+		"breakout": [2004, "Co-founded Palantir"],
+		"born": 1982,
+		"era": null,
+		"confidence": "medium",
+		"why": "Venture capitalist and Palantir co-founder.",
+		"source": "agent-draft"
+	},
+	"joe-rogan": {
+		"home": ["media", "podcasters"],
+		"also": [
+			{
+				"path": ["comedy", "stand-up"],
+				"evidence": "Stand-up specials and touring"
+			},
+			{
+				"path": ["screen", "actors"],
+				"evidence": "NewsRadio and Fear Factor host"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [1997, "NewsRadio"],
+		"born": 1967,
+		"era": null,
+		"confidence": "medium",
+		"why": "Host of The Joe Rogan Experience, the biggest podcast in the world.",
+		"source": "agent-draft"
+	},
+	"john-coogan": {
+		"home": ["media", "business-media"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Co-founded Lucy nicotine, sold to Altria"
+			}
+		],
+		"platforms": ["podcast", "youtube", "x"],
+		"roles": ["host", "founder"],
+		"breakout": [2024, "TBPN launch"],
+		"born": 1989,
+		"era": null,
+		"confidence": "medium",
+		"why": "Co-hosts the TBPN daily tech and business live show.",
+		"source": "agent-draft"
+	},
+	"john-d-rockefeller": {
+		"home": ["business", "moguls"],
+		"also": [
+			{
+				"path": ["politics", "philanthropy"],
+				"evidence": "Rockefeller Foundation, University of Chicago"
+			}
+		],
+		"platforms": [],
+		"roles": ["founder", "investor"],
+		"breakout": [1870, "Founded Standard Oil"],
+		"born": 1839,
+		"era": {
+			"period": "Gilded Age",
+			"place": "United States"
+		},
+		"confidence": "high",
+		"why": "Founded Standard Oil and became the richest American of his era.",
+		"source": "agent-draft"
+	},
+	"john-f-kennedy": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1960, "Elected president"],
+		"born": 1917,
+		"era": null,
+		"confidence": "high",
+		"why": "35th U.S. president, assassinated in 1963.",
+		"source": "agent-draft"
+	},
+	"john-lennon": {
+		"home": ["music", "rock"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [1963, "Beatlemania with the Beatles"],
+		"born": 1940,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founder of the Beatles and a solo songwriter.",
+		"source": "agent-draft"
+	},
+	"john-mayer": {
+		"home": ["music", "indie"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2001, "Room for Squares"],
+		"born": 1977,
+		"era": null,
+		"confidence": "medium",
+		"why": "Singer-songwriter and guitarist known for Continuum.",
+		"source": "agent-draft"
+	},
+	"john-mcafee": {
+		"home": ["tech", "founders", "startups"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "notorious"],
+		"breakout": [1987, "McAfee antivirus software"],
+		"born": 1945,
+		"era": null,
+		"confidence": "medium",
+		"why": "Founded McAfee antivirus, later a fugitive and crypto promoter.",
+		"source": "agent-draft"
+	},
+	"john-ternus": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["executive"],
+		"breakout": [2020, "Apple silicon Mac transition"],
+		"born": 1975,
+		"era": null,
+		"confidence": "medium",
+		"why": "Apple hardware engineering executive and a top Apple leader.",
+		"source": "agent-draft"
+	},
+	"john-travolta": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1977, "Saturday Night Fever"],
+		"born": 1954,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of Saturday Night Fever, Grease and Pulp Fiction.",
+		"source": "agent-draft"
+	},
+	"johnny-depp": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1987, "21 Jump Street"],
+		"born": 1963,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor famous for Pirates of the Caribbean and Edward Scissorhands.",
+		"source": "agent-draft"
+	},
+	"jon-bernthal": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2011, "The Walking Dead"],
+		"born": 1976,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor from The Walking Dead and The Punisher.",
+		"source": "agent-draft"
+	},
+	"jon-stewart": {
+		"home": ["comedy", "late-night"],
+		"also": [],
+		"platforms": [],
+		"roles": ["host", "writer", "producer"],
+		"breakout": [1999, "The Daily Show host"],
+		"born": 1962,
+		"era": null,
+		"confidence": "high",
+		"why": "Hosted The Daily Show and returned as its Monday anchor.",
+		"source": "agent-draft"
+	},
+	"jonathan-bailey": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2020, "Bridgerton"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor in Bridgerton and Wicked.",
+		"source": "agent-draft"
+	},
+	"jordan-peterson": {
+		"home": ["self-help", "motivation"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Jordan B Peterson Podcast"
+			},
+			{
+				"path": ["ideas", "scientists", "social-science"],
+				"evidence": "Maps of Meaning, Harvard and Toronto psychology"
+			}
+		],
+		"platforms": ["youtube", "podcast", "x"],
+		"roles": ["writer", "host", "coach"],
+		"breakout": [2016, "Bill C-16 protest and lectures"],
+		"born": 1962,
+		"era": null,
+		"confidence": "medium",
+		"why": "12 Rules for Life made him a self-help figure; Wikipedia lead says psychologist.",
+		"source": "agent-draft"
+	},
+	"jordi-hays": {
+		"home": ["media", "business-media"],
+		"also": [],
+		"platforms": ["podcast", "youtube", "x"],
+		"roles": ["host", "investor"],
+		"breakout": [2024, "TBPN launch"],
+		"born": null,
+		"era": null,
+		"confidence": "medium",
+		"why": "Co-hosts the TBPN daily tech and business live show.",
+		"source": "agent-draft"
+	},
+	"joseph-stalin": {
+		"home": ["politics", "leaders", "world-leaders"],
+		"also": [],
+		"platforms": [],
+		"roles": ["notorious"],
+		"breakout": [1922, "Became General Secretary"],
+		"born": 1878,
+		"era": {
+			"period": "Soviet era",
+			"place": "Soviet Union"
+		},
+		"confidence": "high",
+		"why": "Ruled the Soviet Union as General Secretary for three decades.",
+		"source": "agent-draft"
+	},
+	"josh-hartnett": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2001, "Pearl Harbor"],
+		"born": 1978,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor in Pearl Harbor and Black Hawk Down, later Oppenheimer.",
+		"source": "agent-draft"
+	},
+	"julia-fox": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["style", "models"],
+				"evidence": "Fashion model and fashion-world presence"
+			}
+		],
+		"platforms": ["tiktok"],
+		"roles": ["model"],
+		"breakout": [2019, "Uncut Gems"],
+		"born": 1990,
+		"era": null,
+		"confidence": "medium",
+		"why": "Actress in Uncut Gems, also known as a model and author.",
+		"source": "agent-draft"
+	},
+	"julius-caesar": {
+		"home": ["politics", "leaders", "monarchs"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "Commentarii de Bello Gallico"
+			}
+		],
+		"platforms": [],
+		"roles": [],
+		"breakout": [-58, "Gallic Wars campaign"],
+		"born": -100,
+		"era": {
+			"period": "Late Roman Republic",
+			"place": "Rome"
+		},
+		"confidence": "medium",
+		"why": "Roman general and dictator whose rule ended the Republic.",
+		"source": "agent-draft"
+	},
+	"justin-bieber": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": ["youtube"],
+		"roles": ["songwriter"],
+		"breakout": [2009, "One Time"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer of Baby and Sorry.",
+		"source": "agent-draft"
+	},
+	"justin-trudeau": {
+		"home": ["politics", "leaders", "world-leaders"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2015, "Elected Prime Minister of Canada"],
+		"born": 1971,
+		"era": null,
+		"confidence": "high",
+		"why": "Prime Minister of Canada from 2015 to 2025.",
+		"source": "agent-draft"
+	},
+	"jynxzi": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["twitch", "youtube", "kick"],
+		"roles": [],
+		"breakout": [2023, "Rainbow Six Siege streams"],
+		"born": 2001,
+		"era": null,
+		"confidence": "high",
+		"why": "Rainbow Six Siege streamer on Twitch and Kick.",
+		"source": "agent-draft"
+	},
+	"kacey-musgraves": {
+		"home": ["music", "country"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2013, "Same Trailer Different Park"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Country singer-songwriter of Golden Hour.",
+		"source": "agent-draft"
+	},
+	"kai-cenat": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["twitch", "youtube"],
+		"roles": [],
+		"breakout": [2022, "Twitch subathon"],
+		"born": 2001,
+		"era": null,
+		"confidence": "high",
+		"why": "Twitch streamer known for record-breaking subathons.",
+		"source": "agent-draft"
+	},
+	"kaia-gerber": {
+		"home": ["style", "models"],
+		"also": [],
+		"platforms": [],
+		"roles": ["model"],
+		"breakout": [2017, "Runway debut"],
+		"born": 2001,
+		"era": null,
+		"confidence": "high",
+		"why": "Fashion model walking for Chanel and Saint Laurent.",
+		"source": "agent-draft"
+	},
+	"kamala-harris": {
+		"home": ["politics", "politicians"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2020, "Elected Vice President"],
+		"born": 1964,
+		"era": null,
+		"confidence": "high",
+		"why": "Vice President, Senator and 2024 Democratic nominee.",
+		"source": "agent-draft"
+	},
+	"kanye": {
+		"home": ["music", "hip-hop"],
+		"also": [
+			{
+				"path": ["style", "fashion-designers"],
+				"evidence": "Yeezy fashion line"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "songwriter", "notorious"],
+		"breakout": [2004, "The College Dropout"],
+		"born": 1977,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper and producer of The College Dropout and Yeezus.",
+		"source": "agent-draft"
+	},
+	"kara-swisher": {
+		"home": ["media", "business-media"],
+		"also": [],
+		"platforms": ["podcast"],
+		"roles": ["host", "writer", "founder"],
+		"breakout": [2003, "D: All Things Digital"],
+		"born": 1962,
+		"era": null,
+		"confidence": "high",
+		"why": "Tech journalist who co-founded Recode and hosts Pivot.",
+		"source": "agent-draft"
+	},
+	"kate-hudson": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2000, "Almost Famous"],
+		"born": 1979,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress in Almost Famous and How to Lose a Guy in 10 Days.",
+		"source": "agent-draft"
+	},
+	"katy-perry": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2008, "I Kissed a Girl"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer of Firework and Roar.",
+		"source": "agent-draft"
+	},
+	"keanu-reeves": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1989, "Bill & Ted's Excellent Adventure"],
+		"born": 1964,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor of The Matrix and John Wick.",
+		"source": "agent-draft"
+	},
+	"keira-knightley": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2002, "Bend It Like Beckham"],
+		"born": 1985,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress in Pirates of the Caribbean and Pride & Prejudice.",
+		"source": "agent-draft"
+	},
+	"keith-lee": {
+		"home": ["style", "food-creators"],
+		"also": [],
+		"platforms": ["tiktok", "instagram", "youtube"],
+		"roles": [],
+		"breakout": [2022, "Viral TikTok food reviews"],
+		"born": 1996,
+		"era": null,
+		"confidence": "medium",
+		"why": "Food reviewer whose honest TikTok reviews went viral.",
+		"source": "agent-draft"
+	},
+	"keke-palmer": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["media", "tv-hosts"],
+				"evidence": "Hosted Password and Baby, This is Keke Palmer"
+			},
+			{
+				"path": ["music", "rnb"],
+				"evidence": "Several albums and singles"
+			}
+		],
+		"platforms": [],
+		"roles": ["host"],
+		"breakout": [2006, "Akeelah and the Bee"],
+		"born": 1993,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress from Akeelah and the Bee and Nope.",
+		"source": "agent-draft"
+	},
+	"kendall-jenner": {
+		"home": ["famous", "famous-families"],
+		"also": [
+			{
+				"path": ["style", "models"],
+				"evidence": "Runway and campaign model"
+			}
+		],
+		"platforms": ["instagram"],
+		"roles": ["model"],
+		"breakout": [2007, "Keeping Up with the Kardashians"],
+		"born": 1995,
+		"era": null,
+		"confidence": "medium",
+		"why": "Reality star and Kardashian-Jenner family member, also a top model.",
+		"source": "agent-draft"
+	},
+	"kendrick-lamar": {
+		"home": ["music", "hip-hop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2012, "good kid, m.A.A.d city"],
+		"born": 1987,
+		"era": null,
+		"confidence": "high",
+		"why": "Pulitzer-winning rapper of good kid, m.A.A.d city.",
+		"source": "agent-draft"
+	},
+	"kevin-hart": {
+		"home": ["comedy", "stand-up"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Ride Along and Jumanji films"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "founder"],
+		"breakout": [2009, "I'm a Grown Little Man"],
+		"born": 1979,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian with sold-out arena tours.",
+		"source": "agent-draft"
+	},
+	"khabib-nurmagomedov": {
+		"home": ["sports", "combat", "mma"],
+		"also": [],
+		"platforms": [],
+		"roles": ["coach"],
+		"breakout": [2018, "Beat McGregor at UFC 229"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Undefeated UFC lightweight champion.",
+		"source": "agent-draft"
+	},
+	"khloe-kardashian": {
+		"home": ["famous", "famous-families"],
+		"also": [
+			{
+				"path": ["style", "fashion-designers"],
+				"evidence": "Good American denim brand"
+			}
+		],
+		"platforms": ["instagram"],
+		"roles": ["founder"],
+		"breakout": [2007, "Keeping Up with the Kardashians"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Reality star and Kardashian family member.",
+		"source": "agent-draft"
+	},
+	"kim-kardashian": {
+		"home": ["famous", "famous-families"],
+		"also": [
+			{
+				"path": ["style", "fashion-designers"],
+				"evidence": "SKIMS shapewear brand"
+			}
+		],
+		"platforms": ["instagram"],
+		"roles": ["founder", "producer"],
+		"breakout": [2007, "Keeping Up with the Kardashians"],
+		"born": 1980,
+		"era": null,
+		"confidence": "high",
+		"why": "Reality star turned SKIMS founder and Kardashian family leader.",
+		"source": "agent-draft"
+	},
+	"kourtney-kardashian": {
+		"home": ["famous", "famous-families"],
+		"also": [
+			{
+				"path": ["style", "home"],
+				"evidence": "Poosh lifestyle site, Lemme supplements"
+			}
+		],
+		"platforms": ["instagram"],
+		"roles": ["founder"],
+		"breakout": [2007, "Keeping Up with the Kardashians"],
+		"born": 1979,
+		"era": null,
+		"confidence": "high",
+		"why": "Reality star and Kardashian family member.",
+		"source": "agent-draft"
+	},
+	"kris-jenner": {
+		"home": ["famous", "famous-families"],
+		"also": [],
+		"platforms": ["instagram"],
+		"roles": ["manager", "producer"],
+		"breakout": [2007, "Keeping Up with the Kardashians"],
+		"born": 1955,
+		"era": null,
+		"confidence": "high",
+		"why": "Kardashian-Jenner matriarch and manager.",
+		"source": "agent-draft"
+	},
+	"kristen-bell": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2004, "Veronica Mars"],
+		"born": 1980,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of Veronica Mars and The Good Place.",
+		"source": "agent-draft"
+	},
+	"krystal-ball": {
+		"home": ["media", "pundits"],
+		"also": [],
+		"platforms": ["youtube", "podcast"],
+		"roles": ["host"],
+		"breakout": [2011, "MSNBC The Cycle"],
+		"born": 1981,
+		"era": null,
+		"confidence": "high",
+		"why": "Political commentator and co-host of Breaking Points.",
+		"source": "agent-draft"
+	},
+	"kyle-forgeard": {
+		"home": ["creators", "vlogs-stunts"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Full Send Podcast"
+			},
+			{
+				"path": ["business", "founders"],
+				"evidence": "Happy Dad seltzer and Full Send brand"
+			}
+		],
+		"platforms": ["youtube", "podcast", "instagram"],
+		"roles": ["founder", "host"],
+		"breakout": [2016, "Nelk Boys prank videos"],
+		"born": 1994,
+		"era": null,
+		"confidence": "medium",
+		"why": "Nelk Boys founder known for Full Send prank videos.",
+		"source": "agent-draft"
+	},
+	"kylie-jenner": {
+		"home": ["famous", "famous-families"],
+		"also": [
+			{
+				"path": ["style", "beauty"],
+				"evidence": "Kylie Cosmetics"
+			}
+		],
+		"platforms": ["instagram"],
+		"roles": ["founder", "model"],
+		"breakout": [2007, "Keeping Up with the Kardashians"],
+		"born": 1997,
+		"era": null,
+		"confidence": "medium",
+		"why": "Reality star turned Kylie Cosmetics founder.",
+		"source": "agent-draft"
+	},
+	"lady-gaga": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "A Star Is Born, House of Gucci"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2008, "The Fame"],
+		"born": 1986,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer of Poker Face and Bad Romance.",
+		"source": "agent-draft"
+	},
+	"lamine-yamal": {
+		"home": ["sports", "soccer"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2023, "Barcelona debut at 15"],
+		"born": 2007,
+		"era": null,
+		"confidence": "high",
+		"why": "Barcelona and Spain winger, a teenage star.",
+		"source": "agent-draft"
+	},
+	"lana-del-rey": {
+		"home": ["music", "indie"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2011, "Video Games"],
+		"born": 1985,
+		"era": null,
+		"confidence": "medium",
+		"why": "Singer-songwriter of Born to Die.",
+		"source": "agent-draft"
+	},
+	"lana-rhoades": {
+		"home": ["creators", "adult"],
+		"also": [],
+		"platforms": ["onlyfans", "instagram"],
+		"roles": [],
+		"breakout": [2016, "Adult film debut"],
+		"born": 1996,
+		"era": null,
+		"confidence": "medium",
+		"why": "Former adult performer turned OnlyFans creator.",
+		"source": "agent-draft"
+	},
+	"larry-page": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [1998, "Founded Google"],
+		"born": 1973,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founder of Google and Alphabet.",
+		"source": "agent-draft"
+	},
+	"leila-hormozi": {
+		"home": ["business", "business-creators"],
+		"also": [],
+		"platforms": ["youtube", "instagram", "podcast"],
+		"roles": ["founder", "executive"],
+		"breakout": [2021, "Acquisition.com business content"],
+		"born": 1992,
+		"era": null,
+		"confidence": "medium",
+		"why": "Business content creator and Acquisition.com CEO.",
+		"source": "agent-draft"
+	},
+	"leonardo-da-vinci": {
+		"home": ["ideas", "artists"],
+		"also": [
+			{
+				"path": ["tech", "engineers"],
+				"evidence": "Notebooks of inventions and engineering designs"
+			}
+		],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1495, "The Last Supper"],
+		"born": 1452,
+		"era": {
+			"period": "Italian Renaissance",
+			"place": "Florence and Milan"
+		},
+		"confidence": "high",
+		"why": "Painter of the Mona Lisa and The Last Supper.",
+		"source": "agent-draft"
+	},
+	"leonardo-dicaprio": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1997, "Titanic"],
+		"born": 1974,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actor of Titanic and The Revenant.",
+		"source": "agent-draft"
+	},
+	"lex-fridman": {
+		"home": ["media", "podcasters"],
+		"also": [],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2018, "Lex Fridman Podcast"],
+		"born": 1983,
+		"era": null,
+		"confidence": "high",
+		"why": "Hosts the Lex Fridman Podcast of long-form interviews.",
+		"source": "agent-draft"
+	},
+	"liang-wenfeng": {
+		"home": ["tech", "founders", "ai"],
+		"also": [
+			{
+				"path": ["business", "finance"],
+				"evidence": "Co-founded High-Flyer quant hedge fund"
+			}
+		],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2025, "DeepSeek R1 release"],
+		"born": 1985,
+		"era": null,
+		"confidence": "medium",
+		"why": "Founded DeepSeek, whose R1 model shook the AI industry.",
+		"source": "agent-draft"
+	},
+	"lili-reinhart": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2017, "Riverdale"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress who plays Betty on Riverdale.",
+		"source": "agent-draft"
+	},
+	"lily-allen": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Miss Me? podcast"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["songwriter"],
+		"breakout": [2006, "Smile"],
+		"born": 1985,
+		"era": null,
+		"confidence": "medium",
+		"why": "Pop singer of Smile and The Fear.",
+		"source": "agent-draft"
+	},
+	"lionel-messi": {
+		"home": ["sports", "soccer"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2007, "Barcelona breakthrough"],
+		"born": 1987,
+		"era": null,
+		"confidence": "high",
+		"why": "Argentine forward and eight-time Ballon d'Or winner.",
+		"source": "agent-draft"
+	},
+	"logan-paul": {
+		"home": ["creators", "vlogs-stunts"],
+		"also": [
+			{
+				"path": ["sports", "combat", "pro-wrestling"],
+				"evidence": "WWE wrestler"
+			},
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Impaulsive podcast"
+			}
+		],
+		"platforms": ["youtube", "vine", "podcast"],
+		"roles": ["founder", "host"],
+		"breakout": [2013, "Vine and YouTube vlogs"],
+		"born": 1995,
+		"era": null,
+		"confidence": "medium",
+		"why": "YouTube vlogger turned Prime founder and WWE wrestler.",
+		"source": "agent-draft"
+	},
+	"ludwig-ahgren": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["twitch", "youtube"],
+		"roles": [],
+		"breakout": [2021, "Twitch subathon record"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "Streamer known for the record subathon and Mogul Money.",
+		"source": "agent-draft"
+	},
+	"lupita-nyongo": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2013, "12 Years a Slave"],
+		"born": 1983,
+		"era": null,
+		"confidence": "high",
+		"why": "Oscar-winning actress of 12 Years a Slave.",
+		"source": "agent-draft"
+	},
+	"machine-gun-kelly": {
+		"home": ["music", "rock"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Roles in Bird Box and Taking Flight"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2012, "Wild Boy"],
+		"born": 1990,
+		"era": null,
+		"confidence": "medium",
+		"why": "Pop-punk singer; lead says rapper but his rock pivot since 2020 dominates.",
+		"source": "agent-draft"
+	},
+	"madelaine-petsch": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["creators", "lifestyle"],
+				"evidence": "YouTube vlogs and beauty content"
+			}
+		],
+		"platforms": ["youtube"],
+		"roles": ["producer"],
+		"breakout": [2017, "Riverdale"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress who plays Cheryl Blossom on Riverdale.",
+		"source": "agent-draft"
+	},
+	"madison-beer": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": ["youtube", "tiktok"],
+		"roles": ["songwriter"],
+		"breakout": [2012, "Viral YouTube covers"],
+		"born": 1999,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer found through viral YouTube covers.",
+		"source": "agent-draft"
+	},
+	"madonna": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Evita and Desperately Seeking Susan"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [1984, "Like a Virgin"],
+		"born": 1958,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop icon of Like a Virgin and Vogue.",
+		"source": "agent-draft"
+	},
+	"malcolm-gladwell": {
+		"home": ["ideas", "nonfiction"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Revisionist History"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["writer", "host"],
+		"breakout": [2000, "The Tipping Point"],
+		"born": 1963,
+		"era": null,
+		"confidence": "high",
+		"why": "Author of The Tipping Point and Outliers.",
+		"source": "agent-draft"
+	},
+	"malcolm-x": {
+		"home": ["politics", "activists"],
+		"also": [
+			{
+				"path": ["faith", "religious-leaders"],
+				"evidence": "Nation of Islam minister"
+			}
+		],
+		"platforms": [],
+		"roles": ["activist"],
+		"breakout": [1959, "The Hate That Hate Produced"],
+		"born": 1925,
+		"era": null,
+		"confidence": "high",
+		"why": "Civil rights leader and Nation of Islam spokesman.",
+		"source": "agent-draft"
+	},
+	"marc-andreessen": {
+		"home": ["tech", "investors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "investor"],
+		"breakout": [1993, "Mosaic web browser"],
+		"born": 1971,
+		"era": null,
+		"confidence": "medium",
+		"why": "Co-founded Mosaic, Netscape and Andreessen Horowitz.",
+		"source": "agent-draft"
+	},
+	"marcello-hernandez": {
+		"home": ["comedy", "sketch-sitcom"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2022, "Saturday Night Live"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Saturday Night Live cast member.",
+		"source": "agent-draft"
+	},
+	"marcus-aurelius": {
+		"home": ["politics", "leaders", "monarchs"],
+		"also": [
+			{
+				"path": ["ideas", "philosophers"],
+				"evidence": "Meditations"
+			}
+		],
+		"platforms": [],
+		"roles": [],
+		"breakout": [161, "Became Roman emperor"],
+		"born": 121,
+		"era": {
+			"period": "Roman Empire",
+			"place": "Rome"
+		},
+		"confidence": "high",
+		"why": "Roman emperor from 161 to 180.",
+		"source": "agent-draft"
+	},
+	"margaret-qualley": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2019, "Once Upon a Time in Hollywood"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress in Once Upon a Time in Hollywood and Poor Things.",
+		"source": "agent-draft"
+	},
+	"margot-robbie": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "founder"],
+		"breakout": [2013, "The Wolf of Wall Street"],
+		"born": 1990,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress of The Wolf of Wall Street and Barbie.",
+		"source": "agent-draft"
+	},
+	"marilyn-monroe": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["model", "producer"],
+		"breakout": [1953, "Niagara and Gentlemen Prefer Blondes"],
+		"born": 1926,
+		"era": null,
+		"confidence": "high",
+		"why": "Film actress known for Gentlemen Prefer Blondes and Some Like It Hot.",
+		"source": "agent-draft"
+	},
+	"mark-zuckerberg": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2004, "Founded Facebook"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founded Facebook and runs Meta Platforms as CEO.",
+		"source": "agent-draft"
+	},
+	"markiplier": {
+		"home": ["creators", "streamers"],
+		"also": [
+			{
+				"path": ["screen", "directors"],
+				"evidence": "Iron Lung film, Distraction web series"
+			}
+		],
+		"platforms": ["youtube"],
+		"roles": ["producer", "director"],
+		"breakout": [2012, "Horror game Let's Plays on YouTube"],
+		"born": 1989,
+		"era": null,
+		"confidence": "high",
+		"why": "YouTuber known for horror and indie game Let's Plays and interactive specials.",
+		"source": "agent-draft"
+	},
+	"martin-luther-king-jr": {
+		"home": ["politics", "activists"],
+		"also": [
+			{
+				"path": ["faith", "religious-leaders"],
+				"evidence": "Baptist pastor, SCLC leader, sermons"
+			}
+		],
+		"platforms": [],
+		"roles": ["activist", "writer"],
+		"breakout": [1955, "Montgomery bus boycott"],
+		"born": 1929,
+		"era": null,
+		"confidence": "high",
+		"why": "Led the American civil rights movement from the Montgomery bus boycott to the March on Washington.",
+		"source": "agent-draft"
+	},
+	"matt-damon": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "writer"],
+		"breakout": [1997, "Good Will Hunting"],
+		"born": 1970,
+		"era": null,
+		"confidence": "high",
+		"why": "Film actor known for Good Will Hunting and the Bourne films.",
+		"source": "agent-draft"
+	},
+	"matt-rife": {
+		"home": ["comedy", "stand-up"],
+		"also": [],
+		"platforms": ["tiktok", "youtube"],
+		"roles": [],
+		"breakout": [2022, "Viral TikTok crowd-work clips"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian known for crowd work and Netflix special Natural Selection.",
+		"source": "agent-draft"
+	},
+	"matt-smith": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2010, "Doctor Who as the Eleventh Doctor"],
+		"born": 1982,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Doctor Who, The Crown and House of the Dragon.",
+		"source": "agent-draft"
+	},
+	"matthew-mcconaughey": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1993, "Dazed and Confused"],
+		"born": 1969,
+		"era": null,
+		"confidence": "high",
+		"why": "Film actor known for Dazed and Confused, Dallas Buyers Club and True Detective.",
+		"source": "agent-draft"
+	},
+	"megan-fox": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2007, "Transformers"],
+		"born": 1986,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Transformers and Jennifer's Body.",
+		"source": "agent-draft"
+	},
+	"meghan-markle": {
+		"home": ["famous", "royals"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Rachel Zane on Suits, seven seasons"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [2011, "Suits"],
+		"born": 1981,
+		"era": null,
+		"confidence": "medium",
+		"why": "Duchess of Sussex since 2018, but first known as actress on Suits.",
+		"source": "agent-draft"
+	},
+	"meghan-trainor": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2014, "All About That Bass"],
+		"born": 1993,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer-songwriter known for All About That Bass.",
+		"source": "agent-draft"
+	},
+	"meryl-streep": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1979, "Kramer vs. Kramer"],
+		"born": 1949,
+		"era": null,
+		"confidence": "high",
+		"why": "Film actor with record Oscar nominations, known for Sophie's Choice and The Devil Wears Prada.",
+		"source": "agent-draft"
+	},
+	"michael-b-jordan": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "director"],
+		"breakout": [2013, "Fruitvale Station"],
+		"born": 1987,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Creed, Black Panther and Fruitvale Station.",
+		"source": "agent-draft"
+	},
+	"michael-seibel": {
+		"home": ["tech", "investors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["investor", "founder", "executive", "coach"],
+		"breakout": [2011, "Twitch co-founder, Y Combinator partner"],
+		"born": 1982,
+		"era": null,
+		"confidence": "medium",
+		"why": "Y Combinator partner and former CEO, after co-founding Justin.tv and Socialcam.",
+		"source": "agent-draft"
+	},
+	"michelle-obama": {
+		"home": ["politics", "first-families"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "Becoming memoir, bestselling book"
+			},
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "The Michelle Obama Podcast"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["writer", "host"],
+		"breakout": [2008, "Barack Obama presidential campaign"],
+		"born": 1964,
+		"era": null,
+		"confidence": "high",
+		"why": "First Lady of the United States 2009-2017, spouse of Barack Obama.",
+		"source": "agent-draft"
+	},
+	"mike-majlak": {
+		"home": ["creators", "vlogs-stunts"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Co-hosts Impaulsive podcast"
+			}
+		],
+		"platforms": ["youtube", "podcast"],
+		"roles": ["writer", "host"],
+		"breakout": [2016, "Logan Paul vlogs and YouTube channel"],
+		"born": 1985,
+		"era": null,
+		"confidence": "high",
+		"why": "YouTuber and writer known for vlogs and the Impaulsive podcast.",
+		"source": "agent-draft"
+	},
+	"mikey-madison": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2024, "Anora"],
+		"born": 1999,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress who won an Oscar for Anora after Better Things.",
+		"source": "agent-draft"
+	},
+	"mila-kunis": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1998, "That '70s Show"],
+		"born": 1983,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for That '70s Show and Black Swan.",
+		"source": "agent-draft"
+	},
+	"miles-teller": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2014, "Whiplash"],
+		"born": 1987,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Whiplash and Top Gun: Maverick.",
+		"source": "agent-draft"
+	},
+	"miley-cyrus": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Hannah Montana, Disney Channel series"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2006, "Hannah Montana"],
+		"born": 1992,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer-songwriter known for Wrecking Ball and Flowers.",
+		"source": "agent-draft"
+	},
+	"millie-bobby-brown": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2016, "Stranger Things"],
+		"born": 2004,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for playing Eleven in Stranger Things and Enola Holmes.",
+		"source": "agent-draft"
+	},
+	"milly-alcock": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2022, "House of the Dragon"],
+		"born": 2000,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for House of the Dragon and playing Supergirl.",
+		"source": "agent-draft"
+	},
+	"mindy-kaling": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["comedy", "sketch-sitcom"],
+				"evidence": "The Office writer, The Mindy Project creator"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer", "producer"],
+		"breakout": [2005, "The Office"],
+		"born": 1979,
+		"era": null,
+		"confidence": "medium",
+		"why": "Actress and writer known for The Office and creating The Mindy Project.",
+		"source": "agent-draft"
+	},
+	"mira-murati": {
+		"home": ["tech", "founders", "ai"],
+		"also": [],
+		"platforms": [],
+		"roles": ["executive", "founder"],
+		"breakout": [2022, "ChatGPT launch as OpenAI CTO"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Former OpenAI CTO who founded Thinking Machines Lab.",
+		"source": "agent-draft"
+	},
+	"morgan-freeman": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1989, "Driving Miss Daisy"],
+		"born": 1937,
+		"era": null,
+		"confidence": "high",
+		"why": "Film actor known for The Shawshank Redemption and narration.",
+		"source": "agent-draft"
+	},
+	"morgan-wallen": {
+		"home": ["music", "country"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2018, "If I Know Me"],
+		"born": 1993,
+		"era": null,
+		"confidence": "high",
+		"why": "Country singer known for Dangerous: The Double Album and One Thing at a Time.",
+		"source": "agent-draft"
+	},
+	"mother-teresa": {
+		"home": ["faith", "saints-founders"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder"],
+		"breakout": [1969, "Something Beautiful for God documentary"],
+		"born": 1910,
+		"era": null,
+		"confidence": "high",
+		"why": "Catholic nun who founded Missionaries of Charity in Kolkata and was canonized.",
+		"source": "agent-draft"
+	},
+	"mr-beast": {
+		"home": ["creators", "vlogs-stunts"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Feastables, Beast Industries consumer brands"
+			}
+		],
+		"platforms": ["youtube"],
+		"roles": ["founder", "host"],
+		"breakout": [2017, "Counting to 100,000 video"],
+		"born": 1998,
+		"era": null,
+		"confidence": "high",
+		"why": "YouTuber known for large-scale stunts and challenges and the biggest channel on YouTube.",
+		"source": "agent-draft"
+	},
+	"mr-rogers": {
+		"home": ["media", "tv-hosts"],
+		"also": [],
+		"platforms": [],
+		"roles": ["host", "writer", "producer", "songwriter"],
+		"breakout": [1968, "Mister Rogers' Neighborhood"],
+		"born": 1928,
+		"era": null,
+		"confidence": "high",
+		"why": "Hosted the children's show Mister Rogers' Neighborhood for over thirty years.",
+		"source": "agent-draft"
+	},
+	"n3on": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["kick", "youtube", "twitch"],
+		"roles": [],
+		"breakout": [2023, "Kick livestreams"],
+		"born": 2004,
+		"era": null,
+		"confidence": "high",
+		"why": "Livestreamer and YouTuber known for Kick streams.",
+		"source": "agent-draft"
+	},
+	"nancy-pelosi": {
+		"home": ["politics", "politicians"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2007, "First woman Speaker of the House"],
+		"born": 1940,
+		"era": null,
+		"confidence": "high",
+		"why": "Longtime Democratic congresswoman and Speaker of the U.S. House.",
+		"source": "agent-draft"
+	},
+	"nancy-reagan": {
+		"home": ["politics", "first-families"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "MGM films 1949 to 1956"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1981, "First Lady, Just Say No campaign"],
+		"born": 1921,
+		"era": null,
+		"confidence": "high",
+		"why": "First Lady of the United States 1981-1989, spouse of Ronald Reagan.",
+		"source": "agent-draft"
+	},
+	"naomi-osaka": {
+		"home": ["sports", "tennis"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder"],
+		"breakout": [2018, "US Open win over Serena Williams"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Professional tennis player with four Grand Slam singles titles.",
+		"source": "agent-draft"
+	},
+	"napoleon-bonaparte": {
+		"home": ["politics", "leaders", "monarchs"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1796, "Italian campaign"],
+		"born": 1769,
+		"era": {
+			"period": "French Revolution and Napoleonic Era",
+			"place": "France"
+		},
+		"confidence": "high",
+		"why": "Emperor of the French and military commander who ruled much of Europe.",
+		"source": "agent-draft"
+	},
+	"nara-smith": {
+		"home": ["style", "food-creators"],
+		"also": [],
+		"platforms": ["tiktok", "instagram"],
+		"roles": ["model", "writer"],
+		"breakout": [2023, "From-scratch cooking TikToks"],
+		"born": 2001,
+		"era": null,
+		"confidence": "medium",
+		"why": "Known for from-scratch cooking videos, though Wikipedia leads with model and social media personality.",
+		"source": "agent-draft"
+	},
+	"natalie-portman": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "director"],
+		"breakout": [1994, "Leon: The Professional"],
+		"born": 1981,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Black Swan, Star Wars prequels and Leon.",
+		"source": "agent-draft"
+	},
+	"nate-bargatze": {
+		"home": ["comedy", "stand-up"],
+		"also": [],
+		"platforms": ["podcast"],
+		"roles": ["writer"],
+		"breakout": [2015, "Netflix and TV stand-up specials"],
+		"born": 1979,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian known for Netflix specials and touring arenas.",
+		"source": "agent-draft"
+	},
+	"nathan-fielder": {
+		"home": ["comedy", "sketch-sitcom"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer", "producer", "host"],
+		"breakout": [2013, "Nathan for You"],
+		"born": 1983,
+		"era": null,
+		"confidence": "medium",
+		"why": "Comedian known for Nathan for You, The Rehearsal and The Curse.",
+		"source": "agent-draft"
+	},
+	"naval-ravikant": {
+		"home": ["tech", "investors"],
+		"also": [],
+		"platforms": ["x", "podcast"],
+		"roles": ["investor", "founder"],
+		"breakout": [2020, "The Almanack of Naval Ravikant"],
+		"born": 1974,
+		"era": null,
+		"confidence": "high",
+		"why": "Angel investor and AngelList co-founder known for startup and life-philosophy tweets.",
+		"source": "agent-draft"
+	},
+	"neil-strauss": {
+		"home": ["ideas", "nonfiction"],
+		"also": [
+			{
+				"path": ["self-help", "relationships"],
+				"evidence": "The Game, pickup-artist bestseller"
+			},
+			{
+				"path": ["media", "journalists"],
+				"evidence": "New York Times music reporter"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [2005, "The Game"],
+		"born": 1973,
+		"era": null,
+		"confidence": "medium",
+		"why": "Author and journalist best known for The Game and ghostwritten celebrity memoirs.",
+		"source": "agent-draft"
+	},
+	"nicki-minaj": {
+		"home": ["music", "hip-hop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2010, "Pink Friday"],
+		"born": 1982,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper known for Pink Friday and Super Bass.",
+		"source": "agent-draft"
+	},
+	"nicole-kidman": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1989, "Dead Calm"],
+		"born": 1967,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Moulin Rouge!, The Hours and Big Little Lies.",
+		"source": "agent-draft"
+	},
+	"nikola-tesla": {
+		"home": ["tech", "engineers"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1888, "AC induction motor patents"],
+		"born": 1856,
+		"era": {
+			"period": "Second Industrial Revolution",
+			"place": "United States"
+		},
+		"confidence": "high",
+		"why": "Inventor and electrical engineer known for alternating-current systems.",
+		"source": "agent-draft"
+	},
+	"ninja": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["twitch", "youtube"],
+		"roles": [],
+		"breakout": [2018, "Fortnite stream with Drake"],
+		"born": 1991,
+		"era": null,
+		"confidence": "high",
+		"why": "Fortnite streamer who became the most-watched Twitch star.",
+		"source": "agent-draft"
+	},
+	"noah-kahan": {
+		"home": ["music", "indie"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2022, "Stick Season"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Folk-pop singer-songwriter known for Stick Season.",
+		"source": "agent-draft"
+	},
+	"noah-wyle": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "writer"],
+		"breakout": [1994, "ER"],
+		"born": 1971,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Dr. Carter on ER and The Pitt.",
+		"source": "agent-draft"
+	},
+	"noam-chomsky": {
+		"home": ["ideas", "philosophers"],
+		"also": [
+			{
+				"path": ["politics", "activists"],
+				"evidence": "Decades of political criticism, Manufacturing Consent"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer", "activist"],
+		"breakout": [1957, "Syntactic Structures"],
+		"born": 1928,
+		"era": null,
+		"confidence": "medium",
+		"why": "Linguist and public intellectual known for generative grammar and political criticism.",
+		"source": "agent-draft"
+	},
+	"odessa-azion": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2020, "Grand Army"],
+		"born": 2000,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Grand Army, Hellraiser and Marty Supreme.",
+		"source": "agent-draft"
+	},
+	"oliver-tree": {
+		"home": ["music", "indie"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer", "director"],
+		"breakout": [2019, "Hurt"],
+		"born": 1993,
+		"era": null,
+		"confidence": "medium",
+		"why": "Alt-pop singer-songwriter known for Hurt and Life Goes On.",
+		"source": "agent-draft"
+	},
+	"olivia-cooke": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2015, "Me and Earl and the Dying Girl"],
+		"born": 1993,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Bates Motel, Ready Player One and House of the Dragon.",
+		"source": "agent-draft"
+	},
+	"olivia-munn": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["media", "tv-hosts"],
+				"evidence": "Attack of the Show host, Daily Show correspondent"
+			}
+		],
+		"platforms": [],
+		"roles": ["host"],
+		"breakout": [2006, "Attack of the Show"],
+		"born": 1980,
+		"era": null,
+		"confidence": "medium",
+		"why": "Actress known for The Newsroom and X-Men, after hosting Attack of the Show.",
+		"source": "agent-draft"
+	},
+	"olivia-rodrigo": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "High School Musical: The Musical: The Series"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2021, "Drivers License"],
+		"born": 2003,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer-songwriter known for Drivers License and Sour.",
+		"source": "agent-draft"
+	},
+	"oprah-winfrey": {
+		"home": ["media", "tv-hosts"],
+		"also": [
+			{
+				"path": ["business", "moguls"],
+				"evidence": "Harpo Productions, OWN network"
+			},
+			{
+				"path": ["screen", "actors"],
+				"evidence": "The Color Purple, Beloved"
+			}
+		],
+		"platforms": [],
+		"roles": ["host", "producer", "executive", "founder"],
+		"breakout": [1986, "The Oprah Winfrey Show"],
+		"born": 1954,
+		"era": null,
+		"confidence": "high",
+		"why": "Hosted The Oprah Winfrey Show for 25 years.",
+		"source": "agent-draft"
+	},
+	"paapa-essiedu": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2020, "I May Destroy You"],
+		"born": 1990,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for I May Destroy You and Black Mirror.",
+		"source": "agent-draft"
+	},
+	"palmer-luckey": {
+		"home": ["tech", "founders", "hardware-defense"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder"],
+		"breakout": [2012, "Oculus Rift Kickstarter"],
+		"born": 1992,
+		"era": null,
+		"confidence": "high",
+		"why": "Founded Oculus VR and the defense-tech company Anduril.",
+		"source": "agent-draft"
+	},
+	"pamela-anderson": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["style", "models"],
+				"evidence": "Playboy covers, Guess campaigns"
+			}
+		],
+		"platforms": [],
+		"roles": ["model"],
+		"breakout": [1992, "Baywatch"],
+		"born": 1967,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Baywatch and Playboy.",
+		"source": "agent-draft"
+	},
+	"paris-hilton": {
+		"home": ["famous", "socialites"],
+		"also": [
+			{
+				"path": ["music", "electronic"],
+				"evidence": "DJ Paris touring sets and albums"
+			},
+			{
+				"path": ["style", "beauty"],
+				"evidence": "Fragrances and cosmetics licensing line"
+			}
+		],
+		"platforms": [],
+		"roles": ["model", "founder"],
+		"breakout": [2003, "The Simple Life"],
+		"born": 1981,
+		"era": null,
+		"confidence": "medium",
+		"why": "Hotel heiress and media personality known for The Simple Life.",
+		"source": "agent-draft"
+	},
+	"patrick-bet-david": {
+		"home": ["business", "business-creators"],
+		"also": [],
+		"platforms": ["youtube", "podcast"],
+		"roles": ["founder", "host", "writer"],
+		"breakout": [2017, "Valuetainment YouTube channel"],
+		"born": 1978,
+		"era": null,
+		"confidence": "high",
+		"why": "Entrepreneur and host of Valuetainment business and PBD Podcast.",
+		"source": "agent-draft"
+	},
+	"patrick-mahomes": {
+		"home": ["sports", "football"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2018, "First MVP season with Chiefs"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "Kansas City Chiefs quarterback and three-time Super Bowl champion.",
+		"source": "agent-draft"
+	},
+	"paul-bettany": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2001, "A Beautiful Mind"],
+		"born": 1971,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for A Beautiful Mind and voicing Jarvis and Vision in Marvel.",
+		"source": "agent-draft"
+	},
+	"paul-graham": {
+		"home": ["tech", "investors"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "Essays and Hackers and Painters"
+			}
+		],
+		"platforms": [],
+		"roles": ["investor", "founder", "writer"],
+		"breakout": [2005, "Founded Y Combinator"],
+		"born": 1964,
+		"era": null,
+		"confidence": "medium",
+		"why": "Co-founded Y Combinator and wrote widely read startup essays.",
+		"source": "agent-draft"
+	},
+	"paul-mescal": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2020, "Normal People"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Normal People, Aftersun and Gladiator II.",
+		"source": "agent-draft"
+	},
+	"paul-rudd": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer", "producer"],
+		"breakout": [1995, "Clueless"],
+		"born": 1969,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Clueless, Anchorman and Ant-Man.",
+		"source": "agent-draft"
+	},
+	"pedro-pascal": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2014, "Game of Thrones as Oberyn Martell"],
+		"born": 1975,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for The Mandalorian, The Last of Us and Game of Thrones.",
+		"source": "agent-draft"
+	},
+	"penelope-cruz": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1992, "Jamon, jamon"],
+		"born": 1974,
+		"era": null,
+		"confidence": "high",
+		"why": "Spanish actress known for Vicky Cristina Barcelona and Volver.",
+		"source": "agent-draft"
+	},
+	"pete-davidson": {
+		"home": ["comedy", "sketch-sitcom"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "King of Staten Island, Bupkis"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [2014, "Saturday Night Live cast"],
+		"born": 1993,
+		"era": null,
+		"confidence": "medium",
+		"why": "Comedian and actor known for Saturday Night Live and stand-up.",
+		"source": "agent-draft"
+	},
+	"pete-hegseth": {
+		"home": ["politics", "politicians"],
+		"also": [
+			{
+				"path": ["media", "tv-hosts"],
+				"evidence": "Fox & Friends Weekend co-host"
+			}
+		],
+		"platforms": [],
+		"roles": ["host", "writer"],
+		"breakout": [2017, "Fox & Friends Weekend"],
+		"born": 1980,
+		"era": null,
+		"confidence": "medium",
+		"why": "US defense secretary since 2025 after years as a Fox News host.",
+		"source": "agent-draft"
+	},
+	"peter-thiel": {
+		"home": ["tech", "investors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "investor", "writer"],
+		"breakout": [1999, "PayPal co-founding"],
+		"born": 1967,
+		"era": null,
+		"confidence": "medium",
+		"why": "PayPal and Palantir co-founder and venture investor.",
+		"source": "agent-draft"
+	},
+	"pewdiepie": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["youtube"],
+		"roles": ["writer"],
+		"breakout": [2013, "Most subscribed YouTube channel"],
+		"born": 1989,
+		"era": null,
+		"confidence": "high",
+		"why": "YouTuber known for gaming commentary and comedy videos.",
+		"source": "agent-draft"
+	},
+	"phoebe-bridgers": {
+		"home": ["music", "indie"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer", "founder"],
+		"breakout": [2017, "Stranger in the Alps"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Indie singer-songwriter known for Punisher and boygenius.",
+		"source": "agent-draft"
+	},
+	"piers-morgan": {
+		"home": ["media", "tv-hosts"],
+		"also": [],
+		"platforms": ["youtube"],
+		"roles": ["host", "writer"],
+		"breakout": [1994, "News of the World editor"],
+		"born": 1965,
+		"era": null,
+		"confidence": "medium",
+		"why": "Broadcaster known for Good Morning Britain and Piers Morgan Uncensored.",
+		"source": "agent-draft"
+	},
+	"pinkpantheress": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": ["tiktok"],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2021, "Just for Me on TikTok"],
+		"born": 2001,
+		"era": null,
+		"confidence": "medium",
+		"why": "Singer-producer known for Pain and Boy's a Liar.",
+		"source": "agent-draft"
+	},
+	"pokimane": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["twitch", "youtube"],
+		"roles": [],
+		"breakout": [2018, "Twitch streaming breakout"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "Twitch streamer and YouTuber known for variety streaming.",
+		"source": "agent-draft"
+	},
+	"post-malone": {
+		"home": ["music", "hip-hop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2015, "White Iverson"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper and singer known for Rockstar and Circles.",
+		"source": "agent-draft"
+	},
+	"prince": {
+		"home": ["music", "rnb"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [1984, "Purple Rain"],
+		"born": 1958,
+		"era": null,
+		"confidence": "high",
+		"why": "Singer-songwriter and multi-instrumentalist known for Purple Rain and Kiss.",
+		"source": "agent-draft"
+	},
+	"prince-harry": {
+		"home": ["famous", "royals"],
+		"also": [
+			{
+				"path": ["politics", "philanthropy"],
+				"evidence": "Invictus Games and Sentebale founder"
+			}
+		],
+		"platforms": [],
+		"roles": ["founder", "writer"],
+		"breakout": [1997, "Walked behind Diana's funeral procession"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Duke of Sussex, younger son of Charles III and Diana.",
+		"source": "agent-draft"
+	},
+	"princess-diana": {
+		"home": ["famous", "royals"],
+		"also": [
+			{
+				"path": ["politics", "philanthropy"],
+				"evidence": "AIDS and landmine charity campaigns"
+			}
+		],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1981, "Wedding to Prince Charles"],
+		"born": 1961,
+		"era": null,
+		"confidence": "high",
+		"why": "Princess of Wales and first wife of Charles III.",
+		"source": "agent-draft"
+	},
+	"queen-elizabeth-ii": {
+		"home": ["politics", "leaders", "monarchs"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1952, "Accession as Queen"],
+		"born": 1926,
+		"era": null,
+		"confidence": "high",
+		"why": "Reigning monarch of the United Kingdom from 1952 to 2022.",
+		"source": "agent-draft"
+	},
+	"rachel-mcadams": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2004, "Mean Girls and The Notebook"],
+		"born": 1978,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for Mean Girls, The Notebook and Spotlight.",
+		"source": "agent-draft"
+	},
+	"ray-dalio": {
+		"home": ["business", "finance"],
+		"also": [
+			{
+				"path": ["self-help", "success"],
+				"evidence": "Principles book and life framework"
+			}
+		],
+		"platforms": [],
+		"roles": ["founder", "investor", "writer"],
+		"breakout": [2008, "Bridgewater 2008 crisis performance"],
+		"born": 1949,
+		"era": null,
+		"confidence": "high",
+		"why": "Founded Bridgewater Associates, the largest hedge fund.",
+		"source": "agent-draft"
+	},
+	"reed-hastings": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2007, "Netflix streaming launch"],
+		"born": 1960,
+		"era": null,
+		"confidence": "high",
+		"why": "Co-founded Netflix and ran it as CEO.",
+		"source": "agent-draft"
+	},
+	"reid-hoffman": {
+		"home": ["tech", "investors"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Masters of Scale and Possible podcasts"
+			},
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "Blitzscaling and Impromptu"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["founder", "investor", "writer", "host"],
+		"breakout": [2003, "LinkedIn co-founding"],
+		"born": 1967,
+		"era": null,
+		"confidence": "medium",
+		"why": "Venture investor at Greylock and LinkedIn co-founder.",
+		"source": "agent-draft"
+	},
+	"rick-rubin": {
+		"home": ["music", "electronic"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "The Creative Act bestseller"
+			},
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Tetragrammaton podcast"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["producer", "founder", "writer", "host"],
+		"breakout": [1986, "Def Jam and Licensed to Ill"],
+		"born": 1963,
+		"era": null,
+		"confidence": "medium",
+		"why": "Record producer who co-founded Def Jam and produced Beastie Boys and Run-DMC.",
+		"source": "agent-draft"
+	},
+	"rihanna": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["style", "beauty"],
+				"evidence": "Fenty Beauty and Savage X Fenty"
+			}
+		],
+		"platforms": [],
+		"roles": ["founder"],
+		"breakout": [2005, "Pon de Replay"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop and R&B singer known for Umbrella and Diamonds.",
+		"source": "agent-draft"
+	},
+	"riz-ahmed": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["music", "hip-hop"],
+				"evidence": "Riz MC, Swet Shop Boys albums"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [2016, "The Night Of"],
+		"born": 1982,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Sound of Metal and The Night Of.",
+		"source": "agent-draft"
+	},
+	"robert-de-niro": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "director", "founder"],
+		"breakout": [1973, "Mean Streets"],
+		"born": 1943,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Taxi Driver, Raging Bull and The Godfather Part II.",
+		"source": "agent-draft"
+	},
+	"robert-downey-jr": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1992, "Chaplin"],
+		"born": 1965,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Iron Man and Oppenheimer.",
+		"source": "agent-draft"
+	},
+	"robert-greene": {
+		"home": ["ideas", "nonfiction"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1998, "The 48 Laws of Power"],
+		"born": 1959,
+		"era": null,
+		"confidence": "high",
+		"why": "Author of The 48 Laws of Power and Mastery.",
+		"source": "agent-draft"
+	},
+	"robert-oppenheimer": {
+		"home": ["ideas", "scientists", "physical"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1945, "Manhattan Project and Trinity test"],
+		"born": 1904,
+		"era": {
+			"period": "Manhattan Project and early Atomic Age",
+			"place": "United States"
+		},
+		"confidence": "high",
+		"why": "Theoretical physicist who directed the Manhattan Project's Los Alamos laboratory.",
+		"source": "agent-draft"
+	},
+	"robert-pattinson": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2008, "Twilight"],
+		"born": 1986,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Twilight, The Batman and Tenet.",
+		"source": "agent-draft"
+	},
+	"robin-williams": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["comedy", "stand-up"],
+				"evidence": "Stand-up specials from the 1970s"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1978, "Mork and Mindy"],
+		"born": 1951,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor known for Mrs. Doubtfire and Good Will Hunting, also a stand-up comic.",
+		"source": "agent-draft"
+	},
+	"ronald-reagan": {
+		"home": ["politics", "leaders", "us-presidents"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Over fifty films, Knute Rockne, Kings Row"
+			}
+		],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1964, "A Time for Choosing speech"],
+		"born": 1911,
+		"era": null,
+		"confidence": "high",
+		"why": "40th US president, also a Hollywood actor and California governor.",
+		"source": "agent-draft"
+	},
+	"rooney-mara": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2010, "The Social Network"],
+		"born": 1985,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known for The Girl with the Dragon Tattoo and Carol.",
+		"source": "agent-draft"
+	},
+	"rupert-murdoch": {
+		"home": ["business", "moguls"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [1969, "Acquired The Sun and News of the World"],
+		"born": 1931,
+		"era": null,
+		"confidence": "high",
+		"why": "Built News Corp and Fox into a global media empire.",
+		"source": "agent-draft"
+	},
+	"ruth-bader-ginsburg": {
+		"home": ["politics", "law"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1993, "Nominated to the US Supreme Court"],
+		"born": 1933,
+		"era": null,
+		"confidence": "high",
+		"why": "Supreme Court Justice 1993-2020 and women's-rights litigator at the ACLU.",
+		"source": "agent-draft"
+	},
+	"ryan-gosling": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "director"],
+		"breakout": [2004, "The Notebook"],
+		"born": 1980,
+		"era": null,
+		"confidence": "high",
+		"why": "Film actor in The Notebook, Drive and La La Land.",
+		"source": "agent-draft"
+	},
+	"ryan-grim": {
+		"home": ["media", "journalists"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [2013, "HuffPost and Intercept political reporting"],
+		"born": 1978,
+		"era": null,
+		"confidence": "medium",
+		"why": "Political journalist at HuffPost and The Intercept, cofounder of Drop Site News.",
+		"source": "agent-draft"
+	},
+	"ryan-holiday": {
+		"home": ["self-help", "motivation"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "The Daily Stoic podcast"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["writer"],
+		"breakout": [2012, "Trust Me, I'm Lying"],
+		"born": 1987,
+		"era": null,
+		"confidence": "medium",
+		"why": "Author of Stoicism-for-daily-life books like The Obstacle Is the Way.",
+		"source": "agent-draft"
+	},
+	"ryan-reynolds": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Aviation Gin, Mint Mobile, Wrexham AFC"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "writer", "founder"],
+		"breakout": [2016, "Deadpool"],
+		"born": 1976,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor best known for Deadpool and Van Wilder.",
+		"source": "agent-draft"
+	},
+	"saagar-enjeti": {
+		"home": ["media", "pundits"],
+		"also": [],
+		"platforms": ["youtube", "podcast"],
+		"roles": ["host"],
+		"breakout": [2019, "Rising on The Hill"],
+		"born": 1992,
+		"era": null,
+		"confidence": "high",
+		"why": "Political commentator, cohost of Breaking Points.",
+		"source": "agent-draft"
+	},
+	"sabrina-carpenter": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Girl Meets World"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2014, "Girl Meets World"],
+		"born": 1999,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer behind Short n' Sweet and Espresso.",
+		"source": "agent-draft"
+	},
+	"sadie-sink": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2017, "Stranger Things"],
+		"born": 2002,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known as Max in Stranger Things.",
+		"source": "agent-draft"
+	},
+	"sam-altman": {
+		"home": ["tech", "founders", "ai"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive", "investor"],
+		"breakout": [2022, "ChatGPT launch at OpenAI"],
+		"born": 1985,
+		"era": null,
+		"confidence": "high",
+		"why": "CEO of OpenAI, maker of ChatGPT.",
+		"source": "agent-draft"
+	},
+	"sam-bankman-fried": {
+		"home": ["tech", "founders", "crypto"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive", "notorious"],
+		"breakout": [2021, "FTX and Alameda Research rise"],
+		"born": 1992,
+		"era": null,
+		"confidence": "high",
+		"why": "Founded crypto exchange FTX, convicted of fraud in 2023.",
+		"source": "agent-draft"
+	},
+	"sam-parr": {
+		"home": ["business", "business-creators"],
+		"also": [],
+		"platforms": ["podcast", "x", "youtube"],
+		"roles": ["founder", "host"],
+		"breakout": [2021, "My First Million podcast"],
+		"born": null,
+		"era": null,
+		"confidence": "medium",
+		"why": "Cofounder of The Hustle and host of My First Million.",
+		"source": "agent-draft"
+	},
+	"samara-weaving": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2019, "Ready or Not"],
+		"born": 1992,
+		"era": null,
+		"confidence": "high",
+		"why": "Australian actress known for Ready or Not and Mayans M.C.",
+		"source": "agent-draft"
+	},
+	"samuel-l-jackson": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1994, "Pulp Fiction"],
+		"born": 1948,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor in Pulp Fiction and the Marvel films.",
+		"source": "agent-draft"
+	},
+	"saoirse-ronan": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2007, "Atonement"],
+		"born": 1994,
+		"era": null,
+		"confidence": "high",
+		"why": "Irish actress nominated for Lady Bird and Brooklyn.",
+		"source": "agent-draft"
+	},
+	"sara-saffari": {
+		"home": ["creators", "fitness"],
+		"also": [],
+		"platforms": ["instagram", "tiktok", "youtube"],
+		"roles": [],
+		"breakout": [2022, "Fitness and lifestyle content going viral"],
+		"born": 2001,
+		"era": null,
+		"confidence": "medium",
+		"why": "Personal trainer and social media fitness influencer.",
+		"source": "agent-draft"
+	},
+	"sarah-j-maas": {
+		"home": ["ideas", "novelists-poets"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [2012, "Throne of Glass"],
+		"born": 1986,
+		"era": null,
+		"confidence": "high",
+		"why": "Fantasy novelist behind Throne of Glass and A Court of Thorns and Roses.",
+		"source": "agent-draft"
+	},
+	"satya-nadella": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["executive"],
+		"breakout": [2014, "Named Microsoft CEO"],
+		"born": 1967,
+		"era": null,
+		"confidence": "high",
+		"why": "CEO of Microsoft since 2014.",
+		"source": "agent-draft"
+	},
+	"scarlett-johansson": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2003, "Lost in Translation"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress in Lost in Translation and the Marvel films.",
+		"source": "agent-draft"
+	},
+	"scott-galloway": {
+		"home": ["business", "business-creators"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Pivot and Prof G podcasts"
+			},
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "The Four, Adrift books"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["founder", "host", "writer"],
+		"breakout": [2017, "The Four and L2 / viral business commentary"],
+		"born": 1964,
+		"era": null,
+		"confidence": "medium",
+		"why": "NYU marketing professor turned business commentator via Prof G and Pivot.",
+		"source": "agent-draft"
+	},
+	"sean-evans": {
+		"home": ["media", "tv-hosts"],
+		"also": [],
+		"platforms": ["youtube"],
+		"roles": ["host", "producer"],
+		"breakout": [2015, "Hot Ones"],
+		"born": 1986,
+		"era": null,
+		"confidence": "medium",
+		"why": "Host of the interview show Hot Ones.",
+		"source": "agent-draft"
+	},
+	"selena-gomez": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Wizards of Waverly Place, Only Murders"
+			},
+			{
+				"path": ["style", "beauty"],
+				"evidence": "Rare Beauty"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "founder"],
+		"breakout": [2007, "Wizards of Waverly Place"],
+		"born": 1992,
+		"era": null,
+		"confidence": "medium",
+		"why": "Pop singer and actress, founder of Rare Beauty.",
+		"source": "agent-draft"
+	},
+	"sergey-brin": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [1998, "Google cofounded"],
+		"born": 1973,
+		"era": null,
+		"confidence": "high",
+		"why": "Cofounder of Google.",
+		"source": "agent-draft"
+	},
+	"seth-rogen": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Houseplant cannabis company"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "writer", "director", "founder"],
+		"breakout": [2005, "The 40-Year-Old Virgin"],
+		"born": 1982,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor and writer of comedies like Superbad and Pineapple Express.",
+		"source": "agent-draft"
+	},
+	"shaan-puri": {
+		"home": ["business", "business-creators"],
+		"also": [
+			{
+				"path": ["tech", "founders", "startups"],
+				"evidence": "Bebo cofounder, sold to Twitch"
+			}
+		],
+		"platforms": ["podcast", "x", "youtube"],
+		"roles": ["founder", "host"],
+		"breakout": [2021, "My First Million podcast"],
+		"born": null,
+		"era": null,
+		"confidence": "medium",
+		"why": "Serial founder turned cohost of My First Million.",
+		"source": "agent-draft"
+	},
+	"shailene-woodley": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "activist"],
+		"breakout": [2011, "The Descendants"],
+		"born": 1991,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress in Divergent, The Fault in Our Stars and Big Little Lies.",
+		"source": "agent-draft"
+	},
+	"shane-gillis": {
+		"home": ["comedy", "stand-up"],
+		"also": [],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2019, "SNL hire and firing, then stand-up specials"],
+		"born": 1987,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian and cohost of Matt and Shane's Secret Podcast.",
+		"source": "agent-draft"
+	},
+	"shawn-ryan": {
+		"home": ["media", "podcasters"],
+		"also": [],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2021, "Shawn Ryan Show"],
+		"born": null,
+		"era": null,
+		"confidence": "medium",
+		"why": "Former Navy SEAL and host of the Shawn Ryan Show podcast.",
+		"source": "agent-draft"
+	},
+	"shia-labeouf": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "writer", "director"],
+		"breakout": [2000, "Even Stevens"],
+		"born": 1986,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor in Even Stevens and Transformers.",
+		"source": "agent-draft"
+	},
+	"simon-sinek": {
+		"home": ["self-help", "success"],
+		"also": [],
+		"platforms": ["podcast"],
+		"roles": ["writer", "coach"],
+		"breakout": [2009, "Start With Why TED talk"],
+		"born": 1973,
+		"era": null,
+		"confidence": "medium",
+		"why": "Leadership author known for Start With Why.",
+		"source": "agent-draft"
+	},
+	"simone-biles": {
+		"home": ["sports", "olympic"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2016, "Five Rio Olympic medals"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Most decorated gymnast in history.",
+		"source": "agent-draft"
+	},
+	"sky-bri": {
+		"home": ["creators", "adult"],
+		"also": [],
+		"platforms": ["onlyfans", "instagram", "tiktok"],
+		"roles": ["model"],
+		"breakout": [2019, "Adult content and OnlyFans growth"],
+		"born": 1999,
+		"era": null,
+		"confidence": "medium",
+		"why": "Adult content creator and OnlyFans model.",
+		"source": "agent-draft"
+	},
+	"snoop-dogg": {
+		"home": ["music", "hip-hop"],
+		"also": [
+			{
+				"path": ["media", "tv-hosts"],
+				"evidence": "Martha & Snoop, Olympics coverage"
+			},
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Training Day, Starsky & Hutch roles"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter", "producer", "host"],
+		"breakout": [1992, "Dr. Dre's Deep Cover and The Chronic"],
+		"born": 1971,
+		"era": null,
+		"confidence": "high",
+		"why": "West Coast rapper from Doggystyle.",
+		"source": "agent-draft"
+	},
+	"sofia-vergara": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2009, "Modern Family"],
+		"born": 1972,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress known as Gloria on Modern Family.",
+		"source": "agent-draft"
+	},
+	"sombr": {
+		"home": ["music", "indie"],
+		"also": [],
+		"platforms": ["tiktok"],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2024, "back to friends"],
+		"born": 2005,
+		"era": null,
+		"confidence": "medium",
+		"why": "Singer-songwriter of back to friends and undressed.",
+		"source": "agent-draft"
+	},
+	"stavros-halkias": {
+		"home": ["comedy", "stand-up"],
+		"also": [],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2022, "Chuckle Sandwich podcast"],
+		"born": 1989,
+		"era": null,
+		"confidence": "medium",
+		"why": "Stand-up comedian and cohost of Chuckle Sandwich.",
+		"source": "agent-draft"
+	},
+	"stella-lefty": {
+		"home": ["music", "indie"],
+		"also": [],
+		"platforms": ["tiktok"],
+		"roles": ["songwriter"],
+		"breakout": [2023, "Viral TikTok singer-songwriter songs"],
+		"born": 2002,
+		"era": null,
+		"confidence": "low",
+		"why": "Singer-songwriter who built an audience on TikTok.",
+		"source": "agent-draft"
+	},
+	"stephen-a-smith": {
+		"home": ["media", "sports-media"],
+		"also": [],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2007, "First Take on ESPN"],
+		"born": 1967,
+		"era": null,
+		"confidence": "high",
+		"why": "ESPN commentator and host of First Take.",
+		"source": "agent-draft"
+	},
+	"stephen-colbert": {
+		"home": ["comedy", "late-night"],
+		"also": [],
+		"platforms": [],
+		"roles": ["host", "writer", "producer"],
+		"breakout": [2005, "The Colbert Report"],
+		"born": 1964,
+		"era": null,
+		"confidence": "high",
+		"why": "Host of The Colbert Report and The Late Show.",
+		"source": "agent-draft"
+	},
+	"stephen-hawking": {
+		"home": ["ideas", "scientists", "physical"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1988, "A Brief History of Time"],
+		"born": 1942,
+		"era": null,
+		"confidence": "high",
+		"why": "Theoretical physicist known for black-hole radiation.",
+		"source": "agent-draft"
+	},
+	"steve-carell": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["comedy", "late-night"],
+				"evidence": "Daily Show correspondent 1999-2005"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "writer"],
+		"breakout": [2005, "The Office and The 40-Year-Old Virgin"],
+		"born": 1962,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor best known as Michael Scott on The Office.",
+		"source": "agent-draft"
+	},
+	"steve-jobs": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [1984, "Macintosh launch at Apple"],
+		"born": 1955,
+		"era": null,
+		"confidence": "high",
+		"why": "Cofounded Apple and led it through the iPhone.",
+		"source": "agent-draft"
+	},
+	"steven-bartlett": {
+		"home": ["media", "podcasters"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Social Chain, Flight Story"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host", "founder", "writer"],
+		"breakout": [2017, "The Diary of a CEO"],
+		"born": 1992,
+		"era": null,
+		"confidence": "medium",
+		"why": "Host of The Diary of a CEO podcast.",
+		"source": "agent-draft"
+	},
+	"sundar-pichai": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["executive"],
+		"breakout": [2015, "Named Google CEO"],
+		"born": 1972,
+		"era": null,
+		"confidence": "high",
+		"why": "CEO of Google and Alphabet.",
+		"source": "agent-draft"
+	},
+	"sydney-sweeney": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2019, "Euphoria"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress in Euphoria and The White Lotus.",
+		"source": "agent-draft"
+	},
+	"sza": {
+		"home": ["music", "rnb"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2017, "Ctrl"],
+		"born": 1989,
+		"era": null,
+		"confidence": "high",
+		"why": "R&B singer behind Ctrl and SOS.",
+		"source": "agent-draft"
+	},
+	"tara-yummy": {
+		"home": ["creators", "adult"],
+		"also": [],
+		"platforms": ["onlyfans", "instagram", "tiktok"],
+		"roles": ["model"],
+		"breakout": [2020, "Adult content and OnlyFans growth"],
+		"born": 2000,
+		"era": null,
+		"confidence": "medium",
+		"why": "Adult content creator on OnlyFans.",
+		"source": "agent-draft"
+	},
+	"tate-mcrae": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2020, "you broke me first"],
+		"born": 2003,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer of you broke me first and greedy.",
+		"source": "agent-draft"
+	},
+	"taylor-frankie-paul": {
+		"home": ["creators", "lifestyle"],
+		"also": [
+			{
+				"path": ["famous", "reality-tv"],
+				"evidence": "The Secret Lives of Mormon Wives"
+			}
+		],
+		"platforms": ["tiktok"],
+		"roles": [],
+		"breakout": [2022, "MomTok TikTok group goes viral"],
+		"born": 1994,
+		"era": null,
+		"confidence": "medium",
+		"why": "TikTok personality and star of The Secret Lives of Mormon Wives.",
+		"source": "agent-draft"
+	},
+	"taylor-lorenz": {
+		"home": ["media", "journalists"],
+		"also": [],
+		"platforms": ["substack", "youtube"],
+		"roles": ["writer"],
+		"breakout": [2019, "New York Times internet culture reporting"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Tech and internet-culture journalist at the Times and Washington Post.",
+		"source": "agent-draft"
+	},
+	"taylor-swift": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2006, "Debut album Taylor Swift"],
+		"born": 1989,
+		"era": null,
+		"confidence": "high",
+		"why": "Pop singer-songwriter behind 1989 and the Eras Tour.",
+		"source": "agent-draft"
+	},
+	"teyana-taylor": {
+		"home": ["music", "rnb"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "A Thousand and One, One Battle After Another"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter", "director"],
+		"breakout": [2008, "My Super Sweet 16"],
+		"born": 1990,
+		"era": null,
+		"confidence": "medium",
+		"why": "R&B singer of K.T.S.E. and Fade.",
+		"source": "agent-draft"
+	},
+	"tfue": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["youtube", "twitch"],
+		"roles": [],
+		"breakout": [2018, "Fortnite streaming rise"],
+		"born": 1998,
+		"era": null,
+		"confidence": "high",
+		"why": "Fortnite streamer and former pro gamer.",
+		"source": "agent-draft"
+	},
+	"theo-von": {
+		"home": ["comedy", "stand-up"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "This Past Weekend"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2000, "MTV Road Rules"],
+		"born": 1980,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian and host of This Past Weekend.",
+		"source": "agent-draft"
+	},
+	"tim-cook": {
+		"home": ["tech", "founders", "big-tech"],
+		"also": [],
+		"platforms": [],
+		"roles": ["executive"],
+		"breakout": [2011, "Named Apple CEO"],
+		"born": 1960,
+		"era": null,
+		"confidence": "high",
+		"why": "CEO of Apple since 2011.",
+		"source": "agent-draft"
+	},
+	"tim-dillon": {
+		"home": ["comedy", "stand-up"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "The Tim Dillon Show"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2018, "The Tim Dillon Show podcast"],
+		"born": 1985,
+		"era": null,
+		"confidence": "high",
+		"why": "Stand-up comedian and host of The Tim Dillon Show.",
+		"source": "agent-draft"
+	},
+	"tim-ferriss": {
+		"home": ["self-help", "productivity"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "The Tim Ferriss Show"
+			}
+		],
+		"platforms": ["podcast"],
+		"roles": ["writer", "host", "investor"],
+		"breakout": [2007, "The 4-Hour Workweek"],
+		"born": 1977,
+		"era": null,
+		"confidence": "high",
+		"why": "Author of The 4-Hour Workweek and host of The Tim Ferriss Show.",
+		"source": "agent-draft"
+	},
+	"tim-robinson": {
+		"home": ["comedy", "sketch-sitcom"],
+		"also": [],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [2012, "Saturday Night Live cast"],
+		"born": 1981,
+		"era": null,
+		"confidence": "medium",
+		"why": "Sketch comedian behind I Think You Should Leave.",
+		"source": "agent-draft"
+	},
+	"timothee-chalamet": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2017, "Call Me by Your Name"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor in Dune and Call Me by Your Name.",
+		"source": "agent-draft"
+	},
+	"tina-fey": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["comedy", "sketch-sitcom"],
+				"evidence": "SNL head writer, 30 Rock"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer", "producer"],
+		"breakout": [2000, "SNL head writer and Weekend Update"],
+		"born": 1970,
+		"era": null,
+		"confidence": "medium",
+		"why": "Actress and writer of Mean Girls and 30 Rock.",
+		"source": "agent-draft"
+	},
+	"tobey-maguire": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2002, "Spider-Man"],
+		"born": 1975,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor who played Spider-Man.",
+		"source": "agent-draft"
+	},
+	"tom-cruise": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [1986, "Top Gun"],
+		"born": 1962,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor in Top Gun and Mission: Impossible.",
+		"source": "agent-draft"
+	},
+	"tom-hanks": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "director"],
+		"breakout": [1988, "Big"],
+		"born": 1956,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor in Forrest Gump and Saving Private Ryan.",
+		"source": "agent-draft"
+	},
+	"tom-hardy": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer", "writer"],
+		"breakout": [2010, "Inception"],
+		"born": 1977,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor in Mad Max: Fury Road and Venom.",
+		"source": "agent-draft"
+	},
+	"tom-hiddleston": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2011, "Thor"],
+		"born": 1981,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor who plays Loki in the Marvel films.",
+		"source": "agent-draft"
+	},
+	"tom-holland": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2016, "Captain America: Civil War"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "Actor who plays Spider-Man in the Marvel films.",
+		"source": "agent-draft"
+	},
+	"tony-robbins": {
+		"home": ["self-help", "motivation"],
+		"also": [],
+		"platforms": [],
+		"roles": ["coach", "writer"],
+		"breakout": [1991, "Awaken the Giant Within"],
+		"born": 1960,
+		"era": null,
+		"confidence": "high",
+		"why": "Motivational speaker and author of Awaken the Giant Within.",
+		"source": "agent-draft"
+	},
+	"travis-kalanick": {
+		"home": ["tech", "founders", "startups"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive", "investor"],
+		"breakout": [2012, "Uber growth"],
+		"born": 1976,
+		"era": null,
+		"confidence": "high",
+		"why": "Cofounder and former CEO of Uber.",
+		"source": "agent-draft"
+	},
+	"travis-kelce": {
+		"home": ["sports", "football"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "New Heights podcast"
+			}
+		],
+		"platforms": ["podcast", "youtube"],
+		"roles": ["host"],
+		"breakout": [2020, "Chiefs win Super Bowl LIV"],
+		"born": 1989,
+		"era": null,
+		"confidence": "high",
+		"why": "Kansas City Chiefs tight end.",
+		"source": "agent-draft"
+	},
+	"travis-scott": {
+		"home": ["music", "hip-hop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter", "producer"],
+		"breakout": [2015, "Rodeo"],
+		"born": 1991,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper behind Astroworld and Utopia.",
+		"source": "agent-draft"
+	},
+	"trevor-noah": {
+		"home": ["comedy", "late-night"],
+		"also": [],
+		"platforms": ["podcast"],
+		"roles": ["host", "writer"],
+		"breakout": [2015, "Hosting The Daily Show"],
+		"born": 1984,
+		"era": null,
+		"confidence": "high",
+		"why": "Host of The Daily Show 2015-2022.",
+		"source": "agent-draft"
+	},
+	"trisha-paytas": {
+		"home": ["creators", "vlogs-stunts"],
+		"also": [],
+		"platforms": ["youtube", "tiktok", "onlyfans", "podcast"],
+		"roles": [],
+		"breakout": [2011, "YouTube vlogs and mukbangs"],
+		"born": 1988,
+		"era": null,
+		"confidence": "medium",
+		"why": "YouTuber known for vlogs, mukbangs and controversy.",
+		"source": "agent-draft"
+	},
+	"troye-sivan": {
+		"home": ["music", "pop"],
+		"also": [
+			{
+				"path": ["screen", "actors"],
+				"evidence": "Boy Erased, Spud films"
+			}
+		],
+		"platforms": ["youtube"],
+		"roles": ["songwriter"],
+		"breakout": [2013, "YouTube vlogs and debut EP"],
+		"born": 1995,
+		"era": null,
+		"confidence": "medium",
+		"why": "Pop singer of Blue Neighbourhood and Something to Give Each Other.",
+		"source": "agent-draft"
+	},
+	"tucker-carlson": {
+		"home": ["media", "pundits"],
+		"also": [],
+		"platforms": ["youtube", "podcast", "x"],
+		"roles": ["host", "writer", "founder"],
+		"breakout": [2016, "Tucker Carlson Tonight"],
+		"born": 1969,
+		"era": null,
+		"confidence": "high",
+		"why": "Political commentator, former Fox News host.",
+		"source": "agent-draft"
+	},
+	"tyler-cowen": {
+		"home": ["ideas", "scientists", "economics"],
+		"also": [
+			{
+				"path": ["media", "podcasters"],
+				"evidence": "Conversations with Tyler"
+			}
+		],
+		"platforms": ["podcast", "substack"],
+		"roles": ["writer", "founder"],
+		"breakout": [2003, "Marginal Revolution blog"],
+		"born": 1962,
+		"era": null,
+		"confidence": "high",
+		"why": "George Mason economist and Marginal Revolution blogger.",
+		"source": "agent-draft"
+	},
+	"tyler-perry": {
+		"home": ["screen", "directors"],
+		"also": [
+			{
+				"path": ["business", "moguls"],
+				"evidence": "Tyler Perry Studios"
+			},
+			{
+				"path": ["ideas", "playwrights"],
+				"evidence": "Madea stage plays"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "writer", "founder", "director"],
+		"breakout": [2005, "Diary of a Mad Black Woman"],
+		"born": 1969,
+		"era": null,
+		"confidence": "medium",
+		"why": "Writer-director of the Madea films and founder of Tyler Perry Studios.",
+		"source": "agent-draft"
+	},
+	"tyler-the-creator": {
+		"home": ["music", "hip-hop"],
+		"also": [
+			{
+				"path": ["style", "fashion-designers"],
+				"evidence": "Golf Wang and Le Fleur"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter", "producer", "director"],
+		"breakout": [2011, "Yonkers"],
+		"born": 1991,
+		"era": null,
+		"confidence": "high",
+		"why": "Rapper and producer behind Igor and Call Me If You Get Lost.",
+		"source": "agent-draft"
+	},
+	"tyler1": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["twitch", "youtube"],
+		"roles": [],
+		"breakout": [2016, "League of Legends streaming and bans"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "League of Legends streamer.",
+		"source": "agent-draft"
+	},
+	"victoria-justice": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["music", "pop"],
+				"evidence": "Victorious soundtrack singles and album"
+			}
+		],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2005, "Zoey 101"],
+		"born": 1993,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress in Victorious.",
+		"source": "agent-draft"
+	},
+	"vincent-van-gogh": {
+		"home": ["ideas", "artists"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1890, "Posthumous recognition after Aurier essay"],
+		"born": 1853,
+		"era": {
+			"period": "Post-Impressionism",
+			"place": "Netherlands and France"
+		},
+		"confidence": "high",
+		"why": "Post-Impressionist painter of The Starry Night and Sunflowers.",
+		"source": "agent-draft"
+	},
+	"vivek-ramaswamy": {
+		"home": ["politics", "politicians"],
+		"also": [
+			{
+				"path": ["business", "founders"],
+				"evidence": "Roivant Sciences"
+			}
+		],
+		"platforms": [],
+		"roles": ["founder", "writer"],
+		"breakout": [2023, "2024 Republican presidential run"],
+		"born": 1985,
+		"era": null,
+		"confidence": "medium",
+		"why": "2024 presidential candidate and Ohio politician, formerly biotech founder.",
+		"source": "agent-draft"
+	},
+	"vladimir-putin": {
+		"home": ["politics", "leaders", "world-leaders"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [1999, "Becomes Russian prime minister"],
+		"born": 1952,
+		"era": null,
+		"confidence": "high",
+		"why": "President of Russia since 2000.",
+		"source": "agent-draft"
+	},
+	"warren-buffett": {
+		"home": ["business", "finance"],
+		"also": [],
+		"platforms": [],
+		"roles": ["investor", "executive"],
+		"breakout": [1986, "Berkshire Hathaway on Forbes list"],
+		"born": 1930,
+		"era": null,
+		"confidence": "high",
+		"why": "Chairman of Berkshire Hathaway and legendary investor.",
+		"source": "agent-draft"
+	},
+	"will-smith": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["music", "hip-hop"],
+				"evidence": "Fresh Prince albums, Big Willie Style"
+			}
+		],
+		"platforms": [],
+		"roles": ["producer", "songwriter"],
+		"breakout": [1988, "He's the DJ, I'm the Rapper"],
+		"born": 1968,
+		"era": null,
+		"confidence": "medium",
+		"why": "Actor in Men in Black and The Fresh Prince of Bel-Air.",
+		"source": "agent-draft"
+	},
+	"winston-churchill": {
+		"home": ["politics", "leaders", "world-leaders"],
+		"also": [
+			{
+				"path": ["ideas", "nonfiction"],
+				"evidence": "Nobel-winning histories and memoirs"
+			}
+		],
+		"platforms": [],
+		"roles": ["writer"],
+		"breakout": [1900, "Boer War escape and election to Parliament"],
+		"born": 1874,
+		"era": {
+			"period": "Edwardian era",
+			"place": "United Kingdom"
+		},
+		"confidence": "high",
+		"why": "British prime minister during World War II.",
+		"source": "agent-draft"
+	},
+	"xi-jinping": {
+		"home": ["politics", "leaders", "world-leaders"],
+		"also": [],
+		"platforms": [],
+		"roles": [],
+		"breakout": [2012, "Becomes CCP General Secretary"],
+		"born": 1953,
+		"era": null,
+		"confidence": "high",
+		"why": "General Secretary of the Chinese Communist Party and President of China.",
+		"source": "agent-draft"
+	},
+	"xqc": {
+		"home": ["creators", "streamers"],
+		"also": [],
+		"platforms": ["twitch", "youtube", "kick"],
+		"roles": [],
+		"breakout": [2018, "Overwatch streaming and pro play"],
+		"born": 1995,
+		"era": null,
+		"confidence": "high",
+		"why": "Twitch and Kick streamer.",
+		"source": "agent-draft"
+	},
+	"yang-zhilin": {
+		"home": ["tech", "founders", "ai"],
+		"also": [],
+		"platforms": [],
+		"roles": ["founder", "executive"],
+		"breakout": [2023, "Founding Moonshot AI and Kimi"],
+		"born": 1992,
+		"era": null,
+		"confidence": "high",
+		"why": "Founder of Moonshot AI, maker of Kimi.",
+		"source": "agent-draft"
+	},
+	"zach-bryan": {
+		"home": ["music", "country"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2022, "American Heartbreak"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "Country singer-songwriter of Something in the Orange.",
+		"source": "agent-draft"
+	},
+	"zara-larsson": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2015, "Lush Life"],
+		"born": 1997,
+		"era": null,
+		"confidence": "high",
+		"why": "Swedish pop singer of Lush Life.",
+		"source": "agent-draft"
+	},
+	"zayn-malik": {
+		"home": ["music", "pop"],
+		"also": [],
+		"platforms": [],
+		"roles": ["songwriter"],
+		"breakout": [2010, "One Direction on The X Factor"],
+		"born": 1993,
+		"era": null,
+		"confidence": "high",
+		"why": "Singer who left One Direction for a solo career.",
+		"source": "agent-draft"
+	},
+	"zendaya": {
+		"home": ["screen", "actors"],
+		"also": [],
+		"platforms": [],
+		"roles": ["producer"],
+		"breakout": [2010, "Shake It Up"],
+		"born": 1996,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress in Euphoria, Dune and Spider-Man.",
+		"source": "agent-draft"
+	},
+	"zoe-kravitz": {
+		"home": ["screen", "actors"],
+		"also": [
+			{
+				"path": ["music", "rock"],
+				"evidence": "Lolawolf band"
+			}
+		],
+		"platforms": [],
+		"roles": ["director", "producer"],
+		"breakout": [2011, "X-Men: First Class"],
+		"born": 1988,
+		"era": null,
+		"confidence": "high",
+		"why": "Actress in Big Little Lies and The Batman.",
+		"source": "agent-draft"
+	},
+	"zohran-mamdani": {
+		"home": ["politics", "politicians"],
+		"also": [],
+		"platforms": [],
+		"roles": ["activist"],
+		"breakout": [2025, "Wins NYC Democratic mayoral primary"],
+		"born": 1991,
+		"era": null,
+		"confidence": "high",
+		"why": "Mayor of New York City and former state assemblyman.",
+		"source": "agent-draft"
+	}
+}

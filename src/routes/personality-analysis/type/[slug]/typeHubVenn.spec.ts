@@ -41,21 +41,29 @@ function allFaces(layout: VennLayout) {
 }
 
 describe('findCrossovers', () => {
-	it('keeps every shown secondary field in order and ignores broad fame tags', () => {
+	it('keeps every shown second-career field in order and skips the home field', () => {
+		const homes: Record<string, string[]> = {
+			'actor-and-host': ['screen', 'actors'],
+			singer: ['music', 'pop'],
+			host: ['media', 'podcasters'],
+			novelist: ['ideas', 'novelists-poets']
+		};
+		const also: Record<string, string[]> = {
+			'actor-and-host': ['media', 'music', 'sports'],
+			novelist: ['ideas', 'screen']
+		};
 		const groups = groupPeopleByNiche(
-			[
-				{ slug: 'actor-and-host', type: ['movieStar', 'creator', 'musician'] },
-				{ slug: 'singer', type: ['musician', 'celebrity'] },
-				{ slug: 'host', type: ['creator'] },
-				{ slug: 'novelist', type: ['historical', 'author'] },
-				{ slug: 'historian-subject', type: ['historical'] }
-			],
+			Object.keys(homes).map((slug) => ({ slug })),
 			'3',
-			{ minFieldSize: 1 }
+			{
+				minFieldSize: 1,
+				place: (person) => ({ home: homes[person.slug], alsoFields: [], born: null })
+			}
 		);
-		const fields = findCrossovers(groups);
-		expect(fields.get('actor-and-host')).toEqual(['creator-media', 'music']);
-		expect(fields.get('novelist')).toEqual(['history']);
+		const fields = findCrossovers(groups, (person) => also[person.slug] ?? []);
+		// Sports isn't shown on this page, and a home field is never its own crossover.
+		expect(fields.get('actor-and-host')).toEqual(['media', 'music']);
+		expect(fields.get('novelist')).toEqual(['screen']);
 		expect(fields.has('singer')).toBe(false);
 	});
 
@@ -78,7 +86,9 @@ describe('findCrossovers', () => {
 		const groups = groupPeopleByNiche([...actors, { slug: 'singer', type: ['musician'] }], '3', {
 			minFieldSize: 1
 		});
-		const memberships = findCrossovers(groups);
+		const memberships = findCrossovers(groups, (person) =>
+			person.slug.startsWith('actor-') ? ['music'] : []
+		);
 		for (const shape of ['wide', 'tall'] as const) {
 			const layout = buildVennLayout(groups, shape, memberships);
 			expect(layout.overlaps.flatMap((overlap) => overlap.faces).length).toBeLessThan(
