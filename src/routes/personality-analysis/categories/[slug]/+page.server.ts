@@ -12,6 +12,8 @@ import {
 	type PersonalityCategoryRow
 } from '$lib/server/personalityCategoryData';
 import { getPersonalityCategoryStats } from '$lib/server/personalityCategoryStats';
+import { FIELD_BY_KEY } from '$lib/peopleTaxonomy';
+import { buildTimeline, type TimelinePerson } from '$lib/peopleTimeline';
 
 export const load: PageServerLoad = async ({ locals, params }) => {
 	const category = getPersonalityCategoryBySlug(params.slug);
@@ -41,6 +43,8 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 				: person.categorySlugs.includes(category.slug)
 		)
 	);
+	// A field with nobody published yet (e.g. Crime & Notoriety) has no page.
+	if (!people.length) throw error(404, { message: 'Category not found' });
 	const featured = people.slice(0, 4);
 	const latestUpdate = getLatestCategoryDate(people);
 	const earliestPublish = getEarliestCategoryDate(people);
@@ -60,8 +64,28 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 		})
 		.filter((value): value is NonNullable<typeof value> => value !== null);
 
+	// The field's niches, shown as chips under the hero.
+	const nicheLabels = category.fields.flatMap(
+		(field) => FIELD_BY_KEY.get(field)?.niches.map((niche) => niche.label) ?? []
+	);
+
+	// Birth-year view of everyone on the page, oldest generation on the left.
+	const timeline = buildTimeline(
+		people.map((person): TimelinePerson => ({
+			slug: person.slug,
+			name: person.name,
+			born: person.born,
+			enneagram: person.enneagram,
+			personaTitle: person.personaTitle,
+			accent: FIELD_BY_KEY.get(person.home?.[0] ?? '')?.accent ?? null
+		})),
+		(person) => person.born
+	);
+
 	return {
 		category,
+		nicheLabels,
+		timeline,
 		people,
 		groups,
 		featured,

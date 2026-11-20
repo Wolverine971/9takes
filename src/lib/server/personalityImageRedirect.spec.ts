@@ -12,7 +12,8 @@ function person(name: string, hasImage = true): FamousTypePerson {
 		lastmod: null,
 		personaTitle: null,
 		contentGrade: null,
-		types: []
+		types: [],
+		field: null
 	};
 }
 

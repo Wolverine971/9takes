@@ -1,7 +1,7 @@
 <!-- src/lib/components/molecules/FamousTypes.svelte -->
 <script lang="ts">
-	import { TAXONOMY_FIELDS, homePathFor } from '$lib/peopleTaxonomy';
-	import { getReviewedPersonTypes } from '$lib/reviewedPersonTypes';
+	// The small vocabulary only; each person's home field is baked into famousTypes.ts.
+	import taxonomy from '$lib/data/peopleTaxonomy.json';
 	import { famousTypes, type FamousTypePerson } from '$lib/components/molecules/famousTypes';
 	import {
 		buildPersonalityAnalysisPath,
@@ -12,16 +12,9 @@
 
 	function groupFamousPeople(people: FamousTypePerson[]) {
 		// v3 taxonomy: one group per home field, in taxonomy order; unlabeled people last.
-		const byField = Map.groupBy(
-			people,
-			(person) =>
-				homePathFor({
-					slug: person.name,
-					type: getReviewedPersonTypes(person.name, person.types)
-				})?.[0] ?? 'other'
-		);
+		const byField = Map.groupBy(people, (person) => person.field ?? 'other');
 		return [
-			...TAXONOMY_FIELDS.map(({ key, label }) => ({ slug: key, label })),
+			...taxonomy.fields.map(({ key, label }) => ({ slug: key, label })),
 			{ slug: 'other', label: 'Other Public Figures' }
 		].flatMap(({ slug, label }) => {
 			const people = byField.get(slug);

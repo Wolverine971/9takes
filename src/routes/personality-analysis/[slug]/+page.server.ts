@@ -14,11 +14,8 @@ import {
 	buildPersonalityAnalysisUrl,
 	normalizePersonalitySlug
 } from '$lib/utils/personalityAnalysis';
-import {
-	getPrimaryPersonalityCategorySlug,
-	getPersonalityCategoryBySlug,
-	normalizePeopleTypes
-} from '$lib/personalityCategories';
+import { getPersonalityCategoryBySlug } from '$lib/personalityCategories';
+import { getPrimaryPersonalityCategorySlug } from '$lib/server/personalityCategoryData';
 import {
 	CONTENT_GUARD_CACHE_CONTROL,
 	CONTENT_SEARCH_PREVIEW_CACHE_CONTROL
@@ -184,7 +181,6 @@ export const load: PageServerLoad = async (event) => {
 	const postTypes = getReviewedPersonTypes(canonicalSlug, personData.type);
 	const bridgeLinks = buildPersonalityBridgeLinks({
 		enneagram: personData.enneagram,
-		types: postTypes,
 		personSlug: canonicalSlug
 	});
 	const enneagramNum = parseEnneagramNumber(personData.enneagram);
@@ -465,11 +461,9 @@ const TYPE_PILLAR_LABELS: Record<number, string> = {
  */
 function buildPersonalityBridgeLinks({
 	enneagram,
-	types,
 	personSlug
 }: {
 	enneagram: unknown;
-	types: unknown;
 	personSlug?: string | null;
 }): { label: string; href: string }[] {
 	const links: { label: string; href: string }[] = [];
@@ -490,8 +484,7 @@ function buildPersonalityBridgeLinks({
 		});
 	}
 
-	const normalizedTypes = normalizePeopleTypes(types);
-	const primaryCategorySlug = getPrimaryPersonalityCategorySlug(normalizedTypes, personSlug);
+	const primaryCategorySlug = personSlug ? getPrimaryPersonalityCategorySlug(personSlug) : null;
 
 	if (primaryCategorySlug) {
 		const category = getPersonalityCategoryBySlug(primaryCategorySlug);

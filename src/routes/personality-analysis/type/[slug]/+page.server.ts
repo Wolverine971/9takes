@@ -4,13 +4,18 @@ import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import type { Database } from '../../../../../database.types';
 import { getReviewedPersonTypes } from '$lib/reviewedPersonTypes';
-import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
+import {
+	formatPersonalityDisplayName,
+	normalizePersonalitySlug
+} from '$lib/utils/personalityAnalysis';
 import { getTypeCorpusInsight } from '$lib/server/typeCorpusStats';
 import personalityFame from '$lib/generated/personalityFame.json';
 import { sortPeopleByFame, type FameViews } from './typeHubOrder';
 import { getTypeHubRoleLabels, groupPeopleByNiche } from './typeHubGroups';
 import { descriptionHook, findTitlePatterns } from './typeHubPatterns';
 import { buildVennLayout, findCrossovers } from './typeHubVenn';
+import { FIELD_BY_KEY, bornYearFor, homePathFor } from '$lib/peopleTaxonomy';
+import { buildTimeline, type TimelinePerson } from '$lib/peopleTimeline';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type PersonPost = Pick<
@@ -74,6 +79,19 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		};
 	});
 	const cards = new Map(people.map((person) => [person.slug, person]));
+
+	// Birth-year view: every person of this type, oldest generation on the left.
+	const timeline = buildTimeline(
+		publishedPosts.map((post): TimelinePerson => ({
+			slug: post.slug,
+			name: formatPersonalityDisplayName(post.slug),
+			born: bornYearFor(post.slug),
+			enneagram: post.enneagram == null ? null : String(post.enneagram),
+			personaTitle: post.personaTitle,
+			accent: FIELD_BY_KEY.get(homePathFor(post)?.[0] ?? '')?.accent ?? null
+		})),
+		(person) => person.born
+	);
 	const cardFor = (person: PersonPost) => cards.get(person.slug)!;
 
 	return {
@@ -85,6 +103,7 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		})),
 		patterns,
 		venn,
+		timeline,
 		slug,
 		corpusInsight
 	};

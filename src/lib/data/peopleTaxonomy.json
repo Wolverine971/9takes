@@ -5,22 +5,40 @@
 			"key": "screen",
 			"label": "Film, TV & Stage",
 			"shortLabel": "Screen",
+			"page": "film-tv",
 			"accent": "#f59e0b",
 			"description": "Actors, directors and live performers whose work is watched on screen or stage.",
 			"niches": [
 				{
 					"key": "actors",
 					"label": "Actors",
-					"subs": [{ "key": "voice", "label": "Voice & anime actors" }]
+					"subs": [
+						{
+							"key": "voice",
+							"label": "Voice & anime actors"
+						}
+					]
 				},
-				{ "key": "directors", "label": "Directors & showrunners" },
+				{
+					"key": "directors",
+					"label": "Directors & showrunners"
+				},
 				{
 					"key": "stage",
 					"label": "Stage",
 					"subs": [
-						{ "key": "broadway", "label": "Broadway & theatre" },
-						{ "key": "dance", "label": "Dance" },
-						{ "key": "magic", "label": "Magic & variety" }
+						{
+							"key": "broadway",
+							"label": "Broadway & theatre"
+						},
+						{
+							"key": "dance",
+							"label": "Dance"
+						},
+						{
+							"key": "magic",
+							"label": "Magic & variety"
+						}
 					]
 				}
 			]
@@ -29,100 +47,241 @@
 			"key": "music",
 			"label": "Music",
 			"shortLabel": "Music",
+			"page": "music",
 			"accent": "#f472b6",
 			"description": "Singers, rappers, bands, producers and composers.",
 			"niches": [
-				{ "key": "pop", "label": "Pop", "subs": [{ "key": "k-pop", "label": "K-pop" }] },
-				{ "key": "hip-hop", "label": "Hip-hop & rap" },
-				{ "key": "rnb", "label": "R&B & soul" },
-				{ "key": "rock", "label": "Rock" },
-				{ "key": "country", "label": "Country & Americana" },
-				{ "key": "indie", "label": "Indie & singer-songwriters" },
-				{ "key": "latin", "label": "Latin" },
-				{ "key": "afro-caribbean", "label": "Afrobeats & Caribbean" },
-				{ "key": "electronic", "label": "Producers & DJs" },
-				{ "key": "classical-jazz", "label": "Classical & jazz" },
-				{ "key": "composers", "label": "Film & stage composers" }
+				{
+					"key": "pop",
+					"label": "Pop",
+					"subs": [
+						{
+							"key": "k-pop",
+							"label": "K-pop"
+						}
+					]
+				},
+				{
+					"key": "hip-hop",
+					"label": "Hip-hop & rap"
+				},
+				{
+					"key": "rnb",
+					"label": "R&B & soul"
+				},
+				{
+					"key": "rock",
+					"label": "Rock"
+				},
+				{
+					"key": "country",
+					"label": "Country & Americana"
+				},
+				{
+					"key": "indie",
+					"label": "Indie & singer-songwriters"
+				},
+				{
+					"key": "latin",
+					"label": "Latin"
+				},
+				{
+					"key": "afro-caribbean",
+					"label": "Afrobeats & Caribbean"
+				},
+				{
+					"key": "electronic",
+					"label": "Producers & DJs"
+				},
+				{
+					"key": "classical-jazz",
+					"label": "Classical & jazz"
+				},
+				{
+					"key": "composers",
+					"label": "Film & stage composers"
+				}
 			]
 		},
 		{
 			"key": "comedy",
 			"label": "Comedy",
 			"shortLabel": "Comedy",
+			"page": "comedy",
 			"accent": "#facc15",
 			"description": "People whose own comic voice is the product: stand-up, sketch, late night, internet comedy.",
 			"niches": [
-				{ "key": "stand-up", "label": "Stand-up" },
-				{ "key": "sketch-sitcom", "label": "Sketch & sitcom" },
-				{ "key": "late-night", "label": "Late night & satire" },
-				{ "key": "internet-comedy", "label": "Internet comedy" }
+				{
+					"key": "stand-up",
+					"label": "Stand-up"
+				},
+				{
+					"key": "sketch-sitcom",
+					"label": "Sketch & sitcom"
+				},
+				{
+					"key": "late-night",
+					"label": "Late night & satire"
+				},
+				{
+					"key": "internet-comedy",
+					"label": "Internet comedy"
+				}
 			]
 		},
 		{
 			"key": "creators",
 			"label": "Internet Creators",
 			"shortLabel": "Creators",
+			"page": "creator-media",
 			"accent": "#22d3ee",
 			"description": "People whose product is themselves online: vlogs, streams, stunts, lifestyle, reaction.",
 			"niches": [
-				{ "key": "vlogs-stunts", "label": "Vlogs & stunts" },
-				{ "key": "streamers", "label": "Streamers & gamers" },
-				{ "key": "commentary", "label": "Commentary & reaction" },
-				{ "key": "education", "label": "Education & explainers" },
-				{ "key": "lifestyle", "label": "Lifestyle & beauty" },
-				{ "key": "fitness", "label": "Fitness" },
-				{ "key": "adult", "label": "Adult creators" }
+				{
+					"key": "vlogs-stunts",
+					"label": "Vlogs & stunts"
+				},
+				{
+					"key": "streamers",
+					"label": "Streamers & gamers"
+				},
+				{
+					"key": "commentary",
+					"label": "Commentary & reaction"
+				},
+				{
+					"key": "education",
+					"label": "Education & explainers"
+				},
+				{
+					"key": "lifestyle",
+					"label": "Lifestyle & beauty"
+				},
+				{
+					"key": "fitness",
+					"label": "Fitness"
+				},
+				{
+					"key": "adult",
+					"label": "Adult creators"
+				}
 			]
 		},
 		{
 			"key": "media",
 			"label": "Hosts & Media",
 			"shortLabel": "Media",
+			"page": "hosts-media",
 			"accent": "#a78bfa",
 			"description": "Podcasters, TV hosts, journalists and commentators whose job is the conversation.",
 			"niches": [
-				{ "key": "podcasters", "label": "Podcasters & interview hosts" },
-				{ "key": "tv-hosts", "label": "TV hosts" },
-				{ "key": "pundits", "label": "Political commentary" },
-				{ "key": "journalists", "label": "Journalists & anchors" },
-				{ "key": "sports-media", "label": "Sports media" },
-				{ "key": "business-media", "label": "Business & tech media" }
+				{
+					"key": "podcasters",
+					"label": "Podcasters & interview hosts"
+				},
+				{
+					"key": "tv-hosts",
+					"label": "TV hosts"
+				},
+				{
+					"key": "pundits",
+					"label": "Political commentary"
+				},
+				{
+					"key": "journalists",
+					"label": "Journalists & anchors"
+				},
+				{
+					"key": "sports-media",
+					"label": "Sports media"
+				},
+				{
+					"key": "business-media",
+					"label": "Business & tech media"
+				}
 			]
 		},
 		{
 			"key": "sports",
 			"label": "Sports",
 			"shortLabel": "Sports",
+			"page": "sports",
 			"accent": "#fb923c",
 			"description": "Athletes and coaches, filed by sport.",
 			"niches": [
-				{ "key": "basketball", "label": "Basketball" },
-				{ "key": "football", "label": "American football" },
-				{ "key": "soccer", "label": "Soccer" },
-				{ "key": "baseball", "label": "Baseball" },
-				{ "key": "hockey", "label": "Hockey" },
-				{ "key": "tennis", "label": "Tennis" },
-				{ "key": "golf", "label": "Golf" },
+				{
+					"key": "basketball",
+					"label": "Basketball"
+				},
+				{
+					"key": "football",
+					"label": "American football"
+				},
+				{
+					"key": "soccer",
+					"label": "Soccer"
+				},
+				{
+					"key": "baseball",
+					"label": "Baseball"
+				},
+				{
+					"key": "hockey",
+					"label": "Hockey"
+				},
+				{
+					"key": "tennis",
+					"label": "Tennis"
+				},
+				{
+					"key": "golf",
+					"label": "Golf"
+				},
 				{
 					"key": "combat",
 					"label": "Combat sports",
 					"subs": [
-						{ "key": "boxing", "label": "Boxing" },
-						{ "key": "mma", "label": "MMA" },
-						{ "key": "pro-wrestling", "label": "Pro wrestling" }
+						{
+							"key": "boxing",
+							"label": "Boxing"
+						},
+						{
+							"key": "mma",
+							"label": "MMA"
+						},
+						{
+							"key": "pro-wrestling",
+							"label": "Pro wrestling"
+						}
 					]
 				},
-				{ "key": "motorsport", "label": "F1 & motorsport" },
-				{ "key": "olympic", "label": "Track, swim & Olympic" },
-				{ "key": "action-sports", "label": "Action sports" },
-				{ "key": "mind-sports", "label": "Chess, poker & esports" },
-				{ "key": "cricket", "label": "Cricket" }
+				{
+					"key": "motorsport",
+					"label": "F1 & motorsport"
+				},
+				{
+					"key": "olympic",
+					"label": "Track, swim & Olympic"
+				},
+				{
+					"key": "action-sports",
+					"label": "Action sports"
+				},
+				{
+					"key": "mind-sports",
+					"label": "Chess, poker & esports"
+				},
+				{
+					"key": "cricket",
+					"label": "Cricket"
+				}
 			]
 		},
 		{
 			"key": "tech",
 			"label": "Tech",
 			"shortLabel": "Tech",
+			"page": "technology",
 			"accent": "#60a5fa",
 			"description": "Software, chips, internet, AI, crypto and games, whether the person codes or runs the company.",
 			"niches": [
@@ -130,37 +289,81 @@
 					"key": "founders",
 					"label": "Founders & CEOs",
 					"subs": [
-						{ "key": "big-tech", "label": "Big Tech" },
-						{ "key": "ai", "label": "AI companies" },
-						{ "key": "startups", "label": "Startups" },
-						{ "key": "hardware-defense", "label": "Hardware & defense" },
-						{ "key": "crypto", "label": "Crypto" }
+						{
+							"key": "big-tech",
+							"label": "Big Tech"
+						},
+						{
+							"key": "ai",
+							"label": "AI companies"
+						},
+						{
+							"key": "startups",
+							"label": "Startups"
+						},
+						{
+							"key": "hardware-defense",
+							"label": "Hardware & defense"
+						},
+						{
+							"key": "crypto",
+							"label": "Crypto"
+						}
 					]
 				},
-				{ "key": "ai-research", "label": "AI researchers" },
-				{ "key": "investors", "label": "Investors & VCs" },
-				{ "key": "engineers", "label": "Engineers & inventors" },
-				{ "key": "game-makers", "label": "Game makers" }
+				{
+					"key": "ai-research",
+					"label": "AI researchers"
+				},
+				{
+					"key": "investors",
+					"label": "Investors & VCs"
+				},
+				{
+					"key": "engineers",
+					"label": "Engineers & inventors"
+				},
+				{
+					"key": "game-makers",
+					"label": "Game makers"
+				}
 			]
 		},
 		{
 			"key": "business",
 			"label": "Business & Money",
 			"shortLabel": "Business",
+			"page": "business",
 			"accent": "#34d399",
 			"description": "Non-tech companies, finance and the people who sell business know-how.",
 			"niches": [
-				{ "key": "founders", "label": "Founders & operators" },
-				{ "key": "executives", "label": "Executives" },
-				{ "key": "finance", "label": "Investors & finance" },
-				{ "key": "moguls", "label": "Moguls" },
-				{ "key": "business-creators", "label": "Business creators" }
+				{
+					"key": "founders",
+					"label": "Founders & operators"
+				},
+				{
+					"key": "executives",
+					"label": "Executives"
+				},
+				{
+					"key": "finance",
+					"label": "Investors & finance"
+				},
+				{
+					"key": "moguls",
+					"label": "Moguls"
+				},
+				{
+					"key": "business-creators",
+					"label": "Business creators"
+				}
 			]
 		},
 		{
 			"key": "politics",
 			"label": "Politics & Government",
 			"shortLabel": "Politics",
+			"page": "politics-public",
 			"accent": "#fb7185",
 			"description": "People who held or chased power, the courts, causes, and the families of political leaders.",
 			"niches": [
@@ -168,116 +371,266 @@
 					"key": "leaders",
 					"label": "Presidents & rulers",
 					"subs": [
-						{ "key": "us-presidents", "label": "U.S. presidents" },
-						{ "key": "world-leaders", "label": "World leaders" },
-						{ "key": "monarchs", "label": "Kings, queens & emperors" }
+						{
+							"key": "us-presidents",
+							"label": "U.S. presidents"
+						},
+						{
+							"key": "world-leaders",
+							"label": "World leaders"
+						},
+						{
+							"key": "monarchs",
+							"label": "Kings, queens & emperors"
+						}
 					]
 				},
-				{ "key": "politicians", "label": "Politicians & officials" },
-				{ "key": "law", "label": "Judges & lawyers" },
-				{ "key": "activists", "label": "Activists & causes" },
-				{ "key": "first-families", "label": "First families" },
-				{ "key": "military", "label": "Military" },
-				{ "key": "philanthropy", "label": "Philanthropists" }
+				{
+					"key": "politicians",
+					"label": "Politicians & officials"
+				},
+				{
+					"key": "law",
+					"label": "Judges & lawyers"
+				},
+				{
+					"key": "activists",
+					"label": "Activists & causes"
+				},
+				{
+					"key": "first-families",
+					"label": "First families"
+				},
+				{
+					"key": "military",
+					"label": "Military"
+				},
+				{
+					"key": "philanthropy",
+					"label": "Philanthropists"
+				}
 			]
 		},
 		{
 			"key": "famous",
 			"label": "Royals, Famous Families & Reality",
 			"shortLabel": "Royals & Reality",
+			"page": "royals-reality",
 			"accent": "#e879f9",
 			"description": "People famous for who they are: royals, famous families, reality stars and socialites.",
 			"niches": [
-				{ "key": "royals", "label": "Royals" },
-				{ "key": "famous-families", "label": "Famous families" },
-				{ "key": "reality-tv", "label": "Reality TV stars" },
-				{ "key": "socialites", "label": "Socialites & personalities" }
+				{
+					"key": "royals",
+					"label": "Royals"
+				},
+				{
+					"key": "famous-families",
+					"label": "Famous families"
+				},
+				{
+					"key": "reality-tv",
+					"label": "Reality TV stars"
+				},
+				{
+					"key": "socialites",
+					"label": "Socialites & personalities"
+				}
 			]
 		},
 		{
 			"key": "ideas",
 			"label": "Ideas & Art",
 			"shortLabel": "Ideas & Art",
+			"page": "authors-thinkers",
 			"accent": "#818cf8",
 			"description": "Writers, thinkers, scientists, explorers and artists remembered for their work.",
 			"niches": [
-				{ "key": "novelists-poets", "label": "Novelists & poets" },
-				{ "key": "playwrights", "label": "Playwrights & screenwriters" },
-				{ "key": "nonfiction", "label": "Nonfiction & history" },
-				{ "key": "philosophers", "label": "Philosophers" },
+				{
+					"key": "novelists-poets",
+					"label": "Novelists & poets"
+				},
+				{
+					"key": "playwrights",
+					"label": "Playwrights & screenwriters"
+				},
+				{
+					"key": "nonfiction",
+					"label": "Nonfiction & history"
+				},
+				{
+					"key": "philosophers",
+					"label": "Philosophers"
+				},
 				{
 					"key": "scientists",
 					"label": "Scientists",
 					"subs": [
-						{ "key": "physical", "label": "Physics & math" },
-						{ "key": "life-medicine", "label": "Biology & medicine" },
-						{ "key": "social-science", "label": "Psychology & social science" },
-						{ "key": "economics", "label": "Economists" }
+						{
+							"key": "physical",
+							"label": "Physics & math"
+						},
+						{
+							"key": "life-medicine",
+							"label": "Biology & medicine"
+						},
+						{
+							"key": "social-science",
+							"label": "Psychology & social science"
+						},
+						{
+							"key": "economics",
+							"label": "Economists"
+						}
 					]
 				},
-				{ "key": "explorers", "label": "Explorers & astronauts" },
-				{ "key": "science-communicators", "label": "Science communicators" },
-				{ "key": "artists", "label": "Painters & artists" },
-				{ "key": "design", "label": "Architects & designers" },
-				{ "key": "photographers", "label": "Photographers" },
-				{ "key": "comics", "label": "Comics & manga" }
+				{
+					"key": "explorers",
+					"label": "Explorers & astronauts"
+				},
+				{
+					"key": "science-communicators",
+					"label": "Science communicators"
+				},
+				{
+					"key": "artists",
+					"label": "Painters & artists"
+				},
+				{
+					"key": "design",
+					"label": "Architects & designers"
+				},
+				{
+					"key": "photographers",
+					"label": "Photographers"
+				},
+				{
+					"key": "comics",
+					"label": "Comics & manga"
+				}
 			]
 		},
 		{
 			"key": "style",
 			"label": "Style, Food & Home",
 			"shortLabel": "Style & Food",
+			"page": "fashion",
 			"accent": "#bef264",
 			"description": "Fashion, beauty, food and home: models, designers, editors, chefs and lifestyle brands.",
 			"niches": [
-				{ "key": "models", "label": "Models" },
-				{ "key": "fashion-designers", "label": "Fashion designers" },
-				{ "key": "editors", "label": "Fashion editors" },
-				{ "key": "beauty", "label": "Beauty brands" },
-				{ "key": "luxury", "label": "Luxury houses" },
-				{ "key": "chefs", "label": "Chefs & food TV" },
-				{ "key": "food-creators", "label": "Food creators & critics" },
-				{ "key": "home", "label": "Home & lifestyle" }
+				{
+					"key": "models",
+					"label": "Models"
+				},
+				{
+					"key": "fashion-designers",
+					"label": "Fashion designers"
+				},
+				{
+					"key": "editors",
+					"label": "Fashion editors"
+				},
+				{
+					"key": "beauty",
+					"label": "Beauty brands"
+				},
+				{
+					"key": "luxury",
+					"label": "Luxury houses"
+				},
+				{
+					"key": "chefs",
+					"label": "Chefs & food TV"
+				},
+				{
+					"key": "food-creators",
+					"label": "Food creators & critics"
+				},
+				{
+					"key": "home",
+					"label": "Home & lifestyle"
+				}
 			]
 		},
 		{
 			"key": "self-help",
 			"label": "Self-Help & Wellness",
 			"shortLabel": "Self-Help",
+			"page": "self-help",
 			"accent": "#88f9c0",
 			"description": "People whose audience comes for secular advice on living: motivation, health, relationships, success.",
 			"niches": [
-				{ "key": "motivation", "label": "Motivation" },
-				{ "key": "health", "label": "Health & longevity" },
-				{ "key": "relationships", "label": "Relationships & emotional health" },
-				{ "key": "success", "label": "Success & strategy" },
-				{ "key": "productivity", "label": "Productivity" },
-				{ "key": "masculinity", "label": "Men's self-improvement" }
+				{
+					"key": "motivation",
+					"label": "Motivation"
+				},
+				{
+					"key": "health",
+					"label": "Health & longevity"
+				},
+				{
+					"key": "relationships",
+					"label": "Relationships & emotional health"
+				},
+				{
+					"key": "success",
+					"label": "Success & strategy"
+				},
+				{
+					"key": "productivity",
+					"label": "Productivity"
+				},
+				{
+					"key": "masculinity",
+					"label": "Men's self-improvement"
+				}
 			]
 		},
 		{
 			"key": "faith",
 			"label": "Faith & Spirituality",
 			"shortLabel": "Faith",
+			"page": "faith-spirituality",
 			"accent": "#fde68a",
 			"description": "Religious leaders, saints and founders, and spiritual teachers.",
 			"niches": [
-				{ "key": "religious-leaders", "label": "Religious leaders" },
-				{ "key": "saints-founders", "label": "Saints & founders" },
-				{ "key": "spiritual-teachers", "label": "Spiritual teachers" }
+				{
+					"key": "religious-leaders",
+					"label": "Religious leaders"
+				},
+				{
+					"key": "saints-founders",
+					"label": "Saints & founders"
+				},
+				{
+					"key": "spiritual-teachers",
+					"label": "Spiritual teachers"
+				}
 			]
 		},
 		{
 			"key": "notorious",
 			"label": "Crime & Notoriety",
 			"shortLabel": "Notorious",
+			"page": "crime-notoriety",
 			"accent": "#94a3b8",
 			"description": "People known only for crimes, cons or cults. Anyone with a real career keeps their industry.",
 			"niches": [
-				{ "key": "killers", "label": "Serial killers & murderers" },
-				{ "key": "crime-bosses", "label": "Mobsters & cartels" },
-				{ "key": "con-artists", "label": "Con artists & fraudsters" },
-				{ "key": "cult-leaders", "label": "Cult leaders" }
+				{
+					"key": "killers",
+					"label": "Serial killers & murderers"
+				},
+				{
+					"key": "crime-bosses",
+					"label": "Mobsters & cartels"
+				},
+				{
+					"key": "con-artists",
+					"label": "Con artists & fraudsters"
+				},
+				{
+					"key": "cult-leaders",
+					"label": "Cult leaders"
+				}
 			]
 		}
 	],

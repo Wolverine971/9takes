@@ -1,361 +1,126 @@
 // src/lib/server/personalityCategoryData.spec.ts
 import { describe, expect, it } from 'vitest';
 
+import snapshot from '$lib/generated/personalitySimilaritySnapshot.json';
+import { famousTypes } from '$lib/components/molecules/famousTypes';
+import { getPersonClassification } from '$lib/peopleTaxonomy';
 import {
 	getPersonalityCategoryGroups,
+	getPersonalityCategorySlugs,
+	getPrimaryPersonalityCategorySlug,
 	mapPersonalityCategoryRows,
 	type PersonalityCategoryPerson,
 	type PersonalityCategoryRow
 } from './personalityCategoryData';
 
-function makePerson(
-	slug: string,
-	types: string[],
-	overrides: Partial<PersonalityCategoryPerson> = {}
-): PersonalityCategoryPerson {
-	const primaryCategorySlug = overrides.primaryCategorySlug ?? 'creator-media';
-	const categorySlugs = overrides.categorySlugs ?? [primaryCategorySlug];
-
+/** A person filed at `home` ("field/niche/sub"), optionally ranked by quality. */
+function makePerson(slug: string, home: string, quality = 8): PersonalityCategoryPerson {
 	return {
 		slug,
-		name: slug.split('-').join(' '),
+		name: slug,
 		enneagram: '3',
-		title: `${slug} title`,
-		description: `${slug} description`,
+		title: null,
+		description: null,
 		personaTitle: null,
 		lastmod: '2026-03-01',
 		date: '2026-02-01',
-		types,
-		categorySlugs,
-		primaryCategorySlug,
-		contentQualityScore: 8,
-		...overrides
+		types: [],
+		categorySlugs: [],
+		primaryCategorySlug: null,
+		contentQualityScore: quality,
+		home: home ? home.split('/') : null,
+		born: null
 	};
 }
 
+const lanesOf = (groups: ReturnType<typeof getPersonalityCategoryGroups>) =>
+	groups.map((group) => [group.label, group.people.map((person) => person.slug)]);
+
 describe('getPersonalityCategoryGroups', () => {
-	it('clusters creator-media people into curated subgroups', () => {
-		const groups = getPersonalityCategoryGroups('creator-media', [
-			makePerson('Joe-Rogan', ['creator'], { contentQualityScore: 9 }),
-			makePerson('Hasan-Piker', ['creator']),
-			makePerson('Tony-Robbins', ['creator', 'entrepreneur']),
-			makePerson('Kai-Cenat', ['creator']),
-			makePerson('Mr-Beast', ['creator']),
-			makePerson('Kylie-Jenner', ['lifestyleInfluencer']),
-			makePerson('Unknown-Creator', ['creator'])
-		]);
-
-		expect(groups.map((group) => group.slug)).toEqual([
-			'podcasters-interviewers',
-			'news-commentary',
-			'business-self-improvement',
-			'streamers-live',
-			'viral-entertainers',
-			'lifestyle-brand-builders',
-			'other-internet-personalities'
-		]);
-
-		expect(groups.find((group) => group.slug === 'podcasters-interviewers')?.people[0]?.slug).toBe(
-			'Joe-Rogan'
-		);
-		expect(groups.find((group) => group.slug === 'news-commentary')?.people[0]?.slug).toBe(
-			'Hasan-Piker'
-		);
-		expect(
-			groups.find((group) => group.slug === 'business-self-improvement')?.people[0]?.slug
-		).toBe('Tony-Robbins');
-		expect(groups.find((group) => group.slug === 'streamers-live')?.people[0]?.slug).toBe(
-			'Kai-Cenat'
-		);
-		expect(groups.find((group) => group.slug === 'viral-entertainers')?.people[0]?.slug).toBe(
-			'Mr-Beast'
-		);
-		expect(groups.find((group) => group.slug === 'lifestyle-brand-builders')?.people[0]?.slug).toBe(
-			'Kylie-Jenner'
-		);
-		expect(
-			groups.find((group) => group.slug === 'other-internet-personalities')?.people[0]?.slug
-		).toBe('Unknown-Creator');
-	});
-
-	it('lists additional podcast hosts without counting their portrait twice', () => {
-		const host = makePerson('host', ['creator', 'podcaster']);
-		const educator = makePerson('educator', ['creator', 'educational-youtuber', 'podcaster']);
-		const groups = getPersonalityCategoryGroups('creator-media', [host, educator], {
-			includeSecondary: true
-		});
-		const podcasts = groups.find((lane) => lane.slug === 'podcasters-interviewers');
-		expect(podcasts?.people).toEqual([host]);
-		expect(podcasts?.alsoInLane).toEqual([{ slug: educator.slug, name: educator.name }]);
-		expect(groups.flatMap((lane) => lane.people)).toHaveLength(2);
-	});
-
-	it('clusters film-tv people into screen-specific sections', () => {
-		const groups = getPersonalityCategoryGroups('film-tv', [
-			makePerson('Amy-Poehler', ['comedian', 'celebrity', 'movieStar'], {
-				categorySlugs: ['film-tv'],
-				primaryCategorySlug: 'film-tv'
-			}),
-			makePerson('Zendaya', ['newMovieStar', 'movieStar'], {
-				categorySlugs: ['film-tv'],
-				primaryCategorySlug: 'film-tv'
-			}),
-			makePerson('Natalie-Portman', ['movieStar'], {
-				categorySlugs: ['film-tv'],
-				primaryCategorySlug: 'film-tv'
-			}),
-			makePerson('Kim-Kardashian', ['celebrity'], {
-				categorySlugs: ['film-tv'],
-				primaryCategorySlug: 'film-tv'
-			})
-		]);
-
-		expect(groups.map((group) => group.slug)).toEqual([
-			'tv-comedy-crossovers',
-			'rising-stars-franchise-leads',
-			'screen-icons-leading-actors',
-			'celebrity-image-public-fascination'
-		]);
-	});
-
-	it('clusters music people into genre and crossover sections', () => {
-		const groups = getPersonalityCategoryGroups('music', [
-			makePerson('Taylor-Swift', ['musician'], {
-				categorySlugs: ['music'],
-				primaryCategorySlug: 'music'
-			}),
-			makePerson('Travis-Scott', ['musician'], {
-				categorySlugs: ['music'],
-				primaryCategorySlug: 'music'
-			}),
-			makePerson('Grimes', ['musician'], {
-				categorySlugs: ['music'],
-				primaryCategorySlug: 'music'
-			}),
-			makePerson('John-Mayer', ['musician'], {
-				categorySlugs: ['music'],
-				primaryCategorySlug: 'music'
-			}),
-			makePerson('Jack-Black', ['comedian', 'musician'], {
-				categorySlugs: ['music'],
-				primaryCategorySlug: 'music'
-			})
-		]);
-
-		expect(groups.map((group) => group.slug)).toEqual([
-			'pop-stars-hitmakers',
-			'rappers-genre-disruptors',
-			'alternative-art-pop-voices',
-			'singer-songwriters-roots',
-			'crossovers-multi-hyphenates'
-		]);
-	});
-
-	it('assigns reviewed music roles without inferring a crossover from fame or a platform', () => {
-		const groups = getPersonalityCategoryGroups('music', [
-			makePerson('Ice-Spice', ['musician', 'celebrity', 'rapper']),
-			makePerson('Dua-Lipa', ['musician', 'dance-pop']),
-			makePerson('Teyana-Taylor', ['musician', 'movieStar', 'rnb-artist']),
-			makePerson('Kacey-Musgraves', ['musician', 'country-artist']),
-			makePerson('Rick-Rubin', ['musician', 'creator', 'record-producer']),
-			makePerson('Unclassified-Artist', ['musician', 'celebrity', 'creator'])
-		]);
-		const lanes = Object.fromEntries(groups.map((group) => [group.people[0].slug, group.label]));
-
-		expect(lanes).toEqual({
-			'Ice-Spice': 'Hip-hop & rap',
-			'Dua-Lipa': 'Dance-pop',
-			'Teyana-Taylor': 'R&B & soul',
-			'Kacey-Musgraves': 'Country & Americana',
-			'Rick-Rubin': 'Record producers',
-			'Unclassified-Artist': 'Other Music Personalities'
-		});
-	});
-
-	it('clusters politics people across modern, historical, activist, royal, spouse, and cultural lanes', () => {
-		const groups = getPersonalityCategoryGroups('politics-public', [
-			makePerson('Joe-Biden', ['politician'], {
-				categorySlugs: ['politics-public'],
-				primaryCategorySlug: 'politics-public'
-			}),
-			makePerson('Napoleon-Bonaparte', ['historical'], {
-				categorySlugs: ['politics-public'],
-				primaryCategorySlug: 'politics-public'
-			}),
-			makePerson('Greta-Thunberg', ['activist'], {
-				categorySlugs: ['politics-public'],
-				primaryCategorySlug: 'politics-public'
-			}),
-			makePerson('Princess-Diana', ['historical', 'politician'], {
-				categorySlugs: ['politics-public'],
-				primaryCategorySlug: 'politics-public'
-			}),
-			makePerson('Michelle-Obama', ['politician'], {
-				categorySlugs: ['politics-public'],
-				primaryCategorySlug: 'politics-public'
-			}),
-			makePerson('Alexandria-Ocasio-Cortez', ['politician'], {
-				categorySlugs: ['politics-public'],
-				primaryCategorySlug: 'politics-public'
-			}),
-			makePerson('Albert-Einstein', ['historical'], {
-				categorySlugs: ['politics-public'],
-				primaryCategorySlug: 'politics-public'
-			}),
-			makePerson('Vincent-Van-Gogh', ['historical'], {
-				categorySlugs: ['politics-public'],
-				primaryCategorySlug: 'politics-public'
-			})
-		]);
-
-		expect(groups.map((group) => group.slug)).toEqual([
-			'modern-heads-of-state-world-leaders',
-			'historical-leaders-power-holders',
-			'activists-movement-leaders',
-			'royalty-symbolic-public-duty',
-			'first-ladies-political-spouses',
-			'campaign-politicians-public-persuaders',
-			'historical-scientists-thinkers',
-			'historical-artists-writers'
-		]);
-
-		expect(
-			groups.find((group) => group.slug === 'modern-heads-of-state-world-leaders')?.people[0]?.slug
-		).toBe('Joe-Biden');
-		expect(
-			groups.find((group) => group.slug === 'historical-leaders-power-holders')?.people[0]?.slug
-		).toBe('Napoleon-Bonaparte');
-		expect(
-			groups.find((group) => group.slug === 'royalty-symbolic-public-duty')?.people[0]?.slug
-		).toBe('Princess-Diana');
-		expect(
-			groups.find((group) => group.slug === 'first-ladies-political-spouses')?.people[0]?.slug
-		).toBe('Michelle-Obama');
-		expect(
-			groups.find((group) => group.slug === 'historical-scientists-thinkers')?.people[0]?.slug
-		).toBe('Albert-Einstein');
-		expect(
-			groups.find((group) => group.slug === 'historical-artists-writers')?.people[0]?.slug
-		).toBe('Vincent-Van-Gogh');
-	});
-
-	it('clusters tech-business people into builder, investor, and interpreter lanes', () => {
-		const groups = getPersonalityCategoryGroups('tech-business', [
-			makePerson('Elon-Musk', ['techie'], {
-				categorySlugs: ['tech-business'],
-				primaryCategorySlug: 'tech-business'
-			}),
-			makePerson('Peter-Thiel', ['techie'], {
-				categorySlugs: ['tech-business'],
-				primaryCategorySlug: 'tech-business'
-			}),
-			makePerson('Sam-Altman', ['techie', 'entrepreneur'], {
-				categorySlugs: ['tech-business'],
-				primaryCategorySlug: 'tech-business'
-			}),
-			makePerson('Alex-Hormozi', ['entrepreneur'], {
-				categorySlugs: ['tech-business'],
-				primaryCategorySlug: 'tech-business'
-			}),
-			makePerson('Kara-Swisher', ['techie', 'author'], {
-				categorySlugs: ['tech-business'],
-				primaryCategorySlug: 'tech-business'
-			})
-		]);
-
-		expect(groups.map((group) => group.slug)).toEqual([
-			'big-tech-founders-ceos',
-			'investors-strategists-power-brokers',
-			'frontier-builders-ai-defense',
-			'operators-business-builders',
-			'tech-media-interpreters'
-		]);
-	});
-
-	it('clusters comedy people into stand-up, sketch, satire, and internet lanes', () => {
+	it('opens a niche with 3+ people, in taxonomy order, and pools the rest', () => {
 		const groups = getPersonalityCategoryGroups('comedy', [
-			makePerson('Dave-Chappelle', ['comedian'], {
-				categorySlugs: ['comedy'],
-				primaryCategorySlug: 'comedy'
-			}),
-			makePerson('Amy-Poehler', ['comedian'], {
-				categorySlugs: ['comedy'],
-				primaryCategorySlug: 'comedy'
-			}),
-			makePerson('Jon-Stewart', ['comedian'], {
-				categorySlugs: ['comedy'],
-				primaryCategorySlug: 'comedy'
-			}),
-			makePerson('Druski', ['comedian', 'creator'], {
-				categorySlugs: ['comedy'],
-				primaryCategorySlug: 'comedy'
-			})
+			makePerson('a', 'comedy/late-night', 9),
+			makePerson('b', 'comedy/stand-up'),
+			makePerson('c', 'comedy/late-night'),
+			makePerson('d', 'comedy/stand-up'),
+			makePerson('e', 'comedy/stand-up'),
+			makePerson('f', 'comedy/late-night'),
+			makePerson('g', 'comedy/internet-comedy')
 		]);
-
-		expect(groups.map((group) => group.slug)).toEqual([
-			'stand-up-headliners',
-			'sketch-tv-character-comics',
-			'satire-hosts-political-comedy',
-			'internet-podcast-comics'
+		expect(lanesOf(groups)).toEqual([
+			['Stand-up', ['b', 'd', 'e']],
+			['Late night & satire', ['a', 'c', 'f']],
+			['More Comedy', ['g']]
 		]);
 	});
 
-	it('places people via cluster tags in the type array (frontmatter-driven path)', () => {
-		// Person whose slug is unknown to every hardcoded slug set, but whose
-		// type array contains an explicit cluster tag. They should still land
-		// in the right cluster.
-		const groups = getPersonalityCategoryGroups('film-tv', [
-			makePerson('Brand-New-Actor', ['movieStar', 'screen-icon'], {
-				categorySlugs: ['film-tv'],
-				primaryCategorySlug: 'film-tv'
-			}),
-			makePerson('Some-Newcomer', ['newMovieStar', 'rising-star'], {
-				categorySlugs: ['film-tv'],
-				primaryCategorySlug: 'film-tv'
-			})
+	it('splits a sub-niche out of its niche once it has 3+ people', () => {
+		const groups = getPersonalityCategoryGroups('politics-public', [
+			makePerson('a', 'politics/leaders/us-presidents'),
+			makePerson('b', 'politics/leaders/us-presidents'),
+			makePerson('c', 'politics/leaders/us-presidents'),
+			makePerson('d', 'politics/leaders/monarchs'),
+			makePerson('e', 'politics/activists')
 		]);
-
-		expect(groups.find((g) => g.slug === 'screen-icons-leading-actors')?.people[0]?.slug).toBe(
-			'Brand-New-Actor'
-		);
-		expect(groups.find((g) => g.slug === 'rising-stars-franchise-leads')?.people[0]?.slug).toBe(
-			'Some-Newcomer'
-		);
-
-		// Cluster tag should override expected default placement. Without the
-		// 'tv-comedy-crossover' tag, a plain ['movieStar'] would go to screen-icons.
-		const overrideGroups = getPersonalityCategoryGroups('film-tv', [
-			makePerson('Plain-Actor', ['movieStar', 'tv-comedy-crossover'], {
-				categorySlugs: ['film-tv'],
-				primaryCategorySlug: 'film-tv'
-			})
+		expect(lanesOf(groups)).toEqual([
+			['U.S. presidents', ['a', 'b', 'c']],
+			['More Politics', ['d', 'e']]
 		]);
-		expect(overrideGroups.find((g) => g.slug === 'tv-comedy-crossovers')?.people[0]?.slug).toBe(
-			'Plain-Actor'
-		);
 	});
 
-	it('clusters authors-thinkers people into author and interpreter lanes', () => {
-		const groups = getPersonalityCategoryGroups('authors-thinkers', [
-			makePerson('J.K.-Rowling', ['author'], {
-				categorySlugs: ['authors-thinkers'],
-				primaryCategorySlug: 'authors-thinkers'
-			}),
-			makePerson('Jordan-Peterson', ['psychology'], {
-				categorySlugs: ['authors-thinkers'],
-				primaryCategorySlug: 'authors-thinkers'
-			}),
-			makePerson('Kara-Swisher', ['author', 'techie'], {
-				categorySlugs: ['authors-thinkers'],
-				primaryCategorySlug: 'authors-thinkers'
-			})
+	it('names a field with no shared niche after the field itself', () => {
+		const groups = getPersonalityCategoryGroups('faith-spirituality', [
+			makePerson('a', 'faith/saints-founders')
 		]);
+		expect(lanesOf(groups)).toEqual([['Faith & Spirituality', ['a']]]);
+	});
 
-		expect(groups.map((group) => group.slug)).toEqual([
-			'novelists-world-builders',
-			'strategy-psychology-writers',
-			'business-media-interpreters'
+	it('lists second careers last, only on the full category page', () => {
+		const people = [
+			makePerson('a', 'sports/golf'),
+			makePerson('b', 'sports/golf'),
+			makePerson('c', 'sports/golf'),
+			makePerson('rock', 'screen/actors')
+		];
+		expect(lanesOf(getPersonalityCategoryGroups('sports', people))).toEqual([
+			['Golf', ['a', 'b', 'c']]
 		]);
+		expect(
+			lanesOf(getPersonalityCategoryGroups('sports', people, { includeSecondary: true }))
+		).toEqual([
+			['Golf', ['a', 'b', 'c']],
+			['Also in Sports', ['rock']]
+		]);
+	});
+});
+
+describe('category membership (v3 labels)', () => {
+	const published = (snapshot as { person: string }[]).map((row) => row.person);
+
+	it('puts every published person on their home field page first', () => {
+		for (const slug of published) {
+			const home = getPrimaryPersonalityCategorySlug(slug);
+			expect(home, slug).not.toBeNull();
+			expect(getPersonalityCategorySlugs(slug)[0], slug).toBe(home);
+		}
+	});
+
+	it.each([
+		['dwayne-johnson', 'film-tv', 'sports'],
+		['anna-wintour', 'fashion', null],
+		['stephen-colbert', 'comedy', null],
+		['joe-rogan', 'hosts-media', null]
+	])('%s lives on %s', (slug, home, also) => {
+		expect(getPrimaryPersonalityCategorySlug(slug)).toBe(home);
+		if (also) expect(getPersonalityCategorySlugs(slug)).toContain(also);
+	});
+
+	it('keeps the baked field in famousTypes.ts in step with the labels', () => {
+		for (const person of Object.values(famousTypes).flat()) {
+			expect(person.field, `${person.name}: run pnpm gen:famous-types`).toBe(
+				getPersonClassification(person.name)?.home?.[0] ?? null
+			);
+		}
 	});
 });
 

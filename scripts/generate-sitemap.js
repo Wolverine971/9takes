@@ -9,7 +9,8 @@ import pkg from 'fast-glob';
 import dotenv from 'dotenv';
 import matter from 'gray-matter';
 import reviewedTypes from '../src/lib/generated/reviewedPersonTypes.json' with { type: 'json' };
-import { CLUSTER_FIELDS } from '../src/lib/personClusterTags.js';
+import peopleTaxonomy from '../src/lib/data/peopleTaxonomy.json' with { type: 'json' };
+import personClassifications from '../src/lib/data/personClassifications.json' with { type: 'json' };
 import {
 	buildPersonalityImagePath,
 	normalizePersonalityAnalysisUrl,
@@ -79,10 +80,14 @@ const ENNEAGRAM_SUBTOPIC_SLUGS = [
 	'situational'
 ];
 
+// One category page per v3 taxonomy field (src/lib/personalityCategories.ts). A person is on a
+// page through their home field or a second career. 'tech-business' is the legacy combined page.
 const PERSONALITY_CATEGORY_DEFINITIONS = [
-	...CLUSTER_FIELDS.map(({ field, rawTypes }) => ({ slug: field, rawTypes })),
-	{ slug: 'tech-business', rawTypes: ['techie', 'entrepreneur', 'business', 'investor'] }
+	...peopleTaxonomy.fields.map(({ key, page }) => ({ slug: page, fields: [key] })),
+	{ slug: 'tech-business', fields: ['tech', 'business'] }
 ];
+// Mirrors MIN_CATEGORY_PEOPLE: thinner pages are noindex, so they stay out of the sitemap.
+const MIN_CATEGORY_PEOPLE = 3;
 
 const ROUTE_FILES = {
 	home: ['src/routes/+page.svelte', 'src/routes/+page.server.ts', 'src/routes/+page.ts'],
@@ -240,14 +245,18 @@ function getPrimaryPostType(value) {
 }
 
 /**
- * @param {unknown} value
+ * @param {unknown} personSlug
  * @returns {string[]}
  */
-function getPersonalityCategorySlugs(value) {
-	const typeKeys = new Set(normalizeTypeList(value).map((type) => normalizeTypeKey(type)));
-
+function getPersonalityCategorySlugs(personSlug) {
+	const label =
+		/** @type {Record<string, { home: string[] | null, also: { path: string[] }[] }>} */ (
+			personClassifications
+		)[normalizePersonalitySlug(String(personSlug ?? ''))];
+	if (!label) return [];
+	const fields = new Set([label.home?.[0], ...label.also.map(({ path }) => path[0])]);
 	return PERSONALITY_CATEGORY_DEFINITIONS.filter((category) =>
-		category.rawTypes.some((rawType) => typeKeys.has(normalizeTypeKey(rawType)))
+		category.fields.some((field) => fields.has(field))
 	).map((category) => category.slug);
 }
 
@@ -390,7 +399,7 @@ function isPersonalityTypePost(person, enneagram) {
  * @returns {boolean}
  */
 function isPersonalityCategoryPost(person, categorySlug) {
-	return getPersonalityCategorySlugs(person.type).includes(categorySlug);
+	return getPersonalityCategorySlugs(person.slug).includes(categorySlug);
 }
 
 /**
@@ -577,7 +586,11 @@ export function buildStaticPages({ posts, peoplePosts, questions }) {
 				siteFallbackLastmod
 			})
 		},
-		...PERSONALITY_CATEGORY_DEFINITIONS.map((category) => ({
+		...PERSONALITY_CATEGORY_DEFINITIONS.filter(
+			(category) =>
+				peoplePosts.filter((person) => isPersonalityCategoryPost(person, category.slug)).length >=
+				MIN_CATEGORY_PEOPLE
+		).map((category) => ({
 			loc: `${SITE_URL}/personality-analysis/categories/${category.slug}`,
 			lastmod: resolveStaticLastmod({
 				contentDates: [

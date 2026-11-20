@@ -7,58 +7,6 @@ import {
 	getPrimaryField,
 	isClusterTag
 } from './personClusterTags.js';
-import { PERSONALITY_CATEGORY_DEFINITIONS } from './personalityCategories';
-import {
-	getPersonalityCategoryGroups,
-	type PersonalityCategoryPerson
-} from './server/personalityCategoryData';
-
-function candidate(slug: string, types: string[]): PersonalityCategoryPerson {
-	return {
-		slug,
-		name: slug,
-		enneagram: null,
-		title: null,
-		description: null,
-		personaTitle: null,
-		lastmod: null,
-		date: null,
-		types,
-		categorySlugs: [],
-		primaryCategorySlug: null,
-		contentQualityScore: null
-	};
-}
-
-describe('cluster tag catalog stays in step with the site', () => {
-	it('lists the same fields, raw types and exclusions as the category definitions', () => {
-		expect(
-			CLUSTER_FIELDS.map(({ field, rawTypes, excludeSlugs }) => ({ field, rawTypes, excludeSlugs }))
-		).toEqual(
-			PERSONALITY_CATEGORY_DEFINITIONS.map(({ slug, rawTypes, excludeSlugs }) => ({
-				field: slug,
-				rawTypes,
-				excludeSlugs: excludeSlugs ?? []
-			}))
-		);
-	});
-
-	it('routes every tag to its own lane and covers every lane', () => {
-		for (const { field, rawTypes, tags } of CLUSTER_FIELDS) {
-			// The most generic raw type, so broad fallbacks can't pick the lane for us.
-			const people = tags.map(({ tag }) => candidate(`probe-${tag}`, [rawTypes[0], tag]));
-			const lanes = getPersonalityCategoryGroups(
-				field as Parameters<typeof getPersonalityCategoryGroups>[0],
-				people
-			);
-			for (const { tag, lane } of tags) {
-				const landed = lanes.find((group) => group.people.some((p) => p.slug === `probe-${tag}`));
-				expect(landed?.slug, `${field}: ${tag}`).toBe(lane);
-			}
-			expect(lanes.filter((group) => !group.slug.startsWith('other-'))).toHaveLength(tags.length);
-		}
-	});
-});
 
 describe('primary field and missing tags', () => {
 	it('files people the way the type hub does', () => {

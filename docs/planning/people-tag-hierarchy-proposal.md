@@ -51,6 +51,11 @@ Max three levels. Niches name what someone does inside the field (genre, sport, 
 
 The 469 current labels are an agent draft (`source: "agent-draft"`). Breakout years are unverified, and 8 people are low confidence: adela, ashby, carina-zavline, dhar-mann, ella-beatty, hailey-bieber, inde-navarrette, stella-lefty.
 
-## Not migrated yet
+## Where the labels show up
 
-The category hub pages (`/personality-analysis/categories/*`) and the `FamousTypes` widget still use the old lane tags (`personClusterTags.js`, `personNiches.ts`). They should move to v3 next. Not built yet: the birth-year timeline and public collection pages.
+- **Type pages** (`/personality-analysis/type/N`): the field map (rules above), plus a Map | Timeline switch. The timeline groups everyone by generation, oldest on the left, each group spanning its oldest to youngest birth year (`src/lib/peopleTimeline.ts`, `PeopleTimeline.svelte`).
+- **Category pages** (`/personality-analysis/categories/<page>`): one per field, with the URL stored as `page` in `peopleTaxonomy.json`. Existing URLs kept their fields: `film-tv` = Film, TV & Stage, `fashion` = Style, Food & Home, `authors-thinkers` = Ideas & Art, `creator-media` = Internet Creators, `politics-public` = Politics & Government. New pages: `hosts-media`, `sports`, `royals-reality`, `self-help`, `faith-spirituality`, `crime-notoriety`. A page holds everyone filed there plus "Also in" second careers. Groups are niches with 3+ people, sub-niches split out at 3+, groups over 24 split by generation, and the rest pool into "More …". Each page has a birth-year timeline. Under 3 people, a page is noindex and stays out of the listing and sitemap; with 0 people it returns a 404 (Crime & Notoriety until its first profile).
+- **Famous-people lists in the Type 1–9 articles** (`FamousTypes`): grouped by home field. The field is written into `famousTypes.ts` by `pnpm gen:famous-types`, so browsers never load the 170KB labels file. A unit test fails if they drift.
+- **Sitemap and corpus stats** (`generate-sitemap.js`, `generate-corpus-stats.js`) use the same membership.
+
+Still on the old DB `type` tags: similar-people ranking on profiles (`personalitySimilarity.ts`) and the cluster-tag audit scripts.

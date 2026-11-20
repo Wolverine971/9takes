@@ -15,7 +15,8 @@ import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
 import dotenv from 'dotenv';
 import reviewedTypes from '../src/lib/generated/reviewedPersonTypes.json' with { type: 'json' };
-import { CLUSTER_FIELDS } from '../src/lib/personClusterTags.js';
+import peopleTaxonomy from '../src/lib/data/peopleTaxonomy.json' with { type: 'json' };
+import personClassifications from '../src/lib/data/personClassifications.json' with { type: 'json' };
 import { normalizePersonalitySlug } from './lib/personalitySeo.js';
 
 dotenv.config();
@@ -53,42 +54,29 @@ if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-// Domain buckets — MUST stay in sync with PERSONALITY_CATEGORY_DEFINITIONS
-// in src/lib/personalityCategories.ts. Each entry maps to a live page at
-// /personality-analysis/categories/{slug}, which the /corpus-stats page
-// links to. If you add / rename a category on the site, update this list
-// and regenerate. Only domains with ≥ MIN_DOMAIN_SIZE profiles are
-// reported to avoid small-sample noise.
-const DOMAIN_LABELS = {
-	'film-tv': 'Film & TV',
-	'creator-media': 'Creators & Internet Personalities',
-	music: 'Musicians & Artists',
-	'politics-public': 'Politics & Public Figures',
-	technology: 'Technology',
-	business: 'Business & Entrepreneurship',
-	fashion: 'Fashion, Beauty & Luxury',
-	comedy: 'Comedians',
-	'authors-thinkers': 'Authors & Thinkers'
-};
-const DOMAIN_MAP = CLUSTER_FIELDS.map(({ field, rawTypes, excludeSlugs }) => ({
-	slug: field,
-	label: DOMAIN_LABELS[field],
-	rawTypes,
-	excludeSlugs: excludeSlugs.map(normalizePersonalitySlug)
+// Domain buckets = the category pages: one per v3 taxonomy field
+// (src/lib/data/peopleTaxonomy.json), with the same membership rule as the page: a person's
+// home field plus their second careers (src/lib/data/personClassifications.json). Only
+// domains with ≥ MIN_DOMAIN_SIZE profiles are reported to avoid small-sample noise.
+const DOMAIN_MAP = peopleTaxonomy.fields.map(({ key, label, page }) => ({
+	slug: page,
+	label,
+	fields: [key]
 }));
 // The combined dataset is cited by existing pages. Keep its totals available,
-// while the per-type rankings use the individual occupations.
+// while the per-type rankings use the individual fields.
 const COMBINED_DOMAIN = {
 	slug: 'tech-business',
 	label: 'Tech, Founders & Business',
-	rawTypes: ['techie', 'business', 'entrepreneur', 'investor'],
-	excludeSlugs: []
+	fields: ['tech', 'business']
 };
+function fieldsOf(row) {
+	const label = personClassifications[normalizePersonalitySlug(row.person)];
+	if (!label) return [];
+	return [label.home?.[0], ...label.also.map(({ path }) => path[0])].filter(Boolean);
+}
 function inDomain(row, domain) {
-	return (
-		!domain.excludeSlugs.includes(normalizePersonalitySlug(row.person)) &&
-		row.types.some((type) => domain.rawTypes.includes(type))
-	);
+	return fieldsOf(row).some((field) => domain.fields.includes(field));
 }
 const CATEGORY_URL = (slug) => `/personality-analysis/categories/${slug}`;
 const MIN_DOMAIN_SIZE = 10;
@@ -209,7 +197,7 @@ function joinList(items) {
 function buildDomainStats(published, baselineShares) {
 	const domains = {};
 	for (const domain of [...DOMAIN_MAP, COMBINED_DOMAIN]) {
-		const { slug, label, rawTypes } = domain;
+		const { slug, label, fields } = domain;
 		const matches = published.filter((row) => inDomain(row, domain));
 		if (matches.length < MIN_DOMAIN_SIZE) continue;
 
@@ -227,7 +215,8 @@ function buildDomainStats(published, baselineShares) {
 			slug,
 			label,
 			url: CATEGORY_URL(slug),
-			raw_labels: rawTypes,
+			// v3 taxonomy field keys (kept under the old key the site reads).
+			raw_labels: fields,
 			total: matches.length,
 			counts_by_type: counts,
 			share_by_type: Object.fromEntries(Object.entries(shares).map(([k, v]) => [k, round(v, 4)])),

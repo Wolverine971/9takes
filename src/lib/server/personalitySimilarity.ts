@@ -1,10 +1,7 @@
 // src/lib/server/personalitySimilarity.ts
 import type { Database } from '../../../database.types';
-import {
-	getPersonalityCategorySlugs,
-	normalizePeopleTypes,
-	type PersonalityCategorySlug
-} from '$lib/personalityCategories';
+import { normalizePeopleTypes } from '$lib/peopleTypes';
+import { CLUSTER_FIELDS } from '$lib/personClusterTags.js';
 import { extractContentQualityScore } from '$lib/server/personalityCategoryData';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 
@@ -17,7 +14,8 @@ export interface PersonalitySimilarityResult {
 	row: PersonalitySimilarityRow;
 	score: number;
 	sharedTypes: string[];
-	sharedCategories: PersonalityCategorySlug[];
+	/** Legacy occupation fields (DB `type` tags) both people share. */
+	sharedCategories: string[];
 }
 
 const RAW_TYPE_WEIGHT = 12;
@@ -26,6 +24,15 @@ const BASE_ENNEAGRAM_MATCH_SCORE = 10;
 
 function normalizeTypeKey(value: string): string {
 	return value.replace(/[^a-z0-9]/gi, '').toLowerCase();
+}
+
+/** Legacy occupation fields from DB `type` tags. Similar-people scoring predates the v3
+ * taxonomy and still ranks on these, so related-people lists don't shift. */
+function legacyFields(types: string[]): string[] {
+	const keys = new Set(types.map(normalizeTypeKey));
+	return CLUSTER_FIELDS.filter(({ rawTypes }) =>
+		rawTypes.some((raw) => keys.has(normalizeTypeKey(raw)))
+	).map(({ field }) => field);
 }
 
 function getSortTimestamp(person: Pick<PersonalitySimilarityRow, 'lastmod' | 'date'>): number {
@@ -48,8 +55,8 @@ export function scorePersonalitySimilarity(
 		.filter(([normalized]) => candidateTypeKeys.has(normalized))
 		.map(([, original]) => original);
 
-	const currentCategories = getPersonalityCategorySlugs(currentTypes);
-	const candidateCategoryKeys = new Set(getPersonalityCategorySlugs(candidateTypes));
+	const currentCategories = legacyFields(currentTypes);
+	const candidateCategoryKeys = new Set(legacyFields(candidateTypes));
 	const sharedCategories = currentCategories.filter((category) =>
 		candidateCategoryKeys.has(category)
 	);

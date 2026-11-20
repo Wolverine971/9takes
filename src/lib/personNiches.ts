@@ -1,21 +1,9 @@
-import { PERSONALITY_CATEGORY_DEFINITIONS, normalizePeopleTypes } from './personalityCategories';
+// Legacy field guess from DB `type` tags. Only used for people the v3 taxonomy hasn't labeled
+// yet (see homePathFor in peopleTaxonomy.ts).
+import { normalizePeopleTypes } from './peopleTypes';
 import { CLUSTER_FIELDS } from './personClusterTags.js';
 
 export type GroupablePerson = { slug: string; type?: unknown };
-
-type GroupDefinition = { slug: string; label: string; shortLabel: string; accent: string | null };
-
-export const GROUP_DEFINITIONS: GroupDefinition[] = [
-	...PERSONALITY_CATEGORY_DEFINITIONS.map(({ slug, label, shortLabel, accent }) => ({
-		slug,
-		label,
-		shortLabel,
-		accent
-	})),
-	{ slug: 'athletes', label: 'Athletes & Sports', shortLabel: 'Athletes', accent: '#fb923c' },
-	{ slug: 'history', label: 'History-Makers', shortLabel: 'History', accent: '#c4b5fd' },
-	{ slug: 'other', label: 'Other Public Figures', shortLabel: 'Other', accent: null }
-];
 
 const key = (value: string) => value.replace(/[^a-z0-9]/gi, '').toLowerCase();
 const FIELD_BY_RAW = new Map(

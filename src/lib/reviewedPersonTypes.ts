@@ -1,5 +1,5 @@
 import reviewed from './generated/reviewedPersonTypes.json';
-import { normalizePeopleTypes } from './personalityCategories';
+import { normalizePeopleTypes } from './peopleTypes';
 import { normalizePersonalitySlug } from './utils/personalityAnalysis';
 
 export function getReviewedPersonTypes(personSlug: string | null, storedTypes: unknown): string[] {

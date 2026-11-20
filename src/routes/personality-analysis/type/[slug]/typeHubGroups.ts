@@ -8,9 +8,7 @@
 import {
 	FIELD_BY_KEY,
 	FIELD_ORDER,
-	GENERATIONS,
 	alsoFieldsFor,
-	generationOf,
 	getPersonClassification,
 	homePathFor,
 	nicheOf,
@@ -18,6 +16,7 @@ import {
 	subOf
 } from '$lib/peopleTaxonomy';
 import type { GroupablePerson } from '$lib/personNiches';
+import { bucketByGeneration, generationLabel } from '$lib/peopleTimeline';
 
 export type TypeHubLane<T> = {
 	slug: string;
@@ -74,17 +73,6 @@ type Options = {
 	place?: Placer;
 };
 
-const GENERATION_SHORT: Record<string, string> = {
-	history: 'Pre-1901',
-	greatest: 'Greatest Gen',
-	silent: 'Silent Gen',
-	boomers: 'Boomers',
-	'gen-x': 'Gen X',
-	millennials: 'Millennials',
-	'gen-z': 'Gen Z',
-	'gen-alpha': 'Gen Alpha'
-};
-
 /** Card labels for a person's second careers ("Pro wrestling", "Stand-up"). */
 export function getTypeHubRoleLabels(person: GroupablePerson): string[] {
 	const classification = getPersonClassification(person.slug);
@@ -106,51 +94,18 @@ export function splitByGeneration<T extends GroupablePerson>(
 	bornOf: (person: T) => number | null,
 	minSize: number
 ): TypeHubLane<T>[] {
-	type Bucket = { keys: string[]; people: T[] };
-	const byKey = new Map<string, T[]>();
-	const unknown: T[] = [];
-	for (const person of lane.people) {
-		const generation = generationOf(bornOf(person));
-		if (!generation) unknown.push(person);
-		else byKey.set(generation.key, [...(byKey.get(generation.key) ?? []), person]);
-	}
-	let buckets: Bucket[] = GENERATIONS.filter(({ key }) => byKey.has(key)).map(({ key }) => ({
-		keys: [key],
-		people: byKey.get(key)!
-	}));
-	if (buckets.length < 2) return [lane];
-
-	const size = (bucket: Bucket) => bucket.people.length;
-	for (;;) {
-		const small = buckets.findIndex((bucket) => size(bucket) < minSize);
-		if (small === -1 || buckets.length < 2) break;
-		const left = buckets[small - 1];
-		const right = buckets[small + 1];
-		const into = !left
-			? small + 1
-			: !right
-				? small - 1
-				: size(left) <= size(right)
-					? small - 1
-					: small + 1;
-		const [a, b] = [Math.min(small, into), Math.max(small, into)];
-		const merged = {
-			keys: [...buckets[a].keys, ...buckets[b].keys],
-			people: [...buckets[a].people, ...buckets[b].people]
-		};
-		buckets = [...buckets.slice(0, a), merged, ...buckets.slice(b + 1)];
-	}
+	const { buckets, unknown } = bucketByGeneration(lane.people, bornOf, minSize);
 	if (buckets.length < 2) return [lane];
 
 	if (unknown.length) {
-		const biggest = buckets.reduce((best, bucket) => (size(bucket) > size(best) ? bucket : best));
+		const biggest = buckets.reduce((best, bucket) =>
+			bucket.people.length > best.people.length ? bucket : best
+		);
 		biggest.people.push(...unknown);
 	}
 	const order = new Map(lane.people.map((person, index) => [person.slug, index]));
 	return buckets.map(({ keys, people }) => {
-		const first = GENERATION_SHORT[keys[0]];
-		const last = GENERATION_SHORT[keys[keys.length - 1]];
-		const generation = keys.length === 1 ? first : `${first}–${last}`;
+		const generation = generationLabel(keys);
 		return {
 			slug: `${lane.slug}-${keys.join('-')}`,
 			label: lane.label ? `${lane.label} · ${generation}` : generation,

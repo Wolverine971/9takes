@@ -2,6 +2,7 @@
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import {
+	MIN_CATEGORY_PEOPLE,
 	PERSONALITY_CATEGORY_DEFINITIONS,
 	PRIMARY_PERSONALITY_CATEGORY_SLUGS,
 	SECONDARY_PERSONALITY_CATEGORY_SLUGS,
@@ -49,6 +50,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	});
 
 	const categoryMap = new Map(categories.map((category) => [category.slug, category]));
+	// Pages with fewer than 3 people (e.g. Crime & Notoriety before its first profile) stay unlisted.
 	const isCategory = (
 		value: (typeof categories)[number] | undefined
 	): value is PersonalityCategoryDefinition & {
@@ -57,7 +59,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 		distribution: ReturnType<typeof getEnneagramDistribution>;
 		latestUpdate: string | null;
 		groups: ReturnType<typeof getPersonalityCategoryGroups>;
-	} => value !== undefined;
+	} => value !== undefined && value.count >= MIN_CATEGORY_PEOPLE;
 
 	return {
 		totalPeople: people.length,

@@ -17,6 +17,7 @@
 	} from '$lib/utils/personalityAnalysis';
 	import { portraitPhoneSrc } from '$lib/imageVariants.js';
 	import TypeVennMap from './TypeVennMap.svelte';
+	import PeopleTimeline from '$lib/components/molecules/PeopleTimeline.svelte';
 	import { untrack } from 'svelte';
 
 	let { data }: { data: PageData } = $props();
@@ -36,6 +37,15 @@
 	type PanelPerson = PageData['people'][number];
 
 	let peopleBySlug = $derived(new Map(data.people.map((person) => [person.slug, person])));
+
+	// Map (fields) or Timeline (birth years). Client-side only, so the cached HTML
+	// is the same for everyone and starts on the map.
+	let view = $state<'map' | 'timeline'>('map');
+
+	function showView(next: 'map' | 'timeline') {
+		view = next;
+		if (next === 'timeline') focusedField = null;
+	}
 
 	// The zoomed field: the map zooms in and the panel below lists who's in it.
 	let focusedField = $state<string | null>(null);
@@ -632,7 +642,7 @@
 			{/if}
 		</div>
 
-		{#if data.peopleGroups.length > 1}
+		{#if data.peopleGroups.length > 1 && view === 'map'}
 			<div class="field-nav" role="group" aria-label={`Zoom into a field of Type ${data.slug}s`}>
 				<ul>
 					{#each data.peopleGroups as group (group.slug)}
@@ -657,11 +667,36 @@
 		<section
 			class="famous-people"
 			id="type-map"
-			aria-label={`Famous Type ${data.slug}s mapped by field`}
+			aria-label={view === 'map'
+				? `Famous Type ${data.slug}s mapped by field`
+				: `Famous Type ${data.slug}s by birth year`}
 		>
 			{#if peopleCount === 0}
 				<p class="empty">More Type {data.slug} personality profiles are on the way.</p>
 			{:else}
+				<div class="view-switch" role="group" aria-label="How to show these people">
+					<button type="button" aria-pressed={view === 'map'} onclick={() => showView('map')}>
+						Map
+					</button>
+					<button
+						type="button"
+						aria-pressed={view === 'timeline'}
+						onclick={() => showView('timeline')}
+					>
+						Timeline
+					</button>
+				</div>
+			{/if}
+			{#if peopleCount > 0 && view === 'timeline'}
+				<p class="map-hint">By birth year, oldest on the left. Scroll sideways.</p>
+				<div class="timeline-bleed">
+					<PeopleTimeline
+						timeline={data.timeline}
+						ariaLabel={`Famous Type ${data.slug}s by birth year`}
+						lit={activePattern ? litSlugs : null}
+					/>
+				</div>
+			{:else if peopleCount > 0}
 				<p class="map-hint"><span class="hint-action">Tap a circle to zoom in.</span></p>
 				<div class="map map-wide">
 					<TypeVennMap
@@ -1238,6 +1273,46 @@
 	.hint-action {
 		color: var(--text-muted);
 		font-weight: 600;
+	}
+
+	.view-switch {
+		display: inline-flex;
+		gap: 0.25rem;
+		margin-top: 1.25rem;
+		padding: 0.2rem;
+		border: 1px solid var(--rule);
+		border-radius: 9999px;
+
+		button {
+			padding: 0.3rem 0.9rem;
+			font: inherit;
+			font-size: var(--font-size-sm);
+			color: var(--text-muted);
+			background: transparent;
+			border: 0;
+			border-radius: 9999px;
+			cursor: pointer;
+
+			&:hover {
+				color: var(--text);
+			}
+
+			&:focus-visible {
+				outline: 2px solid var(--focus);
+				outline-offset: 2px;
+			}
+
+			&[aria-pressed='true'] {
+				color: var(--text);
+				background: color-mix(in srgb, var(--type-accent) 20%, transparent);
+			}
+		}
+	}
+
+	/* The timeline scrolls to the screen edges; its first face still lines up with the column. */
+	.timeline-bleed {
+		--ptl-gutter: var(--hub-gutter);
+		margin-inline: calc(-1 * var(--hub-gutter));
 	}
 
 	/* One map per shape: landscape for wide screens, portrait for phones. */

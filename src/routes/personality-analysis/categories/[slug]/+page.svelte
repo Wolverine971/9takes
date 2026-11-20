@@ -5,12 +5,13 @@
 	import { ogImageUrl as brandOgImageUrl } from '$lib/brand/brandCardPresets';
 	import { SectionKicker } from '$lib/components/atoms';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
+	import PeopleTimeline from '$lib/components/molecules/PeopleTimeline.svelte';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityImagePath,
 		buildPersonalityImageUrl
 	} from '$lib/utils/personalityAnalysis';
-	import { formatPersonalityRawType, formatPersonName } from '$lib/personalityCategories';
+	import { MIN_CATEGORY_PEOPLE, formatPersonName } from '$lib/personalityCategories';
 	import {
 		CORPUS_DATASET_LICENSE,
 		CORPUS_DATA_DOWNLOAD,
@@ -50,6 +51,8 @@
 	);
 
 	const seoTitle = $derived(data.category.seoTitle);
+	// Under 3 people the page stays out of search until it fills in.
+	const thinPage = $derived(data.people.length < MIN_CATEGORY_PEOPLE);
 
 	const seoDescription = $derived(data.category.seoDescription);
 
@@ -215,7 +218,7 @@
 					'@type': 'WebPageElement',
 					'@id': `${canonicalUrl}#${group.slug}`,
 					name: group.label,
-					description: group.description,
+					...(group.description ? { description: group.description } : {}),
 					url: `${canonicalUrl}#${group.slug}`,
 					cssSelector: `#${group.slug}`
 				}))
@@ -305,6 +308,8 @@
 	title={seoTitle}
 	description={seoDescription}
 	canonical={canonicalUrl}
+	noindex={thinPage}
+	nofollow={false}
 	twitterCardType="summary_large_image"
 	ogImage={ogImageUrl}
 	ogImageWidth={ogImageSize?.width}
@@ -316,7 +321,7 @@
 		{ name: 'keywords', content: seoKeywords },
 		{
 			name: 'googlebot',
-			content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+			content: `${thinPage ? 'noindex' : 'index'}, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1`
 		}
 	]}
 />
@@ -395,8 +400,8 @@
 				{/if}
 
 				<div class="tag-row">
-					{#each data.category.rawTypes as rawType (rawType)}
-						<span class="tag-chip">{formatPersonalityRawType(rawType)}</span>
+					{#each data.nicheLabels as label (label)}
+						<span class="tag-chip">{label}</span>
 					{/each}
 				</div>
 			</div>
@@ -477,6 +482,26 @@
 			</section>
 		{/if}
 
+		{#if data.timeline.groups.length > 1}
+			<section class="section" id="timeline">
+				<div class="section-head">
+					<div>
+						<SectionKicker class="section-tag" label="TIMELINE" />
+						<h2>By Birth Year</h2>
+					</div>
+					<p class="section-copy">
+						Oldest generation on the left, youngest on the right. Scroll sideways.
+					</p>
+				</div>
+				<div class="timeline-bleed">
+					<PeopleTimeline
+						timeline={data.timeline}
+						ariaLabel={`${data.category.label} by birth year`}
+					/>
+				</div>
+			</section>
+		{/if}
+
 		<section class="section">
 			<div class="section-head">
 				<div>
@@ -514,7 +539,9 @@
 										/>
 										<h3>{group.label}</h3>
 									</div>
-									<p class="group-copy">{group.description}</p>
+									{#if group.description}
+										<p class="group-copy">{group.description}</p>
+									{/if}
 								</div>
 
 								<div class="people-grid">
@@ -1068,6 +1095,18 @@
 		display: grid;
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 		gap: 1rem;
+	}
+
+	.timeline-bleed {
+		--category-gutter: 1.5rem;
+		--ptl-gutter: var(--category-gutter);
+		margin-inline: calc(-1 * var(--category-gutter));
+	}
+
+	@media (max-width: 720px) {
+		.timeline-bleed {
+			--category-gutter: 1rem;
+		}
 	}
 
 	.group-stack {

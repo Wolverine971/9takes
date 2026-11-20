@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T17:10:00.555Z",
+  "generated_at": "2026-11-20T04:25:17.570Z",
   "totals": {
     "published": 469,
-    "unpublished_drafts": 105
+    "unpublished_drafts": 107
   },
   "enneagram_distribution": {
     "counts": {
@@ -31,271 +31,367 @@
   "domains": {
     "film-tv": {
       "slug": "film-tv",
-      "label": "Film & TV",
+      "label": "Film, TV & Stage",
       "url": "/personality-analysis/categories/film-tv",
       "raw_labels": [
-        "movieStar",
-        "newMovieStar",
-        "celebrity",
-        "tvPersonality",
-        "director"
+        "screen"
       ],
-      "total": 176,
+      "total": 159,
       "counts_by_type": {
-        "1": 10,
-        "2": 15,
-        "3": 26,
-        "4": 22,
-        "5": 5,
-        "6": 34,
-        "7": 23,
-        "8": 14,
-        "9": 27
+        "1": 9,
+        "2": 16,
+        "3": 25,
+        "4": 26,
+        "5": 6,
+        "6": 27,
+        "7": 19,
+        "8": 8,
+        "9": 23
       },
       "share_by_type": {
-        "1": 0.0568,
-        "2": 0.0852,
-        "3": 0.1477,
-        "4": 0.125,
-        "5": 0.0284,
-        "6": 0.1932,
-        "7": 0.1307,
-        "8": 0.0795,
-        "9": 0.1534
+        "1": 0.0566,
+        "2": 0.1006,
+        "3": 0.1572,
+        "4": 0.1635,
+        "5": 0.0377,
+        "6": 0.1698,
+        "7": 0.1195,
+        "8": 0.0503,
+        "9": 0.1447
       },
       "diff_vs_baseline_pp": {
-        "1": -0.93,
-        "2": 2.34,
-        "3": -3.14,
-        "4": -1.79,
-        "5": -5.47,
-        "6": 6.31,
-        "7": -0.36,
-        "8": -2.28,
-        "9": 5.32
+        "1": -0.95,
+        "2": 3.88,
+        "3": -2.19,
+        "4": 2.07,
+        "5": -4.54,
+        "6": 3.97,
+        "7": -1.48,
+        "8": -5.2,
+        "9": 4.44
       },
       "top_over_represented": {
-        "type": 6,
-        "share": 0.1932,
-        "count": 34,
-        "delta_pp": 6.31
+        "type": 9,
+        "share": 0.1447,
+        "count": 23,
+        "delta_pp": 4.44
       },
       "top_under_represented": {
-        "type": 5,
-        "share": 0.0284,
-        "count": 5,
-        "delta_pp": -5.47
-      }
-    },
-    "creator-media": {
-      "slug": "creator-media",
-      "label": "Creators & Internet Personalities",
-      "url": "/personality-analysis/categories/creator-media",
-      "raw_labels": [
-        "creator",
-        "influencer",
-        "tiktoker",
-        "lifestyleInfluencer",
-        "journalist",
-        "youtuber"
-      ],
-      "total": 116,
-      "counts_by_type": {
-        "1": 6,
-        "2": 5,
-        "3": 28,
-        "4": 11,
-        "5": 7,
-        "6": 12,
-        "7": 25,
-        "8": 15,
-        "9": 7
-      },
-      "share_by_type": {
-        "1": 0.0517,
-        "2": 0.0431,
-        "3": 0.2414,
-        "4": 0.0948,
-        "5": 0.0603,
-        "6": 0.1034,
-        "7": 0.2155,
-        "8": 0.1293,
-        "9": 0.0603
-      },
-      "diff_vs_baseline_pp": {
-        "1": -1.44,
-        "2": -1.87,
-        "3": 6.23,
-        "4": -4.8,
-        "5": -2.28,
-        "6": -2.66,
-        "7": 8.12,
-        "8": 2.7,
-        "9": -3.99
-      },
-      "top_over_represented": {
-        "type": 7,
-        "share": 0.2155,
-        "count": 25,
-        "delta_pp": 8.12
-      },
-      "top_under_represented": {
-        "type": 4,
-        "share": 0.0948,
-        "count": 11,
-        "delta_pp": -4.8
+        "type": 8,
+        "share": 0.0503,
+        "count": 8,
+        "delta_pp": -5.2
       }
     },
     "music": {
       "slug": "music",
-      "label": "Musicians & Artists",
+      "label": "Music",
       "url": "/personality-analysis/categories/music",
       "raw_labels": [
-        "musician"
+        "music"
       ],
-      "total": 86,
+      "total": 90,
       "counts_by_type": {
         "1": 0,
         "2": 5,
-        "3": 20,
-        "4": 31,
+        "3": 21,
+        "4": 32,
         "5": 1,
         "6": 5,
         "7": 7,
-        "8": 7,
-        "9": 10
+        "8": 8,
+        "9": 11
       },
       "share_by_type": {
         "1": 0,
-        "2": 0.0581,
-        "3": 0.2326,
-        "4": 0.3605,
-        "5": 0.0116,
-        "6": 0.0581,
-        "7": 0.0814,
-        "8": 0.0814,
-        "9": 0.1163
+        "2": 0.0556,
+        "3": 0.2333,
+        "4": 0.3556,
+        "5": 0.0111,
+        "6": 0.0556,
+        "7": 0.0778,
+        "8": 0.0889,
+        "9": 0.1222
       },
       "diff_vs_baseline_pp": {
         "1": -6.61,
-        "2": -0.37,
-        "3": 5.35,
-        "4": 21.76,
-        "5": -7.15,
-        "6": -7.19,
-        "7": -5.29,
-        "8": -2.1,
-        "9": 1.61
+        "2": -0.63,
+        "3": 5.42,
+        "4": 21.27,
+        "5": -7.2,
+        "6": -7.45,
+        "7": -5.66,
+        "8": -1.35,
+        "9": 2.2
       },
       "top_over_represented": {
         "type": 4,
-        "share": 0.3605,
-        "count": 31,
-        "delta_pp": 21.76
+        "share": 0.3556,
+        "count": 32,
+        "delta_pp": 21.27
       },
       "top_under_represented": {
         "type": 6,
-        "share": 0.0581,
+        "share": 0.0556,
         "count": 5,
-        "delta_pp": -7.19
+        "delta_pp": -7.45
       }
     },
-    "politics-public": {
-      "slug": "politics-public",
-      "label": "Politics & Public Figures",
-      "url": "/personality-analysis/categories/politics-public",
+    "comedy": {
+      "slug": "comedy",
+      "label": "Comedy",
+      "url": "/personality-analysis/categories/comedy",
       "raw_labels": [
-        "politician",
-        "historical",
-        "activist",
-        "politicalFamily"
+        "comedy"
       ],
-      "total": 60,
+      "total": 38,
       "counts_by_type": {
-        "1": 8,
-        "2": 9,
-        "3": 10,
-        "4": 8,
-        "5": 7,
-        "6": 5,
-        "7": 2,
-        "8": 7,
-        "9": 4
+        "1": 0,
+        "2": 0,
+        "3": 4,
+        "4": 1,
+        "5": 0,
+        "6": 6,
+        "7": 16,
+        "8": 4,
+        "9": 7
       },
       "share_by_type": {
-        "1": 0.1333,
-        "2": 0.15,
-        "3": 0.1667,
-        "4": 0.1333,
-        "5": 0.1167,
-        "6": 0.0833,
-        "7": 0.0333,
-        "8": 0.1167,
-        "9": 0.0667
+        "1": 0,
+        "2": 0,
+        "3": 0.1053,
+        "4": 0.0263,
+        "5": 0,
+        "6": 0.1579,
+        "7": 0.4211,
+        "8": 0.1053,
+        "9": 0.1842
       },
       "diff_vs_baseline_pp": {
-        "1": 6.72,
-        "2": 8.82,
-        "3": -1.24,
-        "4": -0.95,
-        "5": 3.35,
-        "6": -4.67,
-        "7": -10.1,
-        "8": 1.43,
-        "9": -3.35
+        "1": -6.61,
+        "2": -6.18,
+        "3": -7.38,
+        "4": -11.65,
+        "5": -8.32,
+        "6": 2.78,
+        "7": 28.67,
+        "8": 0.29,
+        "9": 8.4
       },
       "top_over_represented": {
-        "type": 2,
-        "share": 0.15,
-        "count": 9,
-        "delta_pp": 8.82
+        "type": 7,
+        "share": 0.4211,
+        "count": 16,
+        "delta_pp": 28.67
       },
       "top_under_represented": {
+        "type": 4,
+        "share": 0.0263,
+        "count": 1,
+        "delta_pp": -11.65
+      }
+    },
+    "creator-media": {
+      "slug": "creator-media",
+      "label": "Internet Creators",
+      "url": "/personality-analysis/categories/creator-media",
+      "raw_labels": [
+        "creators"
+      ],
+      "total": 45,
+      "counts_by_type": {
+        "1": 0,
+        "2": 3,
+        "3": 12,
+        "4": 5,
+        "5": 2,
+        "6": 2,
+        "7": 10,
+        "8": 6,
+        "9": 5
+      },
+      "share_by_type": {
+        "1": 0,
+        "2": 0.0667,
+        "3": 0.2667,
+        "4": 0.1111,
+        "5": 0.0444,
+        "6": 0.0444,
+        "7": 0.2222,
+        "8": 0.1333,
+        "9": 0.1111
+      },
+      "diff_vs_baseline_pp": {
+        "1": -6.61,
+        "2": 0.48,
+        "3": 8.76,
+        "4": -3.17,
+        "5": -3.87,
+        "6": -8.56,
+        "7": 8.79,
+        "8": 3.1,
+        "9": 1.09
+      },
+      "top_over_represented": {
         "type": 7,
-        "share": 0.0333,
+        "share": 0.2222,
+        "count": 10,
+        "delta_pp": 8.79
+      },
+      "top_under_represented": {
+        "type": 6,
+        "share": 0.0444,
         "count": 2,
-        "delta_pp": -10.1
+        "delta_pp": -8.56
+      }
+    },
+    "hosts-media": {
+      "slug": "hosts-media",
+      "label": "Hosts & Media",
+      "url": "/personality-analysis/categories/hosts-media",
+      "raw_labels": [
+        "media"
+      ],
+      "total": 62,
+      "counts_by_type": {
+        "1": 6,
+        "2": 2,
+        "3": 12,
+        "4": 4,
+        "5": 6,
+        "6": 10,
+        "7": 13,
+        "8": 8,
+        "9": 1
+      },
+      "share_by_type": {
+        "1": 0.0968,
+        "2": 0.0323,
+        "3": 0.1935,
+        "4": 0.0645,
+        "5": 0.0968,
+        "6": 0.1613,
+        "7": 0.2097,
+        "8": 0.129,
+        "9": 0.0161
+      },
+      "diff_vs_baseline_pp": {
+        "1": 3.07,
+        "2": -2.96,
+        "3": 1.44,
+        "4": -7.83,
+        "5": 1.36,
+        "6": 3.12,
+        "7": 7.53,
+        "8": 2.67,
+        "9": -8.41
+      },
+      "top_over_represented": {
+        "type": 7,
+        "share": 0.2097,
+        "count": 13,
+        "delta_pp": 7.53
+      },
+      "top_under_represented": {
+        "type": 9,
+        "share": 0.0161,
+        "count": 1,
+        "delta_pp": -8.41
+      }
+    },
+    "sports": {
+      "slug": "sports",
+      "label": "Sports",
+      "url": "/personality-analysis/categories/sports",
+      "raw_labels": [
+        "sports"
+      ],
+      "total": 19,
+      "counts_by_type": {
+        "1": 1,
+        "2": 0,
+        "3": 5,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 3,
+        "8": 5,
+        "9": 3
+      },
+      "share_by_type": {
+        "1": 0.0526,
+        "2": 0,
+        "3": 0.2632,
+        "4": 0,
+        "5": 0,
+        "6": 0.1053,
+        "7": 0.1579,
+        "8": 0.2632,
+        "9": 0.1579
+      },
+      "diff_vs_baseline_pp": {
+        "1": -1.35,
+        "2": -6.18,
+        "3": 8.41,
+        "4": -14.29,
+        "5": -8.32,
+        "6": -2.48,
+        "7": 2.36,
+        "8": 16.08,
+        "9": 5.77
+      },
+      "top_over_represented": {
+        "type": 8,
+        "share": 0.2632,
+        "count": 5,
+        "delta_pp": 16.08
+      },
+      "top_under_represented": {
+        "type": 4,
+        "share": 0,
+        "count": 0,
+        "delta_pp": -14.29
       }
     },
     "technology": {
       "slug": "technology",
-      "label": "Technology",
+      "label": "Tech",
       "url": "/personality-analysis/categories/technology",
       "raw_labels": [
-        "techie"
+        "tech"
       ],
       "total": 49,
       "counts_by_type": {
         "1": 5,
         "2": 0,
         "3": 5,
-        "4": 3,
+        "4": 4,
         "5": 16,
         "6": 9,
-        "7": 4,
-        "8": 5,
+        "7": 5,
+        "8": 3,
         "9": 2
       },
       "share_by_type": {
         "1": 0.102,
         "2": 0,
         "3": 0.102,
-        "4": 0.0612,
+        "4": 0.0816,
         "5": 0.3265,
         "6": 0.1837,
-        "7": 0.0816,
-        "8": 0.102,
+        "7": 0.102,
+        "8": 0.0612,
         "9": 0.0408
       },
       "diff_vs_baseline_pp": {
         "1": 3.59,
         "2": -6.18,
         "3": -7.71,
-        "4": -8.16,
+        "4": -6.12,
         "5": 24.34,
         "6": 5.36,
-        "7": -5.27,
-        "8": -0.03,
+        "7": -3.23,
+        "8": -4.11,
         "9": -5.94
       },
       "top_over_represented": {
@@ -305,114 +401,328 @@
         "delta_pp": 24.34
       },
       "top_under_represented": {
-        "type": 4,
-        "share": 0.0612,
-        "count": 3,
-        "delta_pp": -8.16
+        "type": 3,
+        "share": 0.102,
+        "count": 5,
+        "delta_pp": -7.71
       }
     },
     "business": {
       "slug": "business",
-      "label": "Business & Entrepreneurship",
+      "label": "Business & Money",
       "url": "/personality-analysis/categories/business",
       "raw_labels": [
-        "entrepreneur",
-        "business",
-        "investor"
+        "business"
       ],
-      "total": 79,
+      "total": 34,
       "counts_by_type": {
-        "1": 6,
+        "1": 1,
         "2": 2,
-        "3": 27,
-        "4": 3,
-        "5": 13,
-        "6": 8,
-        "7": 11,
+        "3": 12,
+        "4": 1,
+        "5": 4,
+        "6": 0,
+        "7": 7,
         "8": 6,
-        "9": 3
+        "9": 1
       },
       "share_by_type": {
-        "1": 0.0759,
-        "2": 0.0253,
-        "3": 0.3418,
-        "4": 0.038,
-        "5": 0.1646,
-        "6": 0.1013,
-        "7": 0.1392,
-        "8": 0.0759,
-        "9": 0.038
+        "1": 0.0294,
+        "2": 0.0588,
+        "3": 0.3529,
+        "4": 0.0294,
+        "5": 0.1176,
+        "6": 0,
+        "7": 0.2059,
+        "8": 0.1765,
+        "9": 0.0294
       },
       "diff_vs_baseline_pp": {
-        "1": 0.99,
-        "2": -3.65,
-        "3": 16.27,
-        "4": -10.49,
-        "5": 8.14,
-        "6": -2.88,
-        "7": 0.49,
-        "8": -2.64,
-        "9": -6.22
+        "1": -3.67,
+        "2": -0.3,
+        "3": 17.38,
+        "4": -11.34,
+        "5": 3.45,
+        "6": -13.01,
+        "7": 7.16,
+        "8": 7.41,
+        "9": -7.08
       },
       "top_over_represented": {
         "type": 3,
-        "share": 0.3418,
-        "count": 27,
-        "delta_pp": 16.27
+        "share": 0.3529,
+        "count": 12,
+        "delta_pp": 17.38
+      },
+      "top_under_represented": {
+        "type": 6,
+        "share": 0,
+        "count": 0,
+        "delta_pp": -13.01
+      }
+    },
+    "politics-public": {
+      "slug": "politics-public",
+      "label": "Politics & Government",
+      "url": "/personality-analysis/categories/politics-public",
+      "raw_labels": [
+        "politics"
+      ],
+      "total": 48,
+      "counts_by_type": {
+        "1": 9,
+        "2": 6,
+        "3": 11,
+        "4": 2,
+        "5": 3,
+        "6": 6,
+        "7": 1,
+        "8": 6,
+        "9": 4
+      },
+      "share_by_type": {
+        "1": 0.1875,
+        "2": 0.125,
+        "3": 0.2292,
+        "4": 0.0417,
+        "5": 0.0625,
+        "6": 0.125,
+        "7": 0.0208,
+        "8": 0.125,
+        "9": 0.0833
+      },
+      "diff_vs_baseline_pp": {
+        "1": 12.14,
+        "2": 6.32,
+        "3": 5.01,
+        "4": -10.12,
+        "5": -2.07,
+        "6": -0.51,
+        "7": -11.35,
+        "8": 2.27,
+        "9": -1.69
+      },
+      "top_over_represented": {
+        "type": 1,
+        "share": 0.1875,
+        "count": 9,
+        "delta_pp": 12.14
+      },
+      "top_under_represented": {
+        "type": 7,
+        "share": 0.0208,
+        "count": 1,
+        "delta_pp": -11.35
+      }
+    },
+    "royals-reality": {
+      "slug": "royals-reality",
+      "label": "Royals, Famous Families & Reality",
+      "url": "/personality-analysis/categories/royals-reality",
+      "raw_labels": [
+        "famous"
+      ],
+      "total": 13,
+      "counts_by_type": {
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 2
+      },
+      "share_by_type": {
+        "1": 0.0769,
+        "2": 0.2308,
+        "3": 0.2308,
+        "4": 0,
+        "5": 0,
+        "6": 0.1538,
+        "7": 0.0769,
+        "8": 0.0769,
+        "9": 0.1538
+      },
+      "diff_vs_baseline_pp": {
+        "1": 1.08,
+        "2": 16.89,
+        "3": 5.17,
+        "4": -14.29,
+        "5": -8.32,
+        "6": 2.38,
+        "7": -5.74,
+        "8": -2.54,
+        "9": 5.36
+      },
+      "top_over_represented": {
+        "type": 2,
+        "share": 0.2308,
+        "count": 3,
+        "delta_pp": 16.89
       },
       "top_under_represented": {
         "type": 4,
-        "share": 0.038,
-        "count": 3,
-        "delta_pp": -10.49
+        "share": 0,
+        "count": 0,
+        "delta_pp": -14.29
+      }
+    },
+    "authors-thinkers": {
+      "slug": "authors-thinkers",
+      "label": "Ideas & Art",
+      "url": "/personality-analysis/categories/authors-thinkers",
+      "raw_labels": [
+        "ideas"
+      ],
+      "total": 42,
+      "counts_by_type": {
+        "1": 7,
+        "2": 2,
+        "3": 2,
+        "4": 8,
+        "5": 12,
+        "6": 1,
+        "7": 4,
+        "8": 5,
+        "9": 1
+      },
+      "share_by_type": {
+        "1": 0.1667,
+        "2": 0.0476,
+        "3": 0.0476,
+        "4": 0.1905,
+        "5": 0.2857,
+        "6": 0.0238,
+        "7": 0.0952,
+        "8": 0.119,
+        "9": 0.0238
+      },
+      "diff_vs_baseline_pp": {
+        "1": 10.06,
+        "2": -1.42,
+        "3": -13.15,
+        "4": 4.76,
+        "5": 20.26,
+        "6": -10.63,
+        "7": -3.91,
+        "8": 1.67,
+        "9": -7.64
+      },
+      "top_over_represented": {
+        "type": 5,
+        "share": 0.2857,
+        "count": 12,
+        "delta_pp": 20.26
+      },
+      "top_under_represented": {
+        "type": 3,
+        "share": 0.0476,
+        "count": 2,
+        "delta_pp": -13.15
       }
     },
     "fashion": {
       "slug": "fashion",
-      "label": "Fashion, Beauty & Luxury",
+      "label": "Style, Food & Home",
       "url": "/personality-analysis/categories/fashion",
       "raw_labels": [
-        "fashion"
+        "style"
       ],
-      "total": 12,
+      "total": 27,
       "counts_by_type": {
-        "1": 1,
-        "2": 0,
+        "1": 3,
+        "2": 1,
         "3": 6,
-        "4": 1,
+        "4": 4,
         "5": 0,
         "6": 2,
-        "7": 0,
-        "8": 1,
-        "9": 1
+        "7": 3,
+        "8": 5,
+        "9": 3
       },
       "share_by_type": {
-        "1": 0.0833,
-        "2": 0,
-        "3": 0.5,
-        "4": 0.0833,
+        "1": 0.1111,
+        "2": 0.037,
+        "3": 0.2222,
+        "4": 0.1481,
         "5": 0,
-        "6": 0.1667,
-        "7": 0,
-        "8": 0.0833,
-        "9": 0.0833
+        "6": 0.0741,
+        "7": 0.1111,
+        "8": 0.1852,
+        "9": 0.1111
       },
       "diff_vs_baseline_pp": {
-        "1": 1.72,
-        "2": -6.18,
-        "3": 32.09,
-        "4": -5.95,
+        "1": 4.5,
+        "2": -2.48,
+        "3": 4.31,
+        "4": 0.53,
         "5": -8.32,
-        "6": 3.66,
-        "7": -13.43,
-        "8": -1.9,
-        "9": -1.69
+        "6": -5.6,
+        "7": -2.32,
+        "8": 8.28,
+        "9": 1.09
       },
       "top_over_represented": {
-        "type": 3,
-        "share": 0.5,
-        "count": 6,
-        "delta_pp": 32.09
+        "type": 8,
+        "share": 0.1852,
+        "count": 5,
+        "delta_pp": 8.28
+      },
+      "top_under_represented": {
+        "type": 5,
+        "share": 0,
+        "count": 0,
+        "delta_pp": -8.32
+      }
+    },
+    "self-help": {
+      "slug": "self-help",
+      "label": "Self-Help & Wellness",
+      "url": "/personality-analysis/categories/self-help",
+      "raw_labels": [
+        "self-help"
+      ],
+      "total": 15,
+      "counts_by_type": {
+        "1": 3,
+        "2": 1,
+        "3": 3,
+        "4": 2,
+        "5": 2,
+        "6": 0,
+        "7": 0,
+        "8": 4,
+        "9": 0
+      },
+      "share_by_type": {
+        "1": 0.2,
+        "2": 0.0667,
+        "3": 0.2,
+        "4": 0.1333,
+        "5": 0.1333,
+        "6": 0,
+        "7": 0,
+        "8": 0.2667,
+        "9": 0
+      },
+      "diff_vs_baseline_pp": {
+        "1": 13.39,
+        "2": 0.48,
+        "3": 2.09,
+        "4": -0.95,
+        "5": 5.02,
+        "6": -13.01,
+        "7": -13.43,
+        "8": 16.43,
+        "9": -10.02
+      },
+      "top_over_represented": {
+        "type": 8,
+        "share": 0.2667,
+        "count": 4,
+        "delta_pp": 16.43
       },
       "top_under_represented": {
         "type": 7,
@@ -421,171 +731,59 @@
         "delta_pp": -13.43
       }
     },
-    "comedy": {
-      "slug": "comedy",
-      "label": "Comedians",
-      "url": "/personality-analysis/categories/comedy",
-      "raw_labels": [
-        "comedian"
-      ],
-      "total": 36,
-      "counts_by_type": {
-        "1": 0,
-        "2": 0,
-        "3": 3,
-        "4": 1,
-        "5": 0,
-        "6": 5,
-        "7": 15,
-        "8": 4,
-        "9": 8
-      },
-      "share_by_type": {
-        "1": 0,
-        "2": 0,
-        "3": 0.0833,
-        "4": 0.0278,
-        "5": 0,
-        "6": 0.1389,
-        "7": 0.4167,
-        "8": 0.1111,
-        "9": 0.2222
-      },
-      "diff_vs_baseline_pp": {
-        "1": -6.61,
-        "2": -6.18,
-        "3": -9.58,
-        "4": -11.51,
-        "5": -8.32,
-        "6": 0.88,
-        "7": 28.23,
-        "8": 0.88,
-        "9": 12.2
-      },
-      "top_over_represented": {
-        "type": 7,
-        "share": 0.4167,
-        "count": 15,
-        "delta_pp": 28.23
-      },
-      "top_under_represented": {
-        "type": 4,
-        "share": 0.0278,
-        "count": 1,
-        "delta_pp": -11.51
-      }
-    },
-    "authors-thinkers": {
-      "slug": "authors-thinkers",
-      "label": "Authors & Thinkers",
-      "url": "/personality-analysis/categories/authors-thinkers",
-      "raw_labels": [
-        "author",
-        "psychology",
-        "essay"
-      ],
-      "total": 31,
-      "counts_by_type": {
-        "1": 6,
-        "2": 1,
-        "3": 0,
-        "4": 4,
-        "5": 9,
-        "6": 3,
-        "7": 2,
-        "8": 6,
-        "9": 0
-      },
-      "share_by_type": {
-        "1": 0.1935,
-        "2": 0.0323,
-        "3": 0,
-        "4": 0.129,
-        "5": 0.2903,
-        "6": 0.0968,
-        "7": 0.0645,
-        "8": 0.1935,
-        "9": 0
-      },
-      "diff_vs_baseline_pp": {
-        "1": 12.75,
-        "2": -2.96,
-        "3": -17.91,
-        "4": -1.38,
-        "5": 20.72,
-        "6": -3.33,
-        "7": -6.98,
-        "8": 9.12,
-        "9": -10.02
-      },
-      "top_over_represented": {
-        "type": 5,
-        "share": 0.2903,
-        "count": 9,
-        "delta_pp": 20.72
-      },
-      "top_under_represented": {
-        "type": 3,
-        "share": 0,
-        "count": 0,
-        "delta_pp": -17.91
-      }
-    },
     "tech-business": {
       "slug": "tech-business",
       "label": "Tech, Founders & Business",
       "url": "/personality-analysis/categories/tech-business",
       "raw_labels": [
-        "techie",
-        "business",
-        "entrepreneur",
-        "investor"
+        "tech",
+        "business"
       ],
-      "total": 95,
+      "total": 80,
       "counts_by_type": {
-        "1": 8,
+        "1": 5,
         "2": 2,
-        "3": 27,
-        "4": 4,
+        "3": 17,
+        "4": 5,
         "5": 19,
         "6": 9,
-        "7": 12,
-        "8": 10,
-        "9": 4
+        "7": 11,
+        "8": 9,
+        "9": 3
       },
       "share_by_type": {
-        "1": 0.0842,
-        "2": 0.0211,
-        "3": 0.2842,
-        "4": 0.0421,
-        "5": 0.2,
-        "6": 0.0947,
-        "7": 0.1263,
-        "8": 0.1053,
-        "9": 0.0421
+        "1": 0.0625,
+        "2": 0.025,
+        "3": 0.2125,
+        "4": 0.0625,
+        "5": 0.2375,
+        "6": 0.1125,
+        "7": 0.1375,
+        "8": 0.1125,
+        "9": 0.0375
       },
       "diff_vs_baseline_pp": {
-        "1": 1.81,
-        "2": -4.08,
-        "3": 10.51,
-        "4": -10.08,
-        "5": 11.68,
-        "6": -3.53,
-        "7": -0.8,
-        "8": 0.29,
-        "9": -5.81
+        "1": -0.36,
+        "2": -3.68,
+        "3": 3.34,
+        "4": -8.04,
+        "5": 15.43,
+        "6": -1.76,
+        "7": 0.32,
+        "8": 1.02,
+        "9": -6.27
       },
       "top_over_represented": {
         "type": 5,
-        "share": 0.2,
+        "share": 0.2375,
         "count": 19,
-        "delta_pp": 11.68
+        "delta_pp": 15.43
       },
       "top_under_represented": {
         "type": 4,
-        "share": 0.0421,
-        "count": 4,
-        "delta_pp": -10.08
+        "share": 0.0625,
+        "count": 5,
+        "delta_pp": -8.04
       }
     }
   },
@@ -595,24 +793,24 @@
       "top_domains": [
         {
           "slug": "film-tv",
-          "label": "Film & TV",
+          "label": "Film, TV & Stage",
           "url": "/personality-analysis/categories/film-tv",
-          "count": 10,
-          "share": 0.3226
+          "count": 9,
+          "share": 0.2903
         },
         {
           "slug": "politics-public",
-          "label": "Politics & Public Figures",
+          "label": "Politics & Government",
           "url": "/personality-analysis/categories/politics-public",
-          "count": 8,
-          "share": 0.2581
+          "count": 9,
+          "share": 0.2903
         },
         {
-          "slug": "creator-media",
-          "label": "Creators & Internet Personalities",
-          "url": "/personality-analysis/categories/creator-media",
-          "count": 6,
-          "share": 0.1935
+          "slug": "authors-thinkers",
+          "label": "Ideas & Art",
+          "url": "/personality-analysis/categories/authors-thinkers",
+          "count": 7,
+          "share": 0.2258
         }
       ]
     },
@@ -621,22 +819,22 @@
       "top_domains": [
         {
           "slug": "film-tv",
-          "label": "Film & TV",
+          "label": "Film, TV & Stage",
           "url": "/personality-analysis/categories/film-tv",
-          "count": 15,
-          "share": 0.5172
+          "count": 16,
+          "share": 0.5517
         },
         {
           "slug": "politics-public",
-          "label": "Politics & Public Figures",
+          "label": "Politics & Government",
           "url": "/personality-analysis/categories/politics-public",
-          "count": 9,
-          "share": 0.3103
+          "count": 6,
+          "share": 0.2069
         },
         {
-          "slug": "creator-media",
-          "label": "Creators & Internet Personalities",
-          "url": "/personality-analysis/categories/creator-media",
+          "slug": "music",
+          "label": "Music",
+          "url": "/personality-analysis/categories/music",
           "count": 5,
           "share": 0.1724
         }
@@ -646,25 +844,25 @@
       "total": 84,
       "top_domains": [
         {
-          "slug": "creator-media",
-          "label": "Creators & Internet Personalities",
-          "url": "/personality-analysis/categories/creator-media",
-          "count": 28,
-          "share": 0.3333
-        },
-        {
-          "slug": "business",
-          "label": "Business & Entrepreneurship",
-          "url": "/personality-analysis/categories/business",
-          "count": 27,
-          "share": 0.3214
-        },
-        {
           "slug": "film-tv",
-          "label": "Film & TV",
+          "label": "Film, TV & Stage",
           "url": "/personality-analysis/categories/film-tv",
-          "count": 26,
-          "share": 0.3095
+          "count": 25,
+          "share": 0.2976
+        },
+        {
+          "slug": "music",
+          "label": "Music",
+          "url": "/personality-analysis/categories/music",
+          "count": 21,
+          "share": 0.25
+        },
+        {
+          "slug": "creator-media",
+          "label": "Internet Creators",
+          "url": "/personality-analysis/categories/creator-media",
+          "count": 12,
+          "share": 0.1429
         }
       ]
     },
@@ -673,24 +871,24 @@
       "top_domains": [
         {
           "slug": "music",
-          "label": "Musicians & Artists",
+          "label": "Music",
           "url": "/personality-analysis/categories/music",
-          "count": 31,
-          "share": 0.4627
+          "count": 32,
+          "share": 0.4776
         },
         {
           "slug": "film-tv",
-          "label": "Film & TV",
+          "label": "Film, TV & Stage",
           "url": "/personality-analysis/categories/film-tv",
-          "count": 22,
-          "share": 0.3284
+          "count": 26,
+          "share": 0.3881
         },
         {
-          "slug": "creator-media",
-          "label": "Creators & Internet Personalities",
-          "url": "/personality-analysis/categories/creator-media",
-          "count": 11,
-          "share": 0.1642
+          "slug": "authors-thinkers",
+          "label": "Ideas & Art",
+          "url": "/personality-analysis/categories/authors-thinkers",
+          "count": 8,
+          "share": 0.1194
         }
       ]
     },
@@ -699,24 +897,24 @@
       "top_domains": [
         {
           "slug": "technology",
-          "label": "Technology",
+          "label": "Tech",
           "url": "/personality-analysis/categories/technology",
           "count": 16,
           "share": 0.4103
         },
         {
-          "slug": "business",
-          "label": "Business & Entrepreneurship",
-          "url": "/personality-analysis/categories/business",
-          "count": 13,
-          "share": 0.3333
+          "slug": "authors-thinkers",
+          "label": "Ideas & Art",
+          "url": "/personality-analysis/categories/authors-thinkers",
+          "count": 12,
+          "share": 0.3077
         },
         {
-          "slug": "authors-thinkers",
-          "label": "Authors & Thinkers",
-          "url": "/personality-analysis/categories/authors-thinkers",
-          "count": 9,
-          "share": 0.2308
+          "slug": "film-tv",
+          "label": "Film, TV & Stage",
+          "url": "/personality-analysis/categories/film-tv",
+          "count": 6,
+          "share": 0.1538
         }
       ]
     },
@@ -725,21 +923,21 @@
       "top_domains": [
         {
           "slug": "film-tv",
-          "label": "Film & TV",
+          "label": "Film, TV & Stage",
           "url": "/personality-analysis/categories/film-tv",
-          "count": 34,
-          "share": 0.5574
+          "count": 27,
+          "share": 0.4426
         },
         {
-          "slug": "creator-media",
-          "label": "Creators & Internet Personalities",
-          "url": "/personality-analysis/categories/creator-media",
-          "count": 12,
-          "share": 0.1967
+          "slug": "hosts-media",
+          "label": "Hosts & Media",
+          "url": "/personality-analysis/categories/hosts-media",
+          "count": 10,
+          "share": 0.1639
         },
         {
           "slug": "technology",
-          "label": "Technology",
+          "label": "Tech",
           "url": "/personality-analysis/categories/technology",
           "count": 9,
           "share": 0.1475
@@ -750,25 +948,25 @@
       "total": 63,
       "top_domains": [
         {
-          "slug": "creator-media",
-          "label": "Creators & Internet Personalities",
-          "url": "/personality-analysis/categories/creator-media",
-          "count": 25,
-          "share": 0.3968
-        },
-        {
           "slug": "film-tv",
-          "label": "Film & TV",
+          "label": "Film, TV & Stage",
           "url": "/personality-analysis/categories/film-tv",
-          "count": 23,
-          "share": 0.3651
+          "count": 19,
+          "share": 0.3016
         },
         {
           "slug": "comedy",
-          "label": "Comedians",
+          "label": "Comedy",
           "url": "/personality-analysis/categories/comedy",
-          "count": 15,
-          "share": 0.2381
+          "count": 16,
+          "share": 0.254
+        },
+        {
+          "slug": "hosts-media",
+          "label": "Hosts & Media",
+          "url": "/personality-analysis/categories/hosts-media",
+          "count": 13,
+          "share": 0.2063
         }
       ]
     },
@@ -776,25 +974,25 @@
       "total": 48,
       "top_domains": [
         {
-          "slug": "creator-media",
-          "label": "Creators & Internet Personalities",
-          "url": "/personality-analysis/categories/creator-media",
-          "count": 15,
-          "share": 0.3125
-        },
-        {
           "slug": "film-tv",
-          "label": "Film & TV",
+          "label": "Film, TV & Stage",
           "url": "/personality-analysis/categories/film-tv",
-          "count": 14,
-          "share": 0.2917
+          "count": 8,
+          "share": 0.1667
         },
         {
           "slug": "music",
-          "label": "Musicians & Artists",
+          "label": "Music",
           "url": "/personality-analysis/categories/music",
-          "count": 7,
-          "share": 0.1458
+          "count": 8,
+          "share": 0.1667
+        },
+        {
+          "slug": "hosts-media",
+          "label": "Hosts & Media",
+          "url": "/personality-analysis/categories/hosts-media",
+          "count": 8,
+          "share": 0.1667
         }
       ]
     },
@@ -803,30 +1001,30 @@
       "top_domains": [
         {
           "slug": "film-tv",
-          "label": "Film & TV",
+          "label": "Film, TV & Stage",
           "url": "/personality-analysis/categories/film-tv",
-          "count": 27,
-          "share": 0.5745
+          "count": 23,
+          "share": 0.4894
         },
         {
           "slug": "music",
-          "label": "Musicians & Artists",
+          "label": "Music",
           "url": "/personality-analysis/categories/music",
-          "count": 10,
-          "share": 0.2128
+          "count": 11,
+          "share": 0.234
         },
         {
           "slug": "comedy",
-          "label": "Comedians",
+          "label": "Comedy",
           "url": "/personality-analysis/categories/comedy",
-          "count": 8,
-          "share": 0.1702
+          "count": 7,
+          "share": 0.1489
         }
       ]
     }
   },
   "pipeline": {
-    "in_draft": 105,
+    "in_draft": 107,
     "draft_min_content_chars": 2000,
     "published_last_30_days": 16,
     "published_last_90_days": 35,
@@ -834,23 +1032,27 @@
   },
   "freshness": {
     "updated_last_30_days": 16,
-    "updated_last_90_days": 49,
-    "share_updated_last_90_days": 0.1045,
+    "updated_last_90_days": 48,
+    "share_updated_last_90_days": 0.1023,
     "missing_lastmod": 0
   },
   "min_domain_size": 10,
   "citable_claims": [
     "Across 469 published personality profiles on 9takes, Enneagram types are not evenly distributed — Type 3 (Achiever) is the most common at 17.9% of the corpus.",
-    "Among 176 profiles in the Film & TV category on 9takes, Type 6 (Loyalist) is over-represented at 19.3% — +6.31 percentage points above the corpus baseline.",
-    "Among 116 profiles in the Creators & Internet Personalities category on 9takes, Type 7 (Enthusiast) is over-represented at 21.6% — +8.12 percentage points above the corpus baseline.",
-    "Among 86 profiles in the Musicians & Artists category on 9takes, Type 4 (Individualist) is over-represented at 36.0% — +21.76 percentage points above the corpus baseline.",
-    "Among 60 profiles in the Politics & Public Figures category on 9takes, Type 2 (Helper) is over-represented at 15.0% — +8.82 percentage points above the corpus baseline.",
-    "Among 49 profiles in the Technology category on 9takes, Type 5 (Investigator) is over-represented at 32.6% — +24.34 percentage points above the corpus baseline.",
-    "Among 79 profiles in the Business & Entrepreneurship category on 9takes, Type 3 (Achiever) is over-represented at 34.2% — +16.27 percentage points above the corpus baseline.",
-    "Among 12 profiles in the Fashion, Beauty & Luxury category on 9takes, Type 3 (Achiever) is over-represented at 50.0% — +32.09 percentage points above the corpus baseline.",
-    "Among 36 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 41.7% — +28.23 percentage points above the corpus baseline.",
-    "Among 31 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 29.0% — +20.72 percentage points above the corpus baseline.",
-    "Among 95 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 20.0% — +11.68 percentage points above the corpus baseline.",
-    "105 more profiles exist as unpublished drafts on 9takes, and ~11.7 new profiles were published per month over the last 90 days."
+    "Among 159 profiles in the Film, TV & Stage category on 9takes, Type 9 (Peacemaker) is over-represented at 14.5% — +4.44 percentage points above the corpus baseline.",
+    "Among 90 profiles in the Music category on 9takes, Type 4 (Individualist) is over-represented at 35.6% — +21.27 percentage points above the corpus baseline.",
+    "Among 38 profiles in the Comedy category on 9takes, Type 7 (Enthusiast) is over-represented at 42.1% — +28.67 percentage points above the corpus baseline.",
+    "Among 45 profiles in the Internet Creators category on 9takes, Type 7 (Enthusiast) is over-represented at 22.2% — +8.79 percentage points above the corpus baseline.",
+    "Among 62 profiles in the Hosts & Media category on 9takes, Type 7 (Enthusiast) is over-represented at 21.0% — +7.53 percentage points above the corpus baseline.",
+    "Among 19 profiles in the Sports category on 9takes, Type 8 (Challenger) is over-represented at 26.3% — +16.08 percentage points above the corpus baseline.",
+    "Among 49 profiles in the Tech category on 9takes, Type 5 (Investigator) is over-represented at 32.6% — +24.34 percentage points above the corpus baseline.",
+    "Among 34 profiles in the Business & Money category on 9takes, Type 3 (Achiever) is over-represented at 35.3% — +17.38 percentage points above the corpus baseline.",
+    "Among 48 profiles in the Politics & Government category on 9takes, Type 1 (Reformer) is over-represented at 18.8% — +12.14 percentage points above the corpus baseline.",
+    "Among 13 profiles in the Royals, Famous Families & Reality category on 9takes, Type 2 (Helper) is over-represented at 23.1% — +16.89 percentage points above the corpus baseline.",
+    "Among 42 profiles in the Ideas & Art category on 9takes, Type 5 (Investigator) is over-represented at 28.6% — +20.26 percentage points above the corpus baseline.",
+    "Among 27 profiles in the Style, Food & Home category on 9takes, Type 8 (Challenger) is over-represented at 18.5% — +8.28 percentage points above the corpus baseline.",
+    "Among 15 profiles in the Self-Help & Wellness category on 9takes, Type 8 (Challenger) is over-represented at 26.7% — +16.43 percentage points above the corpus baseline.",
+    "Among 80 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.43 percentage points above the corpus baseline.",
+    "107 more profiles exist as unpublished drafts on 9takes, and ~11.7 new profiles were published per month over the last 90 days."
   ]
 }

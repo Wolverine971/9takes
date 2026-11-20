@@ -13,6 +13,8 @@ export type TaxonomyField = {
 	key: string;
 	label: string;
 	shortLabel: string;
+	/** Category page slug: /personality-analysis/categories/<page>. */
+	page: string;
 	accent: string;
 	description: string;
 	niches: TaxonomyNiche[];
