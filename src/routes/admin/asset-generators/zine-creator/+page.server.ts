@@ -5,7 +5,7 @@ import matter from 'gray-matter';
 import { marked } from 'marked';
 import { load as parseHtml } from 'cheerio';
 import { slugFromPath } from '$lib/slugFromPath';
-import { guardAdminActions } from '$lib/server/adminAuth';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import type { Database } from '../../../../../database.types';
 import {
 	normalizeEnneagram,
@@ -71,6 +71,8 @@ const NAV_SELECTORS_TO_REMOVE = [
 const SENTENCE_SPLIT_REGEX = /(?<=[.!?])\s+/;
 
 export const load: PageServerLoad = async ({ locals }) => {
+	// This load checks admin itself; it does not rely on the layout load having run.
+	await requireAdmin(locals);
 	const [enneagramBlogs, peopleQuery] = await Promise.all([
 		getRecentEnneagramBlogs(20),
 		locals.supabase

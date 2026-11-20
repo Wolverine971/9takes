@@ -309,7 +309,7 @@
 							<span>Resolved subject</span>
 							<strong>{selectedStep.effective_subject}</strong>
 						</div>
-						<iframe title="Email preview" srcdoc={selectedStep.preview_html}></iframe>
+						<iframe title="Email preview" srcdoc={selectedStep.preview_html} sandbox=""></iframe>
 					</div>
 				{/if}
 			{/if}

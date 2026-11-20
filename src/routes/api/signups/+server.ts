@@ -9,6 +9,8 @@ import { signupWelcomeEmail } from '../../../emails';
 import { sendEmailWithTracking } from '$lib/email/sender';
 import { normalizeEmail } from '$lib/email/suppression';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 import {
 	getNewsletterSignupProtectionState,
 	recordNewsletterSignupSecurityEvent,
@@ -122,6 +124,13 @@ function fakeSuccess() {
 	return json({ ok: true });
 }
 
+function unavailable() {
+	return json(
+		{ ok: false, code: 'unavailable', message: 'Please try again in a minute.' },
+		{ status: 503 }
+	);
+}
+
 async function recordSignupEvent(
 	adminSupabase: any,
 	outcome: NewsletterSignupOutcome,
@@ -149,7 +158,7 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 	const rawEmail = payload.email;
 	const normalizedEmail = rawEmail ? normalizeEmail(rawEmail) : '';
 	const ipAddress = getClientAddress();
-	const fingerprint = cookies.get('9tfingerprint') ?? null;
+	const fingerprint = readVisitorFingerprint(cookies);
 	const userAgent = request.headers.get('user-agent') || '';
 	const adminSupabase = getSupabaseAdminClient() as any;
 
@@ -190,7 +199,12 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 		return fakeSuccess();
 	}
 
-	if (payload.timeToken !== null && payload.timeToken > 0 && payload.timeToken < MIN_FORM_TIME_MS) {
+	// Every signup form reports how long it was open; a missing value is treated like a too-fast one.
+	if (
+		payload.timeToken === null ||
+		!Number.isFinite(payload.timeToken) ||
+		payload.timeToken < MIN_FORM_TIME_MS
+	) {
 		await recordSignupEvent(adminSupabase, 'too_fast', {
 			ipAddress,
 			email: normalizedEmail,
@@ -216,11 +230,40 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 		return fakeSuccess();
 	}
 
+	// Atomic per-IP gate ahead of the count-based rules below, which only see
+	// earlier requests once they have finished.
+	const burst = await consumeApiRateLimit({
+		bucket: 'newsletter_signup',
+		subject: resolveRateLimitSubject({ clientAddress: ipAddress })
+	});
+	if (!burst.allowed) {
+		if (burst.degraded) return unavailable();
+		await recordSignupEvent(adminSupabase, 'rate_limited', {
+			ipAddress,
+			email: normalizedEmail,
+			fingerprint,
+			userAgent,
+			details: { reason: 'ip_burst_limit' }
+		});
+		logger.warn('Newsletter signup rate limited', {
+			email: normalizedEmail,
+			reason: 'ip_burst_limit'
+		});
+		return fakeSuccess();
+	}
+
 	const protectionState = await getNewsletterSignupProtectionState({
 		supabase: adminSupabase,
 		ipAddress,
 		identifier: normalizedEmail
 	});
+
+	if (protectionState.reason === 'protection_unavailable') {
+		logger.warn('Newsletter signup refused: protection counts unavailable', {
+			email: normalizedEmail
+		});
+		return unavailable();
+	}
 
 	if (protectionState.authAbuse) {
 		await recordSignupEvent(adminSupabase, 'auth_abuse', {
@@ -273,7 +316,8 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 			fingerprint,
 			userAgent
 		});
-		return json({ ok: false, code: 'already_exists', message: 'Email already exists' });
+		// Same answer as a new signup, with no second welcome email.
+		return json({ ok: true });
 	}
 
 	const { data: insertedSignup, error: insertError } = await adminSupabase

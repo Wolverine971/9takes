@@ -58,7 +58,7 @@ Reason: `app.d.ts`, `src/app.d.ts`, many route/server modules, and `scripts/gene
 
 Kept `scripts/classify-newsletter-signup-spam.sql` and `scripts/quarantine-newsletter-signup-spam.sql`.
 
-Reason: both are referenced from `docs/security/signup-spam-classification-2026-06-19.md`.
+Reason: both are referenced from `docs/security/signup-spam-classification-2026-06-19.md` (local-only, git-ignored since 2026-11-20).
 
 ## Deferred Items
 

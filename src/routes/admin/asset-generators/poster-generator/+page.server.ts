@@ -1,8 +1,10 @@
 // src/routes/admin/asset-generators/poster-generator/+page.server.ts
 import type { PageServerLoad } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 export const load: PageServerLoad = async ({ locals }) => {
-	const { supabase } = locals;
+	// This load checks admin itself; it does not rely on the layout load having run.
+	const { supabase } = await requireAdmin(locals);
 
 	// Load recent questions for quick selection
 	const { data: questions } = await supabase

@@ -6,7 +6,7 @@ import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { adminUpdateAdminStatusSchema, adminUsersQuerySchema } from '$lib/validation/schemas';
-import { guardAdminActions } from '$lib/server/adminAuth';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import { setAdminStatusSafely } from '$lib/server/adminUserAccess';
 import { z } from 'zod';
 import { logger } from '$lib/utils/logger';
@@ -282,11 +282,11 @@ export const load: PageServerLoad = async (event) => {
 	const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
 	const adminSupabase = getSupabaseAdminClient() as any;
 
-	// The layout guard (parent) and the admin profile check run alongside the
-	// page queries; a non-admin still gets the redirect and the rows are discarded.
+	// The layout guard (parent) and the admin check run alongside the page queries;
+	// either rejection discards the rows. Admin rights always come from `profiles`.
 	const [
 		,
-		{ data: user, error: findUserError },
+		{ profile: adminProfile },
 		profilesResult,
 		profileCountResult,
 		adminCountResult,
@@ -295,11 +295,7 @@ export const load: PageServerLoad = async (event) => {
 		signupsResult
 	] = await Promise.all([
 		event.parent(),
-		supabase
-			.from(demo_time === true ? 'profiles_demo' : 'profiles')
-			.select('id, admin, external_id')
-			.eq('id', session?.user?.id)
-			.single(),
+		requireAdmin(event.locals),
 		supabase.rpc('get_admin_users_page', {
 			p_search: userQuery.search,
 			p_filter: userQuery.filter,
@@ -327,9 +323,7 @@ export const load: PageServerLoad = async (event) => {
 			.range(signupOffset, signupOffset + ADMIN_SIGNUP_PAGE_SIZE - 1)
 	]);
 
-	if (!user?.admin) {
-		throw redirect(307, '/questions');
-	}
+	const user = { id: adminProfile.id, admin: adminProfile.admin };
 
 	const { data: profiles, error: profilesError } = profilesResult;
 	const filteredProfileCount = profiles?.[0]?.total_rows ?? 0;
@@ -402,43 +396,37 @@ export const load: PageServerLoad = async (event) => {
 		};
 	});
 
-	if (!findUserError) {
-		return {
-			user: mapDemoValues(user),
-			profiles: mapDemoValues(profilesWithEmailStatus),
-			signups: signupsWithSignals,
-			demoTime: demo_time,
-			profileStats: {
-				total: profileCountResult.count ?? 0,
-				admins: adminCountResult.count ?? 0,
-				withType: Object.values(distribution).reduce((sum, count) => sum + count, 0),
-				unsubscribed: unsubscribeCountResult.count ?? 0,
-				enneagramDistribution: distribution
-			},
-			profilePagination: {
-				page: profilePage,
-				limit: ADMIN_USER_PAGE_SIZE,
-				total: filteredProfileCount,
-				totalPages: Math.max(1, Math.ceil(filteredProfileCount / ADMIN_USER_PAGE_SIZE))
-			},
-			filters: {
-				search: userQuery.search,
-				filter: userQuery.filter,
-				sort: userQuery.sort,
-				direction: userQuery.direction
-			},
-			signupPagination: {
-				page: signupPage,
-				limit: ADMIN_SIGNUP_PAGE_SIZE,
-				total: signupCount ?? 0,
-				totalPages: Math.max(1, Math.ceil((signupCount ?? 0) / ADMIN_SIGNUP_PAGE_SIZE))
-			}
-		};
-	} else {
-		throw error(404, {
-			message: `Error searching for user`
-		});
-	}
+	return {
+		user,
+		profiles: mapDemoValues(profilesWithEmailStatus),
+		signups: signupsWithSignals,
+		demoTime: demo_time,
+		profileStats: {
+			total: profileCountResult.count ?? 0,
+			admins: adminCountResult.count ?? 0,
+			withType: Object.values(distribution).reduce((sum, count) => sum + count, 0),
+			unsubscribed: unsubscribeCountResult.count ?? 0,
+			enneagramDistribution: distribution
+		},
+		profilePagination: {
+			page: profilePage,
+			limit: ADMIN_USER_PAGE_SIZE,
+			total: filteredProfileCount,
+			totalPages: Math.max(1, Math.ceil(filteredProfileCount / ADMIN_USER_PAGE_SIZE))
+		},
+		filters: {
+			search: userQuery.search,
+			filter: userQuery.filter,
+			sort: userQuery.sort,
+			direction: userQuery.direction
+		},
+		signupPagination: {
+			page: signupPage,
+			limit: ADMIN_SIGNUP_PAGE_SIZE,
+			total: signupCount ?? 0,
+			totalPages: Math.max(1, Math.ceil((signupCount ?? 0) / ADMIN_SIGNUP_PAGE_SIZE))
+		}
+	};
 };
 
 export const actions: Actions = guardAdminActions({

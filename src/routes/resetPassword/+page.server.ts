@@ -1,6 +1,9 @@
 // src/routes/resetPassword/+page.server.ts
 import { fail } from '@sveltejs/kit';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
 import { establishSessionFromAuthRedirect } from '$lib/server/authCallback';
+import { isRecoverySession, verifyCurrentPassword } from '$lib/server/recoverySession';
+import { logger } from '$lib/utils/logger';
 import type { Actions, PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
@@ -18,17 +21,24 @@ export const load: PageServerLoad = async (event) => {
 	// has the session from the first exchange, so this stays false then.
 	const linkError = !session;
 
+	// A session that did not just come from an emailed reset link has to confirm
+	// the current password before it can set a new one.
+	const requiresCurrentPassword =
+		!!session && !(await isRecoverySession(event.locals.supabase.auth));
+
 	return {
 		session,
-		linkError
+		linkError,
+		requiresCurrentPassword
 	};
 };
 
 export const actions: Actions = {
-	resetPass: async ({ request, locals }) => {
+	resetPass: async ({ request, locals, getClientAddress }) => {
 		const body = Object.fromEntries(await request.formData());
 		const password = String(body.password ?? '');
 		const confirmPassword = String(body.confirmPassword ?? '');
+		const currentPassword = String(body.currentPassword ?? '');
 
 		if (!password) {
 			return fail(400, {
@@ -58,18 +68,61 @@ export const actions: Actions = {
 			});
 		}
 
-		try {
-			// The recovery session was established in `load` (the recovery code/token
-			// was exchanged for a session there), so `updateUser` is authorized here.
-			const { data, error } = await locals.supabase.auth.updateUser({
-				password
+		const sessionUser = locals.session?.user;
+		if (!sessionUser?.id) {
+			return fail(401, {
+				error: 'This password reset link is invalid or has expired. Please request a new one.'
 			});
+		}
+
+		// Setting a password needs proof beyond being signed in: either the session
+		// just came from the emailed reset link, or the current password is confirmed.
+		const cameFromResetLink = await isRecoverySession(locals.supabase.auth);
+
+		if (!cameFromResetLink) {
+			if (!currentPassword || !sessionUser.email) {
+				return fail(400, {
+					error: 'Enter your current password to set a new one.',
+					requiresCurrentPassword: true
+				});
+			}
+
+			const decision = await consumeApiRateLimit({
+				bucket: 'password_change',
+				subject: resolveRateLimitSubject({
+					userId: sessionUser.id,
+					clientAddress: getClientAddress()
+				})
+			});
+			if (!decision.allowed) {
+				return fail(429, {
+					error: 'Too many attempts. Please wait a few minutes and try again.',
+					requiresCurrentPassword: true
+				});
+			}
+
+			const currentPasswordMatches = await verifyCurrentPassword({
+				userId: sessionUser.id,
+				email: sessionUser.email,
+				password: currentPassword
+			});
+			if (!currentPasswordMatches) {
+				return fail(400, {
+					error: 'Your current password is incorrect.',
+					requiresCurrentPassword: true
+				});
+			}
+		}
+
+		try {
+			const { error } = await locals.supabase.auth.updateUser(
+				cameFromResetLink ? { password } : { password, current_password: currentPassword }
+			);
 
 			if (error) {
-				// Password reset error
+				logger.error('Password update failed', error, { userId: sessionUser.id });
 				return fail(500, {
-					error: 'Failed to reset password. The reset link may have expired.',
-					details: error.message
+					error: 'Failed to reset password. The reset link may have expired.'
 				});
 			}
 
@@ -80,7 +133,9 @@ export const actions: Actions = {
 				message: 'Password has been reset successfully!'
 			};
 		} catch (err) {
-			// Unexpected error during password reset
+			logger.error('Unexpected password update failure', err as Error, {
+				userId: sessionUser.id
+			});
 			return fail(500, {
 				error: 'An unexpected error occurred. Please try again.'
 			});

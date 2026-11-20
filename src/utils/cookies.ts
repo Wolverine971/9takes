@@ -6,7 +6,10 @@ export const setCookie = (name: string, value: string, days?: number): void => {
 		date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
 		expires = '; expires=' + date.toUTCString();
 	}
-	document.cookie = name + '=' + (value || '') + expires + '; path=/';
+	// Secure only on https, so the cookie still sets on http://localhost in dev.
+	const secure =
+		typeof location !== 'undefined' && location.protocol === 'https:' ? '; Secure' : '';
+	document.cookie = name + '=' + (value || '') + expires + '; path=/; SameSite=Lax' + secure;
 };
 export const getCookie = (name: string): string | null => {
 	const nameEQ = name + '=';

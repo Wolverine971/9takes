@@ -55,3 +55,13 @@ docs/content-analysis/perspective-reviews/
 /artifacts/
 /Freshies*/
 /outputs/
+
+# Machine-local files that were tracked by mistake (untracked 2026-11-20; files stay on disk)
+.claude/settings.local.json
+.pnpm-store/
+.playwright-cli/
+supabase/.temp/
+*.bak
+
+# Internal working notes, kept local-only (untracked 2026-11-20; files stay on disk)
+docs/security/

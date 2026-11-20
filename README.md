@@ -7,7 +7,7 @@
 9takes is a personality-based Q&A and content platform built around the Enneagram. Readers ask anonymous questions, swap perspectives with a "give-first" comment system, and dig into celebrity and pop-culture personality analyses.
 
 - **Live site**: [9takes.com](https://9takes.com)
-- **Stack**: SvelteKit 2 + Svelte 5, Supabase (Postgres), Elasticsearch, TailwindCSS + SCSS, deployed on Vercel
+- **Stack**: SvelteKit 2 + Svelte 5, Supabase (Postgres), TailwindCSS + SCSS, deployed on Vercel
 - **Content**: MDsvex blogs + DB-backed personality analyses
 
 ## Why the name
@@ -32,7 +32,6 @@ See [CLAUDE.md](./CLAUDE.md) for a thorough map of routes, admin sections, API e
 - Node `>=22`
 - pnpm `>=8`
 - Supabase project + service role key
-- Elasticsearch instance (for questions search)
 - A populated `.env.local` — see the Environment Variables section of [CLAUDE.md](./CLAUDE.md#environment-variables)
 
 ## Quick start
@@ -84,7 +83,7 @@ See [test cleanup and priorities](docs/development/testing-priorities.md) for co
 
 The repo deploys on Vercel via `@sveltejs/adapter-vercel`. `pnpm build:vercel` runs the personality-image-map, corpus-stats, sitemap, and llms.txt generators before building, so they stay in sync in production. `pnpm build` also enforces build budgets (`scripts/check-build-budgets.mjs`).
 
-Cron endpoints (`src/routes/api/cron/*`) are triggered on schedule and require a `CRON_SECRET` bearer. The `/api/update-questions` webhook requires `PRIVATE_WEBHOOK_AUTH`.
+Cron endpoints (`src/routes/api/cron/*`) are triggered on schedule and require a `CRON_SECRET` bearer.
 
 ## Contributing notes
 

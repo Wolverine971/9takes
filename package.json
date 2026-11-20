@@ -89,7 +89,8 @@
 		"seo:normalize-internal-personality-links": "node scripts/normalize-internal-personality-links.js",
 		"submit:indexnow": "node scripts/submit-indexnow.mjs",
 		"test:smoke": "playwright test",
-		"audit:security": "pnpm audit --audit-level=low"
+		"audit:security": "pnpm audit --audit-level=high",
+		"test:db-rules": "./scripts/security/db-probes.sh"
 	},
 	"devDependencies": {
 		"@babel/parser": "^7.29.9",
@@ -97,9 +98,9 @@
 		"@babel/types": "^7.29.8",
 		"@eslint/js": "^10.0.1",
 		"@playwright/test": "^1.63.0",
-		"@sveltejs/adapter-vercel": "^6.3.4",
+		"@sveltejs/adapter-vercel": "^6.3.5",
 		"@sveltejs/enhanced-img": "^0.11.0",
-		"@sveltejs/kit": "^2.70.3",
+		"@sveltejs/kit": "^2.70.4",
 		"@sveltejs/vite-plugin-svelte": "^7.3.0",
 		"@tailwindcss/typography": "^0.5.20",
 		"@testing-library/svelte": "^5.4.2",
@@ -136,7 +137,7 @@
 		"tsx": "^4.23.15",
 		"typescript": "^6.0.3",
 		"vite": "^8.3.3",
-		"vitest": "^5.0.1"
+		"vitest": "^5.0.3"
 	},
 	"browser": {
 		"crypto": false
@@ -148,7 +149,6 @@
 	},
 	"dependencies": {
 		"@chenglou/pretext": "^0.0.8",
-		"@elastic/elasticsearch": "^8.19.2",
 		"@fontsource/anton": "^5.3.0",
 		"@fontsource/archivo": "^5.3.0",
 		"@fontsource/jetbrains-mono": "^5.3.0",
@@ -178,7 +178,7 @@
 		"remark-abbr": "^1.4.2",
 		"remark-github": "^11.2.4",
 		"resend": "6.25.0",
-		"sanitize-html": "2.18.0",
+		"sanitize-html": "2.18.1",
 		"sharp": "0.35.5",
 		"stripe": "^11.18.0",
 		"uuid": "^11.1.1",

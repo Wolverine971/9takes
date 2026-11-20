@@ -1,41 +1,55 @@
 // src/routes/intake/[token]/+page.server.ts
-// Public client-facing intake form - no auth required
+// Public client-facing intake form - no auth required.
+//
+// The consulting tables are admin-only for signed-in and anonymous clients, so
+// this page reads and writes through the service-role client. Every query is
+// scoped to the one intake form named by the token in the URL.
 
 import { error, fail } from '@sveltejs/kit';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { logger } from '$lib/utils/logger';
+import { intakeSubmissionSchema, intakeTokenSchema } from '$lib/validation/intakeSchemas';
 import type { Actions, PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ params, locals }) => {
-	const supabase = locals.supabase;
-	const { token } = params;
+const SUBMITTED_STATUSES = ['completed', 'reviewed'];
+// A client only moves forward to "intake completed" from these states.
+const CLIENT_STATUSES_AWAITING_INTAKE = ['prospect', 'intake_sent'];
 
-	// Validate token format (should be a UUID)
-	const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-	if (!uuidRegex.test(token)) {
+/** The intake id from the URL, or a 404 when it is not a UUID. */
+function requireIntakeToken(token: string): string {
+	const parsed = intakeTokenSchema.safeParse(token);
+	if (!parsed.success) {
 		throw error(404, 'Invalid intake form link');
 	}
+	return parsed.data;
+}
 
-	// Fetch the intake form and associated client
+export const load: PageServerLoad = async ({ params }) => {
+	const token = requireIntakeToken(params.token);
+	const supabase = getSupabaseAdminClient();
+
+	// Fetch the intake form and the client's first name for the greeting
 	const { data: intake, error: intakeError } = await supabase
 		.from('consulting_intake_forms')
 		.select(
 			`
 			id,
-			client_id,
 			status,
-			sent_at,
-			completed_at,
 			client:consulting_clients!consulting_intake_forms_client_id_fkey (
-				id,
 				name,
-				email,
 				enneagram_type
 			)
 		`
 		)
 		.eq('id', token)
-		.single();
+		.maybeSingle();
 
-	if (intakeError || !intake) {
+	if (intakeError) {
+		logger.error('Failed to load intake form', intakeError as unknown as Error);
+		throw error(500, 'We could not load this form. Please try again.');
+	}
+
+	if (!intake) {
 		throw error(404, 'Intake form not found or has expired');
 	}
 
@@ -43,20 +57,6 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 	const clientName = (intake.client as any)?.name?.split(' ')[0] || 'there';
 	const clientType = (intake.client as any)?.enneagram_type || null;
 
-	// Check if already completed
-	if (intake.status === 'completed' || intake.status === 'reviewed') {
-		return {
-			intake: {
-				id: intake.id,
-				status: intake.status,
-				clientName,
-				clientType
-			},
-			completed: true
-		};
-	}
-
-	// Return intake data for the form
 	return {
 		intake: {
 			id: intake.id,
@@ -64,103 +64,80 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 			clientName,
 			clientType
 		},
-		completed: false
+		completed: SUBMITTED_STATUSES.includes(intake.status ?? '')
 	};
 };
 
 export const actions: Actions = {
-	submit: async ({ request, params, locals }) => {
-		const supabase = locals.supabase;
-		const { token } = params;
-		const formData = await request.formData();
+	submit: async ({ request, params }) => {
+		const token = requireIntakeToken(params.token);
+		const supabase = getSupabaseAdminClient();
 
-		// Extract all form fields
-		const intakeData = {
-			// Section 1: Background
-			age_range: formData.get('age_range') as string,
-			occupation: formData.get('occupation') as string,
-			relationship_status: formData.get('relationship_status') as string,
-			living_situation: formData.get('living_situation') as string,
-
-			// Section 2: Current Situation
-			current_challenges: formData.get('current_challenges') as string,
-			desired_outcome: formData.get('desired_outcome') as string,
-			previous_attempts: formData.get('previous_attempts') as string,
-			urgency_level: formData.get('urgency_level') as string,
-
-			// Section 3: Personality Assessment
-			suspected_type: formData.get('suspected_type')
-				? parseInt(formData.get('suspected_type') as string)
-				: null,
-			why_this_type: formData.get('why_this_type') as string,
-			core_fear: formData.get('core_fear') as string,
-			core_desire: formData.get('core_desire') as string,
-			childhood_message: formData.get('childhood_message') as string,
-
-			// Section 4: Emotional Patterns
-			primary_emotion: formData.get('primary_emotion') as string,
-			emotion_expression: formData.get('emotion_expression') as string,
-			stress_response: formData.get('stress_response') as string,
-			comfort_response: formData.get('comfort_response') as string,
-
-			// Section 5: Relationships
-			relationship_patterns: formData.get('relationship_patterns') as string,
-			communication_style: formData.get('communication_style') as string,
-			conflict_style: formData.get('conflict_style') as string,
-
-			// Section 6: Goals
-			short_term_goals: formData.get('short_term_goals') as string,
-			long_term_goals: formData.get('long_term_goals') as string,
-			specific_scenarios: formData.get('specific_scenarios') as string,
-
-			// Section 7: Logistics
-			preferred_session_time: formData.get('preferred_session_time') as string,
-			timezone: formData.get('timezone') as string,
-			how_heard_about_us: formData.get('how_heard_about_us') as string,
-
-			// Status update
-			status: 'completed',
-			completed_at: new Date().toISOString(),
-			updated_at: new Date().toISOString()
-		};
-
-		// Validate required fields
-		if (!intakeData.current_challenges || !intakeData.desired_outcome) {
+		const parsed = intakeSubmissionSchema.safeParse(Object.fromEntries(await request.formData()));
+		if (!parsed.success) {
 			return fail(400, {
-				error: 'Please fill in the required fields (Current Challenges and Desired Outcome)'
+				error: parsed.error.issues[0]?.message ?? 'Please check your answers and try again.'
 			});
 		}
 
-		// Update the intake form
-		const { error: updateError } = await supabase
+		const { data: intake, error: intakeError } = await supabase
 			.from('consulting_intake_forms')
-			.update(intakeData)
-			.eq('id', token);
+			.select('id, client_id, status')
+			.eq('id', token)
+			.maybeSingle();
 
-		if (updateError) {
-			console.error('Failed to save intake:', updateError);
+		if (intakeError) {
+			logger.error('Failed to load intake form before saving', intakeError as unknown as Error);
 			return fail(500, { error: 'Failed to save your responses. Please try again.' });
 		}
 
-		// Get the client_id to update their status
-		const { data: intake } = await supabase
-			.from('consulting_intake_forms')
-			.select('client_id')
-			.eq('id', token)
-			.single();
-
-		if (intake?.client_id) {
-			// Update client status to intake_completed
-			await supabase
-				.from('consulting_clients')
-				.update({
-					status: 'intake_completed',
-					updated_at: new Date().toISOString()
-				})
-				.eq('id', intake.client_id);
+		if (!intake) {
+			throw error(404, 'Intake form not found or has expired');
 		}
 
-		// Redirect to thank you page (same page will show completion message)
+		// A submitted form is final; later posts to the same link change nothing.
+		if (SUBMITTED_STATUSES.includes(intake.status ?? '')) {
+			return fail(409, { error: 'This form has already been submitted.' });
+		}
+
+		const submittedAt = new Date().toISOString();
+
+		// Only the answer columns and the completion markers are written. The status
+		// filter repeats the check above so two simultaneous posts cannot both save.
+		const { data: saved, error: updateError } = await supabase
+			.from('consulting_intake_forms')
+			.update({
+				...parsed.data,
+				status: 'completed',
+				completed_at: submittedAt,
+				updated_at: submittedAt
+			})
+			.eq('id', token)
+			.or('status.is.null,status.in.(pending,sent)')
+			.select('id');
+
+		if (updateError) {
+			logger.error('Failed to save intake form', updateError as unknown as Error);
+			return fail(500, { error: 'Failed to save your responses. Please try again.' });
+		}
+
+		if (!saved?.length) {
+			return fail(409, { error: 'This form has already been submitted.' });
+		}
+
+		if (intake.client_id) {
+			const { error: clientError } = await supabase
+				.from('consulting_clients')
+				.update({ status: 'intake_completed', updated_at: submittedAt })
+				.eq('id', intake.client_id)
+				.or(`status.is.null,status.in.(${CLIENT_STATUSES_AWAITING_INTAKE.join(',')})`);
+
+			if (clientError) {
+				logger.error('Failed to mark client intake as completed', clientError as unknown as Error);
+			}
+		}
+
+		// The same page shows the completion message.
 		return { success: true };
 	}
 };

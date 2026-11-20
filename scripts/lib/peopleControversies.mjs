@@ -19,15 +19,17 @@ import path from 'node:path';
 
 export const VALID_STATUSES = new Set(['required', 'open']);
 
-/** Article body without YAML frontmatter or HTML comments (editor notes must not satisfy the gate). */
+/** Article body without YAML frontmatter or HTML comments (editor notes must not satisfy the gate).
+ * @param {string} markdown */
 export function articleBody(markdown) {
 	const withoutFrontmatter = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '');
 	return withoutFrontmatter.replace(/<!--[\s\S]*?-->/g, '');
 }
 
+/** @param {string} markdown */
 export function parsePersonDraft(markdown) {
 	const fm = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? '';
-	const field = (name) =>
+	const field = (/** @type {string} */ name) =>
 		fm
 			.match(new RegExp(`^${name}:\\s*(.+)$`, 'm'))?.[1]
 			?.trim()
@@ -39,8 +41,10 @@ export function parsePersonDraft(markdown) {
 	};
 }
 
-/** Validates registry shape; returns a list of human-readable problems. */
+/** Validates registry shape; returns a list of human-readable problems.
+ * @param {Record<string, any>} registry */
 export function validateRegistry(registry) {
+	/** @type {string[]} */
 	const problems = [];
 	for (const [slug, entries] of Object.entries(registry)) {
 		if (slug.startsWith('_')) continue;
@@ -73,14 +77,16 @@ export function validateRegistry(registry) {
 	return problems;
 }
 
-/** Which of an entry's patterns are missing from a body. */
+/** Which of an entry's patterns are missing from a body.
+ * @param {string} body
+ * @param {{mustMention: string[]}} entry */
 export function missingPatterns(body, entry) {
 	return entry.mustMention.filter((pattern) => !new RegExp(pattern, 'i').test(body));
 }
 
 /**
- * @param registry slug -> entries
- * @param people Map slug -> { published, body }
+ * @param {Record<string, any>} registry slug -> entries
+ * @param {Map<string, any>} people Map slug -> { published, body }
  * @returns {{ failures: object[], openGaps: object[], covered: object[] }}
  */
 export function evaluateControversies(registry, people) {
@@ -112,6 +118,7 @@ export function evaluateControversies(registry, people) {
 	return { failures, openGaps, covered };
 }
 
+/** @param {string} draftsDir */
 export function loadPeopleDrafts(draftsDir) {
 	const people = new Map();
 	for (const file of fs.readdirSync(draftsDir)) {

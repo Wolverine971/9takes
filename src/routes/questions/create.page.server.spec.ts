@@ -20,13 +20,6 @@ const { checkDemoTimeMock, mapDemoValuesMock, loggerMock, capturedInsertPayload 
 	}
 );
 
-vi.mock('$lib/server/elasticSearch', () => ({
-	createESQuestion: vi.fn(),
-	elasticClient: {
-		search: vi.fn()
-	}
-}));
-
 vi.mock('$lib/server/questionImages', () => ({
 	uploadQuestionImage: vi.fn()
 }));
@@ -45,10 +38,6 @@ vi.mock('../../utils/api', () => ({
 
 vi.mock('../../utils/demo', () => ({
 	mapDemoValues: mapDemoValuesMock
-}));
-
-vi.mock('../../utils/elasticSearch', () => ({
-	typeaheadQuery: vi.fn()
 }));
 
 vi.mock('../../utils/server/openai', () => ({

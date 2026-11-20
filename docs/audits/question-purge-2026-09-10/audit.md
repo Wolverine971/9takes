@@ -29,12 +29,12 @@ Anonymous contributions are treated as other/unknown participants. They are not 
 
 ## Account matching
 
-| Email                   | Status                                                    | Authored questions | Comment records, including replies/removals |
-| ----------------------- | --------------------------------------------------------- | -----------------: | ------------------------------------------: |
-| djwayne3@gmail.com      | Explicitly identified by user                             |                  3 |                                          15 |
-| djwayne35@gmail.com     | Explicitly identified by user; configured host identity   |                 55 |                                          93 |
-| mrwayner@protonmail.com | Likely requested ProtonMail account; confirmation pending |                  0 |                                           5 |
-| dj@build-os.com         | Additional DJ Wayne profile; confirmation pending         |                  0 |                                           1 |
+| Email               | Status                                                    | Authored questions | Comment records, including replies/removals |
+| ------------------- | --------------------------------------------------------- | -----------------: | ------------------------------------------: |
+| djwayne3@gmail.com  | Explicitly identified by user                             |                  3 |                                          15 |
+| djwayne35@gmail.com | Explicitly identified by user; configured host identity   |                 55 |                                          93 |
+| [redacted email]    | Likely requested ProtonMail account; confirmation pending |                  0 |                                           5 |
+| dj@build-os.com     | Additional DJ Wayne profile; confirmation pending         |                  0 |                                           1 |
 
 The account question was sent during the audit. No unconfirmed match is used to authorize a removal. #158 is additionally authored by another account, even if both its answerers prove to be DJ.
 

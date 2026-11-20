@@ -1,4 +1,5 @@
-import { test } from 'node:test';
+// scripts/lib/dailyPeoplePublish.test.mjs
+import { test } from 'vitest';
 import assert from 'node:assert/strict';
 import {
 	dailyReleaseState,

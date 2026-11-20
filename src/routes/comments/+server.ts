@@ -6,6 +6,7 @@ import type { Database } from '../../../database.types';
 
 import { getQuestionTakes } from '$lib/server/questionTakes';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 
 import { checkDemoTime } from '../../utils/api';
 
@@ -89,7 +90,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 		if (Boolean(validatedParams.before) !== Boolean(validatedParams.beforeId))
 			throw error(400, 'A complete cursor is required');
 		const demo_time = await checkDemoTime(supabase);
-		const cookie = cookies.get('9tfingerprint');
+		const cookie = readVisitorFingerprint(cookies) ?? undefined;
 
 		const parentId = validatedParams.parentId;
 		const parentType = validatedParams.type;

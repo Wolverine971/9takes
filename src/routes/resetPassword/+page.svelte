@@ -13,6 +13,7 @@
 
 	let { form, data }: { form: ActionData; data: PageData } = $props();
 
+	let currentPassword = $state('');
 	let password = $state('');
 	let confirmPassword = $state('');
 	let loading = $state(false);
@@ -29,8 +30,18 @@
 			/[a-z]/.test(password) &&
 			/[0-9]/.test(password)
 	);
+	// A session that did not arrive from the emailed link confirms the current password first.
+	let needsCurrentPassword = $derived(
+		data.requiresCurrentPassword ||
+			(!!form && 'requiresCurrentPassword' in form && form.requiresCurrentPassword === true)
+	);
 	let canSubmit = $derived(
-		!!password && !!confirmPassword && passwordsMatch && isValidPassword && !loading
+		!!password &&
+			!!confirmPassword &&
+			passwordsMatch &&
+			isValidPassword &&
+			(!needsCurrentPassword || !!currentPassword) &&
+			!loading
 	);
 	let passwordError = $derived(
 		password && !isValidPassword
@@ -107,6 +118,25 @@
 				};
 			}}
 		>
+			{#if needsCurrentPassword}
+				<Field
+					for="currentPassword"
+					label="Current password"
+					required
+					help="You're signed in, so confirm your current password to set a new one."
+				>
+					<Input
+						type="password"
+						id="currentPassword"
+						name="currentPassword"
+						bind:value={currentPassword}
+						required
+						autocomplete="current-password"
+						aria-describedby="currentPassword-help"
+					/>
+				</Field>
+			{/if}
+
 			<Field for="password" label="New password" required error={passwordError}>
 				<Input
 					type="password"
@@ -152,6 +182,13 @@
 				Reset Password
 			</Button>
 		</form>
+
+		{#if needsCurrentPassword}
+			<form action="/logout" method="POST" class="forgot-current">
+				<span>Don't remember it?</span>
+				<button type="submit" class="link-button">Log out to request a reset link</button>
+			</form>
+		{/if}
 	{/if}
 
 	<div class="back-link">
@@ -206,6 +243,30 @@
 		background: color-mix(in srgb, var(--error) 10%, transparent);
 		border: 1px solid color-mix(in srgb, var(--error) 28%, transparent);
 		border-radius: 0.625rem;
+	}
+
+	.forgot-current {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.35rem;
+		margin-top: 1rem;
+		font-size: var(--font-size-sm);
+		color: var(--text);
+	}
+
+	.link-button {
+		padding: 0;
+		font: inherit;
+		color: var(--highlight);
+		background: none;
+		border: 0;
+		cursor: pointer;
+
+		&:hover {
+			color: var(--text);
+			text-decoration: underline;
+		}
 	}
 
 	.back-link {

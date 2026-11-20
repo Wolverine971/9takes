@@ -23,6 +23,7 @@ import {
 import type { Emotion, TestType } from '$lib/enneagramTest/content';
 import { sendEmail, type SendEmailOptions, type SendEmailResult } from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
+import { GLOBAL_RATE_LIMIT_SUBJECT, consumeApiRateLimit } from '$lib/server/apiRateLimit';
 import { logger } from '$lib/utils/logger';
 
 const BASE_URL = 'https://9takes.com';
@@ -281,9 +282,32 @@ export function stopTestNotifications(db: Db, resultToken: string): Promise<bool
 // "Email me this result"
 // ---------------------------------------------------------------------------
 
+/**
+ * Daily send budget for test emails. The address is typed in by whoever holds
+ * the result link and is never confirmed, so one address only gets so many of
+ * these a day across every result, and the site only sends so many in total.
+ * The per-address bucket is charged first so one address cannot spend the
+ * site-wide budget.
+ */
+export async function consumeTestEmailBudget(email: string): Promise<boolean> {
+	const recipient = await consumeApiRateLimit({
+		bucket: 'enneagram_test_email_recipient',
+		subject: `email:${email}`
+	});
+	if (!recipient.allowed) return false;
+
+	const site = await consumeApiRateLimit({
+		bucket: 'enneagram_test_email_global',
+		subject: GLOBAL_RATE_LIMIT_SUBJECT
+	});
+	return site.allowed;
+}
+
 export type ResultEmailDependencies = {
 	send?: (options: SendEmailOptions) => Promise<SendEmailResult>;
 	suppressedEmails?: (db: Db, emails: string[]) => Promise<Set<string>>;
+	/** False when today's send budget for this address, or the site, is spent. */
+	emailBudget?: (email: string) => Promise<boolean>;
 };
 
 export type ResultEmailOutcome = 'sent' | 'capped' | 'suppressed' | 'no_email' | 'failed';
@@ -315,6 +339,7 @@ export async function sendTestResultEmail(
 	try {
 		const suppressed = await (dependencies.suppressedEmails ?? getSuppressedEmailSet)(db, [email]);
 		if (suppressed.has(email)) return 'suppressed';
+		if (!(await (dependencies.emailBudget ?? consumeTestEmailBudget)(email))) return 'capped';
 
 		const message = buildResultEmail({ resultToken: result.result_token, types });
 		const sent = await (dependencies.send ?? sendEmail)({
@@ -436,6 +461,8 @@ export async function getReadContext(
 export type FriendReadDependencies = {
 	send?: (options: SendEmailOptions) => Promise<SendEmailResult>;
 	suppressedEmails?: (db: Db, emails: string[]) => Promise<Set<string>>;
+	/** False when today's send budget for this address, or the site, is spent. */
+	emailBudget?: (email: string) => Promise<boolean>;
 };
 
 export type FriendReadOutcome = {
@@ -481,7 +508,7 @@ export async function submitFriendRead(
 		readId: (inserted as { id: number } | null)?.id ?? null,
 		pickedType: input.pickedType as TestType,
 		readerName: blankToNull(input.readerName),
-		note: blankToNull(input.note),
+		hasNote: Boolean(blankToNull(input.note)),
 		types,
 		dependencies
 	});
@@ -496,7 +523,7 @@ async function notifyTestTaker(
 		readId: number | null;
 		pickedType: TestType;
 		readerName: string | null;
-		note: string | null;
+		hasNote: boolean;
 		types: TestType[];
 		dependencies: FriendReadDependencies;
 	}
@@ -509,13 +536,15 @@ async function notifyTestTaker(
 			email
 		]);
 		if (suppressed.has(email)) return false;
+		// Over budget: the read is already saved, so skip the email quietly.
+		if (!(await (read.dependencies.emailBudget ?? consumeTestEmailBudget)(email))) return false;
 
 		const message = buildFriendReadEmail({
 			resultToken: result.result_token,
 			readerName: read.readerName,
 			pickedType: read.pickedType,
 			types: read.types,
-			note: read.note
+			hasNote: read.hasNote
 		});
 		const sent = await (read.dependencies.send ?? sendEmail)({
 			to: email,
@@ -566,14 +595,47 @@ export function testReadUrl(readToken: string): string {
 	return `${BASE_URL}/enneagram-test/read/${encodeURIComponent(readToken)}`;
 }
 
+const READER_NAME_FALLBACK = 'A friend';
+const READER_NAME_EMAIL_MAX_CHARS = 30;
+// A scheme, "www.", an "@", or a dotted word such as name.tld.
+const LINK_SHAPED = /:\/\/|www\.|@|[\p{L}\p{N}-]\.\p{L}{2,}/iu;
+
+/**
+ * The friend's name as the email may show it. The name is typed by whoever
+ * holds the link and the email goes to an address nobody confirmed, so the
+ * email carries a plain name only: letters, spaces, apostrophes and hyphens.
+ * Anything link-shaped, or with no letters left, becomes "A friend". The result
+ * page still shows the name exactly as the friend wrote it.
+ */
+export function safeReaderDisplayName(value: string | null | undefined): string {
+	const raw = (value ?? '').normalize('NFKC');
+	if (LINK_SHAPED.test(raw)) return READER_NAME_FALLBACK;
+
+	const cleaned = Array.from(
+		raw
+			.replace(/[^\p{L}\p{M}\s'’-]/gu, ' ')
+			.replace(/\s+/g, ' ')
+			.trim()
+	)
+		.slice(0, READER_NAME_EMAIL_MAX_CHARS)
+		.join('')
+		.trim();
+	return /\p{L}/u.test(cleaned) ? cleaned : READER_NAME_FALLBACK;
+}
+
+/**
+ * The "someone answered your link" email. It carries none of the friend's own
+ * words: a cleaned name and their pick only. A note stays on the result page.
+ */
 export function buildFriendReadEmail(input: {
 	resultToken: string;
 	readerName: string | null;
 	pickedType: TestType;
 	types: TestType[];
-	note: string | null;
+	hasNote: boolean;
 }) {
-	const who = input.readerName ?? 'Someone';
+	const who = safeReaderDisplayName(input.readerName);
+	const noteLine = input.hasNote ? 'They left you a note. It’s on your result page.' : '';
 	const picked = `${withArticle(input.pickedType)} (${TEST_TYPES[input.pickedType].name})`;
 	const yours = typeListWithArticles(input.types);
 	const resultUrl = testResultUrl(input.resultToken);
@@ -581,12 +643,12 @@ export function buildFriendReadEmail(input: {
 	const subject = `${who} read you as ${withArticle(input.pickedType)}`;
 
 	const htmlContent = `<p>${escapeHtml(who)} answered your Enneagram test link and read you as <strong>${escapeHtml(picked)}</strong>. You picked ${escapeHtml(yours)}.</p>
-${input.note ? `<p style="border-left: 3px solid #f59e0b; padding-left: 12px;">“${escapeHtml(input.note)}”</p>` : ''}
+${noteLine ? `<p>${escapeHtml(noteLine)}</p>` : ''}
 <p><a class="button" href="${resultUrl}">See the read</a></p>
 <p style="font-size: 13px; color: #69707a;">You’re getting this because you asked to hear when someone answers your test link. <a href="${stopUrl}">Stop these emails</a>.</p>`;
 
 	const plainTextContent = `${who} answered your Enneagram test link and read you as ${picked}. You picked ${yours}.
-${input.note ? `\n“${input.note}”\n` : ''}
+${noteLine ? `\n${noteLine}\n` : ''}
 See the read: ${resultUrl}
 
 You’re getting this because you asked to hear when someone answers your test link.

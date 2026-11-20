@@ -130,7 +130,7 @@ async function measure(browser, path, variant) {
 						/<img src="(\/blogs\/)([^"]+)" srcset="[^"]*"([^>]*class="image-card__img)/,
 						(m, dir, file, rest) => `<img src="${dir}s-${file.replace(/^s-/, '')}"${rest}`
 					);
-					html = html.replace(/(\/types\/[^"\/]+\/)(?!s-)([^"\/]+\.webp)/g, (m, dir, file) =>
+					html = html.replace(/(\/types\/[^"/]+\/)(?!s-)([^"/]+\.webp)/g, (m, dir, file) =>
 						/class="portrait-image|rel="preload"/.test(html) ? `${dir}s-${file}` : m
 					);
 				}

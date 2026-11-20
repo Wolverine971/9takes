@@ -12,10 +12,9 @@
 // Anonymity: the only actor identity available is notifications.actor_enneagram
 // ('1'..'9' | 'unknown' | 'rando'). The email never names the replier.
 
-import { createHmac, timingSafeEqual } from 'node:crypto';
-import { SUPABASE_SERVICE_KEY } from '$env/static/private';
 import { sendEmail, type SendEmailResult } from '$lib/email/sender';
 import { normalizeEmail } from '$lib/email/suppression';
+import { signLinkPayload, verifyLinkSignature } from '$lib/server/linkSigning';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 const BASE_URL = 'https://9takes.com';
@@ -61,7 +60,7 @@ type Dependencies = {
 	supabase?: any;
 	send?: (options: Parameters<typeof sendEmail>[0]) => Promise<SendEmailResult>;
 	limit?: number;
-	/** Signing secret override for tests. Defaults to SUPABASE_SERVICE_KEY. */
+	/** Signing secret override for tests. Defaults to the keys in linkSigning.ts. */
 	secret?: string;
 };
 
@@ -71,7 +70,7 @@ type Dependencies = {
 //
 // Signed, not encrypted: the payload is only a user id and a purpose. No
 // expiry on purpose; an unsubscribe link in a year-old email must still work.
-// Same HMAC pattern as replyNotificationReturn.ts.
+// Signed and verified through linkSigning.ts, like replyNotificationReturn.ts.
 
 const UNSUBSCRIBE_PURPOSE = 'email_replies';
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
@@ -82,16 +81,6 @@ type UnsubscribePayload = {
 	purpose: typeof UNSUBSCRIBE_PURPOSE;
 };
 
-function getSigningSecret(explicitSecret?: string): string {
-	const secret = explicitSecret || SUPABASE_SERVICE_KEY;
-	if (!secret) throw new Error('Reply email unsubscribe signing secret is not configured');
-	return secret;
-}
-
-function signPayload(payload: string, secret: string): string {
-	return createHmac('sha256', secret).update(payload).digest('base64url');
-}
-
 export function signEmailRepliesUnsubscribeToken(
 	userId: string,
 	options: { secret?: string } = {}
@@ -99,7 +88,7 @@ export function signEmailRepliesUnsubscribeToken(
 	if (!UUID_PATTERN.test(userId)) throw new Error('Unsubscribe token requires a user id');
 	const payload: UnsubscribePayload = { version: 1, userId, purpose: UNSUBSCRIBE_PURPOSE };
 	const encoded = Buffer.from(JSON.stringify(payload)).toString('base64url');
-	return `${encoded}.${signPayload(encoded, getSigningSecret(options.secret))}`;
+	return `${encoded}.${signLinkPayload(encoded, { secret: options.secret })}`;
 }
 
 /** Returns the user id the token was issued for, or null if it is not ours. */
@@ -111,15 +100,7 @@ export function verifyEmailRepliesUnsubscribeToken(
 	const [encoded, signature, extra] = token.split('.');
 	if (!encoded || !signature || extra) return null;
 
-	const expected = signPayload(encoded, getSigningSecret(options.secret));
-	const signatureBuffer = Buffer.from(signature);
-	const expectedBuffer = Buffer.from(expected);
-	if (
-		signatureBuffer.length !== expectedBuffer.length ||
-		!timingSafeEqual(signatureBuffer, expectedBuffer)
-	) {
-		return null;
-	}
+	if (!verifyLinkSignature(encoded, signature, { secret: options.secret })) return null;
 
 	try {
 		const parsed: unknown = JSON.parse(Buffer.from(encoded, 'base64url').toString('utf8'));

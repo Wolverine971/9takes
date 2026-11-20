@@ -3,6 +3,7 @@ import { dev } from '$app/environment';
 import type { LayoutServerLoad } from './$types';
 import { getPublicEditorialCachePath } from '$lib/server/contentAccessGuard';
 import { logger } from '$lib/utils/logger';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 
 export const load: LayoutServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -19,7 +20,7 @@ export const load: LayoutServerLoad = async (event) => {
 		if (profileError) {
 			logger.warn('Failed to load user admin flag in layout', profileError);
 		} else {
-			const fingerprint = event.cookies.get('9tfingerprint');
+			const fingerprint = readVisitorFingerprint(event.cookies);
 			const typedProfile = profile as {
 				admin?: boolean | null;
 				first_visit_at?: string | null;

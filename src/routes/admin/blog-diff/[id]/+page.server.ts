@@ -3,6 +3,7 @@ import type { PageServerLoad } from './$types';
 import { error, isHttpError } from '@sveltejs/kit';
 import type { Database } from '../../../../../database.types';
 import { loadPeopleDraftVersion } from '$lib/server/peopleDraftVersion';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 type BlogRow = Pick<
 	Database['public']['Tables']['blogs_famous_people']['Row'],
@@ -23,6 +24,8 @@ type VersionEntry = {
 };
 
 export const load: PageServerLoad = async ({ params, locals }) => {
+	// This load checks admin itself; it does not rely on the layout load having run.
+	await requireAdmin(locals);
 	const blogId = parseInt(params.id as string);
 
 	if (isNaN(blogId)) {

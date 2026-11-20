@@ -2,7 +2,12 @@
 import { json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import {
+	normalizeVisitorFingerprint,
+	readVisitorFingerprint
+} from '$lib/server/visitorFingerprint';
 import { logger } from '$lib/utils/logger';
 
 const requestSchema = z.object({
@@ -15,20 +20,31 @@ const requestSchema = z.object({
 	fingerprint: z.string().trim().min(1).max(100).optional()
 });
 
-export const POST: RequestHandler = async ({ request, locals, cookies }) => {
+export const POST: RequestHandler = async ({ request, locals, cookies, getClientAddress }) => {
 	const parsed = requestSchema.safeParse(await request.json().catch(() => null));
 	if (!parsed.success) {
 		return json({ error: 'invalid_request' }, { status: 400 });
 	}
 
 	const { enneagramType, questionUrl } = parsed.data;
-	const rawFingerprint = cookies.get('9tfingerprint') ?? parsed.data.fingerprint ?? null;
 	const fingerprint =
-		rawFingerprint && rawFingerprint.trim().length <= 100 ? rawFingerprint.trim() : null;
+		readVisitorFingerprint(cookies) ?? normalizeVisitorFingerprint(parsed.data.fingerprint);
 	const userId = locals.user?.id ?? locals.session?.user?.id ?? null;
 
 	if (!fingerprint && !userId) {
 		return json({ error: 'missing_identity' }, { status: 400 });
+	}
+
+	// Keyed on session or IP: the visitor id above comes from the caller.
+	const rateLimit = await consumeApiRateLimit({
+		bucket: 'nine_type',
+		subject: resolveRateLimitSubject({ userId, clientAddress: getClientAddress() })
+	});
+	if (!rateLimit.allowed) {
+		return json(
+			{ error: 'rate_limited' },
+			{ status: 429, headers: { 'Retry-After': String(rateLimit.retryAfterSeconds) } }
+		);
 	}
 
 	const admin = getSupabaseAdminClient() as any;

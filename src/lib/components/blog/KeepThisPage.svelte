@@ -17,7 +17,7 @@
 
 	let email = $state('');
 	let formExtra = $state('');
-	let status = $state<'idle' | 'sending' | 'sent' | 'already'>('idle');
+	let status = $state<'idle' | 'sending' | 'sent'>('idle');
 	let error = $state('');
 	let formLoadTime = Date.now();
 
@@ -50,9 +50,6 @@
 			if (result.ok) {
 				status = 'sent';
 				markKeepPageDone();
-			} else if (result.code === 'already_exists') {
-				status = 'already';
-				markKeepPageDone();
 			} else {
 				status = 'idle';
 				error = result.message || 'We couldn’t send that. Please try again.';
@@ -67,11 +64,9 @@
 <aside class="keep-page" aria-labelledby="keep-page-title" data-beta-skip>
 	<p class="title" id="keep-page-title">Coming back to this page?</p>
 	{#if status === 'sent'}
-		<p class="body" role="status">Sent. The link is in your inbox.</p>
-	{:else if status === 'already'}
 		<p class="body" role="status">
-			That address is already on the 9takes list, so we didn’t send another email. Bookmark this
-			page instead.
+			Check your inbox for the link. Already on the 9takes list? We didn’t email you again, so
+			bookmark this page instead.
 		</p>
 	{:else}
 		<p class="body">We’ll email you the link so you can stop searching for it.</p>

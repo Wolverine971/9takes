@@ -1,11 +1,13 @@
 // src/routes/admin/consulting/sessions/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { error as httpError } from '@sveltejs/kit';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 const SESSION_PAGE_SIZE = 100;
 
 export const load: PageServerLoad = async ({ locals, url }) => {
-	const supabase = locals.supabase;
+	// This load checks admin itself; it does not rely on the layout load having run.
+	const { supabase } = await requireAdmin(locals);
 
 	// Get filter params
 	const view = url.searchParams.get('view') || 'upcoming';

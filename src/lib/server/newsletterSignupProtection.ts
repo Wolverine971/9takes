@@ -19,7 +19,12 @@ export type NewsletterSignupProtectionState = {
 	authAbuse: boolean;
 	rateLimited: boolean;
 	retryAfterSeconds?: number;
-	reason?: 'identifier_auth_abuse' | 'ip_auth_abuse' | 'ip_rate_limit' | 'identifier_rate_limit';
+	reason?:
+		| 'identifier_auth_abuse'
+		| 'ip_auth_abuse'
+		| 'ip_rate_limit'
+		| 'identifier_rate_limit'
+		| 'protection_unavailable';
 };
 
 const NEWSLETTER_SIGNUP_EVENTS_TABLE = 'newsletter_signup_security_events';
@@ -107,7 +112,8 @@ async function countAuthEvents({
 	return count ?? 0;
 }
 
-async function countBestEffort(label: string, operation: Promise<number>): Promise<number> {
+/** Null when the count could not be read; the caller then refuses the signup. */
+async function countOrNull(label: string, operation: Promise<number>): Promise<number | null> {
 	try {
 		return await operation;
 	} catch (error) {
@@ -115,7 +121,7 @@ async function countBestEffort(label: string, operation: Promise<number>): Promi
 			label,
 			error
 		});
-		return 0;
+		return null;
 	}
 }
 
@@ -135,6 +141,7 @@ export async function getNewsletterSignupProtectionState({
 	const authSince = recentIso(AUTH_ABUSE_WINDOW_MS);
 	const countedNewsletterOutcomes: NewsletterSignupOutcome[] = [
 		'success',
+		'already_exists',
 		'honeypot',
 		'too_fast',
 		'bot_user_agent',
@@ -144,15 +151,8 @@ export async function getNewsletterSignupProtectionState({
 		'failed'
 	];
 
-	const [
-		recentNewsletterIpEvents,
-		recentNewsletterIdentifierEvents,
-		registerHoneypotByIdentifier,
-		forgotBlockedByIdentifier,
-		loginFailuresByIdentifier,
-		recentAuthIpEvents
-	] = await Promise.all([
-		countBestEffort(
+	const counts = await Promise.all([
+		countOrNull(
 			'newsletter_ip',
 			countNewsletterEvents({
 				supabase,
@@ -162,7 +162,7 @@ export async function getNewsletterSignupProtectionState({
 				outcomes: countedNewsletterOutcomes
 			})
 		),
-		countBestEffort(
+		countOrNull(
 			'newsletter_identifier',
 			countNewsletterEvents({
 				supabase,
@@ -172,7 +172,7 @@ export async function getNewsletterSignupProtectionState({
 				outcomes: countedNewsletterOutcomes
 			})
 		),
-		countBestEffort(
+		countOrNull(
 			'auth_register_honeypot_identifier',
 			countAuthEvents({
 				supabase,
@@ -183,7 +183,7 @@ export async function getNewsletterSignupProtectionState({
 				outcome: 'honeypot'
 			})
 		),
-		countBestEffort(
+		countOrNull(
 			'auth_forgot_blocked_identifier',
 			countAuthEvents({
 				supabase,
@@ -194,7 +194,7 @@ export async function getNewsletterSignupProtectionState({
 				outcome: ['captcha_failed', 'honeypot', 'rate_limited']
 			})
 		),
-		countBestEffort(
+		countOrNull(
 			'auth_login_failed_identifier',
 			countAuthEvents({
 				supabase,
@@ -205,7 +205,7 @@ export async function getNewsletterSignupProtectionState({
 				outcome: 'failed'
 			})
 		),
-		countBestEffort(
+		countOrNull(
 			'auth_ip',
 			countAuthEvents({
 				supabase,
@@ -215,6 +215,25 @@ export async function getNewsletterSignupProtectionState({
 			})
 		)
 	]);
+
+	// A limit that cannot be read is treated as reached, not as zero.
+	if (counts.some((count) => count === null)) {
+		return {
+			authAbuse: false,
+			rateLimited: true,
+			retryAfterSeconds: 60,
+			reason: 'protection_unavailable'
+		};
+	}
+
+	const [
+		recentNewsletterIpEvents,
+		recentNewsletterIdentifierEvents,
+		registerHoneypotByIdentifier,
+		forgotBlockedByIdentifier,
+		loginFailuresByIdentifier,
+		recentAuthIpEvents
+	] = counts as number[];
 
 	if (
 		registerHoneypotByIdentifier > 0 ||

@@ -100,6 +100,10 @@ export const STOCK_PHRASES = [
 	'deep dive'
 ];
 
+/**
+ * @param {string} markdown
+ * @returns {{data: Record<string, any>, body: string}}
+ */
 export function stripFrontmatter(markdown) {
 	try {
 		const parsed = matter(markdown);
@@ -111,6 +115,7 @@ export function stripFrontmatter(markdown) {
 	}
 }
 
+/** @param {string} text */
 export function plainText(text) {
 	return text
 		.replace(/<[^>]+>/g, ' ')
@@ -120,10 +125,12 @@ export function plainText(text) {
 		.replace(/[*_`]/g, '');
 }
 
+/** @param {string} text */
 export function countWords(text) {
 	return (plainText(text).match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g) ?? []).length;
 }
 
+/** @param {string} text */
 export function splitSentences(text) {
 	return plainText(text)
 		.replace(/\s+/g, ' ')
@@ -133,17 +140,20 @@ export function splitSentences(text) {
 }
 
 /** Author prose: the text with every quoted span removed. */
+/** @param {string} text */
 export function withoutQuotes(text) {
 	return plainText(text)
 		.replace(/"[^"]*"/g, ' ')
 		.replace(/“[^”]*”/g, ' ');
 }
 
+/** @param {string} text */
 export function quotedSpans(text) {
 	const plain = plainText(text);
 	return [...plain.matchAll(/"([^"]+)"|“([^”]+)”/g)].map((m) => m[1] ?? m[2]);
 }
 
+/** @param {string} block */
 function kindOf(block) {
 	const first = block.split('\n')[0];
 	if (/^#{1,6}\s/.test(first)) return 'heading';
@@ -157,6 +167,7 @@ function kindOf(block) {
 	return 'paragraph';
 }
 
+/** @param {string} body */
 export function splitBlocks(body) {
 	const cleaned = body
 		.replace(/<!--[\s\S]*?-->/g, '')
@@ -169,7 +180,7 @@ export function splitBlocks(body) {
 		if (!text) continue;
 		const kind = kindOf(text);
 		if (kind === 'heading') {
-			const level = text.match(/^#+/)[0].length;
+			const level = /** @type {RegExpMatchArray} */ (text.match(/^#+/))[0].length;
 			const title = text.split('\n')[0].replace(/^#+\s*/, '');
 			if (level <= 3) section = title;
 			blocks.push({ kind, text, level, title, section, words: 0 });
@@ -182,17 +193,19 @@ export function splitBlocks(body) {
 	return blocks;
 }
 
-const median = (values) => {
+const median = (/** @type {number[]} */ values) => {
 	if (!values.length) return 0;
 	const sorted = [...values].sort((a, b) => a - b);
 	return sorted[Math.floor(sorted.length / 2)];
 };
-const pct = (part, whole) => (whole ? Math.round((100 * part) / whole) : 0);
-const preview = (text, length = 70) => {
+const pct = (/** @type {number} */ part, /** @type {number} */ whole) =>
+	whole ? Math.round((100 * part) / whole) : 0;
+const preview = (/** @type {string} */ text, length = 70) => {
 	const flat = plainText(text).replace(/\s+/g, ' ').trim();
 	return flat.length > length ? `${flat.slice(0, length).trimEnd()}…` : flat;
 };
 
+/** @param {string} markdown */
 export function profile(markdown) {
 	const { data, body } = stripFrontmatter(markdown);
 	const blocks = splitBlocks(body);
@@ -204,6 +217,7 @@ export function profile(markdown) {
 	// longest run of long paragraphs, and longest stretch between breaks
 	let run = 0;
 	let longRun = 0;
+	/** @type {{words: number, start: any}} */
 	let stretch = { words: 0, start: null };
 	let unbroken = { words: 0, start: '', section: '' };
 	for (const block of blocks) {
@@ -300,6 +314,7 @@ export function profile(markdown) {
 	};
 }
 
+/** @type {Record<string, string[]>} */
 const FLAG_TEXT = {
 	medianParagraph: [
 		'Typical paragraph is heavy',
@@ -356,6 +371,10 @@ const FLAG_TEXT = {
 	]
 };
 
+/**
+ * @param {Record<string, any>} metrics
+ * @param {Record<string, {max?: number, min?: number}>} [limits]
+ */
 export function findFlags(metrics, limits = LIMITS) {
 	const flags = [];
 	for (const [key, limit] of Object.entries(limits)) {

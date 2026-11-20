@@ -2,6 +2,7 @@
 import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { isAuthApiError, isAuthWeakPasswordError } from '@supabase/supabase-js';
 import type { PageServerLoad } from './$types';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
 import { getAuthProtectionState, recordAuthProtectionEvent } from '$lib/server/authProtection';
 import { logger } from '$lib/utils/logger';
 import { verifyRecaptcha, isHoneypotTriggered } from '$lib/utils/recaptcha';
@@ -25,6 +26,17 @@ const registerSchema = z.object({
 	enneagram: z.enum(['1', '2', '3', '4', '5', '6', '7', '8', '9']).or(z.literal('')).optional()
 });
 
+// Supabase returns the existing row when an unconfirmed email signs up again, and
+// refuses a repeat inside its resend interval, so a row this old was not made here.
+const NEW_ACCOUNT_MAX_AGE_MS = 30 * 1000;
+
+function wasCreatedByThisRequest(createdAt: string | null | undefined): boolean {
+	const createdAtMs = createdAt ? Date.parse(createdAt) : Number.NaN;
+	return (
+		Number.isFinite(createdAtMs) && Math.abs(Date.now() - createdAtMs) <= NEW_ACCOUNT_MAX_AGE_MS
+	);
+}
+
 export const load: PageServerLoad = async (event) => {
 	const user = event.locals.user;
 	if (user?.id) {
@@ -47,6 +59,19 @@ export const actions: Actions = {
 		let normalizedEmail = '';
 
 		try {
+			// Counted and checked in one statement, so simultaneous attempts from one
+			// address cannot all slip past the slower checks below.
+			const burstDecision = await consumeApiRateLimit({
+				bucket: 'auth_register',
+				subject: resolveRateLimitSubject({ clientAddress: clientIP })
+			});
+			if (!burstDecision.allowed) {
+				return fail(429, {
+					error: 'Too many registration attempts. Please try again later.',
+					captchaRequired: true
+				});
+			}
+
 			const formData = await request.formData();
 			const body = Object.fromEntries(formData);
 			const rawEmail = typeof body.email === 'string' ? body.email : '';
@@ -174,7 +199,8 @@ export const actions: Actions = {
 
 			if (!isExistingConfirmedUser) {
 				const newUserId = signUpData.user?.id;
-				if (newUserId && enneagramType) {
+				// Profile fields are only written for an account this request created.
+				if (newUserId && enneagramType && wasCreatedByThisRequest(signUpData.user?.created_at)) {
 					const admin = getSupabaseAdminClient() as any;
 					const { error: profileTypeError } = await admin
 						.from('profiles')

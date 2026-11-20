@@ -3,6 +3,7 @@ import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
 import { recordHomepageFeatureImpression } from '$lib/server/questionDistribution';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 
 function parsePositiveInteger(value: unknown): number | null {
 	return typeof value === 'number' && Number.isSafeInteger(value) && value > 0 ? value : null;
@@ -22,7 +23,7 @@ export const POST: RequestHandler = async (event) => {
 	const questionId = parsePositiveInteger(
 		body && typeof body === 'object' ? (body as Record<string, unknown>).questionId : null
 	);
-	const fingerprint = event.cookies.get('9tfingerprint')?.trim();
+	const fingerprint = readVisitorFingerprint(event.cookies);
 
 	if (!featureRunId || !questionId || !fingerprint) {
 		return json({ recorded: false }, { status: 400 });

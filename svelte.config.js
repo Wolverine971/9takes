@@ -58,6 +58,15 @@ const themeScripts = [
 	)
 ].map((match) => `sha256-${createHash('sha256').update(match[1]).digest('base64')}`);
 
+// posthog-js loads its remote config as a script from /array/<project token>/config.js. The
+// token is the same public value the browser bundle is built with (Vite reads PUBLIC_* from
+// process.env first), so the policy can name this project's folder. Without it at build time
+// (a local build that only has .env) the whole /array/ folder stays allowed.
+const posthogToken = process.env.PUBLIC_POSTHOG_KEY ?? '';
+const posthogConfigScripts = /^[A-Za-z0-9_-]+$/.test(posthogToken)
+	? `https://us-assets.i.posthog.com/array/${posthogToken}/`
+	: 'https://us-assets.i.posthog.com/array/';
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: [
@@ -127,16 +136,23 @@ const config = {
 			mode: 'hash',
 			directives: {
 				'default-src': ['self'],
+				// Third-party hosts are listed by path (a source ending in `/` matches by prefix),
+				// because each of them also serves files this site never asks for.
 				'script-src': [
 					'self',
 					...themeScripts,
-					'https://www.googletagmanager.com',
+					// gtag.js and the tag destinations it loads (src/routes/+layout.svelte).
+					'https://www.googletagmanager.com/gtag/',
+					// Tag Assistant preview, which gtag.js requests only in debug mode.
+					'https://www.googletagmanager.com/debug/bootstrap',
 					'https://www.google.com/recaptcha/',
 					'https://www.gstatic.com/recaptcha/',
 					'https://challenges.cloudflare.com',
-					'https://us-assets.i.posthog.com',
-					'https://api.mapbox.com',
-					'https://cdn.ampproject.org',
+					// posthog-js lazy bundles (recorder, surveys, ...) and this project's remote config.
+					'https://us-assets.i.posthog.com/static/',
+					posthogConfigScripts,
+					// Mapbox GL and its geocoder plugin (src/lib/components/map/).
+					'https://api.mapbox.com/mapbox-gl-js/',
 					'https://cdn.jsdelivr.net/npm/medium-editor@5.23.3/dist/js/medium-editor.min.js'
 				],
 				'script-src-attr': ['none'],

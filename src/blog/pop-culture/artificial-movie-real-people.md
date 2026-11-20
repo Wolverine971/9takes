@@ -131,25 +131,77 @@ Altman has seen the trailer. "I mean, looks like an awful movie," he said at Ope
 
 Most people can't see it until December, so for now the best evidence is the premiere reviews. They describe a film that follows the real timeline but changes why people did what they did.
 
-|                      | The film, per reviews                       | The record                                      |
-| -------------------- | ------------------------------------------- | ----------------------------------------------- |
-| Where it starts      | 2003, with a teenage Sutskever and Hinton   | Sutskever studied under Hinton in Toronto       |
-| Why Altman was fired | He chases profit; Sutskever turns the board | The board's stated reason was candor            |
-| Who voted            | Reads as Sutskever's coup                   | Four directors voted together                   |
-| Altman               | "Changes his story" for each listener       | Disputed; WilmerHale found removal not mandated |
+The table keeps three things apart. The first column is what the film shows, according to critics who have seen it. The second is the official record: public statements, sworn testimony, and the one outside review. The third is the 9takes read, our interpretation of the emotion underneath, and it is labeled as interpretation.
 
-Film descriptions come from reviews in Deadline, Rolling Stone, and Awards Radar.
+|                      | The film, per reviews                                              | The official record                                                                                    | The 9takes read                                                                                    |
+| -------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| Where it starts      | 2003: a 17-year-old Sutskever walks into Professor Hinton's office | Close to true. Sutskever knocked on Hinton's door as a teenage undergrad, then did his PhD under him   | The fact holds. Opening on the worried mentor makes Sutskever's fear the film's point of view      |
+| Why Altman was fired | He chases profit, so Sutskever turns the board                     | The board cited candor. The outside review said the firing was about trust, not safety, pace, or money | Two alarms in one room. Sutskever feared where it was heading. Altman could not stand to fail      |
+| Who voted            | Reads as Sutskever's coup                                          | Four of six directors voted together. Sutskever's vote made the majority                               | Altman counted on relationships. Goodwill does not answer fear                                     |
+| Altman               | "Changes his story" for each listener                              | Disputed. The board said he wasn't candid. The review said his conduct didn't require firing him       | He doesn't think he's lying. Each version works alone, and he gets cornered when the versions meet |
 
-Deadline's review describes two breaking points for Sutskever. First, a model solves a problem by lying about it, and he says: "I thought AI could be like humans but better, not worse." Then, once ChatGPT takes off, Altman "goes for profit," and Sutskever "persuades the Board to fire him." In 2023 his written complaints were about Altman's honesty. The 52-page memo he sent the board opened: "Sam exhibits a consistent pattern of lying, undermining his execs, and pitting his execs against one another." His 2025 deposition showed that some of its claims had reached him secondhand and went unverified. Deadline also quotes a line that puts the candor question into dialogue: "A visionary is someone who lies to themselves. A liar is someone who lies to others. Which one is Altman?"
+Film descriptions come from reviews in Deadline, Rolling Stone, and Awards Radar. Here is each row in full.
 
-The reviews also skip three of the four directors who voted. None we read mentions D'Angelo, McCauley, or Toner, and in their telling the firing reads as Sutskever's act. Toner later explained her reasons publicly. Most of the cast is still unmatched to roles, so check this one in December.
+### Where it starts: the opening scene is close to true
+
+The reviews open the film in 2003, with a 17-year-old Sutskever walking into Geoffrey Hinton's office at the University of Toronto. Sutskever is the teenager in that scene. Hinton was a professor in his fifties.
+
+The official record backs it. Sutskever was born in 1986 and moved to Canada at 16. Hinton [tells the story himself](https://www.youtube.com/watch?v=4W5askrV-wY): a young student knocked on his office door, said he was cooking fries over the summer, and would rather be working in the lab. Hinton told him to make an appointment. "How about now," the student said. Sutskever finished a math degree in 2005 and stayed for a master's and a PhD under Hinton. The exact year and age are the film's. The record only puts the knock in his undergraduate years.
+
+The 9takes read: the scene is fair, and the choice to open on it tells you whose movie this is. Reviews say the film's Hinton keeps urging Sutskever to slow down. Start with the student and the worried mentor, and the audience spends twenty years inside Sutskever's fear before the board ever meets.
+
+### Why Altman was fired: the film says profit, the record says trust
+
+Deadline's review describes two breaking points for Sutskever. First, a model solves a problem by lying about it, and he says: "I thought AI could be like humans but better, not worse." Then, once ChatGPT takes off, Altman "goes for profit," and Sutskever "persuades the Board to fire him."
+
+The official record gives a different reason. The board's statement on November 17 said Altman had not been "consistently candid in his communications," and it never mentioned profit. Sutskever's own written complaints were about honesty too. The 52-page memo he sent the board opened: "Sam exhibits a consistent pattern of lying, undermining his execs, and pitting his execs against one another." His 2025 deposition showed that some of its claims had reached him secondhand and went unverified.
+
+Then came the outside review. OpenAI's new board hired the law firm WilmerHale, and in March 2024 the company [published a summary](https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/) of its findings. The summary said the firing "did not arise out of concerns regarding product safety or security, the pace of development," or OpenAI's finances. It called the firing the result of a "breakdown in the relationship and loss of trust" between Altman and the old board. So on paper, nobody fired Altman over profit. What the summary leaves out is what broke the trust. [The New Yorker](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted) later reported that OpenAI released about 800 words and no full report.
+
+The 9takes read: the film makes it a fight over money and the official record makes it a fight over candor. We read two different alarms going off in the same room.
+
+Sutskever's alarm is fear. He co-led the safety project, and his attention went to what could go wrong. His complaint, as he put it in 2026 testimony, was practical: an "environment where executives don't have the correct information" is not "conducive to reach any grand goal." If the information can't be trusted, the dangerous thing gets built blind. Blowing up the company was a cost he was willing to risk on Friday. By Monday, with OpenAI coming apart, that scared him too.
+
+Altman's alarm is shame. In his own words that week was "chaotic and shameful and upsetting." What he can't have is failing, in front of everyone, at the thing with his name on it. From outside that looks like pride: keep pushing, keep the mission moving, and smooth the telling when the plain version would slow things down. Sutskever's fear about where the technology was heading doesn't seem to have landed on him with the same weight. Losing the company did.
+
+Put the two together. A frightened scientist hears a CEO's smoothing as lying about the one thing that matters. The CEO hears the scientist's fear as a brake on the mission. That ends in a firing without either man being the film's villain.
+
+### Who voted: four directors, and the one vote that made a majority
+
+The reviews skip three of the four directors who voted. None we read mentions D'Angelo, McCauley, or Toner, and in their telling the firing reads as Sutskever's act. Most of the cast is still unmatched to roles, so check this one in December.
+
+The official record: OpenAI's board had six members. Altman and Brockman were two of them, and they were left out of the decision. The other four voted together: Sutskever, Adam D'Angelo, Tasha McCauley, and Helen Toner. The film's version has a true part. Sutskever wrote the memo and read Altman the news on the call, and without his vote the three outside directors had no majority. But the other three had reasons of their own. Toner later explained hers publicly, and The New Yorker reported that she and McCauley took Sutskever's memos as confirmation of what they already believed.
+
+The 9takes read: Altman kept score in relationships. Who trusted him, who was with him, who would pick up the phone. He was right about most of the building. 745 of OpenAI's 770 employees signed for him, and Microsoft had a team waiting by Monday. The same bonds are what brought him back in five days.
+
+What he missed was the fear in the boardroom. Goodwill settles the question of whether people like you. It does nothing for the question of whether they can believe you. Four directors carried that second doubt, and they voted on it together. Altman was tuned to the momentum of the company, and the logical end of four people's fear never seems to have registered. The four who could remove him did it on a video call he joined from a race weekend in Las Vegas.
+
+### Altman: a liar, or a man who believes each version?
+
+Reviews say Garfield's Altman "changes his story" depending on who is listening. Deadline quotes the line that turns the question into dialogue: "A visionary is someone who lies to themselves. A liar is someone who lies to others. Which one is Altman?"
+
+The official record is disputed, so take it in order. In 2023 the board said he was not "consistently candid." One of Sutskever's memos, per The New Yorker, worried about a leader who "just tells people what they want to hear."
+
+In March 2024, the WilmerHale summary said the old board had acted within its "broad discretion," and that Altman's conduct "did not mandate removal." In plain terms: the board had the authority to fire him, and the lawyers found nothing that forced it to. He rejoined the board. The summary does not say what broke the trust.
+
+The dispute kept going. Toner said in 2024 that Altman had given the board "inaccurate information." Murati, asked under oath whether he had been candid with her, said: "Not always." OpenAI's chairman Bret Taylor said in 2026: "He's been forthright with me and the other board members."
+
+Altman's own answer, in a [2025 Bloomberg interview](https://www.bloomberg.com/features/2025-sam-altman-interview/), was that the complaints were "an unfair characterization of a number of things." He conceded that board members "were not happy with the way that I tried to get them off the board," and added: "Lesson learned on that."
+
+The 9takes read starts with the film's own question, because it is the right one. On our read Altman sits on the visionary side of that line. He doesn't think he's lying. He tells each listener the version that keeps them on board and the mission moving, and each version, taken alone, is one he can defend. His own words fit. The complaints were "an unfair characterization," and he told The New Yorker that coming back under investigation felt like a "crazy cloud of suspicion."
+
+The trouble comes when the versions meet. Sutskever noticed it in 2017: "Your stated reasons have changed." Six years later his memo put Murati's material next to his own. A man who shades the story for one person at a time is fine until those people lay their versions on one table. Then he is cornered, and that is the week the film is about.
+
+Heart types manage how they are seen. Under pressure, that can turn into managing what each person hears. That is our read, and the record above is what it has to answer to.
+
+### What the reviews can't settle yet
 
 Details drift fast once a story becomes a movie. IndieWire's first-reactions roundup said Altman was forced out by "a board that included Elon Musk." Musk left that board in 2018. Whether the film repeats that mistake is still unknown.
 
 Every type on this page comes from an existing 9takes analysis built from the person's own words and documented actions: interviews, posts, sworn testimony, emails that became public. None comes from the trailer or the film. Garfield's choices about how Altman sounds when he's hurt, or how long he holds a pause, are evidence about Garfield, Rich, and Guadagnino.
 
 <InsightBox title="How to watch it">
-Keep two columns in your head while you watch: what the film shows and what the record shows. When a scene seems to explain someone, check which column it came from before you believe it.
+Keep three columns in your head while you watch: what the film shows, what the official record shows, and what is somebody's read, ours included. When a scene seems to explain someone, check which column it came from before you believe it.
 </InsightBox>
 
 ## What actually happened in November 2023

@@ -36,9 +36,10 @@ const AUTH_FLOW_RULES: Record<AuthFlow, AuthFlowRule> = {
 			ip: 3,
 			identifier: 3
 		},
+		// Failures against one email step up to CAPTCHA; only an IP is ever blocked
+		// outright, so an account stays reachable for its owner.
 		rateLimitThresholds: {
-			ip: 10,
-			identifier: 8
+			ip: 10
 		},
 		countedOutcomes: ['failed', 'captcha_failed']
 	},

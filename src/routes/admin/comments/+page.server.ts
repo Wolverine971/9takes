@@ -1,7 +1,6 @@
 // src/routes/admin/comments/+page.server.ts
-import { error, fail, redirect } from '@sveltejs/kit';
+import { error, fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
-import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Database } from '../../../../database.types';
@@ -10,6 +9,7 @@ import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 import { loadRouteDemoTime } from '$lib/server/demoTime';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 
 type CommentRow = Database['public']['Tables']['comments']['Row'];
 type CommentDemoRow = Database['public']['Tables']['comments_demo']['Row'];
@@ -67,42 +67,6 @@ function hasNextPage(count: number | null, loadedRows: number, page: number): bo
 function unwrapSettled<T>(result: PromiseSettledResult<T>): T {
 	if (result.status === 'rejected') throw result.reason;
 	return result.value;
-}
-
-/**
- * Validates if a user is an admin and returns the user data
- */
-async function validateAdmin(
-	session: App.Locals['session'],
-	demoTime: boolean,
-	supabase: AppSupabase
-) {
-	if (!session?.user?.id) {
-		throw redirect(302, '/questions');
-	}
-
-	const { data: user, error: findUserError } = await supabase
-		.from(demoTime ? 'profiles_demo' : 'profiles')
-		.select('id, admin, external_id')
-		.eq('id', session.user.id)
-		.single();
-
-	if (findUserError) {
-		logger.error('Error finding user', findUserError, {
-			userId: session.user.id
-		});
-		throw error(404, { message: 'Error searching for user' });
-	}
-
-	if (!user?.admin) {
-		logger.warn('Non-admin access attempt to admin page', {
-			userId: session.user.id,
-			externalId: user?.external_id
-		});
-		throw redirect(307, '/questions');
-	}
-
-	return user;
 }
 
 /**
@@ -295,7 +259,6 @@ async function attachCommentParents(
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	try {
-		const session = event.locals.session;
 		const locals = event.locals;
 		// Same cached switch the admin layout reads, so the guard and every query
 		// below can start together instead of after the layout.
@@ -309,7 +272,8 @@ export const load: PageServerLoad = async (event) => {
 		// Take text is service-role only (give-first wall), so the content reads
 		// below use the service client and start only once the admin check passes.
 		const contentDb = getSupabaseAdminClient();
-		const adminCheck = validateAdmin(session, isDemo, locals.supabase);
+		// Demo mode picks the data tables only; admin rights always come from `profiles`.
+		const adminCheck = requireAdmin(locals);
 		const afterAdmin = <T>(read: () => Promise<T>) => adminCheck.then(read);
 
 		// The layout guard (parent) and the admin check run in parallel; the
@@ -376,7 +340,7 @@ export const load: PageServerLoad = async (event) => {
 						)
 			]);
 		unwrapSettled(parentResult);
-		const user = unwrapSettled(adminResult);
+		const { profile } = unwrapSettled(adminResult);
 		const {
 			data: comments,
 			count: commentsCount,
@@ -386,7 +350,7 @@ export const load: PageServerLoad = async (event) => {
 		const { data: blogComments, count: blogCommentsCount } = unwrapSettled(blogResult);
 
 		return {
-			user,
+			user: { id: profile.id, admin: profile.admin },
 			comments: processedComments,
 			flaggedComments: (flaggedComments ?? []) as unknown as FlaggedComment[],
 			blogComments: (blogComments ?? []) as unknown as AdminBlogComment[],
@@ -408,12 +372,10 @@ export const load: PageServerLoad = async (event) => {
 	}
 };
 
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	removeComment: async ({ request, locals }) => {
 		const demoTime = await checkDemoTime(locals.supabase);
 		const isDemo = demoTime === true;
-
-		await validateAdmin(locals.session, isDemo, locals.supabase);
 
 		if (isDemo) {
 			return fail(400, {
@@ -486,8 +448,6 @@ export const actions: Actions = {
 		const demoTime = await checkDemoTime(locals.supabase);
 		const isDemo = demoTime === true;
 
-		await validateAdmin(locals.session, isDemo, locals.supabase);
-
 		if (isDemo) {
 			return fail(400, {
 				success: false,
@@ -554,4 +514,4 @@ export const actions: Actions = {
 			return fail(500, { success: false, message });
 		}
 	}
-};
+});

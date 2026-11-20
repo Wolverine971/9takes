@@ -37,7 +37,7 @@ The brand voice/positioning docs are coherent and current. The design system is 
 | `docs/daily-progress/`                                                                                           | duplicate of archives copy — delete one                  |
 | `seo-audit-9takes-2026-03-24.md`, `-03-27.md` (root)                                                             | `docs/audits/`                                           |
 | `blog-creator-restructure-plan.md` (root, executed)                                                              | archive                                                  |
-| `docs/security/` + `docs/migrations/` (stale since 2025-12)                                                      | update or archive with a note                            |
+| `docs/security/` (local-only since 2026-11-20) + `docs/migrations/` (stale since 2025-12)                        | update or archive with a note                            |
 | Dead commands: `.claude/commands/design-update.md` (teal/rose, contradicts amber brand), `twitter-warmup-old.md` | delete                                                   |
 
 ## 3. MOVE from root into docs/

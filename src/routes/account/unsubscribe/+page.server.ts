@@ -2,7 +2,7 @@
 import { error, redirect } from '@sveltejs/kit';
 import type { Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from '../$types';
-import { checkDemoTime } from '../../../utils/api';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import { encrypt } from '../../../utils/crypto';
 
 /** @type {import('./$types').PageLoad} */
@@ -13,19 +13,14 @@ export const load: PageServerLoad = async (event) => {
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
-	const { demo_time } = await event.parent();
-	const { data: user, error: findUserError } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('id, admin, external_id')
-		.eq('id', session?.user?.id)
-		.single();
 
-	if (findUserError) {
-		console.log(findUserError);
-		throw redirect(307, '/questions');
-	}
+	// This is an admin tool; admin rights always come from `profiles`.
+	const isAdmin = await requireAdmin(event.locals).then(
+		() => true,
+		() => false
+	);
 
-	if (!user?.admin) {
+	if (!isAdmin) {
 		throw redirect(307, '/questions');
 	}
 
@@ -43,32 +38,11 @@ export const load: PageServerLoad = async (event) => {
 	}
 };
 
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	createCypher: async (event) => {
 		try {
 			const { request, locals } = event;
-			const session = locals.session;
 			const supabase = locals.supabase;
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(supabase);
-
-			const { data: user, error: findUserError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single();
-
-			if (findUserError) {
-				console.log(findUserError);
-				throw error(400, 'unauthorized');
-			}
-
-			if (!user?.admin) {
-				throw error(400, 'unauthorized');
-			}
 
 			const body = Object.fromEntries(await request.formData());
 			const email = body.email as string;
@@ -89,43 +63,5 @@ export const actions: Actions = {
 			console.log(e);
 			throw error(400, 'error');
 		}
-	},
-	confirmUnsubscribe: async (event) => {
-		try {
-			const { request, locals } = event;
-			const session = locals.session;
-			const supabase = locals.supabase;
-
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(supabase);
-
-			const body = Object.fromEntries(await request.formData());
-
-			const first_name = body.firstName as string;
-			const last_name = body.lastName as string;
-			const enneagram = body.enneagram as string;
-
-			const email = body.email as string;
-
-			const { error: updateUserError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.update({ first_name, last_name, enneagram })
-				.eq('email', email);
-			// insert(userData);
-			if (!updateUserError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update user ${JSON.stringify(updateUserError)}`
-				});
-			}
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to update user ${JSON.stringify(e)}`
-			});
-		}
 	}
-};
+});

@@ -8,6 +8,7 @@ import { load as cheerioLoad } from 'cheerio';
 import type { z } from 'zod';
 
 import { supabase } from '$lib/supabase';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
 import { fetchPublicHtml } from '$lib/server/safeExternalFetch';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import type { createCommentSchema } from '$lib/validation/questionSchemas';
@@ -41,12 +42,16 @@ export async function checkRateLimit(
 	ip: string
 ): Promise<boolean> {
 	try {
-		const { data, error: rpcError } = await (supabase.rpc as any)('check_comment_rate_limit', {
-			p_fingerprint: fingerprint || null,
-			p_ip: ip,
-			p_max_comments: RATE_LIMIT_MAX_COMMENTS,
-			p_window_seconds: RATE_LIMIT_WINDOW_SECONDS
-		});
+		// Server-only RPC: it takes a caller-supplied IP and window.
+		const { data, error: rpcError } = await (getSupabaseAdminClient().rpc as any)(
+			'check_comment_rate_limit',
+			{
+				p_fingerprint: fingerprint || null,
+				p_ip: ip,
+				p_max_comments: RATE_LIMIT_MAX_COMMENTS,
+				p_window_seconds: RATE_LIMIT_WINDOW_SECONDS
+			}
+		);
 
 		if (rpcError) {
 			// Keep the posting limit enforced when its backing store is unavailable.
@@ -59,6 +64,20 @@ export async function checkRateLimit(
 		console.error('Rate limit check error:', err);
 		return false;
 	}
+}
+
+/**
+ * Atomic pace limit for take creation, keyed on the signed-in user or the
+ * client IP. Call it before checkRateLimit: that check counts takes already
+ * saved, so on its own it cannot see requests that arrive at the same moment.
+ * Returns true if the take may proceed.
+ */
+export async function consumeCommentPaceLimit(ip: string, userId: string | null): Promise<boolean> {
+	const decision = await consumeApiRateLimit({
+		bucket: 'question_comment',
+		subject: resolveRateLimitSubject({ userId, clientAddress: ip })
+	});
+	return decision.allowed;
 }
 
 export function resolveCommentAuthorId(
@@ -271,6 +290,24 @@ export async function parseUrls(comment: string, questionId: string): Promise<vo
 	}
 }
 
+const PREVIEW_IMAGE_MAX_LENGTH = 2048;
+
+/**
+ * A link-preview image is shown to every reader of the question, so only an
+ * absolute https URL is stored; anything else is dropped.
+ */
+export function previewImageUrl(value: unknown): string | null {
+	if (typeof value !== 'string') return null;
+	const trimmed = value.trim();
+	if (!trimmed || trimmed.length > PREVIEW_IMAGE_MAX_LENGTH) return null;
+	try {
+		const parsed = new URL(trimmed);
+		return parsed.protocol === 'https:' && parsed.hostname ? parsed.href : null;
+	} catch {
+		return null;
+	}
+}
+
 async function upsertDomain(domain: string): Promise<number> {
 	const { data, error: upsertError } = await (getSupabaseAdminClient().from('link_domains') as any)
 		.upsert({ domain, updated_at: new Date().toISOString() })
@@ -296,7 +333,7 @@ async function upsertLink(
 		question_id: questionId,
 		meta_title: ogData.title,
 		meta_description: ogData.description,
-		meta_image: ogData.image
+		meta_image: previewImageUrl(ogData.image)
 	});
 
 	if (upsertError) throw new Error(`Failed to upsert link: ${upsertError.message}`);

@@ -1,7 +1,13 @@
 // src/lib/server/enneagramTest.spec.ts
-import { describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
+
+const { consumeApiRateLimitMock } = vi.hoisted(() => ({ consumeApiRateLimitMock: vi.fn() }));
 
 vi.mock('$lib/email/sender', () => ({ sendEmail: vi.fn() }));
+vi.mock('$lib/server/apiRateLimit', () => ({
+	GLOBAL_RATE_LIMIT_SUBJECT: 'global',
+	consumeApiRateLimit: consumeApiRateLimitMock
+}));
 vi.mock('$lib/utils/logger', () => ({ logger: { error: vi.fn(), warn: vi.fn(), info: vi.fn() } }));
 
 import {
@@ -9,6 +15,7 @@ import {
 	assignQuestionsToTypes,
 	buildFriendReadEmail,
 	buildResultEmail,
+	consumeTestEmailBudget,
 	createTestResult,
 	friendReadInputSchema,
 	generateToken,
@@ -17,6 +24,7 @@ import {
 	getTestResultTypes,
 	isReadToken,
 	isResultToken,
+	safeReaderDisplayName,
 	sendTestResultEmail,
 	submitFriendRead,
 	testResultInputSchema,
@@ -90,6 +98,14 @@ const validInput = {
 	strength: 'fear' as const,
 	path: { altPrompt: false, mismatch: null, noneFit: false, tiebreak: null }
 };
+
+const allowed = { allowed: true, retryAfterSeconds: 86400, degraded: false };
+const denied = { allowed: false, retryAfterSeconds: 86400, degraded: false };
+
+beforeEach(() => {
+	consumeApiRateLimitMock.mockReset();
+	consumeApiRateLimitMock.mockResolvedValue(allowed);
+});
 
 describe('tokens', () => {
 	it('generates URL-safe tokens that pass their own patterns', () => {
@@ -322,6 +338,74 @@ describe('submitFriendRead', () => {
 		}
 	});
 
+	it('saves the read and skips the email quietly once the daily send budget is spent', async () => {
+		const { db, queries } = fakeDb((query) =>
+			query.action === 'select' ? { data: resultRow() } : { data: { id: 1 } }
+		);
+		const send = vi.fn();
+		const outcome = await submitFriendRead(db, 'readtoken123', read, {
+			send,
+			suppressedEmails: async () => new Set(),
+			emailBudget: async () => false
+		});
+
+		expect(outcome).toEqual({ types: [5, 6], displayName: 'Jordan', notified: false });
+		expect(queries.some((q) => q.action === 'insert' && q.table === 'enneagram_test_reads')).toBe(
+			true
+		);
+		expect(send).not.toHaveBeenCalled();
+		expect(queries.some((q) => q.action === 'update')).toBe(false);
+	});
+
+	it('charges the default budget to the recipient address, not to the result', async () => {
+		const { db } = fakeDb((query) =>
+			query.action === 'select' ? { data: resultRow() } : { data: { id: 1 } }
+		);
+		consumeApiRateLimitMock.mockResolvedValueOnce(denied);
+		const send = vi.fn();
+		const outcome = await submitFriendRead(db, 'readtoken123', read, {
+			send,
+			suppressedEmails: async () => new Set()
+		});
+
+		expect(outcome?.notified).toBe(false);
+		expect(send).not.toHaveBeenCalled();
+		expect(consumeApiRateLimitMock).toHaveBeenCalledTimes(1);
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'enneagram_test_email_recipient',
+			subject: 'email:me@example.com'
+		});
+	});
+
+	it('never puts the friend’s note or raw name in the email', async () => {
+		const { db } = fakeDb((query) =>
+			query.action === 'select' ? { data: resultRow() } : { data: { id: 1 } }
+		);
+		const send = vi
+			.fn()
+			.mockResolvedValue({ success: true, providerAttempted: true, retrySafe: false });
+		const loud = friendReadInputSchema.parse({
+			pickedType: 6,
+			emotion: 'fear',
+			strength: 'fear',
+			readerName: 'Visit promo.example now',
+			note: 'Claim it at https://promo.example/win today'
+		});
+		await submitFriendRead(db, 'readtoken123', loud, {
+			send,
+			suppressedEmails: async () => new Set(),
+			emailBudget: async () => true
+		});
+
+		const message = send.mock.calls[0][0];
+		expect(message.subject).toBe('A friend read you as a 6');
+		for (const part of [message.subject, message.htmlContent, message.plainTextContent]) {
+			expect(part).not.toContain('promo');
+			expect(part).not.toContain('Claim');
+		}
+		expect(message.plainTextContent).toContain('They left you a note. It’s on your result page.');
+	});
+
 	it('keeps the read when the email fails', async () => {
 		const { db } = fakeDb((query) =>
 			query.action === 'select' ? { data: resultRow() } : { data: { id: 1 } }
@@ -340,21 +424,98 @@ describe('submitFriendRead', () => {
 	});
 });
 
+describe('consumeTestEmailBudget', () => {
+	it('charges the recipient address, then the site-wide total', async () => {
+		expect(await consumeTestEmailBudget('me@example.com')).toBe(true);
+		expect(consumeApiRateLimitMock.mock.calls.map(([args]) => args)).toEqual([
+			{ bucket: 'enneagram_test_email_recipient', subject: 'email:me@example.com' },
+			{ bucket: 'enneagram_test_email_global', subject: 'global' }
+		]);
+	});
+
+	it('stops at a spent recipient budget without touching the site-wide total', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce(denied);
+		expect(await consumeTestEmailBudget('me@example.com')).toBe(false);
+		expect(consumeApiRateLimitMock).toHaveBeenCalledTimes(1);
+	});
+
+	it('refuses when the site-wide total is spent', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce(allowed).mockResolvedValueOnce(denied);
+		expect(await consumeTestEmailBudget('me@example.com')).toBe(false);
+	});
+});
+
+describe('safeReaderDisplayName', () => {
+	it('keeps ordinary names', () => {
+		for (const name of [
+			'Mom',
+			'Mary-Jane O’Neil',
+			"D'Angelo",
+			'José Núñez',
+			'李小龍',
+			'St. John'
+		]) {
+			expect(safeReaderDisplayName(name)).toBe(name.replace('.', ''));
+		}
+	});
+
+	it('drops everything but letters, spaces, apostrophes and hyphens', () => {
+		expect(safeReaderDisplayName('<b>Sam</b>')).toBe('b Sam b');
+		expect(safeReaderDisplayName('Sam 💥 #1!!')).toBe('Sam');
+		expect(safeReaderDisplayName('  Sam \n  Lee ')).toBe('Sam Lee');
+	});
+
+	it('caps the name at 30 characters', () => {
+		expect(safeReaderDisplayName('a'.repeat(40))).toBe('a'.repeat(30));
+	});
+
+	it('falls back to "A friend" for empty or link-shaped names', () => {
+		for (const name of [
+			null,
+			'',
+			'   ',
+			'12345',
+			'!!!',
+			'promo.example',
+			'Visit promo.example now',
+			'https://promo.example/win',
+			'www.promo',
+			'sam@example.com',
+			'ｐｒｏｍｏ．ｅｘａｍｐｌｅ'
+		]) {
+			expect(safeReaderDisplayName(name)).toBe('A friend');
+		}
+	});
+});
+
 describe('buildFriendReadEmail', () => {
-	it('escapes the friend’s words in HTML and keeps them in plain text', () => {
+	it('shows a cleaned name and the pick, and none of the friend’s own words', () => {
 		const email = buildFriendReadEmail({
 			resultToken: 'r'.repeat(24),
 			readerName: '<b>Sam</b>',
 			pickedType: 8,
 			types: [5, 6],
-			note: 'You "plan" & <script>'
+			hasNote: true
 		});
-		expect(email.subject).toBe('<b>Sam</b> read you as an 8');
-		expect(email.htmlContent).toContain('&lt;b&gt;Sam&lt;/b&gt;');
-		expect(email.htmlContent).not.toContain('<script>');
+		expect(email.subject).toBe('b Sam b read you as an 8');
+		expect(email.htmlContent).not.toContain('<b>');
 		expect(email.htmlContent).toContain('an 8 (The Challenger)');
+		expect(email.htmlContent).toContain('They left you a note.');
 		expect(email.plainTextContent).toContain('You picked a 5 or a 6.');
 		expect(email.stopUrl).toContain('/api/enneagram-test/stop/');
+	});
+
+	it('says nothing about a note when there is none, and names a nameless friend', () => {
+		const email = buildFriendReadEmail({
+			resultToken: 'r'.repeat(24),
+			readerName: null,
+			pickedType: 8,
+			types: [5],
+			hasNote: false
+		});
+		expect(email.subject).toBe('A friend read you as an 8');
+		expect(email.htmlContent).not.toContain('note');
+		expect(email.plainTextContent).not.toContain('note');
 	});
 });
 
@@ -427,6 +588,22 @@ describe('sendTestResultEmail', () => {
 			expect(send).not.toHaveBeenCalled();
 			expect(queries.some((q) => q.action === 'update')).toBe(false);
 		}
+	});
+
+	it('reports a spent daily send budget as capped and sends nothing', async () => {
+		const { db, queries } = fakeDb((query) => (query.action === 'select' ? { data: row() } : {}));
+		const send = vi.fn();
+		const emailBudget = vi.fn().mockResolvedValue(false);
+		const outcome = await sendTestResultEmail(db, token, {
+			send,
+			suppressedEmails: async () => new Set(),
+			emailBudget
+		});
+
+		expect(outcome).toBe('capped');
+		expect(emailBudget).toHaveBeenCalledWith('me@example.com');
+		expect(send).not.toHaveBeenCalled();
+		expect(queries.some((q) => q.action === 'update')).toBe(false);
 	});
 
 	it('reports a failed send without counting it', async () => {

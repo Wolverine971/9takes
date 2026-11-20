@@ -13,6 +13,7 @@ import {
 } from '$lib/server/bestEffortTelemetry';
 
 import type { PageServerLoad } from './$types';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 
 const MAX_POSTS = 6;
 const RAW_ENNEAGRAM_MODULES = import.meta.glob(
@@ -134,7 +135,7 @@ export const load: PageServerLoad = async (event) => {
 	const strategicQuestionUrl = (currentPost as { strategic_question_url?: unknown } | undefined)
 		?.strategic_question_url;
 	if (typeof strategicQuestionUrl === 'string' && strategicQuestionUrl) {
-		const fingerprint = event.cookies.get('9tfingerprint');
+		const fingerprint = readVisitorFingerprint(event.cookies);
 		if (fingerprint) {
 			runBestEffortTelemetry(
 				event,

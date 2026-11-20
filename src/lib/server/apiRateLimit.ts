@@ -29,7 +29,20 @@ export type RateLimitBucket =
 	| 'enneagram_test_result'
 	| 'enneagram_test_update'
 	| 'enneagram_test_read'
-	| 'blog_comment';
+	| 'blog_comment'
+	| 'enneagram_test_email_recipient'
+	| 'enneagram_test_email_global'
+	| 'newsletter_signup'
+	| 'question_comment'
+	| 'nine_type'
+	| 'link_click'
+	| 'talk_note_details'
+	| 'talk_note_session_alert'
+	| 'transcribe_global'
+	| 'chorus_mirror_global'
+	| 'auth_login'
+	| 'auth_register'
+	| 'password_change';
 
 export type RateLimitRule = {
 	limit: number;
@@ -47,8 +60,31 @@ export const RATE_LIMIT_RULES: Record<RateLimitBucket, RateLimitRule> = {
 	enneagram_test_update: { limit: 40, windowMs: 60 * 60 * 1000 },
 	enneagram_test_read: { limit: 15, windowMs: 60 * 60 * 1000 },
 	// Same pace as question takes: 5 per minute.
-	blog_comment: { limit: 5, windowMs: 60 * 1000 }
+	blog_comment: { limit: 5, windowMs: 60 * 1000 },
+	// Test emails: per recipient address, and across the whole site, per day.
+	enneagram_test_email_recipient: { limit: 10, windowMs: 24 * 60 * 60 * 1000 },
+	enneagram_test_email_global: { limit: 200, windowMs: 24 * 60 * 60 * 1000 },
+	// Looser than the 3-per-hour signup rule it sits in front of.
+	newsletter_signup: { limit: 6, windowMs: 60 * 60 * 1000 },
+	// Looser than the 5-per-minute take rule it sits in front of.
+	question_comment: { limit: 10, windowMs: 60 * 1000 },
+	nine_type: { limit: 20, windowMs: 10 * 60 * 1000 },
+	link_click: { limit: 30, windowMs: 60 * 1000 },
+	talk_note_details: { limit: 10, windowMs: 60 * 60 * 1000 },
+	// One session alert per note: the window outlasts the 24-hour details token.
+	talk_note_session_alert: { limit: 1, windowMs: 48 * 60 * 60 * 1000 },
+	// Site-wide daily ceilings on the paid model calls (subject GLOBAL_RATE_LIMIT_SUBJECT).
+	transcribe_global: { limit: 600, windowMs: 24 * 60 * 60 * 1000 },
+	chorus_mirror_global: { limit: 1500, windowMs: 24 * 60 * 60 * 1000 },
+	// Per-IP ceilings in front of the auth forms, looser than the rules in authProtection.ts.
+	auth_login: { limit: 20, windowMs: 15 * 60 * 1000 },
+	auth_register: { limit: 10, windowMs: 60 * 60 * 1000 },
+	// Current-password checks when a signed-in user sets a new password.
+	password_change: { limit: 5, windowMs: 15 * 60 * 1000 }
 };
+
+/** Subject for buckets that count every caller together. */
+export const GLOBAL_RATE_LIMIT_SUBJECT = 'global';
 
 export type RateLimitDecision = {
 	allowed: boolean;

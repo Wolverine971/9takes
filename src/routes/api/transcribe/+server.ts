@@ -3,7 +3,11 @@ import { json } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
 import type { RequestHandler } from './$types';
 import { logger } from '$lib/utils/logger';
-import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
+import {
+	GLOBAL_RATE_LIMIT_SUBJECT,
+	consumeApiRateLimit,
+	resolveRateLimitSubject
+} from '$lib/server/apiRateLimit';
 
 export const config = {
 	maxDuration: 60
@@ -12,6 +16,8 @@ export const config = {
 const OPENROUTER_TRANSCRIPTION_URL = 'https://openrouter.ai/api/v1/audio/transcriptions';
 const DEFAULT_TRANSCRIPTION_MODEL = 'openai/gpt-4o-mini-transcribe';
 const MAX_AUDIO_BYTES = 4 * 1024 * 1024;
+// The site-wide window is a day; ask a busy caller back much sooner than that.
+const TRANSCRIBE_BUSY_RETRY_SECONDS = 15 * 60;
 
 const AUDIO_FORMATS: Record<string, string> = {
 	'audio/aac': 'aac',
@@ -90,6 +96,20 @@ export const POST: RequestHandler = async ({ request, locals, getClientAddress }
 		return json(
 			{ error: 'You have made several voice recordings. Please wait a few minutes.' },
 			{ status: 429, headers: { 'Retry-After': String(decision.retryAfterSeconds) } }
+		);
+	}
+
+	// Site-wide daily ceiling on the paid call, charged after the per-caller
+	// limit so one caller cannot spend it alone.
+	const siteDecision = await consumeApiRateLimit({
+		bucket: 'transcribe_global',
+		subject: GLOBAL_RATE_LIMIT_SUBJECT
+	});
+
+	if (!siteDecision.allowed) {
+		return json(
+			{ error: 'Voice transcription is busy right now. Please type your answer or try later.' },
+			{ status: 429, headers: { 'Retry-After': String(TRANSCRIBE_BUSY_RETRY_SECONDS) } }
 		);
 	}
 

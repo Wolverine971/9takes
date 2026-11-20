@@ -1,9 +1,8 @@
 // src/routes/admin/content-board/+page.server.ts
 import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
-import { guardAdminActions } from '$lib/server/adminAuth';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import matter from 'gray-matter';
-import { loadRouteDemoTime } from '$lib/server/demoTime';
 
 import type { Actions, PageServerLoad } from './$types';
 
@@ -101,15 +100,11 @@ export const load: PageServerLoad = async (
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
-	// Same cached switch the admin layout reads, so the guard, the admin check,
-	// and the content reads below can all start together.
-	const demo_time = await loadRouteDemoTime(supabase);
-
-	// The layout guard (parent) is the only rejection here, so a non-admin still
-	// gets its redirect and every read below is discarded.
+	// The layout guard (parent) and the admin check run alongside the content reads;
+	// either rejection discards every read. Admin rights always come from `profiles`.
 	const [
 		,
-		{ data: user, error: findUserError },
+		,
 		markdownResult,
 		enneagramContent,
 		communityContent,
@@ -118,11 +113,7 @@ export const load: PageServerLoad = async (
 		peopleBlogPosts
 	] = await Promise.all([
 		event.parent(),
-		supabase
-			.from(demo_time === true ? 'profiles_demo' : 'profiles')
-			.select('id, admin, external_id')
-			.eq('id', session?.user?.id)
-			.single(),
+		requireAdmin(event.locals),
 		// A parse failure surfaces after the admin checks, as it did before.
 		loadMarkdownIndex().then(
 			(index) => ({ index, failure: null }),
@@ -138,15 +129,6 @@ export const load: PageServerLoad = async (
 				'id, person, title, description, author, date, loc, lastmod, published, type, enneagram, category, twitter, instagram, tiktok'
 			)
 	]);
-
-	if (findUserError) {
-		console.log(findUserError);
-		throw redirect(307, '/questions');
-	}
-
-	if (!user?.admin) {
-		throw redirect(307, '/questions');
-	}
 
 	if (!markdownResult.index) throw markdownResult.failure;
 	const {
@@ -317,9 +299,8 @@ export const actions: Actions = guardAdminActions({
 				return record;
 			}
 		} catch (e) {
-			throw error(400, {
-				message: `error staging content ${JSON.stringify(e)}`
-			});
+			console.error('Failed to stage content', e);
+			throw error(400, { message: 'error staging content' });
 		}
 	}
 });

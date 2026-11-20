@@ -2,6 +2,9 @@
 import { describe, expect, it } from 'vitest';
 import sharp from 'sharp';
 import { GET } from './+server';
+import personalityImageSlugMap from '$lib/generated/personalityImageSlugMap.json';
+import { formatPersonalityDisplayName } from '$lib/utils/personalityAnalysis';
+import { buildPersonSocialCardUrl } from '$lib/utils/socialImage';
 
 const PNG_SIGNATURE = '89504e470d0a1a0a';
 const JPEG_SIGNATURE = 'ffd8ff';
@@ -70,6 +73,56 @@ describe('GET /social-image.png', () => {
 
 		expect(response.headers.get('content-type')).toBe('image/jpeg');
 		expect(await sharp(await bodyOf(response)).metadata()).toMatchObject({ width: 1200 });
+	});
+
+	it.each(['adam sandler', 'ADAM SANDLER', 'Adam-Sandler', ' Adam  Sandler ', 'Someone Else'])(
+		'redirects the spelling %j to the one canonical card URL without rendering it',
+		async (name) => {
+			const response = await get(
+				new URLSearchParams({
+					path: '/types/9s/Adam-Sandler.webp',
+					name,
+					type: '9',
+					v: '3'
+				}).toString()
+			);
+
+			expect(response.status).toBe(301);
+			expect(response.headers.get('location')).toBe(
+				`/social-image.png?${new URLSearchParams({
+					path: '/types/9s/Adam-Sandler.webp',
+					name: 'Adam Sandler',
+					type: '9',
+					v: '3'
+				}).toString()}`
+			);
+			expect(response.headers.get('cache-control')).toContain('s-maxage=604800');
+			expect((await bodyOf(response)).length).toBe(0);
+		}
+	);
+
+	it('serves the link the site itself builds without a redirect', async () => {
+		const cardUrl = new URL(
+			buildPersonSocialCardUrl({
+				imagePath: 'https://9takes.com/types/9s/Adam-Sandler.webp',
+				name: formatPersonalityDisplayName('adam-sandler'),
+				type: 9
+			})
+		);
+		const response = await get(cardUrl.searchParams.toString());
+
+		expect(response.status).toBe(200);
+		expect(response.headers.get('content-type')).toBe('image/jpeg');
+	});
+
+	it('already uses the canonical name for every person the site links to', () => {
+		// The page sends the name built from the person's slug; the endpoint renders the name
+		// built from the portrait's filename. They must agree, or real links would redirect.
+		const mismatched = Object.entries(personalityImageSlugMap as Record<string, string>).filter(
+			([person, imageStem]) =>
+				formatPersonalityDisplayName(person) !== formatPersonalityDisplayName(imageStem)
+		);
+		expect(mismatched).toEqual([]);
 	});
 
 	it('keeps the plain portrait when the name is too long', async () => {

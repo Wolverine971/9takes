@@ -18,6 +18,7 @@ import { BETA_CARD_EXPERIMENT, isBetaCardVariantId } from '$lib/utils/betaCardCo
 import { BETA_PLACEMENTS, BETA_SURFACES } from '$lib/utils/betaInvite';
 import { isNavOfferVariantId, NAV_OFFER_EXPERIMENT } from '$lib/utils/navOffer';
 import { isTalkSituationId, TALK_SITUATIONS_EXPERIMENT } from '$lib/utils/talkSituations';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 
 const sourcePath = z
 	.string()
@@ -71,7 +72,7 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 		surface: parsed.data.surface,
 		placement: parsed.data.placement,
 		path: parsed.data.sourcePath ?? null,
-		fingerprint: cookies.get('9tfingerprint') ?? null
+		fingerprint: readVisitorFingerprint(cookies)
 	});
 
 	return noContent();

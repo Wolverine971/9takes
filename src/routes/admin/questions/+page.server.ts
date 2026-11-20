@@ -1,8 +1,8 @@
 // src/routes/admin/questions/+page.server.ts
 import type { Actions, PageServerLoad } from './$types';
-import { error, fail, redirect } from '@sveltejs/kit';
+import { error, fail } from '@sveltejs/kit';
 import { z } from 'zod';
-import { guardAdminActions } from '$lib/server/adminAuth';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { loadRouteDemoTime } from '$lib/server/demoTime';
 import {
@@ -15,10 +15,6 @@ import { rankTakes, takeRankingMetrics } from '$lib/components/questions/comment
 import type { Database } from '../../../../database.types';
 
 // Helper functions to reduce repetition
-type AdminProfile = Pick<
-	Database['public']['Tables']['profiles']['Row'],
-	'id' | 'admin' | 'external_id'
->;
 type QuestionKeywordRow = Pick<
 	Database['public']['Tables']['question_keywords']['Row'],
 	'question_id' | 'keywords'
@@ -47,38 +43,9 @@ function unwrapSettled<T>(result: PromiseSettledResult<T>): T {
 	return result.value;
 }
 
-async function validateAdmin(
-	session: App.Locals['session'],
-	demoTime: boolean | null | undefined,
-	supabase: App.Locals['supabase']
-): Promise<AdminProfile> {
-	if (!session?.user?.id) {
-		throw redirect(302, '/questions');
-	}
-
-	const db = supabase as any;
-	const { data: user, error: findUserError } = (await db
-		.from(demoTime ? 'profiles_demo' : 'profiles')
-		.select('id, admin, external_id')
-		.eq('id', session.user.id)
-		.single()) as { data: AdminProfile | null; error: unknown };
-
-	if (findUserError) {
-		console.error('Error finding user:', findUserError);
-		throw error(404, { message: 'Error searching for user' });
-	}
-
-	if (!user?.admin) {
-		throw redirect(307, '/questions');
-	}
-
-	return user;
-}
-
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	try {
-		const session = event.locals.session;
 		const supabase = event.locals.supabase;
 		// Same cached switch the admin layout reads; resolving it here lets the
 		// guard and every query below start together instead of after the layout.
@@ -100,7 +67,8 @@ export const load: PageServerLoad = async (event) => {
 		const [parentResult, adminResult, questionsResult, categoriesResult] = await Promise.allSettled(
 			[
 				event.parent(),
-				validateAdmin(session, isDemo, supabase),
+				// Demo mode picks the data tables only; admin rights always come from `profiles`.
+				requireAdmin(event.locals),
 				db
 					.from(isDemo ? 'questions_demo' : 'questions')
 					.select(questionColumns, { count: 'exact' })
@@ -115,7 +83,7 @@ export const load: PageServerLoad = async (event) => {
 			]
 		);
 		unwrapSettled(parentResult);
-		const user = unwrapSettled(adminResult);
+		const { profile } = unwrapSettled(adminResult);
 
 		// Get questions with related data
 		const {
@@ -198,7 +166,7 @@ export const load: PageServerLoad = async (event) => {
 		});
 
 		return {
-			user: mapDemoValues(user),
+			user: { id: profile.id, admin: profile.admin },
 			questions: mapDemoValues(questionsWithKeywords),
 			demoTime: isDemo,
 			tags,

@@ -6,11 +6,13 @@ const {
 	getAuthProtectionStateMock,
 	recordAuthProtectionEventMock,
 	verifyRecaptchaMock,
+	consumeApiRateLimitMock,
 	loggerMocks
 } = vi.hoisted(() => ({
 	getAuthProtectionStateMock: vi.fn(),
 	recordAuthProtectionEventMock: vi.fn(),
 	verifyRecaptchaMock: vi.fn(),
+	consumeApiRateLimitMock: vi.fn(),
 	loggerMocks: {
 		info: vi.fn(),
 		warn: vi.fn(),
@@ -21,6 +23,11 @@ const {
 vi.mock('$lib/server/authProtection', () => ({
 	getAuthProtectionState: getAuthProtectionStateMock,
 	recordAuthProtectionEvent: recordAuthProtectionEventMock
+}));
+
+vi.mock('$lib/server/apiRateLimit', () => ({
+	consumeApiRateLimit: consumeApiRateLimitMock,
+	resolveRateLimitSubject: ({ clientAddress }: { clientAddress: string }) => `ip:${clientAddress}`
 }));
 
 vi.mock('$lib/utils/recaptcha', () => ({
@@ -76,6 +83,49 @@ describe('login action', () => {
 			rateLimited: false
 		});
 		verifyRecaptchaMock.mockResolvedValue(true);
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: true,
+			retryAfterSeconds: 900,
+			degraded: false
+		});
+	});
+
+	it('counts the attempt against the address before any other work', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce({
+			allowed: false,
+			retryAfterSeconds: 900,
+			degraded: false
+		});
+		const event = buildEvent();
+
+		const result = await actions.login(event as any);
+
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'auth_login',
+			subject: 'ip:127.0.0.1'
+		});
+		expect(result).toMatchObject({
+			status: 429,
+			data: expect.objectContaining({ captchaRequired: true })
+		});
+		expect(getAuthProtectionStateMock).not.toHaveBeenCalled();
+		expect(event._signIn).not.toHaveBeenCalled();
+	});
+
+	it('asks for a CAPTCHA, then signs in, when one email has many failed attempts', async () => {
+		// Per-email failures only ever require the CAPTCHA; the owner can still get in.
+		getAuthProtectionStateMock.mockResolvedValueOnce({
+			captchaRequired: true,
+			rateLimited: false
+		});
+		const event = buildEvent();
+
+		await expect(actions.login(event as any)).rejects.toMatchObject({
+			status: 303,
+			location: '/questions'
+		});
+		expect(verifyRecaptchaMock).toHaveBeenCalledWith('token', '127.0.0.1');
+		expect(event._signIn).toHaveBeenCalledTimes(1);
 	});
 
 	it('returns an email recipient to their account after successful login', async () => {

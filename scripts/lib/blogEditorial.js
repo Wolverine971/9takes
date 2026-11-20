@@ -366,6 +366,7 @@ export function openCaseShapeBlockers(markdown) {
 	return blockers;
 }
 
+/** @param {string} markdown */
 export function priorBlockers(markdown) {
 	const p = matter(markdown, {}).data.production_pretext;
 	if (!p) return [];
@@ -463,7 +464,10 @@ export function checkDraft(markdown) {
 		if (link[1].toLowerCase() === String(data.person).toLowerCase()) blockers.push('self_link');
 	return {
 		blockers: [
-			...new Set([...blockers, ...priorBlockers(markdown).map((b) => `creator_blocker:${b}`)])
+			...new Set([
+				...blockers,
+				...priorBlockers(markdown).map((/** @type {string} */ b) => `creator_blocker:${b}`)
+			])
 		],
 		words
 	};

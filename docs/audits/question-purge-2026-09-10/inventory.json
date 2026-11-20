@@ -4,7 +4,7 @@
 	"mode": "read-only; no deletion executed",
 	"account_assumptions": {
 		"confirmed_by_user": ["djwayne3@gmail.com", "djwayne35@gmail.com"],
-		"pending_confirmation": ["mrwayner@protonmail.com", "dj@build-os.com"]
+		"pending_confirmation": ["[redacted email]", "dj@build-os.com"]
 	},
 	"criteria": {
 		"old_before": "2026-03-14",

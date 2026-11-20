@@ -2,8 +2,9 @@
 import { beforeEach, describe, expect, it, vi, type Mock } from 'vitest';
 import type { SendEmailOptions, SendEmailResult } from '$lib/email/sender';
 
-const { loggerMocks } = vi.hoisted(() => ({
-	loggerMocks: { error: vi.fn(), warn: vi.fn(), info: vi.fn() }
+const { loggerMocks, consumeApiRateLimitMock } = vi.hoisted(() => ({
+	loggerMocks: { error: vi.fn(), warn: vi.fn(), info: vi.fn() },
+	consumeApiRateLimitMock: vi.fn()
 }));
 
 vi.mock('$env/dynamic/private', () => ({
@@ -11,6 +12,7 @@ vi.mock('$env/dynamic/private', () => ({
 }));
 vi.mock('$lib/server/supabaseAdmin', () => ({ getSupabaseAdminClient: vi.fn() }));
 vi.mock('$lib/email/sender', () => ({ sendEmail: vi.fn() }));
+vi.mock('$lib/server/apiRateLimit', () => ({ consumeApiRateLimit: consumeApiRateLimitMock }));
 vi.mock('$lib/utils/logger', () => ({ logger: loggerMocks }));
 
 import {
@@ -158,6 +160,11 @@ beforeEach(() => {
 		success: true,
 		providerAttempted: true,
 		retrySafe: false
+	});
+	consumeApiRateLimitMock.mockResolvedValue({
+		allowed: true,
+		retryAfterSeconds: 172800,
+		degraded: false
 	});
 });
 
@@ -344,6 +351,62 @@ describe('saveTalkNoteDetails', () => {
 		expect(row.waitlist_id).toBe(db.tables.coaching_waitlist[0].id);
 		expect(sendEmail).toHaveBeenCalledTimes(1);
 		expect(sendEmail.mock.calls[0][0].to).toBe('admin@9takes.com');
+	});
+
+	it('alerts DJ once per note, however often the details step is sent again', async () => {
+		const row = noteRow();
+		const db = createFakeSupabase({ talk_notes: [row] });
+		const claimed = new Set<string>();
+		const claimSessionAlert = vi.fn(async (noteId: string) => {
+			if (claimed.has(noteId)) return false;
+			claimed.add(noteId);
+			return true;
+		});
+		const submit = (email: string, wantsSession: boolean) =>
+			saveTalkNoteDetails(
+				{ noteId: row.id, detailsToken: row.details_token, email, name: 'Sam', wantsSession },
+				{ supabase: db.client, sendEmail, claimSessionAlert }
+			);
+
+		expect(await submit('sam@example.com', true)).toMatchObject({ ok: true, wantsSession: true });
+		expect(await submit('sam@example.com', true)).toMatchObject({ ok: true, wantsSession: true });
+		expect(await submit('sam@example.com', false)).toMatchObject({ ok: true, wantsSession: false });
+		expect(await submit('other@example.com', true)).toMatchObject({ ok: true, wantsSession: true });
+
+		expect(sendEmail).toHaveBeenCalledTimes(1);
+		expect(claimSessionAlert).toHaveBeenCalledTimes(3);
+		expect(claimSessionAlert).toHaveBeenCalledWith(row.id);
+		// Later submits still save; only the alert is held back.
+		expect(row.email).toBe('other@example.com');
+	});
+
+	it('claims the alert through one atomic per-note bucket by default', async () => {
+		const row = noteRow();
+		const db = createFakeSupabase({ talk_notes: [row] });
+		consumeApiRateLimitMock.mockResolvedValueOnce({
+			allowed: false,
+			retryAfterSeconds: 172800,
+			degraded: false
+		});
+
+		const result = await saveTalkNoteDetails(
+			{
+				noteId: row.id,
+				detailsToken: row.details_token,
+				email: 'sam@example.com',
+				name: 'Sam',
+				wantsSession: true
+			},
+			{ supabase: db.client, sendEmail }
+		);
+
+		expect(result).toMatchObject({ ok: true, wantsSession: true });
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'talk_note_session_alert',
+			subject: `note:${row.id}`
+		});
+		expect(sendEmail).not.toHaveBeenCalled();
+		expect(row.wants_session).toBe(true);
 	});
 
 	it('links an existing waitlist row instead of failing on a duplicate email', async () => {

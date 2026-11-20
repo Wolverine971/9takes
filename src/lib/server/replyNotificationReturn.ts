@@ -1,6 +1,5 @@
 // src/lib/server/replyNotificationReturn.ts
-import { createHmac, timingSafeEqual } from 'node:crypto';
-import { SUPABASE_SERVICE_KEY } from '$env/static/private';
+import { signLinkPayload, verifyLinkSignature } from '$lib/server/linkSigning';
 import type { ReplyNotificationReturnContext } from '$lib/types/questions';
 
 export type { ReplyNotificationReturnContext } from '$lib/types/questions';
@@ -13,16 +12,6 @@ type SignedReplyReturnPayload = ReplyNotificationReturnContext & {
 	version: 1;
 	expiresAt: number;
 };
-
-function getSigningSecret(explicitSecret?: string): string {
-	const secret = explicitSecret || SUPABASE_SERVICE_KEY;
-	if (!secret) throw new Error('Reply notification return signing secret is not configured');
-	return secret;
-}
-
-function signPayload(payload: string, secret: string): string {
-	return createHmac('sha256', secret).update(payload).digest('base64url');
-}
 
 function isPositiveInteger(value: unknown): value is number {
 	return Number.isSafeInteger(value) && Number(value) > 0;
@@ -54,7 +43,7 @@ export function signReplyNotificationReturn(
 		...context
 	};
 	const encoded = Buffer.from(JSON.stringify(payload)).toString('base64url');
-	return `${encoded}.${signPayload(encoded, getSigningSecret(options.secret))}`;
+	return `${encoded}.${signLinkPayload(encoded, { secret: options.secret })}`;
 }
 
 export function verifyReplyNotificationReturn(
@@ -65,15 +54,7 @@ export function verifyReplyNotificationReturn(
 	const [encoded, signature, extra] = value.split('.');
 	if (!encoded || !signature || extra) return null;
 
-	const expected = signPayload(encoded, getSigningSecret(options.secret));
-	const signatureBuffer = Buffer.from(signature);
-	const expectedBuffer = Buffer.from(expected);
-	if (
-		signatureBuffer.length !== expectedBuffer.length ||
-		!timingSafeEqual(signatureBuffer, expectedBuffer)
-	) {
-		return null;
-	}
+	if (!verifyLinkSignature(encoded, signature, { secret: options.secret })) return null;
 
 	try {
 		const parsed: unknown = JSON.parse(Buffer.from(encoded, 'base64url').toString('utf8'));

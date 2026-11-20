@@ -91,7 +91,9 @@ async function lock() {
 			.then(JSON.parse)
 			.catch(() => null);
 		if (!old?.pid)
-			throw new Error('Publisher lock exists without owner metadata; inspect it before retrying');
+			throw new Error('Publisher lock exists without owner metadata; inspect it before retrying', {
+				cause: error
+			});
 		let alive = true;
 		try {
 			process.kill(old.pid, 0);
@@ -99,7 +101,7 @@ async function lock() {
 			if (e.code === 'ESRCH') alive = false;
 			else throw e;
 		}
-		if (alive) throw new Error(`Publisher already running (pid ${old.pid})`);
+		if (alive) throw new Error(`Publisher already running (pid ${old.pid})`, { cause: error });
 		await fs.rm(lockDir, { recursive: true });
 		await fs.mkdir(lockDir);
 	}

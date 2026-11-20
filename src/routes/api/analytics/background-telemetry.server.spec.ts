@@ -6,6 +6,10 @@ vi.mock('$env/static/public', () => ({
 	PUBLIC_SUPABASE_PUBLISHABLE_KEY: 'sb_publishable_test'
 }));
 
+vi.mock('$env/static/private', () => ({
+	SUPABASE_SERVICE_KEY: 'sb_secret_test'
+}));
+
 vi.mock('$lib/utils/logger', () => ({
 	logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 	withApiLogging: (handler: unknown) => handler
@@ -32,19 +36,15 @@ describe.each([
 	['page-ping', pagePing, 'record_page_analytics_ping'],
 	['page-exit', pageExit, 'record_page_analytics_ping']
 ] as const)('%s background telemetry', (path, handler, rpcName) => {
-	it.each([null, 'captured-user-jwt'])(
-		'detaches cookie auth before returning (%s)',
+	it.each([null, 'signed-in'])(
+		'writes through the server client, never the request client (%s)',
 		async (token) => {
-			const authReady = Promise.withResolvers<void>();
 			const writeReady = Promise.withResolvers<void>();
-			let responseGenerated = false;
 			const getSession = vi.fn(async () => {
-				await authReady.promise;
-				if (responseGenerated) throw new Error('Cannot set cookies after response');
-				return { data: { session: token ? { access_token: token } : null }, error: null };
+				throw new Error('Analytics must not read or refresh the request session');
 			});
 			const requestRpc = vi.fn(() => {
-				throw new Error('Background work must not reuse the cookie-backed client');
+				throw new Error('Analytics must not reuse the cookie-backed client');
 			});
 			const fetchMock = vi.fn(async (_url: unknown, _init: RequestInit) => {
 				await writeReady.promise;
@@ -52,7 +52,7 @@ describe.each([
 			});
 			vi.stubGlobal('fetch', fetchMock);
 			const waitUntil = vi.fn();
-			const responsePromise = handler({
+			const response = await handler({
 				request: new Request(`https://9takes.test/api/analytics/${path}`, {
 					method: 'POST',
 					headers: { 'Content-Type': 'application/json' },
@@ -63,32 +63,24 @@ describe.each([
 					session: token ? { user: { id: 'verified-user' } } : null
 				},
 				platform: { context: { waitUntil } }
-			} as any).then((response) => {
-				responseGenerated = true;
-				return response;
-			});
+			} as any);
 
-			await vi.waitFor(() => expect(getSession).toHaveBeenCalledOnce());
-			expect(responseGenerated).toBe(false);
-			expect(fetchMock).not.toHaveBeenCalled();
-			authReady.resolve();
-			const response = await responsePromise;
 			expect(response.status).toBe(200);
 			expect(await response.json()).toMatchObject({ ok: true, queued: true });
 			expect(waitUntil).toHaveBeenCalledOnce();
 
-			// The database write may finish after response generation, with no more
-			// reads/refreshes of request cookies and with the original caller's JWT.
+			// The database write may finish after the response. It carries the
+			// server key, and the visit's user id comes from the verified session.
 			writeReady.resolve();
 			await waitUntil.mock.calls[0][0];
-			expect(getSession).toHaveBeenCalledOnce();
+			expect(getSession).not.toHaveBeenCalled();
 			expect(requestRpc).not.toHaveBeenCalled();
 			expect(fetchMock).toHaveBeenCalledOnce();
 			const [url, init] = fetchMock.mock.calls[0];
 			expect(String(url)).toContain(`/rest/v1/rpc/${rpcName}`);
 			const headers = new Headers(init.headers);
-			expect(headers.get('apikey')).toBe('sb_publishable_test');
-			expect(headers.get('authorization')).toBe(`Bearer ${token ?? 'sb_publishable_test'}`);
+			expect(headers.get('apikey')).toBe('sb_secret_test');
+			expect(headers.get('authorization')).toBe('Bearer sb_secret_test');
 			if (path === 'page-view') {
 				expect(JSON.parse(String(init.body)).p_user_id).toBe(token ? 'verified-user' : null);
 			}

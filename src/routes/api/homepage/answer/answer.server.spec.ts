@@ -18,6 +18,10 @@ vi.mock('$lib/server/demoTime', () => ({ loadRouteDemoTime: demoTimeMock }));
 vi.mock('$lib/server/questionTakes', () => ({ getQuestionTakes: getQuestionTakesMock }));
 vi.mock('$lib/server/giveFirstFunnel', () => ({ recordGiveFirstEvent: recordGiveFirstEventMock }));
 vi.mock('$lib/server/safeExternalFetch', () => ({ fetchPublicHtml: vi.fn() }));
+vi.mock('$lib/server/apiRateLimit', async (importOriginal) => ({
+	...(await importOriginal<typeof import('$lib/server/apiRateLimit')>()),
+	consumeApiRateLimit: vi.fn(async () => ({ allowed: true }))
+}));
 
 import { POST } from './+server';
 import { LIVE_TAKE_SLUG } from '$lib/data/homepageLiveTake';
@@ -61,11 +65,12 @@ function setup(scenario: Scenario = {}) {
 
 	demoTimeMock.mockResolvedValue(scenario.demo ?? false);
 	anonRpc.mockImplementation(async (name: string) => {
-		if (name === 'check_comment_rate_limit') return { data: !scenario.rateLimited, error: null };
 		if (name === 'can_see_comments_3') return { data: gateAnswer(), error: null };
 		throw new Error(`Unexpected anon rpc ${name}`);
 	});
 	adminRpc.mockImplementation(async (name: string, args: Record<string, unknown>) => {
+		// The take rate limit is a server-only RPC.
+		if (name === 'check_comment_rate_limit') return { data: !scenario.rateLimited, error: null };
 		if (name !== 'create_comment_atomic') throw new Error(`Unexpected admin rpc ${name}`);
 		if (scenario.insertError) return { data: null, error: scenario.insertError };
 		return {
@@ -158,7 +163,7 @@ describe('POST /api/homepage/answer', () => {
 				}
 			]
 		]);
-		expect(anonRpc).toHaveBeenCalledWith('check_comment_rate_limit', {
+		expect(adminRpc).toHaveBeenCalledWith('check_comment_rate_limit', {
 			p_fingerprint: 'cookie-visitor',
 			p_ip: '203.0.113.7',
 			p_max_comments: 5,

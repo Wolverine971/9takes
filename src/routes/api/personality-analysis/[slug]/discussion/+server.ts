@@ -7,7 +7,10 @@ import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import { CONTENT_GUARD_CACHE_CONTROL } from '$lib/server/contentAccessGuard';
 import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
-import { VISITOR_ID_COOKIE_NAME } from '$lib/analytics/visitorIdentity';
+import {
+	normalizeVisitorFingerprint,
+	readVisitorFingerprint
+} from '$lib/server/visitorFingerprint';
 
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
 export type PublicBlogCommentRow = Pick<
@@ -47,7 +50,7 @@ export const GET: RequestHandler = async (event) => {
 
 	const supabase = event.locals.supabase;
 	const user = event.locals.session?.user ?? null;
-	const fingerprint = event.cookies.get('9tfingerprint');
+	const fingerprint = readVisitorFingerprint(event.cookies);
 	const commentSlugCandidates = [...new Set([event.params.slug, canonicalSlug].filter(Boolean))];
 
 	const userHasAnswered = await hasAnswered({
@@ -113,7 +116,7 @@ export const POST: RequestHandler = async (event) => {
 	const userId = event.locals.session?.user?.id ?? null;
 	// The cookie wins so the new comment unlocks GET for this same visitor.
 	const fingerprint =
-		event.cookies.get(VISITOR_ID_COOKIE_NAME)?.trim() || parsed.data.fingerprint || null;
+		readVisitorFingerprint(event.cookies) ?? normalizeVisitorFingerprint(parsed.data.fingerprint);
 	if (!userId && !fingerprint) {
 		return json({ error: 'Invalid request' }, { status: 400 });
 	}

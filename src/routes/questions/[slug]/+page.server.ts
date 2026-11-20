@@ -25,6 +25,7 @@ import {
 	assertCommentAccess,
 	checkRateLimit,
 	checkUserAnswered,
+	consumeCommentPaceLimit,
 	createCommentData,
 	getQuestion,
 	handleCommentCreation,
@@ -41,6 +42,9 @@ import {
 	subscribeSchema,
 	updateQuestionImgSchema
 } from '$lib/validation/questionSchemas';
+import { linkClickSchema } from '$lib/validation/linkSchemas';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 import { uploadQuestionImage } from '$lib/server/questionImages';
 import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
 import {
@@ -143,7 +147,7 @@ export const load: PageServerLoad = async (event) => {
 	// load reruns on every post-answer reveal, so each round trip is felt.
 	const isDemoTime = (await loadRouteDemoTime(event.locals.supabase)) === true;
 	const session = event.locals.session;
-	const cookie = event.cookies.get('9tfingerprint');
+	const cookie = readVisitorFingerprint(event.cookies) ?? undefined;
 
 	const question = await getQuestion(event.params.slug, isDemoTime, event.locals.supabase);
 	if (!question) {
@@ -424,13 +428,20 @@ async function createQuestionComment(event: RequestEvent) {
 	}
 	const commentInput = validationResult.data;
 
-	// The rate limit and the give-first access check are independent reads, so
-	// they share one round trip. The rate-limit rejection still wins when both fail.
-	const [rateLimit, access] = await Promise.allSettled([
+	// The rate limits and the give-first access check are independent, so they
+	// share one round trip. A rate-limit rejection still wins when several fail.
+	// The atomic pace limit covers what the count-based check cannot see: takes
+	// that arrive at the same moment.
+	const [paceLimit, rateLimit, access] = await Promise.allSettled([
+		demo_time ? Promise.resolve(true) : consumeCommentPaceLimit(ip, sessionUserId),
 		demo_time ? Promise.resolve(true) : checkRateLimit(commentInput.fingerprint, ip),
 		assertCommentAccess(commentInput, sessionUserId, demo_time)
 	]);
-	if (rateLimit.status === 'fulfilled' && !rateLimit.value) {
+	if (
+		paceLimit.status !== 'fulfilled' ||
+		!paceLimit.value ||
+		(rateLimit.status === 'fulfilled' && !rateLimit.value)
+	) {
 		throw error(429, {
 			message: 'Too many comments. Please wait a minute before trying again.'
 		});
@@ -551,9 +562,19 @@ export const actions: Actions = {
 		return await removeSubscription(db, parent_id, sessionUserId, demo_time);
 	},
 
-	saveLinkClick: async ({ request }) => {
-		const { linkId } = Object.fromEntries(await request.formData());
-		await incrementLinkClicks(linkId as string);
+	saveLinkClick: async ({ request, locals, getClientAddress }) => {
+		const parsed = linkClickSchema.safeParse(Object.fromEntries(await request.formData()));
+		if (!parsed.success) return fail(400, { message: 'Invalid link ID' });
+
+		const decision = await consumeApiRateLimit({
+			bucket: 'link_click',
+			subject: resolveRateLimitSubject({
+				userId: locals.session?.user?.id,
+				clientAddress: getClientAddress()
+			})
+		});
+		// Click counts are a courtesy stat: over the limit, skip the count quietly.
+		if (decision.allowed) await incrementLinkClicks(parsed.data.linkId);
 		return true;
 	},
 
@@ -798,6 +819,15 @@ async function addLike(db: any, parent_id: string, user_id: string) {
 		.single();
 
 	if (addLikeError) {
+		// One like per person per take: a repeat returns the like already there.
+		if (addLikeError.code === '23505') {
+			const { data: existing } = await (db.from('comment_like') as any)
+				.select('id, comment_id, user_id')
+				.eq('comment_id', parseInt(parent_id))
+				.eq('user_id', user_id)
+				.maybeSingle();
+			if (existing) return existing;
+		}
 		console.error(addLikeError);
 		throw error(500, { message: 'Failed to add like' });
 	}
@@ -853,9 +883,7 @@ async function removeSubscription(db: any, parent_id: string, user_id: string, d
 	return null;
 }
 
-async function incrementLinkClicks(linkId: string) {
-	const id = Number.parseInt(linkId, 10);
-	if (!Number.isSafeInteger(id) || id <= 0) return;
+async function incrementLinkClicks(id: number) {
 	// links is service-role only (it holds URLs lifted from takes). Under the
 	// anon client this UPDATE matched nothing (no anon UPDATE policy).
 	const { error: incrementError } = await (getSupabaseAdminClient().rpc as any)(

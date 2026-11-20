@@ -16,8 +16,10 @@ vi.mock('$lib/utils/logger', () => ({
 	withApiLogging: (handler: unknown) => handler
 }));
 
-vi.mock('$lib/server/backgroundSupabase', () => ({
-	createBackgroundSupabaseClient: vi.fn(async (client) => client)
+const adminClient = vi.hoisted(() => ({ rpc: undefined as unknown }));
+
+vi.mock('$lib/server/supabaseAdmin', () => ({
+	getSupabaseAdminClient: () => adminClient
 }));
 
 import { POST } from './+server';
@@ -46,6 +48,7 @@ function buildEvent({
 	rpc?: ReturnType<typeof vi.fn>;
 } = {}) {
 	const waitUntil = vi.fn();
+	adminClient.rpc = rpc;
 
 	return {
 		event: {
@@ -63,8 +66,9 @@ function buildEvent({
 						id: 'user-123'
 					}
 				},
+				// A request client whose rpc must never be used for analytics writes.
 				supabase: {
-					rpc
+					rpc: vi.fn().mockRejectedValue(new Error('analytics must use the admin client'))
 				}
 			},
 			platform: {

@@ -75,9 +75,8 @@ export const actions: Actions = {
 				.select('id');
 
 			if (updateUserError || !updatedSignup || updatedSignup.length === 0) {
-				throw error(500, {
-					message: `Failed to unsubscribe ${JSON.stringify(updateUserError)}`
-				});
+				console.error('Failed to record legacy unsubscribe', updateUserError);
+				throw error(500, { message: 'Failed to unsubscribe' });
 			}
 
 			const sourceId = String(updatedSignup[0].id);
@@ -100,9 +99,8 @@ export const actions: Actions = {
 			if (e instanceof Error && 'status' in e) {
 				throw e;
 			}
-			throw error(400, {
-				message: `Failed to unsubscribe ${JSON.stringify(e)}`
-			});
+			console.error('Unexpected legacy unsubscribe failure', e);
+			throw error(400, { message: 'Failed to unsubscribe' });
 		}
 	}
 };

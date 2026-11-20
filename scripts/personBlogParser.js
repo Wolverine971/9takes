@@ -1112,7 +1112,11 @@ export async function readPublishCandidate(filePath) {
 	const sourceAudit = runPublishSourceAudit(filePath);
 	const perspectiveReview = await getPerspectivePublishStatus(filePath);
 	const blockers = [];
-	blockers.push(...priorBlockers(fileContent).map((blocker) => `creator_blocker:${blocker}`));
+	blockers.push(
+		...priorBlockers(fileContent).map(
+			(/** @type {string} */ blocker) => `creator_blocker:${blocker}`
+		)
+	);
 
 	if (missingFields.length > 0) {
 		blockers.push(`missing_frontmatter:${missingFields.join(',')}`);

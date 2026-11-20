@@ -52,4 +52,68 @@ describe('account email destination', () => {
 			}
 		}
 	);
+
+	function buildUpdateEvent(
+		fields: Record<string, string>,
+		updateResult: { error: unknown } = { error: null }
+	) {
+		const eq = vi.fn().mockResolvedValue(updateResult);
+		const update = vi.fn().mockReturnValue({ eq });
+		const body = new FormData();
+		for (const [key, value] of Object.entries(fields)) body.set(key, value);
+		return {
+			eq,
+			update,
+			event: {
+				request: new Request('https://9takes.com/account?/updateAccount', { method: 'POST', body }),
+				locals: {
+					session: { user: { id: 'user-1', email: 'alex@example.com' } },
+					supabase: { from: vi.fn().mockReturnValue({ update }) }
+				}
+			}
+		};
+	}
+
+	it('updates the signed-in profile whatever email the form carries', async () => {
+		const { event, update, eq } = buildUpdateEvent({
+			firstName: '  Alex ',
+			lastName: 'Rivera',
+			enneagram: '',
+			email: 'someone-else@example.com'
+		});
+
+		await expect(actions.updateAccount(event as any)).resolves.toEqual({ success: true });
+		expect(update).toHaveBeenCalledWith({ first_name: 'Alex', last_name: 'Rivera', enneagram: '' });
+		expect(eq).toHaveBeenCalledTimes(1);
+		expect(eq).toHaveBeenCalledWith('id', 'user-1');
+	});
+
+	it('rejects a name longer than 80 characters', async () => {
+		const { event, update } = buildUpdateEvent({ firstName: 'a'.repeat(81), enneagram: '5' });
+
+		await expect(actions.updateAccount(event as any)).rejects.toMatchObject({ status: 400 });
+		expect(update).not.toHaveBeenCalled();
+	});
+
+	it('rejects a signed-out request', async () => {
+		const { event, update } = buildUpdateEvent({ firstName: 'Alex' });
+		(event.locals as { session: unknown }).session = null;
+
+		await expect(actions.updateAccount(event as any)).rejects.toMatchObject({ status: 401 });
+		expect(update).not.toHaveBeenCalled();
+	});
+
+	it('keeps database error details out of the response', async () => {
+		const { event } = buildUpdateEvent(
+			{ firstName: 'Alex' },
+			{ error: { message: 'permission denied for table profiles', code: '42501' } }
+		);
+
+		const failure = await Promise.resolve(actions.updateAccount(event as any)).catch(
+			(e: unknown) => e
+		);
+
+		expect(failure).toMatchObject({ status: 500, body: { message: 'Failed to update account' } });
+		expect(JSON.stringify(failure)).not.toContain('permission denied');
+	});
 });

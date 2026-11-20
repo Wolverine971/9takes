@@ -6,13 +6,15 @@ const {
 	mapDemoValuesMock,
 	rpcMock,
 	recordGiveFirstEventMock,
-	runBestEffortTelemetryMock
+	runBestEffortTelemetryMock,
+	consumeApiRateLimitMock
 } = vi.hoisted(() => ({
 	checkDemoTimeMock: vi.fn(),
 	mapDemoValuesMock: vi.fn((value: unknown) => value),
 	rpcMock: vi.fn(),
 	recordGiveFirstEventMock: vi.fn(),
-	runBestEffortTelemetryMock: vi.fn()
+	runBestEffortTelemetryMock: vi.fn(),
+	consumeApiRateLimitMock: vi.fn()
 }));
 
 vi.mock('$lib/server/supabaseAdmin', () => ({ getSupabaseAdminClient: () => ({ rpc: rpcMock }) }));
@@ -22,6 +24,17 @@ vi.mock('$lib/supabase', () => ({
 		rpc: rpcMock,
 		from: vi.fn()
 	}
+}));
+
+vi.mock('$lib/server/apiRateLimit', () => ({
+	consumeApiRateLimit: consumeApiRateLimitMock,
+	resolveRateLimitSubject: ({
+		userId,
+		clientAddress
+	}: {
+		userId?: string | null;
+		clientAddress: string;
+	}) => (userId ? `user:${userId}` : `ip:${clientAddress}`)
 }));
 
 vi.mock('$lib/server/giveFirstFunnel', () => ({
@@ -126,6 +139,11 @@ describe('question mutation identity binding', () => {
 		checkDemoTimeMock.mockResolvedValue(false);
 		mapDemoValuesMock.mockImplementation((value: unknown) => value);
 		recordGiveFirstEventMock.mockResolvedValue(undefined);
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: true,
+			retryAfterSeconds: 60,
+			degraded: false
+		});
 		rpcMock.mockImplementation((name: string) => {
 			if (name === 'check_comment_rate_limit') {
 				return Promise.resolve({ data: true, error: null });
@@ -152,6 +170,9 @@ describe('question mutation identity binding', () => {
 			}
 			if (name === 'create_comment_reply_subscription') {
 				return Promise.resolve({ data: { status: 'subscribed' }, error: null });
+			}
+			if (name === 'increment_clicks') {
+				return Promise.resolve({ data: null, error: null });
 			}
 
 			throw new Error(`Unexpected rpc ${name}`);
@@ -201,6 +222,35 @@ describe('question mutation identity binding', () => {
 
 	it('keeps the legacy and current action names on the same implementation path', () => {
 		expect(actions.createComment).toBe(actions.createCommentRando);
+	});
+
+	it('charges the atomic pace limit, keyed on the client IP or the signed-in user', async () => {
+		await actions.createCommentRando(buildActionEvent(buildCommentRequest()) as any);
+		expect(consumeApiRateLimitMock).toHaveBeenLastCalledWith({
+			bucket: 'question_comment',
+			subject: 'ip:127.0.0.1'
+		});
+
+		await actions.createCommentRando(
+			buildActionEvent(buildCommentRequest(USER_ID), USER_ID) as any
+		);
+		expect(consumeApiRateLimitMock).toHaveBeenLastCalledWith({
+			bucket: 'question_comment',
+			subject: `user:${USER_ID}`
+		});
+	});
+
+	it('refuses a take with 429 once the pace limit is spent, before anything is saved', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce({
+			allowed: false,
+			retryAfterSeconds: 60,
+			degraded: false
+		});
+
+		await expect(
+			actions.createCommentRando(buildActionEvent(buildCommentRequest()) as any)
+		).rejects.toMatchObject({ status: 429 });
+		expect(rpcMock.mock.calls.some(([name]) => name === 'create_comment_atomic')).toBe(false);
 	});
 
 	it('rejects an anonymous comment that claims a registered user id', async () => {
@@ -270,5 +320,67 @@ describe('question mutation identity binding', () => {
 		await expect(actions.likeComment(event as any)).rejects.toMatchObject({
 			status: 403
 		});
+	});
+});
+
+describe('saveLinkClick', () => {
+	function buildLinkClickEvent(linkId: string | null, sessionUserId: string | null = null) {
+		const formData = new FormData();
+		if (linkId !== null) formData.append('linkId', linkId);
+		return buildActionEvent(
+			new Request('http://localhost/questions/example?/saveLinkClick', {
+				method: 'POST',
+				body: formData
+			}),
+			sessionUserId
+		);
+	}
+
+	beforeEach(() => {
+		vi.clearAllMocks();
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: true,
+			retryAfterSeconds: 60,
+			degraded: false
+		});
+		rpcMock.mockResolvedValue({ data: null, error: null });
+	});
+
+	it('counts a click on a valid link id', async () => {
+		const result = await actions.saveLinkClick(buildLinkClickEvent('37') as any);
+
+		expect(result).toBe(true);
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'link_click',
+			subject: 'ip:127.0.0.1'
+		});
+		expect(rpcMock).toHaveBeenCalledWith('increment_clicks', { link_id: 37 });
+	});
+
+	it.each([null, '', '0', '-4', '1.5', '37abc', '99999999999', USER_ID])(
+		'rejects link id %j without counting or charging the limit',
+		async (linkId) => {
+			const result = await actions.saveLinkClick(buildLinkClickEvent(linkId) as any);
+
+			expect(result).toMatchObject({ status: 400 });
+			expect(consumeApiRateLimitMock).not.toHaveBeenCalled();
+			expect(rpcMock).not.toHaveBeenCalled();
+		}
+	);
+
+	it('skips the count quietly once the click limit is spent', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce({
+			allowed: false,
+			retryAfterSeconds: 60,
+			degraded: false
+		});
+		const result = await actions.saveLinkClick(buildLinkClickEvent('37', USER_ID) as any);
+
+		expect(result).toBe(true);
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'link_click',
+			subject: `user:${USER_ID}`
+		});
+		expect(rpcMock).not.toHaveBeenCalled();
 	});
 });

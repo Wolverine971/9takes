@@ -25,6 +25,7 @@ import {
 	assertCommentAccess,
 	checkRateLimit,
 	checkUserAnswered,
+	consumeCommentPaceLimit,
 	createCommentData,
 	insertCommentAtomic,
 	isOncePerQuestionError,
@@ -91,6 +92,10 @@ export async function postLiveTake(
 	if (!take.comment) return fail(400, 'Comment cannot be empty');
 
 	const ip = getClientAddress();
+	// Atomic pace limit first: the count-based check below reads before it records.
+	if (!(await consumeCommentPaceLimit(ip, userId))) {
+		return fail(429, 'Too many comments. Please wait a minute before trying again.');
+	}
 	// Independent reads share one round trip; the rate-limit rejection still wins.
 	const [rateLimit, access, signedInAnswered] = await Promise.allSettled([
 		checkRateLimit(take.fingerprint, ip),

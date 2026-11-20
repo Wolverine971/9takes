@@ -25,6 +25,7 @@ const {
 vi.mock('$lib/server/supabaseAdmin', () => ({ getSupabaseAdminClient: () => ({ rpc: rpcMock }) }));
 
 vi.mock('$lib/server/apiRateLimit', () => ({
+	GLOBAL_RATE_LIMIT_SUBJECT: 'global',
 	consumeApiRateLimit: consumeApiRateLimitMock,
 	resolveRateLimitSubject: ({
 		userId,
@@ -280,5 +281,42 @@ describe('POST /api/nine/mirror', () => {
 		expect(response.status).toBe(429);
 		expect(response.headers.get('Retry-After')).toBe('600');
 		expect(generateMirrorMock).not.toHaveBeenCalled();
+	});
+
+	it('charges the per-caller limit first, then the site-wide daily ceiling', async () => {
+		await POST(buildEvent({ fingerprint: 'visitor-ceiling-order' }) as never);
+
+		expect(consumeApiRateLimitMock.mock.calls.map(([args]) => args)).toEqual([
+			{ bucket: 'chorus_mirror', subject: 'ip:127.0.0.1' },
+			{ bucket: 'chorus_mirror_global', subject: 'global' }
+		]);
+	});
+
+	it('answers busy, with nothing posted or generated, once the site-wide ceiling is spent', async () => {
+		consumeApiRateLimitMock
+			.mockResolvedValueOnce({ allowed: true, retryAfterSeconds: 600, degraded: false })
+			.mockResolvedValueOnce({ allowed: false, retryAfterSeconds: 86400, degraded: false });
+
+		const response = await POST(buildEvent({ fingerprint: 'visitor-site-ceiling' }) as never);
+
+		expect(response.status).toBe(429);
+		expect(response.headers.get('Retry-After')).toBe('900');
+		expect(await response.json()).toEqual({ error: expect.stringContaining('busy') });
+		expect(rpcMock).not.toHaveBeenCalled();
+		expect(generateMirrorMock).not.toHaveBeenCalled();
+	});
+
+	it('ignores a visitor cookie that is not id-shaped and falls back to the body value', async () => {
+		await POST(
+			buildEvent({
+				fingerprint: 'visitor-body-fallback',
+				cookieFingerprint: 'x'.repeat(101)
+			}) as never
+		);
+
+		expect(rpcMock).toHaveBeenCalledWith(
+			'create_comment_atomic',
+			expect.objectContaining({ p_fingerprint: 'visitor-body-fallback' })
+		);
 	});
 });

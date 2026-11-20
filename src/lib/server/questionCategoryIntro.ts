@@ -911,7 +911,13 @@ function sanitizeQuestionCategoryIntroHtml(renderedHtml: string): string {
 		if (tag === 'a') {
 			const href = $(element).attr('href') ?? '';
 			if (!isSafeHref(href)) {
-				$(element).replaceWith($(element).text());
+				// Swap the link for a text node, so its text is never read back as markup.
+				const text = $(element).text();
+				if (text) {
+					$(element).replaceWith($('<span></span>').text(text).contents());
+				} else {
+					$(element).remove();
+				}
 				return;
 			}
 
@@ -935,7 +941,11 @@ function sanitizeQuestionCategoryIntroHtml(renderedHtml: string): string {
 }
 
 function isSafeHref(href: string): boolean {
-	return /^(https?:\/\/|\/|#)/i.test(href);
+	// Browsers ignore control characters inside a URL, so the check refuses them outright.
+	if (/[\u0000-\u001F\u007F]/.test(href)) return false;
+
+	// Same-site paths, in-page anchors and absolute http(s) links only.
+	return /^(https?:\/\/|\/(?![\/\\])|#)/i.test(href);
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {

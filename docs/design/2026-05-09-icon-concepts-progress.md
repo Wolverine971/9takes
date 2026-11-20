@@ -14,15 +14,13 @@ DJ ran a major redesign and now needs a single brand icon to roll out across blo
 
 All concept files live in `static/brand/concepts/`:
 
-| File                        | Format                                 | Purpose                                                       |
-| --------------------------- | -------------------------------------- | ------------------------------------------------------------- |
-| `icon-1-aperture.svg`       | SVG                                    | Concept 1 — 9-blade aperture                                  |
-| `icon-2-cipher.svg`         | SVG                                    | Concept 2 — decoder cipher wheel                              |
-| `icon-3a-greek-face*.png`   | PNG (1024 / 512 / 256 / 128 / 64 / 32) | Concept 3a — close-up statue face (best for icon)             |
-| `icon-3b-greek-reader*.png` | PNG (1024 / 512 / 256 / 128 / 64 / 32) | Concept 3b — reader bust (best for OG / hero / banner)        |
-| `icon-4-marble-nine.svg`    | SVG                                    | Concept 4 — engraved marble 9                                 |
-| `_make_greek.py`            | Python                                 | Re-runnable pipeline that builds 3a / 3b from source photos   |
-| `preview.html`              | HTML                                   | Side-by-side viewer at 16/24/32/64/128/256 px on dark + light |
+| File                        | Format                                 | Purpose                                                |
+| --------------------------- | -------------------------------------- | ------------------------------------------------------ |
+| `icon-1-aperture.svg`       | SVG                                    | Concept 1 — 9-blade aperture                           |
+| `icon-2-cipher.svg`         | SVG                                    | Concept 2 — decoder cipher wheel                       |
+| `icon-3a-greek-face*.png`   | PNG (1024 / 512 / 256 / 128 / 64 / 32) | Concept 3a — close-up statue face (best for icon)      |
+| `icon-3b-greek-reader*.png` | PNG (1024 / 512 / 256 / 128 / 64 / 32) | Concept 3b — reader bust (best for OG / hero / banner) |
+| `icon-4-marble-nine.svg`    | SVG                                    | Concept 4 — engraved marble 9                          |
 
 Source photos used for Concept 3:
 
@@ -40,7 +38,7 @@ Source photos used for Concept 3:
 
 ## Greek-face pipeline (Concept 3)
 
-`_make_greek.py` is re-runnable and parameterized. It:
+`_make_greek.py` built 3a / 3b from source photos. It:
 
 1. Loads a source PNG, center-crops to square, resamples to 1024 px.
 2. Converts to luma, lifts contrast (~1.18–1.22).
@@ -56,7 +54,7 @@ Source photos used for Concept 3:
 6. Applies a rounded-rectangle mask (radius ≈ 16% of side) for app-icon shape.
 7. Saves at 1024 / 512 / 256 / 128 / 64 / 32 PNG.
 
-Re-run: `cd static/brand/concepts && python3 _make_greek.py`
+`_make_greek.py` and the side-by-side viewer `preview.html` were removed from `static/` on 2026-11-20 (everything in `static/` is served publicly). Both remain in git history (`git log --all -- static/brand/concepts/_make_greek.py`).
 
 To process a different source photo, edit the calls at the bottom of `main()` — change the source path, `crop_frac`, and `contrast`.
 

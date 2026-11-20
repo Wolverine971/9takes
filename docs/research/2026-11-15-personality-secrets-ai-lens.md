@@ -1,4 +1,5 @@
 <!-- docs/research/2026-11-15-personality-secrets-ai-lens.md -->
+
 # Where the secrets are: personality psychology through an AI lens
 
 Date: 2026-11-15. Five parallel research agents, each on one angle:

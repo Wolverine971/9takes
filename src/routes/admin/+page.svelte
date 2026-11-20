@@ -1,7 +1,5 @@
 <!-- src/routes/admin/+page.svelte -->
 <script lang="ts">
-	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
-	import { Button } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EngagementTrends from '$lib/components/charts/EngagementTrends.svelte';
 	import GrowthTrends from '$lib/components/charts/GrowthTrends.svelte';
@@ -19,18 +17,6 @@
 	type ActionResultPayload = {
 		success?: boolean;
 		message?: string;
-	};
-
-	type ReindexActionPayload = {
-		success: boolean;
-		message?: string;
-		details?: {
-			questions: { indexed: number; failed: number; total: number };
-			blogs: { indexed: number; failed: number; total: number };
-		};
-		indexed: number;
-		failed: number;
-		total: number;
 	};
 
 	type QuestionActivityItem = {
@@ -69,7 +55,6 @@
 
 	// Writable derived: follows the load data, flipped optimistically by changeDemoTime().
 	let isDemoTime = $derived(data.demoTime === true);
-	let isReindexing = $state(false);
 
 	const readActionPayload = async <T,>(response: Response): Promise<T | null> => {
 		const result = await response.json().catch(() => null);
@@ -127,59 +112,6 @@
 		} catch (error) {
 			console.error('Failed to toggle demo mode:', error);
 			notifications.danger('Failed to update demo mode. Check server logs for details.', 5000);
-		}
-	};
-
-	const reindexEverything = async () => {
-		isReindexing = true;
-
-		try {
-			const response = await fetch('?/reindexEverything', {
-				method: 'POST',
-				body: new FormData()
-			});
-			const payload = await readActionPayload<ReindexActionPayload>(response);
-
-			if (!response.ok || !payload) {
-				notifications.danger(
-					payload?.message || 'Failed to reindex. Check server logs for details.',
-					5000
-				);
-				return;
-			}
-
-			if (payload.success) {
-				notifications.success(
-					payload.message || `Successfully reindexed ${payload.indexed} documents.`,
-					5000
-				);
-				return;
-			}
-
-			if (payload.failed > 0) {
-				let errorMessage =
-					payload.message ||
-					`Reindexing completed with errors: ${payload.indexed} succeeded, ${payload.failed} failed out of ${payload.total} total.`;
-
-				if (payload.details) {
-					errorMessage += `\n\nQuestions: ${payload.details.questions.indexed}/${payload.details.questions.total} indexed`;
-					errorMessage += `\nBlogs: ${payload.details.blogs.indexed}/${payload.details.blogs.total} indexed`;
-				}
-
-				notifications.warning(errorMessage, 10000);
-				return;
-			}
-
-			notifications.success(payload.message || 'Reindexing completed.', 3000);
-		} catch (error) {
-			console.error('Reindexing error:', error);
-			notifications.danger(
-				'Failed to reindex content. Please check Elasticsearch connectivity.',
-				5000
-			);
-		} finally {
-			isReindexing = false;
-			getModal('confirmReindex').close();
 		}
 	};
 
@@ -261,13 +193,7 @@
 </script>
 
 <div class="mobile-command-shell">
-	<MobileCommandCenter
-		{data}
-		{isDemoTime}
-		{isReindexing}
-		onToggleDemo={changeDemoTime}
-		onOpenReindex={() => getModal('confirmReindex').open()}
-	/>
+	<MobileCommandCenter {data} {isDemoTime} onToggleDemo={changeDemoTime} />
 
 	<section class="honest-growth-mobile" aria-labelledby="honest-growth-mobile-title">
 		<div class="section-copy">
@@ -301,17 +227,6 @@
 					<span class="action-icon" aria-hidden="true">🎭</span>
 					<span class="action-label">Demo mode</span>
 					<span class="action-state">{isDemoTime ? 'On' : 'Off'}</span>
-				</button>
-
-				<button
-					type="button"
-					class="action-btn"
-					onclick={() => getModal('confirmReindex').open()}
-					disabled={isReindexing}
-				>
-					<span class="action-icon" aria-hidden="true">🔄</span>
-					<span class="action-label">Reindex search</span>
-					<span class="action-state">{isReindexing ? 'Running' : 'Ready'}</span>
 				</button>
 			</div>
 		</div>
@@ -745,42 +660,6 @@
 	</section>
 </div>
 
-<Modal id="confirmReindex" name="Reindex Elasticsearch">
-	<div class="modal-content">
-		<div class="modal-icon">🔄</div>
-		<h2 class="modal-title">Reindex Elasticsearch</h2>
-		<p class="modal-text">
-			This rebuilds the Elasticsearch indices for all questions and published blog posts.
-		</p>
-
-		<div class="modal-details">
-			<p>The job will:</p>
-			<ul>
-				<li>Delete the current question and blog indices</li>
-				<li>Recreate them with the current mappings</li>
-				<li>Re-import all questions and published blog posts</li>
-			</ul>
-		</div>
-
-		<p class="modal-warning">
-			<strong>Warning:</strong> This can take several minutes to finish.
-		</p>
-
-		<div class="modal-actions">
-			<Button
-				variant="secondary"
-				onclick={() => getModal('confirmReindex').close()}
-				disabled={isReindexing}
-			>
-				Cancel
-			</Button>
-			<Button onclick={reindexEverything} loading={isReindexing}>
-				{isReindexing ? 'Reindexing...' : 'Start reindex'}
-			</Button>
-		</div>
-	</div>
-</Modal>
-
 <style>
 	.mobile-command-shell {
 		display: none;
@@ -997,11 +876,6 @@
 
 	.action-btn.active {
 		border-color: color-mix(in srgb, var(--success) 55%, var(--stone-warm));
-	}
-
-	.action-btn:disabled {
-		opacity: 0.6;
-		cursor: not-allowed;
 	}
 
 	.action-icon {
@@ -1348,71 +1222,6 @@
 		line-height: 1.5;
 	}
 
-	.modal-content {
-		max-width: 480px;
-	}
-
-	.modal-icon {
-		font-size: 2.5rem;
-		text-align: center;
-		margin-bottom: 16px;
-	}
-
-	.modal-title {
-		margin: 0 0 16px;
-		font-size: 1.25rem;
-		font-weight: 700;
-		color: var(--ink-bright);
-		text-align: center;
-	}
-
-	.modal-text {
-		margin: 0 0 16px;
-		color: var(--ink-mid);
-		font-size: 0.9rem;
-		line-height: 1.55;
-		text-align: center;
-	}
-
-	.modal-details {
-		margin: 0 0 16px;
-		padding: 16px;
-		background: var(--stone-warm);
-		border-radius: 1rem;
-		border: 1px solid var(--stone-warm);
-	}
-
-	.modal-details p {
-		margin: 0 0 10px;
-		font-weight: 600;
-		color: var(--ink-bright);
-	}
-
-	.modal-details ul {
-		margin: 0;
-		padding-left: 20px;
-		color: var(--ink-mid);
-		font-size: 0.84rem;
-		line-height: 1.55;
-	}
-
-	.modal-warning {
-		margin: 0 0 20px;
-		padding: 14px;
-		background: var(--warning-light);
-		border: 1px solid var(--warning);
-		border-radius: 1rem;
-		color: var(--warning);
-		font-size: 0.82rem;
-		line-height: 1.5;
-	}
-
-	.modal-actions {
-		display: flex;
-		gap: 12px;
-		justify-content: flex-end;
-	}
-
 	@media (max-width: 1100px) {
 		.trending-grid {
 			grid-template-columns: minmax(0, 1fr);
@@ -1445,10 +1254,6 @@
 			flex-direction: column;
 			align-items: flex-start;
 			padding: 12px 14px;
-		}
-
-		.modal-actions {
-			flex-direction: column-reverse;
 		}
 	}
 

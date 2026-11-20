@@ -5,6 +5,8 @@ import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { canSeeProfileTakeText, loadProfileAnswers } from '$lib/server/profileAnswers';
+import { logger } from '$lib/utils/logger';
+import { profileEditSchema, toProfileUpdate } from '$lib/validation/profileSchemas';
 import type { Database } from '../../../../database.types';
 
 type ProfileRow = Database['public']['Tables']['profiles']['Row'];
@@ -95,39 +97,34 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions: Actions = {
 	updateAccount: async ({ request, locals }) => {
-		try {
-			const session = locals.session;
+		const session = locals.session;
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(locals.supabase);
-			const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
-			const db = locals.supabase as any;
-
-			const body = Object.fromEntries(await request.formData());
-
-			const first_name = String(body.firstName ?? '');
-			const last_name = String(body.lastName ?? '');
-			const enneagram = String(body.enneagram ?? '');
-
-			const { error: updateUserError } = await db
-				.from(profileTable)
-				.update({ first_name, last_name, enneagram })
-				.eq('id', session.user.id);
-			// insert(userData);
-			if (!updateUserError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update user ${JSON.stringify(updateUserError)}`
-				});
-			}
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to update user ${JSON.stringify(e)}`
-			});
+		if (!session?.user?.id) {
+			throw error(401, 'unauthorized');
 		}
+
+		const parsed = profileEditSchema.safeParse(Object.fromEntries(await request.formData()));
+		if (!parsed.success) {
+			throw error(400, parsed.error.issues[0]?.message ?? 'Invalid profile details');
+		}
+
+		const demo_time = await checkDemoTime(locals.supabase);
+		const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
+		const db = locals.supabase as any;
+
+		// The row comes from the session; any identity field in the form is ignored.
+		const { error: updateUserError } = await db
+			.from(profileTable)
+			.update(toProfileUpdate(parsed.data))
+			.eq('id', session.user.id);
+
+		if (updateUserError) {
+			logger.error('Failed to update account profile', updateUserError as Error, {
+				userId: session.user.id
+			});
+			throw error(500, 'Failed to update account');
+		}
+
+		return { success: true };
 	}
 };

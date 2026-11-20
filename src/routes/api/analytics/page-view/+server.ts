@@ -3,7 +3,7 @@ import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { pageViewSchema } from '$lib/validation/analyticsSchemas';
-import { createBackgroundSupabaseClient } from '$lib/server/backgroundSupabase';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { classifyPath, shouldTrackPath } from '$lib/analytics/pageAnalytics';
 import { sanitizeExternalReferrerHost } from '$lib/analytics/attribution';
 import {
@@ -31,7 +31,8 @@ export const POST = withApiLogging(async (event) => {
 			return json({ ok: true, skipped: true });
 		}
 
-		const supabaseAny = (await createBackgroundSupabaseClient(locals.supabase)) as any;
+		// Analytics RPCs are server-only: callers never choose the visit's identity.
+		const supabaseAny = getSupabaseAdminClient() as any;
 		const userId = locals.session?.user?.id ?? null;
 		const referrerHost = getReferrerHost(request, validated.referrer_host);
 

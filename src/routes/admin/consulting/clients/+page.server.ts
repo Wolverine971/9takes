@@ -1,14 +1,15 @@
 // src/routes/admin/consulting/clients/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
 import { error as httpError, fail } from '@sveltejs/kit';
-import { guardAdminActions } from '$lib/server/adminAuth';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import type { Database } from '../../../../../database.types';
 
 type ClientStatus = Pick<Database['public']['Tables']['consulting_clients']['Row'], 'status'>;
 const CLIENT_PAGE_SIZE = 100;
 
 export const load: PageServerLoad = async ({ locals, url }) => {
-	const supabase = locals.supabase;
+	// This load checks admin itself; it does not rely on the layout load having run.
+	const { supabase } = await requireAdmin(locals);
 
 	// Get filter params
 	const statusFilter = url.searchParams.get('status') || 'all';

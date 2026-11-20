@@ -13,7 +13,6 @@
 		MessageCircle,
 		MessageSquareText,
 		RefreshCw,
-		Search,
 		Target,
 		Users,
 		UserRoundPlus
@@ -27,9 +26,7 @@
 	type Props = {
 		data: PageData;
 		isDemoTime: boolean;
-		isReindexing: boolean;
 		onToggleDemo: () => void | Promise<void>;
-		onOpenReindex: () => void;
 	};
 
 	type TrendingPageRow = {
@@ -42,7 +39,7 @@
 		top_sources: Array<{ key: string; count: number }>;
 	};
 
-	let { data, isDemoTime, isReindexing, onToggleDemo, onOpenReindex }: Props = $props();
+	let { data, isDemoTime, onToggleDemo }: Props = $props();
 	const mobileCommand = getMobileAdminCommand();
 
 	const quickLinks = [
@@ -556,13 +553,6 @@
 					Demo data
 				</span>
 				<strong>{isDemoTime ? 'On' : 'Off'}</strong>
-			</button>
-			<button type="button" onclick={onOpenReindex} disabled={isReindexing}>
-				<span>
-					<Search size={16} strokeWidth={1.8} aria-hidden="true" />
-					Search index
-				</span>
-				<strong>{isReindexing ? 'Running' : 'Rebuild'}</strong>
 			</button>
 		</div>
 	</section>

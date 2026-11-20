@@ -1,17 +1,16 @@
 // src/routes/admin/transactional-emails/+page.server.ts
 // Admin-only test-send + custom-compose endpoints for the transactional-emails
 // admin page. Auth + admin gating is handled by /admin/+layout.server.ts for
-// the page load; inline admin checks defend the form actions against direct
-// POSTs from non-admins.
+// the page load; guardAdminActions runs the admin check before every action.
 import type { Actions } from './$types';
 import type { EmailRecipient } from '$lib/types/email';
 import { error } from '@sveltejs/kit';
-import { checkDemoTime } from '../../../utils/api';
 import { forgotPass, joinEmail, joinEmail2, signupEmail } from '../../../emails';
 import { sendBatchEmails, sendEmailWithTracking } from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
 import { logger } from '$lib/utils/logger';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { guardAdminActions } from '$lib/server/adminAuth';
 import { emailTemplateSchema } from '$lib/validation/schemas';
 import { z } from 'zod';
 
@@ -27,25 +26,8 @@ function toLegacyRecipient(email: string, sourceId?: string, name?: string | nul
 	};
 }
 
-async function assertAdmin(locals: App.Locals): Promise<void> {
-	if (!locals?.session?.user?.id) {
-		throw error(401, 'unauthorized');
-	}
-	const demo_time = await checkDemoTime(locals.supabase);
-	const dbLocal = locals.supabase as any;
-	const { data: user, error: findUserError } = await dbLocal
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('id, admin, external_id')
-		.eq('id', locals.session.user.id)
-		.single();
-	if (findUserError || !user?.admin) {
-		throw error(403, 'unauthorized');
-	}
-}
-
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	emailTemplate: async ({ request, locals }) => {
-		await assertAdmin(locals);
 		const dbLocal = getSupabaseAdminClient() as any;
 		const body = Object.fromEntries(await request.formData());
 
@@ -108,7 +90,6 @@ export const actions: Actions = {
 	},
 
 	singleCustomEmail: async ({ request, locals }) => {
-		await assertAdmin(locals);
 		const dbLocal = getSupabaseAdminClient() as any;
 		const body = Object.fromEntries(await request.formData());
 		const email = body.email.toString();
@@ -138,12 +119,12 @@ export const actions: Actions = {
 			}
 			return { success: true };
 		} catch (e) {
-			throw error(404, { message: `Failed to send email, ${JSON.stringify(e)}` });
+			logger.error('Failed to send custom admin email', e as Error);
+			throw error(404, { message: 'Failed to send email' });
 		}
 	},
 
 	sendCustomEmailToEveryone: async ({ request, locals }) => {
-		await assertAdmin(locals);
 		const dbLocal = getSupabaseAdminClient() as any;
 		const body = Object.fromEntries(await request.formData());
 		const subject = body.subject ? body.subject.toString() : 'TEST EMAIL for 9takes';
@@ -158,7 +139,8 @@ export const actions: Actions = {
 			.select('id, email, name');
 
 		if (signupsError) {
-			throw error(404, { message: `Failed to get signups, ${JSON.stringify(signupsError)}` });
+			logger.error('Failed to load signups for admin email send', signupsError as Error);
+			throw error(404, { message: 'Failed to get signups' });
 		}
 
 		const signupRows = signups || [];
@@ -217,7 +199,8 @@ export const actions: Actions = {
 				results: result.results
 			};
 		} catch (e) {
-			throw error(404, { message: `Failed to send email, ${JSON.stringify(e)}` });
+			logger.error('Failed to send custom admin email', e as Error);
+			throw error(404, { message: 'Failed to send email' });
 		}
 	}
-};
+});

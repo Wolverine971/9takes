@@ -11,6 +11,7 @@ const {
 	captureRegistrationCompletedMock,
 	profileUpdateMock,
 	profileEqMock,
+	consumeApiRateLimitMock,
 	loggerMocks
 } = vi.hoisted(() => ({
 	verifyRecaptchaMock: vi.fn(),
@@ -22,6 +23,7 @@ const {
 	captureRegistrationCompletedMock: vi.fn(),
 	profileUpdateMock: vi.fn(),
 	profileEqMock: vi.fn(),
+	consumeApiRateLimitMock: vi.fn(),
 	loggerMocks: {
 		info: vi.fn(),
 		warn: vi.fn(),
@@ -37,6 +39,11 @@ vi.mock('$lib/utils/recaptcha', () => ({
 vi.mock('$lib/server/authProtection', () => ({
 	getAuthProtectionState: getAuthProtectionStateMock,
 	recordAuthProtectionEvent: recordAuthProtectionEventMock
+}));
+
+vi.mock('$lib/server/apiRateLimit', () => ({
+	consumeApiRateLimit: consumeApiRateLimitMock,
+	resolveRateLimitSubject: ({ clientAddress }: { clientAddress: string }) => `ip:${clientAddress}`
 }));
 
 vi.mock('$lib/server/welcomeSequenceGuards', () => ({
@@ -77,14 +84,14 @@ function buildRegisterRequest(overrides: Record<string, string> = {}) {
 
 function buildEvent(
 	signUpResult?: {
-		data?: { user?: { id: string; identities?: unknown[] } | null };
+		data?: { user?: { id: string; identities?: unknown[]; created_at?: string } | null };
 		error?: unknown;
 	},
 	requestOverrides: Record<string, string> = {}
 ) {
 	const signUp = vi.fn().mockResolvedValue(
 		signUpResult ?? {
-			data: { user: { id: 'user-123' } },
+			data: { user: { id: 'user-123', created_at: new Date().toISOString() } },
 			error: null
 		}
 	);
@@ -118,6 +125,11 @@ describe('register action', () => {
 		captureRegistrationCompletedMock.mockResolvedValue(true);
 		profileEqMock.mockResolvedValue({ error: null });
 		profileUpdateMock.mockReturnValue({ eq: profileEqMock });
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: true,
+			retryAfterSeconds: 3600,
+			degraded: false
+		});
 	});
 
 	it.each([
@@ -174,6 +186,58 @@ describe('register action', () => {
 			userId: 'user-123',
 			enneagramType: 5
 		});
+	});
+
+	it('leaves the profile alone when the returned account predates this request', async () => {
+		const event = buildEvent(
+			{
+				data: {
+					user: {
+						id: 'earlier-123',
+						identities: [{}],
+						created_at: new Date(Date.now() - 10 * 60 * 1000).toISOString()
+					}
+				},
+				error: null
+			},
+			{ enneagram: '5' }
+		);
+
+		const result = await actions.register(event as any);
+
+		expect(result).toEqual({ success: true });
+		expect(profileUpdateMock).not.toHaveBeenCalled();
+	});
+
+	it('leaves the profile alone when the returned account has no creation time', async () => {
+		const event = buildEvent(
+			{ data: { user: { id: 'user-123', identities: [{}] } }, error: null },
+			{ enneagram: '5' }
+		);
+
+		const result = await actions.register(event as any);
+
+		expect(result).toEqual({ success: true });
+		expect(profileUpdateMock).not.toHaveBeenCalled();
+	});
+
+	it('counts the attempt against the address before any other work', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce({
+			allowed: false,
+			retryAfterSeconds: 3600,
+			degraded: false
+		});
+		const event = buildEvent();
+
+		const result = await actions.register(event as any);
+
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'auth_register',
+			subject: 'ip:127.0.0.1'
+		});
+		expect(result).toMatchObject({ status: 429 });
+		expect(getAuthProtectionStateMock).not.toHaveBeenCalled();
+		expect(event._signUp).not.toHaveBeenCalled();
 	});
 
 	it('still returns success when welcome-sequence enrollment fails internally', async () => {

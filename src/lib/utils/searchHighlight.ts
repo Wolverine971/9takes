@@ -1,9 +1,9 @@
 // src/lib/utils/searchHighlight.ts
 //
-// Search results are rendered with `{@html}` so Elasticsearch's <mark> tags
-// survive. Everything around those tags is reader-submitted question text, so
-// it has to be escaped first — otherwise a question containing markup executes
-// in whoever searches for it.
+// Search results are rendered with `{@html}` so the <mark> tags added by the
+// Supabase search RPCs survive. Everything around those tags is
+// reader-submitted question text, so it has to be escaped first — otherwise a
+// question containing markup executes in whoever searches for it.
 //
 // The sentinel round-trip lets us escape the whole string and then restore only
 // the two tags we intend to emit.

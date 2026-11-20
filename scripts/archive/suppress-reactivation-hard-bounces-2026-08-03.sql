@@ -1,4 +1,4 @@
--- scripts/suppress-reactivation-hard-bounces-2026-08-03.sql
+-- scripts/archive/suppress-reactivation-hard-bounces-2026-08-03.sql
 -- Suppress permanent failures from the July/August 2026 reactivation send.
 -- Evidence source: usersup@9takes.com Gmail delivery-status notices.
 --
@@ -8,21 +8,27 @@
 BEGIN;
 
 CREATE TEMP TABLE reactivation_hard_bounce_targets (
-	email TEXT PRIMARY KEY,
-	profile_id UUID NOT NULL,
+	profile_id UUID PRIMARY KEY,
 	sequence_key TEXT NOT NULL,
-	bounce_reason TEXT NOT NULL
+	bounce_reason TEXT NOT NULL,
+	-- Resolved from profiles below. Addresses are never written in this file.
+	email TEXT
 ) ON COMMIT DROP;
 
-INSERT INTO reactivation_hard_bounce_targets (email, profile_id, sequence_key, bounce_reason)
+INSERT INTO reactivation_hard_bounce_targets (profile_id, sequence_key, bounce_reason)
 VALUES
-	('ana.tejerina@icalmeria.es', 'a4d55943-5a8d-4fbf-bc32-7b8a321b65bd', 'reactivation_dormant', 'recipient_does_not_exist_or_blocked'),
-	('claresaunders1234@aol.com', 'f3619364-9e32-47e8-832e-7cfaccc3cfd7', 'reactivation_dormant', 'message_blocked'),
-	('debwilliams202@gmail.com', '22fb2cae-aef4-4495-983a-87fa9b77edf3', 'reactivation_dormant', 'address_not_found'),
-	('ladavo1339@funvane.com', 'a02b71b5-3021-4867-85fa-b69fcd756ba8', 'reactivation_zombies', 'message_not_delivered'),
-	('meqymyxo@socam.me', '0ad86684-cdf3-4fdd-a8ee-7ec25695f2ad', 'reactivation_zombies', 'address_not_found'),
-	('ratchevyordan1@gmail.com', '65bc9fbf-63d4-47c4-a3c4-1aa4df2a3244', 'reactivation_zombies', 'address_not_found'),
-	('x3yl6f54yu@skygazerhub.com', '69618fbc-08db-4108-84c4-6aa439b718e9', 'reactivation_zombies', 'message_not_delivered');
+	('a4d55943-5a8d-4fbf-bc32-7b8a321b65bd', 'reactivation_dormant', 'recipient_does_not_exist_or_blocked'),
+	('f3619364-9e32-47e8-832e-7cfaccc3cfd7', 'reactivation_dormant', 'message_blocked'),
+	('22fb2cae-aef4-4495-983a-87fa9b77edf3', 'reactivation_dormant', 'address_not_found'),
+	('a02b71b5-3021-4867-85fa-b69fcd756ba8', 'reactivation_zombies', 'message_not_delivered'),
+	('0ad86684-cdf3-4fdd-a8ee-7ec25695f2ad', 'reactivation_zombies', 'address_not_found'),
+	('65bc9fbf-63d4-47c4-a3c4-1aa4df2a3244', 'reactivation_zombies', 'address_not_found'),
+	('69618fbc-08db-4108-84c4-6aa439b718e9', 'reactivation_zombies', 'message_not_delivered');
+
+UPDATE reactivation_hard_bounce_targets AS target
+SET email = normalize_email_text(profile.email)
+FROM profiles AS profile
+WHERE profile.id = target.profile_id;
 
 CREATE TEMP TABLE reactivation_hard_bounce_sends (
 	email_send_id UUID PRIMARY KEY,
@@ -57,7 +63,8 @@ BEGIN
 	FROM reactivation_hard_bounce_targets AS target
 	JOIN profiles AS profile
 		ON profile.id = target.profile_id
-		AND normalize_email_text(profile.email) = target.email;
+	WHERE target.email IS NOT NULL
+		AND target.email <> '';
 
 	SELECT COUNT(*)
 	INTO v_enrollment_match_count

@@ -5,10 +5,7 @@ import sharp from 'sharp';
 import type { RequestHandler } from './$types';
 import { renderBrandCard } from '$lib/server/brandCards/renderBrandCard';
 import { PERSON_SOCIAL_CARD_MAX_NAME_LENGTH } from '$lib/utils/socialImage';
-import {
-	formatPersonalityDisplayName,
-	normalizePersonalitySlug
-} from '$lib/utils/personalityAnalysis';
+import { formatPersonalityDisplayName } from '$lib/utils/personalityAnalysis';
 
 const CACHE_CONTROL = 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=2592000';
 const STATIC_ROOT = path.resolve('static');
@@ -19,7 +16,7 @@ const FALLBACK_IMAGE_PATH = '/brand/og/default.jpg';
 const MAX_CONVERTED_IMAGE_CACHE_ENTRIES = 256;
 const convertedImageCache = new Map<string, Buffer>();
 
-/** One LRU-ish map for converted portraits and rendered person cards (keyed by the full params). */
+/** One LRU-ish map for converted portraits and rendered person cards (keyed by portrait, name, type). */
 function setCachedImage(cacheKey: string, buffer: Buffer): void {
 	convertedImageCache.set(cacheKey, buffer);
 
@@ -88,8 +85,11 @@ function imageResponse(buffer: Buffer, contentType: 'image/png' | 'image/jpeg'):
 
 interface PersonCardParams {
 	portrait: string;
+	/** The portrait's own display name, the only spelling that is rendered. */
 	name: string;
 	type: number | null;
+	/** False when the request spelled the name any other way. */
+	nameIsCanonical: boolean;
 }
 
 /**
@@ -97,28 +97,48 @@ interface PersonCardParams {
  * person card. `type` is optional and ignored unless it is 1-9. Only name, type and portrait go
  * on the card, never take or comment text.
  *
- * The name must belong to the portrait: if it doesn't match the file's own person (by slug), the
- * card uses the display name derived from the filename instead, so nobody can mint a 9takes-
- * branded image with arbitrary text over a real person's portrait.
+ * The card always carries the display name derived from the portrait's filename, which is the
+ * name the site's own links send. One portrait therefore has one rendered card per type, and any
+ * other spelling of `name` is redirected to that card's URL instead of being rendered again.
  */
 function readPersonCardParams(url: URL, sourcePath: string | null): PersonCardParams | null {
-	const name = url.searchParams.get('name')?.replace(/\s+/g, ' ').trim() ?? '';
+	const requestedName = url.searchParams.get('name') ?? '';
+	const name = requestedName.replace(/\s+/g, ' ').trim();
 	if (!sourcePath || !name || name.length > PERSON_SOCIAL_CARD_MAX_NAME_LENGTH) return null;
 
 	const portrait = `/${path.relative(STATIC_ROOT, sourcePath).split(path.sep).join('/')}`;
 	const stem = path.posix.basename(portrait).replace(ALLOWED_EXTENSION, '');
 	const fileName = formatPersonalityDisplayName(stem);
 	if (!fileName) return null;
-	const nameSlug = normalizePersonalitySlug(name);
-	const nameMatchesFile =
-		nameSlug === normalizePersonalitySlug(stem) || nameSlug === normalizePersonalitySlug(fileName);
 
 	const rawType = url.searchParams.get('type');
 	const typeNumber = rawType && /^[1-9]$/.test(rawType) ? Number(rawType) : null;
-	return { portrait, name: nameMatchesFile ? name : fileName, type: typeNumber };
+	return {
+		portrait,
+		name: fileName,
+		type: typeNumber,
+		nameIsCanonical: requestedName === fileName
+	};
 }
 
-async function renderPersonCard({ portrait, name, type }: PersonCardParams): Promise<Buffer> {
+/** Same request with the canonical `name`, so every spelling shares one cached card. */
+function canonicalNameRedirect(url: URL, name: string): Response {
+	const params = new URLSearchParams(url.searchParams);
+	params.set('name', name);
+	return new Response(null, {
+		status: 301,
+		headers: {
+			location: `${url.pathname}?${params.toString()}`,
+			'cache-control': CACHE_CONTROL
+		}
+	});
+}
+
+async function renderPersonCard({
+	portrait,
+	name,
+	type
+}: Pick<PersonCardParams, 'portrait' | 'name' | 'type'>): Promise<Buffer> {
 	const cacheKey = `person-card|${portrait}|${name}|${type ?? ''}`;
 	const cached = convertedImageCache.get(cacheKey);
 	if (cached) return cached;
@@ -143,6 +163,7 @@ export const GET: RequestHandler = async ({ url, request }) => {
 
 	try {
 		if (personCard) {
+			if (!personCard.nameIsCanonical) return canonicalNameRedirect(url, personCard.name);
 			return imageResponse(await renderPersonCard(personCard), 'image/jpeg');
 		}
 		if (!sourcePath) {

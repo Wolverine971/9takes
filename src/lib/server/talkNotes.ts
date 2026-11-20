@@ -16,6 +16,7 @@
 import { createHash, randomBytes, randomUUID, timingSafeEqual } from 'node:crypto';
 import { env } from '$env/dynamic/private';
 import { sendEmail, type SendEmailOptions, type SendEmailResult } from '$lib/email/sender';
+import { consumeApiRateLimit } from '$lib/server/apiRateLimit';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import type {
 	AdminTalkNote,
@@ -139,15 +140,31 @@ export type TalkNotesDeps = {
 	supabase?: any;
 	sendEmail?: (options: SendEmailOptions) => Promise<SendEmailResult>;
 	now?: () => Date;
+	/** True the first time it is asked about a note, false ever after. */
+	claimSessionAlert?: (noteId: string) => Promise<boolean>;
 };
 
 type Failure = { ok: false; status: number; message: string };
+
+/**
+ * One session-request alert per note. The details step can be submitted again
+ * while its token is valid, and DJ only needs to hear about a note once. The
+ * claim is atomic, so two submits at the same moment still send one alert.
+ */
+async function claimSessionAlertOnce(noteId: string): Promise<boolean> {
+	const decision = await consumeApiRateLimit({
+		bucket: 'talk_note_session_alert',
+		subject: `note:${noteId}`
+	});
+	return decision.allowed;
+}
 
 function resolveDeps(deps: TalkNotesDeps) {
 	return {
 		supabase: deps.supabase ?? (getSupabaseAdminClient() as any),
 		send: deps.sendEmail ?? sendEmail,
-		now: deps.now ?? (() => new Date())
+		now: deps.now ?? (() => new Date()),
+		claimSessionAlert: deps.claimSessionAlert ?? claimSessionAlertOnce
 	};
 }
 
@@ -462,7 +479,7 @@ export async function saveTalkNoteDetails(
 	input: SaveTalkNoteDetailsInput,
 	deps: TalkNotesDeps = {}
 ): Promise<SaveTalkNoteDetailsResult> {
-	const { supabase, send, now } = resolveDeps(deps);
+	const { supabase, send, now, claimSessionAlert } = resolveDeps(deps);
 	const gone: Failure = {
 		ok: false,
 		status: 410,
@@ -522,7 +539,8 @@ export async function saveTalkNoteDetails(
 	}
 
 	const adminEmail = talkNoteAlertAddress();
-	if (input.wantsSession && adminEmail) {
+	// The request itself is saved above and shows in the notes inbox either way.
+	if (input.wantsSession && adminEmail && (await claimSessionAlert(note.id))) {
 		await sendAdminAlert(
 			send,
 			{

@@ -3,6 +3,7 @@ import { error, json } from '@sveltejs/kit';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { z } from 'zod';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 
 const getLinksSchema = z.object({
 	parentId: z.string().transform(Number),
@@ -30,7 +31,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			return json([]);
 		}
 
-		const cookie = cookies.get('9tfingerprint');
+		const cookie = readVisitorFingerprint(cookies);
 		const { data: userHasAnswered, error: canSeeLinksError } = await supabase.rpc(
 			'can_see_comments_3',
 			{

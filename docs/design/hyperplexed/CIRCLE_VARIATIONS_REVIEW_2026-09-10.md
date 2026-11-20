@@ -6,7 +6,7 @@ Generated using the built-in image generation tool and the approved cel-shaded n
 
 ## Review
 
-[Open the comparison gallery](http://127.0.0.1:5197/images/home-reimagined/circle-variations/review.html).
+The comparison gallery page (`review.html`) was removed from `static/` on 2026-11-20; the four images below are unchanged.
 
 | Candidate             | Image                                                                                                     | Direction                                                                                |
 | --------------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |

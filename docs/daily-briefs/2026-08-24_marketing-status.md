@@ -28,7 +28,7 @@ The last five audits ranked identity/type capture at or near the top. This week 
 
 Read plainly: the product now has a typing step for the 0.03% of visitors who reach `/register`, and a demand test for the 0.88% who reach a gate. Growth's `enneagram_type_prompt` sequence — already built, sitting in `draft`, addressable list of **137 untyped profiles with an email** — would reach more people than both new surfaces combined and requires a status flip, not a build.
 
-The half that did not ship is the one this week's audit located in code. `src/lib/server/welcomeSequenceGuards.ts:8-15` still maps a top-level answer to `exit_reason = 'answered_question'`. It has fired exactly once in the table's history, on `hinder_86@hotmail.com` — last week's anonymous → register → 9-contribution star — and bought him 14 days of silence. He has not returned. Five consecutive matured cohorts have now returned 0%.
+The half that did not ship is the one this week's audit located in code. `src/lib/server/welcomeSequenceGuards.ts:8-15` still maps a top-level answer to `exit_reason = 'answered_question'`. It has fired exactly once in the table's history, on `user-d84e8e82` — last week's anonymous → register → 9-contribution star — and bought him 14 days of silence. He has not returned. Five consecutive matured cohorts have now returned 0%.
 
 **Biggest leak (verbatim, 2026-08-24 audit):** _"9takes systematically silences the users it activates. The loop has no return leg at all — and this week the code that does it was located."_ A contributor's entire post-give experience is (a) a **91.5%** chance nobody ever replies (59 comments, 5 replies, last 10 weeks) and (b) if they registered, being removed from the only nurture sequence the moment they contribute.
 

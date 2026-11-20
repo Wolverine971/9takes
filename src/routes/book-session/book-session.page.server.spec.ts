@@ -63,7 +63,9 @@ function detailsEvent(fields: Record<string, string>) {
 		request: new Request('http://localhost/book-session?/details', {
 			method: 'POST',
 			body: formData
-		})
+		}),
+		getClientAddress: () => '203.0.113.5',
+		locals: {}
 	} as any;
 }
 
@@ -211,6 +213,34 @@ describe('/book-session ?/details', () => {
 			wantsSession: true,
 			email: 'sam@example.com'
 		});
+	});
+
+	it('charges an IP-keyed limit and stops before saving once it is spent', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce({ allowed: false, retryAfterSeconds: 3600 });
+		const result: any = await actions.details(
+			detailsEvent({
+				noteId: 'note-1',
+				detailsToken: 'token-bbbbbbbbbbbbbbbbbbbbbbbb',
+				email: 'sam@example.com',
+				name: 'Sam',
+				wantsSession: 'on'
+			})
+		);
+
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'talk_note_details',
+			subject: 'ip:203.0.113.5'
+		});
+		expect(result.status).toBe(429);
+		expect(result.data).toMatchObject({
+			noteId: 'note-1',
+			detailsToken: 'token-bbbbbbbbbbbbbbbbbbbbbbbb',
+			email: 'sam@example.com',
+			name: 'Sam',
+			wantsSession: true
+		});
+		expect(result.data.detailsMessage).toEqual(expect.any(String));
+		expect(saveTalkNoteDetailsMock).not.toHaveBeenCalled();
 	});
 
 	it('echoes the note id and token back on failure so the step can retry', async () => {

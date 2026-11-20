@@ -3,6 +3,7 @@ import { AuthApiError } from '@supabase/supabase-js';
 import { fail, redirect } from '@sveltejs/kit';
 import { establishSessionFromAuthRedirect } from '$lib/server/authCallback';
 import { getAccountReturnTo } from '$lib/server/accountReturnTo';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
 import { getAuthProtectionState, recordAuthProtectionEvent } from '$lib/server/authProtection';
 import { logger } from '$lib/utils/logger';
 import { verifyRecaptcha } from '$lib/utils/recaptcha';
@@ -54,6 +55,19 @@ export const actions: Actions = {
 		const clientIP = getClientAddress();
 
 		try {
+			// Counted and checked in one statement, so simultaneous attempts from one
+			// address cannot all slip past the slower checks below.
+			const burstDecision = await consumeApiRateLimit({
+				bucket: 'auth_login',
+				subject: resolveRateLimitSubject({ clientAddress: clientIP })
+			});
+			if (!burstDecision.allowed) {
+				return fail(429, {
+					error: 'Too many login attempts. Please wait a few minutes and try again.',
+					captchaRequired: true
+				});
+			}
+
 			const formData = await request.formData();
 			const body = Object.fromEntries(formData);
 			const returnTo = getAccountReturnTo(formData.get('returnTo'));

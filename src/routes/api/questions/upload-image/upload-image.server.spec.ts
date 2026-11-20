@@ -14,12 +14,6 @@ vi.mock('$lib/server/questionImages', () => ({
 	uploadQuestionImage: uploadQuestionImageMock
 }));
 
-vi.mock('$lib/server/elasticSearch', () => ({
-	elasticClient: {
-		update: vi.fn().mockResolvedValue({})
-	}
-}));
-
 vi.mock('../../../../utils/api', () => ({
 	checkDemoTime: vi.fn().mockResolvedValue(false)
 }));

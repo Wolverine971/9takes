@@ -3,7 +3,7 @@ import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { pagePingSchema } from '$lib/validation/analyticsSchemas';
-import { createBackgroundSupabaseClient } from '$lib/server/backgroundSupabase';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import {
 	logBestEffortTelemetryFailure,
 	runBestEffortTelemetry
@@ -15,7 +15,8 @@ export const POST = withApiLogging(async (event) => {
 	try {
 		const body = await request.json();
 		const validated = pagePingSchema.parse(body);
-		const supabaseAny = (await createBackgroundSupabaseClient(locals.supabase)) as any;
+		// Analytics RPCs are server-only: callers never choose the visit's identity.
+		const supabaseAny = getSupabaseAdminClient() as any;
 
 		runBestEffortTelemetry(
 			event,

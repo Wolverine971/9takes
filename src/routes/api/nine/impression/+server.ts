@@ -23,6 +23,10 @@ import {
 import { PROVEN_CHORUS_QUESTION_URLS } from '$lib/server/provenChorusQuestions';
 import { LIVE_TAKE_SLUG } from '$lib/data/homepageLiveTake';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import {
+	normalizeVisitorFingerprint,
+	readVisitorFingerprint
+} from '$lib/server/visitorFingerprint';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import { CONTENT_GUARD_CACHE_CONTROL } from '$lib/server/contentAccessGuard';
 import { logger } from '$lib/utils/logger';
@@ -86,7 +90,8 @@ export const POST: RequestHandler = async ({ request, cookies, locals }) => {
 	if (isLikelyCrawlerUserAgent(userAgent)) return noContent();
 
 	const { questionUrl, sourcePath } = parsed.data;
-	const fingerprint = cookies.get('9tfingerprint') ?? parsed.data.fingerprint ?? null;
+	const fingerprint =
+		readVisitorFingerprint(cookies) ?? normalizeVisitorFingerprint(parsed.data.fingerprint);
 	if (!fingerprint) return noContent();
 
 	try {

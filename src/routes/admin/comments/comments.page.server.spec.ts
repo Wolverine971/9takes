@@ -139,6 +139,24 @@ describe('/admin/comments moderation actions', () => {
 		expect(event._supabase.from).not.toHaveBeenCalledWith('comments');
 	});
 
+	it('reads admin rights from the live profile table even in demo mode', async () => {
+		checkDemoTimeMock.mockResolvedValue(true);
+		const event = buildEvent();
+
+		await actions.removeComment(event as any);
+
+		expect(event._supabase.from).toHaveBeenCalledWith('profiles');
+		expect(event._supabase.from).not.toHaveBeenCalledWith('profiles_demo');
+	});
+
+	it('rejects a signed-out request before any query', async () => {
+		const event = buildEvent();
+		(event.locals as { session: unknown }).session = null;
+
+		await expect(actions.unflagComment(event as any)).rejects.toMatchObject({ status: 401 });
+		expect(event._supabase.from).not.toHaveBeenCalled();
+	});
+
 	it('updates only flags that are still pending review', async () => {
 		const event = buildEvent();
 
@@ -217,7 +235,7 @@ describe('/admin/comments load (give-first: take text is service-role only)', ()
 	it('never runs a service-role read for a non-admin', async () => {
 		const { event } = loadEvent(false);
 
-		await expect(load(event as any)).rejects.toMatchObject({ status: 307 });
+		await expect(load(event as any)).rejects.toMatchObject({ status: 403 });
 		expect(serviceReads).toEqual([]);
 	});
 });

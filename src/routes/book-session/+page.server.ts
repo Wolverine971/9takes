@@ -15,6 +15,7 @@ import type { Actions, PageServerLoad } from './$types';
 import corpusStats from '$lib/data/corpus-stats.json';
 import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
 import { recordCtaExperimentEvent } from '$lib/server/ctaExperiments';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 import {
 	createTalkNote,
 	looksLikeBotUserAgent,
@@ -98,19 +99,37 @@ export const actions: Actions = {
 				surface: 'book_session',
 				placement: 'door',
 				path: url.pathname,
-				fingerprint: cookies.get('9tfingerprint') ?? null
+				fingerprint: readVisitorFingerprint(cookies)
 			});
 		}
 		return { noteSaved: true as const, noteId: result.noteId, detailsToken: result.detailsToken };
 	},
 
-	details: async ({ request }) => {
+	details: async ({ request, getClientAddress, locals }) => {
 		const formData = await request.formData();
 		const noteId = formData.get('noteId')?.toString() ?? '';
 		const detailsToken = formData.get('detailsToken')?.toString() ?? '';
 		const email = formData.get('email')?.toString() ?? '';
 		const name = formData.get('name')?.toString() ?? '';
 		const wantsSession = formData.get('wantsSession') === 'on';
+
+		const decision = await consumeApiRateLimit({
+			bucket: 'talk_note_details',
+			subject: resolveRateLimitSubject({
+				userId: locals.session?.user?.id,
+				clientAddress: getClientAddress()
+			})
+		});
+		if (!decision.allowed) {
+			return fail(429, {
+				detailsMessage: 'That’s a lot of tries in a row. Give it a little while and try again.',
+				noteId,
+				detailsToken,
+				email,
+				name,
+				wantsSession
+			});
+		}
 
 		const result = await saveTalkNoteDetails({ noteId, detailsToken, email, name, wantsSession });
 		if (!result.ok) {

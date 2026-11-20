@@ -21,6 +21,8 @@ import {
 	seedFrom
 } from '$lib/server/accountDashboard';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { logger } from '$lib/utils/logger';
+import { profileEditSchema, toProfileUpdate } from '$lib/validation/profileSchemas';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -119,48 +121,34 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions: Actions = {
 	updateAccount: async (event) => {
-		try {
-			const { request, locals } = event;
-			const session = locals.session;
+		const { request, locals } = event;
+		const session = locals.session;
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(locals.supabase);
-
-			const body = Object.fromEntries(await request.formData());
-
-			const first_name = body.firstName as string;
-			const last_name = body.lastName as string;
-			const enneagram = body.enneagram as string;
-			const email = body.email as string;
-			if (enneagram !== '' && !/^[1-9]$/.test(enneagram ?? '')) {
-				throw error(400, 'Choose an Enneagram type from 1 to 9');
-			}
-
-			// Verify the email matches the authenticated user to prevent privilege escalation
-			if (email !== session.user.email) {
-				throw error(403, "Unauthorized: Cannot modify another user's account");
-			}
-
-			const { error: updateUserError } = await locals.supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.update({ first_name, last_name, enneagram })
-				.eq('id', session.user.id);
-
-			if (!updateUserError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update user ${JSON.stringify(updateUserError)}`
-				});
-			}
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to update user ${JSON.stringify(e)}`
-			});
+		if (!session?.user?.id) {
+			throw error(401, 'unauthorized');
 		}
+
+		const parsed = profileEditSchema.safeParse(Object.fromEntries(await request.formData()));
+		if (!parsed.success) {
+			throw error(400, parsed.error.issues[0]?.message ?? 'Invalid profile details');
+		}
+
+		const demo_time = await checkDemoTime(locals.supabase);
+
+		// The row comes from the session; any identity field in the form is ignored.
+		const { error: updateUserError } = await locals.supabase
+			.from(demo_time === true ? 'profiles_demo' : 'profiles')
+			.update(toProfileUpdate(parsed.data))
+			.eq('id', session.user.id);
+
+		if (updateUserError) {
+			logger.error('Failed to update account profile', updateUserError as unknown as Error, {
+				userId: session.user.id
+			});
+			throw error(500, 'Failed to update account');
+		}
+
+		return { success: true };
 	},
 
 	updateNotificationPreferences: async (event) => {

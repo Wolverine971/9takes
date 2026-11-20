@@ -1,14 +1,13 @@
 // src/routes/api/update-questions/+server.ts
 import { error, json } from '@sveltejs/kit';
 import { waitUntil } from '@vercel/functions';
-import { PRIVATE_WEBHOOK_AUTH } from '$env/static/private';
+import { requireAdmin } from '$lib/server/adminAuth';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { z } from 'zod';
 
 import {
 	getQuestionAiTaggingState,
 	tagQuestion,
-	tagQuestions,
 	updateQuestionAiTaggingState
 } from '../../../utils/server/openai';
 import { checkDemoTime } from '../../../utils/api';
@@ -39,45 +38,21 @@ const getQuestionStatusSchema = z.object({
 	jobId: z.string().min(1).optional()
 });
 
-async function requireAdmin(locals: App.Locals) {
-	const session = locals.session;
-
-	if (!session?.user?.id) {
-		logger.warn('Unauthorized question update attempt');
-		throw error(401, 'Unauthorized');
-	}
-
-	const supabase = locals.supabase;
+// Demo mode picks which question tables are read; admin rights always come from `profiles`.
+async function requireAdminContext(locals: App.Locals) {
+	const { supabase, session, profile } = await requireAdmin(locals);
 	const demo_time = await checkDemoTime(supabase);
 
-	const { data: user } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('id, admin, external_id')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		logger.warn('Non-admin attempted to update question', {
-			userId: session.user.id
-		});
-		throw error(403, 'Forbidden');
-	}
-
-	return {
-		session,
-		supabase,
-		demo_time,
-		user
-	};
+	return { supabase, session, demo_time, profile };
 }
 
 /** @type {import('./$types').RequestHandler} */
 export const GET = withApiLogging(async (event) => {
 	try {
+		const { supabase, demo_time } = await requireAdminContext(event.locals);
 		const questionIdParam = event.url.searchParams.get('questionId');
 
 		if (questionIdParam) {
-			const { supabase, demo_time } = await requireAdmin(event.locals);
 			const { questionId, jobId } = getQuestionStatusSchema.parse({
 				questionId: questionIdParam,
 				jobId: event.url.searchParams.get('jobId') ?? undefined
@@ -149,20 +124,7 @@ export const GET = withApiLogging(async (event) => {
 			});
 		}
 
-		const { headers } = event.request;
-		const auth = headers.get('auth') ?? '';
-
-		if (auth !== PRIVATE_WEBHOOK_AUTH) {
-			logger.warn('Unauthorized webhook access attempt');
-			throw error(401, 'Unauthorized');
-		}
-
-		const supabase = event.locals.supabase;
-
-		logger.info('Starting bulk question tagging');
-		await tagQuestions(supabase);
-		logger.info('Bulk question tagging completed');
-		return json({ success: true, message: 'Questions tagged successfully' });
+		throw error(400, 'questionId is required');
 	} catch (e) {
 		if ((e as any).status) {
 			throw e; // Re-throw HTTP errors
@@ -174,7 +136,7 @@ export const GET = withApiLogging(async (event) => {
 
 export const POST = withApiLogging(async (event) => {
 	try {
-		const { supabase, demo_time, user } = await requireAdmin(event.locals);
+		const { supabase, demo_time, profile } = await requireAdminContext(event.locals);
 
 		const formData = await event.request.formData();
 		const body = Object.fromEntries(formData);
@@ -185,7 +147,7 @@ export const POST = withApiLogging(async (event) => {
 
 		logger.info('Tagging question', {
 			questionId,
-			adminId: user.external_id
+			adminId: profile.id
 		});
 
 		const questionTable = demo_time === true ? 'questions_demo' : 'questions';

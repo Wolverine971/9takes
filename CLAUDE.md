@@ -41,9 +41,8 @@ pnpm clean             # Remove .svelte-kit build output
 - **Database**: Supabase (PostgreSQL) via `@supabase/ssr` + `@supabase/supabase-js`
 - **Styling**: TailwindCSS 3 + SCSS, Flowbite-Svelte components
 - **Content**: MDsvex for Markdown blogs (with rehype-slug, remark-abbr, remark-github)
-- **Search**: Elasticsearch (questions), Supabase FTS (blogs)
+- **Search**: Supabase (question search + typeahead via RPCs, blogs via FTS)
 - **Email**: Gmail API (service account) for transactional mail; Resend for marketing sends when `EMAIL_MARKETING_PROVIDER=resend` (delivery events land via `api/webhooks/resend/`); custom sequence engine in `src/lib/email/`
-- **Payments**: Stripe (`src/routes/stripe/`)
 - **Analytics**: In-house page analytics + web-vitals, optional Vercel Analytics
 - **Images**: `sharp`, `@sveltejs/enhanced-img`, `html-to-image`, `html2canvas`, `jspdf`
 - **Deploy**: Vercel (`@sveltejs/adapter-vercel`)
@@ -71,7 +70,6 @@ src/
 │   ├── api/                   # Server endpoints (see API section)
 │   ├── login/ register/       # Auth flows
 │   ├── forgotPassword/ resetPassword/
-│   ├── stripe/                # Stripe checkout-session + webhook
 │   └── rss.xml/               # RSS feed
 ├── lib/
 │   ├── components/
@@ -111,7 +109,6 @@ src/
 
 ### Key `src/lib/server/` modules
 
-- `elasticSearch.ts` - ES client + query helpers (questions search)
 - `questionSearch.ts` - Typeahead + full search for questions
 - `blogSearch.ts` / `blogSearchUtils.ts` / `universalSearch.ts` - Blog + universal search
 - `blogContentProcessor.ts` - Blog parsing/indexing
@@ -153,7 +150,7 @@ All other blog routes use `import.meta.glob` to load markdown files at build tim
 
 | Route                                      | Purpose                                                       |
 | ------------------------------------------ | ------------------------------------------------------------- |
-| `/admin`                                   | Dashboard - stats, charts, demo mode toggle, ES reindex       |
+| `/admin`                                   | Dashboard - stats, charts, demo mode toggle                   |
 | `/admin/analytics`                         | Site analytics and metrics                                    |
 | `/admin/asset-generators`                  | Hub for poster / question-print / zine generators             |
 | `/admin/asset-generators/poster-generator` | Social media image generation                                 |
@@ -212,17 +209,17 @@ Admin access is enforced by `src/lib/server/adminAuth.ts` and layout `+layout.se
 | `api/notifications/`                          | Notification read/unread state                                        |
 | `api/person-suggestions/`                     | Public POST: famous-person suggestions                                |
 | `api/personality-analysis/[slug]/discussion/` | Per-visitor half of an ISR-cached personality page                    |
-| `api/questions/typeahead/`                    | Authenticated question typeahead (ES-backed)                          |
+| `api/questions/typeahead/`                    | Authenticated question typeahead (Supabase RPC)                       |
 | `api/questions/upload-image/`                 | Question image upload                                                 |
 | `api/reply-notifications/`                    | Reply-notification return + unsubscribe links                         |
 | `api/search/`                                 | Universal search endpoint                                             |
 | `api/signups/`                                | Public POST: waitlist/email signups                                   |
 | `api/track/`                                  | Event tracking (analytics pings, etc.)                                |
 | `api/transcribe/`                             | Audio transcription (OpenRouter, rate-limited)                        |
-| `api/update-questions/`                       | Webhook-auth'd question bulk update                                   |
+| `api/update-questions/`                       | Admin-only question tagging + tag status                              |
 | `api/webhooks/resend/`                        | Resend delivery-event webhook (Svix-signed)                           |
 
-Cron endpoints verify `CRON_SECRET`. The update-questions webhook verifies `PRIVATE_WEBHOOK_AUTH`; the Resend webhook verifies `RESEND_WEBHOOK_SECRET`.
+Cron endpoints verify `CRON_SECRET`; the Resend webhook verifies `RESEND_WEBHOOK_SECRET`. Every admin page `load`, form action and `api/admin` handler calls `requireAdmin` itself (a layout guard does not cover `__data.json` requests; `adminAuth.spec.ts` enforces this).
 
 ## Key Database Tables
 
@@ -382,15 +379,13 @@ Private (server-only, `$env/static/private`):
 
 ```bash
 SUPABASE_SERVICE_KEY=                  # Supabase service role
-PRIVATE_ELASTICSEARCH_NODE=
-PRIVATE_ELASTIC_ADMIN=                 # ES API key
 PRIVATE_OPENROUTER_API_KEY=            # LLM access via OpenRouter
 PRIVATE_SIGNUP_KEY=                    # Signature/crypto key
 PRIVATE_ADMIN_EMAIL=                   # Admin notification address
 PRIVATE_gmail_private_key=             # Gmail API service account key
 PRIVATE_GOOGLE_MAPS_API_KEY=
-PRIVATE_WEBHOOK_AUTH=                  # Shared secret for update-questions webhook
 CRON_SECRET=                           # Bearer for cron endpoints
+PRIVATE_LINK_SIGNING_SECRET=           # Optional, 32+ chars. Signs email links (host desk, reply-return, reply-email unsubscribe); falls back to SUPABASE_SERVICE_KEY when unset
 EMAIL_MARKETING_PROVIDER=              # "resend" routes marketing sends through Resend (else Gmail)
 RESEND_API_KEY=
 RESEND_MARKETING_FROM=
@@ -400,7 +395,6 @@ PRIVATE_BETA_BOOKING_URL=              # Beta card booking link
 TRANSCRIPTION_OPENROUTER_MODEL=        # Model override for api/transcribe
 BYPASS_TOKEN=                          # Vercel ISR bypass token (32+ chars)
 RECAPTCHA_SECRET_KEY=
-# Stripe keys consumed in src/routes/stripe/_stripe.ts
 ```
 
 ## Utility Scripts
@@ -473,7 +467,7 @@ Run via `pnpm <alias>` where available:
 ## Important Notes
 
 - Blog search uses `search_all_blogs` RPC with Supabase FTS fallback
-- Question search uses Elasticsearch; the typeahead endpoint requires an authenticated session
+- Question search uses Supabase RPCs (`src/lib/server/questionSearch.ts`); the typeahead endpoint requires an authenticated session
 - Rate limiting: 5 comments per 60 seconds per fingerprint
 - Auth: `event.locals.session` + `event.locals.supabase`; admin guarded by `adminAuth`
 - Demo mode: Toggle via admin dashboard; read from `admin_settings`

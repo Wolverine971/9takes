@@ -1,8 +1,9 @@
 // src/routes/api/nine/type/type.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { fromMock, loggerMocks } = vi.hoisted(() => ({
+const { fromMock, loggerMocks, consumeApiRateLimitMock } = vi.hoisted(() => ({
 	fromMock: vi.fn(),
+	consumeApiRateLimitMock: vi.fn(),
 	loggerMocks: {
 		warn: vi.fn()
 	}
@@ -14,6 +15,17 @@ vi.mock('$lib/server/supabaseAdmin', () => ({
 
 vi.mock('$lib/utils/logger', () => ({
 	logger: loggerMocks
+}));
+
+vi.mock('$lib/server/apiRateLimit', () => ({
+	consumeApiRateLimit: consumeApiRateLimitMock,
+	resolveRateLimitSubject: ({
+		userId,
+		clientAddress
+	}: {
+		userId?: string | null;
+		clientAddress: string;
+	}) => (userId ? `user:${userId}` : `ip:${clientAddress}`)
 }));
 
 import { POST } from './+server';
@@ -53,13 +65,63 @@ function buildEvent({
 			get: vi.fn((name: string) =>
 				name === '9tfingerprint' ? (cookieFingerprint ?? undefined) : undefined
 			)
-		}
+		},
+		getClientAddress: () => '203.0.113.9'
 	};
 }
 
 describe('POST /api/nine/type', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: true,
+			retryAfterSeconds: 600,
+			degraded: false
+		});
+	});
+
+	it('meters on session or IP, never on the caller-supplied visitor id', async () => {
+		fromMock.mockImplementation(() => updateQuery([{ id: 42 }]));
+
+		await POST(buildEvent({ cookieFingerprint: 'rotated-cookie-value' }) as never);
+		expect(consumeApiRateLimitMock).toHaveBeenLastCalledWith({
+			bucket: 'nine_type',
+			subject: 'ip:203.0.113.9'
+		});
+
+		await POST(buildEvent({ userId: 'user-1' }) as never);
+		expect(consumeApiRateLimitMock).toHaveBeenLastCalledWith({
+			bucket: 'nine_type',
+			subject: 'user:user-1'
+		});
+	});
+
+	it('writes nothing once the limit is spent', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce({
+			allowed: false,
+			retryAfterSeconds: 600,
+			degraded: false
+		});
+
+		const response = await POST(buildEvent() as never);
+
+		expect(response.status).toBe(429);
+		expect(response.headers.get('Retry-After')).toBe('600');
+		expect(await response.json()).toEqual({ error: 'rate_limited' });
+		expect(fromMock).not.toHaveBeenCalled();
+	});
+
+	it('ignores a visitor cookie that is not id-shaped', async () => {
+		const response = await POST(
+			buildEvent({
+				body: { enneagramType: 5, questionUrl: 'a-good-question' },
+				cookieFingerprint: 'not an id'
+			}) as never
+		);
+
+		expect(response.status).toBe(400);
+		expect(await response.json()).toEqual({ error: 'missing_identity' });
+		expect(fromMock).not.toHaveBeenCalled();
 	});
 
 	it('persists an anonymous selection against the matching Chorus take', async () => {

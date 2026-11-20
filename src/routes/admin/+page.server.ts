@@ -2,15 +2,6 @@
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime, invalidateDemoTimeCache } from '../../utils/api';
-import {
-	createESQuestion,
-	bulkIndexQuestions,
-	bulkIndexBlogs,
-	indexWithRetry,
-	recreateIndex,
-	getQuestionIndexMapping,
-	getBlogIndexMapping
-} from '$lib/server/elasticSearch';
 import type { Database } from '../../../database.types';
 import { countRecentActiveContributors } from '$lib/server/adminAnalytics';
 import {
@@ -41,7 +32,6 @@ import type {
 	GrowthTrendsPayload
 } from '$lib/components/charts/GrowthTrends.svelte';
 
-type QuestionRow = Database['public']['Tables']['questions']['Row'];
 type RpcRows<Name extends keyof Database['public']['Functions']> =
 	Database['public']['Functions'][Name]['Returns'];
 
@@ -579,23 +569,11 @@ export const load: PageServerLoad = async (event) => {
 export const actions: Actions = {
 	toggleDemo: async (event) => {
 		try {
-			const session = event.locals.session;
 			const supabase = event.locals.supabase;
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
+			// Demo mode chooses which tables are read, never who is an admin.
+			await requireAdmin(event.locals);
 			const demo_time = await checkDemoTime(supabase);
-
-			const { data: user } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single();
-
-			if (!user?.admin) {
-				throw error(400, 'unauthorized');
-			}
 
 			const newDemoTime = !demo_time;
 			const { error: updateDemoError } = await supabase
@@ -614,235 +592,6 @@ export const actions: Actions = {
 		} catch (e) {
 			throw error(400, {
 				message: `Failed to update demo ${JSON.stringify(e)}`
-			});
-		}
-	},
-
-	reindexEverything: async (event) => {
-		try {
-			const session = event.locals.session;
-			const supabase = event.locals.supabase;
-
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(supabase);
-
-			const { data: user } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single();
-
-			if (!user?.admin) {
-				throw error(400, 'unauthorized');
-			}
-
-			console.log('Starting comprehensive reindexing...');
-
-			const results = {
-				questions: { indexed: 0, failed: 0, total: 0, errors: [] as any[] },
-				blogs: { indexed: 0, failed: 0, total: 0, errors: [] as any[] }
-			};
-
-			// Step 1: Delete and recreate indices with proper mappings
-			console.log('Deleting and recreating Elasticsearch indices...');
-			try {
-				// Recreate question index
-				await recreateIndex('question', getQuestionIndexMapping());
-				console.log('Question index recreated successfully');
-
-				// Recreate blog index
-				await recreateIndex('blog', getBlogIndexMapping());
-				console.log('Blog index recreated successfully');
-
-				// Wait a moment for indices to be fully ready
-				await new Promise((resolve) => setTimeout(resolve, 1000));
-			} catch (indexError) {
-				console.error('Failed to recreate indices:', indexError);
-				throw error(500, {
-					message: `Failed to recreate Elasticsearch indices: ${indexError instanceof Error ? indexError.message : 'Unknown error'}`
-				});
-			}
-
-			// Step 2: Reindex Questions with batch processing
-			console.log('Reindexing questions...');
-			const QUESTION_BATCH_SIZE = 100; // Reduced for safety
-			let questionOffset = 0;
-			let hasMoreQuestions = true;
-
-			// First, get total count
-			const { count: totalQuestions } = await supabase
-				.from('questions')
-				.select('id', { count: 'exact', head: true });
-
-			results.questions.total = totalQuestions || 0;
-
-			while (hasMoreQuestions) {
-				// Fetch batch with author information
-				const { data: questionBatch } = await supabase
-					.from('questions')
-					.select(
-						'id, es_id, question, question_formatted, author_id, context, url, img_url, comment_count, flagged, removed, created_at, updated_at'
-					)
-					.order('created_at', { ascending: false })
-					.range(questionOffset, questionOffset + QUESTION_BATCH_SIZE - 1);
-
-				if (!questionBatch || questionBatch.length === 0) {
-					hasMoreQuestions = false;
-					break;
-				}
-
-				// Prepare questions for indexing (using existing data)
-				const enrichedQuestions = (questionBatch as QuestionRow[]).map((q) => ({
-					id: q.id,
-					es_id: q.es_id ?? undefined,
-					question: q.question ?? '',
-					question_formatted: q.question_formatted ?? undefined,
-					author_id: q.author_id ?? '',
-					author_enneagram: '',
-					author_name: '',
-					context: q.context ?? '',
-					url: q.url ?? '',
-					img_url: q.img_url ?? null,
-					comment_count: q.comment_count ?? 0,
-					flagged: q.flagged ?? false,
-					removed: q.removed ?? false,
-					created_at: q.created_at,
-					updated_at: q.updated_at ?? undefined
-				}));
-
-				// Use bulk indexing with retry
-				const indexResult = await indexWithRetry(
-					() => bulkIndexQuestions(enrichedQuestions),
-					3,
-					1000
-				);
-
-				results.questions.indexed += indexResult.indexed;
-				results.questions.failed += indexResult.failed;
-				results.questions.errors.push(...indexResult.errors);
-
-				// Update Supabase with ES IDs for successfully indexed questions
-				const successfulQuestions = enrichedQuestions.filter(
-					(_, i) =>
-						!indexResult.errors.find(
-							(e: { questionId?: number }) => e.questionId === enrichedQuestions[i].id
-						)
-				);
-
-				if (successfulQuestions.length > 0) {
-					// Batch update es_id in Supabase
-					for (const q of successfulQuestions) {
-						await supabase
-							.from('questions')
-							.update({ es_id: q.es_id || `question_${q.id}` })
-							.eq('id', q.id);
-					}
-				}
-
-				console.log(
-					`Processed questions ${questionOffset} to ${questionOffset + questionBatch.length}`
-				);
-
-				if (questionBatch.length < QUESTION_BATCH_SIZE) {
-					hasMoreQuestions = false;
-				}
-				questionOffset += QUESTION_BATCH_SIZE;
-			}
-
-			// Step 3: Reindex Blog Posts
-			console.log('Reindexing blog posts...');
-			const BLOG_BATCH_SIZE = 20; // Much smaller batch size for blogs due to large content
-			let blogOffset = 0;
-			let hasMoreBlogs = true;
-
-			// Get total blog count
-			const { count: totalBlogs } = await supabase
-				.from('blogs_famous_people')
-				.select('id', { count: 'exact', head: true })
-				.eq('published', true);
-
-			results.blogs.total = totalBlogs || 0;
-
-			while (hasMoreBlogs) {
-				const { data: blogBatch } = await supabase
-					.from('blogs_famous_people')
-					.select(
-						'id, title, person, content, description, author, enneagram, type, loc, meta_title, twitter, instagram, tiktok, wikipedia, published, created_at, lastmod'
-					)
-					.eq('published', true)
-					.order('created_at', { ascending: false })
-					.range(blogOffset, blogOffset + BLOG_BATCH_SIZE - 1);
-
-				if (!blogBatch || blogBatch.length === 0) {
-					hasMoreBlogs = false;
-					break;
-				}
-
-				// Truncate large content fields to prevent 413 errors
-				const processedBlogs = blogBatch.map((blog: any) => ({
-					...blog,
-					content: blog.content ? String(blog.content).substring(0, 10000) : '', // Limit to 10k chars
-					description: blog.description ? String(blog.description).substring(0, 1000) : '' // Limit to 1k chars
-				}));
-
-				// Use bulk indexing for blogs
-				const blogIndexResult = await indexWithRetry(() => bulkIndexBlogs(processedBlogs), 3, 1000);
-
-				results.blogs.indexed += blogIndexResult.indexed;
-				results.blogs.failed += blogIndexResult.failed;
-				results.blogs.errors.push(...blogIndexResult.errors);
-
-				console.log(`Processed blogs ${blogOffset} to ${blogOffset + blogBatch.length}`);
-
-				if (blogBatch.length < BLOG_BATCH_SIZE) {
-					hasMoreBlogs = false;
-				}
-				blogOffset += BLOG_BATCH_SIZE;
-			}
-
-			// Prepare summary
-			const totalIndexed = results.questions.indexed + results.blogs.indexed;
-			const totalFailed = results.questions.failed + results.blogs.failed;
-			const totalDocuments = results.questions.total + results.blogs.total;
-
-			const successMessage =
-				totalFailed === 0
-					? `Successfully reindexed all ${totalIndexed} documents (${results.questions.indexed} questions, ${results.blogs.indexed} blogs).`
-					: `Reindexing completed with errors. Successfully indexed ${totalIndexed} out of ${totalDocuments} documents.`;
-
-			console.log('Reindexing complete:', {
-				questions: results.questions,
-				blogs: results.blogs
-			});
-
-			return {
-				success: totalFailed === 0,
-				message: successMessage,
-				details: {
-					questions: {
-						indexed: results.questions.indexed,
-						failed: results.questions.failed,
-						total: results.questions.total,
-						errors: results.questions.errors.slice(0, 5) // First 5 errors
-					},
-					blogs: {
-						indexed: results.blogs.indexed,
-						failed: results.blogs.failed,
-						total: results.blogs.total,
-						errors: results.blogs.errors.slice(0, 5) // First 5 errors
-					}
-				},
-				indexed: totalIndexed,
-				failed: totalFailed,
-				total: totalDocuments
-			};
-		} catch (e) {
-			console.error('Reindexing failed:', e);
-			throw error(500, {
-				message: `Failed to reindex: ${e instanceof Error ? e.message : 'Unknown error'}`
 			});
 		}
 	}

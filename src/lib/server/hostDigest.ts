@@ -5,15 +5,11 @@
 // /host-desk/[token]. Posting itself lives in the page's POST action and the
 // post_host_reply RPC; nothing in this module writes a comment.
 
-import { createHmac, timingSafeEqual } from 'node:crypto';
-import {
-	PRIVATE_ADMIN_EMAIL,
-	PRIVATE_OPENROUTER_API_KEY,
-	SUPABASE_SERVICE_KEY
-} from '$env/static/private';
+import { PRIVATE_ADMIN_EMAIL, PRIVATE_OPENROUTER_API_KEY } from '$env/static/private';
 import { resolveHostUserId } from './hostIdentity';
 export { DEFAULT_HOST_USER_ID, resolveHostUserId } from './hostIdentity';
 import { sendEmail, type SendEmailResult } from '$lib/email/sender';
+import { signLinkPayload, verifyLinkSignature } from '$lib/server/linkSigning';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { HOST_VOICE_GUIDE, renderHostVoiceSamples } from '$lib/server/hostVoice';
 
@@ -483,15 +479,8 @@ export async function draftHostReplies(
 // Signed one-tap tokens
 // ---------------------------------------------------------------------------
 
-function getSigningSecret(explicitSecret?: string): string {
-	const secret = explicitSecret || SUPABASE_SERVICE_KEY;
-	if (!secret) throw new Error('Host desk signing secret is not configured');
-	return secret;
-}
-
-function signPayload(payload: string, secret: string): string {
-	return createHmac('sha256', secret).update(`host-desk:${payload}`).digest('base64url');
-}
+// The prefix keeps a host desk signature from being valid for any other kind of link.
+const signedInput = (encoded: string) => `host-desk:${encoded}`;
 
 function isHostDeskVariant(value: unknown): value is HostDeskVariant {
 	return value === 'a' || value === 'b' || value === 'custom' || value === 'skip';
@@ -511,7 +500,7 @@ export function signHostDeskToken(
 		expiresAt: (options.now ?? Date.now()) + HOST_DESK_TOKEN_MAX_AGE_MS
 	};
 	const encoded = Buffer.from(JSON.stringify(body)).toString('base64url');
-	return `${encoded}.${signPayload(encoded, getSigningSecret(options.secret))}`;
+	return `${encoded}.${signLinkPayload(signedInput(encoded), { secret: options.secret })}`;
 }
 
 export function verifyHostDeskToken(
@@ -522,15 +511,8 @@ export function verifyHostDeskToken(
 	const [encoded, signature, extra] = token.split('.');
 	if (!encoded || !signature || extra !== undefined) return null;
 
-	const expected = signPayload(encoded, getSigningSecret(options.secret));
-	const signatureBuffer = Buffer.from(signature);
-	const expectedBuffer = Buffer.from(expected);
-	if (
-		signatureBuffer.length !== expectedBuffer.length ||
-		!timingSafeEqual(signatureBuffer, expectedBuffer)
-	) {
+	if (!verifyLinkSignature(signedInput(encoded), signature, { secret: options.secret }))
 		return null;
-	}
 
 	try {
 		const parsed: unknown = JSON.parse(Buffer.from(encoded, 'base64url').toString('utf8'));

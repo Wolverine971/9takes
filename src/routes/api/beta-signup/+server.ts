@@ -23,6 +23,7 @@ import { isLikelyCrawlerUserAgent } from '$lib/server/giveFirstFunnel';
 import { looksLikeBotUserAgent } from '$lib/server/talkNotes';
 import { BETA_CARD_EXPERIMENT, isBetaCardVariantId } from '$lib/utils/betaCardCopy';
 import { isHoneypotTriggered } from '$lib/utils/recaptcha';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 
 const NO_STORE = { 'Cache-Control': 'private, no-store' };
 
@@ -96,7 +97,7 @@ export const POST: RequestHandler = async ({ request, getClientAddress, locals, 
 			surface: input.surface,
 			placement: input.placement,
 			path: input.sourcePath ?? null,
-			fingerprint: cookies.get('9tfingerprint') ?? null
+			fingerprint: readVisitorFingerprint(cookies)
 		});
 	}
 	return accepted();

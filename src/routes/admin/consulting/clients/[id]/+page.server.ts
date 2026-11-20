@@ -1,7 +1,7 @@
 // src/routes/admin/consulting/clients/[id]/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
 import { error, fail, redirect } from '@sveltejs/kit';
-import { guardAdminActions } from '$lib/server/adminAuth';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import type { Database } from '../../../../../../database.types';
 
 type ConsultingClient = Database['public']['Tables']['consulting_clients']['Row'];
@@ -24,7 +24,8 @@ type ConsultingClientWithRelations = ConsultingClient & {
 };
 
 export const load: PageServerLoad = async ({ params, locals }) => {
-	const supabase = locals.supabase;
+	// This load checks admin itself; it does not rely on the layout load having run.
+	const { supabase } = await requireAdmin(locals);
 	const clientId = params.id;
 
 	// Fetch client with related data

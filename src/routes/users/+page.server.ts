@@ -1,13 +1,20 @@
 // src/routes/users/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { error, redirect, type Actions } from '@sveltejs/kit';
+import { error, fail, redirect, type Actions } from '@sveltejs/kit';
+import { z } from 'zod';
 import { checkDemoTime } from '../../utils/api';
 import { mapDemoValues } from '../../utils/demo';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
+import { logger } from '$lib/utils/logger';
 import type { Database } from '../../../database.types';
 
 type ProfileRow = Database['public']['Tables']['profiles']['Row'];
 type SignupRow = Database['public']['Tables']['signups']['Row'];
-type AdminProfile = Pick<ProfileRow, 'id' | 'admin' | 'external_id'>;
+
+const updateAdminSchema = z.object({
+	email: z.string().trim().email().max(254),
+	isAdmin: z.enum(['true', 'false'])
+});
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -18,18 +25,18 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const { demo_time } = await event.parent();
-	const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
-	const db = event.locals.supabase as any;
+	// Demo mode picks the data tables only; admin rights always come from `profiles`.
+	const adminProfile = await requireAdmin(event.locals).then(
+		({ profile }) => profile,
+		() => null
+	);
 
-	const { data: user, error: findUserError } = (await db
-		.from(profileTable)
-		.select('id, admin, external_id')
-		.eq('id', session?.user?.id)
-		.single()) as { data: AdminProfile | null; error: unknown };
-
-	if (!user?.admin) {
+	if (!adminProfile) {
 		throw redirect(307, '/questions');
 	}
+
+	const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
+	const db = event.locals.supabase as any;
 
 	const { data: profiles, error: profilesError } = (await db
 		.from(profileTable)
@@ -50,104 +57,35 @@ export const load: PageServerLoad = async (event) => {
 	if (signupsError) {
 		console.log(signupsError);
 	}
-	if (!findUserError) {
-		return {
-			user: mapDemoValues(user),
-			profiles: mapDemoValues(profiles),
-			signups: mapDemoValues(signups as SignupRow[] | null)
-		};
-	} else {
-		throw error(404, {
-			message: `Error searching for user`
-		});
-	}
+
+	return {
+		user: { id: adminProfile.id, admin: adminProfile.admin },
+		profiles: mapDemoValues(profiles),
+		signups: mapDemoValues(signups as SignupRow[] | null)
+	};
 };
 
-export const actions: Actions = {
-	updateUserAccount: async ({ request, locals }) => {
-		try {
-			const session = locals?.session;
-
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(locals.supabase);
-			const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
-			const db = locals.supabase as any;
-
-			const body = Object.fromEntries(await request.formData());
-			const first_name = String(body.firstName ?? '');
-			const last_name = String(body.lastName ?? '');
-			const enneagram = String(body.enneagram ?? '');
-			const email = String(body.email ?? '');
-
-			const { error: updateUserError } = await db
-				.from(profileTable)
-				.update({ first_name, last_name, enneagram })
-				.eq('email', email);
-			// insert(userData);
-			if (!updateUserError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update user ${JSON.stringify(updateUserError)}`
-				});
-			}
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to update user ${JSON.stringify(e)}`
-			});
+export const actions: Actions = guardAdminActions({
+	updateAdmin: async ({ request, locals }) => {
+		const parsed = updateAdminSchema.safeParse(Object.fromEntries(await request.formData()));
+		if (!parsed.success) {
+			return fail(400, { success: false, message: 'Invalid user or administrator status.' });
 		}
-	},
-	updateAdmin: async (event) => {
-		try {
-			const session = event.locals.session;
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
+		const demo_time = await checkDemoTime(locals.supabase);
+		const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
+		const db = locals.supabase as any;
 
-			const demo_time = await checkDemoTime(event.locals.supabase);
-			const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
-			const db = event.locals.supabase as any;
+		const { error: updateUserToAdminError } = await db
+			.from(profileTable)
+			.update({ admin: parsed.data.isAdmin === 'true' })
+			.eq('email', parsed.data.email);
 
-			const { data: user, error: findUserError } = (await db
-				.from(profileTable)
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single()) as { data: AdminProfile | null; error: unknown };
-
-			if (findUserError) {
-				console.log(findUserError);
-			}
-
-			if (!user?.admin) {
-				throw redirect(307, '/questions');
-			}
-
-			const { request } = event;
-
-			const body = Object.fromEntries(await request.formData());
-			const isAdmin = String(body.isAdmin ?? 'false');
-			const email = String(body.email ?? '');
-
-			const { error: updateUserToAdminError } = await db
-				.from(profileTable)
-				.update({ admin: isAdmin === 'true' })
-				.eq('email', email);
-			// insert(userData);
-			if (!updateUserToAdminError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update user to admin ${JSON.stringify(updateUserToAdminError)}`
-				});
-			}
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to update user to admin ${JSON.stringify(e)}`
-			});
+		if (updateUserToAdminError) {
+			logger.error('Failed to update administrator status', updateUserToAdminError as Error);
+			throw error(500, 'Failed to update user');
 		}
+
+		return { success: true };
 	}
-};
+});

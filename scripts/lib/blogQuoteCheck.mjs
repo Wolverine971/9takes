@@ -18,6 +18,7 @@ const SHINGLE = 4;
 /** Share of a quote's word runs found in one source before a miss counts as "altered". */
 const ALTERED_OVERLAP = 0.6;
 
+/** @type {Record<string, string>} */
 const ENTITIES = {
 	'&nbsp;': ' ',
 	'&#160;': ' ',
@@ -38,6 +39,7 @@ const ENTITIES = {
 /** Caption files repeat each line across rolling cues; collapse them to running text.
  * @param {string} text */
 export function cleanCaptions(text) {
+	/** @type {string[]} */
 	const lines = [];
 	for (const raw of text.split(/\r?\n/)) {
 		const line = raw
@@ -123,8 +125,11 @@ export function extractQuotes(markdown) {
 			if (!curly && /^>/.test(text)) {
 				const lines = text
 					.split('\n')
-					.map((line) => line.replace(/^>\s?/, '').trim())
-					.filter((line) => line && !/^([—–-]{1,2}\s|<cite)/.test(stripMarkdown(line).trim()));
+					.map((/** @type {string} */ line) => line.replace(/^>\s?/, '').trim())
+					.filter(
+						(/** @type {string} */ line) =>
+							line && !/^([—–-]{1,2}\s|<cite)/.test(stripMarkdown(line).trim())
+					);
 				add(lines.join(' '), near);
 			}
 			continue;

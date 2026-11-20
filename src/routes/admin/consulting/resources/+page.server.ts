@@ -1,8 +1,10 @@
 // src/routes/admin/consulting/resources/+page.server.ts
 import type { PageServerLoad } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 export const load: PageServerLoad = async ({ locals }) => {
-	const supabase = locals.supabase;
+	// This load checks admin itself; it does not rely on the layout load having run.
+	const { supabase } = await requireAdmin(locals);
 
 	// Fetch all resources
 	const { data: resources, error } = await supabase

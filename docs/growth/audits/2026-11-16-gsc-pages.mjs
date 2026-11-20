@@ -59,7 +59,8 @@ let gone = 0,
 	kept = 0;
 for (const [k, v] of b) {
 	if (v >= 30) {
-		(a.get(k) || 0) < 1 ? gone++ : kept++;
+		if ((a.get(k) || 0) < 1) gone++;
+		else kept++;
 	}
 }
 console.log('pages >=30 impr before: zero after', gone, 'nonzero', kept);

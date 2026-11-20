@@ -11,6 +11,7 @@ const { fetchMock, loggerMocks, consumeApiRateLimitMock } = vi.hoisted(() => ({
 }));
 
 vi.mock('$lib/server/apiRateLimit', () => ({
+	GLOBAL_RATE_LIMIT_SUBJECT: 'global',
 	consumeApiRateLimit: consumeApiRateLimitMock,
 	resolveRateLimitSubject: ({
 		userId,
@@ -101,6 +102,47 @@ describe('POST /api/transcribe', () => {
 
 		expect(response.status).toBe(429);
 		expect(response.headers.get('Retry-After')).toBe('300');
+		expect(fetchMock).not.toHaveBeenCalled();
+	});
+
+	it('charges the per-caller limit first, then the site-wide daily ceiling', async () => {
+		fetchMock.mockResolvedValue(
+			new Response(JSON.stringify({ text: 'ok' }), {
+				status: 200,
+				headers: { 'content-type': 'application/json' }
+			})
+		);
+
+		await POST(buildEvent(buildRequest(), '203.0.113.9') as never);
+
+		expect(consumeApiRateLimitMock.mock.calls.map(([args]) => args)).toEqual([
+			{ bucket: 'transcribe', subject: 'ip:203.0.113.9' },
+			{ bucket: 'transcribe_global', subject: 'global' }
+		]);
+	});
+
+	it('does not charge the site-wide ceiling for a caller already over their own limit', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce({
+			allowed: false,
+			retryAfterSeconds: 300,
+			degraded: false
+		});
+
+		await POST(buildEvent(buildRequest(), '203.0.113.9') as never);
+
+		expect(consumeApiRateLimitMock).toHaveBeenCalledTimes(1);
+	});
+
+	it('answers busy, without calling the paid provider, once the site-wide ceiling is spent', async () => {
+		consumeApiRateLimitMock
+			.mockResolvedValueOnce({ allowed: true, retryAfterSeconds: 300, degraded: false })
+			.mockResolvedValueOnce({ allowed: false, retryAfterSeconds: 86400, degraded: false });
+
+		const response = await POST(buildEvent(buildRequest(), '203.0.113.9') as never);
+
+		expect(response.status).toBe(429);
+		expect(response.headers.get('Retry-After')).toBe('900');
+		expect(await response.json()).toEqual({ error: expect.stringContaining('busy') });
 		expect(fetchMock).not.toHaveBeenCalled();
 	});
 

@@ -2,6 +2,8 @@
 packages:
   - '.*'
 engineStrict: true
+# Do not resolve a release until it has been public for a day.
+minimumReleaseAge: 1440
 auditConfig:
   ignoreGhsas:
     # Reviewed 2026-10-20; remove when an upstream fix is published.
@@ -11,6 +13,11 @@ auditConfig:
     # sprintf-js: gray-matter -> js-yaml 3 -> argparse CLI formatting only.
     # The YAML library does not load argparse; the app never runs its CLI.
     - GHSA-hp3w-g68c-fv3c
+    # Reviewed 2026-11-20; remove on the SvelteKit 3 upgrade.
+    # @sveltejs/kit: both affect remote functions only (`*.remote.ts`, behind
+    # kit.experimental.remoteFunctions). This app has neither.
+    - GHSA-3r8g-jcqq-3p5j
+    - GHSA-6cf5-gc4q-fm3x
 allowBuilds:
   '@parcel/watcher': false
   core-js: false
@@ -26,7 +33,7 @@ overrides:
   'brace-expansion@<2': 1.1.21
   'brace-expansion@>=4 <6': 5.0.12
   cookie@0.6.0: 0.7.2
-  'dompurify@3': 3.4.16
+  'dompurify@3': 3.4.17
   flatted@3.3.3: 3.4.2
   form-data@4.0.5: 4.0.6
   glob@10.4.5: 10.5.0
@@ -40,21 +47,22 @@ overrides:
   picomatch@2.3.1: 2.3.2
   'picomatch@4': 4.0.7
   postcss: 8.5.26
-  'qs@6': 6.16.0
+  'qs@6': 6.16.1
   rollup@4.55.1: 4.59.0
   'tar@7': 7.5.21
-  'undici@6': 6.28.1
-  'undici@7': 7.29.1
+  'undici@6': 6.29.1
+  'undici@7': 7.30.1
   yaml@2.8.1: 2.8.3
   '@babel/core@7': 7.29.1
   'sharp@<0.35.5': 0.35.5
   'nanoid@3': 3.3.18
   'postcss-selector-parser@<7.1.6': 7.1.6
   'source-map-js@<1.2.2': 1.2.2
-  follow-redirects@1.16.0: 1.16.1
+  'follow-redirects@<1.16.2': 1.16.2
   'browserslist@4': 4.28.7
   'fflate@0.8': 0.8.3
   'fflate@0.4': 0.4.9
+  'zod@4': 4.6.6
 peerDependencyRules:
   allowedVersions:
     '@tailwindcss/typography>tailwindcss': '3'

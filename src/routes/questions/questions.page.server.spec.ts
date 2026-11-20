@@ -12,13 +12,6 @@ vi.mock('$lib/utils/questionCategorySlug', () => ({
 	buildQuestionCategorySlug: vi.fn()
 }));
 
-vi.mock('$lib/server/elasticSearch', () => ({
-	deleteESQuestion: vi.fn(),
-	elasticClient: {
-		search: vi.fn()
-	}
-}));
-
 vi.mock('$lib/server/questionCategoryTree', () => ({
 	buildVisibleQuestionCategoryTree: vi.fn(),
 	listQuestionCategoriesWithDirectQuestions: vi.fn()

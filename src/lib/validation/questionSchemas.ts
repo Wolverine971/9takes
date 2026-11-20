@@ -60,10 +60,6 @@ export const subscribeSchema = z.object({
 	operation: z.enum(['add', 'remove'])
 });
 
-export const saveLinkClickSchema = z.object({
-	linkId: z.string().uuid()
-});
-
 export const flagCommentSchema = z.object({
 	comment_id: z.string().regex(/^\d+$/, 'Invalid comment ID'),
 	reason_id: z.string().regex(/^\d+$/, 'Invalid reason ID'),

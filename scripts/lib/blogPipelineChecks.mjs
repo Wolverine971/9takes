@@ -96,7 +96,9 @@ export async function controversyCoverage(markdown, registryFile) {
 	const parsed = matter(markdown, {});
 	const slug = String(parsed.data.person ?? '').toLowerCase();
 	const body = parsed.content.replace(/<!--[\s\S]*?-->/g, '');
+	/** @type {string[]} */
 	const required = [];
+	/** @type {string[]} */
 	const open = [];
 	if (!registry || !slug) return { required, open };
 	for (const [key, entries] of Object.entries(registry)) {

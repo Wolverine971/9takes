@@ -44,7 +44,14 @@
 		<a href={link.url} class="link-item" onclick={() => saveLinkClick(link.id)}>
 			{#if hasMetaData}
 				{#if link.meta_image}
-					<img src={link.meta_image} alt="" class="meta-image" loading="lazy" />
+					<!-- Third-party image: lazy, and loaded without telling its host which page asked. -->
+					<img
+						src={link.meta_image}
+						alt=""
+						class="meta-image"
+						loading="lazy"
+						referrerpolicy="no-referrer"
+					/>
 				{/if}
 				<div class="content">
 					<h3>{link.meta_title || 'No Title'}</h3>

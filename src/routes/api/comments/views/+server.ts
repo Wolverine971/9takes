@@ -1,8 +1,10 @@
+// src/routes/api/comments/views/+server.ts
 import { json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { consumeApiRateLimit } from '$lib/server/apiRateLimit';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 
 const payloadSchema = z
 	.object({
@@ -27,7 +29,7 @@ export const POST: RequestHandler = async ({ request, locals, cookies, url }) =>
 	if (!parsed.success) return json({ error: 'Invalid view batch' }, { status: 400 });
 
 	const viewerId = locals.session?.user?.id ?? null;
-	const fingerprint = cookies.get('9tfingerprint')?.trim() || null;
+	const fingerprint = readVisitorFingerprint(cookies);
 	if (!viewerId && !fingerprint) return json({ error: 'Viewer required' }, { status: 401 });
 	const decision = await consumeApiRateLimit({
 		bucket: 'comment_views',

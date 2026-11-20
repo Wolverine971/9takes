@@ -7,7 +7,8 @@ const {
 	loggerMocks,
 	getNewsletterSignupProtectionStateMock,
 	recordNewsletterSignupSecurityEventMock,
-	captureEmailSignupCompletedMock
+	captureEmailSignupCompletedMock,
+	consumeApiRateLimitMock
 } = vi.hoisted(() => ({
 	adminSupabaseMock: {
 		from: vi.fn(),
@@ -21,7 +22,8 @@ const {
 	},
 	getNewsletterSignupProtectionStateMock: vi.fn(),
 	recordNewsletterSignupSecurityEventMock: vi.fn(),
-	captureEmailSignupCompletedMock: vi.fn()
+	captureEmailSignupCompletedMock: vi.fn(),
+	consumeApiRateLimitMock: vi.fn()
 }));
 
 vi.mock('$lib/server/supabaseAdmin', () => ({
@@ -41,6 +43,11 @@ vi.mock('$lib/server/newsletterSignupProtection', () => ({
 	recordNewsletterSignupSecurityEvent: recordNewsletterSignupSecurityEventMock
 }));
 
+vi.mock('$lib/server/apiRateLimit', () => ({
+	consumeApiRateLimit: consumeApiRateLimitMock,
+	resolveRateLimitSubject: ({ clientAddress }: { clientAddress: string }) => `ip:${clientAddress}`
+}));
+
 vi.mock('../../../emails', () => ({
 	signupWelcomeEmail: vi.fn(() => '<p>welcome</p>')
 }));
@@ -56,10 +63,12 @@ function buildRequest(
 	email: string,
 	options: {
 		honeypot?: string;
-		timeToken?: string;
+		/** Defaults to a human-paced fill time; null leaves the field out. */
+		timeToken?: string | null;
 		userAgent?: string;
 		analytics?: unknown;
 		savedPath?: string;
+		cookie?: string;
 	} = {}
 ) {
 	const formData = new FormData();
@@ -69,8 +78,8 @@ function buildRequest(
 	if (options.honeypot !== undefined) {
 		formData.append('form_extra', options.honeypot);
 	}
-	if (options.timeToken !== undefined) {
-		formData.append('_timeToken', options.timeToken);
+	if (options.timeToken !== null) {
+		formData.append('_timeToken', options.timeToken ?? '5000');
 	}
 
 	return new Request('http://localhost/api/signups', {
@@ -128,16 +137,20 @@ function buildEvent(
 	email = 'NewUser@Example.com',
 	options: {
 		honeypot?: string;
-		timeToken?: string;
+		/** Defaults to a human-paced fill time; null leaves the field out. */
+		timeToken?: string | null;
 		userAgent?: string;
 		analytics?: unknown;
 		savedPath?: string;
+		cookie?: string;
 	} = {}
 ) {
 	return {
 		request: buildRequest(email, options),
 		cookies: {
-			get: vi.fn((name: string) => (name === '9tfingerprint' ? 'visitor-123' : undefined))
+			get: vi.fn((name: string) =>
+				name === '9tfingerprint' ? (options.cookie ?? 'visitor-123') : undefined
+			)
 		},
 		getClientAddress: vi.fn(() => '127.0.0.1')
 	};
@@ -154,6 +167,11 @@ describe('POST /api/signups', () => {
 			rateLimited: false
 		});
 		recordNewsletterSignupSecurityEventMock.mockResolvedValue(undefined);
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: true,
+			retryAfterSeconds: 3600,
+			degraded: false
+		});
 	});
 
 	it('uses the admin client for anonymous signup inserts and attaches first-touch metadata', async () => {
@@ -238,6 +256,11 @@ describe('POST /api/signups', () => {
 				reason: null
 			});
 			sendEmailWithTrackingMock.mockResolvedValue({ success: true });
+			consumeApiRateLimitMock.mockResolvedValue({
+				allowed: true,
+				retryAfterSeconds: 3600,
+				degraded: false
+			});
 			buildSignupTable({ insertedId: 458 });
 			await POST(buildEvent(undefined, { savedPath }) as any);
 			expect(signupWelcomeEmail).toHaveBeenLastCalledWith(null);
@@ -248,7 +271,7 @@ describe('POST /api/signups', () => {
 		}
 	});
 
-	it('does not insert when the normalized email already exists', async () => {
+	it('answers an existing address exactly like a new one, without inserting or emailing', async () => {
 		const tableMocks = buildSignupTable({ existing: { id: 123 } });
 		const event = buildEvent('existing@example.com');
 
@@ -256,11 +279,7 @@ describe('POST /api/signups', () => {
 		const body = await response.json();
 
 		expect(response.status).toBe(200);
-		expect(body).toEqual({
-			ok: false,
-			code: 'already_exists',
-			message: 'Email already exists'
-		});
+		expect(body).toEqual({ ok: true });
 		expect(tableMocks.insertQuery.insert).not.toHaveBeenCalled();
 		expect(adminSupabaseMock.rpc).not.toHaveBeenCalled();
 		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
@@ -325,6 +344,96 @@ describe('POST /api/signups', () => {
 			expect(captureEmailSignupCompletedMock).not.toHaveBeenCalled();
 		}
 	);
+
+	it.each([{ timeToken: null }, { timeToken: '' }, { timeToken: 'soon' }, { timeToken: '0' }])(
+		'treats a missing or unusable fill time as too fast (%j)',
+		async (options) => {
+			const response = await POST(buildEvent('quick@example.com', options) as any);
+
+			expect(await response.json()).toEqual({ ok: true });
+			expect(adminSupabaseMock.from).not.toHaveBeenCalled();
+			expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
+			expect(consumeApiRateLimitMock).not.toHaveBeenCalled();
+			expect(recordNewsletterSignupSecurityEventMock).toHaveBeenCalledWith(
+				expect.objectContaining({ outcome: 'too_fast', identifier: 'quick@example.com' })
+			);
+		}
+	);
+
+	it('charges an IP-keyed bucket before the count-based rules', async () => {
+		buildSignupTable();
+		await POST(buildEvent() as any);
+
+		expect(consumeApiRateLimitMock).toHaveBeenCalledTimes(1);
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'newsletter_signup',
+			subject: 'ip:127.0.0.1'
+		});
+		expect(consumeApiRateLimitMock.mock.invocationCallOrder[0]).toBeLessThan(
+			getNewsletterSignupProtectionStateMock.mock.invocationCallOrder[0]
+		);
+	});
+
+	it('returns fake success without inserting when the IP bucket is spent', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce({
+			allowed: false,
+			retryAfterSeconds: 3600,
+			degraded: false
+		});
+		const response = await POST(buildEvent() as any);
+
+		expect(await response.json()).toEqual({ ok: true });
+		expect(getNewsletterSignupProtectionStateMock).not.toHaveBeenCalled();
+		expect(adminSupabaseMock.from).not.toHaveBeenCalled();
+		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
+		expect(recordNewsletterSignupSecurityEventMock).toHaveBeenCalledWith(
+			expect.objectContaining({ outcome: 'rate_limited', context: { reason: 'ip_burst_limit' } })
+		);
+	});
+
+	it.each([
+		[
+			'the rate-limit store',
+			() =>
+				consumeApiRateLimitMock.mockResolvedValueOnce({
+					allowed: false,
+					retryAfterSeconds: 3600,
+					degraded: true
+				})
+		],
+		[
+			'the protection counts',
+			() =>
+				getNewsletterSignupProtectionStateMock.mockResolvedValueOnce({
+					authAbuse: false,
+					rateLimited: true,
+					reason: 'protection_unavailable'
+				})
+		]
+	])('refuses honestly, without inserting, when %s cannot be read', async (_label, arrange) => {
+		arrange();
+		const response = await POST(buildEvent() as any);
+
+		expect(response.status).toBe(503);
+		expect(await response.json()).toEqual({
+			ok: false,
+			code: 'unavailable',
+			message: 'Please try again in a minute.'
+		});
+		expect(adminSupabaseMock.from).not.toHaveBeenCalled();
+		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
+	});
+
+	it('ignores a visitor cookie that is not id-shaped', async () => {
+		buildSignupTable({ insertedId: 459 });
+		const response = await POST(buildEvent(undefined, { cookie: 'x'.repeat(101) }) as any);
+
+		expect(await response.json()).toEqual({ ok: true });
+		expect(adminSupabaseMock.rpc).not.toHaveBeenCalled();
+		expect(recordNewsletterSignupSecurityEventMock).toHaveBeenCalledWith(
+			expect.objectContaining({ outcome: 'success', fingerprint: null })
+		);
+	});
 
 	it('does not capture failed inserts', async () => {
 		buildSignupTable({ insertError: { message: 'database unavailable' } });

@@ -11,10 +11,11 @@ FROM public.questions;
 
 -- Confirm the intended accounts; the last two are identity matches requiring
 -- user confirmation, not automatic additions to the deletion identity set.
+-- The pending ProtonMail address is redacted here; substitute it before running.
 SELECT email, first_name, last_name
 FROM public.profiles
 WHERE lower(email) IN ('djwayne3@gmail.com','djwayne35@gmail.com',
- 'mrwayner@protonmail.com','dj@build-os.com');
+ '[redacted email]','dj@build-os.com');
 
 -- Traverse replies as well as direct answers. Anonymous comments remain
 -- non-owner/unknown; only explicitly confirmed Gmail identities are grouped.

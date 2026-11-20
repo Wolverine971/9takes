@@ -7,6 +7,28 @@
 	"buildCommand": "npx -y pnpm@11.7.0 run build:vercel",
 	"headers": [
 		{
+			"source": "/(.*)",
+			"headers": [
+				{
+					"key": "X-Content-Type-Options",
+					"value": "nosniff"
+				},
+				{
+					"key": "X-Frame-Options",
+					"value": "SAMEORIGIN"
+				}
+			]
+		},
+		{
+			"source": "/((?!api/).*)",
+			"headers": [
+				{
+					"key": "Referrer-Policy",
+					"value": "strict-origin-when-cross-origin"
+				}
+			]
+		},
+		{
 			"source": "/fonts/:path*",
 			"headers": [
 				{
@@ -319,16 +341,6 @@
 			"source": "/sitemap.txt",
 			"destination": "/sitemap.xml",
 			"permanent": true
-		}
-	],
-	"rewrites": [
-		{
-			"source": "/proxytown/gtm",
-			"destination": "https://www.googletagmanager.com/gtag/js"
-		},
-		{
-			"source": "/proxytown/ga",
-			"destination": "https://www.google-analytics.com/analytics.js"
 		}
 	]
 }
