@@ -198,7 +198,7 @@ Strip the type theory down to one sentence and the sentence is already hers. A N
 
 But a Nine's calm hides more than fear. Underneath it sits anger with nowhere direct to go, and the second half of this story is the map of where hers went.
 
-9takes has profiled 68 tech founders and executives. Murati is the only Nine in that group ([9takes corpus data](/corpus-stats)). Founder culture selects for people who grab the center of gravity. A Nine holds it quietly until everyone else is standing on it. Murati held it so well that two industries argued about her without ever being afraid of her.
+9takes has profiled {{corpus.domain.tech-business.total}} people in tech and business, and only {{corpus.domain.tech-business.type.9.count}} of them are Nines, Murati and Sundar Pichai among them ([9takes corpus data](/corpus-stats)). Founder culture selects for people who grab the center of gravity. A Nine holds it quietly until everyone else is standing on it. Murati held it so well that two industries argued about her without ever being afraid of her.
 
 <div class="key-stat">
 <div class="key-stat-row"><strong>$2 billion</strong> raised in a single seed round for Thinking Machines Lab, at a <strong>$12 billion</strong> valuation, before revealing what the company was building.</div>

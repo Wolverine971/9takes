@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { fade } from 'svelte/transition';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import Comment from './Comment.svelte';
 	import Skeleton from '../atoms/Skeleton.svelte';
 	import { debounce } from '../../utils/debounce';
@@ -146,12 +147,20 @@
 
 {#if browser && (_comments.length || initialLoading) && userHasAnswered}
 	<div
-		class="comment-list"
-		class:comment-list--root={parentType === 'question'}
-		class:comment-list--nested={parentType === 'comment'}
+		class={[
+			'comment-list',
+			parentType === 'question' && 'comment-list--root',
+			parentType === 'comment' && 'comment-list--nested'
+		]}
 	>
 		{#each visibleComments as comment, index (comment.id)}
-			<div class="comment-list__item" in:fade={{ duration: 300, delay: Math.min(index * 20, 100) }}>
+			<div
+				class="comment-list__item"
+				in:fade={{
+					duration: prefersReducedMotion.current ? 0 : 300,
+					delay: prefersReducedMotion.current ? 0 : Math.min(index * 20, 100)
+				}}
+			>
 				<Comment
 					{questionId}
 					{comment}
@@ -168,7 +177,13 @@
 	{#if initialLoading && _comments.length === 0}
 		<div class="comment-skeleton-list" role="status" aria-label="Loading comments">
 			{#each [0, 1, 2] as i (i)}
-				<div class="comment-skeleton" in:fade={{ duration: 300, delay: i * 50 }}>
+				<div
+					class="comment-skeleton"
+					in:fade={{
+						duration: prefersReducedMotion.current ? 0 : 300,
+						delay: prefersReducedMotion.current ? 0 : i * 50
+					}}
+				>
 					<div class="comment-skeleton__lines">
 						<Skeleton decorative variant="text" />
 						<Skeleton decorative variant="text" />

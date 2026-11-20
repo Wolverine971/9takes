@@ -30,6 +30,7 @@ import { bundledChorusTakes } from '$lib/server/bundledChorus';
 import personalitySimilaritySnapshot from '$lib/generated/personalitySimilaritySnapshot.json';
 import { waitUntil } from '@vercel/functions';
 import { smartQuotesText } from '$lib/utils/smartQuotes';
+import { resolveCorpusFaqs, resolveCorpusText } from '$lib/server/corpusTokens';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type ServerSupabaseClient = SupabaseClient<Database>;
@@ -165,7 +166,14 @@ export const load: PageServerLoad = async (event) => {
 	// content_quality is the pipeline's internal record (grades, gate results).
 	// The page needs one fact from it, so derive that here and keep the rest
 	// out of the shared payload.
-	const { content_quality: contentQuality, ...personData } = personRow;
+	const { content_quality: contentQuality, ...rawPersonData } = personRow;
+	// Live corpus numbers (`{{corpus.*}}`) in the body, description and FAQs.
+	const personData = {
+		...rawPersonData,
+		content: resolveCorpusText(rawPersonData.content ?? '', `person ${requestedSlug}`),
+		description: resolveCorpusText(rawPersonData.description ?? '', `person ${requestedSlug}`),
+		faqs: resolveCorpusFaqs(rawPersonData.faqs, `person ${requestedSlug} faqs`)
+	};
 	const isOpenCase = isOpenCaseProfile(contentQuality);
 
 	// Unpublished people 404 for everyone here, including admins: this response is

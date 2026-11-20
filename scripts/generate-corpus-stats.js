@@ -18,6 +18,7 @@ import reviewedTypes from '../src/lib/generated/reviewedPersonTypes.json' with {
 import peopleTaxonomy from '../src/lib/data/peopleTaxonomy.json' with { type: 'json' };
 import personClassifications from '../src/lib/data/personClassifications.json' with { type: 'json' };
 import { normalizePersonalitySlug } from './lib/personalitySeo.js';
+import { buildCorpusTokenTable } from '../src/lib/corpusTokens.js';
 
 dotenv.config();
 
@@ -481,11 +482,13 @@ function buildMarkdown(stats) {
 	lines.push('## Ready-to-Cite Claims');
 	lines.push('');
 	lines.push(
-		'Drop these into a blog verbatim — they are pre-computed from the live corpus and are safe to quote. Re-run this generator before citing to ensure freshness.'
+		'Snapshot wording for reference. In posts, write the numbers as live tokens (next section) so they stay current; never paste these figures by hand.'
 	);
 	lines.push('');
 	for (const c of citable_claims) lines.push(`- ${c}`);
 	lines.push('');
+
+	lines.push(...buildTokenReference(stats));
 
 	lines.push('---');
 	lines.push('');
@@ -496,13 +499,13 @@ function buildMarkdown(stats) {
 		'- **Scope of public-facing stats:** published profiles only. Unpublished drafts are excluded from all percentages and over/under-representation deltas.'
 	);
 	lines.push(
-		`- **Domain buckets:** Raw \`type\` labels are grouped into readable categories (e.g. \`movieStar\` + \`newMovieStar\` + \`actor\` → Actors). Domains with fewer than ${MIN_DOMAIN_SIZE} profiled figures are omitted to avoid small-sample noise.`
+		`- **Domain buckets:** one per field of the people taxonomy (\`src/lib/data/peopleTaxonomy.json\`), matching the category pages. Membership comes from \`src/lib/data/personClassifications.json\`. Domains with fewer than ${MIN_DOMAIN_SIZE} profiled figures are omitted to avoid small-sample noise.`
 	);
 	lines.push(
 		"- **Over/under-representation:** Each domain's type share minus the corpus-wide baseline share, in percentage points. Positive means over-represented vs. the 9takes corpus average, not vs. general population."
 	);
 	lines.push(
-		'- **Multi-domain figures:** A person tagged with both `musician` and `activist` is counted in both domains.'
+		'- **Multi-domain figures:** a person counts in their home field and in every second-career field (`also`), so an actor who also makes music is in both Film, TV & Stage and Music.'
 	);
 	lines.push(
 		`- **Drafts:** unpublished profiles with more than ${DRAFT_MIN_CONTENT_CHARS} characters of content, one per person, excluding people who already have a published profile. Counting them needs \`SUPABASE_SERVICE_KEY\` (RLS hides unpublished rows from the public key); without it the count is null, not 0.`
@@ -511,10 +514,99 @@ function buildMarkdown(stats) {
 		'- **Who assigns the types:** 9takes editors type every profile. Over- and under-representation can reflect editor-typing bias as well as who becomes famous; treat explanations as hypotheses.'
 	);
 	lines.push('');
-	lines.push('_Regenerate with `pnpm gen:corpus-stats`. Refresh cadence: monthly._');
+	lines.push('_Regenerate with `pnpm gen:corpus-stats`. Runs on every Vercel deploy._');
 	lines.push('');
 
 	return lines.join('\n');
+}
+
+/** "Live tokens" section: how posts cite corpus numbers so they never go stale. */
+function buildTokenReference(stats) {
+	const table = buildCorpusTokenTable(stats);
+	const v = (p) => table.get(p);
+	const domainSlugs = Object.keys(stats.domains);
+	const example = stats.domains.music ? 'music' : domainSlugs[0];
+	const lines = [];
+	lines.push('## Live tokens');
+	lines.push('');
+	lines.push(
+		'Posts never hand-type corpus numbers. Write `{{corpus.<path>}}` and the build swaps in the current value (MDsvex posts at build, people pages at render, the search index on reindex). `pnpm lint` fails on hand-typed corpus figures and unknown tokens. Resolver: `src/lib/corpusTokens.js`.'
+	);
+	lines.push('');
+	lines.push('| Token | Now renders |');
+	lines.push('| ----- | ----------- |');
+	const row = (p) => lines.push(`| \`{{corpus.${p}}}\` | ${v(p)} |`);
+	[
+		'total',
+		'drafts',
+		'per-month',
+		'published-30',
+		'published-90',
+		'updated-90',
+		'updated-90-share',
+		'as-of'
+	].forEach(row);
+	[
+		'type.4.share',
+		'type.4.count',
+		'type.4.name',
+		'type.4.short',
+		'type.4.label',
+		'type.4.top-domain',
+		'type.4.top-domain-label',
+		'type.4.top-domain-share'
+	].forEach(row);
+	['rank.1.name', 'rank.1.share', 'rank.9.name'].forEach(row);
+	if (example) {
+		[
+			'total',
+			'label',
+			'url',
+			'type.4.share',
+			'type.4.count',
+			'type.4.delta',
+			'type.4.of-type',
+			'top.name',
+			'top.share',
+			'top.delta',
+			'rank.2.name',
+			'under.name'
+		].forEach((p) => row(`domain.${example}.${p}`));
+	}
+	lines.push('');
+	lines.push('Path grammar:');
+	lines.push('');
+	lines.push(
+		'- Whole corpus: `total`, `drafts`, `per-month`, `published-30`, `published-90`, `updated-90`, `updated-90-share`, `as-of` (month of the last regenerate).'
+	);
+	lines.push(
+		'- A type slot (`type.N`, `rank.K`, `domain.<slug>.type.N`, `domain.<slug>.rank.K`, `domain.<slug>.top`, `domain.<slug>.under`) has `.type` (4), `.short` (Type 4), `.name` (Type 4 (Individualist)), `.label` (Individualist), `.count`, `.share`.'
+	);
+	lines.push(
+		'- Domain slots add `.delta` (signed points vs the corpus share, write "percentage points" after it); `domain.<slug>.type.N.of-type` is the share of ALL Type N profiles that sit in that domain.'
+	);
+	lines.push(
+		'- `type.N.top-domain` / `.top-domain-label` / `.top-domain-share`: the field holding the largest share of all Type N profiles.'
+	);
+	lines.push(
+		'- `rank.K` orders by count, largest first (1 = most common, 9 = rarest). `top` / `under` = most over/under-represented vs baseline.'
+	);
+	lines.push(
+		'- `skew.K` ranks fields by their strongest single-type lean (`skew.1.domain` = the most skewed field), with the type slot fields plus `.delta`, `.domain` and `.domain-label`.'
+	);
+	lines.push(
+		`- Domain slugs: ${domainSlugs.map((slug) => `\`${slug}\``).join(', ')}. A domain under ${MIN_DOMAIN_SIZE} profiles drops out and its tokens stop resolving (the build fails loudly, by design).`
+	);
+	lines.push('');
+	lines.push(
+		'Prose a token can\'t carry ("Type 4 leads music", "no other field over-indexes Type 4") gets a guard in an HTML comment beside it: `<!-- corpus-assert: domain.music.top.type = 4 -->`. Lint fails, and every deploy warns, once the data stops backing the sentence. A figure that is not a corpus number (an outside study, a hand-counted sub-sample) gets `<!-- corpus-ok: reason -->` in its paragraph.'
+	);
+	lines.push('');
+	lines.push(
+		'People pages: tokens work in the body and FAQs, not in title/description (listing cards show those raw).'
+	);
+	lines.push('');
+	return lines;
 }
 
 async function main() {
@@ -563,6 +655,30 @@ async function main() {
 	console.log(
 		`   Published: ${published.length}  |  Drafts: ${draftCount ?? 'unknown'}  |  Domains reported: ${Object.keys(domains).length}  |  Claims: ${stats.citable_claims.length}`
 	);
+	// Posts cite these numbers through live tokens. Warn (never fail a deploy) when a token stops
+	// resolving or a corpus-assert claim stops being true under the new numbers.
+	try {
+		const { checkFile } = await import('./check-corpus-figures.mjs');
+		const { readdirSync } = fs;
+		const walk = (dir) =>
+			readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
+				e.isDirectory()
+					? walk(path.join(dir, e.name))
+					: /\.(?:md|svx)$/.test(e.name)
+						? [path.join(dir, e.name)]
+						: []
+			);
+		const table = buildCorpusTokenTable(stats);
+		const broken = walk(path.join(__dirname, '..', 'src', 'blog'))
+			.flatMap((file) => checkFile(file, table))
+			.filter((p) => !p.includes('hand-typed'));
+		if (broken.length) {
+			console.warn(`⚠️  ${broken.length} post claim(s) no longer match the new numbers:`);
+			for (const p of broken) console.warn(`   ${p}`);
+		}
+	} catch (err) {
+		console.warn(`⚠️  Skipped corpus claim check: ${err.message}`);
+	}
 }
 
 main().catch((err) => {

@@ -23,6 +23,11 @@ import { marked } from 'marked';
 import { createClient } from '@supabase/supabase-js';
 import dotenv from 'dotenv';
 import matter from 'gray-matter';
+import corpusStats from '../src/lib/data/corpus-stats.json' with { type: 'json' };
+import { buildCorpusTokenTable, resolveCorpusTokens } from '../src/lib/corpusTokens.js';
+
+// Search snippets show live corpus numbers, not `{{corpus.*}}` tokens (same values the build uses).
+const corpusTokenTable = buildCorpusTokenTable(corpusStats);
 
 dotenv.config();
 
@@ -422,7 +427,9 @@ function isPublishedFrontmatter(data) {
  * @returns {Promise<BlogContentEntry | null>}
  */
 async function parseMarkdownFile(filePath, dirConfig) {
-	const fileContent = await fs.readFile(filePath, 'utf8');
+	const fileContent = resolveCorpusTokens(await fs.readFile(filePath, 'utf8'), corpusTokenTable, {
+		source: filePath
+	});
 	const { data, content } = matter(fileContent);
 
 	if (!isPublishedFrontmatter(data)) {

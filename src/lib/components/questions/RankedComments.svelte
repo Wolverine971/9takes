@@ -1,6 +1,10 @@
 <!-- src/lib/components/questions/RankedComments.svelte -->
 <script lang="ts">
 	import { onMount, untrack, type Snippet } from 'svelte';
+	import { flip } from 'svelte/animate';
+	import { cubicOut } from 'svelte/easing';
+	import { prefersReducedMotion } from 'svelte/motion';
+	import { crossfade, fade } from 'svelte/transition';
 	import Comment from '$lib/components/molecules/Comment.svelte';
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 	import { Button } from '$lib/components/atoms';
@@ -42,6 +46,20 @@
 	const INTERSTITIAL_AFTER = 3;
 	// Long enough for the last staggered card (see .is-revealing below) to land.
 	const REVEAL_CLASS_MS = 900;
+	// Sort, filter and paging motion. The first reveal is the CSS un-blur below;
+	// these only play for takes that move, arrive or leave after that.
+	const MOVE_MS = 280;
+	const ENTER_MS = 200;
+	let moveMs = $derived(prefersReducedMotion.current ? 0 : MOVE_MS);
+	// The list is split around the interstitial, so a take whose rank crosses it
+	// leaves one {#each} and joins the other. crossfade carries it across;
+	// takes with no counterpart (paged in, filtered out) just fade.
+	const [sendTake, receiveTake] = crossfade({
+		duration: (distance) =>
+			prefersReducedMotion.current ? 0 : Math.min(MOVE_MS + 60, Math.sqrt(distance * 220)),
+		easing: cubicOut,
+		fallback: (node) => fade(node, { duration: prefersReducedMotion.current ? 0 : ENTER_MS })
+	});
 
 	function captureVisit() {
 		const latest: Take[] = JSON.parse(JSON.stringify(data.comments ?? []));
@@ -288,17 +306,15 @@
 	});
 </script>
 
-{#snippet communityTake(take: Take, index: number)}
-	<div class="ranked-comments__item" data-take-id={take.id} style:--reveal-i={index}>
-		<Comment
-			questionId={data.question.id}
-			comment={take}
-			{user}
-			parentData={data}
-			oncommentUpdated={updateTake}
-			oncommentAdded={() => oncommentAdded?.()}
-		/>
-	</div>
+{#snippet communityTake(take: Take)}
+	<Comment
+		questionId={data.question.id}
+		comment={take}
+		{user}
+		parentData={data}
+		oncommentUpdated={updateTake}
+		oncommentAdded={() => oncommentAdded?.()}
+	/>
 {/snippet}
 
 {#if data.flags.userHasAnswered}
@@ -307,15 +323,18 @@
 		<section class="own-takes" aria-label={ownTakes.length === 1 ? 'Your take' : 'Your takes'}>
 			<h4>{ownTakes.length === 1 ? 'Your take' : 'Your takes'}</h4>
 			{#each ownTakes as take (take.id)}
-				<Comment
-					questionId={data.question.id}
-					comment={take}
-					own
-					{user}
-					parentData={data}
-					oncommentUpdated={updateTake}
-					oncommentAdded={() => oncommentAdded?.()}
-				/>
+				<!-- data-own-take: where a first answer lands (takeHandoff.ts). -->
+				<div class="own-take" data-own-take={take.id}>
+					<Comment
+						questionId={data.question.id}
+						comment={take}
+						own
+						{user}
+						parentData={data}
+						oncommentUpdated={updateTake}
+						oncommentAdded={() => oncommentAdded?.()}
+					/>
+				</div>
 			{/each}
 		</section>
 	{/if}
@@ -353,9 +372,18 @@
 			{/if}
 		</div>
 	{:else}
-		<div class="ranked-comments" class:is-revealing={revealing} aria-label="Community takes">
+		<div class={['ranked-comments', revealing && 'is-revealing']} aria-label="Community takes">
 			{#each leadTakes as take, index (take.id)}
-				{@render communityTake(take, index)}
+				<div
+					class="ranked-comments__item"
+					data-take-id={take.id}
+					style:--reveal-i={index}
+					in:receiveTake={{ key: take.id }}
+					out:sendTake={{ key: take.id }}
+					animate:flip={{ duration: moveMs, easing: cubicOut }}
+				>
+					{@render communityTake(take)}
+				</div>
 			{/each}
 			{#if !visibleTakes.length}
 				<p class="empty-takes">
@@ -368,7 +396,16 @@
 				<div class="ranked-comments__interstitial">{@render interstitial()}</div>
 			{/if}
 			{#each restTakes as take, index (take.id)}
-				{@render communityTake(take, index + INTERSTITIAL_AFTER)}
+				<div
+					class="ranked-comments__item"
+					data-take-id={take.id}
+					style:--reveal-i={index + INTERSTITIAL_AFTER}
+					in:receiveTake={{ key: take.id }}
+					out:sendTake={{ key: take.id }}
+					animate:flip={{ duration: moveMs, easing: cubicOut }}
+				>
+					{@render communityTake(take)}
+				</div>
 			{/each}
 		</div>
 	{/if}
@@ -402,7 +439,12 @@
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
 	}
-	.ranked-comments__item {
+	.ranked-comments {
+		/* Leaving takes are taken out of flow (absolutely placed) while the rest flip. */
+		position: relative;
+	}
+	.ranked-comments__item,
+	.own-take {
 		min-width: 0;
 	}
 	.after-own-takes {

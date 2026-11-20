@@ -1,9 +1,10 @@
 <!-- src/lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
-	import { onDestroy, onMount, untrack, type Snippet } from 'svelte';
+	import { onDestroy, type Snippet } from 'svelte';
 	import { browser } from '$app/environment';
 	import { resolve } from '$app/paths';
 	import { fade } from 'svelte/transition';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import PostIcon from '$lib/components/icons/postIcon.svelte';
 	import Comments from '$lib/components/molecules/Comments.svelte';
@@ -45,6 +46,12 @@
 		sealed?: SealedTakesData | null;
 		/** Locked state: moves the visitor to the composer. */
 		oncompose?: () => void;
+		/**
+		 * The gate opened on this page (a first answer this visit), not a direct
+		 * load of an already-unlocked thread: the room is announced as revealed.
+		 * (The takes' staggered un-blur lives in RankedComments.)
+		 */
+		revealedHere?: boolean;
 	}
 
 	let {
@@ -58,15 +65,13 @@
 		revealFailed = false,
 		onretryReveal,
 		sealed = null,
-		oncompose
+		oncompose,
+		revealedHere = false
 	}: Props = $props();
 
 	// Local state
 	let selectedTab = $state('Comments');
-	let reduceMotion = $state(false);
-
-	// Create a deep copy of data to avoid mutation issues
-	let _data = $derived(JSON.parse(JSON.stringify(data)) as QuestionPageData);
+	let reduceMotion = $derived(prefersReducedMotion.current);
 
 	// Define tabs and their associated icons.
 	// 2026-06-10 (design audit): the permanently-empty "Visuals" tab is cut and
@@ -78,7 +83,7 @@
 		Articles: PostIcon
 	};
 
-	let displayCommentCount = $derived(_data.comment_count);
+	let displayCommentCount = $derived(data.comment_count);
 
 	// One observer lifecycle covers every take, including a focused reply thread.
 	// Comment attaches only its card body; replies and removed/own takes are
@@ -112,25 +117,12 @@
 	// A reply-focus thread renders its parent above the community list.
 	let replyFocusParentId = $derived(replyFocus?.parent?.id ?? null);
 	let hiddenFromCommunity = $derived(replyFocusParentId === null ? [] : [replyFocusParentId]);
-	let validAiComments = $derived((_data.aiComments ?? []).filter(hasValidAiType));
-
-	// The reveal moment: only when the gate opens on this page, not on a direct
-	// load of a thread the visitor already unlocked. Resets per question.
-	// (The takes' staggered un-blur lives in RankedComments.)
-	let lockedOnArrival = $derived.by(() => {
-		void data.question.id;
-		return untrack(() => !data.flags.userHasAnswered);
-	});
-	let revealedHere = $derived(lockedOnArrival && data.flags.userHasAnswered);
+	let validAiComments = $derived((data.aiComments ?? []).filter(hasValidAiType));
 
 	function hasValidAiType(comment: AIComment): boolean {
 		const typeNumber = Number(comment.enneagram_type ?? comment.enneagram);
 		return Number.isInteger(typeNumber) && typeNumber >= 1 && typeNumber <= 9;
 	}
-
-	onMount(() => {
-		reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-	});
 
 	// Smooth scroll to section when tab is clicked
 	function scrollToSection(sectionId: string) {
@@ -163,8 +155,8 @@
 				};
 			case 'Articles':
 				return {
-					count: _data.links_count || 0,
-					label: _data.links_count === 1 ? 'Article' : 'Articles'
+					count: data.links_count || 0,
+					label: data.links_count === 1 ? 'Article' : 'Articles'
 				};
 			default:
 				return { count: 0, label: '' };
@@ -222,8 +214,7 @@
 						role="tab"
 						aria-selected={selectedTab === tab}
 						aria-controls={getPanelId(tab)}
-						class="question-tab"
-						class:is-active={selectedTab === tab}
+						class={['question-tab', selectedTab === tab && 'is-active']}
 						onclick={() => {
 							selectedTab = tab;
 							scrollToSection(getPanelId(tab));
@@ -253,8 +244,7 @@
 					in:fade={{ duration: reduceMotion ? 0 : 200 }}
 					id={getPanelId(section)}
 					role="tabpanel"
-					class:selected={selectedTab === section}
-					class="question-content-section"
+					class={['question-content-section', selectedTab === section && 'selected']}
 					hidden={selectedTab !== section}
 					aria-labelledby={getTabId(section)}
 				>
@@ -281,9 +271,9 @@
 									{#if replyFocus && browser}
 										<ReplyFocusThread
 											thread={replyFocus}
-											questionId={_data.question.id}
+											questionId={data.question.id}
 											{user}
-											parentData={_data}
+											parentData={data}
 										/>
 									{/if}
 
@@ -297,7 +287,7 @@
 										<p>Everyone here answered before reading anyone else.</p>
 									</header>
 									<RankedComments
-										data={_data}
+										{data}
 										{user}
 										excludeIds={hiddenFromCommunity}
 										active={selectedTab === 'Comments'}
@@ -321,24 +311,24 @@
 													These are prompts for comparison, not community posts. The real discussion
 													above always comes first.
 												</p>
-												<AIComments data={_data} parentType="question" />
+												<AIComments {data} parentType="question" />
 											</div>
 										</details>
 									{/if}
 
 									<!-- Removed comments: quiet disclosure, not a top-level tab -->
-									{#if _data?.removed_comment_count > 0}
+									{#if data.removed_comment_count > 0}
 										<details class="removed-comments-disclosure">
 											<summary>
-												{_data.removed_comment_count} removed
-												{_data.removed_comment_count === 1 ? 'comment' : 'comments'}
+												{data.removed_comment_count} removed
+												{data.removed_comment_count === 1 ? 'comment' : 'comments'}
 											</summary>
-											{#if _data?.removedComments?.length > 0}
+											{#if data.removedComments?.length > 0}
 												<Comments
-													questionId={_data.question.id}
-													parentData={_data}
-													comment_count={_data.removed_comment_count}
-													comments={_data.removedComments}
+													questionId={data.question.id}
+													parentData={data}
+													comment_count={data.removed_comment_count}
+													comments={data.removedComments}
 													parentType="question"
 													{user}
 												/>
@@ -350,7 +340,7 @@
 						{:else if section === 'Articles'}
 							<ArticleLinks
 								questionId={data.question.id}
-								data={_data}
+								{data}
 								parentType="question"
 								oncommentAdded={handleCommentAdded}
 							/>

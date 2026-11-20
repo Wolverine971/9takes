@@ -8,6 +8,7 @@
 -->
 <script lang="ts">
 	import { tick, untrack } from 'svelte';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import type { Attachment } from 'svelte/attachments';
 	import { afterNavigate, beforeNavigate, invalidateAll } from '$app/navigation';
 	import { deserialize } from '$app/forms';
@@ -45,6 +46,7 @@
 	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import { buildGatedContentFlags } from '$lib/components/questions/answerGist';
 	import { shortDate } from '$lib/components/questions/sealedTakes';
+	import { waitForTakeHandoff } from '$lib/components/questions/takeHandoff';
 
 	let { data }: { data: PageData } = $props();
 
@@ -60,9 +62,19 @@
 	const MAX_META_DESCRIPTION_LENGTH = 160;
 	const MAX_CONTEXT_PREVIEW_LENGTH = 320;
 
-	// Local state for optimistic updates
-	let optimisticComments = $state<Comment[]>([]);
-	let optimisticUserHasAnswered = $state(false);
+	// Optimistic updates. Both reset when the question changes (so an
+	// unconfirmed answer can never open the next question's gate) and when the
+	// server confirms the answer (its data then carries the take). The key is a
+	// string, so reloads that change neither leave in-flight optimistic takes alone.
+	let optimisticKey = $derived(`${data.question.id}:${Boolean(data.flags?.userHasAnswered)}`);
+	let optimisticComments = $derived.by<Comment[]>(() => {
+		void optimisticKey;
+		return [];
+	});
+	let optimisticUserHasAnswered = $derived.by(() => {
+		void optimisticKey;
+		return false;
+	});
 	// Host promise: shown only for a take submitted in this page session.
 	// `justAnswered` survives the post-submit invalidateAll (which resets the
 	// optimistic flag) so the line stays put while the reveal loads.
@@ -246,14 +258,6 @@
 		return selectedTagParent ?? parentCategories[0]?.id ?? null;
 	}
 
-	// Reset optimistic state BEFORE DOM updates when server confirms user has answered
-	$effect.pre(() => {
-		if (data.flags?.userHasAnswered) {
-			optimisticComments = [];
-			optimisticUserHasAnswered = false;
-		}
-	});
-
 	// Merge optimistic and server comments, deduplicating by ID
 	let mergedComments = $derived.by(() => {
 		const serverComments = data.comments || [];
@@ -389,10 +393,10 @@
 	function focusComposer() {
 		const field = document.getElementById(`comment-box-question-${data.question.id}`);
 		if (!(field instanceof HTMLTextAreaElement)) return;
-		const reduceMotion =
-			typeof window.matchMedia === 'function' &&
-			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-		field.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+		field.scrollIntoView({
+			behavior: prefersReducedMotion.current ? 'auto' : 'smooth',
+			block: 'center'
+		});
 		field.focus({ preventScroll: true });
 	}
 
@@ -501,7 +505,8 @@
 
 	// The reveal choreography after a first answer:
 	//   1. the gate opens at once: your take + placeholder cards (optimistic)
-	//   2. the composer collapses (COMPOSER_COLLAPSE_MS)
+	//   2. the composer collapses (COMPOSER_COLLAPSE_MS) while the text you
+	//      typed travels into "Your take" (takeHandoff.ts, where supported)
 	//   3. the page glides to "What people actually said"
 	//   4. the server's takes replace the placeholders and come into focus
 	// The reload in (4) starts immediately, so it overlaps steps 2-3.
@@ -524,14 +529,16 @@
 
 	async function moveToReveal() {
 		await tick();
+		// Let the handoff land first: a scroll or a keyboard-driven viewport
+		// resize mid-morph would cut it short. It outlasts the composer
+		// collapse, so once it has played the glide can start right away.
+		const handedOff = await waitForTakeHandoff();
 		const heading = document.getElementById('takes-discussion');
 		if (!heading) return;
 		// Moving focus off the textarea also closes the mobile keyboard, which
 		// would otherwise resize the viewport mid-scroll.
 		heading.focus({ preventScroll: true });
-		const reduceMotion =
-			typeof window.matchMedia === 'function' &&
-			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		const reduceMotion = prefersReducedMotion.current;
 		setTimeout(
 			() => {
 				const pageTop = (el: Element) => el.getBoundingClientRect().top + window.scrollY;
@@ -548,7 +555,7 @@
 				if (!Number.isFinite(top) || top - window.scrollY < 24) return;
 				window.scrollTo({ top, behavior: reduceMotion ? 'auto' : 'smooth' });
 			},
-			reduceMotion ? 0 : COMPOSER_COLLAPSE_MS + 20
+			reduceMotion || handedOff ? 0 : COMPOSER_COLLAPSE_MS + 20
 		);
 	}
 
@@ -1030,6 +1037,7 @@
 							onretryReveal={() => void loadRevealedTakes()}
 							sealed={commentsUnlocked ? null : (data.sealedTakes ?? null)}
 							oncompose={focusComposer}
+							revealedHere={justAnswered}
 						/>
 
 						{#snippet failed()}
@@ -1091,8 +1099,10 @@
 										<button
 											type="button"
 											onclick={() => selectRootCategory(category.id)}
-											class="cat-chip"
-											class:cat-chip--active={selectedRootCategoryId === category.id}
+											class={[
+												'cat-chip',
+												selectedRootCategoryId === category.id && 'cat-chip--active'
+											]}
 										>
 											{category.category_name}
 										</button>
@@ -1108,8 +1118,10 @@
 											<button
 												type="button"
 												onclick={() => selectParentCategory(category.id)}
-												class="cat-chip"
-												class:cat-chip--active={selectedParentCategoryId === category.id}
+												class={[
+													'cat-chip',
+													selectedParentCategoryId === category.id && 'cat-chip--active'
+												]}
 											>
 												{category.category_name}
 											</button>
@@ -1136,8 +1148,10 @@
 											<button
 												type="button"
 												onclick={() => toggleLeafCategory(category.id)}
-												class="leaf-tile"
-												class:leaf-tile--active={selectedTagIds.includes(category.id)}
+												class={[
+													'leaf-tile',
+													selectedTagIds.includes(category.id) && 'leaf-tile--active'
+												]}
 											>
 												<span class="leaf-tile__name">{category.category_name}</span>
 												<span class="mono leaf-tile__state">
@@ -1364,6 +1378,9 @@
 	/* ---------- the question as a poster ---------- */
 	.q-headline {
 		margin: 8px 0 0;
+		/* Shared with the tapped row on /questions (questionMorph.ts): the
+		   question's text glides into this headline on navigation. */
+		view-transition-name: question-title;
 	}
 
 	.q-context {

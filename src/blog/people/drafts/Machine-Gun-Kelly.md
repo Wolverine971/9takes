@@ -201,7 +201,7 @@ The reason to believe him anyway is the calendar. The confession is a year old. 
 
 [Type 4](/enneagram-corner/enneagram-type-4), the Individualist, is built on the conviction that ordinary is a kind of death. The core fear is being unremarkable; the core desire is to be understood as the genuine article. Pain, in this wiring, gets promoted from consequence to resource, the evidence that something real is happening underneath. Which means the supply has to be maintained.
 
-That typing deserves suspicion, because Type 4 is the lazy answer for a musician. Of the 75 musicians profiled on 9takes, 28 are Fours: 37.3%, against a 14.5% baseline across all 401 published profiles (9takes corpus, August 2026). Give a man a guitar and a bad childhood and the sticker applies itself.
+That typing deserves suspicion, because Type 4 is the lazy answer for a musician. Of the {{corpus.domain.music.total}} musicians profiled on 9takes, {{corpus.domain.music.type.4.count}} are Fours: {{corpus.domain.music.type.4.share}}, against a {{corpus.type.4.share}} baseline across all {{corpus.total}} published profiles (9takes corpus, {{corpus.as-of}}). Give a man a guitar and a bad childhood and the sticker applies itself.
 
 So run the pressure test. He has two number one albums and says openly he wants a third for the hat trick. He picked a fight with the most commercially dominant rapper alive and came out bigger. He has changed genre three times in fifteen years, each time toward whatever the culture was warming up. All of that points at Type 3, the Achiever.
 

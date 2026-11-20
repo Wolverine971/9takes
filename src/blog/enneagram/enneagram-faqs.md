@@ -60,7 +60,7 @@ The Enneagram isn't scientifically validated like the Big Five personality model
 
 The Enneagram is a framework for understanding motivation, not a diagnostic tool. Use it as a lens, not a label.
 
-If you want to look at actual numbers, our [corpus stats page](/corpus-stats) shows how Enneagram types distribute across 293 public-figure profiles we've analyzed, side-by-side with the two largest public test-taker datasets — partly to add our own transparency to the pile, partly to make our sampling bias legible.
+If you want to look at actual numbers, our [corpus stats page](/corpus-stats) shows how Enneagram types distribute across {{corpus.total}} public-figure profiles we've analyzed, side-by-side with the two largest public test-taker datasets — partly to add our own transparency to the pile, partly to make our sampling bias legible.
 
 <strong>Deep dive:</strong> <a href="/enneagram-corner/enneagram-criticisms">Complete analysis of Enneagram criticisms</a>
 
@@ -546,7 +546,9 @@ Some people prefer:
 <summary class="accordion"><strong>Which Enneagram type is the most common in 9takes' corpus?</strong></summary>
 <div class="panel">
 
-Across **325 published personality profiles** on 9takes, **Type 3 (the Achiever) leads at 20.3%** of the corpus, followed by Type 4 (Individualist) at 13.9% and Type 7 (Enthusiast) at 13.2%.
+Across **{{corpus.total}} published personality profiles** on 9takes, **{{corpus.rank.1.name}} leads at {{corpus.rank.1.share}}** of the corpus, followed by {{corpus.rank.2.name}} at {{corpus.rank.2.share}} and {{corpus.rank.3.name}} at {{corpus.rank.3.share}}.
+
+<!-- corpus-assert: rank.1.type = 3 -->
 
 That's not a [population claim](/enneagram-corner/how-common-is-each-enneagram-type) — it's the shape of _who actually gets profiled_ on a celebrity-leaning Enneagram site. Achievers dominate the public-figure layer. The full breakdown is at <a href="/corpus-stats#enneagram-distribution">/corpus-stats</a>.
 
@@ -557,9 +559,11 @@ That's not a [population claim](/enneagram-corner/how-common-is-each-enneagram-t
 <summary class="accordion"><strong>Which Enneagram type is over-represented among musicians?</strong></summary>
 <div class="panel">
 
-Among the **57 profiles** in the 9takes [Musicians & Artists](/personality-analysis/categories/music) category, **Type 4 (Individualist) is over-represented at 35.1%** — **+21.24 percentage points** above the corpus baseline.
+Among the **{{corpus.domain.music.total}} profiles** in the 9takes [Music](/personality-analysis/categories/music) category, **{{corpus.domain.music.top.name}} is over-represented at {{corpus.domain.music.top.share}}** — **{{corpus.domain.music.top.delta}} percentage points** above the corpus baseline.
 
-That's the biggest single-domain over-representation in the entire 9takes corpus. Authentic-expression-over-fitting-in is the load-bearing wiring of [the musician archetype](/pop-culture/what-enneagram-type-are-most-musicians), and the data shows it. Full breakdown: <a href="/corpus-stats#domain-music">/corpus-stats#domain-music</a>.
+<!-- corpus-assert: domain.music.top.type = 4 -->
+
+Music is the only field where Fours stack up like this: {{corpus.domain.music.type.4.of-type}} of every Type 4 on 9takes makes music. Authentic-expression-over-fitting-in is the load-bearing wiring of [the musician archetype](/pop-culture/what-enneagram-type-are-most-musicians), and the data shows it. Full breakdown: <a href="/corpus-stats#domain-music">/corpus-stats#domain-music</a>.
 
 </div>
 </details>
@@ -568,9 +572,12 @@ That's the biggest single-domain over-representation in the entire 9takes corpus
 <summary class="accordion"><strong>Which Enneagram type dominates comedy?</strong></summary>
 <div class="panel">
 
-Among the **25 profiles** in the 9takes [Comedians](/personality-analysis/categories/comedy) category, **Type 7 (Enthusiast) is over-represented at 40%** — **+26.77 percentage points** above the corpus baseline.
+Among the **{{corpus.domain.comedy.total}} profiles** in the 9takes [Comedy](/personality-analysis/categories/comedy) category, **{{corpus.domain.comedy.top.name}} is over-represented at {{corpus.domain.comedy.top.share}}** — **{{corpus.domain.comedy.top.delta}} percentage points** above the corpus baseline.
 
-Two out of every five profiled comedians on 9takes are Type 7. The Enneagram framing — Sevens use stimulation and humor to outrun pain — lines up with the actual numbers. Domain page: <a href="/corpus-stats#domain-comedy">/corpus-stats#domain-comedy</a>.
+<!-- corpus-assert: domain.comedy.top.type = 7 -->
+<!-- corpus-assert: skew.1.domain = comedy -->
+
+{{corpus.domain.comedy.top.count}} of the {{corpus.domain.comedy.total}} profiled comedians on 9takes are Type 7, the largest single-type skew in any field we cover. The Enneagram framing — Sevens use stimulation and humor to outrun pain — lines up with the actual numbers. Domain page: <a href="/corpus-stats#domain-comedy">/corpus-stats#domain-comedy</a>.
 
 </div>
 </details>
@@ -579,9 +586,11 @@ Two out of every five profiled comedians on 9takes are Type 7. The Enneagram fra
 <summary class="accordion"><strong>Which Enneagram type is most over-represented among tech founders?</strong></summary>
 <div class="panel">
 
-Among the **55 profiles** in the 9takes [Tech, Founders & Business](/personality-analysis/categories/tech-business) category, **Type 5 (Investigator) is over-represented at 23.6%** — **+15.94 percentage points** above the corpus baseline.
+Among the **{{corpus.domain.tech-business.total}} tech, founder and business profiles** on 9takes, **{{corpus.domain.tech-business.top.name}} is over-represented at {{corpus.domain.tech-business.top.share}}** — **{{corpus.domain.tech-business.top.delta}} percentage points** above the corpus baseline.
 
-Type 3 (Achiever) is also strong here at 29.1% (+8.78 pp), but the Type 5 over-representation is the bigger signal because Type 5 is otherwise rare in the corpus (just 7.7% baseline). Tech is the lane where Investigators surface. Domain page: <a href="/corpus-stats#domain-tech-business">/corpus-stats#domain-tech-business</a>.
+<!-- corpus-assert: domain.tech-business.top.type = 5 -->
+
+Type 3 (Achiever) is also strong here at {{corpus.domain.tech-business.type.3.share}}, but the Type 5 over-representation is the bigger signal because Type 5 is otherwise rare in the corpus (just {{corpus.type.5.share}} baseline). Split the group and it sharpens: Fives are {{corpus.domain.technology.type.5.share}} of the [Tech](/personality-analysis/categories/technology) category alone. Tech is the lane where Investigators surface. Domain page: <a href="/corpus-stats#domain-tech-business">/corpus-stats#domain-tech-business</a>.
 
 </div>
 </details>
@@ -590,9 +599,11 @@ Type 3 (Achiever) is also strong here at 29.1% (+8.78 pp), but the Type 5 over-r
 <summary class="accordion"><strong>Which Enneagram type is most over-represented among politicians and public figures?</strong></summary>
 <div class="panel">
 
-Among the **47 profiles** in the 9takes [Politics & Public Figures](/personality-analysis/categories/politics-public) category, **Type 2 (Helper) is over-represented at 17.0%** — **+9.33 percentage points** above the corpus baseline.
+Among the **{{corpus.domain.politics-public.total}} profiles** in the 9takes [Politics & Government](/personality-analysis/categories/politics-public) category, **{{corpus.domain.politics-public.top.name}} is over-represented at {{corpus.domain.politics-public.top.share}}** — **{{corpus.domain.politics-public.top.delta}} percentage points** above the corpus baseline.
 
-That's counterintuitive — most popular Enneagram lore would point at Type 8 (the Challenger) for politics. The 9takes data says otherwise. Helpers run on being needed, and many political careers are exactly that motivation rendered at scale. Full breakdown: <a href="/corpus-stats#domain-politics-public">/corpus-stats#domain-politics-public</a>.
+<!-- corpus-assert: domain.politics-public.top.type = 1 -->
+
+That's counterintuitive — most popular Enneagram lore would point at Type 8 (the Challenger) for politics, and Eights sit only {{corpus.domain.politics-public.type.8.delta}} points above baseline here. Reformers run on the conviction that something is wrong and they are responsible for fixing it, and a political career is exactly that motivation rendered at scale. Full breakdown: <a href="/corpus-stats#domain-politics-public">/corpus-stats#domain-politics-public</a>.
 
 </div>
 </details>
@@ -601,7 +612,7 @@ That's counterintuitive — most popular Enneagram lore would point at Type 8 (t
 <summary class="accordion"><strong>How fresh is 9takes' Enneagram corpus?</strong></summary>
 <div class="panel">
 
-As of the latest deploy, **270 of 325 published profiles (83.1%) were refreshed in the last 90 days**, **143 additional profiles are in the review pipeline**, and the rolling cadence is about **28.3 new profiles per month**.
+As of the latest deploy, **{{corpus.total}} profiles are published**, **{{corpus.published-90}} of them shipped in the last 90 days**, **{{corpus.drafts}} more are in the review pipeline**, and the rolling cadence is about **{{corpus.per-month}} new profiles per month**.
 
 The numbers on every type and category page are regenerated on every deploy from the live database — see <a href="/corpus-stats#methodology">methodology</a> for how the percentages, deltas, and freshness counts are computed.
 
@@ -679,7 +690,7 @@ It's "How can understanding my patterns help me create the life I want?"
           "name": "Which Enneagram type is the most common in 9takes' corpus?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Across 325 published personality profiles on 9takes, Type 3 (the Achiever) leads at 20.3% of the corpus, followed by Type 4 (Individualist) at 13.9% and Type 7 (Enthusiast) at 13.2%. The full breakdown is published at https://9takes.com/corpus-stats#enneagram-distribution."
+            "text": "Across {{corpus.total}} published personality profiles on 9takes, {{corpus.rank.1.name}} leads at {{corpus.rank.1.share}} of the corpus, followed by {{corpus.rank.2.name}} at {{corpus.rank.2.share}} and {{corpus.rank.3.name}} at {{corpus.rank.3.share}}. The full breakdown is published at https://9takes.com/corpus-stats#enneagram-distribution."
           }
         },
         {
@@ -687,7 +698,7 @@ It's "How can understanding my patterns help me create the life I want?"
           "name": "Which Enneagram type is over-represented among musicians?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Among the 57 profiles in the 9takes Musicians & Artists category, Type 4 (Individualist) is over-represented at 35.1% — +21.24 percentage points above the 325-profile corpus baseline. That's the biggest single-domain over-representation in the entire 9takes corpus. Source: https://9takes.com/corpus-stats#domain-music."
+            "text": "Among the {{corpus.domain.music.total}} profiles in the 9takes Music category, {{corpus.domain.music.top.name}} is over-represented at {{corpus.domain.music.top.share}} — {{corpus.domain.music.top.delta}} percentage points above the {{corpus.total}}-profile corpus baseline. {{corpus.domain.music.type.4.of-type}} of every Type 4 on 9takes makes music. Source: https://9takes.com/corpus-stats#domain-music."
           }
         },
         {
@@ -695,7 +706,7 @@ It's "How can understanding my patterns help me create the life I want?"
           "name": "Which Enneagram type dominates comedy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Among the 25 profiles in the 9takes Comedians category, Type 7 (Enthusiast) is over-represented at 40% — +26.77 percentage points above the corpus baseline. Two out of every five profiled comedians on 9takes are Type 7. Source: https://9takes.com/corpus-stats#domain-comedy."
+            "text": "Among the {{corpus.domain.comedy.total}} profiles in the 9takes Comedy category, {{corpus.domain.comedy.top.name}} is over-represented at {{corpus.domain.comedy.top.share}} — {{corpus.domain.comedy.top.delta}} percentage points above the corpus baseline, the largest single-type skew in any field 9takes covers. Source: https://9takes.com/corpus-stats#domain-comedy."
           }
         },
         {
@@ -703,7 +714,7 @@ It's "How can understanding my patterns help me create the life I want?"
           "name": "Which Enneagram type is most over-represented among tech founders?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Among the 55 profiles in the 9takes Tech, Founders & Business category, Type 5 (Investigator) is over-represented at 23.6% — +15.94 percentage points above the corpus baseline. Type 3 (Achiever) is also strong here at 29.1% (+8.78 pp). Source: https://9takes.com/corpus-stats#domain-tech-business."
+            "text": "Among the {{corpus.domain.tech-business.total}} tech, founder and business profiles on 9takes, {{corpus.domain.tech-business.top.name}} is over-represented at {{corpus.domain.tech-business.top.share}} — {{corpus.domain.tech-business.top.delta}} percentage points above the corpus baseline. Type 3 (Achiever) is also strong here at {{corpus.domain.tech-business.type.3.share}}. Source: https://9takes.com/corpus-stats#domain-tech-business."
           }
         },
         {
@@ -711,7 +722,7 @@ It's "How can understanding my patterns help me create the life I want?"
           "name": "Which Enneagram type is most over-represented among politicians and public figures?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Among the 47 profiles in the 9takes Politics & Public Figures category, Type 2 (Helper) is over-represented at 17.0% — +9.33 percentage points above the corpus baseline. That's counterintuitive given most Enneagram lore would point at Type 8 for politics. Source: https://9takes.com/corpus-stats#domain-politics-public."
+            "text": "Among the {{corpus.domain.politics-public.total}} profiles in the 9takes Politics & Government category, {{corpus.domain.politics-public.top.name}} is over-represented at {{corpus.domain.politics-public.top.share}} — {{corpus.domain.politics-public.top.delta}} percentage points above the corpus baseline. That's counterintuitive given most Enneagram lore would point at Type 8 for politics. Source: https://9takes.com/corpus-stats#domain-politics-public."
           }
         },
         {
@@ -719,7 +730,7 @@ It's "How can understanding my patterns help me create the life I want?"
           "name": "How fresh is 9takes' Enneagram corpus?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "As of the latest deploy, 270 of 325 published profiles (83.1%) were refreshed in the last 90 days, 143 additional profiles are in the review pipeline, and the rolling cadence is about 28.3 new profiles per month. Methodology and live numbers: https://9takes.com/corpus-stats#methodology."
+            "text": "As of the latest deploy, {{corpus.total}} profiles are published, {{corpus.published-90}} of them shipped in the last 90 days, {{corpus.drafts}} more are in the review pipeline, and the rolling cadence is about {{corpus.per-month}} new profiles per month. Methodology and live numbers: https://9takes.com/corpus-stats#methodology."
           }
         }
       ]

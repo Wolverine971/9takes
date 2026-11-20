@@ -1,5 +1,6 @@
 // src/lib/server/relatedBlogPosts.ts
 import matter from 'gray-matter';
+import { resolveCorpusText } from '$lib/server/corpusTokens';
 import { getPopCultureSimilarityScore } from '$lib/data/popCultureTaxonomy';
 import { slugFromPath } from '$lib/slugFromPath';
 
@@ -40,7 +41,7 @@ export function loadBlogPostMetadata(modules: RawBlogModules): Promise<App.BlogP
 			const slug = slugFromPath(path);
 			if (!slug) return null;
 
-			const { data } = matter(raw);
+			const { data } = matter(resolveCorpusText(raw, path));
 			return {
 				...(data as App.BlogPost),
 				slug

@@ -8,6 +8,7 @@
 @use 'mixins' as *;
 @forward 'mixins';
 @use 'components';
+@use 'view-transitions';
 
 /*==============================================
   FONT FALLBACKS — size-adjusted local faces so the swap from the system

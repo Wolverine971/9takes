@@ -1,6 +1,6 @@
 <!-- src/routes/questions/create/+page.svelte -->
 <script lang="ts">
-	import { onMount, tick } from 'svelte';
+	import { tick } from 'svelte';
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
 	import { deserialize } from '$app/forms';
@@ -9,13 +9,15 @@
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { captureQuestionCreated } from '$lib/analytics/questionEvents';
-	import { fade, fly } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 	import type { PageData } from './$types';
 	import QuestionSocialCardTemplate from '$lib/components/questions/QuestionSocialCardTemplate.svelte';
 
 	let { data }: { data: PageData } = $props();
 
-	let question = $state('');
+	// Seeded from ?question= at render time, so a prefilled question is in the
+	// server HTML instead of popping in after hydration.
+	let question = $state(page.url.searchParams.get('question') ?? '');
 	let context = $state('');
 	let url = $state('');
 	let questionError = $state('');
@@ -45,7 +47,6 @@
 		}
 		return 'Opening your new discussion now.';
 	});
-	let resizeDebounceTimer: ReturnType<typeof setTimeout>;
 
 	const MIN_CHAR_COUNT = 10;
 	const MAX_CHAR_COUNT = 280;
@@ -57,15 +58,6 @@
 	let questionCharCount = $derived(question.length);
 	let questionLengthInvalid = $derived(questionCharCount > 0 && !isQuestionValid);
 	let contextCharCount = $derived(context.length);
-
-	onMount(() => {
-		question = page.url.searchParams.get('question') || '';
-
-		return () => {
-			// Cleanup
-			if (resizeDebounceTimer) clearTimeout(resizeDebounceTimer);
-		};
-	});
 
 	async function getUrl() {
 		if (createdQuestionPath) {
@@ -248,33 +240,32 @@
 	function handleInput(event: Event) {
 		const target = event.target as HTMLTextAreaElement;
 		if (target.name === 'question') questionError = '';
+	}
 
-		// Debounce resize for performance
-		if (resizeDebounceTimer) clearTimeout(resizeDebounceTimer);
-		resizeDebounceTimer = setTimeout(() => {
-			target.style.height = 'auto';
-			target.style.height = target.scrollHeight + 'px';
-		}, 10);
+	// Grows the textarea with its text, including a prefilled question on mount.
+	function autosize(node: HTMLTextAreaElement) {
+		const resize = () => {
+			node.style.height = 'auto';
+			node.style.height = `${node.scrollHeight}px`;
+		};
+		resize();
+		node.addEventListener('input', resize);
+		return () => node.removeEventListener('input', resize);
 	}
 </script>
 
-<div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-0" in:fade={{ duration: 300 }}>
-	<h1
-		class="text-center text-3xl font-semibold text-[var(--lamp-glow)] sm:text-4xl"
-		in:fly={{ y: -20, duration: 300, delay: 150 }}
-	>
+<!-- No staged intro: the navigation cross-fade already eases the page in, and
+     the form should be usable on the first frame. -->
+<div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-0">
+	<h1 class="text-center text-3xl font-semibold text-[var(--lamp-glow)] sm:text-4xl">
 		Drop a question. Get nine reads.
 	</h1>
-	<p
-		class="mt-2 text-center text-base text-[var(--ink-mid)] sm:text-lg"
-		in:fly={{ y: -20, duration: 300, delay: 200 }}
-	>
+	<p class="mt-2 text-center text-base text-[var(--ink-mid)] sm:text-lg">
 		Ask one clear, open-ended question. Each person gives their take before seeing everyone
 		else&rsquo;s.
 	</p>
 	<div
 		class="mt-6 rounded-xl border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-lg shadow-[var(--shadow-md)] transition hover:border-[var(--lamp-soft)] hover:shadow-[var(--glow-sm)] sm:p-8"
-		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
 		<label
 			for="question-input"
@@ -293,6 +284,7 @@
 			class="font-body w-full rounded-md border-2 border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-lg text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 			bind:value={question}
 			oninput={handleInput}
+			{@attach autosize}
 			disabled={preparing}
 			maxlength={MAX_CHAR_COUNT}
 			aria-invalid={questionError || questionLengthInvalid ? 'true' : 'false'}
@@ -330,6 +322,7 @@
 				class="w-full rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 				bind:value={context}
 				oninput={handleInput}
+				{@attach autosize}
 				disabled={preparing}
 				maxlength={MAX_CONTEXT_CHAR_COUNT}></textarea>
 			<div class="mt-2 text-right text-sm text-[var(--ink-dim)]">
@@ -348,10 +341,7 @@
 			{createdQuestionPath ? 'View your question' : 'Preview your question'}
 		</Button>
 	</div>
-	<p
-		class="mt-6 text-center text-sm text-[var(--ink-mid)]"
-		in:fly={{ y: 20, duration: 300, delay: 400 }}
-	>
+	<p class="mt-6 text-center text-sm text-[var(--ink-mid)]">
 		Your email is never displayed. Responses stay hidden until each person answers.
 	</p>
 </div>

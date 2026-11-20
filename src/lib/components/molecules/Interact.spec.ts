@@ -80,6 +80,15 @@ vi.mock('$lib/analytics/questionInvites', async (importOriginal) => {
 vi.mock('svelte/transition', () => ({
 	slide: slideMock
 }));
+// svelte/motion's prefersReducedMotion reads matchMedia once at import; read the
+// per-test stub instead so a spec can switch reduced motion on.
+vi.mock('svelte/motion', () => ({
+	prefersReducedMotion: {
+		get current() {
+			return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		}
+	}
+}));
 
 import Interact from './Interact.svelte';
 

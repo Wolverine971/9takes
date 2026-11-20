@@ -1,0 +1,58 @@
+/* src/scss/_view-transitions.scss */
+// src/scss/_view-transitions.scss
+//
+// View Transitions. Every client navigation runs through one
+// (src/lib/page-transition.ts): by default the page cross-fades. Two named
+// elements get their own motion on top of that:
+//
+//   question-title  The tapped question on /questions glides into the
+//                   headline of its page (questionMorph.ts, .q-headline).
+//   take-handoff    A first answer travels from the composer into the
+//                   "Your take" card as the room opens (takeHandoff.ts).
+
+$vt-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+@media (prefers-reduced-motion: no-preference) {
+	::view-transition-group(question-title) {
+		animation-duration: 380ms;
+		animation-timing-function: $vt-ease;
+	}
+
+	::view-transition-old(question-title),
+	::view-transition-new(question-title) {
+		animation-duration: 380ms;
+	}
+
+	::view-transition-group(take-handoff) {
+		animation-duration: 440ms;
+		animation-timing-function: $vt-ease;
+	}
+
+	// The textarea lets go quickly; the card resolves over the whole glide.
+	::view-transition-old(take-handoff) {
+		animation-duration: 220ms;
+	}
+
+	::view-transition-new(take-handoff) {
+		animation-duration: 440ms;
+	}
+}
+
+// During the handoff the rest of the page stays live instead of cross-fading,
+// so the composer's collapse and the room's fade keep playing underneath.
+:root.take-handoff-active::view-transition-old(root) {
+	display: none;
+}
+
+:root.take-handoff-active::view-transition-new(root) {
+	animation: none;
+}
+
+// Reduced motion: navigations swap instantly (author rules beat the UA fade).
+@media (prefers-reduced-motion: reduce) {
+	::view-transition-group(*),
+	::view-transition-old(*),
+	::view-transition-new(*) {
+		animation: none;
+	}
+}

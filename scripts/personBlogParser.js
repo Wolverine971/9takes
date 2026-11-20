@@ -34,6 +34,10 @@ import {
 import { getPerspectivePublishStatus } from './lib/perspectiveReview.js';
 import { isV3, priorBlockers, checkDraft, QUALITY_GATES } from './lib/blogEditorial.js';
 import { isInternalLinkOnlyChange } from './lib/linkOnlyChange.js';
+import corpusStats from '../src/lib/data/corpus-stats.json' with { type: 'json' };
+import { buildCorpusTokenTable, findCorpusTokens } from '../src/lib/corpusTokens.js';
+
+const corpusTokenTable = buildCorpusTokenTable(corpusStats);
 
 dotenv.config();
 
@@ -885,6 +889,14 @@ export function cleanupContent(content) {
  */
 export async function parseMarkdownFile(filePath) {
 	const fileContent = await fs.readFile(filePath, 'utf8');
+	// `{{corpus.*}}` tokens stay as tokens in the DB and resolve when the page renders
+	// (src/lib/server/corpusTokens.ts). Refuse to push one that would render raw.
+	const unknownTokens = findCorpusTokens(fileContent).filter((p) => !corpusTokenTable.has(p));
+	if (unknownTokens.length) {
+		throw new Error(
+			`${path.basename(filePath)}: unknown corpus token(s) ${unknownTokens.map((p) => `{{corpus.${p}}}`).join(', ')}. See "Live tokens" in docs/data/corpus-stats.md.`
+		);
+	}
 	const { data, content } = matter(fileContent);
 	const normalizedPerson = normalizePersonalitySlug(data.person || '');
 	const hasContentQualityField =

@@ -2,6 +2,7 @@
 // Builds an Enneagram Corner section page (Relationships, Mental Health, ...)
 // as lanes of posts, one lane per subtopic in $lib/data/enneagramCornerTaxonomy.
 import matter from 'gray-matter';
+import { resolveCorpusText } from '$lib/server/corpusTokens';
 import {
 	CORNER_SECTIONS,
 	getCornerSection,
@@ -64,7 +65,7 @@ export function loadCornerPosts(): Promise<CornerPost[]> {
 		Object.entries(RAW_CORNER_MODULES).map(async ([path, resolver]) => {
 			const raw = await resolver();
 			if (typeof raw !== 'string') return null;
-			return toCornerPost(path, matter(raw).data);
+			return toCornerPost(path, matter(resolveCorpusText(raw, path)).data);
 		})
 	).then((posts) => posts.filter((post): post is CornerPost => post !== null));
 	return cornerPostsPromise;

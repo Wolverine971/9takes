@@ -3,7 +3,7 @@
 
 import { fireEvent, render, waitFor } from '@testing-library/svelte';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import type { Comment as CommentType, QuestionPageData } from '$lib/types/questions';
+import type { Comment as CommentType, QuestionPageData, User } from '$lib/types/questions';
 
 const {
 	deserializeMock,
@@ -147,6 +147,64 @@ describe('Comment', () => {
 
 	afterEach(() => {
 		vi.unstubAllGlobals();
+	});
+
+	it('flips a like instantly, before the server answers, then keeps the confirmed row', async () => {
+		let resolveFetch!: (value: unknown) => void;
+		fetchMock.mockReturnValueOnce(new Promise((resolve) => (resolveFetch = resolve)));
+		deserializeMock.mockReturnValueOnce({
+			type: 'success',
+			data: { id: 77, comment_id: 41, user_id: 'reader-2' }
+		});
+		const oncommentUpdated = vi.fn();
+		const { getByRole } = render(Comment, {
+			props: {
+				user: { id: 'reader-2' } as User,
+				comment,
+				parentData,
+				questionId: 9,
+				oncommentUpdated
+			}
+		});
+
+		await fireEvent.click(getByRole('button', { name: 'Like this comment (1 like)' }));
+
+		// Optimistic: pressed with the new count while the request is in flight.
+		const pressed = getByRole('button', { name: 'Unlike this comment (2 likes)' });
+		expect(pressed.getAttribute('aria-pressed')).toBe('true');
+		expect(fetchMock).toHaveBeenCalledWith('?/likeComment', expect.any(Object));
+
+		resolveFetch({ ok: true, text: vi.fn().mockResolvedValue('serialized-like') });
+		await waitFor(() => expect(oncommentUpdated).toHaveBeenCalledTimes(1));
+		expect(oncommentUpdated.mock.calls[0][0].comment_like).toEqual([
+			{ id: 77, comment_id: 41, user_id: 'reader-2' },
+			{ id: 1, comment_id: 41, user_id: 'reader-1' }
+		]);
+		expect(getByRole('button', { name: 'Unlike this comment (2 likes)' })).toBeTruthy();
+	});
+
+	it('rolls a like back when the server rejects it', async () => {
+		fetchMock.mockResolvedValueOnce({ ok: false, status: 500, text: vi.fn() });
+		const oncommentUpdated = vi.fn();
+		const { getByRole } = render(Comment, {
+			props: {
+				user: { id: 'reader-2' } as User,
+				comment,
+				parentData,
+				questionId: 9,
+				oncommentUpdated
+			}
+		});
+
+		await fireEvent.click(getByRole('button', { name: 'Like this comment (1 like)' }));
+
+		await waitFor(() =>
+			expect(getByRole('button', { name: 'Like this comment (1 like)' })).toBeTruthy()
+		);
+		expect(
+			getByRole('button', { name: 'Like this comment (1 like)' }).getAttribute('aria-pressed')
+		).toBe('false');
+		expect(oncommentUpdated).not.toHaveBeenCalled();
 	});
 
 	it('groups the complete answer-first comment while keeping dates in the overflow menu', async () => {

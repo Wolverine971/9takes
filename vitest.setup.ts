@@ -16,3 +16,10 @@ if (typeof window !== 'undefined' && typeof window.matchMedia !== 'function') {
 			dispatchEvent: () => false
 		}) as MediaQueryList;
 }
+
+// jsdom also ships no Web Animations API. Svelte's `animate:` directive (e.g.
+// animate:flip on the take list) reads element.getAnimations() when keyed
+// items move; report "no running animations" so reorder specs can run.
+if (typeof Element !== 'undefined' && typeof Element.prototype.getAnimations !== 'function') {
+	Element.prototype.getAnimations = () => [];
+}

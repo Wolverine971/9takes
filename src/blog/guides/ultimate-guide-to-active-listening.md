@@ -51,7 +51,7 @@ Hold five seconds of silence after someone finishes, and people often deliver th
 
 Through the Enneagram lens, listening gets even clearer. Each type has a predictable listening kryptonite that sabotages conversations. The same tendency that powers your professional strengths often trips you up here.
 
-> Pattern from our [325 personality profiles](/personality-analysis): in our [Tech, Founders & Business](/personality-analysis/categories/tech-business) category (n=55), Type 5 (Investigator) is over-represented at 23.6% — +15.94 percentage points above the corpus baseline. The same trait that makes Investigators brilliant operators (deep information filtering) is what makes them notoriously hard to talk to. Listening blocks track to type, and the highest-leverage fix is type-specific.
+> Pattern from our [{{corpus.total}} personality profiles](/personality-analysis): in our [Tech, Founders & Business](/personality-analysis/categories/tech-business) category ({{corpus.domain.tech-business.total}} profiles), {{corpus.domain.tech-business.type.5.name}} is over-represented at {{corpus.domain.tech-business.type.5.share}} — {{corpus.domain.tech-business.type.5.delta}} percentage points above the corpus baseline. <!-- corpus-assert: domain.tech-business.top.type = 5 --> The same trait that makes Investigators brilliant operators (deep information filtering) is what makes them notoriously hard to talk to. Listening blocks track to type, and the highest-leverage fix is type-specific.
 
 This guide breaks down the neuroscience, the nine listening patterns, and the tactical fixes that actually work. If you want the broader model for why listening is the engine of persuasion, start with [how minds actually change](/community/how-minds-change-on-9takes).
 

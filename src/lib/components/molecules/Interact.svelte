@@ -6,7 +6,9 @@
 </script>
 
 <script lang="ts">
-	import { onMount, untrack, type Snippet } from 'svelte';
+	import { onMount, tick, untrack, type Snippet } from 'svelte';
+	import { prefersReducedMotion } from 'svelte/motion';
+	import { handOffTake } from '$lib/components/questions/takeHandoff';
 	import { deserialize } from '$app/forms';
 	import { slide } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
@@ -121,7 +123,7 @@
 	let loading = $state(false);
 	let subscriptionLoading = $state(false);
 	let anonymousComment = $state(false);
-	let reduceMotion = $state(false);
+	let reduceMotion = $derived(prefersReducedMotion.current);
 	let voiceBusy = $state(false);
 	let textareaElement = $state<HTMLTextAreaElement | null>(null);
 	let voiceInsertionRange = { start: 0, end: 0 };
@@ -424,19 +426,35 @@
 				submittedKind,
 				wasAnonymousQuestionCommenter
 			});
-			oncommentAdded?.(commentData);
-			comment = '';
-			commentStartedTracked = false;
-			shortAnswerNudge = false;
-			confirmShortSubmit = false;
-			queueMicrotask(() => {
-				if (textareaElement) resizeTextarea(textareaElement);
-			});
+			const collapseAfter = submittedKind === 'answer' || userHasAnswered;
+			const applyPosted = async () => {
+				oncommentAdded?.(commentData);
+				comment = '';
+				commentStartedTracked = false;
+				shortAnswerNudge = false;
+				confirmShortSubmit = false;
+				queueMicrotask(() => {
+					if (textareaElement) resizeTextarea(textareaElement);
+				});
 
-			// Collapse the composer after an answer so the unlocked room and
-			// one-person comparison invitation become the immediate next step.
-			if (submittedKind === 'answer' || userHasAnswered) {
-				commenting = false;
+				// Collapse the composer after an answer so the unlocked room and
+				// one-person comparison invitation become the immediate next step.
+				if (collapseAfter) {
+					commenting = false;
+				}
+				await tick();
+			};
+
+			if (submittedKind === 'answer' && parentType === 'question') {
+				// The first answer travels from this textarea into "Your take".
+				handOffTake({
+					source: textareaElement,
+					takeId: commentData?.id,
+					update: applyPosted,
+					reduceMotion
+				});
+			} else {
+				void applyPosted();
 			}
 		}
 	};
@@ -646,10 +664,6 @@
 
 	// Initialize on mount
 	onMount(() => {
-		reduceMotion =
-			typeof window.matchMedia === 'function' &&
-			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
 		cachedFingerprint = getOrCreateVisitorId();
 	});
 </script>

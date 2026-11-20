@@ -163,9 +163,9 @@ Not sure of your type? See our [full comparison of Enneagram tests](/enneagram-c
 
 ### Data & Research
 
-- [9takes Corpus Stats](/corpus-stats): Live distribution of Enneagram types across 293 publicly-documented figures on 9takes, broken out by professional domain (musicians, tech founders, comedians, politicians) and compared side-by-side with the two largest public test-taker datasets (Truity, enneagram-personality.com) and the peer-reviewed literature. Regenerated on every deploy. Citable as a public dataset.
+- [9takes Corpus Stats](/corpus-stats): Live distribution of Enneagram types across {{corpus.total}} publicly-documented figures on 9takes, broken out by professional domain (musicians, tech founders, comedians, politicians) and compared side-by-side with the two largest public test-taker datasets (Truity, enneagram-personality.com) and the peer-reviewed literature. Regenerated on every deploy. Citable as a public dataset.
 
-- [What Enneagram Type Are Most Musicians?](/pop-culture/what-enneagram-type-are-most-musicians): One domain from the corpus, worked through. Type 4 makes up 38.8% of 67 musician profiles, more than double its sitewide share.
+- [What Enneagram Type Are Most Musicians?](/pop-culture/what-enneagram-type-are-most-musicians): One domain from the corpus, worked through. Type 4 makes up {{corpus.domain.music.type.4.share}} of {{corpus.domain.music.total}} musician profiles, more than double its sitewide share.
 
 - [How Common Is Each Enneagram Type?](/enneagram-corner/how-common-is-each-enneagram-type): Truity's and enneagram-personality.com's type percentages side by side, rarest to most common, and the five reasons the two charts disagree.
 

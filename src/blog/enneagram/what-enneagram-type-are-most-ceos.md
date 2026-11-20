@@ -12,6 +12,8 @@ priority: '0.7'
 published: true
 type: ['workplace', 'leadership']
 subtopics: ['leadership']
+# Hand-counted CEO subset frozen at the pull date; lint skips its figures (see check-corpus-figures.mjs).
+corpus_snapshot: '2026-10-07'
 blog: true
 previewHtml: 'Career guides hand the corner office to Type 8 or Type 3. We counted 80 business profiles. Among the 46 people who built or ran a company, Type 5 shows up most, at 3.4 times its sitewide rate.'
 path: src/blog/enneagram/what-enneagram-type-are-most-ceos.md
@@ -304,7 +306,7 @@ Committing first is the rule behind every question on 9takes: [answer before the
 
 ## The full roster
 
-Data pulled October 7, 2026, from the 451 published profiles on 9takes. Dario Amodei, retyped from 5 to 6 in November 2026, is counted as a Six. The business category is every profile tagged tech, entrepreneur or business, the same rule our [corpus stats](/corpus-stats) use, which gives 80 people.
+Data pulled October 7, 2026, from the 451 published profiles on 9takes. Dario Amodei, retyped from 5 to 6 in November 2026, is counted as a Six. The business category was every profile tagged tech, entrepreneur or business, the rule our [corpus stats](/corpus-stats) used at the time, which gave 80 people. Corpus stats now group people by field (Tech, and Business & Money), so the live numbers there won't match this snapshot.
 
 **Founder-CEOs (31)**
 

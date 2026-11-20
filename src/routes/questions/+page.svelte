@@ -7,6 +7,9 @@
 <script lang="ts">
 	import { untrack } from 'svelte';
 	import type { Attachment } from 'svelte/attachments';
+	import { cubicOut } from 'svelte/easing';
+	import { prefersReducedMotion } from 'svelte/motion';
+	import { fly, slide } from 'svelte/transition';
 	import { deserialize } from '$app/forms';
 	import { page } from '$app/state';
 	import { Button } from '$lib/components/atoms';
@@ -16,6 +19,7 @@
 	import { ogImageUrl } from '$lib/brand/brandCardPresets';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
+	import { questionMorphOnClick, questionTextIn } from '$lib/components/questions/questionMorph';
 	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import { buildBreadcrumbSchemaForGraph, buildFAQSchemaForGraph } from '$lib/utils/schema';
 	import { goto } from '$app/navigation';
@@ -126,13 +130,28 @@
 	// Curated "Start here" set (rank order, page 1 only). The RPC keeps these
 	// out of the archive list, so nothing renders twice.
 	let starterQuestions = $derived(dedupeById([...(data.starters ?? [])] as QuestionRow[]));
-	let questionsList = $state<QuestionRow[]>(
-		untrack(() => dedupeById([...(data.questionsAndTags ?? [])] as QuestionRow[]))
+	// Writable deriveds: they follow the server's page 1 whenever `data` reloads
+	// (login, invalidateAll, a same-route navigation), and loadMore() appends to
+	// them locally until then. Rows are replaced, never mutated, so no deep proxy.
+	let questionsList = $derived<QuestionRow[]>(
+		dedupeById([...(data.questionsAndTags ?? [])] as QuestionRow[])
 	);
-	let currentPage = $state(untrack(() => data.currentPage ?? 1));
-	let hasMore = $state(untrack(() => Boolean(data.hasMore)));
+	let currentPage = $derived(data.currentPage ?? 1);
+	let hasMore = $derived(Boolean(data.hasMore));
 	let loadingMore = $state(false);
 	let loadMoreError = $state('');
+	// Index of the first row from the latest "load more", for the arrival stagger.
+	let appendedFrom = $state(0);
+
+	let reduceMotion = $derived(prefersReducedMotion.current);
+	// The tapped question's text glides into the headline of its page.
+	const morphRow = questionMorphOnClick(questionTextIn);
+	const morphFeatured = questionMorphOnClick(() => document.getElementById('pick-one-title'));
+
+	// Rows from a "load more" rise in, lightly staggered within the batch.
+	function arrivalDelay(position: number): number {
+		return Math.min(Math.max(position - appendedFrom, 0), 8) * 35;
+	}
 
 	// Re-observes when the row's question or position changes. The campaign is
 	// read untracked so a same-page URL change (e.g. #open-floor) doesn't restart it.
@@ -173,6 +192,7 @@
 					page: number;
 					hasMore: boolean;
 				};
+				appendedFrom = questionsList.length;
 				questionsList = dedupeById([...questionsList, ...(responseData.questions ?? [])]);
 				currentPage = responseData.page;
 				hasMore = Boolean(responseData.hasMore);
@@ -304,15 +324,6 @@
 		</span>
 	{/snippet}
 
-	{#snippet questionRow(q: QuestionRow, position: number)}
-		<li class="qi-row" {@attach trackQuestionRow(q, position)}>
-			<a href={resolve('/questions/[slug]', { slug: q.url })} class="qi-row__link">
-				<span class="qi-row__text">{q.question_formatted ?? q.question}</span>
-				{@render questionMeta(q)}
-			</a>
-		</li>
-	{/snippet}
-
 	<!-- Hero + the featured question side by side: the one mint action is in the first screen. -->
 	<div class={['qi-top', !featured && 'qi-top--solo']}>
 		<header class="qi-hero">
@@ -359,6 +370,7 @@
 					<a
 						href={resolve('/questions/[slug]', { slug: featured.url })}
 						class="featured__question-link"
+						{@attach morphRow}
 					>
 						{featured.question_formatted ?? featured.question}
 					</a>
@@ -392,7 +404,8 @@
 						variant="action"
 						href={resolve('/questions/[slug]', { slug: featured.url })}
 						data-track="link"
-						data-placement="questions_featured">Give your take →</Button
+						data-placement="questions_featured"
+						{@attach morphFeatured}>Give your take →</Button
 					>
 				</div>
 			</article>
@@ -405,10 +418,16 @@
 			<ol class="starters__list">
 				{#each otherStarters as q, index (q.id)}
 					<li class="starters__item" {@attach trackQuestionRow(q, index + 1)}>
-						<a href={resolve('/questions/[slug]', { slug: q.url })} class="starters__link">
+						<a
+							href={resolve('/questions/[slug]', { slug: q.url })}
+							class="starters__link"
+							{@attach morphRow}
+						>
 							<span class="starters__num" aria-hidden="true">{index + 2}</span>
 							<span class="starters__body">
-								<span class="starters__text">{q.question_formatted ?? q.question}</span>
+								<span class="starters__text" data-question-text
+									>{q.question_formatted ?? q.question}</span
+								>
 								<span class="mono qi-meta">{takesLabel(q.comment_count)}</span>
 							</span>
 						</a>
@@ -482,7 +501,11 @@
 				</div>
 
 				{#if filtersOpen}
-					<div id="category-filter-panel" class="filters__panel">
+					<div
+						id="category-filter-panel"
+						class="filters__panel"
+						transition:slide={{ duration: reduceMotion ? 0 : 200, easing: cubicOut }}
+					>
 						<div class="filters__panel-head">
 							<p class="mono filters__panel-label">Browse topics</p>
 							<button type="button" class="filters__close" onclick={() => (filtersOpen = false)}>
@@ -515,7 +538,27 @@
 		{:else}
 			<ul class="qi-list">
 				{#each questionsList as q, position (q.id)}
-					{@render questionRow(q, position + starterQuestions.length)}
+					<li
+						class="qi-row"
+						{@attach trackQuestionRow(q, position + starterQuestions.length)}
+						in:fly={{
+							y: reduceMotion ? 0 : 12,
+							duration: reduceMotion ? 0 : 260,
+							delay: reduceMotion ? 0 : arrivalDelay(position),
+							easing: cubicOut
+						}}
+					>
+						<a
+							href={resolve('/questions/[slug]', { slug: q.url })}
+							class="qi-row__link"
+							{@attach morphRow}
+						>
+							<span class="qi-row__text" data-question-text
+								>{q.question_formatted ?? q.question}</span
+							>
+							{@render questionMeta(q)}
+						</a>
+					</li>
 				{/each}
 			</ul>
 		{/if}

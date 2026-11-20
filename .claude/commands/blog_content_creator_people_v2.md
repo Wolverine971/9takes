@@ -314,7 +314,7 @@ This is **not a hard gate**. A tight profile with zero numbers can still be exce
 
 - **About the person**, verifiable from a named source: "[Person] has released 14 studio albums in 11 years" (Discogs), "[Person]'s _Memoir Title_ sold 2.3 million copies in its first year" (Publishers Weekly).
 - **About their field** or domain, anchoring the person in context: "Only 4 of the last 25 Best Director winners started as actors" (Academy records).
-- **About the corpus**, when relevant and available: "Of the 23 Type 8 musicians profiled on 9takes, [Person] is one of only 3 who…" (9takes corpus data). Pull numbers from `docs/data/corpus-stats.md` (LLM-readable) and link out to the public page at `https://9takes.com/corpus-stats` (canonical source + JSON-LD `Dataset` for Google/LLM citation).
+- **About the corpus**, when relevant and available: "Of the {{corpus.domain.music.total}} musicians profiled on 9takes, {{corpus.domain.music.type.4.count}} are Fours…" ([9takes corpus data](/corpus-stats)). Never hand-type a corpus number: write live `{{corpus.*}}` tokens, which resolve to the current value when the page renders (paths and today's values: "Live tokens" in `docs/data/corpus-stats.md`). Tokens go in the body or FAQs, never in title/description. A claim a token can't carry ("Fours lead music") gets `<!-- corpus-assert: domain.music.top.type = 4 -->` at the end of its line. `pnpm lint:corpus` must pass. Link out to the public page at `https://9takes.com/corpus-stats` (canonical source + JSON-LD `Dataset` for Google/LLM citation).
 - **Confidence framing** on the typing itself: "Confidence: high — the wing/subtype/arrow evidence all point to 5w6."
 
 ### What does NOT count

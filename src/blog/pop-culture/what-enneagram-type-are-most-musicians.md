@@ -1,7 +1,7 @@
 ---
 title: 'What Enneagram Type Are Most Musicians? The Data Says Type 4'
 meta_title: 'What Enneagram Type Are Most Musicians? Type 4, by the Data'
-description: 'Across 67 musician and artist profiles, Type 4 is the most common Enneagram type at 38.8%. See the numbers, the names, and why the pattern fits.'
+description: 'Across {{corpus.domain.music.total}} musician profiles, Type 4 is the most common Enneagram type at {{corpus.domain.music.type.4.share}}. See the numbers, the names, and why the pattern fits.'
 author: 'DJ Wayne'
 date: '2026-07-06'
 loc: 'https://9takes.com/pop-culture/what-enneagram-type-are-most-musicians'
@@ -35,7 +35,7 @@ path: src/blog/pop-culture/what-enneagram-type-are-most-musicians.md
           "name": "What Enneagram type are most musicians?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Among the public figures 9takes has profiled, musicians are most often Type 4, the Individualist. Of 67 musician and artist profiles, 26 are Type 4, which is 38.8% and runs +24.29 percentage points above Type 4's sitewide share of 14.5%."
+            "text": "Among the public figures 9takes has profiled, musicians are most often Type 4, the Individualist. Of {{corpus.domain.music.total}} musician profiles, {{corpus.domain.music.type.4.count}} are Type 4, which is {{corpus.domain.music.type.4.share}} and runs {{corpus.domain.music.type.4.delta}} percentage points above Type 4's sitewide share of {{corpus.type.4.share}}."
           }
         },
         {
@@ -43,7 +43,7 @@ path: src/blog/pop-culture/what-enneagram-type-are-most-musicians.md
           "name": "Are most musicians Type 4?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type 4 is the single most common type among profiled musicians, though it stays short of a majority. It accounts for 38.8% of the 67 musician profiles. That means roughly six in ten profiled musicians land on some other type, led by Type 3 at 20.9%. Type 4 wins the plurality and still shares the field with everyone else."
+            "text": "Type 4 is the single most common type among profiled musicians, though it stays short of a majority. It accounts for {{corpus.domain.music.type.4.share}} of the {{corpus.domain.music.total}} musician profiles. That means most profiled musicians land on some other type, led by Type 3 at {{corpus.domain.music.type.3.share}}. Type 4 wins the plurality and still shares the field with everyone else."
           }
         },
         {
@@ -51,7 +51,7 @@ path: src/blog/pop-culture/what-enneagram-type-are-most-musicians.md
           "name": "Why are so many musicians Type 4?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type 4s build identity around emotional depth and feeling different, and music rewards exactly that move: turning private emotional weather into a public object other people can recognize. Read it as a pattern in an editorial corpus, since the data shows a correlation it cannot prove a cause for. Type 4 is the only type that over-indexes in music while sitting at or below its baseline in every other category on the site."
+            "text": "Type 4s build identity around emotional depth and feeling different, and music rewards exactly that move: turning private emotional weather into a public object other people can recognize. Read it as a pattern in an editorial corpus, since the data shows a correlation it cannot prove a cause for. No other field pulls Type 4 the way music does: {{corpus.domain.music.type.4.of-type}} of every Type 4 on the site is a musician."
           }
         },
         {
@@ -67,7 +67,7 @@ path: src/blog/pop-culture/what-enneagram-type-are-most-musicians.md
           "name": "What Enneagram types are least common among musicians?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type 1 (Reformer) and Type 5 (Investigator) each have zero musicians in the 67-profile sample. Type 6 (Loyalist) is next rarest at 3.0%. Both Type 1 and Type 5 build identity around principle or systems rather than felt emotion, which fits their near-absence from a category that often rewards emotional self-exposure."
+            "text": "Type 1 (Reformer) and Type 5 (Investigator) are the rarest: {{corpus.domain.music.type.1.count}} and {{corpus.domain.music.type.5.count}} of the {{corpus.domain.music.total}} musician profiles. Both Type 1 and Type 5 build identity around principle or systems rather than felt emotion, which fits their near-absence from a category that often rewards emotional self-exposure."
           }
         },
         {
@@ -91,40 +91,48 @@ path: src/blog/pop-culture/what-enneagram-type-are-most-musicians.md
 </script>
 
 <QuickAnswer question="What Enneagram type are most musicians?">
-Among the public figures 9takes has profiled, musicians are most often Type 4, the Individualist. Of 67 musician and artist profiles, 26 are Type 4. That is 38.8%, running +24.29 percentage points above Type 4's sitewide share of 14.5%. No other category on the site over-indexes Type 4 at all. Music is the one place these emotionally intense, identity-driven types concentrate.
+Among the public figures 9takes has profiled, musicians are most often Type 4, the Individualist. Of {{corpus.domain.music.total}} musician profiles, {{corpus.domain.music.type.4.count}} are Type 4. That is {{corpus.domain.music.type.4.share}}, running {{corpus.domain.music.type.4.delta}} percentage points above Type 4's sitewide share of {{corpus.type.4.share}}. No other field comes close to that lean. Music is the one place these emotionally intense, identity-driven types concentrate.
+<!-- corpus-assert: domain.music.top.type = 4 -->
+<!-- corpus-assert: domain.music.rank.1.type = 4 -->
+<!-- corpus-assert: type.4.top-domain = music -->
 </QuickAnswer>
 
-<p class="firstLetter">Sort every musician 9takes has profiled by Enneagram type and the same answer keeps surfacing. Type 4, the Individualist, claims 26 of 67 profiles. Look at any other category on the site, film, comedy, tech, or politics, and Type 4 sits at or below its average. Music is the only place it spikes.</p>
+<p class="firstLetter">Sort every musician 9takes has profiled by Enneagram type and the same answer keeps surfacing. Type 4, the Individualist, claims {{corpus.domain.music.type.4.count}} of {{corpus.domain.music.total}} profiles. Look at any other category on the site and Type 4 stays within a few points of its average, and in comedy ({{corpus.domain.comedy.type.4.share}}), tech ({{corpus.domain.technology.type.4.share}}) and politics ({{corpus.domain.politics-public.type.4.share}}) it falls well below it. Music is the only place it spikes.</p>
 
-That spike is not subtle. Type 4 makes up 14.5% of the [379 published profiles](/corpus-stats) on the site. Inside the [music category](/personality-analysis/categories/music), it jumps to 38.8%. A +24.29 percentage-point lean is the kind of pattern that stops looking like noise and starts looking like a fingerprint.
+That spike is not subtle. Type 4 makes up {{corpus.type.4.share}} of the [{{corpus.total}} published profiles](/corpus-stats) on the site. Inside the [music category](/personality-analysis/categories/music), it jumps to {{corpus.domain.music.type.4.share}}. A {{corpus.domain.music.type.4.delta}} percentage-point lean is the kind of pattern that stops looking like noise and starts looking like a fingerprint.
 
 One guardrail before the numbers: this is the 9takes corpus, an editorial set of public figures we chose to write about. It is not a census of every musician alive. Read every stat below as "among musicians profiled by 9takes," never "among all musicians."
 
 ## The short answer: musicians over-index as Type 4
 
-[Type 4](/personality-analysis/type/4) is the Individualist, the type that builds a sense of self around emotional depth, longing, and the conviction that they are fundamentally different from other people. In the music category they run the board, and no other single type comes within eighteen points of their share.
+[Type 4](/personality-analysis/type/4) is the Individualist, the type that builds a sense of self around emotional depth, longing, and the conviction that they are fundamentally different from other people. In the music category they run the board, and the next type, {{corpus.domain.music.rank.2.name}}, trails at {{corpus.domain.music.rank.2.share}}.
 
-The reverse angle makes the pull even clearer. Of all 55 Type 4 profiles across the entire site, 26 of them are musicians or artists. That is 47.3%. Nearly half of every Individualist 9takes has written about earns their living from a creative art form. Music is where Type 4 lives.
+<!-- corpus-assert: domain.music.rank.2.type = 3 -->
+
+The reverse angle makes the pull even clearer. Of all {{corpus.type.4.count}} Type 4 profiles across the entire site, {{corpus.domain.music.type.4.count}} of them are musicians. That is {{corpus.domain.music.type.4.of-type}}. Nearly half of every Individualist 9takes has written about earns their living from a creative art form. Music is where Type 4 lives.
 
 ## The 9takes music corpus, by Enneagram type
 
-Here is the full breakdown of all 67 musician and artist profiles, ranked by share. Every figure is pulled from the live [corpus stats](/corpus-stats), regenerated monthly from the database.
+Here is the full breakdown of all {{corpus.domain.music.total}} musician profiles, ranked by share. Every figure is pulled from the live [corpus stats](/corpus-stats), regenerated from the database on every deploy.
 
-| Enneagram type         | Musicians | Share | vs. baseline |
-| ---------------------- | --------: | ----: | -----------: |
-| Type 4 – Individualist |        26 | 38.8% |    +24.29 pp |
-| Type 3 – Achiever      |        14 | 20.9% |     +2.95 pp |
-| Type 7 – Enthusiast    |         8 | 11.9% |     -3.10 pp |
-| Type 8 – Challenger    |         7 | 10.4% |     -0.90 pp |
-| Type 9 – Peacemaker    |         6 |  9.0% |     -1.07 pp |
-| Type 2 – Helper        |         4 |  6.0% |     -0.89 pp |
-| Type 6 – Loyalist      |         2 |  3.0% |     -6.78 pp |
-| Type 1 – Reformer      |         0 |  0.0% |     -6.33 pp |
-| Type 5 – Investigator  |         0 |  0.0% |     -8.18 pp |
+| Enneagram type                                                              |                            Musicians |                                Share |                            vs. baseline |
+| --------------------------------------------------------------------------- | -----------------------------------: | -----------------------------------: | --------------------------------------: |
+| {{corpus.domain.music.rank.1.short}} – {{corpus.domain.music.rank.1.label}} | {{corpus.domain.music.rank.1.count}} | {{corpus.domain.music.rank.1.share}} | {{corpus.domain.music.rank.1.delta}} pp |
+| {{corpus.domain.music.rank.2.short}} – {{corpus.domain.music.rank.2.label}} | {{corpus.domain.music.rank.2.count}} | {{corpus.domain.music.rank.2.share}} | {{corpus.domain.music.rank.2.delta}} pp |
+| {{corpus.domain.music.rank.3.short}} – {{corpus.domain.music.rank.3.label}} | {{corpus.domain.music.rank.3.count}} | {{corpus.domain.music.rank.3.share}} | {{corpus.domain.music.rank.3.delta}} pp |
+| {{corpus.domain.music.rank.4.short}} – {{corpus.domain.music.rank.4.label}} | {{corpus.domain.music.rank.4.count}} | {{corpus.domain.music.rank.4.share}} | {{corpus.domain.music.rank.4.delta}} pp |
+| {{corpus.domain.music.rank.5.short}} – {{corpus.domain.music.rank.5.label}} | {{corpus.domain.music.rank.5.count}} | {{corpus.domain.music.rank.5.share}} | {{corpus.domain.music.rank.5.delta}} pp |
+| {{corpus.domain.music.rank.6.short}} – {{corpus.domain.music.rank.6.label}} | {{corpus.domain.music.rank.6.count}} | {{corpus.domain.music.rank.6.share}} | {{corpus.domain.music.rank.6.delta}} pp |
+| {{corpus.domain.music.rank.7.short}} – {{corpus.domain.music.rank.7.label}} | {{corpus.domain.music.rank.7.count}} | {{corpus.domain.music.rank.7.share}} | {{corpus.domain.music.rank.7.delta}} pp |
+| {{corpus.domain.music.rank.8.short}} – {{corpus.domain.music.rank.8.label}} | {{corpus.domain.music.rank.8.count}} | {{corpus.domain.music.rank.8.share}} | {{corpus.domain.music.rank.8.delta}} pp |
+| {{corpus.domain.music.rank.9.short}} – {{corpus.domain.music.rank.9.label}} | {{corpus.domain.music.rank.9.count}} | {{corpus.domain.music.rank.9.share}} | {{corpus.domain.music.rank.9.delta}} pp |
 
-Two numbers jump out at the bottom. Type 1 (Reformer) and Type 5 (Investigator) each have zero musicians in the sample. The type that organizes life around principle and the type that organizes it around private analysis are the two this music sample does not surface.
+Two numbers jump out at the bottom. Type 1 (Reformer) has {{corpus.domain.music.type.1.count}} musicians in the sample and Type 5 (Investigator) has {{corpus.domain.music.type.5.count}}. The type that organizes life around principle and the type that organizes it around private analysis are the two this music sample barely surfaces.
 
-And notice the middle of the table. Type 7, Type 8, and Type 9 all have real presence in raw counts, yet each sits slightly below its sitewide average. Only two types actually over-index in music: Type 4 by a wide margin, and Type 3 by a modest one. Every other type holds at its baseline or dips under it.
+<!-- corpus-assert: domain.music.rank.9.type = 1|5 -->
+<!-- corpus-assert: domain.music.rank.8.type = 1|5 -->
+
+And notice the middle of the table. Type 7, Type 8, and Type 9 all have real presence in raw counts, yet none of them leans far from its sitewide average. The real over-index belongs to two types: Type 4 by a wide margin ({{corpus.domain.music.type.4.delta}} points) and Type 3 by a modest one ({{corpus.domain.music.type.3.delta}}).
 
 ## Why Type 4 shows up so often in music
 
@@ -160,19 +168,19 @@ Notice that Kendrick raps, Rubin produces, Dylan writes, and Adele belts. The ro
 
 Type 4 owns the category, but it does not run it alone. Four other types show up often enough to shape how music sounds.
 
-**Type 3, the Achiever (20.9%).** The second most common type, and the only other one that over-indexes in music. Where a Four asks "who am I," a [Type 3](/personality-analysis/type/3) asks "am I winning." Their art doubles as career architecture. [Taylor Swift](/personality-analysis/taylor-swift), [Drake](/personality-analysis/drake), and [Dua Lipa](/personality-analysis/dua-lipa) run a discography like a portfolio to be optimized, and they are extraordinarily good at it.
+**Type 3, the Achiever ({{corpus.domain.music.type.3.share}}).** The second most common type, and the only other one with a real over-index in music. Where a Four asks "who am I," a [Type 3](/personality-analysis/type/3) asks "am I winning." Their art doubles as career architecture. [Taylor Swift](/personality-analysis/taylor-swift), [Drake](/personality-analysis/drake), and [Dua Lipa](/personality-analysis/dua-lipa) run a discography like a portfolio to be optimized, and they are extraordinarily good at it.
 
-Then come the **Type 7 Enthusiasts (11.9%)**, the reinventors. Sevens fear being pinned down, so they mutate. [Katy Perry](/personality-analysis/katy-perry) and [Kanye West](/personality-analysis/kanye) treat a fixed identity as a cage and keep breaking out of it, sometimes gloriously, sometimes in public wreckage.
+Then come the **Type 7 Enthusiasts ({{corpus.domain.music.type.7.share}})**, the reinventors. Sevens fear being pinned down, so they mutate. [Katy Perry](/personality-analysis/katy-perry) and [Kanye West](/personality-analysis/kanye) treat a fixed identity as a cage and keep breaking out of it, sometimes gloriously, sometimes in public wreckage.
 
-**Type 8, the Challenger (10.4%).** The force-of-nature performers. Eights turn the stage into a seat of power, and the corpus's Eights read like a roster of women who took the room instead of asking for it: [Beyoncé](/personality-analysis/beyonce-knowles), [Rihanna](/personality-analysis/rihanna), [Nicki Minaj](/personality-analysis/nicki-minaj), and [Chappell Roan](/personality-analysis/chappell-roan).
+**Type 8, the Challenger ({{corpus.domain.music.type.8.share}}).** The force-of-nature performers. Eights turn the stage into a seat of power, and the corpus's Eights read like a roster of women who took the room instead of asking for it: [Beyoncé](/personality-analysis/beyonce-knowles), [Rihanna](/personality-analysis/rihanna), [Nicki Minaj](/personality-analysis/nicki-minaj), and [Chappell Roan](/personality-analysis/chappell-roan).
 
-At the soft end sit the **Type 9 Peacemakers (9.0%)**. The Nine examples skew toward accessible, low-friction warmth. [Ed Sheeran](/personality-analysis/ed-sheeran), [Post Malone](/personality-analysis/post-malone), and [Selena Gomez](/personality-analysis/selena-gomez) build careers on being welcome in every room they enter. The outlier is [Doja Cat](/personality-analysis/doja-cat), a Nine whose long stretches of going along end in very public blowups.
+At the soft end sit the **Type 9 Peacemakers ({{corpus.domain.music.type.9.share}})**. The Nine examples skew toward accessible, low-friction warmth. [Ed Sheeran](/personality-analysis/ed-sheeran), [Post Malone](/personality-analysis/post-malone), and [Selena Gomez](/personality-analysis/selena-gomez) build careers on being welcome in every room they enter. The outlier is [Doja Cat](/personality-analysis/doja-cat), a Nine whose long stretches of going along end in very public blowups.
 
 ## What this doesn't prove
 
 The pattern is real, but it has hard limits worth naming plainly.
 
-Start with the sample. This is a hand-picked editorial set of public figures we found worth writing about, and that selection carries its own bias. If we lean toward emotionally expressive artists, we will keep finding emotionally expressive types. Sixty-seven people make a corpus, while the industry runs to millions. The same limits apply to [our count of which Enneagram type most CEOs are](/enneagram-corner/what-enneagram-type-are-most-ceos), where Type 5 leads instead.
+Start with the sample. This is a hand-picked editorial set of public figures we found worth writing about, and that selection carries its own bias. If we lean toward emotionally expressive artists, we will keep finding emotionally expressive types. A few dozen musicians make a corpus, while the industry runs to millions. The same limits apply to [our count of which Enneagram type most CEOs are](/enneagram-corner/what-enneagram-type-are-most-ceos), where Type 5 leads instead.
 
 Then the method. Typing a public figure is an interpretive call. We read biographies, interviews, and behavior, then decide. Reasonable people type the same artist differently, and no one here has sat these musicians down for a clinical assessment.
 
@@ -192,15 +200,15 @@ Then bring it to the room. The whole point of 9takes is that one artist reads ni
 
 ### What Enneagram type are most musicians?
 
-Among the public figures 9takes has profiled, musicians are most often Type 4, the Individualist. Of 67 musician and artist profiles, 26 are Type 4, which is 38.8% and runs +24.29 percentage points above Type 4's sitewide share of 14.5%.
+Among the public figures 9takes has profiled, musicians are most often Type 4, the Individualist. Of {{corpus.domain.music.total}} musician profiles, {{corpus.domain.music.type.4.count}} are Type 4, which is {{corpus.domain.music.type.4.share}} and runs {{corpus.domain.music.type.4.delta}} percentage points above Type 4's sitewide share of {{corpus.type.4.share}}.
 
 ### Are most musicians Type 4?
 
-Type 4 is the single most common type among profiled musicians, though it stays short of a majority. It accounts for 38.8% of the 67 profiles, so roughly six in ten profiled musicians land on some other type, led by Type 3 at 20.9%. Type 4 wins the plurality and still shares the field with everyone else.
+Type 4 is the single most common type among profiled musicians, though it stays short of a majority. It accounts for {{corpus.domain.music.type.4.share}} of the {{corpus.domain.music.total}} profiles, so most profiled musicians land on some other type, led by Type 3 at {{corpus.domain.music.type.3.share}}. Type 4 wins the plurality and still shares the field with everyone else.
 
 ### Why are so many musicians Type 4?
 
-Type 4s build identity around emotional depth and feeling different, and music rewards exactly that: turning private emotional weather into a public object other people can recognize. Read it as a pattern in an editorial corpus, since the data shows a correlation it cannot prove a cause for. Even so, Type 4 is the only type that over-indexes in music while sitting at or below its baseline in every other category on the site.
+Type 4s build identity around emotional depth and feeling different, and music rewards exactly that: turning private emotional weather into a public object other people can recognize. Read it as a pattern in an editorial corpus, since the data shows a correlation it cannot prove a cause for. Even so, no other field pulls Type 4 the way music does: {{corpus.domain.music.type.4.of-type}} of every Type 4 on the site is a musician.
 
 ### Are singers usually a different Enneagram type from rappers or producers?
 
@@ -208,7 +216,7 @@ In the 9takes corpus, the Type 4 skew reaches well past singers. Kendrick Lamar 
 
 ### What Enneagram types are least common among musicians?
 
-Type 1 (Reformer) and Type 5 (Investigator) each have zero musicians in the 67-profile sample. Type 6 (Loyalist) is next rarest at 3.0%. Both Ones and Fives anchor identity to principle or systems rather than felt emotion, which fits their near-absence from a category that often rewards emotional self-exposure.
+Type 1 (Reformer) and Type 5 (Investigator) are the rarest: {{corpus.domain.music.type.1.count}} and {{corpus.domain.music.type.5.count}} of the {{corpus.domain.music.total}} musician profiles. Both Ones and Fives anchor identity to principle or systems rather than felt emotion, which fits their near-absence from a category that often rewards emotional self-exposure.
 
 ### Does this prove Type 4s are better musicians?
 

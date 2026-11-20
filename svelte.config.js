@@ -1,6 +1,7 @@
 // svelte.config.js
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 // svelte.config.js
 import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
@@ -9,6 +10,7 @@ import preprocess from 'svelte-preprocess';
 
 import mdsvexConfig from './mdsvex.config.js';
 import { isBlogEmbedComponent } from './src/lib/blogEmbedCss.js';
+import { buildCorpusTokenTable, resolveCorpusTokens } from './src/lib/corpusTokens.js';
 import { pruneLegacyJsonLdFromMarkdown } from './src/lib/rehype-prune-legacy-jsonld.js';
 
 /** @param {string | undefined} filename */
@@ -16,6 +18,23 @@ const isBlogContentFile = (filename) =>
 	!!filename &&
 	/\.(?:md|svx|svelte\.md)$/.test(filename) &&
 	(filename.includes('/src/blog/') || filename.includes('\\src\\blog\\'));
+
+// Live corpus numbers: `{{corpus.domain.music.type.4.share}}` becomes the current value from
+// corpus-stats.json before mdsvex runs, so body, frontmatter and inline JSON-LD all get it.
+// Read per file (not cached) and declared as a dependency so a regenerated file shows up in dev.
+const corpusStatsPath = fileURLToPath(new URL('./src/lib/data/corpus-stats.json', import.meta.url));
+const corpusTokensPreprocess = {
+	name: 'corpus-tokens',
+	markup({ content, filename }) {
+		if (!isBlogContentFile(filename) || !content.includes('{{')) {
+			return;
+		}
+
+		const table = buildCorpusTokenTable(JSON.parse(readFileSync(corpusStatsPath, 'utf8')));
+		const code = resolveCorpusTokens(content, table, { source: filename });
+		return code === content ? undefined : { code, dependencies: [corpusStatsPath] };
+	}
+};
 
 const pruneLegacyJsonLdPreprocess = {
 	name: 'prune-legacy-jsonld',
@@ -42,6 +61,7 @@ const themeScripts = [
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: [
+		corpusTokensPreprocess,
 		pruneLegacyJsonLdPreprocess,
 		vitePreprocess(),
 		mdsvex(mdsvexConfig),

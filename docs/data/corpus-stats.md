@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-11-20T04:25:17.570Z_
+_Generated: 2026-11-20T14:56:22.236Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -312,7 +312,7 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Ready-to-Cite Claims
 
-Drop these into a blog verbatim — they are pre-computed from the live corpus and are safe to quote. Re-run this generator before citing to ensure freshness.
+Snapshot wording for reference. In posts, write the numbers as live tokens (next section) so they stay current; never paste these figures by hand.
 
 - Across 469 published personality profiles on 9takes, Enneagram types are not evenly distributed — Type 3 (Achiever) is the most common at 17.9% of the corpus.
 - Among 159 profiles in the Film, TV & Stage category on 9takes, Type 9 (Peacemaker) is over-represented at 14.5% — +4.44 percentage points above the corpus baseline.
@@ -331,16 +331,68 @@ Drop these into a blog verbatim — they are pre-computed from the live corpus a
 - Among 80 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.43 percentage points above the corpus baseline.
 - 107 more profiles exist as unpublished drafts on 9takes, and ~11.7 new profiles were published per month over the last 90 days.
 
+## Live tokens
+
+Posts never hand-type corpus numbers. Write `{{corpus.<path>}}` and the build swaps in the current value (MDsvex posts at build, people pages at render, the search index on reindex). `pnpm lint` fails on hand-typed corpus figures and unknown tokens. Resolver: `src/lib/corpusTokens.js`.
+
+| Token | Now renders |
+| ----- | ----------- |
+| `{{corpus.total}}` | 469 |
+| `{{corpus.drafts}}` | 107 |
+| `{{corpus.per-month}}` | 11.7 |
+| `{{corpus.published-30}}` | 16 |
+| `{{corpus.published-90}}` | 35 |
+| `{{corpus.updated-90}}` | 48 |
+| `{{corpus.updated-90-share}}` | 10.2% |
+| `{{corpus.as-of}}` | November 2026 |
+| `{{corpus.type.4.share}}` | 14.3% |
+| `{{corpus.type.4.count}}` | 67 |
+| `{{corpus.type.4.name}}` | Type 4 (Individualist) |
+| `{{corpus.type.4.short}}` | Type 4 |
+| `{{corpus.type.4.label}}` | Individualist |
+| `{{corpus.type.4.top-domain}}` | music |
+| `{{corpus.type.4.top-domain-label}}` | Music |
+| `{{corpus.type.4.top-domain-share}}` | 47.8% |
+| `{{corpus.rank.1.name}}` | Type 3 (Achiever) |
+| `{{corpus.rank.1.share}}` | 17.9% |
+| `{{corpus.rank.9.name}}` | Type 2 (Helper) |
+| `{{corpus.domain.music.total}}` | 90 |
+| `{{corpus.domain.music.label}}` | Music |
+| `{{corpus.domain.music.url}}` | /personality-analysis/categories/music |
+| `{{corpus.domain.music.type.4.share}}` | 35.6% |
+| `{{corpus.domain.music.type.4.count}}` | 32 |
+| `{{corpus.domain.music.type.4.delta}}` | +21.3 |
+| `{{corpus.domain.music.type.4.of-type}}` | 47.8% |
+| `{{corpus.domain.music.top.name}}` | Type 4 (Individualist) |
+| `{{corpus.domain.music.top.share}}` | 35.6% |
+| `{{corpus.domain.music.top.delta}}` | +21.3 |
+| `{{corpus.domain.music.rank.2.name}}` | Type 3 (Achiever) |
+| `{{corpus.domain.music.under.name}}` | Type 6 (Loyalist) |
+
+Path grammar:
+
+- Whole corpus: `total`, `drafts`, `per-month`, `published-30`, `published-90`, `updated-90`, `updated-90-share`, `as-of` (month of the last regenerate).
+- A type slot (`type.N`, `rank.K`, `domain.<slug>.type.N`, `domain.<slug>.rank.K`, `domain.<slug>.top`, `domain.<slug>.under`) has `.type` (4), `.short` (Type 4), `.name` (Type 4 (Individualist)), `.label` (Individualist), `.count`, `.share`.
+- Domain slots add `.delta` (signed points vs the corpus share, write "percentage points" after it); `domain.<slug>.type.N.of-type` is the share of ALL Type N profiles that sit in that domain.
+- `type.N.top-domain` / `.top-domain-label` / `.top-domain-share`: the field holding the largest share of all Type N profiles.
+- `rank.K` orders by count, largest first (1 = most common, 9 = rarest). `top` / `under` = most over/under-represented vs baseline.
+- `skew.K` ranks fields by their strongest single-type lean (`skew.1.domain` = the most skewed field), with the type slot fields plus `.delta`, `.domain` and `.domain-label`.
+- Domain slugs: `film-tv`, `music`, `comedy`, `creator-media`, `hosts-media`, `sports`, `technology`, `business`, `politics-public`, `royals-reality`, `authors-thinkers`, `fashion`, `self-help`, `tech-business`. A domain under 10 profiles drops out and its tokens stop resolving (the build fails loudly, by design).
+
+Prose a token can't carry ("Type 4 leads music", "no other field over-indexes Type 4") gets a guard in an HTML comment beside it: `<!-- corpus-assert: domain.music.top.type = 4 -->`. Lint fails, and every deploy warns, once the data stops backing the sentence. A figure that is not a corpus number (an outside study, a hand-counted sub-sample) gets `<!-- corpus-ok: reason -->` in its paragraph.
+
+People pages: tokens work in the body and FAQs, not in title/description (listing cards show those raw).
+
 ---
 
 ## Methodology
 
 - **Source:** 9takes public-figure corpus. One row per profiled person.
 - **Scope of public-facing stats:** published profiles only. Unpublished drafts are excluded from all percentages and over/under-representation deltas.
-- **Domain buckets:** Raw `type` labels are grouped into readable categories (e.g. `movieStar` + `newMovieStar` + `actor` → Actors). Domains with fewer than 10 profiled figures are omitted to avoid small-sample noise.
+- **Domain buckets:** one per field of the people taxonomy (`src/lib/data/peopleTaxonomy.json`), matching the category pages. Membership comes from `src/lib/data/personClassifications.json`. Domains with fewer than 10 profiled figures are omitted to avoid small-sample noise.
 - **Over/under-representation:** Each domain's type share minus the corpus-wide baseline share, in percentage points. Positive means over-represented vs. the 9takes corpus average, not vs. general population.
-- **Multi-domain figures:** A person tagged with both `musician` and `activist` is counted in both domains.
+- **Multi-domain figures:** a person counts in their home field and in every second-career field (`also`), so an actor who also makes music is in both Film, TV & Stage and Music.
 - **Drafts:** unpublished profiles with more than 2000 characters of content, one per person, excluding people who already have a published profile. Counting them needs `SUPABASE_SERVICE_KEY` (RLS hides unpublished rows from the public key); without it the count is null, not 0.
 - **Who assigns the types:** 9takes editors type every profile. Over- and under-representation can reflect editor-typing bias as well as who becomes famous; treat explanations as hypotheses.
 
-_Regenerate with `pnpm gen:corpus-stats`. Refresh cadence: monthly._
+_Regenerate with `pnpm gen:corpus-stats`. Runs on every Vercel deploy._

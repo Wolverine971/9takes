@@ -1,8 +1,8 @@
 <!-- src/lib/components/molecules/SortComments.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { fly, scale } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import SlidersIcon from '$lib/components/icons/slidersIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { Button } from '$lib/components/atoms';
@@ -20,7 +20,7 @@
 	let { data, size = 'large', value = 'ranked', types, onfilterChange }: Props = $props();
 
 	// State variables
-	let reduceMotion = $state(false);
+	let reduceMotion = $derived(prefersReducedMotion.current);
 
 	type EnneagramTypeOption =
 		'1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 'unknown' | 'rando';
@@ -85,10 +85,6 @@
 					? 'Newest'
 					: 'Oldest'
 	);
-
-	onMount(() => {
-		reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-	});
 
 	// Draft controls only commit when Apply is pressed. All work stays in memory.
 	function openFilters() {
@@ -265,8 +261,7 @@
 			<div class="sort-options">
 				<button
 					type="button"
-					class="sort-option"
-					class:sort-option--selected={sortBy === 'ranked'}
+					class={['sort-option', sortBy === 'ranked' && 'sort-option--selected']}
 					aria-pressed={sortBy === 'ranked'}
 					onclick={() => (sortBy = 'ranked')}
 				>
@@ -276,8 +271,7 @@
 				</button>
 				<button
 					type="button"
-					class="sort-option"
-					class:sort-option--selected={sortBy === 'newest'}
+					class={['sort-option', sortBy === 'newest' && 'sort-option--selected']}
 					aria-pressed={sortBy === 'newest'}
 					onclick={() => (sortBy = 'newest')}
 				>
@@ -295,8 +289,7 @@
 				</button>
 				<button
 					type="button"
-					class="sort-option"
-					class:sort-option--selected={sortBy === 'oldest'}
+					class={['sort-option', sortBy === 'oldest' && 'sort-option--selected']}
 					aria-pressed={sortBy === 'oldest'}
 					onclick={() => (sortBy = 'oldest')}
 				>
@@ -314,8 +307,7 @@
 				</button>
 				<button
 					type="button"
-					class="sort-option"
-					class:sort-option--selected={sortBy === 'likes'}
+					class={['sort-option', sortBy === 'likes' && 'sort-option--selected']}
 					aria-pressed={sortBy === 'likes'}
 					onclick={() => (sortBy = 'likes')}
 				>

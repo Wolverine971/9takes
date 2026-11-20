@@ -2,6 +2,7 @@
 
 import { slugFromPath } from '$lib/slugFromPath';
 import matter from 'gray-matter';
+import { resolveCorpusText } from '$lib/server/corpusTokens';
 import type { PageServerLoad } from './$types';
 
 const MAX_POSTS = 6;
@@ -23,7 +24,7 @@ export const load: PageServerLoad = async ({ params }) => {
 	);
 
 	const posts = Object.entries(modules).map(([path, raw]) => {
-		const { data: metadata } = matter(raw as string);
+		const { data: metadata } = matter(resolveCorpusText(raw as string, path));
 		return {
 			...(metadata as App.BlogPost),
 			slug: slugFromPath(path)

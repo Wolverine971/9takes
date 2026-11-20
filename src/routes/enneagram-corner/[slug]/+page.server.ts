@@ -4,6 +4,7 @@ import { dev } from '$app/environment';
 import { slugFromPath } from '$lib/slugFromPath';
 import { toStringList } from '$lib/data/enneagramCornerTaxonomy.js';
 import matter from 'gray-matter';
+import { resolveCorpusText } from '$lib/server/corpusTokens';
 
 import { recordStrategicQuestionImpression } from '$lib/server/giveFirstFunnel';
 import {
@@ -48,7 +49,7 @@ const loadPostsFromModules = async (): Promise<App.BlogPost[]> => {
 	if (!cachedPostsPromise) {
 		cachedPostsPromise = Promise.all(
 			Object.entries(RAW_ENNEAGRAM_MODULES).map(async ([path, resolver]) => {
-				const raw = (await resolver()) as string;
+				const raw = resolveCorpusText((await resolver()) as string, path);
 				const { data: metadata } = matter(raw);
 				const slug = slugFromPath(path);
 
@@ -91,7 +92,7 @@ const loadPostsFromFs = async (): Promise<App.BlogPost[]> => {
 
 	const posts = await Promise.all(
 		files.map(async (file) => {
-			const raw = await readFile(file, 'utf8');
+			const raw = resolveCorpusText(await readFile(file, 'utf8'), file);
 			const { data: metadata } = matter(raw);
 			const relativePath = file.startsWith(cwd) ? file.slice(cwd.length) : file;
 			const normalizedPath = relativePath.replace(/\\/g, '/');

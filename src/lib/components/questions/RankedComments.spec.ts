@@ -1,3 +1,4 @@
+// src/lib/components/questions/RankedComments.spec.ts
 // @vitest-environment jsdom
 import { cleanup, fireEvent, render, waitFor, within } from '@testing-library/svelte';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
@@ -5,6 +6,7 @@ import { createRawSnippet } from 'svelte';
 import type { Comment, QuestionPageData } from '$lib/types/questions';
 
 vi.mock('svelte/transition', () => ({
+	crossfade: () => [() => ({ duration: 0 }), () => ({ duration: 0 })],
 	fade: () => ({ duration: 0 }),
 	fly: () => ({ duration: 0 }),
 	scale: () => ({ duration: 0 }),

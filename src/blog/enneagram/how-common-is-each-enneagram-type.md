@@ -126,7 +126,7 @@ Keyword strategy (GSC, 90 days to 2026-10-02, deduped):
       "name": "Does the 9takes corpus show how common each Enneagram type is?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. As of October 2026, the 9takes corpus is 450 public figures typed by 9takes from their public record. Type 3 is the largest group (18.0%), and Types 1 and 2 are the smallest (6.4% each). That describes who gets famous enough to profile, as 9takes reads them. It says nothing about how common any type is in the population."
+        "text": "No. As of {{corpus.as-of}}, the 9takes corpus is {{corpus.total}} public figures typed by 9takes from their public record. {{corpus.rank.1.name}} is the largest group ({{corpus.rank.1.share}}), and Types 1 and 2 are the smallest ({{corpus.type.1.share}} and {{corpus.type.2.share}}). That describes who gets famous enough to profile, as 9takes reads them. It says nothing about how common any type is in the population."
       }
     }
   ]
@@ -161,7 +161,7 @@ Nobody knows for the general population: we found no study that tested a represe
 
 Same type, opposite verdicts. Neither site made a mistake. Each one counted the people who came through its own door, and different doors draw different crowds.
 
-That's the catch inside every Enneagram statistic, and it's why the answer to "what's the rarest type?" changes with the page you land on. Below are the type percentages we could verify, the places the charts agree, the five reasons they split, and what 9takes' own 450 public-figure profiles can add. (Less than you'd hope, and we'll say exactly why.)
+That's the catch inside every Enneagram statistic, and it's why the answer to "what's the rarest type?" changes with the page you land on. Below are the type percentages we could verify, the places the charts agree, the five reasons they split, and what 9takes' own {{corpus.total}} public-figure profiles can add. (Less than you'd hope, and we'll say exactly why.)
 
 ---
 
@@ -290,7 +290,7 @@ Read it as a description of one test's audience: who found that test, who finish
 
 ---
 
-## What 9takes' 450 public-figure profiles show, and what they can't
+## What 9takes' public-figure profiles show, and what they can't
 
 Start with the limit. **The 9takes corpus does not tell you how common any type is.**
 
@@ -298,32 +298,36 @@ Nobody in it took a test. Each profile is our read of a public figure, built fro
 
 Our own lens is in the data too. If our typing tends to read visible ambition as Type 3, the corpus overcounts Threes, and we can't rule that out from inside our own numbers.
 
-With that on the table, here is the split across the 450 profiles published as of early October 2026:
+With that on the table, here is the split across the {{corpus.total}} profiles published as of {{corpus.as-of}}:
+
+<!-- corpus-assert: rank.1.type = 3 -->
+<!-- corpus-assert: rank.8.type = 1|2 -->
+<!-- corpus-assert: rank.9.type = 1|2 -->
 
 <div class="scroll-table">
 
-| Type            | Profiles | Share of the 9takes corpus |
-| --------------- | -------- | -------------------------- |
-| 3 Achiever      | 81       | 18.0%                      |
-| 4 Individualist | 64       | 14.2%                      |
-| 7 Enthusiast    | 62       | 13.8%                      |
-| 6 Loyalist      | 54       | 12.0%                      |
-| 8 Challenger    | 48       | 10.7%                      |
-| 9 Peacemaker    | 45       | 10.0%                      |
-| 5 Investigator  | 38       | 8.4%                       |
-| 1 Reformer      | 29       | 6.4%                       |
-| 2 Helper        | 29       | 6.4%                       |
+| Type                                           | Profiles                | Share of the 9takes corpus |
+| ---------------------------------------------- | ----------------------- | -------------------------- |
+| {{corpus.rank.1.type}} {{corpus.rank.1.label}} | {{corpus.rank.1.count}} | {{corpus.rank.1.share}}    |
+| {{corpus.rank.2.type}} {{corpus.rank.2.label}} | {{corpus.rank.2.count}} | {{corpus.rank.2.share}}    |
+| {{corpus.rank.3.type}} {{corpus.rank.3.label}} | {{corpus.rank.3.count}} | {{corpus.rank.3.share}}    |
+| {{corpus.rank.4.type}} {{corpus.rank.4.label}} | {{corpus.rank.4.count}} | {{corpus.rank.4.share}}    |
+| {{corpus.rank.5.type}} {{corpus.rank.5.label}} | {{corpus.rank.5.count}} | {{corpus.rank.5.share}}    |
+| {{corpus.rank.6.type}} {{corpus.rank.6.label}} | {{corpus.rank.6.count}} | {{corpus.rank.6.share}}    |
+| {{corpus.rank.7.type}} {{corpus.rank.7.label}} | {{corpus.rank.7.count}} | {{corpus.rank.7.share}}    |
+| {{corpus.rank.8.type}} {{corpus.rank.8.label}} | {{corpus.rank.8.count}} | {{corpus.rank.8.share}}    |
+| {{corpus.rank.9.type}} {{corpus.rank.9.label}} | {{corpus.rank.9.count}} | {{corpus.rank.9.share}}    |
 
 </div>
 
 What the corpus can show is which types each kind of fame puts in front of an audience, in our reading:
 
-- **Comedians:** 15 of 35 read as Sevens (43%). The patterns behind that are in our [comedy Enneagram breakdown](/pop-culture/comedy-kings-enneagram-analysis).
-- **Musicians and artists:** 31 of 83 read as Fours (37%). Here's [why so many musicians type as Fours](/pop-culture/what-enneagram-type-are-most-musicians).
-- **Tech, founders and business:** 19 of 80 read as Fives (24%). Here's [which type most CEOs turn out to be](/enneagram-corner/what-enneagram-type-are-most-ceos) once you separate company builders from creators.
-- **Film and TV:** 5 of 175 read as Fives (3%). Music is thinner still, with 1 Five in 83.
+- **Comedians:** {{corpus.domain.comedy.type.7.count}} of {{corpus.domain.comedy.total}} read as Sevens ({{corpus.domain.comedy.type.7.share}}). The patterns behind that are in our [comedy Enneagram breakdown](/pop-culture/comedy-kings-enneagram-analysis). <!-- corpus-assert: domain.comedy.top.type = 7 -->
+- **Musicians:** {{corpus.domain.music.type.4.count}} of {{corpus.domain.music.total}} read as Fours ({{corpus.domain.music.type.4.share}}). Here's [why so many musicians type as Fours](/pop-culture/what-enneagram-type-are-most-musicians). <!-- corpus-assert: domain.music.top.type = 4 -->
+- **Tech, founders and business:** {{corpus.domain.tech-business.type.5.count}} of {{corpus.domain.tech-business.total}} read as Fives ({{corpus.domain.tech-business.type.5.share}}). Here's [which type most CEOs turn out to be](/enneagram-corner/what-enneagram-type-are-most-ceos) once you separate company builders from creators. <!-- corpus-assert: domain.tech-business.top.type = 5 -->
+- **Film and TV:** {{corpus.domain.film-tv.type.5.count}} of {{corpus.domain.film-tv.total}} read as Fives ({{corpus.domain.film-tv.type.5.share}}). Music has {{corpus.domain.music.type.5.count}} in {{corpus.domain.music.total}}.
 
-The most interesting contrast sits at the bottom of the table. Ones and Twos are our rarest types, 29 profiles each. Cloverleaf's workplace sample, meanwhile, puts them at 15% and 14%, above both big quiz-site samples.
+The most interesting contrast sits at the bottom of the table. Ones and Twos are our rarest types, at {{corpus.type.1.count}} and {{corpus.type.2.count}} profiles. Cloverleaf's workplace sample, meanwhile, puts them at 15% and 14%, above both big quiz-site samples. <!-- corpus-ok: Cloverleaf percentages are an outside sample -->
 
 One reading: the habits that make someone a steady colleague rarely make them famous. Another: our typing undercounts Ones and Twos. Both fit the data, and we wouldn't bet on either yet.
 
@@ -396,7 +400,7 @@ Each dataset counts a different group of people with a different test. Samples d
 
 ### Does the 9takes corpus show how common each Enneagram type is?
 
-No. As of October 2026, the 9takes corpus is 450 public figures typed by 9takes from their public record. Type 3 is the largest group (18.0%), and Types 1 and 2 are the smallest (6.4% each). That describes who gets famous enough to profile, as 9takes reads them. It says nothing about how common any type is in the population.
+No. As of {{corpus.as-of}}, the 9takes corpus is {{corpus.total}} public figures typed by 9takes from their public record. {{corpus.rank.1.name}} is the largest group ({{corpus.rank.1.share}}), and Types 1 and 2 are the smallest ({{corpus.type.1.share}} and {{corpus.type.2.share}}). That describes who gets famous enough to profile, as 9takes reads them. It says nothing about how common any type is in the population.
 
 ---
 
@@ -409,7 +413,7 @@ No. As of October 2026, the 9takes corpus is 450 public figures typed by 9takes 
 - Cloverleaf, [Enneagram Type 1: The Reformer](https://cloverleaf.me/blog/enneagram-type-1-the-reformer/) and [Enneagram Type 2: The Helper](https://cloverleaf.me/blog/enneagram-type-2-the-helper/) (March 2025).
 - Criado, J. M., et al. (2025). [Effects of Personality Types on the Performance of Educational Teams](https://pmc.ncbi.nlm.nih.gov/articles/PMC11939440/). _Behavioral Sciences_, 15(3), 312.
 - Hook, J. N., Hall, T. W., Davis, D. E., Van Tongeren, D. R., & Conner, M. (2021). [The Enneagram: A systematic review of the literature and directions for future research](https://doi.org/10.1002/jclp.23097). _Journal of Clinical Psychology_, 77(4), 865 to 883.
-- 9takes, [corpus stats](/corpus-stats) (450 published profiles, generated October 2026).
+- 9takes, [corpus stats](/corpus-stats) ({{corpus.total}} published profiles, regenerated on every deploy; figures here as of {{corpus.as-of}}).
 
 ---
 

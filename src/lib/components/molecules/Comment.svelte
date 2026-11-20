@@ -4,8 +4,9 @@
 	import { deserialize } from '$app/forms';
 	import { resolve } from '$app/paths';
 	import { ChevronRight, EllipsisVertical, MessageCircle, ThumbsUp } from '@lucide/svelte';
-	import { slide } from 'svelte/transition';
+	import { fly, slide } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import {
 		captureCommentCreated,
 		captureCommentFailed,
@@ -82,7 +83,13 @@
 	let isExpanded = $state(false);
 	let flagError = $state('');
 	let showReplies = $state(false);
-	let reduceMotion = $state(false);
+	let likePending = false;
+	// Pops the thumb once on a fresh like (never on load for already-liked takes).
+	let likePop = $state(false);
+	// +1 / -1: which way the count rolls when it changes.
+	let likeDirection = $state(1);
+	// Reactive: follows the OS setting live, and is correct on the first frame.
+	let reduceMotion = $derived(prefersReducedMotion.current);
 
 	// Constants
 	const COMMENT_TRUNCATE_LENGTH = 136;
@@ -229,9 +236,6 @@
 	}
 
 	onMount(() => {
-		reduceMotion =
-			typeof window.matchMedia === 'function' &&
-			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 		if (!autoExpandReplies || !(_commentComment.comment_count > 0)) return;
 		if (_commentComment.comments?.length) {
 			showReplies = true;
@@ -258,12 +262,27 @@
 			return;
 		}
 
-		const operation = likes.some((e) => e.user_id === user.id) ? 'remove' : 'add';
+		// One request at a time: a double tap must not race two opposite writes.
+		if (likePending) return;
+		likePending = true;
+
+		const userId = user.id;
+		const previousLikes = likes;
+		const operation = previousLikes.some((e) => e.user_id === userId) ? 'remove' : 'add';
+
+		// Optimistic: the thumb and count flip on tap; the server confirms after.
+		// The placeholder row (id 0) is swapped for the real one on success.
+		likePop = operation === 'add' && !reduceMotion;
+		applyLikes(
+			operation === 'add'
+				? [{ id: 0, comment_id: _commentComment.id, user_id: userId }, ...previousLikes]
+				: previousLikes.filter((like) => like.user_id !== userId)
+		);
 
 		try {
 			const body = new FormData();
 			body.append('parent_id', _commentComment.id.toString());
-			body.append('user_id', user.id);
+			body.append('user_id', userId);
 			body.append('es_id', _commentComment.es_id ?? '');
 			body.append('operation', operation);
 
@@ -274,21 +293,30 @@
 			}
 
 			const result: any = deserialize(await resp.text());
+			if (result?.type === 'error' || result?.type === 'failure') {
+				throw new Error('Like was not saved');
+			}
 
-			notifications.success(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
-
-			const nextLikes: CommentLike[] =
-				operation === 'add' && result?.data
-					? [result.data, ...likes]
-					: likes.filter((c) => c.user_id !== user.id);
-
-			_commentComment.comment_like = nextLikes;
-			_commentComment.like_count = nextLikes.length;
+			if (operation === 'add' && result?.data?.id) {
+				applyLikes([result.data as CommentLike, ...previousLikes]);
+			}
 			oncommentUpdated?.(snapshotTake());
 		} catch (error) {
 			console.error('Error liking comment:', error);
-			notifications.danger('Error processing like', 3000);
+			applyLikes(previousLikes);
+			notifications.danger(
+				operation === 'add' ? 'Your like did not save.' : 'Could not remove your like.',
+				3000
+			);
+		} finally {
+			likePending = false;
 		}
+	}
+
+	function applyLikes(next: CommentLike[]) {
+		likeDirection = next.length >= likes.length ? 1 : -1;
+		_commentComment.comment_like = next;
+		_commentComment.like_count = next.length;
 	}
 
 	// Add reply to comment
@@ -345,7 +373,7 @@
 				);
 			}
 
-			notifications.success('Reply Added', 3000);
+			// No toast: the reply opens in place under the take (showReplies below).
 			const createdReply = Array.isArray(result?.data) ? (result.data[0] ?? null) : result?.data;
 			const serverAnalytics = normalizeServerCommentAnalytics(createdReply);
 			void captureCommentCreated({
@@ -460,7 +488,7 @@
 			const result: any = deserialize(await resp.text());
 
 			if (result?.success) {
-				notifications.success('Comment Updated', 3000);
+				// No toast: the modal closes and the new text is already on the card.
 				_commentComment.comment = commentEdit;
 				_commentComment.modified_at = new Date().toISOString();
 				oncommentUpdated?.(snapshotTake());
@@ -511,8 +539,7 @@
 
 			// Check for success - handle multiple possible response formats
 			if (result?.type === 'success' || result?.success === true) {
-				notifications.info('Comment Flagged', 3000);
-				notifications.info('Will be reviewed by admins', 5000);
+				notifications.info('Flagged. An admin will review it.', 4000);
 				resetFlagModal();
 				closeFlagModal();
 			} else if (result?.error) {
@@ -596,14 +623,31 @@
 								? `Unlike this comment (${likes.length} ${likes.length === 1 ? 'like' : 'likes'})`
 								: `Like this comment${likes.length > 0 ? ` (${likes.length} ${likes.length === 1 ? 'like' : 'likes'})` : ''}`}
 							aria-pressed={isLiked}
-							class={['comment-action', isLiked && 'comment-action--on']}
+							class={[
+								'comment-action',
+								isLiked && 'comment-action--on',
+								likePop && 'comment-action--pop'
+							]}
 							onclick={toggleLike}
+							onanimationend={(event) => {
+								// The count's roll is an animation too; only the thumb's pop ends the pop.
+								if (event.animationName.endsWith('like-pop')) likePop = false;
+							}}
 						>
 							<ThumbsUp size={16} strokeWidth={1.75} aria-hidden="true" />
 							<span>Like</span>
 							{#if likes.length}
 								<span class="comment-action__count" itemprop="upvoteCount">
-									{likes.length}
+									{#key likes.length}
+										<span
+											class="comment-action__digits"
+											in:fly={{
+												y: reduceMotion ? 0 : likeDirection * 8,
+												duration: reduceMotion ? 0 : 180,
+												easing: cubicOut
+											}}>{likes.length}</span
+										>
+									{/key}
 								</span>
 							{/if}
 						</button>
@@ -1127,7 +1171,26 @@
 		color: var(--highlight);
 	}
 	.comment-action__count {
+		display: inline-flex;
+		overflow: hidden;
 		font-variant-numeric: tabular-nums;
+	}
+	.comment-action__digits {
+		display: inline-block;
+	}
+	.comment-action--pop :global(svg) {
+		animation: like-pop 360ms cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+	@keyframes like-pop {
+		0% {
+			transform: scale(1) rotate(0);
+		}
+		40% {
+			transform: scale(1.35) rotate(-12deg);
+		}
+		100% {
+			transform: scale(1) rotate(0);
+		}
 	}
 	.comment-overflow__trigger {
 		display: flex;
