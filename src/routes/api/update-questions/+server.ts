@@ -173,7 +173,7 @@ export const POST = withApiLogging(async (event) => {
 	} catch (e) {
 		if (e instanceof z.ZodError) {
 			logger.warn('Invalid question update data', {
-				errors: e.errors
+				errors: e.issues
 			});
 			throw error(400, 'Invalid question data');
 		}

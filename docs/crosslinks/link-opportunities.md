@@ -1,6 +1,6 @@
 # Link Opportunities
 
-_Generated: 2026-11-20 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Generated: 2026-11-21 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
 _Search data: GSC 2026-08-10 → 2026-11-08. 124 candidate links found (+120 weaker ones offered only for gate debt); 345 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.

@@ -110,7 +110,7 @@ export const POST: RequestHandler = async (event) => {
 	}
 	const parsed = postSchema.safeParse(body);
 	if (!parsed.success) {
-		return json({ error: parsed.error.errors[0]?.message || 'Invalid request' }, { status: 400 });
+		return json({ error: parsed.error.issues[0]?.message || 'Invalid request' }, { status: 400 });
 	}
 
 	const userId = event.locals.session?.user?.id ?? null;

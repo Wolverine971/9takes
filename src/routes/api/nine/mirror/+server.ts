@@ -119,7 +119,7 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 		payload = requestSchema.parse(await request.json());
 	} catch (e) {
 		if (e instanceof z.ZodError) {
-			return json({ error: e.errors[0]?.message ?? 'Invalid request' }, { status: 400 });
+			return json({ error: e.issues[0]?.message ?? 'Invalid request' }, { status: 400 });
 		}
 		throw error(400, 'Invalid request');
 	}

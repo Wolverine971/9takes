@@ -28,7 +28,7 @@ function normalizeOptionalText(value: string | null | undefined): string | null 
 }
 
 export const PUT: RequestHandler = async ({ params, request, locals }) => {
-	const resourceId = z.string().uuid().safeParse(params.id);
+	const resourceId = z.string().guid().safeParse(params.id);
 	if (!resourceId.success) {
 		throw error(400, 'Invalid resource id');
 	}

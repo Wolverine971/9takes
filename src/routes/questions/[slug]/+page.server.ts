@@ -135,8 +135,14 @@ const createLeafCategorySchema = z.object({
 	categoryName: z
 		.string()
 		.trim()
-		.min(NEW_CATEGORY_MIN_LENGTH)
-		.max(NEW_CATEGORY_MAX_LENGTH)
+		.min(
+			NEW_CATEGORY_MIN_LENGTH,
+			`Category name must be at least ${NEW_CATEGORY_MIN_LENGTH} characters`
+		)
+		.max(
+			NEW_CATEGORY_MAX_LENGTH,
+			`Category name cannot exceed ${NEW_CATEGORY_MAX_LENGTH} characters`
+		)
 		.transform((value) => value.replace(/\s+/g, ' '))
 });
 
@@ -423,7 +429,7 @@ async function createQuestionComment(event: RequestEvent) {
 
 	const validationResult = createCommentSchema.safeParse(body);
 	if (!validationResult.success) {
-		const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
+		const firstError = validationResult.error.issues[0]?.message || 'Invalid comment data';
 		throw error(400, { message: firstError });
 	}
 	const commentInput = validationResult.data;
@@ -522,7 +528,7 @@ export const actions: Actions = {
 		const { body, demo_time } = await getRequestData(request);
 		const validationResult = likeCommentSchema.safeParse(body);
 		if (!validationResult.success) {
-			const firstError = validationResult.error.errors[0]?.message || 'Invalid like data';
+			const firstError = validationResult.error.issues[0]?.message || 'Invalid like data';
 			throw error(400, { message: firstError });
 		}
 
@@ -545,7 +551,7 @@ export const actions: Actions = {
 		const { body, demo_time } = await getRequestData(request);
 		const validationResult = subscribeSchema.safeParse(body);
 		if (!validationResult.success) {
-			const firstError = validationResult.error.errors[0]?.message || 'Invalid subscription data';
+			const firstError = validationResult.error.issues[0]?.message || 'Invalid subscription data';
 			throw error(400, { message: firstError });
 		}
 
@@ -589,7 +595,7 @@ export const actions: Actions = {
 		// Validate input
 		const validationResult = flagCommentSchema.safeParse(body);
 		if (!validationResult.success) {
-			const firstError = validationResult.error.errors[0]?.message || 'Invalid flag data';
+			const firstError = validationResult.error.issues[0]?.message || 'Invalid flag data';
 			throw error(400, { message: firstError });
 		}
 
@@ -614,7 +620,7 @@ export const actions: Actions = {
 		const formData = Object.fromEntries(await request.formData());
 		const parsed = updateQuestionImgSchema.safeParse(formData);
 		if (!parsed.success) {
-			throw error(400, parsed.error.errors[0]?.message || 'Invalid image update payload');
+			throw error(400, parsed.error.issues[0]?.message || 'Invalid image update payload');
 		}
 
 		const question = await getQuestionForMutation(db, params.slug, demoTime);
@@ -650,7 +656,7 @@ export const actions: Actions = {
 		const formData = Object.fromEntries(await request.formData());
 		const parsed = updateQuestionCategoriesSchema.safeParse(formData);
 		if (!parsed.success) {
-			throw error(400, parsed.error.errors[0]?.message || 'Invalid category update payload');
+			throw error(400, parsed.error.issues[0]?.message || 'Invalid category update payload');
 		}
 
 		const { questionId, tagIds } = parsed.data;
@@ -745,7 +751,7 @@ export const actions: Actions = {
 		const formData = Object.fromEntries(await request.formData());
 		const parsed = createLeafCategorySchema.safeParse(formData);
 		if (!parsed.success) {
-			throw error(400, parsed.error.errors[0]?.message || 'Invalid category create payload');
+			throw error(400, parsed.error.issues[0]?.message || 'Invalid category create payload');
 		}
 
 		const { questionId, parentId, categoryName } = parsed.data;

@@ -39,7 +39,7 @@ export const actions: Actions = guardAdminActions({
 			});
 		} catch (e) {
 			if (e instanceof z.ZodError) {
-				logger.warn('Email template validation failed', { errors: e.errors });
+				logger.warn('Email template validation failed', { errors: e.issues });
 				throw error(400, 'Invalid input data');
 			}
 			throw e;

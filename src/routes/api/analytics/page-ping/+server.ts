@@ -47,7 +47,7 @@ export const POST = withApiLogging(async (event) => {
 		});
 	} catch (e) {
 		if (e instanceof z.ZodError) {
-			logger.warn('Invalid analytics page-ping payload', { errors: e.errors });
+			logger.warn('Invalid analytics page-ping payload', { errors: e.issues });
 			throw error(400, 'Invalid page-ping payload');
 		}
 		if ((e as any)?.status) {

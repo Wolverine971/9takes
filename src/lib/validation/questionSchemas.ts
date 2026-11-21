@@ -10,7 +10,7 @@ const optionalClientUuidSchema = z.preprocess((value) => {
 	}
 
 	return trimmed;
-}, z.string().uuid().optional());
+}, z.string().guid().optional());
 
 // Comment validation schemas
 export const createCommentSchema = z

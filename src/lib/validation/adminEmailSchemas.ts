@@ -22,7 +22,7 @@ export const adminEmailRecipientSchema = z
 const recipientsSchema = z.array(adminEmailRecipientSchema).min(1).max(1000);
 const subjectSchema = z.string().trim().min(1).max(200);
 const htmlContentSchema = z.string().trim().min(1).max(250_000);
-const campaignIdSchema = z.string().uuid().optional();
+const campaignIdSchema = z.string().guid().optional();
 
 export const adminSendEmailSchema = z.object({
 	recipients: recipientsSchema,
@@ -36,7 +36,7 @@ export const adminScheduleEmailSchema = adminSendEmailSchema.extend({
 });
 
 export const adminSaveEmailDraftSchema = z.object({
-	id: z.string().uuid().optional(),
+	id: z.string().guid().optional(),
 	subject: z.string().max(200).optional(),
 	html_content: z.string().max(250_000).optional(),
 	recipients: z.array(adminEmailRecipientSchema).max(1000).default([]),

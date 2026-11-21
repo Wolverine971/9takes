@@ -226,7 +226,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 		if (isHttpError(e)) throw e;
 		if (e instanceof z.ZodError) {
 			logger.warn('Invalid request parameters', {
-				errors: e.errors
+				errors: e.issues
 			});
 			throw error(400, 'Invalid request parameters');
 		}
@@ -283,7 +283,7 @@ export const POST = withApiLogging(async ({ locals, request }) => {
 	} catch (e) {
 		if (e instanceof z.ZodError) {
 			logger.warn('Invalid comment data', {
-				errors: e.errors
+				errors: e.issues
 			});
 			throw error(400, 'Invalid comment data');
 		}

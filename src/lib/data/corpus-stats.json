@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T23:17:29.510Z",
+  "generated_at": "2026-11-21T16:18:29.856Z",
   "totals": {
     "published": 469,
     "unpublished_drafts": 107
@@ -1026,12 +1026,12 @@
   "pipeline": {
     "in_draft": 107,
     "draft_min_content_chars": 2000,
-    "published_last_30_days": 16,
-    "published_last_90_days": 35,
-    "avg_new_per_month": 11.7
+    "published_last_30_days": 15,
+    "published_last_90_days": 34,
+    "avg_new_per_month": 11.3
   },
   "freshness": {
-    "updated_last_30_days": 16,
+    "updated_last_30_days": 14,
     "updated_last_90_days": 48,
     "share_updated_last_90_days": 0.1023,
     "missing_lastmod": 0
@@ -1053,6 +1053,6 @@
     "Among 27 profiles in the Style, Food & Home category on 9takes, Type 8 (Challenger) is over-represented at 18.5% — +8.28 percentage points above the corpus baseline.",
     "Among 15 profiles in the Self-Help & Wellness category on 9takes, Type 8 (Challenger) is over-represented at 26.7% — +16.43 percentage points above the corpus baseline.",
     "Among 80 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.43 percentage points above the corpus baseline.",
-    "107 more profiles exist as unpublished drafts on 9takes, and ~11.7 new profiles were published per month over the last 90 days."
+    "107 more profiles exist as unpublished drafts on 9takes, and ~11.3 new profiles were published per month over the last 90 days."
   ]
 }

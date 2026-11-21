@@ -8,7 +8,7 @@ import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 const getLinksSchema = z.object({
 	parentId: z.string().transform(Number),
 	type: z.enum(['question', 'comment']).default('question'),
-	range: z.string().transform(Number).default('0')
+	range: z.string().transform(Number).default(0)
 });
 
 export const GET = withApiLogging(async ({ url, locals, cookies }) => {
@@ -74,7 +74,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 	} catch (e) {
 		if (e instanceof z.ZodError) {
 			logger.warn('Invalid request parameters', {
-				errors: e.errors
+				errors: e.issues
 			});
 			throw error(400, 'Invalid request parameters');
 		}

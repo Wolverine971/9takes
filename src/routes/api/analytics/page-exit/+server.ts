@@ -49,7 +49,7 @@ export const POST = withApiLogging(async (event) => {
 		});
 	} catch (e) {
 		if (e instanceof z.ZodError) {
-			logger.warn('Invalid analytics page-exit payload', { errors: e.errors });
+			logger.warn('Invalid analytics page-exit payload', { errors: e.issues });
 			throw error(400, 'Invalid page-exit payload');
 		}
 		if ((e as any)?.status) {

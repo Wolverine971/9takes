@@ -16,8 +16,8 @@ export const userSchema = z.object({
 export const commentSchema = z.object({
 	comment_text: z.string().min(1).max(5000),
 	comment_type: z.enum(['comment', 'question', 'answer']).default('comment'),
-	parent_id: z.string().uuid().optional(),
-	question_id: z.string().uuid(),
+	parent_id: z.string().guid().optional(),
+	question_id: z.string().guid(),
 	tag_1: z.number().int().min(1).max(9).optional(),
 	tag_2: z.number().int().min(1).max(9).optional(),
 	is_anonymous: z.boolean().default(false)
@@ -28,7 +28,7 @@ export const questionSchema = z.object({
 	question: z.string().min(10).max(500),
 	context: z.string().max(2000).optional(),
 	img_url: z.string().url().optional(),
-	author_id: z.string().uuid().optional(),
+	author_id: z.string().guid().optional(),
 	is_anonymous: z.boolean().default(true),
 	tags: z.array(z.string()).max(5).optional()
 });
@@ -51,8 +51,8 @@ export const aiPromptSchema = z.object({
 export const notificationSchema = z.object({
 	type: z.enum(['comment', 'like', 'follow', 'mention', 'system']),
 	message: z.string().max(500),
-	related_id: z.string().uuid().optional(),
-	user_id: z.string().uuid()
+	related_id: z.string().guid().optional(),
+	user_id: z.string().guid()
 });
 
 // Subscription validation schemas
@@ -101,7 +101,7 @@ export const updateAccountSchema = z.object({
 
 // Admin validation schemas
 export const adminActionSchema = z.object({
-	userId: z.string().uuid().optional(),
+	userId: z.string().guid().optional(),
 	action: z.enum(['makeAdmin', 'removeAdmin', 'ban', 'unban']).optional()
 });
 
@@ -124,7 +124,7 @@ export const adminUserUpdateSchema = z.object({
 });
 
 export const adminUpdateAdminStatusSchema = z.object({
-	userId: z.string().uuid(),
+	userId: z.string().guid(),
 	isAdmin: z.enum(['true', 'false']).transform((val) => val === 'true')
 });
 

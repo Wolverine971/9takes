@@ -14,7 +14,7 @@ const candidateSummarySchema = z.object({
 	limit: z.number().int().min(0).max(1000),
 	candidates: z.array(
 		z.object({
-			userId: z.string().uuid(),
+			userId: z.string().guid(),
 			email: z.string().email(),
 			name: z.string().min(1),
 			bucket: reactivationBucketSchema,

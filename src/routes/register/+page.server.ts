@@ -252,14 +252,14 @@ export const actions: Actions = {
 			return { success: true };
 		} catch (e) {
 			if (e instanceof z.ZodError) {
-				const firstError = e.errors[0];
+				const firstError = e.issues[0];
 				logger.warn('Invalid registration data', {
-					errors: e.errors
+					errors: e.issues
 				});
 				return fail(400, {
 					error: firstError.message,
 					captchaRequired: false,
-					details: e.errors
+					details: e.issues
 				});
 			}
 			logger.error('Unexpected registration error', e as Error);

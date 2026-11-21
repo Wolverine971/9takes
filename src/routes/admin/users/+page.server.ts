@@ -21,7 +21,7 @@ const SIGNUP_AUTH_EVENT_WINDOW_MS = 10 * 60 * 1000;
 const SIGNUP_AUTH_EVENT_LOOKBACK_DAYS = 30;
 
 const adminUserDetailsSchema = z.object({
-	userId: z.string().uuid()
+	userId: z.string().guid()
 });
 
 type UserActivityQuestion = {
@@ -440,7 +440,7 @@ export const actions: Actions = guardAdminActions({
 			const parsed = adminUserDetailsSchema.safeParse(body);
 
 			if (!parsed.success) {
-				logger.warn('Admin user details validation failed', { errors: parsed.error.errors });
+				logger.warn('Admin user details validation failed', { errors: parsed.error.issues });
 				return fail(400, { success: false, message: 'Invalid user id' });
 			}
 
@@ -633,7 +633,7 @@ export const actions: Actions = guardAdminActions({
 		const parsed = adminUpdateAdminStatusSchema.safeParse(body);
 
 		if (!parsed.success) {
-			logger.warn('Admin status update validation failed', { errors: parsed.error.errors });
+			logger.warn('Admin status update validation failed', { errors: parsed.error.issues });
 			return fail(400, { success: false, message: 'Invalid user or administrator status.' });
 		}
 

@@ -182,9 +182,9 @@ export const actions: Actions = {
 			throw redirect(303, '/questions');
 		} catch (e) {
 			if (e instanceof z.ZodError) {
-				const firstError = e.errors[0];
+				const firstError = e.issues[0];
 				logger.warn('Invalid login data', {
-					errors: e.errors
+					errors: e.issues
 				});
 				return fail(400, {
 					error: firstError.message,

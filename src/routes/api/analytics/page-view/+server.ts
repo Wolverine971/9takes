@@ -79,7 +79,7 @@ export const POST = withApiLogging(async (event) => {
 		});
 	} catch (e) {
 		if (e instanceof z.ZodError) {
-			logger.warn('Invalid analytics page-view payload', { errors: e.errors });
+			logger.warn('Invalid analytics page-view payload', { errors: e.issues });
 			throw error(400, 'Invalid page-view payload');
 		}
 		if ((e as any)?.status) {

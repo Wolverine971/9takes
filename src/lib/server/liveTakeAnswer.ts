@@ -85,7 +85,7 @@ export async function postLiveTake(
 		question_id: String(question.id)
 	});
 	if (!validation.success) {
-		return fail(400, validation.error.errors[0]?.message || 'Invalid comment data');
+		return fail(400, validation.error.issues[0]?.message || 'Invalid comment data');
 	}
 	const take = validation.data;
 	// The schema trims after its length check, so whitespace-only text gets here empty.

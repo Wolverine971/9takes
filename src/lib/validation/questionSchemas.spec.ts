@@ -11,7 +11,7 @@ describe('createCommentSchema', () => {
 		(comment) => {
 			const result = take(comment);
 			expect(result.success).toBe(false);
-			expect(result.error?.errors[0]?.message).toBe(
+			expect(result.error?.issues[0]?.message).toBe(
 				'Write an answer in words to unlock the other takes.'
 			);
 		}

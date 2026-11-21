@@ -236,7 +236,7 @@ export const actions: Actions = guardAdminActions({
 		const parsed = curateSchema.safeParse(Object.fromEntries(await request.formData()));
 		if (!parsed.success) {
 			return fail(400, {
-				curation: { error: parsed.error.errors[0]?.message ?? 'Invalid curation payload' }
+				curation: { error: parsed.error.issues[0]?.message ?? 'Invalid curation payload' }
 			});
 		}
 

@@ -63,7 +63,7 @@ export const POST: RequestHandler = async ({ request, getClientAddress }) => {
 		validatedData = emailSubmissionSchema.parse(body);
 	} catch (e) {
 		if (e instanceof z.ZodError) {
-			logger.warn('Person suggestion validation failed', { errors: e.errors });
+			logger.warn('Person suggestion validation failed', { errors: e.issues });
 			return json(
 				{ ok: false, code: 'invalid_input', message: 'Invalid input data' },
 				{ status: 400 }

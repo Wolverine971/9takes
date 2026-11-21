@@ -5,7 +5,7 @@ import { ANALYTICS_MAX_DELTA_MS, ANALYTICS_SCOPES } from '$lib/analytics/pageAna
 export const analyticsScopeSchema = z.enum(ANALYTICS_SCOPES);
 
 export const pageViewSchema = z.object({
-	visit_key: z.string().uuid(),
+	visit_key: z.string().guid(),
 	session_key: z.string().min(1).max(120),
 	fingerprint: z.string().min(1).max(100),
 	path: z.string().min(1).max(500),
@@ -25,7 +25,7 @@ export const pageViewSchema = z.object({
 });
 
 export const pagePingSchema = z.object({
-	visit_key: z.string().uuid(),
+	visit_key: z.string().guid(),
 	engaged_ms_delta: z.number().int().min(0).max(ANALYTICS_MAX_DELTA_MS).default(0),
 	max_scroll_pct: z.number().int().min(0).max(100).optional().default(0)
 });

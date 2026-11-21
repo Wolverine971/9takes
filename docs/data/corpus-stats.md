@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-11-20T23:17:29.510Z_
+_Generated: 2026-11-21T16:18:29.856Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -300,13 +300,13 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 ## Pipeline
 
 - **Unpublished drafts (2000+ characters):** 107
-- **Published in the last 30 days:** 16
-- **Published in the last 90 days:** 35
-- **Average new profiles per month (trailing 90d):** 11.7
+- **Published in the last 30 days:** 15
+- **Published in the last 90 days:** 34
+- **Average new profiles per month (trailing 90d):** 11.3
 
 ## Freshness
 
-- **Updated in last 30 days:** 16
+- **Updated in last 30 days:** 14
 - **Updated in last 90 days:** 48 (10.2%)
 - **Missing `lastmod`:** 0
 
@@ -329,7 +329,7 @@ Snapshot wording for reference. In posts, write the numbers as live tokens (next
 - Among 27 profiles in the Style, Food & Home category on 9takes, Type 8 (Challenger) is over-represented at 18.5% — +8.28 percentage points above the corpus baseline.
 - Among 15 profiles in the Self-Help & Wellness category on 9takes, Type 8 (Challenger) is over-represented at 26.7% — +16.43 percentage points above the corpus baseline.
 - Among 80 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.43 percentage points above the corpus baseline.
-- 107 more profiles exist as unpublished drafts on 9takes, and ~11.7 new profiles were published per month over the last 90 days.
+- 107 more profiles exist as unpublished drafts on 9takes, and ~11.3 new profiles were published per month over the last 90 days.
 
 ## Live tokens
 
@@ -339,9 +339,9 @@ Posts never hand-type corpus numbers. Write `{{corpus.<path>}}` and the build sw
 | ----- | ----------- |
 | `{{corpus.total}}` | 469 |
 | `{{corpus.drafts}}` | 107 |
-| `{{corpus.per-month}}` | 11.7 |
-| `{{corpus.published-30}}` | 16 |
-| `{{corpus.published-90}}` | 35 |
+| `{{corpus.per-month}}` | 11.3 |
+| `{{corpus.published-30}}` | 15 |
+| `{{corpus.published-90}}` | 34 |
 | `{{corpus.updated-90}}` | 48 |
 | `{{corpus.updated-90-share}}` | 10.2% |
 | `{{corpus.as-of}}` | November 2026 |

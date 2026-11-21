@@ -67,7 +67,7 @@ export const actions: Actions = {
 				context: { reason: 'invalid_email' }
 			});
 			return fail(400, {
-				error: validatedData.error.errors[0]?.message || 'Invalid email address',
+				error: validatedData.error.issues[0]?.message || 'Invalid email address',
 				email: rawEmail
 			});
 		}

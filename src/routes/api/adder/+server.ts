@@ -32,7 +32,7 @@ export const POST = withApiLogging(async ({ request }) => {
 	} catch (e) {
 		if (e instanceof z.ZodError) {
 			logger.warn('Invalid visitor data', {
-				errors: e.errors
+				errors: e.issues
 			});
 			return json({ error: 'Invalid visitor data' }, { status: 400 });
 		}

@@ -50,7 +50,7 @@ function optionalText(field: IntakeField, max: number) {
 
 function requiredText(field: IntakeField, max: number) {
 	return z
-		.string({ required_error: `${FIELD_LABELS[field]} is required` })
+		.string({ error: `${FIELD_LABELS[field]} is required` })
 		.trim()
 		.min(1, `${FIELD_LABELS[field]} is required`)
 		.max(max, `${FIELD_LABELS[field]} must be ${max.toLocaleString('en-US')} characters or fewer`);
@@ -74,7 +74,7 @@ export const intakeSubmissionSchema = z.object({
 	previous_attempts: longText('previous_attempts'),
 	urgency_level: z
 		.enum(['', 'low', 'medium', 'high', 'critical'], {
-			errorMap: () => ({ message: 'Choose an urgency level from the list' })
+			error: 'Choose an urgency level from the list'
 		})
 		.default('')
 		.transform((value) => (value === '' ? null : value)),
@@ -116,4 +116,4 @@ export const intakeSubmissionSchema = z.object({
 export type IntakeSubmission = z.infer<typeof intakeSubmissionSchema>;
 
 /** Intake links carry the form's id, which is a UUID. */
-export const intakeTokenSchema = z.string().uuid();
+export const intakeTokenSchema = z.string().guid();

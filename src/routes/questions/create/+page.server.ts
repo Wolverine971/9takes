@@ -19,7 +19,10 @@ const QUESTION_MAX_LENGTH = 280;
 
 const questionTextSchema = z.preprocess(
 	(value) => (typeof value === 'string' ? value.trim().replace(/\s+/g, ' ') : value),
-	z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH)
+	z
+		.string()
+		.min(QUESTION_MIN_LENGTH, `Question must be at least ${QUESTION_MIN_LENGTH} characters`)
+		.max(QUESTION_MAX_LENGTH, `Question cannot exceed ${QUESTION_MAX_LENGTH} characters`)
 );
 
 const getUrlSchema = z.object({
@@ -31,14 +34,14 @@ const optionalClientAuthorIdSchema = z.preprocess((value) => {
 
 	const trimmed = value.trim();
 	return trimmed && trimmed !== 'undefined' && trimmed !== 'null' ? trimmed : undefined;
-}, z.string().uuid().optional());
+}, z.string().guid().optional());
 
 const createQuestionSchema = z.object({
 	question: questionTextSchema,
 	author_id: optionalClientAuthorIdSchema,
 	context: z
 		.string()
-		.max(2000)
+		.max(2000, 'Context cannot exceed 2000 characters')
 		.optional()
 		.default('')
 		.transform((value) => value.trim()),
@@ -104,7 +107,7 @@ export const actions: Actions = {
 		} catch (e) {
 			if (e instanceof z.ZodError) {
 				logger.warn('Invalid URL generation data', {
-					errors: e.errors
+					errors: e.issues
 				});
 				throw error(400, 'Invalid question format');
 			}
@@ -291,7 +294,7 @@ export const actions: Actions = {
 		} catch (e) {
 			if (e instanceof z.ZodError) {
 				logger.warn('Invalid question data', {
-					errors: e.errors
+					errors: e.issues
 				});
 				throw error(400, 'Invalid question data');
 			}
