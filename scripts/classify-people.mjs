@@ -17,6 +17,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
+import * as prettier from 'prettier';
 import { createJevClient, readOpenRouterKey } from './lib/jevClient.js';
 import { normalizePersonalitySlug } from './lib/personalitySeo.js';
 
@@ -131,13 +132,15 @@ async function classify(jev, state) {
 	};
 }
 
-function sortedJson(record) {
+/** Sorted by slug and formatted with the repo's Prettier config, so `pnpm lint` stays clean. */
+async function sortedJson(record) {
 	const sorted = Object.fromEntries(
 		Object.keys(record)
 			.sort()
 			.map((slug) => [slug, record[slug]])
 	);
-	return JSON.stringify(sorted, null, '\t') + '\n';
+	const options = (await prettier.resolveConfig(OUTPUT)) ?? {};
+	return prettier.format(JSON.stringify(sorted), { ...options, filepath: OUTPUT });
 }
 
 async function main() {
@@ -194,7 +197,7 @@ async function main() {
 			`${slug}: ${result.home.join(' › ')} (${result.confidence}, p=${result.probability})`
 		);
 	}
-	fs.writeFileSync(OUTPUT, sortedJson(labels));
+	fs.writeFileSync(OUTPUT, await sortedJson(labels));
 	console.log(`Saved ${targets.length}. Jev cost $${jev.stats.cost.toFixed(4)}.`);
 }
 
