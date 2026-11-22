@@ -17,6 +17,11 @@ import {
 	normalizePersonalitySlug
 } from './lib/personalitySeo.js';
 import { buildQuestionCategorySlug } from '../src/lib/utils/questionCategorySlug.js';
+import { isNoindexPerson } from '../src/lib/data/noindexPeople.js';
+import {
+	MIN_LIVE_ROWS_FOR_INDEX,
+	SUPERLATIVE_TRAITS
+} from '../src/lib/data/superlativeRankings.js';
 import { hasSubstantiveQuestionCategoryIntro } from '../src/lib/utils/questionCategorySeo.js';
 
 const { glob } = pkg;
@@ -124,6 +129,11 @@ const ROUTE_FILES = {
 		'src/routes/enneagram-corner/subtopic/[slug]/+page.server.ts'
 	],
 	enneagramTest: ['src/routes/enneagram-test/+page.svelte'],
+	enneagramRankings: [
+		'src/routes/enneagram-corner/enneagram-type-rankings/+page.svelte',
+		'src/routes/enneagram-corner/enneagram-type-rankings/+page.server.ts',
+		'src/lib/data/superlativeRankings.js'
+	],
 	howToGuides: [
 		'src/routes/how-to-guides/+page.svelte',
 		'src/routes/how-to-guides/+page.server.ts'
@@ -562,6 +572,19 @@ export function buildStaticPages({ posts, peoplePosts, questions }) {
 				siteFallbackLastmod
 			})
 		},
+		// The rankings hub is noindex until enough of its posts are live (same rule as the page).
+		...(countLiveRankingRows(posts) >= MIN_LIVE_ROWS_FOR_INDEX
+			? [
+					{
+						loc: `${SITE_URL}/enneagram-corner/enneagram-type-rankings`,
+						lastmod: resolveStaticLastmod({
+							contentDates: [latestEnneagram],
+							routePaths: ROUTE_FILES.enneagramRankings,
+							siteFallbackLastmod
+						})
+					}
+				]
+			: []),
 		{
 			loc: `${SITE_URL}/how-to-guides`,
 			lastmod: resolveStaticLastmod({
@@ -810,6 +833,15 @@ function buildQuestionEntry(question) {
 }
 
 /**
+ * Rows on the rankings hub whose post is published (the hub shows only those).
+ * @param {ContentPost[]} posts
+ */
+function countLiveRankingRows(posts) {
+	const livePaths = new Set(posts.map((post) => getPathname(post.loc)).filter(Boolean));
+	return SUPERLATIVE_TRAITS.filter((row) => livePaths.has(row.postPath)).length;
+}
+
+/**
  * @param {QuestionRow[]} questions
  * @returns {Promise<QuestionCategoryPages>}
  */
@@ -933,17 +965,25 @@ async function getFamousPeople() {
 		return [];
 	}
 
-	return (data ?? []).map((person) => {
-		const row = /** @type {ContentPost} */ (person);
-		return {
-			...row,
-			slug: normalizePersonalitySlug(row.person),
-			type:
-				/** @type {Record<string, string[]>} */ (reviewedTypes)[
-					normalizePersonalitySlug(row.person)
-				] ?? row.type
-		};
-	});
+	return (
+		(data ?? [])
+			// Live but kept out of Google (src/lib/data/noindexPeople.js).
+			.filter(
+				(person) =>
+					!isNoindexPerson(normalizePersonalitySlug(/** @type {ContentPost} */ (person).person))
+			)
+			.map((person) => {
+				const row = /** @type {ContentPost} */ (person);
+				return {
+					...row,
+					slug: normalizePersonalitySlug(row.person),
+					type:
+						/** @type {Record<string, string[]>} */ (reviewedTypes)[
+							normalizePersonalitySlug(row.person)
+						] ?? row.type
+				};
+			})
+	);
 }
 
 /**

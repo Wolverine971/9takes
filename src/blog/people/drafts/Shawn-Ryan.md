@@ -153,7 +153,7 @@ Not emotional suppression. Actual loss of access to his own inner life. The obse
 
 ## The Observer Takes Shape
 
-Chillicothe, Missouri. Population barely over 9,000. Shawn Ryan Palmisano grew up half-Japanese in a town that reminded him he was different every single day.
+Chillicothe, Missouri. Population barely over 9,000. Shawn Ryan grew up half-Japanese in a town that reminded him he was different every single day.
 
 The racial slurs came regularly. His father was a military pharmacist, a man of precision, knowledge, and quiet service. But young Shawn didn't channel that energy into academics or sports. He channeled it inward.
 

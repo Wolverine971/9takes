@@ -17,6 +17,7 @@
 	import { buildPersonPageJsonLd } from '$lib/utils/personJsonLd';
 	import { buildPersonIdentifiers, buildPersonSameAsUrls } from '$lib/utils/schema';
 	import { capDescriptionForSnippet } from '$lib/utils/seoBudget';
+	import { isNoindexPerson } from '$lib/data/noindexPeople.js';
 
 	let { data }: { data: App.BlogPost } = $props();
 
@@ -28,8 +29,10 @@
 	// truncation, but a literal ellipsis in <title> weakens exact-match intent.
 	let serpTitle = $derived(formattedTitle.trim() || '9takes');
 	let serpDescription = $derived(capDescriptionForSnippet(description || seoTitle || articleTitle));
-	const robotsContent =
-		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+	// A few pages stay live but out of Google (src/lib/data/noindexPeople.js).
+	let robotsContent = $derived(
+		`${isNoindexPerson(data?.slug || data?.person) ? 'noindex' : 'index'}, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1`
+	);
 	let publishedAt = $derived(data?.date || '');
 	let modifiedAt = $derived(data?.lastmod || publishedAt);
 	let canonicalUrl = $derived(data?.loc || buildPersonalityAnalysisUrl(data?.person || data?.slug));

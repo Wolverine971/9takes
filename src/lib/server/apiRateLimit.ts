@@ -35,6 +35,7 @@ export type RateLimitBucket =
 	| 'newsletter_signup'
 	| 'question_comment'
 	| 'nine_type'
+	| 'superlative_vote'
 	| 'link_click'
 	| 'talk_note_details'
 	| 'talk_note_session_alert'
@@ -69,6 +70,8 @@ export const RATE_LIMIT_RULES: Record<RateLimitBucket, RateLimitRule> = {
 	// Looser than the 5-per-minute take rule it sits in front of.
 	question_comment: { limit: 10, windowMs: 60 * 1000 },
 	nine_type: { limit: 20, windowMs: 10 * 60 * 1000 },
+	// Hub votes: a reader working through every trait, changing a few minds.
+	superlative_vote: { limit: 60, windowMs: 10 * 60 * 1000 },
 	link_click: { limit: 30, windowMs: 60 * 1000 },
 	talk_note_details: { limit: 10, windowMs: 60 * 60 * 1000 },
 	// One session alert per note: the window outlasts the 24-hour details token.

@@ -3825,6 +3825,45 @@ export type Database = {
           },
         ]
       }
+      superlative_votes: {
+        Row: {
+          created_at: string
+          fingerprint: string
+          id: number
+          kind: string
+          picked_type: number | null
+          reason: string | null
+          trait: string
+          updated_at: string
+          user_id: string | null
+          voter_type: number | null
+        }
+        Insert: {
+          created_at?: string
+          fingerprint: string
+          id?: never
+          kind: string
+          picked_type?: number | null
+          reason?: string | null
+          trait: string
+          updated_at?: string
+          user_id?: string | null
+          voter_type?: number | null
+        }
+        Update: {
+          created_at?: string
+          fingerprint?: string
+          id?: never
+          kind?: string
+          picked_type?: number | null
+          reason?: string | null
+          trait?: string
+          updated_at?: string
+          user_id?: string | null
+          voter_type?: number | null
+        }
+        Relationships: []
+      }
       telemetry_maintenance_state: {
         Row: {
           created_at: string
@@ -5457,6 +5496,7 @@ export type Database = {
         Returns: string
       }
       text_array_search_text: { Args: { p_values: string[] }; Returns: string }
+      superlative_vote_summary: { Args: never; Returns: Json }
       track_email_event: {
         Args: {
           p_classification?: string
