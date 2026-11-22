@@ -66,7 +66,9 @@ async function run(request: Request, url: URL) {
 
 	// Sequential to stay gentle on the LLM and within the function time budget.
 	for (const q of rows) {
-		const text = (q.question_formatted || q.question || '').trim();
+		// What the asker typed comes first: formatting is checked against it, and
+		// re-formatting an already formatted question lets the wording drift.
+		const text = (q.question || q.question_formatted || '').trim();
 		if (!text) {
 			errors.push({ id: q.id, error: 'Question text is empty' });
 			continue;

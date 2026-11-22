@@ -18,6 +18,7 @@
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { formatTakeDate, formatTakeDateFull } from '$lib/utils/takeDate';
 	import Comments from '$lib/components/molecules/Comments.svelte';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import Popover from '$lib/components/atoms/Popover.svelte';
@@ -135,6 +136,9 @@
 	}
 
 	let createdAtLabel = $derived(formatCommentDate(_commentComment.created_at));
+	// Beside the author: "3d ago" for a week, then the date. The exact moment is the hover title.
+	let createdAtShort = $derived(formatTakeDate(_commentComment.created_at));
+	let createdAtFull = $derived(formatTakeDateFull(_commentComment.created_at));
 	let modifiedAtLabel = $derived(
 		_commentComment.modified_at ? formatCommentDate(_commentComment.modified_at) : null
 	);
@@ -609,6 +613,17 @@
 						{:else}
 							<span class="comment-author" itemprop="author">Anonymous</span>
 						{/if}
+						{#if createdAtShort}
+							<span class="comment-meta__separator" aria-hidden="true">·</span>
+							<time
+								class="comment-meta__date"
+								itemprop="dateCreated"
+								datetime={_commentComment.created_at}
+								title={createdAtFull}
+							>
+								{createdAtShort}
+							</time>
+						{/if}
 						{#if _commentComment.modified_at}
 							<span class="comment-meta__separator" aria-hidden="true">·</span>
 							<span class="comment-meta__edited">Edited</span>
@@ -677,7 +692,7 @@
 										<div class="comment-menu__dates" aria-label="Comment dates">
 											<p class="comment-menu__date">
 												<span>Posted</span>
-												<time itemprop="dateCreated" datetime={_commentComment.created_at}>
+												<time datetime={_commentComment.created_at}>
 													{createdAtLabel}
 												</time>
 											</p>
@@ -1136,8 +1151,13 @@
 		flex: 0 0 auto;
 		opacity: 0.6;
 	}
+	.comment-meta__date,
 	.comment-meta__edited {
 		flex: 0 0 auto;
+		white-space: nowrap;
+	}
+	.comment-meta__date {
+		font-variant-numeric: tabular-nums;
 	}
 
 	.comment-actions {

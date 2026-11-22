@@ -7,6 +7,7 @@ import type { Database, Json } from '../../../database.types';
 import { checkDemoTime } from '../api';
 import { SmartLLMService } from './smart-llm-service';
 import { generateNineTakes, type TakesJsonCaller } from '$lib/server/nineTakesGenerator';
+import { resolveFormattedQuestion } from '$lib/server/questionFormatting';
 
 const llmService = new SmartLLMService({
 	httpReferer: 'https://9takes.com',
@@ -492,10 +493,10 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 				.filter((existing) => existing.category_name && llmTags.includes(existing.category_name))
 				.slice(0, MAX_AI_TAGS_PER_QUESTION);
 			const questionId = resolveQuestionId(tag, questions);
-			const formattedQuestion =
-				tag.question_formatted ||
-				tag.question ||
-				questions.find((question) => question.id === questionId)?.question;
+			const typedQuestion = questions.find((question) => question.id === questionId)?.question;
+			const formattedQuestion = typedQuestion
+				? resolveFormattedQuestion(typedQuestion, tag.question_formatted).text
+				: null;
 
 			if (!questionId) {
 				logger.warn('Could not map LLM response to a question id', { tag });
@@ -597,7 +598,16 @@ export const tagQuestion = async (
 		const matchedTags = tags
 			.filter((tag) => tag.category_name && getLLMTags(chatResp).includes(tag.category_name))
 			.slice(0, MAX_AI_TAGS_PER_QUESTION);
-		const formattedQuestion = chatResp.question_formatted || chatResp.question || questionText;
+		// The model only proposes; the asker's words win if it rewrote them.
+		const formatted = resolveFormattedQuestion(questionText, chatResp.question_formatted);
+		if (formatted.source === 'tidied' && chatResp.question_formatted) {
+			logger.warn("Rejected a formatted question that changed the asker's words", {
+				questionId,
+				typed: questionText,
+				proposed: chatResp.question_formatted
+			});
+		}
+		const formattedQuestion = formatted.text;
 		const matchedTagIds = matchedTags.map((tag) => tag.id);
 
 		await replaceQuestionTags(supabase, questionId, matchedTagIds, demo_time === true);
@@ -680,7 +690,7 @@ export const tagQuestion = async (
 // by $lib/server/nineTakesGenerator (see tagQuestion above).
 const classifyOneQuestionPrompt = `You are going to be given a question or a statement with an id. Your job is to do 3 tasks and return a formatted json response.
 1st, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings. Use at most 5 tags.
-2nd, format the question and add punctuation.
+2nd, punctuate the question for display and return it as question_formatted. Keep the asker's exact words in the same order. You may only add or fix punctuation, fix capitalization, and correct obvious misspellings. Never add, remove, reorder or replace words, never rephrase, and never fix grammar ("Whats your criteria" becomes "What's your criteria", not "What are your criteria"). Keep words the asker wrote in capitals for emphasis, and keep punctuation and quote marks that are already correct. If the question is already well punctuated, return it unchanged.
 3rd, create between 3-5 SEO keywords or phrases that would be relevant to the question or statement.
 
  Format the Response in VALID JSON like the following example:

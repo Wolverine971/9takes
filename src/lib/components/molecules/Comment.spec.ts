@@ -146,8 +146,15 @@ describe('Comment', () => {
 	});
 
 	afterEach(() => {
+		vi.useRealTimers();
 		vi.unstubAllGlobals();
 	});
+
+	// Only the clock is faked, so the take's age is fixed while timers still run.
+	function freezeToday(isoDate: string) {
+		vi.useFakeTimers({ toFake: ['Date'] });
+		vi.setSystemTime(new Date(isoDate));
+	}
 
 	it('flips a like instantly, before the server answers, then keeps the confirmed row', async () => {
 		let resolveFetch!: (value: unknown) => void;
@@ -207,7 +214,8 @@ describe('Comment', () => {
 		expect(oncommentUpdated).not.toHaveBeenCalled();
 	});
 
-	it('groups the complete answer-first comment while keeping dates in the overflow menu', async () => {
+	it('groups the complete answer-first comment and shows the post date beside the author', async () => {
+		freezeToday('2026-08-20T16:00:00.000Z');
 		const { container, getByRole } = render(Comment, {
 			props: {
 				user: null,
@@ -224,8 +232,11 @@ describe('Comment', () => {
 
 		expect(card).toBeTruthy();
 		expect(metadata?.textContent).toContain('Anonymous');
-		expect(metadata?.querySelector('time')).toBeNull();
-		expect(card?.textContent).not.toContain('Aug 3, 2026');
+		const visibleDate = metadata?.querySelector('time[itemprop="dateCreated"]');
+		expect(visibleDate?.textContent?.trim()).toBe('Aug 3');
+		expect(visibleDate?.getAttribute('datetime')).toBe(comment.created_at);
+		expect(visibleDate?.getAttribute('title')).toContain('Aug 3, 2026');
+		expect(metadata?.textContent?.replace(/\s+/g, ' ').trim()).toBe('Anonymous · Aug 3');
 		expect(copy?.textContent?.trim()).toBe(comment.comment);
 		expect(copy?.classList.contains('comment-copy')).toBe(true);
 		if (!metadata || !copy || !actions) throw new Error('Expected complete comment hierarchy');
@@ -251,14 +262,26 @@ describe('Comment', () => {
 		const menu = document.getElementById(
 			menuTrigger.getAttribute('aria-controls') ?? ''
 		) as HTMLElement;
-		const postedAt = menu.querySelector('time[itemprop="dateCreated"]');
+		const postedAt = menu.querySelector('time');
 
 		expect(menu.textContent).toContain('Posted');
 		expect(postedAt?.textContent?.trim()).toBe('Aug 3, 2026');
 		expect(postedAt?.getAttribute('datetime')).toBe(comment.created_at);
 	});
 
-	it('uses Edited as the only visible age signal for a modified comment', async () => {
+	it('shows a recent take as time passed', () => {
+		freezeToday('2026-08-06T19:00:00.000Z');
+		const { container } = render(Comment, {
+			props: { user: null, comment, parentData, questionId: 9 }
+		});
+
+		expect(container.querySelector('footer .comment-meta time')?.textContent?.trim()).toBe(
+			'3d ago'
+		);
+	});
+
+	it('keeps Edited a plain label after the post date; the edit date stays in the menu', async () => {
+		freezeToday('2026-08-20T16:00:00.000Z');
 		const editedComment = {
 			...comment,
 			modified_at: '2026-08-04T16:00:00.000Z'
@@ -276,8 +299,11 @@ describe('Comment', () => {
 		const editedSignal = getByText('Edited');
 
 		expect(editedSignal.getAttribute('title')).toBeNull();
-		expect(card?.querySelector('.comment-card__main time')).toBeNull();
-		expect(card?.textContent).not.toContain('Aug 4, 2026');
+		expect(
+			card?.querySelector('footer .comment-meta')?.textContent?.replace(/\s+/g, ' ').trim()
+		).toBe('Anonymous · Aug 3 · Edited');
+		expect(card?.querySelectorAll('.comment-card__main time')).toHaveLength(1);
+		expect(card?.textContent).not.toContain('Aug 4');
 
 		const menuTrigger = getByRole('button', { name: 'Comment options' });
 		await fireEvent.click(menuTrigger);
