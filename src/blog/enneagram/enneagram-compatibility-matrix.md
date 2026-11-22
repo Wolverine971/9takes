@@ -1,6 +1,6 @@
 ---
 title: 'The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Decoded'
-meta_title: 'Enneagram Compatibility Chart: All 45 Type Pairings'
+meta_title: 'Enneagram Compatibility Chart + Calculator: All 45 Pairings'
 description: 'A 9x9 Enneagram compatibility chart and calculator for all 45 type pairings: what pulls each pair together, where it cracks, and what keeps it working.'
 author: 'DJ Wayne'
 date: '2025-08-24'

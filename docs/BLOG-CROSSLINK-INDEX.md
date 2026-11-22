@@ -192,7 +192,7 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 
 | Status | Files | Meaning |
 |---|---|---|
-| draft | 23 | Routable, `published` is false |
+| draft | 31 | Routable, `published` is false |
 | redirected | 8 | Unpublished and the route 301s the slug to a newer post |
 | no-frontmatter | 2 | Routable folder but no frontmatter (notes); 404s |
 | excluded | 1 | Social variants and notes the route globs skip (`.instagram/.twitter/.reddit/.review`, `-twitter`) |
@@ -205,17 +205,25 @@ Unpublished posts in routable folders. Word count ≥2,500 with links already in
 | Words | Date | Links out | Title | File |
 |---|---|---|---|---|
 | 5,185 | 2026-06-30 | 8 | Why World Leaders Can't Read Each Other: The Psychology of Global Pow… | `pop-culture/world-leaders-enneagram-personality-dynamics.md` |
+| 4,602 | 2026-11-21 | 7 | The Enneagram and Personality Disorders: Which Types Overlap With BPD… | `enneagram/enneagram-and-personality-disorders.md` |
 | 4,492 | 2026-03-04 | 8 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destroy Each O… | `pop-culture/depp-vs-heard-enneagram-analysis.md` |
 | 4,401 | 2026-05-07 | 12 | Succession Enneagram: Why Logan Roy Bred Four Different Personality D… | `pop-culture/succession-roy-siblings-enneagram-types.md` |
 | 4,083 | 2026-05-19 | 5 | Alex and Leila Hormozi: What a Marriage Between Two Type 3s Actually … | `pop-culture/hormozi-marriage-two-type-3s-enneagram.md` |
 | 3,675 | 2026-06-12 | 16 | How to Stand Up for Yourself: Why Your Personality Type Makes It Worse | `guides/how-to-stand-up-for-yourself.md` |
+| 3,599 | 2026-11-21 | 22 | SP Blind, SO Blind, SX Blind: Your Enneagram Instinct Blind Spot | `enneagram/sp-blind-so-blind-sx-blind-enneagram.md` |
 | 3,537 | 2026-05-19 | 7 | My First Million's Real Engine: What Happens When a Type 7 and a Type… | `pop-culture/my-first-million-shaan-sam-enneagram-dynamic.md` |
 | 3,369 | 2026-10-28 | 7 | Dario and Daniela Amodei: Why a CEO Who Plans for the Worst Trusts Hi… | `pop-culture/dario-daniela-amodei-enneagram-dynamic.md` |
 | 3,122 | 2026-04-30 | 2 | You Can't Inherit a Personality: The Succession Trap That Topples Fou… | `pop-culture/succession-personality-trap.md` |
+| 3,060 | 2026-11-21 | 15 | Which Enneagram Type Is the Most Jealous? Our Pick Is Type 4 | `enneagram/which-enneagram-type-is-the-most-jealous.md` |
+| 2,954 | 2026-11-21 | 15 | Which Enneagram Type Is the Most Emotional? Type 4, and the Research … | `enneagram/which-enneagram-type-is-the-most-emotional.md` |
+| 2,842 | 2026-11-21 | 16 | Which Enneagram Type Is the Most Intelligent? Type 5, With One Big Ca… | `enneagram/which-enneagram-type-is-the-most-intelligent.md` |
 | 2,538 | 2026-02-06 | 4 | Your Hidden Superpower: How the Enneagram Reveals the Gifts You Canno… | `guides/enneagram-hidden-strengths-and-gifts.md` |
 | 2,386 | 2026-07-15 | 6 | Enneagram and Autism: Why Masking Makes You Mistype as a 5, 9, or 1 | `enneagram/enneagram-and-autism-why-you-keep-mistyping.md` |
+| 2,381 | 2026-11-21 | 15 | Which Enneagram Type Is the Most Selfish? Type 7 (and Every Type Has … | `enneagram/which-enneagram-type-is-the-most-selfish.md` |
 | 2,370 | 2026-04-01 | 15 | The Missing Middle: You're Not Broken, You're Just Not Fine Either | `enneagram/the-missing-middle.md` |
+| 2,218 | 2026-11-21 | 24 | Which Enneagram Type Is the Most Successful? Type 3 (but the Richest … | `enneagram/which-enneagram-type-is-the-most-successful.md` |
 | 2,094 | 2025-12-15 | 5 | AOC and the Squad: The Enneagram Types of Millennial Politicians Resh… | `pop-culture/aoc-and-the-squad-enneagram-types.md` |
+| 2,078 | 2026-11-21 | 13 | Which Enneagram Type Is the Hardest to Love? Type 4. The Most Difficu… | `enneagram/which-enneagram-type-is-the-hardest-to-love.md` |
 | 1,787 | 2025-12-21 | 0 | OnlyFans Creators by Enneagram: The Psychology of Digital Intimacy | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` |
 | 848 | 2026-03-04 | 7 | Pop Queens: The Personality Types Ruling Music Right Now | `pop-culture/pop-queens-enneagram-analysis.md` |
 | 845 | 2026-03-04 | 6 | Online Gurus: The Personality Types Selling You a Better Life | `pop-culture/online-gurus-enneagram-analysis.md` |

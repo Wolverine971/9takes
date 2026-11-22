@@ -31,6 +31,8 @@ import personalitySimilaritySnapshot from '$lib/generated/personalitySimilarityS
 import { waitUntil } from '@vercel/functions';
 import { smartQuotesText } from '$lib/utils/smartQuotes';
 import { resolveCorpusFaqs, resolveCorpusText } from '$lib/server/corpusTokens';
+import { buildPersonTypeAnswer } from '$lib/server/personTypeAnswer';
+import { MBTI_TEST_READS } from '$lib/data/mbtiTestReads';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type ServerSupabaseClient = SupabaseClient<Database>;
@@ -205,6 +207,31 @@ export const load: PageServerLoad = async (event) => {
 		publishedRows
 	);
 
+	// The direct answer at the top of the page, plus three people of the same
+	// type (same niche first) so the answer links across the type's cluster.
+	const typeAnswerCore = buildPersonTypeAnswer({
+		enneagram: enneagramNum,
+		faqs: personData.faqs,
+		content: personData.content ?? '',
+		isOpenCase
+	});
+	const typeAnswer = typeAnswerCore
+		? {
+				...typeAnswerCore,
+				// Only the 20 MBTI-test pages carry this (see mbtiTestReads.ts).
+				mbti: MBTI_TEST_READS[canonicalSlug] ?? null,
+				peers: [
+					...relatedPosts.sameNichePosts.filter(
+						(post) => parseEnneagramNumber(post.enneagram) === typeAnswerCore.typeNum
+					),
+					...relatedPosts.sameEnneagramPosts
+				]
+					.map((post) => post.slug)
+					.filter((peer, index, all) => peer !== canonicalSlug && all.indexOf(peer) === index)
+					.slice(0, 3)
+			}
+		: null;
+
 	const wordCount = countRenderableWords(content);
 	const publishedAt = personData.published_at ?? personData.date ?? personData.created_at;
 	const modifiedAt = personData.lastmod ?? publishedAt;
@@ -243,6 +270,7 @@ export const load: PageServerLoad = async (event) => {
 		// Thin-record profile: leading read, live alternatives, what would settle
 		// it. Drives the header marker and the closing format note.
 		isOpenCase,
+		typeAnswer,
 		// Visitor-independent (same question for everyone), so it is safe in the
 		// ISR copy. Impressions and answers happen in the browser.
 		chorus: publicChorus.chorus,

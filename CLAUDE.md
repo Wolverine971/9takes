@@ -435,6 +435,7 @@ Run via `pnpm <alias>` where available:
 | `pnpm audit:superlatives`                           | Pages ranking for 'which type is most X' searches they never answer      |
 | `pnpm audit:readability`                            | Paragraph shape + voice tics, worst first (`-- <file>` for one post)     |
 | `pnpm audit:generic`                                | Sentences that could sit in any post, by section (`-- --serve` = page)   |
+| `pnpm audit:core-update`                            | Core-update survivors: GSC before/after per page joined to page traits   |
 | `pnpm gate:entities "Name" ...`                     | Wikipedia gate + autocomplete bio-intent probe for entity-gap scouting   |
 | `pnpm supabase:normalize-personality-slugs`         | Normalize personality slugs in DB                                        |
 | `pnpm seo:normalize-internal-personality-links`     | Rewrite internal personality links                                       |

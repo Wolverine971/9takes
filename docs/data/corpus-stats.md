@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-11-21T16:18:29.856Z_
+_Generated: 2026-11-22T00:00:52.351Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -300,14 +300,14 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 ## Pipeline
 
 - **Unpublished drafts (2000+ characters):** 107
-- **Published in the last 30 days:** 15
+- **Published in the last 30 days:** 14
 - **Published in the last 90 days:** 34
 - **Average new profiles per month (trailing 90d):** 11.3
 
 ## Freshness
 
 - **Updated in last 30 days:** 14
-- **Updated in last 90 days:** 48 (10.2%)
+- **Updated in last 90 days:** 47 (10.0%)
 - **Missing `lastmod`:** 0
 
 ## Ready-to-Cite Claims
@@ -340,10 +340,10 @@ Posts never hand-type corpus numbers. Write `{{corpus.<path>}}` and the build sw
 | `{{corpus.total}}` | 469 |
 | `{{corpus.drafts}}` | 107 |
 | `{{corpus.per-month}}` | 11.3 |
-| `{{corpus.published-30}}` | 15 |
+| `{{corpus.published-30}}` | 14 |
 | `{{corpus.published-90}}` | 34 |
-| `{{corpus.updated-90}}` | 48 |
-| `{{corpus.updated-90-share}}` | 10.2% |
+| `{{corpus.updated-90}}` | 47 |
+| `{{corpus.updated-90-share}}` | 10.0% |
 | `{{corpus.as-of}}` | November 2026 |
 | `{{corpus.type.4.share}}` | 14.3% |
 | `{{corpus.type.4.count}}` | 67 |

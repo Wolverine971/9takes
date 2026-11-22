@@ -307,7 +307,7 @@ Online tests measure behavior. You need to map your core emotional patterns. **F
 
 **Want a structured approach?** The [complete beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) offers a proven 4-step method.
 
-**Prefer a test?** We've [compared every major Enneagram test](/enneagram-corner/enneagram-test-comparison-2026) so you know which ones actually work.
+**Prefer a test?** [Take the free 9takes Enneagram test](/enneagram-test): 5 to 10 minutes, result on screen, no email. It ends with a link a friend answers about you, because the people around you often see your type before you do. Want to compare options first? We've [compared every major Enneagram test](/enneagram-corner/enneagram-test-comparison-2026).
 
 ---
 

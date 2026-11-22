@@ -34,6 +34,7 @@
 	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
 	import NineChorus from '$lib/components/blog/NineChorus.svelte';
 	import TestNudge from '$lib/components/blog/TestNudge.svelte';
+	import PersonTypeAnswer from './PersonTypeAnswer.svelte';
 	import { enneagramTypeProfiles } from '$lib/data/enneagramTypeProfiles';
 
 	// Only import critical components for initial render
@@ -518,6 +519,23 @@
 			</aside>
 		</div>
 	</section>
+
+	<!-- The direct answer to "what is X's personality type" (DJ, 2026-11-21). The
+	     header still leads with the name alone; the answer sits right under it,
+	     before the long read. Open cases skip it (their TL;DR box weighs types). -->
+	{#if data.typeAnswer}
+		<div class="type-answer-wrap">
+			<PersonTypeAnswer
+				name={postDisplayName}
+				typeNum={data.typeAnswer.typeNum}
+				typeName={ENNEAGRAM_TYPE_COLORS[data.typeAnswer.typeNum]?.name ?? ''}
+				wing={data.typeAnswer.wing}
+				tell={data.typeAnswer.tell}
+				peers={data.typeAnswer.peers}
+				mbti={data.typeAnswer.mbti}
+			/>
+		</div>
+	{/if}
 
 	<!-- Article navigation belongs to the case-file prelude, before the divider
 	     that marks the beginning of the long-form analysis. Keeping it outside
@@ -1182,6 +1200,16 @@
 		}
 	}
 
+	/* ---------- direct type answer ---------- */
+	.type-answer-wrap {
+		padding: 24px $gutter 0;
+		background: var(--bg);
+
+		:global(.type-answer) {
+			max-width: var(--prose-measure);
+		}
+	}
+
 	/* ---------- article prelude ----------
 	   The contents disclosure is page navigation, not essay content. Give it a
 	   dedicated band, then use an inset hairline to mark where the read begins. */
@@ -1663,6 +1691,10 @@
 
 		.article-navigation {
 			padding: 20px $gutter-sm;
+		}
+
+		.type-answer-wrap {
+			padding: 20px $gutter-sm 0;
 		}
 
 		.case-file-name {

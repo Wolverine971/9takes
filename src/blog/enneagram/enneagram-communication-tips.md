@@ -1,533 +1,328 @@
 ---
-title: 'What to Say to Each Enneagram Type (Scripts That Actually Work)'
-description: 'Stop guessing what to say. Get word-for-word scripts for reaching each Enneagram type in tough conversations, conflict, and everyday moments.'
+title: 'What to Say to Each Enneagram Type (and What Not to Say)'
+meta_title: 'Things to Say to Each Enneagram Type (and What Not to Say)'
+description: "Things to say to each Enneagram type, what not to say, and questions to ask them, built on each type's core fear. Why the comforting line often backfires."
 author: 'DJ Wayne'
-date: '2023-02-27'
+date: '2026-11-21'
 loc: 'https://9takes.com/enneagram-corner/enneagram-communication-tips'
-lastmod: '2025-12-04'
+lastmod: '2026-11-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['development']
-subtopics: ['communication-skills']
+subtopics: ['communication-skills', 'conflict-repair']
 blog: true
-previewHtml: ''
+previewHtml: 'Every Enneagram type is listening for one thing when you talk: evidence about its core fear. The kindest-sounding line is often the one that confirms it.'
 pic: 'greek-statues-arguing'
+pic_alt: 'Two Greek statues arguing, one leaning in to speak while the other turns away'
 path: src/blog/enneagram/enneagram-communication-tips.md
-quality_grade: 'A'
-quality_score: 9.2
-quality_graded_at: '2026-02-22'
-quality_rewrite_priority: 'none'
-quality_safety_gate: 'n/a'
 ---
+
+<!--
+Search targets (GSC, Nov 2026): "things to say to an enneagram" (138 impr @ 7.5), "things to say to an enneagram 9 / 5 / 2 / 4 / 3 / 1", "things to say to enneagram".
+Autocomplete: "what not to say to each enneagram type", "questions to ask an enneagram N".
+This URL ranked ~#7 for these until it was unpublished on 2026-08-02 and redirected to relationship-communication-guide.
+That guide keeps the per-type relationship scripts; the compliments page keeps praise. This page owns: say / don't say / ask, tied to the core fear.
+-->
 
 <script>
 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
-	import MarqueeHorizontal from '$lib/components/atoms/MarqueeHorizontal.svelte';
 </script>
 
-<p class="firstLetter">"I said exactly what I meant. Why did they get so upset?"</p>
-
-You've had this thought. We all have.
-
-You chose your words carefully. You meant well. You were even _trying_ to be helpful. But somehow your message landed like a grenade instead of an olive branch.
-
-**Here's what nobody tells you:** The same sentence can be medicine for one person and poison for another, depending on their Enneagram type.
-
-"Just calm down" soothes a Type 7 but infuriates a Type 4.
-"Here's the solution" relieves a Type 3 but dismisses a Type 2.
-"Let's talk about your feelings" comforts a Type 9 but panics a Type 5.
-
-You're not bad at communicating. You're speaking the right words to the wrong operating system.
-
-<QuickAnswer question="How do I communicate better with each Enneagram type?">
-Each Enneagram type has different emotional triggers and needs. Type 1s need you to acknowledge their standards. Type 2s need to feel genuinely appreciated. Type 3s need efficiency and respect for their time. Type 4s need emotional validation. Type 5s need space to process. Type 6s need reassurance without dismissal. Type 7s need positive framing. Type 8s need directness and honesty. Type 9s need patience and explicit invitation to share their view.
+<QuickAnswer question="What should you say to each Enneagram type?">
+Say the line that answers their core fear before they have to ask. Tell a <strong>Type 1</strong> what is already right. Tell a <strong>Type 2</strong> they're wanted when they aren't helping. Show a <strong>Type 3</strong> your respect doesn't move with their results. Use a <strong>Type 4's</strong> exact words back to them. Give a <strong>Type 5</strong> a topic and an end time. Tell a <strong>Type 6</strong> what changed and what didn't. Show a <strong>Type 7</strong> that the hard part has an end. Give a <strong>Type 8</strong> the point first, with no cushion. Tell a <strong>Type 9</strong> the relationship is safe before you name the problem. What not to say is usually the comforting cliché, because it confirms the fear it was meant to soothe.
 </QuickAnswer>
 
-This guide gives you the exact words that work. And the phrases that backfire, for every type. No theory. Just scripts you can use today.
+<p class="firstLetter">You text a friend "Can we talk later?" and mean nothing by it. One friend replies "sure!" and forgets about it. Another spends the afternoon replaying the last month, hunting for what they did wrong.</p>
 
-(For the deeper "why" behind each type's communication patterns, see our guide on [Enneagram communication styles](/enneagram-corner/relationship-communication-guide).)
+Same four words. The second friend wasn't being dramatic. They were listening for something specific, and your text gave them nothing to rule it out.
 
-## Why Your Words Keep Missing the Target
+Here is our read of what each Enneagram type tends to hear in that one text:
 
-Every personality type has a different "filter" through which they process your words. That filter was installed in childhood.
+| Type | What they may hear in "Can we talk later?"                       |
+| ---- | ---------------------------------------------------------------- |
+| 1    | "You did something wrong. Find it before they do."               |
+| 2    | "They're pulling away from you."                                 |
+| 3    | "This is about how you've been performing."                      |
+| 4    | "Either something real is coming, or they've had enough of you." |
+| 5    | "An open-ended demand on your time is coming."                   |
+| 6    | "Something is wrong, and they aren't telling you yet."           |
+| 7    | "Something heavy is coming, and you can't leave."                |
+| 8    | "Why later? Say it now."                                         |
+| 9    | "A fight is coming. Smooth it over first."                       |
 
-- The kid who learned love meant meeting high standards? They became Type 1. And now hear criticism where you mean care.
-- The kid who learned love meant being needed? They became Type 2. And now hear rejection where you mean boundaries.
-- The kid who learned love meant achieving? They became Type 3. And now hear "you're failing" where you mean "slow down."
+Each type is listening for evidence about one core fear. A line lands when it answers that fear before the person has to ask. A line backfires when it confirms the fear, and the lines that confirm it most often are the kind ones. "Nobody's perfect" tells a One you saw the flaw. "Don't worry" tells a Six that nobody else is watching for the danger.
 
-Your words pass through their filter before they reach their heart.
+Below are the things to say to each Enneagram type, what not to say, and two questions to ask them. If you're here for one person (say, things to say to an Enneagram 9), skip to their section. Use the type as a starting guess and watch how the person actually reacts. Their reaction is better evidence than the chart.
 
-The key isn't changing what you think. It's translating how you speak.
+## The cheat sheet
 
-| Type | Their Filter           | What They Hear (Even When You Don't Mean It) |
-| ---- | ---------------------- | -------------------------------------------- |
-| 1    | "Am I doing it right?" | Criticism, judgment, disappointment          |
-| 2    | "Am I needed?"         | Rejection, being useless, abandonment        |
-| 3    | "Am I succeeding?"     | Failure, incompetence, worthlessness         |
-| 4    | "Am I understood?"     | Dismissal, ordinary, invisible               |
-| 5    | "Am I capable?"        | Invasion, demands, incompetence              |
-| 6    | "Am I safe?"           | Danger, betrayal, abandonment                |
-| 7    | "Am I free?"           | Limitation, pain, being trapped              |
-| 8    | "Am I in control?"     | Manipulation, weakness, betrayal             |
-| 9    | "Am I at peace?"       | Conflict, pressure, insignificance           |
+| Type  | Listening for                            | Say                                                 | Don't say                     |
+| ----- | ---------------------------------------- | --------------------------------------------------- | ----------------------------- |
+| **1** | "Did I get it wrong?"                    | "It's finished. More work won't make it better."    | "Nobody's perfect."           |
+| **2** | "Am I still wanted if I stop giving?"    | "I've got this one. Sit with me instead."           | "You didn't have to do that." |
+| **3** | "Did that cost me your respect?"         | "That didn't work. I think the same of you."        | "It's fine, nobody saw."      |
+| **4** | "Do you get me, or are you managing me?" | "You said 'hollow,' not sad. Tell me about hollow." | "Everyone feels that way."    |
+| **5** | "How much will this cost me?"            | "Twenty minutes, this week, your pick."             | "We need to talk." (no topic) |
+| **6** | "What aren't you telling me?"            | "Ask me again tomorrow. Same answer."               | "Don't worry about it."       |
+| **7** | "Am I about to be stuck?"                | "There's one hard thing, and it has an end."        | "You need to sit with this."  |
+| **8** | "Are you being straight with me?"        | "I disagree, and here's why."                       | "Calm down."                  |
+| **9** | "Is this going to be a fight?"           | "We're okay. I want to sort out one thing."         | "Fine, I'll decide."          |
 
-Now let's get specific about what to say.
+## What to say to an Enneagram 1 (and why "nobody's perfect" stings)
 
----
+Ones fear being wrong, careless or bad. By the time you notice their mistake, their inner critic has already reviewed it twice and handed down a verdict. So they aren't waiting for your opinion of the mistake. They're waiting to find out whether you've lowered your opinion of them.
 
-## Type 1: The Perfectionist
+**Things to say to an Enneagram 1:**
 
-### What's Happening Inside Their Head
+- After they fix an error: "You caught it and you fixed it. I'm not keeping score."
+- When they're on the fourth revision: "It's finished. More work now would make it different, not better."
+- When they're clearly angry and calling it "fine": "Something unfair happened. You're allowed to be mad about it." Ones often don't let themselves feel anger, so naming it as fair gives them permission.
+- When they won't rest: "Taking tonight off is the responsible call." A One will rest sooner when you put it in terms of what's right than when you put it in terms of fun.
 
-Type 1s grew up believing love was conditional on doing things right. They internalized a harsh inner critic that's judging them 24/7, way harsher than you ever could be.
+**What not to say to an Enneagram 1:**
 
-When they correct you, they're not attacking. They're trying to help you avoid the judgment they fear for themselves.
+- "Nobody's perfect." It confirms you saw the imperfection. It also asks them to drop the standard they built their self-respect on.
+- "Relax, it doesn't matter." To a One, small things matter because they're right or wrong. They hear that you don't care about right.
+- "You're too hard on yourself." It's often true, and it gives the critic one more thing to fail at.
 
-### The Golden Rule
+**Questions to ask an Enneagram 1:**
 
-**Lead with acknowledgment. Criticism should never arrive first.**
+- "What would good enough look like here, specifically?"
+- "What standard are you holding yourself to that nobody else would notice?"
 
-### Scripts for Common Scenarios
+[More on Type 1](/enneagram-corner/enneagram-type-1)
 
-**When they're being overly critical:**
+## Things to say to an Enneagram 2 when they can't stop helping
 
-- ✅ "You're right, that detail matters. What's the best way to fix it?"
-- ✅ "I appreciate you catching that. Let me make it right."
-- ❌ "You're being too picky."
-- ❌ "It's good enough."
+Twos fear being unwanted. Somewhere they learned that love arrives through usefulness, so they keep offering help as a way of checking whether they're still welcome. Turning down the help can sound like turning down the person. The fix is to accept the person and decline the job.
 
-**When you need to give them feedback:**
+**Things to say to an Enneagram 2:**
 
-- ✅ "I know you care about quality. Here's one thing that might make this even better..."
-- ✅ "This is 95% excellent. Can I share a thought on refining the last 5%?"
-- ❌ "Here's what you did wrong."
-- ❌ "You need to relax about this."
+- When they offer to help for the third time: "I've got this one. Sit with me instead."
+- When they look worn down: "What did you need today that nobody gave you?"
+- When they finally ask you for something: "Yes. Thanks for asking." Twos rarely ask directly, so reward the ask, not just the gift.
+- After a long stretch of caretaking: "Tell me something about your week that has nothing to do with anyone else."
 
-**When they're stressed:**
+**What not to say to an Enneagram 2:**
 
-- ✅ "You've done everything you could. Some things are outside your control."
-- ✅ "Your best effort is enough, for real."
-- ❌ "Just let it go."
-- ❌ "Nobody's perfect."
+- "You didn't have to do that." You mean thanks. They hear that the gift wasn't wanted.
+- "I don't need anything." You've closed the door they use to reach you.
+- "You only help so people will like you." Even if it's partly true, it lands as proof of the fear underneath (unlovable without the help). They'll defend themselves instead of looking at it.
 
-### The Magic Phrase
+**Questions to ask an Enneagram 2:**
 
-> "You're right, and I appreciate you holding the standard."
+- "If nobody needed anything from you this weekend, what would you do?"
+- "What's something you want that you haven't asked anyone for?"
 
-This phrase works because it validates their correctness AND reframes their criticism as a positive contribution.
+[More on Type 2](/enneagram-corner/enneagram-type-2)
 
-[More on Type 1 →](/enneagram-corner/enneagram-type-1)
+## What to say to an Enneagram 3 after a loss
 
----
+Threes fear being worthless without their results. They watch how a room responds to them and adjust, often faster than they realize. After a setback, they're scanning your face for a drop in respect. Say plainly that there wasn't one.
 
-## Type 2: The Helper
+**Things to say to an Enneagram 3:**
 
-### What's Happening Inside Their Head
+- After something they led falls apart: "That didn't work. I think the same of you as I did yesterday."
+- When they're pitching you on their own life: "You don't have to sell me on this. I'm already in."
+- When you want the real answer: "Which part of this week did you like, even if it didn't count for anything?"
+- When they pull something off: "How did you decide to do it that way?" Asking about their judgment respects the skill without making them the scoreboard.
 
-Type 2s learned early that being needed = being loved. They've spent a lifetime scanning for how to be valuable to others, often at the expense of knowing what _they_ need.
+**What not to say to an Enneagram 3:**
 
-When they over-give, they're not being manipulative. They're following the only script for love they've ever known.
+- "It's fine, nobody saw." Meant as relief, it confirms that being seen is what counts.
+- "Don't you ever stop?" They hear that they're failing at life while succeeding at work.
+- "Wow, you're so busy." It sounds like admiration and works like a scoreboard. Some Threes hear it as a dig.
 
-### The Golden Rule
+**Questions to ask an Enneagram 3:**
 
-**Appreciate the help. Then redirect to their needs.**
+- "What would you still do if nobody ever found out you did it?"
+- "Which win felt empty, and which small one didn't?"
 
-### Scripts for Common Scenarios
+[More on Type 3](/enneagram-corner/enneagram-type-3)
 
-**When they're over-giving:**
+## Things to say to an Enneagram 4 who feels unseen
 
-- ✅ "This is so thoughtful. But before you do more, tell me, what do YOU need today?"
-- ✅ "I appreciate this. Can I help you with something instead?"
-- ❌ "You don't need to do that."
-- ❌ "I'm fine, thanks." (said dismissively)
+Fours fear having no real identity, or being flawed in a way nobody can see past. They notice the gap between their own experience and the flatter version other people reflect back. Generic comfort widens that gap. Specific attention closes it.
 
-**When you need to set a boundary:**
+**Things to say to an Enneagram 4:**
 
-- ✅ "I love that you want to help. Right now, the best thing for me is space to figure this out myself. It's not about you. It's what I need."
-- ✅ "I value you for who you are, not just what you do for me."
-- ❌ "Stop helping. You're smothering me."
-- ❌ "I don't need you."
+- When they describe a feeling, use their word: "You said 'hollow,' not sad. Tell me about hollow."
+- When they're measuring themselves against someone: "I don't want the version of you that's like her."
+- When it's heavy: "You don't have to be okay right now. I'm staying."
+- When they show you something they made, respond to one detail: "The second verse got me. Why did you end it there?"
 
-**When they're upset but won't admit it:**
+**What not to say to an Enneagram 4:**
 
-- ✅ "I notice you seem off. I'm here when you're ready to talk, about YOU, not about me."
-- ✅ "You take care of everyone else. Let me take care of you for a minute."
-- ❌ "You're clearly fine."
-- ❌ Ignoring the signs.
+- "Everyone feels that way." It's meant to comfort. It makes their experience ordinary, which is exactly what they're afraid of.
+- "I know exactly how you feel." Unless you've asked enough to know, this skips the part where you find out.
+- "At least you have..." Gratitude lists answer a feeling they didn't express, and they'll hear that you'd rather not stay with the one they did.
 
-### The Magic Phrase
+**Questions to ask an Enneagram 4:**
 
-> "I need you, but not for what you do. I need you because you're you."
+- "What part of this hasn't anyone understood yet?"
+- "What feels missing right now?"
 
-This phrase short-circuits their whole operating system. It tells them their worth isn't tied to their usefulness.
+[More on Type 4](/enneagram-corner/enneagram-type-4)
 
-[More on Type 2 →](/enneagram-corner/enneagram-type-2)
+## What to say to an Enneagram 5 without draining them
 
----
+Fives fear being overwhelmed, helpless or not capable enough. They treat time and social energy like a fixed budget, and an open-ended request is a bill with no total on it. Give the conversation edges and they show up with more.
 
-## Type 3: The Achiever
+**Things to say to an Enneagram 5:**
 
-### What's Happening Inside Their Head
+- Before a big conversation: "I want to talk about the trip. Twenty minutes, sometime this week, your pick."
+- When they're stuck on a problem: "You don't have to have it figured out before we talk about it." Fives often won't share a thought until it's finished. Say out loud that a half-formed one is welcome.
+- At a party that's running long: "Want to head out at ten? I'll make the excuse."
+- When they explain something, ask the follow-up that proves you were tracking: "Wait, if that's true, then why does the cheaper one break first?"
 
-Type 3s learned that love came through accomplishment. They've become experts at reading what success looks like in any room. And morphing to match it.
+**What not to say to an Enneagram 5:**
 
-When they seem image-focused, they're not shallow. They're terrified that without achievement, they'll literally disappear.
+- "We need to talk," with no topic and no end time. The open-endedness is the threat.
+- "Why didn't you tell me sooner?" They often waited until they understood it. This punishes the thinking.
+- "Can you just be present for once?" It's vague and it's a demand. They'll hear that what they already gave doesn't count.
 
-### The Golden Rule
+**Questions to ask an Enneagram 5:**
 
-**Respect their time. Get to the point. But occasionally see them, not just their output.**
+- "What have you been figuring out lately?"
+- "How much social energy do you have left this week, honestly?"
 
-### Scripts for Common Scenarios
+[More on Type 5](/enneagram-corner/enneagram-type-5)
 
-**When you need something from them:**
+## Things to say to an Enneagram 6 when they're bracing for the worst
 
-- ✅ "Here's the bottom line: [specific ask]. I know you're busy. Just need 5 minutes."
-- ✅ "Quick win for you: [benefit]. Can we sync tomorrow at 2?"
-- ❌ "Whenever you have time..." (vague)
-- ❌ Long-winded context before the ask.
+Sixes fear being left without support, or trusting the wrong person. Their attention runs ahead to what could fail, and it's often right. What calms a Six is information plus consistency over time, which works better than any reassurance.
 
-**When they're burning out but won't stop:**
+**Things to say to an Enneagram 6:**
 
-- ✅ "You've already crushed it. Rest isn't weakness. It's maintenance for the machine."
-- ✅ "What if your next achievement was learning to recharge? That takes skill too."
-- ❌ "You work too much."
-- ❌ "Don't you think you should slow down?"
+- When plans change, say what moved and what didn't: "The flight moved to 6. Nothing else changed. I'll handle the car."
+- When they raise a risk: "I hadn't thought of that. What else are you seeing?" It treats their radar as an asset instead of a symptom.
+- When they test you with the same question twice: "Ask me again tomorrow. The answer will be the same."
+- When you disagree with them: "I'm on your side, and I see this one differently."
 
-**When you want them to open up:**
+**What not to say to an Enneagram 6:**
 
-- ✅ "Forget the work for a second. How are YOU doing. Not the role, not the title, just you?"
-- ✅ "I see you working so hard. I also see a person I care about. Both matter."
-- ❌ "You're so focused on success you forgot how to feel."
-- ❌ "Let's process your emotions." (too slow, too vague)
+- "Don't worry about it." They hear that you aren't taking the risk seriously, so now they have to worry for two.
+- "Trust me." Sixes build trust from a track record. Asking for it on the spot is a red flag.
+- "Everything will be fine." You can't know that, and they know you can't.
 
-### The Magic Phrase
+**Questions to ask an Enneagram 6:**
 
-> "You're valuable even when you're not producing."
+- "What's the scenario you keep running in your head?"
+- "Who do you trust on this, and why them?"
 
-This breaks their core assumption. Say it. Mean it. Watch them pause.
+[More on Type 6](/enneagram-corner/enneagram-type-6)
 
-[More on Type 3 →](/enneagram-corner/enneagram-type-3)
+## What to say to an Enneagram 7 before a hard conversation
 
----
+Sevens fear being trapped in pain or missing out. They can handle hard things. What they resist is a hard thing that looks like it has no end. Show them the edges of the conversation, and they'll stay in the middle of it longer than you expect.
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
-</div>
+**Things to say to an Enneagram 7:**
 
----
+- Before the talk: "There's one hard thing, and it has an end. Then dinner."
+- When they jump to a new plan mid-feeling: "Hang on. Before the plan, how did that actually feel?"
+- When they're hurting: "You don't have to be fun right now."
+- When they pitch a new idea, join it before you narrow it: "That's a great idea. Which part are you starting with?"
 
-## Type 4: The Individualist
+**What not to say to an Enneagram 7:**
 
-### What's Happening Inside Their Head
+- "You need to sit with this." To a Seven it sounds like a sentence with no release date.
+- "You never take anything seriously." They do, privately. This pushes them toward the door.
+- "You can't do all of that." It may be true, but it lands as deprivation. Ask them to pick instead.
 
-Type 4s grew up feeling fundamentally different, like everyone else got a manual for life that they missed. They've turned that difference into an identity, but underneath is a fear that they're flawed in a way nobody can fix.
+**Questions to ask an Enneagram 7:**
 
-When they're intense, they're not being dramatic. They're experiencing life at 200% volume. And asking you to witness it.
+- "What's the best part of your week so far, and the worst?" Asking for both lets the hard part in without leading with it.
+- "What's the thing you keep putting off thinking about?"
 
-### The Golden Rule
+[More on Type 7](/enneagram-corner/enneagram-type-7)
 
-**Validate first. Never fix. Sit in the feeling with them.**
+## Things to say to an Enneagram 8 (and the cushion to drop)
 
-### Scripts for Common Scenarios
+Eights fear being controlled, harmed or betrayed. They read padding as positioning. The more softening you put around a message, the more they wonder what you're setting up. Plain words feel like respect to an Eight.
 
-**When they're sharing something painful:**
+**Things to say to an Enneagram 8:**
 
-- ✅ "That sounds really hard. I'm here."
-- ✅ "I hear you. Your feelings make sense."
-- ❌ "Look on the bright side."
-- ❌ "At least you're not..."
-- ❌ "Have you tried [solution]?"
+- Lead with the point: "I disagree, and here's why."
+- When they push past your answer: "I heard you. It's still no."
+- When they were right and harsh: "You were right on the substance. You flattened him getting there." Give both truths and hedge neither.
+- When they're carrying everyone: "I've got this one. You don't have to protect me here."
 
-**When they feel misunderstood:**
+**What not to say to an Enneagram 8:**
 
-- ✅ "Help me understand. I want to get this right."
-- ✅ "I may not feel it exactly like you, but I'm listening."
-- ❌ "You're being dramatic."
-- ❌ "I get it" (when you clearly don't).
+- "Calm down." It tells them you think they're out of control, which is the thing they guard against most.
+- "I don't want you to take this the wrong way, but..." The windup reads as a setup, and they brace for manipulation.
+- "You're intimidating people." Name the specific effect instead ("Sam stopped talking after that"). The general label sounds like a request to be smaller.
 
-**When you need them to move forward:**
+**Questions to ask an Enneagram 8:**
 
-- ✅ "I'm not asking you to stop feeling this. But when you're ready, here's a small step we could take together."
-- ✅ "What would honoring this feeling AND taking action look like?"
-- ❌ "Get over it."
-- ❌ "Just move on."
+- "What do you actually want here?"
+- "What are you carrying that nobody knows about?"
 
-### The Magic Phrase
+[More on Type 8](/enneagram-corner/enneagram-type-8)
 
-> "Your depth isn't a burden. It's a gift. I'm not trying to fix you."
+## Things to say to an Enneagram 9 so they'll tell you what they think
 
-This tells them their intensity is welcome, not too much. That's what they're always afraid of: being too much.
+Nines fear conflict and the disconnection it might bring. Many learned early that their preferences caused friction, so they let the preference go before anyone saw it. When you want a Nine's real view, make the relationship safe first. Then make disagreement cheap.
 
-[More on Type 4 →](/enneagram-corner/enneagram-type-4)
+**Things to say to an Enneagram 9:**
 
----
+- Before a tense topic: "We're okay. I just want to sort out one thing."
+- When you want a preference: "Thai or pizza? 'Neither' is a real answer."
+- When they agree too fast: "That was a quick yes. Want to sleep on it?"
+- When they finally push back: "Thank you for saying that. I'd rather know."
 
-## Type 5: The Investigator
+**What not to say to an Enneagram 9:**
 
-### What's Happening Inside Their Head
+- "Fine, I'll decide." Said when they hesitate, it confirms their preference wasn't needed.
+- "Just tell me what you want!" The frustration is the conflict they're trying to avoid, so they go quieter.
+- "Why are you so passive?" They hear that their way of keeping the peace is the problem, and that they are too.
 
-Type 5s learned that the world demands more than they have to give. They conserve energy like it's a finite resource, because to them, it is.
+**Questions to ask an Enneagram 9:**
 
-When they withdraw, they're not rejecting you. They're recharging so they can show up later.
+- "What did you want before I asked?"
+- "If this week were only up to you, what's one thing you'd change?"
 
-### The Golden Rule
+[More on Type 9](/enneagram-corner/enneagram-type-9)
 
-**Give them time. Give them space. Text instead of calling.**
+## When you don't know their type: listen to how they handle a problem
 
-### Scripts for Common Scenarios
+You can often pick the right opening before you know someone's type. Riso and Hudson's Harmonic groups sort the nine types by what they do when something goes wrong, and that tells you which move to make first. (Full breakdown: [the Harmonic approaches](/enneagram-corner/enneagram-harmonic-approaches).)
 
-**When you need something from them:**
+- **They get louder and want you to react (Types 4, 6, 8).** Match the seriousness before anything else: "This matters to me too." Calm logic reads as not caring.
+- **They look for the bright side (Types 2, 7, 9).** Say what's still good, then say the problem plainly and keep it fixable in size. If you open with the problem, they'll reframe it before you finish.
+- **They go cool and ask for facts (Types 1, 3, 5).** Bring the facts, a plan and a time limit. Ask how they feel later, once the problem has a shape.
 
-- ✅ "No rush, take the time you need. When you've thought it through, I'd love to hear your take."
-- ✅ "Here's the question. I'll check back in tomorrow."
-- ❌ Calling unexpectedly for an immediate answer.
-- ❌ "I need to know right now."
+Their first response tells you more than any test result. A friend who goes quiet when you raise a problem and a friend who gets loud aren't being difficult. They're showing you which line they need. That's the personal payoff of all this: you stop mistaking someone else's alarm for a defect.
 
-**When they're sharing knowledge:**
+For the moments these lines don't cover: [compliments for each type](/enneagram-corner/biggest-compliments-to-give-each-enneagram-type) covers praise, [how to apologize by type](/enneagram-corner/how-to-apologize-like-a-pro) covers repair after you said the wrong thing, and the [relationship communication guide](/enneagram-corner/relationship-communication-guide) goes long on partners. If someone is already in a spiral, [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress) tells you what you're looking at.
 
-- ✅ "That's fascinating. What else do you know about this?"
-- ✅ "I've never thought of it that way. Keep going."
-- ❌ Changing the subject quickly.
-- ❌ "That's nice, but..." (dismissing)
+## Tell us which line landed
 
-**When you need emotional connection:**
+This page is our read of nine patterns. Your read of your own type beats ours. If one of the "don't say" lines is the one that actually helps you, we want to know.
 
-- ✅ "I'm not asking you to feel something you don't. I just want to know what's going on in your head."
-- ✅ "Tell me what you're thinking. That's how I know I have you."
-- ❌ "You never open up to me."
-- ❌ "I need more from you emotionally." (too vague, too pressuring)
+Think we got your type wrong here? Say so in the question below; we revise these pages from what readers tell us.
 
-### The Magic Phrase
+Answer this before you read anyone else's take:
 
-> "Take your time. Your insights are worth waiting for."
+**What's one thing someone said to you that landed exactly right, and what would most people have said instead?**
 
-This respects their process AND makes them feel valued. Not pressured to perform.
+Then [see how the other types answered on 9takes](/questions). The same question gets nine kinds of answers, and the wrong lines will look familiar.
 
-[More on Type 5 →](/enneagram-corner/enneagram-type-5)
+<!--
+StrategicQuestion wiring (for DJ, once the DB question exists; no matching row in `questions` as of 2026-11-21):
+1. Create the question on 9takes with the exact text above. Note its numeric id and its url slug (questions.url).
+2. Add to the frontmatter:  strategic_question_url: '<questions.url>'
+   (src/routes/enneagram-corner/[slug]/+page.server.ts reads this field to record gate_shown impressions for the funnel).
+3. Add this line to the script block at the top:  import StrategicQuestion from '$lib/components/blog/StrategicQuestion.svelte';
+4. Replace the bold question line above with:
+   <StrategicQuestion question="What's one thing someone said to you that landed exactly right, and what would most people have said instead?" questionId={ID} questionUrl="<questions.url>" blogSlug="enneagram-communication-tips" />
+   Optional: campaign="what-to-say" (the default campaign is 'wave1-masking').
+Keep the "Answer this before you read anyone else's take" lead-in; it is the product ritual line.
 
----
-
-## Type 6: The Loyalist
-
-### What's Happening Inside Their Head
-
-Type 6s are running constant threat assessments. They're not paranoid: they're prepared. Early on, they learned the world was unpredictable and that they needed to be vigilant.
-
-When they question you, they're not attacking. They're trying to trust you. And need your consistency to do it.
-
-### The Golden Rule
-
-**Be reliable. Take their concerns seriously. Never blindside them.**
-
-### Scripts for Common Scenarios
-
-**When they're spiraling with worry:**
-
-- ✅ "That's a valid concern. Let's think through what we'd do if that happened."
-- ✅ "I hear you. What would make you feel more prepared?"
-- ❌ "You're overthinking this."
-- ❌ "That'll never happen."
-- ❌ "Just relax."
-
-**When they're questioning your loyalty:**
-
-- ✅ "I'm here. I'm not going anywhere. Ask me whatever you need to ask."
-- ✅ "I know trust takes time. I'll keep showing up."
-- ❌ "Why can't you just trust me?"
-- ❌ Getting defensive.
-
-**When you need to deliver bad news:**
-
-- ✅ "I want to be straight with you because I respect you. Here's what's happening..."
-- ✅ "The situation changed. Here's what I know, what I don't know, and what we can do."
-- ❌ Sugarcoating or hiding information.
-- ❌ Surprising them with major changes.
-
-### The Magic Phrase
-
-> "I'm telling you the whole truth, not just the easy parts. You can count on that."
-
-Trust is their currency. Honesty, even when it's hard, builds more trust than reassurance.
-
-[More on Type 6 →](/enneagram-corner/enneagram-type-6)
-
----
-
-## Type 7: The Enthusiast
-
-### What's Happening Inside Their Head
-
-Type 7s discovered early that pain can be avoided by moving toward pleasure. They're not running FROM something: they're running TOWARD everything. The darkness they're avoiding? They know it's there. They're just busy living.
-
-When they seem scattered, they're not irresponsible. They're protecting themselves from being trapped in one place.
-
-### The Golden Rule
-
-**Keep it light first. Frame limits as freedoms. Never block the exit.**
-
-### Scripts for Common Scenarios
-
-**When you need them to focus:**
-
-- ✅ "Here's the fun part: once this is done, you're free. Let's knock it out."
-- ✅ "What's the most interesting angle here? Let's start there."
-- ❌ "You need to focus."
-- ❌ "This is serious."
-
-**When they're avoiding something hard:**
-
-- ✅ "I know this is heavy. What if we dealt with it quickly so we could move on?"
-- ✅ "You don't have to stay in this feeling forever. Just for a minute with me."
-- ❌ "You always avoid the hard stuff."
-- ❌ "We need to talk about this. Sit down."
-
-**When they're overpromising:**
-
-- ✅ "Love the enthusiasm! Let's pick the top two things you're most excited to actually do."
-- ✅ "What's the ONE thing you'll commit to? I'll hold you to it."
-- ❌ "You say yes to everything."
-- ❌ "You never follow through."
-
-### The Magic Phrase
-
-> "Let's make this quick, then go have fun."
-
-Frame any heavy conversation as a doorway to freedom, not a prison.
-
-[More on Type 7 →](/enneagram-corner/enneagram-type-7)
-
----
-
-## Type 8: The Challenger
-
-### What's Happening Inside Their Head
-
-Type 8s learned early that vulnerability gets exploited. They built armor. They became the strong one so nobody could hurt them, or the people they protect.
-
-When they're intense, they're not angry at you. They're testing you. Can you handle their full force? If you can, you've earned respect.
-
-### The Golden Rule
-
-**Be direct. Never manipulate. Stand your ground: they'll respect you more.**
-
-### Scripts for Common Scenarios
-
-**When they're being aggressive:**
-
-- ✅ "I hear you, and I'm not backing down. Let's figure this out together."
-- ✅ "I can take your intensity. Now tell me what you really need."
-- ❌ Shrinking, apologizing, caving.
-- ❌ "Why are you so angry?"
-
-**When you need to give feedback:**
-
-- ✅ "I'm going to be straight with you because I respect you. Here's the issue..."
-- ✅ "The thing is: [direct statement]. Here's why it matters."
-- ❌ Softening too much.
-- ❌ Asking permission to share an opinion.
-
-**When you need them to soften:**
-
-- ✅ "I know you're strong. But right now, I need the person behind the armor. Just for a second."
-- ✅ "You protect everyone else. Who protects you?"
-- ❌ "You're too intense."
-- ❌ "You scare people."
-
-### The Magic Phrase
-
-> "I'll give it to you straight because you can handle it."
-
-This acknowledges their strength AND proves you're not manipulating them.
-
-[More on Type 8 →](/enneagram-corner/enneagram-type-8)
-
----
-
-## Type 9: The Peacemaker
-
-### What's Happening Inside Their Head
-
-Type 9s learned that their needs caused problems. So they made themselves small. They merged with others' agendas so nobody would leave.
-
-When they seem passive, they're not lazy. They're afraid their presence will disrupt the peace. And that disruption means abandonment.
-
-### The Golden Rule
-
-**Slow down. Ask specifically for their opinion. Then wait.**
-
-### Scripts for Common Scenarios
-
-**When they won't share their view:**
-
-- ✅ "I really want to know what YOU think, not what you think I want to hear."
-- ✅ "Take your time. I'm not going anywhere. What's your take?"
-- ❌ "You never have an opinion."
-- ❌ Rushing them.
-
-**When they're being passive-aggressive:**
-
-- ✅ "I sense something's off. I'd rather hear the hard truth than the silence."
-- ✅ "It's okay to disagree with me. Our relationship can handle it."
-- ❌ "Just say what you mean."
-- ❌ Ignoring the tension.
-
-**When you need a decision:**
-
-- ✅ "Of these three options, which feels most right to you? I'll wait."
-- ✅ "There's no wrong answer. What does your gut say?"
-- ❌ "Just pick one."
-- ❌ Deciding for them (unless asked).
-
-### The Magic Phrase
-
-> "Your voice matters. I want YOUR answer, not the easy answer."
-
-This tells them they won't be abandoned for having a self: the opposite of what they fear.
-
-[More on Type 9 →](/enneagram-corner/enneagram-type-9)
-
----
-
-## Quick Reference: What to Say (and What to Avoid)
-
-| Type  | Say This                               | Never Say This               |
-| ----- | -------------------------------------- | ---------------------------- |
-| **1** | "You're right, that matters."          | "Good enough."               |
-| **2** | "I need YOU, not what you do."         | "I don't need help."         |
-| **3** | "You're valuable without producing."   | "Slow down." (vague)         |
-| **4** | "Your feelings make sense."            | "Look on the bright side."   |
-| **5** | "Take your time. I'll wait."           | "I need an answer NOW."      |
-| **6** | "I'll tell you the whole truth."       | "Just trust me."             |
-| **7** | "Let's handle this, then go have fun." | "This is serious. Sit down." |
-| **8** | "I'll be straight with you."           | "Calm down."                 |
-| **9** | "I want YOUR opinion, specifically."   | "Just pick one already."     |
-
----
-
-## The Deeper Pattern
-
-Understanding [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress) helps you recognize when these communication patterns intensify. A Type 6 who's asking lots of questions might just be curious, or they might be spiraling into worst-case scenarios. Context matters.
-
-If you're dealing with relationship communication challenges, our [relationship communication guide](/enneagram-corner/relationship-communication-guide) goes deeper into navigating conflicts.
-
-And if you're noticing unhealthy patterns in yourself or others, check out [how each type self-sabotages](/enneagram-corner/how-each-enneagram-type-self-sabotages-success) and [toxic traits by Enneagram type](/enneagram-corner/toxic-traits-of-each-enneagram-type) for more insight.
-
----
-
-## The Bottom Line
-
-You're not a bad communicator. You've just been speaking one language to nine different translators.
-
-The scripts in this guide aren't manipulation. They're translation. They're meeting people where they actually live. Not where you assume they live.
-
-**Start today:** Pick one person in your life who's hard to reach. Identify their type. Try one script. See what shifts.
-
-Communication isn't about being understood. It's about making the other person _feel_ understood.
-
-Different personality, same words, different meaning. That's the puzzle. Now you have more pieces.
-
-If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+PUBLISH NOTE: this slug is still in the permanent redirect map in src/routes/enneagram-corner/[slug]/+page.ts
+('enneagram-communication-tips' -> relationship-communication-guide). Remove that line when publishing, or the page stays unreachable.
+-->
 
 <svelte:head>
 
@@ -540,58 +335,58 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What's the best way to communicate with Type 1 Perfectionists?",
+          "name": "What should you say to each Enneagram type?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Lead with acknowledgment before any criticism. Say 'You're right, that matters' instead of 'It's good enough.' Type 1s have a harsh inner critic and appreciate when you validate their standards rather than dismiss them."
+            "text": "Say the line that answers their core fear before they have to ask. Tell a Type 1 what is already right, a Type 2 that they're wanted when they aren't helping, and a Type 3 that your respect doesn't move with their results. Use a Type 4's exact words back to them, give a Type 5 a topic and an end time, and tell a Type 6 what changed and what didn't. Show a Type 7 that the hard part has an end, give a Type 8 the point with no cushion, and tell a Type 9 the relationship is safe before you name the problem."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I talk to a Type 2 Helper who over-gives?",
+          "name": "What not to say to each Enneagram type?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Appreciate their help, then redirect to their needs. Try 'This is so thoughtful. But tell me, what do YOU need today?' Type 2s need to know they're valued for who they are, not just what they do for others."
+            "text": "The lines that backfire are usually the comforting clichés, because they confirm the fear they were meant to soothe: 'Nobody's perfect' to a 1, 'You didn't have to do that' to a 2, 'It's fine, nobody saw' to a 3, 'Everyone feels that way' to a 4, 'We need to talk' with no topic to a 5, 'Don't worry about it' to a 6, 'You need to sit with this' to a 7, 'Calm down' to an 8, and 'Fine, I'll decide' to a 9."
           }
         },
         {
           "@type": "Question",
-          "name": "What should I never say to a Type 4 Individualist?",
+          "name": "What are good things to say to an Enneagram 9?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Never say 'Look on the bright side,' 'You're being dramatic,' or 'Just move on.' Type 4s need emotional validation, not solutions. Instead say 'Your feelings make sense. I'm here' and sit with them in the feeling."
+            "text": "Make the relationship safe first, then make disagreement cheap. Try 'We're okay. I just want to sort out one thing,' 'Thai or pizza? Neither is a real answer,' and, when they push back, 'Thank you for saying that. I'd rather know.' A good question to ask a 9 is 'What did you want before I asked?'"
           }
         },
         {
           "@type": "Question",
-          "name": "How do I get a Type 5 Investigator to open up?",
+          "name": "What are good things to say to an Enneagram 5?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Give them time and space. Text instead of calling. Say 'Take your time. Your insights are worth waiting for' instead of demanding immediate responses. Type 5s conserve energy and need to process before responding."
+            "text": "Give the conversation edges: a topic, a time limit and their choice of when, such as 'I want to talk about the trip. Twenty minutes, sometime this week, your pick.' Tell them a half-formed thought is welcome. Avoid 'We need to talk' with no topic and 'Why didn't you tell me sooner?'"
           }
         },
         {
           "@type": "Question",
-          "name": "What's the best approach for communicating with Type 8 Challengers?",
+          "name": "What are good things to say to an Enneagram 2?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Be direct and never manipulate. Stand your ground: they'll respect you more. Say 'I'll give it to you straight because you can handle it.' Type 8s test your strength and value honesty over politeness."
+            "text": "Accept the person and decline the job: 'I've got this one. Sit with me instead.' Ask 'What did you need today that nobody gave you?' and when they finally ask you for something, say 'Yes. Thanks for asking.' Avoid 'You didn't have to do that,' which they can hear as their gift not being wanted."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I help a Type 6 Loyalist who's anxious?",
+          "name": "What are good things to say to an Enneagram 4?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Take their concerns seriously without dismissing them. Say 'That's a valid concern. Let's think through what we'd do if that happened.' Never say 'You're overthinking this' or 'Just relax': they need you to help them prepare, not minimize."
+            "text": "Use their exact words back to them ('You said hollow, not sad. Tell me about hollow') and respond to one specific detail of what they share or make. Avoid 'Everyone feels that way' and 'I know exactly how you feel,' which make their experience ordinary."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I get a Type 9 Peacemaker to share their opinion?",
+          "name": "What questions should you ask an Enneagram type?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ask specifically and wait patiently. Say 'I really want to know what YOU think, not what you think I want to hear.' Type 9s fear their needs cause problems, so explicitly invite their voice and reassure them the relationship can handle disagreement."
+            "text": "Ask the question that lets them answer past their fear. Examples: 'What would good enough look like here?' for a 1, 'What's something you want that you haven't asked for?' for a 2, 'What would you still do if nobody found out?' for a 3, 'What feels missing right now?' for a 4, and 'What did you want before I asked?' for a 9."
           }
         }
       ]
@@ -601,7 +396,3 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 </script>
 
 </svelte:head>
-
-<style lang="scss">
-
-</style>
