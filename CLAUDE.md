@@ -423,7 +423,7 @@ Run via `pnpm <alias>` where available:
 | `pnpm push:people -- <Person> --sync`               | Atomically sync one reviewed existing people draft                       |
 | `pnpm push:people -- --insert-missing`              | Insert missing drafts without updating existing rows                     |
 | `pnpm people:ready`                                 | Passed people profiles waiting on a portrait/publish, plus held ones     |
-| `pnpm people:classify [-- --write \| --check]`      | Jev labels people for the v3 taxonomy (type-page groups); `--check` gate |
+| `pnpm people:classify [-- --write \| --check]`      | Relabel people (new ones auto-run in `gen:famous-types`); `--check` gate |
 | `pnpm audit:cluster-tags`                           | Published people with no cluster (lane) tag for their field              |
 | `pnpm audit:corner-subtopics`                       | Enneagram Corner lane counts per section; fails on untagged live posts   |
 | `pnpm tag:clusters -- tags.json [--write]`          | Add cluster tags to drafts (`{"Draft-Stem": "pop-star"}`)                |

@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
 import dotenv from 'dotenv';
 import { buildPersonalityImagePath, normalizePersonalitySlug } from './lib/personalitySeo.js';
+import { labelPeople, readClassifications } from './lib/peopleClassifier.mjs';
 
 // Load environment variables
 dotenv.config();
@@ -16,9 +17,9 @@ const __dirname = path.dirname(__filename);
 const STATIC_DIR = path.join(__dirname, '..', 'static');
 // v3 taxonomy home field per person (src/lib/data/personClassifications.json). Baked into the
 // generated file so FamousTypes groups by field without shipping the full labels to browsers.
-const CLASSIFICATIONS = JSON.parse(
-	await fs.readFile(path.join(__dirname, '..', 'src/lib/data/personClassifications.json'), 'utf8')
-);
+// Newly published people are labeled here first (Jev), so every publish path that regenerates
+// this file also files the new person into the type pages, category pages and timeline.
+let CLASSIFICATIONS = readClassifications();
 const homeFieldOf = (slug) => CLASSIFICATIONS[slug]?.home?.[0] ?? null;
 
 const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL;
@@ -183,6 +184,42 @@ function generateTypeScriptContent(groupedPeople) {
 	return lines.join('\n');
 }
 
+/**
+ * Label published people who have no taxonomy label yet. Never fails the run: a deploy must not
+ * break because Jev is down, so it warns instead, and `pnpm people:classify -- --check` plus the
+ * unit tests catch the gap.
+ */
+async function labelNewPeople(people) {
+	const unlabeled = people
+		.filter((person) => person.published === true && person.person)
+		.map((person) => normalizePersonalitySlug(person.person))
+		.filter((slug) => !Object.hasOwn(CLASSIFICATIONS, slug));
+	if (!unlabeled.length) return;
+
+	console.log(`🏷️  Labeling ${unlabeled.length} newly published people for the taxonomy...`);
+	try {
+		const { labeled, cost } = await labelPeople(unlabeled, {
+			log: (line) => console.log(`   ${line}`)
+		});
+		CLASSIFICATIONS = readClassifications();
+		console.log(
+			`✅ Labeled ${unlabeled.length} (Jev $${cost.toFixed(4)}). Commit src/lib/data/personClassifications.json.`
+		);
+		const low = Object.keys(labeled).filter((slug) => labeled[slug].confidence === 'low');
+		if (low.length) {
+			console.warn(
+				`⚠️  Low confidence, check by hand: ${low.join(', ')}\n` +
+					'   Relabel: pnpm people:classify -- <slug> --write, or edit personClassifications.json'
+			);
+		}
+	} catch (error) {
+		console.warn(
+			`⚠️  Could not label ${unlabeled.join(', ')} (${error.message}).\n` +
+				'   They stay off the category pages until labeled. Run: pnpm people:classify -- --write'
+		);
+	}
+}
+
 async function generateFamousTypes() {
 	try {
 		console.log('🚀 Generating famousTypes.ts...');
@@ -190,6 +227,7 @@ async function generateFamousTypes() {
 		const people = await getFamousPeople();
 		console.log(`📊 Found ${people.length} famous people in database`);
 
+		await labelNewPeople(people);
 		const groupedPeople = groupByEnneagramType(people);
 
 		// Log counts per type

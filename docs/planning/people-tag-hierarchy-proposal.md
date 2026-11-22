@@ -45,8 +45,9 @@ Max three levels. Niches name what someone does inside the field (genre, sport, 
 
 ## Keeping it current
 
-- `pnpm people:classify` lists published people with no label.
-- `pnpm people:classify -- --write` has Jev label them: field, then niche. Jev returns choices with probabilities and writes no text, so `also`, platforms and breakout stay empty with `source: "jev"` until an agent or DJ fills them.
+- **New people are labeled automatically.** `pnpm gen:famous-types` labels any published person who has no label before it writes `famousTypes.ts`. Every publish path runs it: `push:people` (including `--publish`), `gen:all`, the daily publisher and the Vercel build. Commit `personClassifications.json` along with the other generated files. If Jev can't be reached, the generator warns and continues; that person stays off the category pages until labeled.
+- Jev labels field, then niche (`scripts/lib/peopleClassifier.mjs`). It returns choices with probabilities and writes no text, so `also`, platforms and breakout stay empty with `source: "jev"` until an agent or DJ fills them. Low-confidence labels are printed for a hand check.
+- `pnpm people:classify` lists published people with no label; `-- --write` labels them; `-- <slug> --write` relabels someone.
 - `pnpm people:classify -- --check` fails if anyone is unlabeled. The unit tests check this too.
 
 The 469 current labels are an agent draft (`source: "agent-draft"`). Breakout years are unverified, and 8 people are low confidence: adela, ashby, carina-zavline, dhar-mann, ella-beatty, hailey-bieber, inde-navarrette, stella-lefty.
