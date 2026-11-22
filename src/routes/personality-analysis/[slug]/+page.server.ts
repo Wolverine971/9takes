@@ -122,6 +122,12 @@ export const load: PageServerLoad = async (event) => {
 	const requestedSlug = event.params.slug;
 	const canonicalSlugParam = normalizePersonalitySlug(requestedSlug);
 
+	// A bare type number ("/personality-analysis/1") is a guess at the type hub,
+	// not a person slug: send it to /personality-analysis/type/1 instead of a 404.
+	if (/^[1-9]$/.test(canonicalSlugParam)) {
+		throw redirect(301, `/personality-analysis/type/${canonicalSlugParam}${event.url.search}`);
+	}
+
 	if (canonicalSlugParam && requestedSlug !== canonicalSlugParam) {
 		throw redirect(301, buildPersonalityAnalysisPath(canonicalSlugParam) + event.url.search);
 	}

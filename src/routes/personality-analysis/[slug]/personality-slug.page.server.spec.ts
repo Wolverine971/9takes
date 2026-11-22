@@ -173,6 +173,26 @@ describe('/personality-analysis/[slug] load', () => {
 		consoleError.mockRestore();
 	});
 
+	it('sends a bare type number to that type hub', async () => {
+		for (const slug of ['1', '9']) {
+			const { event, peopleCalls } = setup({ person: { data: null, error: null }, slug });
+
+			await expect(loadPage(event)).rejects.toMatchObject({
+				status: 301,
+				location: `/personality-analysis/type/${slug}`
+			});
+			expect(peopleCalls).toHaveLength(0);
+		}
+	});
+
+	it('still answers 404 for numbers that are not a type', async () => {
+		for (const slug of ['0', '10']) {
+			const { event } = setup({ person: { data: null, error: null }, slug });
+
+			await expect(loadPage(event)).rejects.toMatchObject({ status: 404 });
+		}
+	});
+
 	it('still answers 404 when the person genuinely does not exist', async () => {
 		const { event } = setup({ person: { data: null, error: null } });
 
