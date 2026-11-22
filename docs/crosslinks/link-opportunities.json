@@ -17,7 +17,7 @@
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 15,
-		"peopleToPeople": 3,
+		"peopleToPeople": 4,
 		"skipped": 345
 	},
 	"gateDebt": [],
@@ -1077,7 +1077,7 @@
 		},
 		{
 			"id": "/enneagram-corner/enneagram-vs-personality-frameworks-comparison -> /community/fear-triad-intellectual-fortress-or-prison",
-			"score": 0.59,
+			"score": 0.55,
 			"target": {
 				"url": "/community/fear-triad-intellectual-fortress-or-prison",
 				"title": "The Intellectual Fortress That Becomes a Prison",
@@ -1086,7 +1086,7 @@
 				"impressions": 0,
 				"clicks": 0,
 				"position": null,
-				"inbound": 7
+				"inbound": 8
 			},
 			"source": {
 				"url": "/enneagram-corner/enneagram-vs-personality-frameworks-comparison",
@@ -1528,6 +1528,25 @@
 			"line": 283,
 			"anchor": "Hunter Biden",
 			"excerpt": "In July 2025, Channel 5 posted a three-hour interview with Hunter Biden that made national news. Biden tore into George Clooney and the Democrats who pushed his father out, and repeated a claim, which he credited to the writer Michael Wolff, that Jeffrey Epstein introduced Melania to Donald Trump.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/vivek-ramaswamy -> /personality-analysis/laura-loomer",
+			"source": {
+				"url": "/personality-analysis/vivek-ramaswamy",
+				"file": "src/blog/people/drafts/Vivek-Ramaswamy.md",
+				"outCount": 8
+			},
+			"target": {
+				"url": "/personality-analysis/laura-loomer",
+				"name": "Laura Loomer",
+				"inCount": 0,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 246,
+			"anchor": "Laura Loomer",
+			"excerpt": "The H-1B fight was the visa fight on the surface. The fight underneath was about which kids belonged in the American room. An Indian immigrant's son arguing — to a populist coalition that had spent a decade insisting American workers came first — that American culture itself was the reason American kids couldn't compete with H-1B engineers, was the wrong messenger making the wrong case in the wrong week. Laura Loomer accused him of importing \"Great Replacement.\" Nikki Haley posted a flat correction — _\"There is nothing wrong with American workers or American culture.\"_ A pro-Trump podcaster, Brenden Dilley, captured the populist objection: _\"I always love when these tech bros flat out tell you that they have zero understanding of American culture and then have the gall to tell you that YOU are the problem with America.\"_",
 			"typeClaim": null
 		},
 		{

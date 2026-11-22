@@ -19,7 +19,7 @@ Link ideas to act on: [`docs/crosslinks/link-opportunities.md`](crosslinks/link-
 | Metric | Count |
 |---|---|
 | Live blog posts | 150 (+ 9 type pages) |
-| Published people pages | 469 |
+| Published people pages | 470 |
 | Completely isolated (0 in, 0 out) | 0 |
 | 0 incoming | 0 |
 | 0 outgoing | 0 |
@@ -100,7 +100,7 @@ Live posts with 3 or fewer outgoing links, sorted by impressions. Readers land h
 People pages by search impressions and how many **blog posts** link to them in prose
 (the FamousTypes block on type pages and the `/personality-analysis/categories/*` listings link
 nearly every person, but those are not contextual links).
-216 of 469 people pages have at least one blog link.
+216 of 470 people pages have at least one blog link.
 
 | Person | Impressions | Clicks | Position | Blog links in | People links in |
 |---|---|---|---|---|---|
@@ -133,7 +133,7 @@ nearly every person, but those are not contextual links).
 ## People pages that need links
 
 A people page "needs links" with 2 or fewer contextual links in (blog posts + other people pages).
-**206 of 469** people pages need links; 64 have none.
+**207 of 470** people pages need links; 65 have none.
 Unlinked mentions on other people pages are queued in `link-opportunities.md` §4.
 
 | Person | Impressions | Position | Blog links in | People links in |
@@ -174,7 +174,7 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 | 195 | 41 | 7,552 | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 167 | 16 | 13,556 | `/enneagram-corner/enneagram-instinctual-subtypes` |
 | 160 | 15 | 2,678 | `/enneagram-corner/enneagram-type-3` |
-| 145 | 27 | 1,531 | `/enneagram-corner/enneagram-type-6` |
+| 146 | 27 | 1,531 | `/enneagram-corner/enneagram-type-6` |
 | 140 | 12 | 422 | `/enneagram-corner/enneagram-type-7` |
 | 137 | 16 | 2,356 | `/enneagram-corner/enneagram-type-4` |
 | 132 | 18 | 2,547 | `/enneagram-corner/enneagram-type-9` |
@@ -300,7 +300,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 1,892 | 8.1 | 12 (7/5) | 15 (15/0) | Enneagram and Addiction: Why Each Type Self-Medicates Differently | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` |
 | 1,870 | 18.2 | 213 (71/142) | 17 (17/0) | Enneagram Types in Stress: Stress Points, Arrows, and the Loop Undern… | `/enneagram-corner/enneagram-types-in-stress` |
 | 1,560 | 11.1 | 30 (15/15) | 9 (9/0) | Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety P… | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` |
-| 1,531 | 51.9 | 145 (52/93) | 27 (16/11) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
+| 1,531 | 51.9 | 146 (52/94) | 27 (16/11) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
 | 1,472 | 51.6 | 5 (5/0) | 19 (19/0) | The 9 Coworker Types: Each Enneagram as Boss, Peer, Report | `/enneagram-corner/enneagram-types-working-in-teams` |
 | 1,462 | 23.7 | 4 (4/0) | 3 (3/0) | Is the Enneagram Religious? (The Truth About Its Spiritual Origins) | `/enneagram-corner/enneagram-and-religion` |
 | 1,404 | 6.7 | 26 (26/0) | 17 (17/0) | Why They Ghosted You (Based on Their Enneagram Type) | `/enneagram-corner/enneagram-types-being-ghosted` |
@@ -391,9 +391,9 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | — | — | 22 (22/0) | 22 (22/0) | Red Flags You Are Dating Each Enneagram Type (And What to Do) | `/enneagram-corner/red-flags-dating-each-enneagram-type` |
 | — | — | 17 (14/3) | 9 (9/0) | How Each Enneagram Type Survives Trauma | `/enneagram-corner/mental-health/enneagram-trauma-response-guide` |
 | — | — | 12 (11/1) | 22 (21/1) | Shadow Work by Enneagram Type: Your Dark Side Has a Pattern | `/enneagram-corner/shadow-work-by-enneagram-type` |
+| — | — | 8 (6/2) | 5 (5/0) | The Intellectual Fortress That Becomes a Prison | `/community/fear-triad-intellectual-fortress-or-prison` |
 | — | — | 8 (8/0) | 7 (7/0) | How Minds Actually Change | `/community/how-minds-change-on-9takes` |
 | — | — | 8 (8/0) | 6 (6/0) | Parasocial Relationships Through the Enneagram | `/pop-culture/parasocial-relationships-enneagram-type` |
-| — | — | 7 (6/1) | 5 (5/0) | The Intellectual Fortress That Becomes a Prison | `/community/fear-triad-intellectual-fortress-or-prison` |
 | — | — | 7 (7/0) | 5 (5/0) | The Enneagram Under Fire: Common Criticisms Addressed | `/enneagram-corner/enneagram-criticisms` |
 | — | — | 6 (6/0) | 9 (9/0) | The Consensus on Human Nature | `/community/consensus-on-human-nature` |
 | — | — | 6 (6/0) | 13 (13/0) | Why MBTI Failed and What to Use Instead | `/community/mbti-vs-enneagram` |

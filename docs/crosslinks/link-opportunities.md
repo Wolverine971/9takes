@@ -54,7 +54,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 0.62 | `/enneagram-corner/enneagram-instinctual-subtypes` (L428) | `/community/reddit-deep-connections-limitations` | "deep connection" | Despite the name, the Sexual (One-to-One) instinct refers to intensity and deep connection. It drives the desire for chemistry, merger, and… |
 | 0.61 | `/pop-culture/tech-titans-ai-wars` (L42) | `/pop-culture/artificial-movie-real-people` | "Sam Altman" | The AI race is mostly led by Type 4, 5 and 6 patterns. Sam Altman reads as a Type 4 chasing a defining act of significance. Elon Musk and M… |
 | 0.6 | `/enneagram-corner/enneagram-faqs` (L630) | `/enneagram-corner/enneagram-types-at-party` | "games" | - Use it for growth, not games |
-| 0.59 | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` (L62) | `/community/fear-triad-intellectual-fortress-or-prison` | "Head Center" | …s://psycnet.apa.org/record/1998-07276-000) affective neuroscience research. These are primary emotional systems observed in all mammals: F… |
+| 0.55 | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` (L62) | `/community/fear-triad-intellectual-fortress-or-prison` | "Head Center" | …s://psycnet.apa.org/record/1998-07276-000) affective neuroscience research. These are primary emotional systems observed in all mammals: F… |
 
 ## 3. People bridge (blog → personality-analysis)
 
@@ -81,10 +81,11 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-3 unlinked mentions found; top 3 after caps.
+4 unlinked mentions found; top 4 after caps.
 
 | Target (in, impressions) | Source (line) | Anchor | Sentence |
 |---|---|---|---|
 | `/personality-analysis/hunter-biden` (0, 14) | `src/blog/people/drafts/Andrew-Callaghan.md` (L283) | "Hunter Biden" | In July 2025, Channel 5 posted a three-hour interview with Hunter Biden that made national news. Biden tore into George Clooney and the Dem… |
+| `/personality-analysis/laura-loomer` (0, 0) | `src/blog/people/drafts/Vivek-Ramaswamy.md` (L246) | "Laura Loomer" | The H-1B fight was the visa fight on the surface. The fight underneath was about which kids belonged in the American room. An Indian immigr… |
 | `/personality-analysis/clavicular` (1, 1,705) | `src/blog/people/drafts/Andrew-Callaghan.md` (L293) | "Clavicular" | In March 2026 came a clip that showed his limits. On a Kick livestream, the looksmaxxing streamer Clavicular asked whether he was satisfied… |
 | `/personality-analysis/geoffrey-hinton` (2, 0) | `src/blog/people/drafts/Sam-Altman.md` (L406) | "Geoffrey Hinton" | Geoffrey Hinton, Stuart Russell, Nobel economists Oliver Hart and Joseph Stiglitz, and dozens of other prominent figures [signed an open le… |

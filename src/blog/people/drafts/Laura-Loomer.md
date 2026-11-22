@@ -4,12 +4,12 @@ meta_title: "Laura Loomer's Personality Type: Loyalty and Fear"
 persona_title: "MAGA's Loyalty Sentinel"
 description: "Laura Loomer looks fearless. Her loyalty tests, threat maps, and Ukraine reversal point to a counterphobic Enneagram Type 6 searching for solid ground."
 author: 'DJ Wayne'
-date: '2026-08-31'
+date: '2026-11-22'
 loc: 'https://9takes.com/personality-analysis/laura-loomer'
-lastmod: '2026-08-31'
+lastmod: '2026-11-22'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['politician', 'campaign-politician', 'creator', 'news-commentator']
 person: 'laura-loomer'

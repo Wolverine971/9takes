@@ -292,6 +292,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'kaia-gerber', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'Fashion\'s Undercover Librarian', contentGrade: 8.8, types: ['newMovieStar', 'celebrity', 'celebrity-image'], field: 'style' },
 		{ name: 'keira-knightley', link: true, hasImage: true, lastmod: '2026-08-17', personaTitle: 'Cinema\'s Sword-Drawn Skeptic', contentGrade: 8.6, types: ['movieStar', 'screen-icon'], field: 'screen' },
 		{ name: 'kendall-jenner', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Fashion\'s Quiet Sentinel', contentGrade: 8.8, types: ['celebrity', 'celebrity-image'], field: 'famous' },
+		{ name: 'laura-loomer', link: true, hasImage: true, lastmod: '2026-11-22', personaTitle: 'MAGA\'s Loyalty Sentinel', contentGrade: 8.6, types: ['politician', 'campaign-politician', 'creator', 'news-commentator'], field: null },
 		{ name: 'marilyn-monroe', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Armored Icon', contentGrade: 9, types: ['movieStar', 'screen-icon'], field: 'screen' },
 		{ name: 'meghan-trainor', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Pop\'s Bubblegum Sentinel', contentGrade: 8.9, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'], field: 'music' },
 		{ name: 'mila-kunis', link: true, hasImage: true, lastmod: '2026-07-29', personaTitle: 'Hollywood\'s Loyalty Engineer', contentGrade: 8.6, types: ['movieStar', 'celebrity', 'screen-icon'], field: 'screen' },
