@@ -5,7 +5,8 @@ import {
 	buildVisibleQuestionCategoryTree,
 	findQuestionCategoryNodeById,
 	type QuestionCategoryRow,
-	type QuestionCategoryTagRow
+	type QuestionCategoryTagRow,
+	type QuestionCategoryTreeNode
 } from '$lib/server/questionCategoryTree';
 import {
 	buildQuestionCategoryPath,
@@ -17,6 +18,7 @@ import {
 	buildQuestionCategoryIntroDescription,
 	renderQuestionCategoryIntroMarkdown
 } from '$lib/server/questionCategoryIntro';
+import legacyCategoryRedirects from '$lib/data/questionCategoryRedirects.json';
 
 type ActiveQuestionRow = { id: number };
 
@@ -88,13 +90,6 @@ export const load: PageServerLoad = async (event) => {
 		session?.user?.id && recentQuestions && recentQuestions.length <= 10
 	);
 	const categoryTagRows = (categoryTags as QuestionCategoryTagRow[] | null) ?? [];
-	const questionCategories = await getCategoryQuestions(
-		supabase,
-		questionTable,
-		questionTag.id,
-		categoryTagRows
-	);
-
 	const activeQuestionIds = new Set(
 		(activeQuestions as ActiveQuestionRow[] | null)?.map((question) => question.id) ?? []
 	);
@@ -112,8 +107,28 @@ export const load: PageServerLoad = async (event) => {
 	}));
 
 	if (!currentCategoryNode) {
+		// A retired category whose questions moved into the topic directory sends
+		// readers to the topic that replaced it.
+		const replacementPath = await findReplacementCategoryPath(
+			supabase,
+			canonicalSlug,
+			categoryRows,
+			categoryTree
+		);
+		if (replacementPath) {
+			throw redirect(301, replacementPath);
+		}
 		throw error(404, 'No category with live questions found');
 	}
+
+	// A topic page lists every question filed under it or under one of its niches,
+	// once each.
+	const questionCategories = await getCategoryQuestions(
+		supabase,
+		questionTable,
+		collectCategoryIds(currentCategoryNode),
+		categoryTagRows
+	);
 
 	return {
 		parents,
@@ -134,16 +149,52 @@ export const load: PageServerLoad = async (event) => {
 	};
 };
 
+function collectCategoryIds(node: QuestionCategoryTreeNode, ids = new Set<number>()): Set<number> {
+	ids.add(node.id);
+	for (const child of node.children) collectCategoryIds(child, ids);
+	return ids;
+}
+
+/**
+ * Where a retired category's readers should land: the topic mapped in
+ * questionCategoryRedirects.json, or its nearest ancestor that has live questions.
+ */
+async function findReplacementCategoryPath(
+	supabase: any,
+	legacySlug: string,
+	categories: QuestionCategoryRow[],
+	categoryTree: QuestionCategoryTreeNode[]
+): Promise<string | null> {
+	const topicKey = (legacyCategoryRedirects as Record<string, string>)[legacySlug];
+	if (!topicKey) return null;
+
+	const { data: topic, error: topicError } = await supabase
+		.from('question_categories')
+		.select('id')
+		.eq('topic_key', topicKey)
+		.maybeSingle();
+	if (topicError || !topic) return null;
+
+	const path = buildQuestionCategoryPathRows(categories, topic.id);
+	for (let index = path.length - 1; index >= 0; index--) {
+		const candidate = path[index];
+		if (candidate.slug && findQuestionCategoryNodeById(categoryTree, candidate.id)) {
+			return buildQuestionCategoryPath(candidate.slug);
+		}
+	}
+	return '/questions/categories';
+}
+
 async function getCategoryQuestions(
 	supabase: any,
 	questionTable: string,
-	categoryId: number,
+	categoryIds: Set<number>,
 	categoryTags: QuestionCategoryTagRow[]
 ) {
 	const questionIds = Array.from(
 		new Set(
 			categoryTags
-				.filter((row) => row.tag_id === categoryId)
+				.filter((row) => categoryIds.has(row.tag_id))
 				.map((row: { question_id: number | null }) => row.question_id)
 				.filter((questionId: number | null): questionId is number => Number.isFinite(questionId))
 		)

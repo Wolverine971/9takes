@@ -74,11 +74,13 @@ export const load: PageServerLoad = async (event) => {
 					.select(questionColumns, { count: 'exact' })
 					.order('created_at', { ascending: false })
 					.range(offset, offset + QUESTION_PAGE_SIZE - 1),
-				// Load the current leaf-category taxonomy so manual admin edits match AI tagging.
+				// The current topic directory below its seven headings, so manual admin
+				// edits pick from the same topics Jev files questions under.
 				supabase
 					.from('question_categories')
 					.select('id, category_name')
-					.eq('level', 3)
+					.not('topic_key', 'is', null)
+					.not('parent_id', 'is', null)
 					.order('category_name', { ascending: true })
 			]
 		);

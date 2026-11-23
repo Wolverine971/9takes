@@ -1,77 +1,128 @@
-# How Jev should classify 9takes questions
+<!-- docs/planning/question-classification/README.md -->
 
-November 19, 2026 · Hierarchy proposal and local preview
+# How Jev files 9takes questions under topics
 
-A reader browsing Parenting and a reader browsing Youth sports should both find a question about parents pushing children to win. Give each topic one home in the directory and each question as many relevant paths as its wording supports. Stop wherever the question runs out of specifics.
+Proposed November 19, 2026 · Built November 22, 2026 · **Not live until the rollout steps at the bottom are run**
 
-## What the current hierarchy misses
+A reader browsing Parenting and a reader browsing Youth sports should both find a question about parents pushing children to win. Each topic has one home in the directory and each question sits under as many topics as its wording supports. A question stops at a broad topic when it runs out of specifics.
 
-The live database has 492 categories. Starting at the root, there are 7, 18, 75, 322 and 70 nodes at successive levels. Following parent IDs reaches all 492, and their stored levels agree with their actual depths. The problem is the vocabulary and how the classifier uses it. Both the single and bulk taggers send the 75 level-three names, ask a chat model for up to five strings, and match those strings against category names. The configured balanced JSON model list starts with Kimi. There are no per-topic scores in the mapping table. [Current taggers](../../../src/utils/server/openai.ts) · [Model configuration](../../../src/utils/server/smart-llm-service.ts)
+## What the old hierarchy missed
 
-- **The selection skips useful distinctions.** Family and Kinship is available, while Parenting and Childrearing, Marriage and Partnerships, and Sibling Dynamics sit one level deeper. Sports and Enneagram lack their own topics.
-- **The directory spends detail unevenly.** Technology, Science, and the Universe has 148 nodes. Mobile App Development appears twice under Software Development. Two different IDs also share the name Agile Methodologies. Stable keys and full paths let Jev distinguish similar labels.
-- **Breadth hides bad matches.** The question about a high-school graduate who wants to become a politician has five existing tags, including Diplomacy. The question about being trapped somewhere is tagged Navigating Office Politics. The old mappings include author edits as well as AI output, so those examples describe the stored results.
-- **Coverage depends on the denominator.** Of 419 non-removed questions, 55 have a category mapping. The category page's visibility filter admits 56 questions, and 50 of those have mappings. All 47 unflagged ordinary questions have a mapping. Of the 363 flagged questions, 356 are unanswered Chorus prompts. Bulk tagging through the old path would also touch unrelated question data. [Category page filter](../../../src/routes/questions/categories/%5Bslug%5D/+page.server.ts) · [Chorus lifecycle](../../../src/routes/api/cron/tag-chorus-questions/+server.ts)
+The live database has 492 AI-generated categories (7, 18, 75, 322 and 70 nodes by level). The tagger sent a chat model the 75 level-three names, asked for up to five strings and matched them back to names.
 
-## Proposed top two levels
+- **The selection skipped useful distinctions.** Family and Kinship was available while Parenting and Childrearing, Marriage and Partnerships and Sibling Dynamics sat one level deeper, out of reach. Sports and Enneagram had no topic.
+- **The directory spent detail unevenly.** Technology, Science, and the Universe had 148 nodes. Two different IDs shared the name Agile Methodologies.
+- **Breadth hid bad matches.** "If you had to be trapped somewhere, where would you choose" was tagged Navigating Office Politics. Personal Growth held 48 of the 70 tagged questions.
+- **Tags decided visibility.** A question with zero matched tags was flagged, which hides it. Under any classifier that is allowed to say "nothing fits", that would have hidden good questions.
 
-| Parent                            | Topics Jev evaluates on the first pass                                                                                     |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Self & personality                | Identity & self-worth, Emotions & coping, Growth & change, Memories & milestones, Values & purpose, Personality frameworks |
-| Relationships & belonging         | Family & upbringing, Dating & partnerships, Friendship, Community & belonging, Communication & conflict                    |
-| Work, learning & money            | Careers & working life, Business & leadership, School & skills, Personal finances                                          |
-| Health & everyday life            | Physical & mental health, Habits & routines, Food & home life, Travel & getting around                                     |
-| Culture, sports & leisure         | Sports & competition, Arts, books & entertainment, Hobbies & play, Media & online culture                                  |
-| Society & public life             | Politics & government, Ethics & justice, Faith & traditions, History & social change, Economics & policy                   |
-| Science, technology & environment | Technology & digital tools, Science & discovery, Environment & infrastructure                                              |
+## The directory
 
-The proposed directory has 57 nodes. All 7 parents and 31 second-level topics have a definition. The remaining 19 nodes let us test more specific assignments, including Dating, Stress, Books, Workplace relationships and Enneagram. Two fourth-level topics exercise the family-and-sports example. They can stay available to the classifier while a public page waits for enough questions to be worth browsing. Add a niche when it would separate two kinds of question a reader would actually look for. Keep general questions on the broader topic. [Full hierarchy and definitions](taxonomy.tsv)
+80 topics under 7 headings, in [`src/lib/data/questionTaxonomy.json`](../../../src/lib/data/questionTaxonomy.json). Every topic has a key, a label and a one-line scope that Jev reads.
 
-## Scoring and drill-down
+| Heading                           | Topics scored for every question                                                                                                  |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Self & personality                | Identity & self-worth, Emotions & coping, Growth & change, Memories & milestones, Values & purpose, Personality frameworks        |
+| Relationships & belonging         | Family & upbringing, Dating & partnerships, Friendship, Community & belonging, Role models & influences, Communication & conflict |
+| Work, learning & money            | Careers & working life, Business & leadership, School & skills, Personal finances                                                 |
+| Health & everyday life            | Physical & mental health, Habits & routines, Food & home life, Travel & getting around                                            |
+| Culture, sports & leisure         | Sports & competition, Arts, books & entertainment, Hobbies & play, Media & online culture                                         |
+| Society & public life             | Politics & government, Ethics & justice, Faith & traditions, History & social change, Economics & policy                          |
+| Science, technology & environment | Technology & digital tools, Science & discovery, Environment & infrastructure                                                     |
 
-1. Send the submitted question and a named Jev `score` decision for every level-one and level-two topic. Each decision uses the category definition and its full path. Jev rates the topic from 0 to 3 using four anchors — unrelated, incidental, substantial, central. Multiply by 100/3 for a **topic fit** percentage. Scores are independent and can add up to more than 100%. Store Jev's confidence in the rubric judgment separately. [OpenRouter Decisions API](https://openrouter.ai/docs/guides/features/decisions)
-2. Open every level-two branch scoring at least **55%**. Evaluate its immediate children together. Repeat for qualifying level-three nodes. A strong second-level topic can open even if its broad root scores poorly. Unvisited nodes have no score. Three or four qualifying branches can all advance on the same pass.
-3. Keep the deepest node in each qualifying path at **66⅔%** or above, the “substantial” anchor. A second-level topic can stand on its own. Sort terminal matches by fit and derive their ancestors when browsing. A question under two siblings counts once in their shared parent. Root-only evidence or an empty result goes to review.
-4. Treat **90% and up as strong suggestions** and **66⅔% to below 90% as secondary suggestions** in the review. Both bands matter. For the real question about disagreements with close friends or family, Jev gave Communication & conflict 100%, Friendship 71% and Family & upbringing 70%. A 72% cutoff lost both people the author explicitly wanted to discuss. A forced winner would lose them too.
+41 niches sit below these. Nineteen came with the proposal (Dating, Stress, Books, Workplace relationships, Enneagram, Parental expectations, Pressure on young athletes and so on). Twenty-two were added on November 22 from what the questions in the three largest topics actually ask, one cluster per Enneagram motive:
 
-Question form can become a separate filter if readers want to browse advice, hypotheticals or personal stories. A hypothetical about marriage still belongs near other questions about marriage.
+| Under                    | Niches added                                                                                                                                                                              |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Values & purpose         | Success & enough, Giving & self-sacrifice, Conviction & compromise, Freedom & restlessness, Legacy & life's work, Duty & responsibility, Standards & perfectionism, Knowledge & curiosity |
+| Emotions & coping        | Inner peace & calm, Pain, loss & grief, Joy, humor & escape, Strength & control, Safety & trust, Disappointment & falling short                                                           |
+| Identity & self-worth    | Being seen & misunderstood, Image & persona, Privacy & what you hold back (both under Authenticity), Proving yourself & competing (under Self-worth)                                      |
+| Growth & change          | Reinvention & starting over, Perseverance & giving up                                                                                                                                     |
+| Community & belonging    | Fitting in & standing apart                                                                                                                                                               |
+| Communication & conflict | Speaking up & keeping the peace                                                                                                                                                           |
 
-## What the preview found
+A topic only gets a public page once a visible question is filed under it. Add a niche when it would separate two kinds of question a reader would actually look for. Write the scope for a literal reader: "being misread by other people" pulled in any question containing "understand" until it was narrowed to "understand who you really are".
 
-Jev 1.14 scored all 56 questions eligible for category browse plus four synthetic controls. It proposed at least one path on 48 of the 56 and abstained on eight. The final 60 inputs took 105 distinct request evaluations including drill-down, with about $0.016 in reported model charges to produce those answers. A cached replay reproduced the matches. The 55% routing threshold is provisional. This pilot measured the retained labels, and a deeper exhaustive comparison would be needed to quantify missed branches.
+Two edits were made to the November 19 proposal's own topics: **Role models & influences** was added (two visible questions had nowhere to go), and Marriage's scope was narrowed to being married.
 
-| Question                                                                                                         | Jev's result, rounded                                                                                                           | Editorial read                                               |
-| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| How much pressure should parents put on their children to win at competitive sports?                             | Pressure on young athletes 100%, Parental expectations 99%, Ethics & justice 78%, Family roles & dynamics 74%                   | Keep both strong paths. The last two are weaker suggestions. |
-| A father calls from a soccer game to apologize for missing a wedding. How can his child say they are still hurt? | Communication & conflict 100%, Family & upbringing 99%, Emotions & coping 92%                                                   | The game is scenery. Sports did not qualify.                 |
-| What tips do you have for a recent high-school grad who wants to become a politician?                            | Politics & government 100%, Careers & working life 99%                                                                          | A career path into politics belongs under both topics.       |
-| What was your job in your family growing up?                                                                     | Family roles & dynamics 99%, Memories & milestones 91%                                                                          | “Job” describes a family role. Careers stayed out.           |
-| What do you do with your phone when a friend leaves you on read but keeps posting?                               | Media & online culture 99%, Communication & conflict 98%, Friendship 96%, Technology & digital tools 85%, Emotions & coping 82% | The phone is the setting. Drop the technology suggestion.    |
-| Where do you get off?                                                                                            | Communication & conflict 89%                                                                                                    | The wording is ambiguous enough to leave unclassified.       |
+## How a question is filed
 
-I specified expected and excluded paths before scoring the evaluation set. A check accepts a more specific descendant of an expected topic. The pilot set informed threshold selection. A second set of 19 real questions was held out during tuning. These checks cover named boundaries. They do not establish precision for every suggested tag. For example, Jev inferred Marriage & long-term partnership from a question that only says “partner.” [Pilot checks](pilot.tsv) · [Held-out checks](holdout.tsv)
+1. **Jev scores every topic in one request.** Each topic is a named `score` decision with its scope and full path, rated 0 to 3 against four anchors (unrelated, incidental, substantial, central) and read as a 0-100 fit. Scores are independent and can add up to more than 100. Only the question text is sent. [OpenRouter Decisions API](https://openrouter.ai/docs/guides/features/decisions)
+2. **A topic fits at 66⅔%**, the "substantial" anchor. 90% and up is a strong match.
+3. **A niche replaces its broader topic only when it is strong or fits at least as well.** "What are you afraid to tell your partner" stays under Dating & partnerships (100%) and is not pushed down into a 76% Marriage.
+4. **A question keeps its strong topics, up to four. Weaker ones only fill it to three.** For the disagreements question, Communication & conflict (100%) is joined by Friendship (72%) and Family (70%), the two people the author named. For the left-on-read question, three strong topics are kept and the 83% Technology match, where the phone is only the setting, is left out.
+5. **Nothing fits → the question is left unfiled** and recorded as an abstention for a person to look at. It stays visible.
 
-| Minimum fit, using the same routed branches | Pilot cases passing all their checks | Held-out cases passing all their checks | Expected held-out paths found | Explicitly unwanted held-out outcomes |
-| ------------------------------------------- | -----------------------------------: | --------------------------------------: | ----------------------------: | ------------------------------------: |
-| 66⅔%                                        |                                27/27 |                                   17/19 |                         18/18 |                                     2 |
-| 72%                                         |                                26/27 |                                   17/19 |                         18/18 |                                     2 |
-| 90%                                         |                                25/27 |                                   18/19 |                         17/18 |                                     0 |
+The rules live in [`src/lib/server/questionTopics/classify.js`](../../../src/lib/server/questionTopics/classify.js), shared by the cron, the tagger and the CLI.
 
-Seven of the eight abstentions have existing tags. Review them for real gaps before retiring those tags. “Who do you look up to and why?” is a candidate for a role-models topic. “How do you do” is a reasonable abstention. The pilot used submitted question text only. For questions with author-provided context, test whether that context helps distinguish a subject from the intended audience.
+### What changed from the proposal, and why
 
-## Running the preview
+- **No drill-down gate.** The proposal scored the two upper levels first and opened a branch only when its parent reached 55%, a threshold it called provisional. Scoring all 57 visible questions both ways showed the gate hiding a fitting topic on 4 of them (all Authenticity & self-presentation, whose parent scored low). Scoring everything costs about $0.0003 a question, so the gate was removed.
+- **A selection rule instead of a bare threshold.** Rules 3 and 4 above replaced "keep everything at 66⅔%". On the same scores they fix the two errors the proposal flagged by hand (over-specific Marriage, incidental Technology).
+- **Tags no longer decide visibility.** Finishing post-processing is what makes a question visible. Filing topics never changes `flagged`, `tagged` or `removed`.
+- **New topic rows instead of remapping 492 IDs.** Topics are new rows marked with `topic_key`. Two legacy rows whose URL a topic would have taken (Dating and Courtship, Elections and Voting) are adopted in place. The other legacy rows stay for history. Their pages 301 to the topic that replaced them once their questions have moved ([redirect map](../../../src/lib/data/questionCategoryRedirects.json)). Category pages had about ten search impressions and no clicks in the last export, so there was no ranking to protect.
+- **One stored result per question** (`question_classifications`: scores, topics, the hash of the question text and the hash of the directory, model and rules) instead of a row per score. A changed question or a changed directory makes the stored result stale and the question is re-scored.
+- **One writer.** Jev, the owner's picker and the admin tools all go through the `apply_question_topics` database function. It updates the live mapping and the two legacy mapping tables and marks category intros stale in one transaction. Topics an owner or admin picked are never overwritten; Jev's answer is stored beside them.
 
-From the repository root, run the following for a local review of the current browse cohort. It includes the four synthetic controls and evaluates both sets of checks. The full report contains every evaluated key, its fit and confidence, the retained paths, the model, the taxonomy hash and the input question hashes. The model receives only the submitted question text and the rubric.
+## What the runs found (November 22, Jev 1.14)
+
+| Check                                              | Before the niches (58 topics)                                                 | With the niches (80 topics)                          |
+| -------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Pilot checks ([pilot.tsv](pilot.tsv))              | 27/27                                                                         | 52/52 (the 27, plus one question per new niche)      |
+| Held-out checks ([holdout.tsv](holdout.tsv))       | 18/19                                                                         | 18/19, the same miss                                 |
+| Visible questions (57)                             | 52 filed, 5 unfiled, 1.7 topics each, 41 topic pages                          | 54 filed, 3 unfiled, 1.9 topics each, 52 topic pages |
+| Every non-removed question (420)                   | 407 filed, 13 unfiled, 2.1 topics each, $0.14                                 | 415 filed, 5 unfiled, 2.4 topics each, $0.22         |
+| Largest topic (questions filed directly under it)  | Values & purpose, 215 of 420                                                  | Values & purpose, 81 of 420 (10 filed there alone)   |
+| Full backfill replayed on a local copy of the data | No legacy category holds a live question afterwards; no visibility flag moved | Not replayed again; only the directory file changed  |
+
+The held-out miss is "Where do you get off", filed under Communication at 87%.
+
+The checks name expected and excluded paths that were written before scoring. A check accepts a more specific descendant. The held-out set was held out while the proposal's thresholds were tuned; it has now been looked at, so treat it as a regression set from here on.
+
+Unfiled visible questions: "what are you thinking about these days", "How do you do", "if you had to be trapped somewhere where would you choose". The other two from the first run found a home in the niches: "Whats something you overresearched that no one asked about" (Knowledge & curiosity) and "What's the smallest thing you've turned into a competition?" (Proving yourself & competing).
+
+### The niche pass
+
+The 363 hidden Chorus prompts are inward-looking, and the 58-topic directory was thin exactly there: Values & purpose took 215 of the 420 questions, Emotions & coping 113 and Growth & change 109. Reading those questions showed they cluster around the nine types' core tensions (achieving and still wanting more, giving until nothing is left, speaking up or keeping the peace, needing to stay strong), so the 22 niches above were written from them. Four scoring passes tuned the scopes.
+
+| Filed directly under  | Before | After |
+| --------------------- | ------ | ----- |
+| Values & purpose      | 215    | 81    |
+| Emotions & coping     | 113    | 66    |
+| Growth & change       | 109    | 60    |
+| Authenticity          | 77     | 29    |
+| Identity & self-worth | 61     | 54    |
+| Communication         | 54     | 26    |
+
+The largest niches are Conviction & compromise (48), Perseverance & giving up (46) and Success & enough (42).
+
+What is still true:
+
+- **A parent page lists its whole branch.** Values & purpose with its eight niches rolls up to 251 of the 420 questions. That only matters if hidden prompts are ever shown in bulk; the 57 visible questions put 9 on that page.
+- **Sports, Faith, History, Economics, Science, Environment, Hobbies, Food and Personal finances hold no questions.** They stay in the directory for questions people will ask; an empty topic has no page.
+- **Weak third topics.** The "fill to three" rule sometimes adds a marginal match, for example Being seen & misunderstood at 71% on "What do single people not understand about married people".
+
+## Commands
 
 ```sh
-node scripts/preview-question-classification.mjs --scope browse --evaluate --output tmp/question-classification/review-scores.json
+pnpm questions:classify                     # questions whose topics are missing or stale
+pnpm questions:classify -- --report         # score them, write a local review, change nothing
+pnpm questions:classify -- --write          # sync the directory to the database, score, file
+pnpm questions:classify -- 81 104 --write   # (re)file specific questions
+pnpm questions:classify -- --all --report --evaluate   # score everything and run the checks
+pnpm questions:classify -- --scope browse   # only questions readers can see
 ```
 
-The same runner accepts `--input questions.json` for an array of objects with `id` and `question`. For the future corpus preview use `--scope corpus` in place of `--scope browse` and give it its own output file. Corpus scope includes every non-removed row, including flagged and dormant questions. Both modes read Supabase and write results locally. Jev responses are cached by model and exact request. [Preview runner](../../../scripts/preview-question-classification.mjs)
+Reports and a side-by-side review (filed today / Jev's topics / fitting topics that were not kept) land in `tmp/question-classification/`, which is git-ignored. Jev answers are cached on disk by exact request.
 
-## Moving reviewed scores into the product
+In production, the tagger files each new question as it is post-processed, and `/api/cron/classify-questions` (hourly) picks up anything missing or stale.
 
-1. **Resolve the editorial boundaries.** Review strong and secondary suggestions separately, with more examples of incidental technology, sports metaphors, ambiguous prompts and over-specific relationship labels. Check a sample of dormant Chorus prompts separately because that population dominates the full corpus. Re-score all candidate descendants on a sample to test the 55% gate. Pin the reviewed taxonomy, model, prompt and thresholds for the backfill.
-2. **Map existing IDs and URLs.** Reuse semantically equivalent categories, including Family and Kinship (26), Parenting and Childrearing (108), and Friendships (28). Map splits such as Personal Growth (57) question by question. Inventory every currently linked category URL, its intro and incoming links. Reparent equivalent IDs while retaining their slugs, and provide a redirect when consolidating equivalent pages. Keep unmatched legacy pages available until their disposition is reviewed.
-3. **Stage scores by version.** Record the question ID and input hash, category key, model and rubric version, fit, confidence and whether a path was proposed. Keep evaluations separate from accepted membership. Capture existing assignments before the first switch. Current mappings lack provenance, so treat differences as proposals and record future owner edits as explicit overrides. A retry should reuse completed decisions, and a changed question or override should invalidate a stale proposal.
-4. **Switch all writers and readers together.** Use one category-only operation for bulk, normal postprocessing and Chorus. Apply reviewed matches and both live and legacy mapping rows in one transaction per question, then refresh affected category intros. Preserve moderation, Chorus visibility, answer generation and SEO metadata independently. Check the owner editor's level-three restriction, direct-only category filters, ancestor rollups and the unpaginated mapping reads used by category pages and sitemap generation. Validate a parent and both sibling pages end to end, including duplicate counts, before activating the new version. [Category editor and writers](../../../src/routes/questions/%5Bslug%5D/+page.server.ts) · [Public category tree](../../../src/lib/server/questionCategoryTree.ts)
+## Rollout
+
+Nothing reader-facing changes until step 3.
+
+1. **Done 2026-11-22: [`20261122170000_question_topics.sql`](../../../supabase/migrations/20261122170000_question_topics.sql).** Additive: two columns on `question_categories`, two on `question_category_tags`, the `question_classifications` table, a snapshot of today's mappings (`question_category_tags_backup_20261122`) and two functions. It is applied to production (206 mappings snapshotted, recorded in `supabase_migrations.schema_migrations`). It had to land **before** the deploy, because admin topic edits call the new function.
+2. **Deploy.** Category pages keep working on the old categories. The hourly cron reports an error until step 3 has created the topics.
+3. **`pnpm questions:classify -- --write`.** Creates the 80 topic rows, then files every non-removed question. Old category URLs start redirecting as their questions move. Review `tmp/question-classification/corpus-review.md` first (`--report` writes it).
+4. **Regenerate category intros** from `/admin/categories` for topics with three or more questions. A topic page is `noindex` and out of the sitemap until it has an intro.
+
+To undo step 3, restore `question_category_tags` from the snapshot table. Legacy categories and their intros are untouched.

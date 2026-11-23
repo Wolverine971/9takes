@@ -65,6 +65,7 @@
 		"push:people": "node scripts/personBlogParser.js",
 		"people:ready": "node scripts/people-ready-list.mjs",
 		"people:classify": "node scripts/classify-people.mjs",
+		"questions:classify": "node scripts/classify-questions.mjs",
 		"audit:cluster-tags": "node scripts/audit-cluster-tags.mjs",
 		"audit:corner-subtopics": "node scripts/audit-corner-subtopics.mjs",
 		"tag:clusters": "node scripts/add-cluster-tags.mjs",

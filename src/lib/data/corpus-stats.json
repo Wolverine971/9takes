@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:26:49.938Z",
+  "generated_at": "2026-11-23T03:33:36.786Z",
   "totals": {
     "published": 470,
     "unpublished_drafts": 106
@@ -468,51 +468,51 @@
       "raw_labels": [
         "politics"
       ],
-      "total": 48,
+      "total": 49,
       "counts_by_type": {
         "1": 9,
         "2": 6,
         "3": 11,
         "4": 2,
         "5": 3,
-        "6": 6,
+        "6": 7,
         "7": 1,
         "8": 6,
         "9": 4
       },
       "share_by_type": {
-        "1": 0.1875,
-        "2": 0.125,
-        "3": 0.2292,
-        "4": 0.0417,
-        "5": 0.0625,
-        "6": 0.125,
-        "7": 0.0208,
-        "8": 0.125,
-        "9": 0.0833
+        "1": 0.1837,
+        "2": 0.1224,
+        "3": 0.2245,
+        "4": 0.0408,
+        "5": 0.0612,
+        "6": 0.1429,
+        "7": 0.0204,
+        "8": 0.1224,
+        "9": 0.0816
       },
       "diff_vs_baseline_pp": {
-        "1": 12.15,
-        "2": 6.33,
-        "3": 5.04,
-        "4": -10.09,
-        "5": -2.05,
-        "6": -0.69,
-        "7": -11.32,
-        "8": 2.29,
-        "9": -1.67
+        "1": 11.77,
+        "2": 6.07,
+        "3": 4.58,
+        "4": -10.17,
+        "5": -2.18,
+        "6": 1.09,
+        "7": -11.36,
+        "8": 2.03,
+        "9": -1.84
       },
       "top_over_represented": {
         "type": 1,
-        "share": 0.1875,
+        "share": 0.1837,
         "count": 9,
-        "delta_pp": 12.15
+        "delta_pp": 11.77
       },
       "top_under_represented": {
         "type": 7,
-        "share": 0.0208,
+        "share": 0.0204,
         "count": 1,
-        "delta_pp": -11.32
+        "delta_pp": -11.36
       }
     },
     "royals-reality": {
@@ -1027,13 +1027,13 @@
     "in_draft": 106,
     "draft_min_content_chars": 2000,
     "published_last_30_days": 15,
-    "published_last_90_days": 35,
-    "avg_new_per_month": 11.7
+    "published_last_90_days": 34,
+    "avg_new_per_month": 11.3
   },
   "freshness": {
     "updated_last_30_days": 15,
-    "updated_last_90_days": 48,
-    "share_updated_last_90_days": 0.1021,
+    "updated_last_90_days": 46,
+    "share_updated_last_90_days": 0.0979,
     "missing_lastmod": 0
   },
   "min_domain_size": 10,
@@ -1047,12 +1047,12 @@
     "Among 19 profiles in the Sports category on 9takes, Type 8 (Challenger) is over-represented at 26.3% — +16.1 percentage points above the corpus baseline.",
     "Among 49 profiles in the Tech category on 9takes, Type 5 (Investigator) is over-represented at 32.6% — +24.36 percentage points above the corpus baseline.",
     "Among 34 profiles in the Business & Money category on 9takes, Type 3 (Achiever) is over-represented at 35.3% — +17.42 percentage points above the corpus baseline.",
-    "Among 48 profiles in the Politics & Government category on 9takes, Type 1 (Reformer) is over-represented at 18.8% — +12.15 percentage points above the corpus baseline.",
+    "Among 49 profiles in the Politics & Government category on 9takes, Type 1 (Reformer) is over-represented at 18.4% — +11.77 percentage points above the corpus baseline.",
     "Among 13 profiles in the Royals, Famous Families & Reality category on 9takes, Type 2 (Helper) is over-represented at 23.1% — +16.91 percentage points above the corpus baseline.",
     "Among 42 profiles in the Ideas & Art category on 9takes, Type 5 (Investigator) is over-represented at 28.6% — +20.27 percentage points above the corpus baseline.",
     "Among 27 profiles in the Style, Food & Home category on 9takes, Type 8 (Challenger) is over-represented at 18.5% — +8.31 percentage points above the corpus baseline.",
     "Among 15 profiles in the Self-Help & Wellness category on 9takes, Type 8 (Challenger) is over-represented at 26.7% — +16.45 percentage points above the corpus baseline.",
     "Among 80 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.45 percentage points above the corpus baseline.",
-    "106 more profiles exist as unpublished drafts on 9takes, and ~11.7 new profiles were published per month over the last 90 days."
+    "106 more profiles exist as unpublished drafts on 9takes, and ~11.3 new profiles were published per month over the last 90 days."
   ]
 }

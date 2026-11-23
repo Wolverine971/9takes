@@ -114,6 +114,7 @@ src/
 - `blogContentProcessor.ts` - Blog parsing/indexing
 - `personalitySimilarity.ts` / `personalityCategoryData.ts` - Related-person ranking
 - `questionCategoryTree.ts` / `questionCategoryIntro.ts` - Question category navigation
+- `questionTopics/` - Jev files questions under the topic directory (`classify.js` rules, `index.ts` wiring)
 - `adminAuth.ts` / `authProtection.ts` / `contentAccessGuard.ts` - Access control
 - `adminAnalytics.ts` / `retentionAnalytics.ts` - Analytics aggregations
 - `apiRateLimit.ts` - Per-subject API rate limiting (backed by `api_rate_limit_events`)
@@ -200,6 +201,7 @@ Admin access is enforced by `src/lib/server/adminAuth.ts` and layout `+layout.se
 | `api/cron/question-summaries/`                | Cron: refresh "The gist so far" summaries (T-43)                      |
 | `api/cron/process-sequences/`                 | Cron: advance email drip sequences                                    |
 | `api/cron/send-scheduled-emails/`             | Cron: send scheduled campaign emails                                  |
+| `api/cron/classify-questions/`                | Cron: Jev files questions whose topics are missing or stale           |
 | `api/cron/tag-chorus-questions/`              | Cron: async tagging for chorus questions                              |
 | `api/cta-event/`                              | CTA impression/tap events for copy experiments                        |
 | `api/email/re-permission/`                    | Reactivation re-permission yes/no links                               |
@@ -224,7 +226,8 @@ Cron endpoints verify `CRON_SECRET`; the Resend webhook verifies `RESEND_WEBHOOK
 ## Key Database Tables
 
 - `questions` / `comments` - Q&A system with nested comments
-- `question_categories` / `question_category_tags` - Category tree + tag joins
+- `question_categories` / `question_category_tags` - Topic directory + question-to-topic joins. Rows with `topic_key` are the current directory (`src/lib/data/questionTaxonomy.json`); rows without are the retired legacy tree. Write joins only through the `apply_question_topics` function
+- `question_classifications` - Jev's latest scores per question (stale when the question text or the directory changes)
 - `profiles` - User profiles with Enneagram type (1-9)
 - `blogs_content` - Published blogs with `search_vector` for FTS
 - `blogs_famous_people` - Celebrity analyses with full metadata
@@ -424,6 +427,7 @@ Run via `pnpm <alias>` where available:
 | `pnpm push:people -- --insert-missing`              | Insert missing drafts without updating existing rows                     |
 | `pnpm people:ready`                                 | Passed people profiles waiting on a portrait/publish, plus held ones     |
 | `pnpm people:classify [-- --write \| --check]`      | Relabel people (new ones auto-run in `gen:famous-types`); `--check` gate |
+| `pnpm questions:classify [-- --report \| --write]`  | Jev files questions under topics; `--report` is a dry run with a review  |
 | `pnpm audit:cluster-tags`                           | Published people with no cluster (lane) tag for their field              |
 | `pnpm audit:corner-subtopics`                       | Enneagram Corner lane counts per section; fails on untagged live posts   |
 | `pnpm tag:clusters -- tags.json [--write]`          | Add cluster tags to drafts (`{"Draft-Stem": "pop-star"}`)                |
@@ -451,6 +455,7 @@ Run via `pnpm <alias>` where available:
 - **Add blog post**: Create `.md` in `src/blog/[category]/`, run `pnpm index:blogs`. Enneagram Corner posts also need `subtopics: [...]` (lane slugs from `src/lib/data/enneagramCornerTaxonomy.js`; a slug from another section cross-lists the post there) or `pnpm test` fails. Once `published: true`, give it 3+ outbound and 3+ inbound links (`pnpm gen:crosslinks -- --target <url>`) or `pnpm crosslinks:check` (lint + CI) fails. `/crosslink-queue` works the link queue weekly.
 - **Cite corpus numbers** ("Type 4 is 35.6% of the 90 musicians we've profiled"): never hand-type them. Write `{{corpus.*}}` tokens (e.g. `{{corpus.domain.music.type.4.share}}`), which resolve to the live `src/lib/data/corpus-stats.json` value: at build for MDsvex posts (body, frontmatter, JSON-LD), at render for people pages (body + FAQs only). Paths and current values: "Live tokens" in `docs/data/corpus-stats.md`; resolver `src/lib/corpusTokens.js`. Prose claims a token can't carry get `<!-- corpus-assert: domain.music.top.type = 4 -->` at a line end or on their own line (never at a line start followed by text: it breaks markdown). `pnpm lint:corpus` (part of `pnpm lint`) fails on hand-typed corpus figures, unknown tokens and failed asserts; non-corpus figures get `<!-- corpus-ok: reason -->`, and a post frozen at a dated pull sets `corpus_snapshot: 'YYYY-MM-DD'`.
 - **Brand assets, social cards, link previews**: the brand kit lives in `src/lib/brand/` (data) and renders at `/admin/brand` (DJ) and `docs/brand/brand-assets.md` (agents, via `pnpm gen:brand-kit`). Make IG/X/OG images with `pnpm brand:card` (same renderer as the site's og:images, `src/lib/server/brandCards/renderBrandCard.ts`); never with an image model. Page og:images use `ogImageUrl('<preset>')` from `src/lib/brand/brandCardPresets.ts`; change copy there, then `pnpm gen:brand-og`.
+- **Change question topics**: edit `src/lib/data/questionTaxonomy.json` (key, parent, label, one-line scope that Jev reads literally), run `pnpm questions:classify -- --all --report --evaluate` to see the effect and the pilot/holdout checks, then `-- --write` (or let the hourly cron re-file everything). Filing topics never changes a question's visibility. Design and evidence: `docs/planning/question-classification/README.md`.
 - **Add celebrity analysis**: Use admin `/admin/content-board` (saves to `blogs_famous_people`)
 - **Any image (blog hero, carousel, social)**: agents NEVER generate images (DJ's rule, 2026-10-04; one OpenRouter run cost ~$7). That means no OpenRouter, no `gemini-imagegen` / Gemini API, no Canva AI generate, no other paid image API, and no driving ChatGPT in the browser. Write the finished prompt to the Cold Light statue spec (dry matte weathered grey Greek marble, blank carved eyes, one light from the upper left, black background, restrained expression, no text, no warm light; the indigo tint ramp is applied afterward with sharp, so prompts ask for neutral grey stone; see `docs/brand/cold-light.md`) and hand it to DJ; he runs it himself in a separate ChatGPT chat on his subscription. For a blog hero, once he saves the file, `node scripts/blog-image-variants.mjs <slug> <image>` builds the variant set and you set `pic: '<slug>'`. Subagent prompts must restate this rule.
 - **Transcribe audio/video (podcasts, interviews)**: use `whisper-cli` with the local models in `~/.cache/hyperframes/whisper/models/` (`ggml-small.en.bin` is fast, `ggml-medium.en.bin` more accurate). Convert first, then transcribe: `ffmpeg -i in.mp3 -ar 16000 -ac 1 clip.wav && whisper-cli -m ~/.cache/hyperframes/whisper/models/ggml-small.en.bin -f clip.wav -otxt -of clip -np` (a 90-second clip takes about 3 seconds). Never search the whole disk or home folder for models or files (`find /`, `find ~`); a global hook blocks it because it sets off macOS permission prompts on the unattended runs.

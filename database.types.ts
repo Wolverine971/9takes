@@ -3207,7 +3207,9 @@ export type Database = {
           intro_updated_by: string | null
           level: number | null
           parent_id: number | null
+          scope: string | null
           slug: string
+          topic_key: string | null
         }
         Insert: {
           category_name: string
@@ -3224,7 +3226,9 @@ export type Database = {
           intro_updated_by?: string | null
           level?: number | null
           parent_id?: number | null
+          scope?: string | null
           slug: string
+          topic_key?: string | null
         }
         Update: {
           category_name?: string
@@ -3241,7 +3245,9 @@ export type Database = {
           intro_updated_by?: string | null
           level?: number | null
           parent_id?: number | null
+          scope?: string | null
           slug?: string
+          topic_key?: string | null
         }
         Relationships: [
           {
@@ -3325,15 +3331,21 @@ export type Database = {
       }
       question_category_tags: {
         Row: {
+          fit: number | null
           question_id: number
+          source: string
           tag_id: number
         }
         Insert: {
+          fit?: number | null
           question_id: number
+          source?: string
           tag_id: number
         }
         Update: {
+          fit?: number | null
           question_id?: number
+          source?: string
           tag_id?: number
         }
         Relationships: [
@@ -3342,6 +3354,50 @@ export type Database = {
             columns: ["tag_id"]
             isOneToOne: false
             referencedRelation: "question_categories"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      question_classifications: {
+        Row: {
+          candidates: Json
+          classified_at: string
+          input_hash: string
+          model: string
+          question_id: number
+          scores: Json
+          status: string
+          taxonomy_hash: string
+          topics: Json
+        }
+        Insert: {
+          candidates?: Json
+          classified_at?: string
+          input_hash: string
+          model: string
+          question_id: number
+          scores?: Json
+          status: string
+          taxonomy_hash: string
+          topics?: Json
+        }
+        Update: {
+          candidates?: Json
+          classified_at?: string
+          input_hash?: string
+          model?: string
+          question_id?: number
+          scores?: Json
+          status?: string
+          taxonomy_hash?: string
+          topics?: Json
+        }
+        Relationships: [
+          {
+            foreignKeyName: "question_classifications_question_id_fkey"
+            columns: ["question_id"]
+            isOneToOne: true
+            referencedRelation: "questions"
             referencedColumns: ["id"]
           },
         ]
@@ -4330,6 +4386,15 @@ export type Database = {
       }
     }
     Functions: {
+      apply_question_topics: {
+        Args: {
+          p_classification?: Json
+          p_question_id: number
+          p_source: string
+          p_topics: Json
+        }
+        Returns: Json
+      }
       analytics_effective_people_published_at: {
         Args: {
           p_created_at: string
@@ -5433,6 +5498,15 @@ export type Database = {
       retry_or_fail_sequence_send: {
         Args: { p_enrollment_id: string; p_error: string }
         Returns: undefined
+      }
+      sync_question_taxonomy: {
+        Args: { p_topics: Json }
+        Returns: {
+          action: string
+          category_id: number
+          slug: string
+          topic_key: string
+        }[]
       }
       search_all_blogs: {
         Args: {

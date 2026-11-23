@@ -45,14 +45,25 @@ if [[ -n "$lock_pid" ]] && kill -0 "$lock_pid" 2>/dev/null; then
   exit 0
 fi
 
-# Case 1: the wrapper never ran tonight.
-if [[ ! -f "$CRON_LOG" ]] || ! grep -q "Nightly blog cron starting" "$CRON_LOG"; then
+# A daily log can contain several invocations. Only the latest real run
+# determines whether the wrapper finished. Older finishes and dry runs
+# must not hide a subsequent interruption.
+state="missing"
+if [[ -f "$CRON_LOG" ]]; then
+  state="$(awk '
+    /\[INFO\] Nightly blog cron starting \(dry-run=/ {
+      live = ($0 ~ /\(dry-run=0\)/)
+      if (live) state = "started"
+    }
+    live && /\[INFO\] Nightly blog cron finished$/ { state = "finished" }
+    END { print state ? state : "missing" }
+  ' "$CRON_LOG")"
+fi
+if [[ "$state" == "missing" ]]; then
   alert "no nightly run tonight — cron log missing or empty ($CRON_LOG). Check the OpenClaw job."
   exit 0
 fi
-
-# Case 2: the wrapper started but never logged a finish, and nothing is running.
-if ! grep -q "Nightly blog cron finished" "$CRON_LOG"; then
+if [[ "$state" == "started" ]]; then
   in_progress="$(jq -r '.inProgress.name // empty' "$QUEUE")"
   detail=""
   if [[ -n "$in_progress" ]]; then
@@ -66,11 +77,6 @@ if ! grep -q "Nightly blog cron finished" "$CRON_LOG"; then
   exit 0
 fi
 
-# Case 3: finished, but a stage failed hard enough to leave a sentinel.
-latest_dir="$(ls -dt "$REPO/docs/content-analysis/pipeline-logs/"*/ 2>/dev/null | head -1)"
-if [[ -n "$latest_dir" && -f "$latest_dir/FAILED_AT_STAGE" ]]; then
-  alert "last pipeline run left FAILED_AT_STAGE: $(cat "$latest_dir/FAILED_AT_STAGE") — see $latest_dir"
-  exit 0
-fi
-
-echo "Watchdog: tonight's run looks healthy."
+# Every completed failure is reported by the wrapper, which also spools
+# undelivered alerts. Historical stage sentinels persist across no-work nights.
+echo "Watchdog: tonight's wrapper finished."

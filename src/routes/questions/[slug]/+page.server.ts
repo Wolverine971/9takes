@@ -46,7 +46,7 @@ import { linkClickSchema } from '$lib/validation/linkSchemas';
 import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
 import { readVisitorFingerprint } from '$lib/server/visitorFingerprint';
 import { uploadQuestionImage } from '$lib/server/questionImages';
-import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
+import { setQuestionTopics } from '$lib/server/questionTopics';
 import {
 	REPLY_RETURN_COOKIE,
 	REPLY_RETURN_COOKIE_PATH,
@@ -77,10 +77,7 @@ const DEFAULT_LINKS_LIMIT = 10;
 const REPLY_FOCUS_REPLIES_LIMIT = 50;
 
 const MAX_IMAGE_SIZE_BYTES = 10 * 1024 * 1024; // 10MB
-const TAGGABLE_LEAF_LEVEL = 3;
 const MAX_CATEGORIES_PER_QUESTION = 3;
-const NEW_CATEGORY_MIN_LENGTH = 2;
-const NEW_CATEGORY_MAX_LENGTH = 60;
 
 function queueGiveFirstEvent(
 	event: Parameters<typeof runBestEffortTelemetry>[0],
@@ -121,29 +118,6 @@ const updateQuestionCategoriesSchema = z.object({
 			return z.NEVER;
 		}
 	})
-});
-
-const createLeafCategorySchema = z.object({
-	questionId: z
-		.string()
-		.regex(/^\d+$/, 'Invalid question id')
-		.transform((value) => Number.parseInt(value, 10)),
-	parentId: z
-		.string()
-		.regex(/^\d+$/, 'Invalid parent id')
-		.transform((value) => Number.parseInt(value, 10)),
-	categoryName: z
-		.string()
-		.trim()
-		.min(
-			NEW_CATEGORY_MIN_LENGTH,
-			`Category name must be at least ${NEW_CATEGORY_MIN_LENGTH} characters`
-		)
-		.max(
-			NEW_CATEGORY_MAX_LENGTH,
-			`Category name cannot exceed ${NEW_CATEGORY_MAX_LENGTH} characters`
-		)
-		.transform((value) => value.replace(/\s+/g, ' '))
 });
 
 export const load: PageServerLoad = async (event) => {
@@ -678,53 +652,20 @@ export const actions: Actions = {
 			throw error(403, 'Only the question owner can edit categories');
 		}
 
-		await validateLeafCategories(db, tagIds);
-
-		const { error: deleteTagError } = await db
-			.from('question_category_tags')
-			.delete()
-			.eq('question_id', questionId);
-		if (deleteTagError) {
-			throw error(500, 'Failed to clear existing categories');
-		}
-
-		const { error: insertTagError } = await db.from('question_category_tags').insert(
-			tagIds.map((tagId) => ({
-				question_id: questionId,
-				tag_id: tagId
-			}))
-		);
-		if (insertTagError) {
+		// The database function re-checks ownership and that every pick is a topic in
+		// the current directory, then files the question in one transaction. Hand-
+		// picked topics are kept when Jev re-scores the question later.
+		try {
+			await setQuestionTopics(db, questionId, tagIds, 'owner');
+		} catch (saveError) {
+			console.error('Failed to save question topics', saveError);
 			throw error(500, 'Failed to save categories');
 		}
 
-		await syncLegacyTagMappings(db, tagIds);
-
-		const { error: removeLegacyQuestionTagsError } = await db
-			.from('question_tags')
-			.delete()
-			.eq('question_id', questionId);
-		if (removeLegacyQuestionTagsError) {
-			throw error(500, 'Failed to clear legacy tags');
-		}
-
-		const { error: insertLegacyQuestionTagsError } = await db.from('question_tags').insert(
-			tagIds.map((tagId) => ({
-				question_id: questionId,
-				tag_id: tagId
-			}))
-		);
-		if (insertLegacyQuestionTagsError) {
-			throw error(500, 'Failed to update legacy tags');
-		}
-
+		// Topics never change visibility or post-processing state, only freshness.
 		const { error: updateQuestionError } = await db
 			.from('questions')
-			.update({
-				tagged: true,
-				flagged: false,
-				updated_at: new Date().toISOString()
-			})
+			.update({ updated_at: new Date().toISOString() })
 			.eq('id', questionId);
 		if (updateQuestionError) {
 			throw error(500, 'Failed to update question metadata');
@@ -734,64 +675,6 @@ export const actions: Actions = {
 			success: true,
 			tagIds
 		};
-	},
-
-	createLeafCategory: async ({ request, locals, params }) => {
-		const session = locals.session;
-		if (!session?.user?.id) {
-			throw error(401, 'Unauthorized');
-		}
-
-		const db = locals.supabase as any;
-		const demoTime = (await checkDemoTime(db)) === true;
-		if (demoTime) {
-			throw error(403, 'Category creation is unavailable in demo mode');
-		}
-
-		const formData = Object.fromEntries(await request.formData());
-		const parsed = createLeafCategorySchema.safeParse(formData);
-		if (!parsed.success) {
-			throw error(400, parsed.error.issues[0]?.message || 'Invalid category create payload');
-		}
-
-		const { questionId, parentId, categoryName } = parsed.data;
-
-		const question = await getQuestionForMutation(db, params.slug, demoTime);
-		if (!question || question.id !== questionId) {
-			throw error(404, 'Question not found');
-		}
-		if (question.author_id !== session.user.id) {
-			throw error(403, 'Only the question owner can create categories here');
-		}
-
-		const { data: parentCategory, error: parentError } = await db
-			.from('question_categories')
-			.select('id, level')
-			.eq('id', parentId)
-			.maybeSingle();
-		if (parentError || !parentCategory) {
-			throw error(400, 'Parent category not found');
-		}
-		if (parentCategory.level !== TAGGABLE_LEAF_LEVEL - 1) {
-			throw error(400, 'New categories must be created under a level 2 parent');
-		}
-
-		const { data: existingCategory, error: existingCategoryError } = await db
-			.from('question_categories')
-			.select('id, category_name, slug, parent_id, level')
-			.eq('parent_id', parentId)
-			.ilike('category_name', categoryName)
-			.maybeSingle();
-		if (existingCategoryError) {
-			throw error(500, 'Failed to validate category uniqueness');
-		}
-		if (existingCategory) {
-			return { success: true, category: existingCategory, created: false };
-		}
-
-		const category = await createLeafCategoryWithRetry(db, parentId, categoryName);
-		await syncLegacyTagMappings(db, [category.id]);
-		return { success: true, category, created: true };
 	}
 };
 
@@ -1259,11 +1142,12 @@ function mapDemoComment(comment: any) {
 	};
 }
 
+/** The current topic directory for the owner's picker: the seven areas and every topic under them. */
 async function getCategoryEditorData() {
 	const { data, error: categoryError } = await supabase
 		.from('question_categories')
 		.select('id, category_name, slug, parent_id, level')
-		.in('level', [1, 2, TAGGABLE_LEAF_LEVEL])
+		.not('topic_key', 'is', null)
 		.order('category_name', { ascending: true });
 
 	if (categoryError) {
@@ -1294,89 +1178,4 @@ async function getQuestionForMutation(db: any, slug: string, demoTime: boolean) 
 	}
 
 	return data;
-}
-
-async function validateLeafCategories(db: any, tagIds: number[]) {
-	const { data: categories, error: categoryError } = await db
-		.from('question_categories')
-		.select('id, level')
-		.in('id', tagIds);
-
-	if (categoryError) {
-		throw error(500, 'Failed to validate categories');
-	}
-	if (!categories || categories.length !== tagIds.length) {
-		throw error(400, 'One or more selected categories are invalid');
-	}
-
-	const invalidLevels = categories.filter(
-		(category: any) => category.level !== TAGGABLE_LEAF_LEVEL
-	);
-	if (invalidLevels.length) {
-		throw error(400, 'Only leaf categories can be selected');
-	}
-}
-
-async function createLeafCategoryWithRetry(db: any, parentId: number, categoryName: string) {
-	for (let attempt = 0; attempt < 3; attempt += 1) {
-		const { data: highestCategory, error: highestCategoryError } = await db
-			.from('question_categories')
-			.select('id')
-			.order('id', { ascending: false })
-			.limit(1)
-			.maybeSingle();
-		if (highestCategoryError) {
-			throw error(500, 'Failed to generate category id');
-		}
-
-		const nextCategoryId = (highestCategory?.id ?? 0) + 1;
-		const { data: insertedCategory, error: insertCategoryError } = await db
-			.from('question_categories')
-			.insert({
-				id: nextCategoryId,
-				category_name: categoryName,
-				slug: buildQuestionCategorySlug(categoryName),
-				parent_id: parentId,
-				level: TAGGABLE_LEAF_LEVEL
-			})
-			.select('id, category_name, slug, parent_id, level')
-			.maybeSingle();
-
-		if (!insertCategoryError && insertedCategory) {
-			return insertedCategory;
-		}
-
-		if (insertCategoryError?.code !== '23505') {
-			throw error(500, 'Failed to create category');
-		}
-	}
-
-	throw error(500, 'Failed to create category, please try again');
-}
-
-async function syncLegacyTagMappings(db: any, tagIds: number[]) {
-	const uniqueTagIds = Array.from(new Set(tagIds));
-	if (!uniqueTagIds.length) {
-		return;
-	}
-
-	const { data: categories, error: categoriesError } = await db
-		.from('question_categories')
-		.select('id, category_name')
-		.in('id', uniqueTagIds);
-	if (categoriesError || !categories?.length) {
-		throw error(500, 'Failed to resolve categories for legacy mapping');
-	}
-
-	const { error: legacyUpsertError } = await db.from('question_tag').upsert(
-		categories.map((category: any) => ({
-			tag_id: category.id,
-			tag_name: category.category_name,
-			subcategory_id: null
-		})),
-		{ onConflict: 'tag_id' }
-	);
-	if (legacyUpsertError) {
-		throw error(500, 'Failed to sync legacy category metadata');
-	}
 }

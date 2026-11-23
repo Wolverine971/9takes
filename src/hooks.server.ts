@@ -38,7 +38,6 @@ if (!dev) console.info(`[runtime] node ${process.version}`);
 // import dropcss from 'dropcss';
 
 // import schedule from 'node-schedule';
-// import { tagQuestions } from './utils/server/openai';
 
 export const handle: Handle = async ({ event, resolve }) => {
 	const probeResponse = createSensitiveProbeResponse(event.url.pathname);
@@ -195,10 +194,6 @@ export const handle: Handle = async ({ event, resolve }) => {
 		// recordSharedContentAccessEvent logs its own failures.
 		runBestEffortTelemetry(event, recordEvent, () => {});
 	}
-
-	// const job = schedule.scheduleJob('*/1 * * * *', async function () {
-	// 	await tagQuestions();
-	// });
 
 	const response = await resolve(event, {
 		// CSS is already emitted as stylesheet tags; preloading it via HTTP Link headers

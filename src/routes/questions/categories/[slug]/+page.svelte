@@ -183,12 +183,8 @@
 
 			{#if subtreeCount > 0}
 				<p class="hero-meta mono">
-					{#if directCount > 0}
-						{directCount}
-						{directCount === 1 ? 'QUESTION' : 'QUESTIONS'}
-					{:else}
-						0 QUESTIONS
-					{/if}
+					{subtreeCount}
+					{subtreeCount === 1 ? 'QUESTION' : 'QUESTIONS'}
 					{#if nestedCount > 0}
 						<span class="hero-meta-sep" aria-hidden="true">·</span>
 						{nestedCount} IN SUBCATEGORIES

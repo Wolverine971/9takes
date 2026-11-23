@@ -1,0 +1,485 @@
+{
+	"version": 1,
+	"topics": [
+		{
+			"key": "self",
+			"parent": null,
+			"label": "Self & personality",
+			"scope": "Identity, personality, emotions, personal growth and the values guiding one's own life."
+		},
+		{
+			"key": "identity",
+			"parent": "self",
+			"label": "Identity & self-worth",
+			"scope": "Who I am, how others see me, authenticity, self-image, proving my worth."
+		},
+		{
+			"key": "authenticity",
+			"parent": "identity",
+			"label": "Authenticity & self-presentation",
+			"scope": "Hiding, revealing or performing parts of yourself."
+		},
+		{
+			"key": "image",
+			"parent": "authenticity",
+			"label": "Image & persona",
+			"scope": "A curated image, public persona or role, and what happens when it drifts from who you are inside."
+		},
+		{
+			"key": "privacy",
+			"parent": "authenticity",
+			"label": "Privacy & what you hold back",
+			"scope": "What you keep private, how much of yourself to share, and protecting what feels tender."
+		},
+		{
+			"key": "self_worth",
+			"parent": "identity",
+			"label": "Self-worth & recognition",
+			"scope": "Feeling worthy, being valued, earning recognition or needing approval."
+		},
+		{
+			"key": "proving",
+			"parent": "self_worth",
+			"label": "Proving yourself & competing",
+			"scope": "Proving your own worth through performance or achievement, your own competitive streak, and whether you are worthy without winning."
+		},
+		{
+			"key": "seen",
+			"parent": "identity",
+			"label": "Being seen & misunderstood",
+			"scope": "Wanting other people to see and understand who you really are, being misjudged or overlooked, and the pull to disappear."
+		},
+		{
+			"key": "emotion",
+			"parent": "self",
+			"label": "Emotions & coping",
+			"scope": "Feeling fear, anger, grief or joy and how a person handles an emotional response."
+		},
+		{
+			"key": "stress",
+			"parent": "emotion",
+			"label": "Stress & overwhelm",
+			"scope": "Coping with stress, pressure or emotional overload."
+		},
+		{
+			"key": "fear",
+			"parent": "emotion",
+			"label": "Fear & uncertainty",
+			"scope": "Fears, vulnerability and responses to uncertainty."
+		},
+		{
+			"key": "peace",
+			"parent": "emotion",
+			"label": "Inner peace & calm",
+			"scope": "Staying calm amid conflict or chaos, protecting your own peace, and resting without needing to do more."
+		},
+		{
+			"key": "loss",
+			"parent": "emotion",
+			"label": "Pain, loss & grief",
+			"scope": "Living with loss, grief, lasting pain or hardship, and what carries a person through it."
+		},
+		{
+			"key": "joy",
+			"parent": "emotion",
+			"label": "Joy, humor & escape",
+			"scope": "Choosing joy, humor or a bright side when things are hard, and when that becomes a way to avoid what hurts."
+		},
+		{
+			"key": "strength",
+			"parent": "emotion",
+			"label": "Strength & control",
+			"scope": "Needing to be strong, tough or in control, holding power, and what happens when that strength slips."
+		},
+		{
+			"key": "security",
+			"parent": "emotion",
+			"label": "Safety & trust",
+			"scope": "Feeling safe, deciding who or what to trust, and preparing for what could go wrong."
+		},
+		{
+			"key": "disappointment",
+			"parent": "emotion",
+			"label": "Disappointment & falling short",
+			"scope": "Effort that did not pay off, coming up short of your own standard, and living with an outcome you did not want."
+		},
+		{
+			"key": "growth",
+			"parent": "self",
+			"label": "Growth & change",
+			"scope": "Changing yourself, learning from personal setbacks, motivation, perseverance."
+		},
+		{
+			"key": "reinvention",
+			"parent": "growth",
+			"label": "Reinvention & starting over",
+			"scope": "Becoming a new version of yourself, starting fresh, and what to keep or let go of from who you were."
+		},
+		{
+			"key": "perseverance",
+			"parent": "growth",
+			"label": "Perseverance & giving up",
+			"scope": "Keeping going when it is hard, the discipline to continue, and deciding when to stop or quit."
+		},
+		{
+			"key": "life_story",
+			"parent": "self",
+			"label": "Memories & milestones",
+			"scope": "Recalling childhood experiences, an important life event or a turning point in one's personal history."
+		},
+		{
+			"key": "meaning",
+			"parent": "self",
+			"label": "Values & purpose",
+			"scope": "Personal priorities, changing beliefs, fulfillment, purpose and what makes a choice meaningful."
+		},
+		{
+			"key": "achievement",
+			"parent": "meaning",
+			"label": "Success & enough",
+			"scope": "Reaching a goal or achieving success, whether it satisfies, and wanting more after getting what you wanted."
+		},
+		{
+			"key": "giving",
+			"parent": "meaning",
+			"label": "Giving & self-sacrifice",
+			"scope": "Giving your time or care to other people, over-giving, and what is left for yourself."
+		},
+		{
+			"key": "conviction",
+			"parent": "meaning",
+			"label": "Conviction & compromise",
+			"scope": "Standing firm on a belief, principle or vision versus bending it for peace, unity or other people."
+		},
+		{
+			"key": "freedom",
+			"parent": "meaning",
+			"label": "Freedom & restlessness",
+			"scope": "Wanting freedom, novelty or new experiences versus settling down, committing or staying put."
+		},
+		{
+			"key": "legacy",
+			"parent": "meaning",
+			"label": "Legacy & life's work",
+			"scope": "What you build or create, how much of yourself goes into it, and what you leave behind."
+		},
+		{
+			"key": "duty",
+			"parent": "meaning",
+			"label": "Duty & responsibility",
+			"scope": "What you owe other people or a cause, burdens others expect you to carry, and the personal cost of doing right."
+		},
+		{
+			"key": "standards",
+			"parent": "meaning",
+			"label": "Standards & perfectionism",
+			"scope": "Holding high standards, needing things to be done right, perfectionism, and the urge to fix what is flawed or inefficient."
+		},
+		{
+			"key": "knowledge",
+			"parent": "meaning",
+			"label": "Knowledge & curiosity",
+			"scope": "Curiosity about how things work, the pursuit of knowledge, and researching or studying a subject in depth."
+		},
+		{
+			"key": "personality",
+			"parent": "self",
+			"label": "Personality frameworks",
+			"scope": "Using an explicit personality typology to understand people or themselves."
+		},
+		{
+			"key": "enneagram",
+			"parent": "personality",
+			"label": "Enneagram",
+			"scope": "Understanding the Enneagram, numbered personality types, wings or instincts."
+		},
+		{
+			"key": "relationships",
+			"parent": null,
+			"label": "Relationships & belonging",
+			"scope": "Family, partners, friends, community and interactions between people."
+		},
+		{
+			"key": "family",
+			"parent": "relationships",
+			"label": "Family & upbringing",
+			"scope": "Being a parent, child or relative, and life within a family."
+		},
+		{
+			"key": "parenting",
+			"parent": "family",
+			"label": "Parenting & caregiving",
+			"scope": "Raising or guiding one's children and choices made by a parent for a child."
+		},
+		{
+			"key": "parent_pressure",
+			"parent": "parenting",
+			"label": "Parental expectations",
+			"scope": "How parents' hopes or pressure shape their children's choices or performance."
+		},
+		{
+			"key": "family_roles",
+			"parent": "family",
+			"label": "Family roles & dynamics",
+			"scope": "The role a relative plays in the household, sibling dynamics or how relatives divide family obligations."
+		},
+		{
+			"key": "romance",
+			"parent": "relationships",
+			"label": "Dating & partnerships",
+			"scope": "Dating, intimacy, committed partnerships, marriage or breakups."
+		},
+		{
+			"key": "dating",
+			"parent": "romance",
+			"label": "Dating & courtship",
+			"scope": "Choosing dates, dating activities and finding a romantic partner."
+		},
+		{
+			"key": "marriage",
+			"parent": "romance",
+			"label": "Marriage & long-term partnership",
+			"scope": "Being married, spouses, weddings and married life."
+		},
+		{
+			"key": "friends",
+			"parent": "relationships",
+			"label": "Friendship",
+			"scope": "Making, defining or maintaining friendships and interactions between friends."
+		},
+		{
+			"key": "community",
+			"parent": "relationships",
+			"label": "Community & belonging",
+			"scope": "Finding a community, belonging to groups, inclusion and social trust."
+		},
+		{
+			"key": "outsider",
+			"parent": "community",
+			"label": "Fitting in & standing apart",
+			"scope": "Feeling different from the people around you, being on the outside of a group, and wanting to belong."
+		},
+		{
+			"key": "role_models",
+			"parent": "relationships",
+			"label": "Role models & influences",
+			"scope": "People you admire, look up to or learn from, mentors, and the people who shaped you."
+		},
+		{
+			"key": "communication",
+			"parent": "relationships",
+			"label": "Communication & conflict",
+			"scope": "Speaking up, interpreting another person's words, boundaries, disagreements and repair."
+		},
+		{
+			"key": "speaking_up",
+			"parent": "communication",
+			"label": "Speaking up & keeping the peace",
+			"scope": "Whether to say a hard truth, challenge someone or raise a concern versus staying quiet to avoid conflict."
+		},
+		{
+			"key": "work",
+			"parent": null,
+			"label": "Work, learning & money",
+			"scope": "Careers, the workplace, business, education, acquiring skills and managing money."
+		},
+		{
+			"key": "career",
+			"parent": "work",
+			"label": "Careers & working life",
+			"scope": "Career choices, jobs, professional identity, relationships and recognition at work."
+		},
+		{
+			"key": "workplace",
+			"parent": "career",
+			"label": "Workplace relationships",
+			"scope": "Interactions between colleagues, office politics and workplace credit."
+		},
+		{
+			"key": "business",
+			"parent": "work",
+			"label": "Business & leadership",
+			"scope": "Running companies, building ventures, leading people and business decisions."
+		},
+		{
+			"key": "education",
+			"parent": "work",
+			"label": "School & skills",
+			"scope": "School experience, college decisions, formal education and learning specific skills."
+		},
+		{
+			"key": "college",
+			"parent": "education",
+			"label": "College & higher education",
+			"scope": "Deciding whether, where or what to study in college."
+		},
+		{
+			"key": "money",
+			"parent": "work",
+			"label": "Personal finances",
+			"scope": "Earning, budgeting, debt, investing personal savings and household finances."
+		},
+		{
+			"key": "health",
+			"parent": null,
+			"label": "Health & everyday life",
+			"scope": "Physical and mental health, daily routines, food, travel and everyday practical choices."
+		},
+		{
+			"key": "wellbeing",
+			"parent": "health",
+			"label": "Physical & mental health",
+			"scope": "Conditions, treatment, health practices and the effect of strain on health."
+		},
+		{
+			"key": "routine",
+			"parent": "health",
+			"label": "Habits & routines",
+			"scope": "Recurring activities, daily habits, time use, mornings and evenings."
+		},
+		{
+			"key": "home",
+			"parent": "health",
+			"label": "Food & home life",
+			"scope": "Cooking, meals, maintaining a home and household routines."
+		},
+		{
+			"key": "travel",
+			"parent": "health",
+			"label": "Travel & getting around",
+			"scope": "Trips, transit, air travel and how people get from place to place."
+		},
+		{
+			"key": "culture",
+			"parent": null,
+			"label": "Culture, sports & leisure",
+			"scope": "Playing or watching sports, hobbies, art, books, music, entertainment and media."
+		},
+		{
+			"key": "sports",
+			"parent": "culture",
+			"label": "Sports & competition",
+			"scope": "Athletic activities, athletes, teams, coaching, fandom and competition in organized sports."
+		},
+		{
+			"key": "youth_sports",
+			"parent": "sports",
+			"label": "Youth sports",
+			"scope": "Children or teens playing organized sports, including school teams and coaching."
+		},
+		{
+			"key": "youth_pressure",
+			"parent": "youth_sports",
+			"label": "Pressure on young athletes",
+			"scope": "The experience of performance expectations, burnout or coercion in youth athletics."
+		},
+		{
+			"key": "fandom",
+			"parent": "sports",
+			"label": "Sports fandom",
+			"scope": "Watching, following or supporting teams and athletes."
+		},
+		{
+			"key": "arts",
+			"parent": "culture",
+			"label": "Arts, books & entertainment",
+			"scope": "Reading, music, film, art, creative practice and choosing what to read or watch."
+		},
+		{
+			"key": "books",
+			"parent": "arts",
+			"label": "Books & reading",
+			"scope": "Choosing, reading or discussing books and literature."
+		},
+		{
+			"key": "hobbies",
+			"parent": "culture",
+			"label": "Hobbies & play",
+			"scope": "Play for its own sake, collecting, crafts, tabletop games, toys and recreational pastimes outside athletics or the arts."
+		},
+		{
+			"key": "media",
+			"parent": "culture",
+			"label": "Media & online culture",
+			"scope": "Social media use and norms, media influence, online audiences and popular culture."
+		},
+		{
+			"key": "society",
+			"parent": null,
+			"label": "Society & public life",
+			"scope": "Government, politics, law, collective ethics, religion, social institutions and history."
+		},
+		{
+			"key": "politics",
+			"parent": "society",
+			"label": "Politics & government",
+			"scope": "Elections, political beliefs, parties, policy, public office and international affairs."
+		},
+		{
+			"key": "elections",
+			"parent": "politics",
+			"label": "Elections & voting",
+			"scope": "Voters, candidates and election choices."
+		},
+		{
+			"key": "ideology",
+			"parent": "politics",
+			"label": "Political beliefs & parties",
+			"scope": "Partisanship, changing political views and differences between parties."
+		},
+		{
+			"key": "diplomacy",
+			"parent": "politics",
+			"label": "International affairs",
+			"scope": "Relations and conflicts between governments."
+		},
+		{
+			"key": "ethics",
+			"parent": "society",
+			"label": "Ethics & justice",
+			"scope": "Examining a moral principle, a conflict between duties, fairness, rights, laws or systems of justice."
+		},
+		{
+			"key": "faith",
+			"parent": "society",
+			"label": "Faith & traditions",
+			"scope": "Religion, spiritual practice and cultural traditions."
+		},
+		{
+			"key": "history",
+			"parent": "society",
+			"label": "History & social change",
+			"scope": "Historical events, social movements, customs over time and societal change."
+		},
+		{
+			"key": "economy",
+			"parent": "society",
+			"label": "Economics & policy",
+			"scope": "Markets, economic systems, employment policy and the distribution of public resources."
+		},
+		{
+			"key": "science",
+			"parent": null,
+			"label": "Science, technology & environment",
+			"scope": "The natural world, scientific knowledge, digital tools, infrastructure and environmental systems."
+		},
+		{
+			"key": "tech",
+			"parent": "science",
+			"label": "Technology & digital tools",
+			"scope": "Devices, software, AI, technical skills and how technologies function or are used."
+		},
+		{
+			"key": "research",
+			"parent": "science",
+			"label": "Science & discovery",
+			"scope": "Scientific methods, findings, the physical universe and scientific explanations."
+		},
+		{
+			"key": "environment",
+			"parent": "science",
+			"label": "Environment & infrastructure",
+			"scope": "Climate, ecosystems, food systems, sustainability and built infrastructure."
+		}
+	]
+}

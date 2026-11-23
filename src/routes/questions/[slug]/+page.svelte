@@ -88,8 +88,6 @@
 	let recipientInviteId = $state<string | null>(null);
 	let categoryEditorOpen = $state(false);
 	let categoryEditorSaving = $state(false);
-	let creatingLeafCategory = $state(false);
-	let newLeafCategoryName = $state('');
 
 	type QuestionImpressionActionInput = {
 		questionId: number;
@@ -151,8 +149,12 @@
 			: ''
 	);
 
-	// Leaf picks: the server's tags until the author toggles one.
-	let selectedTagIds = $derived(tagIdsFromSignature(serverTagSignature));
+	// Topic picks: the server's topics until the author toggles one. Topics from
+	// outside the current directory (legacy categories) cannot be re-saved, so they
+	// are left out of the picks.
+	let selectedTagIds = $derived(
+		tagIdsFromSignature(serverTagSignature).filter((tagId) => categoryById.has(tagId))
+	);
 
 	// Editor messages clear on every sync.
 	let categoryEditorError = $derived.by(() => {
@@ -164,70 +166,40 @@
 		return '';
 	});
 
-	// Where the picker opens after a sync: the first selected leaf's parent and root.
-	let syncedPlacement = $derived.by(() => {
+	// Where the picker opens after a sync: the area holding the first selected topic.
+	let syncedRootId = $derived.by(() => {
 		const tagIds = tagIdsFromSignature(serverTagSignature);
 		return untrack(() => {
-			const firstSelectedLeaf = tagIds
-				.map((tagId) => categoryById.get(tagId))
-				.find(
-					(category): category is EditableCategory => category !== undefined && category.level === 3
-				);
-			const parentId = firstSelectedLeaf?.parent_id ?? null;
-			return {
-				parentId,
-				rootId: parentId ? (categoryById.get(parentId)?.parent_id ?? null) : null
-			};
+			for (const tagId of tagIds) {
+				const rootId = rootCategoryIdOf(tagId);
+				if (rootId !== null) return rootId;
+			}
+			return null;
 		});
 	});
 
-	// Root: seeded per sync, overridden by a click, else the first root.
-	let pickedRootId = $derived<number | null>(syncedPlacement.rootId);
+	// Area: seeded per sync, overridden by a click, else the first area.
+	let pickedRootId = $derived<number | null>(syncedRootId);
 	let selectedRootCategoryId = $derived(
 		pickedRootId !== null && rootCategories.some((category) => category.id === pickedRootId)
 			? pickedRootId
 			: (rootCategories[0]?.id ?? null)
 	);
 
-	let parentCategories = $derived.by(() => {
-		if (!selectedRootCategoryId) {
-			return [] as EditableCategory[];
-		}
-		return editableCategories
-			.filter((category) => category.level === 2 && category.parent_id === selectedRootCategoryId)
-			.sort((a, b) => a.category_name.localeCompare(b.category_name));
-	});
-
-	// Parent: chosen once per sync or root change (the synced parent, else one
-	// holding a selected leaf, else the first), then kept until a click
-	// overrides it, so toggling leaves never moves the open column.
-	let pickedParentId = $derived.by<number | null>(() => {
-		const rootId = selectedRootCategoryId;
-		const placement = syncedPlacement;
-		return untrack(() =>
-			placement.rootId === rootId && placement.parentId !== null
-				? placement.parentId
-				: defaultParentCategoryId()
-		);
-	});
-	let selectedParentCategoryId = $derived.by<number | null>(() => {
-		if (!selectedRootCategoryId || !parentCategories.length) return null;
-		if (
-			pickedParentId !== null &&
-			parentCategories.some((category) => category.id === pickedParentId)
-		) {
-			return pickedParentId;
-		}
-		return defaultParentCategoryId();
-	});
-
-	let leafCategories = $derived.by(() => {
-		if (!selectedParentCategoryId) {
-			return [] as EditableCategory[];
-		}
-		return editableCategories
-			.filter((category) => category.level === 3 && category.parent_id === selectedParentCategoryId)
-			.sort((a, b) => a.category_name.localeCompare(b.category_name));
+	// Every topic under the chosen area, each broad topic followed by its niches.
+	let areaTopics = $derived.by(() => {
+		const topics: Array<EditableCategory & { parentName: string | null }> = [];
+		const visit = (parentId: number, parentName: string | null) => {
+			const children = editableCategories
+				.filter((category) => category.parent_id === parentId)
+				.sort((a, b) => a.category_name.localeCompare(b.category_name));
+			for (const child of children) {
+				topics.push({ ...child, parentName });
+				visit(child.id, child.category_name);
+			}
+		};
+		if (selectedRootCategoryId) visit(selectedRootCategoryId, null);
+		return topics;
 	});
 	let selectedLeafCategories = $derived.by(() =>
 		selectedTagIds
@@ -235,27 +207,18 @@
 			.filter((category): category is EditableCategory => Boolean(category))
 			.sort((a, b) => a.category_name.localeCompare(b.category_name))
 	);
-	let selectedParentCategoryName = $derived(
-		selectedParentCategoryId
-			? (categoryById.get(selectedParentCategoryId)?.category_name ?? '')
-			: ''
-	);
-
 	function tagIdsFromSignature(signature: string): number[] {
 		return signature ? signature.split(',').map(Number) : [];
 	}
 
-	// A parent under the current root that holds one of the selected leaves,
-	// else the root's first parent.
-	function defaultParentCategoryId(): number | null {
-		const selectedTagParent = selectedLeafCategories
-			.map((leaf) => leaf.parent_id)
-			.find(
-				(parentId): parentId is number =>
-					typeof parentId === 'number' &&
-					parentCategories.some((category) => category.id === parentId)
-			);
-		return selectedTagParent ?? parentCategories[0]?.id ?? null;
+	// The area (top heading) a topic sits under; null for a topic outside the directory.
+	function rootCategoryIdOf(categoryId: number): number | null {
+		let current = categoryById.get(categoryId);
+		for (let hops = 0; current && hops < 6; hops++) {
+			if (current.parent_id === null) return current.id;
+			current = categoryById.get(current.parent_id);
+		}
+		return null;
 	}
 
 	// Merge optimistic and server comments, deduplicating by ID
@@ -754,12 +717,6 @@
 		categoryEditorSuccess = '';
 	}
 
-	function selectParentCategory(parentId: number) {
-		pickedParentId = parentId;
-		categoryEditorError = '';
-		categoryEditorSuccess = '';
-	}
-
 	function toggleLeafCategory(categoryId: number) {
 		categoryEditorError = '';
 		categoryEditorSuccess = '';
@@ -778,8 +735,9 @@
 	}
 
 	function resetCategoryEditor() {
-		const serverTagIds = getServerTagIds((data.questionTags || []) as QuestionTagRef[]);
-		selectedTagIds = serverTagIds;
+		selectedTagIds = getServerTagIds((data.questionTags || []) as QuestionTagRef[]).filter(
+			(tagId) => categoryById.has(tagId)
+		);
 		categoryEditorError = '';
 		categoryEditorSuccess = '';
 	}
@@ -821,50 +779,6 @@
 			categoryEditorError = err instanceof Error ? err.message : 'Failed to update categories';
 		} finally {
 			categoryEditorSaving = false;
-		}
-	}
-
-	async function createLeafCategory() {
-		categoryEditorError = '';
-		categoryEditorSuccess = '';
-
-		if (!selectedParentCategoryId) {
-			categoryEditorError = 'Choose a level 2 parent before creating a leaf category.';
-			return;
-		}
-
-		const normalizedName = newLeafCategoryName.trim().replace(/\s+/g, ' ');
-		if (!normalizedName) {
-			categoryEditorError = 'Enter a category name.';
-			return;
-		}
-
-		creatingLeafCategory = true;
-		const body = new FormData();
-		body.append('questionId', String(data.question.id));
-		body.append('parentId', String(selectedParentCategoryId));
-		body.append('categoryName', normalizedName);
-
-		try {
-			const response = await fetch('?/createLeafCategory', { method: 'POST', body });
-			if (!response.ok) {
-				throw new Error('Failed to create category');
-			}
-
-			const result = deserialize(await response.text()) as any;
-			if (result?.type !== 'success' || !result?.data?.success) {
-				throw new Error(result?.data?.message || 'Failed to create category');
-			}
-
-			newLeafCategoryName = '';
-			categoryEditorSuccess = result?.data?.created
-				? 'New leaf category created.'
-				: 'Category already exists under this parent.';
-			await invalidateAll();
-		} catch (err) {
-			categoryEditorError = err instanceof Error ? err.message : 'Failed to create category';
-		} finally {
-			creatingLeafCategory = false;
 		}
 	}
 </script>
@@ -1093,7 +1007,7 @@
 					{#if categoryEditorOpen}
 						<div class="category-editor">
 							<div class="category-editor-step">
-								<p class="mono category-editor-step__label">STEP 1: TOP-LEVEL PARENT</p>
+								<p class="mono category-editor-step__label">STEP 1: AREA</p>
 								<div class="chip-row">
 									{#each rootCategories as category (category.id)}
 										<button
@@ -1111,40 +1025,16 @@
 							</div>
 
 							<div class="category-editor-step">
-								<p class="mono category-editor-step__label">STEP 2: SECOND-LEVEL PARENT</p>
-								{#if parentCategories.length}
-									<div class="chip-row">
-										{#each parentCategories as category (category.id)}
-											<button
-												type="button"
-												onclick={() => selectParentCategory(category.id)}
-												class={[
-													'cat-chip',
-													selectedParentCategoryId === category.id && 'cat-chip--active'
-												]}
-											>
-												{category.category_name}
-											</button>
-										{/each}
-									</div>
-								{:else}
-									<p class="category-editor-empty">
-										No level 2 categories under this top-level parent.
-									</p>
-								{/if}
-							</div>
-
-							<div class="category-editor-step">
 								<div class="category-editor-step__head">
-									<p class="mono category-editor-step__label">STEP 3: LEAF CATEGORIES</p>
+									<p class="mono category-editor-step__label">STEP 2: TOPICS</p>
 									<p class="mono category-editor-step__count">
 										{selectedTagIds.length}/{maxCategoriesPerQuestion} SELECTED
 									</p>
 								</div>
 
-								{#if leafCategories.length}
+								{#if areaTopics.length}
 									<div class="leaf-grid">
-										{#each leafCategories as category (category.id)}
+										{#each areaTopics as category (category.id)}
 											<button
 												type="button"
 												onclick={() => toggleLeafCategory(category.id)}
@@ -1153,7 +1043,12 @@
 													selectedTagIds.includes(category.id) && 'leaf-tile--active'
 												]}
 											>
-												<span class="leaf-tile__name">{category.category_name}</span>
+												<span class="leaf-tile__name">
+													{#if category.parentName}
+														<span class="mono leaf-tile__parent">{category.parentName} ›</span>
+													{/if}
+													{category.category_name}
+												</span>
 												<span class="mono leaf-tile__state">
 													{selectedTagIds.includes(category.id) ? 'SELECTED' : 'SELECT'}
 												</span>
@@ -1161,9 +1056,7 @@
 										{/each}
 									</div>
 								{:else}
-									<p class="category-editor-empty">
-										No leaf categories available under this parent yet.
-									</p>
+									<p class="category-editor-empty">No topics available in this area yet.</p>
 								{/if}
 							</div>
 
@@ -1185,33 +1078,6 @@
 								{:else}
 									<p class="category-editor-empty">No categories selected yet.</p>
 								{/if}
-							</div>
-
-							<div class="category-editor-creator">
-								<p class="mono category-editor-step__label">CREATE NEW LEAF CATEGORY</p>
-								<p class="category-editor-creator__hint">
-									New categories are created as level 3 leaves under
-									{selectedParentCategoryName || 'a selected level 2 parent'}.
-								</p>
-								<div class="category-editor-creator__row">
-									<input
-										type="text"
-										bind:value={newLeafCategoryName}
-										maxlength="60"
-										placeholder="e.g. Career transitions"
-										class="case-input"
-									/>
-									<Button
-										variant="secondary"
-										size="md"
-										onclick={createLeafCategory}
-										disabled={creatingLeafCategory ||
-											!selectedParentCategoryId ||
-											!newLeafCategoryName.trim()}
-									>
-										{creatingLeafCategory ? 'Creating…' : 'Create Leaf'}
-									</Button>
-								</div>
 							</div>
 
 							{#if categoryEditorError}
@@ -1546,7 +1412,6 @@
 
 	.q-categories__empty,
 	.category-editor-empty,
-	.category-editor-creator__hint,
 	.category-editor-msg {
 		margin: 0;
 		color: var(--text-muted);
@@ -1658,7 +1523,18 @@
 	}
 
 	.leaf-tile__name {
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
 		font-weight: 500;
+	}
+
+	.leaf-tile__parent {
+		color: var(--text-faint);
+		font-size: var(--font-size-xs);
+		font-weight: 400;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
 	}
 
 	.leaf-tile__state {
@@ -1667,47 +1543,6 @@
 
 	.leaf-tile--active .leaf-tile__state {
 		color: var(--highlight);
-	}
-
-	.category-editor-creator {
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		padding: 18px;
-		border: 1px solid var(--rule);
-		border-radius: 10px;
-		background: var(--bg);
-	}
-
-	.category-editor-creator__row {
-		display: flex;
-		gap: 8px;
-
-		@media (max-width: 540px) {
-			flex-direction: column;
-			align-items: stretch;
-		}
-	}
-
-	.case-input {
-		flex: 1;
-		appearance: none;
-		padding: 10px 14px;
-		border: 1px solid var(--accent);
-		border-radius: 10px;
-		background: var(--bg);
-		color: var(--text);
-		font-size: var(--font-size-base);
-
-		&::placeholder {
-			color: var(--text-faint);
-		}
-
-		&:focus {
-			outline: none;
-			border-color: var(--highlight);
-			box-shadow: 0 0 0 1px var(--highlight);
-		}
 	}
 
 	.category-editor-msg--error {

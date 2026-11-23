@@ -36,7 +36,7 @@ if [[ "${NIGHTLY_BLOG_CAFFEINATED:-0}" != "1" && "${1:-}" != "--dry-run" ]]; the
 	fi
 
 	export NIGHTLY_BLOG_CAFFEINATED=1
-	exec /usr/bin/caffeinate -i "$0" "$@"
+	exec /usr/bin/caffeinate -is "$0" "$@"
 fi
 
 REPO="/Users/djwayne/9takes"
@@ -68,7 +68,12 @@ mkdir -p "$LOG_DIR"
 
 log() {
   local level="$1"; shift
-  echo "[$(date '+%Y-%m-%d %H:%M:%S')] [$level] $*" | tee -a "$LOG"
+  local line="[$(date '+%Y-%m-%d %H:%M:%S')] [$level] $*"
+  if [[ "$DRY_RUN" -eq 1 ]]; then
+    echo "$line"
+  else
+    echo "$line" | tee -a "$LOG"
+  fi
 }
 
 RESOLVED_DRAFT=""
@@ -89,6 +94,7 @@ set_resolved_draft() {
 notify() {
   local text="$1"
   log INFO "NOTIFY: $text"
+  [[ "$DRY_RUN" -eq 0 ]] || return 0
   [[ "$(jq -r '.notifications.enabled' "$OVERRIDE")" == "true" ]] || return 0
   [[ -f "$TELEGRAM_TOKEN_FILE" ]] || { log WARN "No Telegram token file at $TELEGRAM_TOKEN_FILE — alert logged only"; return 0; }
   local token
@@ -147,11 +153,14 @@ fi
 # The scheduler re-runs this job when it exits non-zero. On 2026-11-13 that
 # spent all three of one person's attempts in four hours, each hanging in
 # research for an hour. A failed launch now waits 6 hours before the next one.
-last_failed="$(jq -r '.lastFailedLaunchAt // empty' "$QUEUE")"
-if [[ -n "$last_failed" && "$FORCE" -eq 0 && -z "$(jq -r '.forceNext // empty' "$OVERRIDE")" ]]; then
-  last_failed_ts="$(date -j -u -f "%Y-%m-%dT%H:%M:%SZ" "$last_failed" +%s 2>/dev/null || echo 0)"
-  if (( $(date +%s) - last_failed_ts < 6*3600 )); then
-    log INFO "COOLDOWN: a launch failed at $last_failed; next attempt after 6 hours (--force overrides)"
+# A scheduler timeout can kill the wrapper before it records a failure. The
+# claim already contains its UTC launch time. Honor the same cooldown until
+# reconciliation can run, including for queues written by older wrappers.
+last_attempt="$(jq -r '[.lastFailedLaunchAt, .inProgress.startedAt] | map(select(type == "string" and length > 0)) | max // empty' "$QUEUE")"
+if [[ -n "$last_attempt" && "$FORCE" -eq 0 && -z "$(jq -r '.forceNext // empty' "$OVERRIDE")" ]]; then
+  last_attempt_ts="$(date -j -u -f "%Y-%m-%dT%H:%M:%SZ" "$last_attempt" +%s 2>/dev/null || echo 0)"
+  if (( $(date +%s) - last_attempt_ts < 6*3600 )); then
+    log INFO "COOLDOWN: recent failed or unfinished launch at $last_attempt; next attempt after 6 hours (--force overrides)"
     log INFO "Nightly blog cron finished"
     exit 0
   fi

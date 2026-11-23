@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-11-22T15:26:49.938Z_
+_Generated: 2026-11-23T03:33:36.786Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -177,23 +177,23 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 **Most under-represented:** Type 6 (Loyalist) at 0.0% (-13.19 pp, n=0)
 
-### [Politics & Government](/personality-analysis/categories/politics-public) (n=48)
+### [Politics & Government](/personality-analysis/categories/politics-public) (n=49)
 
 | Type | Count | Share | Δ vs baseline |
 | ---- | ----- | ----- | ------------- |
-| 1 — Reformer | 9 | 18.8% | +12.15 pp |
-| 2 — Helper | 6 | 12.5% | +6.33 pp |
-| 3 — Achiever | 11 | 22.9% | +5.04 pp |
-| 4 — Individualist | 2 | 4.2% | -10.09 pp |
-| 5 — Investigator | 3 | 6.3% | -2.05 pp |
-| 6 — Loyalist | 6 | 12.5% | -0.69 pp |
-| 7 — Enthusiast | 1 | 2.1% | -11.32 pp |
-| 8 — Challenger | 6 | 12.5% | +2.29 pp |
-| 9 — Peacemaker | 4 | 8.3% | -1.67 pp |
+| 1 — Reformer | 9 | 18.4% | +11.77 pp |
+| 2 — Helper | 6 | 12.2% | +6.07 pp |
+| 3 — Achiever | 11 | 22.4% | +4.58 pp |
+| 4 — Individualist | 2 | 4.1% | -10.17 pp |
+| 5 — Investigator | 3 | 6.1% | -2.18 pp |
+| 6 — Loyalist | 7 | 14.3% | +1.09 pp |
+| 7 — Enthusiast | 1 | 2.0% | -11.36 pp |
+| 8 — Challenger | 6 | 12.2% | +2.03 pp |
+| 9 — Peacemaker | 4 | 8.2% | -1.84 pp |
 
-**Most over-represented:** Type 1 (Reformer) at 18.8% (+12.15 pp above baseline, n=9)
+**Most over-represented:** Type 1 (Reformer) at 18.4% (+11.77 pp above baseline, n=9)
 
-**Most under-represented:** Type 7 (Enthusiast) at 2.1% (-11.32 pp, n=1)
+**Most under-represented:** Type 7 (Enthusiast) at 2.0% (-11.36 pp, n=1)
 
 ### [Royals, Famous Families & Reality](/personality-analysis/categories/royals-reality) (n=13)
 
@@ -301,13 +301,13 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 - **Unpublished drafts (2000+ characters):** 106
 - **Published in the last 30 days:** 15
-- **Published in the last 90 days:** 35
-- **Average new profiles per month (trailing 90d):** 11.7
+- **Published in the last 90 days:** 34
+- **Average new profiles per month (trailing 90d):** 11.3
 
 ## Freshness
 
 - **Updated in last 30 days:** 15
-- **Updated in last 90 days:** 48 (10.2%)
+- **Updated in last 90 days:** 46 (9.8%)
 - **Missing `lastmod`:** 0
 
 ## Ready-to-Cite Claims
@@ -323,13 +323,13 @@ Snapshot wording for reference. In posts, write the numbers as live tokens (next
 - Among 19 profiles in the Sports category on 9takes, Type 8 (Challenger) is over-represented at 26.3% — +16.1 percentage points above the corpus baseline.
 - Among 49 profiles in the Tech category on 9takes, Type 5 (Investigator) is over-represented at 32.6% — +24.36 percentage points above the corpus baseline.
 - Among 34 profiles in the Business & Money category on 9takes, Type 3 (Achiever) is over-represented at 35.3% — +17.42 percentage points above the corpus baseline.
-- Among 48 profiles in the Politics & Government category on 9takes, Type 1 (Reformer) is over-represented at 18.8% — +12.15 percentage points above the corpus baseline.
+- Among 49 profiles in the Politics & Government category on 9takes, Type 1 (Reformer) is over-represented at 18.4% — +11.77 percentage points above the corpus baseline.
 - Among 13 profiles in the Royals, Famous Families & Reality category on 9takes, Type 2 (Helper) is over-represented at 23.1% — +16.91 percentage points above the corpus baseline.
 - Among 42 profiles in the Ideas & Art category on 9takes, Type 5 (Investigator) is over-represented at 28.6% — +20.27 percentage points above the corpus baseline.
 - Among 27 profiles in the Style, Food & Home category on 9takes, Type 8 (Challenger) is over-represented at 18.5% — +8.31 percentage points above the corpus baseline.
 - Among 15 profiles in the Self-Help & Wellness category on 9takes, Type 8 (Challenger) is over-represented at 26.7% — +16.45 percentage points above the corpus baseline.
 - Among 80 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.45 percentage points above the corpus baseline.
-- 106 more profiles exist as unpublished drafts on 9takes, and ~11.7 new profiles were published per month over the last 90 days.
+- 106 more profiles exist as unpublished drafts on 9takes, and ~11.3 new profiles were published per month over the last 90 days.
 
 ## Live tokens
 
@@ -339,11 +339,11 @@ Posts never hand-type corpus numbers. Write `{{corpus.<path>}}` and the build sw
 | ----- | ----------- |
 | `{{corpus.total}}` | 470 |
 | `{{corpus.drafts}}` | 106 |
-| `{{corpus.per-month}}` | 11.7 |
+| `{{corpus.per-month}}` | 11.3 |
 | `{{corpus.published-30}}` | 15 |
-| `{{corpus.published-90}}` | 35 |
-| `{{corpus.updated-90}}` | 48 |
-| `{{corpus.updated-90-share}}` | 10.2% |
+| `{{corpus.published-90}}` | 34 |
+| `{{corpus.updated-90}}` | 46 |
+| `{{corpus.updated-90-share}}` | 9.8% |
 | `{{corpus.as-of}}` | November 2026 |
 | `{{corpus.type.4.share}}` | 14.3% |
 | `{{corpus.type.4.count}}` | 67 |

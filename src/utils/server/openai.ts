@@ -1,6 +1,6 @@
 // src/utils/server/openai.ts
 import { logger } from '$lib/utils/logger';
-import { markQuestionCategoryIntrosStale } from '$lib/server/questionCategoryIntro';
+import { fileQuestionUnderTopics, setQuestionTopics } from '$lib/server/questionTopics';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Database, Json } from '../../../database.types';
 
@@ -37,15 +37,11 @@ type TaggedQuestion = {
 	id?: number | string;
 	question?: string;
 	question_formatted?: string;
-	tags?: string[];
 	answers?: Record<string, string>;
 	seo_keywords?: string[];
 };
 
-type SupabaseQuestion = { id: number; question: string | null };
-type ClassifiableQuestion = { id: number; question: string };
 type QuestionTable = 'questions' | 'questions_demo';
-type LegacyQuestionTagTable = 'question_tags' | 'question_tags_demo';
 type QuestionAiTaggingStatus = 'processing' | 'completed' | 'failed';
 type QuestionAiTaggingState = {
 	jobId: string;
@@ -147,42 +143,12 @@ export const updateQuestionAiTaggingState = async (
 	}
 };
 
-const syncLegacyQuestionTagMetadata = async (
-	supabase: SupabaseClient<Database>,
-	tagIds: number[]
-) => {
-	const uniqueTagIds = Array.from(new Set(tagIds));
-	if (!uniqueTagIds.length) {
-		return;
-	}
-
-	const { data: categories, error: categoriesError } = await supabase
-		.from('question_categories')
-		.select('id, category_name')
-		.in('id', uniqueTagIds);
-
-	if (categoriesError) {
-		throw categoriesError;
-	}
-
-	if (!categories?.length) {
-		return;
-	}
-
-	const { error: legacyUpsertError } = await supabase.from('question_tag').upsert(
-		categories.map((category) => ({
-			tag_id: category.id,
-			tag_name: category.category_name,
-			subcategory_id: null
-		})),
-		{ onConflict: 'tag_id' }
-	);
-
-	if (legacyUpsertError) {
-		throw legacyUpsertError;
-	}
-};
-
+/**
+ * An admin's hand-picked topics for a question. Live questions go through the
+ * apply_question_topics database function (see $lib/server/questionTopics), which
+ * keeps the legacy mapping tables and category intros in step. Demo mode only has
+ * the legacy demo mapping table.
+ */
 export const replaceQuestionTags = async (
 	supabase: SupabaseClient<Database>,
 	questionId: number,
@@ -190,81 +156,27 @@ export const replaceQuestionTags = async (
 	demoTime: boolean
 ) => {
 	const uniqueTagIds = Array.from(new Set(tagIds)).slice(0, MAX_AI_TAGS_PER_QUESTION);
-	const legacyQuestionTagTable: LegacyQuestionTagTable = demoTime
-		? 'question_tags_demo'
-		: 'question_tags';
-	let previousLiveTagIds: number[] = [];
 
 	if (!demoTime) {
-		const { data: existingQuestionCategoryTags, error: existingQuestionCategoryTagsError } =
-			await supabase.from('question_category_tags').select('tag_id').eq('question_id', questionId);
-
-		if (existingQuestionCategoryTagsError) {
-			throw existingQuestionCategoryTagsError;
-		}
-
-		previousLiveTagIds =
-			existingQuestionCategoryTags
-				?.map((row) => row.tag_id)
-				.filter((tagId) => Number.isFinite(tagId)) ?? [];
-	}
-
-	if (!demoTime) {
-		const { error: deleteQuestionCategoryTagsError } = await supabase
-			.from('question_category_tags')
-			.delete()
-			.eq('question_id', questionId);
-
-		if (deleteQuestionCategoryTagsError) {
-			throw deleteQuestionCategoryTagsError;
-		}
-	}
-
-	const { error: deleteLegacyQuestionTagsError } = await supabase
-		.from(legacyQuestionTagTable)
-		.delete()
-		.eq('question_id', questionId);
-
-	if (deleteLegacyQuestionTagsError) {
-		throw deleteLegacyQuestionTagsError;
-	}
-
-	if (!uniqueTagIds.length) {
+		await setQuestionTopics(supabase, questionId, uniqueTagIds, 'admin');
 		return uniqueTagIds;
 	}
 
-	await syncLegacyQuestionTagMetadata(supabase, uniqueTagIds);
+	const { error: deleteDemoTagsError } = await supabase
+		.from('question_tags_demo')
+		.delete()
+		.eq('question_id', questionId);
+	if (deleteDemoTagsError) {
+		throw deleteDemoTagsError;
+	}
 
-	if (!demoTime) {
-		const { error: insertQuestionCategoryTagsError } = await supabase
-			.from('question_category_tags')
-			.insert(
-				uniqueTagIds.map((tagId) => ({
-					question_id: questionId,
-					tag_id: tagId
-				}))
-			);
-
-		if (insertQuestionCategoryTagsError) {
-			throw insertQuestionCategoryTagsError;
+	if (uniqueTagIds.length) {
+		const { error: insertDemoTagsError } = await supabase
+			.from('question_tags_demo')
+			.insert(uniqueTagIds.map((tagId) => ({ question_id: questionId, tag_id: tagId })));
+		if (insertDemoTagsError) {
+			throw insertDemoTagsError;
 		}
-	}
-
-	const { error: insertLegacyQuestionTagsError } = await supabase
-		.from(legacyQuestionTagTable)
-		.insert(
-			uniqueTagIds.map((tagId) => ({
-				question_id: questionId,
-				tag_id: tagId
-			}))
-		);
-
-	if (insertLegacyQuestionTagsError) {
-		throw insertLegacyQuestionTagsError;
-	}
-
-	if (!demoTime) {
-		await markQuestionCategoryIntrosStale(supabase, [...previousLiveTagIds, ...uniqueTagIds]);
 	}
 
 	return uniqueTagIds;
@@ -335,9 +247,6 @@ const normalizeTaggedResponse = (payload: unknown): TaggedQuestion[] => {
 				question: typeof data.question === 'string' ? data.question : undefined,
 				question_formatted:
 					typeof data.question_formatted === 'string' ? data.question_formatted : undefined,
-				tags: Array.isArray(data.tags)
-					? data.tags.filter((tag): tag is string => typeof tag === 'string')
-					: [],
 				answers: normalizeAnswers(data.answers) ?? undefined,
 				seo_keywords: Array.isArray(data.seo_keywords)
 					? data.seo_keywords.filter((tag): tag is string => typeof tag === 'string')
@@ -349,43 +258,6 @@ const normalizeTaggedResponse = (payload: unknown): TaggedQuestion[] => {
 	return [];
 };
 
-const resolveQuestionId = (
-	tag: TaggedQuestion,
-	questions: SupabaseQuestion[]
-): number | undefined => {
-	if (typeof tag.id === 'number') {
-		return tag.id;
-	}
-	if (typeof tag.id === 'string' && !Number.isNaN(Number(tag.id))) {
-		return Number(tag.id);
-	}
-
-	const candidate = tag.question_formatted || tag.question;
-	if (!candidate) return undefined;
-
-	const normalized = candidate.trim().toLowerCase();
-	const match = questions.find((q) => {
-		const questionText = q.question?.trim().toLowerCase();
-		if (!questionText) {
-			return false;
-		}
-		return (
-			questionText === normalized ||
-			normalized.includes(questionText) ||
-			questionText.includes(normalized)
-		);
-	});
-
-	return match?.id;
-};
-
-const getLLMTags = (tag: TaggedQuestion): string[] =>
-	Array.isArray(tag.tags)
-		? limitUniqueStrings(
-				tag.tags.filter((tagName): tagName is string => typeof tagName === 'string')
-			)
-		: [];
-
 const normalizeAnswers = (answers: unknown): Record<string, string> | null => {
 	if (!answers || typeof answers !== 'object') return null;
 	const filtered = Object.entries(answers as Record<string, unknown>).filter(
@@ -393,142 +265,6 @@ const normalizeAnswers = (answers: unknown): Record<string, string> | null => {
 			typeof entry[0] === 'string' && typeof entry[1] === 'string'
 	);
 	return filtered.length ? (Object.fromEntries(filtered) as Record<string, string>) : null;
-};
-
-const getTheQuestionsToClassify = (
-	questionsToClassify: SupabaseQuestion[]
-): ClassifiableQuestion[] => {
-	let stringLengthLimit = 2000;
-	const questionsToSend: ClassifiableQuestion[] = [];
-	for (const question of questionsToClassify) {
-		if (!question.question) {
-			continue;
-		}
-
-		stringLengthLimit -= question.question.length;
-		if (stringLengthLimit > 0) {
-			questionsToSend.push({ id: question.id, question: question.question });
-		} else {
-			break;
-		}
-	}
-	return questionsToSend;
-};
-
-export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
-	try {
-		const demo_time = await checkDemoTime(supabase);
-		const questionTable: QuestionTable = demo_time === true ? 'questions_demo' : 'questions';
-
-		const { data: refreshSetting, error: settingsDataError } = await supabase
-			.from('admin_settings')
-			.select('value')
-			.eq('type', 'refresh_questions')
-			.maybeSingle();
-
-		if (settingsDataError) {
-			logger.warn('Failed to read admin_settings for refresh flag', settingsDataError);
-			return;
-		}
-
-		if (refreshSetting?.value !== true) {
-			return;
-		}
-
-		const date = new Date();
-		const yesterday = new Date(date.getTime() - 24 * 60 * 60 * 1000).toISOString();
-		const { data: questions, error: questionsError } = await supabase
-			.from(questionTable)
-			.select(`question, id`, { count: 'estimated' })
-			.eq('tagged', false)
-			.eq('flagged', false)
-			.eq('removed', false)
-			.lte('created_at', yesterday);
-
-		if (!questions) {
-			return;
-		}
-
-		const { data: tags, error: tagsError } = await supabase
-			.from('question_categories')
-			.select('id, category_name')
-			.eq('level', 3);
-		if (tagsError || questionsError) {
-			logger.warn('Failed to load tags or questions for tagging', {
-				tagsError,
-				questionsError
-			});
-			return;
-		}
-
-		const categoryNames = tags
-			.map((tag) => tag.category_name)
-			.filter((name): name is string => Boolean(name));
-		const prompt = getMultiQuestionsPrompt(categoryNames.join(', '));
-		const questionsToClassify = getTheQuestionsToClassify(questions);
-
-		if (!questionsToClassify.length) {
-			logger.info('No untagged questions ready for classification');
-			return;
-		}
-
-		const llmResult = await llmService.getJSONResponse<TaggedQuestion[] | TaggedQuestion>({
-			systemPrompt: prompt,
-			userPrompt: JSON.stringify(questionsToClassify),
-			profile: 'balanced',
-			temperature: 0.2,
-			validation: { retryOnParseError: true, maxRetries: 2 },
-			operationType: 'bulk_question_tagging'
-		});
-
-		const cleanedTags = normalizeTaggedResponse(llmResult);
-		if (!cleanedTags.length) {
-			logger.warn('LLM returned no tagging data for questions');
-			return;
-		}
-
-		for await (const tag of cleanedTags) {
-			const llmTags = getLLMTags(tag);
-			const matchedTags = tags
-				.filter((existing) => existing.category_name && llmTags.includes(existing.category_name))
-				.slice(0, MAX_AI_TAGS_PER_QUESTION);
-			const questionId = resolveQuestionId(tag, questions);
-			const typedQuestion = questions.find((question) => question.id === questionId)?.question;
-			const formattedQuestion = typedQuestion
-				? resolveFormattedQuestion(typedQuestion, tag.question_formatted).text
-				: null;
-
-			if (!questionId) {
-				logger.warn('Could not map LLM response to a question id', { tag });
-				continue;
-			}
-
-			const newTagIds = matchedTags.map((existingTag) => existingTag.id);
-			await replaceQuestionTags(supabase, questionId, newTagIds, demo_time === true);
-
-			await supabase
-				.from(questionTable)
-				.update({
-					tagged: true,
-					flagged: newTagIds.length === 0,
-					updated_at: new Date().toISOString(),
-					question_formatted: formattedQuestion ?? null
-				})
-				.eq('id', questionId);
-		}
-
-		const { data: updateSuccess, error: updateFailed } = await supabase
-			.from('admin_settings')
-			.update({ value: false })
-			.eq('type', 'refresh_questions');
-
-		if (updateFailed) {
-			logger.error('Failed to update refresh_questions flag', updateFailed);
-		}
-		return updateSuccess;
-	} catch (e) {
-		logger.error('Tag questions failed', e as Error);
-	}
 };
 
 export const tagQuestion = async (
@@ -541,28 +277,18 @@ export const tagQuestion = async (
 	const questionTable: QuestionTable = demo_time === true ? 'questions_demo' : 'questions';
 
 	try {
-		const { data: tags, error: tagsError } = await supabase
-			.from('question_categories')
-			.select('id, category_name')
-			.eq('level', 3);
-		if (tagsError) {
-			throw tagsError;
-		}
-
 		logger.info('Starting single question tagging request', {
 			questionId,
-			questionLength: questionText.length,
-			tagCount: tags.length
+			questionLength: questionText.length
 		});
 
-		// Tagging/formatting/SEO is one metadata call; the nine takes are a
-		// separate per-type pipeline (director + nine voice calls). Run both in
-		// parallel; a takes failure must never cost us the tags.
-		const [metaSettled, takesSettled] = await Promise.allSettled([
+		// Three independent jobs: formatting + SEO keywords (one metadata call), the
+		// nine takes (director + nine voice calls), and Jev filing the question under
+		// topics. A takes or topics failure must never cost us the rest; unfiled
+		// questions are retried by the classify-questions cron.
+		const [metaSettled, takesSettled, topicsSettled] = await Promise.allSettled([
 			llmService.getJSONResponse<TaggedQuestion[] | TaggedQuestion>({
-				systemPrompt: getPrompt(
-					tags.map((tag) => tag.category_name).filter((name): name is string => Boolean(name))
-				),
+				systemPrompt: questionMetadataPrompt,
 				userPrompt: JSON.stringify({ id: questionId, question: questionText }),
 				profile: 'balanced',
 				temperature: 0.2,
@@ -570,7 +296,10 @@ export const tagQuestion = async (
 				operationType: 'single_question_tagging',
 				taskId: String(questionId)
 			}),
-			generateNineTakes(questionText, nineTakesCaller, String(questionId))
+			generateNineTakes(questionText, nineTakesCaller, String(questionId)),
+			demo_time === true
+				? Promise.resolve(null)
+				: fileQuestionUnderTopics(supabase, questionId, questionText)
 		]);
 
 		if (metaSettled.status === 'rejected') {
@@ -595,9 +324,13 @@ export const tagQuestion = async (
 			logger.warn('Nine takes generation incomplete', { questionId, missingTakeTypes });
 		}
 
-		const matchedTags = tags
-			.filter((tag) => tag.category_name && getLLMTags(chatResp).includes(tag.category_name))
-			.slice(0, MAX_AI_TAGS_PER_QUESTION);
+		if (topicsSettled.status === 'rejected') {
+			logger.error('Filing question under topics failed', topicsSettled.reason as Error, {
+				questionId
+			});
+		}
+		const topicCount =
+			topicsSettled.status === 'fulfilled' ? (topicsSettled.value?.topics.length ?? 0) : 0;
 		// The model only proposes; the asker's words win if it rewrote them.
 		const formatted = resolveFormattedQuestion(questionText, chatResp.question_formatted);
 		if (formatted.source === 'tidied' && chatResp.question_formatted) {
@@ -608,9 +341,7 @@ export const tagQuestion = async (
 			});
 		}
 		const formattedQuestion = formatted.text;
-		const matchedTagIds = matchedTags.map((tag) => tag.id);
 
-		await replaceQuestionTags(supabase, questionId, matchedTagIds, demo_time === true);
 		await replaceQuestionAiOutputs(
 			supabase,
 			questionId,
@@ -623,7 +354,10 @@ export const tagQuestion = async (
 			.from(questionTable)
 			.update({
 				tagged: true,
-				flagged: matchedTagIds.length === 0,
+				// Finishing post-processing is what makes a question visible. Topics no
+				// longer decide this: a question Jev cannot place stays up and is listed
+				// as "abstained" for review instead of being hidden.
+				flagged: false,
 				updated_at: new Date().toISOString(),
 				question_formatted: formattedQuestion ?? null
 			})
@@ -635,15 +369,15 @@ export const tagQuestion = async (
 
 		if (options.jobId) {
 			// A partial nine is surfaced as a failure so the admin retry
-			// affordance can re-run it; tags and any successful takes are
+			// affordance can re-run it; topics and any successful takes are
 			// already persisted either way.
 			await updateQuestionAiTaggingState(supabase, questionTable, questionId, {
 				jobId: options.jobId,
 				status: missingTakeTypes.length ? 'failed' : 'completed',
 				startedAt: options.startedAt,
 				finishedAt: new Date().toISOString(),
-				tagCount: matchedTagIds.length,
-				flagged: matchedTagIds.length === 0,
+				tagCount: topicCount,
+				flagged: false,
 				...(missingTakeTypes.length
 					? { error: `Takes missing for type(s) ${missingTakeTypes.join(', ')}` }
 					: {})
@@ -686,12 +420,12 @@ export const tagQuestion = async (
 	}
 };
 
-// Metadata only: the nine takes are generated separately, one per-type call,
-// by $lib/server/nineTakesGenerator (see tagQuestion above).
-const classifyOneQuestionPrompt = `You are going to be given a question or a statement with an id. Your job is to do 3 tasks and return a formatted json response.
-1st, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings. Use at most 5 tags.
-2nd, punctuate the question for display and return it as question_formatted. Keep the asker's exact words in the same order. You may only add or fix punctuation, fix capitalization, and correct obvious misspellings. Never add, remove, reorder or replace words, never rephrase, and never fix grammar ("Whats your criteria" becomes "What's your criteria", not "What are your criteria"). Keep words the asker wrote in capitals for emphasis, and keep punctuation and quote marks that are already correct. If the question is already well punctuated, return it unchanged.
-3rd, create between 3-5 SEO keywords or phrases that would be relevant to the question or statement.
+// Metadata only. The nine takes are generated per type by
+// $lib/server/nineTakesGenerator and topics are filed by Jev
+// ($lib/server/questionTopics); see tagQuestion above.
+const questionMetadataPrompt = `You are going to be given a question or a statement with an id. Your job is to do 2 tasks and return a formatted json response.
+1st, punctuate the question for display and return it as question_formatted. Keep the asker's exact words in the same order. You may only add or fix punctuation, fix capitalization, and correct obvious misspellings. Never add, remove, reorder or replace words, never rephrase, and never fix grammar ("Whats your criteria" becomes "What's your criteria", not "What are your criteria"). Keep words the asker wrote in capitals for emphasis, and keep punctuation and quote marks that are already correct. If the question is already well punctuated, return it unchanged.
+2nd, create between 3-5 SEO keywords or phrases that would be relevant to the question or statement.
 
  Format the Response in VALID JSON like the following example:
  [
@@ -699,177 +433,7 @@ const classifyOneQuestionPrompt = `You are going to be given a question or a sta
 	  "id": 1,
 	  "question": "I need date ideas What would you do",
 	  "question_formatted": "I need date ideas, what would you do?",
-	  "tags": [
-		"Personal Growth", "Romantic Relationships"
-	  ],
 	  "seo_keywords": ["date ideas", "romantic date ideas", "fun date ideas"]
 	}
   ]
-
-Classify the Question or Statement:
-Tag the question or statement with applicable predefined tags.
-A question or statement can be associated with multiple tags, but never return more than 5 tags.
-Only tag from these predefined tags:
 `;
-
-const classifymultipleQuestionsPrompt = `You are going to be given a list of a questions or a statements with ids.  Your job is to do two things.
-First, you should use the Enneagram system of personality answer or respond to the question or statement in 9 different ways that correlate to the 9 different Enneagram types. 
-The way in which you answer the questions should be conversational as if a real person were answering the question or statement but it should take into account how different enneagram personalities would approach and respond. 
-
-Second, you need to classify the questions or statements and tag them with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings, using at most 5 tags per question.
- For example: [
-    {id: 1, question: "I need date ideas What would you do", tags: ["Personal Growth", "Romantic Relationships"],answers: [{1: "I would go to the movies"}, {2: "I would go to the park"} ...]}
- ]
- Only tag from these predefined tags:
- `;
-
-const getMultiQuestionsPrompt = (tags: string) => {
-	return `${classifymultipleQuestionsPrompt} ${tags}`;
-};
-
-const getPrompt = (tags: string[]) => {
-	return `${classifyOneQuestionPrompt} ${tags}`;
-};
-
-// 'Elections and Voting',
-// 'Political Ideologies',
-// 'Government Systems',
-// 'Diplomacy',
-// 'Pop Culture' ,
-// 'Social Movements',
-// 'Traditions and Customs',
-// 'Immigration and Migration' ,
-// 'Global Economy',
-// 'Trade and Commerce',
-// 'Economic Theories',
-// 'Labor Rights and Unions';
-// 'Software Development',
-// 'Hardware and Devices',
-// 'Emerging Technologies',
-// 'Digital Transformation';
-// 'Scientific Methodology',
-// 'Breakthroughs and Discoveries',
-// 'Scientific Controversies',
-// 'Laboratory Techniques';
-// 'Space Exploration History',
-// 'Theories about the Universe',
-// 'Celestial Bodies',
-// 'Space Agencies and Organizations',
-// 'Personal Growth',
-// 'Daily Routines',
-// 'Personal Challenges',
-// 'Life Events (e.g., weddings, childbirth, bereavement)',
-// 'Diseases and Conditions',
-// 'Medications and Treatments',
-// 'Holistic Health',
-// 'Physical and Mental Disabilities',
-// 'Family and Kinship',
-// 'Romantic Relationships',
-// 'Friendships',
-// 'Professional Relationships',
-// 'Self-Relationship',
-// 'Community and Social Relationships',
-// 'Online and Virtual Relationships',
-// 'Curriculum and Syllabus',
-// 'School Systems Worldwide',
-// 'Higher Education',
-// 'Special Education',
-// 'Skill Acquisition',
-// 'Motivation and Discipline',
-// 'Life Coaching',
-// 'Self-Help Resources';
-// 'Media Critique',
-// 'Art Techniques and Media',
-// 'Entertainment Industry',
-// 'Art History',
-// 'Historical Periods',
-// 'Historical Figures',
-// 'Archaeological Methods',
-// 'Historical Interpretations and Theories';
-// 'Ecosystems and Biodiversity',
-// 'Conservation Efforts',
-// 'Pollution and Waste Management',
-// 'Sustainable Practices',
-// 'Infrastructure Development',
-// 'Transportation Modes and Trends',
-// 'Urban vs. Rural Infrastructure',
-// 'Transportation Safety and Regulations',
-// 'Crop Science',
-// 'Sustainable Farming',
-// 'Food Processing and Preservation',
-// 'Global Food Systems and Trade';
-// 'Constitutional Law',
-// 'International Law',
-// 'Crime and Punishment',
-// 'Legal Procedures and Practices',
-// 'Business Ethics',
-// 'Bioethics',
-// 'Environmental Ethics',
-// 'Moral Philosophies',
-// 'Parenting and Child-rearing',
-// 'Sibling Dynamics',
-// 'Extended Family Relations',
-// 'Generational Differences',
-// 'Family Traditions and Values',
-// 'Dating and Courtship',
-// 'Marriage and Partnerships',
-// 'Relationship Challenges',
-// 'Intimacy and Connection',
-// 'Breakups and Divorce',
-// 'Making and Keeping Friends,
-// 'Friendship Dynamics and Challenges',
-// 'Differences between Acquaintances, Close Friends, and Best Friends',
-// 'Online Friendships vs. In-Person Connections',
-// 'Networking and Building Professional Connections',
-// 'Mentor-Mentee Dynamics',
-// 'Workplace Relationships and Boundaries',
-// 'Navigating Office Politics',
-// 'Self-awareness and Self-understanding',
-// 'Self-care and Self-love',
-// 'Building Self-confidence and Self-worth',
-// 'Engaging with Community and Neighbors',
-// 'Building Social Bonds and Trust',
-// 'Navigating Social Dynamics and Hierarchies',
-// 'Digital Communication Etiquette',
-// 'Building and Maintaining Relationships in the Digital Age',
-// 'Navigating Online Dating and Relationships',
-// 'The Impact of Social Media on Relationships'
-
-// [
-// 	{
-// 		id: 1,
-// 		question: "When is the longest you have stayed awake on a project you were passionate about",
-// 		tags: [
-// 			"Personal Growth",
-// 		],
-// 		answers: [
-// 			{
-// 				"1": "As a Type 1, I strive for perfection and can get caught up in details. When working on a project I'm passionate about, I have stayed awake for several nights in a row, making sure everything is flawless and meets my high standards.",
-// 			},
-// 			{
-// 				"2": "As a Type 2, I prioritize the needs of others over my own. If I'm passionate about a project, I might stay awake late into the night to provide support and help others involved in the project. Their success is important to me.",
-// 			},
-// 			{
-// 				"3": "As a Type 3, I am driven by success and recognition. If I'm passionate about a project, I'll stay awake for as long as it takes to achieve my goals and make a name for myself. I want to be the best in what I do.",
-// 			},
-// 			{
-// 				"4": "As a Type 4, I'm deeply connected to my emotions. When working on a project I'm passionate about, I might stay awake late into the night to dive into my inner world and channel my profound emotions into my work.",
-// 			},
-// 			{
-// 				"5": "As a Type 5, I value knowledge and intellectual pursuits. If I'm passionate about a project, I might stay awake for long hours to immerse myself in research and gather as much information as possible to make it a success.",
-// 			},
-// 			{
-// 				"6": "As a Type 6, I am a loyal and committed person. If I'm passionate about a project, I might stay awake to ensure everything is secure and prepared for any potential risks or challenges. I want to be well-prepared.",
-// 			},
-// 			{
-// 				"7": "As a Type 7, I seek new experiences and avoid pain or boredom. If I'm passionate about a project, I might stay awake late into the night out of excitement and to explore every possibility and potential that the project offers.",
-// 			},
-// 			{
-// 				"8": "As a Type 8, I am determined and focused on control. If I'm passionate about a project, I might stay awake to exert my power and drive it forward. I want to ensure that everything goes according to my vision and objectives.",
-// 			},
-// 			{
-// 				"9": "As a Type 9, I value peace and harmony. If I'm passionate about a project, I might stay awake to mediate conflicts and ensure that everyone's opinions and needs are considered. I want to create a harmonious environment.",
-// 			},
-// 		],
-// 	},
-// ]
