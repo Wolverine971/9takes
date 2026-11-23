@@ -50,8 +50,11 @@ export function captureFriendLinkShared(method: FriendShareMethod): Promise<void
 	return capture('friend_link_shared', { surface: 'enneagram_test', method });
 }
 
-export function captureTestNotifyOptIn(): Promise<void> {
-	return capture('test_notify_opt_in', { surface: 'enneagram_test' });
+/** Where an email opt-in came from: the "Keep this result" box, or the capture after the chain's 2nd take. */
+export type TestNotifyPlacement = 'keep' | 'chain';
+
+export function captureTestNotifyOptIn(placement: TestNotifyPlacement = 'keep'): Promise<void> {
+	return capture('test_notify_opt_in', { surface: 'enneagram_test', placement });
 }
 
 /** "Email me my result" on the result page. `sent` is false when the address saved but no email went out. */
@@ -63,19 +66,37 @@ export function captureTestResultEmailed(input: { split: boolean; sent: boolean 
 	});
 }
 
-/** The answer-first card on the result page: first keystroke, then a posted take. */
-export function captureTestTakeStarted(split: boolean): Promise<void> {
-	return capture('test_take_started', { surface: 'enneagram_test', split });
+/**
+ * The answer chain on the result page: first keystroke, then a posted take.
+ * `step` is the chain position, 1 to 3.
+ */
+export function captureTestTakeStarted(input: { split: boolean; step: number }): Promise<void> {
+	return capture('test_take_started', {
+		surface: 'enneagram_test',
+		split: input.split,
+		step: input.step
+	});
 }
 
 export function captureTestTakePosted(input: {
 	split: boolean;
 	alreadyAnswered: boolean;
+	step: number;
 }): Promise<void> {
 	return capture('test_take_posted', {
 		surface: 'enneagram_test',
 		split: input.split,
-		already_answered: input.alreadyAnswered
+		already_answered: input.alreadyAnswered,
+		step: input.step
+	});
+}
+
+/** "Next question" in the answer chain. `step` is the question it opens, 2 or 3. */
+export function captureTestChainNext(input: { split: boolean; step: number }): Promise<void> {
+	return capture('test_chain_next', {
+		surface: 'enneagram_test',
+		split: input.split,
+		step: input.step
 	});
 }
 

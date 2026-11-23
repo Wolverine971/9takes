@@ -1,19 +1,24 @@
 // src/routes/api/enneagram-test/results/[token]/answer/answer.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { getTypesMock, getQuestionsMock, postLiveTakeMock, recordUserTakeMock } = vi.hoisted(() => ({
-	getTypesMock: vi.fn(),
-	getQuestionsMock: vi.fn(),
-	postLiveTakeMock: vi.fn(),
-	recordUserTakeMock: vi.fn()
-}));
+const { getIdentityMock, getChainMock, recordFollowMock, postLiveTakeMock, recordUserTakeMock } =
+	vi.hoisted(() => ({
+		getIdentityMock: vi.fn(),
+		getChainMock: vi.fn(),
+		recordFollowMock: vi.fn(),
+		postLiveTakeMock: vi.fn(),
+		recordUserTakeMock: vi.fn()
+	}));
 
 vi.mock('$lib/server/supabaseAdmin', () => ({ getSupabaseAdminClient: () => ({}) }));
 vi.mock('$lib/server/enneagramTest', () => ({
 	TEST_RESULT_GATE_PATH: '/enneagram-test/result',
-	getQuestionsForTypes: getQuestionsMock,
-	getTestResultTypes: getTypesMock,
 	isResultToken: (token: string) => /^[A-Za-z0-9_-]{20,64}$/.test(token)
+}));
+vi.mock('$lib/server/enneagramTestChain', () => ({
+	getChainQuestions: getChainMock,
+	getResultIdentity: getIdentityMock,
+	recordFollow: recordFollowMock
 }));
 vi.mock('$lib/server/liveTakeAnswer', () => ({ postLiveTake: postLiveTakeMock }));
 vi.mock('$lib/server/nineTakes', () => ({ recordUserTake: recordUserTakeMock }));
@@ -57,11 +62,12 @@ function post(options: { token?: string; body?: unknown; userId?: string } = {})
 
 beforeEach(() => {
 	vi.clearAllMocks();
-	getTypesMock.mockResolvedValue([5, 6]);
-	getQuestionsMock.mockResolvedValue({
-		5: { url: 'five-question', question: 'Five?' },
-		6: { url: 'six-question', question: 'Six?' }
-	});
+	getIdentityMock.mockResolvedValue({ id: 77, types: [5, 6] });
+	getChainMock.mockResolvedValue([
+		{ id: 40, url: 'five-question', question: 'Five?', answeredAs: 5 },
+		{ id: 41, url: 'six-question', question: 'Six?', answeredAs: 6 },
+		{ id: 42, url: 'shared-question', question: 'Shared?', answeredAs: null }
+	]);
 	postLiveTakeMock.mockResolvedValue({
 		ok: true,
 		created: true,
@@ -96,6 +102,30 @@ describe('POST /api/enneagram-test/results/[token]/answer', () => {
 		});
 	});
 
+	it('follows every take posted from the result, at its chain step', async () => {
+		await post({ userId: 'user-9' });
+		expect(recordFollowMock).toHaveBeenCalledWith(expect.anything(), {
+			resultId: 77,
+			questionId: 41,
+			commentId: 901,
+			fingerprint: 'fp-1',
+			userId: 'user-9',
+			step: 2
+		});
+	});
+
+	it('accepts a shared chain question with no self-picked type on a split result', async () => {
+		const response = await post({ body: { slug: 'shared-question', comment: 'Both, honestly.' } });
+		expect(response.status).toBe(200);
+		expect(recordUserTakeMock).toHaveBeenCalledWith(
+			expect.objectContaining({ subjectSlug: 'shared-question', selfReportedType: null })
+		);
+		expect(recordFollowMock).toHaveBeenCalledWith(
+			expect.anything(),
+			expect.objectContaining({ step: 3 })
+		);
+	});
+
 	it('only accepts a question this result shows', async () => {
 		const response = await post({ body: { slug: 'some-other-question', comment: 'hello there' } });
 		expect(response.status).toBe(404);
@@ -104,7 +134,7 @@ describe('POST /api/enneagram-test/results/[token]/answer', () => {
 
 	it('rejects malformed tokens, unknown results and bad bodies before posting', async () => {
 		expect((await post({ token: 'nope' })).status).toBe(404);
-		getTypesMock.mockResolvedValueOnce(null);
+		getIdentityMock.mockResolvedValueOnce(null);
 		expect((await post()).status).toBe(404);
 		expect((await post({ body: { slug: 'bad slug!', comment: 'x' } })).status).toBe(400);
 		expect(postLiveTakeMock).not.toHaveBeenCalled();
@@ -116,6 +146,7 @@ describe('POST /api/enneagram-test/results/[token]/answer', () => {
 		expect(response.status).toBe(429);
 		expect(await response.json()).toEqual({ error: 'Too many comments.' });
 		expect(recordUserTakeMock).not.toHaveBeenCalled();
+		expect(recordFollowMock).not.toHaveBeenCalled();
 	});
 
 	it('does not record a second corpus row for someone who already answered', async () => {
@@ -127,5 +158,10 @@ describe('POST /api/enneagram-test/results/[token]/answer', () => {
 		});
 		expect((await post()).status).toBe(200);
 		expect(recordUserTakeMock).not.toHaveBeenCalled();
+		// Still followed: the result link should open it unlocked.
+		expect(recordFollowMock).toHaveBeenCalledWith(
+			expect.anything(),
+			expect.objectContaining({ questionId: 41, commentId: 901 })
+		);
 	});
 });

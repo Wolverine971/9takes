@@ -121,10 +121,15 @@ export function loadHomepageLiveTake(event: LiveTakeEvent): Promise<LiveTake | n
  * The same card for any question a surface embeds (the homepage, the Enneagram
  * test result). `gatePath` is what `gate_shown` is attributed to; pass a fixed
  * path when the page URL carries a private token.
+ *
+ * `viewer` replaces the cookie visitor when the surface already knows who posted
+ * a take here (the Enneagram test result stores the fingerprint behind each take
+ * it posted, so the result link unlocks its own takes on any device). The gate
+ * still runs against that viewer, and no gate_shown is recorded for it.
  */
 export async function loadLiveTake(
 	event: LiveTakeEvent,
-	options: { slug: string; gatePath: string }
+	options: { slug: string; gatePath: string; viewer?: LiveViewer }
 ): Promise<LiveTake | null> {
 	try {
 		const [isDemoTime, question] = await Promise.all([
@@ -135,13 +140,13 @@ export async function loadLiveTake(
 		// mix them, so the surface falls back to its no-question state.
 		if (isDemoTime === true || !question) return null;
 
-		const viewer: LiveViewer = {
+		const viewer: LiveViewer = options.viewer ?? {
 			fingerprint: readVisitorFingerprint(event.cookies),
 			userId: event.locals.session?.user?.id ?? null
 		};
 		const unlocked = await getUnlockedLiveTakes(event.locals.supabase, question.id, viewer);
 
-		if (!unlocked && viewer.fingerprint) {
+		if (!unlocked && viewer.fingerprint && !options.viewer) {
 			const userAgent = event.request.headers.get('user-agent');
 			runBestEffortTelemetry(
 				event,

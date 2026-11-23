@@ -5,10 +5,12 @@
 // question page's own schema, rate limit, give-first gate and insert), and the
 // response carries the answers the gate now unlocks.
 //
-// The result token is the credential, and only a question this result's page
-// actually shows is accepted. The type the person picked is saved with the take
+// The result token is the credential, and only a question in this result's
+// answer chain is accepted. The type the person picked is saved with the take
 // in nine_user_takes (self_reported_type); the public take itself stays
-// anonymous unless they are signed in.
+// anonymous unless they are signed in. Every take posted here is followed by
+// default (enneagram_test_follows): the result link unlocks it on any device,
+// and once the result has an email, new takes on it go into the daily digest.
 //
 // Request:  { slug: string, comment: string, fingerprint?: string }
 // Response: LiveTakePostResult (200), or { error } with 400 / 404 / 409 / 429 / 500.
@@ -16,12 +18,8 @@ import { json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 
-import {
-	TEST_RESULT_GATE_PATH,
-	getQuestionsForTypes,
-	getTestResultTypes,
-	isResultToken
-} from '$lib/server/enneagramTest';
+import { TEST_RESULT_GATE_PATH, isResultToken } from '$lib/server/enneagramTest';
+import { getChainQuestions, getResultIdentity, recordFollow } from '$lib/server/enneagramTestChain';
 import { postLiveTake } from '$lib/server/liveTakeAnswer';
 import { recordUserTake } from '$lib/server/nineTakes';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
@@ -53,20 +51,21 @@ export const POST: RequestHandler = async (event) => {
 	if (!parsed.success) return errorResponse(400, 'Invalid request');
 
 	const db = getSupabaseAdminClient();
-	let types;
+	let identity;
 	try {
-		types = await getTestResultTypes(db, params.token);
+		identity = await getResultIdentity(db, params.token);
 	} catch (loadError) {
 		logger.error('Failed to load Enneagram test result for an answer', loadError as Error);
 		return errorResponse(503, 'We couldn’t post your take. It’s still here, so try again.');
 	}
-	if (!types?.length) return errorResponse(404, 'Result not found.');
+	if (!identity?.types.length) return errorResponse(404, 'Result not found.');
 
-	// Only a question this result page shows. The match also says which of the
-	// person's types the question was offered for.
-	const questions = await getQuestionsForTypes(db, types);
-	const answeredAs = types.find((type) => questions[type]?.url === parsed.data.slug);
-	if (answeredAs === undefined) return errorResponse(404, 'This question isn’t on your result.');
+	// Only a question in this result's chain. The match also says which of the
+	// person's types the question is asked as.
+	const chain = await getChainQuestions(db, identity.types);
+	const stepIndex = chain.findIndex((question) => question.url === parsed.data.slug);
+	if (stepIndex === -1) return errorResponse(404, 'This question isn’t on your result.');
+	const answeredAs = chain[stepIndex].answeredAs;
 
 	const outcome = await postLiveTake(event, {
 		slug: parsed.data.slug,
@@ -91,6 +90,15 @@ export const POST: RequestHandler = async (event) => {
 			selfReportedType: answeredAs
 		});
 	}
+
+	await recordFollow(db, {
+		resultId: identity.id,
+		questionId: outcome.result.questionId,
+		commentId: outcome.result.ownTake?.id ?? outcome.result.commentId,
+		fingerprint: outcome.fingerprint,
+		userId: locals.session?.user?.id ?? null,
+		step: stepIndex + 1
+	});
 
 	return json(outcome.result, { headers: NO_STORE });
 };

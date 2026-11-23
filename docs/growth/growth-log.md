@@ -10,6 +10,64 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-11-23 - Weekly growth audit: Google entries fell another 63%, but takes doubled (4 -> 8) because the test-result answer card converts 4 of 14; 0 of 6 contributors are reachable, and returning contributors were 0 for a ninth week
+
+Headline source **`admin_engagement_trends_weekly_v2(26)`** via `scripts/db-query.sh`, run 11-23 morning ET ([snapshot](audits/2026-11-23-v2-snapshot.csv)). "This week" = **11-16..11-22**. The 11-23 row is a partial day and reads 0, so it is ignored. No restatements: 11-02 and 11-09 match the 11-16 snapshot.
+
+| Week (v2 RPC)         | Human visitors (returning)                | Human comments   | Contributors (returning)                          | Real signups | Registrations | Bookings      |
+| --------------------- | ----------------------------------------- | ---------------- | ------------------------------------------------- | ------------ | ------------- | ------------- |
+| 09-28                 | 586 (35)                                  | 2                | 2 (0)                                             | 1            | 1             | 1             |
+| 10-05                 | 677 (22)                                  | 6                | 6 (0)                                             | 2            | 1             | 1             |
+| 10-12                 | 773 (40)                                  | 1                | 1 (0)                                             | 0            | 0             | 0             |
+| 10-19                 | 891 (47)                                  | 7                | 7 (0)                                             | 1            | 0             | 0             |
+| 10-26                 | 823 (52)                                  | 9                | 9 (0)                                             | 2            | 0             | 0             |
+| 11-02                 | 782 (49)                                  | 4                | 4 (0)                                             | 0            | 1             | 1             |
+| 11-09                 | 695 (37)                                  | 4                | 3 (0)                                             | 0            | 1             | 0             |
+| **11-16**             | **543 (31)**                              | **8**            | **6 (0)**                                         | **0**        | **1**         | **0**         |
+| 25 wks (06-01..11-16) | median 586; 543 = #19, lowest since 07-27 | median 4; 8 = #6 | median 4; returning **0 for 9 wks** (since 09-14) | 0 for 3 wks  | ~1/wk         | 0 since 11-02 |
+
+| Secondary diagnostic                | Value                                                                                                                                                                                                                                                                              |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Engaged-human entry by source       | Google **441 -> 329 -> 123** (11-02, 11-09, 11-16); celebrity-from-Google 283 -> 192 -> **56**. Bing 57 -> 55 -> 65. Direct 133 -> 147 -> 221. Corner-entry 325 -> 311 -> 227. First full week of the core update (inferred cause; rollout still running)                          |
+| Gate -> take by surface (human)     | **Test result 4/14 fps (29%, CI 8-58%)**. Celebrity (q573) **0/61** (CI 0-5.9%); q573 three-week 3/297 = 1.0%. Home (q203) 2/21. Question pages 1/4. Corner embeds (q567) 0/6. Test result vs celebrity: Fisher p ~0.001, but test-takers are self-selected                        |
+| Where this week's 8 takes came from | 5 test result (q118 x2, q157 x2, q151), 2 home (q203), 1 question page (q118). Test-result gate -> take 1-6 min. Test-takers entered mostly via Corner pages. Takes are short (16-70 chars)                                                                                        |
+| Test completions                    | 6 -> **16** (26-week high for the test, live since 10-09). **0 of 16 left a notify email; 1 of 57 lifetime**                                                                                                                                                                       |
+| Contributor return, +24 h..+7 d     | 11-09 cohort: **0 of 3 people**, including 787/788 (registered, reachable; still 0 replies after 10 days). 11-16 cohort: 0 of 6 so far (censored, 1.5-6.8 days). All 6 anonymous, 0 opt-ins                                                                                        |
+| Host replies                        | DJ replied in-thread to 789 (20 h) and 805 (3 h): **2 of 8 takes got a reply within 24 h**, the first since 09-14. Both authors are anonymous, so neither can learn of it; neither has returned. Host desk **49 pending / 1 posted**; digest ALARM 8/8 days                        |
+| Opt-ins, outbox                     | Opt-ins 0 since 10-01; `reply_notification_outbox` 0 rows ever                                                                                                                                                                                                                     |
+| Signups, beta card, bookings        | 0 `signups` rows since 10-29, so KeepThisPage (Corner, shipped 11-13, posts to `/api/signups`) is **0 submits in ~10 days**. Beta card 298 viewed -> 4 opened -> 0 submitted. Waitlist last add 11-06; `consulting_sessions` 0 rows. 1 registration (Google, people page, untyped) |
+| Email                               | 4 welcome/sequence sends to profiles, 0 failures, 2 opened                                                                                                                                                                                                                         |
+| Errors, raw (bot-inclusive)         | 0 non-digest app errors. Raw visitors 4,021 (4,810)                                                                                                                                                                                                                                |
+
+- **Direction changes:**
+  - **Inflow fell, activation rose.** Human visitors 695 -> 543 (-22%), driven by Google entries 329 -> 123. Takes went the other way, 4 -> 8, and contributors 3 -> 6. The new contributions came from a surface that did not exist two weeks ago.
+  - **The test-result answer card (11-13) is the best gate surface 9takes has had.** It converted 4 of 14, while the celebrity starter went 0 for 61. Test completions rose 6 -> 16 despite the traffic loss.
+  - **Celebrity takes: 0 for a second week.** Real signups 0 for a third week. Bookings 0.
+  - The Q&A motion pass (11-20) has 2.5 days live and 0 question-page takes since; too early to read.
+
+**Biggest leak this week: still the return leg, now for nine straight weeks. 9takes doubled its takes, but 0 of the 6 contributors left a way to reach them, 0 of 16 test-takers left an email, and the two takes DJ replied to came from anonymous people who will never see the reply.** Anti-pattern: activating into a void. The answer card works; nothing on the far side of it holds anyone.
+
+- **Recommended bets (ranked):**
+  1. **Turn the test result into the owned return channel (ship this week).**
+     - Hypothesis: we believe a default-on "send me when the other types answer this" email field directly under the answer card, for test-takers who just posted a take, will cause reachable contributors to go from 0 of 6 to 1 in 3 or more, because these are the highest-intent people on the site (they finished a test, then answered), and 1 of 57 test-takers left an email when the field sat elsewhere.
+     - **Success = 30% or more of test-result contributors leave an email over 2 weeks, and 1 or more of them returns within 7 days of the first reply email. Guardrail: test-result gate -> take stays at 15% or more.**
+     - Ambitious version: make the test result a three-question chain (answer one, see the other types, get the next) so a single visit yields 3 takes, with the email capture after the second.
+  2. **Reply to 787/788 today and rotate q573 (both carried over, both undone).**
+     - 787/788 is still the only reachable contributor since 10-19, and still has 0 replies after 10 days. DJ is replying to anonymous takes instead; the reply that can actually be delivered is the one not sent.
+     - q573 is 3/297 (1.0%) over three weeks, against q118's 2.4%. Put q118 (or a q118-shaped one-liner) back on celebrity pages. **Success = 2% or more over 2 weeks; guardrail: gate-viewer median depth 3.5 min or more.** Read it as a rate, because the core update is shrinking the denominator.
+  3. **Hold on search until about 12-01, and stop counting the beta card and KeepThisPage as live bets.** Re-pull `2026-11-16-gsc-pages.mjs` on 12-01. KeepThisPage got 0 submits in about 10 days of Corner traffic, and the beta card got 0 of 298 viewers. Both are now **lost** pending DJ.
+- **Running experiments:**
+  - Test-result answer card (11-13): **early win**, 4/14 in its first full week. Keep it, and build bet 1 on it.
+  - q573 celebrity starter: **lost** (still live, 0/162 over two weeks).
+  - Homepage q203: 2/21 again; keep it.
+  - KeepThisPage (Corner): **lost** at 0 submits; leave it in place until bet 1 ships.
+  - Beta card: **lost/paused** (0 submits in 5 weeks).
+  - Host digest: running, no outcome change; ALARM downgrade still not done (third week).
+  - Reply opt-in tray: 0 since 10-01. Welcome q574: 0 takes.
+  - Q&A motion pass (11-20): baseline only; read 11-30.
+- **11-16 bets:** #1 (reply to 787/788): **not done**, though DJ did reply to two anonymous takes. #2 (rotate q573): **not done**. #3 (hold on search): held; (a) the ALARM downgrade is not done; (b) beta card held.
+- Repro: [SQL](audits/2026-11-23-weekly-audit.sql), [v2 snapshot](audits/2026-11-23-v2-snapshot.csv). Series breaks in window: none new (10-02 and 10-03 breaks precede every gate number above). Everything above is observed unless marked inferred.
+
 ### 2026-11-16 - Weekly growth audit: Google cut search entries by about 70% from 11-13 (the November core update), the first reachable contributor since 10-19 got no reply, q573 went 0 for 100, and returning contributors were 0 for an eighth week
 
 Headline source **`admin_engagement_trends_weekly_v2(26)`** via `scripts/db-query.sh`, run 11-16 morning ET ([snapshot](audits/2026-11-16-v2-snapshot.csv)). "This week" = **11-09..11-15** (Monday start, America/New_York). The 11-16 row is partial and reads 0. Restatement: 11-02 now reads 782 (49), where it read 779 (49).

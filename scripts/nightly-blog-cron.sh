@@ -149,6 +149,28 @@ if [[ "$(jq -r '.pause' "$OVERRIDE")" == "true" ]]; then
   exit 0
 fi
 
+# ── Preflight 1a: AC power ──────────────────────────────────────────────────
+# `caffeinate -s` only holds the Mac awake on AC power. On battery the laptop
+# sleeps and the pipeline advances only during ~5-second dark wakes every ~15
+# minutes, so every stage times out. That is what failed Steve Wozniak on
+# 2026-11-22 (two research timeouts, 48-73% battery) and 2026-11-23 (preflight
+# test call killed). A battery night is skipped without touching the queue.
+# NIGHTLY_BLOG_ALLOW_BATTERY=1 overrides for a supervised manual run.
+power_source="$(pmset -g batt 2>/dev/null)"
+if [[ "$DRY_RUN" -eq 0 && "${NIGHTLY_BLOG_ALLOW_BATTERY:-0}" != "1" && "$power_source" == *"'Battery Power'"* ]]; then
+  log WARN "ON BATTERY: the Mac would sleep mid-run; skipping tonight (queue untouched)"
+  notify "🔌 9takes nightly blog: the Mac was on battery at $(date '+%H:%M'), so tonight's blog was skipped (it would sleep mid-run). Leave it plugged in overnight. Nothing was charged against the queue."
+  log INFO "Nightly blog cron finished"
+  exit 0
+fi
+
+# Did macOS sleep after the given local time ("YYYY-MM-DD HH:MM:SS")? Prints
+# the number of sleep entries. Reading the power log takes ~5s, so this is only
+# called on a failed run.
+sleeps_since() {
+  pmset -g log 2>/dev/null | awk -v s="$1" '/Entering Sleep state/ && ($1 " " $2) >= s { n++ } END { print n + 0 }'
+}
+
 # ── Preflight 1b: one failed launch per night ───────────────────────────────
 # The scheduler re-runs this job when it exits non-zero. On 2026-11-13 that
 # spent all three of one person's attempts in four hours, each hanging in
@@ -293,6 +315,7 @@ queue_update --arg name "$person" --arg now "$NOW_ISO" \
 # it. If the wrapper dies while the pipeline lives, the pipeline finishes and
 # tomorrow's Preflight 2 reconciles the queue from the draft + lock state.
 started_ts="$(date +%s)"
+started_local="$(date '+%Y-%m-%d %H:%M:%S')"
 log INFO "Launching pipeline for $person"
 set -m
 pipeline_args=("$person")
@@ -334,7 +357,17 @@ fi
 # Return the person to the front of the queue for a resume, or give up after 3.
 requeue_or_fail() {
   local reason="$1"
-  local retry_count new_retry
+  local retry_count new_retry slept
+  # A run that failed because the Mac slept (unplugged mid-run) is not the
+  # person's failure: front of the queue, no retry, no cooldown.
+  slept="$(sleeps_since "$started_local")"
+  if (( slept > 0 )); then
+    queue_update --arg now "$NOW_ISO" \
+      '.queue = ([.inProgress | del(.startedAt)] + .queue) | .inProgress = null | .lastUpdated = $now'
+    log ERROR "MAC SLEPT MID-RUN ($slept sleep entries since $started_local): $person returned to the front of the queue, no retry charged ($reason)"
+    notify "🔌 9takes nightly blog: the Mac went to sleep during $display_name's run (probably unplugged), so it stopped ($reason). No retry charged; it resumes next plugged-in night."
+    return
+  fi
   retry_count="$(jq -r '.inProgress.retryCount // 0' "$QUEUE")"
   new_retry=$(( retry_count + 1 ))
   if (( new_retry >= 3 )); then

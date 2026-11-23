@@ -146,7 +146,7 @@ export type TestResultView = {
 	createdAt: string;
 };
 
-export type TestQuestionLink = { url: string; question: string };
+export type TestQuestionLink = { id?: number; url: string; question: string };
 
 // The generated database types predate these tables; rows are typed here.
 type Db = any;
@@ -669,6 +669,7 @@ Stop these emails: ${stopUrl}`;
 // ---------------------------------------------------------------------------
 
 type QuestionRow = {
+	id: number | null;
 	url: string | null;
 	question: string | null;
 	question_formatted: string | null;
@@ -677,7 +678,8 @@ type QuestionRow = {
 function toQuestionLink(row: QuestionRow): TestQuestionLink | null {
 	const url = (row.url ?? '').trim();
 	const question = (row.question_formatted ?? row.question ?? '').trim();
-	return url && question ? { url, question } : null;
+	if (!url || !question) return null;
+	return Number.isSafeInteger(row.id) ? { id: Number(row.id), url, question } : { url, question };
 }
 
 /**
@@ -698,49 +700,75 @@ export function assignQuestionsToTypes(
 	return assigned;
 }
 
+/** How many of the most-answered questions the per-type fallback spreads across. */
+const PER_TYPE_POOL_SIZE = 9;
+
+export type TestQuestionSources = {
+	curated: Partial<Record<TestType, TestQuestionLink>>;
+	/** Most-answered open questions, most answered first. */
+	pool: TestQuestionLink[];
+};
+
+/** DJ's curated question per type plus the most-answered open questions. Throws on a failed read. */
+export async function loadTestQuestionSources(
+	db: Db,
+	types: readonly TestType[],
+	poolSize = PER_TYPE_POOL_SIZE
+): Promise<TestQuestionSources> {
+	const curatedSlugs = types
+		.map((type) => [type, CURATED_QUESTION_SLUGS[type]] as const)
+		.filter((entry): entry is readonly [TestType, string] => Boolean(entry[1]));
+
+	const curated: Partial<Record<TestType, TestQuestionLink>> = {};
+	if (curatedSlugs.length) {
+		const { data } = await db
+			.from('questions')
+			.select('id, url, question, question_formatted')
+			.in(
+				'url',
+				curatedSlugs.map(([, slug]) => slug)
+			)
+			.not('flagged', 'is', true)
+			.not('removed', 'is', true);
+		const bySlug = new Map(
+			((data ?? []) as QuestionRow[]).map((row) => [row.url, toQuestionLink(row)])
+		);
+		for (const [type, slug] of curatedSlugs) {
+			const link = bySlug.get(slug);
+			if (link) curated[type] = link;
+		}
+	}
+
+	const { data: rows, error } = await db
+		.from('questions')
+		.select('id, url, question, question_formatted')
+		.not('url', 'is', null)
+		.not('flagged', 'is', true)
+		.not('removed', 'is', true)
+		.order('comment_count', { ascending: false })
+		.limit(Math.max(poolSize, PER_TYPE_POOL_SIZE));
+	if (error) throw new Error(error.message ?? 'Failed to load questions');
+
+	const pool = ((rows ?? []) as QuestionRow[])
+		.map(toQuestionLink)
+		.filter((link): link is TestQuestionLink => link !== null);
+	return { curated, pool };
+}
+
+/** The per-type question from a set of sources (the same pick the result page has always made). */
+export function questionsForTypesFromSources(
+	types: readonly TestType[],
+	sources: TestQuestionSources
+): Partial<Record<TestType, TestQuestionLink>> {
+	return assignQuestionsToTypes(types, sources.curated, sources.pool.slice(0, PER_TYPE_POOL_SIZE));
+}
+
 export async function getQuestionsForTypes(
 	db: Db,
 	types: readonly TestType[]
 ): Promise<Partial<Record<TestType, TestQuestionLink>>> {
 	try {
-		const curatedSlugs = types
-			.map((type) => [type, CURATED_QUESTION_SLUGS[type]] as const)
-			.filter((entry): entry is readonly [TestType, string] => Boolean(entry[1]));
-
-		const curated: Partial<Record<TestType, TestQuestionLink>> = {};
-		if (curatedSlugs.length) {
-			const { data } = await db
-				.from('questions')
-				.select('url, question, question_formatted')
-				.in(
-					'url',
-					curatedSlugs.map(([, slug]) => slug)
-				)
-				.not('flagged', 'is', true)
-				.not('removed', 'is', true);
-			const bySlug = new Map(
-				((data ?? []) as QuestionRow[]).map((row) => [row.url, toQuestionLink(row)])
-			);
-			for (const [type, slug] of curatedSlugs) {
-				const link = bySlug.get(slug);
-				if (link) curated[type] = link;
-			}
-		}
-
-		const { data: rows, error } = await db
-			.from('questions')
-			.select('url, question, question_formatted')
-			.not('url', 'is', null)
-			.not('flagged', 'is', true)
-			.not('removed', 'is', true)
-			.order('comment_count', { ascending: false })
-			.limit(9);
-		if (error) throw new Error(error.message ?? 'Failed to load questions');
-
-		const fallback = ((rows ?? []) as QuestionRow[])
-			.map(toQuestionLink)
-			.filter((link): link is TestQuestionLink => link !== null);
-		return assignQuestionsToTypes(types, curated, fallback);
+		return questionsForTypesFromSources(types, await loadTestQuestionSources(db, types));
 	} catch (error) {
 		logger.error('Failed to pick questions for Enneagram test result', error as Error);
 		return {};

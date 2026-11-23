@@ -10,6 +10,47 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-11-23 — Unattended weekly brief: the test-result answer card works (4/14; takes 4 -> 8) while Google entries fell another 63%, but 0 of 6 contributors and 0 of 16 test-takers are reachable (returning 0 for a 9th week); people lane unstuck (6 publishes, DB 470 / 156) but the queue is down to 1 and the publisher fails its first try every morning; 8 Corner concept drafts written 11-21, unpublished
+
+- **Brief:** [`docs/daily-briefs/2026-11-23_marketing-status.md`](../daily-briefs/2026-11-23_marketing-status.md).
+  - Growth freshness gate PASSED: growth-log `### 2026-11-23`, audit "claude exited 0" at 08:38:14. Headline and biggest leak are quoted verbatim.
+  - Supabase MCP down (12th week). Data came from read-only `scripts/db-query.sh` and `pnpm people:ready`.
+- **Growth headline (verbatim):** _"Google entries fell another 63%, but takes doubled (4 -> 8) because the test-result answer card converts 4 of 14; 0 of 6 contributors are reachable, and returning contributors were 0 for a ninth week."_
+- **Biggest leak (verbatim):** _"still the return leg, now for nine straight weeks. 9takes doubled its takes, but 0 of the 6 contributors left a way to reach them, 0 of 16 test-takers left an email, and the two takes DJ replied to came from anonymous people who will never see the reply."_
+  - Growth bet #1: a default-on "other types answered" email field under the test-result answer card, shipped this week. It is blocked on the post-answer interview (asked 11-14).
+  - Bet #2: reply to 787/788 and rotate q573 back to q118. Both carried over, both undone.
+  - Bet #3: hold search until about 12-01. KeepThisPage and the beta card were called lost.
+- **Content:**
+  - DB 464 -> 470 / 156: Schafer and Ludwig (11-17), Talarico and Hinton (11-18), Bettany (11-19), Laura Loomer (by hand, 11-22). DJ's portrait batch (`7d640b7e1`) and the restored two-a-day releases did it.
+  - Nightly: 4 passes in 4 completed runs (Salomé Andrea 8.1, Drew Afualo 8.3, Quenlin Blackwell 8.1, Amanda Seyfried 8.3), all portrait-only. Failures:
+    - Weekly cap on 11-21.
+    - Wozniak research timed out twice on 11-22; the cron fired twice that night (02:07 and 04:33).
+    - Preflight killed on 11-16 and 11-23.
+  - `people:ready`: 0 ready, 7 portrait-only passes, 27 held or edited. **Queue: 1 left** (Wozniak), so the runner runs dry this week.
+  - **Publisher:**
+    - The first try fails with `TypeError: fetch failed` every morning, 11-18 through 11-23. Inferred cause: the network isn't up at wake.
+    - The `http://` citation rule blocks Ben Shelton, Chris Olah and Tiger Woods.
+    - `BYPASS_TOKEN` is not set locally, so the post-publish revalidate is skipped.
+  - **8 Enneagram Corner drafts (11-21, `published: false`):** 6 superlatives, SP/SO/SX blind and personality disorders. Each needs a question row, a hero image and 3+ inbound links. The personality-disorders draft contradicts the frozen mental-illness FAQ.
+  - Thanksgiving series closed for 2026 by default: skeletons untouched, 3 days out.
+- **SEO:**
+  - DJ's 11-21 lean fixes landed inside the hold window: the direct-answer box, the MBTI-line test (9 pages; check 12-21), the compatibility retitle and the TL;DR test link. So did the 11-18/19 taxonomy change to the type hubs. Per memory, "famous enneagram N" queries may be rotating off the hubs.
+  - All of these are confounds for the 12-01 re-pull. The 63 meta titles are still unsynced (re-verified).
+  - Crosslinks 11-19 OK (11 links, gate debt 0).
+- **DJ's week (about 24 commits, all pushed):**
+  - Portraits and publishes.
+  - People taxonomy v3.
+  - Q&A runes and motion pass.
+  - Security fixes, including a privacy redaction of an email in an old marketing-log entry (11-20).
+  - The search-terms and core-update analyses plus the lean SEO fixes.
+  - The 8 Corner drafts.
+  - The question-topic directory (migration applied, backfill not run).
+- **Still parked / unchanged:** Instagram RED 0/10 (last session 08-07), Quora (05-19), Twitter, The Nine, One Take. 16 packets, the newest from 10-04. Sam, Shaan, Galloway and Elon still unsynced. Enneagram Monthly send unrecorded.
+- **Next move (ranked):**
+  1. DJ answers the post-answer interview so bet #1 can be built (lean field, or the ambitious three-question chain).
+  2. DJ replies to 787/788 and approves q118.
+  3. Ship the Corner concept drafts (superlatives first) instead of more bio people pages.
+
 ### 2026-11-16 — Unattended weekly brief: Google entries -70% from 11-13 (core update, inferred) on top of an 8th week of 0 returning contributors; 787/788, the first reachable contributor since 10-19, unreplied; q573 lost (0/100); 0 people publishes for a 2nd week (DB 464 / 159), 10 portrait-only passes; nightly runner lost 2 nights to a killed preflight and fired 4x on 11-13; 63 people meta titles rewritten in drafts, unsynced
 
 - **Brief:** [`docs/daily-briefs/2026-11-16_marketing-status.md`](../daily-briefs/2026-11-16_marketing-status.md).
@@ -559,6 +600,27 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 
 ## Blocked / waiting
 
+### 2026-11-23 — Current blockers needing DJ / eng decision
+
+- **Post-answer interview (DJ, asked 11-14, day 9):** it now blocks growth bet #1, the test-result email capture. Choose lean (one field) or ambitious (a three-question chain).
+- **787/788 reply (DJ, 3rd ask):** 0 replies after 10 days. A logged-in reply needs a personal email to arrive.
+- **q573 -> q118 (DJ go, 2nd ask):** 3/297 (1.0%) vs 2.4%.
+- **People pages during the update (DJ):** the 11-21 synthesis says hold new people pages until the 21% not-indexed recovers, while the publisher releases two a day. Pause or continue? The queue is down to 1 either way.
+- **8 Corner drafts (DJ):** publish timing (PM pick: now, superlatives first), hero images (DJ's step), and the personality-disorders vs mental-illness FAQ contradiction.
+- **Pipeline reliability (DJ go for an agent fix):**
+  - The publisher's first-try "fetch failed" (6/6 mornings).
+  - The `http://` citation rejects (Ben Shelton, Chris Olah, Tiger Woods).
+  - Preflight kills (11-16, 11-23).
+  - The cron firing twice on 11-22.
+- **Known-bad live pages (4th ask):** Shaan Puri single-person sync; Galloway's type call.
+- **Carried:**
+  - 63 meta titles (hold until after 12-01).
+  - Elon Musk and Andrew Callaghan refreshes.
+  - Daniela Amodei.
+  - Git-history transcript purge.
+  - Digest alarm downgrade.
+  - Enneagram Monthly send.
+
 ### 2026-11-16 — Current blockers needing DJ / eng decision
 
 - **787/788 reply (DJ, today):** the first reachable contributor since 10-19. The desk draft exists. A logged-in reply shows only in-app (the outbox has 0 rows ever), so it also needs a personal email. The host desk is at 42 pending / 1 posted.
@@ -797,6 +859,15 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 
 ## Decisions
 
+### 2026-11-23 — Observed from artifacts + memory (not stated to the PM directly)
+
+- **11-17:** DJ batched approved portraits (`7d640b7e1`) and restored two daily people releases (`11534925d`).
+- **11-19:** people taxonomy v3 shipped (15 fields, category pages, timeline). New publishes are auto-labeled (11-22).
+- **11-21 (memory):** the search-terms synthesis steers the site toward Enneagram-native intent (superlatives, type hubs, an MBTI line) and away from bio traffic. It recommends holding new people pages until indexing recovers. DJ shipped the lean SEO fixes and drafted 8 Corner concept posts.
+- **11-22:** DJ published Laura Loomer by hand (8.6).
+- **Growth, 11-23:** the test-result answer card is an early win. KeepThisPage and the beta card were called lost, pending DJ.
+- **PM default, 11-23:** the Thanksgiving situational series is treated as moved to 2027 unless DJ objects.
+
 ### 2026-11-16 — Observed from artifacts + memory (not stated to the PM directly)
 
 - **11-13:** DJ set the people release floor to 8.0 ("I'm okay if we treat the score as advisory above 8.0"). The pipeline was rebuilt with `--reverify` and `--reassess` modes and `pnpm people:ready` (memory).
@@ -919,6 +990,7 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 
 ## Status snapshots
 
+- [2026-11-23](../daily-briefs/2026-11-23_marketing-status.md) — Growth gate passed (audit exit 0 at 08:38:14). Headline: Google entries fell another 63%, but takes doubled (4 -> 8) because the test-result answer card converts 4 of 14. 0 of 6 contributors and 0 of 16 test-takers are reachable; returning contributors 0 for a 9th week. Desk 49 pending / 1 posted. 6 people publishes (DB 470 / 156); 4 nightly passes, all portrait-only (7 waiting); queue down to 1. Publisher's first try fails every morning (fetch failed), and `http://` citations block 3 drafts. 8 Corner concept drafts (11-21) unpublished. 11-21 SEO fixes and the 11-19 taxonomy change are confounds for the 12-01 read. Recs: (1) answer the post-answer interview to unblock the test-result email capture, (2) reply to 787/788 and approve q118, (3) ship the Corner concept drafts instead of more bio pages.
 - [2026-11-16](../daily-briefs/2026-11-16_marketing-status.md) — Growth gate passed (audit exit 0 at 08:34:09). Headline: Google cut search entries by about 70% from 11-13 (core update, inferred; pages indexed, Bing and DDG held). 787/788, the first reachable contributor since 10-19, got no reply. q573 went 0/100 (lost). Returning contributors 0 for an 8th week. Desk 42 pending / 1 posted. 0 people publishes for a 2nd week (DB 464 / 159); 10 portrait-only passes; 1 nightly pass in 7 (Aspyn Ovard 8.2). Runner preflight killed 2 nights, cron fired 4x on 11-13, Telegram failed. 63 draft meta titles rewritten, unsynced (hold until 12-01). Transcripts untracked; GSC pulled 11-10. Recs: (1) reply to 787/788 today, (2) q573 -> q118, (3) release the portrait-ready holds.
 - [2026-11-09](../daily-briefs/2026-11-09_marketing-status.md) — Growth gate passed (audit exit 0 at 10:12). Headline: the coaching loop turned end to end for the first time (Bing -> test -> account -> beta card), but takes fell 9 -> 4, the homepage went 0/38, and returning contributors were 0 for a 7th week. 0 of 22 contributors reachable since 10-19; desk 38 pending / 1 posted. 0 people publishes (DB flat at 464); 9 passes portrait-blocked; Jay-Z held; QTCinderella failed on auth (11-08) and a timeout (11-09). Daniela's 11-09 window missed. DJ shipped Cold Light, the Corner taxonomy, the Type 6 fairness pass and three unsynced adversarial rebuilds. Recs: (1) DJ writes to the beta lead today, (2) batch the portraits, (3) approve the opt-in.
 - [2026-11-02](../daily-briefs/2026-11-02_marketing-status.md) — Growth gate passed (audit finished 06:27:45). Headline: both new asks won (q118 3.05% vs q567 0.43%; 10 contributors, a 26-week high), but 0 of 10 are reachable, 0 got a reply, and returning contributors were 0 for a 6th week. Desk: 32 pending / 1 posted. Publisher back on Node 24 (DJ, 10-26); DB 456 -> 464 (2 auto, 6 by hand). 4 passes images-only. Daniela Amodei held at 8.0 with an 11-09 deadline. Transcript pushed to the public repo 10-28. Recs: (1) "next take" opt-in, (2) a one-time reply call, (3) clear the publish lane before 11-09.
@@ -948,6 +1020,16 @@ Following DJ's instruction, the homepage now posts and reveals real responses in
 ## Experiment + campaign log
 
 Cross-link only. Detail lives in `docs/growth/growth-log.md`.
+
+### 2026-11-16 -> 11-22 — Test-result answer card week 1 (early win); q573 week 3 (lost, still live); KeepThisPage and beta card lost; post-answer loop week 11; core update week 2
+
+- Growth-log `### 2026-11-23`. The week: 543 human visitors (31 returning) -> 8 takes from 6 contributors; 0 returning (9th week).
+- **Test-result answer card (shipped 11-13):** 4/14 gate -> take (29%, CI 8-58%); test completions 6 -> 16. 0 of 16 left an email. Bet #1 builds the capture here.
+- **q573:** 0/61 this week; 3/297 (1.0%) over 3 weeks vs q118's 2.4%. Still live; the rotation is awaiting DJ.
+- **Homepage q203:** 2/21; keep it. **KeepThisPage:** 0 submits in about 10 days (lost). **Beta card:** 298 -> 4 -> 0 (lost/paused).
+- **Reply leg:** DJ replied in-thread to 789 and 805 (both anonymous, neither returned). 787/788 has 0 replies after 10 days. The outbox has 0 rows ever.
+- **SEO tests started 11-21 (memory):** an MBTI-line test on 9 people pages (check 12-21), a direct-answer box on person pages, and a compatibility retitle. All are confounds for the 12-01 core-update read.
+- **External:** Google entries 329 -> 123; Bing held (55 -> 65).
 
 ### 2026-11-09 -> 11-15 — Celebrity q573 week 2 (closed: lost); 11-13 conversion ships (baseline); post-answer loop week 10; Google core update
 

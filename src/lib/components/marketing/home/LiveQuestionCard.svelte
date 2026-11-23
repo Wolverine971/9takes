@@ -59,6 +59,17 @@
 	// Other surfaces record gate_shown in their server load and get callbacks instead.
 	let onHomepage = $derived(surface === 'homepage');
 
+	// Several cards can share a page (the test result's answer chain), so ids are per card.
+	// The homepage keeps its fixed ids, including id="answer" for its #answer CTAs.
+	const uid = $props.id();
+	let idPrefix = $derived(onHomepage ? 'live' : uid);
+	let ids = $derived({
+		take: `${idPrefix}-take`,
+		question: `${idPrefix}-question`,
+		note: `${idPrefix}-note`,
+		error: `${idPrefix}-error`
+	});
+
 	// Blurred stand-ins for locked takes. Never real text: the gate decides who reads takes.
 	const LOCKED_TEXT = [
 		'xxxxxx xxx xxxxxxxx xxxx xx xxxxx',
@@ -151,9 +162,11 @@
 	}
 
 	function offerReplyOptIn(take: LiveTake, result: LiveTakePostResult) {
-		// Question page eligibility: an anonymous visitor's first take ever.
+		// Question page eligibility: an anonymous visitor's first take ever. The test result
+		// has its own email capture in the answer chain, so it never shows this tray.
 		const analytics = normalizeServerCommentAnalytics(result.commentAnalytics);
 		if (
+			surface === 'enneagram_test' ||
 			result.alreadyAnswered ||
 			!result.isAnonymous ||
 			analytics.isFirstCommentEver !== true ||
@@ -265,7 +278,7 @@
 {#snippet arrow()}<ArrowRight size={17} aria-hidden="true" />{/snippet}
 
 {#if !live}
-	<div class="live" id="answer">
+	<div class="live" id={onHomepage ? 'answer' : undefined}>
 		<div class="live-meta"><span class="pill-open">Open questions</span></div>
 		<h3>Pick a question. Answer it before you read anyone else's.</h3>
 		<a class="btn" href={resolve('/questions')} data-track="link" data-placement="live_fallback"
@@ -273,7 +286,11 @@
 		>
 	</div>
 {:else}
-	<div class="live ph-no-capture" id="answer" {@attach qualifiedVisibility(reportGateImpression)}>
+	<div
+		class="live ph-no-capture"
+		id={onHomepage ? 'answer' : undefined}
+		{@attach qualifiedVisibility(reportGateImpression)}
+	>
 		<div class="live-meta">
 			<span class="pill-open">{label}</span>
 			{#if responses > 0}
@@ -282,27 +299,27 @@
 				>
 			{/if}
 		</div>
-		<h3 id="live-question">{live.title}</h3>
+		<h3 id={ids.question}>{live.title}</h3>
 
 		{#if !posted}
 			<form class="compose" onsubmit={postTake} novalidate>
-				<label for="live-take">{composeLabel}</label>
+				<label for={ids.take}>{composeLabel}</label>
 				<textarea
-					id="live-take"
+					id={ids.take}
 					bind:this={composer}
 					bind:value={answer}
 					maxlength="600"
 					rows="2"
 					placeholder="A few honest words. Don't overthink it."
-					aria-describedby={error || postError ? 'live-note live-error' : 'live-note'}
+					aria-describedby={error || postError ? `${ids.note} ${ids.error}` : ids.note}
 					aria-invalid={!!error || !!postError}
 					disabled={postState === 'posting'}
 					oninput={handleInput}></textarea>
 				{#if error || postError}
-					<p class="form-error" id="live-error" role="alert">{error || postError}</p>
+					<p class="form-error" id={ids.error} role="alert">{error || postError}</p>
 				{/if}
 				<div class="compose-row">
-					<p class="note" id="live-note">
+					<p class="note" id={ids.note}>
 						{#if signedIn}
 							<b>Public.</b> Posts from your account.
 						{:else}
@@ -320,7 +337,7 @@
 					<button
 						class="btn"
 						type="submit"
-						aria-describedby="live-note"
+						aria-describedby={ids.note}
 						disabled={postState === 'posting'}
 					>
 						{postState === 'posting'

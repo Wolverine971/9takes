@@ -7,8 +7,9 @@
   1. Keep this result: one optional email sends the private link, turns on the
      friend-read notes, and subscribes them. Signed-in test-takers can also copy
      the type onto their profile.
-  2. Answer as your type: the answer-first card posts a real take here and
-     unlocks the other answers in place.
+  2. Answer as your type: the answer chain (up to three questions) posts real
+     takes here and unlocks the other answers in place. After the second take
+     it asks for an email to hear when the other types answer.
   3. Go deeper: the type page and the people who share the type.
   4. Ask someone who knows you: the friend link and the reads that come back.
 
@@ -23,16 +24,15 @@
 	import InviteSheet from '$lib/components/enneagramTest/InviteSheet.svelte';
 	import ResultSummary from '$lib/components/enneagramTest/ResultSummary.svelte';
 	import TypeBadge from '$lib/components/enneagramTest/TypeBadge.svelte';
-	import LiveQuestionCard from '$lib/components/marketing/home/LiveQuestionCard.svelte';
+	import TestAnswerChain from '$lib/components/enneagramTest/TestAnswerChain.svelte';
 	import { TEST_TYPES, typeListWithArticles, withArticle } from '$lib/enneagramTest/content';
 	import {
 		captureTestExitClicked,
 		captureTestNotifyOptIn,
 		captureTestResultEmailed,
 		captureTestSavedToProfile,
-		captureTestTakePosted,
-		captureTestTakeStarted,
-		type TestExit
+		type TestExit,
+		type TestNotifyPlacement
 	} from '$lib/analytics/enneagramTestEvents';
 	import { prepareEmailSignup } from '$lib/analytics/marketingEvents';
 	import type { PageData } from './$types';
@@ -45,16 +45,6 @@
 	const result = $derived(data.result);
 	const types = $derived(result.types);
 	const split = $derived(types.length > 1);
-	const questionLinks = $derived(
-		types.flatMap((type) => {
-			const link = data.questions[type];
-			return link ? [{ type, ...link }] : [];
-		})
-	);
-	// Questions that are not already in the answer-first card.
-	const otherQuestionLinks = $derived(
-		questionLinks.filter((link) => !data.live || link.type !== data.answerType)
-	);
 	const updateUrl = $derived(`/api/enneagram-test/results/${encodeURIComponent(data.resultToken)}`);
 
 	// Seeded from the result; a successful save overrides it until the result changes.
@@ -63,6 +53,10 @@
 	let keepStatus = $state<'idle' | 'saving' | 'error'>('idle');
 	let keepError = $state('');
 	let justKept = $state<'sent' | 'saved' | null>(null);
+	// The capture under the answer chain: its own field, same opt-in.
+	let followEmail = $state('');
+	let followStatus = $state<'idle' | 'saving' | 'error'>('idle');
+	let followError = $state('');
 	const pageOpenedAt = Date.now();
 
 	// Signed-in test-takers with one type can copy it onto their profile.
@@ -103,30 +97,59 @@
 		}
 	}
 
+	const EMAIL_SHAPE = /^\S+@\S+\.\S+$/;
+	const EMAIL_HINT = 'Enter an email address like you@example.com.';
+
+	/** One opt-in for both boxes: saves the address, emails the private link, joins the list. */
+	async function saveEmail(address: string, placement: TestNotifyPlacement) {
+		const saved = await patchResult({ notifyEmail: address, sendResult: true });
+		const sent = saved.resultEmail === 'sent';
+		notifyOn = true;
+		justKept = sent ? 'sent' : 'saved';
+		void captureTestNotifyOptIn(placement);
+		void captureTestResultEmailed({ split, sent });
+		void subscribe(address);
+	}
+
 	async function keepResult(event: SubmitEvent) {
 		event.preventDefault();
 		if (keepStatus === 'saving') return;
 		const address = email.trim().toLowerCase();
-		if (!/^\S+@\S+\.\S+$/.test(address)) {
+		if (!EMAIL_SHAPE.test(address)) {
 			keepStatus = 'error';
-			keepError = 'Enter an email address like you@example.com.';
+			keepError = EMAIL_HINT;
 			return;
 		}
 		keepStatus = 'saving';
 		keepError = '';
 		try {
-			const saved = await patchResult({ notifyEmail: address, sendResult: true });
-			const sent = saved.resultEmail === 'sent';
-			notifyOn = true;
-			justKept = sent ? 'sent' : 'saved';
+			await saveEmail(address, 'keep');
 			keepStatus = 'idle';
 			email = '';
-			void captureTestNotifyOptIn();
-			void captureTestResultEmailed({ split, sent });
-			void subscribe(address);
 		} catch (error) {
 			keepStatus = 'error';
 			keepError = error instanceof Error ? error.message : 'We couldn’t save that.';
+		}
+	}
+
+	async function followTakes(event: SubmitEvent) {
+		event.preventDefault();
+		if (followStatus === 'saving') return;
+		const address = followEmail.trim().toLowerCase();
+		if (!EMAIL_SHAPE.test(address)) {
+			followStatus = 'error';
+			followError = EMAIL_HINT;
+			return;
+		}
+		followStatus = 'saving';
+		followError = '';
+		try {
+			await saveEmail(address, 'chain');
+			followStatus = 'idle';
+			followEmail = '';
+		} catch (error) {
+			followStatus = 'error';
+			followError = error instanceof Error ? error.message : 'We couldn’t save that.';
 		}
 	}
 
@@ -181,7 +204,8 @@
 				{:else}
 					Your email is saved with this result.
 				{/if}
-				We’ll also email you when someone answers your link.
+				We’ll also email you when someone answers your link, and when new takes land on questions you
+				answered here.
 				<button
 					type="button"
 					class="text-link"
@@ -219,8 +243,8 @@
 				</Button>
 			</form>
 			<p class="muted small">
-				You’ll get your link now, a note when someone answers it, and an occasional email from
-				9takes. One click stops them.
+				You’ll get your link now, a note when someone answers it or answers a question after you,
+				and an occasional email from 9takes. One click stops them.
 			</p>
 		{/if}
 
@@ -247,44 +271,67 @@
 	</section>
 {/snippet}
 
+{#snippet followCapture()}
+	<div class="follow">
+		{#if notifyOn}
+			<p class="follow-on" role="status">
+				<strong id="follow-title">You’re on the list for these.</strong>
+				We’ll email you when the other types answer, at most once a day. Your result link has them unlocked
+				on any device.
+			</p>
+		{:else}
+			<h3 id="follow-title">Hear when the other types answer</h3>
+			<p class="muted small">
+				You answered before the crowd. Most of the nine haven’t answered these yet. Leave your email
+				and we’ll tell you when they do, at most once a day.
+			</p>
+			<form class="keep-form" onsubmit={followTakes} novalidate>
+				<Field
+					for="et-follow-email"
+					label="Email"
+					error={followStatus === 'error' ? followError : undefined}
+				>
+					<Input
+						id="et-follow-email"
+						type="email"
+						bind:value={followEmail}
+						autocomplete="email"
+						placeholder="you@example.com"
+					/>
+				</Field>
+				<Button type="submit" variant="primary" loading={followStatus === 'saving'}>
+					Email me when they answer
+				</Button>
+			</form>
+			<p class="muted small">
+				Comes with your private result link and an occasional email from 9takes. One click stops
+				them.
+			</p>
+		{/if}
+	</div>
+{/snippet}
+
 {#snippet answerSection()}
 	<section class="block" id="answer-as" aria-labelledby="answer-title">
-		<h2 id="answer-title">Answer one question as {typeListWithArticles(types)}</h2>
+		<h2 id="answer-title">
+			Answer {data.chain.steps.length > 1 ? `${data.chain.steps.length} questions` : 'a question'}
+			as {typeListWithArticles(types)}
+		</h2>
 		<p class="muted">
-			Answer before the crowd. Then see how {split ? 'your two types' : `other ${types[0]}s`} and the
-			other {split ? 'seven' : 'eight'} answered it.
+			Answer before the crowd. Each take unlocks how {split
+				? 'your two types'
+				: `other ${types[0]}s`} and the other {split ? 'seven' : 'eight'} answered.
 		</p>
-		{#if data.live}
-			<LiveQuestionCard
-				live={data.live}
-				types={data.liveTypes}
-				surface="enneagram_test"
-				endpoint="{updateUrl}/answer"
+		{#if data.chain.steps.length}
+			<TestAnswerChain
+				chain={data.chain}
+				resultApi={updateUrl}
+				{split}
 				sourcePath={RESULT_PATH}
-				label={data.answerType ? `A question for ${withArticle(data.answerType)}` : 'Open question'}
-				composeLabel={data.answerType
-					? `Your take, as ${withArticle(data.answerType)}`
-					: 'Your take'}
-				onstart={() => captureTestTakeStarted(split)}
-				onpost={(posted) => {
-					exitClicked('question');
-					void captureTestTakePosted({ split, alreadyAnswered: posted.alreadyAnswered });
-				}}
+				capture={followCapture}
+				onposted={() => exitClicked('question')}
 			/>
-		{/if}
-		{#if otherQuestionLinks.length}
-			<p class="more-links">
-				{#each otherQuestionLinks as link (link.type)}
-					<a
-						href={resolve('/questions/[slug]', { slug: link.url })}
-						onclick={() => exitClicked('question')}
-					>
-						{data.live ? 'Or as' : 'As'}
-						{withArticle(link.type)}: {link.question}
-					</a>
-				{/each}
-			</p>
-		{:else if !data.live}
+		{:else}
 			<p class="more-links">
 				<a href={resolve('/questions')} onclick={() => exitClicked('question')}>Pick a question</a>
 			</p>
@@ -470,6 +517,31 @@
 	.form-error {
 		color: var(--error-text);
 		font-size: 0.93rem;
+	}
+
+	.follow {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		padding: 18px 20px;
+		border: 1px solid var(--highlight);
+		border-radius: 16px;
+		background: var(--surface);
+	}
+
+	.follow h3 {
+		margin: 0;
+		font-size: var(--font-size-lg);
+		font-weight: 700;
+		color: var(--text);
+	}
+
+	.follow-on {
+		color: var(--text-muted);
+	}
+
+	.follow-on strong {
+		color: var(--text);
 	}
 
 	.profile-save {
