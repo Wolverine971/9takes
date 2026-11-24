@@ -8,8 +8,10 @@ const {
 	recordGiveFirstEventMock,
 	rpcMock,
 	loggerMocks,
-	consumeApiRateLimitMock
+	consumeApiRateLimitMock,
+	getUnlockedLiveTakesMock
 } = vi.hoisted(() => ({
+	getUnlockedLiveTakesMock: vi.fn(),
 	generateMirrorMock: vi.fn(),
 	getChorusForQuestionMock: vi.fn(),
 	recordUserTakeMock: vi.fn(),
@@ -45,6 +47,10 @@ vi.mock('$lib/server/nineTakes', () => ({
 
 vi.mock('$lib/server/giveFirstFunnel', () => ({
 	recordGiveFirstEvent: recordGiveFirstEventMock
+}));
+
+vi.mock('$lib/server/homepageLiveTake', () => ({
+	getUnlockedLiveTakes: getUnlockedLiveTakesMock
 }));
 
 vi.mock('$lib/utils/logger', () => ({
@@ -129,6 +135,7 @@ describe('POST /api/nine/mirror', () => {
 		});
 		recordUserTakeMock.mockResolvedValue(undefined);
 		recordGiveFirstEventMock.mockResolvedValue(undefined);
+		getUnlockedLiveTakesMock.mockResolvedValue(null);
 	});
 
 	afterEach(() => {
@@ -161,6 +168,34 @@ describe('POST /api/nine/mirror', () => {
 		expect(rpcMock.mock.invocationCallOrder[0]).toBeLessThan(
 			generateMirrorMock.mock.invocationCallOrder[0]
 		);
+	});
+
+	it('returns the real room the answer unlocks, through the give-first gate', async () => {
+		const answers = [{ id: 41, text: 'I keep my calendar full so nobody asks.', type: 3 }];
+		getUnlockedLiveTakesMock.mockResolvedValueOnce({
+			ownTake: { id: 123, text: 'mine' },
+			answers,
+			responses: 12
+		});
+
+		const response = await POST(buildEvent({ fingerprint: 'visitor-room-1' }) as never);
+		const body = await response.json();
+
+		expect(body.room).toEqual({ answers, responses: 12 });
+		expect(getUnlockedLiveTakesMock).toHaveBeenCalledWith(expect.anything(), 567, {
+			fingerprint: 'visitor-room-1',
+			userId: null
+		});
+	});
+
+	it('still reveals the nine when the room read fails', async () => {
+		getUnlockedLiveTakesMock.mockRejectedValueOnce(new Error('db down'));
+
+		const response = await POST(buildEvent({ fingerprint: 'visitor-room-2' }) as never);
+		const body = await response.json();
+
+		expect(response.status).toBe(200);
+		expect(body).toMatchObject({ answerRecorded: true, room: null, takes });
 	});
 
 	it('does not return a comment id when the request only unlocks an existing answer', async () => {

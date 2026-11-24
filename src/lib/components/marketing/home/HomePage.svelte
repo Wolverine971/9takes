@@ -16,11 +16,16 @@
 	import LiveQuestionCard from './LiveQuestionCard.svelte';
 	import PosterHeading from './PosterHeading.svelte';
 	import { trackHomeClicks } from './homeAnalytics';
+	import AnswerNext from '$lib/components/questions/AnswerNext.svelte';
 
 	let {
 		live = null,
 		liveTypes = null
 	}: { live?: LiveTake | null; liveTypes?: LiveTakeTypes | null } = $props();
+
+	// After the visitor's take unlocks the live question, offer the next one in place.
+	let postedHere = $state(false);
+	let showNext = $derived(Boolean(live && (postedHere || live.answered)));
 
 	const title = '1 Question, 9 Perspectives | 9takes';
 	const description =
@@ -81,7 +86,12 @@
 					>.
 				</p>
 			</div>
-			<LiveQuestionCard {live} types={liveTypes} />
+			<div class="band-answer">
+				<LiveQuestionCard {live} types={liveTypes} onpost={() => (postedHere = true)} />
+				{#if showNext && live}
+					<AnswerNext afterSlug={live.slug} sourcePath="/" host="homepage" />
+				{/if}
+			</div>
 		</div>
 	</section>
 
@@ -122,6 +132,12 @@
 		grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
 		align-items: start;
 		gap: 64px;
+	}
+	.band-answer {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		min-width: 0;
 	}
 	.band-copy {
 		position: sticky;

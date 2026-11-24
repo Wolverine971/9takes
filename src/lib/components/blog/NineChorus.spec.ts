@@ -243,7 +243,8 @@ describe('NineChorus', () => {
 
 		await waitFor(() => expect(callsTo('/api/nine/mirror')).toHaveLength(1));
 		const order = fetchMock.mock.calls.map(([url]) => url);
-		expect(order).toEqual(['/api/nine/impression', '/api/nine/mirror']);
+		// After the reveal, "Answer the next one" asks for a question; only the first two matter here.
+		expect(order.slice(0, 2)).toEqual(['/api/nine/impression', '/api/nine/mirror']);
 	});
 
 	it('records no impression without a page path to attribute it to', async () => {
@@ -280,5 +281,48 @@ describe('NineChorus', () => {
 			textarea.value
 		);
 		expect(container.querySelector('.chorus-reveal')).toBeNull();
+	});
+
+	it('opens the real room: community takes above the nine, each shown once', async () => {
+		const humanNine = TAKES.map((take, index) =>
+			index === 3 ? { ...take, take: 'Already in the nine.', source: 'human' } : take
+		);
+		fetchMock.mockImplementation(async (url: string) =>
+			url === '/api/nine/mirror'
+				? mirrorResponse({
+						reflection: null,
+						takes: humanNine,
+						answerRecorded: true,
+						commentId: 555,
+						room: {
+							answers: [
+								{ id: 1, text: 'I answer every text within a minute.', type: 6 },
+								{ id: 2, text: 'Already in the nine.', type: 4 },
+								{ id: 3, text: 'Laughing at my own expense.', type: null }
+							],
+							responses: 9
+						}
+					})
+				: mirrorResponse({ next: null })
+		);
+		const { container, getByRole, getByText } = renderProvenChorus();
+
+		await fireEvent.input(container.querySelector('textarea') as HTMLTextAreaElement, {
+			target: { value: 'Smiling through every meeting.' }
+		});
+		await fireEvent.click(getByRole('button', { name: 'Post answer and compare' }));
+
+		await waitFor(() => expect(getByText('WHAT REAL PEOPLE SAID')).toBeTruthy());
+		const roomTexts = [...container.querySelectorAll('.room-take p')].map((p) => p.textContent);
+		expect(roomTexts).toEqual([
+			'I answer every text within a minute.',
+			'Laughing at my own expense.'
+		]);
+		// 9 takes: 2 shown here, the visitor's own, 6 more on the question page.
+		expect(getByText('6 more in the full conversation →')).toBeTruthy();
+		expect(container.querySelector('[data-own-take="555"]')?.textContent?.trim()).toBe(
+			'Smiling through every meeting.'
+		);
+		await waitFor(() => expect(callsTo(`/api/questions/next?after=${PROVEN_URL}`)).toHaveLength(1));
 	});
 });

@@ -23,3 +23,30 @@ if (typeof window !== 'undefined' && typeof window.matchMedia !== 'function') {
 if (typeof Element !== 'undefined' && typeof Element.prototype.getAnimations !== 'function') {
 	Element.prototype.getAnimations = () => [];
 }
+
+// Svelte's delayed transitions (`in:fly={{ delay }}`) hold the element with
+// element.animate() until the delay passes. Finish those holds on the next
+// task so intro-with-delay specs run instead of throwing.
+if (typeof Element !== 'undefined' && typeof Element.prototype.animate !== 'function') {
+	Element.prototype.animate = function () {
+		const animation = {
+			onfinish: null as null | (() => void),
+			oncancel: null as null | (() => void),
+			currentTime: 0,
+			playState: 'running',
+			cancel() {
+				animation.playState = 'idle';
+			},
+			finish() {
+				animation.playState = 'finished';
+				animation.onfinish?.();
+			},
+			play() {},
+			pause() {}
+		};
+		setTimeout(() => {
+			if (animation.playState === 'running') animation.finish();
+		}, 0);
+		return animation as unknown as Animation;
+	};
+}

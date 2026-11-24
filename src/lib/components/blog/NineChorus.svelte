@@ -27,9 +27,31 @@
 	import { formatTypeLabel } from '$lib/constants/enneagramColors';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
+	import type { LiveTakeAnswer } from '$lib/data/homepageLiveTake';
+	import AnswerNext from '$lib/components/questions/AnswerNext.svelte';
+	import { handOffTake, waitForTakeHandoff } from '$lib/components/questions/takeHandoff';
 
 	type Take = { type: number; archetype: string; take: string; source: 'ai' | 'human' };
 	type Mirror = { reflection: string; resonantType: number; resonantArchetype: string };
+	/** The real people's takes the answer unlocked (the mirror's `room`). */
+	type Room = { answers: LiveTakeAnswer[]; responses: number | null };
+
+	function parseRoom(value: unknown): Room | null {
+		if (!value || typeof value !== 'object') return null;
+		const raw = value as { answers?: unknown; responses?: unknown };
+		if (!Array.isArray(raw.answers)) return null;
+		const answers = raw.answers.filter(
+			(answer): answer is LiveTakeAnswer =>
+				Boolean(answer) &&
+				typeof answer.id === 'number' &&
+				typeof answer.text === 'string' &&
+				answer.text.trim().length > 0
+		);
+		return {
+			answers,
+			responses: typeof raw.responses === 'number' ? raw.responses : null
+		};
+	}
 
 	let {
 		subjectType = 'personality-analysis',
@@ -60,6 +82,23 @@
 	let shareState = $state<'idle' | 'copied'>('idle');
 	let qrDataUrl = $state('');
 	let alreadyAnswered = $state(false);
+	let room = $state<Room | null>(null);
+	let ownTakeId = $state<number | null>(null);
+	let composer = $state<HTMLTextAreaElement>();
+	// A community take can also fill one of the nine slots; show it once, in the nine.
+	let roomAnswers = $derived.by(() => {
+		if (!room) return [];
+		const inNine = new Set(
+			takes.filter((take) => take.source === 'human').map((take) => take.take.trim())
+		);
+		return room.answers.filter((answer) => !inNine.has(answer.text.trim()));
+	});
+	// Takes in the full conversation beyond the ones shown here (and the visitor's own).
+	let moreInRoom = $derived(
+		room?.responses != null
+			? Math.max(0, room.responses - roomAnswers.length - (alreadyAnswered ? 0 : 1))
+			: 0
+	);
 	let started = false;
 	// Bundled starter questions carry their own short-answer copy.
 	let starterPrompt = $derived(bundledChorusPrompt(questionUrl));
@@ -135,15 +174,30 @@
 							resonantArchetype: data.resonantArchetype
 						}
 					: null;
-			takes = data.takes ?? [];
-			phase = 'revealed';
+			const nextTakes: Take[] = data.takes ?? [];
+			const nextRoom = parseRoom(data.room);
+			const postedId = Number(data.commentId);
+			ownTakeId = !alreadyAnswered && Number.isSafeInteger(postedId) ? postedId : null;
+			// The answer travels from the box into "Your answer" while the room opens
+			// (same handoff as the question page); a plain swap where unsupported.
+			handOffTake({
+				source: composer ?? null,
+				takeId: ownTakeId,
+				reduceMotion: prefersReducedMotion.current,
+				update: async () => {
+					takes = nextTakes;
+					room = nextRoom;
+					phase = 'revealed';
+					await tick();
+				}
+			});
 			track('revealed');
 			if (browser && shareUrl) {
 				QRCode.toDataURL(shareUrl, { width: 180, margin: 1 })
 					.then((url) => (qrDataUrl = url))
 					.catch(() => {});
 			}
-			await tick();
+			await waitForTakeHandoff();
 			root?.querySelector('.chorus-reveal')?.scrollIntoView({
 				behavior: prefersReducedMotion.current ? 'auto' : 'smooth',
 				block: 'start'
@@ -231,6 +285,7 @@
 				<label class="give" for="chorus-take">
 					<span class="give-label">Your answer first</span>
 					<textarea
+						bind:this={composer}
 						id="chorus-take"
 						class={{ invite: !answerReady }}
 						bind:value={draft}
@@ -263,7 +318,7 @@
 					<p id="chorus-take-error" class="submit-error" role="alert">{submitError}</p>
 				{/if}
 				<p class="promise">
-					Compare your answer with nine AI-written examples of different perspectives.
+					Then read what real people said, plus nine AI-written examples of different perspectives.
 				</p>
 				<p class="trust">No account needed. Your answer is posted publicly to the question page.</p>
 			</div>
@@ -280,14 +335,50 @@
 					<span class="block-kicker"
 						>{alreadyAnswered ? 'YOU ALREADY ANSWERED THIS QUESTION' : 'YOUR ANSWER · POSTED'}</span
 					>
-					{#if !alreadyAnswered}<p class="your-text">{draft.trim()}</p>{/if}
+					{#if !alreadyAnswered}<p class="your-text" data-own-take={ownTakeId}>
+							{draft.trim()}
+						</p>{/if}
 					{#if mirror && !alreadyAnswered}
 						<p class="mirror-text">{mirror.reflection}</p>
 						<span class="closest">Closest to {formatTypeLabel(mirror.resonantType)}</span>
 					{/if}
 				</div>
 
-				<!-- 3. The nine -->
+				<!-- 3. The real room: what people actually wrote, unlocked by this answer -->
+				{#if room}
+					<div class="room block">
+						<span class="block-kicker">WHAT REAL PEOPLE SAID</span>
+						{#if roomAnswers.length}
+							<p class="sub">
+								Each number is the type that person picked for themselves. A dash means they skipped
+								it.
+							</p>
+							<ol class="room-takes">
+								{#each roomAnswers as answer, i (answer.id)}
+									<li class="room-take" style={`--delay:${120 + i * 60}ms`}>
+										<span class={['room-chip', answer.type === null && 'none']}
+											><span class="sr-only">Type </span>{answer.type ?? '–'}</span
+										>
+										<p>{answer.text}</p>
+									</li>
+								{/each}
+							</ol>
+							{#if moreInRoom > 0 && questionUrl}
+								<a class="door-link" href={resolve('/questions/[slug]', { slug: questionUrl })}
+									>{moreInRoom.toLocaleString('en-US')} more in the full conversation →</a
+								>
+							{/if}
+						{:else}
+							<p class="sub">
+								{alreadyAnswered
+									? 'No one else has answered yet. New takes land on the question page.'
+									: 'You’re the first real take here. The next person to answer will read yours.'}
+							</p>
+						{/if}
+					</div>
+				{/if}
+
+				<!-- 4. The nine -->
 				<div class="block">
 					<span class="block-kicker">HOW THE NINE TYPES ANSWER</span>
 					<p class="sub">
@@ -306,10 +397,21 @@
 					</ol>
 				</div>
 
-				<!-- 4. Share back to the real question page -->
+				<!-- 5. One more question, answerable right here -->
+				{#if questionUrl}
+					<div class="next-block block">
+						<AnswerNext
+							afterSlug={questionUrl}
+							sourcePath={sourcePath ?? `/questions/${questionUrl}`}
+							host="personality_chorus"
+						/>
+					</div>
+				{/if}
+
+				<!-- 6. Share back to the real question page -->
 				{#if questionUrl}
 					<div class="share-block block">
-						<span class="block-kicker">SEE WHAT REAL PEOPLE SAY</span>
+						<span class="block-kicker">ASK YOUR FRIENDS</span>
 						<p class="sub">
 							This is a real 9takes question. Share it, then see how your friends and everyone else
 							answered.
@@ -544,6 +646,52 @@
 		color: var(--text);
 	}
 
+	/* ---- the real room ---- */
+	.room-takes {
+		list-style: none;
+		margin: 0 0 1rem;
+		padding: 0;
+		display: grid;
+		gap: 0.6rem;
+	}
+	.room-take {
+		display: grid;
+		grid-template-columns: 1.75rem minmax(0, 1fr);
+		gap: 0.75rem;
+		align-items: start;
+		padding: 0.8rem 1rem;
+		border: 1px solid var(--rule);
+		border-radius: 10px;
+		background: var(--surface-raised);
+		animation: rise 0.45s ease both;
+		animation-delay: var(--delay, 0ms);
+	}
+	.room-take p {
+		margin: 0;
+		line-height: 1.5;
+		color: var(--text);
+		overflow-wrap: anywhere;
+	}
+	.room-chip {
+		display: grid;
+		place-items: center;
+		width: 1.75rem;
+		height: 1.75rem;
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--highlight) 18%, transparent);
+		color: var(--highlight);
+		font-size: var(--font-size-xs);
+		font-weight: 700;
+	}
+	.room-chip.none {
+		background: color-mix(in srgb, var(--text-faint) 15%, transparent);
+		color: var(--text-faint);
+	}
+	.next-block {
+		border-top: 1px solid var(--rule);
+		padding-top: 1.5rem;
+	}
+
 	/* ---- share ---- */
 	.share-block {
 		border-top: 1px solid var(--rule);
@@ -599,7 +747,8 @@
 	}
 
 	@media (prefers-reduced-motion: reduce) {
-		.voice {
+		.voice,
+		.room-take {
 			animation: none;
 		}
 	}

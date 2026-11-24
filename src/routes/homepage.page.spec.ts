@@ -195,7 +195,10 @@ describe('homepage live question card', () => {
 				screen.getByRole('heading', { name: 'You’re in. Here’s how others answered.' })
 			).toBeTruthy()
 		);
-		expect(document.activeElement?.textContent).toBe('You’re in. Here’s how others answered.');
+		// Focus moves once the take handoff settles (immediately where View Transitions are missing).
+		await waitFor(() =>
+			expect(document.activeElement?.textContent).toBe('You’re in. Here’s how others answered.')
+		);
 		const [, init] = answerCalls()[0];
 		expect(init).toMatchObject({ method: 'POST', headers: { 'content-type': 'application/json' } });
 		expect(JSON.parse(String(init?.body))).toEqual({

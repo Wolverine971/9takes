@@ -35,6 +35,7 @@ import {
 	normalizeVisitorFingerprint,
 	readVisitorFingerprint
 } from '$lib/server/visitorFingerprint';
+import { getUnlockedLiveTakes } from '$lib/server/homepageLiveTake';
 import { logger } from '$lib/utils/logger';
 
 const takeSchema = z
@@ -278,7 +279,24 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 			});
 		}
 
+		// The real room: the answer just opened the give-first gate, so return the
+		// community takes it unlocks (same gate and read as the homepage card).
+		// Best-effort: the reveal still opens with the nine if the read fails.
+		const room =
+			chorus.questionId && (fingerprint || userId)
+				? await getUnlockedLiveTakes(locals.supabase, chorus.questionId, {
+						fingerprint,
+						userId
+					}).catch((roomError) => {
+						logger.warn('Chorus room unavailable after answer recorded', {
+							error: String(roomError)
+						});
+						return null;
+					})
+				: null;
+
 		return json({
+			room: room ? { answers: room.answers, responses: room.responses } : null,
 			reflection: mirror?.reflection ?? null,
 			resonantType: mirror?.resonantType ?? null,
 			resonantArchetype: mirror?.resonantArchetype ?? null,

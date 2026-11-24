@@ -3,7 +3,12 @@ import { capture } from '$lib/analytics/posthog';
 import { normalizeQuestionInviteId } from '$lib/analytics/questionInvites';
 
 export type CommentCreatedSurface =
-	'homepage' | 'question_page' | 'strategic_question' | 'personality_chorus' | 'enneagram_test';
+	| 'homepage'
+	| 'question_page'
+	| 'strategic_question'
+	| 'personality_chorus'
+	| 'enneagram_test'
+	| 'answer_chain';
 export type CommentCreatedKind = 'answer' | 'comment' | 'reply';
 export type CommentFailureStage = 'request' | 'response' | 'server_action';
 export type CommentFailureCategory =

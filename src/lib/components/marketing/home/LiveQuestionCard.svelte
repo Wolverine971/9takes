@@ -8,6 +8,9 @@
 -->
 <script lang="ts">
 	import { tick } from 'svelte';
+	import { fly } from 'svelte/transition';
+	import { cubicOut } from 'svelte/easing';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import { resolve } from '$app/paths';
 	import { ArrowRight, Check } from '@lucide/svelte';
 	import type { LiveTake, LiveTakePostResult } from '$lib/data/homepageLiveTake';
@@ -25,12 +28,13 @@
 		type ReplyOptInOffer
 	} from '$lib/components/questions/ReplyOptInTray.svelte';
 	import { trackHomePractice } from './homeAnalytics';
+	import { handOffTake, waitForTakeHandoff } from '$lib/components/questions/takeHandoff';
 
 	type Props = {
 		live: LiveTake | null;
 		types?: LiveTakeTypes | null;
 		/** Where the card sits. Anything but the homepage must pass its own `endpoint`. */
-		surface?: 'homepage' | 'enneagram_test';
+		surface?: 'homepage' | 'enneagram_test' | 'answer_chain';
 		/** POST target that accepts { slug, comment, fingerprint } and returns LiveTakePostResult. */
 		endpoint?: string;
 		/** Path reported to analytics. Set it when the page URL carries a private token. */
@@ -104,6 +108,9 @@
 			: (live?.ownTake?.text ?? '')
 	);
 	let answers = $derived(postResult?.answers ?? live?.answers ?? []);
+	// The landing spot for the take handoff (the composer's text glides into this row).
+	let ownTakeId = $derived(postResult?.ownTake?.id ?? live?.ownTake?.id ?? null);
+	let reduceMotion = $derived(prefersReducedMotion.current);
 	let responses = $derived(postResult?.responses ?? live?.responses ?? 0);
 	let liveHref = $derived(
 		live ? resolve('/questions/[slug]', { slug: live.slug }) : resolve('/questions')
@@ -260,11 +267,22 @@
 			postState = 'idle';
 			return;
 		}
-		postResult = result;
-		onpost?.(result);
-		offerReplyOptIn(live, result);
-		postState = 'posted';
-		await tick();
+		const take = live;
+		// The take the visitor typed travels from the composer into their row while the
+		// takes unlock (same handoff as the question page); plain swap where unsupported.
+		handOffTake({
+			source: composer ?? null,
+			takeId: result.ownTake?.id ?? result.commentId,
+			reduceMotion,
+			update: async () => {
+				postResult = result;
+				onpost?.(result);
+				offerReplyOptIn(take, result);
+				postState = 'posted';
+				await tick();
+			}
+		});
+		await waitForTakeHandoff();
 		unlockedHeading?.focus({ preventScroll: true });
 		unlockedHeading?.scrollIntoView({ block: 'center', behavior: 'instant' });
 	}
@@ -385,7 +403,7 @@
 				</p>
 				<h4 tabindex="-1" bind:this={unlockedHeading}>You’re in. Here’s how others answered.</h4>
 				{#if ownText}
-					<div class="take-row own">
+					<div class="take-row own" data-own-take={ownTakeId}>
 						<span class="chip you">You</span>
 						<p>{ownText}</p>
 					</div>
@@ -404,8 +422,16 @@
 							: 'DJ reads every take.'}
 					</p>
 				{/if}
-				{#each answers as other (other.id)}
-					<div class="take-row">
+				{#each answers as other, index (other.id)}
+					<div
+						class="take-row"
+						in:fly|global={{
+							y: 8,
+							duration: reduceMotion ? 0 : 260,
+							delay: reduceMotion ? 0 : 120 + Math.min(index, 6) * 45,
+							easing: cubicOut
+						}}
+					>
 						<span class={['chip', other.type === null && 'none']}
 							><span class="sr-only">Type </span>{other.type ?? '–'}</span
 						>

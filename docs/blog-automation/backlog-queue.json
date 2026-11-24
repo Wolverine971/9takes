@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-11-23T14:38:43Z",
+  "lastUpdated": "2026-11-24T07:58:11Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
     "completionRate": "74.8%"
   },
-  "queue": [
+  "queue": [],
+  "completed": [
     {
       "name": "steve-wozniak",
       "displayName": "Steve Wozniak",
@@ -18,10 +19,20 @@
       "addedToQueue": "2026-11-07",
       "retryCount": 0,
       "strategicValue": "big-tech-founders",
-      "recoveryNote": "Retries reset 2026-11-23: the 11-22 and 11-23 failures were the Mac sleeping on battery, not the subject. Next run starts fresh (the failed run saved no research)."
-    }
-  ],
-  "completed": [
+      "recoveryNote": "Retries reset 2026-11-23: the 11-22 and 11-23 failures were the Mac sleeping on battery, not the subject. Next run starts fresh (the failed run saved no research).",
+      "startedAt": "2026-11-24T07:00:00Z",
+      "completedAt": "2026-11-24T07:58:11Z",
+      "contentGrade": "8.2",
+      "letter": "B",
+      "discoverability": "8",
+      "duration": "~58 min",
+      "needsReview": true,
+      "publishReady": false,
+      "publishBlockers": [
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ]
+    },
     {
       "name": "amanda-seyfried",
       "displayName": "Amanda Seyfried",
