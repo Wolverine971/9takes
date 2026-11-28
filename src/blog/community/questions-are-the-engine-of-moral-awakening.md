@@ -144,7 +144,7 @@ God doesn't lecture Adam into self-awareness — he asks "Where are you?" Abraha
 
 The Bible treats questions as the primary mechanism for moral development. Not commandments. Not declarations. Not sermons. Questions.
 
-This tracks with what we know about how people actually change. [Jonathan Haidt's research](https://en.wikipedia.org/wiki/The_Righteous_Mind) shows that moral reasoning is primarily post-hoc — people form intuitions first and rationalize them later. You can't argue someone out of a position they didn't argue themselves into.
+This tracks with what we know about [how people actually change](/community/how-minds-change-on-9takes). [Jonathan Haidt's research](https://en.wikipedia.org/wiki/The_Righteous_Mind) shows that moral reasoning is primarily post-hoc — people form intuitions first and rationalize them later. You can't argue someone out of a position they didn't argue themselves into.
 
 But you can ask them a question that forces them to locate themselves.
 

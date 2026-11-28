@@ -378,7 +378,7 @@ Join if you want teachers, depth, and in-person events. A participating membersh
 
 ### Are there Enneagram Discord servers?
 
-Yes. Disboard lists dozens of servers tagged Enneagram, and most are general typology servers that mix the Enneagram with MBTI and Socionics. Check the age gate, the rules, and how much of the chat is typing requests before you settle in.
+Yes. Disboard lists dozens of servers tagged Enneagram, and most are general typology servers that mix [the Enneagram with MBTI](/enneagram-corner/enneagram-vs-meyers-briggs) and Socionics. Check the age gate, the rules, and how much of the chat is typing requests before you settle in.
 
 ### How do I find an Enneagram group near me?
 

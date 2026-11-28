@@ -286,6 +286,9 @@ function textValues(value) {
 	if (value && typeof value === 'object') return Object.values(value).flatMap(textValues);
 	return [];
 }
+/** What counts as an anchored passage; quoted in the error so a stage can fix it. */
+export const PASSAGE_RULE =
+	"a passage is an exact substring of the body or of one frontmatter value: the value alone, never YAML syntax such as birth_date: '1982-01-09', and never text inside an HTML comment";
 /** @param {unknown} raw @param {string} subject @param {string} [markdown] */
 export function validateEvidence(raw, subject, markdown) {
 	const evidence = evidenceSchema.parse(raw);
@@ -310,14 +313,22 @@ export function validateEvidence(raw, subject, markdown) {
 		'claim IDs'
 	);
 	const sources = new Map(evidence.sources.map((s) => [s.id, s]));
-	for (const claim of evidence.claims) {
+	for (const claim of evidence.claims)
 		for (const id of claim.source_ids)
 			if (!sources.has(id)) throw new Error(`${claim.id}: missing source ${id}`);
-		if (surface !== null && (!claim.passage || !surface.includes(claim.passage)))
-			throw new Error(`${claim.id}: passage missing from draft`);
+	// Name every unanchored claim at once: the stage gets one chance to fix its
+	// files, and one bad anchor used to hide the rest (and end a whole run:
+	// Kate Middleton, 2026-11-24, on `birth_date: '1982-01-09'`).
+	if (surface !== null) {
+		const missing = evidence.claims.filter((c) => !c.passage || !surface.includes(c.passage));
+		if (missing.length)
+			throw new Error(
+				`${missing.map((c) => c.id).join(', ')}: passage missing from draft (${PASSAGE_RULE})`
+			);
+	}
+	for (const claim of evidence.claims)
 		if (claim.durability !== 'stable' && !claim.review_trigger)
 			throw new Error(`${claim.id}: missing review trigger`);
-	}
 	const h = evidence.type_hypothesis;
 	for (const id of h.for_claim_ids)
 		if (!evidence.claims.some((c) => c.id === id))

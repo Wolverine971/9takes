@@ -1725,6 +1725,221 @@
 			"id": "/personality-analysis/paul-bettany -> /personality-analysis/amber-heard",
 			"reason": "Depp/Heard trial-texts context (legal accusation)",
 			"date": "2026-11-19"
+		},
+		{
+			"id": "/enneagram-corner/90-day-personality-maxing-blueprint -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percentage of time' self-check question, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/pop-culture/ghislaine-maxwell-psychology -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percent' GSC-token word match, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percent' GSC-token word match, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/community/societal-ticking-time-bombs -> /enneagram-corner/what-is-a-love-language",
+			"reason": "'different things' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/pop-culture/breaking-points-enneagram-analysis -> /enneagram-corner/what-is-a-love-language",
+			"reason": "'different things' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percent' GSC-token word match, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percent' GSC-token word match, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-faqs -> /enneagram-corner/what-is-a-love-language",
+			"reason": "'different things' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/community/consensus-on-human-nature -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percent' GSC-token word match, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/community/software-and-hardware-of-the-mind -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percent' GSC-token word match, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/pop-culture/twitter-x-personality-types-toxic -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percent' GSC-token word match, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-wings-complete-guide -> /enneagram-corner/what-is-a-love-language",
+			"reason": "'different things' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/personality-maxing -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percent' GSC-token word match, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type -> /enneagram-corner/how-common-is-each-enneagram-type",
+			"reason": "'percent' GSC-token word match, not type frequency",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/how-to-guides/definitive-guide-to-relationship-conflict-part-2 -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'couples' = conflict/therapy research, not type compatibility",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/pop-culture/masculinity-strength-and-the-enneagram -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'couples' = conflict/therapy research, not type compatibility",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-books-websites-podcasts -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"reason": "'apps' in a resource-format list",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-party-planner -> /enneagram-corner/mental-health/enneagram-science-mental-health",
+			"reason": "'hooks' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/attachment-styles-and-enneagram-types -> /enneagram-corner/enneagram-personal-growth",
+			"reason": "'different fixes' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/how-to-guides/dating-dynamics-by-enneagram-type -> /enneagram-corner/enneagram-types-at-party",
+			"reason": "'games' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-faqs -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'spiritual bypassing/shortcut' is not the religion page's topic",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'couples' = conflict/therapy research, not type compatibility",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-criticisms -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'spiritual bypassing/shortcut' is not the religion page's topic",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/shadow-work-by-enneagram-type -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'spiritual bypassing/shortcut' is not the religion page's topic",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-online-dating-guide -> /enneagram-corner/mental-health/enneagram-science-mental-health",
+			"reason": "'hooks' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-7 -> /enneagram-corner/enneagram-types-at-party",
+			"reason": "'games' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"reason": "'evil' inside a Tim Cook quote",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-instinctual-subtypes -> /community/reddit-deep-connections-limitations",
+			"reason": "'deep connection' word match; target is about Reddit's limits",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-faqs -> /enneagram-corner/enneagram-types-at-party",
+			"reason": "'games' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-7 -> /community/reddit-deep-connections-limitations",
+			"reason": "'deep connection' word match; target is about Reddit's limits",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-types-at-party -> /community/reddit-deep-connections-limitations",
+			"reason": "'deep connection' word match; target is about Reddit's limits",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-types-on-a-first-date -> /community/reddit-deep-connections-limitations",
+			"reason": "'deep connection' word match; target is about Reddit's limits",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-dating-guide-for-men -> /community/reddit-deep-connections-limitations",
+			"reason": "'deep connection' word match; target is about Reddit's limits",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-party-planner -> /community/reddit-deep-connections-limitations",
+			"reason": "'deep connection' word match; target is about Reddit's limits",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/pop-culture/google-leadership-evolution -> /community/introducing-9takes",
+			"reason": "'answer first' word match (Pichai)",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-religion -> /community/consensus-on-human-nature",
+			"reason": "'human nature' word match (Kabbalah list)",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-dating-guide-for-men -> /community/introducing-9takes",
+			"reason": "'answer first' word match (date script)",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/how-each-enneagram-flexes -> /community/consensus-on-human-nature",
+			"reason": "'human nature' figure of speech",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-types-and-career-choices -> /community/how-minds-change-on-9takes",
+			"reason": "'actually change' word match",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/artificial-movie-real-people",
+			"reason": "roster name; Altman has his own page",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-influences -> /community/how-minds-change-on-9takes",
+			"reason": "'actually change' = personal growth, not belief change",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/community/memetic-comments -> /community/consensus-on-human-nature",
+			"reason": "'human nature' figure of speech",
+			"date": "2026-11-26"
+		},
+		{
+			"id": "/pop-culture/tech-titans-platform-emperors -> /enneagram-corner/shadow-work-by-enneagram-type",
+			"reason": "'dark side' of a platform, not shadow work",
+			"date": "2026-11-26"
 		}
 	]
 }

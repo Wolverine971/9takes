@@ -143,7 +143,7 @@ Doubt is how a 6 earns certainty. A belief that survives a 6's questioning becom
 
 ### Three Kinds of Six
 
-Enneagram teachers split each type into three subtypes based on which instinct runs strongest. For 6s, Claudio Naranjo and later Beatrice Chestnut described them like this:
+Enneagram teachers split each type into [three subtypes](/enneagram-corner/enneagram-instinctual-subtypes) based on which instinct runs strongest. For 6s, Claudio Naranjo and later Beatrice Chestnut described them like this:
 
 - **Self-preservation 6 ("Warmth"):** handles fear by building alliances. Friendly, warm, and usually the most openly anxious of the three.
 - **Social 6 ("Duty"):** handles fear with rules, reference points, and clear lines of responsibility. Steady and principled, often the one who knows how things are supposed to work.

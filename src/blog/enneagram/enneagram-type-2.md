@@ -312,7 +312,7 @@ If you want to see how a Two reads you within the first five minutes of meeting,
 
 ## The three kinds of Twos
 
-In subtype teaching, the Type 2 pattern comes in three flavors depending on which instinct it fuses with, and they don't look alike. This is why plenty of Twos reject the "helper" label on first contact.
+In [subtype teaching](/enneagram-corner/enneagram-instinctual-subtypes), the Type 2 pattern comes in three flavors depending on which instinct it fuses with, and they don't look alike. This is why plenty of Twos reject the "helper" label on first contact.
 
 **The self-preservation Two (the countertype):** The Two who has never cooked you a casserole. This Two attracts care instead of providing it: charming, youthful, endearing, subtly needful, wanting to be loved just for being who they are rather than for what they give, while still flinching from open dependency. Frequently mistyped as a 7 or a 4.
 

@@ -125,6 +125,9 @@ export function parseArgs(args) {
 const WRAP_UP_TURNS = 20;
 /** Seconds granted for that wrap-up, capped at a quarter of the stage timeout. */
 const WRAP_UP_SECONDS = 600;
+/** The runner's own evidence check, as a command a stage can run on its files. */
+const EVIDENCE_CHECK_HINT =
+	'To test an article and its evidence file the way the runner does: node scripts/check-stage-evidence.mjs <article.md> <evidence.json>';
 
 /** @param {unknown} input */
 function summarizeToolInput(input) {
@@ -267,8 +270,9 @@ function runClaude(args, { log, transcript, root, deadline }) {
 /**
  * @param {string} requestFile
  * @param {string} logFile
- * @param {{root: string, model?: string | null, maxTurns: number, timeoutSeconds: number, transcriptFile?: string}} options
- * @returns {Promise<{model: string | null, turns: number, cost_usd: number, wrapped_up: string | null}>}
+ * @param {{root: string, model?: string | null, maxTurns: number, timeoutSeconds: number, transcriptFile?: string, fix?: {sessionId: string, problem: string}}} options
+ *   `fix` resumes an earlier session of this stage to correct files the runner rejected.
+ * @returns {Promise<{model: string | null, turns: number, cost_usd: number, wrapped_up: string | null, session_id: string}>}
  */
 export async function executeClaude(requestFile, logFile, options) {
 	const log = createWriteStream(logFile, { flags: 'a' });
@@ -281,8 +285,8 @@ export async function executeClaude(requestFile, logFile, options) {
 		...NO_CONNECTORS,
 		...(options.model ? ['--model', options.model] : [])
 	];
-	/** @type {{model: string | null, turns: number, cost_usd: number, wrapped_up: string | null}} */
-	const total = { model: null, turns: 0, cost_usd: 0, wrapped_up: null };
+	/** @type {{model: string | null, turns: number, cost_usd: number, wrapped_up: string | null, session_id: string}} */
+	const total = { model: null, turns: 0, cost_usd: 0, wrapped_up: null, session_id: sessionId };
 	const absorb = (
 		/** @type {{model: string | null, turns: number | null, cost_usd: number | null}} */ meta
 	) => {
@@ -294,7 +298,33 @@ export async function executeClaude(requestFile, logFile, options) {
 	// Stages write their outputs last, so hitting the turn cap or the clock used to
 	// discard the whole session. Resume it once with a small budget to record what it found.
 	const wrapUp = `You reached this stage's turn or time limit. Stop gathering: no new searches or sources. Using only what this session already verified, write the requested output files from ${requestFile} now. Where essential evidence is still unverified, record that honestly in the form the command_file allows (for research: insufficient_evidence with specific research_tasks). Never invent evidence, locators or confidence to fill a field.`;
+	const wrapUpSeconds = Math.min(WRAP_UP_SECONDS, options.timeoutSeconds * 0.25);
 	try {
+		if (options.fix) {
+			// The stage finished but the runner rejected its files. The session still
+			// holds everything it read, so a short resume can correct them.
+			total.session_id = options.fix.sessionId;
+			log.write(
+				`\n[runner] Output check failed (${options.fix.problem}); resuming session ${options.fix.sessionId} to fix the files\n`
+			);
+			const fix = `The runner checked the output files you wrote for ${requestFile} and rejected them:\n\n${options.fix.problem}\n\nCorrect the requested output files so this check passes, and change nothing else: no new research, no new sources, no rewriting of passages the check did not name. If the check names a claim whose passage is missing, point that claim at text that really is in the article (or restore the text), and keep the claim's meaning true to its sources. Never invent evidence to satisfy the check. ${EVIDENCE_CHECK_HINT}`;
+			const run = await runClaude(
+				[
+					'-p',
+					fix,
+					'--resume',
+					options.fix.sessionId,
+					'--max-turns',
+					String(WRAP_UP_TURNS),
+					...shared
+				],
+				{ log, transcript, root: options.root, deadline: Date.now() + wrapUpSeconds * 1000 }
+			);
+			absorb(run.meta);
+			if (run.status === 'max_turns') throw new Error('Claude reached max turns');
+			if (run.status === 'timeout') throw new Error('Stage timed out');
+			return total;
+		}
 		let run = await runClaude(
 			['-p', prompt, '--session-id', sessionId, '--max-turns', String(options.maxTurns), ...shared],
 			{ log, transcript, root: options.root, deadline: Date.now() + options.timeoutSeconds * 1000 }
@@ -305,10 +335,9 @@ export async function executeClaude(requestFile, logFile, options) {
 			log.write(
 				`\n[runner] ${run.status === 'timeout' ? 'Time' : 'Turn'} limit reached; resuming session ${sessionId} to write outputs\n`
 			);
-			const seconds = Math.min(WRAP_UP_SECONDS, options.timeoutSeconds * 0.25);
 			run = await runClaude(
 				['-p', wrapUp, '--resume', sessionId, '--max-turns', String(WRAP_UP_TURNS), ...shared],
-				{ log, transcript, root: options.root, deadline: Date.now() + seconds * 1000 }
+				{ log, transcript, root: options.root, deadline: Date.now() + wrapUpSeconds * 1000 }
 			);
 			absorb(run.meta);
 		}
@@ -737,7 +766,7 @@ export async function runPipeline(
 			console.log(`[${id}] Starting`);
 			const transcriptFile = path.join(dir, `${id}.transcript.jsonl`);
 			try {
-				const meta = await execute(requestFile, path.join(dir, `${id}.log`), {
+				const executeOptions = {
 					root,
 					model: stageModel,
 					timeoutSeconds: options.timeoutSeconds,
@@ -745,7 +774,8 @@ export async function runPipeline(
 					// Research at 80 hit the cap on refreshes with long baselines (Druski, Ben Shelton).
 					// Verify at 60 ran out before re-reading 8 of ~50 sources (Dario Amodei, 2026-10-05).
 					maxTurns: command === 'research' ? 120 : command === 'verify' ? 100 : 60
-				});
+				};
+				const meta = await execute(requestFile, path.join(dir, `${id}.log`), executeOptions);
 				if (meta && typeof meta === 'object')
 					Object.assign(state.stages[id], {
 						model: meta.model || state.stages[id].model,
@@ -753,16 +783,43 @@ export async function runPipeline(
 						cost_usd: meta.cost_usd,
 						...(meta.wrapped_up ? { wrapped_up_after: meta.wrapped_up } : {})
 					});
-				const after = await fingerprint(allInputs);
-				const changed = Object.keys(inputHashes).filter((key) => after[key] !== inputHashes[key]);
-				if (changed.length)
-					throw new Error(
-						`An input changed while the stage ran (${changed.join(', ')}), by this stage or a parallel session; rerun with --resume`
-					);
-				for (const file of Object.values(outputs).filter((file) => file.endsWith('.md'))) {
-					await fs.writeFile(file, cleanReaderCopy(await fs.readFile(file, 'utf8')));
+				const checkOutputs = async () => {
+					const after = await fingerprint(allInputs);
+					const changed = Object.keys(inputHashes).filter((key) => after[key] !== inputHashes[key]);
+					if (changed.length)
+						throw new Error(
+							`An input changed while the stage ran (${changed.join(', ')}), by this stage or a parallel session; rerun with --resume`
+						);
+					for (const file of Object.values(outputs).filter((file) => file.endsWith('.md'))) {
+						await fs.writeFile(file, cleanReaderCopy(await fs.readFile(file, 'utf8')));
+					}
+					await validate(outputs);
+				};
+				try {
+					await checkOutputs();
+				} catch (problem) {
+					// A finished stage whose files fail the runner's check used to end the
+					// run, discarding the research and draft over one fixable field (Kate
+					// Middleton, 2026-11-24: one claim anchored to YAML syntax). The session
+					// still holds its work, so it gets one short resume to correct the files.
+					const sessionId = meta && typeof meta === 'object' ? meta.session_id : null;
+					if (!sessionId || /^An input changed/.test(errorMessage(problem))) throw problem;
+					const detail = errorMessage(problem).slice(0, 2000);
+					console.log(`[${id}] Output check failed; asking the stage to fix its files: ${detail}`);
+					state.stages[id].output_fix = detail.slice(0, 300);
+					await save();
+					const fixed = await execute(requestFile, path.join(dir, `${id}.log`), {
+						...executeOptions,
+						fix: { sessionId, problem: detail }
+					});
+					if (fixed && typeof fixed === 'object')
+						Object.assign(state.stages[id], {
+							turns: (state.stages[id].turns ?? 0) + (fixed.turns ?? 0),
+							cost_usd:
+								Math.round(((state.stages[id].cost_usd ?? 0) + (fixed.cost_usd ?? 0)) * 100) / 100
+						});
+					await checkOutputs();
 				}
-				await validate(outputs);
 				Object.assign(state.stages[id], {
 					status: 'complete',
 					output_hashes: await fingerprint(outputs)

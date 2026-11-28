@@ -290,7 +290,7 @@ Melania Trump's lawyer threatened Biden with a $1 billion lawsuit, and her deman
 
 There was a cost. Callaghan says _The New York Times_ pulled an op-ed of his, timed to the Biden response, a day before publication, telling him "we have to pick our battles here." (The Times doesn't discuss why submissions don't run.) His response, to Semafor: "You're not supposed to be scared of the president!"
 
-In March 2026 came a clip that showed his limits. On a Kick livestream, the looksmaxxing streamer Clavicular asked whether he was satisfied with everything he saw in the mirror. "Yeah, more or less," Callaghan said. Clavicular ended the interview. Callaghan's text afterward: "I low key mogged him."
+In March 2026 came a clip that showed his limits. On a Kick livestream, the looksmaxxing streamer [Clavicular](/personality-analysis/clavicular) asked whether he was satisfied with everything he saw in the mirror. "Yeah, more or less," Callaghan said. Clavicular ended the interview. Callaghan's text afterward: "I low key mogged him."
 
 On Theroux's podcast he dropped the usual patience: "I just don't like the guy." It's one of the rare times he has written someone off out loud. In the same conversation, he explained how a kid stuck in lockdown during puberty ends up on incel forums. Even irritated, he reaches for the backstory.
 

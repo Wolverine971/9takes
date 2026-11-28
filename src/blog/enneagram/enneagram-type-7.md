@@ -338,7 +338,7 @@ You've been racing across the surface of an ocean that goes miles deep at every 
 
 This doesn't mean giving up on new experiences. It means adding a new gear. You can still sprint when sprinting serves you. You also develop the ability to stop, dig in, and find layers where you used to only see surfaces.
 
-The satisfaction you get from depth isn't the same as the rush of something new. It's quieter. It lasts longer. And paradoxically, when you stop needing the next thing so urgently, the present moment gets more interesting.
+The satisfaction you get from depth isn't the same as the rush of something new. It's quieter. It lasts longer. And paradoxically, when you stop [needing the next thing](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7) so urgently, the present moment gets more interesting.
 
 <a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard

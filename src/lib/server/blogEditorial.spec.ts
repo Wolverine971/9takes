@@ -301,6 +301,23 @@ describe('shared v3 editorial eligibility', () => {
 			validateEvidence(ev, 'Example-Person', matter.stringify(parsed.content, parsed.data))
 		).not.toThrow();
 	});
+	it('rejects a metadata claim anchored to YAML syntax and names every unanchored claim', () => {
+		const md = draft(),
+			ev = evidence();
+		const author = String(matter(md, {}).data.author);
+		ev.claims.push(
+			{ ...structuredClone(ev.claims[0]), id: 'C90', passage: author },
+			{ ...structuredClone(ev.claims[0]), id: 'C91', passage: `author: ${author}` },
+			{ ...structuredClone(ev.claims[0]), id: 'C92', passage: 'A sentence the article never had.' }
+		);
+		// The raw file holds the YAML line, which is why a raw-text search passes it.
+		expect(md).toContain(`author: ${author}`);
+		expect(() => validateEvidence(ev, 'Example-Person', md)).toThrow(
+			/^C91, C92: passage missing from draft \(.*never YAML syntax/
+		);
+		ev.claims = ev.claims.filter((c: any) => !['C91', 'C92'].includes(c.id));
+		expect(() => validateEvidence(ev, 'Example-Person', md)).not.toThrow();
+	});
 	it.each([
 		'unsupported claim',
 		'missing source check',
@@ -669,6 +686,72 @@ describe('offline pipeline execution and checkpoint safety', () => {
 			person: 'Example-Person'
 		});
 	});
+	it('hands a rejected output back to the same session once instead of ending the run', async () => {
+		const root = await workspace(),
+			events: string[] = [],
+			fixes: any[] = [];
+		const base = fakeExecutor(events, (id, record) => {
+			// The draft stage anchors a metadata claim to YAML syntax (Kate Middleton, 2026-11-24).
+			if (id === 'draft') record.claims[0].passage = 'author: DJ Wayne';
+		});
+		const execute = async (requestFile: string, _log: string, options: any) => {
+			if (!options.fix) {
+				await base(requestFile);
+				return { model: 'test-model', turns: 4, cost_usd: 1, wrapped_up: null, session_id: 'S1' };
+			}
+			fixes.push(options.fix);
+			await fakeExecutor(events)(requestFile);
+			return { model: 'test-model', turns: 2, cost_usd: 0.25, wrapped_up: null, session_id: 'S1' };
+		};
+		const run = await runPipeline(parseArgs(['Example-Person']), { root, execute });
+		expect(run.exitCode).toBe(0);
+		expect(events.filter((id) => id === 'draft')).toHaveLength(2);
+		expect(fixes).toHaveLength(1);
+		expect(fixes[0].sessionId).toBe('S1');
+		expect(fixes[0].problem).toContain('C1: passage missing from draft');
+		expect(run.state.stages.draft).toMatchObject({ status: 'complete', turns: 6, cost_usd: 1.25 });
+		expect(run.state.stages.draft.output_fix).toContain('passage missing');
+	});
+	it('fails the run when the one fix-up still leaves a rejected output', async () => {
+		const root = await workspace(),
+			events: string[] = [];
+		const base = fakeExecutor(events, (id, record) => {
+			if (id === 'draft') record.claims[0].passage = 'author: DJ Wayne';
+		});
+		const execute = async (requestFile: string) => {
+			await base(requestFile);
+			return { model: 'test-model', turns: 1, cost_usd: 0, wrapped_up: null, session_id: 'S1' };
+		};
+		await expect(runPipeline(parseArgs(['Example-Person']), { root, execute })).rejects.toThrow(
+			'passage missing from draft'
+		);
+		expect(events).toEqual(['research', 'draft', 'draft']);
+	});
+	it('resumes the given session with the rejection when asked to fix outputs', async () => {
+		const root = await workspace();
+		const executable = path.join(root, 'fake-claude');
+		const calls = path.join(root, 'calls.txt');
+		await fs.writeFile(executable, `#!/bin/sh\necho "$*" >> "${calls}"\necho fixed\n`);
+		await fs.chmod(executable, 0o755);
+		const previous = process.env.BLOG_PIPELINE_CLAUDE;
+		try {
+			process.env.BLOG_PIPELINE_CLAUDE = executable;
+			const meta = await executeClaude('request.json', path.join(root, 'stage.log'), {
+				root,
+				maxTurns: 60,
+				timeoutSeconds: 5,
+				fix: { sessionId: 'abc-123', problem: 'C29b: passage missing from draft' }
+			});
+			expect(meta.session_id).toBe('abc-123');
+			const all = await fs.readFile(calls, 'utf8');
+			expect(all).toContain('--resume abc-123');
+			expect(all).toContain('C29b: passage missing from draft');
+			expect(all).not.toContain('--session-id');
+		} finally {
+			if (previous === undefined) delete process.env.BLOG_PIPELINE_CLAUDE;
+			else process.env.BLOG_PIPELINE_CLAUDE = previous;
+		}
+	});
 	it('times out a real child process and handles a missing executable without hanging', async () => {
 		const root = await workspace();
 		const executable = path.join(root, 'fake-claude');
@@ -721,7 +804,13 @@ describe('offline pipeline execution and checkpoint safety', () => {
 				maxTurns: 5,
 				timeoutSeconds: 2
 			});
-			expect(meta).toEqual({ model: 'test-model', turns: 3, cost_usd: 0.5, wrapped_up: 'timeout' });
+			expect(meta).toEqual({
+				model: 'test-model',
+				turns: 3,
+				cost_usd: 0.5,
+				wrapped_up: 'timeout',
+				session_id: expect.any(String)
+			});
 			expect(await fs.readFile(path.join(root, 'stage.log'), 'utf8')).toContain(
 				'Time limit reached'
 			);

@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-11-23T03:33:36.786Z_
+_Generated: 2026-11-28T17:29:31.656Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -11,7 +11,7 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 ## Corpus Totals
 
 - **Published profiles:** 470
-- **Drafts in pipeline:** 106
+- **Drafts in pipeline:** 107
 
 > All stats below are computed against **published** profiles only.
 
@@ -299,15 +299,15 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Pipeline
 
-- **Unpublished drafts (2000+ characters):** 106
-- **Published in the last 30 days:** 15
-- **Published in the last 90 days:** 34
-- **Average new profiles per month (trailing 90d):** 11.3
+- **Unpublished drafts (2000+ characters):** 107
+- **Published in the last 30 days:** 8
+- **Published in the last 90 days:** 27
+- **Average new profiles per month (trailing 90d):** 9
 
 ## Freshness
 
-- **Updated in last 30 days:** 15
-- **Updated in last 90 days:** 46 (9.8%)
+- **Updated in last 30 days:** 7
+- **Updated in last 90 days:** 27 (5.7%)
 - **Missing `lastmod`:** 0
 
 ## Ready-to-Cite Claims
@@ -329,7 +329,7 @@ Snapshot wording for reference. In posts, write the numbers as live tokens (next
 - Among 27 profiles in the Style, Food & Home category on 9takes, Type 8 (Challenger) is over-represented at 18.5% — +8.31 percentage points above the corpus baseline.
 - Among 15 profiles in the Self-Help & Wellness category on 9takes, Type 8 (Challenger) is over-represented at 26.7% — +16.45 percentage points above the corpus baseline.
 - Among 80 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.45 percentage points above the corpus baseline.
-- 106 more profiles exist as unpublished drafts on 9takes, and ~11.3 new profiles were published per month over the last 90 days.
+- 107 more profiles exist as unpublished drafts on 9takes, and ~9 new profiles were published per month over the last 90 days.
 
 ## Live tokens
 
@@ -338,12 +338,12 @@ Posts never hand-type corpus numbers. Write `{{corpus.<path>}}` and the build sw
 | Token | Now renders |
 | ----- | ----------- |
 | `{{corpus.total}}` | 470 |
-| `{{corpus.drafts}}` | 106 |
-| `{{corpus.per-month}}` | 11.3 |
-| `{{corpus.published-30}}` | 15 |
-| `{{corpus.published-90}}` | 34 |
-| `{{corpus.updated-90}}` | 46 |
-| `{{corpus.updated-90-share}}` | 9.8% |
+| `{{corpus.drafts}}` | 107 |
+| `{{corpus.per-month}}` | 9 |
+| `{{corpus.published-30}}` | 8 |
+| `{{corpus.published-90}}` | 27 |
+| `{{corpus.updated-90}}` | 27 |
+| `{{corpus.updated-90-share}}` | 5.7% |
 | `{{corpus.as-of}}` | November 2026 |
 | `{{corpus.type.4.share}}` | 14.3% |
 | `{{corpus.type.4.count}}` | 67 |

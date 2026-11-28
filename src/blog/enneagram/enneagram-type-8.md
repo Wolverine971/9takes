@@ -177,7 +177,7 @@ With a <a href="/enneagram-corner/enneagram-type-9">Type 9 wing (8w9)</a>, force
 
 ### The three subtypes
 
-Your instinctual drive shapes which flavor of 8 you embody:
+Your [instinctual drive](/enneagram-corner/enneagram-instinctual-subtypes) shapes which flavor of 8 you embody:
 
 **Self-preservation 8**: The fortress-builder. Least expressive of the 8s. You don't announce what you need; you go get it. The internal motto is "I will handle it myself," and the self-containment can read almost like a Type 5.
 

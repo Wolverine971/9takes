@@ -330,7 +330,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'alex-cooper', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Podcasting\'s Unfiltered Queen', contentGrade: 9.2, types: ['creator', 'podcaster'], field: 'media' },
 		{ name: 'alex-lieberman', link: true, hasImage: true, lastmod: '2026-06-06', personaTitle: 'Media\'s Anxious Optimist', contentGrade: 9, types: ['entrepreneur', 'creator', 'business-creator', 'business-operator'], field: 'business' },
 		{ name: 'alysa-liu', link: true, hasImage: true, lastmod: '2026-06-28', personaTitle: 'The Champion Who Quit', contentGrade: 8.8, types: ['celebrity', 'athlete', 'celebrity-image'], field: 'sports' },
-		{ name: 'andrew-callaghan', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Gonzo\'s Restless Ghost', contentGrade: 8.2, types: ['journalist', 'creator', 'news-commentator'], field: 'media' },
+		{ name: 'andrew-callaghan', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'The Restless Witness', contentGrade: 8.2, types: ['journalist', 'creator', 'news-commentator'], field: 'media' },
 		{ name: 'andrew-schulz', link: true, hasImage: true, lastmod: '2026-06-29', personaTitle: 'Comedy\'s Freedom Addict', contentGrade: 8.7, types: ['comedian', 'stand-up'], field: 'comedy' },
 		{ name: 'anna-kendrick', link: true, hasImage: true, lastmod: '2026-05-26', personaTitle: 'Hollywood\'s Scrappy Reframer', contentGrade: 9, types: ['movieStar', 'screen-icon'], field: 'screen' },
 		{ name: 'anthony-bourdain', link: true, hasImage: true, lastmod: '2026-05-16', personaTitle: 'Travel TV\'s Beautiful Fugitive', contentGrade: 9, types: ['celebrity', 'author', 'celebrity-image'], field: 'style' },

@@ -318,7 +318,7 @@ This is YOUR superpower. Not the textbook version.
 
 Now the harder part. But the more important one.
 
-Just as you have predictable strengths, you have predictable stress responses. The Enneagram calls this your "arrow of disintegration" or "stress point."
+Just as you have predictable strengths, you have predictable stress responses. The Enneagram calls this your "arrow of disintegration" or "[stress point](/enneagram-corner/enneagram-types-in-stress)."
 
 But let's use better language: **these are your triggers.**
 

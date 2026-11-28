@@ -309,7 +309,7 @@ Communication is the cornerstone of resolving disagreements. Most fights aren't 
 
 Effective communication during conflict requires specific skills that can be learned and improved over time:
 
-1. **Active listening** - Focus completely on understanding your partner rather than preparing your response. Demonstrate you're listening through eye contact, nodding, and periodic summaries of what you've heard.
+1. **[Active listening](/how-to-guides/ultimate-guide-to-active-listening)** - Focus completely on understanding your partner rather than preparing your response. Demonstrate you're listening through eye contact, nodding, and periodic summaries of what you've heard.
 
 2. **Using "I" statements** - Frame concerns in terms of your feelings rather than your partner's actions. Example: "I feel unimportant when our conversations get interrupted" instead of "You always ignore me."
 

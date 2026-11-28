@@ -349,7 +349,7 @@ Data pulled October 7, 2026, from the 451 published profiles on 9takes. Dario Am
 - Type 4: [Emma Chamberlain](/personality-analysis/emma-chamberlain)
 - Type 5: [Lex Fridman](/personality-analysis/lex-fridman), [Tyler Cowen](/personality-analysis/tyler-cowen)
 - Type 7: [Kate Hudson](/personality-analysis/kate-hudson), [Kyle Forgeard](/personality-analysis/kyle-forgeard), Ryan Reynolds
-- Type 8: [Kara Swisher](/personality-analysis/kara-swisher), Scott Galloway
+- Type 8: [Kara Swisher](/personality-analysis/kara-swisher), [Scott Galloway](/personality-analysis/scott-galloway)
 - Type 9: Nate Bargatze
 
 ---
